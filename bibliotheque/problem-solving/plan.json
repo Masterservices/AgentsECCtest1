@@ -1,0 +1,581 @@
+{
+ "titre": "Décomposer pour régner",
+ "sous_titre": "Cadres logiques et analytiques pour transformer les défis complexes en sous-problèmes actionnables",
+ "bibliographie": [
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Deux systèmes de pensée (rapide/intuitif vs lent/analytique) et leurs biais cognitifs.",
+   "apport": "Chapitre sur les pièges cognitifs avant toute décomposition."
+  },
+  {
+   "auteur": "Barbara Minto",
+   "titre": "The Pyramid Principle",
+   "annee": "1987",
+   "idee": "Structurer une pensée et un argumentaire du général au particulier (pyramide MECE).",
+   "apport": "Cadre MECE et arborescence logique comme colonne vertébrale du livre."
+  },
+  {
+   "auteur": "Charles Conn et Robert McLean",
+   "titre": "Bulletproof Problem Solving",
+   "annee": "2019",
+   "idee": "Cycle en 7 étapes inspiré de McKinsey pour résoudre tout problème complexe.",
+   "apport": "Workflow complet de cadrage à l'exécution, adapté aux praticiens."
+  },
+  {
+   "auteur": "Ken Watanabe",
+   "titre": "Problem Solving 101",
+   "annee": "2009",
+   "idee": "Méthodes simples (arbre logique, hypothèses) enseignées aux écoliers japonais.",
+   "apport": "Pédagogie et exercices accessibles pour ancrer les bases."
+  },
+  {
+   "auteur": "Donella Meadows",
+   "titre": "Thinking in Systems",
+   "annee": "2008",
+   "idee": "Les systèmes ont des stocks, flux, boucles de rétroaction et points de levier.",
+   "apport": "Lecture systémique pour éviter les décompositions trop linéaires."
+  },
+  {
+   "auteur": "Peter Senge",
+   "titre": "The Fifth Discipline",
+   "annee": "1990",
+   "idee": "La pensée systémique comme discipline clé des organisations apprenantes.",
+   "apport": "Archétypes systémiques réutilisables comme cadres de diagnostic."
+  },
+  {
+   "auteur": "Eliyahu Goldratt",
+   "titre": "The Goal",
+   "annee": "1984",
+   "idee": "Théorie des contraintes : identifier et lever le goulot d'étranglement.",
+   "apport": "Priorisation par contrainte plutôt que par urgence."
+  },
+  {
+   "auteur": "Richard Rumelt",
+   "titre": "Good Strategy Bad Strategy",
+   "annee": "2011",
+   "idee": "Une bonne stratégie = diagnostic, politique directrice, actions cohérentes.",
+   "apport": "Noyau stratégique pour relier décomposition et action."
+  },
+  {
+   "auteur": "Ethan Rasiel",
+   "titre": "The McKinsey Way",
+   "annee": "1999",
+   "idee": "Pratiques de conseil : hypothèse-driven, 80/20, communication structurée.",
+   "apport": "Discipline de l'hypothèse et du cadrage rapide."
+  },
+  {
+   "auteur": "Philip Tetlock et Dan Gardner",
+   "titre": "Superforecasting",
+   "annee": "2015",
+   "idee": "Décomposer les prévisions en sous-questions et les pondérer (Fermi).",
+   "apport": "Techniques de quantification et estimation par décomposition."
+  },
+  {
+   "auteur": "Annie Duke",
+   "titre": "Thinking in Bets",
+   "annee": "2018",
+   "idee": "Décider sous incertitude en distinguant qualité de décision et résultat.",
+   "apport": "Gestion de l'incertitude dans les arbres de décision."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile",
+   "annee": "2012",
+   "idee": "Certains systèmes profitent du désordre ; éviter la fragilité par sur-optimisation.",
+   "apport": "Critère de robustesse pour valider une décomposition."
+  },
+  {
+   "auteur": "Shane Parrish",
+   "titre": "The Great Mental Models (vol. 1-3)",
+   "annee": "2019-2023",
+   "idee": "Boîte à outils de modèles mentaux (inversion, cercle de compétence, second ordre).",
+   "apport": "Catalogue de cadres transversaux mobilisables à chaque étape."
+  },
+  {
+   "auteur": "Nat Greene",
+   "titre": "Stop Guessing",
+   "annee": "2017",
+   "idee": "9 comportements pour résoudre les problèmes difficiles sans deviner.",
+   "apport": "Rigueur factuelle et mesure avant décomposition."
+  },
+  {
+   "auteur": "Charlie Munger (compilé par Peter Kaufman)",
+   "titre": "Poor Charlie's Almanack",
+   "annee": "2005",
+   "idee": "Latticework de modèles mentaux multi-disciplinaires pour juger et décider.",
+   "apport": "Pluridisciplinarité comme antidote au cadre unique."
+  },
+  {
+   "auteur": "Russell Ackoff",
+   "titre": "Redesigning the Future",
+   "annee": "1974",
+   "idee": "Distinguer problème, mess et puzzle ; penser en systèmes finalisés.",
+   "apport": "Cadrage initial : qu'est-ce qu'on essaie vraiment de résoudre ?"
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Cadrer avant de découper : l'art de poser le vrai problème",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Pourquoi les problèmes complexes résistent à l'intuition",
+     "objectif": "Comprendre les limites du Système 1 et la nécessité d'un cadre analytique explicite.",
+     "sections": [
+      "Les 4 visages de la complexité : compliqué, complexe, chaotique, ambigu",
+      "Système 1 vs Système 2 : quand l'intuition trahit",
+      "Biais de cadrage, d'ancrage et de disponibilité",
+      "L'illusion de la solution unique",
+      "Pourquoi découper n'est pas simplifier",
+      "Le contrat du livre : rigueur, itération, humilité"
+     ],
+     "exercices": [
+      "Journal de 5 décisions récentes classées par type de complexité",
+      "Test des 12 biais cognitifs appliqué à un problème personnel",
+      "Réécriture d'un problème en 3 cadrages différents"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Définir le problème : du 'mess' au problème bien posé",
+     "objectif": "Passer d'une situation floue à un énoncé actionnable et testable.",
+     "sections": [
+      "La distinction d'Ackoff : puzzle, problème, mess",
+      "Technique des 5 Pourquoi et ses limites",
+      "L'énoncé HMW (How Might We)",
+      "Les 6 questions du cadrage (qui, quoi, où, quand, pourquoi, comment)",
+      "Boundary setting : ce qui est dans le cadre et ce qui ne l'est pas",
+      "La check-list du problème bien posé"
+     ],
+     "exercices": [
+      "Transformer 3 plaintes floues en énoncés HMW",
+      "Cartographier les frontières d'un problème professionnel actuel",
+      "Rédiger une 'problem statement' en une phrase de 25 mots max"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Cartographier les parties prenantes et les enjeux",
+     "objectif": "Identifier qui est impacté, qui décide, qui détient l'information.",
+     "sections": [
+      "Matrice pouvoir / intérêt",
+      "Cartographie des flux d'information",
+      "Identifier les veto players",
+      "Les agendas cachés et les incitations",
+      "Entretiens de cadrage : 7 questions clés",
+      "Synthèse en une page : la stakeholder map"
+     ],
+     "exercices": [
+      "Dessiner la matrice pouvoir/intérêt d'un projet réel",
+      "Lister les 5 veto players potentiels et leur motivation",
+      "Mener un entretien de cadrage de 20 minutes et en extraire les insights"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Formuler des hypothèses avant de creuser",
+     "objectif": "Adopter une démarche hypothesis-driven pour éviter la paralysie analytique.",
+     "sections": [
+      "Pourquoi une hypothèse bat une question ouverte",
+      "Anatomie d'une bonne hypothèse (falsifiable, précise, actionnable)",
+      "L'arbre d'hypothèses (issue tree)",
+      "La règle du 'so what?'",
+      "Hiérarchiser les hypothèses par impact et testabilité",
+      "Mettre à jour ses hypothèses : le bayésianisme quotidien"
+     ],
+     "exercices": [
+      "Construire un issue tree sur un problème business en 30 minutes",
+      "Écrire 5 hypothèses falsifiables pour un défi personnel",
+      "Tenir un journal bayésien sur 2 semaines (probabilités avant/après preuve)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Les grands cadres de décomposition",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "MECE : la discipline mère de toute décomposition",
+     "objectif": "Maîtriser le principe Mutuellement Exclusif, Collectivement Exhaustif.",
+     "sections": [
+      "Définition rigoureuse et origines McKinsey",
+      "Les 4 tests MECE (pas de chevauchement, pas de trou)",
+      "Structures MECE classiques (temps, processus, segments, 4P, 3C)",
+      "Erreurs fréquentes et corrections",
+      "MECE vs design thinking : complémentarité",
+      "Quand abandonner le MECE"
+     ],
+     "exercices": [
+      "MECE-iser 5 listes du quotidien (courses, tâches, clients)",
+      "Diagnostiquer 3 arbres non-MECE et les corriger",
+      "Construire un arbre MECE sur 'Pourquoi mon chiffre d'affaires baisse ?'"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Arbres de problèmes et arbres de solutions",
+     "objectif": "Construire des arborescences logiques qui relient causes racines et leviers.",
+     "sections": [
+      "Problem tree vs solution tree",
+      "Logique causale vs logique de décomposition",
+      "Profondeur optimale : la règle des 3 à 5 niveaux",
+      "Connecter l'arbre aux données disponibles",
+      "Outils numériques (Miro, XMind, Whimsical)",
+      "De l'arbre au plan d'action"
+     ],
+     "exercices": [
+      "Dessiner un problem tree sur 4 niveaux pour un enjeu stratégique",
+      "Convertir un problem tree en solution tree symétrique",
+      "Présenter son arbre à un pair et recueillir les trous identifiés"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Premiers principes : décomposer jusqu'aux vérités fondamentales",
+     "objectif": "Utiliser le raisonnement de Musk, Aristote et les physiciens pour sortir des analogies.",
+     "sections": [
+      "Définition et histoire du raisonnement par premiers principes",
+      "Différence avec le raisonnement par analogie",
+      "Méthode en 4 étapes (déconstruire, identifier les axiomes, recombiner, tester)",
+      "Exemples célèbres (Falcon 1, batterie Li-ion, cuisine moléculaire)",
+      "Pièges : le coût cognitif et le risque de réinventer la roue",
+      "Quand utiliser premiers principes vs analogie"
+     ],
+     "exercices": [
+      "Appliquer les premiers principes à un coût jugé 'incompressible'",
+      "Lister 10 analogies que vous utilisez et en challenger 3",
+      "Réinventer un objet du quotidien à partir de ses fonctions premières"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Le cadre Fermi : estimer l'inestimable par décomposition",
+     "objectif": "Quantifier l'inconnu en le découpant en sous-questions estimables.",
+     "sections": [
+      "L'histoire du piano de Chicago",
+      "Anatomie d'une estimation Fermi robuste",
+      "Ordres de grandeur et puissances de 10",
+      "Géométrie des erreurs : pourquoi les erreurs se compensent",
+      "Intervalles de confiance et distributions",
+      "Du Fermi au business case"
+     ],
+     "exercices": [
+      "Estimer 5 grandeurs absurdes (nombre de stations-service en France, etc.)",
+      "Construire un modèle Fermi dans un tableur avec intervalles",
+      "Comparer estimation Fermi et donnée réelle sur 3 cas"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Le cadre OODA, Cynefin et les matrices de décision",
+     "objectif": "Choisir le bon cadre selon la nature du problème (simple, compliqué, complexe, chaotique).",
+     "sections": [
+      "Le cadre Cynefin de Dave Snowden",
+      "OODA loop (Boyd) pour les environnements rapides",
+      "Matrice urgent/important revisitée",
+      "Matrice impact/effort et ICE (Impact, Confidence, Ease)",
+      "Matrice d'Eisenhower vs matrice de décision stratégique",
+      "Combiner les matrices en un workflow"
+     ],
+     "exercices": [
+      "Classer 20 problèmes actuels dans les 4 domaines Cynefin",
+      "Appliquer ICE à 10 initiatives et en tirer un backlog priorisé",
+      "Simuler un cycle OODA sur une décision en temps réel"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Analyser, prioriser, trancher",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "Pareto, longue traîne et lois de puissance",
+     "objectif": "Identifier les 20 % qui produisent 80 % de l'effet, et savoir quand cette règle échoue.",
+     "sections": [
+      "Le principe 80/20 : origine et usages",
+      "Distributions de Pareto vs distributions gaussiennes",
+      "Longue traîne et niches cumulées (Anderson)",
+      "Lois de puissance et effets super-linéaires",
+      "Appliquer Pareto à son temps, ses clients, ses problèmes",
+      "Quand 80/20 devient un piège (fragilité, queue ignorée)"
+     ],
+     "exercices": [
+      "Analyse Pareto de ses sources de revenus et de stress",
+      "Identifier la longue traîne dans un catalogue produit",
+      "Simuler l'effet d'une coupe 80/20 sur 3 activités"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Théorie des contraintes : trouver et lever le goulot",
+     "objectif": "Appliquer la démarche TOC de Goldratt pour débloquer les systèmes.",
+     "sections": [
+      "Les 5 étapes focalisantes de la TOC",
+      "Identifier la contrainte : débit, stock, temps de cycle",
+      "Exploiter, subordonner, élever",
+      "Arbre de réalité actuelle / future",
+      "Éviter l'inertie : la contrainte se déplace",
+      "TOC appliquée aux services et aux carrières"
+     ],
+     "exercices": [
+      "Cartographier le flux d'un processus personnel et identifier le goulot",
+      "Construire un arbre de réalité actuelle sur un conflit récurrent",
+      "Simuler l'effet de lever 3 contraintes successives"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Arbres de décision et valeur attendue",
+     "objectif": "Quantifier les choix sous incertitude avec rigueur probabiliste.",
+     "sections": [
+      "Anatomie d'un arbre de décision",
+      "Probabilités, utilité, espérance mathématique",
+      "Aversion au risque et fonction d'utilité",
+      "Options réelles et valeur de l'information",
+      "Arbres de décision sous Excel / Python",
+      "Limites : événements à probabilité inconnue (Knight vs risk)"
+     ],
+     "exercices": [
+      "Construire un arbre de décision pour un choix de carrière",
+      "Calculer la valeur attendue de l'information parfaite sur 2 cas",
+      "Comparer 3 options avec fonction d'utilité logarithmique"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Le noyau stratégique de Rumelt",
+     "objectif": "Structurer toute stratégie en diagnostic, politique directrice, actions cohérentes.",
+     "sections": [
+      "Le kernel : diagnostic, guiding policy, coherent actions",
+      "Détecter les bad strategies (flou, échec à affronter le problème, mauvais objectifs, dog-leg)",
+      "Le proximate objective : un objectif à portée",
+      "Avantage asymétrique et leviers",
+      "Du kernel à la roadmap",
+      "Études de cas : Apple 1997, Desert Storm, Nvidia"
+     ],
+     "exercices": [
+      "Écrire un kernel en une page pour un enjeu personnel",
+      "Auditer 3 stratégies d'entreprise avec la grille bad strategy",
+      "Définir 3 proximate objectives pour les 90 prochains jours"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Inversion, pré-mortem et pensée par l'absurde",
+     "objectif": "Utiliser les cadres négatifs pour révéler ce que les approches positives masquent.",
+     "sections": [
+      "L'inversion de Jacobi et Munger",
+      "Le pré-mortem de Gary Klein",
+      "Red teaming et avocat du diable structuré",
+      "Via negativa (Taleb) : soustraire plutôt qu'ajouter",
+      "Le 'kill criteria' avant de commencer",
+      "Combiner inversion et arbres de problèmes"
+     ],
+     "exercices": [
+      "Mener un pré-mortem de 60 minutes sur un projet en cours",
+      "Lister 20 façons de faire échouer un objectif, puis les neutraliser",
+      "Appliquer via negativa à son emploi du temps (10 suppressions)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Penser en systèmes : quand la décomposition ne suffit plus",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "Stocks, flux et boucles de rétroaction",
+     "objectif": "Lire tout problème comme un système dynamique (Meadows).",
+     "sections": [
+      "Stocks et flux : la baignoire comme métaphore universelle",
+      "Boucles de renforcement (R) et d'équilibrage (B)",
+      "Retards et oscillations",
+      "Diagrammes de boucles causales (CLD)",
+      "Simuler avec des outils simples (Loopy, Insight Maker)",
+      "Les 12 leviers d'intervention de Meadows"
+     ],
+     "exercices": [
+      "Dessiner le CLD d'une habitude personnelle",
+      "Identifier 5 stocks critiques dans son organisation",
+      "Simuler un système avec retard sur tableur"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Les 10 archétypes systémiques de Senge",
+     "objectif": "Reconnaître les structures récurrentes qui sabotent les solutions naïves.",
+     "sections": [
+      "Limits to growth",
+      "Shifting the burden",
+      "Eroding goals",
+      "Escalation",
+      "Success to the successful",
+      "Tragedy of the commons",
+      "Fixes that fail",
+      "Growth and underinvestment",
+      "Accidental adversaries",
+      "Attractiveness principle"
+     ],
+     "exercices": [
+      "Identifier 3 archétypes dans l'actualité de la semaine",
+      "Cartographier un 'fixes that fail' dans sa vie professionnelle",
+      "Proposer une intervention structurelle pour chaque archétype identifié"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Effets de second ordre et conséquences imprévues",
+     "objectif": "Anticiper les rebonds, les externalités et les effets cobra.",
+     "sections": [
+      "Premier vs second vs troisième ordre (Howard Marks)",
+      "L'effet cobra et les incitations perverses",
+      "Goodhart's Law : quand la mesure devient la cible",
+      "Externalités et tragédie des communs",
+      "Cartographier les conséquences en arbre",
+      "Se protéger : marges de sécurité et réversibilité"
+     ],
+     "exercices": [
+      "Lister les effets de second ordre de 3 décisions récentes",
+      "Auditer un KPI d'entreprise à l'aune de Goodhart",
+      "Concevoir une décision réversible vs une décision irréversible"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Antifragilité et robustesse des décompositions",
+     "objectif": "Construire des plans qui survivent au désordre, voire en profitent.",
+     "sections": [
+      "Fragile / robuste / antifragile : le triangle de Taleb",
+      "Via positiva vs via negativa",
+      "Barbell strategy et optionnalité",
+      "Stress tests et scénarios extrêmes",
+      "Redondance vs efficacité",
+      "Concevoir des sous-problèmes optionnels"
+     ],
+     "exercices": [
+      "Classer 10 éléments de sa vie sur l'axe fragile-antifragile",
+      "Construire une barbell strategy pour ses revenus",
+      "Stress-tester un plan sur 3 scénarios extrêmes"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Boucles de feedback courtes : du plan à l'expérimentation",
+     "objectif": "Transformer les sous-problèmes en expérimentations rapides (Lean, PDCA).",
+     "sections": [
+      "PDCA / PDSA de Deming",
+      "Lean Startup : build-measure-learn",
+      "MVP et hypothèses à risque maximal",
+      "Metrics : vanity vs actionable",
+      "Pivoter ou persévérer : les signaux",
+      "Rythme des revues et rituels d'apprentissage"
+     ],
+     "exercices": [
+      "Concevoir 3 MVP pour tester 3 hypothèses en moins de 7 jours",
+      "Définir un tableau de bord actionable de 5 métriques",
+      "Mener une revue d'apprentissage hebdomadaire sur 4 semaines"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Exécuter, communiquer, institutionnaliser",
+   "chapitres": [
+    {
+     "numero": 20,
+     "titre": "De l'arbre au backlog : transformer les sous-problèmes en actions",
+     "objectif": "Passer de la structure analytique à un plan d'exécution opérationnel.",
+     "sections": [
+      "Convertir les feuilles de l'arbre en tâches SMART",
+      "Dépendances et chemin critique (PERT / CPM)",
+      "WBS (Work Breakdown Structure) et OBS (Organisation BS)",
+      "Buffer et gestion du risque de planning",
+      "Outils : Gantt, Kanban, OKR",
+      "Le piège de la sur-planification"
+     ],
+     "exercices": [
+      "Construire un WBS sur 3 niveaux pour un projet de 6 mois",
+      "Identifier le chemin critique et les buffers nécessaires",
+      "Traduire un WBS en backlog Kanban avec WIP limits"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Communiquer la décomposition : la pyramide de Minto",
+     "objectif": "Présenter une analyse complexe de façon claire à des décideurs pressés.",
+     "sections": [
+      "La pyramide : idée directrice en premier",
+      "SCQA (Situation, Complication, Question, Answer)",
+      "Structures déductives vs inductives",
+      "Règles de l'écriture executive (une idée par paragraphe)",
+      "Slides et mémos : le format Amazon 6 pages",
+      "Adapter la profondeur à l'audience"
+     ],
+     "exercices": [
+      "Réécrire un email flou en structure SCQA",
+      "Construire une pyramide Minto sur une recommandation stratégique",
+      "Rédiger un mémo d'une page pour un décideur"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Décider en groupe : facilitation et intelligence collective",
+     "objectif": "Décomposer et trancher à plusieurs sans sombrer dans la réunionite.",
+     "sections": [
+      "Les 6 chapeaux de Bono comme cadre de réunion",
+      "Delphi et prévisions structurées",
+      "Silent brainstorming et brainwriting",
+      "Dot voting et priorisation pondérée",
+      "Décision : consentement vs consensus vs autorité",
+      "Rituels : daily, weekly, quarterly"
+     ],
+     "exercices": [
+      "Faciliter une session 6 chapeaux de 90 minutes",
+      "Mener un tour Delphi sur 3 experts pour une estimation",
+      "Installer un rituel hebdomadaire de 45 minutes dans son équipe"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Mesurer, apprendre, itérer : les boucles de progrès",
+     "objectif": "Mettre en place des systèmes d'apprentissage continu à partir des décompositions passées.",
+     "sections": [
+      "AAR (After Action Review) de l'armée américaine",
+      "Journaux de décision et tracking bayésien",
+      "Indicateurs avancés vs indicateurs retardés",
+      "Revues post-mortem et pre-mortem itératifs",
+      "Capitalisation : templates, playbooks, bibliothèques",
+      "Apprentissage organisationnel : la 5e discipline en pratique"
+     ],
+     "exercices": [
+      "Mener un AAR sur un projet terminé la semaine dernière",
+      "Tenir un journal de décision pendant 30 jours",
+      "Créer un playbook personnel de 10 cadres réutilisables"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Le latticework : construire sa propre boîte à outils",
+     "objectif": "Assembler un système personnel de cadres logiques pluridisciplinaires.",
+     "sections": [
+      "La philosophie du latticework de Munger",
+      "Les 25 cadres à maîtriser en priorité",
+      "Quel cadre pour quel problème : matrice de sélection",
+      "Éviter le marteau d'or (law of the instrument)",
+      "Pratique délibérée et maîtrise progressive",
+      "Le manifeste du décomposeur : 10 principes pour la vie"
+     ],
+     "exercices": [
+      "Construire sa carte mentale personnelle de 25 cadres",
+      "Résoudre un même problème avec 3 cadres différents",
+      "Écrire son manifeste personnel en 10 principes"
+     ]
+    }
+   ]
+  }
+ ]
+}
