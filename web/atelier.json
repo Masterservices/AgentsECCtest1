@@ -1,8 +1,8 @@
 {
- "exporte_le": "2026-10-10",
+ "exporte_le": "2026-10-11",
  "projects": [
   {
-   "brief": "Collection de livres signés Oussama Ghorbel : Claude choisit les sujets, Qwen 3.8 Max Thinking (Dialagram) fait la recherche, le plan, la rédaction, la rectification et la mise en page ; Claude relit et note.\nLot 1 : 4 livres et le copyright de « L'Architecture de la Richesse ». Lot 2 : 4 livres et la correction des expériences inventées du lot 1.\n9 livres, 2 935 pages au total. PDF téléchargeables : https://claude.ai/artifact/QcemggvA5hWLGW8SwJ3yNf\nFichiers : dossier bibliotheque/ sur la branche claude/millionaire-book-500-pages-kb2v7u.",
+   "brief": "Collection de livres signés Oussama Ghorbel : Claude choisit les sujets, les modèles Dialagram font recherche, plan, rédaction, rectification et mise en page ; Claude contrôle et note.\nTerminée : 101 livres, 32 953 pages (100 prévus + la demande n° 12).\nSites : https://atelier-dialagram.netlify.app/ (atelier, demandes, bibliothèque, tableau de bord) · artifact Bibliothèque : https://claude.ai/artifact/QcemggvA5hWLGW8SwJ3yNf\nFichiers : dossier bibliotheque/ du dépôt AgentsECCtest.",
    "createdAt": 1791635000000,
    "name": "Bibliothèque Oussama Ghorbel",
    "id": "bibliotheque-og"
@@ -27,6 +27,18 @@
   }
  ],
  "tasks": [
+  {
+   "attempts": 0,
+   "createdAt": 1791723915457,
+   "instructions": "Test",
+   "model": "auto",
+   "order": 1791723915457,
+   "projectId": "bibliotheque-og",
+   "status": "a_faire",
+   "title": "Test",
+   "updatedAt": 1791723915457,
+   "id": "31yd9pmrjw20ue1q8dlv"
+  },
   {
    "attempts": 1,
    "claude": {
@@ -235,6 +247,30 @@
    "title": "L'Équation Entrepreneuriale (entrepreneuriat)",
    "updatedAt": 1791635000002,
    "id": "og-1-entreprise"
+  },
+  {
+   "attempts": 1,
+   "claude": {
+    "estimated": true,
+    "note": "16/20 : validé. Production régulière et propre, contrôlée automatiquement (complétude, fuites, rectification). Réserves de collection : pas de relecture humaine intégrale, bibliographies tirées de la mémoire des modèles, quelques sujets (juridique, santé, finance) à faire vérifier avant toute commercialisation.",
+    "tokens": 120000,
+    "verdict": "ok"
+   },
+   "createdAt": 1791740000000,
+   "dialagram": {
+    "estimated": false,
+    "model": "qwen-3.7-max-thinking",
+    "total_tokens": 58227293
+   },
+   "instructions": "Produire automatiquement les 91 livres restants (sujets proposés par Qwen, relus par Claude) par lots de 5 en parallèle : plan, rédaction, rectification, PDF avec copyright, publication au fil de l'eau, suivi en direct.",
+   "model": "qwen-3.7-max-thinking",
+   "order": 1791740000000,
+   "projectId": "bibliotheque-og",
+   "result": "92 livres (91 sujets + demande n° 12), 30 018 pages, environ 9 millions de mots, rectification complète et aucune fuite sur chacun.\nModèles : 60 livres Qwen 3.7 Max Thinking, 25 Qwen 3.8 Max Thinking, 7 Xiaomi Mimo 2.6.\nIncidents gérés : lot 4 publié incomplet puis réparé (garde-fou ajouté), panne de Qwen 3.8 (bascule sur 3.7), plans JSON invalides (relance), deuxième piste Xiaomi pour accélérer la fin.",
+   "status": "valide",
+   "title": "Usine : 92 livres en lots de 5 (objectif 100 atteint)",
+   "updatedAt": 1791740000000,
+   "id": "og-10-usine"
   },
   {
    "attempts": 1,
