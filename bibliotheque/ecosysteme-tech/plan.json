@@ -1,0 +1,570 @@
+{
+ "titre": "Silicon Africa",
+ "sous_titre": "Cartographie des pôles d'innovation et des success stories du numérique sur le continent",
+ "bibliographie": [
+  {
+   "auteur": "Dayo Olopade",
+   "titre": "The Bright Continent: Breaking Rules and Making Change in Modern Africa",
+   "annee": "2014",
+   "idee": "L'Afrique invente ses propres solutions (kanju) en contournant les défaillances institutionnelles par l'ingéniosité informelle.",
+   "apport": "Cadre conceptuel sur l'innovation de nécessité et la résilience entrepreneuriale africaine."
+  },
+  {
+   "auteur": "Acha Leke, Mutsa Chironga, Georges Desvaux",
+   "titre": "Africa's Business Revolution",
+   "annee": "2019",
+   "idee": "Les auteurs McKinsey identifient les secteurs à fort potentiel et les stratégies gagnantes pour bâtir des entreprises à l'échelle du continent.",
+   "apport": "Méthodologie d'analyse sectorielle et chiffres de marché pour cartographier les opportunités tech."
+  },
+  {
+   "auteur": "Calestous Juma",
+   "titre": "The New Harvest: Agricultural Innovation in Africa",
+   "annee": "2015",
+   "idee": "L'innovation technologique, notamment numérique, peut transformer l'agriculture africaine si elle est adossée à des politiques publiques volontaristes.",
+   "apport": "Lien entre infrastructure numérique, politique publique et adoption sectorielle."
+  },
+  {
+   "auteur": "C.K. Prahalad",
+   "titre": "The Fortune at the Bottom of the Pyramid",
+   "annee": "2004",
+   "idee": "Les populations à faible revenu constituent un marché immense pour des innovations frugales et adaptées.",
+   "apport": "Grille de lecture des modèles économiques low-cost et inclusifs des startups africaines."
+  },
+  {
+   "auteur": "Vijay Mahajan",
+   "titre": "Africa Rising",
+   "annee": "2009",
+   "idee": "L'émergence d'une classe moyenne africaine de 300 millions de consommateurs redessine les marchés du continent.",
+   "apport": "Contexte démographique et consumériste favorable à l'essor du numérique."
+  },
+  {
+   "auteur": "Erik Hersman (sous direction éditoriale)",
+   "titre": "African Tech Startups (collectif iHub / AfriLabs)",
+   "annee": "2016 (incertain)",
+   "idee": "Les hubs technologiques africains fonctionnent comme des écosystèmes communautaires plus que comme des incubateurs classiques.",
+   "apport": "Typologie des hubs et analyse du rôle de catalyseur communautaire."
+  },
+  {
+   "auteur": "Bitange Ndemo & Tim Weiss (dir.)",
+   "titre": "Digital Kenya: An Entrepreneurial Revolution in the Making",
+   "annee": "2017",
+   "idee": "Le Kenya a construit un écosystème numérique cohérent autour de M-Pesa, iHub et de politiques publiques favorables.",
+   "apport": "Étude de cas modèle pour la partie sur la Silicon Savannah."
+  },
+  {
+   "auteur": "Wolfgang Knopfi & Jonathan Donner",
+   "titre": "mPayment and Mobile Money (compilation académique)",
+   "annee": "2011 (incertain)",
+   "idee": "Le mobile money illustre un saut technologique (leapfrog) africain sur les infrastructures bancaires traditionnelles.",
+   "apport": "Analyse approfondie du phénomène M-Pesa et de sa réplication."
+  },
+  {
+   "auteur": "GSMA / rapports annuels Mobile Money",
+   "titre": "State of the Industry Report on Mobile Money",
+   "annee": "2023",
+   "idee": "L'Afrique subsaharienne concentre plus de la moitié des transactions mondiales de mobile money.",
+   "apport": "Données quantitatives de référence pour la cartographie fintech."
+  },
+  {
+   "auteur": "Partech Africa (rapports annuels VC)",
+   "titre": "Africa Tech Venture Capital Reports",
+   "annee": "2020-2025",
+   "idee": "Les levées de fonds tech africaines se concentrent sur quatre pays (Big Four) et trois secteurs (fintech, logistique, e-commerce).",
+   "apport": "Cartographie financière des flux de capital-risque sur le continent."
+  },
+  {
+   "auteur": "Disrupt Africa (compilations)",
+   "titre": "African Tech Ecosystems annual reviews",
+   "annee": "2018-2025",
+   "idee": "Les écosystèmes tech africains se fragmentent en pôles régionaux avec des spécialisations différenciées.",
+   "apport": "Veille sectorielle et suivi des startups à succès."
+  },
+  {
+   "auteur": "Omidyar Network / BCG",
+   "titre": "The Emerging African Internet Ecosystem",
+   "annee": "2019 (incertain)",
+   "idee": "L'économie numérique africaine pourrait peser 5 à 6 % du PIB continental d'ici 2025.",
+   "apport": "Projections macroéconomiques et cadre d'évaluation de l'impact numérique."
+  },
+  {
+   "auteur": "Benedict Evans",
+   "titre": "Mobile is Eating the World",
+   "annee": "2016",
+   "idee": "Le mobile-first n'est pas une option mais la condition structurelle du numérique dans les marchés émergents.",
+   "apport": "Lecture stratégique des choix technologiques des startups africaines."
+  },
+  {
+   "auteur": "Nicolas Colin & Henri Verdier",
+   "titre": "L'Âge de la multitude",
+   "annee": "2012",
+   "idee": "Les plateformes numériques redistribuent la valeur en mobilisant des communautés d'utilisateurs-acteurs.",
+   "apport": "Grille théorique pour analyser les plateformes africaines (Jumia, Gozem, etc.)."
+  },
+  {
+   "auteur": "Jean-Michel Huet",
+   "titre": "Business en Afrique - 250 clés pour comprendre et réussir",
+   "annee": "2018",
+   "idee": "Les clés de succès en Afrique combinent connaissance du terrain, partenariats locaux et patience stratégique.",
+   "apport": "Facteurs clés de succès et pièges à éviter pour les entrepreneurs du numérique."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 — Fondations : comprendre l'écosystème numérique africain",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le grand saut numérique : leapfrog et spécificités africaines",
+     "objectif": "Poser les bases historiques et structurelles qui expliquent l'originalité du numérique africain.",
+     "sections": [
+      "1.1 Définition du leapfrog technologique et exemples historiques",
+      "1.2 Du fixe au mobile : la trajectoire télécom africaine",
+      "1.3 Infrastructures : câbles sous-marins, data centers et énergie",
+      "1.4 Démographie jeune, urbanisation et usages mobiles",
+      "1.5 Langue, alphabétisation et interfaces adaptées",
+      "1.6 Limites du narratif du leapfrog : ce qui n'a pas sauté"
+     ],
+     "exercices": [
+      "Cartographier les câbles sous-marins desservant votre pays cible",
+      "Comparer les taux de pénétration mobile vs banque traditionnelle sur 5 pays",
+      "Rédiger une fiche 'mythes et réalités' du numérique africain"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Géopolitique du numérique : acteurs globaux et souverainetés locales",
+     "objectif": "Comprendre les influences concurrentes (États-Unis, Chine, Europe, Inde) sur les infrastructures et usages.",
+     "sections": [
+      "2.1 Les GAFAM en Afrique : présence, produits, controverses",
+      "2.2 La stratégie numérique chinoise : Huawei, Transsion, TikTok",
+      "2.3 L'Europe et les accords de coopération numérique",
+      "2.4 L'Inde et les biens publics numériques (UPI, Aadhaar) exportés",
+      "2.5 Souveraineté des données et lois locales",
+      "2.6 Cartographie des dépendances technologiques"
+     ],
+     "exercices": [
+      "Construire une matrice d'influence par pays africain et par puissance",
+      "Analyser les parts de marché des smartphones par marque sur 3 marchés",
+      "Simuler un débat 'souveraineté vs ouverture' pour un décideur public"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Connectivité, données et usages : l'Afrique mobile-first",
+     "objectif": "Décrire le profil d'usage numérique moyen et ses conséquences sur les modèles d'affaires.",
+     "sections": [
+      "3.1 Pénétration internet et fracture numérique rurale/urbaine",
+      "3.2 Le smartphone comme ordinateur principal",
+      "3.3 Données mobiles : prix, consommation, zéro-rating",
+      "3.4 Réseaux sociaux dominants : WhatsApp, Facebook, TikTok",
+      "3.5 Économie de l'attention et créateurs de contenu",
+      "3.6 Conséquences UX/UI pour les produits numériques"
+     ],
+     "exercices": [
+      "Profiler 3 personas-types d'utilisateurs mobiles africains",
+      "Auditer une application existante sous contrainte data limitée",
+      "Concevoir un parcours utilisateur en mode offline-first"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Cadres réglementaires et politiques numériques nationales",
+     "objectif": "Cartographier les environnements juridiques qui structurent l'innovation.",
+     "sections": [
+      "4.1 Stratégies nationales numériques : Rwanda, Sénégal, Kenya, Nigeria",
+      "4.2 Régulation télécom et autorité de régulation",
+      "4.3 Protection des données personnelles (lois type RGPD)",
+      "4.4 Fintech : licences, sandboxes et supervision",
+      "4.5 Fiscalité du numérique et controverses",
+      "4.6 Censure, coupures internet et libertés numériques"
+     ],
+     "exercices": [
+      "Construire un tableau comparatif de 6 cadres réglementaires fintech",
+      "Rédiger une note de plaidoyer pour une sandbox réglementaire",
+      "Simuler l'entrée sur un marché avec checklist de conformité"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 — Cartographie des pôles d'innovation",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Les Big Four : Nigeria, Kenya, Afrique du Sud, Égypte",
+     "objectif": "Analyser les quatre écosystèmes dominants qui captent l'essentiel des investissements.",
+     "sections": [
+      "5.1 Lagos-Yaba : la Silicon Lagoon nigériane",
+      "5.2 Nairobi : la Silicon Savannah kenyane",
+      "5.3 Le Cap et Johannesburg : maturité sud-africaine",
+      "5.4 Le Caire : hub arabophone et porte du Moyen-Orient",
+      "5.5 Comparatif des forces, faiblesses et spécialisations",
+      "5.6 Dynamiques de concentration et risques d'inégalité"
+     ],
+     "exercices": [
+      "Construire une fiche écosystème standardisée pour chaque Big Four",
+      "Calculer la concentration des levées de fonds sur 3 ans",
+      "Identifier 10 startups représentatives par pôle"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Pôles émergents francophones : Dakar, Abidjan, Casablanca, Tunis",
+     "objectif": "Mettre en lumière la dynamique spécifique des hubs francophones et maghrébins.",
+     "sections": [
+      "6.1 Dakar : Teranga numérique et rôle de la diaspora",
+      "6.2 Abidjan : plaque tournante ouest-africaine",
+      "6.3 Casablanca et Rabat : outsourcing et deeptech",
+      "6.4 Tunis : ingénierie, IA et startups à vocation export",
+      "6.5 L'apport de la Francophonie et des réseaux régionaux",
+      "6.6 Défis communs : financement, visas, scalabilité"
+     ],
+     "exercices": [
+      "Tracer le réseau des incubateurs francophones et leurs liens",
+      "Comparer 3 programmes d'accélération régionaux",
+      "Rédiger un pitch pour un investisseur intéressé par la zone UEMOA"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "L'Afrique de l'Est au-delà du Kenya : Rwanda, Éthiopie, Ouganda, Tanzanie",
+     "objectif": "Explorer les écosystèmes voisins en forte croissance.",
+     "sections": [
+      "7.1 Kigali : laboratoire smart city et drone logistics",
+      "7.2 Addis-Abeba : libéralisation télécom et potentiel démographique",
+      "7.3 Kampala et Dar es Salaam : hubs pragmatiques",
+      "7.4 Interconnexion régionale : EAC et paiements transfrontaliers",
+      "7.5 Spécialisations sectorielles complémentaires",
+      "7.6 Risques politiques et résilience des écosystèmes"
+     ],
+     "exercices": [
+      "Cartographier les corridors économiques numériques est-africains",
+      "Analyser l'impact de la libéralisation télécom éthiopienne",
+      "Élaborer une stratégie régionale d'expansion depuis Nairobi"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Afrique australe et centrale : potentiels sous-estimés",
+     "objectif": "Identifier les dynamiques moins médiatisées mais porteuses.",
+     "sections": [
+      "8.1 Ghana : Accra, siège du secrétariat ZLECAf",
+      "8.2 Maurice : hub financier et passerelle vers l'Asie",
+      "8.3 Botswana, Namibie : stabilité et niches deeptech",
+      "8.4 RDC et Cameroun : marchés difficiles mais massifs",
+      "8.5 Angola et Mozambique : lusophonie et ressources",
+      "8.6 Rôle des diasporas et des capitaux régionaux"
+     ],
+     "exercices": [
+      "Évaluer le potentiel d'un marché 'non conventionnel' via 10 indicateurs",
+      "Construire un business case pour une entrée au Ghana",
+      "Analyser les risques spécifiques à la RDC"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Anatomie d'un hub : incubateurs, accélérateurs, universités, fablabs",
+     "objectif": "Comprendre la structure fine d'un écosystème et les rôles de chaque acteur.",
+     "sections": [
+      "9.1 Typologie des espaces d'innovation (hubs, labs, parcs)",
+      "9.2 Le rôle pivot des universités et de la recherche",
+      "9.3 Fablabs et makerspaces : hardware africain",
+      "9.4 Communautés techniques : meetups, DevDays, hackathons",
+      "9.5 Réseaux panafricains : AfriLabs, Afrilabs Network",
+      "9.6 Métriques d'évaluation d'un hub performant"
+     ],
+     "exercices": [
+      "Concevoir la fiche d'identité type d'un hub modèle",
+      "Auditer un hub existant selon 8 critères de performance",
+      "Proposer un plan de création d'un hub dans une ville secondaire"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 — Success stories sectorielles",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "Fintech : la révolution M-Pesa et ses héritiers",
+     "objectif": "Analyser le secteur le plus dynamique et ses modèles économiques.",
+     "sections": [
+      "10.1 L'histoire de M-Pesa : genèse, adoption, impact",
+      "10.2 Flutterwave, Paystack, Chipper Cash : la nouvelle vague",
+      "10.3 Mobile money opérateurs vs néobanques",
+      "10.4 Crédit numérique et scoring alternatif",
+      "10.5 Crypto et stablecoins en Afrique",
+      "10.6 Inclusivité financière : mythes et mesures"
+     ],
+     "exercices": [
+      "Reconstituer le parcours utilisateur d'un paiement M-Pesa",
+      "Comparer 3 néobanques africaines sur 10 critères",
+      "Modéliser un produit de microcrédit adossé au mobile money"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "E-commerce, logistique et last-mile",
+     "objectif": "Décrypter les défis spécifiques au commerce en ligne sur le continent.",
+     "sections": [
+      "11.1 Jumia : parcours d'une licorne controversée",
+      "11.2 Takealot, Konga, les modèles régionaux",
+      "11.3 Logistique last-mile : Kobo360, Lori Systems, Sendy",
+      "11.4 Adresses inexistantes et solutions de géolocalisation",
+      "11.5 Paiement à la livraison vs paiements digitaux",
+      "11.6 Commerce social et WhatsApp commerce"
+     ],
+     "exercices": [
+      "Calculer le coût logistique d'une livraison en zone périurbaine",
+      "Comparer 3 modèles d'affaires e-commerce",
+      "Concevoir une solution d'adressage innovante"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "AgriTech : nourrir le continent par le numérique",
+     "objectif": "Explorer les innovations au service de l'agriculture, secteur dominant.",
+     "sections": [
+      "12.1 Information agricole : Esoko, WeFarm",
+      "12.2 Marchés digitaux : Twiga Foods, Nandi",
+      "12.3 Financement des petits producteurs",
+      "12.4 IoT, drones et agriculture de précision",
+      "12.5 Traçabilité et certifications pour l'export",
+      "12.6 Limites d'adoption et rôle des coopératives"
+     ],
+     "exercices": [
+      "Concevoir un service USSD d'information météo pour petits agriculteurs",
+      "Évaluer l'impact d'une plateforme de marché sur les revenus paysans",
+      "Proposer un modèle de distribution de drones agricoles"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Santé numérique : télémedicine, données et accès aux soins",
+     "objectif": "Analyser les solutions tech face aux déficits structurels du système de santé.",
+     "sections": [
+      "13.1 Téléconsultation : mPharma, Babyl, Docteur 24",
+      "13.2 Distribution pharmaceutique digitale",
+      "13.3 Drones médicaux : Zipline au Rwanda et Ghana",
+      "13.4 Assurance santé numérique et micro-assurance",
+      "13.5 Données de santé et souveraineté",
+      "13.6 IA diagnostique et limites éthiques"
+     ],
+     "exercices": [
+      "Cartographier les acteurs e-santé d'un pays cible",
+      "Évaluer la viabilité économique d'un service de téléconsultation",
+      "Rédiger une charte éthique pour une startup santé"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Éducation, edtech et capital humain",
+     "objectif": "Comprendre comment le numérique répond au défi éducatif massif.",
+     "sections": [
+      "14.1 Mooc et plateformes d'apprentissage : uLesson, Eneza",
+      "14.2 Formation professionnelle et bootcamps : Andela, Gebeya",
+      "14.3 Alphabétisation et langues locales",
+      "14.4 Certification et credentials digitaux",
+      "14.5 Écoles du code et pénurie de talents tech",
+      "14.6 Fuite des cerveaux vs circulation des talents"
+     ],
+     "exercices": [
+      "Concevoir un parcours de formation tech hybride",
+      "Évaluer le ROI d'un bootcamp pour apprenants africains",
+      "Proposer une politique de rétention des talents pour un hub"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Mobilité, énergie et villes intelligentes",
+     "objectif": "Explorer les innovations urbaines et infrastructurelles.",
+     "sections": [
+      "15.1 VTC et deux-roues : SafeBoda, Gozem, Bolt",
+      "15.2 Électrification des mobilités : Ampersand, Roam",
+      "15.3 Solaire hors-réseau : M-KOPA, BBOXX, pay-as-you-go",
+      "15.4 Mini-grids et gestion intelligente",
+      "15.5 Villes intelligentes : Konza, Kigali, New Cairo",
+      "15.6 Mobilité des biens et logistique urbaine"
+     ],
+     "exercices": [
+      "Modéliser le business model d'un kit solaire PAYG",
+      "Analyser la viabilité d'un service de VTC dans une ville secondaire",
+      "Concevoir un tableau de bord urbain pour une municipalité"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Médias, contenus créatifs et économie de la culture",
+     "objectif": "Cartographier l'effervescence des industries créatives numériques.",
+     "sections": [
+      "16.1 Musique et streaming : Boomplay, Audiomack, Mdundo",
+      "16.2 Nollywood, séries et plateformes de SVOD",
+      "16.3 Jeux vidéo africains : studios et marchés",
+      "16.4 Influenceurs, podcasts et médias en ligne",
+      "16.5 Propriété intellectuelle et rémunération des créateurs",
+      "16.6 Export culturel et soft power"
+     ],
+     "exercices": [
+      "Analyser la chaîne de valeur d'un morceau streamé en Afrique",
+      "Comparer 3 plateformes de SVOD africaines",
+      "Concevoir une stratégie de monétisation pour un créateur"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 — Acteurs, financements et politiques",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Capital-risque et financement des startups africaines",
+     "objectif": "Comprendre l'écosystème financier spécifique au continent.",
+     "sections": [
+      "17.1 Panorama des fonds : Partech, TLcom, Novastar, Catalyst",
+      "17.2 Business angels et réseaux locaux",
+      "17.3 Dette, venture debt et instruments hybrides",
+      "17.4 Capital-risque international et 'Africa funds'",
+      "17.5 Levées de fonds : étapes, dilution, valorisations",
+      "17.6 Lacunes : seed gap et séries B-C rares"
+     ],
+     "exercices": [
+      "Construire un cap table réaliste pour 3 tours de financement",
+      "Identifier 10 fonds adaptés à un secteur donné",
+      "Rédiger un executive summary en une page"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Rôle des États, banques de développement et coopérations",
+     "objectif": "Analyser l'action publique et para-publique en faveur du numérique.",
+     "sections": [
+      "18.1 Stratégies nationales : Digital Rwanda, Kenya Vision 2030",
+      "18.2 Union africaine et Agenda 2063 numérique",
+      "18.3 Banque africaine de développement et instruments",
+      "18.4 Banque mondiale, GIZ, AFD, USAID : programmes phares",
+      "18.5 ZLECAf et intégration continentale numérique",
+      "18.6 Efficacité et critiques des politiques publiques"
+     ],
+     "exercices": [
+      "Comparer 3 stratégies nationales numériques",
+      "Cartographier les bailleurs actifs dans un pays",
+      "Rédiger une recommandation de politique publique"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Grandes entreprises et corporate ventures africains",
+     "objectif": "Comprendre le rôle des groupes établis dans l'innovation.",
+     "sections": [
+      "19.1 Opérateurs télécom : MTN, Orange, Safaricom, Airtel",
+      "19.2 Banques panafricaines et labs d'innovation",
+      "19.3 Groupes industriels : Dangote, CFAO, Attijariwafa",
+      "19.4 Corporate venture capital et acquisitions",
+      "19.5 Partenariats startups/grands groupes : frictions et succès",
+      "19.6 Open innovation adaptée au contexte africain"
+     ],
+     "exercices": [
+      "Identifier 5 opportunités de partenariat pour une startup fintech",
+      "Concevoir un programme d'open innovation pour un opérateur télécom",
+      "Rédiger un accord type de co-développement"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Diasporas, talents et capital humain panafricain",
+     "objectif": "Valoriser le rôle stratégique des diasporas et des mobilités de talents.",
+     "sections": [
+      "20.1 Diasporas tech : Silicon Valley, Londres, Paris",
+      "20.2 Transferts de compétences et retour au pays",
+      "20.3 Réseaux d'investisseurs diaspora",
+      "20.4 Remote work et talents africains pour le monde",
+      "20.5 Formation des ingénieurs et brain drain",
+      "20.6 Politiques d'attraction et visas tech"
+     ],
+     "exercices": [
+      "Cartographier les réseaux diaspora d'un pays",
+      "Concevoir un programme de retour de talents",
+      "Évaluer l'impact du remote work sur les salaires locaux"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Mesurer l'impact : métriques, données et évaluation",
+     "objectif": "Outiller l'analyse rigoureuse des écosystèmes et des startups.",
+     "sections": [
+      "21.1 Métriques startup : CAC, LTV, churn, unit economics",
+      "21.2 Métriques écosystème : densité, connexité, maturité",
+      "21.3 Impact social et ODD : cadres d'évaluation",
+      "21.4 Bases de données : Disrupt Africa, Magnitt, Briter Bridges",
+      "21.5 Limites des classements et des 'top 100'",
+      "21.6 Construire ses propres tableaux de bord"
+     ],
+     "exercices": [
+      "Calculer les unit economics d'une fintech fictive",
+      "Construire un dashboard écosystème pour une ville",
+      "Critiquer un classement de startups publié"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 — Perspectives, défis et futur",
+   "chapitres": [
+    {
+     "numero": 22,
+     "titre": "IA, blockchain et deeptech : la prochaine vague",
+     "objectif": "Anticiper les technologies émergentes et leur adoption africaine.",
+     "sections": [
+      "22.1 IA appliquée : langues locales, agriculture, santé",
+      "22.2 Centres de données et souveraineté compute",
+      "22.3 Blockchain au-delà de la crypto : identité, cadastre",
+      "22.4 Spatial, drones et IoT industriels",
+      "22.5 Deeptech et recherche : le maillon faible",
+      "22.6 Risques éthiques et biais algorithmiques"
+     ],
+     "exercices": [
+      "Identifier 10 cas d'usage IA pertinents en Afrique",
+      "Évaluer la faisabilité d'un projet blockchain selon 6 critères",
+      "Rédiger une charte éthique IA pour une startup"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Défis structurels : énergie, talents, gouvernance, inclusion",
+     "objectif": "Nommer sans fard les obstacles qui freinent l'écosystème.",
+     "sections": [
+      "23.1 Déficit énergétique et coût de la data",
+      "23.2 Pénurie de talents seniors et formation",
+      "23.3 Gouvernance d'entreprise et transparence",
+      "23.4 Inclusion genre : femmes dans la tech africaine",
+      "23.5 Fracture rurale/urbaine et handicap",
+      "23.6 Corruption, informalité et confiance"
+     ],
+     "exercices": [
+      "Concevoir un plan de parité pour une startup",
+      "Proposer 5 solutions low-cost à la fracture rurale",
+      "Élaborer une charte de gouvernance pour une scale-up"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Vers un modèle africain d'innovation : synthèse et feuille de route",
+     "objectif": "Tirer les leçons transversales et proposer une vision stratégique.",
+     "sections": [
+      "24.1 Dix principes d'innovation africaine identifiés",
+      "24.2 Scénarios prospectifs à horizon 2035",
+      "24.3 Feuille de route pour entrepreneurs",
+      "24.4 Feuille de route pour investisseurs",
+      "24.5 Feuille de route pour décideurs publics",
+      "24.6 Conclusion : l'Afrique, laboratoire du Sud global ?"
+     ],
+     "exercices": [
+      "Rédiger sa propre thèse d'investissement Afrique en 2 pages",
+      "Construire un plan stratégique à 5 ans pour une startup",
+      "Simuler un scénario de crise et plan de résilience"
+     ]
+    }
+   ]
+  }
+ ]
+}
