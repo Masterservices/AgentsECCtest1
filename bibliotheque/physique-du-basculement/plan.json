@@ -1,0 +1,671 @@
+{
+ "titre": "La Physique du Basculement",
+ "sous_titre": "Pourquoi vos efforts semblent inutiles jusqu'au seuil critique — et comment provoquer la transition de phase qui change tout",
+ "bibliographie": [
+  {
+   "auteur": "Malcolm Gladwell",
+   "titre": "The Tipping Point",
+   "annee": "2000",
+   "idee": "Les phénomènes sociaux se propagent comme des épidémies à partir de points de bascule où de petits changements produisent des effets massifs.",
+   "apport": "Concept de seuil critique et de masse critique, mais notre livre le dépasse en ajoutant la modélisation physique rigoureuse et les protocoles individuels."
+  },
+  {
+   "auteur": "Donella Meadows",
+   "titre": "Thinking in Systems: A Primer",
+   "annee": "2008",
+   "idee": "Les systèmes complexes sont structurés par des stocks, des flux et des boucles de rétroaction qui déterminent leur comportement plus que les éléments eux-mêmes.",
+   "apport": "Cadre conceptuel des boucles de rétroaction et des points de levier, transposé ici en diagnostics personnels."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les habitudes se construisent par de petites améliorations composées (1 % par jour) et par redesign de l'environnement.",
+   "apport": "Notre livre critique l'idée de linéarité du 1 % et y substitue la logique non linéaire des seuils : l'effort composé ne paie qu'après franchissement."
+  },
+  {
+   "auteur": "Charles Duhigg",
+   "titre": "The Power of Habit",
+   "annee": "2012",
+   "idee": "La boucle signal-routine-récompense structure toute habitude individuelle, organisationnelle et sociale.",
+   "apport": "Structure de la boucle conservée, mais replacée dans une dynamique de systèmes avec attracteurs et hystérésis."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile",
+   "annee": "2012",
+   "idee": "Certains systèmes profitent du désordre, des chocs et de la volatilité : il faut construire sa vie pour en bénéficier plutôt que la protéger.",
+   "apport": "Notion d'antifragilité appliquée aux transitions de phase personnelles : comment se positionner du bon côté des chocs."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "The Black Swan",
+   "annee": "2007",
+   "idee": "Les événements rares et imprévisibles à fort impact dominent l'histoire, la finance et les carrières ; les modèles linéaires échouent à les anticiper.",
+   "apport": "Justification de la logique non linéaire de la vie et mise en garde contre les plans rigides."
+  },
+  {
+   "auteur": "BJ Fogg",
+   "titre": "Tiny Habits",
+   "annee": "2019",
+   "idee": "Le comportement émerge de la convergence motivation-capacité-signal ; il faut commencer par des actions minuscules ancrées à des routines existantes.",
+   "apport": "Protocole d'ancrage conservé, mais articulé avec la notion de seuil : les tiny habits servent à approcher le seuil, pas à le franchir seuls."
+  },
+  {
+   "auteur": "Steven Strogatz",
+   "titre": "Sync: The Emerging Science of Spontaneous Order",
+   "annee": "2003",
+   "idee": "La synchronisation spontanée (lucioles, neurones, marchés) émerge quand des oscillateurs couplés dépassent une intensité de couplage critique.",
+   "apport": "Analogie directe pour expliquer pourquoi plusieurs habitudes se verrouillent ensemble à un moment précis."
+  },
+  {
+   "auteur": "Geoffrey West",
+   "titre": "Scale",
+   "annee": "2017",
+   "idee": "Les lois d'échelle universelles régissent organismes, villes et entreprises ; la croissance est superlinéaire jusqu'à un effondrement ou une innovation.",
+   "apport": "Compréhension des cycles de croissance/effondrement dans les carrières et les projets, et du rôle des innovations de seuil."
+  },
+  {
+   "auteur": "Melanie Mitchell",
+   "titre": "Complexity: A Guided Tour",
+   "annee": "2009",
+   "idee": "Les systèmes complexes adaptatifs produisent émergence, auto-organisation et comportements collectifs sans chef central.",
+   "apport": "Vocabulaire rigoureux (émergence, auto-organisation) utilisé sans jargon dans nos chapitres sur le réseau et la carrière."
+  },
+  {
+   "auteur": "Albert-László Barabási",
+   "titre": "Linked: The New Science of Networks",
+   "annee": "2002",
+   "idee": "Les réseaux réels suivent une loi de puissance : quelques hubs concentrent la majorité des connexions et de l'influence.",
+   "apport": "Stratégie relationnelle : viser les hubs plutôt que la quantité, et comprendre les seuils de visibilité."
+  },
+  {
+   "auteur": "Duncan Watts",
+   "titre": "Six Degrees: The Science of a Connected Age",
+   "annee": "2003",
+   "idee": "La connectivité mondiale produit des cascades sociales imprévisibles ; les influenceurs comptent moins que la réceptivité du réseau.",
+   "apport": "Correction de l'idée reçue du 'réseautage par VIP' ; protocole pour préparer le terrain avant de chercher la contagion."
+  },
+  {
+   "auteur": "Peter Senge",
+   "titre": "The Fifth Discipline",
+   "annee": "1990",
+   "idee": "La pensée systémique est la discipline maîtresse des organisations apprenantes ; les archétypes systémiques expliquent les échecs répétés.",
+   "apport": "Archétypes ('limits to growth', 'shifting the burden') transposés en diagnostics personnels de blocage."
+  },
+  {
+   "auteur": "Mihaly Csikszentmihalyi",
+   "titre": "Flow",
+   "annee": "1990",
+   "idee": "L'expérience optimale survient quand défi et compétence s'équilibrent à un niveau élevé, créant un état auto-renforçant.",
+   "apport": "Le flow comme attracteur positif ; protocole pour déplacer son point d'équilibre vers le haut."
+  },
+  {
+   "auteur": "Stuart Kauffman",
+   "titre": "At Home in the Universe",
+   "annee": "1995",
+   "idee": "L'auto-organisation est une propriété intrinsèque de la matière à certains seuils de complexité ; la vie émerge sans plan extérieur.",
+   "apport": "Justification philosophique et scientifique du fait qu'une vie bien structurée s'auto-entretient une fois le seuil franchi."
+  },
+  {
+   "auteur": "Ilya Prigogine & Isabelle Stengers",
+   "titre": "La Nouvelle Alliance",
+   "annee": "1979",
+   "idee": "Loin de l'équilibre, les systèmes dissipatifs créent de l'ordre par fluctuations amplifiées : le désordre peut devenir organisateur.",
+   "apport": "Cadre pour expliquer pourquoi les crises personnelles précèdent souvent les basculements les plus durables."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Deux systèmes cognitifs (rapide/intuitif et lent/raisonné) gouvernent nos décisions, avec des biais systématiques.",
+   "apport": "Comprendre pourquoi l'effort linéaire 'volontariste' (Système 2) échoue face aux attracteurs du Système 1."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Deep Work",
+   "annee": "2016",
+   "idee": "Le travail profond et sans distraction produit une valeur rare et composée ; la superficialité est l'ennemi de la compétence.",
+   "apport": "Protocole de concentration comme condition d'approche du seuil dans les carrières de savoir."
+  },
+  {
+   "auteur": "Robert Cialdini",
+   "titre": "Influence",
+   "annee": "1984",
+   "idee": "Six principes universels (réciprocité, preuve sociale, autorité, etc.) déclenchent l'adhésion humaine quasi automatiquement.",
+   "apport": "Boucles de rétroaction sociale utilisées pour installer des habitudes et des réputations auto-renforçantes."
+  },
+  {
+   "auteur": "Simon Sinek",
+   "titre": "Start with Why",
+   "annee": "2009",
+   "idee": "Les leaders et organisations inspirantes partent du 'pourquoi' avant le 'comment' et le 'quoi'.",
+   "apport": "Le 'pourquoi' comme attracteur profond : condition nécessaire pour soutenir l'effort jusqu'au seuil."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Les lois invisibles : pourquoi votre vie ne change pas linéairement",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le grand malentendu de l'effort constant",
+     "objectif": "Démonter l'idée reçue selon laquelle le progrès est proportionnel à l'effort, et introduire la logique non linéaire des seuils.",
+     "sections": [
+      "La promesse toxique du '1 % par jour'",
+      "Pourquoi 90 % des efforts semblent perdus (et ne le sont pas)",
+      "La courbe en S : ce que la biologie, la physique et les épidémies nous enseignent",
+      "Analogie de la casserole d'eau : énergie latente et transition de phase",
+      "Les trois régimes de la vie : sous le seuil, au seuil, au-dessus du seuil",
+      "Auto-diagnostic : où vous situez-vous aujourd'hui ?"
+     ],
+     "exercices": [
+      "Cartographie personnelle des 5 domaines de vie avec estimation subjective de la distance au seuil",
+      "Journal rétrospectif : identifier 3 basculements passés et leurs signes précurseurs"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Transitions de phase : quand l'eau se met à bouillir",
+     "objectif": "Expliquer rigoureusement mais simplement ce qu'est une transition de phase et comment ce concept s'applique aux vies humaines.",
+     "sections": [
+      "Glace, eau, vapeur : le même système, trois comportements radicaux",
+      "Paramètre d'ordre et rupture de symétrie : ce qui change vraiment au moment du basculement",
+      "Universalité : pourquoi des systèmes différents basculent de la même manière",
+      "Transitions du premier et du second ordre : basculements brutaux vs progressifs",
+      "Les signatures observables d'un seuil approchant (fluctuations, ralentissement critique)",
+      "Limites honnêtes de l'analogie physique appliquée aux humains"
+     ],
+     "exercices": [
+      "Identifier dans sa vie un changement qui a été une transition du premier ordre (brutale) et un du second ordre (progressif)",
+      "Grille de détection des signaux de ralentissement critique dans un projet en cours"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Boucles de rétroaction : le moteur caché de toute vie",
+     "objectif": "Introduire les boucles positives et négatives comme structures fondamentales qui déterminent si un changement s'auto-entretient ou s'auto-étouffe.",
+     "sections": [
+      "Rétroaction positive : l'amplification qui crée le momentum",
+      "Rétroaction négative : la régulation qui stabilise (et qui piège)",
+      "Pourquoi la volonté seule est une boucle faible",
+      "Cartographier ses boucles dominantes dans un domaine",
+      "Les boucles retardées : pourquoi on abandonne trop tôt",
+      "Exemples concrets : dette, réputation, compétence, forme physique"
+     ],
+     "exercices": [
+      "Dessin de sa carte de boucles personnelle sur un domaine choisi",
+      "Identification des 3 boucles qui gouvernent actuellement votre quotidien"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Attracteurs : les états vers lesquels votre vie tend naturellement",
+     "objectif": "Expliquer la notion d'attracteur et montrer que la 'personnalité' ou les 'habitudes ancrées' sont en réalité des attracteurs dynamiques.",
+     "sections": [
+      "Le bassin d'attraction : pourquoi revenir en arrière est si facile",
+      "Attracteurs ponctuels, cycliques et étranges : trois formes de stabilité",
+      "Pourquoi 'se forcer' ne change pas l'attracteur",
+      "Les attracteurs concurrents dans une même vie",
+      "Comment on déplace un attracteur (et pourquoi c'est le vrai travail)",
+      "Le rôle du paysage énergétique personnel"
+     ],
+     "exercices": [
+      "Carte des attracteurs dominants dans les 4 domaines du livre",
+      "Exercice du 'paysage' : dessiner ses pentes, ses vallées, ses cols"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Hystérésis : pourquoi on ne revient jamais en arrière au même point",
+     "objectif": "Montrer que les transitions de phase laissent une mémoire, ce qui explique la dissymétrie entre acquisition et perte d'une habitude, d'un revenu, d'une relation.",
+     "sections": [
+      "L'aimant qui reste aimanté : l'exemple fondateur",
+      "Pourquoi reperdre du poids est plus facile que le perdre la première fois",
+      "L'avantage caché : les acquis résistent aux rechutes",
+      "Le piège : les mauvaises habitudes aussi ont une hystérésis",
+      "Conséquence stratégique : l'ordre des batailles compte",
+      "Hystérésis et identité : ce que vous avez été vous habite encore"
+     ],
+     "exercices": [
+      "Inventaire des hystérésis positives accumulées (compétences, relations, réputations)",
+      "Inventaire des hystérésis négatives à neutraliser en priorité"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Habitudes et discipline : fabriquer et franchir ses seuils",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "Masse critique d'habitudes : combien faut-il vraiment ?",
+     "objectif": "Montrer qu'il existe un nombre minimal d'habitudes-phares au-delà duquel les autres suivent presque automatiquement.",
+     "sections": [
+      "Le mythe de la refonte totale",
+      "Habitudes-phares (keystone) et habitudes-satellites",
+      "Calculer sa masse critique personnelle",
+      "L'ordre d'installation : pourquoi certaines ouvrent les autres",
+      "Le seuil d'identité : quand 'je fais' devient 'je suis'",
+      "Études de cas : sport, sommeil, lecture, écriture"
+     ],
+     "exercices": [
+      "Sélection de 3 habitudes-phares candidates à partir d'une liste guidée",
+      "Plan d'installation séquentielle sur 90 jours"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "La traversée du désert : tenir quand rien ne semble payer",
+     "objectif": "Donner des outils concrets pour survivre à la phase sous le seuil, où l'effort est invisible.",
+     "sections": [
+      "Pourquoi la motivation est structurellement insuffisante",
+      "Les 4 signaux faibles que vous approchez du seuil",
+      "Mesurer ce qui compte vraiment (leading indicators vs lagging)",
+      "L'architecture de l'environnement comme soutien non conscient",
+      "Les micro-basculements hebdomadaires comme carburant",
+      "Quand abandonner : distinguer mauvais seuil et mauvais timing"
+     ],
+     "exercices": [
+      "Tableau de bord des indicateurs avancés pour son habitude principale",
+      "Audit de l'environnement physique et numérique (checklist)"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Synchronisation : faire converger plusieurs habitudes en un seul verrouillage",
+     "objectif": "Utiliser le phénomène de synchronisation pour que plusieurs habitudes se renforcent mutuellement et se verrouillent ensemble.",
+     "sections": [
+      "Les lucioles qui clignotent à l'unisson : la métaphore centrale",
+      "Couplage fort vs couplage faible entre habitudes",
+      "Le rituel-maître comme oscillateur directeur",
+      "Empiler les habitudes sans les étouffer",
+      "Le moment de la journée comme paramètre d'ordre",
+      "Erreurs classiques : surcharger, mal séquencer"
+     ],
+     "exercices": [
+      "Conception d'un rituel-maître matinal ou soir personnalisé",
+      "Matrice de couplage entre ses 5 habitudes principales"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Désamorcer les boucles destructrices",
+     "objectif": "Identifier et casser les boucles de rétroaction positive négatives (addictions, procrastination, rumination).",
+     "sections": [
+      "Anatomie d'une boucle destructrice typique",
+      "Les points de levier : où intervenir avec le moins d'effort",
+      "La stratégie du 'couper le fil' vs 'diluer le signal'",
+      "Remplacer sans créer de vide : l'attracteur substitut",
+      "Gérer les rechutes : l'hystérésis joue aussi contre vous",
+      "Quand faire appel à un professionnel (limites du livre)"
+     ],
+     "exercices": [
+      "Schéma détaillé de sa boucle destructrice principale",
+      "Plan d'intervention en 3 points de levier hiérarchisés"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Installer de bonnes boucles qui s'auto-entretiennent",
+     "objectif": "Concevoir des boucles vertueuses qui, une fois lancées, demandent moins d'énergie qu'elles n'en produisent.",
+     "sections": [
+      "Les 5 ingrédients d'une boucle vertueuse durable",
+      "La récompense intrinsèque vs extrinsèque : quelle boucle tient ?",
+      "Ancrer la boucle dans l'identité, pas dans la performance",
+      "Le rôle de la communauté comme amplificateur",
+      "Surveiller l'usure : quand une bonne boucle devient une routine morte",
+      "Exemples détaillés : lecture, écriture, exercice, apprentissage"
+     ],
+     "exercices": [
+      "Conception complète d'une boucle vertueuse sur 6 semaines",
+      "Grille de surveillance mensuelle de la vitalité des boucles"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Résilience et antifragilité des habitudes",
+     "objectif": "Construire un système d'habitudes qui résiste aux chocs (voyages, maladies, crises) et en profite même parfois.",
+     "sections": [
+      "Fragile, robuste, résilient, antifragile : les 4 régimes",
+      "Le principe du 'minimum viable' en période de crise",
+      "Redondances et options : ne pas tout mettre sur une seule habitude",
+      "Les petits stress comme entraînement au basculement",
+      "Le 'plan de repli' qui n'est pas un abandon",
+      "Reconstruire après une interruption longue"
+     ],
+     "exercices": [
+      "Définition de son 'minimum viable' pour chaque habitude-phares",
+      "Simulation de 3 scénarios de choc (maladie, déplacement, deuil) et réponses prévues"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Finances personnelles : seuils, trappes et envol",
+   "chapitres": [
+    {
+     "numero": 12,
+     "titre": "Les seuils financiers que personne ne vous enseigne",
+     "objectif": "Identifier les seuils critiques en finances personnelles qui changent qualitativement la relation à l'argent.",
+     "sections": [
+      "Le seuil de sécurité : 3 à 6 mois de dépenses couvertes",
+      "Le seuil de liberté : quand les revenus passifs couvrent le minimum",
+      "Le seuil d'abondance : au-delà, l'argent devient levier",
+      "Pourquoi sous le seuil, tout semble injuste (et mathématiquement vrai)",
+      "L'effet cliquet des dépenses : une hystérésis dangereuse",
+      "Attention : ceci n'est pas un conseil financier personnalisé"
+     ],
+     "exercices": [
+      "Calcul de ses trois seuils personnels en euros",
+      "Positionnement actuel sur la carte des seuils"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "La trappe à pauvreté comme attracteur",
+     "objectif": "Expliquer pourquoi sortir de la précarité est structurellement difficile, et quelles stratégies de seuil fonctionnent vraiment.",
+     "sections": [
+      "La trappe à pauvreté : définition systémique (sans jugement)",
+      "Les boucles qui verrouillent : frais bancaires, crédits, stress cognitif",
+      "L'effet de la charge mentale sur les décisions (Kahneman, Mullainathan)",
+      "Les points de levier non évidents : automatisation, tiers de confiance",
+      "Stratégie du 'premier seuil' : viser petit mais franchir",
+      "Limites : quand la situation exige une aide extérieure"
+     ],
+     "exercices": [
+      "Cartographie de ses propres boucles financières (revenus/dépenses/dettes)",
+      "Identification du plus petit seuil franchissable en 90 jours"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Intérêts composés : la rétroaction positive la plus puissante du monde",
+     "objectif": "Montrer que les intérêts composés sont une boucle de rétroaction positive pure, et comment les activer dans plusieurs domaines.",
+     "sections": [
+      "La courbe exponentielle : pourquoi on sous-estime toujours",
+      "Au-delà de la finance : composés de compétence, de réputation, de relations",
+      "Le paramètre oublié : le temps avant le premier seuil visible",
+      "Les ennemis du composé : interruptions, frais, impatience",
+      "Automatiser pour ne pas dépendre de la volonté",
+      "Les ordres de grandeur qui changent une vie"
+     ],
+     "exercices": [
+      "Simulation chiffrée sur 10, 20, 30 ans de son épargne actuelle",
+      "Liste de ses 5 'composés non financiers' à activer"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Effondrement et ruine : reconnaître les points de non-retour",
+     "objectif": "Apprendre à repérer les signaux précoces d'effondrement financier et les éviter, sans tomber dans la paranoïa.",
+     "sections": [
+      "Les signatures statistiques de la ruine (Taleb, 'risk of ruin')",
+      "Le surendettement comme transition de phase inversée",
+      "La règle du 'ne jamais miser ce qu'on ne peut perdre'",
+      "Diversification vs concentration : quand choisir laquelle",
+      "Le rôle de l'ego dans les effondrements financiers",
+      "Sortir d'un début d'effondrement : protocole d'urgence"
+     ],
+     "exercices": [
+      "Stress test personnel sur 3 scénarios adverses",
+      "Liste rouge : les 5 décisions financières à ne jamais prendre"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Le seuil de la relation saine à l'argent",
+     "objectif": "Aborder la dimension psychologique et identitaire : comment basculer d'une relation anxieuse à une relation sereine.",
+     "sections": [
+      "Les attracteurs psychologiques autour de l'argent (peur, déni, obsession)",
+      "L'héritage familial comme condition initiale",
+      "La transparence conjugale comme seuil relationnel",
+      "Éducation financière des enfants : un seuil intergénérationnel",
+      "Quand 'assez' devient un attracteur stable",
+      "Limites : la thérapie financière comme recours légitime"
+     ],
+     "exercices": [
+      "Auto-évaluation de son attracteur financier dominant",
+      "Conversation guidée à avoir avec son/sa partenaire (canevas)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Relations et réseau : contagion, hubs et liens qui tiennent",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Le réseau comme système complexe",
+     "objectif": "Remplacer la vision naïve du 'réseautage' par une compréhension systémique des réseaux réels.",
+     "sections": [
+      "Loi de puissance : pourquoi quelques personnes comptent énormément",
+      "Liens forts, liens faibles, liens dormants : chacun a un rôle",
+      "Le mythe du 'super-connecteur' à imiter",
+      "Petit monde, six degrés : implications pratiques",
+      "Structural holes : les trous structuraux comme opportunités",
+      "Votre réseau actuel : photographie honnête"
+     ],
+     "exercices": [
+      "Cartographie de son réseau sur 3 cercles (intime, actif, dormant)",
+      "Identification des 5 hubs et des 5 ponts de son réseau"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Contagion sociale : pourquoi vous êtes la moyenne (mais pas seulement)",
+     "objectif": "Comprendre comment les comportements, émotions et ambitions se propagent, et choisir ses contagions.",
+     "sections": [
+      "L'effet des 3 degrés de séparation (Christakis & Fowler)",
+      "Contagion émotionnelle vs contagion comportementale",
+      "Pourquoi certaines contagions prennent et d'autres non",
+      "Le seuil d'adoption dans un groupe (théorie de Granovetter)",
+      "Choisir ses environnements plutôt que ses résolutions",
+      "Se protéger des contagions toxiques sans s'isoler"
+     ],
+     "exercices": [
+      "Audit des 5 personnes les plus influentes sur soi actuellement",
+      "Plan d'exposition volontaire à 3 nouvelles contagions souhaitées"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Les seuils de l'intimité : amitié, couple, famille",
+     "objectif": "Appliquer la logique des seuils aux relations profondes, où la non-linéarité est particulièrement marquée.",
+     "sections": [
+      "Les 5 seuils d'une amitié adulte durable",
+      "Le seuil de confiance : quand la relation devient résiliente",
+      "Les transitions de phase du couple (Fisher, Gottman)",
+      "Pourquoi certaines relations basculent en toxicité (hystérésis inverse)",
+      "Rompre comme transition de phase : préparation et aftermath",
+      "La famille comme système complexe à attracteurs multiples"
+     ],
+     "exercices": [
+      "Carte des 10 relations les plus importantes et de leur seuil actuel",
+      "Protocole de conversation de seuil pour une relation à faire évoluer"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Masse critique de visibilité : devenir visible dans son champ",
+     "objectif": "Expliquer pourquoi la reconnaissance professionnelle suit une logique de seuil, et comment la provoquer.",
+     "sections": [
+      "Le seuil de reconnaissance : avant, on vous ignore ; après, on vous cherche",
+      "Préférence attachmentale : pourquoi les riches en réputation s'enrichissent",
+      "La stratégie du 10 % public : rendre visible son travail",
+      "Les plateformes comme amplificateurs de seuil",
+      "Le piège de la visibilité sans substance",
+      "Construire une réputation antifragile"
+     ],
+     "exercices": [
+      "Audit de sa visibilité actuelle dans son champ",
+      "Plan de publication/prise de parole sur 12 mois"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Désamorcer les relations toxiques comme on coupe une boucle",
+     "objectif": "Appliquer les outils systémiques aux relations destructrices, avec honnêteté sur les limites du self-help.",
+     "sections": [
+      "Reconnaître une boucle relationnelle toxique",
+      "L'hystérésis affective : pourquoi on revient",
+      "Le point de levier souvent oublié : changer sa propre réponse",
+      "La stratégie du 'grey rock' comme désactivation de boucle",
+      "Couper : quand et comment (sans romantiser)",
+      "Quand consulter : violence, emprise, trauma"
+     ],
+     "exercices": [
+      "Schéma systémique d'une relation difficile actuelle",
+      "Liste de ses propres réponses à modifier en priorité"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Carrière et projets : basculer dans une autre vie professionnelle",
+   "chapitres": [
+    {
+     "numero": 22,
+     "titre": "Les transitions de phase de carrière",
+     "objectif": "Modéliser les grandes transitions professionnelles comme des transitions de phase, avec leurs signaux et leurs seuils.",
+     "sections": [
+      "Les 4 transitions de phase typiques d'une vie professionnelle",
+      "Le plateau comme attracteur : pourquoi on y reste",
+      "Signaux précurseurs d'un basculement de carrière nécessaire",
+      "Le mythe de la reconversion linéaire",
+      "Préparer un saut sans tout lâcher : la stratégie du pont",
+      "Le rôle du 'projet parallèle' comme laboratoire de seuil"
+     ],
+     "exercices": [
+      "Diagnostic de sa phase actuelle de carrière",
+      "Identification de 3 projets parallèles candidats"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Projets et effet de seuil : pourquoi les 80 % finaux sont les plus durs",
+     "objectif": "Expliquer pourquoi l'avancement des projets n'est pas linéaire, et comment franchir les seuils de livraison.",
+     "sections": [
+      "La loi de Hofstadter comme signature de non-linéarité",
+      "Les 3 seuils d'un projet : lancement, mi-parcours, livraison",
+      "Le 'second souffle' : quand la boucle positive s'enclenche",
+      "Le 'marécage des 70 %' : pourquoi tant de projets meurent là",
+      "Protocole de finishing : franchir le dernier seuil",
+      "Savoir tuer un projet : le seuil d'abandon rationnel"
+     ],
+     "exercices": [
+      "Positionnement de ses 3 projets actuels sur la courbe en S",
+      "Plan de finishing pour le projet le plus proche du seuil"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Deep work, compétence rare et attracteur de carrière",
+     "objectif": "Montrer que le travail profond construit un attracteur professionnel puissant, et comment l'installer.",
+     "sections": [
+      "La compétence rare comme attracteur d'opportunités",
+      "Le seuil des 10 000 heures : mythe, vérité et nuances (Ericsson)",
+      "Architecture d'une journée de deep work",
+      "L'effet Matthew dans les carrières du savoir",
+      "Éviter l'attracteur de la superficialité (Newport)",
+      "Le deep work comme avantage concurrentiel non linéaire"
+     ],
+     "exercices": [
+      "Audit du temps profond hebdomadaire actuel",
+      "Plan d'installation d'un bloc de deep work quotidien sur 30 jours"
+     ]
+    },
+    {
+     "numero": 25,
+     "titre": "Entreprendre comme transition de phase",
+     "objectif": "Appliquer la logique des seuils à la création d'entreprise ou de projet indépendant.",
+     "sections": [
+      "Le seuil de validation : avant, vous supposez ; après, vous savez",
+      "Masse critique de premiers clients",
+      "Le 'tipping point' du premier revenu récurrent",
+      "L'effet de levier des systèmes (vs le temps vendu)",
+      "Les pièges du sur-investissement sous le seuil",
+      "Quand pivoter, quand persévérer : lecture systémique"
+     ],
+     "exercices": [
+      "Cartographie des 5 seuils de son projet entrepreneurial",
+      "Plan de validation du seuil n°1 en moins de 60 jours"
+     ]
+    },
+    {
+     "numero": 26,
+     "titre": "Échec, effondrement et renaissance professionnelle",
+     "objectif": "Traiter les échecs de carrière comme des transitions de phase inversées, avec un protocole de reconstruction.",
+     "sections": [
+      "L'effondrement comme phénomène systémique (pas seulement personnel)",
+      "Les signaux précoces qu'on ignore toujours",
+      "La phase de désordre créatif (Prigogine) : pourquoi elle est nécessaire",
+      "Reconstruire un attracteur professionnel après un choc",
+      "L'hystérésis de la réputation : ce qui reste, ce qui part",
+      "Témoignages et limites : quand consulter un professionnel"
+     ],
+     "exercices": [
+      "Analyse systémique d'un échec passé pour en extraire les signaux",
+      "Plan de reconstruction sur 6 mois après un effondrement"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Le carnet de bord du basculement : intégrer, mesurer, durer",
+   "chapitres": [
+    {
+     "numero": 27,
+     "titre": "Votre carte de bascule personnelle",
+     "objectif": "Construire l'outil synthétique du livre : une carte unique qui résume les seuils, attracteurs et boucles de sa vie actuelle.",
+     "sections": [
+      "Pourquoi une carte plutôt qu'une résolution",
+      "Les 6 couches de la carte de bascule",
+      "Méthode pas à pas de construction (3 séances de 2 heures)",
+      "Lire sa carte : où sont les leviers ?",
+      "Mettre à jour sa carte : la revue trimestrielle",
+      "Partager sa carte : avec qui et pourquoi"
+     ],
+     "exercices": [
+      "Construction guidée de sa carte de bascule complète",
+      "Identification des 3 points de levier prioritaires pour les 90 prochains jours"
+     ]
+    },
+    {
+     "numero": 28,
+     "titre": "Le carnet de bord : mesurer ce qui compte vraiment",
+     "objectif": "Installer un système minimal de suivi qui donne les signaux utiles sans devenir une charge.",
+     "sections": [
+      "Les 7 indicateurs à suivre (pas plus)",
+      "Indicateurs avancés vs retardés : l'erreur classique",
+      "Fréquence optimale : quotidien, hebdo, mensuel, trimestriel",
+      "Le journal de bascule : 5 minutes par jour qui changent tout",
+      "Les revues comme transitions de phase réflexives",
+      "Quand arrêter de mesurer (le seuil d'intériorisation)"
+     ],
+     "exercices": [
+      "Choix de ses 7 indicateurs personnels",
+      "Mise en place du carnet (physique ou numérique) en 30 minutes"
+     ]
+    },
+    {
+     "numero": 29,
+     "titre": "Vivre avec la physique du basculement : sagesse et limites",
+     "objectif": "Conclure en intégrant les leçons du livre, en reconnaissant ses limites, et en ouvrant sur une posture de vie.",
+     "sections": [
+      "Ce que la physique du basculement ne vous dit pas",
+      "La part de chance, de structure sociale, de corps",
+      "Patience active vs patience passive",
+      "Le courage de franchir, la sagesse d'attendre",
+      "Transmettre : élever des enfants, former des équipes dans cette logique",
+      "Une vie comme système complexe : accepter l'incertitude sans renoncer à agir"
+     ],
+     "exercices": [
+      "Lettre à soi-même dans 3 ans : quel basculement aurez-vous franchi ?",
+      "Liste des 5 principes du livre à relire chaque trimestre"
+     ]
+    }
+   ]
+  }
+ ]
+}
