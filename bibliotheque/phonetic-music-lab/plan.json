@@ -1,0 +1,523 @@
+{
+ "titre": "Symphonie Linguistique",
+ "sous_titre": "Manuel pratique pour créer un idiome cohérent, bâtir son dictionnaire, maîtriser l'API et composer des œuvres musicales avec l'intelligence artificielle.",
+ "bibliographie": [
+  {
+   "auteur": "David J. Peterson",
+   "titre": "The Art of Language Invention",
+   "annee": "2015",
+   "idee": "Guide étape par étape pour créer des langues fictives par le créateur du dothraki et du haut valyrien.",
+   "apport": "Méthodologie de base pour la phonologie, la grammaire et l'intégration narrative."
+  },
+  {
+   "auteur": "Mark Rosenfelder",
+   "titre": "The Language Construction Kit",
+   "annee": "2010",
+   "idee": "Manuel exhaustif couvrant tous les niveaux linguistiques pour les créateurs de mondes et les passionnés.",
+   "apport": "Approfondissement technique de la phonotactique, de la morphosyntaxe et de la cohérence interne."
+  },
+  {
+   "auteur": "Mark Rosenfelder",
+   "titre": "Advanced Language Construction Kit",
+   "annee": "2012",
+   "idee": "Extension du LCK axée sur la sociolinguistique, les morphologies complexes et la sémantique.",
+   "apport": "Ajout de réalisme, de dialectes, de variations historiques et de profondeur culturelle."
+  },
+  {
+   "auteur": "Arika Okrent",
+   "titre": "In the Land of Invented Languages",
+   "annee": "2009",
+   "idee": "Histoire et analyse des langues construites philosophiques, logiques et artistiques.",
+   "apport": "Contexte historique, compréhension des échecs passés et pièges à éviter dans la création."
+  },
+  {
+   "auteur": "Peter Ladefoged",
+   "titre": "A Course in Phonetics",
+   "annee": "2014",
+   "idee": "La référence académique absolue sur les sons de la parole humaine et l'alphabet phonétique international.",
+   "apport": "Transcription rigoureuse en API, phonétique articulatoire et maîtrise du clavier vocal humain."
+  },
+  {
+   "auteur": "Peter Ladefoged & Ian Maddieson",
+   "titre": "The Sounds of the World's Languages",
+   "annee": "1996",
+   "idee": "Inventaire cross-linguistique et analyse des systèmes phonétiques mondiaux.",
+   "apport": "Inspiration pour des inventaires de phonèmes exotiques mais anatomiquement plausibles."
+  },
+  {
+   "auteur": "Thomas E. Payne",
+   "titre": "Describing Morphosyntax",
+   "annee": "1997",
+   "idee": "Guide pour les linguistes de terrain sur la description et la catégorisation des structures grammaticales.",
+   "apport": "Structuration logique de la grammaire de la conlang et formatage des entrées de dictionnaire."
+  },
+  {
+   "auteur": "B.T. Sue Atkins & Michael Rundell",
+   "titre": "The Oxford Guide to Practical Lexicography",
+   "annee": "2008",
+   "idee": "Méthodologie professionnelle pour la création, la structuration et la maintenance de dictionnaires.",
+   "apport": "Création d'un dictionnaire de conlang cohérent, utilisable et exempt de contradictions."
+  },
+  {
+   "auteur": "Henry Rogers",
+   "titre": "The Sounds of Language: An Introduction to Phonetics and Phonology",
+   "annee": "2000",
+   "idee": "Pont conceptuel entre la phonétique (sons physiques) et la phonologie (catégories mentales).",
+   "apport": "Construction des règles phonotactiques, des structures syllabiques et des processus d'assimilation."
+  },
+  {
+   "auteur": "Jae Jung Song",
+   "titre": "Linguistic Typology",
+   "annee": "2001",
+   "idee": "Comment les langues du monde patternent et se catégorisent typologiquement à travers les familles.",
+   "apport": "Assurer la plausibilité typologique et les corrélations grammaticales de la conlang."
+  },
+  {
+   "auteur": "Gerhard Nierhaus",
+   "titre": "Algorithmic Composition: Paradigms of Automated Music Generation",
+   "annee": "2009",
+   "idee": "Modèles mathématiques, stochastiques et computationnels pour la génération musicale automatisée.",
+   "apport": "Fondation conceptuelle pour comprendre comment les IA musicales génèrent et structurent le son."
+  },
+  {
+   "auteur": "Eduardo Reck Miranda",
+   "titre": "Readings in Music and Artificial Intelligence",
+   "annee": "2000",
+   "idee": "Premières explorations académiques de l'IA dans la création, l'analyse et la performance musicale.",
+   "apport": "Perspective historique sur l'évolution des outils de génération audio et leurs limites actuelles."
+  },
+  {
+   "auteur": "James Phoenix & Mike Taylor",
+   "titre": "Prompt Engineering for Generative AI",
+   "annee": "2023 (Année approximative, le domaine et les éditions évoluant très vite)",
+   "idee": "Techniques d'interaction, de chaînage et de guidage des modèles génératifs et des LLM.",
+   "apport": "Méthodologie de prompting pour tester les paroles en conlang avec les générateurs audio IA."
+  },
+  {
+   "auteur": "Timothy Hickson",
+   "titre": "On Writing and Worldbuilding",
+   "annee": "2019",
+   "idee": "Intégration des éléments de worldbuilding, dont les langues et les cultures, dans la fiction narrative.",
+   "apport": "Contextualisation de la conlang dans un cadre narratif pour lui donner une utilité dramatique."
+  },
+  {
+   "auteur": "George Lakoff & Mark Johnson",
+   "titre": "Metaphors We Live By",
+   "annee": "1980",
+   "idee": "Théorie de la métaphore conceptuelle et son impact fondamental sur la pensée et le langage humain.",
+   "apport": "Conception d'idiomes, de proverbes et d'une sémantique culturelle unique pour la conlang."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 : L'Architecture Sonore (Phonétique et Phonologie)",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'Âme de la Langue : Concept et Worldbuilding",
+     "objectif": "Définir l'identité des locuteurs et les besoins de la langue. (Calibration : ce chapitre sera rédigé pour atteindre 3500 mots via des études de cas approfondies).",
+     "sections": [
+      "1.1 Le rôle de la langue dans le worldbuilding",
+      "1.2 Qui parle ? Anatomie et physiologie des locuteurs",
+      "1.3 Environnement, culture et biais cognitifs",
+      "1.4 Définir les objectifs de la conlang",
+      "1.5 Le carnet d'expérimentation : préparer son journal de bord"
+     ],
+     "exercices": [
+      "Rédiger la fiche d'identité culturelle et physiologique de votre peuple fictif.",
+      "Lister 10 concepts culturels uniques qui nécessiteront des mots spécifiques."
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Le Clavier Humain : L'API et les Sons du Monde",
+     "objectif": "Maîtriser l'Alphabet Phonétique International et sélectionner les phonèmes. (Calibration : ce chapitre visera 3500 mots avec des schémas articulatoires détaillés).",
+     "sections": [
+      "2.1 Anatomie de la parole : le système phonatoire",
+      "2.2 Les consonnes : modes et points d'articulation",
+      "2.3 Les voyelles : trapèze vocalique et nasalité",
+      "2.3 Les sons non pulmoniques (clicks, éjectives, implosives)",
+      "2.5 Sélectionner son inventaire phonémique",
+      "2.6 L'esthétique sonore : phonesthétique et symbolisme"
+     ],
+     "exercices": [
+      "Créer un tableau de 20 consonnes et 8 voyelles en utilisant uniquement l'API.",
+      "Enregistrer et transcrire 10 mots fictifs en vous concentrant sur la clarté articulatoire."
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Phonotactique et Syllabes : Les Règles du Jeu Sonore",
+     "objectif": "Établir les lois d'assemblage des sons pour garantir la cohérence. (Calibration : ce chapitre visera 3500 mots en analysant des langues réelles comme le géorgien ou l'hawaïen).",
+     "sections": [
+      "3.1 La structure de la syllabe (Attaque, Noyau, Coda)",
+      "3.2 La sonorité et la hiérarchie des sons",
+      "3.3 Définir les contraintes phonotactiques",
+      "3.4 Les processus d'assimilation et d'élision",
+      "3.5 Générer des mots aléatoires mais cohérents"
+     ],
+     "exercices": [
+      "Écrire 5 règles phonotactiques strictes (ex: pas de consonnes géminées en coda).",
+      "Générer une liste de 30 racines lexicales respectant scrupuleusement ces règles."
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Prosodie et Mélodie : Le Rythme de la Parole",
+     "objectif": "Donner vie à la langue par l'accentuation, le ton et l'intonation. (Calibration : ce chapitre visera 3500 mots en comparant les systèmes prosodiques mondiaux).",
+     "sections": [
+      "4.1 Accent tonique : fixe, libre ou basé sur le poids syllabique",
+      "4.2 Les langues à tons : registres et contours",
+      "4.3 Rythme et isochronie (syllabique vs moraïque)",
+      "4.4 Intonation et pragmatique de la phrase",
+      "4.5 La sandhi externe : liaisons entre les mots"
+     ],
+     "exercices": [
+      "Déterminer la règle d'accentuation de votre langue et l'appliquer à 20 mots.",
+      "Créer un contour intonatif spécifique pour exprimer le doute ou la colère."
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Évolutions Diachroniques : Faire Vieillir sa Langue",
+     "objectif": "Simuler le temps et l'histoire pour créer des irrégularités réalistes. (Calibration : ce chapitre visera 3500 mots avec des exemples de lois de Grimm et Grimm-like).",
+     "sections": [
+      "5.1 Le proto-langage : partir de la racine historique",
+      "5.2 Les changements phonétiques conditionnés",
+      "5.3 L'analogie et la régularisation des paradigmes",
+      "5.4 Emprunts linguistiques et substrats",
+      "5.5 Créer des doublets et des faux-amis internes"
+     ],
+     "exercices": [
+      "Appliquer 3 changements phonétiques historiques à une liste de 50 mots anciens.",
+      "Identifier 5 mots qui ont échappé aux règles historiques (irrégularités)."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 : La Forge du Sens (Morphologie et Syntaxe)",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "Morphologie et Flexion : La Forge des Mots",
+     "objectif": "Structurer la formation des mots et leurs variations grammaticales. (Calibration : ce chapitre visera 3500 mots en explorant l'agglutination et la flexion).",
+     "sections": [
+      "6.1 Typologie morphologique (isolante, agglutinante, fusionnelle)",
+      "6.2 La nominalisation et les classes nominales",
+      "6.3 Le système verbal : temps, aspect, mode et voix",
+      "6.4 L'accord et la congruence grammaticale",
+      "6.5 Morphologie dérivationnelle vs flexionnelle"
+     ],
+     "exercices": [
+      "Conjuguer un verbe régulier à 6 temps/aspects différents.",
+      "Créer un système de 5 classes nominales avec leurs préfixes d'accord."
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Syntaxe et Ordre des Mots : L'Architecture de la Phrase",
+     "objectif": "Organiser les relations entre les mots et les propositions. (Calibration : ce chapitre visera 3500 mots avec des arbres syntaxiques simplifiés).",
+     "sections": [
+      "7.1 L'ordre de base (SVO, SOV, VSO, etc.) et ses variations",
+      "7.2 Alignement morphosyntaxique (accusatif, ergatif, scindé)",
+      "7.3 Les syntagmes et les têtes syntaxiques",
+      "7.4 Subordination, coordination et relativisation",
+      "7.5 L'omission (pro-drop) et les sujets nuls"
+     ],
+     "exercices": [
+      "Traduire 5 phrases complexes en utilisant l'ordre syntaxique choisi.",
+      "Définir la règle de formation des propositions relatives."
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Sémantique et Métaphores : Comment Pense le Locuteur",
+     "objectif": "Explorer le sens, la polysémie et les biais culturels. (Calibration : ce chapitre visera 3500 mots en s'appuyant sur les théories de Lakoff).",
+     "sections": [
+      "8.1 Champs sémantiques et prototypes",
+      "8.2 Métaphores conceptuelles culturelles",
+      "8.3 Polysémie et extension de sens",
+      "8.4 Les mots intraduisibles et les tabous linguistiques",
+      "8.5 Évolution sémantique (rétrécissement, élargissement, péjoration)"
+     ],
+     "exercices": [
+      "Inventer 3 métaphores conceptuelles uniques basées sur l'environnement du peuple.",
+      "Créer un mot polysémique avec au moins 4 sens distincts mais liés."
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Pragmatique et Discours : Parler selon le Contexte",
+     "objectif": "Gérer l'interaction sociale, la politesse et les actes de langage. (Calibration : ce chapitre visera 3500 mots en étudiant les systèmes honorifiques).",
+     "sections": [
+      "9.1 Actes de langage et performativité",
+      "9.2 Systèmes de politesse et honorifiques",
+      "9.3 Marqueurs discursifs et particules de phrase",
+      "9.4 L'implicite, l'ironie et le sarcasme",
+      "9.5 Les registres de langue (familier, soutenu, sacré)"
+     ],
+     "exercices": [
+      "Créer 5 particules discursives exprimant des émotions ou des certitudes.",
+      "Écrire un dialogue montrant le changement de registre entre un noble et un paysan."
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Dialectes et Sociolectes : La Langue dans la Société",
+     "objectif": "Diversifier la langue pour refléter la géographie et les classes sociales. (Calibration : ce chapitre visera 3500 mots avec des cartes dialectales fictives).",
+     "sections": [
+      "10.1 Isoglosses et variations régionales",
+      "10.2 Sociolectes, argot et langues secrètes",
+      "10.3 Diglossie et situations de contact linguistique",
+      "10.4 Pidgins et créoles fictifs",
+      "10.5 Standardisation et prescriptivisme"
+     ],
+     "exercices": [
+      "Créer un dialecte régional en modifiant 3 règles phonologiques de la langue standard.",
+      "Inventer 10 mots d'argot utilisés par une guilde de voleurs."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 : Le Grand Dictionnaire et l'Écriture",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "Méthodologie Lexicographique : Structurer le Dictionnaire",
+     "objectif": "Appliquer les standards professionnels pour créer un lexique fiable. (Calibration : ce chapitre visera 3500 mots avec des modèles d'entrées de dictionnaire).",
+     "sections": [
+      "11.1 L'anatomie d'une entrée de dictionnaire",
+      "11.2 Gérer les homonymes et les polysèmes",
+      "11.3 Les exemples d'usage et les collocations",
+      "11.4 Bases de données et outils numériques (Lexique, PolyGlot)",
+      "11.5 L'index inversé et les recherches par racines"
+     ],
+     "exercices": [
+      "Rédiger 5 entrées de dictionnaire complètes avec étymologie et exemples.",
+      "Configurer un tableur ou un logiciel dédié pour gérer votre base lexicale."
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Champs Lexicaux et Culture : Les Mots qui Comptent",
+     "objectif": "Développer le vocabulaire en priorité selon les besoins culturels. (Calibration : ce chapitre visera 3500 mots avec des listes de fréquence adaptées).",
+     "sections": [
+      "12.1 La liste de Swadesh et le vocabulaire de base",
+      "12.2 Le vocabulaire culturellement spécifique (flore, faune, tech)",
+      "12.3 Les mots-outils et les pronoms",
+      "12.4 La numération et les systèmes de comptage",
+      "12.5 Les kinship terms (systèmes de parenté)"
+     ],
+     "exercices": [
+      "Traduire les 50 premiers mots de la liste de Swadesh.",
+      "Créer un système de numération base-8 avec ses règles de composition."
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Dérivation et Composition : Multiplier le Vocabulaire",
+     "objectif": "Créer des mots complexes de manière logique et productive. (Calibration : ce chapitre visera 3500 mots en analysant les affixes dérivationnels).",
+     "sections": [
+      "13.1 Affixes dérivationnels (préfixes, suffixes, infixes)",
+      "13.2 La composition nominale et verbale",
+      "13.3 Conversion et changement de classe grammaticale",
+      "13.4 Les mots-valises et les acronymes fictifs",
+      "13.5 Productivité et limites de la dérivation"
+     ],
+     "exercices": [
+      "Créer 10 affixes dérivationnels (ex: -eur, -tion, anti-) et les tester.",
+      "Former 15 mots composés à partir de racines existantes."
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Systèmes d'Écriture : De l'API à l'Alphabet Fictif",
+     "objectif": "Concevoir une orthographe ou un système d'écriture visuel. (Calibration : ce chapitre visera 3500 mots avec une introduction à la calligraphie fictive).",
+     "sections": [
+      "14.1 Alphabets, abjads, abugidas et syllabaires",
+      "14.2 Logogrammes et systèmes mixtes",
+      "14.3 Orthographe profonde vs orthographe transparente",
+      "14.4 Diacritiques et ponctuation",
+      "14.5 Esthétique visuelle et contraintes de tracé"
+     ],
+     "exercices": [
+      "Créer une romanisation orthographique (alphabet latin adapté) pour votre conlang.",
+      "Dessiner les 10 premiers glyphes d'un syllabaire inspiré de l'environnement du peuple."
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Traduction et Localisation : Tester la Langue sur des Textes",
+     "objectif": "Confronter la langue à la réalité de la traduction littéraire et technique. (Calibration : ce chapitre visera 3500 mots avec des études de cas de traduction).",
+     "sections": [
+      "15.1 Le test de la Tour de Babel et du Père Noël",
+      "15.2 Traduire la poésie et les jeux de mots",
+      "15.3 Localisation de concepts modernes ou anachroniques",
+      "15.4 L'analyse des erreurs et les révisions grammaticales",
+      "15.5 Créer un corpus bilingue annoté"
+     ],
+     "exercices": [
+      "Traduire un conte court (ex: Le Petit Chaperon Rouge) dans votre conlang.",
+      "Analyser les lacunes lexicales rencontrées et créer les mots manquants."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 : La Voix Chantée et l'IA Musicale",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "Phonétique Chantée : Adapter la Langue à la Musique",
+     "objectif": "Comprendre les contraintes vocales du chant pour la conlang. (Calibration : ce chapitre visera 3500 mots en lien avec la technique vocale).",
+     "sections": [
+      "16.1 Résonance et formants : les voyelles dans les aigus",
+      "16.2 Consonnes percussives et legato vocalique",
+      "16.3 Adaptation de la prosodie à la mélodie",
+      "16.4 L'élision et la modification phonétique en chant",
+      "16.5 Exemples de langues réelles adaptées au chant lyrique"
+     ],
+     "exercices": [
+      "Modifier une phrase de votre conlang pour la rendre plus 'chantable' (voyelles ouvertes).",
+      "Composer une mélodie simple de 4 mesures et y adapter un vers en conlang."
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Poésie et Métrique : Les Formes Littéraires",
+     "objectif": "Définir les règles esthétiques de la poésie dans la conlang. (Calibration : ce chapitre visera 3500 mots en explorant les mètres et les rimes).",
+     "sections": [
+      "17.1 Allitération, assonance et rimes en conlang",
+      "17.2 Mètres syllabiques vs mètres accentuels",
+      "17.3 Formes fixes (haïku, sonnet, formes culturelles fictives)",
+      "17.4 Le rythme poétique et la césure",
+      "17.5 L'oralité et la tradition des bardes"
+     ],
+     "exercices": [
+      "Écrire un poème de 8 vers respectant un schéma de rimes croisées en conlang.",
+      "Inventer une forme poétique unique liée à un rituel de votre monde."
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Panorama des IA Musicales : Suno, Udio et les Autres",
+     "objectif": "Comprendre le fonctionnement et les limites des générateurs audio IA. (Calibration : ce chapitre visera 3500 mots. Note : Les outils d'IA évoluent de manière exponentielle ; ce chapitre se concentre sur les concepts pérennes).",
+     "sections": [
+      "18.1 Architecture des modèles de génération audio (Diffusion, Transformers)",
+      "18.2 Comparatif des plateformes actuelles (forces et faiblesses)",
+      "18.3 Les limites de l'IA : hallucinations phonétiques et artefacts",
+      "18.4 Droits d'auteur, éthique et utilisation commerciale",
+      "18.5 Préparer son environnement de travail (DAW et stems)"
+     ],
+     "exercices": [
+      "Tester 3 plateformes d'IA musicale avec le même prompt instrumental pour comparer.",
+      "Identifier les artefacts audio récurrents générés par l'IA sur un échantillon test."
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Prompting Audio et Phonétique : Guider l'IA",
+     "objectif": "Maîtriser l'art du prompt pour faire chanter l'IA dans votre conlang. (Calibration : ce chapitre visera 3500 mots avec des templates de prompts).",
+     "sections": [
+      "19.1 La structure d'un prompt musical efficace",
+      "19.2 Utiliser l'API et la phonétique approximative pour l'IA",
+      "19.3 Balises méta (Meta-tags) pour diriger la structure (Verse, Chorus)",
+      "19.4 Gérer les langues inventées : astuces et contournements",
+      "19.5 Itération : prolonger, étendre et corriger les générations"
+     ],
+     "exercices": [
+      "Rédiger 5 prompts différents pour générer le même refrain en conlang.",
+      "Utiliser des balises méta pour forcer l'IA à respecter une structure couplet-refrain."
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Composition et Arrangement : Assembler les Pistes",
+     "objectif": "Intégrer les voix générées en conlang dans une production musicale complète. (Calibration : ce chapitre visera 3500 mots sur le mixage et l'arrangement).",
+     "sections": [
+      "20.1 Extraire et nettoyer les stems vocaux de l'IA",
+      "20.2 Synchronisation rythmique et calage temporel",
+      "20.3 Arrangement : laisser la place à la langue fictive",
+      "20.4 Effets spatiaux et traitement de la voix conlang",
+      "20.5 Mastering et exportation de l'œuvre finale"
+     ],
+     "exercices": [
+      "Isoler la piste vocale d'une génération IA et la placer sur une base instrumentale.",
+      "Appliquer une chaîne d'effets (EQ, Reverb) pour intégrer la voix dans le mix."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 : Carnet d'Expérimentation et Tests",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Le Journal de Bord du Conlanger : Méthode de Test",
+     "objectif": "Mettre en place un système d'évaluation et d'itération de la langue. (Calibration : ce chapitre visera 3500 mots avec des grilles d'évaluation).",
+     "sections": [
+      "21.1 L'importance de la documentation et du versionning",
+      "21.2 Tests de prononciation avec des locuteurs natifs (humains)",
+      "21.3 Évaluer la cohérence interne et la complexité",
+      "21.4 Gérer le syndrome de la page blanche lexicale",
+      "21.5 Rejoindre et interagir avec la communauté conlang"
+     ],
+     "exercices": [
+      "Faire lire un texte en conlang à un ami et noter ses difficultés phonétiques.",
+      "Remplir une grille d'auto-évaluation de la cohérence grammaticale."
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Atelier Chanson 1 : La Ballade (Œuvre Lente et Émotive)",
+     "objectif": "Réaliser un projet musical complet de A à Z, étape par étape. (Calibration : ce chapitre visera 3500 mots en détaillant le making-of).",
+     "sections": [
+      "22.1 Conceptualisation : thème, émotion et choix du tempo",
+      "22.2 Écriture des paroles : privilégier les voyelles et le legato",
+      "22.3 Prompting IA : générer la base et la voix",
+      "22.4 Correction et réenregistrement partiel",
+      "22.5 Mixage final et packaging de la ballade"
+     ],
+     "exercices": [
+      "Écrire les paroles complètes d'une ballade de 3 minutes en conlang.",
+      "Générer et sélectionner la meilleure prise vocale IA pour ce morceau."
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Atelier Chanson 2 : Le Rythme (Œuvre Rapide et Percussive)",
+     "objectif": "Tester les limites phonotactiques de la langue sur un tempo élevé. (Calibration : ce chapitre visera 3500 mots avec des focus sur le flow et le rythme).",
+     "sections": [
+      "23.1 Le défi du débit syllabique rapide en conlang",
+      "23.2 Écriture : consonnes percussives et rimes internes",
+      "23.3 Prompting IA pour les genres rythmiques (Rap, Metal, EDM)",
+      "23.4 Gérer les artefacts de diction de l'IA sur les tempos rapides",
+      "23.5 Intégration des chœurs et des réponses rythmiques"
+     ],
+     "exercices": [
+      "Écrire un couplet de 16 mesures axé sur la percussion consonantique.",
+      "Utiliser l'IA pour générer un beat et caler manuellement les syllabes dessus."
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Le Futur de la Conlang et de l'IA : Perspectives",
+     "objectif": "Anticiper les évolutions technologiques et conclure le manuel. (Calibration : ce chapitre visera 3500 mots en ouvrant sur la veille technologique).",
+     "sections": [
+      "24.1 Vers des modèles IA multilingues incluant les conlangs",
+      "24.2 La synthèse vocale temps réel et le doublage IA",
+      "24.3 L'impact de la réalité virtuelle sur les langues fictives",
+      "24.4 Construire une base de données open-source de sa langue",
+      "24.5 Conclusion : la langue comme œuvre d'art vivante"
+     ],
+     "exercices": [
+      "Rédiger un manifeste d'une page sur la philosophie de votre langue inventée.",
+      "Planifier une routine de veille technologique mensuelle sur les outils d'IA audio."
+     ]
+    }
+   ]
+  }
+ ]
+}
