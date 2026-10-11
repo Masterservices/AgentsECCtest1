@@ -1,0 +1,626 @@
+{
+ "titre": "Cultiver la rentabilité durable",
+ "sous_titre": "Techniques et modèles d'affaires pour développer une exploitation agricole rentable et respectueuse de l'environnement",
+ "bibliographie": [
+  {
+   "auteur": "Francis Chaboussou",
+   "titre": "Les plantes cultivées malades des pesticides : les pesticides réduisent la résistance des plantes aux maladies",
+   "annee": "1987",
+   "idee": "La résistance trophique montre qu'un sol vivant et des plantes nourries rendent les cultures plus robustes, contrairement aux intrants chimiques qui créent la vulnérabilité.",
+   "apport": "Fondement agronomique de notre approche : la santé du sol comme levier de rentabilité et de réduction des coûts d'intrants."
+  },
+  {
+   "auteur": "Pierre Rabhi",
+   "titre": "Vers la sobriété heureuse",
+   "annee": "2010",
+   "idee": "La sobriété choisie, combinée à l'autonomie nourricière, peut améliorer le bien-être tout en réduisant l'empreinte écologique des modes de production.",
+   "apport": "Cadre éthique et philosophique : articuler modèle économique rural, limites planétaires et dignité du travail agricole."
+  },
+  {
+   "auteur": "Allan Savory",
+   "titre": "Holistic Management: A Commonsense Revolution to Restore Our Environment",
+   "annee": "1988 (édition revue 2016)",
+   "idee": "La gestion holistique et le pâturage tournant intensif régénèrent les prairies dégradées et améliorent la productivité des élevages.",
+   "apport": "Inspiration pour les modèles d'élevage en rotation, le cycle de décision holistique et la mesure des indicateurs de terre."
+  },
+  {
+   "auteur": "Joel Salatin",
+   "titre": "You Can Farm: The Entrepreneur's Guide to Rentable Farming",
+   "annee": "1993",
+   "idee": "L'agriculture est un métier d'entrepreneur : avec peu de capital, une niche claire et un service client irréprochable, une petite ferme peut prospérer.",
+   "apport": "Approche micro-entreprise, réduction des charges, vente directe et culture d'une clientèle fidèle."
+  },
+  {
+   "auteur": "Joel Salatin",
+   "titre": "Salad Bar Beef",
+   "annee": "1996",
+   "idee": "L'élevage en pré « barre libre », basé sur l'herbe pâturée en rotation, diminue drastiquement les coûts et améliore la qualité de la viande.",
+   "apport": "Modèle concret d'élevage herbager à haute valeur ajoutée, applicable en climat méditerranéen et tempéré."
+  },
+  {
+   "auteur": "Gabe Brown",
+   "titre": "Dirt to Soil: One Family's Journey into Regenerative Agriculture",
+   "annee": "2018",
+   "idee": "En couvrant les sols, diversifiant les rotations et intégrant le bétail, la ferme Brown a triplé ses marges tout en restaurant la vie du sol.",
+   "apport": "Étude de cas régénérative : indicateurs économiques (marge par acre) et techniques (non-labour, couverts végétaux, polyculture-élevage)."
+  },
+  {
+   "auteur": "David Holmgren",
+   "titre": "Permaculture: Principles and Pathways Beyond Sustainability",
+   "annee": "2002",
+   "idee": "Douze principes de conception (observation, énergie stockée, production de biomass, etc.) guident des systèmes agricoles autonomes et résilients.",
+   "apport": "Grille de conception des fermes : zonage, cascade d'énergie, éléments multifonctionnels au service du business plan."
+  },
+  {
+   "auteur": "Bill Mollison",
+   "titre": "Permaculture: A Designer's Manual",
+   "annee": "1988",
+   "idee": "Le manuel fondateur de la permaculture détaille la conception de systèmes vivants auto-entretenus, de la ferme au village.",
+   "apport": "Boîte à outils de conception (zones, secteurs, sols, eau) utilisée dans nos plans d'aménagement progressif d'exploitation."
+  },
+  {
+   "auteur": "Wendell Berry",
+   "titre": "The Unsettling of America: Culture and Agriculture",
+   "annee": "1977",
+   "idee": "L'industrialisation de l'agriculture a appauvri les communautés rurales ; une agriculture à l'échelle humaine reconstruit soins du sol et lien social.",
+   "apport": "Critique constructive de l'agro-industrie et plaidoyer pour des modèles d'exploitation encastrés dans leur territoire."
+  },
+  {
+   "auteur": "Janine Benyus",
+   "titre": "Biomimicry: Innovation Inspired by Nature",
+   "annee": "1997",
+   "idee": "Innover en s'inspirant des stratégies des écosystèmes : fermeture des cycles, énergie solaire, zéro déchet.",
+   "apport": "Outil d'innovation produits et process : concevoir des systèmes agricoles qui imitent la forêt ou la prairie."
+  },
+  {
+   "auteur": "Paul Hawken (dir.)",
+   "titre": "Drawdown: The Most Comprehensive Plan Ever Proposed to Reverse Global Warming",
+   "annee": "2017",
+   "idee": "100 solutions pour réduire les gaz à effet de serre, dont plusieurs agricoles (agroécologie, compost, pâturage manage, cultures de cover).",
+   "apport": "Chiffrage des leviers climat de l'agriculture régénérative comme argument de marché et de finance."
+  },
+  {
+   "auteur": "E.F. Schumacher",
+   "titre": "Small is Beautiful: Economics as if People Mattered",
+   "annee": "1973",
+   "idee": "Une économie à taille humaine, axée sur les ressources renouvelables et le travail qualifié, est plus résiliente que la course à la méga-échelle.",
+   "apport": "Justification théorique des modèles d'exploitation moyenne et diversifiée face à l'ultra-échelle industrielle."
+  },
+  {
+   "auteur": "Vandana Shiva",
+   "titre": "Monocultures of the Mind: Perspectives on Biodiversity and Biotechnology",
+   "annee": "1993",
+   "idee": "La monoculture intellectuelle et agricole appauvrit les savoirs et les écosystèmes ; la diversité est la clé de la sécurité alimentaire.",
+   "apport": "Analyse des risques du monoculture d'affaires (un produit, un client, un débouché) et valorisation de la diversification."
+  },
+  {
+   "auteur": "Ernest Small",
+   "titre": "Sustainable Agriculture and Food Security",
+   "annee": "2000",
+   "idee": "L'agriculture durable intègre dimensions productives, économiques, sociales et environnementales dans une perspective de sécurité alimentaire mondiale.",
+   "apport": "Cadre systémique multi-critères utilisé pour nos tableaux de bord de durabilité d'exploitation."
+  },
+  {
+   "auteur": "Severine von Tscharner Fleming",
+   "titre": "The Greenhorns: The Next Generation of American Farmers",
+   "annee": "2011",
+   "idee": "Recueil de pratiques et de récits de jeunes agriculteurs et agricultrices qui réinventent l'accès à la terre, le financement et les réseaux.",
+   "apport": "Témoignages et modèles de transmission, de bail, de CSA et de communauté d'entraide pour l'installation."
+  },
+  {
+   "auteur": "INRAE (collectif)",
+   "titre": "L'agroécologie à l'INRA : Bilan et perspectives",
+   "annee": "2019",
+   "idee": "Synthèse scientifique française sur les leviers agroécologiques : allongement des rotations, réduction des intrants, économie de ressources.",
+   "apport": "Base scientifique francophone pour les prescriptions techniques et la mesure agronomique."
+  },
+  {
+   "auteur": "IPES-Food",
+   "titre": "From Uniformity to Diversity: A Deep Transition to Diversified Agroecological Systems",
+   "annee": "2016",
+   "idee": "Le système alimentaire industriel repose sur l'uniformité ; la transition vers des systèmes diversifiés est la voie vers la résilience.",
+   "apport": "Argumentaire macro et micro : passage de l'uniformité à la diversification comme stratégie d'affaires."
+  },
+  {
+   "auteur": "Hervé Gardès (dir.)",
+   "titre": "La permaculture : mode d'emploi",
+   "annee": "2016",
+   "idee": "Ouvrage pratique francophone présentant les principes et outils de la permaculture appliqués au jardin, à la ferme et au quotidien.",
+   "apport": "Traduction pédagogique des principes de conception pour un lectorat francophone non spécialiste."
+  },
+  {
+   "auteur": "Mike Berners-Lee",
+   "titre": "How Bad Are Bananas? The Carbon Footprint of Everything",
+   "annee": "2010",
+   "idee": "Mesurer l'empreinte carbone réelle des produits alimentaires révèle l'importance du transport, de l'emballage et du mode de production.",
+   "apport": "Méthode simple de calcul d'empreinte pour construire des arguments de vente et optimiser la logistique."
+  },
+  {
+   "auteur": "André Pochet",
+   "titre": "Agroécologie, agriculture et société",
+   "annee": "2013",
+   "idee": "L'agroécologie relie savoirs scientifiques, pratiques paysannes et transformation des rapports sociaux autour de l'alimentation.",
+   "apport": "Ancrage conceptuel francophone et articulation avec les modèles coopératifs et territoriaux."
+  },
+  {
+   "auteur": "FAO",
+   "titre": "Save and Grow: A policymaker's guide to the sustainable intensification of smallholder crop production",
+   "annee": "2011",
+   "idee": "L'intensification durable combine génétique, gestion écosystémique et économie des ressources pour produire plus avec moins.",
+   "apport": "Cadre d'intensification écologique appliqué à nos fiches techniques par grande culture et maraîchage."
+  },
+  {
+   "auteur": "Leah Gardiner et Todd Scott (dir.)",
+   "titre": "The New Organic Grower / Eliot Coleman (référence complémentaire)",
+   "annee": "1989 (éditions révisées 1995, 2018)",
+   "idee": "Eliot Coleman démontre que l'agriculture biologique peut être productive, profitable et écologique grâce à la rotation, au compost et à la saisonnalité maîtrisée.",
+   "apport": "Techniques de maraîchage biologique haute-productivité et gestion des marchés hors saison."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 — Comprendre les enjeux : pourquoi réinventer le modèle agricole",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'agriculture face à ses triple défis : climat, sols, rentabilité",
+     "objectif": "Prendre la mesure des pressions économiques, environnementales et climatiques qui fragilisent les exploitations, et comprendre comment elles ouvrent de nouvelles opportunités d'affaires.",
+     "sections": [
+      "Bilan honnête du modèle productiviste : gains, coûts cachés, dette",
+      "Crises du climat, de la biodiversité et de la fertilité des sols",
+      "Le prix des intrants et la volatilité des marchés : la marge sous pression",
+      "Cas concrets : trajectoires de fermes confrontées aux chocs (sécheresse, maladie, cours)",
+      "Opportunités de marché de l'agriculture écologiquement intensive",
+      "Définir sa vision d'exploitation : production, profit, paysage, transmission"
+     ],
+     "exercices": [
+      "Cartographier les risques principaux de son exploitation ou de son projet (matrice impact/probabilité)",
+      "Rédiger une vision en une phrase : ce que l'exploitation produit, pour qui, et à quel prix pour la planète",
+      "Tenir un journal de bord des coûts d'intrants sur 12 mois pour identifier les postes de gaspillage"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Agroécologie et économie : les preuves du terrain",
+     "objectif": "Démontrer, à l'appui de cas documentés, que les systèmes agroécologiques peuvent être au moins aussi rentables que les systèmes intensifs classiques, à l'échelle de l'exploitation.",
+     "sections": [
+      "Qu'est-ce que l'agroécologie ? Du concept scientifique à la pratique d'exploitation",
+      "Étude de cas : régénération des sols et marges en polyculture-élevage (inspirée des modèles Brown, Savory)",
+      "Étude de cas : maraîchage biologique diversifié et vente directe (Coleman, Salatin)",
+      "Mesurer la rentabilité autrement : coût par calorie, valeur ajoutée par m², marge horaire",
+      "Les freins psychologiques et culturels à la transition",
+      "Construire son tableau de bord des indicateurs sociaux-écologiques-économiques"
+     ],
+     "exercices": [
+      "Comparer marge nette, dette et satisfaction professionnelle de deux modèles fictifs d'exploitation",
+      "Lister 5 convictions sur l'agriculture « qui marche » et chercher une contre-preuve scientifique pour chacune",
+      "Créer un tableau de bord personnel avec 3 indicateurs économiques, 2 agronomiques et 1 social"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Anatomie d'une ferme-affaire : les 7 actifs de valeur",
+     "objectif": "Apprendre à voir l'exploitation comme un ensemble d'actifs (sol, eau, savoir-faire, clients, marques, biodiversité, capital humain) interdépendants, et non comme une simple addition de parcelles et de matériel.",
+     "sections": [
+      "Le sol comme capital productif amortissable ou dilapidé",
+      "L'eau : ressource stratégique, infrastructure de résilience",
+      "Le capital savoir-faire : techniques, gestion, relation client",
+      "La biodiversité comme assurance et comme argument de valeur",
+      "Le capital relationnel : clients, voisins, collectivités, circuits courts",
+      "Le matériel, les bâtiments et le foncier : immobiliser ou mutualiser ?",
+      "Diagnostic « 7 actifs » d'une exploitation réelle (cas fil rouge)"
+     ],
+     "exercices": [
+      "Évaluer chaque actif de son exploitation (ou de son projet) sur une échelle de 1 à 5",
+      "Identifier l'actif le plus délaissé et concevoir un plan d'action sur 6 mois pour le valoriser",
+      "Rechercher une mutualisation possible (matériel, bâtiment, transport) avec un autre acteur local"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Cadre éthique et réglementaire : produire sans détruire ni se détruire",
+     "objectif": "Poser les bases éthiques et connaître le cadre réglementaire général (sans conseil juridique personnalisé) pour bâtir un modèle d'exploitation durable et légitime auprès des clients, des voisins et des financeurs.",
+     "sections": [
+      "Sobriété heureuse et dignité du travail agricole : repères de Pierre Rabhi et Wendell Berry",
+      "Limites planétaires et responsabilité intergénérationnelle",
+      "Labels et certifications : bio, HVE, AOP, labels privés — coûts, bénéfices, limites",
+      "Droits et devoirs de base : eau, pesticides, bien-être animal, travail (rappels généraux)",
+      "Éviter le greenwashing : transparence, preuves, storytelling honnête",
+      "Construire une charte éthique d'exploitation"
+     ],
+     "exercices": [
+      "Rédiger une charte éthique personnelle en 10 engagements pour son exploitation",
+      "Analyser deux certifications et décider laquelle (ou aucune) est la plus cohérente avec son modèle",
+      "Rédiger une page « transparence » destinée aux clients, expliquant pratiques, limites et progrès"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 — Diagnostiquer et concevoir son modèle",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Audit complet de l'exploitation : terres, ressources, forces, faiblesses",
+     "objectif": "Réaliser un diagnostic méthodique et honnête de l'exploitation existante ou du projet, en croisant données techniques, financières et humaines.",
+     "sections": [
+      "Audit pédologique et cartographie des sols de l'exploitation",
+      "Inventaire des ressources en eau et des infrastructures",
+      "Analyse des cultures et élevages présents : rotations, charges, marges",
+      "Audit du capital humain : compétences, charge de travail, bien-être",
+      "Matrice SWOT appliquée à l'exploitation",
+      "Mesure de l'autonomie : engrais, énergie, semences, main-d'œuvre, débouchés"
+     ],
+     "exercices": [
+      "Réaliser une carte des sols et des parcelles annotée (zones humides, talus, ombre, accès)",
+      "Calculer le taux d'autonomie en intrants et en énergie de l'exploitation",
+      "Compléter une SWOT en interrogeant au moins deux personnes extérieures à l'exploitation"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Choisir son positionnement : spécialisation, diversification, niche",
+     "objectif": "Définir le positionnement stratégique le plus cohérent : exploitation spécialisée performante, diversifiée résiliente, ou niche à forte valeur ajoutée.",
+     "sections": [
+      "Les trois archétypes de fermes durables : spécialiste, diversifié, écotouristique/éducatif",
+      "Analyse des marchés locaux : demande, prix, saisons, concurrents",
+      "Identifier une niche : terroir, race ancienne, pratique agricole, public cible",
+      "Éviter la dispersion : la règle du « peu de produits, beaucoup de valeur »",
+      "Cas fil rouge : choix de positionnement d'une exploitation fictive type",
+      "Scénarios de croissance : croître en volume, en prix, ou en services"
+     ],
+     "exercices": [
+      "Réaliser une étude de marché simple sur 10 km autour de l'exploitation",
+      "Choisir un positionnement et justifier en une page pourquoi il est viable",
+      "Lister 3 produits ou services à abandonner et 3 à développer"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Conception permaculturelle et régénérative de la ferme",
+     "objectif": "Appliquer les principes de permaculture et de design régénératif pour organiser physiquement l'exploitation en vue de réduire les coûts, d'augmenter la résilience et de créer de nouvelles sources de revenus.",
+     "sections": [
+      "Les 12 principes de permaculture appliqués à l'exploitation (Holmgren)",
+      "Zonage : organiser les activités selon la fréquence d'usage",
+      "Secteurs : vent, soleil, eau, risques",
+      "Conception des systèmes d'eau : récupération, irrigation, zones humides",
+      "Intégration élevage-végétal : le bétail comme moteur de fertilité",
+      "Plan d'aménagement progressif sur 5 ans (sans immobilisation totale)"
+     ],
+     "exercices": [
+      "Dessiner un zonage en 5 zones de son exploitation ou de son terrain projet",
+      "Concevoir un système de récupération d'eau pluviale dimensionné pour un besoin précis",
+      "Rédiger un plan d'aménagement progressif : année 1, 2, 3, 5"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Business plan agricole : le plan à 3 ans, mois par mois",
+     "objectif": "Construire un business plan clair, réaliste et itératif, adapté aux contraintes biologiques et saisonnières de l'agriculture.",
+     "sections": [
+      "Hypothèses de production : rendements, charges, prix de vente réalistes",
+      "Compte de résultat prévisionnel simplifié sur 3 ans",
+      "Plan de trésorerie saisonnier : les creux d'entrée de cash",
+      "Investissements : neuf, occasion, location, matériel partagé",
+      "Seuils de rentabilité et point mort par produit",
+      "Scénarios optimiste, prudent, catastrophe",
+      "Outils numériques utiles et limites du tableur"
+     ],
+     "exercices": [
+      "Construire un compte de résultat prévisionnel pour 3 produits ou activités",
+      "Calculer le point mort en volume et en CA pour l'activité principale",
+      "Élaborer un plan de trésorerie sur 12 mois avec identification des 2 mois critiques"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 — Maîtriser les techniques agroécologiques rentables",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Fertilité vivante : sols, compost, couverts, engrais verts",
+     "objectif": "Maîtriser les leviers de fertilité biologique qui réduisent durablement les coûts d'intrants tout en maintenant ou augmentant les rendements.",
+     "sections": [
+      "Comprendre le vivant du sol : mycorhizes, bactéries, vers, structure",
+      "Analyse de sol et programmes de fertilité sans excès chimique",
+      "Compost de ferme, vermicompost, liquides : coûts et rendement agronomique",
+      "Couverts végétaux et engrais verts : techniques, coûts, bénéfices",
+      "Non-labour et travail simplifié du sol : opportunités et prudence",
+      "Réduire les achats d'intrants sans sacrifier la récolte : plan sur 3 ans"
+     ],
+     "exercices": [
+      "Faire analyser un sol et interpréter les résultats avec une grille simple",
+      "Concevoir un calendrier d'engrais verts et couverts pour l'année culturale",
+      "Chiffrer le coût de production d'une tonne de compost maison vs achat"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Diversification des cultures et rotations intelligentes",
+     "objectif": "Concevoir des rotations et des assemblages de cultures qui stabilisent les revenus, réduisent les maladies et améliorent la commercialisation.",
+     "sections": [
+      "Pourquoi la monoculture est un risque économique autant qu'écologique",
+      "Construire une rotation 4 à 7 ans : logique, planification, marges",
+      "Polyculture et associations : complémentarités, obstacles, preuves",
+      "Maraîchage diversifié : 40 cultures, un calendrier, plusieurs marchés",
+      "Gestion du risque sanitaire sans pesticides de synthèse",
+      "Planification de la diversification : commencer petit, évaluer, étendre"
+     ],
+     "exercices": [
+      "Dessiner une rotation de 5 ans pour chaque grande parcelle de l'exploitation",
+      "Choisir 3 nouvelles cultures de diversification et chiffrer leur rentabilité potentielle",
+      "Élaborer un plan anti-risque : quoi produire si 20 % des cultures échouent"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Élevage régénératif et gestion des prairies",
+     "objectif": "Intégrer ou optimiser un élevage herbager en rotation pour créer de la valeur, nourrir le sol et réduire les coûts alimentaires.",
+     "sections": [
+      "Pâturage tournant intensif : principes Savory et applications locales",
+      "Densité, durée, repos : règles de base du manage des pâtures",
+      "Bien-être animal comme moteur de qualité et d'image",
+      "Élevage porcin, volaille, petits ruminants en système fermé",
+      "Équations économiques de l'élevage herbager : coûts, prix, marges",
+      "Lisier et fumier : ressource et non déchet"
+     ],
+     "exercices": [
+      "Concevoir un schéma de rotation d'un troupeau sur 10 parcelles avec calendrier de repos",
+      "Calculer le coût de production d'un kg de viande ou d'un litre de lait en système herbe",
+      "Planifier un parcellaire d'intégration culture-élevage pour l'année prochaine"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Gestion de l'eau, de l'énergie et des ressources matérielles",
+     "objectif": "Optimiser l'usage de l'eau et de l'énergie, réduire la dépendance aux énergies fossiles, et transformer les « déchets » d'exploitation en ressources.",
+     "sections": [
+      "Diagnostic énergétique de l'exploitation",
+      "Irrigation raisonnée : goutte-à-goutte, paillage, sécheresse, priorisation des cultures",
+      "Récupération et stockage de l'eau : coûts, réglementation générale, bénéfices",
+      "Énergies renouvelables sur la ferme : solaire, méthanisation à petite échelle",
+      "Circuits courts des matières : réemploi, mutualisation, réparation",
+      "Gestion des déchets organiques et valorisation des sous-produits"
+     ],
+     "exercices": [
+      "Réaliser un audit énergétique simplifié et identifier 3 économies possibles",
+      "Concevoir un schéma d'irrigation optimisé pour une serre ou une parcelle maraîchère",
+      "Identifier 3 sous-produits actuellement gaspillés et trouver un débouché pour chacun"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 — Modèles économiques et gestion financière",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Vente directe et circuits courts : le cœur de la marge",
+     "objectif": "Bâtir un modèle de commercialisation en circuit court qui capte la juste valeur du travail agricole tout en restant simple à gérer.",
+     "sections": [
+      "Pourquoi la vente directe augmente la marge : économie sur les intermédiaires",
+      "Marchés de producteurs, AMAP, paniers, drive fermier, stands : comparatif",
+      "Fixer ses prix : méthode coût + temps + valeur perçue",
+      "Fidélisation : qualité, régularité, accueil, storytelling",
+      "Gestion de la saisonnalité de l'offre et de la demande",
+      "Mutualiser la logistique et les points de vente entre fermes"
+     ],
+     "exercices": [
+      "Calculer le prix de vente direct optimal pour 3 produits",
+      "Construire une grille d'offre annuelle (paniers, marchés, subventions) sur 12 mois",
+      "Élaborer un plan de fidélisation avec 3 actions concrètes"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "AMAP, CSA, coopératives : modèles collectifs de commercialisation",
+     "objectif": "Explorer les modèles d'organisation collective qui sécurisent les débouchés et mutualisent les risques, tout en en identifiant les limites.",
+     "sections": [
+      "AMAP et CSA : principes, engagement mutuel, prix, gouvernance",
+      "Construire une AMAP de A à Z : adhésion, calendrier, gestion des aléas",
+      "Coopératives de producteurs : forces, faiblesses, démocratie économique",
+      "Groupements de producteurs pour la grande distribution ou la restauration",
+      "Plateformes en ligne et abonnements numériques",
+      "Études de cas : collectifs qui ont réussi et collectifs qui ont échoué"
+     ],
+     "exercices": [
+      "Rédiger une fiche de présentation d'un projet AMAP (offre, prix, valeurs, règles)",
+      "Analyser un cas de coopérative et identifier 2 facteurs clés de succès",
+      "Identifier 5 fermes potentiellement partenaires et lister les synergies possibles"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Transformation, marque et valeur ajoutée",
+     "objectif": "Créer de la valeur en transformant partiellement les produits, en construisant une identité de marque forte et en maîtrisant les marges de la transformation.",
+     "sections": [
+      "Transformation à la ferme : quand est-ce rentable, quand est-ce un piège ?",
+      "Réglementation générale de la transformation artisanale (rappels, sans conseil personnalisé)",
+      "Construire une marque : nom, histoire, identité visuelle, promesse",
+      "Étiquetage, design, packaging : le premier vendeur silencieux",
+      "Gestion des coûts de transformation et des pertes",
+      "Diversification des formats : sec, frais, surgelé, coffrets cadeaux"
+     ],
+     "exercices": [
+      "Chiffrer le coût unitaire de transformation d'un produit simple (ex. confiture, herbes séchées)",
+      "Rédiger une charte de marque : nom, promesse, ton de voix, valeurs",
+      "Concevoir 3 produits à forte valeur ajoutée à partir de la surproduction existante"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Finances d'exploitation : trésorerie, subventions, investissements",
+     "objectif": "Sécuriser la santé financière de l'exploitation : pilotage de la trésorerie, recherche de financements adaptés, arbitrages d'investissement.",
+     "sections": [
+      "Les trois tableaux essentiels : résultat, bilan, trésorerie",
+      "Gérer les délais de paiement et les avances de saison",
+      "Subventions PAC, régionales, environnementales : s'y repérer (cadre général)",
+      "Financements alternatifs : crowdfunding agricole, bail à construction, capital-risque vert",
+      "Arbitrages : investir, louer, mutualiser, attendre",
+      "Construire une réserve de sécurité pour traverser les mauvaises années"
+     ],
+     "exercices": [
+      "Établir un tableau de trésorerie prévisionnel glissant sur 12 mois",
+      "Identifier 3 financements ou aides potentielles pour son projet et noter les critères",
+      "Calculer le TRI simplifié d'un investissement matériel (achat vs location)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 — Développer l'activité et la clientèle",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Marketing honnête de la ferme : raconter sans mentir",
+     "objectif": "Développer une stratégie de communication authentique qui attire et fidélise une clientèle sensible aux enjeux écologiques et sociaux.",
+     "sections": [
+      "Connaître son client : motivations, freins, objections réelles",
+      "Storytelling agricole : montrer le travail, les choix, les limites",
+      "Photographie, vidéo, réseaux sociaux : outils simples et régularité",
+      "Site web, newsletter, fiche Google : présence minimale efficace",
+      "Gérer les attentes excessives (« tout bio, tout parfait »)",
+      "Crises de réputation : rappel produit, mauvaise météo, avis négatifs"
+     ],
+     "exercices": [
+      "Rédiger la « page à propos » de son exploitation en 300 mots",
+      "Planifier 4 semaines de contenus pour un réseau social",
+      "Préparer un kit de communication pour une crise type (rappel, rupture d'approvisionnement)"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Services complémentaires : agritourisme, éducation, diversification",
+     "objectif": "Diversifier intelligemment les revenus par des activités de service, d'accueil et de pédagogie, sans diluer le cœur de métier agricole.",
+     "sections": [
+      "Principe : le service doit soutenir, jamais remplacer, le métier de producteur",
+      "Agritourisme : gîtes, cueillettes, pâturages pédagogiques, soirées à la ferme",
+      "Ateliers, visites scolaires, formations : organisation et tarification",
+      "Vente d'expériences : paniers découverte, abonnements immersifs",
+      "Partenariats avec collectivités, entreprises, associations",
+      "Charge mentale et limites : quand dire non"
+     ],
+     "exercices": [
+      "Concevoir une offre d'agritourisme pour une saison : programme, prix, capacité",
+      "Calculer le seuil de rentabilité d'un atelier pédagogique (temps inclus)",
+      "Choisir 2 activités à développer et 2 à abandonner pour protéger la charge de travail"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Numérique au service de la ferme : outils, données, automatisation",
+     "objectif": "Utiliser le numérique avec discernement pour améliorer la gestion, la traçabilité et la productivité, sans dépendance excessive ni coûts disproportionnés.",
+     "sections": [
+      "Outils de gestion : comptabilité, stock, planning des cultures",
+      "Géolocalisation et agriculture de précision : pour qui, à quel coût ?",
+      "Capteurs, drones, robots : promesses et réalité pour les TPE/PME agricoles",
+      "Vente en ligne et logistique du dernier kilomètre",
+      "Protection des données et souveraineté numérique",
+      "Prioriser : l'outil qui fait gagner du temps vs l'outil qui fait joli"
+     ],
+     "exercices": [
+      "Auditer les 5 outils numériques actuels et supprimer un inutile",
+      "Choisir et paramétrer un outil de suivi de production simple",
+      "Étudier la faisabilité d'un service de livraison à domicile mutualisé"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Partenariats territoriaux et circuits d'approvisionnement local",
+     "objectif": "Construire un écosystème local de partenaires (restaurateurs, collectivités, épiceries, associations) qui stabilise les débouchés et ancre la ferme dans son territoire.",
+     "sections": [
+      "Cartographie des acteurs locaux de l'alimentation",
+      "Vendre aux restaurateurs : qualité, régularité, prix, relation",
+      "Marchés publics et cantines : opportunités, contraintes, saisonnalité",
+      "Circuits courts et logistique partagée",
+      "Tourisme durable et circuits mixtes (agri + patrimoine)",
+      "Construire un comité de soutien local : mécénat de proximité, CSA d'entreprise"
+     ],
+     "exercices": [
+      "Lister 20 partenaires potentiels et prioriser les 5 plus accessibles",
+      "Préparer une offre commerciale pour 3 restaurateurs ou 1 collectivité",
+      "Concevoir un projet de logistique partagée avec 2 autres fermes"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 6 — Résilience, transmission et vision long terme",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Résilience climatique et gestion des aléas",
+     "objectif": "Anticiper et absorber les chocs climatiques, sanitaires et économiques grâce à des stratégies proactives de diversification et de préparation.",
+     "sections": [
+      "Cartographie des risques spécifiques à la région (sécheresse, gel, inondation, maladie)",
+      "Assurances agricoles : principes généraux, limites, stratégies complémentaires",
+      "Construire des réserves : eau, fourrage, trésorerie, semences",
+      "Plan de continuité d'activité après un choc",
+      "Communauté de soutien : entraide entre fermes, filets sociaux",
+      "Retours d'expérience après crises récentes"
+     ],
+     "exercices": [
+      "Rédiger un plan d'urgence pour un scénario de sécheresse de 2 mois",
+      "Évaluer ses réserves physiques et financières actuelles",
+      "Identifier 3 améliorations de résilience à mettre en œuvre avant la prochaine saison"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Bien-être, équipe et gouvernance de l'exploitation",
+     "objectif": "Protéger la santé physique et mentale des exploitants et bâtir une gouvernance claire, y compris en exploitation familiale ou associative.",
+     "sections": [
+      "Surmenage agricole : reconnaître les signaux, agir tôt",
+      "Organisation du travail, saisonnalité, repos planifié",
+      "Recruter, former, fidéliser : alternants, stagiaires, saisonniers",
+      "Exploitation familiale : rôles, conflits, transmission orale des savoirs",
+      "Passage en association, SARL agricole, GAEC : repères généraux",
+      "Décider ensemble : outils de gouvernance simple"
+     ],
+     "exercices": [
+      "Évaluer sa charge de travail réelle sur 4 semaines et repérer le surmenage",
+      "Rédiger une fiche de poste pour un poste clé de l'exploitation",
+      "Organiser une réunion de gouvernance avec un ordre du jour structuré"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Transmission, installation et reprise d'exploitation",
+     "objectif": "Préparer la transmission ou l'installation avec méthode, en sécurisant le foncier, les savoirs et la continuité économique.",
+     "sections": [
+      "Enjeux de la transmission en agriculture : chiffres, freins, opportunités",
+      "Bail à long terme, convention, préemption : repères généraux",
+      "Valoriser le foncier et le matériel sans exclure la relève",
+      "Installer : terres, capital, mentorat, premières saisons",
+      "Reprendre une ferme en déshérence : audit accéléré, plan de transition",
+      "Réseaux d'installation : accompagnement, groupes de pairs"
+     ],
+     "exercices": [
+      "Rédiger une lettre d'intention pour une installation ou une reprise",
+      "Construire un calendrier de transmission sur 3 ans avec jalons",
+      "Identifier un mentor ou un groupe de pairs et prendre contact"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Feuille de route personnelle : de l'idée à l'action sur 24 mois",
+     "objectif": "Synthétiser tout le livre en un plan d'action personnel concret, séquencé sur 24 mois, avec indicateurs de progression et rituels de revue.",
+     "sections": [
+      "Synthèse des 23 chapitres : les 10 leviers non négociables",
+      "Définir des objectifs SMART pour l'exploitation sur 2 ans",
+      "Plan trimestriel : quoi faire, avec qui, avec quel budget",
+      "Tableau de bord minimal : 7 indicateurs à suivre chaque mois",
+      "Rituels de revue : point hebdomadaire, bilan mensuel, stratégie annuelle",
+      "Communauté et apprentissage continu : formations, livres, pairs, erreurs"
+     ],
+     "exercices": [
+      "Rédiger sa feuille de route personnelle sur 24 mois, trimestre par trimestre",
+      "Créer son tableau de bord minimal (7 indicateurs) et fixer le premier point mensuel",
+      "Écrire une lettre à son exploitant ou à soi-même dans 2 ans, décrivant la situation visée"
+     ]
+    }
+   ]
+  }
+ ]
+}
