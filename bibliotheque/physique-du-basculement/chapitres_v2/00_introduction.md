@@ -1,3 +1,29 @@
+## Avant-propos — La collection « Innovation Engine »
+
+<!-- avant-propos-innovation -->
+
+Ce livre n'a pas commencé par un sujet. Il a commencé par une **idée fabriquée**.
+
+**Le but de la collection.** La plupart des livres pratiques reformulent un marché déjà saturé : on y retrouve les mêmes conseils, habillés autrement. La collection *Innovation Engine* vise l'inverse : proposer, à chaque titre, un **angle neuf par construction** — un cadre de pensée que la logique habituelle du domaine n'aurait pas trouvé seule. L'objectif n'est pas d'ajouter un livre de plus, mais de donner au lecteur une **manière différente de voir** un problème qu'il croyait connaître.
+
+**L'ingénierie derrière chaque livre.** Chaque ouvrage naît d'un *moteur d'idées* combinatoire. Le moteur tire au hasard des concepts dans cinq réservoirs — objets, méthodes, **principes naturels et scientifiques**, domaines de la vie, contraintes fortes — puis leur applique une des douze **stratégies d'innovation** : combinaison intersectorielle, transposition d'un principe naturel, inversion d'une hypothèse admise, poussée d'un paramètre à l'extrême, changement d'architecture, association aléatoire contrôlée, transfert par analogie, résolution sous contrainte… Chaque idée produite est notée (nouveauté, clarté, potentiel) ; la plus prometteuse devient une **étude de projet**, puis ce livre. Le lecteur n'a donc pas entre les mains un résumé de l'existant, mais le **développement rigoureux d'une idée originale** : les connaissances établies y sont synthétisées, mais *transposées* à un terrain où on ne les attendait pas.
+
+**Honnêteté intellectuelle.** Ces livres sont conçus et dirigés par Oussama Ghorbel et rédigés avec l'assistance d'outils d'intelligence artificielle, sans accès à Internet : ils s'appuient sur des connaissances générales établies et signalent leurs incertitudes. Un livre de cette collection propose un **cadre explicatif**, pas une vérité garantie ni un conseil médical, juridique ou financier personnalisé. L'analogie scientifique est un outil de compréhension : nous en indiquons aussi les limites.
+
+### L'innovation de ce livre
+
+**Les concepts d'origine (tirés par le moteur) :** « seuil critique » (principe naturel), « boucle de rétroaction » (principe naturel), le domaine du changement de vie.
+
+**Les stratégies d'innovation appliquées :** Principe naturel appliqué ailleurs (#5) ; Inversion d'hypothèse (#6) ; Association aléatoire contrôlée (#9).
+
+**Ce qui existe déjà :** les livres d'habitudes (« 1 % par jour »), les livres de volonté et de motivation, et la vulgarisation scientifique qui explique la physique sans jamais l'appliquer à la vie du lecteur.
+
+**Ce que ce livre apporte de neuf :** il transpose la physique des transitions de phase et la science des systèmes complexes au changement personnel, non comme une métaphore décorative mais comme un modèle de décision. Trois idées, qu'on ne trouve pas réunies ailleurs, en découlent : (1) le renversement du rapport à l'effort — sous le seuil, l'effort semble vain, et c'est normal et prévu, comme l'eau qui chauffe sans bouillir jusqu'à 100 °C ; (2) l'hystérésis appliquée à la vie — ce qui a vraiment franchi un seuil ne se perd pas mais entre en veille, avec son revers : les mauvaises habitudes ont aussi leur hystérésis, d'où « supprimer le stimulus ne suffit pas » ; (3) la dépendance au sentier — l'ordre dans lequel on franchit ses seuils conditionne les suivants, d'où l'idée de commencer par les seuils d'architecture interne avant les seuils externes.
+
+Voilà pourquoi ce livre ne ressemble pas aux autres : son angle est le produit d'une méthode, pas d'une mode. Lisez-le comme une **recherche appliquée** — une hypothèse de travail que vous allez tester dans votre propre vie.
+
+---
+
 ## Introduction : L'illusion de la ligne droite et la promesse du seuil
 
 Imaginez une casserole d'eau posée sur une plaque chauffante. Vous allumez le feu. L'eau est à 20 °C. Vous attendez, vous observez, vous vous impatientez. La température monte à 30 °C, puis à 50 °C, puis à 80 °C. Vous fournissez de l'énergie, beaucoup d'énergie, mais l'eau reste liquide. Elle frémit peut-être un peu, elle agite ses molécules en silence, mais fondamentalement, son état n'a pas changé. Si vous ne connaissiez rien à la thermodynamique, vous pourriez légitimement conclure que vos efforts sont inutiles. Vous pourriez vous dire : « J'ai mis toute cette énergie, j'ai attendu des heures, et j'ai toujours la même chose devant moi : de l'eau chaude. »

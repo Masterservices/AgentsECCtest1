@@ -45,6 +45,8 @@ json.dump(p,open('plan.json','w'),ensure_ascii=False,indent=1)" 2>/dev/null || {
     [ $(ls chapitres_v2/*.md 2>/dev/null | wc -l) -ge $attendus ] && break; sleep 180
   done
   [ $(ls chapitres_v2/*.md 2>/dev/null | wc -l) -ge $attendus ] || { echo "[$s] ERREUR rectification incomplète ($(ls chapitres_v2/*.md | wc -l)/$attendus), reporté"; return; }
+  # Collection « Innovation Engine » : avant-propos (but + ingénierie + innovation du livre) en tête de l'intro
+  python3 $O/preface_innovation.py "$s" chapitres_v2/00_introduction.md >> redaction.log 2>&1 || true
   rm -f livre.pdf
   python3 $O/mise_en_page.py plan.json chapitres_v2 livre.pdf --corps 11.3 > pdf.log 2>&1
   [ -s livre.pdf ] || { echo "[$s] ERREUR pdf"; return; }
