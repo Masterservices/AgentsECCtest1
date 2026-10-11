@@ -1,0 +1,518 @@
+{
+ "titre": "Invisibles : Reprenez le contrôle de votre vie numérique",
+ "sous_titre": "Le guide pratique pour configurer vos navigateurs, appareils et applications contre le profilage publicitaire",
+ "bibliographie": [
+  {
+   "auteur": "Shoshana Zuboff",
+   "titre": "The Age of Surveillance Capitalism",
+   "annee": "2019",
+   "idee": "Les géants de la tech transforment l'expérience humaine en données comportementales pour prédire et contrôler nos actions à des fins lucratives.",
+   "apport": "Comprendre le modèle économique adverse pour mieux déjouer ses mécanismes de collecte et expliquer au lecteur pourquoi la guerre des données a lieu."
+  },
+  {
+   "auteur": "Bruce Schneier",
+   "titre": "Data and Goliath",
+   "annee": "2015",
+   "idee": "La collecte de données est un problème systémique impliquant à la fois les entreprises et les gouvernements, nécessitant une approche de modélisation des menaces.",
+   "apport": "Méthodologie pour évaluer les risques personnels et prioriser les configurations de sécurité et de confidentialité sur les appareils."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Digital Minimalism",
+   "annee": "2019",
+   "idee": "L'utilisation intentionnelle et minimaliste de la technologie améliore la qualité de vie et réduit l'exposition aux algorithmes.",
+   "apport": "Philosophie de la désintoxication numérique et du nettoyage drastique des applications mobiles superflues."
+  },
+  {
+   "auteur": "Cory Doctorow",
+   "titre": "How to Destroy Surveillance Capitalism",
+   "annee": "2020",
+   "idee": "Le capitalisme de surveillance repose sur des monopoles ; l'interopérabilité adversariale et les outils de blocage sont des actes de résistance.",
+   "apport": "Stratégies avancées pour utiliser des extensions de navigateur et des outils de contournement des murs clos (walled gardens)."
+  },
+  {
+   "auteur": "Kevin Mitnick",
+   "titre": "The Art of Invisibility",
+   "annee": "2017",
+   "idee": "L'anonymat en ligne et la sécurité des données nécessitent des pratiques quotidiennes strictes et une méfiance envers les réseaux par défaut.",
+   "apport": "Tutoriels pratiques sur le durcissement des systèmes d'exploitation et l'utilisation de réseaux privés virtuels (VPN) et de Tor."
+  },
+  {
+   "auteur": "Julia Angwin",
+   "titre": "Dragnet Nation",
+   "annee": "2014",
+   "idee": "Une enquête journalistique sur les tentatives d'effacement de l'empreinte numérique face à une industrie de la donnée omniprésente.",
+   "apport": "Techniques de suppression de données auprès des courtiers en informations (data brokers) et de création d'identités secondaires."
+  },
+  {
+   "auteur": "Carissa Véliz",
+   "titre": "Privacy is Power",
+   "annee": "2020",
+   "idee": "La vie privée n'est pas seulement un choix individuel mais un bien collectif et politique nécessaire à la démocratie.",
+   "apport": "Cadrage éthique pour motiver le lecteur à agir au-delà de son simple intérêt personnel, en protégeant son entourage."
+  },
+  {
+   "auteur": "Kashmir Hill",
+   "titre": "Your Face Belongs to Us",
+   "annee": "2023",
+   "idee": "La reconnaissance faciale et les données biométriques représentent la frontière ultime de la perte de vie privée.",
+   "apport": "Configuration des paramètres biométriques sur les smartphones et gestion des photos sur les réseaux sociaux."
+  },
+  {
+   "auteur": "Marc Goodman",
+   "titre": "Future Crimes",
+   "annee": "2015",
+   "idee": "L'hyper-connexion des objets du quotidien (IoT) crée des vulnérabilités massives exploitables pour la surveillance et le piratage.",
+   "apport": "Sécurisation du réseau domestique, des assistants vocaux et des objets connectés (caméras, enceintes)."
+  },
+  {
+   "auteur": "Frank Pasquale",
+   "titre": "The Black Box Society",
+   "annee": "2015",
+   "idee": "Les algorithmes opaques gouvernent nos réputations, nos finances et nos opportunités sans aucun droit de regard.",
+   "apport": "Compréhension de l'impact du profilage publicitaire sur les assurances, les crédits et les offres d'emploi."
+  },
+  {
+   "auteur": "Adam Alter",
+   "titre": "Irresistible",
+   "annee": "2017",
+   "idee": "Les applications sont conçues pour créer une dépendance comportementale en exploitant les failles psychologiques humaines.",
+   "apport": "Désactivation des notifications, des lectures automatiques et des fils d'actualité algorithmiques."
+  },
+  {
+   "auteur": "Edward Snowden",
+   "titre": "Permanent Record",
+   "annee": "2019",
+   "idee": "L'infrastructure de la surveillance de masse repose sur les outils grand public que nous utilisons tous les jours.",
+   "apport": "Bases du chiffrement de bout en bout (E2EE) et choix de messageries sécurisées (Signal, Matrix)."
+  },
+  {
+   "auteur": "Roger McNamee",
+   "titre": "Zucked",
+   "annee": "2019",
+   "idee": "Les plateformes sociales manipulent les émotions pour maximiser l'engagement et la collecte de données psychographiques.",
+   "apport": "Audit complet et verrouillage des paramètres de confidentialité des réseaux sociaux (Meta, X, LinkedIn)."
+  },
+  {
+   "auteur": "Michael Bazzell",
+   "titre": "Extreme Privacy: What It Takes to Disappear",
+   "annee": "2019",
+   "idee": "L'OSINT (Open Source Intelligence) permet à quiconque de compiler un profil dévastateur à partir de données éparpillées.",
+   "apport": "Techniques avancées d'utilisation d'alias, de cartes bancaires virtuelles et d'adresses de redirection."
+  },
+  {
+   "auteur": "Jaron Lanier",
+   "titre": "Ten Arguments for Deleting Your Social Media Accounts Right Now",
+   "annee": "2018",
+   "idee": "Les réseaux sociaux dégradent la vérité et la liberté individuelle en transformant les utilisateurs en produits de conditionnement.",
+   "apport": "Alternatives aux réseaux sociaux et stratégies de communication décentralisée pour reprendre le contrôle de son audience."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 : Comprendre la matrice de la surveillance",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le vrai prix de la gratuité",
+     "objectif": "Démystifier le modèle économique de la publicité ciblée et des courtiers en données pour prendre conscience des enjeux.",
+     "sections": [
+      "L'illusion du client : pourquoi vous êtes le produit",
+      "La chaîne de valeur de la AdTech en temps réel",
+      "Les courtiers en données (Data Brokers) : l'industrie de l'ombre",
+      "Le profilage prédictif et comportemental",
+      "L'impact invisible sur nos choix quotidiens et nos prix",
+      "Introduction à la défense asymétrique du consommateur"
+     ],
+     "exercices": [
+      "Cartographier 5 applications gratuites de votre smartphone et identifier leurs trackers via un outil d'analyse comme Exodus Privacy."
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "L'anatomie d'un profil fantôme",
+     "objectif": "Comprendre les mécanismes techniques du pistage web pour mieux les bloquer par la suite.",
+     "sections": [
+      "Cookies premiers et tiers : la mémoire du web",
+      "Le fingerprinting : l'empreinte digitale de votre navigateur",
+      "Les pixels espions et les balises web (web beacons)",
+      "Le cross-device tracking : comment on vous suit du mobile au PC",
+      "Les identifiants publicitaires (IDFA et GAID)",
+      "L'illusion du mode « navigation privée »"
+     ],
+     "exercices": [
+      "Visiter le site coveryourtracks.eff.org pour visualiser en direct comment votre navigateur actuel est fingerprinté."
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Les algorithmes de l'influence",
+     "objectif": "Décrypter comment les données collectées sont utilisées pour orienter nos opinions et nos comportements d'achat.",
+     "sections": [
+      "La bulle de filtres et l'enfermement cognitif",
+      "Le ciblage psychographique (l'exemple de Cambridge Analytica)",
+      "L'optimisation de l'engagement par l'indignation",
+      "Les dark patterns : quand l'interface vous manipule",
+      "Comment briser ses propres boucles de rétroaction"
+     ],
+     "exercices": [
+      "Comparer les résultats de recherche et les suggestions YouTube de votre compte principal avec ceux d'une session totalement anonyme."
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "L'audit de votre exposition numérique",
+     "objectif": "Évaluer l'étendue réelle de votre empreinte numérique actuelle avant de commencer le nettoyage.",
+     "sections": [
+      "L'ego-surveillance : se googler intelligemment",
+      "Vérifier les fuites de mots de passe (Have I Been Pwned)",
+      "Auditer les connexions OAuth (Se connecter avec Google/Facebook)",
+      "Lister ses abonnements et comptes oubliés",
+      "Évaluer l'exposition de ses proches et de ses enfants",
+      "Créer son tableau de bord de risque personnel"
+     ],
+     "exercices": [
+      "Utiliser l'outil Google « Vos données dans la Recherche » et l'outil de vérification des mots de passe pour générer un premier rapport d'audit."
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Le RGPD et vos droits numériques",
+     "objectif": "Apprendre à utiliser la loi comme une arme pour forcer les entreprises à supprimer ou rectifier vos données.",
+     "sections": [
+      "Les principes fondamentaux du RGPD et de la CNIL",
+      "Le droit d'accès : comment récupérer son fichier complet",
+      "Le droit à l'oubli et à l'effacement",
+      "Le retrait du consentement (opt-out) : la fin du harcèlement",
+      "Modèles de lettres et de requêtes automatiques"
+     ],
+     "exercices": [
+      "Envoyer une demande formelle de suppression de données à un courtier en données ou à un site e-commerce où vous n'achetez plus."
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "La philosophie de la frugalité numérique",
+     "objectif": "Adopter un état d'esprit « Privacy by Design » pour éviter de reconstituer son empreinte numérique à l'avenir.",
+     "sections": [
+      "Le minimalisme digital : moins d'apps, plus de valeur",
+      "La règle de la compartimentation des identités",
+      "Le coût cognitif de la surveillance permanente",
+      "Définir son niveau de menace personnel (Threat Modeling)",
+      "La frugalité comme acte de résistance écologique et politique",
+      "Préparer sa transition vers une hygiène numérique durable"
+     ],
+     "exercices": [
+      "Rédiger sa charte personnelle de confidentialité en 5 règles strictes (ex: jamais de connexion OAuth, alias email systématique)."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 : Le bouclier numérique (Web et Identité en ligne)",
+   "chapitres": [
+    {
+     "numero": 7,
+     "titre": "Blinder son navigateur web",
+     "objectif": "Transformer son navigateur principal en forteresse contre le pistage publicitaire et la télémétrie.",
+     "sections": [
+      "Chrome vs Firefox vs Brave vs Safari : le comparatif",
+      "Configuration avancée de Firefox pour la vie privée (about:config)",
+      "Gestion stricte des cookies et du stockage local",
+      "Isoler les contextes : les profils et les conteneurs",
+      "Le protocole HTTPS et la sécurité des certificats",
+      "Désactiver la télémétrie intégrée au navigateur",
+      "L'usage rationnel du réseau Tor pour les cas extrêmes"
+     ],
+     "exercices": [
+      "Installer Firefox, appliquer une configuration « Hardened » via un fichier user.js adapté, et créer des conteneurs pour les réseaux sociaux."
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "L'arsenal des extensions anti-pistage",
+     "objectif": "Sélectionner et configurer les extensions essentielles sans alourdir le navigateur ni créer de conflits.",
+     "sections": [
+      "Pourquoi trop d'extensions tuent la confidentialité",
+      "uBlock Origin : le roi du filtrage réseau et DOM",
+      "Privacy Badger et l'apprentissage heuristique",
+      "ClearURLs : nettoyer les liens de tracking (UTM)",
+      "LocalCDN : remplacer les bibliothèques externes",
+      "Gérer les permissions et les mises à jour de sécurité"
+     ],
+     "exercices": [
+      "Configurer uBlock Origin avec des listes de filtres avancées (EasyPrivacy, AdGuard Tracking) et analyser le journal des requêtes bloquées."
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Moteurs de recherche et confidentialité",
+     "objectif": "Échapper à l'historique de recherche centralisé et aux bulles de filtres des moteurs traditionnels.",
+     "sections": [
+      "Le monopole de Google et l'aspiration de données",
+      "DuckDuckGo : forces et limites du modèle publicitaire contextuel",
+      "Qwant et les moteurs européens",
+      "Brave Search et l'index indépendant",
+      "Kagi et les moteurs payants sans pub",
+      "Configurer son moteur par défaut sur tous ses appareils"
+     ],
+     "exercices": [
+      "Remplacer Google par une alternative sur tous les navigateurs et appareils mobiles, et configurer les bangs (raccourcis) pour garder en productivité."
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "L'art de l'emailing furtif et des alias",
+     "objectif": "Protéger son adresse email principale et compartmentaliser son identité sur le web.",
+     "sections": [
+      "Pourquoi votre email est votre numéro de sécurité sociale numérique",
+      "Les fournisseurs mail chiffrés (Proton, Tutanota, Mailbox.org)",
+      "Le système des alias de redirection (SimpleLogin, AnonAddy)",
+      "Les emails jetables pour les inscriptions à usage unique",
+      "Le chiffrement PGP : mythes et réalités pour le grand public",
+      "Nettoyer et migrer son ancienne boîte mail"
+     ],
+     "exercices": [
+      "Créer un compte SimpleLogin ou utiliser Apple Hide My Email pour générer 3 alias dédiés à des services spécifiques (e-commerce, réseaux, admin)."
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Réseaux sociaux : verrouiller les écoutilles",
+     "objectif": "Minimiser la collecte de données sur les plateformes sociales sans nécessairement supprimer tous ses comptes.",
+     "sections": [
+      "L'architecture de la surveillance sociale (Meta, X, TikTok)",
+      "Désactiver la personnalisation des publicités et le suivi hors-site",
+      "Restreindre la visibilité des données biographiques et des listes d'amis",
+      "Couper la géolocalisation et l'accès aux contacts",
+      "Limiter l'indexation par les moteurs de recherche externes",
+      "Gérer les applications tierces connectées à votre compte",
+      "La stratégie du profil « fantôme » ou pseudonyme"
+     ],
+     "exercices": [
+      "Télécharger l'archive complète de ses données Facebook/Instagram, l'analyser pour voir ce qui est collecté, puis révoquer les autorisations de suivi."
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "E-commerce et paiements sans traces",
+     "objectif": "Acheter en ligne sans lier systématiquement ses habitudes de consommation à son identité réelle.",
+     "sections": [
+      "Le profilage par l'historique d'achat et les cartes de fidélité",
+      "Les cartes bancaires virtuelles et éphémères (Privacy.com, Revolut)",
+      "Le paiement par cryptomonnaie (Monero vs Bitcoin)",
+      "Les casiers et adresses de livraison alternatives",
+      "Éviter les biais de prix dynamiques (yield management)",
+      "Gérer les retours et le service client de manière anonyme"
+     ],
+     "exercices": [
+      "Générer une carte bancaire virtuelle à usage unique ou à limite stricte pour un achat sur un site e-commerce peu familier."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 : Le cœur du réacteur (Appareils et OS)",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "iOS et Android : décortiquer la télémétrie",
+     "objectif": "Comprendre et limiter les données que les systèmes d'exploitation mobiles envoient à Apple et Google.",
+     "sections": [
+      "Le modèle de confiance : Apple vs Google",
+      "L'App Tracking Transparency (ATT) d'Apple : comment l'utiliser",
+      "Le bac à sable (sandbox) et l'isolation des applications",
+      "Désactiver la télémétrie et les diagnostics système sur Android",
+      "Les ROMs alternatives (GrapheneOS, CalyxOS) : pour qui ?",
+      "Gérer les services Google Play sur un appareil Android"
+     ],
+     "exercices": [
+      "Auditer le tableau de bord de confidentialité (Privacy Dashboard) de son smartphone pour identifier les apps abusant du micro ou de la localisation."
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Le nettoyage des permissions mobiles",
+     "objectif": "Appliquer le principe du moindre privilège à chaque application installée sur son téléphone.",
+     "sections": [
+      "Le danger des permissions « toujours autoriser »",
+      "Gérer la localisation : approximative vs précise",
+      "L'accès aux photos, au micro et à la caméra",
+      "Le suivi de l'activité et les données de santé",
+      "Identifier et désinstaller les applications vampires",
+      "Les stores alternatifs (F-Droid, Aurora Store)"
+     ],
+     "exercices": [
+      "Faire le tri dans ses applications mobiles : désinstaller celles inutilisées depuis 3 mois et révoquer les permissions non essentielles des autres."
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Messageries et appels inviolables",
+     "objectif": "Sécuriser ses communications interpersonnelles contre l'interception et l'exploitation commerciale.",
+     "sections": [
+      "La différence entre chiffrement en transit et de bout en bout (E2EE)",
+      "Signal : l'étalon-or de la messagerie privée",
+      "WhatsApp et Telegram : démêler le vrai du faux",
+      "Le protocole Matrix et la décentralisation (Element)",
+      "Protéger ses métadonnées (qui parle à qui et quand)",
+      "Les appels vocaux et vidéo sécurisés"
+     ],
+     "exercices": [
+      "Migrer ses conversations de groupe les plus sensibles (famille, travail) de WhatsApp vers Signal ou une instance Matrix."
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Le Cloud souverain et le chiffrement",
+     "objectif": "Reprendre le contrôle de ses documents, photos et sauvegardes hébergés dans le cloud.",
+     "sections": [
+      "Le mythe du cloud : les données sont toujours sur l'ordinateur de quelqu'un d'autre",
+      "Les alternatives chiffrées (Proton Drive, Filen, kDrive)",
+      "Le chiffrement côté client avant envoi (Cryptomator, Rclone)",
+      "L'auto-hébergement accessible (Nextcloud, NAS domestique)",
+      "La synchronisation des photos sans analyse faciale par l'IA",
+      "Gérer le partage de fichiers de manière éphémère"
+     ],
+     "exercices": [
+      "Installer Cryptomator pour créer un coffre-fort chiffré synchronisé via son cloud actuel, rendant les fichiers illisibles pour l'hébergeur."
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Coffres-forts numériques et authentification",
+     "objectif": "Sécuriser l'accès à ses comptes avec des mots de passe robustes et une double authentification infaillible.",
+     "sections": [
+      "La mort du mot de passe unique et mémorisable",
+      "Choisir et configurer son gestionnaire de mots de passe (Bitwarden, KeePass)",
+      "La double authentification (2FA) : SMS vs TOTP vs Clés physiques",
+      "Les clés de sécurité matérielles (YubiKey, Passkeys)",
+      "Le plan de secours : que faire si on perd son téléphone ?",
+      "Partager des accès de manière sécurisée avec ses proches",
+      "L'avenir sans mot de passe (Passkeys et FIDO2)"
+     ],
+     "exercices": [
+      "Migrer ses 10 comptes les plus critiques (email, banque, impôts) vers un gestionnaire de mots de passe et activer la 2FA via application (TOTP) ou clé."
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "L'ordinateur de bureau : Windows, Mac et Linux",
+     "objectif": "Désactiver la télémétrie des systèmes d'exploitation de bureau et sécuriser son environnement de travail.",
+     "sections": [
+      "Windows 10/11 : désactiver la télémétrie et Cortana/Copilot",
+      "Les outils de débloat (O&O ShutUp10, WPD)",
+      "macOS : limiter le suivi d'Apple et les rapports d'analyse",
+      "Linux : la solution souveraine pour les utilisateurs avancés",
+      "Le chiffrement complet du disque (BitLocker, FileVault, LUKS)",
+      "Les machines virtuelles et l'isolation des tâches à risque"
+     ],
+     "exercices": [
+      "Exécuter un utilitaire de confidentialité (comme O&O ShutUp10 sur Windows) pour appliquer les paramètres recommandés de désactivation du pistage."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 : La forteresse domestique et l'identité",
+   "chapitres": [
+    {
+     "numero": 19,
+     "titre": "Le routeur : sentinelle du réseau local",
+     "objectif": "Sécuriser le point d'entrée de sa connexion internet et filtrer le trafic au niveau du réseau.",
+     "sections": [
+      "Changer les identifiants par défaut et mettre à jour le firmware",
+      "Le DNS chiffré (DoH, DoT) pour masquer ses requêtes au FAI",
+      "Pi-hole et AdGuard Home : le filtrage DNS domestique",
+      "Segmenter son réseau avec des VLANs (Invités, IoT, Principal)",
+      "Désactiver les fonctionnalités UPnP et WPS",
+      "Choisir un routeur ouvert (OpenWrt, pfSense)"
+     ],
+     "exercices": [
+      "Configurer les paramètres DNS de son routeur pour utiliser un résolveur respectueux de la vie privée (ex: Quad9 ou Mullvad DNS)."
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "La maison connectée et l'IoT",
+     "objectif": "Gérer les risques de surveillance intrusive liés aux objets connectés et aux assistants vocaux.",
+     "sections": [
+      "L'IoT : le cauchemar de la sécurité et de la vie privée",
+      "Assistants vocaux (Alexa, Siri, Google) : des micros sur écoute",
+      "Les caméras de surveillance : garder les flux en local",
+      "Les alternatives open-source (Home Assistant)",
+      "Isoler les objets connectés du réseau principal",
+      "Désactiver les améliorations de produit et les partages de données"
+     ],
+     "exercices": [
+      "Vérifier les paramètres des assistants vocaux pour supprimer les enregistrements audio passés et désactiver l'amélioration continue par écoute humaine."
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Biométrie, santé et objets portables",
+     "objectif": "Protéger les données les plus intimes : empreintes, visage, rythme cardiaque et cycles biologiques.",
+     "sections": [
+      "Le stockage des données biométriques (Secure Enclave vs Cloud)",
+      "Les montres connectées et le profilage de santé",
+      "Les applications de suivi menstruel et la protection des données",
+      "Les tests ADN grand public (23andMe) : un piège génétique",
+      "Limiter le partage de données de santé avec les assureurs",
+      "Le droit à l'opacité corporelle"
+     ],
+     "exercices": [
+      "Auditer les permissions de son application de santé ou de sport et révoquer l'accès aux données pour les partenaires tiers et la recherche."
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Chasser les courtiers en données",
+     "objectif": "Identifier et supprimer activement ses informations personnelles des bases de données de revente (Data Brokers).",
+     "sections": [
+      "Comment fonctionnent les annuaires inversés et les agrégateurs",
+      "Les principaux courtiers en données (Spokeo, Whitepages, Pipl)",
+      "Les services automatisés d'opt-out (DeleteMe, Incogni)",
+      "Faire valoir son droit à l'effacement manuellement",
+      "Surveiller la réapparition de ses données",
+      "Le gel de ses dossiers de crédit (si applicable)"
+     ],
+     "exercices": [
+      "Rechercher son nom, email et numéro de téléphone sur 3 sites d'annuaire en ligne et initier les procédures de retrait (opt-out)."
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Gérer les fuites et le vol d'identité",
+     "objectif": "Mettre en place un système d'alerte et de réaction rapide en cas de compromission de ses données.",
+     "sections": [
+      "Comprendre l'économie souterraine des données volées",
+      "Configurer des alertes de fuite (Have I Been Pwned, Firefox Monitor)",
+      "Réagir face au phishing ciblé (spear-phishing)",
+      "Que faire en cas de vol de numéro de téléphone (SIM swapping)",
+      "Signaler les usurpations d'identité aux autorités",
+      "Le nettoyage post-piratage de ses comptes"
+     ],
+     "exercices": [
+      "Abonner son adresse email principale et ses alias à un service de notification de fuite de données et configurer une alerte SMS."
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "La routine d'hygiène numérique",
+     "objectif": "Intégrer la protection de la vie privée dans ses habitudes quotidiennes, mensuelles et annuelles.",
+     "sections": [
+      "Le rituel hebdomadaire : mises à jour et nettoyage",
+      "L'audit mensuel des permissions et des abonnements",
+      "Le bilan annuel de son empreinte numérique",
+      "Éduquer et protéger son cercle familial",
+      "Rester informé sans tomber dans la paranoïa",
+      "Conclusion : la liberté par la maîtrise de ses outils"
+     ],
+     "exercices": [
+      "Créer une tâche récurrente dans son agenda (ex: le premier dimanche du mois) dédiée à la vérification des mises à jour de sécurité et à l'audit des comptes."
+     ]
+    }
+   ]
+  }
+ ]
+}

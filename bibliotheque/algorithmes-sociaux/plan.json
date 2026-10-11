@@ -1,0 +1,593 @@
+{
+ "titre": "Réseaux sociaux : le mode d'emploi des libres",
+ "sous_titre": "Décrypter les algorithmes, construire une visibilité durable et reprendre le contrôle de son attention",
+ "bibliographie": [
+  {
+   "auteur": "Gary Vaynerchuk",
+   "titre": "Jab, Jab, Jab, Right Hook",
+   "annee": "2013",
+   "idee": "Donner de la valeur plusieurs fois avant de demander quoi que ce soit ; adapter le message à chaque plateforme.",
+   "apport": "Grille de lecture du 'donner avant de vendre' appliquée aux formats natifs de chaque réseau."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Digital Minimalism",
+   "annee": "2019",
+   "idee": "Réorganiser sa vie numérique autour de quelques outils intentionnels plutôt que de les subir.",
+   "apport": "Cadre de sobriété numérique et protocole de 'détox de 30 jours' adapté aux créateurs."
+  },
+  {
+   "auteur": "Nir Eyal",
+   "titre": "Hooked",
+   "annee": "2014",
+   "idee": "Le cycle Trigger-Action-Reward-Investment qui rend les produits numériques addictifs.",
+   "apport": "Comprendre les boucles d'engagement pour les utiliser éthiquement dans son propre contenu."
+  },
+  {
+   "auteur": "Nir Eyal",
+   "titre": "Indistractable",
+   "annee": "2019",
+   "idee": "La distraction est un problème de gestion des émotions et de conception de l'environnement.",
+   "apport": "Méthodes concrètes pour protéger son temps de création des sollicitations des plateformes."
+  },
+  {
+   "auteur": "Shoshana Zuboff",
+   "titre": "The Age of Surveillance Capitalism",
+   "annee": "2019",
+   "idee": "Les plateformes monétisent les données comportementales comme nouvelle matière première.",
+   "apport": "Grille critique pour comprendre les incitations économiques derrière chaque fonctionnalité."
+  },
+  {
+   "auteur": "Dominique Cardon",
+   "titre": "À quoi rêvent les algorithmes",
+   "annee": "2019",
+   "idee": "Les algorithmes ne sont pas neutres : ils classent, hiérarchisent et fabriquent de la visibilité.",
+   "apport": "Culture algorithmique francophone pour décoder recommandations et classements."
+  },
+  {
+   "auteur": "Eli Pariser",
+   "titre": "The Filter Bubble",
+   "annee": "2011",
+   "idee": "La personnalisation enferme chaque utilisateur dans une bulle informationnelle.",
+   "apport": "Comprendre pourquoi le contenu doit franchir les bulles pour atteindre de nouvelles audiences."
+  },
+  {
+   "auteur": "Seth Godin",
+   "titre": "This is Marketing",
+   "annee": "2018",
+   "idee": "Le marketing moderne consiste à servir une tribu précise en racontant une histoire cohérente.",
+   "apport": "Concept de 'plus petite audience viable' appliqué à la stratégie de contenus sociaux."
+  },
+  {
+   "auteur": "Austin Kleon",
+   "titre": "Show Your Work!",
+   "annee": "2014",
+   "idee": "Partager publiquement son processus de création attire naturellement une audience.",
+   "apport": "Discipline du partage quotidien et formats de coulisses adaptés aux réseaux."
+  },
+  {
+   "auteur": "Donald Miller",
+   "titre": "Building a StoryBrand",
+   "annee": "2017",
+   "idee": "Le client est le héros ; la marque est le guide qui fournit un plan.",
+   "apport": "Structure narrative en 7 étapes pour bios, posts et tunnels de conversion."
+  },
+  {
+   "auteur": "Adam Alter",
+   "titre": "Irresistible",
+   "annee": "2017",
+   "idee": "Les technologies comportementales exploitent objectifs, feedbacks et progressions pour capter l'attention.",
+   "apport": "Liste des 'dark patterns' à identifier et à ne jamais reproduire dans sa propre communication."
+  },
+  {
+   "auteur": "Ann Handley",
+   "titre": "Everybody Writes",
+   "annee": "2014",
+   "idee": "Tout professionnel est un rédacteur ; la clarté et l'empathie battent le génie.",
+   "apport": "Boîte à outils de rédaction courte pour légendes, carrousels et scripts vidéo."
+  },
+  {
+   "auteur": "Antonio A. Casilli",
+   "titre": "En attendant les robots",
+   "annee": "2019",
+   "idee": "Derrière l'IA des plateformes se cache un immense travail humain invisible et précarisé.",
+   "apport": "Regard éthique sur la production de contenu et la modération pour des choix éditoriaux responsables."
+  },
+  {
+   "auteur": "Ryan Holiday",
+   "titre": "Trust Me, I'm Lying",
+   "annee": "2012",
+   "idee": "L'économie des médias en ligne récompense l'indignation et la vitesse au détriment de la vérité.",
+   "apport": "Mécanismes de viralité toxique à éviter et stratégie de confiance long terme."
+  },
+  {
+   "auteur": "Jean-Marc Manach",
+   "titre": "La vie privée, un projet de société",
+   "annee": "2019",
+   "idee": "La protection des données est un enjeu politique et personnel, pas seulement technique.",
+   "apport": "Checklist de sécurité et de confidentialité pour les créateurs et leur audience."
+  },
+  {
+   "auteur": "Olivier Ertzscheid",
+   "titre": "L'Appât du gain",
+   "annee": "2020",
+   "idee": "L'économie de l'attention transforme chaque geste en ligne en signal monétisable.",
+   "apport": "Conscience des modèles économiques pour choisir où et comment être présent."
+  },
+  {
+   "auteur": "Cass R. Sunstein",
+   "titre": "#Republic",
+   "annee": "2017",
+   "idee": "Les algorithmes de recommandation polarisent le débat public et réduisent les rencontres fortuites.",
+   "apport": "Principe de 'sérendipité éditoriale' pour casser les bulles de son propre compte."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 — Comprendre la machine : ce que les réseaux font de nous (et de notre contenu)",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Anatomie d'une plateforme : ce qui se joue vraiment quand vous scrollez",
+     "objectif": "Déconstruire le fonctionnement économique et technique d'un réseau social pour en faire un outil et non un maître.",
+     "sections": [
+      "Le vrai client d'une plateforme n'est pas vous",
+      "Les quatre piliers : identité, graphe social, fil, messagerie",
+      "La boucle Trigger-Action-Reward-Investment appliquée à votre feed",
+      "Ce que vos données révèlent (et à qui)",
+      "Pourquoi chaque nouvelle fonctionnalité vous rend plus captif",
+      "Le test des 5 minutes : évaluer un réseau avant d'y investir du temps"
+     ],
+     "exercices": [
+      "Cartographier les 3 réseaux que vous utilisez le plus : qui paie, qui produit, qui consomme ?",
+      "Exporter vos données personnelles sur une plateforme et lister les 10 informations les plus surprenantes",
+      "Désactiver les notifications push pendant 7 jours et journaliser les moments où vous ouvrez l'app par réflexe"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Algorithmes : la cuisine secrète de votre visibilité",
+     "objectif": "Comprendre les grands principes des algorithmes de recommandation sans tomber dans les mythes.",
+     "sections": [
+      "Ce qu'un algorithme optimise vraiment (temps, attention, rétention)",
+      "Les signaux forts : rétention, partages, commentaires, sauvegardes",
+      "Les signaux faibles : likes, vues, temps de lecture",
+      "Graphe social vs graphe d'intérêt : deux logiques très différentes",
+      "Le mythe du shadowban et ce qui existe vraiment",
+      "Les 7 leviers algorithmiques communs à TikTok, Instagram, LinkedIn et YouTube"
+     ],
+     "exercices": [
+      "Analyser vos 5 meilleurs posts : quels signaux forts ont été déclenchés ?",
+      "Créer un compte vierge et observer ce que l'algorithme vous propose en 48h",
+      "Lister pour chaque plateforme que vous utilisez le signal qui compte le plus"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "L'économie de l'attention : pourquoi tout est conçu pour vous retenir",
+     "objectif": "Identifier les mécanismes comportementaux qui captent votre attention et ceux de votre audience.",
+     "sections": [
+      "Le pull-to-refresh : une machine à sous dans votre poche",
+      "La peur de manquer (FOMO) comme carburant d'engagement",
+      "Le rôle du outrage et de la polarisation dans la viralité",
+      "La fatigue décisionnelle et les boucles infinies",
+      "Pourquoi les créateurs s'épuisent aussi vite que les consommateurs",
+      "Les dark patterns à ne jamais reproduire dans vos propres contenus"
+     ],
+     "exercices": [
+      "Mesurer pendant 3 jours votre temps d'écran par app et identifier les 3 déclencheurs principaux",
+      "Lister 10 posts viraux récents et classer l'émotion qu'ils exploitent",
+      "Audit éthique de vos 10 derniers posts : quels leviers avez-vous utilisés ?"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Les bulles informationnelles : pourquoi votre message ne sort pas de votre cercle",
+     "objectif": "Comprendre pourquoi les contenus restent enfermés et comment franchir les frontières de bulles.",
+     "sections": [
+      "La bulle de filtres expliquée simplement",
+      "L'homophilie : pourquoi on suit ceux qui nous ressemblent",
+      "Les chambres d'écho et leurs effets sur la réputation",
+      "Pourquoi la controverse artificielle ne fonctionne plus",
+      "Les ponts : ces comptes qui traversent les bulles",
+      "Construire un contenu 'traversable' entre communautés"
+     ],
+     "exercices": [
+      "Cartographier votre audience : quels 3 profils types la composent ?",
+      "Identifier 5 comptes-ponts dans votre thématique et analyser leur style",
+      "Écrire un post qui parle simultanément à deux tribus différentes"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 — Définir sa stratégie : être visible pour de bonnes raisons",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Pourquoi êtes-vous vraiment sur les réseaux ?",
+     "objectif": "Clarifier ses intentions profondes pour éviter la dérive des objectifs et la comparaison stérile.",
+     "sections": [
+      "Les 6 motifs légitimes d'être présent en ligne",
+      "Les 4 motifs toxiques à débusquer en soi",
+      "Le test du 'et si personne ne likait pendant 6 mois'",
+      "Définir son succès autrement que par les métriques de vanité",
+      "Aligner présence en ligne et projet de vie global",
+      "Écrire sa charte personnelle d'usage des réseaux"
+     ],
+     "exercices": [
+      "Écrire en 200 mots votre 'pourquoi' de présence en ligne",
+      "Lister 3 indicateurs personnels de succès non numériques",
+      "Rédiger votre charte d'usage en 10 règles non négociables"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "La plus petite audience viable : viser petit pour toucher juste",
+     "objectif": "Appliquer le concept de Seth Godin pour construire une audience qualifiée plutôt qu'une foule indifférente.",
+     "sections": [
+      "Pourquoi 1 000 vrais fans battent 100 000 abonnés passifs",
+      "Définir votre tribu en 5 dimensions",
+      "Le persona utile vs le persona décoratif",
+      "Cartographier les douleurs, rêves et objections de votre tribu",
+      "Choisir sa niche sans s'y enfermer",
+      "Le test du dîner : pourriez-vous inviter votre audience ?",
+      "Quand élargir, quand rester petit"
+     ],
+     "exercices": [
+      "Rédiger la fiche-persona de votre lecteur idéal en 500 mots",
+      "Lister les 20 questions que votre tribu se pose vraiment",
+      "Identifier 10 personnes réelles qui incarnent votre audience et les suivre"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Choisir ses plateformes : la règle des 2+1",
+     "objectif": "Éviter la dispersion en choisissant consciemment ses terrains de jeu numériques.",
+     "sections": [
+      "Le mythe de la présence omnicanale",
+      "La matrice audience/énergie/format pour choisir",
+      "La règle des 2 plateformes principales + 1 satellite",
+      "Profil des 8 grandes plateformes en 2026",
+      "Quand abandonner une plateforme (et comment le faire proprement)",
+      "Gérer la FOMO des nouvelles plateformes"
+     ],
+     "exercices": [
+      "Remplir la matrice audience/énergie/format pour les 5 plateformes que vous envisagez",
+      "Choisir officiellement vos 2+1 et écrire pourquoi",
+      "Planifier une 'revue trimestrielle' de votre portefeuille de plateformes"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Positionnement : la phrase qui change tout",
+     "objectif": "Formuler un positionnement clair qui sert de boussole à chaque contenu publié.",
+     "sections": [
+      "La formule XYZ : j'aide X à obtenir Y grâce à Z",
+      "StoryBrand appliqué aux bios de réseaux sociaux",
+      "Différenciation par l'angle, pas par le sujet",
+      "Le test de l'anti-positionnement : qui ne voulez-vous PAS attirer ?",
+      "Évoluer sans se trahir : le repositionnement progressif",
+      "Les 5 erreurs de positionnement les plus courantes"
+     ],
+     "exercices": [
+      "Rédiger 5 variantes de votre phrase XYZ et les tester sur 3 proches",
+      "Écrire votre bio LinkedIn, Instagram et Twitter en cohérence",
+      "Lister 3 concurrents et identifier votre angle différenciant"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 — Créer du contenu qui marque sans vous épuiser",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "La pyramide des contenus : un système pour ne jamais manquer d'idées",
+     "objectif": "Construire un moteur à idées inépuisable basé sur la réutilisation intelligente.",
+     "sections": [
+      "Les 4 niveaux : pilier, dérivé, atomisé, conversationnel",
+      "La méthode 1-to-10-to-100",
+      "Documenter plutôt qu'inventer (Austin Kleon)",
+      "Votre 'second cerveau' comme réservoir de contenus",
+      "Le calendrier éditorial minimaliste",
+      "La règle des 80/20 entre evergreen et actualité"
+     ],
+     "exercices": [
+      "Lister 5 piliers thématiques de votre compte",
+      "Transformer 1 article long en 10 posts courts",
+      "Construire un calendrier de 30 jours à partir d'un seul pilier"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Écrire pour être lu : l'art de la légende et du post court",
+     "objectif": "Maîtriser les techniques de rédaction courte adaptées aux contraintes des réseaux.",
+     "sections": [
+      "La première ligne comme promesse (hook)",
+      "La structure PAS adaptée aux posts sociaux",
+      "Écrire pour l'œil qui scanne : sauts de ligne, emojis, listes",
+      "Longueur idéale selon la plateforme : données récentes",
+      "Le storytelling en 280 caractères",
+      "Les 12 formules d'ouverture qui arrêtent le scroll",
+      "Appel à l'action : les 4 familles de CTA"
+     ],
+     "exercices": [
+      "Écrire 10 hooks différents pour le même sujet",
+      "Réécrire 3 anciens posts en appliquant la structure PAS",
+      "Tester 4 CTA différents sur 4 posts similaires et mesurer"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Formats visuels et vidéo : parler la langue native de chaque plateforme",
+     "objectif": "Choisir et produire les formats qui correspondent aux attentes implicites de chaque réseau.",
+     "sections": [
+      "Le carrousel : le format roi de LinkedIn et Instagram en 2026",
+      "La short-video : grammaire des 60 premières secondes",
+      "Le live : quand l'imperfection devient un atout",
+      "Stories et formats éphémères : la relation avant le contenu",
+      "Audio et podcasts sociaux : la voix comme signature",
+      "Accessibilité : sous-titres, descriptions, contrastes",
+      "Outils minimums pour une production de qualité"
+     ],
+     "exercices": [
+      "Créer un gabarit de carrousel en 10 slides réutilisable",
+      "Tourner 3 vidéos verticales de 30 secondes avec votre smartphone",
+      "Sous-titrer une vidéo existante et mesurer l'impact sur la rétention"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Publier sans s'épuiser : le système de production en 3 heures par semaine",
+     "objectif": "Mettre en place un système de production réaliste compatible avec une vie professionnelle et personnelle.",
+     "sections": [
+      "Le batch content : créer une fois, publier plusieurs fois",
+      "Les 4 séances hebdomadaires de 45 minutes",
+      "Déléguer sans perdre sa voix : briefing et relecture",
+      "L'IA comme assistante, pas comme auteure",
+      "La règle du 'publié vaut mieux que parfait'",
+      "Gérer les creux de motivation et les pannes d'inspiration",
+      "Le planning type d'un créateur solo"
+     ],
+     "exercices": [
+      "Tester une semaine de batch content et mesurer le temps réel passé",
+      "Rédiger un brief type pour un assistant ou une IA",
+      "Planifier vos 4 créneaux hebdomadaires dans votre agenda"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 — Les leviers de visibilité légitimes",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Les 90 premiers jours : lancer un compte qui tient la route",
+     "objectif": "Mettre en place les fondations d'un compte qui gagne en autorité dès ses débuts.",
+     "sections": [
+      "Le profil optimisé en 7 points",
+      "La stratégie des 30 premiers posts",
+      "Se présenter sans se survendre",
+      "Épingler le bon contenu au bon moment",
+      "Les 10 erreurs fatales des nouveaux comptes",
+      "Mesurer les premiers signaux positifs"
+     ],
+     "exercices": [
+      "Auditer votre profil avec la grille des 7 points",
+      "Planifier vos 30 premiers posts selon un arc narratif",
+      "Écrire votre post de présentation en 3 versions"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Le pouvoir du commentaire : la croissance par les autres",
+     "objectif": "Utiliser le commentaire stratégique comme principal levier de croissance organique.",
+     "sections": [
+      "Pourquoi commenter bat publier pour se faire connaître",
+      "La méthode du commentaire à 3 niveaux",
+      "Identifier les 20 comptes où commenter chaque semaine",
+      "Commenter sans flatter ni spammer",
+      "Transformer un bon commentaire en relation",
+      "Les pièges : polémiques, auto-promotion, débats stériles"
+     ],
+     "exercices": [
+      "Lister 20 comptes à commenter et planifier 3 commentaires par jour pendant 30 jours",
+      "Analyser 10 commentaires viraux et en extraire la structure",
+      "Tenir un journal des commentaires qui ont généré des conversations"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Collaborations et invitations : grandir à plusieurs",
+     "objectif": "Construire une stratégie de collaborations authentiques et mutuellement bénéfiques.",
+     "sections": [
+      "Les 7 formats de collaboration en ligne",
+      "Comment approcher sans être un parasite",
+      "Le message d'invitation qui fonctionne",
+      "Lives croisés, podcasts invités, newsletters partagées",
+      "Gérer les déséquilibres de notoriété",
+      "Mesurer la valeur réelle d'une collaboration"
+     ],
+     "exercices": [
+      "Lister 10 personnes avec qui collaborer et classer par niveau d'accessibilité",
+      "Rédiger 3 modèles de messages d'approche personnalisables",
+      "Planifier une collaboration par trimestre pour l'année à venir"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Publicité et amplification payante : quand et comment",
+     "objectif": "Utiliser la publicité sociale avec discernement, sans en dépendre.",
+     "sections": [
+      "La différence entre boost et vraie campagne",
+      "Les 3 seuls moments où payer a du sens",
+      "Budget minimum et objectifs réalistes",
+      "Créer des publicités qui ne ressemblent pas à des publicités",
+      "Le ciblage éthique : ce qu'il faut refuser",
+      "Mesurer le vrai retour sur investissement"
+     ],
+     "exercices": [
+      "Calculer votre CAC (coût d'acquisition client) cible avant toute campagne",
+      "Tester une micro-campagne de 50 € sur votre meilleur post organique",
+      "Établir une règle personnelle de ratio organique/payé (ex. 90/10)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 — Gérer sa communauté et sa réputation",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "De l'audience à la communauté : le saut qualitatif",
+     "objectif": "Transformer des abonnés passifs en communauté active et soudée.",
+     "sections": [
+      "Les 5 signes que vous avez une vraie communauté",
+      "Les rituels qui créent l'appartenance",
+      "Le vocabulaire commun comme ciment",
+      "Les espaces privés : groupes, Discord, newsletters",
+      "Animer sans tout porter : déléguer aux membres",
+      "La règle des 1-9-90 dans toute communauté"
+     ],
+     "exercices": [
+      "Identifier 3 rituels à instaurer dans votre communauté",
+      "Lancer un espace privé minimaliste et y inviter 20 membres actifs",
+      "Créer un lexique de 10 termes propres à votre communauté"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Messages privés et relation individuelle : l'or caché",
+     "objectif": "Faire des messages privés un levier de relation et de fidélisation sans devenir esclave de sa messagerie.",
+     "sections": [
+      "Pourquoi les DM sont sous-estimés",
+      "Organiser sa boîte de réception sociale",
+      "Les 4 types de messages prioritaires",
+      "Répondre sans s'épuiser : templates et limites",
+      "Transformer une conversation en relation durable",
+      "Les limites à poser dès le premier jour"
+     ],
+     "exercices": [
+      "Mettre en place 5 templates de réponse aux messages récurrents",
+      "Définir vos plages de réponse aux DM (ex. 30 min/jour)",
+      "Identifier 10 personnes à contacter en DM cette semaine"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Critiques, trolls et crises : protéger sa réputation sans se censurer",
+     "objectif": "Anticiper et gérer les situations conflictuelles avec calme et intégrité.",
+     "sections": [
+      "Distinguer critique légitime, malveillance et harcèlement",
+      "Le protocole de réponse en 5 étapes",
+      "Quand supprimer, bloquer, signaler",
+      "Gérer une crise virale heure par heure",
+      "L'art de l'excuse publique sincère",
+      "Préserver sa santé mentale pendant une tempête"
+     ],
+     "exercices": [
+      "Rédiger votre protocole de gestion de crise en 1 page",
+      "Lister 5 réponses types aux critiques récurrentes",
+      "Identifier 3 personnes de confiance à alerter en cas de crise"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Mesurer ce qui compte vraiment : au-delà des métriques de vanité",
+     "objectif": "Construire un tableau de bord aligned sur vos vrais objectifs.",
+     "sections": [
+      "Métriques de vanité vs métriques de valeur",
+      "Les 7 KPI qui comptent vraiment",
+      "Construire un tableau de bord hebdomadaire de 15 minutes",
+      "Analyser la rétention et la profondeur d'engagement",
+      "Corréler présence sociale et résultats concrets",
+      "Quand ignorer les chiffres"
+     ],
+     "exercices": [
+      "Définir vos 5 KPI personnels alignés sur vos objectifs",
+      "Créer un tableau de bord sur une seule page",
+      "Faire une revue mensuelle de 30 minutes pendant 3 mois"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 6 — Rester libre : vivre avec les réseaux sans leur appartenir",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Protéger son attention : la compétence la plus précieuse du créateur",
+     "objectif": "Construire un environnement de travail qui préserve l'attention profonde nécessaire à la création.",
+     "sections": [
+      "Pourquoi l'attention est votre véritable capital",
+      "Le protocole Indistractable appliqué aux créateurs",
+      "Séparer espace de consommation et espace de création",
+      "Les 5 rituels de protection de l'attention",
+      "Gérer les jours sans",
+      "Le droit à la déconnexion comme acte professionnel"
+     ],
+     "exercices": [
+      "Configurer votre téléphone en mode 'créateur' (apps limitées, notifications coupées)",
+      "Planifier 3 blocs de deep work par semaine protégés des réseaux",
+      "Instaurer une journée sans réseaux par semaine pendant 1 mois"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Sécuriser son identité numérique et ses données",
+     "objectif": "Mettre en place les mesures essentielles pour protéger ses comptes et sa vie privée.",
+     "sections": [
+      "Les 10 gestes de sécurité numérique indispensables",
+      "Double authentification et gestionnaires de mots de passe",
+      "Séparer identité publique et identité privée",
+      "Archiver son contenu pour ne pas dépendre d'une plateforme",
+      "Le droit à l'oubli et la maîtrise de son e-réputation",
+      "Anticiper le piratage : plan de secours"
+     ],
+     "exercices": [
+      "Activer la 2FA sur tous vos comptes sociaux en 1 heure",
+      "Exporter et archiver vos contenus majeurs sur un disque personnel",
+      "Rédiger un plan de secours en cas de piratage ou de suppression de compte"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Posséder son audience : la stratégie owned media",
+     "objectif": "Construire des actifs qui vous appartiennent vraiment pour ne plus dépendre des algorithmes.",
+     "sections": [
+      "La hiérarchie : rented vs owned media",
+      "Newsletter, site, podcast : les trois piliers owned",
+      "Migrer une audience sociale vers une newsletter",
+      "Le lead magnet éthique",
+      "Monétiser sans trahir : 7 modèles respectueux",
+      "La règle du 50/50 : rented et owned en équilibre"
+     ],
+     "exercices": [
+      "Lancer une newsletter minimaliste en moins de 2 heures",
+      "Créer un lead magnet aligné avec votre positionnement",
+      "Fixer un objectif de migration : X abonnés sociaux → Y abonnés newsletter en 12 mois"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "La sortie élégante : savoir quitter, ralentir ou transmettre",
+     "objectif": "Apprendre à quitter une plateforme, réduire sa présence ou transmettre son compte avec élégance.",
+     "sections": [
+      "Les signaux qu'il est temps de partir",
+      "La pause stratégique vs la disparition brutale",
+      "Annoncer une pause ou un départ à sa communauté",
+      "Transmettre ou vendre un compte",
+      "Vivre après les réseaux : identités multiples",
+      "Le manifeste du créateur libre"
+     ],
+     "exercices": [
+      "Écrire votre message d'au-revoir type, à adapter le jour venu",
+      "Planifier une pause trimestrielle de 7 jours",
+      "Rédiger votre manifeste personnel d'usage des réseaux en 500 mots"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,603 @@
+{
+ "titre": "L'Art de l'Invite Parfaite",
+ "sous_titre": "Techniques avancées pour formuler des requêtes précises et obtenir des résultats optimaux avec les modèles de langage",
+ "bibliographie": [
+  {
+   "auteur": "James Phoenix et Mike Taylor",
+   "titre": "Prompt Engineering for Generative AI",
+   "annee": "2023",
+   "idee": "Présente un cadre structuré pour exploiter les LLM dans des pipelines professionnels, avec focus sur les techniques de few-shot, chain-of-thought et la composition de prompts.",
+   "apport": "Cadre méthodologique et patterns réutilisables pour les workflows d'entreprise."
+  },
+  {
+   "auteur": "Nathan Hunter",
+   "titre": "The Art of Prompt Engineering with ChatGPT",
+   "annee": "2023",
+   "idee": "Guide pratique orienté grand public, décomposant la syntaxe du prompt en rôles, contextes, contraintes et formats de sortie.",
+   "apport": "Pédagogie accessible et taxonomie des composants d'un prompt."
+  },
+  {
+   "auteur": "Jason Wei et al. (Google Research)",
+   "titre": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+   "annee": "2022",
+   "idee": "Article séminal démontrant que demander au modèle de raisonner étape par étape améliore fortement les performances sur les tâches logiques et mathématiques.",
+   "apport": "Fondement théorique du raisonnement guidé et des variantes (zero-shot CoT, self-consistency)."
+  },
+  {
+   "auteur": "Shunyu Yao et al.",
+   "titre": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+   "annee": "2023",
+   "idee": "Étend le chain-of-thought en explorant plusieurs branches de raisonnement avec évaluation et retour arrière.",
+   "apport": "Architecture de prompt multi-chemins pour les problèmes complexes et créatifs."
+  },
+  {
+   "auteur": "Shunyu Yao et al.",
+   "titre": "ReAct: Synergizing Reasoning and Acting in Language Models",
+   "annee": "2022",
+   "idee": "Combine raisonnement interne et actions externes (outils, recherche) dans une boucle itérative.",
+   "apport": "Modèle pour les agents autonomes et les prompts à usage d'outils."
+  },
+  {
+   "auteur": "Chip Huyen",
+   "titre": "AI Engineering",
+   "annee": "2024 (incertitude sur la date exacte)",
+   "idee": "Couvre l'ingénierie des applications LLM : RAG, évaluation, fine-tuning, orchestration de prompts.",
+   "apport": "Vision systémique de l'intégration des prompts dans des produits réels."
+  },
+  {
+   "auteur": "Jay Alammar et Maarten Grootendorst",
+   "titre": "Hands-On Large Language Models",
+   "annee": "2024",
+   "idee": "Explique le fonctionnement interne des transformers et des embeddings, pour mieux comprendre ce qu'un prompt peut activer.",
+   "apport": "Intuition mécaniste pour formuler des requêtes alignées sur l'architecture du modèle."
+  },
+  {
+   "auteur": "Andrej Karpathy",
+   "titre": "Let's build GPT: from scratch (vidéos et conférences)",
+   "annee": "2023",
+   "idee": "Démystifie la génération autoregressive, les tokens, le sampling (temperature, top-p).",
+   "apport": "Compréhension des paramètres d'inférence à ajuster avec le prompt."
+  },
+  {
+   "auteur": "OpenAI",
+   "titre": "OpenAI Prompt Engineering Guide (documentation officielle)",
+   "annee": "2023-2025",
+   "idee": "Six stratégies : écrire des instructions claires, fournir des références, décomposer les tâches, laisser le temps de réfléchir, utiliser des outils, tester systématiquement.",
+   "apport": "Référentiel de bonnes pratiques validées par le concepteur de GPT."
+  },
+  {
+   "auteur": "Anthropic",
+   "titre": "Anthropic Prompt Engineering Guide",
+   "annee": "2024",
+   "idee": "Met l'accent sur les XML tags, la structuration hiérarchique, les exemples et la réduction des ambiguïtés.",
+   "apport": "Techniques de balisage sémantique pour modèles à grande fenêtre contextuelle."
+  },
+  {
+   "auteur": "Google DeepMind",
+   "titre": "Gemini Prompting Guide",
+   "annee": "2024",
+   "idee": "Adapte les techniques de prompting aux modèles multimodaux (texte, image, audio, vidéo).",
+   "apport": "Extension des techniques aux entrées et sorties multimodales."
+  },
+  {
+   "auteur": "Ethan Mollick",
+   "titre": "Co-Intelligence: Living and Working with AI",
+   "annee": "2024",
+   "idee": "Analyse la collaboration humain-IA comme un nouveau mode cognitif, au-delà de la simple requête.",
+   "apport": "Posture philosophique et stratégique du prompteur."
+  },
+  {
+   "auteur": "Jules White et al. (Vanderbilt University)",
+   "titre": "Prompt Engineering for ChatGPT (cours universitaire)",
+   "annee": "2023",
+   "idee": "Formalise des patterns de prompts (persona, template, recette, chaîne, arbre) inspirés du génie logiciel.",
+   "apport": "Catalogue de design patterns réutilisables."
+  },
+  {
+   "auteur": "Daniel Miessler et Jason Haddix",
+   "titre": "The Prompt Report (étude collaborative)",
+   "annee": "2024",
+   "idee": "Inventaire de 50+ techniques de prompting avec benchmarks et cas d'usage cybersécurité.",
+   "apport": "Référentiel de techniques et méthodologie d'évaluation rigoureuse."
+  },
+  {
+   "auteur": "Lilian Weng",
+   "titre": "LLM Powered Autonomous Agents (blog de recherche)",
+   "annee": "2023",
+   "idee": "Synthèse des architectures d'agents : planification, mémoire, outils, réflexions.",
+   "apport": "Architecture des prompts multi-étapes pour systèmes agents."
+  },
+  {
+   "auteur": "Sam Altman et équipe OpenAI",
+   "titre": "Practices for Governing Agentic AI Systems",
+   "annee": "2023",
+   "idee": "Cadre pour encadrer les agents pilotés par prompts, avec garde-fous et supervision.",
+   "apport": "Dimension éthique et contrôle des prompts à effets réels."
+  },
+  {
+   "auteur": "Amaelle Guiton et divers journalistes tech",
+   "titre": "IA générative, mode d'emploi (ouvrages francophones de vulgarisation)",
+   "annee": "2023-2024",
+   "idee": "Tour d'horizon des usages francophones, limites et biais des LLM.",
+   "apport": "Contextualisation culturelle et linguistique pour le lectorat francophone."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Les fondations : comprendre pour mieux commander",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Ce qu'un modèle de langage entend vraiment",
+     "objectif": "Donner une intuition juste du fonctionnement des LLM pour ancrer toutes les techniques ultérieures sur une compréhension réaliste.",
+     "sections": [
+      "1.1 Du token au sens : comment le modèle découpe votre phrase",
+      "1.2 La prédiction du prochain mot, et pourquoi cela change tout",
+      "1.3 Attention, contexte et fenêtre : ce que le modèle « voit » à chaque instant",
+      "1.4 Température, top-p, top-k : les leviers invisibles derrière la créativité",
+      "1.5 Les limites structurelles : hallucinations, biais, coupure de connaissances",
+      "1.6 Pourquoi un bon prompt est d'abord une bonne modélisation mentale"
+     ],
+     "exercices": [
+      "Découper une phrase complexe en tokens probables et observer les ambiguïtés",
+      "Comparer la même requête à température 0, 0.7 et 1.2 et analyser les écarts",
+      "Cartographier la fenêtre de contexte disponible sur votre modèle favori",
+      "Identifier trois hallucinations récentes et en retracer la cause probable"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Anatomie d'une invite efficace",
+     "objectif": "Maîtriser les composants fondamentaux d'un prompt et savoir les agencer selon la tâche.",
+     "sections": [
+      "2.1 Les sept briques : rôle, contexte, tâche, contraintes, exemples, format, ton",
+      "2.2 Hiérarchiser les instructions : ce qui pèse le plus dans l'attention",
+      "2.3 Le primacy et le recency effect : placer l'essentiel au bon endroit",
+      "2.4 Délimiteurs et balises : XML, markdown, triples guillemets",
+      "2.5 Les pièges classiques : instructions négatives, surcharge, ambiguïté lexicale",
+      "2.6 Construire un prompt modulaire réutilisable"
+     ],
+     "exercices": [
+      "Réécrire un prompt flou en appliquant les sept briques",
+      "Tester l'ordre des instructions et mesurer l'impact sur la sortie",
+      "Créer une bibliothèque personnelle de délimiteurs selon les tâches",
+      "Concevoir un template modulaire pour une tâche récurrente au travail"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Psychologie du prompteur : poser la bonne question",
+     "objectif": "Transformer la posture mentale de l'utilisateur pour formuler des demandes qui reflètent vraiment l'intention.",
+     "sections": [
+      "3.1 Du besoin flou à la demande claire : la méthode des cinq pourquoi",
+      "3.2 Définir le critère de succès avant d'écrire une ligne",
+      "3.3 Biais cognitifs du prompteur : ancrage, confirmation, paresse",
+      "3.4 La discipline du brouillon : itérer avant d'envoyer",
+      "3.5 Penser en contrats : entrées, sorties, garde-fous",
+      "3.6 Tenir un journal de prompts : votre actif le plus précieux"
+     ],
+     "exercices": [
+      "Appliquer les cinq pourquoi à trois demandes professionnelles récentes",
+      "Rédiger une fiche de succès avant chaque prompt important",
+      "Tenir un journal de prompts pendant une semaine et en tirer des motifs",
+      "Confronter un prompt à un pair et comparer les interprétations"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Choisir le bon modèle pour la bonne tâche",
+     "objectif": "Savoir orienter ses requêtes selon les forces et limites des différents modèles disponibles.",
+     "sections": [
+      "4.1 Panorama des grandes familles : GPT, Claude, Gemini, Llama, Mistral, open source",
+      "4.2 Fenêtres de contexte, coût, latence : le triangle des compromis",
+      "4.3 Modèles généralistes vs spécialisés (code, image, audio, science)",
+      "4.4 Modèles locaux vs cloud : souveraineté, confidentialité, performance",
+      "4.5 Versioning et obsolescence : gérer la dérive des modèles",
+      "4.6 Construire sa matrice de décision personnelle"
+     ],
+     "exercices": [
+      "Comparer trois modèles sur une même tâche complexe et noter les écarts",
+      "Calculer le coût réel d'un workflow mensuel selon les modèles utilisés",
+      "Installer et tester un petit modèle local sur une tâche confidentielle",
+      "Élaborer une grille de sélection pour cinq cas d'usage personnels"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Le français comme langue de prompt : atouts et embûches",
+     "objectif": "Adapter les techniques au français, langue moins représentée dans les corpus d'entraînement.",
+     "sections": [
+      "5.1 Biais anglo-centrés : quand le modèle pense en anglais sous le français",
+      "5.2 Registres, nuances et politesse : exploiter la richesse du français",
+      "5.3 Vocabulaire technique : franciser ou garder l'anglais ?",
+      "5.4 Gérer les accents, la typographie et les conventions éditoriales",
+      "5.5 Traduction comme technique : prompt bilingue et back-translation",
+      "5.6 Construire un style français cohérent sur de longs textes"
+     ],
+     "exercices": [
+      "Comparer une sortie en français direct vs traduit depuis l'anglais",
+      "Établir une charte de style français pour vos prompts récurrents",
+      "Tester la sensibilité du modèle aux variations de registre (soutenu, courant, familier)",
+      "Créer un glossaire bilingue pour votre domaine professionnel"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Éthique, confidentialité et responsabilité",
+     "objectif": "Intégrer les garde-fous indispensables avant de généraliser l'usage des prompts.",
+     "sections": [
+      "6.1 Ce que vous confiez au modèle : données personnelles, secrets, propriété intellectuelle",
+      "6.2 Biais, stéréotypes et contenus sensibles : les reconnaître et les corriger",
+      "6.3 Les interdits : médical, juridique, fiscal personnalisés",
+      "6.4 Transparence : quand et comment révéler l'usage d'une IA",
+      "6.5 Responsabilité éditoriale : vous restez l'auteur",
+      "6.6 Mettre en place une charte d'usage personnelle ou d'équipe"
+     ],
+     "exercices": [
+      "Auditer vos dix derniers prompts pour détecter des données sensibles",
+      "Rédiger votre charte d'usage IA en une page",
+      "Tester un prompt sur un sujet sensible et analyser les biais détectables",
+      "Simuler une publication et vérifier la chaîne de responsabilité"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Techniques avancées de formulation",
+   "chapitres": [
+    {
+     "numero": 7,
+     "titre": "Chain-of-Thought et raisonnement guidé",
+     "objectif": "Faire raisonner le modèle étape par étape pour gagner en fiabilité sur les tâches logiques.",
+     "sections": [
+      "7.1 Le principe du « think step by step » : quand l'utiliser, quand l'éviter",
+      "7.2 Few-shot CoT : fournir des exemples de raisonnement complet",
+      "7.3 Zero-shot CoT : déclencher le raisonnement sans exemple",
+      "7.4 Auto-consistance : échantillonner plusieurs raisonnements et voter",
+      "7.5 Complexité adaptative : laisser le modèle choisir sa profondeur",
+      "7.6 Limites et dérives : raisonnements fallacieux bien présentés"
+     ],
+     "exercices": [
+      "Résoudre un problème logique avec et sans CoT et comparer",
+      "Construire trois exemples de raisonnement pour un domaine métier",
+      "Implémenter un vote par auto-consistance sur cinq tirages",
+      "Détecter un raisonnement fallacieux produit par le modèle"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Arbres de pensée et exploration multi-chemins",
+     "objectif": "Maîtriser les architectures de prompt qui explorent plusieurs pistes en parallèle.",
+     "sections": [
+      "8.1 Du chaînon linéaire à l'arbre : quand la pensée doit bifurquer",
+      "8.2 Tree of Thoughts : générer, évaluer, élaguer",
+      "8.3 Graph of Thoughts : fusionner et recombiner des idées",
+      "8.4 Implémentations pratiques sans code complexe",
+      "8.5 Cas d'usage : brainstorm, stratégie, écriture créative",
+      "8.6 Contrôler le coût et la latence des explorations larges"
+     ],
+     "exercices": [
+      "Explorer un problème stratégique sur trois branches parallèles",
+      "Construire un tableau d'évaluation des branches candidates",
+      "Fusionner deux branches prometteuses en une synthèse cohérente",
+      "Chiffrer le coût d'une exploration en arbre vs une approche linéaire"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Few-shot, one-shot, zero-shot : l'art de l'exemple",
+     "objectif": "Savoir choisir et construire les exemples qui calibrent le modèle.",
+     "sections": [
+      "9.1 Pourquoi un exemple vaut mille instructions",
+      "9.2 Sélectionner des exemples représentatifs et contrastés",
+      "9.3 Ordre, nombre et diversité des exemples",
+      "9.4 Exemples négatifs : montrer ce qu'il ne faut pas faire",
+      "9.5 Exemples dynamiques : RAG d'exemples selon la requête",
+      "9.6 Éviter le sur-apprentissage aux exemples"
+     ],
+     "exercices": [
+      "Constituer une banque de dix exemples pour une tâche récurrente",
+      "Tester l'impact de l'ordre des exemples sur la sortie",
+      "Ajouter un contre-exemple et mesurer l'amélioration",
+      "Automatiser la sélection d'exemples par similarité sémantique"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Rôles, personas et voix narratives",
+     "objectif": "Utiliser le role-playing pour canaliser le style, l'expertise et le point de vue.",
+     "sections": [
+      "10.1 Ce qu'un rôle active vraiment dans le modèle",
+      "10.2 Personas professionnels : expert, pédagogue, critique, avocat du diable",
+      "10.3 Personas créatifs : auteur, journaliste, scénariste",
+      "10.4 Combinaison de rôles et panels multi-experts",
+      "10.5 Limites éthiques : ne pas imiter des personnes réelles",
+      "10.6 Construire une bibliothèque de personas réutilisables"
+     ],
+     "exercices": [
+      "Faire répondre cinq personas différents à la même question",
+      "Concevoir un panel de trois experts pour une décision stratégique",
+      "Écrire un prompt d'avocat du diable pour stress-tester une idée",
+      "Créer votre persona signature pour vos productions récurrentes"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Contraintes, formats et structures de sortie",
+     "objectif": "Obtenir des sorties directement exploitables, structurées et conformes.",
+     "sections": [
+      "11.1 Formattage : JSON, CSV, YAML, markdown, XML",
+      "11.2 Schémas stricts et validation automatique",
+      "11.3 Contraintes de longueur, de style, de vocabulaire",
+      "11.4 Tableaux, listes, diagrammes en texte",
+      "11.5 Gérer les sorties partielles et les échecs de format",
+      "11.6 Chaîner la sortie d'un prompt comme entrée du suivant"
+     ],
+     "exercices": [
+      "Concevoir un schéma JSON pour extraire des données d'un texte libre",
+      "Forcer une sortie en tableau markdown sur une analyse comparative",
+      "Gérer un échec de format par une instruction de repli",
+      "Construire une chaîne de deux prompts dont le second consomme le JSON du premier"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Prompting réflexif et auto-correction",
+     "objectif": "Amener le modèle à critiquer, réviser et améliorer ses propres sorties.",
+     "sections": [
+      "12.1 Le principe du double passage : produire puis relire",
+      "12.2 Réflexion structurée : grille de relecture explicite",
+      "12.3 Débats internes : faire dialoguer deux voix dans le même modèle",
+      "12.4 Correction d'erreurs factiques et hallucinations",
+      "12.5 Limites : quand le modèle s'enfonce dans son erreur",
+      "12.6 Patterns de raffinement itératif"
+     ],
+     "exercices": [
+      "Mettre en place un prompt en trois temps : production, critique, révision",
+      "Concevoir une grille de relecture en cinq critères pour votre domaine",
+      "Organiser un débat interne entre deux personas opposés",
+      "Mesurer le gain de qualité après deux itérations de raffinement"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Architectures, agents et workflows complexes",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "RAG : enrichir le prompt par des connaissances externes",
+     "objectif": "Comprendre et déployer la Retrieval-Augmented Generation pour dépasser les limites de la mémoire du modèle.",
+     "sections": [
+      "13.1 Le principe du RAG : retrouver puis générer",
+      "13.2 Construction d'une base documentaire : chunking et embeddings",
+      "13.3 Stratégies de retrieval : sémantique, hybride, ré-ranking",
+      "13.4 Insérer les passages retrouvés dans le prompt sans noyer le modèle",
+      "13.5 Gérer les contradictions et les sources multiples",
+      "13.6 Évaluer la qualité d'un pipeline RAG"
+     ],
+     "exercices": [
+      "Constituer une mini-base de dix documents et tester la retrieval",
+      "Comparer trois tailles de chunks sur une même question",
+      "Insérer cinq passages retrouvés avec citation explicite des sources",
+      "Mesurer précision et rappel sur un jeu de vingt questions témoins"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Agents et usage d'outils",
+     "objectif": "Concevoir des prompts qui pilotent des actions : recherche web, code, bases de données, API.",
+     "sections": [
+      "14.1 Qu'est-ce qu'un agent : perception, décision, action",
+      "14.2 Le paradigme ReAct : raisonner puis agir",
+      "14.3 Définir des outils : signature, description, exemples",
+      "14.4 Gérer les erreurs d'outils et les boucles infinies",
+      "14.5 Supervision humaine et points de validation",
+      "14.6 Sécurité : sandboxing et permissions minimales"
+     ],
+     "exercices": [
+      "Définir trois outils (recherche, calcul, base de données) pour un agent",
+      "Écrire un prompt ReAct complet sur un cas métier",
+      "Simuler une panne d'outil et observer la stratégie de l'agent",
+      "Ajouter un point de validation humaine avant une action critique"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Orchestration multi-modèles",
+     "objectif": "Combiner plusieurs modèles spécialisés dans un workflow cohérent.",
+     "sections": [
+      "15.1 Pourquoi un seul modèle ne suffit plus",
+      "15.2 Rôles : routeur, extracteur, rédacteur, validateur",
+      "15.3 Pipelines séquentiels vs parallèles",
+      "15.4 Passage de contexte entre modèles : formats et perte d'information",
+      "15.5 Gérer les latences et les coûts cumulés",
+      "15.6 Supervision et observabilité d'un orchestrateur"
+     ],
+     "exercices": [
+      "Dessiner un pipeline à trois modèles pour un cas réel",
+      "Implémenter un routeur qui dispatche selon le type de requête",
+      "Mesurer la perte d'information entre deux étapes du pipeline",
+      "Calculer le coût complet d'une exécution type"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Mémoire, contexte long et persistance",
+     "objectif": "Gérer les conversations longues et les projets qui s'étendent dans le temps.",
+     "sections": [
+      "16.1 Mémoire de travail vs mémoire à long terme",
+      "16.2 Stratégies de résumé et de compression du contexte",
+      "16.3 Profils utilisateurs et mémoires persistantes",
+      "16.4 Projets longs : tenir un fil narratif sur des semaines",
+      "16.5 Mémoire vectorielle et retrieval contextuel",
+      "16.6 Hygiène de la mémoire : oublier, archiver, purger"
+     ],
+     "exercices": [
+      "Concevoir un prompt de résumé pour condenser une longue conversation",
+      "Construire un profil utilisateur structuré mis à jour automatiquement",
+      "Gérer un projet fictif sur quatre sessions avec mémoire persistante",
+      "Définir une politique d'oubli pour les données sensibles"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Prompting multimodal : images, audio, vidéo",
+     "objectif": "Étendre les techniques aux modèles qui voient, entendent et parlent.",
+     "sections": [
+      "17.1 Comprendre l'encodage multimodal",
+      "17.2 Décrire une image pour en extraire de l'information",
+      "17.3 Générer des images à partir d'un prompt texte",
+      "17.4 Audio : transcription, synthèse, analyse vocale",
+      "17.5 Vidéo : analyse de séquences et story-boarding",
+      "17.6 Composer texte, image et son dans un même workflow"
+     ],
+     "exercices": [
+      "Décrire une image complexe avec cinq niveaux de détail",
+      "Générer une image à partir d'un prompt structuré et itérer",
+      "Transcrire et résumer un extrait audio en deux étapes",
+      "Concevoir un storyboard multimodal pour une présentation"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Sécurité et robustesse des prompts",
+     "objectif": "Protéger vos systèmes contre les injections, les fuites et les contournements.",
+     "sections": [
+      "18.1 Prompt injection : principes et variantes",
+      "18.2 Fuites d'instructions système : jailbreaking",
+      "18.3 Techniques de défense : sandboxing, délimiteurs, validation",
+      "18.4 Filtrage d'entrée et de sortie",
+      "18.5 Audit et tests de pénétration sur vos propres prompts",
+      "18.6 Gérer les incidents et les signalements"
+     ],
+     "exercices": [
+      "Tenter (sur vos propres prompts) trois attaques d'injection classiques",
+      "Ajouter des délimiteurs robustes à un prompt critique",
+      "Mettre en place un filtre de sortie sur mots-clés sensibles",
+      "Rédiger un rapport d'audit de sécurité sur un prompt existant"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Évaluation, optimisation et applications sectorielles",
+   "chapitres": [
+    {
+     "numero": 19,
+     "titre": "Évaluer rigoureusement la qualité d'un prompt",
+     "objectif": "Remplacer l'intuition par des mesures reproductibles.",
+     "sections": [
+      "19.1 Définir des métriques selon la tâche : précision, rappel, fidélité, style",
+      "19.2 Jeux de tests : constituer un golden set représentatif",
+      "19.3 Évaluation humaine vs évaluation par LLM (LLM-as-a-judge)",
+      "19.4 Automatisation des tests : pipelines CI/CD de prompts",
+      "19.5 Analyser les échecs : typologie et remèdes",
+      "19.6 Documenter les versions et leurs performances"
+     ],
+     "exercices": [
+      "Construire un golden set de vingt cas pour une tâche métier",
+      "Définir trois métriques chiffrées et les mesurer sur deux versions d'un prompt",
+      "Mettre en place un LLM-as-a-judge sur une grille de cinq critères",
+      "Rédiger une note de version comparative entre deux prompts"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Optimiser systématiquement ses prompts",
+     "objectif": "Appliquer une démarche scientifique pour améliorer en continu.",
+     "sections": [
+      "20.1 Le cycle A/B appliqué aux prompts",
+      "20.2 Optimisation automatique : DSPy, OPRO et approches voisines",
+      "20.3 Distillation : faire faire au petit modèle ce que fait le grand",
+      "20.4 Gérer la dérive dans le temps (modèles mis à jour)",
+      "20.5 Coût vs qualité : trouver le point d'équilibre",
+      "20.6 Constituer un catalogue interne de prompts optimisés"
+     ],
+     "exercices": [
+      "Mener un test A/B sur vingt requêtes et analyser les résultats",
+      "Appliquer une boucle d'optimisation manuelle en trois itérations",
+      "Distiller un prompt coûteux vers un modèle plus léger",
+      "Créer une fiche catalogue pour un prompt optimisé"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Applications sectorielles : entreprise et productivité",
+     "objectif": "Décliner les techniques dans les fonctions clés de l'entreprise.",
+     "sections": [
+      "21.1 Marketing : copywriting, SEO, personal branding",
+      "21.2 Vente : prospection, qualification, réponses commerciales",
+      "21.3 Support client : tri, réponses, escalade",
+      "21.4 Ressources humaines : fiches de poste, entretiens, onboarding",
+      "21.5 Finance et reporting : synthèse, analyse, conformité",
+      "21.6 Management : décisions, communication interne, stratégie"
+     ],
+     "exercices": [
+      "Concevoir un prompt de copywriting pour trois canaux différents",
+      "Automatiser la qualification d'un lead à partir d'un email",
+      "Construire un prompt de réponse support avec garde-fous stricts",
+      "Rédiger une fiche de poste inclusive et attractive"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Applications sectorielles : création, éducation, recherche",
+     "objectif": "Explorer les usages créatifs, pédagogiques et scientifiques.",
+     "sections": [
+      "22.1 Écriture longue : roman, essai, scénario",
+      "22.2 Design et arts visuels assistés par IA",
+      "22.3 Musique et sound design",
+      "22.4 Éducation : tuteurs personnalisés, exercices adaptatifs",
+      "22.5 Recherche : revue de littérature, synthèse, idéation",
+      "22.6 Traduction et localisation avancées"
+     ],
+     "exercices": [
+      "Structurer un roman en vingt chapitres avec l'aide d'un prompt",
+      "Générer cinq variantes visuelles d'un concept",
+      "Concevoir un tuteur pédagogique pour une notion difficile",
+      "Réaliser une revue de littérature assistée sur un sujet précis"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Développement et code assistés par prompts",
+     "objectif": "Exploiter les LLM pour écrire, relire et maintenir du code.",
+     "sections": [
+      "23.1 Les modèles de code : forces et spécialités",
+      "23.2 Spécifier avant de coder : prompts de cahier des charges",
+      "23.3 Génération, refactorisation, documentation",
+      "23.4 Debugging assisté et analyse de logs",
+      "23.5 Tests unitaires et revues de code automatisées",
+      "23.6 Intégration dans les IDE et workflows DevOps"
+     ],
+     "exercices": [
+      "Rédiger un prompt de spécification pour une petite fonction",
+      "Refactoriser un code legacy avec un prompt structuré",
+      "Générer une suite de tests unitaires cohérente",
+      "Analyser un log d'erreur et proposer un correctif argumenté"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Construire votre pratique durable du prompt",
+     "objectif": "Transformer les techniques en habitude, et les habitudes en avantage compétitif.",
+     "sections": [
+      "24.1 Organiser sa bibliothèque personnelle de prompts",
+      "24.2 Veille technologique : suivre les modèles et les techniques",
+      "24.3 Partager et collaborer : équipes, communautés, open source",
+      "24.4 Se former en continu : cours, certifications, benchmarks",
+      "24.5 Anticiper les évolutions : multimodal, agents, modèles locaux",
+      "24.6 De l'outil au partenaire : repenser votre rapport au travail"
+     ],
+     "exercices": [
+      "Structurer votre bibliothèque personnelle en dossiers thématiques",
+      "Construire une routine de veille hebdomadaire en trente minutes",
+      "Contribuer à une communauté en partageant un prompt optimisé",
+      "Rédiger votre feuille de route personnelle à douze mois"
+     ]
+    }
+   ]
+  }
+ ]
+}
