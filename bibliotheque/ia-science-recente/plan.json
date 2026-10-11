@@ -1,0 +1,584 @@
+{
+ "titre": "L'Ère de l'Intelligence Artificielle",
+ "sous_titre": "Comprendre, maîtriser et prospérer à l'âge des machines pensantes — Guide complet des avancées scientifiques et de leurs applications concrètes",
+ "bibliographie": [
+  {
+   "auteur": "Nick Bostrom",
+   "titre": "Superintelligence: Paths, Dangers, Strategies",
+   "annee": "2014",
+   "idee": "Explore les scénarios par lesquels une IA surpassant l'intelligence humaine pourrait émerger et les risques existentiels associés.",
+   "apport": "Cadre conceptuel sur les risques de l'IA avancée et la notion d'explosion d'intelligence."
+  },
+  {
+   "auteur": "Max Tegmark",
+   "titre": "Life 3.0: Being Human in the Age of Artificial Intelligence",
+   "annee": "2017",
+   "idee": "Examine comment l'IA pourrait redéfinir la vie, le travail et la conscience à l'échelle cosmique.",
+   "apport": "Vision panoramique des scénarios futurs et de la place de l'humain."
+  },
+  {
+   "auteur": "Stuart Russell",
+   "titre": "Human Compatible: Artificial Intelligence and the Problem of Control",
+   "annee": "2019",
+   "idee": "Propose de redéfinir l'IA pour qu'elle soit intrinsèquement alignée avec les préférences humaines incertaines.",
+   "apport": "Fondements théoriques de l'alignement et de l'IA coopérative."
+  },
+  {
+   "auteur": "Pedro Domingos",
+   "titre": "The Master Algorithm",
+   "annee": "2015",
+   "idee": "Présente les cinq grandes tribus du machine learning et la quête d'un algorithme universel d'apprentissage.",
+   "apport": "Cartographie pédagogique des paradigmes de l'IA symbolique, connexionniste, évolutionniste, bayésienne et analogique."
+  },
+  {
+   "auteur": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+   "titre": "Deep Learning",
+   "annee": "2016",
+   "idee": "Ouvrage de référence académique sur les réseaux de neurones profonds, leurs mathématiques et architectures.",
+   "apport": "Base technique rigoureuse pour expliquer les mécanismes internes des modèles modernes."
+  },
+  {
+   "auteur": "François Chollet",
+   "titre": "Deep Learning with Python",
+   "annee": "2017 (2e éd. 2021)",
+   "idee": "Introduction pratique au deep learning via Keras, avec une pédagogie centrée sur l'intuition.",
+   "apport": "Approche pédagogique pour vulgariser les architectures (CNN, RNN, transformers)."
+  },
+  {
+   "auteur": "Ajay Agrawal, Joshua Gans, Avi Goldfarb",
+   "titre": "Prediction Machines",
+   "annee": "2018",
+   "idee": "L'IA est avant tout une technologie de prédiction à bas coût qui transforme l'économie de la décision.",
+   "apport": "Grille de lecture économique et stratégique applicable aux entreprises."
+  },
+  {
+   "auteur": "Kai-Fu Lee",
+   "titre": "AI Superpowers: China, Silicon Valley, and the New World Order",
+   "annee": "2018",
+   "idee": "Compare les écosystèmes IA américain et chinois et leurs implications géopolitiques.",
+   "apport": "Contexte géostratégique et analyse des forces industrielles en présence."
+  },
+  {
+   "auteur": "Kai-Fu Lee, Chen Qiufan",
+   "titre": "AI 2041: Ten Visions for Our Future",
+   "annee": "2021",
+   "idee": "Dix nouvelles de science-fiction accompagnées d'analyses techniques projettent l'IA en 2041.",
+   "apport": "Exemples narratifs d'applications futures crédibles."
+  },
+  {
+   "auteur": "Brian Christian",
+   "titre": "The Alignment Problem",
+   "annee": "2020",
+   "idee": "Histoire intellectuelle et technique du problème de l'alignement des systèmes d'IA avec les valeurs humaines.",
+   "apport": "Profondeur historique et éthique sur l'apprentissage par renforcement et les biais."
+  },
+  {
+   "auteur": "Kate Crawford",
+   "titre": "Atlas of AI",
+   "annee": "2021",
+   "idee": "Cartographie critique des coûts matériels, sociaux et politiques cachés de l'IA.",
+   "apport": "Perspective critique sur les ressources, le travail et le pouvoir."
+  },
+  {
+   "auteur": "Gary Marcus, Ernest Davis",
+   "titre": "Rebooting AI: Building Artificial Intelligence We Can Trust",
+   "annee": "2019",
+   "idee": "Critique les limites du deep learning pur et plaide pour une IA hybride intégrant raisonnement symbolique.",
+   "apport": "Mise en garde contre le solutionnisme et plaidoyer pour une approche neuro-symbolique."
+  },
+  {
+   "auteur": "Henry Kissinger, Eric Schmidt, Daniel Huttenlocher",
+   "titre": "The Age of AI: And Our Human Future",
+   "annee": "2021",
+   "idee": "Réflexion philosophique et stratégique sur la manière dont l'IA transforme la connaissance et la gouvernance.",
+   "apport": "Hauteur de vue sur les implications civilisationnelles."
+  },
+  {
+   "auteur": "Mustafa Suleyman",
+   "titre": "The Coming Wave: Technology, Power, and the Twenty-first Century's Greatest Dilemma",
+   "annee": "2023",
+   "idee": "La vague des technologies de synthèse (IA et biologie de synthèse) pose un problème de containment inédit.",
+   "apport": "Analyse de la prolifération technologique et de ses régulations."
+  },
+  {
+   "auteur": "Ethan Mollick",
+   "titre": "Co-Intelligence: Living and Working with AI",
+   "annee": "2024",
+   "idee": "Guide pratique pour collaborer avec les IA génératives comme collègues, coaches et créateurs.",
+   "apport": "Méthodes concrètes d'usage quotidien des LLM au travail."
+  },
+  {
+   "auteur": "Sébastien Bubeck et al. (Microsoft Research)",
+   "titre": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+   "annee": "2023",
+   "idee": "Étude empirique montrant les capacités émergentes de GPT-4 approchant une forme d'AGI naissante.",
+   "apport": "État de l'art scientifique sur les modèles de fondation et leurs limites."
+  },
+  {
+   "auteur": "Ashlee Vance",
+   "titre": "The AI Billionaires",
+   "annee": "2025 (titre indicatif, incertain)",
+   "idee": "Chronique des fondateurs et capitaux qui façonnent la course à l'IA de nouvelle génération.",
+   "apport": "Contexte industriel et financier contemporain (à confirmer selon disponibilité)."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Comprendre la machine : fondements scientifiques de l'IA moderne",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Qu'est-ce que l'intelligence artificielle, vraiment ?",
+     "objectif": "Définir l'IA au-delà du battage médiatique, poser le vocabulaire et situer les grandes familles de systèmes.",
+     "sections": [
+      "De Turing à ChatGPT : sept décennies en accéléré",
+      "IA faible, IA forte, superintelligence : le spectre des ambitions",
+      "Symbolique, connexionniste, hybride : les trois paradigmes",
+      "Les cinq tribus de Domingos expliquées simplement",
+      "Pourquoi l'IA explose maintenant : données,算力, algorithmes",
+      "Mythes et réalités : ce que l'IA ne fait pas (encore)"
+     ],
+     "exercices": [
+      "Cartographier trois systèmes IA que vous utilisez quotidiennement et identifier leur paradigme",
+      "Rédiger une définition personnelle de l'IA en 50 mots",
+      "Quiz d'auto-évaluation : mythe ou réalité sur 10 affirmations courantes"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Le deep learning démystifié",
+     "objectif": "Expliquer sans jargon mathématique lourd comment les réseaux de neurones apprennent à partir de données.",
+     "sections": [
+      "Le neurone artificiel, brique de base",
+      "Couches, profondeurs et représentations hiérarchiques",
+      "La rétropropagation expliquée par la métaphore",
+      "Fonctions de perte, optimisation et surapprentissage",
+      "GPU, TPU et l'industrie des puces dédiées",
+      "Les limites structurelles du deep learning pur"
+     ],
+     "exercices": [
+      "Entraîner mentalement un classifieur à deux couches sur un jeu de données jouet",
+      "Simuler sur tableur une passe avant et une rétropropagation simple",
+      "Identifier un cas de surapprentissage dans un exemple concret"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "CNN, RNN, transformers : les architectures qui ont tout changé",
+     "objectif": "Faire comprendre les architectures majeures et pourquoi les transformers dominent depuis 2017.",
+     "sections": [
+      "Les CNN : voir comme une machine",
+      "Les RNN et LSTM : traiter les séquences temporelles",
+      "L'article 'Attention Is All You Need' et la révolution des transformers",
+      "Mécanisme d'attention expliqué pas à pas",
+      "BERT, GPT, T5 : la famille des modèles pré-entraînés",
+      "Pourquoi l'échelle change tout : les lois d'échelle de Kaplan"
+     ],
+     "exercices": [
+      "Tracer à la main l'architecture d'un CNN pour la reconnaissance de chiffres",
+      "Calculer manuellement un score d'attention sur une phrase de 4 tokens",
+      "Comparer les forces de BERT vs GPT pour trois tâches différentes"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "L'apprentissage par renforcement et les agents autonomes",
+     "objectif": "Explorer comment les systèmes apprennent par essai-erreur et deviennent des agents capables de planifier.",
+     "sections": [
+      "Markov, récompenses et politique optimale",
+      "DQN et la victoire sur Atari",
+      "AlphaGo, AlphaZero et MuZero : l'apprentissage par jeu",
+      "RLHF : comment on aligne les LLM sur les préférences humaines",
+      "Agents multi-tâches et planification avec ReAct et Toolformer",
+      "Les robots apprenants : de la simulation au monde réel"
+     ],
+     "exercices": [
+      "Modéliser un petit labyrinthe comme processus de décision markovien",
+      "Écrire une politique simple pour un agent aspirateur",
+      "Concevoir un système de récompense pour un assistant IA domestique"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Les données : le carburant invisible",
+     "objectif": "Comprendre le rôle central des données, leur collecte, leur annotation et leurs biais.",
+     "sections": [
+      "De Common Crawl à The Pile : les grands corpus",
+      "Annotation humaine, synthétique et faiblement supervisée",
+      "Nettoyage, déduplication et filtrage de qualité",
+      "Biais de données : origines, mesures et corrections",
+      "Données personnelles, RGPD et consentements",
+      "La nouvelle économie des données d'entraînement"
+     ],
+     "exercices": [
+      "Auditer un petit jeu de données pour détecter trois biais potentiels",
+      "Concevoir une grille d'annotation pour une tâche de classification",
+      "Calculer l'empreinte carbone approximative d'un corpus d'entraînement"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — La révolution générative : quand l'IA crée",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "Les grands modèles de langage (LLM) expliqués",
+     "objectif": "Démonter le fonctionnement des GPT, Claude, Llama, Gemini et consorts.",
+     "sections": [
+      "Pré-entraînement : avaler Internet",
+      "Fine-tuning supervisé et instruction tuning",
+      "RLHF, DPO et alignment moderne",
+      "Fenêtre de contexte, embeddings et mémoire",
+      "Inférence, quantization et optimisations",
+      "Comparatif des grandes familles en 2026"
+     ],
+     "exercices": [
+      "Comparer trois LLM sur une même tâche et analyser les écarts",
+      "Rédiger un prompt système optimisé pour un assistant spécialisé",
+      "Estimer le coût d'inférence d'un usage quotidien type"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Prompt engineering et art de la conversation avec l'IA",
+     "objectif": "Maîtriser les techniques avancées de prompt pour tirer le meilleur des LLM.",
+     "sections": [
+      "Anatomie d'un prompt efficace",
+      "Few-shot, chain-of-thought, tree-of-thought",
+      "Techniques de raisonnement structuré",
+      "Gestion de la température, top-p et reproductibilité",
+      "Prompts adverses et jailbreaks : comprendre pour se protéger",
+      "Bibliothèque de prompts réutilisables par métier"
+     ],
+     "exercices": [
+      "Transformer un prompt vague en prompt professionnel structuré",
+      "Construire une chaîne de raisonnement sur un problème complexe",
+      "Créer une bibliothèque de 10 prompts pour votre domaine"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "IA générative pour le texte, le code et la connaissance",
+     "objectif": "Explorer les applications concrètes de la génération textuelle et programmatique.",
+     "sections": [
+      "Rédaction assistée : journalisme, marketing, littérature",
+      "Copilot, Cursor et la programmation augmentée",
+      "RAG : Retrieval-Augmented Generation pour les bases de connaissance",
+      "Synthèse documentaire et veille automatisée",
+      "Traduction, localisation et adaptation culturelle",
+      "Limites : hallucinations, citations fantômes, vérification"
+     ],
+     "exercices": [
+      "Concevoir un pipeline RAG pour un corpus métier de 100 documents",
+      "Faire réviser un code par un LLM puis évaluer les suggestions",
+      "Détecter trois hallucinations dans une sortie générée"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Images, vidéos, audio : l'IA multimodale",
+     "objectif": "Comprendre les modèles de diffusion, les voix synthétiques et la vidéo générée.",
+     "sections": [
+      "GAN, VAE et modèles de diffusion : principes",
+      "Stable Diffusion, DALL·E, Midjourney : création visuelle",
+      "Voix clonées, synthèse vocale et musique générative",
+      "Sora et la génération vidéo : enjeux techniques",
+      "Deepfakes : détection et contre-mesures",
+      "Droits d'auteur et statut des œuvres générées"
+     ],
+     "exercices": [
+      "Produire une série d'images cohérentes avec des seeds contrôlées",
+      "Identifier trois deepfakes dans un échantillon de vidéos",
+      "Rédiger une charte d'usage éthique des contenus générés"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Agents IA : de l'assistant à l'autonomie",
+     "objectif": "Découvrir les agents capables d'utiliser des outils, naviguer sur le web et exécuter des tâches complexes.",
+     "sections": [
+      "Architecture agent : perception, raisonnement, action",
+      "Tool use et function calling",
+      "Agents web, computer use et automatisation",
+      "Multi-agents : AutoGen, CrewAI, LangGraph",
+      "Mémoire à long terme et bases vectorielles",
+      "Risques d'autonomie mal encadrée"
+     ],
+     "exercices": [
+      "Concevoir un agent pour automatiser une tâche récurrente de votre travail",
+      "Simuler une conversation multi-agents pour résoudre un problème",
+      "Écrire une politique de supervision humaine pour un agent déployé"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — L'IA en action : transformations sectorielles",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "Santé et biologie : l'IA qui soigne et découvre",
+     "objectif": "Montrer comment l'IA révolutionne le diagnostic, la découverte de médicaments et la biologie fondamentale.",
+     "sections": [
+      "AlphaFold et la révolution de la biologie structurale",
+      "Imagerie médicale assistée par IA",
+      "Découverte de médicaments et essais cliniques augmentés",
+      "Médecine personnalisée et jumeaux numériques",
+      "IA en santé mentale : thérapeutes conversationnels",
+      "Validation clinique, régulation et responsabilité"
+     ],
+     "exercices": [
+      "Comparer un parcours de soin traditionnel et un parcours augmenté par l'IA",
+      "Lister cinq biais potentiels dans un algorithme de diagnostic",
+      "Rédiger une note de cadrage éthique pour un projet IA hospitalier"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Éducation : apprendre à l'âge de l'IA",
+     "objectif": "Analyser les transformations de l'enseignement et de l'apprentissage par les outils d'IA.",
+     "sections": [
+      "Tuteurs intelligents et personnalisation des parcours",
+      "Évaluation automatique et feedback formatif",
+      "Plagiat, triche et redéfinition des compétences",
+      "Nouvelles littératies : prompt, critique, vérification",
+      "Enseignants augmentés : scénarios pédagogiques",
+      "Fracture numérique et accès équitable"
+     ],
+     "exercices": [
+      "Concevoir une séquence pédagogique intégrant un LLM",
+      "Transformer un examen traditionnel en évaluation de compétences IA",
+      "Auditer son propre usage de l'IA dans l'apprentissage"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Entreprise et travail : productivité, métiers, organisation",
+     "objectif": "Cartographier les impacts de l'IA sur les métiers, les processus et les modèles d'affaires.",
+     "sections": [
+      "Prediction Machines appliquée : où l'IA crée de la valeur",
+      "Métiers exposés, métiers transformés, métiers nouveaux",
+      "Automatisation des processus cognitifs",
+      "IA dans la finance, le marketing, la supply chain",
+      "Management des équipes hybrides humain-IA",
+      "Stratégie d'adoption : build, buy, partner"
+     ],
+     "exercices": [
+      "Cartographier l'exposition IA de 10 tâches de votre poste",
+      "Calculer un ROI indicatif pour un projet d'automatisation",
+      "Rédiger une feuille de route IA à 18 mois pour une PME"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Sciences fondamentales : l'IA comme télescope de la connaissance",
+     "objectif": "Explorer comment l'IA accélère la recherche en physique, chimie, mathématiques et climatologie.",
+     "sections": [
+      "IA pour la découverte scientifique : exemples phares",
+      "Modèles climatiques et prévisions environnementales",
+      "IA et mathématiques : preuve assistée, conjectures",
+      "Fusion nucléaire et contrôle des plasmas",
+      "Télescopes intelligents et exploration spatiale",
+      "Science ouverte et reproductibilité"
+     ],
+     "exercices": [
+      "Identifier trois découvertes scientifiques récentes accélérées par l'IA",
+      "Comparer une méthode scientifique classique et une méthode assistée par IA",
+      "Proposer un projet de recherche citoyen mobilisant l'IA"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Créativité, culture et médias",
+     "objectif": "Analyser l'impact de l'IA générative sur les industries créatives et la production culturelle.",
+     "sections": [
+      "Écriture, édition et nouveaux formats narratifs",
+      "Musique, cinéma et effets spéciaux génératifs",
+      "Jeux vidéo : NPCs, mondes procéduraux, design assisté",
+      "Publicité personnalisée et marketing prédictif",
+      "Droits des artistes, rémunération et licences",
+      "Vers une esthétique propre à l'IA ?"
+     ],
+     "exercices": [
+      "Co-créer une nouvelle courte avec un LLM et documenter le processus",
+      "Comparer trois modèles économiques pour un artiste à l'ère de l'IA",
+      "Rédiger une charte de transparence pour une production culturelle"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Enjeux : éthique, pouvoir et société",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "Biais, équité et justice algorithmique",
+     "objectif": "Comprendre les mécanismes des biais et les méthodes pour les atténuer.",
+     "sections": [
+      "Sources des biais : données, modèles, déploiement",
+      "Mesures d'équité : parité, égalité des chances, calibration",
+      "Cas d'étude : recrutement, justice prédictive, crédit",
+      "Techniques de débiaisage avant, pendant, après entraînement",
+      "Audits algorithmiques et certifications",
+      "Limites fondamentales : théorème d'impossibilité"
+     ],
+     "exercices": [
+      "Calculer deux métriques d'équité sur un jeu de données fictif",
+      "Concevoir un protocole d'audit pour un algorithme de recrutement",
+      "Rédiger une politique de diversité des données pour un projet"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Alignement, sécurité et contrôle des IA avancées",
+     "objectif": "Aborder les défis techniques et philosophiques de l'alignement des systèmes puissants.",
+     "sections": [
+      "Le problème de l'alignement selon Russell et Bostrom",
+      "Interprétabilité : ouvrir la boîte noire",
+      "Corrigibilité et arrêt d'urgence",
+      "Risques existentiels : débats et positions",
+      "Sécurité des modèles : red teaming, évaluations",
+      "Frontières de la recherche en alignment"
+     ],
+     "exercices": [
+      "Mener un exercice de red teaming sur un prompt sensible",
+      "Cartographier les parties prenantes d'un système IA critique",
+      "Rédiger une checklist de sécurité avant déploiement"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Surveillance, vie privée et pouvoir",
+     "objectif": "Examiner les usages de l'IA dans la surveillance et leurs implications démocratiques.",
+     "sections": [
+      "Reconnaissance faciale et biométrie",
+      "Scoring social et crédit social",
+      "Surveillance publicitaire et capitalisme de surveillance",
+      "IA militaire et armes autonomes",
+      "Atlas of AI : les coûts matériels et humains",
+      "Contre-pouvoirs : IA au service des citoyens"
+     ],
+     "exercices": [
+      "Cartographier les flux de données personnelles dans trois applications courantes",
+      "Rédiger une politique de protection pour une organisation",
+      "Identifier trois usages civiques positifs de l'IA"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Emploi, inégalités et redistribution",
+     "objectif": "Analyser les effets macroéconomiques de l'IA sur l'emploi et la répartition des richesses.",
+     "sections": [
+      "Substitution, complémentarité, création de tâches",
+      "Polarisation du marché du travail",
+      "Concentration des gains : hyperscalers et capital",
+      "Revenu universel, taxation des robots, débats",
+      "Formation, reconversion et apprentissage tout au long de la vie",
+      "Scénarios macroéconomiques à 2040"
+     ],
+     "exercices": [
+      "Évaluer l'exposition de trois métiers à l'automatisation cognitive",
+      "Concevoir un plan de reconversion personnel sur 5 ans",
+      "Argumenter pour et contre un revenu universel financé par l'IA"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Régulation mondiale : de l'AI Act aux traités",
+     "objectif": "Décrypter le paysage réglementaire mondial et ses implications.",
+     "sections": [
+      "AI Act européen : approche par risque",
+      "Approche américaine : sectorielle et exécutive",
+      "Chine : régulation ciblée et souveraineté",
+      "Initiatives internationales : OCDE, ONU, UNESCO",
+      "Standards techniques et certifications",
+      "Vers une gouvernance mondiale de l'IA ?"
+     ],
+     "exercices": [
+      "Classifier dix applications d'IA selon les niveaux de risque de l'AI Act",
+      "Rédiger une note de conformité pour une startup",
+      "Comparer deux cadres réglementaires sur un cas précis"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Vivre et prospérer avec l'IA : stratégie personnelle et collective",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "La boîte à outils personnelle de l'humain augmenté",
+     "objectif": "Constituer un environnement de travail et d'apprentissage intégrant l'IA au quotidien.",
+     "sections": [
+      "Audit de ses outils actuels et opportunités d'augmentation",
+      "Assistants, copilots et seconds cerveaux",
+      "Gestion de l'attention et charge cognitive",
+      "Workflows automatisés avec n8n, Make, Zapier + LLM",
+      "Souveraineté numérique : modèles locaux et open source",
+      "Hygiène informationnelle à l'ère des deepfakes"
+     ],
+     "exercices": [
+      "Cartographier sa stack personnelle et identifier 5 gains potentiels",
+      "Automatiser une tâche hebdomadaire avec un workflow IA",
+      "Déployer un modèle open source en local et comparer"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Compétences du XXIe siècle : ce qui reste humain",
+     "objectif": "Identifier les compétences différenciatrices à cultiver face à l'IA.",
+     "sections": [
+      "Jugement, goût et sens critique",
+      "Créativité située et intention",
+      "Relations, empathie et leadership",
+      "Raisonnement moral et responsabilité",
+      "Métacognition : apprendre à apprendre avec l'IA",
+      "Portefeuille de compétences à construire"
+     ],
+     "exercices": [
+      "Rédiger son manifeste de compétences humaines à renforcer",
+      "Concevoir un plan de développement personnel sur 12 mois",
+      "Tenir un journal de ses interactions IA pendant une semaine"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Scénarios 2030-2040 : naviguer dans l'incertain",
+     "objectif": "Explorer plusieurs futurs plausibles et préparer des stratégies robustes.",
+     "sections": [
+      "Scénario 1 : IA utilitaire et croissance modérée",
+      "Scénario 2 : AGI progressive et transformation profonde",
+      "Scénario 3 : fragmentation géopolitique et IA souveraines",
+      "Scénario 4 : rupture technologique et singularité",
+      "Méthode des futurs multiples appliquée à sa vie",
+      "Signaux faibles à surveiller"
+     ],
+     "exercices": [
+      "Écrire une lettre à son moi de 2040 dans chaque scénario",
+      "Identifier cinq signaux faibles dans l'actualité récente",
+      "Construire une stratégie personnelle robuste aux quatre scénarios"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Construire un avenir digne d'être vécu",
+     "objectif": "Conclure sur une vision humaniste et des engagements concrets.",
+     "sections": [
+      "Ce que nous voulons vraiment : au-delà de la productivité",
+      "Éthique appliquée : principes pour agir aujourd'hui",
+      "Engagements individuels, collectifs, citoyens",
+      "Éducation des prochaines générations",
+      "Rôle de l'artiste, du chercheur, du décideur",
+      "Manifeste pour une IA au service de l'humain"
+     ],
+     "exercices": [
+      "Rédiger son manifeste personnel sur l'IA en une page",
+      "S'engager sur trois actions concrètes dans les 30 jours",
+      "Rejoindre ou créer une communauté locale de réflexion sur l'IA"
+     ]
+    }
+   ]
+  }
+ ]
+}
