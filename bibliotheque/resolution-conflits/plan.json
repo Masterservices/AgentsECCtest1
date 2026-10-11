@@ -1,0 +1,522 @@
+{
+ "titre": "L'Art de l'Accord",
+ "sous_titre": "Médiations et techniques de négociation pour apaiser les tensions et trouver des accords gagnant-gagnant au travail",
+ "bibliographie": [
+  {
+   "auteur": "Roger Fisher et William Ury",
+   "titre": "Comment réussir une négociation (Getting to Yes)",
+   "annee": "1981",
+   "idee": "La négociation raisonnée consiste à séparer les personnes du problème et à se concentrer sur les intérêts sous-jacents plutôt que sur les positions affichées.",
+   "apport": "Le socle théorique de la méthode Harvard pour structurer nos chapitres sur la recherche d'options à bénéfice mutuel."
+  },
+  {
+   "auteur": "Chris Voss",
+   "titre": "Ne coupez jamais la poire en deux (Never Split the Difference)",
+   "annee": "2016",
+   "idee": "L'empathie tactique et la maîtrise des émotions (la voix, le miroir, l'étiquetage) sont plus efficaces que la logique pure dans les négociations sous tension.",
+   "apport": "Techniques concrètes d'écoute active et de calibration émotionnelle pour les face-à-face difficiles."
+  },
+  {
+   "auteur": "Kerry Patterson, Joseph Grenny et al.",
+   "titre": "Conversations cruciales (Crucial Conversations)",
+   "annee": "2002",
+   "idee": "Lorsque les enjeux sont élevés et les émotions fortes, il faut créer un espace de sécurité psychologique pour maintenir le dialogue.",
+   "apport": "Le cadre de la double attention (surveiller le contenu et les conditions de sécurité de l'échange)."
+  },
+  {
+   "auteur": "Douglas Stone, Bruce Patton, Sheila Heen",
+   "titre": "Difficult Conversations",
+   "annee": "1999",
+   "idee": "Chaque conversation difficile cache en réalité trois conversations : ce qui s'est passé, les émotions, et l'identité.",
+   "apport": "Décryptage des non-dits et gestion des menaces identitaires en entreprise."
+  },
+  {
+   "auteur": "Deepak Malhotra et Max Bazerman",
+   "titre": "Negotiation Genius",
+   "annee": "2007",
+   "idee": "Les biais cognitifs et les asymétries d'information faussent notre jugement ; il faut les anticiper pour briller à la table des négociations.",
+   "apport": "Stratégies pour déjouer les pièges psychologiques et les situations complexes ou déséquilibrées."
+  },
+  {
+   "auteur": "Christopher W. Moore",
+   "titre": "The Mind and Heart of the Mediator",
+   "annee": "1996",
+   "idee": "Le médiateur n'est pas un juge mais un facilitateur de processus qui doit adapter son intervention au stade du conflit.",
+   "apport": "La posture, l'éthique et la boîte à outils du médiateur interne en entreprise."
+  },
+  {
+   "auteur": "Marshall B. Rosenberg",
+   "titre": "Les mots sont des fenêtres ou des murs (La Communication NonViolente)",
+   "annee": "1999",
+   "idee": "Exprimer des observations, des sentiments, des besoins et des demandes sans jugement permet de désamorcer l'agressivité.",
+   "apport": "Grille de communication empathique au quotidien pour prévenir l'escalade des tensions."
+  },
+  {
+   "auteur": "G. Richard Shell",
+   "titre": "Bargaining for Advantage",
+   "annee": "1999",
+   "idee": "Il n'y a pas de style de négociation universel ; l'efficacité repose sur la connaissance de son propre profil psychologique et de ses valeurs.",
+   "apport": "Adaptation des techniques de négociation au profil de chaque lecteur (introverti, compétitif, collaboratif)."
+  },
+  {
+   "auteur": "Jeremy Pollack",
+   "titre": "Conflict Resolution Playbook",
+   "annee": "2020",
+   "idee": "La résolution de conflit nécessite des stratégies de communication pratiques pour prévenir, désescalader et résoudre les frictions interpersonnelles.",
+   "apport": "Outils de désescalade rapide et scripts pour les échanges informels en open-space."
+  },
+  {
+   "auteur": "Rick Brinkman et Rick Kirschner",
+   "titre": "Dealing with People You Can't Stand",
+   "annee": "1994",
+   "idee": "Les comportements toxiques naissent de la frustration de besoins fondamentaux ; on peut les désamorcer en modifiant notre propre réaction.",
+   "apport": "Typologie des profils difficiles (le sniper, le râleur, le silencieux) et parades comportementales."
+  },
+  {
+   "auteur": "Gary T. Furlong",
+   "titre": "The Conflict Resolution Toolbox",
+   "annee": "2005",
+   "idee": "Il existe plusieurs modèles d'analyse des conflits (cercle, triangle, échelle) ; le bon médiateur choisit le bon modèle pour la bonne situation.",
+   "apport": "Modèles d'analyse systémique pour diagnostiquer l'origine réelle d'un blocage en équipe."
+  },
+  {
+   "auteur": "Daniel Shapiro",
+   "titre": "Negotiating the Nonnegotiable",
+   "annee": "2016",
+   "idee": "Les conflits les plus tenaces sont liés à l'identité et aux valeurs sacrées ; il faut utiliser la théorie de l'identité relationnelle pour les apaiser.",
+   "apport": "Gestion des conflits profonds liés aux valeurs, à la culture d'entreprise ou à la reconnaissance."
+  },
+  {
+   "auteur": "Jay Folberg et Alison Taylor",
+   "titre": "Mediation: A Comprehensive Guide to Resolving Conflicts Without Litigation",
+   "annee": "1984",
+   "idee": "La médiation est un processus structuré qui nécessite des étapes claires pour passer de l'affrontement à la co-construction.",
+   "apport": "Structuration formelle et juridique (cadre interne) d'une médiation en entreprise."
+  },
+  {
+   "auteur": "Jim Camp",
+   "titre": "Start with No",
+   "annee": "2002",
+   "idee": "Le 'oui' prématuré est souvent un piège ou une fuite ; inviter l'autre à dire 'non' lui redonne le contrôle et ouvre la vraie négociation.",
+   "apport": "L'art de poser les bonnes questions pour contourner les faux consensus et les accords de façade."
+  },
+  {
+   "auteur": "The Arbinger Institute",
+   "titre": "The Anatomy of Peace",
+   "annee": "2006",
+   "idee": "La paix ou le conflit commence dans notre propre état d'esprit : voyons-nous l'autre comme une personne ou comme un obstacle ?",
+   "apport": "Travail de fond sur le mindset du manager ou du médiateur avant même d'appliquer des techniques."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 : Comprendre et désamorcer la tension (L'Avant-Conflit)",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'anatomie d'un conflit au travail",
+     "objectif": "Identifier les racines invisibles des frictions et comprendre la mécanique de l'escalade pour intervenir au bon moment. (Cible : 3500 mots)",
+     "sections": [
+      "Le conflit est-il toujours mauvais ? (Le mythe de l'entreprise apaisée)",
+      "Les 5 sources de friction organisationnelle (Ressources, Valeurs, Besoins, Styles, Pressions)",
+      "Le cercle des conflits de Moore : diagnostiquer l'origine réelle",
+      "Signaux faibles, bruits de couloir et micro-agressions",
+      "L'escalade symétrique et l'effet boule de neige"
+     ],
+     "exercices": [
+      "Cartographie de vos tensions actuelles : identifier les sources cachées avec le cercle de Moore.",
+      "Journal de bord des signaux faibles sur une semaine."
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Maîtriser son propre système nerveux",
+     "objectif": "Apprendre à gérer ses propres émotions et son stress pour ne pas devenir un facteur aggravant du conflit. (Cible : 3500 mots)",
+     "sections": [
+      "Le cerveau reptilien en réunion : comprendre le détournement de l'amygdale",
+      "La fenêtre de tolérance : savoir quand on bascule en mode survie",
+      "Techniques d'ancrage immédiat et de respiration tactique",
+      "Préparer son état d'esprit : sortir de la posture de victime ou de sauveur",
+      "L'auto-compassion comme outil de résilience du négociateur"
+     ],
+     "exercices": [
+      "Exercice de respiration en carré pour faire baisser le rythme cardiaque avant un entretien tendu.",
+      "Audit de vos déclencheurs émotionnels (triggers) professionnels."
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Décoder les non-dits et la menace identitaire",
+     "objectif": "Comprendre ce qui se joue en dessous des mots, notamment les enjeux de statut, de reconnaissance et d'identité. (Cible : 3500 mots)",
+     "sections": [
+      "Les 3 conversations cachées (Les faits, les émotions, l'identité)",
+      "La menace identitaire : quand l'ego se sent attaqué",
+      "Les besoins fondamentaux non comblés (Appartenance, Autonomie, Compétence)",
+      "L'écoute de l'invisible : lire le langage non-verbal et les silences",
+      "Reformuler l'intention positive derrière un comportement maladroit"
+     ],
+     "exercices": [
+      "Analyse d'un email passif-agressif : décrypter la menace identitaire sous-jacente.",
+      "Jeu de rôle : reformuler une attaque personnelle en expression d'un besoin non comblé."
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "La Communication NonViolente en open-space",
+     "objectif": "Intégrer la CNV non pas comme une formule magique, mais comme une hygiène de communication pour s'exprimer sans braquer. (Cible : 3500 mots)",
+     "sections": [
+      "OSBD : le cadre de Rosenberg adapté à l'entreprise",
+      "Séparer l'observation factuelle du jugement moral",
+      "Nommer ses émotions sans accuser (Le piège du 'Tu me rends...')",
+      "Formuler une demande claire, réaliste et négociable",
+      "Les pièges du jargon CNV et comment rester authentique"
+     ],
+     "exercices": [
+      "Atelier de réécriture : transformer 5 feedbacks toxiques en messages OSBD.",
+      "Simulation de demande de recadrage de périmètre avec un collègue envahissant."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 : Les fondamentaux de la négociation collaborative",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "La méthode Harvard revisitée pour l'entreprise",
+     "objectif": "Maîtriser les piliers de la négociation raisonnée pour créer de la valeur sans céder sur l'essentiel. (Cible : 3500 mots)",
+     "sections": [
+      "Séparer les personnes du problème : l'art du recadrage",
+      "L'iceberg : faire émerger les intérêts sous les positions rigides",
+      "Inventer des options à bénéfice mutuel (Brainstorming sans jugement)",
+      "Utiliser des critères objectifs pour trancher les désaccords",
+      "Connaître son MANAN (Meilleure Alternative à un Accord Négocié)"
+     ],
+     "exercices": [
+      "Exercice de mapping de l'iceberg sur un conflit de budget entre deux départements.",
+      "Définition de votre MANAN avant une négociation salariale ou commerciale."
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "L'empathie tactique : créer un lien de confiance absolu",
+     "objectif": "Utiliser les techniques du FBI pour désarmer les défenses psychologiques et obtenir des informations cruciales. (Cible : 3500 mots)",
+     "sections": [
+      "L'approche de Chris Voss : pourquoi l'émotion précède la raison",
+      "Le miroir (Mirroring) : encourager l'autre à s'ouvrir",
+      "L'étiquetage (Labeling) : valider les émotions négatives pour les dissiper",
+      "Les questions calibrées : reprendre le contrôle avec 'Comment' et 'Quoi'",
+      "La voix du DJ de nuit : l'impact de la prosodie sur le système nerveux"
+     ],
+     "exercices": [
+      "Entraînement à l'étiquetage émotionnel : 'On dirait que vous êtes frustré par...'",
+      "Simulation : utiliser des questions calibrées face à une demande déraisonnable d'un client."
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Le pouvoir du 'Non' et l'art des concessions",
+     "objectif": "Naviguer dans le marchandage sans perdre la face ni sacrifier la relation. (Cible : 3500 mots)",
+     "sections": [
+      "Pourquoi un 'Oui' prématuré est un piège (Le faux consensus)",
+      "Faire dire 'Non' pour redonner le contrôle et engager la vraie discussion",
+      "L'art de la concession asymétrique (Donner peu, recevoir beaucoup)",
+      "La technique du conditionnel : 'Si vous... alors je...'",
+      "Pourquoi il ne faut jamais couper la poire en deux (Le compromis mou)"
+     ],
+     "exercices": [
+      "Jeu de rôle : formuler 3 questions conçues pour obtenir un 'Non' protecteur.",
+      "Préparation d'une grille de concessions (ce qui coûte peu à l'autre mais a de la valeur pour moi)."
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Négocier avec les biais cognitifs",
+     "objectif": "Déjouer les pièges du cerveau (le sien et celui de l'autre) pour garder une lucidité stratégique. (Cible : 3500 mots)",
+     "sections": [
+      "L'aversion à la perte : formuler les enjeux en termes de risques évités",
+      "Le biais de confirmation et l'effet de halo en réunion",
+      "L'escalade de l'engagement : savoir quand arrêter les frais",
+      "L'ancrage cognitif : qui pose le premier chiffre (ou la première idée) ?",
+      "Recadrer la perception pour contourner les blocages irrationnels"
+     ],
+     "exercices": [
+      "Audit de vos propres biais : identifier une décision récente influencée par l'aversion à la perte.",
+      "Exercice de recadrage : présenter une même proposition sous l'angle du gain puis de la perte."
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Conversations cruciales et sécurité psychologique",
+     "objectif": "Maintenir le dialogue et la productivité lorsque les enjeux sont vitaux et les opinions polarisées. (Cible : 3500 mots)",
+     "sections": [
+      "Le concept de double attention : le fond et la forme",
+      "Créer un espace de sécurité mutuelle (Le but commun)",
+      "La technique du 'Contraste' pour dissiper les malentendus",
+      "Revenir sur ses pas sans perdre la face (Le mea culpa stratégique)",
+      "Clore sur un engagement clair et mesurable"
+     ],
+     "exercices": [
+      "Rédaction d'un script de conversation cruciale avec un N+1 en utilisant la technique du Contraste.",
+      "Checklist de sécurité psychologique à vérifier avant d'aborder un sujet tabou en équipe."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 : L'art de la médiation en entreprise",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "Quand et comment devenir médiateur interne ?",
+     "objectif": "Comprendre le rôle, les limites et la posture du tiers facilitateur au sein de l'organisation. (Cible : 3500 mots)",
+     "sections": [
+      "Manager, RH ou pair : quel rôle jouer et quelles limites ?",
+      "Les signes qui indiquent qu'une médiation formelle est nécessaire",
+      "Obtenir le mandat et l'adhésion volontaire des parties",
+      "Poser le cadre, les règles du jeu et la confidentialité",
+      "La posture de neutralité bienveillante (L'équidistance)"
+     ],
+     "exercices": [
+      "Checklist de préparation et de cadrage d'une médiation interne.",
+      "Exercice de positionnement : rédiger le discours d'ouverture du médiateur."
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Le déroulé d'une séance de médiation",
+     "objectif": "Structurer l'échange pour passer de la ventilation émotionnelle à la co-construction de solutions. (Cible : 3500 mots)",
+     "sections": [
+      "L'accueil, le rappel du cadre et la ventilation contrôlée",
+      "L'écoute en navette (séparée) vs le face-à-face : quand choisir ?",
+      "La reformulation croisée : faire entendre l'un par l'autre",
+      "Identifier et ancrer les zones d'accord partiel",
+      "Transitionner vers la phase de brainstorming et de co-construction"
+     ],
+     "exercices": [
+      "Minutage type et structure d'une séance de médiation d'une heure.",
+      "Entraînement à la reformulation croisée sans trahir la pensée de l'émetteur."
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Gérer les émotions explosives en séance",
+     "objectif": "Désamorcer les crises, les colères et les pleurs sans perdre le fil du processus. (Cible : 3500 mots)",
+     "sections": [
+      "Laisser la vapeur s'échapper : la fonction cathartique de la colère",
+      "Le recadrage de l'attaque personnelle en expression d'un besoin",
+      "Les pauses stratégiques (Le balcon) pour faire redescendre la pression",
+      "Gérer les larmes, la sidération et le mutisme",
+      "Rappeler le cadre avec fermeté et douceur (L'autorité du médiateur)"
+     ],
+     "exercices": [
+      "Constitution d'une banque de phrases de recadrage neutre et bienveillante.",
+      "Simulation de gestion de crise : que faire quand une partie se lève et menace de partir ?"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Débloquer les impasses et les situations gelées",
+     "objectif": "Relancer la machine quand les parties campent sur leurs positions et que le temps semble suspendu. (Cible : 3500 mots)",
+     "sections": [
+      "Le syndrome du 'C'est lui qui a commencé' et la tyrannie du passé",
+      "La technique du 'Et si on oubliait le passé pour sauver l'avenir ?'",
+      "Utiliser l'avocat du diable pour tester la solidité des positions",
+      "Changer de niveau logique : Zoom in (détail) vs Zoom out (vision)",
+      "L'introduction de critères externes ou d'experts pour trancher"
+     ],
+     "exercices": [
+      "Atelier de brainstorming forcé : générer 10 options volontairement absurdes pour débloquer la créativité.",
+      "Exercice de projection : 'Que se passera-t-il dans 6 mois si aucun accord n'est trouvé ?'"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Rédiger et sceller l'accord de médiation",
+     "objectif": "Transformer les bonnes intentions en un protocole d'accord robuste, réaliste et durable. (Cible : 3500 mots)",
+     "sections": [
+      "Les caractéristiques d'un bon accord : précis, équilibré et réaliste",
+      "Anticiper les rechutes, les imprévus et les zones d'ombre",
+      "La clause de revoyure : programmer le suivi",
+      "La symbolique de la signature et de l'engagement moral",
+      "Communiquer sur l'accord à l'externe (sans trahir la confidentialité)"
+     ],
+     "exercices": [
+      "Utilisation d'un modèle de protocole d'accord interne (Template).",
+      "Exercice de stress-test : soumettre l'accord à 3 scénarios de crise futurs."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 : Gérer les profils difficiles et les situations de crise",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "Le collègue toxique, le manipulateur et le narcissique",
+     "objectif": "Se protéger, poser des limites et négocier avec des profils qui ne jouent pas selon les règles de la bonne foi. (Cible : 3500 mots)",
+     "sections": [
+      "Identifier la toxicité : narcissique, passif-agressif, diviseur",
+      "La technique de la 'pierre grise' pour affamer le manipulateur",
+      "Documenter les faits sans tomber dans la paranoïa",
+      "Poser des limites infranchissables et les faire respecter",
+      "Négocier avec un ego surdimensionné (Lui donner l'illusion du contrôle)"
+     ],
+     "exercices": [
+      "Mise en place d'un plan de protection et de documentation factuelle.",
+      "Script de réponse à une attaque passive-agressive en réunion publique."
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Négocier vers le haut : le manager autoritaire ou absent",
+     "objectif": "Influencer sa hiérarchie, gérer le micro-management et dire non à son chef sans saborder sa carrière. (Cible : 3500 mots)",
+     "sections": [
+      "Comprendre les peurs et les pressions qui s'exercent sur le management",
+      "Le 'Managing Up' : proposer des solutions clés en main alignées sur ses KPI",
+      "Gérer le micro-management par la sur-communication proactive",
+      "Dire non à son chef : la technique de l'alternative contrainte",
+      "Recadrer un manager qui dépasse les bornes (L'assertivité respectueuse)"
+     ],
+     "exercices": [
+      "Préparation d'un entretien de recadrage de périmètre avec son N+1.",
+      "Matrice de décision : quand escalader, quand subir, quand négocier ?"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Conflits d'équipes, silos et guerres de tranchées",
+     "objectif": "Apaiser les tensions collectives, les guerres de clochers et les conflits inter-départements. (Cible : 3500 mots)",
+     "sections": [
+      "La dynamique des boucs émissaires et la cohésion contre un ennemi commun",
+      "Silos organisationnels : quand les KPI s'affrontent",
+      "Animer un séminaire de réalignement et de clarification des rôles",
+      "Créer des rituels de réconciliation et de feedback croisé",
+      "Le rôle indispensable du sponsor (Direction) dans la paix des équipes"
+     ],
+     "exercices": [
+      "Co-construction d'une charte de fonctionnement et d'entraide inter-équipes.",
+      "Atelier de 'Vis ma vie' pour briser les préjugés entre départements (ex: Vente vs Prod)."
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Harcèlement, discrimination et lignes rouges légales",
+     "objectif": "Connaître les limites strictes de la médiation et savoir quand alerter pour protéger les personnes et l'entreprise. (Cible : 3500 mots)",
+     "sections": [
+      "Ce qui n'est PAS négociable : le Droit du travail et le Code pénal",
+      "Identifier objectivement le harcèlement moral et sexuel",
+      "Le devoir d'alerte, la protection du lanceur d'alerte et du salarié",
+      "Orienter vers les bons acteurs (RH, Médecine du travail, Inspection, Juridique)",
+      "Accompagner la victime avec empathie sans se substituer à la justice"
+     ],
+     "exercices": [
+      "Étude de cas : utiliser l'arbre de décision éthique et légal face à une plainte.",
+      "Rédaction d'une note d'alerte confidentielle à la direction des ressources humaines."
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Négocier en situation de crise majeure (Restructuration, rachat)",
+     "objectif": "Maintenir le lien, la dignité et un minimum de paix sociale dans l'incertitude et le deuil organisationnel. (Cible : 3500 mots)",
+     "sections": [
+      "La psychologie du deuil organisationnel (Les courbes du changement)",
+      "L'équilibre impossible entre transparence et confidentialité stratégique",
+      "Négocier les modalités de départ avec dignité (Outplacement, indemnités)",
+      "Gérer le syndrome du survivant chez ceux qui restent",
+      "Le leadership empathique et vulnérable en temps de chaos"
+     ],
+     "exercices": [
+      "Rédaction d'un script de communication de crise pour les managers de proximité.",
+      "Plan d'action pour accompagner les 'survivants' d'une réorganisation."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 : Pérenniser les accords et cultiver la paix au travail",
+   "chapitres": [
+    {
+     "numero": 20,
+     "titre": "L'après-négociation : éviter le regret et sécuriser l'application",
+     "objectif": "S'assurer que les accords signés survivent à l'épreuve du temps et du quotidien. (Cible : 3500 mots)",
+     "sections": [
+      "Le 'Buyer's Remorse' : comprendre le regret post-accord",
+      "La stratégie des petits pas et des victoires rapides (Quick wins)",
+      "Le suivi bienveillant mais ferme : la clause de revoyure en action",
+      "Célébrer les succès communs pour ancrer la coopération",
+      "Gérer les récidives et les écarts de conduite sans culpabiliser"
+     ],
+     "exercices": [
+      "Création d'un tableau de bord de suivi des engagements (Qui fait quoi pour quand).",
+      "Script de relance bienveillante en cas de non-respect d'un engagement."
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Instaurer une culture du feedback constructif",
+     "objectif": "Transformer le feedback en outil de prévention des conflits plutôt qu'en arme de représailles. (Cible : 3500 mots)",
+     "sections": [
+      "Le feedback n'est pas une punition : changer le paradigme",
+      "Les modèles SBI (Situation-Behavior-Impact) et DESC",
+      "Recevoir un feedback difficile sans se braquer (L'écoute défensive vs curieuse)",
+      "Le feedback ascendant (vers le chef) et latéral (entre pairs)",
+      "Instaurer des rituels d'équipe pour la régulation continue"
+     ],
+     "exercices": [
+      "Entraînement en binôme au feedback DESC sur une situation récente.",
+      "Mise en place d'un rituel de 'Rétrospective' (Start/Stop/Continue) en fin de projet."
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Concevoir des processus de résolution interne",
+     "objectif": "Institutionnaliser la paix en créant des dispositifs structurés de médiation et de prévention. (Cible : 3500 mots)",
+     "sections": [
+      "Les Ombudsmen et les réseaux de médiateurs pairs en entreprise",
+      "Former et certifier un cercle de médiateurs internes",
+      "Intégrer la communication non-violente dans le parcours d'onboarding",
+      "Les clauses de résolution amiable dans les chartes et contrats internes",
+      "Mesurer le ROI de la paix sociale (Absentéisme, turnover, productivité)"
+     ],
+     "exercices": [
+      "Rédaction d'un pitch pour la Direction Générale (Création d'un pôle médiation).",
+      "Conception d'un module d'onboarding sur la gestion des désaccords."
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Négocier avec soi-même : alignement, limites et départ",
+     "objectif": "Trouver sa paix intérieure, définir ses lignes rouges personnelles et savoir quand il est temps de quitter la table (ou l'entreprise). (Cible : 3500 mots)",
+     "sections": [
+      "Le syndrome de l'imposteur et la légitimité en négociation",
+      "Définir ses propres lignes rouges éthiques et personnelles",
+      "Savoir quand quitter la table : le coût de rester dans un conflit stérile",
+      "L'auto-compassion et l'apprentissage après un échec de négociation",
+      "Construire sa légende personnelle de négociateur intègre"
+     ],
+     "exercices": [
+      "Rédaction d'une lettre à soi-même : 'Mon manifeste de négociateur'.",
+      "Exercice de bilan : évaluer le coût émotionnel vs le gain matériel d'un conflit en cours."
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Le leadership médiateur : l'avenir du management",
+     "objectif": "Passer du paradigme du chef de guerre à celui du chef d'orchestre pour faire de la diversité une force. (Cible : 3500 mots)",
+     "sections": [
+      "Du chef de guerre au chef d'orchestre : le nouveau contrat social",
+      "L'intelligence collective et la dissidence comme boussoles",
+      "Gérer la diversité des générations, des cultures et des neuro-atypies",
+      "L'entreprise comme écosystème vivant et interdépendant",
+      "Transmettre l'art de l'accord : former la prochaine génération"
+     ],
+     "exercices": [
+      "Plan de développement personnel 'Leadership Médiateur' sur 12 mois.",
+      "Conception d'un discours de vision pour inspirer une culture de la coopération."
+     ]
+    }
+   ]
+  }
+ ]
+}
