@@ -1,9 +1,9 @@
-# Publie le site de l'Atelier Dialagram (dossier web/) sur GitHub Pages à chaque mise à jour de main.
+# Publie le site de l'Atelier Dialagram (dossier web/) sur GitHub Pages à chaque mise à jour de main ou de la branche par défaut du dépôt.
 name: Site GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [main, claude/test-ecc-6r3tpj]
     paths: ["web/**", ".github/workflows/pages.yml"]
   workflow_dispatch:
 
