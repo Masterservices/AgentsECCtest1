@@ -1,0 +1,578 @@
+{
+ "titre": "No-Code : L'art de bâtir et d'automatiser sans écrire une ligne",
+ "sous_titre": "Applications, workflows et processus métier à la portée de tous grâce aux outils visuels",
+ "bibliographie": [
+  {
+   "auteur": "Bhaskar Ghosh, Bertrand De Biasi, Karthik Narain",
+   "titre": "The Automation Advantage",
+   "annee": "2021",
+   "idee": "L'automatisation intelligente (RPA + IA) transforme l'entreprise à condition de repenser les processus avant de les outiller.",
+   "apport": "Cadre stratégique pour choisir quels processus automatiser en priorité et mesurer le ROI."
+  },
+  {
+   "auteur": "Eric von Hippel",
+   "titre": "Democratizing Innovation",
+   "annee": "2005",
+   "idee": "Les utilisateurs finaux sont souvent les meilleurs innovateurs quand on leur donne des outils adaptables.",
+   "apport": "Fondement théorique du 'citizen developer' : pourquoi libérer la création du service IT."
+  },
+  {
+   "auteur": "Thomas H. Davenport",
+   "titre": "The AI Advantage",
+   "annee": "2018",
+   "idee": "L'IA apporte surtout de la valeur en s'insérant dans des processus métier existants, pas en remplaçant les humains.",
+   "apport": "Repères pour intégrer des briques d'IA (OCR, NLP) dans des applications no-code."
+  },
+  {
+   "auteur": "Mike Cowley",
+   "titre": "Mastering Microsoft Power Apps",
+   "annee": "2020",
+   "idee": "Power Apps permet de construire des applications métier connectées à l'écosystème Microsoft 365 sans coder.",
+   "apport": "Patterns de conception d'apps d'entreprise (formulaires, galeries, collections)."
+  },
+  {
+   "auteur": "Project Management Institute (PMI)",
+   "titre": "Citizen Developer Playbook",
+   "annee": "2021",
+   "idee": "Le citizen development doit être encadré pour éviter le shadow IT tout en libérant la créativité.",
+   "apport": "Gouvernance, rôles et garde-fous à transposer dans notre chapitre sur l'industrialisation."
+  },
+  {
+   "auteur": "Jesse James Garrett",
+   "titre": "The Elements of User Experience",
+   "annee": "2010 (2e éd.)",
+   "idee": "Les 5 plans de l'UX (stratégie, portée, structure, squelette, surface) s'appliquent à tout produit numérique.",
+   "apport": "Grille de conception UX réutilisable pour les apps no-code."
+  },
+  {
+   "auteur": "Alan Cooper, Robert Reimann, David Cronin",
+   "titre": "About Face: The Essentials of Interaction Design",
+   "annee": "2014 (4e éd.)",
+   "idee": "Concevoir autour de personas et de scénarios plutôt que de fonctionnalités techniques.",
+   "apport": "Méthode personas + storyboards appliquée à la spec d'une app no-code."
+  },
+  {
+   "auteur": "Don Jones",
+   "titre": "The DSC Book / Automating PowerShell (collectif)",
+   "annee": "2017-2020",
+   "idee": "L'automatisation repose sur l'idempotence, la versioning et la reproductibilité.",
+   "apport": "Principes d'ingénierie applicables aux workflows Make/Zapier (tests, rollback)."
+  },
+  {
+   "auteur": "John Allspaw, Jez Humble",
+   "titre": "Continuous Delivery (référence DevOps)",
+   "annee": "2010",
+   "idee": "Livrer petit, souvent, avec des tests automatisés et du versioning.",
+   "apport": "Culture DevOps transposée au no-code : environnements dev/staging/prod, revues."
+  },
+  {
+   "auteur": "David Chappell",
+   "titre": "The Low-Code/No-Code Revolution (rapports & articles)",
+   "annee": "2019-2023",
+   "idee": "Le low-code redéfinit la frontière entre IT et métier ; le shadow IT devient un actif si gouverné.",
+   "apport": "Analyse marché et positionnement stratégique pour décideurs."
+  },
+  {
+   "auteur": "Gartner (collectif analystes)",
+   "titre": "Magic Quadrant for Enterprise Low-Code Application Platforms",
+   "annee": "2020-2025",
+   "idee": "Cartographie des plateformes (OutSystems, Mendix, Power Apps, ServiceNow, Salesforce) et critères de choix.",
+   "apport": "Grille comparative pour le chapitre 'choisir sa plateforme'."
+  },
+  {
+   "auteur": "Zapier Inc. (collectif)",
+   "titre": "The Ultimate Guide to Automation",
+   "annee": "2022",
+   "idee": "L'automatisation commence par cartographier les tâches répétitives et leurs déclencheurs.",
+   "apport": "Méthode d'audit des workflows et catalogues de recettes types."
+  },
+  {
+   "auteur": "Mattias Skoog, Johan Bohman",
+   "titre": "Bubble.io - Build Web Apps Without Code (guides communautaires)",
+   "annee": "2021-2024",
+   "idee": "Bubble permet de construire des SaaS complets via une logique visuelle événementielle.",
+   "apport": "Patterns SaaS : users, abonnements, Stripe, emails transactionnels."
+  },
+  {
+   "auteur": "Kasra Rahbari (et contributeurs Airtable)",
+   "titre": "Airtable: The Missing Manual (ressources communautaires)",
+   "annee": "2020-2024",
+   "idee": "Airtable est une base de données relationnelle déguisée en tableur, avec API et automatisations natives.",
+   "apport": "Modélisation de données relationnelles accessibles aux non-développeurs."
+  },
+  {
+   "auteur": "Indy Sawhney",
+   "titre": "No-Code AI (ouvrages et formations)",
+   "annee": "2022-2024",
+   "idee": "On peut entraîner et déployer des modèles de ML via des interfaces visuelles (Lobe, AutoML, GPT wrappers).",
+   "apport": "Briques IA à intégrer dans les apps no-code (classification, génération, extraction)."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 — Fondations : penser no-code avant d'outiller",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "La promesse no-code : mythes, réalités et promesses tenues",
+     "objectif": "Définir ce qu'est vraiment le no-code/low-code, ce qu'il permet, et ce qu'il ne permet pas (pour éviter les désillusions).",
+     "sections": [
+      "1.1. Du tableur à Bubble : une brève histoire des outils visuels",
+      "1.2. No-code, low-code, pro-code : où se situe la frontière ?",
+      "1.3. Les trois promesses (vitesse, coût, autonomie) et leurs limites",
+      "1.4. Le citizen developer : profil, compétences requises, pièges",
+      "1.5. Quand le no-code devient une dette technique déguisée",
+      "1.6. Panorama 2026 des catégories d'outils (bases, apps, automations, IA)"
+     ],
+     "exercices": [
+      "Auto-évaluation : quel type de maker êtes-vous ? (quiz 20 questions)",
+      "Cartographier son écosystème numérique actuel en 30 minutes",
+      "Identifier 3 croyances limitantes sur la programmation et les reformuler"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Penser comme un produit : du besoin à la spec visuelle",
+     "objectif": "Apprendre à transformer une demande métier floue en spécification claire avant d'ouvrir un outil.",
+     "sections": [
+      "2.1. Cadrer : qui, quoi, pourquoi, quand, où, combien (QQOQCCP)",
+      "2.2. Personas et jobs-to-be-done pour apps internes",
+      "2.3. User stories et critères d'acceptation en langage naturel",
+      "2.4. Wireframes papier avant wireframes numériques",
+      "2.5. Le MVP no-code : la règle du 80/20 appliquée aux apps",
+      "2.6. Rédiger une 'product brief' d'une page"
+     ],
+     "exercices": [
+      "Rédiger 5 user stories pour un processus de votre équipe",
+      "Dessiner 3 écrans papier d'une app de gestion de congés",
+      "Écrire la brief produit d'un outil interne en 1 page maximum"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Cartographier ses processus métier avant de les automatiser",
+     "objectif": "Maîtriser la modélisation visuelle des processus (BPMN light) pour identifier ce qui mérite d'être outillé.",
+     "sections": [
+      "3.1. Pourquoi automatiser un mauvais processus accélère juste les problèmes",
+      "3.2. BPMN simplifié : événements, tâches, gateways, pools",
+      "3.3. Cartographier avec Miro, Whimsical ou Lucidchart",
+      "3.4. Identifier goulots, doublons et tâches à faible valeur ajoutée",
+      "3.5. Matrice effort/valeur pour prioriser les automatisations",
+      "3.6. Documenter pour transmettre (pas pour archiver)"
+     ],
+     "exercices": [
+      "Cartographier un processus récurrent (ex. onboarding client) en BPMN light",
+      "Calculer le temps gaspillé par mois sur 5 tâches répétitives",
+      "Construire sa matrice effort/valeur des automatisations candidates"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Choisir sa stack no-code : la méthode en 7 critères",
+     "objectif": "Donner une méthode reproductible pour choisir les bons outils selon le contexte (taille, données, intégrations, budget).",
+     "sections": [
+      "4.1. Les 7 critères : données, UX, logique, intégrations, sécurité, coût, pérennité",
+      "4.2. Panorama comparatif : Bubble vs Glide vs Softr vs Power Apps vs AppSheet",
+      "4.3. Airtable vs Notion vs Coda vs Smartsheet : quand choisir quoi",
+      "4.4. Zapier vs Make vs n8n vs Power Automate : la guerre des orchestrateurs",
+      "4.5. Éviter le vendor lock-in : clauses, exports, API",
+      "4.6. Construire sa stack en couches (data / logic / UI / automation / IA)",
+      "4.7. Budget réaliste d'une stack no-code selon la taille d'entreprise"
+     ],
+     "exercices": [
+      "Remplir la grille de sélection sur un cas réel de votre entreprise",
+      "Comparer 2 plateformes sur un mini-prototype (30 min chacune)",
+      "Calculer le TCO sur 24 mois d'une stack candidate"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 — Les données : le socle invisible de toute application",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Modéliser ses données sans SQL : la pensée relationnelle",
+     "objectif": "Transmettre les fondamentaux de la modélisation de données (entités, relations, clés) sans jargon technique.",
+     "sections": [
+      "5.1. Entités, attributs, relations : le trio fondamental",
+      "5.2. Un-à-un, un-à-plusieurs, plusieurs-à-plusieurs : exemples concrets",
+      "5.3. Clés primaires, clés étrangères, identifiants uniques",
+      "5.4. Normalisation light : éviter la redondance sans sur-ingénierie",
+      "5.5. Modéliser pour le no-code : les spécificités Airtable/Notion/Bubble",
+      "5.6. Les pièges classiques (tables monstres, champs calculés mal placés)"
+     ],
+     "exercices": [
+      "Dessiner le MCD d'une boutique e-commerce simple (6 entités)",
+      "Convertir un fichier Excel plat en 4 tables reliées",
+      "Identifier 3 erreurs de modélisation dans un schéma fourni"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Airtable en profondeur : le tableur qui a appris le relationnel",
+     "objectif": "Maîtriser Airtable comme backbone de données d'une stack no-code.",
+     "sections": [
+      "6.1. Bases, tables, vues, champs : anatomie d'Airtable",
+      "6.2. Les 12 types de champs essentiels (linked records, rollups, lookups)",
+      "6.3. Vues personnalisées : grille, Kanban, calendrier, galerie, formulaire",
+      "6.4. Interfaces Airtable : transformer les tables en apps internes",
+      "6.5. Automatisations natives : déclencheurs, actions, conditions",
+      "6.6. API et extensions : quand Airtable devient un backend",
+      "6.7. Limites (taille de base, performances, pricing) et contournements"
+     ],
+     "exercices": [
+      "Construire une base CRM complète (contacts, deals, activités) en 1 heure",
+      "Créer une Interface pour le suivi de projets avec 3 vues",
+      "Configurer une automatisation qui notifie par email sur changement de statut"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Notion, Coda, SmartSuite : quand le document devient base de données",
+     "objectif": "Comprendre les forces et faiblesses des bases 'document-first' et savoir quand les préférer.",
+     "sections": [
+      "7.1. Notion : blocs, bases, relations et rollups",
+      "7.2. Coda : formules puissantes et packs d'intégration",
+      "7.3. SmartSuite : le concurrent orienté processus",
+      "7.4. Comparatif d'usage : wiki vs CRM vs gestion de projet",
+      "7.5. Notion API et Notion Automations : nouvelles possibilités",
+      "7.6. Structurer un workspace d'équipe qui tient dans le temps"
+     ],
+     "exercices": [
+      "Construire un wiki d'équipe avec base de connaissances liée aux auteurs",
+      "Créer un tracker de recrutement avec pipeline Kanban dans Coda",
+      "Migrer une base Airtable simple vers Notion (et mesurer les pertes)"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Bases de données externes : Xano, Supabase, Google Sheets comme backend",
+     "objectif": "Savoir quand et comment externaliser les données pour gagner en performance et en scalabilité.",
+     "sections": [
+      "8.1. Pourquoi sortir les données d'Airtable/Bubble (volumétrie, coût, latence)",
+      "8.2. Xano : backend no-code avec API REST/GraphQL automatique",
+      "8.3. Supabase : Postgres managé accessible aux non-développeurs",
+      "8.4. Google Sheets : le 'backend pauvre' et ses pièges",
+      "8.5. Firebase et Baserow : alternatives à connaître",
+      "8.6. Sécuriser son backend : rôles, tokens, RLS (Row Level Security)"
+     ],
+     "exercices": [
+      "Créer un backend Xano avec 3 tables et des endpoints sécurisés",
+      "Connecter une app Bubble à Supabase via le plugin officiel",
+      "Auditer une architecture Google Sheets pour identifier les risques"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Qualité, gouvernance et vie des données",
+     "objectif": "Mettre en place des garde-fous pour que les données restent fiables quand les apps se multiplient.",
+     "sections": [
+      "9.1. Nommage, typage, conventions : l'hygiène de base",
+      "9.2. Validations, champs obligatoires, valeurs par défaut",
+      "9.3. Backups, exports, archivage : ne jamais perdre",
+      "9.4. RGPD en contexte no-code : où sont stockées les données ?",
+      "9.5. Data dictionary : documenter pour les collègues futurs",
+      "9.6. Qualité continue : audits mensuels et métriques"
+     ],
+     "exercices": [
+      "Rédiger une charte de nommage pour votre stack (1 page)",
+      "Mettre en place un backup automatisé d'Airtable vers S3/Drive",
+      "Réaliser un audit RGPD rapide de vos 3 outils principaux"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 — Construire des applications visuelles qui tiennent la route",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "Bubble : le couteau suisse du SaaS no-code",
+     "objectif": "Maîtriser Bubble pour construire des applications web complètes, de l'éditeur à la mise en production.",
+     "sections": [
+      "10.1. Philosophie Bubble : pages, éléments, workflows, données",
+      "10.2. Le responsive designer (nouveau moteur Flexbox)",
+      "10.3. Workflows : événements, actions, états, custom states",
+      "10.4. Backend workflows (tâches planifiées, API backend)",
+      "10.5. Plugins, API Connector et JavaScript-to-Bubble",
+      "10.6. Gestion des utilisateurs, rôles, Privacy Rules",
+      "10.7. Performance, WU (Workload Units) et optimisation"
+     ],
+     "exercices": [
+      "Construire un clone simplifié de Product Hunt en 4 heures",
+      "Créer un workflow d'inscription avec email de confirmation",
+      "Optimiser une page lente en réduisant les recherches en base"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Glide, Softr, WeWeb, Toddle : apps à partir de données existantes",
+     "objectif": "Savoir générer rapidement des apps front sur Airtable, Google Sheets ou Xano.",
+     "sections": [
+      "11.1. Glide : des apps mobiles pros en quelques heures",
+      "11.2. Softr : portails clients et internes sur Airtable/SmartSuite",
+      "11.3. WeWeb : front-end avancé connecté à Xano/Supabase",
+      "11.4. Toddle : le nouveau venu orienté performance",
+      "11.5. Comparatif : quand choisir lequel",
+      "11.6. Personnalisation visuelle sans casser la maintenabilité"
+     ],
+     "exercices": [
+      "Générer une app mobile de gestion de stock depuis Google Sheets avec Glide",
+      "Construire un portail client Softr avec authentification et factures",
+      "Créer un dashboard WeWeb branché sur Xano avec filtres dynamiques"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Power Apps, AppSheet, Retool : l'entreprise passe au low-code",
+     "objectif": "Comprendre les plateformes low-code d'entreprise et leur écosystème (Microsoft, Google, Retool).",
+     "sections": [
+      "12.1. Power Apps : canvas vs model-driven, intégration Microsoft 365",
+      "12.2. Formules Power Fx : le 'Excel des apps'",
+      "12.3. AppSheet : la réponse Google pour le terrain",
+      "12.4. Retool et Internal : apps internes pour équipes tech et ops",
+      "12.5. Power Pages : sites web externes connectés à Dataverse",
+      "12.6. Gouvernance dans un tenant Microsoft/Google"
+     ],
+     "exercices": [
+      "Créer une Power App canvas de saisie de rapports terrain en 2 heures",
+      "Déployer une app AppSheet avec scan de codes-barres pour inventaire",
+      "Construire un admin panel Retool branché sur une base SQL existante"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "UX et design system en contexte no-code",
+     "objectif": "Produire des interfaces lisibles, accessibles et cohérentes, même sans designer dédié.",
+     "sections": [
+      "13.1. Les 7 principes d'UX qui sauvent 80% des apps no-code",
+      "13.2. Construire un mini design system (couleurs, typo, composants)",
+      "13.3. Figma pour maquetter, puis importer ou refaire",
+      "13.4. Accessibilité : contrastes, clavier, lecteurs d'écran",
+      "13.5. Micro-copy : textes d'erreur, empty states, confirmations",
+      "13.6. Tests utilisateurs low-cost (5 utilisateurs, 30 min chacun)"
+     ],
+     "exercices": [
+      "Créer un design system de 10 composants réutilisables",
+      "Auditer l'accessibilité d'une app avec l'outil Contrast Checker",
+      "Mener 3 tests utilisateurs filmés et en extraire 5 apprentissages"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Sécurité, authentification et gestion des accès",
+     "objectif": "Sécuriser ses applications no-code : auth, rôles, bonnes pratiques, pièges classiques.",
+     "sections": [
+      "14.1. Authentification : native, SSO, OAuth, Auth0/Clerk",
+      "14.2. Autorisation : rôles, permissions, Privacy Rules Bubble",
+      "14.3. Secrets, clés API : où les stocker (jamais dans l'app !)",
+      "14.4. Protection contre les abus : rate limiting, captchas, logs",
+      "14.5. Audit de sécurité d'une app no-code en 30 points",
+      "14.6. Réponse à incident : qui fait quoi quand ça casse"
+     ],
+     "exercices": [
+      "Implémenter une authentification SSO Google sur une app Bubble",
+      "Configurer Clerk pour gérer rôles et invitations sur une app WeWeb",
+      "Réaliser l'audit de sécurité en 30 points sur une app existante"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Tests, déploiement et maintenance continue",
+     "objectif": "Appliquer une discipline de delivery aux apps no-code pour éviter les régressions.",
+     "sections": [
+      "15.1. Environnements dev/staging/prod dans les outils no-code",
+      "15.2. Tests manuels structurés : checklist de recette",
+      "15.3. Tests automatisés : Synthetic, BlazeMeter, outils dédiés",
+      "15.4. Versioning : branches, rollbacks, documentation des releases",
+      "15.5. Monitoring : uptime, erreurs, performance (Sentry, Better Uptime)",
+      "15.6. Roadmap produit et rétro utilisateurs mensuelle"
+     ],
+     "exercices": [
+      "Rédiger une checklist de recette de 25 points pour une app",
+      "Mettre en place un monitoring d'uptime avec alerte Slack/Teams",
+      "Simuler un rollback complet d'une app après une mauvaise release"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 — Automatiser : connecter, orchestrer, fluidifier",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "Zapier, Make, n8n, Power Automate : la guerre des orchestrateurs",
+     "objectif": "Comparer en profondeur les plateformes d'automatisation et savoir quand utiliser laquelle.",
+     "sections": [
+      "16.1. Anatomie d'une automation : trigger, action, condition, boucle",
+      "16.2. Zapier : simplicité, 7000+ apps, pricing à la tâche",
+      "16.3. Make (ex-Integromat) : scénarios visuels, pricing à l'opération",
+      "16.4. n8n : open-source, self-hosted, pour équipes techniques",
+      "16.5. Power Automate : intégration Microsoft et RPA desktop",
+      "16.6. Bardeen, Relay.app, Relevance AI : la nouvelle vague",
+      "16.7. Matrice de choix selon volume, complexité, budget, souveraineté"
+     ],
+     "exercices": [
+      "Implémenter le même workflow sur Zapier ET Make, comparer",
+      "Installer n8n en self-hosted sur un VPS (guide pas-à-pas)",
+      "Calculer le coût mensuel de 5 scénarios sur 3 plateformes"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Concevoir des workflows robustes : patterns et anti-patterns",
+     "objectif": "Écrire des automatisations qui survivent aux pannes, aux changements d'API et à la croissance.",
+     "sections": [
+      "17.1. Idempotence : exécuter deux fois ne doit rien casser",
+      "17.2. Gestion des erreurs : retries, fallbacks, alertes",
+      "17.3. Logs structurés et traçabilité (execution ID, correlation ID)",
+      "17.4. Pattern 'queue' pour absorber les pics de charge",
+      "17.5. Pattern 'fan-out / fan-in' pour le parallélisme",
+      "17.6. Anti-patterns : workflows monolithiques, données codées en dur",
+      "17.7. Documenter un scénario pour qu'un collègue le reprenne"
+     ],
+     "exercices": [
+      "Ajouter retry + fallback sur un scénario Make existant",
+      "Refactoriser un workflow monolithique en 3 sous-scénarios",
+      "Écrire la doc d'un scénario en 1 page (diagramme + table)"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Automatisations métier types : le catalogue des 50 recettes",
+     "objectif": "Fournir un catalogue réutilisable d'automatisations prêtes à adapter pour les fonctions courantes.",
+     "sections": [
+      "18.1. Ventes : du lead capté à la signature électronique",
+      "18.2. Marketing : nurturing, scoring, synchronisation CRM/ESP",
+      "18.3. Support : ticket, SLA, escalation, CSAT automatique",
+      "18.4. RH : onboarding, congés, évaluations, offboarding",
+      "18.5. Finance : facturation, relances, prévisionnel, clôture",
+      "18.6. Ops : inventaire, reporting, alertes, data quality",
+      "18.7. Composer ses propres recettes à partir des briques"
+     ],
+     "exercices": [
+      "Implémenter la recette 'lead → CRM → email → task commercial'",
+      "Construire un onboarding RH automatisé de J-7 à J+30",
+      "Créer un dashboard de relances clients impayés synchronisé avec la compta"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "RPA et automatisation desktop : quand l'API n'existe pas",
+     "objectif": "Comprendre le RPA (Robotic Process Automation) pour automatiser les vieux logiciels sans API.",
+     "sections": [
+      "19.1. RPA vs API automation : complémentaires, pas concurrents",
+      "19.2. Power Automate Desktop : le RPA accessible de Microsoft",
+      "19.3. UiPath Community, Automation Anywhere, Axiom.ai",
+      "19.4. Cas d'usage : ERP legacy, portail admin, téléchargements",
+      "19.5. Fragilité du RPA : comment la compenser (sélecteurs robustes, monitoring)",
+      "19.6. Éthique et conformité : ne pas violer les CGU des sites"
+     ],
+     "exercices": [
+      "Automatiser la récupération quotidienne de rapports depuis un portail",
+      "Créer un robot qui remplit un formulaire SAP/legacy depuis Excel",
+      "Instrumenter un robot avec logs + alertes en cas d'échec"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Webhooks, APIs et code light : l'extension inévitable",
+     "objectif": "Savoir lire une doc d'API, utiliser des webhooks, et écrire 10 lignes de JavaScript/Python quand le no-code bloque.",
+     "sections": [
+      "20.1. Qu'est-ce qu'une API REST ? Verbes, payloads, statuts HTTP",
+      "20.2. Webhooks entrants/sortants : le système nerveux du no-code",
+      "20.3. Postman/Insomnia pour tester avant d'intégrer",
+      "20.4. Lire du JSON : la compétence minimale du maker",
+      "20.5. JavaScript dans Make, Bubble, Retool : 10 snippets indispensables",
+      "20.6. Python light : pandas pour nettoyer, requests pour appeler",
+      "20.7. Cloud Functions (Cloudflare Workers, Google Cloud Functions) comme glue"
+     ],
+     "exercices": [
+      "Appeler une API publique (OpenWeather) depuis Make et afficher le résultat",
+      "Écrire un webhook qui reçoit un Stripe event et met à jour Airtable",
+      "Déployer une Cloudflare Worker qui transforme un payload avant renvoi"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 — Industrialiser : IA, équipe, gouvernance et passage à l'échelle",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "IA générative intégrée : GPT, Claude, agents dans vos apps",
+     "objectif": "Intégrer des capacités IA (LLM, vision, voix) dans des apps no-code sans devenir data scientist.",
+     "sections": [
+      "21.1. Ce que les LLM font bien, mal, et très mal en 2026",
+      "21.2. Connecter OpenAI, Anthropic, Mistral depuis Make/Zapier",
+      "21.3. Prompt engineering pour apps : système, utilisateur, few-shot",
+      "21.4. RAG simple : donner sa documentation à un LLM",
+      "21.5. Agents IA : AutoGen, CrewAI, n8n AI agents, Relevance AI",
+      "21.6. Contrôler les coûts, la qualité et les hallucinations",
+      "21.7. Cas d'usage : support, rédaction, extraction, classification"
+     ],
+     "exercices": [
+      "Créer un chatbot support branché sur une base Notion via RAG",
+      "Automatiser l'extraction de données de 1000 PDFs avec GPT-4o",
+      "Construire un agent qui qualifie les leads entrants avant CRM"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Travailler en équipe sur du no-code",
+     "objectif": "Passer du maker solo à l'équipe de makers : rôles, revue, conventions, transmission.",
+     "sections": [
+      "22.1. Rôles : product owner no-code, maker, admin plateforme, IT partner",
+      "22.2. Conventions de nommage et documentation vivante",
+      "22.3. Revue de pairs : checklist avant mise en production",
+      "22.4. Gestion des accès et des environnements en équipe",
+      "22.5. Onboarding d'un nouveau maker en 3 jours",
+      "22.6. Centre de compétences no-code interne (No-Code CoE)"
+     ],
+     "exercices": [
+      "Rédiger la charte de nommage et de documentation de l'équipe",
+      "Concevoir le parcours d'onboarding d'un maker junior (3 jours)",
+      "Mener une revue de pair sur un workflow réel avec la checklist"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Gouvernance, shadow IT et relation avec la DSI",
+     "objectif": "Mettre en place une gouvernance qui encourage sans laisser-aller, en partenariat avec l'IT.",
+     "sections": [
+      "23.1. Shadow IT : risque ou opportunité ? Les deux, selon la gouvernance",
+      "23.2. Catalogue d'apps internes : qui possède quoi",
+      "23.3. Classification des données : public, interne, confidentiel, sensible",
+      "23.4. Process d'approbation light pour nouvelles apps",
+      "23.5. Partenariat IT / métier : CoE, ambassadeurs, formations",
+      "23.6. Indicateurs de maturité no-code de l'organisation"
+     ],
+     "exercices": [
+      "Construire le catalogue d'apps no-code de votre organisation",
+      "Rédiger la politique d'usage acceptable en 2 pages",
+      "Calculer le score de maturité no-code sur 10 critères"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Monétiser, transmettre, évoluer : la vie après le lancement",
+     "objectif": "Penser l'app no-code comme un actif : la vendre, la transmettre, la faire grandir ou la remplacer.",
+     "sections": [
+      "24.1. Vendre une app no-code : valorisation, due diligence, transfert",
+      "24.2. Freelance no-code : se positionner, facturer, livrer",
+      "24.3. Agence no-code : recruter, former, industrialiser",
+      "24.4. Quand migrer vers du code pro : signes et méthode",
+      "24.5. Veille technologique : où suivre l'évolution du marché",
+      "24.6. Feuille de route personnelle du maker : 6 mois, 2 ans, 5 ans"
+     ],
+     "exercices": [
+      "Rédiger une fiche de vente de SaaS no-code (Acquire.com-style)",
+      "Construire son offre freelance no-code en 3 packages",
+      "Écrire sa feuille de route maker à 2 ans avec jalons mesurables"
+     ]
+    }
+   ]
+  }
+ ]
+}
