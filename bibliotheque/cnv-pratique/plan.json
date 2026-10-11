@@ -1,0 +1,585 @@
+{
+ "titre": "Parler sans blesser, écouter sans juger",
+ "sous_titre": "Le guide complet de la Communication NonViolente pour exprimer ses besoins, désamorcer les tensions et bâtir des relations authentiques au quotidien",
+ "bibliographie": [
+  {
+   "auteur": "Marshall B. Rosenberg",
+   "titre": "Les mots sont des fenêtres (ou bien ce sont des murs)",
+   "annee": "1999 (rééd. 2016)",
+   "idee": "Présentation des 4 étapes de la CNV : observation, sentiment, besoin, demande, appliquées à la vie quotidienne.",
+   "apport": "Structure centrale OSBD du livre et vocabulaire des sentiments/besoins."
+  },
+  {
+   "auteur": "Marshall B. Rosenberg",
+   "titre": "La Communication NonViolente au quotidien",
+   "annee": "2003",
+   "idee": "Approfondissement pratique : colère, culpabilité, punition, remerciement.",
+   "apport": "Chapitres dédiés à la gestion de la colère et à l'expression de la gratitude."
+  },
+  {
+   "auteur": "Marshall B. Rosenberg",
+   "titre": "Enseigner avec bienveillance",
+   "annee": "2005",
+   "idee": "Application de la CNV dans l'éducation et la relation enseignant-élève.",
+   "apport": "Section famille/éducation et posture d'autorité bienveillante."
+  },
+  {
+   "auteur": "Marshall B. Rosenberg",
+   "titre": "Dénouer les conflits par la Communication NonViolente",
+   "annee": "2006",
+   "idee": "Médiation de conflits : du duel au dialogue par la reconnaissance mutuelle des besoins.",
+   "apport": "Méthodologie de médiation en 6 étapes et résolution de conflits."
+  },
+  {
+   "auteur": "Marshall B. Rosenberg",
+   "titre": "Le langage de la paix dans un monde de conflits",
+   "annee": "2012",
+   "idee": "Extension de la CNV aux enjeux sociaux, culturels et politiques.",
+   "apport": "Ouverture sur les conflits collectifs et les systèmes de domination."
+  },
+  {
+   "auteur": "Thomas d'Ansembourg",
+   "titre": "Cessez d'être gentil, soyez vrai !",
+   "annee": "2001",
+   "idee": "Sortir de la complaisance pour honorer ses besoins sans agresser l'autre.",
+   "apport": "Concept d'affirmation de soi non-violente et pièges du 'gentil'."
+  },
+  {
+   "auteur": "Thomas d'Ansembourg",
+   "titre": "Être heureux, ce n'est pas nécessairement confortable",
+   "annee": "2004",
+   "idee": "Accepter l'inconfort du changement pour grandir en conscience.",
+   "apport": "Chapitre sur la résistance au changement et la peur du conflit."
+  },
+  {
+   "auteur": "Thomas d'Ansembourg",
+   "titre": "Qui fuis-je ? Où cours-tu ? Que voulons-nous vraiment ?",
+   "annee": "2007",
+   "idee": "Identifier les besoins profonds derrière les stratégies superficielles.",
+   "apport": "Exercices d'exploration des besoins fondamentaux."
+  },
+  {
+   "auteur": "Jacques Salomé",
+   "titre": "Parler pour que les enfants écoutent, écouter pour que les enfants parlent",
+   "annee": "1980 (Faber & Mazlish)",
+   "idee": "Outils concrets de communication parent-enfant basés sur l'empathie.",
+   "apport": "Boîte à outils pour la communication familiale."
+  },
+  {
+   "auteur": "Daniel Goleman",
+   "titre": "L'Intelligence émotionnelle",
+   "annee": "1995",
+   "idee": "Cinq composantes de l'IE : conscience de soi, maîtrise, motivation, empathie, aptitudes sociales.",
+   "apport": "Cadre scientifique de l'intelligence émotionnelle adossé à la CNV."
+  },
+  {
+   "auteur": "John Gottman",
+   "titre": "Les couples heureux ont leurs secrets",
+   "annee": "1999",
+   "idee": "Les 'Quatre Cavaliers de l'Apocalypse' relationnel : critique, mépris, défensive, retrait.",
+   "apport": "Grille d'analyse des pièges conjugaux et antidotes CNV."
+  },
+  {
+   "auteur": "Brené Brown",
+   "titre": "Le Pouvoir de la vulnérabilité",
+   "annee": "2012",
+   "idee": "La vulnérabilité comme courage et source de connexion authentique.",
+   "apport": "Lien entre expression des besoins et courage de la vulnérabilité."
+  },
+  {
+   "auteur": "Alain Cayrou & Patricia Gotteland",
+   "titre": "La CNV en pratique",
+   "annee": "2011",
+   "idee": "Manuel d'exercices progressifs pour intégrer la CNV.",
+   "apport": "Banque d'exercices et mises en situation progressives."
+  },
+  {
+   "auteur": "Véronique Gaspard",
+   "titre": "Petit cahier d'exercices de Communication NonViolente",
+   "annee": "2012",
+   "idee": "Recueil d'exercices courts pour pratiquer la CNV au quotidien.",
+   "apport": "Format 'micro-pratique' pour les exercices quotidiens du livre."
+  },
+  {
+   "auteur": "Dieudonné Charlier",
+   "titre": "Pratiquer la Communication NonViolente",
+   "annee": "2013",
+   "idee": "Approche pas à pas avec focus sur l'auto-empathie.",
+   "apport": "Méthodologie d'auto-empathie et du 'tapis de danse' CNV."
+  },
+  {
+   "auteur": "Sophie Merle & Magali Bouchet",
+   "titre": "La Communication NonViolente pour les nuls",
+   "annee": "2018",
+   "idee": "Introduction accessible avec exemples concrets de la vie quotidienne.",
+   "apport": "Pédagogie progressive et cas pratiques ancrés dans le quotidien."
+  },
+  {
+   "auteur": "Oren Jay Sofer",
+   "titre": "Say What You Mean",
+   "annee": "2018",
+   "idee": "Fusion entre CNV, pleine conscience et pratique contemplative.",
+   "apport": "Dimension de présence et d'ancrage avant la parole."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Les fondations : comprendre la mécanique des relations humaines",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Pourquoi nous nous blessons en parlant",
+     "objectif": "Faire prendre conscience des mécanismes de violence ordinaire dans le langage et poser les limites de la CNV.",
+     "sections": [
+      "La violence ordinaire : jugements, comparaisons, dénis de responsabilité",
+      "Les quatre formes de communication aliénante identifiées par Rosenberg",
+      "Le mythe de la spontanéité : parler 'naturellement' n'est pas toujours juste",
+      "Les blessures invisibles : ce que coûte une mauvaise communication",
+      "CNV : définition, origine et ce qu'elle n'est pas (ni gentillesse ni manipulation)",
+      "Les 3 conditions pour qu'une relation devienne une danse plutôt qu'un duel"
+     ],
+     "exercices": [
+      "Journal de bord : noter 3 phrases entendues cette semaine et identifier leur forme de violence",
+      "Auto-diagnostic : quel est votre style dominant sous tension (attaque, fuite, soumission, gel) ?",
+      "Cartographie personnelle de vos relations tendues actuelles"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Les 4 étapes OSBD : la boussole de toute conversation",
+     "objectif": "Maîtriser la structure Observation-Sentiment-Besoin-Demande et comprendre la logique de chaque étape.",
+     "sections": [
+      "O comme Observation : séparer les faits des interprétations",
+      "S comme Sentiment : distinguer sentiment authentique et 'faux sentiment'",
+      "B comme Besoin : la clé universelle qui relie les humains",
+      "D comme Demande : claire, concrète, positive, négociable",
+      "L'ordre importe : pourquoi sauter une étape fait échouer la conversation",
+      "Les pièges classiques : 'je sens que tu...', les demandes déguisées, les besoins confondus avec des stratégies"
+     ],
+     "exercices": [
+      "Transformer 10 jugements en observations pures",
+      "Liste personnelle de 20 sentiments et 20 besoins à mémoriser",
+      "Réécrire 5 conflits récents en format OSBD complet"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Le langage chacal et le langage girafe",
+     "objectif": "Reconnaître les deux registres de langage et apprendre à traduire du chacal au girafe.",
+     "sections": [
+      "La métaphore des deux animaux : oreilles, cou, cœur",
+      "Le langage chacal : jugement, étiquette, généralisation, culpabilisation",
+      "Le langage girafe : responsabilité, nuance, ici-et-maintenant",
+      "Les 4 oreilles de la CNV : où placer son attention ?",
+      "Traduire en temps réel : exercices de 'traduction simultanée'",
+      "Quand le chacal est utile : protéger, alerter, poser une limite urgente"
+     ],
+     "exercices": [
+      "Jeu de traduction : 20 phrases chacal à reformuler en girafe",
+      "Écoute active d'un podcast en notant les passages chacal/girafe",
+      "Enregistrement de soi pendant 5 minutes et analyse du ratio chacal/girafe"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Les besoins humains universels : la carte au trésor",
+     "objectif": "Intérioriser la liste des besoins fondamentaux et apprendre à les identifier chez soi et chez l'autre.",
+     "sections": [
+      "Pourquoi les besoins sont universels et les stratégies individuelles",
+      "Les 7 grandes familles de besoins (sécurité, autonomie, connexion, sens, jeu, intégrité, célébration)",
+      "Confusion fréquente : besoin vs stratégie vs envie",
+      "Les besoins non reconnus qui polluent nos relations",
+      "Le deuil des besoins non comblés : une étape indispensable",
+      "Hiérarchiser ses besoins sans les hiérarchiser moralement"
+     ],
+     "exercices": [
+      "Carte des besoins : colorier ceux qui sont nourris vs non nourris cette semaine",
+      "Exercice du 'pourquoi en 5 couches' pour remonter à un besoin racine",
+      "Dialogue intérieur avec un besoin longtemps ignoré"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — L'écoute de soi : avant de parler, se rejoindre",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "L'auto-empathie : la première conversation à ne pas rater",
+     "objectif": "Apprendre à s'écouter avec bienveillance avant toute prise de parole extérieure.",
+     "sections": [
+      "Pourquoi on ne peut pas donner ce qu'on ne s'est pas donné",
+      "Le processus OSBD tourné vers soi",
+      "Accueillir ses émotions sans les amplifier ni les nier",
+      "La pause sacrée : 90 secondes pour sortir de la réactivité",
+      "Auto-empathie ≠ narcissisme : la nuance essentielle",
+      "Rituels quotidiens d'auto-empathie (matin, midi, soir)"
+     ],
+     "exercices": [
+      "La minute girafe : 3 fois par jour, s'arrêter et s'écouter",
+      "Journal OSBD personnel tenu pendant 7 jours",
+      "Exercice du 'miroir bienveillant' devant une glace"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Décoder sa colère : un message, pas une menace",
+     "objectif": "Transformer la colère en signal précieux et en outil de clarté plutôt qu'en arme.",
+     "sections": [
+      "La colère comme signal d'un besoin non entendu",
+      "Les 4 étapes pour déconstruire la colère selon Rosenberg",
+      "La pensée-jugement au cœur de la colère : la repérer pour la désarmer",
+      "Colère légitime, violence illégitime : où est la frontière ?",
+      "Exprimer pleinement sa colère sans agresser",
+      "Quand la colère cache de la peur, de la tristesse ou de la honte"
+     ],
+     "exercices": [
+      "Reconstitution d'une colère récente en OSBD",
+      "Liste des pensées-jugements récurrentes et leur besoin sous-jacent",
+      "Lettre de colère non envoyée, puis traduite en besoins"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Sortir de la culpabilité et de la honte",
+     "objectif": "Remplacer la culpabilité paralysante par la responsabilité constructive.",
+     "sections": [
+      "Culpabilité saine vs culpabilité toxique",
+      "Le mécanisme du 'je devrais' et son coût relationnel",
+      "La honte : sentiment tabou qui empoisonne les relations",
+      "Le deuil CNV : pleurer ce qu'on a fait sans se punir",
+      "L'auto-pardon comme préalable à la réparation",
+      "Remplacer 'j'aurais dû' par 'j'aurais aimé'"
+     ],
+     "exercices": [
+      "Liste de 10 'je devrais' à reformuler en besoins",
+      "Lettre de deuil pour une action regrettée",
+      "Rituel de pardon envers soi-même en 4 étapes"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Les émotions : alliées, pas ennemies",
+     "objectif": "Développer une littératie émotionnelle fine pour nommer précisément ce qu'on vit.",
+     "sections": [
+      "Émotions primaires, secondaires, mélangées : s'y retrouver",
+      "Le vocabulaire étendu des sentiments (plus de 100 mots utiles)",
+      "Sentiments vs pensées déguisées : 'je me sens trahi' n'est pas un sentiment",
+      "L'émotion comme boussole vers le besoin",
+      "Gérer les émotions intenses sans les subir",
+      "Quand l'émotion est ancienne : blessures réactivées"
+     ],
+     "exercices": [
+      "Mémorisation progressive du nuancier émotionnel (10 mots par semaine)",
+      "Scan corporel quotidien pour localiser l'émotion",
+      "Reformulation de 10 'faux sentiments' en vrais sentiments + besoins"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Connaître ses limites et ses zones de fragilité",
+     "objectif": "Cartographier ses déclencheurs personnels pour anticiper les situations à risque.",
+     "sections": [
+      "Les déclencheurs : ces mots, tons ou attitudes qui nous font basculer",
+      "L'origine des blessures : héritage familial et expériences clés",
+      "La fenêtre de tolérance émotionnelle et comment l'élargir",
+      "Savoir dire 'je ne peux pas en parler maintenant'",
+      "Préparer les conversations difficiles en amont",
+      "Construire son protocole personnel de recentrage"
+     ],
+     "exercices": [
+      "Cartographie de ses 5 principaux déclencheurs et leur histoire",
+      "Création d'une trousse de secours émotionnelle personnelle",
+      "Simulation mentale d'une conversation redoutée"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — L'expression authentique : dire sans détruire",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "L'art de l'observation pure",
+     "objectif": "Apprendre à décrire les faits sans jugement pour créer un terrain d'entente.",
+     "sections": [
+      "Observer comme une caméra : le test de la vidéo",
+      "Les mots empoisonnés : 'toujours', 'jamais', 'encore', 'jamais rien'",
+      "Quantifier plutôt que qualifier",
+      "Observer sans conclure : la discipline du suspens",
+      "Quand l'observation est difficile : situations répétées, impressions floues",
+      "Observer aussi ce qui va bien : l'observation positive"
+     ],
+     "exercices": [
+      "Réécriture de 10 descriptions chargées en observations pures",
+      "Jeu de la caméra : décrire une scène sans adjectif évaluatif",
+      "Journal d'observations positives : 3 faits agréables par jour"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Nommer ses sentiments sans accuser",
+     "objectif": "Exprimer ce qu'on ressent en prenant la responsabilité de son vécu intérieur.",
+     "sections": [
+      "Je ressens vs tu me fais ressentir : la grammaire de la responsabilité",
+      "Les 3 types de réceptivité aux messages difficiles",
+      "Oser la vulnérabilité : dire 'j'ai peur', 'je suis triste', 'j'ai honte'",
+      "Éviter les sentiments-victimes : 'abandonné', 'trahi', 'ignoré'",
+      "Adapter le vocabulaire à son interlocuteur (enfants, collègues, parents)",
+      "Quand on ne ressent 'rien' : l'émotion coupée"
+     ],
+     "exercices": [
+      "Remplacement systématique de 'tu me rends...' par 'je me sens...'",
+      "Lettre d'expression de sentiments à une personne importante (non envoyée)",
+      "Entraînement à nommer 5 émotions différentes dans une même situation"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Révéler ses besoins sans les négocier d'avance",
+     "objectif": "Oser exposer ses besoins clairement, sans les minimiser ni les imposer.",
+     "sections": [
+      "Le courage de dire 'j'ai besoin de...'",
+      "Pourquoi nous cachons nos besoins : peur, honte, culture",
+      "Besoin universel vs stratégie spécifique : ne pas tout mélanger",
+      "Énoncer le besoin avant la demande",
+      "Quand deux besoins entrent en conflit à l'intérieur de soi",
+      "La beauté du besoin exprimé : un appel à la vie"
+     ],
+     "exercices": [
+      "Liste des besoins qu'on n'ose pas nommer et pourquoi",
+      "Reformulation de 10 stratégies en besoins sous-jacents",
+      "Déclaration publique d'un besoin important à un proche"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Formuler des demandes claires et vivantes",
+     "objectif": "Maîtriser l'art de la demande CNV : concrète, positive, négociable, dans le présent.",
+     "sections": [
+      "Demande vs exigence : le test du 'non'",
+      "Les 5 critères d'une bonne demande : claire, concrète, positive, réalisable, négociable",
+      "Demande de connexion vs demande d'action",
+      "La demande de reformulation : 'qu'as-tu entendu ?'",
+      "Quand la demande est refusée : revenir aux besoins",
+      "Formuler des demandes à soi-même"
+     ],
+     "exercices": [
+      "Transformation de 10 exigences en demandes négociables",
+      "Jeu de rôles : formuler une demande et accueillir un 'non'",
+      "Écriture de 5 demandes de connexion pour la semaine"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Exprimer un 'non' et entendre un 'non' sans drame",
+     "objectif": "Faire du 'non' un acte de respect de soi et de l'autre plutôt qu'un rejet.",
+     "sections": [
+      "Derrière chaque 'non' il y a un 'oui' à un besoin",
+      "Dire non avec empathie : la formule en 3 temps",
+      "Entendre un non sans le prendre personnellement",
+      "Le non partiel, le non différé, le non conditionnel",
+      "Quand dire non est une question de sécurité",
+      "Célébrer les non qui protègent la relation"
+     ],
+     "exercices": [
+      "Liste des 'oui' qu'on a donnés à contrecœur cette semaine",
+      "S'entraîner à dire 3 non bienveillants dans la semaine",
+      "Reformuler 5 non reçus en besoins de l'autre"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — L'écoute empathique : rejoindre l'autre là où il est",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "Qu'est-ce que l'empathie (et ce qu'elle n'est pas)",
+     "objectif": "Clarifier l'empathie en la distinguant de la sympathie, du conseil, du récit personnel.",
+     "sections": [
+      "La définition de Rosenberg : être présent à l'autre, vide de jugement",
+      "Les 10 obstacles à l'empathie : consoler, conseiller, raconter, minimiser...",
+      "Empathie vs sympathie : la différence qui change tout",
+      "L'empathie n'est pas être d'accord",
+      "Les conditions intérieures pour être vraiment empathique",
+      "Quand on ne peut pas être empathique : le reconnaître"
+     ],
+     "exercices": [
+      "Audit de ses réactions habituelles quand quelqu'un souffre",
+      "Écoute d'un proche pendant 10 minutes sans aucun conseil",
+      "Liste personnelle des obstacles à l'empathie les plus fréquents chez soi"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "L'écoute active : entendre au-delà des mots",
+     "objectif": "Développer une écoute qui capte sentiments et besoins derrière les expressions.",
+     "sections": [
+      "Écouter avec tout son être : corps, cœur, attention",
+      "La reformulation : miroir fidèle, pas perroquet",
+      "Poser les bonnes questions : celles qui ouvrent, pas celles qui ferment",
+      "Les silences : espaces de parole ou malaises à combler ?",
+      "Entendre les 'non-dits' sans projeter",
+      "La paraphrase empathique : 'tu te sens... parce que tu as besoin de...'"
+     ],
+     "exercices": [
+      "Exercice du miroir : reformuler 5 messages sans ajouter ni retrancher",
+      "Écoute en trio : locuteur, auditeur, observateur",
+      "Journal d'écoute : noter ce qu'on a vraiment entendu dans 3 conversations"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Recevoir des critiques et des attaques sans s'effondrer ni riposter",
+     "objectif": "Utiliser les '4 oreilles' pour traduire toute agression en sentiment et besoin.",
+     "sections": [
+      "Les 4 options quand on reçoit un message difficile",
+      "Traduire un jugement en sentiment et besoin de l'autre",
+      "Le 'chant tragique' : entendre la douleur derrière l'attaque",
+      "Protéger son intégrité sans contre-attaquer",
+      "Quand l'attaque dépasse la ligne rouge : poser une limite claire",
+      "L'empathie d'urgence en situation de crise"
+     ],
+     "exercices": [
+      "Traduction de 10 critiques reçues en sentiments/besoins de l'autre",
+      "Simulation d'attaque avec partenaire : pratiquer les 4 oreilles",
+      "Liste de ses limites non négociables et façons de les exprimer"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "L'empathie avec les personnes difficiles",
+     "objectif": "Rester en lien avec des interlocuteurs fermés, manipulateurs, violents ou mutiques.",
+     "sections": [
+      "Derrière chaque comportement difficile, un besoin non entendu",
+      "Interrompre avec empathie quand l'autre parle sans fin",
+      "Faire face au silence, au chantage, à la menace",
+      "Les personnalités toxiques : adapter ou couper ?",
+      "L'usage protecteur de la force : quand et comment",
+      "Préserver son énergie : savoir se retirer avec dignité"
+     ],
+     "exercices": [
+      "Analyse d'une relation difficile sous l'angle des besoins de l'autre",
+      "Script d'interruption empathique pour bavards chroniques",
+      "Plan de protection personnelle pour une relation épuisante"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "La gratitude qui nourrit : remercier en CNV",
+     "objectif": "Apprendre à célébrer ce qui fonctionne et à remercier de manière qui touche vraiment.",
+     "sections": [
+      "Les 3 formes de remerciement selon Rosenberg",
+      "Le compliment qui juge vs la célébration qui relie",
+      "Exprimer sa gratitude en OSBD",
+      "Recevoir un merci sans le minimiser",
+      "Célébrer les besoins comblés, pas seulement les résultats",
+      "Instaurer une culture de la gratitude dans son entourage"
+     ],
+     "exercices": [
+      "Écrire 3 remerciements CNV complets à des personnes différentes",
+      "Rituel quotidien de célébration de 3 besoins comblés",
+      "Lettre de gratitude CNV à une personne qui a compté"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Applications : la CNV dans tous les territoires de la vie",
+   "chapitres": [
+    {
+     "numero": 20,
+     "titre": "Couple et vie affective : du conflit à la complicité",
+     "objectif": "Appliquer la CNV aux enjeux spécifiques du couple : intimité, sexualité, projets, famille élargie.",
+     "sections": [
+      "Les 4 cavaliers de Gottman revisités à la lumière de la CNV",
+      "Les conversations que tout couple devrait avoir régulièrement",
+      "Gérer les désaccords sur l'argent, l'éducation, la belle-famille",
+      "Intimité et sexualité : parler de désir sans blesser",
+      "La CNV quand la relation est en crise profonde",
+      "Quand la CNV ne suffit plus : savoir consulter"
+     ],
+     "exercices": [
+      "Rituel hebdomadaire du 'check-in' de couple en OSBD",
+      "Cartographie des besoins de chacun et zones de compatibilité",
+      "Dialogue structuré sur un sujet sensible avec minuteur"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Famille et éducation : transmettre sans écraser",
+     "objectif": "Utiliser la CNV avec enfants, adolescents et parents âgés pour créer un climat familial sécurisé.",
+     "sections": [
+      "L'autorité bienveillante : ni permissive ni autoritaire",
+      "Remplacer punitions et récompenses par conséquences et reconnaissance",
+      "Écouter un enfant en crise : la méthode du 'miroir émotionnel'",
+      "Adolescents : respecter leur besoin d'autonomie sans renoncer au lien",
+      "Parents âgés : inverser les rôles avec dignité",
+      "Fratries : gérer rivalités et jalousies en besoins"
+     ],
+     "exercices": [
+      "Réunion de famille mensuelle structurée en CNV",
+      "Traduction de 5 situations éducatives en langage girafe",
+      "Création d'un 'coin de recentrage' à la maison (pas un coin punition)"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Monde professionnel : leadership, équipes et négociations",
+     "objectif": "Déployer la CNV au travail sans naïveté, pour un management humain et efficace.",
+     "sections": [
+      "Feedback CNV : remplacer l'évaluation par la reconnaissance et la clarté",
+      "Réunions productives : cadre, parole tournante, décisions claires",
+      "Gérer un collaborateur difficile sans l'humilier",
+      "Demander une augmentation, un changement, un refus de mission",
+      "Négociations commerciales : chercher le gagnant-gagnant-gagnant",
+      "Télétravail et communication écrite : les pièges spécifiques"
+     ],
+     "exercices": [
+      "Préparation d'un entretien difficile en OSBD",
+      "Réécriture de 5 emails 'chacal' en version 'girafe'",
+      "Mise en place d'un rituel de célébration d'équipe"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Conflits ouverts : médiation et désescalade",
+     "objectif": "Intervenir dans un conflit (comme partie ou comme tiers) pour restaurer le dialogue.",
+     "sections": [
+      "Les 6 étapes de la médiation selon Rosenberg",
+      "Poser le cadre : règles, temps, lieu, neutralité",
+      "Donner la parole à chacun sans interruption",
+      "Faire émerger les besoins communs sous les positions opposées",
+      "Co-construire des stratégies acceptables par tous",
+      "Quand la médiation échoue : accepter et protéger"
+     ],
+     "exercices": [
+      "Simulation de médiation en trio sur un conflit fictif",
+      "Checklist personnelle du médiateur débutant",
+      "Analyse d'un conflit public (actualité) sous l'angle des besoins"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Intégrer la CNV comme art de vivre",
+     "objectif": "Transformer la pratique en identité : faire de la CNV une posture durable plutôt qu'une technique.",
+     "sections": [
+      "De la technique à l'incarnation : le chemin intérieur",
+      "Les 21 jours pour ancrer une nouvelle habitude relationnelle",
+      "Construire son écosystème de soutien (groupes de pratique, lectures, stages)",
+      "Gérer les rechutes : le chacal reviendra, et c'est normal",
+      "La CNV au-delà des mots : présence, regard, toucher, silence",
+      "Transmettre la CNV sans l'imposer : l'exemple avant le discours",
+      "Ouverture : la CNV comme contribution à un monde plus pacifique"
+     ],
+     "exercices": [
+      "Plan personnel d'intégration sur 90 jours",
+      "Création ou intégration d'un groupe de pratique local ou en ligne",
+      "Lettre à soi-même dans 1 an : la relation que je veux avoir cultivée"
+     ]
+    }
+   ]
+  }
+ ]
+}
