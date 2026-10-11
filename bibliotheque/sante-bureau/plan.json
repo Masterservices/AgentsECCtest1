@@ -1,0 +1,589 @@
+{
+ "titre": "Travailler sans s'user",
+ "sous_titre": "Aménager son espace, adopter les bonnes postures et prévenir les troubles musculosquelettiques au quotidien",
+ "bibliographie": [
+  {
+   "auteur": "Etienne Grandjean",
+   "titre": "Fitting the Task to the Man",
+   "annee": "1988",
+   "idee": "Manuel fondateur d'ergonomie : adapter le poste à l'humain plutôt que l'inverse, en s'appuyant sur l'anthropométrie et la physiologie.",
+   "apport": "Cadre scientifique pour dimensionner bureau, siège et écrans selon les mensurations de l'utilisateur."
+  },
+  {
+   "auteur": "Kari Kuorinka et Laura Forster",
+   "titre": "Work-related Musculoskeletal Disorders (WMSDs): A Reference Book for Prevention",
+   "annee": "1995",
+   "idee": "Référence internationale sur les mécanismes, facteurs de risque et stratégies de prévention des TMS professionnels.",
+   "apport": "Grille d'identification des facteurs de risque (répétition, force, posture, récupération) reprise dans nos auto-diagnostics."
+  },
+  {
+   "auteur": "Alan Hedge",
+   "titre": "Ergonomic Guidelines for Workplace Design (Cornell Human Factors)",
+   "annee": "2004",
+   "idee": "Synthèse de recherches appliquées sur la posture neutre, les zones de préhension et l'aménagement du poste informatisé.",
+   "apport": "Règles de la 'zone de confort' et du 'reach envelope' intégrées dans nos plans d'aménagement."
+  },
+  {
+   "auteur": "INRS (collectif)",
+   "titre": "Troubles musculosquelettiques : comprendre et prévenir",
+   "annee": "2011",
+   "idee": "Approche multifactorielle française des TMS : biomécanique, psychosocial, organisationnel.",
+   "apport": "Modèle bio-psycho-social structurant la partie sur le stress, la charge mentale et l'organisation du travail."
+  },
+  {
+   "auteur": "Janet Travell et David Simons",
+   "titre": "Myofascial Pain and Dysfunction: The Trigger Point Manual",
+   "annee": "1999",
+   "idee": "Cartographie des points gâchettes myofasciaux et de leur rôle dans les douleurs chroniques du bureau.",
+   "apport": "Exercices d'auto-massage et d'étirement ciblés pour cou, épaules, trapèzes et avant-bras."
+  },
+  {
+   "auteur": "Kelly Starrett",
+   "titre": "Deskbound: Standing Up to a Sitting World",
+   "annee": "2016",
+   "idee": "Plaidoyer pratique contre la sédentarité de bureau, avec routines de mobilité quotidiennes.",
+   "apport": "Séquences de mobilisation de 5 à 10 minutes intégrables entre deux réunions."
+  },
+  {
+   "auteur": "Joan Vernikos et Kelly Starrett",
+   "titre": "Sitting Kills, Moving Heals",
+   "annee": "2013",
+   "idee": "Démonstration physiologique des effets de la station assise prolongée et bénéfices des micro-mouvements.",
+   "apport": "Justification scientifique des pauses actives et du 'movement snacking' tout au long de la journée."
+  },
+  {
+   "auteur": "Galen Cranz",
+   "titre": "The Chair: Rethinking Culture, Body, and Design",
+   "annee": "1998",
+   "idee": "Histoire culturelle et ergonomique du siège ; critique de la chaise standard comme objet inadapté au corps.",
+   "apport": "Ouverture sur les alternatives (assise dynamique, sièges-selles, travail au sol, perching)."
+  },
+  {
+   "auteur": "Peter Opsvik",
+   "titre": "Rethinking Sitting",
+   "annee": "2009",
+   "idee": "Designer norvégien plaidant pour la variabilité posturale plutôt qu'une 'bonne posture' unique.",
+   "apport": "Concept de 'posture suivante toujours meilleure' intégré dans notre philosophie du mouvement."
+  },
+  {
+   "auteur": "Richard Feinberg",
+   "titre": "Ergonomics of the Home Workplace",
+   "annee": "2001",
+   "idee": "Adaptation des principes ergonomiques industriels au télétravail domestique avec contraintes budgétaires.",
+   "apport": "Solutions low cost et DIY pour aménager un poste de travail à domicile crédible."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Mécanismes de construction d'habitudes durables : signaux, routines, récompenses, identité.",
+   "apport": "Méthode pour ancrer les micro-rituels posturaux et les pauses actives dans la journée de travail."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Deep Work",
+   "annee": "2016",
+   "idee": "Articulation entre concentration profonde, environnement physique et performance cognitive.",
+   "apport": "Lien entre aménagement spatial, réduction des distractions et qualité du travail prolongé."
+  },
+  {
+   "auteur": "Marie Montagne et François Daniellou",
+   "titre": "Comprendre le travail pour le transformer",
+   "annee": "2011",
+   "idee": "Ergonomie de l'activité française : écart entre travail prescrit et travail réel, variabilité individuelle.",
+   "apport": "Approche centrée utilisateur pour concevoir un poste adaptable à ses tâches réelles."
+  },
+  {
+   "auteur": "Katrina Burton et al.",
+   "titre": "The Back Pain Revolution",
+   "annee": "1998 (Waddell)",
+   "idee": "Démystification des lombalgies : rôle central de la peur du mouvement et de la reprise d'activité progressive.",
+   "apport": "Ton rassurant et progressif dans les chapitres sur le dos et la reprise post-blessure."
+  },
+  {
+   "auteur": "Stuart McGill",
+   "titre": "Low Back Disorders: Evidence-Based Prevention and Rehabilitation",
+   "annee": "2007",
+   "idee": "Biomécanique du rachis lombaire et exercices de stabilisation du core pour prévenir les lombalgies.",
+   "apport": "Trois exercices fondateurs (McGill Big 3) intégrés dans les routines de renforcement."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 — Comprendre : votre corps au travail",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le bureau, ce terrain hostile",
+     "objectif": "Poser le constat : pourquoi le travail moderne de bureau génère autant de souffrances physiques et cognitives.",
+     "sections": [
+      "L'épidémie silencieuse des TMS en chiffres",
+      "De la chaîne de montage au clavier : évolution des contraintes",
+      "Le mythe du corps-machine et ses dégâts",
+      "Coûts humains, économiques et professionnels",
+      "Ce que ce livre va changer dans votre journée"
+     ],
+     "exercices": [
+      "Auto-évaluation initiale : score de bien-être postural sur 100",
+      "Cartographie personnelle de vos zones douloureuses",
+      "Journal de 3 jours : noter chaque gêne et son contexte"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Anatomie du télétravailleur",
+     "objectif": "Donner les bases anatomiques minimales pour comprendre les TMS sans jargon médical excessif.",
+     "sections": [
+      "La colonne vertébrale : courbes, disques et contraintes",
+      "Ceinture scapulaire : épaules, omoplates, trapèzes",
+      "Membres supérieurs : du coude aux doigts",
+      "Bassin, hanches et chaîne postérieure",
+      "Le système fascial, grand oublié",
+      "Lecture simplifiée d'un schéma corporel"
+     ],
+     "exercices": [
+      "Palpation guidée de 10 repères anatomiques",
+      "Test de mobilité personnelle (cou, épaules, hanches)",
+      "Dessiner son propre schéma des tensions"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Les 6 grands tableaux des TMS de bureau",
+     "objectif": "Identifier les syndromes les plus fréquents pour savoir de quoi on parle (sans poser de diagnostic).",
+     "sections": [
+      "Cervicalgies et céphalées de tension",
+      "Syndrome de la coiffe des rotateurs et tendinopathies d'épaule",
+      "Syndrome du canal carpien et tendinites du poignet",
+      "Épicondylite et fatigue des avant-bras",
+      "Lombalgies et syndromes fessiers",
+      "Syndromes croisés (upper et lower crossed)"
+     ],
+     "exercices": [
+      "Questionnaire d'orientation (quand consulter un professionnel de santé)",
+      "Check-list des signaux d'alerte à ne pas ignorer",
+      "Carte 'mes 3 risques principaux' à afficher au poste"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Les vrais facteurs de risque",
+     "objectif": "Dépasser la seule 'mauvaise posture' pour voir les 7 familles de facteurs de risque des TMS.",
+     "sections": [
+      "Posture et maintien statique prolongé",
+      "Répétitivité et micro-traumatismes",
+      "Force, pression et préhension",
+      "Vibrations et chocs (clavier, souris, outils)",
+      "Facteurs psychosociaux : stress, charge mentale, manque de contrôle",
+      "Facteurs individuels : sommeil, hydratation, condition physique",
+      "L'organisation du travail : délais, interruptions, culture"
+     ],
+     "exercices": [
+      "Grille d'audit des 7 facteurs sur votre poste",
+      "Entretien fictif avec votre futur vous dans 5 ans",
+      "Priorisation : quel facteur agir en premier ?"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "La posture neutre, boussole du corps",
+     "objectif": "Définir la posture neutre comme référence, tout en expliquant pourquoi aucune posture n'est bonne longtemps.",
+     "sections": [
+      "Définition opérationnelle de la posture neutre",
+      "Alignement tête-cou-tronc-bassin",
+      "Angles articulaires de référence (90-90-90 et variantes)",
+      "La règle d'or : la meilleure posture est la suivante",
+      "Limites et mythes de la 'bonne posture'",
+      "Adapter la neutralité à votre morphologie"
+     ],
+     "exercices": [
+      "Trouver sa posture neutre debout puis assise",
+      "Photo comparative avant/après alignement",
+      "Créer son ancrage postural (mot-clé ou geste)"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Votre bilan personnel en 30 minutes",
+     "objectif": "Réaliser un diagnostic complet de son corps, de son poste et de son organisation pour orienter la suite.",
+     "sections": [
+      "Préparer l'audit : matériel et état d'esprit",
+      "Module 1 : bilan corporel (mobilité, douleurs, tonicité)",
+      "Module 2 : audit du poste physique",
+      "Module 3 : audit de l'organisation quotidienne",
+      "Module 4 : audit des habitudes et rituels",
+      "Synthèse : vos 3 leviers prioritaires",
+      "Écrire votre contrat personnel de transformation"
+     ],
+     "exercices": [
+      "Grille de scoring consolidée (20 critères)",
+      "Matrice impact/effort pour choisir les chantiers",
+      "Rédaction d'un objectif SMART à 90 jours"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 — Aménager : concevoir son poste idéal",
+   "chapitres": [
+    {
+     "numero": 7,
+     "titre": "Le siège, votre premier allié",
+     "objectif": "Choisir, régler et utiliser un siège de travail adapté, sans tomber dans le marketing du 'siège miracle'.",
+     "sections": [
+      "Anatomie d'un bon siège : 8 critères vérifiables",
+      "Réglage de la hauteur d'assise",
+      "Profondeur d'assise et soutien lombaire",
+      "Accoudoirs : amis ou ennemis ?",
+      "Synchrone, basculant, dynamique : quel mécanisme ?",
+      "Budget : 150, 500 ou 1500 € ?",
+      "Entretien et durée de vie"
+     ],
+     "exercices": [
+      "Check-list d'achat imprimable",
+      "Séquence de réglage en 7 étapes",
+      "Test de 3 jours pour valider un nouveau siège"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Le bureau : hauteur, profondeur, flux",
+     "objectif": "Dimensionner et organiser la surface de travail pour respecter les zones de préhension et permettre le mouvement.",
+     "sections": [
+      "Hauteur fixe vs assis-debout : trancher selon son profil",
+      "Profondeur utile : la règle des 80 cm",
+      "Largeur et gestion du double écran",
+      "Les zones d'atteinte : primaire, secondaire, tertiaire",
+      "Gestion des câbles et du sous-plan",
+      "Bureaux d'angle, compacts, modulables",
+      "Le plateau comme scène : dégager l'espace mental"
+     ],
+     "exercices": [
+      "Tracer ses zones d'atteinte sur son bureau",
+      "Audit 'tout à portée de main ?' sur 5 tâches types",
+      "Plan de réorganisation en une demi-journée"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Écrans, clavier, souris : le trio ergonomique",
+     "objectif": "Configurer les périphériques d'entrée et d'affichage pour réduire la fatigue visuelle et les TMS des membres supérieurs.",
+     "sections": [
+      "Distance, hauteur et inclinaison de l'écran",
+      "Taille, résolution, taux de rafraîchissement : ce qui compte vraiment",
+      "Mono, duo, ultra-wide ou portable : quelle configuration ?",
+      "Clavier : mécanique, low-profile, split, ergonomique",
+      "Souris : verticale, trackball, souris classique, pen tablet",
+      "Repose-poignets : quand et comment les utiliser",
+      "Configurer ses préférences logicielles (sensibilité, raccourcis)"
+     ],
+     "exercices": [
+      "Réglage de l'écran avec la règle du bras tendu",
+      "Test comparatif de 3 dispositifs de pointage",
+      "Carte des 15 raccourcis clavier à maîtriser"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Lumière, acoustique, air : l'environnement invisible",
+     "objectif": "Maîtriser les paramètres sensoriels qui influencent la posture, la fatigue et la concentration.",
+     "sections": [
+      "Lumière naturelle : la placer à gauche ou à droite ?",
+      "Éclairage artificiel : température, CRI, intensité",
+      "Lutte contre les reflets et l'éblouissement",
+      "Acoustique : bruit de fond, casque, silence",
+      "Qualité de l'air : CO2, température, humidité",
+      "Plantes, matières et psychologie de l'espace",
+      "Adapter l'ambiance aux phases de la journée"
+     ],
+     "exercices": [
+      "Audit lumineux aux 4 moments clés de la journée",
+      "Mesure du CO2 avec un capteur low cost",
+      "Créer 3 ambiances types : focus, création, récupération"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Le poste nomade : laptop, café, train, avion",
+     "objectif": "Préserver son corps quand on ne maîtrise pas son environnement de travail.",
+     "sections": [
+      "Le laptop seul est une aberration ergonomique : pourquoi",
+      "Kit minimal du télétravailleur nomade",
+      "Supports, clavier et souris pliables : tour d'horizon",
+      "Travailler au café sans s'abîmer",
+      "Train et avion : postures de survie",
+      "Chambre d'hôtel : improviser un poste en 5 minutes",
+      "La règle du 80/20 : quand accepter le sous-optimal"
+     ],
+     "exercices": [
+      "Constituer sa 'trousse ergonomique' de voyage",
+      "Routine de 3 minutes avant d'ouvrir son laptop",
+      "Check-list d'installation express à l'hôtel"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Le home office intégré à la maison",
+     "objectif": "Aménager un espace de travail domestique qui cohabite avec la vie familiale sans sacrifier l'ergonomie.",
+     "sections": [
+      "Choisir la pièce : critères ergonomiques et psychologiques",
+      "Coin bureau dans un salon ou une chambre : solutions",
+      "Séparation symbolique travail / vie perso",
+      "Gérer les enfants, le conjoint, les animaux",
+      "Rangements et circulation de l'information papier",
+      "Esthétique : un beau poste est un poste utilisé",
+      "Budget familial : arbitrer les investissements"
+     ],
+     "exercices": [
+      "Plan d'implantation sur papier quadrillé",
+      "Charte familiale du bureau (horaires, bruit, accès)",
+      "Shopping list hiérarchisée sur 12 mois"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 — Bouger : postures, gestes et routines",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "S'asseoir sans s'effondrer",
+     "objectif": "Maîtriser l'art de s'asseoir : variations, transitions, pièges.",
+     "sections": [
+      "L'assise classique : réglages fins",
+      "Assise dynamique : ballon, siège-selle, kneeling chair",
+      "Assise tailleur, à genoux, au sol : pour qui, quand ?",
+      "Le piège du canapé et du lit",
+      "Transition assis → debout sans à-coup",
+      "Combien de temps rester assis ? Les données récentes",
+      "Créer son répertoire personnel de 5 assises"
+     ],
+     "exercices": [
+      "Séquence de 3 micro-ajustements à faire toutes les heures",
+      "Tester 3 assises alternatives pendant une semaine",
+      "Minuteur progressif : 50/10, 25/5, ultradien"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Travailler debout sans se détruire",
+     "objectif": "Utiliser le standing desk à bon escient, en évitant les excès et les erreurs classiques.",
+     "sections": [
+      "Bénéfices réels et limites du travail debout",
+      "Réglage fin du plateau : coudes, écran, poignets",
+      "Chaussures, tapis anti-fatigue, bas de contention",
+      "Ratio assis/debout recommandé selon les études",
+      "Les erreurs qui transforment le debout en poison",
+      "Perching : le tiers-posture entre assis et debout",
+      "Construire son alternance personnalisée"
+     ],
+     "exercices": [
+      "Protocole 20-8-2 (Cornell) sur une semaine",
+      "Test de 3 surfaces sous les pieds",
+      "Journal d'alternance et sensations sur 10 jours"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Le cou et les épaules : libérer la nuque du bureau",
+     "objectif": "Prévenir et soulager cervicalgies et tensions scapulaires par des gestes précis.",
+     "sections": [
+      "Pourquoi la tête pèse 5 kg… et jusqu'à 27 kg",
+      "Forward head posture : mécanisme et conséquences",
+      "Rétraction des sous-occipitaux",
+      "Mobilisations cervicales sécuritaires",
+      "Ouverture thoracique et scapulaire",
+      "Renforcement des stabilisateurs profonds",
+      "Rituels courts pour journées longues"
+     ],
+     "exercices": [
+      "Séquence chin-tuck en 4 positions",
+      "Routine 'ouverture thoracique' de 6 minutes",
+      "Auto-massage des trapèzes avec balle"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Mains, poignets, avant-bras : la zone critique",
+     "objectif": "Protéger les membres supérieurs, particulièrement sollicités au clavier et à la souris.",
+     "sections": [
+      "Anatomie du canal carpien et des tendons fléchisseurs",
+      "Gestes à risque : flexion, extension, déviation ulnaire",
+      "Position neutre du poignet : la trouver, la tenir",
+      "Étirements des fléchisseurs et extenseurs",
+      "Renforcement léger et endurance",
+      "Gestion de la souris : alternance main, trackball, raccourcis",
+      "Que faire en cas de premiers symptômes ?"
+     ],
+     "exercices": [
+      "Séquence 7 mouvements pour les mains",
+      "Exercice du 'piano inversé' pour la dextérité",
+      "Routine avant/après session de frappe intensive"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Le dos : protéger la colonne toute la journée",
+     "objectif": "Construire un dos résilient par la mobilité, le gainage intelligent et les bonnes habitudes.",
+     "sections": [
+      "Les 3 courbes et leurs ennemis au bureau",
+      "Flexion prolongée : le vrai danger",
+      "Le McGill Big 3 : curl-up, side plank, bird-dog",
+      "Mobilité thoracique : la clé oubliée",
+      "Décompression lombaire : quand et comment",
+      "Soulever une boîte de courses : transfert des acquis",
+      "Signaux qui imposent un avis médical"
+     ],
+     "exercices": [
+      "Routine McGill Big 3 progressive sur 6 semaines",
+      "Séquence de décompression de 3 minutes",
+      "Test de mobilité thoracique mensuel"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Hanches, fessiers, jambes : réveiller le bas du corps",
+     "objectif": "Contrer les effets de l'assise prolongée sur la chaîne postérieure et la circulation.",
+     "sections": [
+      "Psoas raccourci : conséquences en cascade",
+      "Amnésie fessière : mythe et réalité",
+      "Mobilité de hanche en 3 dimensions",
+      "Activation fessière sans matériel",
+      "Circulation veineuse : mollets et pieds",
+      "Marche : l'exercice roi, sous-utilisé",
+      "Intégrer le bas du corps dans la journée de travail"
+     ],
+     "exercices": [
+      "Séquence 'déverrouillage des hanches' 8 minutes",
+      "Routine mollets-pieds pour fin de journée",
+      "Programme de marche progressive sur 4 semaines"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 — Respirer : fatigue visuelle, souffle et récupération",
+   "chapitres": [
+    {
+     "numero": 19,
+     "titre": "Les yeux, ces muscles oubliés",
+     "objectif": "Prévenir la fatigue visuelle numérique (CVS) qui influence aussi la posture du cou.",
+     "sections": [
+      "Syndrome de vision informatique : symptômes",
+      "La règle 20-20-20 et ses variantes",
+      "Clignement : le réapprendre",
+      "Lumière bleue : ce que dit vraiment la science",
+      "Lunettes de repos, verres anti-reflet, filtres logiciels",
+      "Exercices de convergence et de focalisation",
+      "Quand consulter un ophtalmologue ou orthoptiste"
+     ],
+     "exercices": [
+      "Séquence 5 exercices oculaires de 3 minutes",
+      "Paramétrer un rappel 20-20-20 sur son OS",
+      "Audit de l'éclairage et des reflets en 10 points"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Respiration et posture : le lien invisible",
+     "objectif": "Utiliser la respiration comme levier de régulation posturale, nerveuse et émotionnelle.",
+     "sections": [
+      "Diaphragme : muscle postural autant que respiratoire",
+      "Respiration paradoxale au bureau : la repérer",
+      "Respiration nasale vs buccale : impacts",
+      "Cohérence cardiaque et variabilité",
+      "Respiration et gestion du stress au travail",
+      "Apnée d'écran (screen apnea) : le phénomène",
+      "Construire sa respiration de travail"
+     ],
+     "exercices": [
+      "Test de respiration en 60 secondes",
+      "Routine de cohérence cardiaque 5 minutes",
+      "3 respirations de reset entre deux réunions"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Micro-pauses actives : l'art du movement snacking",
+     "objectif": "Intégrer des pauses courtes et efficaces sans casser le flux de travail.",
+     "sections": [
+      "Pourquoi les pauses passives ne suffisent pas",
+      "Les 4 types de micro-pauses : visuelle, motrice, cognitive, sociale",
+      "Durée optimale : 30 secondes, 2 minutes, 10 minutes",
+      "Rituels de transition entre tâches",
+      "Outils : minuteurs, applications, objets physiques",
+      "Négocier les pauses dans un open space ou en visio",
+      "Construire sa banque personnelle de 20 micro-pauses"
+     ],
+     "exercices": [
+      "Concevoir 5 routines de 2 minutes contextuelles",
+      "Installer un système de rappel non intrusif",
+      "Mesurer l'impact sur la productivité pendant 2 semaines"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Hydratation, nutrition, sommeil : le socle physiologique",
+     "objectif": "Rappeler que la prévention des TMS repose aussi sur des fondamentaux biologiques.",
+     "sections": [
+      "Hydratation et santé des disques intervertébraux",
+      "Nutrition anti-inflammatoire : grands principes",
+      "Caféine : alliée ou ennemie du dos ?",
+      "Sommeil : le grand réparateur des tissus",
+      "Rythmes circadiens et performance au poste",
+      "Alcool, tabac : impact sous-estimé sur les TMS",
+      "Plan individuel de socle physiologique"
+     ],
+     "exercices": [
+      "Calcul de son besoin hydrique au bureau",
+      "Audit caféine sur 7 jours",
+      "Check-list sommeil de qualité en 12 points"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 — Tenir : habitudes, organisation et durée",
+   "chapitres": [
+    {
+     "numero": 23,
+     "titre": "Construire des habitudes qui tiennent",
+     "objectif": "Transformer les bonnes intentions en routines durables grâce aux sciences du comportement.",
+     "sections": [
+      "La boucle habitude : signal, routine, récompense",
+      "Stacking : greffer sur l'existant",
+      "Identité : 'je suis quelqu'un qui prend soin de son corps'",
+      "Environnement : rendre le bon choix évident",
+      "Gérer l'échec sans tout abandonner",
+      "Rythme d'adoption : une nouvelle habitude par mois",
+      "Communauté et redevabilité"
+     ],
+     "exercices": [
+      "Carte de stacking : 5 habitudes à ancrer",
+      "Design d'environnement en 10 actions",
+      "Contrat d'engagement à 90 jours avec témoin"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Votre plan d'action à 90 jours",
+     "objectif": "Synthétiser le livre en un plan personnalisé, progressif et mesurable.",
+     "sections": [
+      "Revisiter le bilan du chapitre 6",
+      "Phase 1 (J1-J30) : fondations et quick wins",
+      "Phase 2 (J31-J60) : approfondissement et routines",
+      "Phase 3 (J61-J90) : consolidation et ajustements",
+      "Tableau de bord : 8 indicateurs à suivre",
+      "Gérer les rechutes et les périodes de crise",
+      "Au-delà des 90 jours : devenir son propre ergonome"
+     ],
+     "exercices": [
+      "Calendrier mural des 90 jours avec jalons",
+      "Fiche de suivi hebdomadaire imprimable",
+      "Lettre à soi-même à ouvrir à J90"
+     ]
+    }
+   ]
+  }
+ ]
+}

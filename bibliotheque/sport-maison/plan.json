@@ -1,0 +1,522 @@
+{
+ "titre": "Le Corps Souverain",
+ "sous_titre": "Force, mobilité et liberté : le guide complet pour bâtir un physique athlétique et résilient sans salle de sport.",
+ "bibliographie": [
+  {
+   "auteur": "Steven Low",
+   "titre": "Overcoming Gravity",
+   "annee": "2016",
+   "idee": "Une approche systématique et scientifique de la gymnastique et de la musculation au poids du corps, axée sur la création de routines personnalisées et la gestion de la fatigue.",
+   "apport": "La structure de périodisation et les tableaux de progression pour les skills isométriques et dynamiques."
+  },
+  {
+   "auteur": "Paul Wade",
+   "titre": "Convict Conditioning",
+   "annee": "2009",
+   "idee": "LeConditionnement progressif basé sur six mouvements fondamentaux, popularisant l'idée que la maîtrise du poids du corps surpasse la force artificielle des machines.",
+   "apport": "Le concept de progressions par étapes (les « 10 commandements ») pour rendre les exercices accessibles à tous les niveaux."
+  },
+  {
+   "auteur": "Kelly Starrett",
+   "titre": "Becoming a Supple Leopard",
+   "annee": "2013",
+   "idee": "Un guide exhaustif sur la mécanique du mouvement humain, la mobilité articulaire et la résolution des restrictions tissulaires pour optimiser la performance et prévenir les blessures.",
+   "apport": "Les protocoles de mobilisation articulaire et les standards de positionnement pour le gainage et les transferts de force."
+  },
+  {
+   "auteur": "Pavel Tsatsouline",
+   "titre": "The Naked Warrior",
+   "annee": "2003",
+   "idee": "L'application de techniques de haute tension neurologique et de la méthode « Grease the Groove » pour développer une force maximale sans aucun équipement.",
+   "apport": "La méthode GTG (entraînement synaptique fréquent) et les techniques d'irradiation pour recruter le système nerveux."
+  },
+  {
+   "auteur": "Josh Bryant",
+   "titre": "Jailhouse Strong",
+   "annee": "2013",
+   "idee": "L'entraînement fonctionnel et mental dans des espaces confinés, prouvant que l'adversité et le manque de matériel forgent une résilience physique et psychologique inégalée.",
+   "apport": "L'état d'esprit de l'entraînement minimaliste et les circuits métaboliques en espace restreint."
+  },
+  {
+   "auteur": "Katy Bowman",
+   "titre": "Move Your DNA",
+   "annee": "2014",
+   "idee": "La distinction entre l'exercice isolé et le mouvement naturel, plaidant pour une « diète de mouvement » variée tout au long de la journée pour la santé cellulaire.",
+   "apport": "L'intégration de la mobilité dans les habitudes quotidiennes et la critique de la sédentarité même chez les sportifs."
+  },
+  {
+   "auteur": "Christopher Sommer",
+   "titre": "Building the Gymnastic Body",
+   "annee": "2008",
+   "idee": "Les fondations de la gymnastique masculine pour développer une force straight-arm (bras tendus) et une intégrité du tissu conjonctif à toute épreuve.",
+   "apport": "Le conditionnement des tendons et les progressions de la planche (planche) et du levier avant."
+  },
+  {
+   "auteur": "Thomas Kurz",
+   "titre": "Stretching Scientifically",
+   "annee": "1994",
+   "idee": "L'application de la science du sport à la flexibilité, démontrant que l'étirement isométrique et le PNF sont supérieurs aux étirements passifs statiques.",
+   "apport": "Les protocoles d'étirement isométrique pour acquérir la souplesse active nécessaire aux skills avancés."
+  },
+  {
+   "auteur": "Bret Contreras",
+   "titre": "Bodyweight Strength Training Anatomy",
+   "annee": "2013",
+   "idee": "Une analyse anatomique visuelle et biomécanique des exercices au poids du corps pour optimiser le recrutement musculaire et corriger les postures.",
+   "apport": "Les cues (indices) d'activation musculaire et la compréhension des chaînes cinétiques lors des mouvements."
+  },
+  {
+   "auteur": "Ashley Kalym",
+   "titre": "Complete Calisthenics",
+   "annee": "2019",
+   "idee": "Un manuel moderne couvrant l'ensemble du spectre du street workout, des bases de la callisthénie aux figures de force et de freestyle.",
+   "apport": "Les tutoriels techniques pour les transitions dynamiques comme le muscle-up et les équilibres."
+  },
+  {
+   "auteur": "Pavel Tsatsouline",
+   "titre": "Relax into Stretch",
+   "annee": "2001",
+   "idee": "La manipulation du réflexe d'étirement et du système nerveux paroxysmal pour gagner en amplitude articulaire sans douleur ni résistance tissulaire.",
+   "apport": "Les techniques de respiration et de contraction-relâchement pour débloquer les limites neurologiques de la souplesse."
+  },
+  {
+   "auteur": "Vladimir Zatsiorsky",
+   "titre": "Science and Practice of Strength Training",
+   "annee": "1995",
+   "idee": "Les principes universels de la biomécanique et de la périodisation de la force, adaptables à n'importe quelle modalité d'entraînement, y compris le poids du corps.",
+   "apport": "Les modèles de périodisation ondulatoire pour gérer le volume et l'intensité sur le long terme."
+  },
+  {
+   "auteur": "Max Shank",
+   "titre": "Free+Style",
+   "annee": "2014",
+   "idee": "La fusion de la force, de la mobilité et du jeu en une pratique physique holistique qui encourage l'exploration du mouvement plutôt que la simple répétition.",
+   "apport": "L'introduction des concepts de « flow » et d'improvisation motrice pour maintenir la motivation et l'adaptabilité."
+  },
+  {
+   "auteur": "Darryl Edwards",
+   "titre": "Animal Moves",
+   "annee": "2017",
+   "idee": "L'utilisation des patrons moteurs primaires et locomoteurs pour améliorer la coordination, la mobilité globale et la santé articulaire de manière ludique.",
+   "apport": "Les routines d'échauffement dynamique et les mouvements de locomotion au sol pour la santé du tronc et des hanches."
+  },
+  {
+   "auteur": "Erwan Le Corre",
+   "titre": "The Practice of Natural Movement",
+   "annee": "2019",
+   "idee": "La philosophie MovNat qui replace l'humain dans son environnement pour réapprendre à grimper, sauter, ramper et porter, retrouvant ainsi ses capacités évolutives.",
+   "apport": "L'adaptation de l'entraînement en extérieur et l'utilisation de l'environnement comme unique salle de sport."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 : Les Fondations de la Gravité",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le Mythe de la Fonte et la Réalité du Terrain",
+     "objectif": "Déconstruire les croyances limitantes sur la musculation traditionnelle et établir la supériorité fonctionnelle du poids du corps pour la santé globale.",
+     "sections": [
+      "L'histoire de la force humaine avant les salles de sport",
+      "Poids du corps vs Machines : le débat de la fonctionnalité",
+      "Le mythe de l'équipement : pourquoi le sol suffit",
+      "L'état d'esprit de l'athlète souverain",
+      "Créer son sanctuaire d'entraînement en 2 mètres carrés"
+     ],
+     "exercices": [
+      "Audit de l'espace personnel et identification des points d'ancrage",
+      "Test de base : le bilan des 5 minutes (squat, pompe, traction, pont)"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Biomécanique et Manipulation des Leviers",
+     "objectif": "Comprendre la physique du corps humain pour modifier la difficulté de n'importe quel exercice sans ajouter de poids externes.",
+     "sections": [
+      "Les lois de Newton appliquées à la callisthénie",
+      "Le centre de gravité : votre véritable haltère",
+      "L'art de modifier les bras de levier",
+      "Le torque articulaire et la protection des tendons",
+      "L'avantage mécanique : quand la biomécanique joue en votre faveur"
+     ],
+     "exercices": [
+      "Atelier de manipulation de leviers sur la planche (planche progressions)",
+      "Pompes archer et pompes asymétriques pour ressentir le transfert de charge"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Le Système Nerveux : Le Véritable Moteur de la Force",
+     "objectif": "Explorer comment le cerveau recrute les fibres musculaires et comment optimiser la connexion neuro-musculaire pour une force maximale.",
+     "sections": [
+      "Unités motrices et synchronisation nerveuse",
+      "La loi de l'irradiation de Sherrington",
+      "La respiration biomécanique et la pression intra-abdominale",
+      "Le concept de tension irradiée (Hardstyle)",
+      "L'illusion de la fatigue musculaire vs la fatigue nerveuse"
+     ],
+     "exercices": [
+      "Gainage Hardstyle avec irradiation (poings, fessiers, dorsaux)",
+      "Exercices de respiration diaphragmatique sous charge isométrique"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "L'Évaluation Souveraine : Connaître son Point de Départ",
+     "objectif": "Établir un bilan initial précis de la force, de la mobilité et de l'asymétrie pour personnaliser les futures progressions.",
+     "sections": [
+      "Pourquoi les tests standards de salle de sport sont obsolètes",
+      "Le screening articulaire : identifier les maillons faibles",
+      "Les tests de force relative et d'endurance tendineuse",
+      "Évaluer la mobilité active vs passive",
+      "Rédiger son contrat d'engagement et définir ses objectifs à 1 an"
+     ],
+     "exercices": [
+      "Le protocole d'évaluation complet (Deep Squat Hold, Dead Hang, L-Sit, Bridge)",
+      "Création du tableau de bord de suivi mensuel"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 : L'Architecture de la Force",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "La Poussée Horizontale : Maîtriser le Sol",
+     "objectif": "Développer une poussée puissante et contrôlée en partant de la pompe basique jusqu'aux variations unilatérales et à la planche.",
+     "sections": [
+      "Anatomie de la poussée et santé de la coiffe des rotateurs",
+      "La mécanique scapulaire : protraction et rétraction",
+      "L'arbre de progression des pompes (de l'incliné à l'archer)",
+      "Les erreurs classiques et leur correction immédiate",
+      "Vers la planche (Planche) : le Graal de la poussée bras tendus"
+     ],
+     "exercices": [
+      "Pompes scapulaires et pompes pseudo-planche",
+      "Pompes archer et pompes à une main assistées"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "La Traction : Grimper et Tirer son Propre Poids",
+     "objectif": "Construire un dos large, fort et résilient, tout en développant une poigne de fer indispensable aux skills avancés.",
+     "sections": [
+      "La différence cruciale entre tirer avec les bras et tirer avec le dos",
+      "Le rôle de l'engagement scapulaire initial",
+      "Les tractions verticales vs les rowings horizontaux",
+      "Le conditionnement de la poigne et des avant-bras",
+      "Corriger les déséquilibres et la dominance d'un bras"
+     ],
+     "exercices": [
+      "Suspensions passives et actives (Dead hangs et Scapular pulls)",
+      "Australian rows (rowings inversés) et tractions en L-sit"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Le Domaine des Jambes : Au-delà du Squat Classique",
+     "objectif": "Prouver que le poids du corps suffit pour bâtir des jambes athlétiques, explosives et unilatéralement équilibrées.",
+     "sections": [
+      "Le mythe du besoin de charges lourdes pour les jambes",
+      "L'importance vitale de l'entraînement unilatéral",
+      "La progression vers le Pistol Squat et le Shrimp Squat",
+      "La chaîne postérieure : ischio-jambiers et fessiers sans machines",
+      "L'intégration de la pliométrie pour l'explosivité"
+     ],
+     "exercices": [
+      "Squats cosacks et progressions de pistols assistés",
+      "Nordic curl negatives et sauts en profondeur (depth jumps)"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "La Chaîne Postérieure et l'Art du Pont",
+     "objectif": "Annihiler les effets de la position assise en renforçant l'ensemble de la chaîne postérieure et en restaurant l'extension vertébrale.",
+     "sections": [
+      "L'épidémie de la flexion et la nécessité de l'extension",
+      "Anatomie du pont (Bridge) et protection des lombaires",
+      "Les progressions du pont : du mur au pont complet",
+      "L'activation fessière et la décompression vertébrale",
+      "Intégrer le pont dans la récupération active quotidienne"
+     ],
+     "exercices": [
+      "Ponts contre le mur et ponts droits (Straight bridges)",
+      "Ponts complets (Full bridges) et marches de pont"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Le Core : Le Centre de Transfert de Puissance",
+     "objectif": "Remplacer les crunchs inefficaces par un gainage dynamique et isométrique qui connecte le haut et le bas du corps.",
+     "sections": [
+      "Pourquoi le « core » n'est pas juste le muscle grand droit",
+      "La position Hollow Body et Arch Body de la gymnastique",
+      "Le gainage dynamique et la résistance à la rotation",
+      "Les leviers : L-sit, V-sit et Manna",
+      "Le Dragon Flag : l'exercice ultime de la chaîne antérieure"
+     ],
+     "exercices": [
+      "Hollow body rocks et Arch body holds",
+      "Progressions du Dragon Flag et relevés de jambes suspendus"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Les Compétences de Force Isométrique",
+     "objectif": "S'initier aux figures emblématiques de la callisthénie qui demandent une force tendineuse et un contrôle nerveux exceptionnels.",
+     "sections": [
+      "La différence entre force dynamique et force isométrique",
+      "Le conditionnement du tissu conjonctif (tendons et ligaments)",
+      "Le Front Lever : anatomie et progressions",
+      "Le Back Lever et la santé des épaules en extension",
+      "La Grenouille (Frog Stand) et les équilibres sur les mains"
+     ],
+     "exercices": [
+      "Tuck lever holds (regroupé) et élévations scapulaires",
+      "Frog stand et appuis renversés contre le mur"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 : L'Ingénierie de la Mobilité",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "Mobilité vs Souplesse : Le Contrôle à l'Amplitude Maximale",
+     "objectif": "Redéfinir la flexibilité pour en faire une arme de force active, où le système nerveux autorise l'amplitude sans danger.",
+     "sections": [
+      "La définition scientifique de la mobilité active",
+      "Pourquoi s'étirer passivement ne suffit pas",
+      "Les freins neurologiques et le réflexe myotatique",
+      "La méthode PAILs et RAILs (Contractions isométriques en fin d'amplitude)",
+      "Créer sa « diète de mouvement » quotidienne"
+     ],
+     "exercices": [
+      "Élévations actives de la jambe tendue (Active Straight Leg Raise)",
+      "Protocole PAILs/RAILs sur les ischio-jambiers"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Libération des Hanches et du Bassin",
+     "objectif": "Restaurer la santé de l'articulation coxo-fémorale pour des squats profonds, sans douleur, et une locomotion fluide.",
+     "sections": [
+      "L'anatomie de la capsule articulaire de la hanche",
+      "Le psoas-iliaque : le muscle de la posture et du stress",
+      "La rotation interne et externe : les angles oubliés",
+      "L'impact de la hanche sur les genoux et le bas du dos",
+      "Les routines de déblocage post-sédentarité"
+     ],
+     "exercices": [
+      "Transitions 90/90 et étirement du canapé (Couch stretch)",
+      "Rotations de hanche en position quadrupédique"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "La Ceinture Scapulaire et les Épaules Blindées",
+     "objectif": "Construire des épaules indestructibles capables de supporter le poids du corps dans toutes les positions, de la traction à la planche.",
+     "sections": [
+      "La complexité de l'articulation gléno-humérale",
+      "Le lien indissociable entre le thorax et l'épaule",
+      "La mobilité overhead (au-dessus de la tête) sans compensation lombaire",
+      "Le contrôle scapulaire dans les 3 plans de mouvement",
+      "Le protocole « Bulletproof » pour la coiffe des rotateurs"
+     ],
+     "exercices": [
+      "Wall slides et dislocations avec serviette",
+      "CARs (Controlled Articular Rotations) de l'épaule"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "La Colonne Vertébrale : Flexion, Extension et Rotation",
+     "objectif": "Traiter la colonne vertébrale segment par segment pour éliminer les raideurs et prévenir les blessures discales.",
+     "sections": [
+      "La colonne comme un mât de navire : haubans et tenseurs",
+      "La flexion vertébrale contrôlée vs l'affaissement",
+      "L'extension thoracique pour les postures de la vie moderne",
+      "La rotation : le mouvement le plus négligé et le plus vital",
+      "Les techniques de décompression gravitationnelle"
+     ],
+     "exercices": [
+      "Chat-Vache segmentaire et rotations thoraciques en quadrupédie",
+      "Suspensions passives et étirements isométriques du cou"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Les Extrémités : Poignets, Mains et Pieds",
+     "objectif": "Renforcer les points de contact avec le sol et les barres, souvent maillons faibles limitant la progression globale.",
+     "sections": [
+      "Le poignet : une articulation de transition sous haute tension",
+      "La poigne comme indicateur de la vitalité du système nerveux",
+      "L'arche plantaire et la proprioception du pied",
+      "Les bénéfices profonds de l'entraînement pieds nus",
+      "Préparer les tissus aux impacts et aux appuis prolongés"
+     ],
+     "exercices": [
+      "CARs du poignet et étirements en position de pompe",
+      "Yoga des orteils et exercices d'équilibre unipodal sans chaussures"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 : La Programmation Souveraine",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "Les Lois de la Périodisation au Poids du Corps",
+     "objectif": "Adapter les principes de la périodisation halterophile à la callisthénie pour éviter les plateaux et le surentraînement.",
+     "sections": [
+      "Pourquoi faire le même entraînement toute l'année mène à l'échec",
+      "La périodisation linéaire vs ondulatoire",
+      "Gérer le volume, l'intensité et la densité sans poids externes",
+      "L'autorégulation : écouter les signaux du système nerveux",
+      "La matrice de programmation sur 12 semaines"
+     ],
+     "exercices": [
+      "Conception de son premier macrocycle de 4 semaines",
+      "Mise en place d'un journal d'entraînement avec échelle RPE"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "L'Anatomie d'une Séance Parfaite",
+     "objectif": "Structurer le temps d'entraînement pour maximiser les adaptations neurologiques et hypertrophiques dans un créneau de 45 à 60 minutes.",
+     "sections": [
+      "L'échauffement spécifique : préparer les tissus, pas juste suer",
+      "Le bloc de compétences (Skill work) à l'état frais",
+      "Le bloc de force : l'application de la surcharge progressive",
+      "Le conditionnement métabolique en fin de séance",
+      "Le retour au calme et le basculement parasympathique"
+     ],
+     "exercices": [
+      "Création d'une routine express de 20 minutes (voyage/hôtel)",
+      "Création d'une routine approfondie de 60 minutes (jour de repos)"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "La Méthode GTG : Hacker son Système Nerveux",
+     "objectif": "Utiliser la méthode « Grease the Groove » de Pavel Tsatsouline pour gagner en force sans jamais atteindre l'échec musculaire.",
+     "sections": [
+      "La facilitation synaptique : la force comme compétence",
+      "La règle des 50% : pourquoi ne jamais aller à l'échec",
+      "Intégrer le GTG dans une journée de travail de bureau",
+      "Choisir les bons exercices pour le GTG (tractions, pompes)",
+      "Les pièges du GTG : tendinites et fatigue systémique"
+     ],
+     "exercices": [
+      "Mise en place d'un minuteur aléatoire pour micro-séances",
+      "Protocole de suivi de la fatigue articulaire sur 2 semaines"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Briser les Plateaux et Gérer les Blessures",
+     "objectif": "Transformer les stagnations en opportunités de réinvention et gérer les inévitables inflammations tendineuses avec intelligence.",
+     "sections": [
+      "Le mythe du plateau : quand le corps protège le cerveau",
+      "Changer l'angle, le tempo et la pause pour relancer la croissance",
+      "La différence entre douleur articulaire et courbature musculaire",
+      "L'entraînement isométrique comme outil de réhabilitation",
+      "La semaine de décharge (Deload) : reculer pour mieux sauter"
+     ],
+     "exercices": [
+      "Protocole de décharge active de 7 jours",
+      "Exercices isométriques de réhabilitation pour les coudes (épicondylite)"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "L'Entraînement en Environnement Réel et Naturel",
+     "objectif": "Sortir du salon pour adapter sa pratique aux parcs, à la nature et aux contraintes de la vie réelle.",
+     "sections": [
+      "La philosophie du MovNat et l'adaptation environnementale",
+      "Lire un paysage urbain ou naturel comme une salle de sport",
+      "Gérer les éléments : froid, chaleur et surfaces instables",
+      "L'improvisation de matériel (serviettes, sacs, branches)",
+      "L'étiquette et la sécurité dans les espaces publics"
+     ],
+     "exercices": [
+      "Cartographie d'un parcours d'entraînement en parc public",
+      "Circuit métabolique en chambre d'hôtel sans aucun accessoire"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 : L'Intégration et la Maîtrise",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Les Skills Dynamiques et l'Explosivité",
+     "objectif": "Faire la transition de la force stricte vers la puissance dynamique, incluant le Muscle-up et les mouvements pliométriques.",
+     "sections": [
+      "La puissance : le produit de la force par la vitesse",
+      "Le Muscle-up : anatomie de la transition et du faux grip",
+      "Le mythe du kipping : quand l'élan devient une béquille",
+      "Les pompes claquées et la pliométrie du haut du corps",
+      "La mécanique d'atterrissage pour protéger les articulations"
+     ],
+     "exercices": [
+      "Tractions explosives à la poitrine et dips sur barre droite",
+      "Sauts en profondeur et pompes avec impulsion"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Le Mouvement Animal et l'État de Flow",
+     "objectif": "Intégrer la locomotion et l'improvisation pour développer une intelligence corporelle globale et retrouver le plaisir du jeu.",
+     "sections": [
+      "Les patrons moteurs primaires de notre évolution",
+      "Le rampement (Crawling) comme outil de diagnostic corporel",
+      "Les transitions au sol et la fluidité du mouvement",
+      "Atteindre l'état de Flow par la complexité motrice",
+      "Créer ses propres enchaînements (Movement Flows)"
+     ],
+     "exercices": [
+      "Bear crawls (marche de l'ours) et Crab reaches",
+      "Séquence de flow de 5 minutes au sol sans interruption"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Nutrition, Récupération et Ratio Poids/Puissance",
+     "objectif": "Optimiser la composition corporelle pour la performance au poids du corps, où chaque gramme de graisse superflue est un handicap.",
+     "sections": [
+      "Le ratio poids/puissance : la métrique reine de la callisthénie",
+      "Nutrition pour la santé des tendons et du collagène",
+      "L'hydratation fasciale et la qualité des tissus",
+      "Le jeûne intermittent et l'entraînement à jeun",
+      "L'architecture du sommeil pour la réparation nerveuse"
+     ],
+     "exercices": [
+      "Audit nutritionnel de 7 jours orienté performance relative",
+      "Checklist d'hygiène du sommeil et de récupération parasympathique"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Le Mode de Vie Souverain : L'Art de Durer",
+     "objectif": "Transformer l'entraînement en une identité et une pratique viagère qui défie le vieillissement et inspire l'entourage.",
+     "sections": [
+      "Le mouvement comme expression de la liberté personnelle",
+      "Vieillir avec grâce : adapter la pratique après 40, 50 et 60 ans",
+      "Transmettre : comment initier ses proches sans les brusquer",
+      "L'éthique de la maîtrise : humilité et apprentissage continu",
+      "Le manifeste du Corps Souverain"
+     ],
+     "exercices": [
+      "Rédaction de sa vision physique à 10 ans",
+      "Définition de ses 3 non-négociables quotidiens de mouvement"
+     ]
+    }
+   ]
+  }
+ ]
+}
