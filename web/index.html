@@ -85,6 +85,8 @@ details.form summary { padding: 10px 12px; font-weight: 600; font-size: .9rem; c
 .btn { justify-self: start; font: 600 .86rem var(--font); color: #fff; background: var(--dia); border: 0; border-radius: var(--r); padding: 8px 14px; cursor: pointer; }
 .btn:disabled { opacity: .55; cursor: progress; }
 .detail .texte { font-size: .9rem; line-height: 1.6; background: var(--bg); border: 1px solid var(--line); border-radius: var(--r); padding: 10px 14px; overflow-wrap: anywhere; }
+.meta-line { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: .74rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.meta-line b { color: var(--ink); font-weight: 600; }
 .detail .texte p { margin: 0 0 .6em; } .detail .texte h4 { margin: .8em 0 .3em; font-size: .95rem; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
@@ -204,6 +206,18 @@ async function chargerDemandes() {
       etat: (i.labels || []).map((l) => l.name).find((n) => REQ_STATE[n]) || (i.state === "closed" ? "valide" : "a-faire") }));
 }
 
+// fiche technique d'une demande traitée : modèle, tokens, durée, note
+function ficheMeta(m, long) {
+  if (!m) return "";
+  const t = m.tokens || {};
+  const parts = [m.modele ? `<span>Modèle <b>${esc(m.modele)}</b></span>` : "",
+    t.total ? `<span>Dialagram <b>${fmt(t.total)}</b> tokens${long && t.entree ? ` (entrée ${fmt(t.entree)}, sortie ${fmt(t.sortie)})` : ""}</span>` : "",
+    m.secondes ? `<span><b>${Math.round(m.secondes)}</b> s</span>` : "",
+    m.claude_tokens ? `<span>Claude ≈ <b>${fmt(m.claude_tokens)}</b> tokens</span>` : "",
+    m.note ? `<span>Note <b>${esc(m.note)}</b></span>` : ""].filter(Boolean).join("");
+  return parts ? `<div class="meta-line">${parts}</div>` : "";
+}
+
 async function renderReqs() {
   try {
     const list = await chargerDemandes();
@@ -213,6 +227,7 @@ async function renderReqs() {
       const ext = d.lien.startsWith("#") ? "" : ' target="_blank" rel="noopener"';
       return `<article class="card ${cls}"><span class="stage">${txt}</span><h3>${esc(d.titre)}</h3>
         <div class="figs">n° ${d.numero} · ${new Date(d.date).toLocaleDateString("fr-FR")} · ${d.reponses} réponse${d.reponses > 1 ? "s" : ""}</div>
+        ${ficheMeta(d.meta, false)}
         <a href="${d.lien}"${ext}>${d.reponses ? "Voir le résultat et la note de Claude" : "Voir la demande"}</a></article>`;
     }).join("") || '<div class="msg">Aucune demande pour l\'instant. La première apparaîtra ici.</div>';
   } catch (e) { $("reqs").innerHTML = '<div class="msg">La liste des demandes n\'a pas pu être chargée. Nouvel essai au prochain rafraîchissement.</div>'; }
@@ -238,6 +253,7 @@ async function ouvrirDemande() {
     const [cls, txt] = REQ_STATE[d.etat] || REQ_STATE["a-faire"];
     box.innerHTML = `<header><h2>Demande n° ${d.numero} : ${esc(d.titre)}</h2><a href="#demandes">Fermer</a></header>
       <span class="stage ${cls}" style="justify-self:start">${txt}</span>
+      ${ficheMeta(d.meta, true)}
       <div class="lab">Consigne</div><div class="texte"><p>${md(d.consigne)}</p></div>
       ${d.reponses.length ? d.reponses.map((x) => `<div class="lab">Réponse du ${new Date(x.date).toLocaleString("fr-FR")}</div><div class="texte"><p>${md(x.texte)}</p></div>`).join("")
         : '<div class="msg">Pas encore de réponse : Claude transmet la demande à Dialagram, relit le résultat et le publie ici avec sa note.</div>'}`;
