@@ -1,0 +1,632 @@
+{
+ "titre": "CIBLER, PITCHER, LEVER",
+ "sous_titre": "Identifier et convaincre les incubateurs, fonds d'impact et institutions financières dédiés aux startups africaines",
+ "bibliographie": [
+  {
+   "auteur": "Steve Blank, Bob Doran",
+   "titre": "The Startup Owner's Manual",
+   "annee": "2012",
+   "idee": "Guide opérationnel de la recherche du modèle client/produit (piste B, sortez du bâtiment). Il impose d'accumuler des preuves terrain avant de construire des prévisions.",
+   "apport": "Cadre de la preuve client utilisé dans nos parties 3 et 4 pour montrer que la substance précède le style face aux financeurs."
+  },
+  {
+   "auteur": "Eric Ries",
+   "titre": "The Lean Startup",
+   "annee": "2011",
+   "idee": "Méthode build-measure-learn et minimum viable product pour réduire le risque par des cycles d'itération courts et des mesures honnêtes.",
+   "apport": "Langage de la traction et des itérations, transposé en chapitre 10 pour rassurer comités d'investissement et accélérateurs."
+  },
+  {
+   "auteur": "Alexander Osterwalder, Yves Pigneur",
+   "titre": "Business Model Generation",
+   "annee": "2010",
+   "idee": "Le canevas (Business Model Canvas) rend lisible un modèle en neuf blocs : clients, valeur, revenus, coûts, ressources.",
+   "apport": "Outil de cadrage du chapitre 10 : une page pour résumer le modèle avant de produire business plan et modèle financier."
+  },
+  {
+   "auteur": "Guy Kawasaki",
+   "titre": "The Art of the Start",
+   "annee": "2004",
+   "idee": "Manuel du lancement centré sur le pitch, l'innovation frugale et l'art d'ouvrir une réunion en dix minutes.",
+   "apport": "Structure du pitch en 5 temps (chapitre 17) et discipline de l'ouverture de réunion avec investisseurs."
+  },
+  {
+   "auteur": "Oren Klaff",
+   "titre": "Pitch Anything",
+   "annee": "2011",
+   "idee": "Technique de persuasion par la maîtrise du cadre (frame), la réduction de l'urgence et la narration en situation de tension.",
+   "apport": "Outils de gestion des objections et de posture dans les chapitres 17 et 19, adaptés aux comités africains."
+  },
+  {
+   "auteur": "Brad Feld, Jason Mendelson",
+   "titre": "Venture Deals",
+   "annee": "2011 (édition revue 2019, à vérifier)",
+   "idee": "Décryptage complet des mécaniques de deals VC : term sheet, actions, options, processus de levée et rôles des parties.",
+   "apport": "Squelette des parties 4 et 5 : instruments, clauses et négociation expliqués en langage clair pour fondateurs non juristes."
+  },
+  {
+   "auteur": "Scott Kupfer (avec Udayan Goyal, à vérifier)",
+   "titre": "Secrets of Sand Hill Road",
+   "annee": "2019 (à vérifier)",
+   "idee": "Explication de la façon dont un fonds VC choisit, décide et crée de la valeur, y compris son processus interne et ses conflits.",
+   "apport": "Grille de profiling d'un fonds (chapitre 6) et décryptage du comité d'investissement (chapitre 20)."
+  },
+  {
+   "auteur": "Jason Calacanis",
+   "titre": "Angel",
+   "annee": "2017",
+   "idee": "Vision d'un business angel : critères de sélection des dossiers, diversification du portefeuille et valeur ajoutée de l'angel.",
+   "apport": "Compréhension des premiers échelons d'argent (chapitres 1 et 19) et des attentes des angels dans les tours amorçage."
+  },
+  {
+   "auteur": "David Amis",
+   "titre": "Winning Angels",
+   "annee": "2001",
+   "idee": "Les sept étapes de l'investissement d'angel : préparer, évaluer, due diligence, négocier, accompagner, sortir.",
+   "apport": "Checklist de due diligence (chapitres 15 et 20) vue du côté financeur, utile pour anticiper ses questions."
+  },
+  {
+   "auteur": "Jed Emerson, Antony Bugg-Levine",
+   "titre": "Impact Investing",
+   "annee": "2011",
+   "idee": "Thèse centrale : le capital peut produire simultanément rendement mesuré et impact social/environnemental positif.",
+   "apport": "Fondements du langage des fonds d'impact (chapitres 3 et 12) et grille d'alignement thèse/investisseur."
+  },
+  {
+   "auteur": "Cathy Clark, Jed Emerson, Ben Murray",
+   "titre": "The Impact Investor",
+   "annee": "2014",
+   "idee": "Étude de fonds d'impact réels : structures, stratégies de sortie, suivi des résultats et alignement des intérêts.",
+   "apport": "Modèles de fonds et outils de mesure (IRIS+, rapports) réutilisés pour le chapitre 12 sur la preuve d'impact."
+  },
+  {
+   "auteur": "Ann Mei Chang",
+   "titre": "Lean Impact",
+   "annee": "2018",
+   "idee": "Applique la logique lean aux organisations d'impact : expérimenter vite, mesurer l'échelle réelle, innover sur la collecte de données.",
+   "apport": "Méthode d'expérimentation des indicateurs d'impact dans un contexte à ressources limitées (chapitre 12)."
+  },
+  {
+   "auteur": "Acha Leke, Mutsa Chironga, Georges Desvaux",
+   "titre": "Africa's Business Revolution",
+   "annee": "2018",
+   "idee": "Panorama des grandes tendances économiques et des marchés africains, avec des leçons pour grands groupes et fondateurs.",
+   "apport": "Contextualisation des chapitres 1 et 9 : marché, consommateur africain, spécificités sectorielles et régionales."
+  },
+  {
+   "auteur": "Josh Lerner",
+   "titre": "Boulevard of Broken Dreams",
+   "annee": "2009",
+   "idee": "Évaluation critique des politiques publiques de capital-risque (fonds d'amorçage, avantages fiscaux) et de leurs effets pervers.",
+   "apport": "Compréhension des dispositifs publics et de garantie (chapitre 4) et de leurs limites concrètes."
+  },
+  {
+   "auteur": "Paul Gompers, Josh Lerner",
+   "titre": "The Venture Capital Cycle",
+   "annee": "2000",
+   "idee": "Le capital-risque se comprend comme un cycle : collecte, investissement, accompagnement, sortie, retours aux investisseurs.",
+   "apport": "Explication de l'horizon de sortie (chapitres 6 et 24) : pourquoi un fonds investit, détient et revend."
+  },
+  {
+   "auteur": "Rob Fitzpatrick",
+   "titre": "The Mom Test",
+   "annee": "2013",
+   "idee": "Poser des questions de découverte qui ne peuvent pas mentir, pour valider un besoin sans biaiser son interlocuteur.",
+   "apport": "Exercices clients des chapitres 9 et 17 : bâtir la preuve du problème avant de pitcher le financement."
+  },
+  {
+   "auteur": "Geoffrey Moore",
+   "titre": "Crossing the Chasm",
+   "annee": "1991 (édition révisée 2014)",
+   "idee": "Comment passer des premiers clients passionnés au grand marché, en concentrant tous les efforts sur un segment gagnant.",
+   "apport": "Argumentaire de marché (chapitre 9) : démontrer une stratégie de premier segment plutôt qu'un marché global vague."
+  },
+  {
+   "auteur": "Peter Thiel",
+   "titre": "Zero to One",
+   "annee": "2014",
+   "idee": "Construire une vérité non consensuelle et viser un monopole technologique plutôt qu'une concurrence parfaite.",
+   "apport": "Exercice de thèse contre-intuitive (chapitres 9 et 13) pour se démarquer dans des decks très nombreux."
+  },
+  {
+   "auteur": "David S. Rose",
+   "titre": "The Startup Checklist",
+   "annee": "2016",
+   "idee": "Séquence pas à pas pour créer une startup et se préparer sérieusement à rencontrer des investisseurs.",
+   "apport": "Checklist de préparation en ouverture de la partie 3 : faut-il lever maintenant, avec quoi, auprès de qui."
+  },
+  {
+   "auteur": "Ash Ali, Hasan Kubba",
+   "titre": "The Unfair Advantage",
+   "annee": "2021",
+   "idee": "Identifier et exploiter l'avantage injuste (compétence, réseau, position, expérience) plutôt que de nier ses faiblesses.",
+   "apport": "Exercices de positionnement des chapitres 9 et 11 : mettre en avant le propre du fondateur face à un comité."
+  },
+  {
+   "auteur": "Tom Jackson (Disrupt Africa)",
+   "titre": "African Tech Startups Mapping Report (rapports annuels)",
+   "annee": "2016-2023 (éditions à vérifier)",
+   "idee": "Cartographie annuelle des startups africaines, des secteurs et des levées de fonds, avec données sectorielles.",
+   "apport": "Source de veille pour la méthode de cartographie du chapitre 5 (à croiser avec d'autres sources primaires)."
+  },
+  {
+   "auteur": "Brett King",
+   "titre": "Bank 2.0",
+   "annee": "2010",
+   "idee": "La banque est un canal (mobile, temps réel, contextualisé) plus qu'un lieu ; les acteurs non bancaires captent la relation client.",
+   "apport": "Compréhension de la mue des institutions financières et des opportunités fintech/mobile money en Afrique (chapitre 4)."
+  },
+  {
+   "auteur": "Oussama Ghorbel",
+   "titre": "Raising Angels (titre et année à vérifier)",
+   "annee": "2023 (à vérifier)",
+   "idee": "Comprendre le business angel et sécuriser son investissement : critères, processus, relation pré et post investissement.",
+   "apport": "Continuité avec l'ouvrage antérieur de l'auteur : notre livre élargit la focale aux incubateurs, fonds d'impact et institutions financières."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 — Comprendre l'écosystème",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le paysage du financement des startups africaines",
+     "objectif": "Cartographier les sources d'argent disponibles en Afrique (amorçage, fonds d'impact, dette, subventions, argent public) et comprendre la logique propre de chaque famille d'acteurs (cible : 3 500 mots).",
+     "sections": [
+      "Ce qui change en Afrique : la vague des levées et ses leçons récentes",
+      "La pyramide du capital : love money, angels, fonds early-stage, growth, dette",
+      "Les six familles d'acteurs : incubateurs, accélérateurs, fonds d'impact, VC, banques/DFI, bailleurs",
+      "Pourquoi leurs logiques diffèrent : horizon, rendement, mandat, exposition au risque",
+      "Les angles morts du marché : stade très précoce, deeptech, pays francophones, agro",
+      "Les erreurs récurrentes des fondateurs face à ce paysage (confondre argent et client)",
+      "Choisir la bonne porte d'entrée pour son stade réel"
+     ],
+     "exercices": [
+      "Dessiner la pyramide du capital de son pays et y placer 10 acteurs réels",
+      "Remplir un tableau comparatif mandat/horizon/ticket pour 5 types d'acteurs",
+      "Classer 3 sources d'argent par rapport à son stade : compatible, prématuré, hors sujet"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Incubateurs et accélérateurs : anatomie et logiques réelles",
+     "objectif": "Distinguer incubation, accélération et prise en participation, et comprendre ce que ces programmes offrent réellement, à quel coût, avec quels critères (cible : 3 500 mots).",
+     "sections": [
+      "Définitions et modèles économiques : incubateurs, accélérateurs, corporates, universités",
+      "Ce qu'on y trouve vraiment : argent, réseau, coaching, clients, crédibilité",
+      "Les critères de sélection classiques : équipe, traction, marché, cohérence du parcours",
+      "Coûts cachés : equity, obligations de suivi, exclusivité, temps du fondateur",
+      "Cartographie des hubs africains et de leurs spécialisations (fintech, agro, climat)",
+      "Quand un programme est la bonne première étape — et quand il fait perdre du temps"
+     ],
+     "exercices": [
+      "Rédiger la fiche profonde de 5 programmes : frais, equity, durée, taux de poursuite de levée",
+      "Simuler une candidature et noter ses atouts sur 10 selon les critères publics",
+      "Trancher pour son cas : incubateur, accélérateur ou approche directe d'un fonds"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Fonds d'impact : la double promesse rendement + utilité",
+     "objectif": "Comprendre la thèse, les instruments et les exigences de mesure des fonds d'impact, et savoir si (et comment) son startup leur correspond (cible : 3 500 mots).",
+     "sections": [
+      "Définir l'impact : thèse, secteurs porteurs (santé, agro, énergie, éducation, fintech, climat)",
+      "Instruments mobilisés : fonds de dette à impact, capital-risque, projets catalytiques",
+      "Comment ils mesurent : IRIS+, théorie du changement, indicateurs de performance",
+      "Les arbitrages rendement/impact : ce qu'ils acceptent — et ce qu'ils refusent",
+      "Les signaux que votre startup intéresse un fonds d'impact",
+      "Éviter le greenwashing : rigueur, sobriété des promesses, transparence"
+     ],
+     "exercices": [
+      "Écrire sa théorie du changement sur une page (entrées, activités, sorties, effets)",
+      "Construire une matrice impact/rendement et y situer son projet",
+      "Faire l'inventaire des indicateurs d'impact déjà produits par sa startup"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Institutions financières : banques, DFI, garanties, fintechs",
+     "objectif": "Décrypter la logique des prêteurs et des organismes de développement, et identifier l'instrument adéquat (dette, garantie, blending) pour chaque besoin de trésorerie (cible : 3 500 mots).",
+     "sections": [
+      "Pourquoi la banque traditionnelle dit souvent non au startuper",
+      "Organismes de développement et fonds de garantie : atténuer le risque de crédit",
+      "Dette pour startups : conditions, collatéral, cash-flow, taux réels",
+      "Mobile money et partenariats fintech comme levier de distribution et de preuve",
+      "Blending : associer subvention, garantie, dette et fonds propres",
+      "Checklist : quel acteur pour quel besoin, quel stade, quel montant"
+     ],
+     "exercices": [
+      "Remplir la matrice besoin/instrument/acteur pour son projet",
+      "Calculer son taux d'endettement supportable et son coût réel du crédit",
+      "Repérer 3 dispositifs publics ou de développement applicables dans son pays"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 — Identifier la bonne cible",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Cartographier son terrain : méthodes et sources de veille",
+     "objectif": "Constituer en quelques semaines une base de données fiable et à jour de tous les acteurs potentiellement pertinents pour son projet (cible : 3 500 mots).",
+     "sections": [
+      "Où se trouve l'information : bases de données, rapports, newsletters, réseaux professionnels",
+      "Sources primaires : sites officiels, appels à projets, communiqués de clôture de fonds",
+      "Sources secondaires : classements, mapping, réseaux d'anciens bénéficiaires",
+      "Construire et entretenir une CRM de prospects (statuts, notes, prochaines actions)",
+      "Signaux d'activité : nouvelles closes, nouveaux partenaires, recrutements, exits",
+      "Pièges : données obsolètes, fonds fantômes, intermédiaires et courtiers peu fiables"
+     ],
+     "exercices": [
+      "Constituer une base de 50 acteurs en 7 jours avec un plan d'action jour par jour",
+      "Créer une grille de fiabilité par source : fraîcheur, couverture, indépendance",
+      "Rédiger 10 signaux d'alerte permettant d'écarter un acteur non pertinent"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Profiler un fonds : lire une thèse comme un investisseur",
+     "objectif": "Savoir décrypter en trente minutes un acteur (thèse, équipe, processus, portefeuille) et estimer objectivement ses chances d'intérêt (cible : 3 500 mots).",
+     "sections": [
+      "Déchiffrer une thèse : secteur, géographie, stade, ticket, horizon",
+      "Comprendre l'équipe du fonds : partners, associates, comité consultatif",
+      "Le processus décisionnel : comité, calendrier, étapes, délais réalistes",
+      "Ce que les acteurs ne disent pas : préférences cachées, conflits de portefeuille",
+      "Analyser le portefeuille existant : signaux d'intérêt et signaux d'exclusion",
+      "Questionnaire d'évaluation en 15 points pour juger du fit"
+     ],
+     "exercices": [
+      "Rédiger la fiche de profiling type pour 3 fonds réels",
+      "Reconstituer le parcours d'une décision d'investissement documentée (étude de cas)",
+      "Noter le score de fit entre son projet et chaque cible profile"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Sélectionner et prioriser : la shortlist gagnante",
+     "objectif": "Passer d'un univers de centaines d'acteurs à une shortlist de 30 cibles ordonnée, avec un calendrier de cycle de levée de douze semaines (cible : 3 500 mots).",
+     "sections": [
+      "Du réseau de 500 à la shortlist de 30 : critères de tri successifs",
+      "Scoring de fit : produit pondéré (stade, secteur, pays, ticket, timing)",
+      "Matrice effort/probabilité : où concentrer ses heures",
+      "L'ordre d'approche : des cibles les plus accessibles aux plus stratégiques",
+      "Les plan B en parallèle : dette, subventions, revenus — sans dilution ni dispersion",
+      "Organiser un cycle de levée de 12 semaines, semaine par semaine"
+     ],
+     "exercices": [
+      "Construire sa scorecard personnalisée et noter 10 cibles",
+      "Classer ses cibles en trois vagues d'approche et justifier l'ordre",
+      "Établir le calendrier de 12 semaines avec jalons hebdomadaires mesurables"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Les chemins d'accès : introductions chaudes, syndicats, hubs",
+     "objectif": "Maîtriser les voies d'accès réelles (warm intros, événements, syndication, réputation) pour transformer une liste en conversations qualifiées (cible : 3 500 mots).",
+     "sections": [
+      "Pourquoi l'introduction chaude change radicalement les probabilités",
+      "Cartographier son réseau : quatre degrés, agrégateurs, intermédiaires utiles",
+      "Écrire un email d'introduction efficace et demander un referral sans se dévaloriser",
+      "Les événements : conférences, demo days, compétitions — y être utile et repartir avec des contacts",
+      "Syndication et lead investor : trouver celui qui porte et défend le dossier",
+      "Donner avant de demander : construire une relation durable"
+     ],
+     "exercices": [
+      "Carte des connexions en trois cercles et liste de 10 introducteurs potentiels",
+      "Rédiger trois messages : cold, warm, referral, à personnaliser",
+      "Préparer un kit ambassadeur (deck, memo, lien, phrase de présentation) à envoyer aux introducteurs"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 — Devenir finançable",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Le problème et le marché : la substance avant le style",
+     "objectif": "Établir le socle indiscutable du dossier : un problème réel, un marché dimensionné honnêtement et une preuve terrain (cible : 3 500 mots).",
+     "sections": [
+      "Formuler un problème réel, douloureux, fréquent — et le prouver",
+      "Taille de marché : TAM/SAM/SOM en méthode bottom-up, sans inflation",
+      "Analyse concurrentielle africaine : informel, importations, solutions régionales",
+      "Premiers clients et preuves de traction : qualité avant quantité",
+      "Positionnement : la thèse contre-intuitive qui vous rend mémorable",
+      "Tester avec la méthode Mom Test : des questions qui ne mentent pas"
+     ],
+     "exercices": [
+      "Écrire le problème en une phrase : pour [qui], [problème], parce que [raison]",
+      "Construire un TAM/SAM/SOM bottom-up avec ses propres données",
+      "Rédiger 12 questions de découverte client et mener 5 entretiens cette semaine"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Modèle économique et traction : les chiffres qui parlent",
+     "objectif": "Construire des métriques robustes et adaptées au contexte africain, puis sélectionner les cinq chiffres qui convaincront un financeur (cible : 3 500 mots).",
+     "sections": [
+      "Sources de revenus adaptées à l'Afrique : micropaiements, B2B2C, réseau d'agents, abonnements",
+      "Unit economics : CAC, LTV, marge, rétention — et leurs limites dans nos marchés",
+      "Métriques de traction : MRR, GMV, taux de rétention, NPS selon le modèle",
+      "Cohortes, cycles de vente, saisonnalité et effet des fluctuations de change",
+      "Construire un tableau de bord investisseur mensuel",
+      "Choisir et raconter les 5 chiffres à mettre en avant"
+     ],
+     "exercices": [
+      "Calculer CAC et LTV sur ses données réelles et documenter les hypothèses",
+      "Définir 5 KPI, leur formule de calcul et leur mode de collecte",
+      "Modéliser trois scénarios de croissance : base, haut, bas"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "L'équipe : le premier actif que les investisseurs regardent",
+     "objectif": "Présenter une équipe crédible et complémentaire, avec une gouvernance claire, tout en corrigeant les red flags avant qu'ils n'apparaissent (cible : 3 500 mots).",
+     "sections": [
+      "Le duo ou trio fondateur : complémentarités, histoire commune, gestion des conflits",
+      "Lire un parcours : expériences locales, diaspora, secteur, signaux de leadership",
+      "Conseil d'administration et advisory board : composition et rôle réel",
+      "Tableau de capitalisation et gouvernance : vesting, clauses de protection",
+      "Recruter dans la rareté : techniciens, commerciaux, talents de la diaspora",
+      "Ce qui fait fuir un financeur : les red flags d'équipe fréquents"
+     ],
+     "exercices": [
+      "Matrice des compétences de l'équipe : 10 compétences, couverture, lacunes",
+      "Rédiger la fiche cible d'un membre d'advisory board",
+      "Identifier un red flag possible et préparer la réponse associée"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Impact : mesurer, raconter, aligner avec le financeur",
+     "objectif": "Transformer une intention d'impact en indicateurs vérifiables et en un récit aligné avec la thèse du fonds d'impact ciblé (cible : 3 500 mots).",
+     "sections": [
+      "De l'intention à l'indicateur : théorie du changer et logique d'intervention",
+      "Se repérer dans les cadres : IRIS+, Objectifs de développement durable, GIIN",
+      "Choisir peu d'indicateurs, robustes, vérifiables et non manipulateurs",
+      "Collecter les données dans des contextes à faible connectivité ou faible formalisation",
+      "Raconter l'impact : anecdotes solides plus données, sans surpromettre",
+      "Aligner son offre d'impact avec la thèse exacte du fonds visé"
+     ],
+     "exercices": [
+      "Choisir 3 indicateurs alignés sur la thèse d'un fonds cible identifié au chapitre 5",
+      "Rédiger un impact one-pager sur une page (modèle type)",
+      "Définir un plan de collecte de données sur six mois, acteur responsable par indicateur"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 — Construire le dossier",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Le deck : architecture d'un récit en douze slides",
+     "objectif": "Fabriquer un dossier de présentation court, lisible sur mobile, qui raconte une histoire convaincante et se termine par une demande précise (cible : 3 500 mots).",
+     "sections": [
+      "La règle des dix minutes et des douze slides : pourquoi cette contrainte libère",
+      "L'ouverture : capter en une image, un chiffre, une histoire",
+      "Le fil narratif : problème, solution, marché, preuve, équipe, demande",
+      "Les slides techniques : marché, modèle économique, traction, concurrence",
+      "Le design mobile : lisibilité sur petit écran, densité, typographie",
+      "Les erreurs fatales : trop de texte, jargon, promesses vagues, ask flou"
+     ],
+     "exercices": [
+      "Assembler un deck de 12 slides à partir d'un cahier des charges slide par slide",
+      "Auto-évaluer le deck avec une grille de 20 critères",
+      "Test des cinq secondes : observer chaque slide cinq secondes et noter le message unique"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Business plan et modèle financier : l'outil de décision",
+     "objectif": "Produire un plan financier honnête, scénarisé, lisible par un banquier comme par un fonds, qui éclaire le besoin de financement (cible : 3 500 mots).",
+     "sections": [
+      "À quoi sert vraiment un business plan aujourd'hui — et à quoi il ne sert pas",
+      "Hypothèses : prix, volumes, coûts, saisonnalité, taux de change",
+      "Compte de résultat, trésorerie et bilan simplifiés pas à pas",
+      "Point mort, runway, besoins de financement et calendrier",
+      "Scénarios et analyse de sensibilité : ce que chaque type de financeur veut voir",
+      "Format : quinze pages de fond, annexes détaillées"
+     ],
+     "exercices": [
+      "Construire la structure d'un modèle prévisionnel sur 24 mois",
+      "Calculer le runway et la date cible du prochain jalon de levée",
+      "Rédiger la note d'hypothèses : les 10 hypothèses qui font basculer le modèle"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Data room et due diligence anticipée",
+     "objectif": "Anticiper la vérification en constituant une data room ordonnée et en préparant les réponses aux questions difficiles avant qu'elles ne soient posées (cible : 3 500 mots).",
+     "sections": [
+      "Une data room : définition, ordre de bataille, principe de mise à jour",
+      "Documents juridiques : statuts, agréments, propriété intellectuelle, contrats",
+      "Documents commerciaux : contrats signés, pipeline, historique clients",
+      "Documents financiers et RH : comptes, paie, options, engagements",
+      "Confidentialité : ce qui se partage, à quel moment, avec quelles clauses",
+      "Préparer les questions difficiles : la liste de cinquante questions"
+     ],
+     "exercices": [
+      "Créer l'arborescence complète de sa data room",
+      "Répondre à 10 questions de due diligence type en écrit",
+      "Remplir la gap list : ce qui manque, l'effort, le délai, le responsable"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Le memo et l'executive summary : écrire pour être lu en quatre minutes",
+     "objectif": "Rédiger les documents écrits qui circulent entre les mains des décideurs, adaptés à chaque type de financeur (cible : 3 500 mots).",
+     "sections": [
+      "Pourquoi un document écrit en plus du deck",
+      "Structure du memo : deux pages pour convaincre absent",
+      "L'executive summary : les huit paragraphes indispensables",
+      "Style : clarté, chiffres, sobriété, pas de jargon",
+      "Trois versions : banque, fonds d'impact, accélérateur",
+      "Le test de relecture : lu en quatre minutes par un tiers"
+     ],
+     "exercices": [
+      "Écrire un executive summary de 400 mots",
+      "Adapter le même dossier à trois types de financeurs (3 versions de la page d'ouverture)",
+      "Organiser une relecture par les pairs avec une grille de notation"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 — Convaincre et négocier",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Le pitch en situation : réunion, démo, visioconférence",
+     "objectif": "Exécuter un pitch maîtrisé en présentiel ou à distance, démontrer le produit sans accroc et gérer les objections avec méthode (cible : 3 500 mots).",
+     "sections": [
+      "Préparer la réunion : format, durée, participants, ordre du jour",
+      "Le pitch en cinq temps : histoire, preuve, chiffres, équipe, demande",
+      "Démonstration produit : la règle des trois clics, données réelles, plan de secours",
+      "Les objections : technique des cinq réponses types",
+      "Questions-réponses : dire je ne sais pas, je reviens vers vous",
+      "Après la réunion : compte rendu envoyé en 24 heures"
+     ],
+     "exercices": [
+      "Écrire trois versions du pitch : 90 secondes, 5 minutes, 10 minutes",
+      "Jeu de rôles : dix objections fréquentes et réponses argumentées",
+      "Rédiger le modèle de message de remerciement et de suivi post-réunion"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Trouver l'intro chaude et activer son réseau",
+     "objectif": "Passer de l'approche froide à une stratégie d'accès fondée sur le réseau, la réputation et une prospection régulière (cible : 3 500 mots).",
+     "sections": [
+      "Le réseau utile : fondateurs déjà investis, opérateurs, anciens investisseurs",
+      "Les agrégateurs : programmes, réseaux d'alumni, ambassadeurs, mentors",
+      "Aller aux événements avec un objectif chiffré et un livrable",
+      "S'engager en ligne : réseaux professionnels, publications, podcasts, newsletters",
+      "Construire sa réputation avant d'avoir besoin d'argent",
+      "Le pipeline : trois conversations utiles par semaine"
+     ],
+     "exercices": [
+      "Lister 15 personnes à approcher et justifier la valeur de chacune",
+      "Personnaliser un modèle d'intro pour trois contextes différents",
+      "Planifier quatre semaines de visibilité : contenu, événements, relances"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Négocier : valeur, alternatives et instruments",
+     "objectif": "Préparer et conduire une négociation lucide, en choisissant l'instrument adapté et en défendant plus que le seul prix (cible : 3 500 mots).",
+     "sections": [
+      "Connaître sa BATNA et la BATNA de son interlocuteur",
+      "Instruments : fonds propres, dette, SAFE, convertible, subvention, prêt garanti",
+      "Valorisation : méthodes simples (comparables, prévisionnel, expérience du fondateur)",
+      "Dilution, vesting et tableau de capitalisation : les calculs à faire avant",
+      "Négocier au-delà du prix : accompagnement, introductions, conditions",
+      "Les erreurs classiques : urgence, ego, mauvais conseil juridique"
+     ],
+     "exercices": [
+      "Calculer deux scénarios de dilution à la table de capitalisation",
+      "Remplir un tableau comparatif des instruments : coût, contrôle, risque",
+      "Préparer sa négociation : trois demandes de contrepartie et deux concessions acceptables"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Passer les filtres : comité, références et diligence finale",
+     "objectif": "Comprendre ce qui se joue après le premier pitch et préparer méthodiquement les étapes finales jusqu'à la décision (cible : 3 500 mots).",
+     "sections": [
+      "Le parcours après le premier pitch : des étapes et des délais réalistes",
+      "Le comité d'investissement : qui décide, ce qui compte, comment se préparer",
+      "Références clients, partenaires et anciens financeurs : les brief-er",
+      "Due diligence finale : leçons, propriété intellectuelle, équipe, finances",
+      "Lire un refus : causes probables, questions à poser, apprentissages",
+      "Gérer la longueur : relancer sans harceler, rester top of mind"
+     ],
+     "exercices": [
+      "Préparer et brief-er cinq références avec un argumentaire commun",
+      "Tenir un journal de suivi des dossiers en cours : statut, prochaine étape, date",
+      "Analyser trois refus passés et en extraire trois leçons actionnables"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 6 — Signer, décaisser, durer",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Term sheet et closing : lire, comparer, décider",
+     "objectif": "Comprendre les clauses essentielles d'une offre, comparer deux propositions et mener un closing jusqu'au décaissement (cible : 3 500 mots).",
+     "sections": [
+      "Anatomie d'une term sheet : les articles qui engagent vraiment",
+      "Les clauses clés : préférence de liquidation, anti-dilution, drag/tag, sièges",
+      "Coût juridique, délais et choix de l'avocat",
+      "Conditions suspensives : ce qui fait traîner un closing",
+      "Le closing : procédure, documents, versement",
+      "Signer vite ou prendre le temps : critères de décision"
+     ],
+     "exercices": [
+      "Annoter une term sheet type, clause par clause, en langage simple",
+      "Construire une grille de comparaison de deux offres",
+      "Rédiger une check-list de closing en 15 points"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Après la signature : relation investisseur et reporting",
+     "objectif": "Installer une relation de travail saine et transparente avec ses financeurs, et préparer la prochaine levée dès le premier mois (cible : 3 500 mots).",
+     "sections": [
+      "Les trente premiers jours : installations, promesses, priorités",
+      "Le reporting mensuel ou trimestriel : format, honnêteté, ponctualité",
+      "Utiliser le conseil : introductions, recrutement, préparation du tour suivant",
+      "Les mauvaises nouvelles : les dire tôt, avec un plan",
+      "Gérer les temps de réponse des fonds et les intermédiaires",
+      "Planifier la prochaine levée avant d'en avoir besoin"
+     ],
+     "exercices": [
+      "Créer un modèle de rapport investisseur d'une page",
+      "Établir un calendrier relationnel sur douze mois",
+      "Rédiger un exemple de message transmettant une mauvaise nouvelle avec plan de correction"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Refuser, échouer, pivoter : le plan B du fondateur",
+     "objectif": "Savoir dire non à un mauvais financeur, convertir les refus en apprentissages et activer des alternatives de financement sans dilution excessive (cible : 3 500 mots).",
+     "sections": [
+      "Dire non : quand refuser un investisseur, un prêt ou un programme",
+      "Lire un refus et mesurer son taux de conversion à chaque étape",
+      "L'auto-financement : revenus, financement à la part des recettes, crowdfunding, diaspora",
+      "Pivot de levée : changer de cible sans trahir son histoire",
+      "Quand arrêter de lever : le coût d'opportunité de la chasse permanente",
+      "Rythme du fondateur : santé, pairs, entraide, réseaux de soutien"
+     ],
+     "exercices": [
+      "Calculer son taux de conversion par étape du funnel de levée",
+      "Cartographier cinq plan B chiffrés : montant, délai, coût, effort",
+      "Rédiger un modèle de réponse à un refus et une question d'apprentissage associée"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Bâtir un capital durable : du premier chèque au cercle vertueux",
+     "objectif": "Consolider la trajectoire de financement sur le long terme : tenir les engagements, diversifier les sources et préparer les tendances à venir (cible : 3 500 mots).",
+     "sections": [
+      "Ce que la première levée change vraiment — et ce qu'elle ne résout pas",
+      "Les douze prochains mois : engagements tenus, jalons publics",
+      "Le cercle vertueux : traction, preuve, réseau, prochaine levée",
+      "Diversifier : dette, corporates, fonds souverains, alliances, fusions",
+      "Tendances et points de vigilance : finance climat, blended finance, réglementations (à vérifier au moment de la rédaction)",
+      "Manifeste : financer l'Afrique avec exigence, lucidité et tenue"
+     ],
+     "exercices": [
+      "Élaborer une feuille de route de 18 mois post-levée",
+      "Créer un tableau de bord : cinq engagements pris et progrès constatés",
+      "Rédiger une lettre à so-même pour la prochaine levée : leçons, promesses, alertes"
+     ]
+    }
+   ]
+  }
+ ]
+}
