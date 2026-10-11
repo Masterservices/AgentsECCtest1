@@ -1,5 +1,7 @@
 ## Introduction
 
+> **Note de l'éditeur.** Cet ouvrage a été rédigé avec l'assistance d'un modèle d'intelligence artificielle qui n'avait pas accès à Internet. Il présente les avancées, travaux et livres de référence connus jusqu'à la date de connaissance de ce modèle, et non l'actualité la plus récente. Les projections et chiffres situés en 2026 ou au-delà sont des scénarios illustratifs, pas des faits établis. Pour un sujet qui évolue aussi vite, vérifiez les développements récents auprès de sources à jour.
+
 ### Le seuil d'une nouvelle époque
 
 Il y a des moments dans l'histoire humaine où le tissu même de notre réalité semble se déchirer pour laisser place à une nouvelle trame. L'invention de l'écriture, la presse de Gutenberg, la machine à vapeur, l'électricité : chacune de ces révolutions a redéfini les frontières du possible, modifiant en profondeur notre rapport au temps, à l'espace, à la matière et aux autres. Pourtant, aussi vertigineuses qu'aient été ces ruptures, aucune n'avait touché au sanctuaire de ce que nous croyions être notre exclusivité absolue : la cognition. Pendant des millénaires, nous avons forgé des outils pour prolonger nos muscles, pour accélérer nos déplacements, pour vaincre les éléments. Aujourd'hui, en cette année 2026, nous ne construisons plus seulement des prolongements de nos corps ; nous façonnons des prolongements de nos esprits. Nous avons franchi le seuil de l'Ère de l'Intelligence Artificielle.
