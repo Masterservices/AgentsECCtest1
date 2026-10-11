@@ -92,6 +92,7 @@ const short = (n) => n >= 1e6 ? (n / 1e6).toLocaleString("fr-FR", { maximumFract
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
 async function etat() {
+  if (location.hostname.endsWith("netlify.app")) { try { const r = await fetch("etat.json?t=" + Date.now()); if (r.ok) return await r.json(); } catch (e) {} }
   try {
     const r = await fetch(`https://raw.githubusercontent.com/${OWNER}/${REPO}/etat-usine/etat.json?t=${Date.now()}`);
     if (r.ok) return await r.json();

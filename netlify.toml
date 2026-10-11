@@ -1,4 +1,4 @@
-# Netlify : sert le site (web/) et la fonction de demandes (netlify/functions/requete.js)
+# Netlify : sert le site (web/), les fonctions de demandes, et relaie livres et état depuis le dépôt
 [build]
   publish = "web"
   functions = "netlify/functions"
@@ -8,3 +8,21 @@
   from = "/api/requete"
   to = "/.netlify/functions/requete"
   status = 200
+
+[[redirects]]
+  from = "/api/demandes"
+  to = "/.netlify/functions/demandes"
+  status = 200
+
+# État en direct de l'usine et PDF des livres, servis sous l'adresse du site
+[[redirects]]
+  from = "/etat.json"
+  to = "https://raw.githubusercontent.com/ghorbeloussama44-source/AgentsECCtest/etat-usine/etat.json"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/pdf/*"
+  to = "https://raw.githubusercontent.com/ghorbeloussama44-source/AgentsECCtest/claude/millionaire-book-500-pages-kb2v7u/:splat"
+  status = 200
+  force = true
