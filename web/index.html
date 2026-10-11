@@ -87,6 +87,8 @@ details.form summary { padding: 10px 12px; font-weight: 600; font-size: .9rem; c
 .detail .texte { font-size: .9rem; line-height: 1.6; background: var(--bg); border: 1px solid var(--line); border-radius: var(--r); padding: 10px 14px; overflow-wrap: anywhere; }
 .meta-line { display: flex; flex-wrap: wrap; gap: 2px 12px; font-size: .74rem; color: var(--muted); font-variant-numeric: tabular-nums; }
 .meta-line b { color: var(--ink); font-weight: 600; }
+.credit { font-size: .82rem; color: var(--muted); border-inline-start: 3px solid var(--dia); padding: 4px 10px; background: var(--dia-soft); border-radius: 0 4px 4px 0; }
+.credit b { color: var(--ink); }
 .detail .texte p { margin: 0 0 .6em; } .detail .texte h4 { margin: .8em 0 .3em; font-size: .95rem; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
@@ -236,7 +238,7 @@ async function renderReqs() {
 // Détail d'une demande, affiché sur le site (#demande-12)
 function md(t) {
   return esc(t).replace(/^### (.*)$/gm, "<h4>$1</h4>").replace(/^## (.*)$/gm, "<h4>$1</h4>").replace(/^# (.*)$/gm, "<h4>$1</h4>")
-    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/(^|[^*])\*([^*\n]+)\*/g, "$1<em>$2</em>")
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>").replace(/(^|[^*])\*([^*\n]+)\*/g, "$1<em>$2</em>").replace(/(^|\s)_([^_\n]+)_(?=\s|$|[.,;:!?])/g, "$1<em>$2</em>")
     .replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+|pdf\/[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
     .replace(/^---$/gm, "<hr>").replace(/\n{2,}/g, "</p><p>").replace(/\n/g, "<br>");
 }
@@ -255,6 +257,7 @@ async function ouvrirDemande() {
       <span class="stage ${cls}" style="justify-self:start">${txt}</span>
       ${ficheMeta(d.meta, true)}
       <div class="lab">Consigne</div><div class="texte"><p>${md(d.consigne)}</p></div>
+      ${d.meta && d.meta.modele ? `<div class="credit">Rédigé par <b>${esc(d.meta.modele)}</b> via Dialagram, relu et corrigé par Claude${d.meta.note ? ` · note ${esc(d.meta.note)}` : ""}.</div>` : ""}
       ${d.reponses.length ? d.reponses.map((x) => `<div class="lab">Réponse du ${new Date(x.date).toLocaleString("fr-FR")}</div><div class="texte"><p>${md(x.texte)}</p></div>`).join("")
         : '<div class="msg">Pas encore de réponse : Claude transmet la demande à Dialagram, relit le résultat et le publie ici avec sa note.</div>'}`;
   } catch (e) { box.innerHTML = '<div class="msg">Cette demande n\'a pas pu être chargée.</div>'; }
