@@ -1,0 +1,591 @@
+{
+ "titre": "L'Ère du Copilote",
+ "sous_titre": "Automatiser le répétitif, libérer le créatif : guide pratique de l'IA générative au quotidien",
+ "bibliographie": [
+  {
+   "auteur": "Ethan Mollick",
+   "titre": "Co-Intelligence: Living and Working with AI",
+   "annee": "2024",
+   "idee": "L'IA doit être abordée comme un collègue : l'inviter à la table, lui déléguer avec jugement, garder la responsabilité finale.",
+   "apport": "Cadre mental du 'copilote' et posture critique face aux hallucinations."
+  },
+  {
+   "auteur": "Kai-Fu Lee",
+   "titre": "AI Superpowers",
+   "annee": "2018",
+   "idee": "L'IA excelle sur les tâches d'optimisation mais échoue sur l'empathie et la créativité authentique.",
+   "apport": "Matrice pour trier ce qu'il faut automatiser vs humaniser."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Deep Work",
+   "annee": "2016",
+   "idee": "La valeur professionnelle moderne naît de longues plages de concentration sans distraction.",
+   "apport": "Articulation entre automatisation IA et protection du travail profond."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "A World Without Email",
+   "annee": "2021",
+   "idee": "Le flux de messages fragmente le cerveau du savoir ; il faut structurer les processus, pas juste répondre plus vite.",
+   "apport": "Modèles de workflows automatisés pour réduire la charge cognitive."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les petits systèmes répétés battent les grandes résolutions ; l'environnement compte plus que la volonté.",
+   "apport": "Design de routines où l'IA devient le déclencheur ou le soutien d'habitudes."
+  },
+  {
+   "auteur": "Tiago Forte",
+   "titre": "Building a Second Brain",
+   "annee": "2022",
+   "idee": "Externaliser la mémoire dans un système numérique fiable libère l'esprit pour créer.",
+   "apport": "Intégration IA dans la capture, l'organisation et la remixage des notes."
+  },
+  {
+   "auteur": "Mihaly Csikszentmihalyi",
+   "titre": "Creativity: Flow and the Psychology of Discovery",
+   "annee": "1996",
+   "idee": "La créativité émerge d'un dialogue entre domaine, personne et champ social.",
+   "apport": "Usage de l'IA comme partenaire de dialogue créatif sans remplacer le champ."
+  },
+  {
+   "auteur": "Austin Kleon",
+   "titre": "Steal Like an Artist",
+   "annee": "2012",
+   "idee": "Toute création est remix ; la contrainte et la curation précèdent l'originalité.",
+   "apport": "Méthodes de remix assisté par IA tout en conservant une voix singulière."
+  },
+  {
+   "auteur": "Ed Catmull",
+   "titre": "Creativity, Inc.",
+   "annee": "2014",
+   "idee": "La créativité collective exige candeur, itération rapide et protection des idées naissantes.",
+   "apport": "Rituels de brainstorming IA + humain et gestion des feedbacks générés."
+  },
+  {
+   "auteur": "Roger Martin",
+   "titre": "The Design of Business",
+   "annee": "2009",
+   "idee": "Passer du mystère à l'heuristique puis à l'algorithme est le cœur de la création de valeur.",
+   "apport": "Grille pour transformer une tâche créative en workflow IA automatisable."
+  },
+  {
+   "auteur": "Tim Harford",
+   "titre": "Messy: The Power of Disorder",
+   "annee": "2016",
+   "idee": "Un excès d'ordre et d'automatisation étouffe l'adaptabilité et la sérendipité.",
+   "apport": "Garder des zones volontairement non automatisées pour préserver le flair."
+  },
+  {
+   "auteur": "Chip Heath & Dan Heath",
+   "titre": "Decisive",
+   "annee": "2013",
+   "idee": "Les bonnes décisions reposent sur l'élargissement des options et la mise à distance des biais.",
+   "apport": "Utilisation de l'IA comme avocat du diable et générateur d'alternatives."
+  },
+  {
+   "auteur": "Daniel Kahneman, Olivier Sibony, Cass Sunstein",
+   "titre": "Noise: A Flaw in Human Judgment",
+   "annee": "2021",
+   "idee": "Le bruit (variabilité injustifiée) coûte souvent plus cher que le biais ; les règles et algorithmes le réduisent.",
+   "apport": "Justification de l'automatisation IA pour les jugements répétitifs standardisés."
+  },
+  {
+   "auteur": "Andrew McAfee & Erik Brynjolfsson",
+   "titre": "Machine, Platform, Crowd",
+   "annee": "2017",
+   "idee": "Les entreprises doivent arbitrer entre machines, plateformes et foules pour chaque tâche.",
+   "apport": "Cadre de délégation : IA, API, humain, crowd — pour chaque micro-tâche."
+  },
+  {
+   "auteur": "Jules White et al.",
+   "titre": "Prompt Engineering (cours & articles Vanderbilt)",
+   "annee": "2023",
+   "idee": "Le prompt est une interface de programmation en langage naturel ; sa structure détermine la qualité.",
+   "apport": "Taxonomie de prompts (rôle, contexte, contraintes, format, exemples)."
+  },
+  {
+   "auteur": "Shane Parrish",
+   "titre": "Clear Thinking",
+   "annee": "2023",
+   "idee": "La qualité des résultats dépend des pauses décisionnelles et des règles personnelles pré-définies.",
+   "apport": "Checklists IA avant envoi, publication ou décision importante."
+  },
+  {
+   "auteur": "Anne Helen Petersen & divers essayistes",
+   "titre": "Littérature sur l'épuisement numérique (articles de référence 2019-2023)",
+   "annee": "2019",
+   "idee": "L'optimisation permanente peut devenir une nouvelle forme de charge mentale.",
+   "apport": "Mise en garde : automatiser pour retrouver du temps humain, pas pour en faire plus."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Comprendre avant d'outiller : les fondations de l'IA générative",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Ce que l'IA générative est (et n'est pas)",
+     "objectif": "Démystifier les modèles de langage, d'image et de code pour en faire des outils prévisibles.",
+     "sections": [
+      "1.1 Du perceptron au transformeur : une histoire en trois actes",
+      "1.2 Comment un LLM 'prédit' le mot suivant — et pourquoi ce n'est pas de la pensée",
+      "1.3 Diffusion, embeddings, agents : le bestiaire essentiel",
+      "1.4 Hallucinations, biais, contamination : les trois failles à connaître",
+      "1.5 Le mythe du remplacement et la réalité de l'augmentation",
+      "1.6 Construire son tableau de bord mental des capacités IA"
+     ],
+     "exercices": [
+      "Faire produire au même modèle 5 réponses à la même question et analyser les variations",
+      "Identifier 3 hallucinations plausibles dans un texte généré",
+      "Cartographier ses propres tâches sur l'axe 'prévisible / ambigu'"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Cartographier son temps pour repérer ce qui mérite l'IA",
+     "objectif": "Transformer son agenda en données pour identifier les gisements d'automatisation.",
+     "sections": [
+      "2.1 L'audit des 168 heures : la méthode du carnet de temps",
+      "2.2 La matrice répétition × valeur × charge cognitive",
+      "2.3 Les quatre familles de tâches répétitives invisibles",
+      "2.4 Ce qui ne doit surtout pas être automatisé",
+      "2.5 Calculer son ROI personnel d'une heure gagnée",
+      "2.6 Choisir ses trois premières cibles d'automatisation"
+     ],
+     "exercices": [
+      "Tenir un journal de temps pendant 5 jours ouvrés",
+      "Classer 30 tâches récentes dans la matrice répétable/valeur",
+      "Sélectionner 3 candidats et estimer le gain annuel en heures"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Installer son environnement de copilote",
+     "objectif": "Construire une pile d'outils cohérente, sobre et évolutive.",
+     "sections": [
+      "3.1 La stack minimale viable : un LLM, un carnet, un orchestrateur",
+      "3.2 Choisir entre cloud, local, open source et propriétaire",
+      "3.3 Sécurité, confidentialité, données sensibles : les 7 règles d'or",
+      "3.4 Gestion des comptes, tokens et coûts mensuels",
+      "3.5 Organiser ses projets, ses prompts, ses exports",
+      "3.6 Rituels d'entretien hebdomadaire de l'environnement"
+     ],
+     "exercices": [
+      "Installer et configurer un espace projet type (dossier + notes + modèles)",
+      "Rédiger sa charte personnelle de confidentialité IA",
+      "Estimer son budget IA mensuel cible"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "L'art du prompt : parler pour être compris",
+     "objectif": "Maîtriser une grammaire de prompt transférable à tous les modèles.",
+     "sections": [
+      "4.1 Les six couches d'un prompt robuste (RCCFEM)",
+      "4.2 Few-shot, chain-of-thought, self-consistency : trois techniques clés",
+      "4.3 Le prompt en tant que spécification, pas en tant que souhait",
+      "4.4 Gérer la température, la longueur, le format de sortie",
+      "4.5 Itérer : le journal de prompts comme actif professionnel",
+      "4.6 Construire sa bibliothèque personnelle de prompts signés",
+      "4.7 Quand ne pas prompter du tout"
+     ],
+     "exercices": [
+      "Réécrire un prompt vague en appliquant les 6 couches",
+      "Créer 5 prompts réutilisables et les versionner",
+      "Comparer la sortie de 3 variantes sur une même tâche"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Automatiser les tâches répétitives sans y laisser son âme",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Emails, messages et communications : trier, répondre, relancer",
+     "objectif": "Reprendre le contrôle de la messagerie sans déshumaniser les échanges.",
+     "sections": [
+      "5.1 Triage automatique : classer avant de lire",
+      "5.2 Brouillons contextualisés : l'IA prépare, vous signez",
+      "5.3 Réponses types vivantes : des templates qui apprennent",
+      "5.4 Relances, suivis et promesses tenues sans effort",
+      "5.5 Réunions : transcriptions, synthèses, décisions, actions",
+      "5.6 La règle du 'dernier kilomètre humain'"
+     ],
+     "exercices": [
+      "Configurer un tri automatique par priorité et projet",
+      "Construire 4 modèles de réponse adaptés à votre voix",
+      "Faire synthétiser 10 réunions et extraire les actions orphelines"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Lecture, veille et synthèses : absorber sans être submergé",
+     "objectif": "Transformer le flux d'informations en savoir actionnable.",
+     "sections": [
+      "6.1 La veille augmentée : collecter, filtrer, résumer",
+      "6.2 Conversation avec un document : poser les bonnes questions",
+      "6.3 Fiches de lecture génératives et liens entre sources",
+      "6.4 Résumés à géométrie variable (tweet, mémo, dossier)",
+      "6.5 Détecter la qualité, la provenance et les angles morts",
+      "6.6 Construire sa newsletter personnelle automatisée"
+     ],
+     "exercices": [
+      "Configurer un pipeline de veille sur un sujet précis",
+      "Produire 3 niveaux de résumé d'un même article long",
+      "Identifier 2 angles morts dans une synthèse générée"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Écriture utilitaire : rapports, comptes rendus, procédures",
+     "objectif": "Produire des textes professionnels de qualité constante en un temps divisé.",
+     "sections": [
+      "7.1 Du brouillon zéro au premier jet solide en 20 minutes",
+      "7.2 Adapter le ton : institutionnel, pédagogique, managérial",
+      "7.3 Structurer avec des plans types réutilisables",
+      "7.4 Réécriture, compression, reformulation : les trois passes",
+      "7.5 Procédures et documentations vivantes",
+      "7.6 Relecture critique assistée : l'IA comme relecteur exigeant"
+     ],
+     "exercices": [
+      "Générer un rapport à partir de notes brutes en 4 passes",
+      "Décliner un même contenu en 3 tons différents",
+      "Faire critiquer un texte par l'IA selon 5 critères précis"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Données, tableurs et petits calculs : apprivoiser la feuille de calcul",
+     "objectif": "Faire parler les données sans devenir data scientist.",
+     "sections": [
+      "8.1 Formules, macros et scripts générés sur demande",
+      "8.2 Nettoyage de données : normaliser, dédoublonner, enrichir",
+      "8.3 Analyses descriptives en langage naturel",
+      "8.4 Visualisations commentées et narrations de données",
+      "8.5 Limites : quand l'IA invente des chiffres",
+      "8.6 Passer du tableur à la base de données personnelle"
+     ],
+     "exercices": [
+      "Faire générer 5 formules complexes à partir de descriptions",
+      "Nettoyer un jeu de données réel de 500 lignes",
+      "Produire une narration à partir d'un tableau de bord"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Administration personnelle : finances, papiers, démarches",
+     "objectif": "Soulager la charge mentale domestique sans déléguer son jugement.",
+     "sections": [
+      "9.1 Classement automatique des documents administratifs",
+      "9.2 Synthèses de contrats et relevés bancaires",
+      "9.3 Courriers types : résiliations, réclamations, demandes",
+      "9.4 Planification budgétaire et alertes douces",
+      "9.5 Rappels contextuels et échéances glissantes",
+      "9.6 La frontière éthique : ce que l'IA ne doit jamais signer à votre place"
+     ],
+     "exercices": [
+      "Créer un classement automatique de ses PDF administratifs",
+      "Faire analyser 3 contrats et extraire les clauses à risque",
+      "Concevoir un tableau de bord budgétaire mensuel simple"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Stimuler sa créativité sans la sous-traiter",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "L'IA comme partenaire d'idéation",
+     "objectif": "Multiplier les pistes sans se noyer dans le bruit.",
+     "sections": [
+      "10.1 Du brainstorming solo au brainstorming hybride",
+      "10.2 Techniques de divergence assistée : SCAMPER, matrices, contraintes",
+      "10.3 L'IA comme avocat du diable et comme naïf radical",
+      "10.4 Croiser des domaines éloignés pour forcer l'inattendu",
+      "10.5 Capturer, taguer, retrouver : le jardin d'idées augmenté",
+      "10.6 Savoir tuer ses idées (même celles suggérées par l'IA)"
+     ],
+     "exercices": [
+      "Générer 50 idées sur un problème en 30 minutes",
+      "Faire défendre et attaquer la même idée par l'IA",
+      "Croiser deux domaines et produire 10 analogies exploitables"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Écriture créative : fiction, essais, voix singulière",
+     "objectif": "Utiliser l'IA comme sparring-partner littéraire sans perdre sa voix.",
+     "sections": [
+      "11.1 La voix : ce que l'IA imite mal et pourquoi c'est une chance",
+      "11.2 Scènes, dialogues, descriptions : les trois ateliers",
+      "11.3 Structures narratives et arcs dramatiques assistés",
+      "11.4 Révisions stylistiques : couper, densifier, respirer",
+      "11.5 Éviter le 'goût moyen' des modèles",
+      "11.6 Tenir un journal de ses propres tics pour les préserver"
+     ],
+     "exercices": [
+      "Écrire une scène puis la faire réécrire dans 3 styles",
+      "Construire un 'anti-prompt' pour bannir les clichés",
+      "Tenir un carnet de ses phrases-signatures"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Image, son, vidéo : créer au-delà des mots",
+     "objectif": "Explorer les modèles multimodaux avec une intention esthétique.",
+     "sections": [
+      "12.1 Grammaire du prompt visuel : sujet, style, lumière, cadre",
+      "12.2 Itérations guidées : img2img, inpainting, contrôle",
+      "12.3 Musique et voix : générer, mixer, personnaliser",
+      "12.4 Vidéo courte : du storyboard au montage assisté",
+      "12.5 Cohérence d'univers et chartes graphiques personnelles",
+      "12.6 Droits, signatures invisibles et paternité des œuvres"
+     ],
+     "exercices": [
+      "Produire une série de 10 images cohérentes pour un projet",
+      "Créer une identité sonore courte à partir de descriptions",
+      "Monter une capsule vidéo de 60 secondes assistée"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Résolution de problèmes complexes et décision",
+     "objectif": "Mobiliser l'IA pour penser mieux, pas à votre place.",
+     "sections": [
+      "13.1 Décomposer un problème flou en sous-problèmes nets",
+      "13.2 Générer des scénarios et les stress-tester",
+      "13.3 L'IA comme simulateur de points de vue opposés",
+      "13.4 Pré-mortem assisté : imaginer l'échec pour l'éviter",
+      "13.5 Décisions réversibles vs irréversibles : calibrer l'aide",
+      "13.6 Journal de décision : tracer ce que l'IA a changé"
+     ],
+     "exercices": [
+      "Appliquer la méthode WRAP à une décision réelle",
+      "Rédiger le pré-mortem d'un projet en cours",
+      "Faire plaider 3 positions contradictoires sur un sujet"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Apprendre, enseigner, transmettre",
+     "objectif": "Faire de l'IA un tuteur patient et un assistant pédagogique.",
+     "sections": [
+      "14.1 Le dialogue socratique avec un modèle",
+      "14.2 Générer des exercices calibrés à votre niveau",
+      "14.3 Expliquer pour apprendre : la méthode Feynman augmentée",
+      "14.4 Concevoir des cours, supports et évaluations",
+      "14.5 Feedback formatif instantané et bienveillant",
+      "14.6 Les pièges de l'illusion de compétence"
+     ],
+     "exercices": [
+      "Tenir une séance socratique de 30 minutes sur un sujet nouveau",
+      "Produire un quiz adaptatif de 20 questions",
+      "Enseigner un concept à l'IA et corriger ses erreurs"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Orchestration : des prompts isolés aux systèmes qui tournent",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "Du prompt au workflow : penser en chaînes",
+     "objectif": "Assembler plusieurs étapes pour produire des résultats reproductibles.",
+     "sections": [
+      "15.1 Décomposer une tâche en étapes atomiques",
+      "15.2 Chaînes linéaires, parallèles, conditionnelles",
+      "15.3 Gérer les formats intermédiaires (JSON, markdown, CSV)",
+      "15.4 Contrôles de qualité entre chaque étape",
+      "15.5 Journaliser pour déboguer",
+      "15.6 Documenter son workflow comme un produit"
+     ],
+     "exercices": [
+      "Dessiner un workflow de 6 étapes pour une tâche réelle",
+      "Implémenter une chaîne linéaire et mesurer son taux d'échec",
+      "Rédiger la notice d'utilisation du workflow"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "No-code, low-code, code : choisir son niveau d'automatisation",
+     "objectif": "Trouver le point d'équilibre entre puissance et maintenabilité.",
+     "sections": [
+      "16.1 Les plateformes no-code d'automatisation (Zapier, Make, n8n)",
+      "16.2 Scripts Python légers pour les tâches sur mesure",
+      "16.3 Agents et orchestrateurs : quand déléguer la boucle",
+      "16.4 Connecter ses applications du quotidien (CRM, agenda, mail)",
+      "16.5 Coût, dette technique, dépendances",
+      "16.6 Savoir rester en-deçà de son niveau de compétence"
+     ],
+     "exercices": [
+      "Automatiser un workflow de 3 étapes sans code",
+      "Écrire un script de 50 lignes pour une tâche récurrente",
+      "Auditer la dette technique de ses automatisations"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Mémoire personnelle et second cerveau génératif",
+     "objectif": "Faire de ses notes un interlocuteur vivant.",
+     "sections": [
+      "17.1 RAG léger : interroger ses propres archives",
+      "17.2 Tags, liens et graphes pour enrichir le contexte",
+      "17.3 Journaling assisté et rétrospectives automatiques",
+      "17.4 Remix créatif de ses anciennes idées",
+      "17.5 Hygiène de la mémoire : élaguer, archiver, oublier",
+      "17.6 Protéger ses données les plus intimes"
+     ],
+     "exercices": [
+      "Indexer 200 notes personnelles et poser 10 questions",
+      "Générer une rétrospective trimestrielle à partir du journal",
+      "Remixer 5 anciennes idées en une proposition nouvelle"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Travailler avec l'IA en équipe",
+     "objectif": "Étendre les bénéfices au collectif sans uniformiser les pratiques.",
+     "sections": [
+      "18.1 Partager des bibliothèques de prompts et de workflows",
+      "18.2 Rôles : qui prompte, qui valide, qui signe",
+      "18.3 Réunions augmentées : préparation, synthèse, suivi",
+      "18.4 Revue par les pairs assistée",
+      "18.5 Gérer les résistances et les enthousiasmes excessifs",
+      "18.6 Charte d'usage IA d'équipe"
+     ],
+     "exercices": [
+      "Rédiger une charte d'usage IA en 1 page pour une équipe",
+      "Animer une réunion augmentée avec synthèse en direct",
+      "Construire une bibliothèque partagée de 20 prompts"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Éthique, limites et sagesse pratique",
+   "chapitres": [
+    {
+     "numero": 19,
+     "titre": "Biais, propriété, transparence : les lignes rouges",
+     "objectif": "Connaître les pièges pour ne pas les transmettre.",
+     "sections": [
+      "19.1 Biais de genre, de culture, de classe : les repérer",
+      "19.2 Propriété intellectuelle et droits d'auteur : état des lieux",
+      "19.3 Transparence : quand et comment dire que l'IA a aidé",
+      "19.4 Données personnelles et consentement des tiers",
+      "19.5 Deepfakes, usurpations, désinformation : se protéger",
+      "19.6 Construire sa boussole éthique personnelle"
+     ],
+     "exercices": [
+      "Tester 3 modèles sur des prompts sensibles et comparer",
+      "Rédiger sa politique personnelle de divulgation d'usage IA",
+      "Auditer un workflow pour risques éthiques"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Quand l'IA déraille : hallucinations, pannes, manipulations",
+     "objectif": "Anticiper les défaillances et construire des filets de sécurité.",
+     "sections": [
+      "20.1 Typologie des erreurs génératives",
+      "20.2 Vérification croisée et sources primaires",
+      "20.3 Les attaques par prompt (jailbreaks, injections)",
+      "20.4 Signes avant-coureurs de dérive d'un workflow",
+      "20.5 Procédures de repli manuel",
+      "20.6 Culture de l'erreur utile plutôt que du zéro défaut"
+     ],
+     "exercices": [
+      "Lister 10 points de défaillance potentiels d'un workflow",
+      "Rédiger une procédure de repli manuel en 5 étapes",
+      "Simuler une attaque par prompt sur son propre système"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Préserver attention, ennui et lenteur fertile",
+     "objectif": "Garder des espaces non automatisés pour rester humain.",
+     "sections": [
+      "21.1 Le paradoxe de l'efficacité : gagner du temps pour quoi ?",
+      "21.2 L'ennui comme matière première de la créativité",
+      "21.3 Zones lentes protégées : marche, lecture, conversations",
+      "21.4 Jeûnes numériques et jeûnes d'IA",
+      "21.5 Mesurer la qualité de présence, pas seulement la productivité",
+      "21.6 Le droit à l'imperfection et à la lenteur"
+     ],
+     "exercices": [
+      "Planifier une journée sans IA par semaine",
+      "Tenir un carnet de moments lents fertiles",
+      "Définir 3 zones de vie explicitement non automatisées"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Passer à l'action : projets, habitudes, trajectoire",
+   "chapitres": [
+    {
+     "numero": 22,
+     "titre": "30 jours pour transformer sa semaine de travail",
+     "objectif": "Un plan d'action progressif, testable, mesurable.",
+     "sections": [
+      "22.1 Semaine 1 : audit, installation, premiers prompts",
+      "22.2 Semaine 2 : automatiser 3 tâches répétitives",
+      "22.3 Semaine 3 : un projet créatif assisté",
+      "22.4 Semaine 4 : orchestrer et consolider",
+      "22.5 Indicateurs de progression et pièges classiques",
+      "22.6 Célébrer et ajuster"
+     ],
+     "exercices": [
+      "Suivre le calendrier jour par jour pendant 30 jours",
+      "Mesurer avant/après sur 3 métriques personnelles",
+      "Rédiger un bilan personnel de fin de mois"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Dix projets phares, de la cuisine au roman",
+     "objectif": "Inspirer par des cas concrets détaillés pas à pas.",
+     "sections": [
+      "23.1 Planifier et optimiser ses repas familiaux",
+      "23.2 Lancer une micro-entreprise de contenu",
+      "23.3 Écrire un mémoire ou un essai long",
+      "23.4 Produire un podcast solo de A à Z",
+      "23.5 Apprendre une langue avec un tuteur IA",
+      "23.6 Gérer un projet associatif ou communautaire",
+      "23.7 Préparer un entretien ou une négociation"
+     ],
+     "exercices": [
+      "Choisir un projet et suivre la fiche pas à pas",
+      "Adapter un projet à son propre contexte",
+      "Partager son résultat avec une communauté de pairs"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Durer : entretenir sa pratique sur dix ans",
+     "objectif": "Construire une relation mature et évolutive avec l'IA.",
+     "sections": [
+      "24.1 Les vagues technologiques : anticiper sans paniquer",
+      "24.2 Mettre à jour sa stack sans tout refaire",
+      "24.3 Transmettre ses pratiques aux proches et aux enfants",
+      "24.4 Contribuer aux communs : prompts, données, modèles",
+      "24.5 Cultiver ce que l'IA ne remplacera jamais",
+      "24.6 Lettre à soi-même dans dix ans"
+     ],
+     "exercices": [
+      "Écrire sa lettre à dix ans avec objectifs et garde-fous",
+      "Planifier une revue annuelle de sa pratique IA",
+      "Contribuer une ressource ouverte à la communauté"
+     ]
+    }
+   ]
+  }
+ ]
+}

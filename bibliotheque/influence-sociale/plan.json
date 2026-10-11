@@ -1,0 +1,571 @@
+{
+ "titre": "L'Effet de Groupe",
+ "sous_titre": "Comprendre les dynamiques collectives, la conformité et l'influence pour interagir avec lucidité et liberté",
+ "bibliographie": [
+  {
+   "auteur": "Gustave Le Bon",
+   "titre": "Psychologie des foules",
+   "annee": "1895",
+   "idee": "L'individu en foule perd sa conscience critique et adopte des comportements primitifs, suggestibles et émotionnels.",
+   "apport": "Cadre historique sur la contagion mentale et la désindividuation, à nuancer avec la recherche moderne."
+  },
+  {
+   "auteur": "Solomon Asch",
+   "titre": "Opinions and Social Pressure (études réunies)",
+   "annee": "1955",
+   "idee": "Des individus conformistes acceptent une réponse manifestement fausse pour s'aligner sur le groupe.",
+   "apport": "Modèle expérimental de la conformité normative et informationnelle, base du chapitre dédié."
+  },
+  {
+   "auteur": "Stanley Milgram",
+   "titre": "Soumission à l'autorité",
+   "annee": "1974",
+   "idee": "Une majorité de personnes obéit à une autorité perçue comme légitime, même contre leur conscience morale.",
+   "apport": "Analyse des conditions qui favorisent ou bloquent l'obéissance, leviers pour résister."
+  },
+  {
+   "auteur": "Philip Zimbardo",
+   "titre": "The Lucifer Effect (L'Effet Lucifer)",
+   "annee": "2007",
+   "idee": "Les situations et les rôles sociaux peuvent transformer des individus ordinaires en agents de cruauté.",
+   "apport": "Grille de lecture des environnements toxiques et des garde-fous individuels."
+  },
+  {
+   "auteur": "Robert Cialdini",
+   "titre": "Influence et Manipulation",
+   "annee": "1984",
+   "idee": "Six principes universels (réciprocité, engagement, preuve sociale, autorité, sympathie, rareté) structurent la persuasion.",
+   "apport": "Boîte à outils des mécanismes de persuasion à reconnaître et à utiliser éthiquement."
+  },
+  {
+   "auteur": "Irving Janis",
+   "titre": "Victims of Groupthink",
+   "annee": "1972",
+   "idee": "La cohésion excessive d'un groupe étouffe la critique et conduit à des décisions catastrophiques.",
+   "apport": "Symptômes et antidotes du pensamento groupal pour les équipes et les familles."
+  },
+  {
+   "auteur": "Henri Tajfel et John Turner",
+   "titre": "An Integrative Theory of Intergroup Conflict",
+   "annee": "1979",
+   "idee": "L'identité sociale se construit par catégorisation, identification et comparaison, générant favoritisme endogroupe.",
+   "apport": "Clé de lecture des tribus, clans, polarisations et appartenances contemporaines."
+  },
+  {
+   "auteur": "Muzafer Sherif",
+   "titre": "Intergroup Conflict and Cooperation: The Robbers Cave Experiment",
+   "annee": "1961",
+   "idee": "La compétition crée l'hostilité entre groupes ; les buts supraordonnés la réduisent.",
+   "apport": "Principes pour désamorcer les conflits entre équipes, services ou communautés."
+  },
+  {
+   "auteur": "Kurt Lewin",
+   "titre": "Field Theory in Social Science",
+   "annee": "1951",
+   "idee": "Le comportement résulte de l'interaction entre la personne et son champ psychologique et social.",
+   "apport": "Méthode du 'gel-dégel-regel' pour conduire le changement dans les groupes."
+  },
+  {
+   "auteur": "Erving Goffman",
+   "titre": "La Mise en scène de la vie quotidienne",
+   "annee": "1959",
+   "idee": "Les interactions sont des représentations théâtrales où chacun gère une façade et une face.",
+   "apport": "Grille d'observation des rôles sociaux, de la face et des rituels d'interaction."
+  },
+  {
+   "auteur": "Serge Moscovici",
+   "titre": "Psychologie des minorités actives",
+   "annee": "1979",
+   "idee": "Une minorité cohérente et consistante peut influencer une majorité, à l'inverse des modèles classiques.",
+   "apport": "Stratégies d'influence minoritaire pour innover et faire bouger les normes."
+  },
+  {
+   "auteur": "Elliot Aronson",
+   "titre": "The Social Animal",
+   "annee": "1972",
+   "idee": "Synthèse de la psychologie sociale : dissonance cognitive, attraction, préjugés, persuasion.",
+   "apport": "Fil conducteur pédagogique pour articuler les chapitres entre eux."
+  },
+  {
+   "auteur": "Jean-Léon Beauvois et Robert-Vincent Joule",
+   "titre": "Petit traité de manipulation à l'usage des honnêtes gens",
+   "annee": "1987",
+   "idee": "Le pied dans la porte, la porte au nez, le leurre : mécanismes de soumission librement consentie.",
+   "apport": "Techniques concrètes d'engagement, utiles pour se défendre et pour convaincre."
+  },
+  {
+   "auteur": "Cass Sunstein",
+   "titre": "Going to Extremes",
+   "annee": "2009",
+   "idee": "Les groupes homogènes qui délibèrent entre eux tendent à se radicaliser (polarisation).",
+   "apport": "Diagnostic des chambres d'écho numériques et manières d'y échapper."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Système 1 / Système 2 : Les deux vitesses de la pensée",
+   "annee": "2011",
+   "idee": "Le cerveau alterne entre un mode rapide et intuitif et un mode lent et analytique, source de biais.",
+   "apport": "Soubassement cognitif expliquant pourquoi l'influence sociale fonctionne si bien."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — L'animal grégaire : pourquoi nous avons besoin du groupe",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Nés pour appartenir",
+     "objectif": "Montrer que l'appartenance est un besoin primaire, aussi vital que la faim ou la soif.",
+     "sections": [
+      "L'évolution sociale du cerveau humain",
+      "Le besoin d'appartenance selon Baumeister et Leary",
+      "La douleur sociale et ses corrélats neurologiques",
+      "Solitude, exclusion et santé : ce que disent les données",
+      "Les formes modernes de l'appartenance (tribus numériques, communautés)",
+      "Quand l'appartenance devient prison"
+     ],
+     "exercices": [
+      "Cartographier ses cinq cercles d'appartenance actuels",
+      "Journal d'une semaine : noter chaque moment d'inclusion et d'exclusion ressentie",
+      "Identifier une appartenance qui nourrit et une qui pèse"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Le champ de force : Lewin et la situation",
+     "objectif": "Faire comprendre que le comportement émerge de la personne et de son champ social.",
+     "sections": [
+      "La formule B = f(P, E) expliquée simplement",
+      "Cartographier son propre champ de forces",
+      "Les normes implicites : ce que le groupe attend sans le dire",
+      "Les rôles assignés et les rôles choisis",
+      "Changer de champ, changer de soi",
+      "Le modèle gel-dégel-regel pour transformer un groupe"
+     ],
+     "exercices": [
+      "Dessiner le champ de forces de son équipe de travail",
+      "Lister trois normes implicites de sa famille",
+      "Simuler un dégel sur une habitude collective bloquée"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Identité sociale : 'nous' contre 'eux'",
+     "objectif": "Expliquer comment se construisent les appartenances collectives et les frontières symboliques.",
+     "sections": [
+      "Catégorisation, identification, comparaison : le triptyque de Tajfel",
+      "Le favoritisme endogroupe, même quand le groupe est arbitraire",
+      "Les marqueurs identitaires (langue, vêtements, rites)",
+      "Identités superposées et identités menacées",
+      "La menace du stéréotype et ses effets",
+      "Sortir du 'nous contre eux' sans se trahir"
+     ],
+     "exercices": [
+      "Lister ses dix identités sociales et les hiérarchiser",
+      "Repérer un stéréotype que l'on retourne contre soi",
+      "Imaginer une identité supraordonnée dans un conflit d'équipe"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "La scène sociale : Goffman et la vie comme théâtre",
+     "objectif": "Donner une grille de lecture des rôles, des façades et de la gestion de la face.",
+     "sections": [
+      "La façade, le décor, le rôle",
+      "Représentation en public et coulisses",
+      "La face et les rituels de réparation",
+      "Les interactions stratégiques et les 'coups de théâtre'",
+      "Quand le rôle dévore la personne",
+      "Jouer sans se perdre"
+     ],
+     "exercices": [
+      "Décrire trois rôles sociaux que l'on endosse et leurs coulisses",
+      "Analyser une interaction ratée en termes de face perdue",
+      "S'entraîner à un rituel de réparation après une maladresse"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — La conformité : comment le groupe nous aligne",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "L'expérience Asch : voir autrement que ses yeux",
+     "objectif": "Décortiquer les mécanismes de la conformité normative et informationnelle.",
+     "sections": [
+      "Le protocole d'Asch raconté pas à pas",
+      "Conformité normative : peur du rejet",
+      "Conformité informationnelle : douter de soi",
+      "Les facteurs qui amplifient la conformité (taille, unanimité, culture)",
+      "Ceux qui résistent : profils et stratégies",
+      "La conformité au XXIe siècle : likes, tendances, algorithmes"
+     ],
+     "exercices": [
+      "Mener une micro-expérience de conformité dans un cadre éthique",
+      "Tenir un journal des moments où l'on s'aligne sans y penser",
+      "Préparer une phrase de dissidence polie pour la prochaine réunion"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Les normes invisibles",
+     "objectif": "Révéler comment les normes se forment, se transmettent et s'imposent sans loi écrite.",
+     "sections": [
+      "L'expérience de Sherif et l'effet autocinétique",
+      "Normes descriptives vs normes injonctives",
+      "L'ignorance pluraliste : croire que les autres adhèrent",
+      "Les normes de genre, de classe, de génération",
+      "Faire évoluer une norme : l'effet de seuil",
+      "Devenir un 'premier suiveur' utile"
+     ],
+     "exercices": [
+      "Identifier trois normes descriptives dans son open space",
+      "Repérer une ignorance pluraliste dans son entourage",
+      "Dessiner la courbe de diffusion d'une norme que l'on souhaite installer"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "La désindividuation : perdre son 'je' dans le 'nous'",
+     "objectif": "Comprendre les phénomènes de foule, d'anonymat et de dilution de responsabilité.",
+     "sections": [
+      "De Le Bon à Zimbardo : histoire d'une idée",
+      "Anonymat, foule et écrans",
+      "La diffusion de la responsabilité (l'effet spectateur)",
+      "L'excitation transférée et l'emballement collectif",
+      "La désindividuation prosociale : quand le groupe élève",
+      "Garder sa boussole dans la foule"
+     ],
+     "exercices": [
+      "Observer un événement collectif et noter les signes de désindividuation",
+      "S'engager à être le 'premier aidant' dans une situation publique",
+      "Écrire sa charte personnelle pour les moments de foule numérique"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Le groupthink : quand l'équipe se trompe ensemble",
+     "objectif": "Diagnostiquer et prévenir la pensée de groupe dans les collectifs de décision.",
+     "sections": [
+      "Les huit symptômes de Janis",
+      "Les fiascos historiques : baie des Cochons, Challenger, crise financière",
+      "Cohésion, isolement, leadership directif : le cocktail toxique",
+      "L'autocensure et les gardiens de l'esprit",
+      "Les antidotes : avocat du diable, groupes parallèles, pré-mortem",
+      "Groupthink en famille et dans les couples"
+     ],
+     "exercices": [
+      "Auditer une décision récente de son équipe à la lumière des huit symptômes",
+      "Animer un pré-mortem sur un projet en cours",
+      "Désigner un 'avocat du diable' tournant dans son groupe"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "La polarisation : pourquoi les groupes radicalisent",
+     "objectif": "Expliquer la polarisation de groupe et les chambres d'écho contemporaines.",
+     "sections": [
+      "Les expériences de Myers et Bishop",
+      "Arguments nouveaux et comparaison sociale : les deux moteurs",
+      "Algorithmes, bulles de filtres et indignation virale",
+      "Le rôle de l'identité menacée",
+      "Désamorcer une discussion qui s'emballe",
+      "Construire une délibération diverse"
+     ],
+     "exercices": [
+      "Cartographier son fil d'actualité en termes d'homogénéité idéologique",
+      "Lire un article d'une source opposée et en extraire trois arguments valides",
+      "Organiser une conversation 'acier contre acier' avec un proche"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — L'influence : comment on nous fait dire oui",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "Les six leviers de Cialdini, revisités",
+     "objectif": "Maîtriser les grands principes de la persuasion pour s'en défendre et les utiliser avec éthique.",
+     "sections": [
+      "Réciprocité : la dette qui nous lie",
+      "Engagement et cohérence : la prison du premier pas",
+      "Preuve sociale : suivre la foule",
+      "Autorité : obéir au costume",
+      "Sympathie : dire oui à ceux qu'on aime",
+      "Rareté : la peur de perdre",
+      "Le septième levier : l'unité identitaire"
+     ],
+     "exercices": [
+      "Analyser trois publicités récentes à la lumière des sept leviers",
+      "Repérer dans sa semaine un levier auquel on a cédé",
+      "Concevoir une demande en combinant deux leviers éthiquement"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Pied dans la porte, porte au nez : les techniques d'engagement",
+     "objectif": "Décrypter les techniques de soumission librement consentie.",
+     "sections": [
+      "Le pied dans la porte : la puissance du petit oui",
+      "La porte au nez : l'art de la concession",
+      "Le leurre et l'amorce",
+      "Le low-ball : changer les termes après l'accord",
+      "Le 'mais vous êtes libre de…' : l'illusion de choix",
+      "Se défendre sans devenir cynique"
+     ],
+     "exercices": [
+      "Reconnaître trois techniques subies dans la dernière semaine",
+      "Utiliser un pied dans la porte pour une cause qui nous tient à cœur",
+      "Préparer une phrase de sortie face à un low-ball commercial"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Milgram et l'obéissance à l'autorité",
+     "objectif": "Comprendre pourquoi on obéit, et à quelles conditions on peut désobéir.",
+     "sections": [
+      "Le protocole et ses variantes",
+      "Les quatre facteurs qui lient à l'autorité",
+      "L'état agentique : se sentir instrument",
+      "La désobéissance : profils et conditions",
+      "Autorité légitime, autorité abusive : où tracer la ligne",
+      "Obéir au travail, en famille, en ligne"
+     ],
+     "exercices": [
+      "Identifier une autorité à laquelle on obéit sans la questionner",
+      "Rédiger sa 'clause de conscience' professionnelle",
+      "Simuler une désobéissance respectueuse avec un proche"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "La propagande au quotidien : Bernays à l'ère numérique",
+     "objectif": "Relire les mécanismes de propagande à l'heure des influenceurs et des marques.",
+     "sections": [
+      "Bernays et l'ingénierie du consentement",
+      "Le storytelling comme fabrique du désir",
+      "Relations publiques, lobbying, astroturfing",
+      "Influenceurs, micro-célébrités et parasocialité",
+      "Les deepfakes et l'érosion du vrai",
+      "Devenir un consommateur d'information averti"
+     ],
+     "exercices": [
+      "Décortiquer la narration d'une campagne politique récente",
+      "Vérifier une information virale avec trois sources indépendantes",
+      "Concevoir une contre-narration pour une cause juste"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "L'influence minoritaire : changer le groupe depuis la marge",
+     "objectif": "Montrer qu'une minorité cohérente peut faire bouger une majorité.",
+     "sections": [
+      "Les travaux de Moscovici et le style comportemental",
+      "Cohérence, persistance, équité : les trois piliers",
+      "L'effet de conversion latente",
+      "L'innovation sociale et les entrepreneurs de morale",
+      "Quand la minorité devient norme",
+      "Mener une minorité active dans son organisation"
+     ],
+     "exercices": [
+      "Identifier une cause minoritaire que l'on souhaite porter",
+      "Construire un message cohérent sur trois canaux différents",
+      "Repérer un allié potentiel pour sortir de l'isolement minoritaire"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Les dynamiques de groupe en action",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "Conflits et coopérations : la leçon de la grotte des voleurs",
+     "objectif": "Comprendre comment naissent les conflits entre groupes et comment les dépasser.",
+     "sections": [
+      "Le dispositif expérimental de Sherif",
+      "Compétition pour une ressource : la fabrique de l'ennemi",
+      "Les buts supraordonnés comme antidote",
+      "Contact, égalité de statut, coopération : la théorie du contact d'Allport",
+      "Médiations contemporaines : familles recomposées, équipes fusionnées",
+      "Construire des rites communs"
+     ],
+     "exercices": [
+      "Identifier un but supraordonné dans un conflit d'équipe",
+      "Organiser une activité coopérative entre deux services rivaux",
+      "Créer un rituel commun dans un groupe divisé"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Leadership : autorité, influence et responsabilité",
+     "objectif": "Distinguer les formes de leadership et leurs effets sur les groupes.",
+     "sections": [
+      "Leadership autoritaire, démocratique, laissez-faire : l'étude de Lewin",
+      "Leadership transformationnel vs transactionnel",
+      "Le leader toxique et la servitude volontaire",
+      "Leadership partagé et équipes auto-organisées",
+      "Le leader comme architecte de situations",
+      "Exercer une influence sans titre"
+     ],
+     "exercices": [
+      "Auto-évaluer son style dominant de leadership",
+      "Cartographier les leaders informels de son organisation",
+      "Préparer une intervention de leadership partagé pour un projet"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "La performance collective : quand le groupe dépasse l'individu",
+     "objectif": "Identifier les conditions qui font qu'un groupe produit plus ou moins que la somme de ses membres.",
+     "sections": [
+      "Facilitation sociale : mieux faire devant les autres",
+      "Paresse sociale : le passager clandestin",
+      "Perte de coordination et pertes de motivation",
+      "La synergie : quand 1+1 = 3",
+      "Diversité cognitive et performance",
+      "Architecturer des équipes performantes"
+     ],
+     "exercices": [
+      "Mesurer la paresse sociale dans une tâche collective habituelle",
+      "Rendre chaque contribution identifiable dans un projet",
+      "Composer une équipe avec des profils cognitifs variés"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Rumeurs, boucs émissaires et violences symboliques",
+     "objectif": "Décrypter les mécanismes de désignation de coupables et de diffusion des rumeurs.",
+     "sections": [
+      "La rumeur : conditions de naissance et de propagation",
+      "Le bouc émissaire selon Girard",
+      "Lynchages médiatiques et cancel culture",
+      "La violence symbolique de Bourdieu",
+      "Protéger un tiers désigné",
+      "Sortir soi-même du rôle de bouc émissaire"
+     ],
+     "exercices": [
+      "Retracer la généalogie d'une rumeur récente",
+      "Repérer un mécanisme de bouc émissaire dans son environnement",
+      "Préparer une intervention pour défendre un collègue ciblé"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Les foules numériques : réseaux, viralité et indignation",
+     "objectif": "Transposer les classiques de la psychologie des foules à l'ère des plateformes.",
+     "sections": [
+      "L'architecture de l'attention : récompenses variables",
+      "Contagion émotionnelle et indignation morale",
+      "Les chambres d'écho et le spiral du silence",
+      "Harcelement en meute : mécanismes et responsabilités",
+      "Les mouvements sociaux numériques : #MeToo, printemps arabes",
+      "Habiter les réseaux sans s'y dissoudre"
+     ],
+     "exercices": [
+      "Mesurer son temps et ses émotions sur une semaine de réseaux",
+      "Désactiver trois notifications et observer les effets",
+      "Rédiger une charte personnelle de publication"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Reprendre le pouvoir : interagir avec lucidité et liberté",
+   "chapitres": [
+    {
+     "numero": 20,
+     "titre": "La dissonance cognitive comme boussole",
+     "objectif": "Utiliser l'inconfort psychique pour détecter les moments où l'on se trahit.",
+     "sections": [
+      "La théorie de Festinger",
+      "Réduire la dissonance : changer, justifier, fuir",
+      "L'autojustification et ses ravages",
+      "La dissonance comme signal éthique",
+      "Accepter l'inconfort du changement",
+      "Aider autrui à traverser sa dissonance"
+     ],
+     "exercices": [
+      "Identifier une croyance que l'on défend par autojustification",
+      "Écrire une lettre à soi-même reconnaissant une incohérence",
+      "Accompagner un proche dans un choix difficile sans moraliser"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Pensée critique et hygiène mentale",
+     "objectif": "Outiller le lecteur contre les biais, les manipulations et la surcharge informationnelle.",
+     "sections": [
+      "Système 1 et Système 2 : quand déléguer, quand ralentir",
+      "Les biais les plus coûteux en groupe (confirmation, ancrage, disponibilité)",
+      "La méthode du doute structuré",
+      "Vérifier, trianguler, contextualiser",
+      "L'épistémologie des réseaux sociaux",
+      "Construire une diète informationnelle"
+     ],
+     "exercices": [
+      "Tenir pendant sept jours un journal des biais observés chez soi",
+      "Appliquer la règle des trois sources à une affirmation virale",
+      "Définir ses plages horaires de consultation de l'information"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "L'art de la dissidence respectueuse",
+     "objectif": "Apprendre à dire non, à contester et à proposer sans se faire exclure.",
+     "sections": [
+      "Pourquoi la dissidence est vitale pour les groupes",
+      "Le courage civique et ses conditions",
+      "Formuler une objection : structure et ton",
+      "Les alliés, les relais, les témoins",
+      "Gérer les représailles et la marginalisation",
+      "Savoir quand partir"
+     ],
+     "exercices": [
+      "Préparer une objection structurée pour sa prochaine réunion",
+      "Identifier trois alliés potentiels dans son organisation",
+      "Définir ses lignes rouges personnelles et professionnelles"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Convaincre avec éthique",
+     "objectif": "Construire une influence personnelle durable, fondée sur la confiance plutôt que sur la manipulation.",
+     "sections": [
+      "Éthique de la persuasion : où est la ligne ?",
+      "L'autorité de compétence vs l'autorité de statut",
+      "Écoute active, reformulation, questions",
+      "Le storytelling au service du sens",
+      "Négociation raisonnée et intérêts sous-jacents",
+      "Construire une réputation d'intégrité"
+     ],
+     "exercices": [
+      "Mener une conversation en posant plus de questions que d'affirmations",
+      "Préparer un récit de trois minutes pour une cause importante",
+      "Demander un feedback sur son éthique d'influence à un tiers de confiance"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Construire des groupes qui libèrent",
+     "objectif": "Conclure en proposant une architecture concrète de collectifs sains (familles, équipes, communautés).",
+     "sections": [
+      "Les cinq piliers d'un groupe émancipateur",
+      "Rites, rôles et régulations",
+      "Accueillir la diversité et le conflit fécond",
+      "Décider ensemble : méthodes et pièges",
+      "Prévoir les transitions et les sorties",
+      "Le projet personnel au service du projet commun"
+     ],
+     "exercices": [
+      "Auditer un groupe que l'on anime à l'aune des cinq piliers",
+      "Concevoir un rituel d'entrée et un rituel de sortie pour une équipe",
+      "Rédiger une charte de fonctionnement pour un collectif naissant"
+     ]
+    }
+   ]
+  }
+ ]
+}

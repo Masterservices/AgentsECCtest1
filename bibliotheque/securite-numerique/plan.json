@@ -1,0 +1,635 @@
+{
+ "titre": "Forteresse Numérique",
+ "sous_titre": "Le guide complet pour protéger vos mots de passe, vos données et vos appareils à l'ère des cybermenaces",
+ "bibliographie": [
+  {
+   "auteur": "Bruce Schneier",
+   "titre": "Secrets and Lies: Digital Security in a Networked World",
+   "annee": "2000",
+   "idee": "La sécurité est un processus, pas un produit. Analyse systémique des menaces et des contre-mesures dans l'environnement numérique.",
+   "apport": "Framework de modélisation des menaces et approche holistique de la sécurité"
+  },
+  {
+   "auteur": "Kevin Mitnick",
+   "titre": "The Art of Deception: Controlling the Human Element of Security",
+   "annee": "2002",
+   "idee": "L'ingénierie sociale est la plus grande faille de sécurité. Les humains sont le maillon faible.",
+   "apport": "Techniques de manipulation psychologique et défenses contre l'ingénierie sociale"
+  },
+  {
+   "auteur": "Bruce Schneier",
+   "titre": "Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World",
+   "annee": "2015",
+   "idee": "La surveillance de masse et la collecte de données menacent la vie privée et la démocratie.",
+   "apport": "Compréhension de l'écosystème de collecte de données et stratégies de protection"
+  },
+  {
+   "auteur": "Kevin Mitnick & Robert Vamosi",
+   "titre": "Ghost in the Wires: My Adventures as the World's Most Wanted Hacker",
+   "annee": "2011",
+   "idee": "Récit des techniques de piratage et des vulnérabilités systémiques exploitables.",
+   "apport": "Cas concrets d'attaques et leçons sur les vecteurs d'attaque courants"
+  },
+  {
+   "auteur": "Michal Zalewski",
+   "titre": "The Tangled Web: A Guide to Securing Modern Web Applications",
+   "annee": "2011",
+   "idee": "Analyse approfondie des vulnérabilités web et des mécanismes de sécurité des navigateurs.",
+   "apport": "Compréhension technique des attaques web pour mieux s'en protéger"
+  },
+  {
+   "auteur": "Kevin Mitnick & William L. Simon",
+   "titre": "The Art of Invisibility: The World's Most Famous Hacker Teaches You How to Be Safe in the Age of Big Brother and Big Data",
+   "annee": "2017",
+   "idee": "Guide pratique pour préserver son anonymat et sa vie privée en ligne.",
+   "apport": "Techniques concrètes de protection de la vie privée et d'anonymisation"
+  },
+  {
+   "auteur": "Adam Levin",
+   "titre": "Swiped: How to Protect Yourself in a World Full of Scammers, Phishers, and Identity Thieves",
+   "annee": "2015",
+   "idee": "Guide complet contre le vol d'identité et les arnaques numériques.",
+   "apport": "Stratégies de prévention et de réponse aux vols d'identité"
+  },
+  {
+   "auteur": "Brian Krebs",
+   "titre": "Spam Nation: The Inside Story of Organized Cybercrime",
+   "annee": "2014",
+   "idee": "Enquête sur les réseaux criminels organisés derrière le spam et les malwares.",
+   "apport": "Compréhension de l'économie souterraine du cybercrime"
+  },
+  {
+   "auteur": "Marc Goodman",
+   "titre": "Future Crimes: Inside the Digital Underground and the Battle for Our Connected World",
+   "annee": "2015",
+   "idee": "Exploration des cybermenaces émergentes et de l'Internet des Objets vulnérable.",
+   "apport": "Vision prospective des menaces et préparation aux risques futurs"
+  },
+  {
+   "auteur": "Andy Greenberg",
+   "titre": "Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers",
+   "annee": "2019",
+   "idee": "Enquête sur les cyberattaques étatiques et les infrastructures critiques vulnérables.",
+   "apport": "Compréhension des attaques avancées et de leur impact systémique"
+  },
+  {
+   "auteur": "Nicole Perlroth",
+   "titre": "This Is How They Tell Me the World Ends: The Cyberweapons Arms Race",
+   "annee": "2021",
+   "idee": "Investigation sur le marché des cyberarmes et les vulnérabilités zero-day.",
+   "apport": "Contexte géopolitique de la cybersécurité et importance des mises à jour"
+  },
+  {
+   "auteur": "Dan Kaminsky",
+   "titre": "Articles et recherches sur DNS et sécurité Internet",
+   "annee": "2008-2020",
+   "idee": "Travaux fondamentaux sur les vulnérabilités DNS et la sécurité des protocoles Internet.",
+   "apport": "Importance de la sécurité DNS et des configurations réseau"
+  },
+  {
+   "auteur": "Ross Anderson",
+   "titre": "Security Engineering: A Guide to Building Dependable Distributed Systems",
+   "annee": "2008 (2e éd.)",
+   "idee": "Principes d'ingénierie de sécurité pour concevoir des systèmes robustes.",
+   "apport": "Principes fondamentaux de conception sécurisée applicables aux configurations personnelles"
+  },
+  {
+   "auteur": "Edward Snowden",
+   "titre": "Permanent Record",
+   "annee": "2019",
+   "idee": "Révélations sur la surveillance de masse et importance de la cryptographie.",
+   "apport": "Motivation pour l'adoption du chiffrement et des outils de protection"
+  },
+  {
+   "auteur": "Mikko Hyppönen",
+   "titre": "Conférences et articles sur la cybersécurité",
+   "annee": "2010-2023",
+   "idee": "Analyse des malwares, ransomwares et menaces persistantes avancées.",
+   "apport": "Compréhension des ransomwares et stratégies de sauvegarde"
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 : Comprendre le paysage des cybermenaces",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'écosystème des cybermenaces modernes",
+     "objectif": "Comprendre les différents types d'attaques et leurs motivations",
+     "sections": [
+      "Typologie des cybercriminels : opportunistes, organisés, étatiques",
+      "Économie souterraine du cybercrime : chiffres et tendances",
+      "Vecteurs d'attaque principaux : email, web, réseaux sociaux, IoT",
+      "Cycle de vie d'une cyberattaque : reconnaissance, exploitation, exfiltration",
+      "Pourquoi vous êtes une cible : valeur de vos données personnelles",
+      "Mythes et réalités : 'Je n'ai rien à cacher' et autres idées reçues"
+     ],
+     "exercices": [
+      "Audit personnel : lister tous vos comptes en ligne et appareils connectés",
+      "Évaluation de votre surface d'attaque : combien de points d'entrée potentiels ?",
+      "Recherche Google sur vous-même : que trouve-t-on publiquement ?",
+      "Quiz d'auto-évaluation : quel est votre niveau d'exposition actuel ?"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Psychologie de la sécurité : le facteur humain",
+     "objectif": "Identifier les biais cognitifs et comportements à risque",
+     "sections": [
+      "Ingénierie sociale : l'art de manipuler les humains",
+      "Biais cognitifs exploités : urgence, autorité, réciprocité, preuve sociale",
+      "Fatigue décisionnelle et raccourcis mentaux dangereux",
+      "Techniques de phishing avancées : spear-phishing, whaling, vishing",
+      "Prétexting et manipulation contextuelle",
+      "Construire une mentalité de sécurité sans paranoïa"
+     ],
+     "exercices": [
+      "Analyse de 10 emails suspects : identifier les signaux d'alerte",
+      "Test de résistance à la pression sociale : simulation d'appels frauduleux",
+      "Création d'une checklist de vérification avant chaque action sensible",
+      "Journal de bord : noter pendant une semaine toutes les sollicitations suspectes"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Anatomie des attaques courants",
+     "objectif": "Reconnaître et déjouer les techniques d'attaque les plus fréquentes",
+     "sections": [
+      "Phishing et spear-phishing : mécanismes et indices",
+      "Malwares : virus, chevaux de Troie, keyloggers, ransomwares",
+      "Attaques par force brute et credential stuffing",
+      "Man-in-the-middle : interception des communications",
+      "Attaques sur les réseaux Wi-Fi publics",
+      "SIM swapping et prise de contrôle de numéro de téléphone",
+      "Arnaques au support technique et faux antivirus"
+     ],
+     "exercices": [
+      "Dissection d'un email de phishing : identifier tous les éléments suspects",
+      "Test de détection de faux sites web : exercices pratiques",
+      "Simulation d'attaque Wi-Fi : comprendre les risques en environnement public",
+      "Création d'un protocole de vérification pour les demandes inhabituelles"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Évaluer votre posture de sécurité actuelle",
+     "objectif": "Réaliser un audit complet de votre sécurité personnelle",
+     "sections": [
+      "Inventaire de vos actifs numériques : données, comptes, appareils",
+      "Classification des données : critique, sensible, normale, publique",
+      "Analyse de vos pratiques actuelles : forces et faiblesses",
+      "Identification des points de défaillance uniques",
+      "Évaluation de votre résilience : que se passe-t-il si... ?",
+      "Priorisation des risques : matrice impact/probabilité"
+     ],
+     "exercices": [
+      "Cartographie complète de votre écosystème numérique",
+      "Matrice de criticité : classer vos données et comptes par importance",
+      "Test de récupération : pouvez-vous restaurer vos données essentielles ?",
+      "Plan d'action personnalisé : identifier vos 10 premières améliorations"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 : Maîtriser l'art des mots de passe",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "La science des mots de passe robustes",
+     "objectif": "Comprendre ce qui rend un mot de passe véritablement sécurisé",
+     "sections": [
+      "Entropie et complexité : les mathématiques derrière la force des mots de passe",
+      "Longueur vs complexité : pourquoi la longueur gagne toujours",
+      "Mots de passe vs phrases de passe : le paradigme change",
+      "Attaques par dictionnaire et tables arc-en-ciel : ce que les hackers utilisent",
+      "Temps de craquage : estimation réaliste selon les méthodes",
+      "Mythes persistants : remplacer des lettres par des chiffres n'aide pas beaucoup"
+     ],
+     "exercices": [
+      "Calculateur d'entropie : évaluer la force de vos mots de passe actuels",
+      "Atelier de création : générer 5 phrases de passe mémorables et robustes",
+      "Test de résistance : soumettre vos créations à des simulateurs de craquage",
+      "Comparaison : ancien vs nouveau système de mots de passe"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Gestionnaires de mots de passe : votre coffre-fort numérique",
+     "objectif": "Maîtriser les outils de gestion centralisée des mots de passe",
+     "sections": [
+      "Pourquoi un gestionnaire de mots de passe est indispensable",
+      "Comparatif des solutions : Bitwarden, 1Password, KeePass, autres",
+      "Architecture et sécurité : cloud vs local, chiffrement de bout en bout",
+      "Configuration optimale : mot de passe maître, authentification à deux facteurs",
+      "Organisation efficace : dossiers, tags, partages sécurisés",
+      "Migration depuis vos anciennes pratiques : plan étape par étape"
+     ],
+     "exercices": [
+      "Installation et configuration complète d'un gestionnaire de mots de passe",
+      "Import et nettoyage de vos mots de passe existants",
+      "Création d'une structure organisationnelle adaptée à vos besoins",
+      "Test de restauration : simuler la perte de votre appareil principal",
+      "Configuration du partage sécurisé pour les comptes familiaux"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Authentification multi-facteurs (MFA/2FA)",
+     "objectif": "Ajouter des couches de sécurité à vos comptes critiques",
+     "sections": [
+      "Principe des trois facteurs : connaissance, possession, inhérence",
+      "Types de 2FA : SMS, applications TOTP, clés de sécurité, biométrie",
+      "Pourquoi le SMS est le maillon faible de la 2FA",
+      "Applications authentificatrices : Authy, Google Authenticator, Aegis, Raivo",
+      "Clés de sécurité matérielles : YubiKey, Titan, et alternatives",
+      "Codes de récupération : votre parachute de secours",
+      "Où activer la 2FA en priorité : hiérarchisation des comptes"
+     ],
+     "exercices": [
+      "Audit de vos comptes : lesquels supportent la 2FA ?",
+      "Configuration d'une application authentificatrice sur mobile",
+      "Acquisition et configuration d'une clé de sécurité physique",
+      "Création et stockage sécurisé des codes de récupération",
+      "Test de connexion avec chaque méthode de 2FA"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Stratégies avancées de gestion des identifiants",
+     "objectif": "Optimiser votre système d'authentification pour la sécurité et la praticité",
+     "sections": [
+      "Hiérarchisation des comptes : critique, important, secondaire",
+      "Politiques de mots de passe adaptées au niveau de risque",
+      "Gestion des comptes partagés : famille, équipe, services",
+      "Rotation des mots de passe : quand et pourquoi (ou pourquoi pas)",
+      "Détection des fuites : Have I Been Pwned et services similaires",
+      "Plan de continuité : que faire si votre gestionnaire est compromis ?",
+      "Authentification sans mot de passe : passkeys et WebAuthn"
+     ],
+     "exercices": [
+      "Classification de tous vos comptes selon leur criticité",
+      "Création d'une politique de mots de passe personnalisée par niveau",
+      "Configuration d'alertes de fuite pour vos emails principaux",
+      "Simulation de compromission : plan de réponse étape par étape",
+      "Exploration des passkeys sur vos appareils compatibles"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 : Sécuriser vos appareils et réseaux",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Durcissement des ordinateurs personnels",
+     "objectif": "Configurer Windows, macOS et Linux pour une sécurité optimale",
+     "sections": [
+      "Principes de durcissement : réduire la surface d'attaque",
+      "Windows : paramètres de sécurité essentiels et avancés",
+      "macOS : Gatekeeper, FileVault, et configurations recommandées",
+      "Linux : choix de distribution, permissions, SELinux/AppArmor",
+      "Comptes utilisateur : séparation des privilèges, administrateur vs standard",
+      "Mises à jour : automatisation et gestion des correctifs de sécurité",
+      "Logiciels de sécurité : antivirus, pare-feu, anti-malware"
+     ],
+     "exercices": [
+      "Audit de sécurité de votre ordinateur actuel avec outils spécialisés",
+      "Configuration étape par étape selon votre système d'exploitation",
+      "Création d'un compte utilisateur standard pour l'usage quotidien",
+      "Mise en place d'un calendrier de mises à jour et vérifications",
+      "Test de pénétration basique : scan de ports et vulnérabilités"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Sécurité mobile : smartphones et tablettes",
+     "objectif": "Protéger vos appareils mobiles contre les menaces spécifiques",
+     "sections": [
+      "Menaces mobiles : apps malveillantes, stores non officiels, permissions excessives",
+      "iOS vs Android : modèles de sécurité et implications pratiques",
+      "Configuration optimale iOS : restrictions, confidentialité, localisation",
+      "Configuration optimale Android : permissions, Play Protect, sandboxing",
+      "Chiffrement de l'appareil et verrouillage robuste",
+      "Applications bancaires et paiements mobiles : bonnes pratiques",
+      "Wi-Fi, Bluetooth, NFC : quand désactiver les connexions"
+     ],
+     "exercices": [
+      "Audit des permissions de toutes vos applications installées",
+      "Configuration complète des paramètres de confidentialité",
+      "Test de verrouillage : tentative de contournement de votre propre sécurité",
+      "Nettoyage : suppression des applications inutilisées ou suspectes",
+      "Configuration d'un VPN mobile pour les réseaux non fiables"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Sécuriser votre réseau domestique",
+     "objectif": "Transformer votre box internet en forteresse",
+     "sections": [
+      "Architecture réseau domestique : comprendre votre infrastructure",
+      "Configuration du routeur : firmware, mot de passe admin, SSID",
+      "Wi-Fi sécurisé : WPA3, segmentation, réseau invité",
+      "Pare-feu domestique : règles de filtrage entrant et sortant",
+      "DNS sécurisé : Cloudflare, Quad9, NextDNS, Pi-hole",
+      "IoT et appareils connectés : isolation et monitoring",
+      "Détection d'intrusion : outils de surveillance du réseau"
+     ],
+     "exercices": [
+      "Cartographie de votre réseau : lister tous les appareils connectés",
+      "Accès à l'interface d'administration et audit de la configuration",
+      "Création de réseaux Wi-Fi séparés (principal, invité, IoT)",
+      "Configuration d'un DNS sécurisé sur tous vos appareils",
+      "Installation et configuration d'un outil de monitoring réseau"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Navigation web sécurisée",
+     "objectif": "Naviguer sur Internet sans laisser de traces ni s'exposer aux dangers",
+     "sections": [
+      "HTTPS et certificats SSL/TLS : comprendre le chiffrement web",
+      "Extensions de navigateur essentielles : uBlock Origin, HTTPS Everywhere, Privacy Badger",
+      "Gestion des cookies et du tracking : paramètres et outils",
+      "Navigateurs orientés vie privée : Firefox, Brave, Tor Browser",
+      "Moteurs de recherche respectueux : DuckDuckGo, Startpage, Qwant",
+      "Réseaux privés virtuels (VPN) : quand et comment les utiliser",
+      "Tor et réseaux anonymes : principes et cas d'usage"
+     ],
+     "exercices": [
+      "Installation et configuration d'un bloqueur de publicités et trackers",
+      "Audit de votre empreinte numérique avec outils de fingerprinting",
+      "Configuration optimale de votre navigateur principal",
+      "Test de différents moteurs de recherche et comparaison des résultats",
+      "Évaluation et choix d'un service VPN adapté à vos besoins"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 : Protection des données et vie privée",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Chiffrement : protéger vos données sensibles",
+     "objectif": "Maîtriser les techniques de chiffrement pour fichiers et communications",
+     "sections": [
+      "Principes de cryptographie : symétrique, asymétrique, hachage",
+      "Chiffrement de disque complet : BitLocker, FileVault, VeraCrypt",
+      "Conteneurs chiffrés : protéger des dossiers spécifiques",
+      "Chiffrement de bout en bout : messagerie, emails, cloud",
+      "PGP/GPG : chiffrement et signature d'emails",
+      "Applications de messagerie sécurisée : Signal, Wire, Session",
+      "Limites du chiffrement : ce qu'il ne peut pas protéger"
+     ],
+     "exercices": [
+      "Activation du chiffrement complet sur votre ordinateur principal",
+      "Création d'un conteneur chiffré pour documents sensibles",
+      "Installation et configuration de Signal sur mobile",
+      "Génération d'une paire de clés PGP et test d'échange chiffré",
+      "Comparaison de différentes applications de messagerie sécurisée"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Sauvegardes : votre assurance-vie numérique",
+     "objectif": "Mettre en place une stratégie de sauvegarde robuste et testée",
+     "sections": [
+      "Règle 3-2-1 : trois copies, deux supports, une hors site",
+      "Types de sauvegardes : complète, incrémentielle, différentielle",
+      "Solutions locales : Time Machine, Historique des fichiers, rsync",
+      "Cloud et sauvegarde en ligne : Backblaze, CrashPlan, alternatives",
+      "Chiffrement des sauvegardes : protéger vos copies de sécurité",
+      "Sauvegardes contre les ransomwares : immutabilité et air-gap",
+      "Plan de restauration : tester régulièrement vos sauvegardes"
+     ],
+     "exercices": [
+      "Inventaire de vos données critiques à sauvegarder",
+      "Configuration d'une sauvegarde locale automatisée",
+      "Mise en place d'une sauvegarde cloud chiffrée",
+      "Test de restauration complet : simuler une perte totale",
+      "Création d'un calendrier de vérification des sauvegardes"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Vie privée numérique : minimiser votre empreinte",
+     "objectif": "Contrôler et réduire les données personnelles que vous laissez en ligne",
+     "sections": [
+      "Collecte de données : qui collecte quoi et pourquoi",
+      "Paramètres de confidentialité : réseaux sociaux, Google, Apple, Microsoft",
+      "Droit à l'oubli et RGPD : exercer vos droits",
+      "Nettoyage de votre présence en ligne : comptes inutilisés, anciennes publications",
+      "Emails jetables et alias : protéger votre adresse principale",
+      "Numéros de téléphone virtuels et services de relay",
+      "Métadonnées : les données cachées dans vos photos et documents"
+     ],
+     "exercices": [
+      "Audit complet de vos paramètres de confidentialité sur les 10 services principaux",
+      "Demande de suppression de comptes anciens et inutilisés",
+      "Configuration d'un système d'alias email pour les inscriptions",
+      "Nettoyage des métadonnées de vos photos avant partage",
+      "Recherche et suppression de vos informations sur les sites de data brokers"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Communications sécurisées",
+     "objectif": "Protéger vos conversations téléphoniques, emails et messages",
+     "sections": [
+      "Vulnérabilités des communications traditionnelles : GSM, SMS, appels classiques",
+      "VoIP sécurisée et appels chiffrés de bout en bout",
+      "Email sécurisé : ProtonMail, Tutanota, alternatives auto-hébergées",
+      "Messagerie instantanée : Signal, WhatsApp, Telegram (comparaison critique)",
+      "Partage de fichiers sécurisé : alternatives aux services grand public",
+      "Anonymat en ligne : quand et comment protéger votre identité",
+      "Communication en environnement hostile : journalistes, activistes"
+     ],
+     "exercices": [
+      "Migration vers un fournisseur d'email sécurisé",
+      "Configuration de Signal comme application de messagerie principale",
+      "Test de différents services de partage de fichiers chiffrés",
+      "Création d'un protocole de communication pour informations sensibles",
+      "Simulation de scénario de compromission : plan de basculement"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 : Réponse aux incidents et résilience",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Détecter une compromission",
+     "objectif": "Reconnaître les signes d'un appareil ou compte piraté",
+     "sections": [
+      "Indicateurs de compromission (IOC) : comportement anormal, lenteurs, pop-ups",
+      "Activité suspecte sur vos comptes : connexions inhabituelles, modifications",
+      "Outils de détection : antivirus, anti-malware, analyse comportementale",
+      "Vérification d'intégrité : sommes de contrôle, signatures numériques",
+      "Monitoring de vos données personnelles sur le dark web",
+      "Quand suspecter une surveillance : signes subtils et confirmation"
+     ],
+     "exercices": [
+      "Scan complet de tous vos appareils avec outils anti-malware",
+      "Vérification de l'historique de connexion de vos comptes principaux",
+      "Analyse des processus en cours d'exécution sur votre ordinateur",
+      "Configuration d'alertes pour activités suspectes",
+      "Création d'une checklist de vérification en cas de doute"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Répondre à une attaque : protocole d'urgence",
+     "objectif": "Agir rapidement et efficacement quand le pire survient",
+     "sections": [
+      "Premiers réflexes : isolation, préservation des preuves",
+      "Containment : limiter les dégâts et empêcher la propagation",
+      "Éradication : supprimer la menace de tous vos systèmes",
+      "Récupération : restauration depuis sauvegardes propres",
+      "Communication : qui informer et quand (banques, contacts, autorités)",
+      "Documentation : garder une trace pour analyse et prévention future"
+     ],
+     "exercices": [
+      "Création d'un kit d'urgence numérique : contacts, procédures, outils",
+      "Simulation de scénario : votre email principal est compromis",
+      "Simulation de scénario : ransomware sur votre ordinateur principal",
+      "Simulation de scénario : vol de votre smartphone",
+      "Test de votre plan de continuité : pouvez-vous fonctionner sans vos appareils principaux ?"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Vol d'identité et fraude financière",
+     "objectif": "Prévenir et gérer le vol d'identité et les arnaques bancaires",
+     "sections": [
+      "Mécanismes du vol d'identité : comment les criminels procèdent",
+      "Protection proactive : gel de crédit, alertes, surveillance",
+      "Fraudes bancaires : techniques courantes et prévention",
+      "Arnaques aux paiements : fausses annonces, phishing ciblé",
+      "Usurpation sur les réseaux sociaux et plateformes",
+      "Procédures de signalement et récupération d'identité",
+      "Ressources et aide juridique en cas de vol d'identité"
+     ],
+     "exercices": [
+      "Vérification de votre historique de crédit et mise en place d'alertes",
+      "Configuration de notifications pour toutes vos transactions bancaires",
+      "Création d'un dossier de preuves d'identité (copies sécurisées)",
+      "Recherche des procédures de signalement dans votre pays",
+      "Test de résistance : combien de temps pour détecter une usurpation ?"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Résilience à long terme : maintenir votre sécurité",
+     "objectif": "Intégrer la sécurité dans vos habitudes quotidiennes",
+     "sections": [
+      "Revue périodique : audits trimestriels et annuels",
+      "Veille sécurité : sources d'information fiables et newsletters",
+      "Adaptation aux nouvelles menaces : évolution de vos pratiques",
+      "Formation continue : cours, certifications, communautés",
+      "Équilibre sécurité/commodité : éviter la fatigue sécuritaire",
+      "Culture de sécurité familiale : éduquer vos proches",
+      "Plan de succession numérique : que deviennent vos données ?"
+     ],
+     "exercices": [
+      "Création d'un calendrier de maintenance sécurité annuel",
+      "Abonnement à 3-5 sources d'information sécurité de qualité",
+      "Organisation d'une session de formation pour votre famille",
+      "Rédaction de votre plan de succession numérique",
+      "Auto-évaluation semestrielle : évolution de votre posture de sécurité"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 6 : Cas particuliers et situations avancées",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Sécurité pour les professionnels et entrepreneurs",
+     "objectif": "Adapter les bonnes pratiques au contexte professionnel",
+     "sections": [
+      "Séparation vie pro/vie perso : comptes, appareils, réseaux",
+      "Protection de la propriété intellectuelle et secrets commerciaux",
+      "Conformité réglementaire : RGPD, PCI-DSS, normes sectorielles",
+      "Sécurité du télétravail : VPN, appareils personnels, environnement domestique",
+      "Collaboration sécurisée : partage de fichiers, visioconférence",
+      "Gestion des accès et permissions dans une petite équipe",
+      "Plan de continuité d'activité pour indépendants et TPE"
+     ],
+     "exercices": [
+      "Audit de séparation entre vos activités professionnelles et personnelles",
+      "Cartographie de vos données professionnelles sensibles",
+      "Configuration d'un environnement de télétravail sécurisé",
+      "Création d'une politique de sécurité simple pour votre équipe",
+      "Test de votre plan de continuité : simulation de panne majeure"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Protection des populations vulnérables",
+     "objectif": "Sécuriser les personnes à risque : journalistes, activistes, victimes de violence",
+     "sections": [
+      "Menaces spécifiques : surveillance ciblée, harcèlement, doxxing",
+      "Anonymat avancé : pseudonymes, identités séparées, compartimentation",
+      "Communications sécurisées en environnement hostile",
+      "Protection contre le cyberharcèlement et les campagnes de dénigrement",
+      "Sécurité pour journalistes d'investigation et lanceurs d'alerte",
+      "Protection des victimes de violence conjugale : traceurs, comptes partagés",
+      "Ressources et organisations d'aide spécialisées"
+     ],
+     "exercices": [
+      "Évaluation de votre niveau de risque spécifique",
+      "Création d'une identité en ligne séparée si nécessaire",
+      "Configuration d'outils de communication hautement sécurisés",
+      "Vérification de la présence de traceurs ou logiciels espions",
+      "Établissement d'un réseau de contacts de confiance et protocoles d'urgence"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "IoT et maison connectée : sécuriser l'Internet des Objets",
+     "objectif": "Protéger votre domicile connecté contre les intrusions",
+     "sections": [
+      "Vulnérabilités IoT : pourquoi ces appareils sont des passoires",
+      "Caméras de sécurité et sonnettes connectées : risques de piratage",
+      "Assistants vocaux : Alexa, Google Home, Siri et vie privée",
+      "Appareils domestiques intelligents : thermostats, serrures, éclairage",
+      "Segmentation réseau : isoler vos IoT du reste de votre réseau",
+      "Choix d'appareils : critères de sécurité avant l'achat",
+      "Monitoring et détection d'anomalies dans votre maison connectée"
+     ],
+     "exercices": [
+      "Inventaire complet de vos appareils IoT et évaluation de leurs risques",
+      "Configuration d'un réseau isolé pour vos appareils connectés",
+      "Audit des paramètres de confidentialité de vos assistants vocaux",
+      "Vérification des mises à jour firmware de tous vos appareils IoT",
+      "Test de pénétration basique : pouvez-vous accéder à vos caméras depuis l'extérieur ?"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Vers l'autonomie : construire votre système de sécurité personnalisé",
+     "objectif": "Intégrer toutes les connaissances en un système cohérent et durable",
+     "sections": [
+      "Architecture de sécurité personnelle : vue d'ensemble de votre système",
+      "Automatisation : scripts, outils, et workflows de sécurité",
+      "Auto-hébergement : reprendre le contrôle de vos services",
+      "Open source et auditabilité : privilégier les solutions transparentes",
+      "Contribution à la communauté : partager vos connaissances",
+      "Évolution et adaptation : rester à jour sans se laisser submerger",
+      "Votre manifeste de sécurité numérique : principes et engagements"
+     ],
+     "exercices": [
+      "Création d'un document synthétique de votre architecture de sécurité",
+      "Mise en place d'au moins une automatisation de sécurité",
+      "Exploration d'une solution auto-hébergée (Nextcloud, Vaultwarden, etc.)",
+      "Rédaction de votre manifeste personnel de sécurité numérique",
+      "Plan d'action pour les 12 prochains mois : objectifs et jalons"
+     ]
+    }
+   ]
+  }
+ ]
+}

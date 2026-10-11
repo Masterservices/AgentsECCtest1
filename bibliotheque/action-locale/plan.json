@@ -1,0 +1,546 @@
+{
+ "titre": "Le Pouvoir du Voisinage",
+ "sous_titre": "Guide pratique pour initier et pérenniser des projets solidaires, écologiques et culturels à l'échelle de son quartier",
+ "bibliographie": [
+  {
+   "auteur": "Saul Alinsky",
+   "titre": "Règles pour radicaux",
+   "annee": "1971",
+   "idee": "L'organisation communautaire repose sur la compréhension des rapports de force locaux et la mobilisation des citoyens autour de leurs intérêts communs.",
+   "apport": "Méthodes de mobilisation de terrain et gestion des rapports de pouvoir avec les institutions locales."
+  },
+  {
+   "auteur": "Jane Jacobs",
+   "titre": "Déclin et survie des grandes villes américaines",
+   "annee": "1961",
+   "idee": "La vitalité d'un quartier naît de la mixité des usages, de la densité et des 'yeux de la rue' qui assurent sécurité et lien social.",
+   "apport": "Concept de 'yeux de la rue' et importance de l'aménagement spontané pour les projets de voisinage."
+  },
+  {
+   "auteur": "Rob Hopkins",
+   "titre": "Manuel de transition",
+   "annee": "2008",
+   "idee": "Les communautés locales ont le pouvoir de concevoir leur propre résilience face aux crises écologiques et énergétiques.",
+   "apport": "Boîte à outils pour lancer des initiatives écologiques locales (jardins, monnaies, énergie)."
+  },
+  {
+   "auteur": "Elinor Ostrom",
+   "titre": "Gouvernance des biens communs",
+   "annee": "1990",
+   "idee": "Les communautés sont capables de gérer durablement des ressources partagées sans passer par l'État ou le marché privé.",
+   "apport": "Règles de gouvernance pour les biens communs du quartier (jardins partagés, matériel mutualisé)."
+  },
+  {
+   "auteur": "Peter Block",
+   "titre": "Community: The Structure of Belonging",
+   "annee": "2008",
+   "idee": "Le changement social local exige de passer de conversations centrées sur les problèmes à des conversations centrées sur les possibilités.",
+   "apport": "Techniques de facilitation pour transformer les plaintes de voisinage en projets constructifs."
+  },
+  {
+   "auteur": "John McKnight",
+   "titre": "Building Communities from the Inside Out",
+   "annee": "1993",
+   "idee": "Le développement communautaire doit se baser sur les atouts et talents existants (ABCD) plutôt que sur les carences.",
+   "apport": "Cartographie des talents des habitants pour recruter et impliquer les voisins."
+  },
+  {
+   "auteur": "Charles Montgomery",
+   "titre": "Happy City",
+   "annee": "2013",
+   "idee": "L'urbanisme et la configuration des espaces de proximité influencent directement le bonheur et les interactions sociales.",
+   "apport": "Aménagement de micro-espaces pour favoriser les rencontres culturelles et solidaires."
+  },
+  {
+   "auteur": "Michel de Certeau",
+   "titre": "L'Invention du quotidien",
+   "annee": "1980",
+   "idee": "Les citoyens réinventent leur espace de vie par des 'tactiques' d'usage qui détournent les règles imposées par les 'stratégies' d'en haut.",
+   "apport": "Légitimation des actions citoyennes informelles et créatives dans l'espace public."
+  },
+  {
+   "auteur": "Marcel Mauss",
+   "titre": "Essai sur le don",
+   "annee": "1925",
+   "idee": "Le don crée et entretient le lien social par le cycle obligatoire de donner, recevoir et rendre.",
+   "apport": "Fondement théorique des systèmes d'entraide, de troc et de solidarité de voisinage."
+  },
+  {
+   "auteur": "Serge Latouche",
+   "titre": "Petit traité de la décroissance sereine",
+   "annee": "2007",
+   "idee": "La relocalisation de l'économie et la sobriété partagée sont essentielles pour recréer du lien et préserver l'environnement.",
+   "apport": "Cadre philosophique pour les projets de réparation, de don et d'écologie de quartier."
+  },
+  {
+   "auteur": "Audrey Gicquel",
+   "titre": "Écovillages et écoquartiers",
+   "annee": "2012",
+   "idee": "L'habitat participatif et les écoquartiers démontrent que la co-construction de l'espace de vie renforce la résilience sociale.",
+   "apport": "Modèles de concertation et de gestion de projets immobiliers ou d'aménagement citoyens."
+  },
+  {
+   "auteur": "Hartmut Rosa",
+   "titre": "Résonance",
+   "annee": "2018",
+   "idee": "La qualité de vie dépend de notre capacité à entrer en résonance avec le monde et les autres, contrant l'aliénation moderne.",
+   "apport": "Créer des espaces culturels et solidaires qui permettent une vraie connexion émotionnelle et sociale."
+  },
+  {
+   "auteur": "David Engwicht",
+   "titre": "Reclaiming Our Cities and Towns",
+   "annee": "1993",
+   "idee": "La réduction de la place de la voiture et la création d'espaces d'échange mental et physique revitalisent les quartiers.",
+   "apport": "Stratégies d'urbanisme tactique pour pacifier les rues et y installer des projets culturels."
+  },
+  {
+   "auteur": "Robert Putnam",
+   "titre": "Bowling Alone",
+   "annee": "2000",
+   "idee": "Le déclin du capital social et des associations de proximité menace la démocratie et le bien-être collectif.",
+   "apport": "Importance de recréer des rituels de quartier et des associations informelles pour tisser du capital social."
+  },
+  {
+   "auteur": "Henri Lefebvre",
+   "titre": "Le Droit à la ville",
+   "annee": "1968",
+   "idee": "Les habitants ont le droit fondamental de participer à la production de l'espace urbain qu'ils habitent.",
+   "apport": "Posture de légitimité pour exiger et co-construire des aménagements écologiques et culturels avec la mairie."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 : L'Éveil du Quartier - Voir, Comprendre et Oser",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Cartographier son territoire de vie",
+     "objectif": "Dresser un état des lieux sensible et factuel de son quartier pour en révéler les potentiels cachés.",
+     "sections": [
+      "La marche exploratoire : voir son quotidien avec un regard neuf",
+      "Cartographie des flux, des zones mortes et des points chauds",
+      "Identifier les lieux de sociabilité informelle et les angles morts",
+      "L'histoire cachée du quartier : mémoire et évolution urbaine",
+      "Les limites invisibles et les frontières sociales de la rue",
+      "Outils de cartographie participative et sensible"
+     ],
+     "exercices": [
+      "Organiser une 'dérive urbaine' de 2 heures avec 3 voisins et noter 5 lieux sous-utilisés.",
+      "Créer une carte mentale des ressources et des friches du quartier sur un grand carton commun."
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Identifier les besoins et les ressources invisibles",
+     "objectif": "Passer d'une logique de carences à une logique d'atouts en recensant ce qui existe déjà.",
+     "sections": [
+      "La méthode ABCD : Asset-Based Community Development",
+      "Recenser les compétences, passions et métiers des voisins",
+      "Identifier les ressources matérielles dormantes (outils, espaces, véhicules)",
+      "Détecter les besoins non comblés par les services publics",
+      "Croiser l'offre et la demande de proximité",
+      "L'art de l'écoute active lors des rencontres fortuites"
+     ],
+     "exercices": [
+      "Réaliser l'inventaire des talents de son immeuble ou de sa rue sur une grille ABCD simplifiée.",
+      "Organiser un 'troc de services' informel sur un trottoir pour tester les besoins réels."
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Trouver sa légitimité de citoyen-acteur",
+     "objectif": "Dépasser le syndrome de l'imposteur et assumer son rôle de catalyseur local.",
+     "sections": [
+      "Le droit à la ville : pourquoi vous êtes légitime",
+      "Vaincre la peur du jugement et le syndrome de l'imposteur",
+      "La posture du 'jardinier' face à celle de 'l'architecte'",
+      "Gérer les réticences de l'entourage proche",
+      "De l'indignation à la proposition : changer de paradigme",
+      "L'éthique de l'engagement local : humilité et persévérance"
+     ],
+     "exercices": [
+      "Écrire une 'lettre de motivation citoyenne' à soi-même pour clarifier ses intentions profondes.",
+      "Lister 3 petites actions réalisées dans le passé qui ont amélioré le quotidien du voisinage."
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Formuler une vision inspirante pour le quartier",
+     "objectif": "Créer un récit commun qui donne envie aux habitants de s'impliquer sur le long terme.",
+     "sections": [
+      "Pourquoi les gens s'engagent : le pouvoir du récit",
+      "Passer de la plainte ('les poubelles débordent') au rêve ('une rue verte')",
+      "Construire une vision à 5 ans à l'échelle de la rue",
+      "Le storytelling de quartier : raconter l'histoire de demain",
+      "Formuler un mot d'ordre simple, inclusif et mobilisateur",
+      "Partager la vision sans l'imposer"
+     ],
+     "exercices": [
+      "Rédiger le 'manifeste de la rue' en 5 phrases courtes et positives.",
+      "Dessiner le quartier idéal vu par un enfant de 8 ans et un voisin de 80 ans."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 : L'Art de Fédérer - De l'Isolement au Collectif",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "L'art de la conversation de voisinage",
+     "objectif": "Maîtriser les techniques pour engager le dialogue avec des inconnus et créer du lien.",
+     "sections": [
+      "Briser la glace : les déclencheurs de conversation naturels",
+      "L'écoute empathique face aux frustrations du quotidien",
+      "Transformer une plainte en opportunité d'action commune",
+      "Les rituels de voisinage : du bonjour à la prise de nouvelles",
+      "Adapter son discours aux différentes générations et cultures",
+      "Savoir conclure une conversation et laisser une porte ouverte"
+     ],
+     "exercices": [
+      "Engager 3 conversations de plus de 2 minutes avec des voisins inconnus cette semaine.",
+      "Tester la technique du 'Et si on...' lors d'une discussion informelle."
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Constituer son premier noyau dur",
+     "objectif": "Réunir les 3 à 5 premières personnes prêtes à s'investir régulièrement dans le projet.",
+     "sections": [
+      "Identifier les 'connecteurs' et les 'faiseurs' du quartier",
+      "Organiser le premier apéro-projet : format et invitations",
+      "Définir les valeurs communes et les règles du jeu dès le départ",
+      "Répartir les rôles selon les affinités et non les compétences strictes",
+      "Gérer les enthousiasmes passagers et les déceptions précoces",
+      "Créer une identité de groupe (nom, rituel, lieu de rendez-vous)"
+     ],
+     "exercices": [
+      "Inviter 5 voisins ciblés à un café informel avec un ordre du jour caché (juste faire connaissance et rêver).",
+      "Co-rédiger la charte de fonctionnement du noyau dur sur une seule page."
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Mobiliser au-delà des cercles habituels",
+     "objectif": "Éviter l'entre-soi et inclure les populations souvent invisibilisées ou marginalisées.",
+     "sections": [
+      "Comprendre les freins à la participation (temps, langue, méfiance)",
+      "Aller vers les 'invisibles' : les personnes âgées, les jeunes, les nouveaux arrivants",
+      "Utiliser les relais naturels (commerçants, gardiens, associations cultuelles)",
+      "Adapter les formats de réunion aux contraintes des familles populaires",
+      "La traduction et l'accessibilité comme leviers d'inclusion",
+      "Valoriser les savoirs d'usage des populations précaires"
+     ],
+     "exercices": [
+      "Identifier 3 'personnes-relais' dans le quartier et leur proposer un partenariat informel.",
+      "Organiser une action de rue à un horaire et dans un format adaptés aux familles travailleuses."
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Gérer les conflits et les ego locaux",
+     "objectif": "Anticiper et désamorcer les tensions inévitables dans tout groupe humain de proximité.",
+     "sections": [
+      "La typologie des conflits de voisinage et de militantisme",
+      "L'ego du 'chef de projet' vs la réalité du collectif",
+      "Les outils de communication non violente appliqués au quartier",
+      "Gérer les personnalités toxiques ou les leaders auto-proclamés",
+      "Le rôle du facilitateur et la médiation par les pairs",
+      "Savoir faire une pause collective pour éviter l'implosion"
+     ],
+     "exercices": [
+      "Mettre en place un 'thermomètre des émotions' au début de chaque réunion collective.",
+      "Simuler un conflit d'usage (ex: bruit vs animation) et pratiquer la médiation en binôme."
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Créer des alliances avec les acteurs institués",
+     "objectif": "Tisser des liens constructifs avec la mairie, les bailleurs et les associations historiques.",
+     "sections": [
+      "Comprendre les contraintes et les agendas des élus locaux",
+      "Parler le langage des services techniques de la ville",
+      "Les bailleurs sociaux : ennemis de l'intérieur ou alliés potentiels ?",
+      "S'appuyer sur les centres sociaux et les maisons de quartier",
+      "Négocier sans se faire récupérer ou institutionnaliser",
+      "Le contrat de confiance : conventions d'occupation et assurances"
+     ],
+     "exercices": [
+      "Demander un rendez-vous 'découverte' avec l'élu de quartier sans aucune revendication, juste pour écouter.",
+      "Cartographier les subventions et appels à projets locaux sur les 12 prochains mois."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 : Les Piliers de l'Action - Écologie, Solidarité, Culture",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "L'écologie de proximité : végétaliser et nourrir",
+     "objectif": "Transformer le béton en oasis et recréer des circuits alimentaires hyper-locaux.",
+     "sections": [
+      "Les jardins partagés : de la conception à la gestion de l'eau",
+      "La végétalisation des pieds d'arbres et des façades (permis de végétaliser)",
+      "Les composteurs collectifs : alchimie sociale et écologique",
+      "Les vergers urbains et la cueillette libre de quartier",
+      "Désimperméabiliser les cours d'école et les parkings",
+      "La biodiversité de rue : hôtels à insectes et corridors écologiques"
+     ],
+     "exercices": [
+      "Monter un dossier de 'Permis de Végétaliser' pour 3 fosses d'arbres de sa rue.",
+      "Organiser une bourse aux graines et aux boutures sur le trottoir."
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "La solidarité de rue : rompre l'isolement",
+     "objectif": "Mettre en place des systèmes d'entraide concrets pour les plus vulnérables.",
+     "sections": [
+      "Le maraudage de voisinage et la visite aux personnes isolées",
+      "Les épiceries solidaires et les frigos libres de quartier",
+      "Le réseau d'alerte et d'entraide en cas de crise (canicule, panne)",
+      "L'accompagnement scolaire et le mentorat de proximité",
+      "La conciergerie solidaire : petits services contre lien social",
+      "Accueillir et intégrer les nouveaux voisins et les réfugiés"
+     ],
+     "exercices": [
+      "Créer un annuaire papier des 'voisins vigilants' pour les personnes âgées de l'immeuble.",
+      "Installer une 'boîte à dons' ou un frigo solidaire avec l'accord d'un commerçant partenaire."
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "La culture partagée : l'espace public comme scène",
+     "objectif": "Faire de la rue un lieu de création, d'expression et de fête accessible à tous.",
+     "sections": [
+      "Les fêtes de quartier : au-delà du repas géant",
+      "Le cinéma en plein air et les concerts de balcon",
+      "Les fresques murales participatives et l'art urbain éphémère",
+      "Les bibliothèques de rue et les boîtes à livres",
+      "Le théâtre forum pour débattre des enjeux du quartier",
+      "Valoriser les cultures et les traditions des habitants immigrés"
+     ],
+     "exercices": [
+      "Organiser une 'lecture de contes' sous un arbre de la place pour les enfants du quartier.",
+      "Lancer un appel à photos anciennes pour créer une exposition éphémère sur les grilles d'un parc."
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "L'économie circulaire et le partage de biens",
+     "objectif": "Réduire le gaspillage et le coût de la vie par la mutualisation des ressources.",
+     "sections": [
+      "La boîte à outils du quartier : mutualiser le matériel",
+      "Les repair cafés : réparer ensemble pour ne plus jeter",
+      "Le troc de vêtements, de jouets et de livres",
+      "Les monnaies locales et les systèmes d'échange local (SEL)",
+      "La mutualisation des achats groupés (circuits courts, énergie)",
+      "L'upcycling de quartier : transformer les déchets en ressources"
+     ],
+     "exercices": [
+      "Créer une 'tool-library' (bibliothèque d'outils) dans un garage ou une cave partagée.",
+      "Organiser un Repair Café mensuel en s'associant avec un bricoleur reconnu du quartier."
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Les mobilités douces et la reconquête de la rue",
+     "objectif": "Apaiser la circulation et rendre l'espace public aux piétons, aux enfants et aux cyclistes.",
+     "sections": [
+      "L'urbanisme tactique : peindre, planter, bloquer pour tester",
+      "Les rues aux enfants et les pédibus scolaires",
+      "Créer des stationnements vélos sécurisés et solidaires",
+      "Négocier la piétonnisation temporaire ou définitive",
+      "Les parkings de quartier : partager les places privées",
+      "Sensibiliser les automobilistes par la pédagogie et la fête"
+     ],
+     "exercices": [
+      "Organiser une 'rue aux enfants' un dimanche matin avec des jeux en carton et de la craie.",
+      "Mener un comptage citoyen des voitures et des vélos aux heures de pointe pour alimenter un dossier mairie."
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "La mémoire du quartier : tisser le lien intergénérationnel",
+     "objectif": "Utiliser l'histoire locale pour créer un sentiment d'appartenance et de fierté.",
+     "sections": [
+      "La collecte de récits de vie des anciens du quartier",
+      "Les balades patrimoniales guidées par les habitants",
+      "Créer un musée de quartier éphémère ou numérique",
+      "Le compagnonnage inversé : les jeunes apprennent aux anciens",
+      "Les archives citoyennes : documenter les luttes et les fêtes passées",
+      "Nommer les rues et les lieux : la toponymie comme acte politique"
+     ],
+     "exercices": [
+      "Enregistrer un podcast de 10 minutes avec le doyen de la rue sur son arrivée dans le quartier.",
+      "Créer un parcours de 5 plaques historiques fictives (ou réelles) racontant l'histoire cachée des lieux."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 : De l'Idée à la Réalité - Ingénierie de Projet Local",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "Choisir la bonne structure (ou s'en passer)",
+     "objectif": "Comprendre les enjeux juridiques et opter pour le véhicule adapté à l'ambition du projet.",
+     "sections": [
+      "Faut-il vraiment créer une association loi 1901 ?",
+      "L'association collégiale : une gouvernance sans président",
+      "Les alternatives : collectif informel, SCIC, foncière solidaire",
+      "La responsabilité civile et pénale des organisateurs",
+      "Ouvrir un compte bancaire et gérer la trésorerie de base",
+      "Les statuts types pour un projet de quartier"
+     ],
+     "exercices": [
+      "Remplir une matrice de décision : informel vs associatif vs coopératif selon 5 critères clés.",
+      "Rédiger l'article 2 (l'objet social) de ses futurs statuts de manière large et inclusive."
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Financer sans s'épuiser : des sous et des hommes",
+     "objectif": "Diversifier les ressources pour ne pas dépendre d'un seul bailleur ou s'épuiser à chercher des fonds.",
+     "sections": [
+      "Le budget prévisionnel d'un projet de quartier",
+      "L'autofinancement : adhésions, buvettes, événements",
+      "Le crowdfunding local et la solidarité de proximité",
+      "Les subventions municipales, départementales et régionales",
+      "Le mécénat de compétence des entreprises du quartier",
+      "L'économie du don et le financement participatif citoyen"
+     ],
+     "exercices": [
+      "Construire un budget 'campagne de guérilla' pour lancer le projet avec moins de 100 euros.",
+      "Lister 5 commerces locaux à qui proposer un partenariat en nature (prêt de matériel, don alimentaire)."
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Naviguer dans les méandres administratifs locaux",
+     "objectif": "Obtenir les autorisations nécessaires sans se décourager face à la bureaucratie.",
+     "sections": [
+      "L'occupation temporaire de l'espace public : le cadre légal",
+      "Les normes ERP (Établissement Recevant du Public) en extérieur",
+      "Assurances et déclarations en préfecture",
+      "Comment présenter un dossier technique aux services de la voirie",
+      "Le droit à l'erreur et la négociation avec les agents territoriaux",
+      "Les recours en cas de blocage administratif abusif"
+     ],
+     "exercices": [
+      "Télécharger et pré-remplir le formulaire CERFA de demande d'occupation du domaine public.",
+      "Identifier le technicien de voirie référent pour son secteur et lui envoyer un email de prise de contact."
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Organiser le premier événement fédérateur",
+     "objectif": "Créer un premier succès visible pour crédibiliser la démarche et élargir la base.",
+     "sections": [
+      "Le choix du format : low-tech, inclusif et festif",
+      "La logistique de rue : sécurité, nettoyage, bruit",
+      "Mobiliser les bénévoles : qui fait quoi le jour J ?",
+      "L'animation de l'événement pour favoriser les rencontres",
+      "La communication de proximité : flyers, affiches, bouche-à-oreille",
+      "Le bilan à chaud et la captation des nouveaux volontaires"
+     ],
+     "exercices": [
+      "Établir le rétroplanning (diagramme de Gantt simplifié) d'un événement dans 6 semaines.",
+      "Rédiger le pitch de 30 secondes pour recruter des bénévoles sur le marché du quartier."
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Communiquer sans bruit : l'information de proximité",
+     "objectif": "Toucher les habitants sans spammer et créer des canaux de communication efficaces.",
+     "sections": [
+      "L'affichage sauvage vs les panneaux d'expression libre",
+      "Le journal de quartier : papier, gratuit et distribué dans les boîtes aux lettres",
+      "Les groupes WhatsApp, Facebook et Nextdoor : avantages et toxicité",
+      "La signalétique urbaine : fléchage et marquage au sol",
+      "Le bouche-à-oreille comme média principal",
+      "L'accessibilité de l'information (langues, illettrisme, fracture numérique)"
+     ],
+     "exercices": [
+      "Créer le numéro 1 (4 pages) d'un journal de quartier avec des nouvelles positives et des appels à participation.",
+      "Dessiner une signalétique éphémère (craie, rubalise) pour guider vers un lieu d'activité."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 : Pérenniser et Rayonner - Gouvernance et Résilience",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Mettre en place une gouvernance horizontale",
+     "objectif": "Éviter la prise de pouvoir par quelques-uns et maintenir l'implication de tous.",
+     "sections": [
+      "Les principes de la gouvernance partagée",
+      "L'animation de réunions efficaces et créatives",
+      "Les outils de décision collective (vote, consensus, objection)",
+      "La circulation de l'information et la transparence financière",
+      "Gérer le turn-over des bénévoles et l'intégration des nouveaux",
+      "Savoir dissoudre ou transformer le projet quand il a fait son temps"
+     ],
+     "exercices": [
+      "Animer une réunion en utilisant la méthode des 6 chapeaux de Bono pour explorer un problème.",
+      "Mettre en place un tableau de bord partagé (physique ou numérique) des tâches en cours."
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Éviter l'usure du militant de quartier",
+     "objectif": "Prendre soin de soi et des autres pour durer sans s'épuiser émotionnellement.",
+     "sections": [
+      "Reconnaître les signes du burn-out militant",
+      "L'écologie personnelle : poser ses limites et dire non",
+      "Célébrer les petites victoires et les échecs apprenants",
+      "Les groupes de soutien et d'analyse de pratique entre pairs",
+      "Concilier vie familiale, professionnelle et engagement local",
+      "Le droit à la déconnexion et aux vacances du collectif"
+     ],
+     "exercices": [
+      "Instaurer un rituel de 'météo intérieure' et de gratitude à la fin de chaque action collective.",
+      "Planifier une journée 'off' obligatoire pour le noyau dur tous les trimestres."
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Évaluer l'impact réel sur le territoire",
+     "objectif": "Mesurer ce qui change vraiment pour ajuster les actions et rendre des comptes.",
+     "sections": [
+      "Au-delà des chiffres : mesurer le lien social et le bien-être",
+      "Les indicateurs de résilience écologique locale",
+      "La méthode des histoires de changement (Most Significant Change)",
+      "Cartographier l'évolution du quartier avant/après",
+      "Rendre compte aux habitants de manière créative",
+      "Utiliser l'évaluation pour lever des fonds et convaincre les élus"
+     ],
+     "exercices": [
+      "Réaliser 5 entretiens qualitatifs avec des passants sur leur ressenti concernant le projet.",
+      "Créer une infographie simple des impacts de l'année pour l'afficher dans la rue."
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Essaimage : inspirer les autres rues et villes",
+     "objectif": "Partager son expérience pour que d'autres quartiers s'emparent de la démarche.",
+     "sections": [
+      "La documentation ouverte : créer des communs de la connaissance",
+      "Accueillir les visites d'étude et les curieux d'autres villes",
+      "Le plaidoyer local pour changer les politiques publiques",
+      "Réseautage : rejoindre les mouvements nationaux (Villes en Transition, Colibris)",
+      "Former les nouveaux porteurs de projets de son propre quartier",
+      "Lâcher prise : laisser le projet vivre et muter sans ses fondateurs"
+     ],
+     "exercices": [
+      "Rédiger un 'kit de démarrage' de 10 pages pour qu'une autre rue puisse reproduire l'action.",
+      "Organiser une rencontre inter-quartiers pour échanger les bonnes et mauvaises pratiques."
+     ]
+    }
+   ]
+  }
+ ]
+}
