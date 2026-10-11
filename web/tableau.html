@@ -93,10 +93,10 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 
 async function etat() {
   try {
-    const r = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/etat.json?ref=etat-usine`, { headers: { Accept: "application/vnd.github.raw+json" } });
+    const r = await fetch(`https://raw.githubusercontent.com/${OWNER}/${REPO}/etat-usine/etat.json?t=${Date.now()}`);
     if (r.ok) return await r.json();
   } catch (e) {}
-  return await (await fetch(`https://raw.githubusercontent.com/${OWNER}/${REPO}/etat-usine/etat.json?t=${Date.now()}`)).json();
+  return await (await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/etat.json?ref=etat-usine`, { headers: { Accept: "application/vnd.github.raw+json" } })).json();
 }
 
 function tiles(e, a) {

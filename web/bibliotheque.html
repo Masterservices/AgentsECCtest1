@@ -85,10 +85,11 @@ let BOOKS = [];
 
 async function charger() {
   try {
-    const r = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/etat.json?ref=etat-usine`, { headers: { Accept: "application/vnd.github.raw+json" } });
+    const r = await fetch(raw("etat-usine", "etat.json") + "?t=" + Date.now());
     if (r.ok) return (await r.json()).catalogue;
   } catch (e) {}
-  return (await (await fetch(raw("etat-usine", "etat.json") + "?t=" + Date.now())).json()).catalogue;
+  const r = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/etat.json?ref=etat-usine`, { headers: { Accept: "application/vnd.github.raw+json" } });
+  return (await r.json()).catalogue;
 }
 
 function render() {

@@ -5,7 +5,18 @@ const OWNER = "ghorbeloussama44-source";
 const REPO = "AgentsECCtest";
 const MODELES = ["auto", "qwen-3.8-max-thinking", "qwen-3.8-max", "qwen-3.7-max", "xiaomi-mimo-2.6", "meta-muse-spark-1.3"];
 
+// Sites autorisés à appeler cette fonction depuis le navigateur (le site GitHub Pages en plus de Vercel)
+const ORIGINES = ["https://ghorbeloussama44-source.github.io", "https://agentsecctest.vercel.app"];
+
 module.exports = async (req, res) => {
+  const origine = req.headers.origin;
+  if (ORIGINES.includes(origine)) {
+    res.setHeader("Access-Control-Allow-Origin", origine);
+    res.setHeader("Vary", "Origin");
+    res.setHeader("Access-Control-Allow-Methods", "POST, OPTIONS");
+    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  }
+  if (req.method === "OPTIONS") return res.status(204).end();
   if (req.method !== "POST") return res.status(405).json({ erreur: "Utilisez le formulaire de la page." });
   if (!process.env.GITHUB_TOKEN || !process.env.ACCESS_CODE)
     return res.status(503).json({ erreur: "Les demandes ne sont pas encore activées sur ce site (configuration manquante)." });
