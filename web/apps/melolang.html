@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MELOLANG</title>
+<meta name="description" content="Générateur de langue construite (conlang) et aide à la chanson — outil expérimental hors ligne.">
+<style>
+/* Générateur de conlang : étapes identité → phonèmes → phonotactique → dictionnaire → grammaire → chanson. Tout en JS local. */
+:root{
+  --bg:#f4f5f3;--panel:#fff;--ink:#1a1f1d;--muted:#5c665f;--line:#dde1dd;
+  --accent:#3b6c5a;--accent-ink:#fff;--soft:#e7efe9;--bad:#b3352f;
+  --sans:"Segoe UI",system-ui,-apple-system,sans-serif;--mono:ui-monospace,"SFMono-Regular",Menlo,monospace;--r:8px;color-scheme:light;
+}
+@media(prefers-color-scheme:dark){:root{
+  --bg:#131816;--panel:#1b211e;--ink:#e7ece9;--muted:#9aa49e;--line:#2b332e;
+  --accent:#6fb89c;--accent-ink:#0e1613;--soft:#1e2b25;--bad:#ef7d76;color-scheme:dark;}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 var(--sans)}
+.wrap{max-width:960px;margin:0 auto;padding:20px 16px 56px;display:grid;gap:18px}
+h1{margin:0;font-size:1.6rem;letter-spacing:-.01em}
+h2{margin:0 0 4px;font-size:1.15rem}
+p.lead{margin:2px 0 0;color:var(--muted)}
+.tabs{display:flex;flex-wrap:wrap;gap:6px}
+.tabs button{font:600 .85rem var(--sans);border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:7px 12px;border-radius:999px;cursor:pointer}
+.tabs button[aria-selected=true]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.tabs button:disabled{opacity:.5;cursor:not-allowed}
+section.panel{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:16px;display:none;gap:14px}
+section.panel.on{display:grid}
+label{display:grid;gap:4px;font-size:.85rem;color:var(--muted)}
+input,select,textarea{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:8px 10px;width:100%;min-width:0}
+textarea{resize:vertical;min-height:96px;font-family:var(--mono);font-size:.9rem}
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:12px}
+.btn{font:600 .9rem var(--sans);border:0;border-radius:6px;padding:9px 16px;cursor:pointer;background:var(--accent);color:var(--accent-ink)}
+.btn.sec{background:var(--panel);color:var(--ink);border:1px solid var(--line)}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.actions{display:flex;flex-wrap:wrap;gap:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:.78rem var(--mono);border:1px solid var(--line);border-radius:999px;padding:3px 9px;cursor:pointer;user-select:none;background:var(--bg)}
+.chip[aria-pressed=true]{background:var(--soft);border-color:var(--accent);color:var(--accent)}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.ipa{font-family:var(--mono);color:var(--accent)}
+.tablewrap{max-height:420px;overflow:auto;border:1px solid var(--line);border-radius:6px}
+.note{font-size:.82rem;color:var(--muted)}
+.pill{display:inline-block;font:.72rem var(--mono);background:var(--soft);color:var(--accent);padding:1px 7px;border-radius:999px}
+.msg{font-size:.85rem;color:var(--muted)}
+.prompt{font-family:var(--mono);font-size:.85rem;white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px;max-height:240px;overflow:auto}
+footer{font-size:.78rem;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+.ok{color:var(--accent)}.err{color:var(--bad)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>MELOLANG</h1>
+    <p class="lead">Inventez une langue, construisez son dictionnaire et préparez vos chansons. Tout fonctionne hors ligne, dans votre navigateur.</p>
+  </header>
+
+  <nav class="tabs" id="tabs" role="tablist">
+    <button role="tab" data-step="0" aria-selected="true">1 · Identité</button>
+    <button role="tab" data-step="1" aria-selected="false" disabled>2 · Phonèmes</button>
+    <button role="tab" data-step="2" aria-selected="false" disabled>3 · Syllabes</button>
+    <button role="tab" data-step="3" aria-selected="false" disabled>4 · Dictionnaire</button>
+    <button role="tab" data-step="4" aria-selected="false" disabled>5 · Grammaire</button>
+    <button role="tab" data-step="5" aria-selected="false" disabled>6 · Chanson</button>
+  </nav>
+
+  <!-- 1 IDENTITÉ -->
+  <section class="panel on" data-panel="0">
+    <h2>Identité de la langue</h2>
+    <div class="row">
+      <label>Nom de la langue<input id="fNom" maxlength="40" placeholder="Ex. Sylvane"></label>
+      <label>Usage<select id="fUsage"><option>Chanson</option><option>Rap</option><option>Pop</option><option>Jeu vidéo</option><option>Fiction / fantastique</option><option>Expérimentation</option></select></label>
+      <label>Ambiance<select id="fAmb"><option value="douce">Douce</option><option value="percussive">Percussive</option><option value="sombre">Sombre</option><option value="futuriste">Futuriste</option><option value="sacree">Sacrée</option><option value="romantique">Romantique</option></select></label>
+      <label>Complexité grammaticale<select id="fGram"><option value="simple">Simple</option><option value="moyenne" selected>Moyenne</option><option value="riche">Riche</option></select></label>
+      <label>Facilité de prononciation : <span id="fFacV">moyenne</span><input type="range" id="fFac" min="1" max="5" value="3"></label>
+      <label>Nombre de mots<input type="number" id="fN" min="20" max="600" value="150"></label>
+    </div>
+    <div>
+      <div class="note" style="margin-bottom:6px">Préférences de sons (facultatif) :</div>
+      <div class="chips" id="fPrefs"></div>
+    </div>
+    <div class="actions">
+      <button class="btn" id="goInv">Générer l'inventaire phonétique →</button>
+      <button class="btn sec" id="btnCharger">Charger un projet enregistré</button>
+    </div>
+    <div class="msg" id="msg1"></div>
+  </section>
+
+  <!-- 2 PHONÈMES -->
+  <section class="panel" data-panel="1">
+    <h2>Inventaire phonétique <span class="pill" id="invCount"></span></h2>
+    <p class="note">Cochez les phonèmes à garder. Symboles en alphabet phonétique international (API/IPA). Décochez ceux que vous jugez trop difficiles.</p>
+    <div class="tablewrap"><table id="invTable"></table></div>
+    <div class="actions">
+      <button class="btn sec" data-back="0">← Identité</button>
+      <button class="btn" id="goPhono">Valider et définir les syllabes →</button>
+    </div>
+    <div class="msg" id="msg2"></div>
+  </section>
+
+  <!-- 3 SYLLABES -->
+  <section class="panel" data-panel="2">
+    <h2>Phonotactique (structure des syllabes)</h2>
+    <p class="note">Structures autorisées selon la complexité choisie. C = consonne, V = voyelle.</p>
+    <div id="phonoStruct" class="chips"></div>
+    <h2 style="margin-top:8px">Exemples de syllabes</h2>
+    <div id="phonoEx" class="chips"></div>
+    <div class="actions">
+      <button class="btn sec" data-back="1">← Phonèmes</button>
+      <button class="btn" id="goDico">Générer le dictionnaire →</button>
+    </div>
+  </section>
+
+  <!-- 4 DICTIONNAIRE -->
+  <section class="panel" data-panel="3">
+    <h2>Dictionnaire <span class="pill" id="dicoCount"></span></h2>
+    <label style="max-width:320px">Rechercher<input id="dicoQ" type="search" placeholder="mot français ou forme inventée"></label>
+    <div class="tablewrap"><table id="dicoTable"></table></div>
+    <div class="actions">
+      <button class="btn sec" data-back="2">← Syllabes</button>
+      <button class="btn" data-go="4">Voir la grammaire →</button>
+      <button class="btn sec" id="dlJson">Dictionnaire JSON</button>
+      <button class="btn sec" id="dlCsv">Dictionnaire CSV</button>
+      <button class="btn sec" id="dlLang">Langue complète JSON</button>
+      <button class="btn sec" id="btnSave">Enregistrer le projet</button>
+    </div>
+    <div class="msg" id="msg4"></div>
+  </section>
+
+  <!-- 5 GRAMMAIRE -->
+  <section class="panel" data-panel="4">
+    <h2>Grammaire</h2>
+    <div id="gramBox" style="display:grid;gap:8px"></div>
+    <div class="actions">
+      <button class="btn sec" data-back="3">← Dictionnaire</button>
+      <button class="btn" data-go="5">Passer à la chanson →</button>
+    </div>
+  </section>
+
+  <!-- 6 CHANSON -->
+  <section class="panel" data-panel="5">
+    <h2>Atelier chanson</h2>
+    <p class="note">Tapez vos paroles en français. MELOLANG propose une traduction mot à mot quand le mot existe au dictionnaire, avec sa transcription API, et un prompt à coller dans un générateur de musique.</p>
+    <label>Paroles en français<textarea id="songFr" placeholder="Exemple :&#10;la lumière danse&#10;je chante la nuit"></textarea></label>
+    <div class="actions"><button class="btn" id="goTrad">Traduire</button></div>
+    <div class="tablewrap" style="max-height:260px"><table id="songTable"></table></div>
+    <h2 style="margin-top:8px">Prompt musical</h2>
+    <div class="prompt" id="songPrompt">—</div>
+    <div class="actions">
+      <button class="btn sec" id="copyPrompt">Copier le prompt</button>
+      <button class="btn sec" data-back="4">← Grammaire</button>
+    </div>
+    <div class="msg" id="msg6"></div>
+  </section>
+
+  <footer>MELOLANG — outil expérimental. La génération est entièrement algorithmique et locale (aucune IA ni service externe appelé). La compatibilité des sons avec le chant synthétique est à confirmer par test ; aucun lien avec les paroles d'œuvres existantes.</footer>
+</div>
+
+<script>
+"use strict";
+const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+// Jeux de phonèmes (sous-ensemble cohérent de l'IPA) avec métadonnées
+const VOY=[
+ {ipa:"a",rom:"a",ex:"patte",diff:1,tag:["simple"]},{ipa:"e",rom:"e",ex:"été",diff:1,tag:["simple"]},
+ {ipa:"i",rom:"i",ex:"ici",diff:1,tag:["simple"]},{ipa:"o",rom:"o",ex:"eau",diff:1,tag:["simple"]},
+ {ipa:"u",rom:"ou",ex:"loup",diff:1,tag:["simple"]},{ipa:"ɛ",rom:"è",ex:"mère",diff:2,tag:[]},
+ {ipa:"ɔ",rom:"o",ex:"sort",diff:2,tag:[]},{ipa:"y",rom:"u",ex:"lune",diff:3,tag:[]},
+ {ipa:"ø",rom:"eu",ex:"feu",diff:3,tag:[]},{ipa:"ə",rom:"e",ex:"le",diff:2,tag:["douce"]},
+ {ipa:"aː",rom:"â",ex:"voyelle longue",diff:2,tag:["longues"]},{ipa:"iː",rom:"î",ex:"voyelle longue",diff:2,tag:["longues"]},
+ {ipa:"ɑ̃",rom:"an",ex:"blanc (nasale)",diff:3,tag:["sombre"]},{ipa:"ɛ̃",rom:"in",ex:"vin (nasale)",diff:3,tag:["sombre"]}
+];
+const CONS=[
+ {ipa:"p",rom:"p",ex:"pas",diff:1,mode:"occlusive",lieu:"bilabiale",vois:false,tag:["explosives","percussive"]},
+ {ipa:"t",rom:"t",ex:"tu",diff:1,mode:"occlusive",lieu:"alvéolaire",vois:false,tag:["explosives","percussive"]},
+ {ipa:"k",rom:"k",ex:"cou",diff:1,mode:"occlusive",lieu:"vélaire",vois:false,tag:["explosives","percussive"]},
+ {ipa:"b",rom:"b",ex:"bas",diff:1,mode:"occlusive",lieu:"bilabiale",vois:true,tag:["douce"]},
+ {ipa:"d",rom:"d",ex:"dé",diff:1,mode:"occlusive",lieu:"alvéolaire",vois:true,tag:["douce"]},
+ {ipa:"g",rom:"g",ex:"gare",diff:1,mode:"occlusive",lieu:"vélaire",vois:true,tag:["douce"]},
+ {ipa:"m",rom:"m",ex:"ma",diff:1,mode:"nasale",lieu:"bilabiale",vois:true,tag:["douce","sacree"]},
+ {ipa:"n",rom:"n",ex:"nez",diff:1,mode:"nasale",lieu:"alvéolaire",vois:true,tag:["douce","sacree"]},
+ {ipa:"l",rom:"l",ex:"la",diff:1,mode:"latérale",lieu:"alvéolaire",vois:true,tag:["douce","romantique"]},
+ {ipa:"s",rom:"s",ex:"sa",diff:1,mode:"fricative",lieu:"alvéolaire",vois:false,tag:["sifflantes"]},
+ {ipa:"z",rom:"z",ex:"zéro",diff:2,mode:"fricative",lieu:"alvéolaire",vois:true,tag:["sifflantes"]},
+ {ipa:"f",rom:"f",ex:"feu",diff:1,mode:"fricative",lieu:"labiodentale",vois:false,tag:[]},
+ {ipa:"v",rom:"v",ex:"vu",diff:1,mode:"fricative",lieu:"labiodentale",vois:true,tag:["douce"]},
+ {ipa:"ʃ",rom:"ch",ex:"chat",diff:2,mode:"fricative",lieu:"post-alvéolaire",vois:false,tag:["sifflantes"]},
+ {ipa:"ʒ",rom:"j",ex:"jeu",diff:2,mode:"fricative",lieu:"post-alvéolaire",vois:true,tag:["sifflantes"]},
+ {ipa:"r",rom:"r",ex:"roulé (espagnol)",diff:3,mode:"roulée",lieu:"alvéolaire",vois:true,tag:["roules","percussive"]},
+ {ipa:"ʁ",rom:"r",ex:"rue (français)",diff:2,mode:"fricative",lieu:"uvulaire",vois:true,tag:["sombre"]},
+ {ipa:"j",rom:"y",ex:"yeux",diff:1,mode:"semi-voyelle",lieu:"palatale",vois:true,tag:["douce"]},
+ {ipa:"w",rom:"w",ex:"oui",diff:1,mode:"semi-voyelle",lieu:"labio-vélaire",vois:true,tag:["douce"]},
+ {ipa:"θ",rom:"th",ex:"think (anglais)",diff:4,mode:"fricative",lieu:"dentale",vois:false,tag:["futuriste"]},
+ {ipa:"x",rom:"kh",ex:"jota (espagnol)",diff:3,mode:"fricative",lieu:"vélaire",vois:false,tag:["sombre","sacree"]}
+];
+const PREFS=[["simple","Voyelles simples"],["longues","Voyelles longues"],["explosives","Consonnes explosives"],["roules","Sons roulés"],["sifflantes","Sifflantes"],["douce","Sons doux"],["sombre","Sons sombres"]];
+
+// ~130 concepts français courants (forme de base) pour les traductions
+const CONCEPTS=("un deux trois quatre cinq six sept huit neuf dix cent mille "+
+"je tu il elle nous vous ils moi toi "+
+"mère père enfant famille ami amour cœur âme esprit corps main œil bouche voix "+
+"eau feu terre air ciel soleil lune étoile nuit jour matin soir "+
+"mer montagne rivière forêt arbre fleur herbe pierre sable vent pluie neige orage "+
+"lumière ombre couleur rouge bleu vert noir blanc or argent "+
+"temps vie mort début fin chemin porte maison ville route pont "+
+"chanter danser parler écouter voir regarder marcher courir voler tomber monter "+
+"aimer donner prendre garder perdre trouver chercher attendre rêver penser savoir "+
+"vouloir pouvoir venir aller rester partir ouvrir fermer briller brûler couler "+
+"grand petit beau fort doux froid chaud clair sombre vieux jeune nouveau "+
+"paix guerre roi reine dieu magie force liberté espoir peur joie tristesse colère "+
+"oui non et ou mais si avec sans dans sur sous ici là maintenant toujours jamais").split(/\s+/).filter(Boolean);
+
+let L=null; // état de la langue
+const KEY="melolang.projet";
+
+/* ---------- navigation ---------- */
+function unlock(step){ $$('#tabs button').forEach(b=>{ if(+b.dataset.step<=step) b.disabled=false; }); }
+function show(step){
+  $$('.panel').forEach(p=>p.classList.toggle('on', +p.dataset.panel===step));
+  $$('#tabs button').forEach(b=>b.setAttribute('aria-selected', +b.dataset.step===step));
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+$('#tabs').addEventListener('click',e=>{const b=e.target.closest('button');if(b&&!b.disabled)show(+b.dataset.step);});
+document.addEventListener('click',e=>{
+  const back=e.target.closest('[data-back]'); if(back) show(+back.dataset.back);
+  const go=e.target.closest('[data-go]'); if(go) show(+go.dataset.go);
+});
+
+/* ---------- étape 1 ---------- */
+$('#fPrefs').innerHTML=PREFS.map(([v,t])=>`<span class="chip" role="button" tabindex="0" aria-pressed="false" data-pref="${v}">${t}</span>`).join("");
+$('#fPrefs').addEventListener('click',e=>{const c=e.target.closest('.chip');if(c)c.setAttribute('aria-pressed',c.getAttribute('aria-pressed')!=='true');});
+$('#fFac').addEventListener('input',e=>{$('#fFacV').textContent=["très facile","facile","moyenne","exigeante","difficile"][e.target.value-1];});
+
+const rng=(seed=>{let s=seed>>>0||1;return()=>{s^=s<<13;s^=s>>>17;s^=s<<5;return((s>>>0)/4294967296);};});
+let rand=rng(Date.now());
+const pick=arr=>arr[Math.floor(rand()*arr.length)];
+
+$('#goInv').addEventListener('click',()=>{
+  const nom=$('#fNom').value.trim();
+  if(!nom){$('#msg1').innerHTML='<span class="err">Donnez un nom à votre langue.</span>';return;}
+  const prefs=$$('#fPrefs .chip[aria-pressed=true]').map(c=>c.dataset.pref);
+  const facile=+$('#fFac').value, maxDiff=facile<=2?4:facile===3?3:2;
+  rand=rng([...nom].reduce((a,c)=>a*31+c.charCodeAt(0),7));
+  L={nom,usage:$('#fUsage').value,ambiance:$('#fAmb').value,gram:$('#fGram').value,facile,
+     nbMots:Math.min(600,Math.max(20,+$('#fN').value||150)),prefs,
+     voy:[],cons:[],struct:[],dico:[]};
+  // sélection des phonèmes : difficulté <= maxDiff, puis boost des préférences
+  const keep=(p)=>{let s=p.diff<=maxDiff?1:0.15; p.tag.forEach(t=>{if(prefs.includes(t))s+=1; if(t===L.ambiance)s+=0.7;}); return s;};
+  L.voy=VOY.filter(p=>keep(p)>0.5||rand()<keep(p)).map(p=>({...p,on:true}));
+  L.cons=CONS.filter(p=>keep(p)>0.5||rand()<keep(p)).map(p=>({...p,on:true}));
+  if(L.voy.length<4) L.voy=VOY.slice(0,5).map(p=>({...p,on:true}));
+  if(L.cons.length<6) L.cons=CONS.slice(0,8).map(p=>({...p,on:true}));
+  renderInv(); unlock(1); show(1);
+});
+
+/* ---------- étape 2 : inventaire ---------- */
+function renderInv(){
+  const rows=[...L.voy.map(p=>["Voyelle",p]),...L.cons.map(p=>["Consonne",p])];
+  $('#invTable').innerHTML=`<tr><th></th><th>API</th><th>Cat.</th><th>Articulation</th><th>Ex.</th><th>Diff.</th></tr>`+
+    rows.map(([cat,p])=>`<tr><td><input type="checkbox" data-ipa="${esc(p.ipa)}" ${p.on?"checked":""}></td>
+      <td class="ipa">${esc(p.ipa)}</td><td>${cat}</td>
+      <td>${esc([p.mode,p.lieu,p.vois===true?"voisée":p.vois===false?"sourde":""].filter(Boolean).join(", ")||"—")}</td>
+      <td>${esc(p.ex)}</td><td>${"●".repeat(p.diff)}</td></tr>`).join("");
+  $('#invCount').textContent=(L.voy.length+L.cons.length)+" sons";
+}
+$('#invTable').addEventListener('change',e=>{
+  const ip=e.target.dataset.ipa; if(!ip)return;
+  [...L.voy,...L.cons].forEach(p=>{if(p.ipa===ip)p.on=e.target.checked;});
+});
+$('#goPhono').addEventListener('click',()=>{
+  const v=L.voy.filter(p=>p.on), c=L.cons.filter(p=>p.on);
+  if(v.length<3||c.length<4){$('#msg2').innerHTML='<span class="err">Gardez au moins 3 voyelles et 4 consonnes.</span>';return;}
+  // phonotactique selon complexité
+  L.struct = L.gram==="simple"?["CV","V"] : L.gram==="moyenne"?["CV","CVC","V"] : ["CV","CVC","CCV","VC","V"];
+  renderPhono(); unlock(2); show(2);
+});
+
+/* ---------- étape 3 : phonotactique ---------- */
+const onV=()=>L.voy.filter(p=>p.on), onC=()=>L.cons.filter(p=>p.on);
+function genSyll(){
+  const s=pick(L.struct); let ipa="",rom="";
+  for(const ch of s){ const p = ch==="C"?pick(onC()):pick(onV()); ipa+=p.ipa; rom+=p.rom; }
+  return {ipa,rom};
+}
+function renderPhono(){
+  $('#phonoStruct').innerHTML=L.struct.map(s=>`<span class="chip" aria-pressed="true">${s}</span>`).join("");
+  const ex=Array.from({length:14},genSyll);
+  $('#phonoEx').innerHTML=ex.map(s=>`<span class="chip">${esc(s.rom)} <span class="ipa">[${esc(s.ipa)}]</span></span>`).join("");
+}
+
+/* ---------- étape 4 : dictionnaire ---------- */
+$('#goDico').addEventListener('click',()=>{
+  const n=Math.min(L.nbMots,CONCEPTS.length);
+  const used=new Set(); L.dico=[];
+  for(let i=0;i<n;i++){
+    let w,tries=0;
+    do{ const nb=1+(rand()<0.35?1:0)+(L.gram==="riche"&&rand()<0.2?1:0);
+        let ipa="",rom=""; for(let k=0;k<nb;k++){const s=genSyll();ipa+=s.ipa;rom+=s.rom;}
+        w={rom:rom||"a",ipa:ipa||"a"}; tries++;
+    }while(used.has(w.rom)&&tries<12);
+    used.add(w.rom);
+    L.dico.push({fr:CONCEPTS[i],rom:w.rom,ipa:w.ipa});
+  }
+  renderDico(); renderGram(); unlock(5); show(3);
+});
+function renderDico(q=""){
+  q=q.trim().toLowerCase();
+  const rows=L.dico.filter(d=>!q||d.fr.includes(q)||d.rom.toLowerCase().includes(q));
+  $('#dicoTable').innerHTML=`<tr><th>Français</th><th>${esc(L.nom)}</th><th>API</th></tr>`+
+    rows.map(d=>`<tr><td>${esc(d.fr)}</td><td><b>${esc(d.rom)}</b></td><td class="ipa">[${esc(d.ipa)}]</td></tr>`).join("");
+  $('#dicoCount').textContent=L.dico.length+" mots";
+}
+$('#dicoQ').addEventListener('input',e=>renderDico(e.target.value));
+
+/* ---------- étape 5 : grammaire ---------- */
+function renderGram(){
+  const g=L.gram;
+  const ordre = g==="simple"?"Sujet–Verbe–Objet (comme le français)":g==="moyenne"?"Sujet–Objet–Verbe":"Verbe–Sujet–Objet";
+  const pluriel = pick(onC().filter(c=>["s","n","r","ʁ"].includes(c.ipa)).concat(onC()))?.rom||"s";
+  const passe = pick(onV())?.rom||"a";
+  const rules=[
+    ["Ordre des mots", ordre],
+    ["Pluriel", `on ajoute le suffixe « -${pluriel} » à la fin du mot`],
+    ["Passé", `on ajoute le préfixe « ${passe}- » devant le verbe`],
+    ["Négation", g==="riche"?"particule « na » avant le verbe + suffixe « -k » après":"mot « na » placé avant le verbe"],
+    ["Adjectif", g==="simple"?"placé après le nom":"placé avant le nom"],
+    ["Accent tonique", L.ambiance==="percussive"?"sur la première syllabe":"sur l'avant-dernière syllabe"]
+  ];
+  L.grammaire=Object.fromEntries(rules);
+  $('#gramBox').innerHTML=rules.map(([k,v])=>`<div><span class="pill">${esc(k)}</span> ${esc(v)}</div>`).join("");
+}
+
+/* ---------- étape 6 : chanson ---------- */
+$('#goTrad').addEventListener('click',()=>{
+  const txt=$('#songFr').value.trim();
+  if(!txt){$('#msg6').innerHTML='<span class="err">Écrivez quelques paroles.</span>';return;}
+  const map=new Map(L.dico.map(d=>[d.fr,d]));
+  const mots=txt.toLowerCase().split(/\s+/).filter(Boolean);
+  let trouve=0;
+  const rows=mots.map(m=>{const c=m.replace(/[.,;:!?»«"']/g,""); const d=map.get(c);
+    if(d){trouve++;return`<tr><td>${esc(m)}</td><td><b>${esc(d.rom)}</b></td><td class="ipa">[${esc(d.ipa)}]</td></tr>`;}
+    return`<tr><td>${esc(m)}</td><td class="note">— (mot absent du dictionnaire)</td><td></td></tr>`;});
+  $('#songTable').innerHTML=`<tr><th>Français</th><th>${esc(L.nom)}</th><th>API</th></tr>`+rows.join("");
+  $('#msg6').innerHTML=`<span class="ok">${trouve}/${mots.length} mots traduits.</span> Enrichissez le dictionnaire pour couvrir plus de paroles.`;
+  const tempo=L.usage==="Rap"?"85–95 BPM":L.ambiance==="percussive"?"120–130 BPM":L.ambiance==="douce"?"70–80 BPM":"95–110 BPM";
+  const amb={douce:"douce et aérienne",percussive:"percussive et énergique",sombre:"sombre et grave",futuriste:"futuriste et synthétique",sacree:"sacrée et solennelle",romantique:"romantique et chaleureuse"}[L.ambiance];
+  $('#songPrompt').textContent=
+`Chanson en « ${L.nom} », une langue inventée, usage : ${L.usage.toLowerCase()}.
+Ambiance ${amb}. Tempo suggéré : ${tempo}.
+Voix chantée dans une langue imaginaire aux sonorités ${L.prefs.length?L.prefs.join(", "):"variées"}.
+Paroles (romanisation) :
+${mots.map(m=>{const d=map.get(m.replace(/[.,;:!?»«"']/g,""));return d?d.rom:m;}).join(" ")}
+(Outil expérimental : à tester dans un générateur musical de votre choix.)`;
+});
+$('#copyPrompt').addEventListener('click',async()=>{
+  const t=$('#songPrompt').textContent; if(t==="—")return;
+  try{await navigator.clipboard.writeText(t);$('#msg6').innerHTML='<span class="ok">Prompt copié.</span>';}
+  catch(e){const r=document.createRange();r.selectNode($('#songPrompt'));getSelection().removeAllRanges();getSelection().addRange(r);$('#msg6').innerHTML='<span class="note">Sélectionnez puis copiez (Ctrl/Cmd+C).</span>';}
+});
+
+/* ---------- exports ---------- */
+function dl(nom,texte,type){try{const b=new Blob([texte],{type});const u=URL.createObjectURL(b);const a=document.createElement('a');a.href=u;a.download=nom;a.click();setTimeout(()=>URL.revokeObjectURL(u),2000);}catch(e){$('#msg4').innerHTML='<span class="err">Téléchargement impossible dans ce navigateur.</span>';}}
+$('#dlJson').addEventListener('click',()=>dl(`${L.nom}-dictionnaire.json`,JSON.stringify(L.dico,null,1),"application/json"));
+$('#dlCsv').addEventListener('click',()=>{const csv="francais,forme,api\n"+L.dico.map(d=>`"${d.fr}","${d.rom}","${d.ipa}"`).join("\n");dl(`${L.nom}-dictionnaire.csv`,csv,"text/csv");});
+$('#dlLang').addEventListener('click',()=>dl(`${L.nom}-langue.json`,JSON.stringify({nom:L.nom,usage:L.usage,ambiance:L.ambiance,grammaire:L.grammaire,phonemes:{voyelles:onV().map(p=>p.ipa),consonnes:onC().map(p=>p.ipa)},structures:L.struct,dictionnaire:L.dico},null,1),"application/json"));
+
+/* ---------- persistance ---------- */
+$('#btnSave').addEventListener('click',()=>{try{localStorage.setItem(KEY,JSON.stringify(L));$('#msg4').innerHTML='<span class="ok">Projet enregistré dans ce navigateur.</span>';}catch(e){$('#msg4').innerHTML='<span class="err">Enregistrement impossible (stockage indisponible).</span>';}});
+$('#btnCharger').addEventListener('click',()=>{
+  try{const raw=localStorage.getItem(KEY);if(!raw){$('#msg1').innerHTML='<span class="note">Aucun projet enregistré.</span>';return;}
+    L=JSON.parse(raw);renderInv();renderPhono();renderDico();renderGram();unlock(5);show(3);
+    $('#msg1').innerHTML='<span class="ok">Projet « '+esc(L.nom)+' » chargé.</span>';
+  }catch(e){$('#msg1').innerHTML='<span class="err">Projet enregistré illisible.</span>';}
+});
+</script>
+</body>
+</html>
