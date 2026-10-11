@@ -170,12 +170,24 @@ function ago(iso) {
   return s < 90 ? `il y a ${s} s` : s < 5400 ? `il y a ${Math.round(s / 60)} min` : `il y a ${Math.round(s / 3600)} h`;
 }
 
-function renderLive(e) {
-  const fresh = Date.now() - Date.parse(e.maj) < 10 * 60 * 1000;
-  $("lDot").className = "dot" + (e.actif && fresh ? " on" : "");
-  $("lMaj").textContent = (e.actif && fresh ? "En cours · " : "En pause · ") + "mis à jour " + ago(e.maj);
+function renderLive(e, demandes) {
+  // demandes en cours ou en attente = le travail « en direct » prioritaire
+  const actives = (demandes || []).filter((d) => d.etat === "en-cours" || d.etat === "a-faire")
+    .sort((a, b) => (a.etat === b.etat ? 0 : a.etat === "en-cours" ? -1 : 1));
+  const usineActive = e.actif && (Date.now() - Date.parse(e.maj) < 10 * 60 * 1000);
+  const vivant = usineActive || actives.length;
+  $("lDot").className = "dot" + (vivant ? " on" : "");
+  $("lMaj").textContent = (actives.length ? `${actives.length} demande${actives.length > 1 ? "s" : ""} en cours · ` : usineActive ? "Usine en cours · " : "En pause · ") + "mis à jour " + ago(e.maj);
   const done = BASE + e.termines, total = BASE + e.objectif;
-  const books = (e.lot || []).map((b) => {
+
+  const carteDemande = (d) => {
+    const [cls, txt] = REQ_STATE[d.etat] || REQ_STATE["a-faire"];
+    return `<article class="card ${cls}"><span class="stage">${txt}</span><h3>${esc(d.titre)}</h3>
+      <div class="figs">Demande n° ${d.numero} · ${new Date(d.date).toLocaleDateString("fr-FR")}</div>
+      <a href="${d.lien}"${d.lien.startsWith("#") ? "" : ' target="_blank" rel="noopener"'}>Suivre la demande</a></article>`;
+  };
+  // n'afficher les livres de l'usine en direct que si elle tourne encore (sinon ils sont déjà dans la Bibliothèque)
+  const livres = usineActive ? (e.lot || []).map((b) => {
     const [cls, lab] = STAGE[b.etape] || ["st-plan", b.etape];
     const figs = b.etape === "terminé" ? `${b.pages || "?"} pages · ${fmt(b.mots)} mots`
       : b.etape === "rectification" ? `${b.chapitres_rectifies}/${b.chapitres_total} chapitres rectifiés · ${fmt(b.mots)} mots`
@@ -183,15 +195,23 @@ function renderLive(e) {
     const prompts = (b.prompts || []).length ? `<details><summary>Prompts en cours chez Dialagram (${b.prompts.length})</summary>${b.prompts.map((p) => `<pre>${esc(p)}</pre>`).join("")}</details>` : "";
     return `<article class="card"><span class="stage ${cls}">${esc(lab)}</span><h3>${esc(b.titre || b.slug)}</h3><div class="figs">${figs}</div>
       ${(b.journal || []).length ? `<div class="journal">${b.journal.map(esc).join("<br>")}</div>` : ""}${prompts}</article>`;
-  }).join("");
+  }).join("") : "";
+
+  const blocs = [];
+  if (actives.length) blocs.push(`<div class="lab">Demandes en cours et en attente</div><div class="grid">${actives.map(carteDemande).join("")}</div>`);
+  if (livres) blocs.push(`<div class="lab">Usine de la bibliothèque</div><div class="grid">${livres}</div>`);
+  if (!blocs.length) blocs.push('<div class="msg">Rien en cours pour l\'instant. Envoyez une demande ci-dessous : elle s\'affichera ici pendant son traitement.</div>');
+
   $("live").innerHTML = `<div style="display:grid;gap:12px">
-    <div class="sum"><span>Bibliothèque <span class="num">${done} / ${total}</span> livres</span><span>Lot démarré à <span class="num">${esc(e.debut_lot || "—")}</span> UTC</span><span>Dialagram <span class="num">${fmt(e.tokens_dialagram)}</span> tokens (usine)</span></div>
+    <div class="sum"><span>Bibliothèque <span class="num">${done} / ${total}</span> livres</span><span>Dialagram <span class="num">${fmt(e.tokens_dialagram)}</span> tokens (usine)</span></div>
     <div class="progress" aria-hidden="true"><i style="width:${Math.round(done / total * 100)}%"></i></div>
-    <div class="grid">${books || '<div class="msg">Aucun lot en cours.</div>'}</div></div>`;
+    ${blocs.join("")}</div>`;
 }
 
 // ── Demandes : issues GitHub étiquetées « dialagram » (créées par /api/requete, traitées par Claude) ──
 const REQ_STATE = { "a-faire": ["s-a_faire", "À faire"], "en-cours": ["s-delegue", "Chez Dialagram"], "valide": ["s-valide", "Validé"], "refuse": ["s-refuse", "À refaire"] };
+const REQ_ORDER = { "en-cours": 0, "a-faire": 1, "valide": 2, "refuse": 3 };   // en cours d'abord, terminées plus bas
+let DEMANDES = [];   // dernière liste chargée, partagée entre le panneau « en direct » et la liste
 const SITE = location.hostname.endsWith("netlify.app");   // sur le site Netlify : tout passe par le site lui-même
 
 // liste normalisée {numero, titre, etat, date, reponses, lien}
@@ -222,7 +242,9 @@ function ficheMeta(m, long) {
 
 async function renderReqs() {
   try {
-    const list = await chargerDemandes();
+    const list = (await chargerDemandes()).sort((a, b) =>
+      (REQ_ORDER[a.etat] ?? 9) - (REQ_ORDER[b.etat] ?? 9) || b.numero - a.numero);
+    DEMANDES = list;
     $("dCount").textContent = list.length ? `${list.length} demande${list.length > 1 ? "s" : ""}` : "";
     $("reqs").innerHTML = list.map((d) => {
       const [cls, txt] = REQ_STATE[d.etat] || REQ_STATE["a-faire"];
@@ -316,12 +338,13 @@ async function renderProjects() {
 }
 
 async function tick() {
-  try { renderLive(await lireEtat()); }
-  catch (e) { $("lMaj").textContent = "Hors ligne · nouvel essai dans une minute"; }
+  try {
+    const [etat] = await Promise.all([lireEtat(), renderReqs()]);   // renderReqs met à jour DEMANDES
+    renderLive(etat, DEMANDES);
+  } catch (e) { $("lMaj").textContent = "Hors ligne · nouvel essai dans une minute"; }
 }
-tick(); renderProjects(); renderReqs(); ouvrirDemande();
-setInterval(tick, 75000);
-setInterval(renderReqs, 600000);
+tick(); renderProjects(); ouvrirDemande();
+setInterval(tick, 120000);
 document.addEventListener("visibilitychange", () => { if (!document.hidden) tick(); });
 </script>
 </body>
