@@ -6,7 +6,7 @@ const REPO = "AgentsECCtest";
 const MODELES = ["auto", "qwen-3.8-max-thinking", "qwen-3.8-max", "qwen-3.7-max", "xiaomi-mimo-2.6", "meta-muse-spark-1.3"];
 
 // Sites autorisés à appeler cette fonction depuis le navigateur (le site GitHub Pages en plus de Vercel)
-const ORIGINES = ["https://ghorbeloussama44-source.github.io", "https://agentsecctest.vercel.app"];
+const ORIGINES = ["https://ghorbeloussama44-source.github.io", "https://agentsecctest.vercel.app", "https://atelier-dialagram.netlify.app"];
 
 module.exports = async (req, res) => {
   const origine = req.headers.origin;

@@ -212,14 +212,19 @@ $("reqForm").addEventListener("submit", async (ev) => {
     msg.innerHTML = `${esc(raison)} <a href="${url}" target="_blank" rel="noopener">Envoyer la demande via GitHub</a> (compte GitHub gratuit nécessaire ; la demande y est déjà remplie).`;
   };
   try {
-    let r;
-    try {
-      // la fonction d'envoi vit sur Vercel ; le site GitHub Pages l'appelle à distance
-      const API = location.hostname.endsWith("vercel.app") ? "api/requete" : "https://agentsecctest.vercel.app/api/requete";
-      r = await fetch(API, { method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ titre, consigne, modele, nom, code: $("rCode").value }) });
-    } catch (e) { viaGithub("Le formulaire direct n'est pas disponible ici."); return; }
-    if (r.status === 404 || r.status === 405 || r.status === 503) { viaGithub("Le formulaire direct n'est pas encore activé sur ce site."); return; }
+    // la fonction d'envoi vit sur Netlify ou Vercel : même site d'abord, puis Netlify, puis Vercel (le premier qui est configuré répond)
+    const local = /netlify\.app$|vercel\.app$/.test(location.hostname) ? ["api/requete"] : [];
+    const APIS = [...local, "https://atelier-dialagram.netlify.app/api/requete", "https://agentsecctest.vercel.app/api/requete"];
+    const payload = JSON.stringify({ titre, consigne, modele, nom, code: $("rCode").value });
+    let r = null;
+    for (const api of APIS) {
+      try {
+        const x = await fetch(api, { method: "POST", headers: { "Content-Type": "application/json" }, body: payload });
+        if (x.status === 404 || x.status === 405 || x.status === 503) continue;   // pas installé ou pas configuré : suivant
+        r = x; break;
+      } catch (e) { /* injoignable : suivant */ }
+    }
+    if (!r) { viaGithub("Le formulaire direct n'est pas encore activé sur ce site."); return; }
     const d = await r.json().catch(() => ({}));
     if (!r.ok) throw new Error(d.erreur || "L'envoi a échoué. Réessayez dans un instant.");
     msg.innerHTML = `Demande n° ${d.numero} enregistrée. Claude la prendra en charge au prochain passage. <a href="${d.url}" target="_blank" rel="noopener">Suivre la demande</a>`;

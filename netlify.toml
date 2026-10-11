@@ -1,0 +1,10 @@
+# Netlify : sert le site (web/) et la fonction de demandes (netlify/functions/requete.js)
+[build]
+  publish = "web"
+  functions = "netlify/functions"
+  command = ""
+
+[[redirects]]
+  from = "/api/requete"
+  to = "/.netlify/functions/requete"
+  status = 200
