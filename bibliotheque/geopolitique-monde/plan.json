@@ -1,0 +1,573 @@
+{
+ "titre": "Décoder le monde",
+ "sous_titre": "Clés de lecture neutres et factuelles pour analyser les grands équilibres de pouvoir et les enjeux mondiaux",
+ "bibliographie": [
+  {
+   "auteur": "Raymond Aron",
+   "titre": "Paix et guerre entre les nations",
+   "annee": "1962",
+   "idee": "Théorie sociologique des relations internationales distinguant systèmes homogènes et hétérogènes, et analysant la stratégie comme conduite rationnelle sous incertitude.",
+   "apport": "Cadre conceptuel pour distinguer diplomatie, stratégie et force, et grille de lecture des systèmes internationaux."
+  },
+  {
+   "auteur": "Henry Kissinger",
+   "titre": "Diplomatie",
+   "annee": "1994",
+   "idee": "Histoire des équilibres européens depuis Richelieu jusqu'à la Guerre froide, articulant realpolitik, équilibre des puissances et ordre international.",
+   "apport": "Notions d'équilibre des puissances, d'ordre westphalien et de concert des nations comme outils d'analyse historique."
+  },
+  {
+   "auteur": "Samuel Huntington",
+   "titre": "Le Choc des civilisations",
+   "annee": "1996",
+   "idee": "Après la Guerre froide, les lignes de fracture internationales deviennent culturelles et religieuses plutôt qu'idéologiques ou économiques.",
+   "apport": "Grille civilisationnelle à discuter et à nuancer, utile pour cartographier les identités collectives en jeu."
+  },
+  {
+   "auteur": "Francis Fukuyama",
+   "titre": "La Fin de l'histoire et le Dernier Homme",
+   "annee": "1992",
+   "idee": "La démocratie libérale constituerait la forme finale de gouvernement humain après l'effondrement soviétique.",
+   "apport": "Point de repère pour analyser les promesses et limites du libéralisme politique comme horizon géopolitique."
+  },
+  {
+   "auteur": "Joseph Nye",
+   "titre": "Soft Power : les moyens de réussir en politique mondiale",
+   "annee": "2004",
+   "idee": "Le pouvoir ne se réduit pas à la coercition militaire ou économique ; l'attraction culturelle, politique et normative compte autant.",
+   "apport": "Distinction hard power / soft power / smart power et indicateurs d'influence non militaire."
+  },
+  {
+   "auteur": "Zbigniew Brzezinski",
+   "titre": "Le Grand Échiquier : l'Amérique et le reste du monde",
+   "annee": "1997",
+   "idee": "L'Eurasie est le pivot géostratégique mondial ; qui la contrôle domine le système international.",
+   "apport": "Carte mentale eurasienne, notion de pivots géostratégiques et d'acteurs géopolitiques."
+  },
+  {
+   "auteur": "John Mearsheimer",
+   "titre": "The Tragedy of Great Power Politics",
+   "annee": "2001",
+   "idee": "Dans un système anarchique, les grandes puissances recherchent rationnellement l'hégémonie régionale pour maximiser leur sécurité.",
+   "apport": "Offensive realism comme loupe sur les comportements sécuritaires et les dilemmes de sécurité."
+  },
+  {
+   "auteur": "Robert Kaplan",
+   "titre": "La Revanche de la géographie",
+   "annee": "2012",
+   "idee": "Les contraintes physiques (mers, montagnes, fleuves, climat) structurent durablement les destinées politiques des États.",
+   "apport": "Lecture géographique des choix stratégiques et des vulnérabilités structurelles."
+  },
+  {
+   "auteur": "Immanuel Wallerstein",
+   "titre": "Le Système-monde moderne",
+   "annee": "1974",
+   "idee": "L'économie-monde capitaliste se structure en centre, semi-périphérie et périphérie, avec des cycles longs d'hégémonie.",
+   "apport": "Grille centre-périphérie et analyse des cycles d'hégémonie économique."
+  },
+  {
+   "auteur": "Paul Kennedy",
+   "titre": "Naissance et déclin des grandes puissances",
+   "annee": "1987",
+   "idee": "Les empires déclinent lorsque leurs engagements stratégiques excèdent leur base économique : le surmenage impérial.",
+   "apport": "Indicateurs de soutenabilité de la puissance et notion d'overstretch."
+  },
+  {
+   "auteur": "Hedley Bull",
+   "titre": "The Anarchical Society",
+   "annee": "1977",
+   "idee": "La société internationale est anarchique mais ordonnée par des institutions, des normes et une culture diplomatique partagée.",
+   "apport": "Approche de l'École anglaise pour lire les institutions informelles de l'ordre mondial."
+  },
+  {
+   "auteur": "Fernand Braudel",
+   "titre": "Civilisation matérielle, économie et capitalisme",
+   "annee": "1979",
+   "idee": "Trois temporalités (événement, conjoncture, longue durée) éclairent différemment l'histoire économique et les rapports de force.",
+   "apport": "Méthode des temps longs pour hiérarchiser les faits géopolitiques."
+  },
+  {
+   "auteur": "Thomas Friedman",
+   "titre": "The World Is Flat",
+   "annee": "2005",
+   "idee": "La mondialisation technologique aplatit les terrains de jeu économiques et redistribue les avantages comparatifs.",
+   "apport": "Grille techno-économique des chaînes de valeur mondiales et de leurs tensions."
+  },
+  {
+   "auteur": "Graham Allison",
+   "titre": "Destined for War : peut-on éviter la guerre entre les États-Unis et la Chine ?",
+   "annee": "2017",
+   "idee": "Le piège de Thucydide : quand une puissance montante menace une puissance établie, la guerre devient statistiquement probable.",
+   "apport": "Modèle de transition de puissance appliqué aux rivalités sino-américaines."
+  },
+  {
+   "auteur": "Kishore Mahbubani",
+   "titre": "Has China Won? The Chinese Challenge to American Primacy",
+   "annee": "2020",
+   "idee": "Le basculement vers l'Asie est structurel ; l'Occident doit repenser ses prétentions universelles.",
+   "apport": "Perspective asiatique sur l'ordre mondial et les limites de l'universalisme occidental."
+  },
+  {
+   "auteur": "Thucydide",
+   "titre": "Histoire de la guerre du Péloponnèse",
+   "annee": "-431",
+   "idee": "La guerre éclate quand la croissance d'Athènes inspire la peur à Sparte ; le droit cède devant la force.",
+   "apport": "Matrice classique des rivalités de puissance et du dialogue des Méliens."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Les fondements de la puissance",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Qu'est-ce que le pouvoir en relations internationales ?",
+     "objectif": "Définir le pouvoir comme capacité, relation et perception, au-delà des seuls moyens militaires.",
+     "sections": [
+      "1.1 Puissance, pouvoir, influence : trois notions à distinguer",
+      "1.2 Les ressources tangibles : démographie, territoire, économie, armée",
+      "1.3 Les ressources intangibles : légitimité, récit, réseaux, normes",
+      "1.4 Hard power, soft power, sharp power, smart power",
+      "1.5 Le pouvoir comme relation : dépendance, asymétrie, vulnérabilité",
+      "1.6 Mesurer la puissance : indices, classements, biais méthodologiques"
+     ],
+     "exercices": [
+      "Construire une fiche puissance pour un pays en 8 indicateurs mixtes",
+      "Comparer deux pays sur hard power vs soft power à partir de données publiques",
+      "Cartographier les dépendances économiques bilatérales d'un État choisi"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "La géographie, socle oublié des équilibres mondiaux",
+     "objectif": "Montrer comment fleuves, montagnes, mers et climat contraignent et expliquent les choix stratégiques.",
+     "sections": [
+      "2.1 Le relief comme destin : plaines, montagnes, isthmes",
+      "2.2 L'accès à la mer et la puissance navale",
+      "2.3 Fleuves et bassins hydrographiques comme enjeux de souveraineté",
+      "2.4 Climats, terres arables et sécurité alimentaire",
+      "2.5 Ressources énergétiques et minières : malédiction ou levier ?",
+      "2.6 Les nouvelles géographies : Arctique, fonds marins, orbites basses"
+     ],
+     "exercices": [
+      "Analyser la carte physique d'un pays et en déduire trois vulnérabilités stratégiques",
+      "Tracer les bassins hydrographiques transfrontaliers sources de tensions",
+      "Évaluer l'exposition d'un État aux chocs climatiques sur 30 ans"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Démographie : le temps long des rapports de force",
+     "objectif": "Lire les transitions démographiques comme variables structurantes de la puissance sur un siècle.",
+     "sections": [
+      "3.1 Transition démographique et fenêtres d'opportunité",
+      "3.2 Dividende démographique vs vieillissement",
+      "3.3 Jeunesse, urbanisation et instabilité politique",
+      "3.4 Migrations : pression, diaspora, transferts",
+      "3.5 Éducation, capital humain et productivité",
+      "3.6 Projections 2050-2100 : Afrique, Asie, Europe"
+     ],
+     "exercices": [
+      "Construire la pyramide des âges d'un pays et en tirer trois scénarios",
+      "Calculer un ratio de dépendance et son impact budgétaire prévisionnel",
+      "Comparer trois pays sur l'indice de capital humain"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Économie et finance : le nerf de la puissance",
+     "objectif": "Comprendre comment PIB, monnaies, dettes et chaînes de valeur façonnent les hiérarchies internationales.",
+     "sections": [
+      "4.1 PIB, PIB PPA, revenu par tête : que mesurent-ils vraiment ?",
+      "4.2 Monnaies de réserve, privilège exorbitant et sanctions",
+      "4.3 Dettes souveraines et cycles de crises financières",
+      "4.4 Chaînes de valeur mondiales et dépendances critiques",
+      "4.5 Commerce, protectionnisme et accords régionaux",
+      "4.6 Innovation, brevets et course technologique"
+     ],
+     "exercices": [
+      "Comparer PIB nominal et PIB PPA pour cinq pays et interpréter l'écart",
+      "Cartographier les dépendances d'un secteur à trois pays fournisseurs",
+      "Simuler l'effet d'une dépréciation monétaire sur dette extérieure et inflation"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Militaire et dissuasion : l'ultime argument",
+     "objectif": "Analyser les capacités militaires sans fétichisme, en intégrant dissuasion, projection et asymétrie.",
+     "sections": [
+      "5.1 Budgets, effectifs, équipements : lecture critique",
+      "5.2 Dissuasion nucléaire : stabilité et prolifération",
+      "5.3 Projection, logistique et théâtres d'opération",
+      "5.4 Guerre asymétrique, insurgence et hybridation",
+      "5.5 Cyber, espace, IA : nouveaux domaines de conflictualité",
+      "5.6 Alliances militaires et interopérabilité"
+     ],
+     "exercices": [
+      "Construire un tableau comparatif des budgets de défense en part du PIB",
+      "Identifier les trois points de passage stratégiques mondiaux les plus critiques",
+      "Évaluer la résilience cyber d'un État à partir d'indicateurs publics"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Normes, droit et institutions : l'ordre en question",
+     "objectif": "Décrypter comment le droit international et les institutions encadrent — ou légitiment — les rapports de force.",
+     "sections": [
+      "6.1 La Charte des Nations unies et ses limites pratiques",
+      "6.2 Conseil de sécurité, veto et réformes bloquées",
+      "6.3 Droit international humanitaire et Cour pénale internationale",
+      "6.4 OMC, FMI, Banque mondiale : gouvernance en crise",
+      "6.5 Institutions régionales : UE, UA, ASEAN, OTAN, OCS",
+      "6.6 Normes privées, standards techniques et régulation de fait"
+     ],
+     "exercices": [
+      "Cartographier les vetos au Conseil de sécurité sur 20 ans par thématique",
+      "Lister les accords commerciaux régionaux auxquels un pays participe",
+      "Analyser un cas de sanction internationale sous l'angle de son efficacité"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Les acteurs du jeu mondial",
+   "chapitres": [
+    {
+     "numero": 7,
+     "titre": "L'État-nation : acteur encore central",
+     "objectif": "Réévaluer la pertinence de l'État-nation comme unité d'analyse face à ses contestations internes et externes.",
+     "sections": [
+      "7.1 Genèse westphalienne et diffusion mondiale",
+      "7.2 Souveraineté : juridique, effective, contestée",
+      "7.3 États faillis, fragiles et captifs",
+      "7.4 Nations sans État et séparatismes",
+      "7.5 Fédérations, empires informels et unions",
+      "7.6 L'État à l'ère numérique : souveraineté des données"
+     ],
+     "exercices": [
+      "Classer dix États selon l'indice de fragilité et commenter les tendances",
+      "Cartographier les nations sans État sur un continent choisi",
+      "Analyser un cas de souveraineté numérique récente"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Les États-Unis : hégémonie en question",
+     "objectif": "Évaluer lucidement les forces, faiblesses et dilemmes de la puissance américaine contemporaine.",
+     "sections": [
+      "8.1 Héritage du siècle américain et ordre libéral",
+      "8.2 Atouts structurels : démographie, innovation, alliances",
+      "8.3 Vulnérabilités : polarisation, dette, fatigue stratégique",
+      "8.4 Pivot indo-pacifique et désengagement relatif",
+      "8.5 Dollar, SWIFT et armes financières",
+      "8.6 Scénarios 2030-2050 : repli, renouvellement, contestation"
+     ],
+     "exercices": [
+      "Construire un bilan forces/faiblesses en 10 critères pondérés",
+      "Tracer l'évolution de la part du dollar dans les réserves mondiales",
+      "Simuler deux scénarios de politique étrangère américaine"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "La Chine : puissance montante et modèle alternatif",
+     "objectif": "Comprendre la trajectoire chinoise sans angélisme ni alarmisme, en intégrant ses contradictions internes.",
+     "sections": [
+      "9.1 De l'humiliation du siècle à la renaissance",
+      "9.2 Modèle politique : parti-État, mérite, contrôle",
+      "9.3 Économie : manufacture, dette, immobilier, tech",
+      "9.4 Démographie : fin de la politique de l'enfant unique",
+      "9.5 Nouvelles Routes de la soie et influence globale",
+      "9.6 Taïwan, mers de Chine et rivalité avec les États-Unis"
+     ],
+     "exercices": [
+      "Cartographier les investissements des Routes de la soie par région",
+      "Comparer dette privée chinoise et américaine sur 20 ans",
+      "Analyser un cas d'influence normative chinoise dans une institution"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "L'Europe : puissance normative ou naine stratégique ?",
+     "objectif": "Analyser l'Union européenne comme acteur singulier, entre marché, droit et ambition géopolitique.",
+     "sections": [
+      "10.1 Construction européenne et originalité institutionnelle",
+      "10.2 Puissance normative : RGPD, climat, concurrence",
+      "10.3 Défense européenne : mythes, réalités, avancées",
+      "10.4 Énergie, industrie et dépendances stratégiques",
+      "10.5 Voisinage : Balkans, Méditerranée, Russie",
+      "10.6 Autonomie stratégique : slogan ou projet ?",
+      "10.7 Élargissements et différenciation"
+     ],
+     "exercices": [
+      "Lister les domaines où l'UE produit des normes mondiales",
+      "Comparer les budgets de défense des cinq principaux États membres",
+      "Évaluer l'exposition énergétique d'un État membre"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Russie, Inde, Japon : puissances pivots",
+     "objectif": "Comprendre le rôle spécifique de trois acteurs dont les choix structurent plusieurs régions.",
+     "sections": [
+      "11.1 Russie : empire continental en recomposition",
+      "11.2 Démographie, énergie et complexe militaro-industriel russe",
+      "11.3 Ukraine, OTAN et redéfinition de l'architecture européenne",
+      "11.4 Inde : géant démographique et non-alignement actif",
+      "11.5 Japon : puissance civile et normalisation stratégique",
+      "11.6 Interactions et triangles stratégiques"
+     ],
+     "exercices": [
+      "Comparer les exportations d'armes russes et françaises sur 10 ans",
+      "Cartographier les partenariats stratégiques de l'Inde",
+      "Analyser l'évolution du budget de défense japonais"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Sud global : Afrique, Amérique latine, Moyen-Orient, Asie du Sud-Est",
+     "objectif": "Sortir de la vision périphérique pour lire ces régions comme acteurs à part entière.",
+     "sections": [
+      "12.1 Afrique : démographie, ressources, intégration régionale",
+      "12.2 Moyen-Orient : pétrole, religions, rivalités régionales",
+      "12.3 Amérique latine : cycles politiques et dépendances",
+      "12.4 Asie du Sud-Est : centralité de l'ASEAN",
+      "12.5 BRICS+ et nouvelles coalitions du Sud",
+      "12.6 Non-alignement 2.0 et multi-alignement"
+     ],
+     "exercices": [
+      "Cartographier les adhésions aux BRICS+ et leurs motivations",
+      "Comparer trois pays africains sur diversification économique",
+      "Analyser un cas de multi-alignement au Moyen-Orient"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Les grands enjeux du XXIe siècle",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Climat et ressources : la contrainte absolue",
+     "objectif": "Intégrer la crise climatique comme variable géopolitique de premier ordre, pas seulement environnementale.",
+     "sections": [
+      "13.1 Réchauffement, événements extrêmes et pertes économiques",
+      "13.2 Eau, terres arables et tensions transfrontalières",
+      "13.3 Énergies fossiles : déclin ou rebond ?",
+      "13.4 Transition énergétique et métaux critiques",
+      "13.5 Migrations climatiques et zones inhabitables",
+      "13.6 Négociations climatiques : promesses et effectivité"
+     ],
+     "exercices": [
+      "Évaluer l'exposition climatique d'un pays à horizon 2050",
+      "Cartographier les tensions hydriques transfrontalières",
+      "Lister les métaux critiques et leurs principaux producteurs"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Technologies et souveraineté numérique",
+     "objectif": "Analyser la course aux technologies stratégiques comme nouveau front de la compétition entre puissances.",
+     "sections": [
+      "14.1 Semi-conducteurs : goulots d'étranglement mondiaux",
+      "14.2 Intelligence artificielle : course, régulation, usages",
+      "14.3 5G/6G, cloud et infrastructures critiques",
+      "14.4 Cybersécurité et cyberattaques d'État",
+      "14.5 Espace : orbites, constellations, militarisation",
+      "14.6 Splinternet et fragmentation du numérique mondial"
+     ],
+     "exercices": [
+      "Cartographier la chaîne de valeur des semi-conducteurs",
+      "Comparer trois approches nationales de régulation de l'IA",
+      "Analyser un cas d'attaque cyber attribuée à un État"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Commerce, chaînes de valeur et dérisquage",
+     "objectif": "Comprendre la recomposition des échanges après les chocs des années 2020.",
+     "sections": [
+      "15.1 De la mondialisation heureuse aux chocs en série",
+      "15.2 Découplage, dérisquage, friendshoring",
+      "15.3 Subventions industrielles et retour de la politique industrielle",
+      "15.4 Sanctions économiques : efficacité et effets boomerang",
+      "15.5 Routes commerciales : détroits, canaux, corridors terrestres",
+      "15.6 OMC en crise et accords plurilatéraux"
+     ],
+     "exercices": [
+      "Lister les dix points de passage maritimes les plus critiques",
+      "Évaluer l'effet d'une sanction sur un secteur donné",
+      "Comparer friendshoring et reshoring sur un cas concret"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Énergie : transitions et nouvelles dépendances",
+     "objectif": "Lire les recompositions énergétiques comme facteur de redistribution de la puissance.",
+     "sections": [
+      "16.1 Pétrole : pics, prix et géopolitique du Golfe",
+      "16.2 Gaz naturel : GNL, pipelines et dépendances",
+      "16.3 Nucléaire : renaissance ou déclin ?",
+      "16.4 Renouvelables : solaire, éolien, hydrogène",
+      "16.5 Réseaux électriques et stockage",
+      "16.6 Nouveaux producteurs et nouveaux consommateurs"
+     ],
+     "exercices": [
+      "Tracer le mix énergétique de trois pays et leurs trajectoires",
+      "Cartographier les gazoducs et terminaux GNL d'une région",
+      "Évaluer la dépendance énergétique d'un État membre de l'UE"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Santé, pandémies et sécurité biologique",
+     "objectif": "Intégrer les risques sanitaires comme enjeux géopolitiques à part entière.",
+     "sections": [
+      "17.1 Leçons géopolitiques du Covid-19",
+      "17.2 Souveraineté pharmaceutique et pénuries",
+      "17.3 OMS : gouvernance et réformes",
+      "17.4 Risques biologiques : naturels, accidentels, malveillants",
+      "17.5 Sécurité alimentaire et systèmes agricoles",
+      "17.6 Diplomatie sanitaire et soft power vaccinal"
+     ],
+     "exercices": [
+      "Cartographier les dépendances pharmaceutiques d'un pays",
+      "Analyser un cas de diplomatie vaccinale",
+      "Lister les indicateurs de résilience sanitaire d'un État"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Informations, récits et guerres narratives",
+     "objectif": "Décrypter la bataille des récits comme dimension centrale des rapports de force contemporains.",
+     "sections": [
+      "18.1 Désinformation, ingérence et opérations d'influence",
+      "18.2 Médias d'État et plateformes globales",
+      "18.3 Récits civilisationnels et soft power culturel",
+      "18.4 Universités, recherche et diplomatie du savoir",
+      "18.5 IA générative et nouvelles manipulations",
+      "18.6 Résilience informationnelle et éducation aux médias"
+     ],
+     "exercices": [
+      "Analyser une campagne d'influence documentée",
+      "Cartographier les médias internationaux d'un État",
+      "Évaluer la résilience informationnelle d'un pays"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Méthodes pour analyser sans se tromper",
+   "chapitres": [
+    {
+     "numero": 19,
+     "titre": "Penser en systèmes et en temporalités",
+     "objectif": "Outiller la pensée complexe : systèmes, boucles, temps courts et temps longs.",
+     "sections": [
+      "19.1 Les trois temps de Braudel appliqués à la géopolitique",
+      "19.2 Théorie des systèmes et boucles de rétroaction",
+      "19.3 Cycles longs, cycles Kondratiev et cycles d'hégémonie",
+      "19.4 Événements, tendances, structures : ne pas tout confondre",
+      "19.5 Hasard, contingence et points de bifurcation",
+      "19.6 Pièges de l'analogie historique"
+     ],
+     "exercices": [
+      "Classer dix faits géopolitiques selon les trois temporalités",
+      "Identifier les boucles de rétroaction dans un conflit en cours",
+      "Critiquer trois analogies historiques fréquentes"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Sources, données et esprit critique",
+     "objectif": "Apprendre à trier l'information géopolitique dans un monde saturé.",
+     "sections": [
+      "20.1 Hiérarchie des sources : primaires, secondaires, grises",
+      "20.2 Bases de données publiques de référence",
+      "20.3 Biais cognitifs du lecteur et de l'expert",
+      "20.4 Propagande, communication et langue de bois",
+      "20.5 Vérification des faits et des images",
+      "20.6 Construire une veille géopolitique personnelle"
+     ],
+     "exercices": [
+      "Construire une liste de 20 sources de veille classées par fiabilité",
+      "Vérifier une affirmation géopolitique virale en trois étapes",
+      "Identifier trois biais cognitifs dans un éditorial"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Cartographier pour comprendre",
+     "objectif": "Utiliser la carte comme outil d'analyse, pas seulement d'illustration.",
+     "sections": [
+      "21.1 Pourquoi la carte trahit et pourquoi elle éclaire",
+      "21.2 Projections : Mercator, Peters, polaire et choix politiques",
+      "21.3 Cartes thématiques : densités, flux, réseaux",
+      "21.4 SIG et données géolocalisées accessibles",
+      "21.5 Cartographie des conflits et des frontières disputées",
+      "21.6 Lire une carte de presse avec méthode"
+     ],
+     "exercices": [
+      "Comparer trois projections sur un même sujet",
+      "Réaliser une carte thématique à partir de données ouvertes",
+      "Analyser une carte de presse en cinq questions"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Scénarios et prospective stratégique",
+     "objectif": "Construire des scénarios robustes sans tomber dans la prédiction.",
+     "sections": [
+      "22.1 Prévoir vs prospecter : deux postures différentes",
+      "22.2 Variables structurantes et incertitudes clés",
+      "22.3 Méthode des scénarios : cône, axes, narratives",
+      "22.4 Signaux faibles et wild cards",
+      "22.5 Indicateurs de suivi et révisions",
+      "22.6 Scénarios et aide à la décision"
+     ],
+     "exercices": [
+      "Identifier cinq variables structurantes pour un sujet donné",
+      "Construire quatre scénarios à deux axes",
+      "Définir cinq indicateurs de suivi d'un scénario"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Éthique, neutralité et position du lecteur",
+     "objectif": "Clarifier ce que signifie une lecture neutre et factuelle, sans naïveté sur l'impossibilité d'une pure objectivité.",
+     "sections": [
+      "23.1 Neutralité axiologique : méthode, pas posture morale",
+      "23.2 Distinguer faits, interprétations et jugements",
+      "23.3 Pluralisme des écoles : réalisme, libéralisme, constructivisme",
+      "23.4 Point de vue situé et transparence des présupposés",
+      "23.5 Éviter le cynisme et le moralisme",
+      "23.6 Responsabilité de l'analyste et du lecteur citoyen"
+     ],
+     "exercices": [
+      "Identifier les présupposés d'un article géopolitique",
+      "Relire un même événement sous trois écoles théoriques",
+      "Rédiger une analyse en distinguant faits et jugements"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Agir en citoyen et en professionnel éclairé",
+     "objectif": "Transformer la compréhension du monde en décisions personnelles et professionnelles plus lucides.",
+     "sections": [
+      "24.1 Du diagnostic à la décision : méthode générale",
+      "24.2 Géopolitique pour les entreprises : risques pays et chaînes",
+      "24.3 Investir et épargner en contexte mondial incertain",
+      "24.4 Carrières internationales et mobilités stratégiques",
+      "24.5 Engagement citoyen, vote et débat public",
+      "24.6 Cultiver une curiosité géopolitique durable"
+     ],
+     "exercices": [
+      "Réaliser une analyse de risque pays sur trois pages",
+      "Diversifier un portefeuille fictif selon trois scénarios mondiaux",
+      "Construire un plan de veille géopolitique sur douze mois"
+     ]
+    }
+   ]
+  }
+ ]
+}
