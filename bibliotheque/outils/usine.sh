@@ -35,7 +35,7 @@ json.dump(p,open('plan.json','w'),ensure_ascii=False,indent=1)" 2>/dev/null || {
   [ -s plan.json ] || { echo "[$s] ERREUR plan"; return; }
   # Garde-fou : chaque étape est relancée (reprise) tant qu'il manque des chapitres ; jamais de livre incomplet publié
   for i in 1 2 3; do
-    python3 -u $O/redaction.py plan.json chapitres --parallele 3 >> redaction.log 2>&1
+    python3 -u $O/redaction.py plan.json chapitres --parallele ${PAR:-3} >> redaction.log 2>&1
     attendus=$(python3 -c "import json;p=json.load(open('plan.json'));print(sum(len(x['chapitres']) for x in p['parties'])+2)")
     [ $(ls chapitres/*.md 2>/dev/null | wc -l) -ge $attendus ] && break; sleep 180
   done
@@ -73,21 +73,25 @@ PY
 
 todo=$(python3 -c "
 import json,glob
-for b in json.load(open('$O/sujets.json')):
+import os
+piste=os.environ.get('PISTE','')
+for i,b in enumerate(json.load(open('$O/sujets.json'))):
+    if piste=='A' and i%2: continue
+    if piste=='B' and not i%2: continue
     if not glob.glob('$R/bibliotheque/'+b['slug']+'/*.pdf'): print(b['slug'])")
 set -- $todo
 lot=0
 while [ $# -gt 0 ]; do
-  lot=$((lot+1)); batch="$1 $2 $3 $4 $5"; shift 5 2>/dev/null || shift $#
-  echo "$(date -u +%H:%M) LOT $lot : $batch"
+  lot=$((lot+1)); T=${TAILLE:-5}; batch="${@:1:$T}"; shift $T 2>/dev/null || shift $#
+  echo "$(date -u +%H:%M) LOT $lot${PISTE:+ (piste $PISTE, $DIALAGRAM_MODEL)} : $batch"
   for s in $batch; do livre $s & done; wait
-  cd $R && git add -A bibliotheque && git commit -qm "Bibliothèque : lot automatique ($batch)
+  cd $R && ( flock 9; git add -A bibliotheque && git commit -qm "Bibliothèque : lot automatique ($batch)
 
-Livres rédigés, rectifiés et mis en page par Qwen 3.8 Max Thinking via Dialagram.
+Livres rédigés, rectifiés et mis en page via Dialagram ($DIALAGRAM_MODEL).
 
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01RdzzPjcfx3EDQ99UzoYL5J"
-  for t in 2 4 8 16; do git push -q origin $BR && break; sleep $t; done
+  for t in 2 4 8 16; do git push -q origin $BR && break; sleep $t; done ) 9>/tmp/usine/git.lock
   echo "$(date -u +%H:%M) LOT $lot poussé ($(ls -d $R/bibliotheque/*/controle.json 2>/dev/null | wc -l) livres avec contrôle)"
   cd $W; [ -n "$LOTS" ] && [ $lot -ge $LOTS ] && { echo "PAUSE_APRES_LOT $lot"; exit 0; }
 done

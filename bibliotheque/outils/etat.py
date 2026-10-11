@@ -64,8 +64,13 @@ def livre(slug):
 
 
 def etat():
-    lot_line = next((l for l in reversed(tail(f"{W}/usine.log", 50)) if " LOT " in l and " : " in l), "")
-    lot = lot_line.split(" : ", 1)[1].split() if lot_line else []
+    # dernier lot de chaque piste (A = Qwen, B = second modèle) ; une ligne sans piste compte comme A
+    derniers = {}
+    for l in tail(f"{W}/usine.log", 200):
+        if " LOT " in l and " : " in l:
+            derniers["B" if "(piste B" in l else "A"] = l
+    lot_line = " / ".join(derniers[k] for k in sorted(derniers))
+    lot = [s for k in sorted(derniers) for s in derniers[k].split(" : ", 1)[1].split()]
     sujets = json.load(open(f"{R}/bibliotheque/outils/sujets.json"))
     faits = [json.load(open(f)) for f in glob.glob(f"{R}/bibliotheque/*/controle.json")]
     tourne = subprocess.run(["pgrep", "-f", "usine.sh"], capture_output=True).returncode == 0

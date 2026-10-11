@@ -22,7 +22,7 @@ API_URL = "https://dialagram.me/router/v1/chat/completions"
 MODEL = __import__("os").environ.get("DIALAGRAM_MODEL", "qwen-3.8-max-thinking")
 TIMEOUT_S = 1500
 MAX_ATTEMPTS = 5
-PARALLEL = 3
+PARALLEL = int(__import__("os").environ.get("PAR", "3"))
 WORD_RATIO_MIN = 0.70
 
 BOT_PATTERNS = [
