@@ -1,0 +1,638 @@
+{
+ "titre": "Soleil sur vos comptes",
+ "sous_titre": "Dimensionner, installer et rentabiliser des panneaux solaires pour les particuliers et les petites entreprises — de la première estimation de production aux clés de la mise en service",
+ "bibliographie": [
+  {
+   "auteur": "Soteris A. Kalogirou",
+   "titre": "Solar Energy Engineering: Processes and Systems",
+   "annee": "2009 (2e éd. 2014)",
+   "idee": "Ouvrage de référence couvrant l'ensemble des procédés solaires, thermiques comme photovoltaïques, avec les calculs de conception et d'économie. Il relie systématiquement ressource solaire, capteur, système et performance financière.",
+   "apport": "Structure de dimensionnement rigoureuse (heures équivalentes, pertes, dégradation) et chapitres économie que notre livre adapte en méthode grand public."
+  },
+  {
+   "auteur": "Jim Dunlop",
+   "titre": "Photovoltaic Systems",
+   "annee": "2010 (éditions révisées, à vérifier)",
+   "idee": "Manuel pédagogique de référence pour concevoir, installer et mettre en service des systèmes PV résidentiels et commerciaux, construit autour des normes et de la sécurité. Il traite tout le processus du site jusqu'à l'inspection.",
+   "apport": "Séquence d'installation et checklist de mise en service que nous réutilisons dans les parties 4 et 5."
+  },
+  {
+   "auteur": "Michael Boxwell",
+   "titre": "The Solar Electricity Handbook",
+   "annee": "2012 (éditions annuelles, dernière édition à vérifier)",
+   "idee": "Guide pratique des plus accessibles pour calculer et installer un petit système PV, avec des méthodes de calcul simplifiées et des exemples chiffrés. Orienté décisions concrètes plutôt que théorie.",
+   "apport": "Approche « calcul en 4 formules » du chapitre 3 et ton de l'ouvrage : le lecteur doit pouvoir agir le soir même."
+  },
+  {
+   "auteur": "Daniel Chiras",
+   "titre": "The Homeowner's Guide to Renewable Energy",
+   "annee": "2006 (2e éd. 2011)",
+   "idee": "Montre comment un foyer peut réduire sa facture grâce au solaire (PV et thermique) et aux autres renouvelables, avec des estimations d'économies réalistes. Centré sur la maison individuelle et le retour sur investissement.",
+   "apport": "Angle « économies du foyer » et raisonnement en coût complet sur 20 ans, que nous étendons à la petite entreprise."
+  },
+  {
+   "auteur": "Daniel Chiras",
+   "titre": "Solar Electricity Basics: A Green Energy Guide",
+   "annee": "2020",
+   "idee": "Introduction progressive au photovoltaïque : composants, coûts, production, raccordement, pour un public sans formation technique. Donne un vocabulaire clair et des ordres de grandeur.",
+   "apport": "Vocabulaire de la partie 1 et progression pédagogique (du photon à la facture)."
+  },
+  {
+   "auteur": "Rik DeGunther",
+   "titre": "Solar Power Your Home For Dummies",
+   "annee": "2008 (2e éd. 2010, à vérifier)",
+   "idee": "Grand public : comment économiser sur la facture avec le PV, choisir un installateur, comprendre les aides et éviter les mauvaises surprises. Insiste sur la négociation et la comparaison des devis.",
+   "apport": "Checklists de sélection d'installateur et d'erreurs courantes, réutilisées aux chapitres 10 et 20."
+  },
+  {
+   "auteur": "Ronald A. Messenger, Jerry L. Ventre",
+   "titre": "Photovoltaic System Engineering",
+   "annee": "2003 (2e éd. 2010, à vérifier)",
+   "idee": "Ingénierie appliquée des systèmes PV raccordés au réseau : calculs d'ombrage, conception des strings, protections, codes électriques. Donne les formules derrière les règles pratiques.",
+   "apport": "Dimensionnement électrique (sections, protections, dispositions de raccordement) des chapitres 6, 9 et 15."
+  },
+  {
+   "auteur": "Jonathan R. S. Brownson (dir.)",
+   "titre": "Solar Electric Handbook: Photovoltaic Fundamentals and Applications",
+   "annee": "2014",
+   "idee": "Fondamentaux physiques et applications du PV, avec de nombreux exercices et tableaux de caractéristiques. Édité par l'American Solar Energy Society.",
+   "apport": "Exercices gradués type pour les parties pratiques du livre et rappel des lois de la cellule."
+  },
+  {
+   "auteur": "Godfrey Boyle (dir.)",
+   "titre": "Renewable Energy: Power for a Sustainable Future",
+   "annee": "1996 (3e éd. 2012, date à vérifier)",
+   "idee": "Panorama universitaire des renouvelables : ressources, technologies, intégration au réseau, politiques énergétiques. Compare le solaire aux autres filières.",
+   "apport": "Cadrage système du chapitre 1 (pourquoi le PV et pas une autre option) et discussion sur l'intégration réseau."
+  },
+  {
+   "auteur": "Gilbert M. Masters",
+   "titre": "Renewable and Efficient Electric Power Systems",
+   "annee": "2004 (3e éd. 2013, à vérifier)",
+   "idee": "Traite l'ingénierie des systèmes électriques renouvelables avec dimensionnement économique et calculs de coût actualisé. Particulièrement fort sur les aspects réseau et coûts.",
+   "apport": "Méthode des coûts actualisés et comparaison des scénarios d'investissement (chapitre 12)."
+  },
+  {
+   "auteur": "Hermann Scheer",
+   "titre": "The Solar Economy",
+   "annee": "1999 (éd. anglaise 2002, à vérifier)",
+   "idee": "Vision stratégique d'une transition vers une économie fondée sur le solaire : logique industrielle, politiques publiques, autonomie énergétique. C'est un essai, pas un manuel technique.",
+   "apport": "Argumentaire d'ouverture (partie 1) sur la trajectoire du solaire, sans en faire une démonstration idéologique."
+  },
+  {
+   "auteur": "William H. Kemp",
+   "titre": "The Renewable Energy Handbook",
+   "annee": "2006 (dates d'édition à vérifier)",
+   "idee": "Manuel complet de l'énergie autonome et hors-réseau : dimensionnement de systèmes isolés, batteries, sobriété. Très pratique, orienté projets individuels.",
+   "apport": "Chapitre sur le stockage et l'autonomie (chapitre 7) et la discipline du bilan énergétique."
+  },
+  {
+   "auteur": "Solar Energy International",
+   "titre": "Photovoltaics: Design and Installation Manual",
+   "annee": "1997 (révisions ultérieures, à vérifier)",
+   "idee": "Manuel terrain de l'association Solar Energy International : conception, pose, câblage, tests d'installation PV. Guidé par des professionnels de la formation.",
+   "apport": "Procédures de pose et de contrôle des chapitres 14 à 16."
+  },
+  {
+   "auteur": "John A. Duffie, William A. Beckman",
+   "titre": "Solar Engineering of Thermal Processes",
+   "annee": "1991 (4e éd. 2013)",
+   "idee": "Référence mondiale du solaire thermique : calcul des capteurs, pertes, stockage, boucles d'eau chaude. Un ouvrage exigeant, largement quantitatif.",
+   "apport": "Module solaire thermique et hybride du chapitre 7 (ECS et chauffage d'appoint) ; unique source sérieuse sur le thermique."
+  },
+  {
+   "auteur": "Richard J. Komp",
+   "titre": "Practical Photovoltaics: Electricity from Solar Energy",
+   "annee": "1979 (rééditions ultérieures, à vérifier)",
+   "idee": "Un des premiers ouvrages pratiques sur le PV : calculs de charge, taille de système, dimensionnement hors-réseau. Ancré dans l'usage, pas dans la recherche.",
+   "apport": "Tradition du calcul manuel vérifiable que nous conservons dans tous nos exercices."
+  },
+  {
+   "auteur": "Chetan Singh Solanki",
+   "titre": "Solar Photovoltaics: Fundamentals, Technologies and Applications",
+   "annee": "2009 (2e éd. 2015, à vérifier)",
+   "idee": "Manuel clair sur les fondamentaux, les technologies de cellules/modules et leurs applications. Très utilisé dans l'enseignement technique indien et international.",
+   "apport": "Chapitre 2 : comparer PERC, bifacial, back-contact avec des critères de rendement mesurables."
+  },
+  {
+   "auteur": "Peter Würfel, Uli Würfel",
+   "titre": "Physics of Solar Cells: From Basic Principles to Advanced Concepts",
+   "annee": "2005 (3e éd. 2016, à vérifier)",
+   "idee": "Physique de la cellule solaire, de la jonction p-n aux concepts avancés, dans une démonstration rigoureuse mais pédagogique. Explique les limites théoriques du rendement.",
+   "apport": "Encadré « à quoi servent les 26 % de rendement » du chapitre 1, vulgarisé sans simplisme."
+  },
+  {
+   "auteur": "Vicente Narvarte, Emilio Lorenzo (dir.)",
+   "titre": "Operation and Maintenance of Photovoltaic Systems",
+   "annee": "2012 (à vérifier)",
+   "idee": "Ouvrage collectif sur l'exploitation et la maintenance des centrales PV : monitoring, diagnostics, coûts d'O&M, fiabilité. Concentré sur la phase d'usage.",
+   "apport": "Cadre de maintenance et d'audit du chapitre 18 (incertitude : bibliographie exacte à revérifier avant publication)."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 — Décider : comprendre le solaire chez soi",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le solaire PV sans jargon : de la cellule à la facture",
+     "objectif": "Comprendre le principe physique et toute la chaîne d'un système photovoltaïque pour pouvoir raisonner d'égal à égal avec un installateur et comprendre sa facture. (cible : 3 500 mots)",
+     "sections": [
+      "Photons, silicium, tension : le principe en dix minutes",
+      "Cellule, module, panneau : ce qui se joue à chaque étape",
+      "La chaîne complète : capteur, câble, onduleur, compteur, réseau",
+      "Rendement, température, pertes : les six chiffres qui font la production",
+      "PV, solaire thermique, hybride : quel solaire pour quel besoin",
+      "Ce qui a changé sur le marché : grandes tendances à actualiser",
+      "Vocabulaire minimum en 25 mots (lexique du chapitre)"
+     ],
+     "exercices": [
+      "Cartographier son installation électrique existante (tableau à remplir)",
+      "Chiffrer son rendement perçu : production annuelle ÷ consommation",
+      "Mini-quiz de 10 questions pour valider la compréhension du chapitre"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Technologies et matériel : ce qui change vraiment entre deux devis",
+     "objectif": "Comparer les technologies de modules, d'onduleurs et de batteries, lire une brochure technique et cesser de payer des options qui ne rapportent rien chez soi. (cible : 3 500 mots)",
+     "sections": [
+      "Monocristallin, back-contact, pérovskites : où en est-on vraiment",
+      "PERC, bifacial, panneaux noirs : que valent-ils sur ma toiture",
+      "Wc ou kWh : la confusion qui coûte le plus cher",
+      "Onduleurs en chaîne, micro-onduleurs, optimiseurs : forces et limites",
+      "Stockage : lithium LFP, plomb, hybrides — à quoi ça sert réellement",
+      "Durabilité : garanties 25 ans, dégradation annuelle, puissance résiduelle",
+      "Qualité et certifications : repérer le fournisseur sérieux"
+     ],
+     "exercices": [
+      "Grille de comparaison de trois panneaux réels (modèle fourni)",
+      "Compléter une datasheet d'onduleur : extraire les 15 chiffres clés",
+      "Simuler un scénario micro-onduleur vs onduleur en chaîne sur 10 ans"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Mon gisement : estimer la production de ma toiture",
+     "objectif": "Estimer soi-même, en une heure et sans logiciel payant, le kWh annuel qu'une installation produira réellement, ombres et orientation incluses. (cible : 3 500 mots)",
+     "sections": [
+      "Irradiation, azimut, inclinaison : la règle simple des 30 degrés",
+      "Ombrage : mesurer sans instrument, chemin solaire, arbres, voisins",
+      "Pertes système : câblage, saleté, température, onduleur — le facteur global",
+      "La méthode en une ligne : kWh = Wc × heures équivalentes × pertes",
+      "Vérifier avec les données ouvertes et les estimateurs publics",
+      "Production réelle vs prévision : les écarts types observés",
+      "Toitures particulières : tuile, bac acier, végétalisée, ombrière"
+     ],
+     "exercices": [
+      "Calcul complet d'une maison type de 3 kWc",
+      "Mesure d'ombrage par photo et relevé d'azimut avec une boussole",
+      "Tableau comparatif de trois scénarios d'orientation (sud, sud-est, ouest)"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Règles du jeu : compteur, revente, aides, obligations",
+     "objectif": "Connaître le cadre administratif, tarifaire et normatif général pour planifier son projet sans mauvaise surprise — repères généraux, sans conseil juridique ou fiscal personnalisé. (cible : 3 500 mots)",
+     "sections": [
+      "Autoconsommation et revente d'excédent : les principes généraux",
+      "Raccordement : qui fait quoi, quand, et pourquoi la puissance souscrite compte",
+      "Aides, certificats verts, tarifs : mécanismes types et effets d'échelonnement",
+      "Normes et qualifications : ce qu'exige une installation conforme",
+      "Assurance, garanties, copropriété, servitudes : les questions à poser",
+      "Le parcours type d'un dossier, étape par étape (à vérifier localement)",
+      "Où vérifier : sources officielles et rythme de mise à jour"
+     ],
+     "exercices": [
+      "Reconstituer le parcours administratif complet d'un dossier type",
+      "Liste de 15 questions à poser à sa mairie, assureur et distributeur",
+      "Mise en situation : faire accepter un projet en copropriété (argumentaire écrit)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 — Dimensionner : la méthode, chiffre par chiffre",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Connaître sa consommation comme un ingénieur",
+     "objectif": "Mesurer, comprendre et projeter la consommation électrique d'un foyer ou d'une petite entreprise, profil horaire compris, avant de dimensionner quoi que ce soit. (cible : 3 500 mots)",
+     "sections": [
+      "Facture, relevés, heures creuses : décoder son contrat",
+      "Mesurer au kilowatt près : pince amperemétrique, compteur, profils horaires",
+      "Les grands postes : chauffage, ECS, froid, mobilité, informatique",
+      "Puissance souscrite et pointes : ce qu'on pait vraiment",
+      "Base tarifaire et heures creuses : optimiser son cadre avant de produire",
+      "Construire son bilan annuel et un profil horaire type",
+      "Projection à dix ans : véhicule électrique, pompe à chaleur, climatisation"
+     ],
+     "exercices": [
+      "Relevé de consommation sur 7 jours en tableau horaire",
+      "Décomposer sa consommation en trois postes majeurs (estimation chiffrée)",
+      "Relevé de la puissance appelée et estimation du risque de dépassement"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Dimensionner la puissance : la méthode complète en huit étapes",
+     "objectif": "Fixer le nombre de panneaux, la puissance en Wc et la surface nécessaire pour atteindre un objectif explicite d'autoconsommation ou d'économie. (cible : 3 500 mots)",
+     "sections": [
+      "Fixer l'objectif : couvrir 40 %, 70 % ou 100 % de la consommation",
+      "Étapes 1 et 2 : partir de l'historique et corriger les particularités",
+      "Étapes 3 et 4 : heures équivalentes et facteur de pertes, calcul détaillé",
+      "Étapes 5 et 6 : surface utile, écartement des rangées, contraintes structurelles",
+      "Étapes 7 et 8 : part d'autoconsommation, excédent, surdimensionnement d'hiver",
+      "Cas limites : toiture trop petite, puissance souscrite insuffisante",
+      "Les cinq erreurs classiques du dimensionnement (et comment les détecter)"
+     ],
+     "exercices": [
+      "Dimensionner une maison consommant 6 000 kWh/an, de bout en bout",
+      "Dimensionner un bureau de TPE avec profil plat (méthode adaptée)",
+      "Vérifier la surface disponible à partir d'un plan de toiture schématique",
+      "Tableau de sensibilité : production ±20 % sur les résultats"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Autoconsommation et stockage : dimensionner batterie et pilotage",
+     "objectif": "Dimensionner une batterie — ou décider de ne pas en acheter — et choisir les bons leviers d'autoconsommation sans surpayer. (cible : 3 500 mots)",
+     "sections": [
+      "Pourquoi stocker : arbitrage jour nuit, continuité, autonomie",
+      "Calcul de capacité utile : profondeur de décharge, cycles, rendement d'usine",
+      "Dimensionner une batterie pour un objectif précis (couvrir une nuit, un pic)",
+      "BMS, chimie LFP, garanties cycles : ce qui compte vraiment",
+      "Onduleur hybride : couplé DC ou couplé AC, conséquences pratiques",
+      "Stockage par la chaleur : piloter ECS, borne de recharge, pompe à chaleur",
+      "PV et solaire thermique combinés : le calcul de la boucle d'eau chaude"
+     ],
+     "exercices": [
+      "Calculer la capacité nécessaire pour couvrir 18 h de veille",
+      "Comparatif batterie vs pilotage de charges sur 10 ans (tableau)",
+      "Calculer la part d'autoconsommation maximale atteignable chez soi"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Dimensioner pour une petite entreprise : atelier, commerce, bureau, ferme",
+     "objectif": "Adapter la méthode de dimensionnement aux profils professionnels : horaires, machines, froid, saisonnalité et contraintes de toiture. (cible : 3 500 mots)",
+     "sections": [
+      "Profils types : atelier du samedi, boulangerie, bureau, PME agricole, restaurant",
+      "Charge de pointe vs énergie : facteur de puissance, démarrages moteurs",
+      "La fenêtre 8 h – 18 h : recouvrement entre production et consommation",
+      "Grandes toitures professionnelles : bac acier, sécurité incendie, portée",
+      "Raccordement, contrat et risque de dépassement de puissance souscrite",
+      "Dimensionner pour le froid et la climatisation : saisonnalité inversée",
+      "Scénarios 10, 30 et 100 kWc : règles de poigne et points durs"
+     ],
+     "exercices": [
+      "Construire le profil horaire d'une PME et identifier la fenêtre solaire",
+      "Calculer le taux de recouvrement production/consommation",
+      "Dimensionner trois scénarios de puissance et comparer les résultats",
+      "Comparer le retour sur investissement de trois tailles d'installation"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 — Choisir et budgéter : matériel, prestataires, argent",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Lire une datasheet d'onduleur et de panneau comme un pro",
+     "objectif": "Extraire en dix minutes les quinze chiffres qui déterminent réellement le rendement d'une installation, et repérer les brochures qui cachent leurs données. (cible : 3 500 mots)",
+     "sections": [
+      "Tension à vide, courant, points de puissance maximale : les bases",
+      "Rendement d'onduleur et courbe de rendement : lire le graphique",
+      "Pertes de température et coefficients : le panneau n'est pas toujours à 25 °C",
+      "Strings et plage MPPT : calculer le nombre de modules par entrée",
+      "Indices de protection, IK, résistance mécanique, connectique",
+      "Efficacité, rétrogradation en température, performances partielles",
+      "Garanties, dégradation annuelle, puissance résiduelle garantie"
+     ],
+     "exercices": [
+      "Compléter une grille comparant trois onduleurs réels",
+      "Calculer la tension et le courant d'une chaîne de modules",
+      "Interpréter une courbe de rendement et en déduire l'énergie perdue",
+      "Repérer les cinq informations manquantes d'une brochure commerciale"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Kit, auto-installation, artisan local, entreprise généraliste",
+     "objectif": "Choisir la formule d'achat adaptée à ses compétences, son temps et son niveau de risque, puis comparer des devis de façon strictement objective. (cible : 3 500 mots)",
+     "sections": [
+      "Les quatre modèles d'achat et ce qu'ils incluent réellement",
+      "Auto-installation : compétences requises et limites à connaître",
+      "Kits : ce qui manque le plus souvent (étude, raccordement, conformité)",
+      "Choisir un installateur : agréments, références, visites de chantiers",
+      "Déchiffrer et comparer trois devis ligne à ligne",
+      "Négociation : leviers réels, faux arguments, impasses",
+      "Quand passer par un bureau d'études — et ce que ça coûte"
+     ],
+     "exercices": [
+      "Grille de scoring en 20 critères pour départager trois installateurs",
+      "Mettre trois devis côte à côte sur un tableau comparatif fourni",
+      "Rédiger une liste de 25 questions pour l'entretien avec une entreprise",
+      "Estimer sa propre charge de travail (en heures) selon chaque formule"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Financer l'installation : budget, aides, crédit, tiers-investissement",
+     "objectif": "Construire le budget complet d'un projet et comprendre les mécanismes de financement possibles — repères généraux, sans conseil fiscal ou financier personnalisé. (cible : 3 500 mots)",
+     "sections": [
+      "Le budget complet : matériel, pose, électricien, compteur, raccordement, batterie",
+      "Fourchettes de prix et les six facteurs qui les font varier",
+      "Aides et crédits d'impôt : mécanismes types, calendrier et conditions",
+      "Deux modèles de revenus : l'économie consommée et l'énergie vendue",
+      "Crédit, leasing, contrat de performance, tiers-investissement : la logique de chacun",
+      "Budget professionnel : montages dédiés et arbitrages de trésorerie",
+      "Suivre son budget : tableur simple et jalons de paiement"
+     ],
+     "exercices": [
+      "Établir le budget complet d'une installation de 6 kWc",
+      "Comparer un achat comptable et un crédit sur 10 ans (tableau fourni)",
+      "Liste de vérification des aides applicables (sources à consulter)",
+      "Plan de trésorerie trimestriel pour une TPE de 30 kWc"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Business plan solaire : VAN, TRI, seuil de rentabilité, sensibilité",
+     "objectif": "Évaluer la rentabilité d'un projet avec les bons indicateurs, des hypothèses conservatrices, et savoir renoncer quand le calcul ne tient pas. (cible : 3 500 mots)",
+     "sections": [
+      "Les flux de trésorerie : investissement, économies, revente, maintenance, remplacement",
+      "VAN et taux de rendement interne expliqués, calcul pas à pas",
+      "Le tampon de prudence : ajouter 10 % pour dormir tranquille",
+      "Durée de vie, dégradation annuelle, inflation : fixer les hypothèses",
+      "Tableur de sensibilité : tester le pessimiste, l'optimiste, le probable",
+      "Seuil de rentabilité et délai de retour : interprétation honnête",
+      "Quand le projet n'est pas rentable — et pourquoi attendre est une décision"
+     ],
+     "exercices": [
+      "Calculer VAN et TRI dans un tableur à partir du modèle fourni",
+      "Construire un tableau de sensibilité à ±30 % sur production et prix",
+      "Rédiger un scénario pessimiste complet",
+      "Produire un résumé d'une page exploitable pour un banquier ou un comité"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 — Installer : du chantier à la réception",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Préparer le chantier : étude de site, structure, sécurité",
+     "objectif": "Préparer une installation sûre et durable : vérifier la toiture, calculer les structures, organiser la sécurité avant le premier panneau posé. (cible : 3 500 mots)",
+     "sections": [
+      "Visite de toiture : état de la couverture, charpente, étanchéité",
+      "Charges et efforts de vent : dimensionner rails et fixations",
+      "Tracé des câbles, passages, protections mécaniques",
+      "Sécurité au travail : équipements, travail en hauteur, consignation, météo",
+      "Outillage et instruments de mesure nécessaires",
+      "Plan d'exécution et ordre optimal des opérations",
+      "Coordination : couvreur, électricien, distributeur, maître d'ouvrage"
+     ],
+     "exercices": [
+      "Renseigner une fiche de visite technique complète (modèle fourni)",
+      "Dessiner un plan d'implantation coté de son propre toit",
+      "Construire une liste de contrôle santé-sécurité pour le chantier",
+      "Établir un rétroplanning de préparation sur quatre semaines"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "La pose : toiture tuile, bac acier, au sol — gestes et séquences",
+     "objectif": "Maîtriser les séquences de pose mécanique selon le support, sans oublier les détails qui causent les infiltrations et les pertes de production. (cible : 3 500 mots)",
+     "sections": [
+      "Toiture tuile : crochets, rails, relevage, intégration de l'étanchéité",
+      "Bac acier : fixations étanches sans fragiliser l'âme",
+      "Au sol : ballast, orientation, ventilation, sécurité accès",
+      "Serrage, couple, alignement : les valeurs à ne jamais forcer",
+      "Câblage DC : section des conducteurs, borniers, repérage",
+      "Mise à la terre, équipotentialité, liaison des masses",
+      "Contrôle intermédiaire et photos de chantier : le dossier de suivi"
+     ],
+     "exercices": [
+      "Rédiger une procédure de pose en 12 actions numérotées",
+      "Calculer le couple de serrage à partir des données fabricant",
+      "Checklist de contrôle du câblage DC avant fermeture",
+      "Mise en situation : corriger une ombre portée découverte le jour de la pose"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Électricité : onduleur, tableau, protections, raccordement",
+     "objectif": "Réaliser les raccordements électriques et protéger correctement l'installation côté DC et côté AC. (cible : 3 500 mots)",
+     "sections": [
+      "Architecture : câblage DC, câblage AC, tableau dédié, coupe-circuit",
+      "Sectionneurs, fusibles DC, parafoudre, disjoncteurs : à quoi sert chacun",
+      "Raccorder l'onduleur et régler ses modes de fonctionnement",
+      "Raccordement au réseau et points de coupure visibles et identifiés",
+      "Compteur bidirectionnel : suivi des échanges et relevés",
+      "Cas particuliers : triphasé, groupe électrogène, mise à la terre renforcée",
+      "Consignation et vérifications avant mise sous tension"
+     ],
+     "exercices": [
+      "Dessiner le schéma unifilaire complet d'une maison avec PV",
+      "Sélectionner les protections dans un tableau à trous (exercice corrigé)",
+      "Liste de vérification de 30 points avant la mise sous tension",
+      "Quiz sécurité : détecter dix situations dangereuses sur des photos descriptives"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Mise en service, essais, réception : la checklist finale",
+     "objectif": "Valider le bon fonctionnement de l'installation, mesurer sa performance réelle et constituer un dossier de réception complet et opposable. (cible : 3 500 mots)",
+     "sections": [
+      "Procédure de mise en service du fabricant, pas à pas",
+      "Essais : isolement, continuité, polarité, vérifications réglementaires",
+      "Paramétrage de l'onduleur et enregistrement de ses valeurs",
+      "Contrôle de performance : premiers kilowattheures et comparaison au prévisionnel",
+      "Réception client : checklist de livraison, manuels, garanties enregistrées",
+      "Dossier administratif complet : conformité, assurance, mise à jour",
+      "Première semaine de suivi : les huit anomalies les plus fréquentes"
+     ],
+     "exercices": [
+      "Rédiger une fiche de mise en service signable",
+      "Tenir un relevé de production des 72 premières heures",
+      "Assembler un dossier de réception complet (liste de pièces)",
+      "Tenir un journal des anomalies et de leur diagnostic"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 — Exploiter et rentabiliser sur la durée",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Autoconsommation intelligente : décaler les charges, pas seulement produire",
+     "objectif": "Augmenter la part d'autoconsommation de 20 à 40 points grâce au pilotage des usages, sans acheter un seul panneau supplémentaire. (cible : 3 500 mots)",
+     "sections": [
+      "Pourquoi le pilotage change tout : l'heure creuse du soleil",
+      "Décaler : eau chaude, lave-linge, borne de recharge, petit électroménager",
+      "Automatiser : relais, variateurs, scénarios programmés",
+      "Limiter la pointe : gérer la puissance appelée en temps réel",
+      "Suivi en temps réel : ce qu'un monitoring bien réglap apporte réellement",
+      "Coupure sélective vs confort : arbitrer sans se priver",
+      "Côté TPE : compresseur, soudure, froid — produire quand on consomme"
+     ],
+     "exercices": [
+      "Construire un plan de décalage horaire avant/après",
+      "Calculer le gain de part d'autoconsommation obtenu",
+      "Programmer un scénario de pilotage (trame de paramétrage)",
+      "Bilan chiffré de 14 jours de monitoring"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Maintenance, suivi, garanties : durer vingt-cinq ans",
+     "objectif": "Mettre en place un régime de maintenance simple, mesurable et rentable, et savoir réclamer au titre des garanties. (cible : 3 500 mots)",
+     "sections": [
+      "Nettoyage : utile ou inutile ? conditions, méthode, limites",
+      "Inspections périodiques : visuel, serrages, connexions, essai thermique",
+      "Monitoring : courbes, alertes, diagnostic à distance",
+      "Pannes typiques : onduleur, optimiseurs, diodes, câbles, connecteurs",
+      "Garantie produit, garantie performance, garantie pose : s'y retrouver",
+      "Contenu d'un bon contrat de maintenance et de son prix",
+      "L'entretien annuel en 20 minutes : procédure chronométrée"
+     ],
+     "exercices": [
+      "Établir un calendrier annuel de maintenance (tableau)",
+      "Interpréter un relevé thermique : repérer les trois défauts",
+      "Rédiger une lettre de réclamation en garantie",
+      "Évaluer deux offres de contrat d'entretien"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Cas concrets et chiffres : du particulier à la TPE",
+     "objectif": "Ancrer la méthode dans des cas types chiffrés, pour que le lecteur reconnaisse son propre projet et puisse en vérifier les chiffres. (cible : 3 500 mots)",
+     "sections": [
+      "Maison individuelle de 120 m², 5 500 kWh : dimensionnement et résultats",
+      "Logement partiellement ombragé : alternatives et limites",
+      "Atelier de TPE : 36 kWc sur bac acier, retour sur 20 ans",
+      "Commerce alimentaire avec froid : frigorigène et autoconsommation estivale",
+      "Agriculture : ombrière et production sur terrain dédié",
+      "Copropriété et association : projet partagé, répartition des kWh",
+      "Tableau comparatif des cas : investissement, production, TRI, délai"
+     ],
+     "exercices": [
+      "Refaire le calcul complet de deux cas",
+      "Corriger une installation sous-dimensionnée (diagnostic sur données fournies)",
+      "Rédiger une fiche synthétique d'un cas (une page)",
+      "Comparer trois cas sur 20 ans dans un tableur"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Pièges, arnaques et points de rupture : l'audit avant et après",
+     "objectif": "Repérer les risques, auditer une installation décevante et conduire un litige avec des preuves solides. (cible : 3 500 mots)",
+     "sections": [
+      "Arnaques courantes et signaux d'alerte immédiats",
+      "Sous-dimensionnement et surpromesse de production",
+      "Erreurs de raccordement, défauts d'arc et sécurité DC",
+      "Toitures mal traitées : infiltrations, garanties du couvreur",
+      "Le risque installateur : entreprise défaillante, SAV orphelin",
+      "Litiges : constituer les preuves, écrire, saisir un médiateur",
+      "Audit en 10 points : la procédure complète"
+     ],
+     "exercices": [
+      "Analyser une courbe de production anormale et en déduire trois hypothèses",
+      "Trier les lignes inutiles ou surévaluées de trois devis",
+      "Rédiger un courrier structuré réclamant une mise en conformité",
+      "Utiliser la grille de détection d'arnaques sur quatre cas présentés"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 6 — Accélérer : projet, métier, horizon",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Le plan de projet : de l'étude aux clés en 90 jours",
+     "objectif": "Fournir un rétroplanning opérationnel, phase par phase, pour mener un projet de bout en bout avec un minimum de retard. (cible : 3 500 mots)",
+     "sections": [
+      "Phases, jalons et chemin critique : le Gantt simplifié",
+      "Semaines 1-2 : audit énergétique et faisabilité",
+      "Semaines 3-4 : devis, comparaison, décision",
+      "Semaines 5-6 : administratif, commandes, réservation du poseur",
+      "Semaines 7-8 : préparation et pose",
+      "Semaine 9 : mise en service, réception, ouverture des garanties",
+      "Gérer les aléas : délais d'approvisionnement, météo, indisponibilités"
+     ],
+     "exercices": [
+      "Construire un Gantt de 90 jours à partir du modèle fourni",
+      "Identifier les six tâches critiques de son propre projet",
+      "Planifier sa charge personnelle et son budget récapitulatif",
+      "Rédiger une définition de « terminé » pour chaque phase"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Au-delà de sa toiture : projets partagés et collectifs",
+     "objectif": "Envisager les modèles élargis — autoconsommation collective, projet à plusieurs, terrain dédié — et comprendre quand ils deviennent intéressants. (cible : 3 500 mots)",
+     "sections": [
+      "Autoconsommation collective : principe, intérêts, contraintes",
+      "Projet sur terrain, long bail, ombrière : autres implantations",
+      "Copropriété et immeuble : convaincre et faire voter",
+      "Achat groupé et contrat de performance : la grande idée en pratique",
+      "Multi-sites et report de charge entre bâtiments",
+      "Gouvernance : répartir les kilowattheures entre participants",
+      "Les cas où il faut renoncer : critères d'arrêt"
+     ],
+     "exercices": [
+      "Calculer la répartition des kWh pour six ménages sur une année",
+      "Écrire l'argumentaire d'une réunion de copropriété",
+      "Constituer un dossier projet de cinq pages",
+      "Rédiger un plan de communication pour lancer un projet collectif"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "En faire un métier ou un service : petite entreprise et compétences",
+     "objectif": "Pour les TPE du solaire ou celles qui veulent y entrer : cartographier les métiers, construire une offre et conquérir une clientèle locale. (cible : 3 500 mots)",
+     "sections": [
+      "Les métiers du PV : installateur, maintenance, étude, conseil",
+      "Qualifications, formations et parcours (cadre à vérifier selon les pays)",
+      "Construire une offre clé en main pour les PME",
+      "Acquisition client : preuve, réseau local, devis transparent",
+      "Prix, marge, sous-traitance : tenir un modèle économique sain",
+      "Qualité et réputation : service après-vente, garanties, avis",
+      "Faire évoluer l'offre : stockage, borne de recharge, pilotage"
+     ],
+     "exercices": [
+      "Rédiger une proposition commerciale type (trame complète)",
+      "Calculer sa marge et son seuil de rentabilité d'activité",
+      "Élaborer un plan de développement sur 12 mois",
+      "Préparer un script d'entretien de qualification client"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Horizon : batteries, véhicules, réseau intelligent — préparer 2030",
+     "objectif": "Conclure par une feuille de route individuelle et les tendances à surveiller, pour que l'installation reste pertinente dans dix ans. (cible : 3 500 mots)",
+     "sections": [
+      "Batteries : coût décroissant, nouvelles chimies, seconde vie",
+      "Véhicule électrique : la batterie mobile qui change le calcul",
+      "Compteur communicant, tarifs dynamiques, pilotage automatique",
+      "Recharge intelligente : le nouveau levier d'autoconsommation",
+      "Hydrogène et réseaux locaux : à quoi ça sert (et pas encore)",
+      "Feuille de route à trois ans : que faire maintenant, que reporter",
+      "Synthèse des 24 chapitres : les dix règles de l'ouvrage"
+     ],
+     "exercices": [
+      "Rédiger sa feuille de route personnelle à trois ans",
+      "Construire sa veille : les dix sources à suivre",
+      "Formuler ses dix règles personnelles tirées du livre",
+      "Simuler l'effet d'un tarif dynamique sur son profil de consommation"
+     ]
+    }
+   ]
+  }
+ ]
+}
