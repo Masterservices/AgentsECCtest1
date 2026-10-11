@@ -79,6 +79,7 @@ for i,b in enumerate(json.load(open('$O/sujets.json'))):
     if piste=='A' and i%2: continue
     if piste=='B' and not i%2: continue
     if not glob.glob('$R/bibliotheque/'+b['slug']+'/*.pdf'): print(b['slug'])")
+[ -n "$SLUGS" ] && todo="$SLUGS"   # cibler des livres précis
 set -- $todo
 lot=0
 while [ $# -gt 0 ]; do
