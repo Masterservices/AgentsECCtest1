@@ -1,0 +1,546 @@
+{
+ "titre": "Manger sans décider",
+ "sous_titre": "L'architecture de la délégation : comment concevoir un système qui choisit à votre place pour enfin bien manger.",
+ "bibliographie": [
+  {
+   "auteur": "James Clear",
+   "titre": "Un rien peut tout changer (Atomic Habits)",
+   "annee": "2018",
+   "idee": "L'environnement et les systèmes battent la motivation et la volonté.",
+   "apport": "Concevoir un espace alimentaire qui impose les bons choix par défaut."
+  },
+  {
+   "auteur": "Richard Thaler et Cass Sunstein",
+   "titre": "Nudge",
+   "annee": "2008",
+   "idee": "L'architecture du choix oriente les décisions via des incitations douces et des options par défaut.",
+   "apport": "Créer des nudges alimentaires personnels à la maison et dans ses routines."
+  },
+  {
+   "auteur": "Roy Baumeister et John Tierney",
+   "titre": "Willpower",
+   "annee": "2011",
+   "idee": "La volonté est une ressource épuisable soumise à la fatigue décisionnelle.",
+   "apport": "Justifier la délégation pour économiser l'énergie cognitive sur les repas."
+  },
+  {
+   "auteur": "Charles Duhigg",
+   "titre": "Le Pouvoir des habitudes",
+   "annee": "2012",
+   "idee": "Les habitudes fonctionnent en boucle (signal, routine, récompense) et peuvent être reprogrammées.",
+   "apport": "Automatiser les courses et la préparation des repas via des boucles solides."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Système 1 / Système 2 : Les deux vitesses de la pensée",
+   "annee": "2011",
+   "idee": "Le cerveau évite l'effort cognitif et privilégie le Système 1 (rapide et intuitif).",
+   "apport": "Déléguer les choix alimentaires au Système 1 via des routines sans friction."
+  },
+  {
+   "auteur": "Michael Pollan",
+   "titre": "Le dilemme de l'omnivore",
+   "annee": "2008",
+   "idee": "Simplifier les règles alimentaires évite la paralysie de l'analyse face à l'abondance.",
+   "apport": "Établir des heuristiques strictes pour déléguer le tri et le choix des aliments."
+  },
+  {
+   "auteur": "Brian Wansink",
+   "titre": "Mindless Eating",
+   "annee": "2006",
+   "idee": "On mange avec nos yeux et notre environnement immédiat (note : concept fondateur malgré des études controversées).",
+   "apport": "Reconfigurer les placards, le frigo et les contenants pour déléguer à l'espace."
+  },
+  {
+   "auteur": "Tim Ferriss",
+   "titre": "La Semaine de 4 heures",
+   "annee": "2007",
+   "idee": "L'automatisation et la délégation des tâches à faible valeur ajoutée libèrent du temps.",
+   "apport": "Déléguer les courses, la planification et la cuisine à des tiers ou des services."
+  },
+  {
+   "auteur": "David Allen",
+   "titre": "S'organiser pour réussir (GTD)",
+   "annee": "2001",
+   "idee": "Le cerveau sert à avoir des idées, pas à les retenir ; il faut externaliser l'organisation.",
+   "apport": "Externaliser la planification des menus dans un système fiable et hors du cerveau."
+  },
+  {
+   "auteur": "BJ Fogg",
+   "titre": "Tiny Habits",
+   "annee": "2019",
+   "idee": "Ancrer de nouveaux micro-comportements à des routines existantes garantit leur pérennité.",
+   "apport": "Protocoles d'ancrage pour les micro-décisions alimentaires quotidiennes."
+  },
+  {
+   "auteur": "Gretchen Rubin",
+   "titre": "Better Than Before",
+   "annee": "2015",
+   "idee": "La stratégie de la commodité : nous faisons naturellement ce qui est facile et accessible.",
+   "apport": "Rendre la bonne décision alimentaire inévitable en réduisant sa friction à zéro."
+  },
+  {
+   "auteur": "Kelly McGonigal",
+   "titre": "The Willpower Instinct",
+   "annee": "2011",
+   "idee": "Le stress et la charge cognitive tuent l'autocontrôle et poussent aux choix de facilité.",
+   "apport": "Gérer la charge mentale globale pour préserver les décisions critiques de santé."
+  },
+  {
+   "auteur": "Gary Keller",
+   "titre": "The ONE Thing",
+   "annee": "2013",
+   "idee": "Se concentrer sur l'essentiel et éliminer ou déléguer le reste maximise les résultats.",
+   "apport": "Identifier les 20 pourcent des choix alimentaires qui donnent 80 pourcent des résultats santé."
+  },
+  {
+   "auteur": "Evelyn Tribole et Elyse Resch",
+   "titre": "Intuitive Eating",
+   "annee": "1995",
+   "idee": "Écouter les signaux internes du corps plutôt que de suivre des règles externes rigides.",
+   "apport": "Savoir quand arrêter de déléguer pour garder le contrôle sur la satiété et le plaisir."
+  },
+  {
+   "auteur": "Dan Ariely",
+   "titre": "C'est (vraiment ?) moi qui décide",
+   "annee": "2008",
+   "idee": "Les options par défaut et le contexte émotionnel dictent nos choix irrationnels.",
+   "apport": "Configurer les abonnements et les paniers types comme options par défaut absolues."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 : Le Mythe de la Volonté et la Fatigue Décisionnelle",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'illusion du choix quotidien",
+     "objectif": "Démontrer que décider de chaque repas est un piège moderne et introduire la nécessité de l'automatisation (Visée : 3500 mots).",
+     "sections": [
+      "Le mythe du mangeur parfait et omniscient",
+      "L'explosion de l'offre alimentaire et la paralysie de l'analyse",
+      "Pourquoi la motivation du lundi matin échoue le mercredi soir",
+      "L'histoire culturelle de la recette et de la planification",
+      "La transition du choix conscient au choix subi",
+      "Introduction au concept d'architecture de délégation"
+     ],
+     "exercices": [
+      "Audit de décision : noter pendant 3 jours chaque micro-choix alimentaire et son niveau de fatigue.",
+      "Calcul du temps mental perdu : estimer les heures annuelles passées à se demander ce que l'on va manger."
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "L'anatomie de la fatigue décisionnelle",
+     "objectif": "Explorer les mécanismes neurologiques de l'épuisement de la volonté face à l'alimentation (Visée : 3500 mots).",
+     "sections": [
+      "Les origines neurologiques de la fatigue décisionnelle",
+      "L'expérience du magasin de confitures et la surcharge cognitive",
+      "Le glucose et l'épuisement du cortex préfrontal",
+      "Comment le stress professionnel sabote le dîner",
+      "L'illusion de la discipline de fer",
+      "Reconnaître ses propres points de rupture décisionnelle"
+     ],
+     "exercices": [
+      "Cartographie de l'énergie : tracer son niveau de volonté heure par heure sur une semaine type.",
+      "Identifier les trois décisions quotidiennes qui épuisent le plus votre jauge de volonté."
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Le coût cognitif de l'assiette",
+     "objectif": "Analyser comment le cerveau traite les choix alimentaires et pourquoi il cherche toujours la facilité (Visée : 3500 mots).",
+     "sections": [
+      "Système 1 et Système 2 face au buffet de la vie",
+      "Les biais cognitifs spécifiques à la faim et à la satiété",
+      "Le marketing alimentaire comme hackeur de Système 1",
+      "Pourquoi les régimes restrictifs augmentent la charge cognitive",
+      "L'asymétrie d'information entre votre cerveau et votre corps",
+      "Réduire le bruit cognitif pour manger en pleine conscience"
+     ],
+     "exercices": [
+      "Test de vulnérabilité : identifier les situations où votre Système 1 prend le contrôle de votre assiette.",
+      "Créer une liste de règles heuristiques simples pour court-circuiter le Système 2."
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Le paradigme de la délégation",
+     "objectif": "Poser les fondations théoriques et pratiques de la délégation comme outil de liberté (Visée : 3500 mots).",
+     "sections": [
+      "Définir la délégation alimentaire : de la contrainte à la liberté",
+      "Les trois piliers de la délégation : espace, temps, autrui",
+      "La différence entre abdiquer et déléguer",
+      "Le retour sur investissement de la charge mentale libérée",
+      "Études de cas : ces gens qui ne décident plus de leurs repas",
+      "Préparer le terrain pour l'implémentation du système"
+     ],
+     "exercices": [
+      "Rédiger son manifeste de délégation : pourquoi je refuse de continuer à choisir chaque repas.",
+      "Lister les 10 décisions alimentaires récurrentes que l'on souhaite éliminer dès cette semaine."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 : Déléguer à l'Environnement : L'Architecture de l'Espace",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Le design de la cuisine : votre premier tiers de confiance",
+     "objectif": "Transformer la cuisine en un environnement qui prend les bonnes décisions à votre place (Visée : 3500 mots).",
+     "sections": [
+      "La cuisine comme cockpit de pilotage automatique",
+      "L'agencement spatial et la loi du moindre effort",
+      "Le design des contenants et l'illusion des portions",
+      "L'éclairage, la température et l'ambiance décisionnelle",
+      "Créer des zones chaudes et des zones froides dans la cuisine",
+      "Le minimalisme fonctionnel appliqué à l'alimentation"
+     ],
+     "exercices": [
+      "Réorganiser le plan de travail pour ne laisser que les aliments et outils favorables.",
+      "Audit des contenants : remplacer les emballages opaques par des bocaux en verre transparents pour les bons aliments."
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "La friction comme levier de contrôle",
+     "objectif": "Utiliser la difficulté d'accès pour décourager les mauvais choix et encourager les bons (Visée : 3500 mots).",
+     "sections": [
+      "Le concept de friction cognitive et physique",
+      "Ajouter des étapes aux mauvaises habitudes",
+      "Supprimer les étapes aux bonnes habitudes",
+      "La règle des 20 secondes de Shawn Achor",
+      "L'architecture de l'invisibilité pour les tentations",
+      "Designer le parcours du mangeur fatigué"
+     ],
+     "exercices": [
+      "Ajouter 3 étapes de friction à la consommation de votre plus grande tentation sucrée.",
+      "Préparer un snack sain qui nécessite zéro étape de préparation au moment de la faim."
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Le placard et le frigo par défaut",
+     "objectif": "Configurer les options par défaut de votre espace de stockage pour garantir la qualité nutritionnelle (Visée : 3500 mots).",
+     "sections": [
+      "Le pouvoir tyrannique de l'option par défaut",
+      "Le frigo : la vitrine de vos décisions futures",
+      "Le placard sec : l'armoire à pharmacie nutritionnelle",
+      "La gestion des stocks et la règle du premier entré",
+      "Éliminer les aliments orphelins et les fausses bonnes idées",
+      "Créer un inventaire visuel infaillible"
+     ],
+     "exercices": [
+      "Vider et réorganiser le frigo selon la hiérarchie de la délégation (les yeux sur le sain).",
+      "Établir une liste d'inventaire minimaliste à coller sur la porte du placard."
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "L'architecture des signaux visuels et sensoriels",
+     "objectif": "Maîtriser les déclencheurs environnementaux qui activent les routines alimentaires (Visée : 3500 mots).",
+     "sections": [
+      "Comment le cerveau scanne l'environnement pour manger",
+      "L'impact des couleurs et de la vaisselle sur la satiété",
+      "Les signaux olfactifs : l'arme secrète de l'anticipation",
+      "Le rôle de la table dressée comme signal de fin de repas",
+      "Détourner les signaux de la malbouffe à la maison",
+      "Créer des ancres visuelles pour l'hydratation et les végétaux"
+     ],
+     "exercices": [
+      "Changer la taille et la couleur des assiettes pour moduler les portions sans y penser.",
+      "Installer une carafe d'eau infusée en permanence dans le champ visuel principal du salon."
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "L'environnement numérique et les pièges de la livraison",
+     "objectif": "Sécuriser l'espace digital contre les algorithmes conçus pour hacker votre faim (Visée : 3500 mots).",
+     "sections": [
+      "Les applications de livraison : des casinos dans votre poche",
+      "Le design des notifications et le déclenchement de la faim artificielle",
+      "Nettoyer son environnement numérique alimentaire",
+      "Configurer les paramètres par défaut des applications saines",
+      "L'impact des réseaux sociaux et du foodporn sur les choix",
+      "Créer une liste blanche d'outils numériques de délégation"
+     ],
+     "exercices": [
+      "Désinstaller ou archiver les applications de livraison rapide dans un dossier caché.",
+      "Configurer des blocages de notifications alimentaires entre 18h et 20h."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 : Déléguer au Temps : Routines, Automatismes et Anticipation",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "La préparation en lot comme machine à remonter le temps",
+     "objectif": "Maîtriser le batch cooking pour transférer la charge décisionnelle du soir au week-end (Visée : 3500 mots).",
+     "sections": [
+      "Le mythe du repas frais préparé à la minute",
+      "Les principes de la préparation en lot (batch cooking)",
+      "Optimiser la conservation et la sécurité alimentaire",
+      "Le design des contenants de stockage pour la réutilisation",
+      "Créer des modules culinaires plutôt que des recettes figées",
+      "Le rituel du dimanche : une séance de délégation hebdomadaire"
+     ],
+     "exercices": [
+      "Planifier une session de batch cooking de 2 heures pour couvrir 4 déjeuners.",
+      "Acheter un set de contenants en verre empilables et identiques pour standardiser le stockage."
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Les routines d'ancrage : automatiser sans y penser",
+     "objectif": "Utiliser les habitudes existantes pour greffer des comportements alimentaires optimaux (Visée : 3500 mots).",
+     "sections": [
+      "La science de l'ancrage comportemental (BJ Fogg)",
+      "Identifier ses routines inoxydables du quotidien",
+      "Greffer l'hydratation et les compléments aux routines du matin",
+      "L'ancrage de la préparation du lendemain sur le rituel du soir",
+      "La règle du 'Après que je..., je vais...'",
+      "Débugger une routine d'ancrage qui échoue"
+     ],
+     "exercices": [
+      "Créer 3 formules d'ancrage pour les micro-décisions (ex: Après avoir allumé la cafetière, je sors les légumes du frigo).",
+      "Tester une routine d'ancrage pendant 7 jours et noter le taux de réussite."
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Le calendrier alimentaire : externaliser la mémoire",
+     "objectif": "Concevoir un système de planification qui ne repose pas sur la mémoire ou l'improvisation (Visée : 3500 mots).",
+     "sections": [
+      "Pourquoi le cerveau déteste planifier dans le vide",
+      "Le calendrier cyclique : la puissance de la répétition thématique",
+      "Les jours de repos décisionnel (ex: le mardi c'est toujours des pâtes)",
+      "Synchroniser le calendrier alimentaire avec l'agenda social",
+      "L'utilisation des outils numériques vs le tableau physique",
+      "Gérer les exceptions et les invitations sans casser le système"
+     ],
+     "exercices": [
+      "Attribuer une thématique fixe à chaque jour de la semaine (ex: Lundi sans viande, Jeudi soupe).",
+      "Imprimer ou créer un tableau de rotation mensuelle à afficher sur le frigo."
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "L'automatisation des courses et des approvisionnements",
+     "objectif": "Éliminer la corvée des courses en créant des flux d'approvisionnement automatiques (Visée : 3500 mots).",
+     "sections": [
+      "Le supermarché : un champ de mines décisionnel",
+      "Créer sa liste de courses permanente et immuable",
+      "L'abonnement aux produits de base (drive, livraison, paniers)",
+      "Le réapprovisionnement juste à temps vs le stock tampon",
+      "Déléguer l'acte d'achat aux applications de liste partagée",
+      "La règle de l'achat impulsif : le délai de 24 heures"
+     ],
+     "exercices": [
+      "Configurer un panier récurrent en ligne pour les 20 produits essentiels de la semaine.",
+      "Créer une liste de courses numérique partagée avec son foyer, classée par rayon."
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "La gestion des imprévus et le protocole d'urgence",
+     "objectif": "Anticiper les pannes du système pour éviter le recours à la volonté en cas de crise (Visée : 3500 mots).",
+     "sections": [
+      "L'inévitable loi de Murphy appliquée à la cuisine",
+      "Le concept de repas tampon (buffer meals) au congélateur",
+      "Le protocole d'urgence à 5 minutes et 3 ingrédients",
+      "La trousse de secours nutritionnelle au bureau et en déplacement",
+      "Gérer la fatigue extrême et les maladies sans commander de malbouffe",
+      "L'audit post-crise : apprendre des pannes du système"
+     ],
+     "exercices": [
+      "Congeler 4 portions de repas de secours lors de la prochaine session de cuisine.",
+      "Constituer une boîte de survie non périssable pour le bureau ou la voiture."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 : Déléguer aux Autres : Tiers de Confiance et Systèmes Externes",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "Le partage de la charge mentale domestique",
+     "objectif": "Répartir la délégation au sein du foyer pour éviter l'épuisement du gestionnaire unique (Visée : 3500 mots).",
+     "sections": [
+      "La charge mentale alimentaire : un fardeau souvent invisible",
+      "Définir les rôles : l'architecte, l'exécutant, le logisticien",
+      "Le tableau de bord partagé du foyer",
+      "Éviter le micro-management culinaire",
+      "La standardisation des attentes pour faciliter la délégation",
+      "Gérer les régimes spécifiques et les allergies dans un système commun"
+     ],
+     "exercices": [
+      "Organiser une réunion de 15 minutes avec le foyer pour attribuer les rôles alimentaires.",
+      "Créer un document partagé listant les 10 repas préférés de chacun pour déléguer le choix."
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Déléguer aux professionnels et aux services",
+     "objectif": "Évaluer et intégrer les services externes (meal prep, nutritionnistes, traiteurs) dans son architecture (Visée : 3500 mots).",
+     "sections": [
+      "Le calcul du coût horaire réel de votre temps de cuisine",
+      "Les services de meal prep : déléguer la cuisine, garder le contrôle",
+      "Le rôle du nutritionniste comme architecte en chef",
+      "Les paniers de recettes : une fausse bonne idée de délégation ?",
+      "Déléguer l'analyse de la data santé aux professionnels",
+      "Créer un cahier des charges pour ses prestataires alimentaires"
+     ],
+     "exercices": [
+      "Calculer son taux horaire net et le comparer au coût d'un service de repas sains livrés.",
+      "Tester un service de meal prep pendant deux semaines et évaluer l'impact sur la charge mentale."
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Le rôle du groupe social et des normes",
+     "objectif": "Utiliser la pression sociale positive et les normes de groupe pour automatiser les bons choix (Visée : 3500 mots).",
+     "sections": [
+      "L'humain comme animal mimétique dans l'assiette",
+      "Rejoindre ou créer des tribus alimentaires alignées",
+      "Le pouvoir des engagements publics et des paris sociaux",
+      "Naviguer dans les restaurants et les dîners entre amis",
+      "Déléguer le choix au menu : la stratégie du premier à commander",
+      "L'influence des collègues de travail sur le déjeuner"
+     ],
+     "exercices": [
+      "Annoncer un objectif alimentaire précis à un groupe d'amis pour créer une pression sociale positive.",
+      "Établir une règle de groupe pour les déjeuners d'équipe (ex: toujours un restaurant avec option saine)."
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "L'IA, les algorithmes et la data au service de l'assiette",
+     "objectif": "Exploiter la technologie pour créer des boucles de rétroaction et des suggestions automatisées (Visée : 3500 mots).",
+     "sections": [
+      "Les trackers de macronutriments : déléguer le calcul mental",
+      "L'IA générative pour créer des listes de courses sur mesure",
+      "Les objets connectés (frigo, balance) comme assistants silencieux",
+      "Utiliser la data de sommeil et de stress pour ajuster l'alimentation",
+      "Les limites de la quantification de soi (orthorexie numérique)",
+      "Configurer son tableau de bord de santé automatisé"
+     ],
+     "exercices": [
+      "Utiliser un prompt d'IA pour générer 5 idées de repas basées sur les restes actuels du frigo.",
+      "Connecter un tracker de sommeil à son journal alimentaire pour identifier les corrélations."
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Éduquer son entourage à votre architecture",
+     "objectif": "Faire accepter et respecter son système de délégation par les invités, la famille élargie et les enfants (Visée : 3500 mots).",
+     "sections": [
+      "Le sabotage involontaire par les proches (la grand-mère et le gâteau)",
+      "Communiquer son architecture sans passer pour un rigide",
+      "Éduquer les enfants à l'autonomie alimentaire structurée",
+      "Gérer les cadeaux alimentaires et les fêtes",
+      "Créer des rituels familiaux qui intègrent la délégation",
+      "Le script de refus poli face aux tentations offertes"
+     ],
+     "exercices": [
+      "Rédiger et mémoriser un script de 2 phrases pour refuser poliment la nourriture hors protocole.",
+      "Organiser un atelier cuisine avec les enfants pour leur apprendre le système de préparation en lot."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 : L'Effet Composé et le Contrôle Stratégique",
+   "chapitres": [
+    {
+     "numero": 20,
+     "titre": "La mathématique des micro-décisions déléguées",
+     "objectif": "Comprendre comment l'accumulation de petits choix automatisés crée des résultats massifs (Visée : 3500 mots).",
+     "sections": [
+      "La théorie de l'effet composé appliqué à la nutrition",
+      "Calculer l'impact d'une délégation de 100 calories par jour",
+      "L'asymétrie des gains : les choix qui rapportent exponentiellement",
+      "La patience comme vertu de l'architecte",
+      "Visualiser la trajectoire à 1 an, 5 ans, 10 ans",
+      "Célébrer les victoires invisibles du système"
+     ],
+     "exercices": [
+      "Calculer l'impact annuel d'une micro-décision déléguée (ex: remplacer le jus par de l'eau).",
+      "Créer un graphique visuel de sa trajectoire de santé projetée sur 5 ans grâce au système."
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Les revues d'effet composé : auditer son système",
+     "objectif": "Mettre en place des rituels de maintenance pour ajuster l'architecture sans la重建ir (Visée : 3500 mots).",
+     "sections": [
+      "Pourquoi les systèmes s'entropisent avec le temps",
+      "La revue hebdomadaire de 10 minutes",
+      "L'audit trimestriel des placards et des routines",
+      "Analyser les frictions qui sont réapparues",
+      "Ajuster le système en fonction des saisons et de la vie",
+      "Le carnet de bord de l'architecte alimentaire"
+     ],
+     "exercices": [
+      "Bloquer 15 minutes dans l'agenda du dimanche soir pour la revue hebdomadaire du système.",
+      "Répondre à 3 questions d'audit : Qu'est-ce qui a bien marché ? Qu'est-ce qui a bloqué ? Que dois-je automatiser ?"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Garder le contrôle là où il compte vraiment",
+     "objectif": "Identifier les zones où la délégation doit s'arrêter pour laisser place à l'intuition et au plaisir (Visée : 3500 mots).",
+     "sections": [
+      "Les limites de l'automatisation : quand le robot mange à votre place",
+      "La satiété et le plaisir : des données que seul le corps possède",
+      "Réintégrer la pleine conscience dans le repas délégué",
+      "La règle du 80/20 : déléguer la structure, choisir l'exception",
+      "Éviter la déconnexion corps-esprit (mindless eating sain)",
+      "Le repas social comme espace de liberté totale"
+     ],
+     "exercices": [
+      "Pratiquer un repas par semaine en pleine conscience absolue, sans aucune distraction, pour recalibrer la satiété.",
+      "Définir ses 3 règles non négociables de plaisir alimentaire qui échappent au système."
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "L'adaptation et l'évolution du système",
+     "objectif": "Faire évoluer son architecture de délégation face aux grands changements de vie (Visée : 3500 mots).",
+     "sections": [
+      "Le système face à la parentalité et l'arrivée des enfants",
+      "Adapter l'architecture aux changements professionnels et horaires",
+      "Le vieillissement et l'évolution des besoins métaboliques",
+      "Gérer les transitions géographiques et les déménagements",
+      "La modularité du système : changer les pièces sans casser la machine",
+      "Transmettre son architecture aux générations suivantes"
+     ],
+     "exercices": [
+      "Identifier le prochain grand changement de vie anticipé et esquisser l'adaptation du système.",
+      "Créer un module de voyage : la trousse de délégation alimentaire pour les déplacements."
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "La liberté ultime : vivre et manger sans y penser",
+     "objectif": "Conclure sur la philosophie de la délégation comme vecteur de libération mentale et de vie accomplie (Visée : 3500 mots).",
+     "sections": [
+      "Le paradoxe de la contrainte qui crée la liberté",
+      "Ce que l'on fait de l'énergie mentale récupérée",
+      "L'identité du mangeur délégué : de la culpabilité à la fierté",
+      "L'alimentation comme fondation invisible d'une vie réussie",
+      "Le manifeste final de l'architecte de sa propre vie",
+      "Passer à l'action : le premier pas dès la fermeture du livre"
+     ],
+     "exercices": [
+      "Lister 5 projets de vie ou passions que l'on pourra enfin mener grâce à la charge mentale libérée.",
+      "Écrire une lettre à son moi dans un an, décrivant la sérénité alimentaire atteinte grâce au système."
+     ]
+    }
+   ]
+  }
+ ]
+}

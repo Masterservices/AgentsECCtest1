@@ -1,0 +1,570 @@
+{
+ "titre": "Vieillir en se renforçant",
+ "sous_titre": "L'antifragilité appliquée au corps et à l'esprit : tirer parti du stress modéré pour inverser la logique du déclin",
+ "bibliographie": [
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile : Les bienfaits du désordre",
+   "annee": "2012",
+   "idee": "Certains systèmes profitent des chocs, du stress et de la variabilité là où d'autres se brisent ; la fragilité, la robustesse et l'antifragilité forment un spectre.",
+   "apport": "Cadre conceptuel central (fragile/robuste/antifragile) appliqué au vieillissement ; vocabulaire des stress modérés et des queues de distribution."
+  },
+  {
+   "auteur": "David Sinclair",
+   "titre": "Lifespan : Why We Age and Why We Don't Have To",
+   "annee": "2019 (incertitude sur l'édition française)",
+   "idee": "Le vieillissement est une maladie informationnelle réversible via sirtuines, AMPK, mTOR et NAD+ ; l'hormèse active les gènes de survie.",
+   "apport": "Mécanismes cellulaires de l'hormèse (froid, chaleur, jeûne, exercice) comme leviers pratiques."
+  },
+  {
+   "auteur": "Peter Attia",
+   "titre": "Outlive : The Science and Art of Longevity",
+   "annee": "2023",
+   "idee": "Médecine 3.0 : agir tôt sur les quatre cavaliers (cardio, cancer, neurodégénérescence, métabolisme) par exercice, nutrition, sommeil, équilibre émotionnel.",
+   "apport": "Structure d'action préventive et notion de 'marge' (centenarian decathlon) pour calibrer l'entraînement."
+  },
+  {
+   "auteur": "Thomas Kirkwood",
+   "titre": "The End of Age : Why Everything About Aging Almost Everything You Think Is Wrong",
+   "annee": "2000 (date approximative)",
+   "idee": "Théorie du soma jetable : le corps alloue l'énergie entre reproduction et réparation ; l'usure n'est pas programmée mais négligée.",
+   "apport": "Justification biologique du fait que la non-sollicitation dégrade plus que l'âge lui-même."
+  },
+  {
+   "auteur": "Elissa Epel et Elizabeth Blackburn",
+   "titre": "The Telomere Effect",
+   "annee": "2017",
+   "idee": "Le stress chronique raccourcit les télomères, mais le stress aigu maîtrisé et le mode de vie les préservent.",
+   "apport": "Distinction opérationnelle stress bénéfique / stress destructeur et marqueurs psychologiques."
+  },
+  {
+   "auteur": "Edward Calabrese",
+   "titre": "Hormesis : A Revolution in Biology, Toxicology and Risk Assessment",
+   "annee": "2009 (date approximative, recueil d'articles)",
+   "idee": "La réponse biphasique dose-effet (faible dose stimule, forte dose inhibe) est une loi générale du vivant.",
+   "apport": "Principe de dosage et d'exposition graduée appliqué aux protocoles du livre."
+  },
+  {
+   "auteur": "Robert Sapolsky",
+   "titre": "Why Zebras Don't Get Ulcers",
+   "annee": "1994 (rééditions ultérieures)",
+   "idee": "Le stress aigu est adaptatif ; le stress chronique sans récupération use l'organisme via le cortisol.",
+   "apport": "Cadre neuroendocrinien pour le journal de récupération et les repères d'alerte."
+  },
+  {
+   "auteur": "Matthew Walker",
+   "titre": "Why We Sleep",
+   "annee": "2017",
+   "idee": "Le sommeil est le principal levier de réparation cognitive, immunitaire et métabolique ; sa privation accélère le vieillissement.",
+   "apport": "Chapitre dédié à la récupération nocturne comme pilier antifragile."
+  },
+  {
+   "auteur": "John J. Ratey",
+   "titre": "Spark : The Revolutionary New Science of Exercise and the Brain",
+   "annee": "2008",
+   "idee": "L'exercice libère BDNF et agit comme un engrais neuronal, protégeant contre le déclin cognitif.",
+   "apport": "Protocoles d'exercice cognitivement orientés pour seniors."
+  },
+  {
+   "auteur": "Laura Carstensen",
+   "titre": "A Long Bright Future : An Action Plan for Solving the Coming Age Quake",
+   "annee": "2011 (date approximative)",
+   "idee": "Théorie de la sélectivité socio-émotionnelle : avec l'âge, on priorise les relations signifiantes, ce qui améliore le bien-être.",
+   "apport": "Stratégie relationnelle : moins mais mieux, comme facteur de robustesse."
+  },
+  {
+   "auteur": "George E. Vaillant",
+   "titre": "Aging Well : Surprising Guideposts to a Happier Life",
+   "annee": "2002",
+   "idee": "Étude longitudinale Harvard : les mécanismes de défense matures et les relations prédisent la santé plus que les biomarqueurs.",
+   "apport": "Dimension psychologique du vieillissement antifragile."
+  },
+  {
+   "auteur": "Gene D. Cohen",
+   "titre": "The Mature Mind : The Positive Power of the Aging Brain",
+   "annee": "2005",
+   "idee": "Le cerveau âgé développe une intelligence de synthèse et d'intégration (postformal) que les jeunes cerveaux n'ont pas.",
+   "apport": "Valorisation cognitive de l'âge comme atant plutôt que déclin."
+  },
+  {
+   "auteur": "James Fries",
+   "titre": "Articles sur la compression de la morbidité",
+   "annee": "1980 et réactualisations",
+   "idee": "On peut comprimer la période de dépendance en fin de vie en adoptant des habitudes robustes tôt.",
+   "apport": "Justification épidémiologique d'agir maintenant, quel que soit l'âge."
+  },
+  {
+   "auteur": "Luigi Ferrucci (études longitudinales)",
+   "titre": "Travaux sur l'inflammaging",
+   "annee": "2000-2020",
+   "idee": "L'inflammation chronique de bas grade (inflammaging) est le dénominateur commun du vieillissement pathologique.",
+   "apport": "Cible mesurable et justifie les pratiques anti-inflammatoires (sommeil, exercice, diète, lien social)."
+  },
+  {
+   "auteur": "Gabor Maté",
+   "titre": "When the Body Says No",
+   "annee": "2003",
+   "idee": "Le refoulement émotionnel et le stress silencieux usent le corps ; l'authenticité est un facteur de santé.",
+   "apport": "Dimension émotionnelle du journal de récupération et des alertes psychosomatiques."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 — Changer de lentille : vieillir n'est pas subir",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'erreur du déclin automatique",
+     "objectif": "Démonter l'idée reçue selon laquelle vieillir = perdre, en distinguant usure programmée et usure par défaut.",
+     "sections": [
+      "Le mythe de la pente descendante",
+      "Usure programmée vs usure par négligence",
+      "Les données qui contredisent le fatalisme",
+      "L'âge comme variable mal posée",
+      "Ce que la biologie dit vraiment",
+      "Trois histoires qui inversent le récit"
+     ],
+     "exercices": [
+      "Audit de vos croyances sur l'âge",
+      "Liste de vos modèles âgés inspirants",
+      "Reformulation d'une phrase fataliste"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Fragile, robuste, antifragile : trois destins du vivant",
+     "objectif": "Installer le vocabulaire de Taleb appliqué au corps et à l'esprit.",
+     "sections": [
+      "Définition des trois régimes",
+      "Exemples biologiques simples",
+      "Pourquoi la robustesse ne suffit pas",
+      "Le cerf-volant et le vent contraire",
+      "Les systèmes linéaires vs les systèmes convexes",
+      "Repérer vos zones fragiles, robustes, antifragiles"
+     ],
+     "exercices": [
+      "Cartographie personnelle fragile/robuste/antifragile",
+      "Test du petit choc : une micro-perturbation volontaire",
+      "Journal de réaction à un imprévu"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "L'hormèse : quand le stress devient médecine",
+     "objectif": "Expliquer le principe dose-réponse biphasique et son rôle dans le rajeunissement cellulaire.",
+     "sections": [
+      "La courbe en J renversé",
+      "Chaud, froid, jeûne, effort : les quatre hormèses classiques",
+      "Sirtuines, AMPK, mTOR : les interrupteurs",
+      "Pourquoi l'absence de stress est un stress",
+      "Les limites de l'hormèse",
+      "Signaux de dépassement de dose"
+     ],
+     "exercices": [
+      "Choisir une hormèse et la doser sur 7 jours",
+      "Échelle subjective d'effort (1 à 10)",
+      "Carnet de signaux d'alerte"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Stress utile, stress toxique : tracer la ligne",
+     "objectif": "Distinguer stress aigu maîtrisé et stress chronique destructeur.",
+     "sections": [
+      "Le modèle Sapolsky : zèbres et humains",
+      "Cortisol : ami à court terme, ennemi à long terme",
+      "Télomères et charge allostatique",
+      "Le stress subi vs le stress choisi",
+      "La place du sens et du contrôle",
+      "Quand s'arrêter et protéger"
+     ],
+     "exercices": [
+      "Matrice subi/choisi x aigu/chronique",
+      "Identifier 3 sources toxiques récurrentes",
+      "Plan de réduction d'une source toxique"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 — Le corps antifragile : muscles, os, souffle, métabolisme",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "La force n'a pas d'âge",
+     "objectif": "Montrer que la masse musculaire se conserve et se regagne à tout âge par la charge progressive.",
+     "sections": [
+      "Sarcopénie : ce qui est réel, ce qui est mythe",
+      "Muscle = organe de longévité",
+      "Protéines, leucine et anabolisme résistant",
+      "La charge lourde en sécurité",
+      "Progression hebdomadaire",
+      "Adapter quand le corps parle"
+     ],
+     "exercices": [
+      "Test de lever de chaise chronométré",
+      "Programme de force sur 8 semaines",
+      "Carnet de charge et de récupération"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "L'os se renforce quand on le sollicite",
+     "objectif": "Expliquer la loi de Wolff et comment prévenir l'ostéoporose par l'impact et la charge.",
+     "sections": [
+      "L'os, tissu vivant et adaptatif",
+      "Impact, vibration, charge axiale",
+      "Calcium, vitamine D, vitamine K2",
+      "Les sports ostéogéniques",
+      "Contre-indications et précautions",
+      "Suivi médical et DMO"
+     ],
+     "exercices": [
+      "Séance d'impacts modérés 3x/semaine",
+      "Exposition solaire raisonnée",
+      "Journal alimentaire calcium/vitamine D"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Le souffle : VO2max, le marqueur roi",
+     "objectif": "Faire de la capacité aérobie le prédicteur central de longévité en santé.",
+     "sections": [
+      "VO2max : le chiffre qui prédit beaucoup",
+      "Zone 2 : la base invisible",
+      "Zone 5 : le pic qui protège",
+      "Respiration nasale et CO2",
+      "Le test de terrain simple",
+      "Construire sans se blesser"
+     ],
+     "exercices": [
+      "Test de marche de 12 minutes",
+      "Séance type zone 2 (parler/chanter)",
+      "Une séance d'intervalles par semaine"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Métabolisme : garder la flamme",
+     "objectif": "Contrer la résistance à l'insuline liée à l'âge et à la sédentarité.",
+     "sections": [
+      "Le muscle comme éponge à glucose",
+      "Insulinorésistance silencieuse",
+      "Fenêtres alimentaires et repos digestif",
+      "Ordre des aliments et glycémie",
+      "Froid et tissu adipeux brun",
+      "Surveiller sans obséder"
+     ],
+     "exercices": [
+      "Marche de 10 min après les repas",
+      "Semaine d'essai de fenêtre alimentaire",
+      "Journal glycémique subjectif"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Souplesse, équilibre, proprioception : éviter la chute",
+     "objectif": "Préserver la mobilité et prévenir la chute, premier accident du grand âge.",
+     "sections": [
+      "La chute comme événement-cascade",
+      "Proprioception et vision",
+      "Mobilité de hanche et cheville",
+      "Équilibre unipodal quotidien",
+      "Tapis, escaliers, chaussures",
+      "Réagir à un déséquilibre"
+     ],
+     "exercices": [
+      "Brossage de dents sur un pied",
+      "Circuit mobilité 10 min",
+      "Scan de l'habitat (risques de chute)"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Sommeil : la récupération qui refait le corps",
+     "objectif": "Restaurer le sommeil comme levier antifragile numéro un.",
+     "sections": [
+      "Architecture du sommeil qui change avec l'âge",
+      "Lumière, température, horaires",
+      "Caféine, alcool, écrans",
+      "Sieste stratégique",
+      "Apnée et ronflement : dépister",
+      "Quand consulter"
+     ],
+     "exercices": [
+      "Audit lumière du coucher",
+      "Routine du soir en 5 étapes",
+      "Journal de sommeil sur 14 jours"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 — L'esprit qui se renforce : cognition, émotion, sens",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "Le cerveau plastique jusqu'au bout",
+     "objectif": "Contester le mythe du déclin cognitif inéluctable en s'appuyant sur la neuroplasticité adulte.",
+     "sections": [
+      "Neurogenèse adulte : ce qui est prouvé",
+      "Réserve cognitive et densité synaptique",
+      "BDNF et exercice",
+      "Nouveauté, challenge, attention",
+      "Bilinguisme et musique",
+      "Ce qui décline vraiment et comment compenser"
+     ],
+     "exercices": [
+      "Apprendre 20 mots d'une langue en 2 semaines",
+      "Parcours nouveau chaque semaine",
+      "Carnet de nouveautés cognitives"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "La mémoire : entraîner sans tricher",
+     "objectif": "Donner des méthodes de mémorisation adaptées à l'âge.",
+     "sections": [
+      "Mémoire de travail vs mémoire à long terme",
+      "Répétition espacée",
+      "Palais mental et associations",
+      "Le rôle du sommeil dans la consolidation",
+      "Mémoire externe : déléguer au bon outil",
+      "Quand s'inquiéter"
+     ],
+     "exercices": [
+      "Mémoriser une liste de 15 courses",
+      "Installer un système de répétition espacée",
+      "Journal des oublis et contextes"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "L'intelligence de synthèse : l'atout du cerveau âgé",
+     "objectif": "Valoriser la cognition postformale, l'intégration et la sagesse pratique.",
+     "sections": [
+      "Pensée dialectique et nuance",
+      "Reconnaissance de motifs",
+      "Jugement et incertitude",
+      "Mentorat comme gymnastique",
+      "Écrire pour penser",
+      "Défendre ses idées sans rigidité"
+     ],
+     "exercices": [
+      "Écrire un mémo de 500 mots sur un dilemme",
+      "Mentorer une personne plus jeune",
+      "Tenir un carnet de leçons tirées"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Émotions : la courbe en U du bonheur",
+     "objectif": "Utiliser le paradoxe du bien-être à l'âge pour construire une vie émotionnelle robuste.",
+     "sections": [
+      "La courbe en U documentée",
+      "Sélectivité socio-émotionnelle",
+      "Régulation émotionnelle acquise",
+      "Gratitude et attention positive",
+      "Deuil, pertes et reconstruction",
+      "Éviter l'évitement émotionnel"
+     ],
+     "exercices": [
+      "Trois kiffs par jour pendant 30 jours",
+      "Lettre de gratitude envoyée",
+      "Revisiter une perte et en extraire un sens"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Relations : moins mais mieux",
+     "objectif": "Construire un réseau relationnel dense et signifiant, facteur majeur de longévité.",
+     "sections": [
+      "Loneliness comme facteur de mortalité",
+      "Dunbar et les cercles",
+      "Amitiés intergénérationnelles",
+      "Conflits et réparation",
+      "Communautés et engagements",
+      "Numérique : lien ou leurre ?"
+     ],
+     "exercices": [
+      "Cartographie de vos cercles",
+      "Contacter une personne perdue de vue",
+      "Rejoindre une activité collective hebdo"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Sens, projet, rôle : ce qui vous fait lever",
+     "objectif": "Ancrer l'antifragilité psychologique dans un projet qui dépasse le confort.",
+     "sections": [
+      "Ikigai revisité",
+      "Projet vs consommation",
+      "Transmission et legs",
+      "Engagement mesuré",
+      "Échec, recommencement, identité",
+      "Quand le sens change"
+     ],
+     "exercices": [
+      "Écrire votre épitaphe souhaitée",
+      "Définir un projet à 3 ans",
+      "Liste des rôles que vous voulez incarner"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 — Dosages, seuils et récupération",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Le principe de la dose juste",
+     "objectif": "Fournir un cadre pour doser toute sollicitation sans sous- ni sur-dosage.",
+     "sections": [
+      "Minimum efficace, maximum tolérable",
+      "La règle des 80 %",
+      "Variabilité > routine",
+      "Périodisation sur l'année",
+      "Adapter aux saisons de la vie",
+      "Signes de sous-dose chronique"
+     ],
+     "exercices": [
+      "Calculer votre zone 80 % pour 3 activités",
+      "Semaine de variation contrôlée",
+      "Journal d'ennui vs surcharge"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Exposition graduée : la rampe d'accès",
+     "objectif": "Construire des échelles de progression sûres pour toute nouvelle pratique.",
+     "sections": [
+      "Échelle de 1 à 10 d'exposition",
+      "Petits pas et micro-échecs",
+      "Gestion de la peur et du vertige",
+      "Quand monter, quand descendre",
+      "Exemples : froid, hauteur, public",
+      "Suivi et célébration"
+     ],
+     "exercices": [
+      "Construire une échelle personnelle",
+      "Franchir un barreau cette semaine",
+      "Carnet de bravoure"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Récupération : la moitié cachée de l'entraînement",
+     "objectif": "Faire de la récupération une discipline à part entière, pas un temps mort.",
+     "sections": [
+      "Surcompensation : le principe",
+      "Sommeil, nutrition, lumière, silence",
+      "Jours faciles et semaines allégées",
+      "Récupération active vs passive",
+      "Surempathie et charge mentale",
+      "Outils de suivi (HRV, ressenti)"
+     ],
+     "exercices": [
+      "Installer un jour de récupération fixe",
+      "Tester cohérence cardiaque",
+      "Plan de semaine avec 30 % de récup"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Repères d'alerte : savoir quand stopper",
+     "objectif": "Distinguer inconfort utile et signal de danger.",
+     "sections": [
+      "Douleur bonne vs douleur mauvaise",
+      "Drapeaux rouges cardiovasculaires",
+      "Signes cognitifs à prendre au sérieux",
+      "Blessures et compensations",
+      "Quand consulter sans dramatiser",
+      "Règle des 48 heures"
+     ],
+     "exercices": [
+      "Liste personnelle de drapeaux rouges",
+      "Numéros et contacts utiles",
+      "Protocole stop/reprise sur 7 jours"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Marges et redondances : le coussin antifragile",
+     "objectif": "Construire des marges (physiques, financières, sociales, temporelles) pour absorber les chocs.",
+     "sections": [
+      "Le décathlon du centenaire",
+      "Marge financière et énergétique",
+      "Redondance relationnelle",
+      "Temps tampon dans l'agenda",
+      "Compétences de secours",
+      "Tester vos marges par simulation"
+     ],
+     "exercices": [
+      "Liste de vos 10 marges actuelles",
+      "Stress-test d'un scénario adverse",
+      "Ajouter une marge cette semaine"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 — Protocoles et mise en œuvre à long terme",
+   "chapitres": [
+    {
+     "numero": 22,
+     "titre": "Le journal antifragile",
+     "objectif": "Fournir un outil quotidien pour piloter charge, récupération et sens.",
+     "sections": [
+      "Structure du journal (matin/soir)",
+      "Indicateurs clés à suivre",
+      "Revue hebdomadaire",
+      "Revue trimestrielle",
+      "Éviter l'obsession de la mesure",
+      "Modèles vierges"
+     ],
+     "exercices": [
+      "Tenir le journal 21 jours",
+      "Première revue hebdo",
+      "Ajuster 3 indicateurs"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Le protocole annuel : 52 semaines pour se renforcer",
+     "objectif": "Livrer un plan progressif sur un an couvrant corps, esprit, relations et sens.",
+     "sections": [
+      "Trimestre 1 : fondations",
+      "Trimestre 2 : intensité",
+      "Trimestre 3 : variété",
+      "Trimestre 4 : consolidation",
+      "Semaines de décharge",
+      "Adapter aux imprévus"
+     ],
+     "exercices": [
+      "Planifier vos 52 semaines",
+      "Bloquer les rendez-vous avec vous-même",
+      "Réviser à 13, 26, 39 semaines"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Vieillir en devenant plus soi-même",
+     "objectif": "Conclure sur l'identité renforcée : vieillir comme approfondissement, pas comme effacement.",
+     "sections": [
+      "Le cerf-volant qui monte",
+      "Héritage vivant vs héritage posthume",
+      "Accepter les limites réelles",
+      "Transmettre sans charger",
+      "Rituels de passage",
+      "L'antifragilité comme posture de vie"
+     ],
+     "exercices": [
+      "Écrire une lettre à votre moi de +10 ans",
+      "Créer un rituel personnel",
+      "Engager une action de transmission ce mois"
+     ]
+    }
+   ]
+  }
+ ]
+}
