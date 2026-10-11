@@ -94,7 +94,7 @@ details.form summary { padding: 10px 12px; font-weight: 600; font-size: .9rem; c
       <h1>Atelier Dialagram</h1>
       <p>Les livres de la Bibliothèque Oussama Ghorbel sont écrits par Qwen via Dialagram, puis relus par Claude. Cette page suit l'usine en direct et donne accès aux PDF.</p>
     </div>
-    <nav class="tabs" aria-label="Pages"><a href="/" aria-current="page">Atelier</a><a href="/bibliotheque">Bibliothèque</a><a href="/tableau">Tableau de bord</a></nav>
+    <nav class="tabs" aria-label="Pages"><a href="index.html" aria-current="page">Atelier</a><a href="bibliotheque.html">Bibliothèque</a><a href="tableau.html">Tableau de bord</a></nav>
   </header>
 
   <section class="panel" id="direct" aria-live="polite">
@@ -113,7 +113,7 @@ details.form summary { padding: 10px 12px; font-weight: 600; font-size: .9rem; c
         <div class="row2">
           <label for="rModele">Modèle Dialagram<select id="rModele"><option value="auto">auto (Claude choisit)</option><option>qwen-3.8-max-thinking</option><option>qwen-3.8-max</option><option>qwen-3.7-max</option><option>xiaomi-mimo-2.6</option><option>meta-muse-spark-1.3</option></select></label>
           <label for="rNom">Votre nom<input id="rNom" maxlength="60" placeholder="Facultatif"></label>
-          <label for="rCode">Code d'accès<input id="rCode" required maxlength="80" type="password" autocomplete="off"></label>
+          <label for="rCode">Code d'accès<input id="rCode" maxlength="80" type="password" autocomplete="off" placeholder="Si vous en avez un"></label>
         </div>
         <button class="btn" type="submit" id="rSubmit">Envoyer la demande</button>
         <div class="msg" id="rMsg" role="status"></div>
@@ -203,9 +203,20 @@ $("reqForm").addEventListener("submit", async (ev) => {
   ev.preventDefault();
   const btn = $("rSubmit"), msg = $("rMsg");
   btn.disabled = true; msg.textContent = "Envoi…";
+  const titre = $("rTitre").value.trim(), consigne = $("rConsigne").value.trim(), modele = $("rModele").value, nom = $("rNom").value.trim();
+  // Sans fonction serveur (GitHub Pages) ou sans configuration : proposer une issue GitHub déjà remplie
+  const viaGithub = (raison) => {
+    const body = `## Consigne\n\n${consigne}\n\n## Paramètres\n\n- Modèle demandé : \`${modele}\`\n- Demandeur : ${nom || "anonyme"}`;
+    const url = `https://github.com/${OWNER}/${REPO}/issues/new?title=${encodeURIComponent("[Dialagram] " + titre)}&body=${encodeURIComponent(body)}`;
+    msg.innerHTML = `${esc(raison)} <a href="${url}" target="_blank" rel="noopener">Envoyer la demande via GitHub</a> (compte GitHub gratuit nécessaire ; la demande y est déjà remplie).`;
+  };
   try {
-    const r = await fetch("/api/requete", { method: "POST", headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ titre: $("rTitre").value.trim(), consigne: $("rConsigne").value.trim(), modele: $("rModele").value, nom: $("rNom").value.trim(), code: $("rCode").value }) });
+    let r;
+    try {
+      r = await fetch("api/requete", { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ titre, consigne, modele, nom, code: $("rCode").value }) });
+    } catch (e) { viaGithub("Le formulaire direct n'est pas disponible ici."); return; }
+    if (r.status === 404 || r.status === 405 || r.status === 503) { viaGithub("Le formulaire direct n'est pas encore activé sur ce site."); return; }
     const d = await r.json().catch(() => ({}));
     if (!r.ok) throw new Error(d.erreur || "L'envoi a échoué. Réessayez dans un instant.");
     msg.innerHTML = `Demande n° ${d.numero} enregistrée. Claude la prendra en charge au prochain passage. <a href="${d.url}" target="_blank" rel="noopener">Suivre la demande</a>`;
