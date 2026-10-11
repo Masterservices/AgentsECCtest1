@@ -1,0 +1,577 @@
+{
+ "titre": "Libre de son écran",
+ "sous_titre": "Stratégies pour réduire sa dépendance au smartphone et retrouver le temps des activités profondes",
+ "bibliographie": [
+  {
+   "auteur": "Cal Newport",
+   "titre": "Digital Minimalism",
+   "annee": "2019",
+   "idee": "Propose une « désintoxication numérique » de 30 jours puis une réintroduction intentionnelle des outils selon leur valeur réelle.",
+   "apport": "Cadre structurant de la détox en trois phases et notion de « coût d'attention »."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Deep Work",
+   "annee": "2016",
+   "idee": "Le travail profond, rare et précieux, est la compétence décisive du XXIe siècle et exige l'absence de distraction.",
+   "apport": "Philosophie du travail profond et rituels de concentration prolongée."
+  },
+  {
+   "auteur": "Nicholas Carr",
+   "titre": "The Shallows (Internet rend-il bête ?)",
+   "annee": "2010",
+   "idee": "L'usage intensif du numérique remodelle le cerveau et fragilise la lecture lente et la pensée linéaire.",
+   "apport": "Arguments neuroplastiques pour justifier la reconquête de l'attention longue."
+  },
+  {
+   "auteur": "Johann Hari",
+   "titre": "Stolen Focus",
+   "annee": "2022",
+   "idee": "La crise de l'attention est systémique (économie de l'attention, pollution cognitive) et ne se règle pas par la seule volonté.",
+   "apport": "Approche systémique : environnement, sommeil, lecture, enfance."
+  },
+  {
+   "auteur": "Adam Alter",
+   "titre": "Irresistible",
+   "annee": "2017",
+   "idee": "Les produits numériques exploitent six leviers psychologiques (objectifs, feedback, progression, escalade, cliffhangers, social).",
+   "apport": "Grille de démontage des mécanismes addictifs des applis."
+  },
+  {
+   "auteur": "Nir Eyal",
+   "titre": "Hooked",
+   "annee": "2014",
+   "idee": "Le modèle Trigger-Action-Reward-Investment explique comment les applis créent des habitudes.",
+   "apport": "Comprendre pour inverser : identifier les déclencheurs internes et externes."
+  },
+  {
+   "auteur": "Nir Eyal",
+   "titre": "Indistractable",
+   "annee": "2019",
+   "idee": "Quatre étapes pour devenir « indistractable » : maîtriser les déclencheurs internes, prévoir du temps, réduire les déclencheurs externes, établir des pactes.",
+   "apport": "Méthode concrète de planification du temps par blocs et pactes d'engagement."
+  },
+  {
+   "auteur": "Catherine Price",
+   "titre": "How to Break Up with Your Phone",
+   "annee": "2018",
+   "idee": "Un plan en 30 jours pour observer, interrompre et choisir sa relation au téléphone.",
+   "apport": "Exercices courts d'observation et d'aménagement de l'environnement physique."
+  },
+  {
+   "auteur": "Gloria Mark",
+   "titre": "Attention Span",
+   "annee": "2023",
+   "idee": "Nos épisodes d'attention sur écran ont fondu à ~47 secondes ; il faut alterner focus et récupération kinesthésique.",
+   "apport": "Notion de « réservoir attentionnel » et micro-pauses réparatrices."
+  },
+  {
+   "auteur": "Jean Twenge",
+   "titre": "iGen",
+   "annee": "2017",
+   "idee": "La génération née après 1995 montre anxiété, solitude et baisse du sommeil corrélées au smartphone.",
+   "apport": "Données générationnelles pour cadrer les enjeux familiaux et éducatifs."
+  },
+  {
+   "auteur": "Sherry Turkle",
+   "titre": "Reclaiming Conversation",
+   "annee": "2015",
+   "idee": "Le téléphone sur la table suffit à appauvrir la qualité des conversations et l'empathie.",
+   "apport": "Règles de conversation et d'espaces sacrés sans écran."
+  },
+  {
+   "auteur": "Daniel Goleman",
+   "titre": "Focus",
+   "annee": "2013",
+   "idee": "L'attention est un muscle qui se cultive ; trois focales (interne, autrui, externe) sont nécessaires.",
+   "apport": "Pratiques de pleine conscience et d'attention dirigée."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les habitudes se construisent via signaux, envie, réponse, récompense ; l'identité précède le comportement.",
+   "apport": "Ingénierie des habitudes appliquée au sevrage numérique."
+  },
+  {
+   "auteur": "Mihaly Csikszentmihalyi",
+   "titre": "Flow",
+   "annee": "1990",
+   "idee": "L'expérience optimale naît d'un défi équilibré aux compétences, avec feedback clair et absorption totale.",
+   "apport": "Architecture des activités profondes qui remplacent le scroll."
+  },
+  {
+   "auteur": "Anders Ericsson et Robert Pool",
+   "titre": "Peak",
+   "annee": "2016",
+   "idee": "La pratique délibérée, et non la simple répétition, construit l'expertise.",
+   "apport": "Concevoir des blocs de pratique délibérée hors écran."
+  },
+  {
+   "auteur": "Tristan Harris (Center for Humane Technology)",
+   "titre": "Conférences et manifestes (2016-2023)",
+   "annee": "2016",
+   "idee": "Les plateformes optimisent le temps passé au détriment du bien-être ; la conception éthique est possible.",
+   "apport": "Cadre éthique et design défensif (notifications, fils, couleurs)."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 — Diagnostic : comprendre l'emprise du smartphone",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'invisible captivité",
+     "objectif": "Mesurer objectivement sa consommation et identifier les coûts cachés du smartphone.",
+     "sections": [
+      "Le temps réel passé sur l'appareil : au-delà des impressions",
+      "Les micro-interruptions et leur facture cognitive cumulée",
+      "Le coût d'opportunité : ce que l'écran a déjà remplacé",
+      "Distinction entre utilité instrumentale et usage compulsif",
+      "Premier autoportrait numérique honnête"
+     ],
+     "exercices": [
+      "Audit de 7 jours via le temps d'écran natif et export des données",
+      "Journal des prises en main : noter chaque saisie du téléphone pendant 48 h",
+      "Liste des 10 activités que vous ne faites plus à cause du téléphone",
+      "Calcul du coût d'opportunité annuel en heures et en euros"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Anatomie d'une addiction moderne",
+     "objectif": "Comprendre pourquoi le smartphone capture l'attention malgré nos intentions.",
+     "sections": [
+      "Le modèle Hook : déclencheur, action, récompense variable, investissement",
+      "Les six leviers d'Alter appliqués aux applis du quotidien",
+      "Dopamine, prédiction d'erreur et boucles de renforcement",
+      "La fatigue décisionnelle comme terreau de la rechute",
+      "Pourquoi la volonté seule échoue presque toujours"
+     ],
+     "exercices": [
+      "Cartographie personnelle des déclencheurs internes (ennui, anxiété, solitude)",
+      "Cartographie des déclencheurs externes (notifications, badges, vibrations)",
+      "Analyse d'une appli favorite via la grille des six leviers",
+      "Test de résistance : 24 h sans ouvrir l'appli la plus compulsive"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Les dommages collatéraux",
+     "objectif": "Évaluer les impacts du smartphone sur le sommeil, les relations, l'humeur et le corps.",
+     "sections": [
+      "Lumière bleue, latence d'endormissement et architecture du sommeil",
+      "Appauvrissement conversationnel et empathie (Turkle)",
+      "Anxiété de séparation, FOMO et comparaison sociale",
+      "Posture, vue, main du texto : le corps qui paie",
+      "Enfants et adolescents : ce que disent les cohortes"
+     ],
+     "exercices": [
+      "Journal sommeil / écran sur 14 jours avec heure de dernière exposition",
+      "Conversation-test : dîner sans aucun téléphone sur la table, noter la qualité",
+      "Inventaire des émotions ressenties après 30 min de réseau social",
+      "Auto-évaluation posturale et oculaire guidée"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Votre profil d'usage",
+     "objectif": "Classifier son rapport au smartphone pour personnaliser la suite du programme.",
+     "sections": [
+      "Les quatre profils : utilitariste, compulsif, anxieux, évitant",
+      "Profil hybride et contextes déclencheurs dominants",
+      "Fixer un objectif SMART de réduction réaliste",
+      "Choisir son horizon : sevrage progressif ou détox radicale",
+      "Construire son tableau de bord de suivi"
+     ],
+     "exercices": [
+      "Questionnaire de profilage en 40 items",
+      "Rédaction d'un objectif à 90 jours chiffré",
+      "Choix du mode (progressif / détox 30 jours) et justification écrite",
+      "Mise en place d'un tableau de bord hebdomadaire (papier ou tableur)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 — Neurosciences de l'attention et philosophie du profond",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Le cerveau sous notifications",
+     "objectif": "Comprendre comment l'attention fonctionne et pourquoi elle se fragmente.",
+     "sections": [
+      "Les trois réseaux attentionnels (alerte, orientation, exécutif)",
+      "Coût de la bascule de tâche : le mythe du multitâche",
+      "Plasticité cérébrale : ce que l'écran sculpte, ce qu'il atrophie",
+      "Mémoire de travail et charge cognitive",
+      "L'attention comme muscle et comme réservoir (Mark, Goleman)"
+     ],
+     "exercices": [
+      "Test de coût de bascule : chronométrage avec et sans notifications",
+      "Exercice de lecture longue sans interruption (30 min, puis 60 min)",
+      "Journal du réservoir attentionnel : trois prises de mesure par jour",
+      "Méditation d'attention focalisée guidée (10 min)"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Éloge de la profondeur",
+     "objectif": "Définir ce qu'est une activité profonde et pourquoi elle constitue une richesse existentielle.",
+     "sections": [
+      "Définition opérationnelle du Deep Work (Newport)",
+      "Distinction travail profond / travail superficiel",
+      "La profondeur comme avantage compétitif et source de sens",
+      "Flow, pratique délibérée et plaisir intrinsèque",
+      "L'économie qui récompense la rareté attentionnelle"
+     ],
+     "exercices": [
+      "Cartographie de sa semaine : ratio profond / superficiel",
+      "Liste des 5 activités profondes qui donneraient du sens à sa vie",
+      "Identification des compétences rares à cultiver",
+      "Premier bloc de 90 minutes de travail profond protégé"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Le temps retrouvé",
+     "objectif": "Changer de rapport au temps : du temps tué au temps investi.",
+     "sections": [
+      "Chronos, Kairos, Aion : trois visages du temps",
+      "L'ennui comme terreau de la créativité",
+      "Pourquoi l'oisiveté numérique effraie et comment l'apprivoiser",
+      "Le temps comme actif non renouvelable",
+      "Construire une boussole existentielle"
+     ],
+     "exercices": [
+      "Expérience d'ennui volontaire : 20 min sans aucun stimulus",
+      "Rédaction de sa propre épitaphe attentionnelle",
+      "Liste des 3 projets de vie qui exigent du temps profond",
+      "Audit de ses valeurs : cohérence valeur / emploi du temps"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Identité avant habitude",
+     "objectif": "Ancrer le changement dans une identité choisie plutôt que dans la discipline seule.",
+     "sections": [
+      "Le modèle identitaire de Clear : être, puis faire",
+      "Les croyances limitantes sur sa propre capacité d'attention",
+      "Histoires que l'on se raconte sur son téléphone",
+      "Rédiger son manifeste d'attention",
+      "Rituels d'ancrage identitaire"
+     ],
+     "exercices": [
+      "Liste des 10 croyances actuelles sur son rapport au numérique",
+      "Réécriture de chaque croyance en identité choisie",
+      "Rédaction d'un manifeste d'attention d'une page",
+      "Rituel matinal de 5 minutes pour incarner l'identité cible"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 — Désintoxication : reprendre le contrôle",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "La détox de 30 jours",
+     "objectif": "Mettre en place une détox calibrée selon le modèle de Newport, adaptée au contexte personnel.",
+     "sections": [
+      "Pourquoi 30 jours : reset dopaminergique et plasticité",
+      "Définir les règles optionnelles et les règles non négociables",
+      "Annoncer la détox à son entourage et gérer les objections",
+      "Prévoir les substituts aux usages utilitaires légitimes",
+      "Anticiper les 5 rechutes types et leurs parades"
+     ],
+     "exercices": [
+      "Contrat de détox signé avec un témoin de confiance",
+      "Liste des applis optionnelles à désinstaller",
+      "Liste des applis utilitaires conservées avec règles strictes",
+      "Plan de substitution pour chaque usage supprimé"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Nettoyer l'appareil",
+     "objectif": "Transformer le smartphone en outil sobre par design.",
+     "sections": [
+      "Écran d'accueil minimaliste : une seule page, 8 applis maximum",
+      "Notifications : le grand tri (désactiver 95 %)",
+      "Noir et blanc, limite de temps, mode concentration",
+      "Désinstaller les pièges : réseaux, jeux, infos en continu",
+      "Choisir des alternatives sobres (messagerie, navigateur, lecteur)"
+     ],
+     "exercices": [
+      "Capture avant / après de l'écran d'accueil",
+      "Désactivation guidée de toutes les notifications non humaines",
+      "Passage en niveaux de gris pendant 7 jours",
+      "Installation et configuration de 3 applis sobres de substitution"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Aménager l'environnement",
+     "objectif": "Rendre le bon comportement facile et le mauvais coûteux par l'environnement physique.",
+     "sections": [
+      "Loi de l'effort : friction et proximité",
+      "Zones sans écran : chambre, table, voiture",
+      "Le chargeur stratégique : hors de la chambre",
+      "Réveil analogique, montre, carnet : objets alliés",
+      "Design de l'espace de travail profond"
+     ],
+     "exercices": [
+      "Cartographie de la maison en zones (rouge / orange / verte)",
+      "Achat et installation d'un réveil analogique",
+      "Création d'une « boîte à téléphone » pour les repas",
+      "Réaménagement du bureau avec un seul écran de travail"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Pactes et engagements",
+     "objectif": "Utiliser l'engagement public et les pactes pour verrouiller les rechutes.",
+     "sections": [
+      "Les quatre types de pactes (effort, prix, identité, réputation)",
+      "Le partenaire de responsabilité",
+      "Logiciels de blocage et minuteries physiques",
+      "Sanctions et récompenses bien calibrées",
+      "Gérer les situations sociales qui poussent à la rechute"
+     ],
+     "exercices": [
+      "Signature d'un pacte de prix avec un tiers",
+      "Installation d'un logiciel de blocage sur les plages profondes",
+      "Choix d'un partenaire de responsabilité et rituel hebdomadaire",
+      "Script de réponse aux sollicitations sociales numériques"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Naviguer le sevrage",
+     "objectif": "Traverser les 30 jours en gérant envies, émotions et pression sociale.",
+     "sections": [
+      "La courbe du sevrage : jours 1-3, 7-10, 21-30",
+      "Techniques de surf sur l'envie (urge surfing)",
+      "Gérer l'anxiété, l'ennui et la solitude sans écran",
+      "La pression sociale et professionnelle : réponses prêtes",
+      "Journal de bord quotidien du sevrage"
+     ],
+     "exercices": [
+      "Protocole d'urge surfing en 4 étapes",
+      "Liste de 20 activités de secours de moins de 10 minutes",
+      "Modèles de messages pour dire non aux sollicitations",
+      "Journal de bord quotidien sur 30 jours (papier)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 — Cultiver les activités profondes",
+   "chapitres": [
+    {
+     "numero": 14,
+     "titre": "Le réinvestissement du temps libéré",
+     "objectif": "Éviter le vide post-détox en planifiant des activités profondes attractives.",
+     "sections": [
+      "Le principe du remplacement : on ne retire pas, on substitue",
+      "Activités de haute qualité vs loisirs passifs",
+      "Planifier la semaine profonde avant la semaine superficielle",
+      "Le portfolio d'activités profondes : pro, perso, corps, esprit",
+      "Rituel du dimanche soir : la revue hebdomadaire"
+     ],
+     "exercices": [
+      "Construction d'un portfolio de 12 activités profondes",
+      "Planification type d'une semaine idéale",
+      "Mise en place du rituel du dimanche soir (60 min)",
+      "Première semaine complète planifiée selon le modèle"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Lire vraiment, à nouveau",
+     "objectif": "Reconquérir la lecture longue, papier ou liseuse sobre, comme pratique centrale.",
+     "sections": [
+      "Pourquoi la lecture longue est l'antidote roi",
+      "Construire une pile à lire réaliste",
+      "Rituel quotidien de lecture : quand, où, combien",
+      "Lecture active : prise de notes, fiches, carnets",
+      "Lectures difficiles : stratégie de persévérance"
+     ],
+     "exercices": [
+      "Sélection de 12 livres pour l'année (un par mois)",
+      "Création d'un coin lecture physique dédié",
+      "Lecture quotidienne de 30 min pendant 21 jours",
+      "Tenue d'un carnet de lecture avec 3 idées par livre"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Écrire pour penser",
+     "objectif": "Utiliser l'écriture manuscrite ou sobre comme outil de clarification mentale.",
+     "sections": [
+      "Écrire, c'est penser : les preuves cognitives",
+      "Journaling du matin et du soir : structures minimales",
+      "Essais personnels, lettres, carnets de recherche",
+      "Écrire sans publier : la valeur du privé",
+      "Outils sobres : carnet, stylo, traitement de texte hors ligne"
+     ],
+     "exercices": [
+      "Journaling matinal de 10 min pendant 30 jours",
+      "Rédaction d'un essai personnel de 1 500 mots par mois",
+      "Lettre manuscrite à une personne importante chaque trimestre",
+      "Mise en place d'un carnet de recherche sur un sujet choisi"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Créer de ses mains",
+     "objectif": "Réintégrer les activités manuelles comme source de flow et d'identité.",
+     "sections": [
+      "Le corps qui crée : menuiserie, cuisine, jardin, instrument",
+      "Flow manuel et réduction de l'anxiété",
+      "Choisir un artisanat d'apprentissage long",
+      "L'atelier domestique : petit, ordonné, accessible",
+      "Projets finis vs consommation infinie"
+     ],
+     "exercices": [
+      "Choix d'un artisanat à pratiquer pendant 1 an",
+      "Aménagement d'un espace de création de 2 m² minimum",
+      "Planification d'un projet fini en 90 jours",
+      "Rituel de pratique de 45 min, 3 fois par semaine"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Bouger avec intention",
+     "objectif": "Remplacer la sédentarité écran par un mouvement structuré et conscient.",
+     "sections": [
+      "Le corps comme première victime du scroll",
+      "Marche quotidienne sans téléphone : les bénéfices prouvés",
+      "Sport profond vs sport connecté",
+      "Yoga, méditation en mouvement, arts martiaux",
+      "Planifier le mouvement comme un rendez-vous profond"
+     ],
+     "exercices": [
+      "Marche quotidienne de 30 min sans téléphone pendant 21 jours",
+      "Choix d'une discipline physique profonde pour l'année",
+      "Planification de 3 créneaux de mouvement par semaine",
+      "Journal de sensations corporelles après chaque séance"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Relations profondes",
+     "objectif": "Remplacer les interactions numériques par des conversations et des présences réelles.",
+     "sections": [
+      "Conversation vs connexion : la thèse de Turkle",
+      "Rituels de présence : repas, marches, projets communs",
+      "Écoute active sans téléphone à proximité",
+      "Relations à distance : appels longs plutôt que messages courts",
+      "Construire une tribu hors ligne"
+     ],
+     "exercices": [
+      "Un dîner par semaine sans aucun téléphone à table",
+      "Un appel long (30+ min) par semaine à un proche éloigné",
+      "Marche conversationnelle mensuelle avec un ami",
+      "Projet commun non numérique avec un proche par trimestre"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 — Vie numérique durable : maintenir et transmettre",
+   "chapitres": [
+    {
+     "numero": 20,
+     "titre": "La réintroduction intentionnelle",
+     "objectif": "Après la détox, réintroduire les outils selon leur valeur réelle, pas leur attrait.",
+     "sections": [
+      "Le test des trois questions de Newport avant chaque réintroduction",
+      "Modalités d'usage : quand, où, combien, pourquoi",
+      "Écrire les règles d'usage de chaque appli conservée",
+      "Le calendrier des usages : plages fixes, pas de grignotage",
+      "Gérer les applis professionnelles obligatoires"
+     ],
+     "exercices": [
+      "Fiche de réintroduction pour chaque appli candidate",
+      "Rédaction d'un contrat d'usage pour les 5 applis principales",
+      "Planification des plages d'usage dans l'agenda",
+      "Revue mensuelle des applis : garder, durcir, supprimer"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Information et réseaux sociaux : la diète durable",
+     "objectif": "Construire un régime informationnel sobre et de qualité.",
+     "sections": [
+      "L'information comme junk food : identifier les sources toxiques",
+      "Le régime low-information : une revue par semaine",
+      "Livres, essais longs, podcasts denses : remplacer le flux",
+      "Réseaux sociaux : usage professionnel vs usage distractif",
+      "Désabonnement massif et curation active"
+     ],
+     "exercices": [
+      "Désabonnement de 80 % des newsletters et comptes suivis",
+      "Choix d'une revue hebdomadaire d'information (1 h max)",
+      "Liste de 10 sources longues de qualité à privilégier",
+      "Désinstallation des applis de réseaux sociaux du téléphone"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Travailler profond au quotidien",
+     "objectif": "Installer des rituels professionnels qui protègent la concentration.",
+     "sections": [
+      "Les quatre philosophies de Deep Work (monastique, bimodal, rythmique, journalistique)",
+      "Choisir sa philosophie selon son métier",
+      "Rituels d'entrée et de sortie du travail profond",
+      "Gérer emails, réunions et messageries sans s'y noyer",
+      "Productivité mesurée en heures profondes, pas en heures totales"
+     ],
+     "exercices": [
+      "Choix de sa philosophie de Deep Work et justification",
+      "Mise en place de 3 blocs profonds de 90 min par semaine",
+      "Rituel d'entrée écrit et répété",
+      "Tableau de bord mensuel des heures profondes"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Famille, enfants et numérique",
+     "objectif": "Éduquer et protéger les plus jeunes, sans angélisme ni prohibition.",
+     "sections": [
+      "Avant 3 ans, avant 6 ans, avant 12 ans : repères",
+      "Smartphone à quel âge ? la réponse nuancée",
+      "Contrats familiaux d'usage et exemples concrets",
+      "L'exemplarité des parents : le miroir silencieux",
+      "Collaboration avec l'école et les autres parents"
+     ],
+     "exercices": [
+      "Rédaction d'un contrat familial d'usage du numérique",
+      "Choix d'un téléphone sobre (type Light Phone) pour l'enfant",
+      "Rituel familial hebdomadaire sans écran",
+      "Réunion annuelle parents-enfants de révision du contrat"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Tenir sur la durée",
+     "objectif": "Installer une hygiène numérique à vie et gérer les rechutes avec bienveillance.",
+     "sections": [
+      "La sobriété numérique comme pratique, pas comme état",
+      "Les signaux d'alerte d'une rechute",
+      "Protocol de reprise rapide après une rechute",
+      "Revues trimestrielles et annuelles de sa vie numérique",
+      "Transmettre : parler, écrire, accompagner"
+     ],
+     "exercices": [
+      "Liste personnelle des 5 signaux d'alerte de rechute",
+      "Protocole de reprise en 7 étapes",
+      "Mise en place d'une revue trimestrielle (90 min)",
+      "Choix d'une personne à accompagner dans sa propre détox"
+     ]
+    }
+   ]
+  }
+ ]
+}

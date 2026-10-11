@@ -1,0 +1,661 @@
+{
+ "titre": "Le Corps Anti-Sédentaire",
+ "sous_titre": "200 exercices d'assouplissement et de renforcement pour corriger les déséquilibres posturaux liés à la vie de bureau",
+ "bibliographie": [
+  {
+   "auteur": "Kelly Starrett",
+   "titre": "Becoming a Supple Leopard",
+   "annee": "2013",
+   "idee": "Guide complet de mobilité articulaire et de restauration du mouvement humain fondamental via des techniques de mobilisation des tissus.",
+   "apport": "Méthodologie des zones de mobilisation (smash, floss, contract-relax) et diagnostic des restrictions articulaires."
+  },
+  {
+   "auteur": "Kelly Starrett et Juliet Starrett",
+   "titre": "Deskbound",
+   "annee": "2016",
+   "idee": "La sédentarité est le nouveau tabagisme ; protocoles quotidiens pour contrecarrer les effets de la position assise prolongée.",
+   "apport": "Structure des micro-routines anti-bureau et hiérarchie des priorités posturales pour travailleurs sédentaires."
+  },
+  {
+   "auteur": "Thomas Myers",
+   "titre": "Anatomy Trains",
+   "annee": "2001",
+   "idee": "Les muscles fonctionnent en chaînes myofasciales continues plutôt qu'en unités isolées ; les tensions se propagent le long de ces lignes.",
+   "apport": "Cartographie des chaînes (superficielle postérieure, spirale, latérale) pour construire des étirements globaux cohérents."
+  },
+  {
+   "auteur": "Brad Walker",
+   "titre": "The Anatomy of Stretching",
+   "annee": "2007",
+   "idee": "Atlas visuel des étirements classés par groupes musculaires avec anatomie détaillée et erreurs fréquentes.",
+   "apport": "Répertoire d'exercices illustrés et classification par zone corporelle pour les fiches pratiques du livre."
+  },
+  {
+   "auteur": "Thomas Kurz",
+   "titre": "Stretching Scientifically",
+   "annee": "1994",
+   "idee": "Les méthodes d'étirement (balistique, PNF, isométrique) ont des mécanismes physiologiques distincts qu'il faut respecter.",
+   "apport": "Cadre scientifique pour choisir le type d'étirement selon l'objectif (mobilité, récupération, performance)."
+  },
+  {
+   "auteur": "Stuart McGill",
+   "titre": "Low Back Disorders",
+   "annee": "2002",
+   "idee": "La colonne lombaire exige stabilité avant mobilité ; le gainage anti-mouvement protège mieux que le renforcement classique.",
+   "apport": "Les trois exercices fondateurs (curl-up modifié, bird-dog, side plank) et principe de rigidité abdominale."
+  },
+  {
+   "auteur": "Gray Cook",
+   "titre": "Movement",
+   "annee": "2010",
+   "idee": "Évaluer d'abord les patterns fondamentaux (squat, step, push, pull) avant de prescrire des exercices correctifs.",
+   "apport": "Logique d'évaluation type FMS et hiérarchie mobilité → stabilité → mouvement → force."
+  },
+  {
+   "auteur": "Jill Miller",
+   "titre": "The Roll Model",
+   "annee": "2014",
+   "idee": "L'auto-massage par balles restaure la glisse fasciale et module le tonus nerveux via le système proprioceptif.",
+   "apport": "Techniques de relâchement myofascial avec balles pour déverrouiller les zones inaccessibles."
+  },
+  {
+   "auteur": "Pete Egoscue et Roger Gittines",
+   "titre": "Pain Free",
+   "annee": "1998",
+   "idee": "La douleur posturale chronique provient de dysfonctions musculaires spécifiques ; des exercices de reprogrammation les corrigent.",
+   "apport": "Menu E-cises (exercices Egoscue) et notion de posture comme reflet de l'équilibre musculaire global."
+  },
+  {
+   "auteur": "Pete Egoscue",
+   "titre": "The Egoscue Method of Health Through Motion",
+   "annee": "1992",
+   "idee": "Le corps humain est conçu pour quatre fonctions de charge (coudes, hanches, genoux, chevilles) ; leur perte crée la douleur.",
+   "apport": "Diagnostic par observation posturale statique et dynamique (vue de face, profil, dos)."
+  },
+  {
+   "auteur": "Michael Alter",
+   "titre": "Science of Flexibility",
+   "annee": "2004",
+   "idee": "La flexibilité dépend de facteurs neuronaux (réflexe d'étirement) autant que structuraux (longueur du muscle, raideur tendineuse).",
+   "apport": "Justification physiologique des durées, intensités et fréquences d'étirement recommandées."
+  },
+  {
+   "auteur": "Ann et Chris Frederick",
+   "titre": "Stretch to Win",
+   "annee": "2006",
+   "idee": "Le stretching assisté par fascia (FAS) cible les chaînes plutôt que les muscles isolés pour une mobilité fonctionnelle.",
+   "apport": "Séquences fluides d'ouverture des hanches, du thorax et des épaules enchaînées."
+  },
+  {
+   "auteur": "Paul Wade",
+   "titre": "Convict Conditioning",
+   "annee": "2012",
+   "idee": "La progressivité en dix étapes sur six mouvements fondamentaux construit une force articulaire durable sans équipement.",
+   "apport": "Modèle de progressions calisthéniques pour débutants sédentaires (pompes, tractions, ponts, squats)."
+  },
+  {
+   "auteur": "Steven Low",
+   "titre": "Overcoming Gravity",
+   "annee": "2011",
+   "idee": "La gymnastique au poids du corps exige un équilibre entre poussée et traction pour préserver la santé des épaules et du cou.",
+   "apport": "Ratio poussée/traction et travail des scapulas pour corriger les épaules enroulées."
+  },
+  {
+   "auteur": "Eric Cressey et Mike Robertson",
+   "titre": "Building the Efficient Athlete (séminaire DVD)",
+   "annee": "2007",
+   "idee": "Le syndrome croisé inférieur et supérieur (Janda) guide les prescriptions correctives : étirer les muscles courts, activer les faibles.",
+   "apport": "Grille de lecture posturale par syndromes croisés et exercices prioritaires pour chaque pattern."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Comprendre le corps sédentaire",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "La posture, miroir de votre mode de vie",
+     "objectif": "Expliquer ce qu'est la posture, pourquoi elle se dégrade avec la sédentarité et comment elle influence santé, énergie et performance.",
+     "sections": [
+      "1.1 Définition moderne de la posture : statique, dynamique et respiratoire",
+      "1.2 L'alignement neutre : mythes et réalités anatomiques",
+      "1.3 Les trois plans de l'espace et les déviations courantes",
+      "1.4 Posture et identité : ce que votre corps dit de vous",
+      "1.5 Pourquoi la 'bonne posture' n'est pas une position figée",
+      "1.6 Le coût invisible d'une posture dégradée"
+     ],
+     "exercices": [
+      "Photo de profil murale : auto-évaluation visuelle initiale",
+      "Test du fil à plomb devant miroir",
+      "Journal postural de 7 jours (positions, douleurs, énergie)",
+      "Scan corporel allongé : repérage des asymétries au sol",
+      "Observation de trois inconnus et hypothèses posturales"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Anatomie fonctionnelle du sédentaire",
+     "objectif": "Cartographier les muscles, fascias et articulations les plus impactés par 8+ heures de position assise quotidienne.",
+     "sections": [
+      "2.1 Le psoas : muscle oublié de la hanche fléchie",
+      "2.2 Fessiers endormis et amnésie glutéale",
+      "2.3 Chaîne postérieure raccourcie : ischios, mollets, érecteurs",
+      "2.4 Cage thoracique fermée et diaphragme bridé",
+      "2.5 Épaules enroulées : pectoraux courts, rhomboïdes étirés",
+      "2.6 Colonne cervicale et syndrome du cou texte",
+      "2.7 Fascias : le réseau qui relie tout"
+     ],
+     "exercices": [
+      "Palpation guidée du psoas en décubitus",
+      "Test de contraction fessière isolée debout",
+      "Évaluation de l'expansion thoracique main sur côtes",
+      "Test d'élévation scapulaire bras tendus",
+      "Repérage de la charnière cervico-thoracique",
+      "Auto-massage fascial léger au rouleau doux"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Les chaînes myofasciales en action",
+     "objectif": "Introduire la logique des Anatomy Trains pour comprendre pourquoi un problème au pied peut créer une douleur à l'épaule.",
+     "sections": [
+      "3.1 La ligne superficielle postérieure : du pied au front",
+      "3.2 La ligne superficielle antérieure et la flexion permanente",
+      "3.3 Les lignes latérales et l'équilibre gauche-droite",
+      "3.4 La ligne spirale : torsion et rotation du tronc",
+      "3.5 Les lignes des bras et le travail au clavier",
+      "3.6 La ligne fonctionnelle : croisements diagonaux",
+      "3.7 Lire son corps à travers les chaînes"
+     ],
+     "exercices": [
+      "Étirement global de la ligne postérieure (chien tête en bas)",
+      "Ouverture de la ligne antérieure (cobra sur ballon)",
+      "Étirement latéral debout avec bascule costale",
+      "Rotation thoracique en quadrupédie chaînée",
+      "Ouverture des lignes du bras contre mur",
+      "Fente croisée pour ligne fonctionnelle"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Neurologie de la raideur et de la faiblesse",
+     "objectif": "Comprendre pourquoi le cerveau 'verrouille' certains muscles et 'éteint' les autres, et comment le système nerveux pilote la mobilité.",
+     "sections": [
+      "4.1 Le réflexe d'étirement et le fuseau neuromusculaire",
+      "4.2 L'organe tendineux de Golgi et l'inhibition autogène",
+      "4.3 Inhibition réciproque : le secret des étirements efficaces",
+      "4.4 Système nerveux sympathique et tonus de défense",
+      "4.5 Amnésie musculaire et perte de recrutement moteur",
+      "4.6 La douleur comme signal, pas comme ennemie"
+     ],
+     "exercices": [
+      "Respiration diaphragmatique 4-7-8 pour bascule parasympathique",
+      "Contract-relax sur ischio-jambiers (PNF basique)",
+      "Activation réciproque quad/ischio debout",
+      "Balayage corporel de 10 minutes avec focus tensions",
+      "Test de sensibilité : discrimination deux points sur avant-bras",
+      "Séquence de sécurité : berceau du bébé pour le système nerveux"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "La sédentarité comme maladie systémique",
+     "objectif": "Relier posture, métabolisme, circulation, digestion et cognition pour montrer l'ampleur des enjeux.",
+     "sections": [
+      "5.1 Sédentarité et métabolisme : lipoprotéine lipase et glycémie",
+      "5.2 Circulation veineuse, lymphatique et position assise",
+      "5.3 Digestion comprimée : reflux, ballonnements, transit",
+      "5.4 Respiration superficielle et oxygénation cérébrale",
+      "5.5 Stress chronique, cortisol et tension musculaire",
+      "5.6 Sommeil, récupération et posture nocturne",
+      "5.7 Le mouvement comme médicament à large spectre"
+     ],
+     "exercices": [
+      "Marche digestive de 10 minutes post-repas",
+      "Respiration costale 3D assis puis debout",
+      "Élévation des jambes contre mur 5 minutes (retour veineux)",
+      "Auto-massage abdominal circulaire doux",
+      "Routine du soir : étirement et lumière tamisée",
+      "Journal énergie-douleur sur 14 jours corrélé aux pas"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Évaluer et diagnostiquer son profil postural",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "L'auto-évaluation posturale complète",
+     "objectif": "Guider le lecteur à travers un bilan structuré de face, profil et dos, avec photos et grilles de notation.",
+     "sections": [
+      "6.1 Préparer son espace : miroir, appareil, éclairage",
+      "6.2 Vue de face : épaules, hanches, genoux, chevilles",
+      "6.3 Vue de profil : courbures vertébrales et verticalité",
+      "6.4 Vue de dos : scapulas, colonne, plis fessiers",
+      "6.5 Grille de cotation 0-3 par zone",
+      "6.6 Interpréter son profil postural global"
+     ],
+     "exercices": [
+      "Séance photo standardisée (3 vues, tenue ajustée)",
+      "Tracé des repères anatomiques sur photo imprimée",
+      "Remplissage de la grille d'auto-évaluation",
+      "Comparaison côté gauche / côté droit",
+      "Identification des trois déviations prioritaires",
+      "Photo de suivi programmée à J+30"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Tests de mobilité articulaire",
+     "objectif": "Mesurer la mobilité des principales articulations (chevilles, hanches, thorax, épaules, cervicales) avec des tests reproductibles.",
+     "sections": [
+      "7.1 Cheville : test de flexion dorsale genou au mur",
+      "7.2 Hanche : Thomas test, rotation interne/externe",
+      "7.3 Colonne thoracique : rotation assise et extension",
+      "7.4 Épaules : Apley scratch, overhead reach",
+      "7.5 Cervicales : rotation, flexion, latéroflexion",
+      "7.6 Interprétation : mobilité vs stabilité déficiente"
+     ],
+     "exercices": [
+      "Batterie de 10 tests chrono-métrés",
+      "Cotation sur fiche standardisée",
+      "Identification des trois mobilités critiques à travailler",
+      "Vidéo comparative d'un test avant/après échauffement",
+      "Test de référence à 6 semaines",
+      "Croisement avec le profil postural du chapitre 6"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Tests de stabilité et de contrôle moteur",
+     "objectif": "Évaluer la capacité à stabiliser les articulations sous charge et à recruter les muscles profonds.",
+     "sections": [
+      "8.1 Stabilité lombaire : test de McGill et endurance",
+      "8.2 Stabilité scapulaire : wall slide et hold",
+      "8.3 Stabilité du bassin : pont unipodal et Trendelenburg",
+      "8.4 Contrôle cervical : cranio-cervical flexion test",
+      "8.5 Stabilité du pied : équilibre unipodal yeux fermés",
+      "8.6 Hiérarchiser stabilité avant mobilité"
+     ],
+     "exercices": [
+      "Planche McGill : ratio endurance fléchisseurs/extenseurs/latéraux",
+      "Wall slide chronométré à 5 répétitions",
+      "Pont unipodal 30 secondes de chaque côté",
+      "Test de Chin Tuck avec pression sur tensiomètre",
+      "Équilibre unipodal yeux fermés 30 secondes",
+      "Fiche synthèse mobilité/stabilité par articulation"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Identifier son syndrome postural dominant",
+     "objectif": "Classifier le lecteur dans l'un des grands syndromes (croisé supérieur, croisé inférieur, en couche, sway-back) pour orienter la suite.",
+     "sections": [
+      "9.1 Syndrome croisé supérieur de Janda",
+      "9.2 Syndrome croisé inférieur de Janda",
+      "9.3 Posture en couche (layer syndrome)",
+      "9.4 Posture sway-back et flat-back",
+      "9.5 Posture cypho-lordotique et militaire",
+      "9.6 Profils combinés et dominantes individuelles",
+      "9.7 Construire sa feuille de route personnalisée"
+     ],
+     "exercices": [
+      "Questionnaire de 20 items orientant vers un profil",
+      "Arbre de décision visuel à partir des tests précédents",
+      "Sélection de 3 étirements prioritaires et 3 renforcements",
+      "Planification hebdomadaire type selon profil",
+      "Validation croisée avec un proche observateur",
+      "Écriture d'un contrat d'objectif à 90 jours"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Assouplir : libérer les tensions accumulées",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "Les principes scientifiques de l'étirement",
+     "objectif": "Poser les bases physiologiques et pratiques : durée, intensité, fréquence, respiration, température, progressivité.",
+     "sections": [
+      "10.1 Les quatre types d'étirement et leurs indications",
+      "10.2 Durée idéale : 30, 60, 120 secondes ?",
+      "10.3 Fréquence hebdomadaire et fenêtre d'adaptation",
+      "10.4 Respiration et relâchement parasympathique",
+      "10.5 Quand étirer : avant, après, à distance de l'effort",
+      "10.6 Contre-indications et signaux d'alarme"
+     ],
+     "exercices": [
+      "Expérimentation comparative 30 vs 60 secondes sur un ischio",
+      "Séquence respiratoire 1-4-2 intégrée à un étirement",
+      "Journal d'étirement sur 7 jours avec notation tension",
+      "Test de sensation : différencier étirement, brûlure, douleur",
+      "Création de sa propre routine de 8 minutes",
+      "Échauffement articulaire préalable en 3 minutes"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Libérer les hanches et le psoas",
+     "objectif": "Protocoles complets pour rouvrir l'extension de hanche, désactiver le psoas court et réveiller les fessiers.",
+     "sections": [
+      "11.1 Le psoas : anatomie, rôle, conséquences du raccourcissement",
+      "11.2 Fente basse et variations d'alignement",
+      "11.3 Étirement du tenseur du fascia lata et bandelette",
+      "11.4 Ouverture des rotateurs profonds (piriforme)",
+      "11.5 Adducteurs : grenouille et fente latérale",
+      "11.6 Libération myofasciale du psoas par ballon",
+      "11.7 Routine hanches de 12 minutes"
+     ],
+     "exercices": [
+      "Fente basse avec rétroversion active du bassin",
+      "Couch stretch (canapé) progressif",
+      "90/90 stretch avec rotation thoracique",
+      "Figure 4 allongé avec auto-résistance",
+      "Grenouille dynamique sur coussin",
+      "Libération psoas avec balle molle sous abdomen",
+      "Séquence enchaînée de 12 minutes chronométrée"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Ouvrir le thorax et les épaules",
+     "objectif": "Restaurer l'extension thoracique, l'ouverture pectorale et la mobilité scapulaire pour corriger les épaules enroulées.",
+     "sections": [
+      "12.1 Cyphose thoracique : pourquoi elle s'installe",
+      "12.2 Étirements des pectoraux (grand et petit)",
+      "12.3 Extension thoracique sur rouleau et ballon",
+      "12.4 Mobilité scapulaire : protraction, rétraction, rotation",
+      "12.5 Ouverture du grand dorsal et du grand rond",
+      "12.6 Libération des premiers côtes et du diaphragme",
+      "12.7 Routine thorax-épaules de 10 minutes"
+     ],
+     "exercices": [
+      "Pectoral stretch en angle de porte à trois hauteurs",
+      "Extension thoracique sur rouleau en expiration longue",
+      "Wall slides avec rétraction scapulaire",
+      "Ouverture thoracique en quadrupédie (book opener)",
+      "Lat stretch debout main sur montant",
+      "Auto-massage sous-claviculaire avec balle",
+      "Enchaînement fluide quotidien"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Libérer la chaîne postérieure",
+     "objectif": "Allonger ischio-jambiers, mollets, érecteurs du rachis et quadratus lumborum en respectant la logique de chaîne.",
+     "sections": [
+      "13.1 Ischio-jambiers courts : mythe et réalité",
+      "13.2 Étirement actif vs passif des ischios",
+      "13.3 Mollets : gastrocnémien et soléaire différenciés",
+      "13.4 Érecteurs spinaux et fessiers en chaîne",
+      "13.5 Quadratus lumborum : le muscle de la hanche haute",
+      "13.6 Postures globales : pince, charrue, chien tête en bas",
+      "13.7 Routine chaîne postérieure de 12 minutes"
+     ],
+     "exercices": [
+      "Étirement actif des ischios avec serviette (contract-relax)",
+      "Jefferson curl léger pour mobilité rachis en flexion",
+      "Mollet sur marche genou fléchi puis tendu",
+      "Étirement du quadratus lumborum en latéroflexion",
+      "Chien tête en bas dynamique avec pédalage",
+      "Posture de la pince avec micro-mouvements",
+      "Enchaînement de 12 minutes en flux"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Le cou et les cervicales : zone critique",
+     "objectif": "Soulager les tensions cervicales, les trapèzes supérieurs et les sous-occipitaux sans agresser les disques.",
+     "sections": [
+      "14.1 Anatomie cervicale et forward head posture",
+      "14.2 Sous-occipitaux : libération manuelle et par balle",
+      "14.3 Trapèze supérieur et élévateur de la scapula",
+      "14.4 SCM et scalènes : prudence et douceur",
+      "14.5 Mobilité cervicale active en contrôle",
+      "14.6 Posture de sommeil et choix d'oreiller",
+      "14.7 Routine cervicales de 8 minutes"
+     ],
+     "exercices": [
+      "Chin tuck isométrique contre mur",
+      "Auto-massage sous-occipital avec double balle",
+      "Étirement trapèze supérieur main sous fesse",
+      "Étirement élévateur de la scapula en rotation",
+      "Rotations cervicales lentes avec respiration",
+      "Rétraction cervicale allongée avec serviette roulée",
+      "Séquence du soir avant écran"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Renforcer : construire une posture résiliente",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "Les principes du renforcement correctif",
+     "objectif": "Différencier renforcement correctif et musculation classique : activation, tempo, conscience, progressivité.",
+     "sections": [
+      "15.1 Activer avant de renforcer : le recrutement moteur",
+      "15.2 Tempo lent et conscience proprioceptive",
+      "15.3 Isométrie, concentrique, excentrique : quoi choisir",
+      "15.4 Volume, fréquence et récupération en correctif",
+      "15.5 Progressions et signes de surcharge",
+      "15.6 Intégrer le renforcement dans une semaine type"
+     ],
+     "exercices": [
+      "Test d'activation fessière : clam isolé 20 répétitions",
+      "Tempo 4-2-4 sur une pompe scapulaire",
+      "Comparaison isométrie vs dynamique sur gainage",
+      "Semaine type pré-remplie selon profil",
+      "Journal de charge sur 4 semaines",
+      "Évaluation de la récupération par variabilité cardiaque subjective"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Le centre : gainage anti-mouvement",
+     "objectif": "Construire la stabilité du tronc par les quatre patterns anti-mouvement (extension, flexion, rotation, latéroflexion).",
+     "sections": [
+      "16.1 Pourquoi le crunch aggrave souvent le problème",
+      "16.2 Le Big Three de McGill en détail",
+      "16.3 Anti-extension : planche, dead bug, roll-out",
+      "16.4 Anti-rotation : pallof press et variations",
+      "16.5 Anti-latéroflexion : valise et suitcase carry",
+      "16.6 Respiration sous tension et bracing",
+      "16.7 Progression du centre sur 12 semaines"
+     ],
+     "exercices": [
+      "McGill curl-up avec maintien 10 secondes",
+      "Bird-dog en progression carré croisé",
+      "Planche latérale avec élévation de jambe",
+      "Dead bug avec bande élastique",
+      "Pallof press à genoux puis debout",
+      "Farmer carry unilatéral 40 mètres",
+      "Circuit centre 15 minutes"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Réveiller les fessiers et stabiliser le bassin",
+     "objectif": "Sortir de l'amnésie glutéale par activation, renforcement unipodal et intégration dans les patterns de hanche.",
+     "sections": [
+      "17.1 Amnésie glutéale : mécanismes et conséquences",
+      "17.2 Activation isolée : clam, pont, monster walk",
+      "17.3 Renforcement du grand fessier : hip thrust et ponts",
+      "17.4 Moyen fessier et stabilité unipodale",
+      "17.5 Intégration dans squat et hinge",
+      "17.6 Unilatéral : la clé de la symétrie",
+      "17.7 Progression fessiers sur 12 semaines"
+     ],
+     "exercices": [
+      "Clam avec bande au-dessus des genoux",
+      "Pont fessier bipodal puis unipodal",
+      "Hip thrust au sol avec pause isométrique",
+      "Monster walk avec bande aux chevilles",
+      "Squat bulgare avec focus fessier",
+      "Step-down latéral sur marche",
+      "Séquence fessiers 20 minutes"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Le dos et les scapulas : tirer pour équilibrer",
+     "objectif": "Renforcer les muscles du dos, les stabilisateurs scapulaires et le coiffe des rotateurs pour contrer la posture enroulée.",
+     "sections": [
+      "18.1 Ratio push/pull : viser 1 pour 2",
+      "18.2 Rétraction scapulaire et muscles rhomboïdes",
+      "18.3 Trapèze inférieur et moyen : les oubliés",
+      "18.4 Grand dorsal et rowing sous tous les angles",
+      "18.5 Coiffe des rotateurs et stabilité gléno-humérale",
+      "18.6 Érecteurs du rachis en endurance",
+      "18.7 Progression dos sur 12 semaines"
+     ],
+     "exercices": [
+      "Band pull-apart 3 séries de 20",
+      "Y-T-W au sol puis sur ballon",
+      "Rowing inversé sous table ou TRX",
+      "Face pull avec rotation externe",
+      "Rotation externe élastique coude au corps",
+      "Superman isométrique progressif",
+      "Séquence dos 20 minutes"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Pieds, chevilles et genoux : les fondations",
+     "objectif": "Reconstruire l'arche plantaire, la stabilité de cheville et l'alignement du genou, socles de toute la posture.",
+     "sections": [
+      "19.1 Le pied comme capteur et propulseur",
+      "19.2 Arche plantaire : short foot et doming",
+      "19.3 Mobilité de cheville et flexion dorsale",
+      "19.4 Stabilité unipodale et proprioception",
+      "19.5 Genou : valgus, varus et contrôle fémoral",
+      "19.6 Mobilité du gros orteil et propulsion",
+      "19.7 Progression fondations sur 12 semaines"
+     ],
+     "exercices": [
+      "Short foot assis puis debout",
+      "Marche sur pointe et talons",
+      "Équilibre unipodal sur coussin yeux fermés",
+      "Squat sur pointe de pieds (tibialis raise)",
+      "Step-down avec contrôle de valgus",
+      "Mobilisation gros orteil contre mur",
+      "Séquence fondations 15 minutes"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Intégrer le mouvement dans la vie quotidienne",
+   "chapitres": [
+    {
+     "numero": 20,
+     "titre": "Concevoir son poste de travail ergonomique",
+     "objectif": "Optimiser chaise, bureau, écrans, clavier et souris pour réduire la charge posturale au quotidien.",
+     "sections": [
+      "20.1 Hauteur de chaise et angle de hanche",
+      "20.2 Écrans : hauteur, distance, luminosité",
+      "20.3 Clavier et souris : position et alternatives",
+      "20.4 Bureaux assis-debout : usage intelligent",
+      "20.5 Éclairage, bruit et environnement sensoriel",
+      "20.6 Checklist ergonomique complète"
+     ],
+     "exercices": [
+      "Audit photo de son poste actuel",
+      "Réglage chaise-écran-clavier en 10 minutes",
+      "Test d'une souris verticale ou trackball sur 1 semaine",
+      "Alternance assis/debout planifiée par blocs de 45 minutes",
+      "Installation d'un minuteur de micro-pauses",
+      "Vérification ergonomique à J+30"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Les micro-routines de la journée de travail",
+     "objectif": "Installer des routines de 2 à 5 minutes à des moments clés pour briser la sédentarité sans perturber la productivité.",
+     "sections": [
+      "21.1 Le réveil postural du matin (5 minutes)",
+      "21.2 Micro-pauses actives toutes les 45 minutes",
+      "21.3 Routine de la pause déjeuner (8 minutes)",
+      "21.4 Reset postural de fin d'après-midi",
+      "21.5 Séance de décompression du soir (12 minutes)",
+      "21.6 Ancrage d'habitudes : triggers et environnement"
+     ],
+     "exercices": [
+      "Réveil : cat-cow, world's greatest stretch, squat profond",
+      "Micro-pause : 10 squats, 10 wall slides, 30 secondes planche",
+      "Pause déjeuner : marche 10 min + étirement psoas et thorax",
+      "Reset 16h : fente, ouverture thorax, cou",
+      "Décompression soir : jambes au mur, respiration, étirements sol",
+      "Installation de 5 triggers physiques dans l'environnement de travail"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Programmes complets selon profil et temps disponible",
+     "objectif": "Fournir des programmes prêts à l'emploi de 15, 30 et 45 minutes pour chaque profil postural identifié.",
+     "sections": [
+      "22.1 Programme profil croisé supérieur",
+      "22.2 Programme profil croisé inférieur",
+      "22.3 Programme profil sway-back",
+      "22.4 Programme profil cypho-lordotique",
+      "22.5 Version express 15 minutes pour jours chargés",
+      "22.6 Version complète 45 minutes pour jours calmes"
+     ],
+     "exercices": [
+      "Fiche programme imprimable profil croisé supérieur",
+      "Fiche programme imprimable profil croisé inférieur",
+      "Fiche programme imprimable sway-back",
+      "Fiche programme imprimable cypho-lordotique",
+      "Séquence express universelle de 15 minutes",
+      "Planification hebdomadaire type sur 4 semaines"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Prévenir les rechutes et maintenir les acquis",
+     "objectif": "Anticiper les périodes à risque (voyages, deadlines, vacances) et installer des systèmes de maintenance à long terme.",
+     "sections": [
+      "23.1 Signaux précoces de dégradation posturale",
+      "23.2 Routine de maintenance minimale hebdomadaire",
+      "23.3 Gérer les voyages et nuits d'hôtel",
+      "23.4 Périodes de haute charge professionnelle",
+      "23.5 Reprise après arrêt prolongé ou blessure",
+      "23.6 Réévaluation trimestrielle et ajustements"
+     ],
+     "exercices": [
+      "Liste personnelle des 5 signaux d'alerte",
+      "Routine de maintenance 20 minutes par semaine",
+      "Kit voyage : 6 exercices sans matériel",
+      "Plan d'urgence semaine intense (10 minutes/jour)",
+      "Protocole de reprise progressive en 3 phases",
+      "Calendrier annuel de 4 réévaluations"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Vers une vie en mouvement : au-delà de l'exercice",
+     "objectif": "Élargir la vision au-delà des routines : nutrition du tissu conjonctif, sommeil, hydratation, variété de mouvement, culture motrice.",
+     "sections": [
+      "24.1 Hydratation et qualité des fascias",
+      "24.2 Nutrition : collagène, vitamine C, protéines",
+      "24.3 Sommeil et récupération tissulaire",
+      "24.4 Variété de mouvement : danser, grimper, jouer",
+      "24.5 Culture motrice : arts martiaux, danse, escalade",
+      "24.6 Identité : devenir une personne qui bouge"
+     ],
+     "exercices": [
+      "Protocole d'hydratation personnalisé (poids x 35 ml)",
+      "Plan alimentaire hebdomadaire riche en tissus conjonctifs",
+      "Routine de sommeil : lumière, température, étirements",
+      "Liste de 10 activités de mouvement à essayer dans l'année",
+      "Engagement dans une pratique motrice nouvelle sur 3 mois",
+      "Lettre à soi-même à ouvrir dans un an"
+     ]
+    }
+   ]
+  }
+ ]
+}
