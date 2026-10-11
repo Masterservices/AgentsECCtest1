@@ -1,0 +1,546 @@
+{
+ "titre": "L'Architecture du Nous",
+ "sous_titre": "Outils pour maintenir la connexion, traverser les conflits et bâtir un projet de vie à deux",
+ "bibliographie": [
+  {
+   "auteur": "John Gottman",
+   "titre": "Les sept principes pour faire fonctionner un mariage",
+   "annee": "1999",
+   "idee": "Les couples qui durent ne sont pas ceux sans conflits, mais ceux qui cultivent une profonde amitié et gèrent les désaccords sans mépris ni défensive.",
+   "apport": "Le concept de 'carte de l'univers' de l'autre et les antidotes aux quatre cavaliers de l'apocalypse relationnelle."
+  },
+  {
+   "auteur": "Sue Johnson",
+   "titre": "Serre-moi fort (Hold Me Tight)",
+   "annee": "2008",
+   "idee": "Les disputes de surface cachent presque toujours une panique d'attachement et une peur fondamentale de l'abandon ou de la déconnexion.",
+   "apport": "La grille de lecture de la Thérapie Émotionnelle (EFT) pour décoder les crises comme des appels à la sécurité émotionnelle."
+  },
+  {
+   "auteur": "Marshall Rosenberg",
+   "titre": "La Communication NonViolente au quotidien",
+   "annee": "2003",
+   "idee": "Tout conflit est l'expression tragique d'un besoin non satisfait ; le jugement coupe la connexion tandis que l'observation la restaure.",
+   "apport": "Le script pratique en quatre étapes (OSBD) adapté spécifiquement aux négociations et désaccords conjugaux."
+  },
+  {
+   "auteur": "Esther Perel",
+   "titre": "L'intelligence érotique (Mating in Captivity)",
+   "annee": "2006",
+   "idee": "L'amour cherche la proximité et la sécurité, tandis que le désir a besoin de distance, de mystère et d'altérité pour s'épanouir.",
+   "apport": "L'équilibre entre la fusion du projet commun et la préservation de l'identité individuelle et de l'espace érotique."
+  },
+  {
+   "auteur": "Amir Levine et Rachel Heller",
+   "titre": "Les liens de l'attachement (Attached)",
+   "annee": "2010",
+   "idee": "Nos styles d'attachement (anxieux, évitant, sécurisant) dictent nos réactions automatiques face au stress relationnel et à l'intimité.",
+   "apport": "L'audit des styles d'attachement pour comprendre la 'danse anxieux-évitant' et créer des protocoles de rassurance."
+  },
+  {
+   "auteur": "Stan Tatkin",
+   "titre": "Câblés pour l'amour (Wired for Love)",
+   "annee": "2012",
+   "idee": "Le couple doit fonctionner comme une 'bulle' protectrice qui régule le système nerveux de chaque partenaire face au monde extérieur.",
+   "apport": "La création de rituels neurobiologiques de régulation et de protection mutuelle contre les stress externes."
+  },
+  {
+   "auteur": "Harville Hendrix",
+   "titre": "Le couple imago (Getting the Love You Want)",
+   "annee": "1988",
+   "idee": "Nous choisissons inconsciemment des partenaires qui réactivent nos blessures d'enfance pour tenter de les guérir à l'âge adulte.",
+   "apport": "Le dialogue imago pour développer une empathie radicale face aux déclencheurs émotionnels de l'autre."
+  },
+  {
+   "auteur": "Brené Brown",
+   "titre": "Le pouvoir de la vulnérabilité (Daring Greatly)",
+   "annee": "2012",
+   "idee": "La vulnérabilité n'est pas une faiblesse mais le lieu de naissance de l'amour, de l'appartenance et de la connexion authentique.",
+   "apport": "Des exercices pour faire tomber les armures défensives et oser l'exposition émotionnelle sans honte."
+  },
+  {
+   "auteur": "David Schnarch",
+   "titre": "Le mariage passionné (Passionate Marriage)",
+   "annee": "1997",
+   "idee": "La différenciation (capacité à rester soi-même tout en étant connecté à l'autre) est la clé de l'intimité mature et du désir.",
+   "apport": "Les techniques d'auto-apaisement et de maintien de ses propres limites sans couper le lien affectif."
+  },
+  {
+   "auteur": "Alain de Botton",
+   "titre": "Le cours de l'amour",
+   "annee": "2016",
+   "idee": "Le romantisme nous a vendu l'illusion de l'amour spontané, alors que l'amour durable est une compétence qui s'apprend et se travaille.",
+   "apport": "Le recadrage philosophique pour accepter la mundaneité, l'ennui et l'imperfection comme parties du contrat conjugal."
+  },
+  {
+   "auteur": "Eli Finkel",
+   "titre": "Le mariage du tout ou rien (The All-or-Nothing Marriage)",
+   "annee": "2017",
+   "idee": "Nous demandons aujourd'hui à notre partenaire d'être notre amant, notre meilleur ami, notre thérapeute et notre coach, ce qui crée une pression insoutenable.",
+   "apport": "La stratégie de 'diversification relationnelle' pour alléger le poids des attentes pesant sur le couple."
+  },
+  {
+   "auteur": "Shirley Glass",
+   "titre": "Pas 'juste amis' (Not Just Friends)",
+   "annee": "2003",
+   "idee": "L'infidélité émotionnelle commence par l'effritement des frontières et le partage d'intimités avec des tiers au détriment du partenaire.",
+   "apport": "La définition de frontières claires pour protéger l'intégrité du couple face aux tentations et aux ingérences extérieures."
+  },
+  {
+   "auteur": "Terrence Real",
+   "titre": "Us: Getting Past You and Me",
+   "annee": "2022",
+   "idee": "L'individualisme moderne détruit les relations ; il faut passer de l'ego centrique à une 'écologie relationnelle' où le 'Nous' prime.",
+   "apport": "Le changement de paradigme pour résoudre les conflits non pas en cherchant qui a raison, mais ce qui est bon pour le 'Nous'."
+  },
+  {
+   "auteur": "Gary Chapman",
+   "titre": "Les 5 langages de l'amour",
+   "annee": "1992",
+   "idee": "Nous exprimons et recevons l'amour à travers cinq canaux distincts ; parler le mauvais langage crée un sentiment de vide affectif.",
+   "apport": "L'audit des réservoirs émotionnels et l'adaptation des preuves d'amour au langage spécifique du partenaire."
+  },
+  {
+   "auteur": "Willard Harley",
+   "titre": "Ses besoins, ses besoins (His Needs, Her Needs)",
+   "annee": "1986",
+   "idee": "Chaque partenaire possède un 'compte en banque amoureux' qui doit être alimenté par la satisfaction de ses besoins fondamentaux spécifiques.",
+   "apport": "La cartographie des besoins non négociables et la prévention de la faillite émotionnelle du couple."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 : Les Fondations de l'Attachement",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Cartographier l'univers intérieur de l'autre",
+     "objectif": "Comprendre que l'amour durable repose sur une connaissance actualisée et profonde du monde psychologique du partenaire.",
+     "sections": [
+      "L'illusion de croire que l'on connaît tout de l'autre",
+      "La 'Love Map' : les coordonnées de son monde intérieur",
+      "Identifier les rêves secrets et les peurs inavouées",
+      "L'impact des mises à jour : comment les gens changent",
+      "L'écoute active sans jugement ni résolution de problème",
+      "Gérer les zones d'ombre et les silences respectés"
+     ],
+     "exercices": [
+      "Le questionnaire de l'univers caché (60 questions à piocher)",
+      "Le rituel de la mise à jour hebdomadaire (15 min le dimanche)"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Décoder et apaiser nos styles d'attachement",
+     "objectif": "Identifier les schémas automatiques de réaction face au stress relationnel pour passer de l'insécurité à la base sécurisante.",
+     "sections": [
+      "Les origines neurobiologiques de notre façon d'aimer",
+      "Le profil anxieux : l'hypervigilance et la peur de l'abandon",
+      "Le profil évitant : l'autonomie comme bouclier",
+      "Le profil sécurisant : la flexibilité émotionnelle",
+      "La danse toxique du poursuivant et du distanciateur",
+      "Neuroplasticité : comment acquérir la sécurité à l'âge adulte"
+     ],
+     "exercices": [
+      "Audit croisé de nos déclencheurs d'insécurité",
+      "Création du 'Signal de Sécurité' (geste ou mot de passe apaisant)"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Le mythe de la fusion et la nécessité de la différenciation",
+     "objectif": "Apprendre à rester soi-même tout en étant profondément connecté, pour éviter l'étouffement et maintenir le désir.",
+     "sections": [
+      "Pourquoi la fusion totale est un leurre romantique",
+      "La différenciation : tenir bon face à la réactivité de l'autre",
+      "L'auto-apaisement : gérer sa propre anxiété sans blâmer",
+      "Préserver son jardin secret et ses amitiés individuelles",
+      "L'altérité comme carburant du désir et de la curiosité",
+      "Redéfinir l'indépendance comme un cadeau fait au couple"
+     ],
+     "exercices": [
+      "L'inventaire des espaces vitaux (ce qui est à moi, à toi, à nous)",
+      "L'exercice du 'Je reste là' (tolérer la tension sans fuir ni attaquer)"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "La vulnérabilité comme acte de courage",
+     "objectif": "Déposer les armures défensives pour offrir à l'autre l'accès à nos fragilités, créant ainsi une intimité indestructible.",
+     "sections": [
+      "La honte et la peur du jugement comme murs de l'intimité",
+      "Différencier la faiblesse de la vulnérabilité stratégique",
+      "Comment nos armures protectrices blessent le partenaire",
+      "Le langage de la honte et comment le désamorcer",
+      "Créer un sanctuaire émotionnel inconditionnel",
+      "L'audace de demander ce dont on a vraiment besoin"
+     ],
+     "exercices": [
+      "La lettre de l'armure (ce que je cache et pourquoi)",
+      "Le rituel du dépôt des armes (partage d'une peur sans attente de solution)"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Construire la 'bulle du couple'",
+     "objectif": "Établir un périmètre de protection neurobiologique et relationnelle contre les agressions du monde extérieur.",
+     "sections": [
+      "Le couple comme système nerveux partagé et co-régulateur",
+      "Les menaces externes : travail, famille, écrans, stress",
+      "La priorité absolue : le partenaire avant les enfants et le travail",
+      "Les rituels de transition (du monde extérieur à la bulle)",
+      "Protéger son sommeil et son énergie commune",
+      "L'alliance inconditionnelle en public et la critique en privé"
+     ],
+     "exercices": [
+      "Le protocole de la 'Bulle' (règles de non-ingérence extérieure)",
+      "Le rituel de retrouvailles du soir (les 3 premières minutes sacrées)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 : La Mécanique des Émotions au Quotidien",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "L'anatomie des micro-connexions",
+     "objectif": "Comprendre que la confiance se construit dans les infimes interactions quotidiennes, les 'appels à la connexion'.",
+     "sections": [
+      "Les 'bids for connection' : ces micro-appels invisibles",
+      "Les trois réponses possibles : se tourner vers, contre, ou loin",
+      "Le compte en banque émotionnel et les micro-dépôts",
+      "Pourquoi l'indifférence est plus destructrice que la colère",
+      "Capter les signaux faibles de détresse ou de joie",
+      "L'attention comme monnaie d'échange suprême de l'amour"
+     ],
+     "exercices": [
+      "Le journal des 'bids' manqués et captés sur 48h",
+      "Le jeu du radar émotionnel (deviner l'état interne de l'autre)"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Parler le langage émotionnel de l'autre",
+     "objectif": "Aligner nos intentions amoureuses avec la façon dont notre partenaire les reçoit réellement.",
+     "sections": [
+      "Le drame de l'amour mal traduit (aimer fort mais mal)",
+      "Les cinq canaux de réception de l'affection",
+      "L'évolution des langages selon les saisons de la vie",
+      "Le langage des mots : encouragements et reconnaissances",
+      "Le langage du temps, du toucher, des services et des cadeaux",
+      "Éviter la projection de nos propres besoins sur l'autre"
+     ],
+     "exercices": [
+      "L'audit du réservoir affectif (ce qui me remplit / ce qui me vide)",
+      "La semaine d'immersion linguistique (parler exclusivement le langage de l'autre)"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Les rituels de reconnexion intentionnelle",
+     "objectif": "Structurer le temps commun pour éviter que la logistique et la routine n'érodent l'espace sacré du couple.",
+     "sections": [
+      "Le danger de la pilotage automatique relationnel",
+      "Les rituels quotidiens : ancrages de sécurité neurobiologique",
+      "Les rituels hebdomadaires : le rendez-vous non négociable",
+      "Les rituels annuels : bilans, voyages et célébrations",
+      "Créer une culture de couple unique (fêtes inventées, blagues privées)",
+      "Protéger ces rituels contre l'invasion des obligations"
+     ],
+     "exercices": [
+      "Design de la semaine idéale (intégration de 3 rituels majeurs)",
+      "L'invention d'une fête de couple annuelle"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Gérer l'usure de la routine et cultiver la nouveauté",
+     "objectif": "Lutter contre l'habituation hédonique en introduisant de l'imprévu et de la croissance partagée.",
+     "sections": [
+      "La neurobiologie de l'ennui et de la dopamine",
+      "Pourquoi le confort excessif tue l'élan vital du couple",
+      "L'apprentissage commun comme ciment relationnel",
+      "Sortir de sa zone de confort à deux",
+      "La nostalgie positive : réactiver les souvenirs fondateurs",
+      "Planifier l'inattendu dans un agenda surchargé"
+     ],
+     "exercices": [
+      "La liste des 'Premières fois' à accomplir cette année",
+      "Le rendez-vous mystère (organisation en alternance sans rien dévoiler)"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "L'intimité sexuelle comme prolongement émotionnel",
+     "objectif": "Aborder la sexualité non comme une performance, mais comme un dialogue corporel et émotionnel continu.",
+     "sections": [
+      "Démystifier le désir spontané vs le désir réceptif",
+      "Le sexe comme baromètre de la connexion émotionnelle",
+      "Communiquer sur ses fantasmes et ses limites sans honte",
+      "Gérer les écarts de libido sans culpabilisation",
+      "L'impact du stress, de la fatigue et des écrans sur l'érotisme",
+      "Redéfinir l'intimité physique au-delà de la pénétration"
+     ],
+     "exercices": [
+      "La cartographie des zones de plaisir et de sensibilité",
+      "L'accord du 'Oui / Non / Peut-être' (exploration des frontières)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 : L'Art du Désaccord (Gérer les conflits sans s'abîmer)",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "Désamorcer les cavaliers de l'apocalypse",
+     "objectif": "Identifier et neutraliser les quatre comportements toxiques qui prédisent la rupture relationnelle.",
+     "sections": [
+      "La critique globale vs la plainte spécifique",
+      "Le mépris : l'acide qui dissout l'amour et l'immunité",
+      "La défensive : l'art de jouer la victime pour ne pas changer",
+      "Le retrait (stonewalling) : l'abandon émotionnel en plein conflit",
+      "Les antidotes spécifiques à chaque cavalier",
+      "La culture de l'appréciation comme vaccin contre le mépris"
+     ],
+     "exercices": [
+      "Le détecteur de cavaliers (grille d'observation de nos dernières disputes)",
+      "Le rituel de la gratitude quotidienne (3 choses spécifiques)"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "La Communication NonViolente appliquée au couple",
+     "objectif": "Transformer les reproches en expressions de besoins pour désarmer la réactivité défensive du partenaire.",
+     "sections": [
+      "Observer sans évaluer : séparer les faits des interprétations",
+      "Identifier et nommer ses émotions (au-delà de 'je suis énervé')",
+      "Exprimer le besoin caché derrière la douleur",
+      "Formuler une demande claire, positive et négociable",
+      "L'empathie : écouter le besoin de l'autre derrière son attaque",
+      "Les limites de la CNV quand l'émotion est trop forte"
+     ],
+     "exercices": [
+      "Le traducteur CNV (réécrire 5 reproches récents en OSBD)",
+      "Le dialogue en miroir (reformater avant de répondre)"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Identifier les blessures cachées derrière la colère",
+     "objectif": "Comprendre que la colère est souvent une émotion secondaire masquant une peur, une honte ou une tristesse profonde.",
+     "sections": [
+      "L'iceberg émotionnel : la colère comme partie émergée",
+      "Les blessures d'enfance réactivées par le partenaire",
+      "Le concept de 'boutons rouges' et de déclencheurs",
+      "Comment devenir le guérisseur de l'autre plutôt que son juge",
+      "La validation émotionnelle : l'antidote à la solitude à deux",
+      "Pardonner à l'autre de ne pas être parfait"
+     ],
+     "exercices": [
+      "La plongée sous l'iceberg (identifier l'émotion racine)",
+      "Le dialogue Imago adapté (miroir, validation, empathie)"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Le Time-Out stratégique : savoir s'arrêter avant l'explosion",
+     "objectif": "Maîtriser l'emballement physiologique (flooding) pour éviter les mots et les actes que l'on regrettera.",
+     "sections": [
+      "Le 'flooding' : quand le cerveau reptilien prend le contrôle",
+      "Reconnaître les signes physiologiques de la saturation",
+      "La différence entre le Time-Out stratégique et la fuite punitive",
+      "Le protocole de mise en pause : comment le demander et l'accorder",
+      "Que faire pendant la pause : s'auto-apaiser, pas ruminer",
+      "Le retour au calme et la reprise obligatoire du dialogue"
+     ],
+     "exercices": [
+      "Création de notre mot-code de Time-Out",
+      "La boîte à outils d'auto-apaisement (respiration, marche, ancrage)"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Négocier les désaccords perpétuels",
+     "objectif": "Accepter que 69% des conflits conjugaux sont insolubles et apprendre à dialoguer avec eux sans s'entretuer.",
+     "sections": [
+      "Le mythe de la résolution totale des problèmes de couple",
+      "Identifier les désaccords perpétuels (personnalité, valeurs, rythme)",
+      "Passer de l'impasse (gridlock) au dialogue continu",
+      "L'humour et l'affection au cœur du désaccord chronique",
+      "Trouver le compromis acceptable et temporaire",
+      "Honorer les rêves sous-jacents de chaque position"
+     ],
+     "exercices": [
+      "L'inventaire de nos 5 désaccords perpétuels (et comment on les gère)",
+      "L'exercice des rêves cachés (pourquoi c'est si important pour toi ?)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 : Le Chantier du Sens (Construire le projet de vie commun)",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "De l'amour romantique à l'amour architecte",
+     "objectif": "Opérer la transition mentale de la passion subie à la construction consciente et volontaire d'une œuvre commune.",
+     "sections": [
+      "La fin de la lune de miel : le début du vrai travail",
+      "L'amour comme verbe et comme compétence à pratiquer",
+      "Définir notre philosophie conjugale unique",
+      "Accepter la mundaneité comme toile de fond du bonheur",
+      "Le contrat moral du couple : nos promesses fondamentales",
+      "Célébrer les étapes et les anniversaires de construction"
+     ],
+     "exercices": [
+      "Rédaction de notre 'Manifeste du Nous' (1 page max)",
+      "La lettre à notre couple dans 10 ans"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Aligner les visions : argent, carrière et géographie",
+     "objectif": "Aborder les sujets logistiques et matériels non comme des corvées, mais comme les piliers concrets du projet de vie.",
+     "sections": [
+      "L'argent comme reflet de nos valeurs et de nos peurs",
+      "Gérer les écarts de revenus et de rapport à l'épargne",
+      "La carrière de qui passe en premier ? L'art du tour de rôle",
+      "Les compromis géographiques et l'ancrage territorial",
+      "L'impact des familles d'origine sur nos choix de vie",
+      "Créer un tableau de bord financier et logistique partagé"
+     ],
+     "exercices": [
+      "L'audit de nos croyances financières héritées",
+      "La matrice des décisions majeures (qui décide, qui veto, qui soutient)"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "La parentalité (ou son absence) comme pilier du projet",
+     "objectif": "Naviguer la décision d'avoir des enfants, ou de ne pas en avoir, et protéger le couple de la tornade parentale.",
+     "sections": [
+      "Le désir d'enfant : alignement ou compromis douloureux ?",
+      "Le deuil de la fertilité ou le choix assumé du childfree",
+      "L'arrivée de l'enfant : le tsunami conjugal prévisible",
+      "Répartition de la charge mentale et physique sans rancœur",
+      "Protéger l'intimité et le temps de couple avec des enfants",
+      "L'éducation : unifier nos fronts face aux enfants"
+     ],
+     "exercices": [
+      "Le scénario du pire et du meilleur (projection parentale)",
+      "La charte de protection du temps de couple (si parents)"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Définir les frontières avec l'extérieur",
+     "objectif": "Ériger des limites saines avec les belles-familles, les amis et les collègues pour préserver l'intégrité du noyau.",
+     "sections": [
+      "Le couple comme entité souveraine et prioritaire",
+      "Gérer les belles-familles envahissantes ou toxiques",
+      "L'ingérence des amis et le secret conjugal",
+      "Les frontières numériques : réseaux sociaux et transparence",
+      "Protéger le couple des ingérences professionnelles",
+      "L'art de dire 'nous' face aux pressions extérieures"
+     ],
+     "exercices": [
+      "Le tracé de nos frontières (qui a accès à quoi dans notre vie)",
+      "Le script de réponse unie face aux intrusions familiales"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Le tableau de bord du couple : la réunion stratégique",
+     "objectif": "Instaurer un espace-temps dédié pour faire le point, anticiper les frictions et célébrer les victoires communes.",
+     "sections": [
+      "Pourquoi l'amour a besoin de management et d'organisation",
+      "Le format de la réunion mensuelle (ou hebdomadaire)",
+      "L'ordre du jour : logistique, émotion, sexualité, projets",
+      "Les règles d'or : pas de téléphones, pas de jugements",
+      "Anticiper les périodes de stress à venir (calendrier partagé)",
+      "Clôturer sur une note de connexion et de gratitude"
+     ],
+     "exercices": [
+      "Le template de notre Réunion de Couple (agenda type)",
+      "Le rituel de clôture (massage, verre de vin, jeu de cartes)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 : La Résilience du Couple (Traverser les crises et durer)",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Traverser les deuils et les épreuves externes ensemble",
+     "objectif": "Rester unis et solidaires face aux tragédies de la vie (maladie, chômage, deuil) sans se rendre responsables mutuellement.",
+     "sections": [
+      "Le stress externe comme test ultime de la 'bulle'",
+      "Les différentes vitesses et formes du deuil et du choc",
+      "Éviter le blâme et la recherche de bouc émissaire",
+      "Comment soutenir sans s'épuiser : la gestion de l'énergie",
+      "Accepter l'impuissance face à la douleur de l'autre",
+      "Trouver du sens et une nouvelle normalité après la tempête"
+     ],
+     "exercices": [
+      "Le contrat d'entraide en temps de crise (ce dont j'ai besoin)",
+      "La cartographie de notre réseau de soutien externe"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Pardonner et reconstruire la confiance",
+     "objectif": "Naviguer le processus complexe de réparation après une trahison, un mensonge ou une rupture de contrat moral.",
+     "sections": [
+      "Anatomie de la trahison : micro-trahisons et macro-ruptures",
+      "La phase de choc et la nécessité de la transparence totale",
+      "Le mythe du pardon instantané et magique",
+      "La responsabilité du transgresseur : remords vs regret",
+      "Le rôle du blessé : exprimer la douleur sans torture perpétuelle",
+      "Bâtir le couple de la 'deuxième chance' (qui sera différent)"
+     ],
+     "exercices": [
+      "L'autopsie de la brèche (comment en sommes-nous arrivés là)",
+      "Le rituel de la nouvelle promesse (réécriture du contrat)"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "S'adapter aux mutations identitaires de l'autre",
+     "objectif": "Accepter que le partenaire que l'on a épousé n'est pas celui qu'il sera dans 20 ans, et tomber amoureux de ses nouvelles versions.",
+     "sections": [
+      "L'illusion de la permanence du caractère humain",
+      "Les crises de milieu de vie et les quêtes de sens",
+      "Accompagner les changements de carrière ou de spiritualité",
+      "Le deuil de l'ancien partenaire et de l'ancienne dynamique",
+      "Éviter le syndrome de l'otage ('tu as changé')",
+      "La curiosité continue : redécouvrir l'autre comme un étranger"
+     ],
+     "exercices": [
+      "L'interview de la nouvelle version de l'autre",
+      "Le bilan des rêves abandonnés et des nouveaux horizons"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Le legs émotionnel : quelle histoire voulons-nous raconter ?",
+     "objectif": "Donner une dimension transcendantale au couple en définissant l'impact et l'héritage émotionnel que nous laissons au monde.",
+     "sections": [
+      "Le couple comme entité spirituelle et historique",
+      "L'impact de notre relation sur nos enfants et notre entourage",
+      "Les valeurs que nous incarnons par notre union",
+      "La beauté du vieillissement à deux et de la mémoire partagée",
+      "Préparer l'avenir et la solitude inévitable du survivant",
+      "L'histoire finale : de quoi serons-nous fiers sur notre lit de mort ?"
+     ],
+     "exercices": [
+      "L'écriture de notre épitaphe de couple",
+      "La création de notre capsule temporelle relationnelle"
+     ]
+    }
+   ]
+  }
+ ]
+}

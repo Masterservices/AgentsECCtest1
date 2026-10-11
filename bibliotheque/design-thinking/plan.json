@@ -1,0 +1,541 @@
+{
+ "titre": "L'Art de l'Utile",
+ "sous_titre": "Concevoir des produits et services qui répondent aux vrais besoins grâce à l'approche centrée utilisateur",
+ "bibliographie": [
+  {
+   "auteur": "Don Norman",
+   "titre": "The Design of Everyday Things",
+   "annee": "1988",
+   "idee": "Le design doit rendre les objets intuitifs en s'appuyant sur la psychologie cognitive et les affordances.",
+   "apport": "Les principes fondamentaux de l'ergonomie cognitive et la notion d'empathie envers l'utilisateur."
+  },
+  {
+   "auteur": "Steve Krug",
+   "titre": "Don't Make Me Think",
+   "annee": "2000",
+   "idee": "Une interface réussie est celle qui ne demande aucun effort de réflexion conscient à l'utilisateur.",
+   "apport": "Les règles d'or de l'utilité, de la simplicité et des tests rapides dans les interfaces numériques."
+  },
+  {
+   "auteur": "Alan Cooper",
+   "titre": "About Face: The Essentials of Interaction Design",
+   "annee": "2014",
+   "idee": "Les personas et les scénarios sont indispensables pour aligner les équipes sur les besoins réels.",
+   "apport": "La méthodologie rigoureuse de création et d'utilisation des personas comportementaux."
+  },
+  {
+   "auteur": "Marty Cagan",
+   "titre": "Inspired: How to Create Tech Products Customers Love",
+   "annee": "2017",
+   "idee": "Les meilleurs produits naissent de l'intersection entre faisabilité technique, viabilité économique et désirabilité.",
+   "apport": "L'organisation des équipes produit et la validation continue avant le développement."
+  },
+  {
+   "auteur": "Jeff Gothelf et Josh Seiden",
+   "titre": "Lean UX",
+   "annee": "2013",
+   "idee": "Intégrer le design dans les méthodologies agiles en se concentrant sur les résultats plutôt que les livrables.",
+   "apport": "L'alignement du design avec le développement agile et les boucles de feedback courtes."
+  },
+  {
+   "auteur": "Jake Knapp",
+   "titre": "Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days",
+   "annee": "2016",
+   "idee": "Résoudre des problèmes complexes et tester des idées en cinq jours grâce à un processus structuré.",
+   "apport": "Le framework du Sprint pour accélérer la validation d'hypothèses et réduire les risques."
+  },
+  {
+   "auteur": "Erika Hall",
+   "titre": "Just Enough Research",
+   "annee": "2013",
+   "idee": "La recherche utilisateur n'a pas besoin d'être massive pour être efficace ; elle doit être ciblée.",
+   "apport": "Les techniques de recherche légères, pragmatiques et intégrées au quotidien des équipes."
+  },
+  {
+   "auteur": "Teresa Torres",
+   "titre": "Continuous Discovery Habits",
+   "annee": "2021",
+   "idee": "La découverte de produit doit être un processus continu et hebdomadaire, et non ponctuel.",
+   "apport": "Les cartes d'opportunités et la structuration des entretiens réguliers avec les clients."
+  },
+  {
+   "auteur": "Jesse James Garrett",
+   "titre": "The Elements of User Experience",
+   "annee": "2000",
+   "idee": "L'expérience utilisateur se construit en cinq plans superposés, de la stratégie à la surface.",
+   "apport": "La structuration hiérarchique et logique de la conception d'un service numérique."
+  },
+  {
+   "auteur": "Indi Young",
+   "titre": "Mental Models: Aligning Design Strategy with Human Behavior",
+   "annee": "2008",
+   "idee": "Aligner la stratégie de l'entreprise sur les modèles mentaux et les comportements profonds des utilisateurs.",
+   "apport": "La cartographie des modèles mentaux pour identifier les opportunités d'innovation cachées."
+  },
+  {
+   "auteur": "Kim Goodwin",
+   "titre": "Designing for the Digital Age",
+   "annee": "2009",
+   "idee": "Le design centré sur l'humain nécessite une approche holistique combinant recherche, stratégie et design.",
+   "apport": "Les frameworks de design d'interaction et les techniques de facilitation d'ateliers."
+  },
+  {
+   "auteur": "Mike Kuniavsky",
+   "titre": "Observing the User Experience",
+   "annee": "2003",
+   "idee": "L'observation en contexte réel révèle des besoins que les utilisateurs eux-mêmes ignorent.",
+   "apport": "Les techniques d'ethnographie, d'observation terrain et d'analyse contextuelle."
+  },
+  {
+   "auteur": "Jon Kolko",
+   "titre": "Well-Designed: How to Use Empathy to Create Products People Love",
+   "annee": "2014",
+   "idee": "Le design thinking est un processus de synthèse qui transforme des données brutes en insights.",
+   "apport": "Les méthodes de synthèse qualitative et de cadrage de problèmes complexes."
+  },
+  {
+   "auteur": "Leah Buley",
+   "titre": "The User Experience Team of One",
+   "annee": "2013",
+   "idee": "Même avec des ressources limitées, on peut avoir un impact majeur en priorisant les actions UX.",
+   "apport": "Les stratégies pour démocratiser l'UX et convaincre dans des environnements contraints."
+  },
+  {
+   "auteur": "Nir Eyal",
+   "titre": "Hooked: How to Build Habit-Forming Products",
+   "annee": "2014",
+   "idee": "Les produits créateurs d'habitudes reposent sur un cycle précis : déclencheur, action, récompense, investissement.",
+   "apport": "La mécanique de l'engagement utilisateur à long terme et la réflexion éthique associée."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 : L'Immersion - Comprendre l'humain derrière l'utilisateur",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Déconstruire le mythe du client roi",
+     "objectif": "Passer de la culture de l'opinion à la culture de l'observation empirique.",
+     "sections": [
+      "L'illusion des sondages et des groupes de discussion",
+      "Le fossé entre ce que les gens disent et ce qu'ils font",
+      "L'économie de l'attention et la charge cognitive",
+      "Les biais cognitifs du créateur et du décideur",
+      "L'empathie comme compétence technique mesurable",
+      "Le coût financier et humain de l'ignorance utilisateur"
+     ],
+     "exercices": [
+      "Audit des hypothèses : lister 10 croyances de l'équipe et leur niveau de preuve",
+      "Journal d'observation : noter 3 frustrations personnelles face à un service quotidien"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Cartographier l'écosystème et les parties prenantes",
+     "objectif": "Définir les frontières du service et aligner les objectifs internes.",
+     "sections": [
+      "Définir les frontières visibles et invisibles du service",
+      "Identifier les acteurs de l'ombre (support, technique, juridique)",
+      "La carte d'empathie élargie aux parties prenantes internes",
+      "Aligner les objectifs business et les besoins humains",
+      "Le mapping des contraintes techniques et réglementaires",
+      "Créer un langage commun entre le design, le business et la tech"
+     ],
+     "exercices": [
+      "Matrice d'influence et d'intérêt des parties prenantes",
+      "Atelier d'alignement : formuler une vision partagée en une phrase"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "L'art de l'entretien ethnographique",
+     "objectif": "Maîtriser les techniques de questionnement pour révéler les motivations profondes.",
+     "sections": [
+      "Préparer un guide d'entretien sans biaiser les réponses",
+      "Les questions ouvertes qui débloquent la parole",
+      "Le silence comme outil de relance et de réflexion",
+      "Lire le non-verbal et les micro-expressions",
+      "Contextualiser l'usage : faire raconter la dernière fois",
+      "Prendre des notes sans interrompre le flux de pensée"
+     ],
+     "exercices": [
+      "Rédaction d'un guide d'entretien modulaire de 45 minutes",
+      "Simulation d'entretien en binôme avec focus sur le non-verbal"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "L'observation en contexte (Shadowing et immersion)",
+     "objectif": "Capturer la réalité de l'usage dans son environnement naturel.",
+     "sections": [
+      "Pourquoi le laboratoire d'usabilité tue une partie de la vérité",
+      "Les règles de l'observateur invisible et respectueux",
+      "Capturer les workarounds (systèmes D) et les post-it",
+      "L'analyse de l'environnement physique et numérique global",
+      "Gérer l'effet Hawthorne (modification du comportement)",
+      "Documenter le parcours réel avec ses interruptions"
+     ],
+     "exercices": [
+      "Session de shadowing de 2 heures en environnement réel",
+      "Cartographie des contournements (workarounds) observés"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Analyser et synthétiser les données qualitatives",
+     "objectif": "Transformer des heures d'entretiens en insights actionnables.",
+     "sections": [
+      "Du chaos à la structure : préparer la matière",
+      "Le tri thématique et l'affinité (Clustering)",
+      "Identifier les tensions, les émotions et les non-dits",
+      "L'affichage mural (Data Wall) pour l'intelligence collective",
+      "Formuler des Insights percutants et orientés action",
+      "Éviter les faux consensus et les biais de confirmation"
+     ],
+     "exercices": [
+      "Atelier de clustering sur post-it à partir de verbatims",
+      "Rédaction de 5 insights au format 'Problème + Contexte + Impact'"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Modéliser l'utilisateur : Personas et Jobs-to-be-Done",
+     "objectif": "Créer des artefacts qui guident la prise de décision au quotidien.",
+     "sections": [
+      "Les limites des personas purement démographiques",
+      "Construire des personas comportementaux et motivationnels",
+      "La théorie du Jobs-to-be-Done (JTBD) de Clayton Christensen",
+      "Formuler les Job Statements (Action + Contexte + Résultat)",
+      "Les forces de progrès (Push, Pull, Anxiété, Habitude)",
+      "Quand utiliser les Personas vs quand utiliser le JTBD ?"
+     ],
+     "exercices": [
+      "Création d'une fiche Persona orientée JTBD",
+      "Formulation de 5 Job Statements pour le produit cible"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 : Le Cadrage - Définir le vrai problème à résoudre",
+   "chapitres": [
+    {
+     "numero": 7,
+     "titre": "Cartographier le parcours et les frictions",
+     "objectif": "Visualiser l'expérience globale pour identifier les moments de vérité.",
+     "sections": [
+      "Les étapes du parcours client (avant, pendant, après)",
+      "Cartographier les émotions et la charge mentale",
+      "Identifier les points de contact (touchpoints) multicanal",
+      "Les moments de vérité (Moments of Truth) qui font basculer la décision",
+      "L'expérience omnicanale et la cohérence des transitions",
+      "Le Service Blueprint : lier le front-stage et le back-stage"
+     ],
+     "exercices": [
+      "Dessiner le parcours utilisateur actuel avec la courbe d'émotion",
+      "Identifier et prioriser 3 points de friction majeurs"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "La carte d'opportunités (Opportunity Solution Tree)",
+     "objectif": "Structurer les besoins non comblés en un arbre de décisions.",
+     "sections": [
+      "Qu'est-ce qu'une opportunité dans le sens de Teresa Torres ?",
+      "Construire l'arbre des opportunités (Outcome > Opportunities > Solutions)",
+      "Prioriser par l'impact sur le résultat souhaité",
+      "Éviter le saut prématuré vers la solution préférée",
+      "Maintenir l'arbre vivant et évolutif",
+      "Lier les opportunités aux métriques business"
+     ],
+     "exercices": [
+      "Construire un Opportunity Tree sur Miro ou papier",
+      "Formuler 10 opportunités à partir des insights de la Partie 1"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Le recadrage du problème (Problem Framing)",
+     "objectif": "S'assurer que l'équipe s'attaque à la racine du problème.",
+     "sections": [
+      "Le danger de résoudre la mauvaise question avec élégance",
+      "La technique des 5 Pourquoi pour trouver la cause racine",
+      "Le 'How Might We' (Comment pourrions-nous) pour ouvrir le champ",
+      "Délimiter le périmètre : ce qui est dans le cadre et hors cadre",
+      "L'alignement final des parties prenantes sur le problème",
+      "Rédiger le brief de design (Design Challenge)"
+     ],
+     "exercices": [
+      "Session de 5 Pourquoi sur la friction principale identifiée",
+      "Atelier HMW : générer 20 questions d'exploration"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Idéation dirigée et créativité sous contrainte",
+     "objectif": "Générer des solutions innovantes sans tomber dans les clichés.",
+     "sections": [
+      "Pourquoi le brainstorming classique en réunion échoue souvent",
+      "Le brainwriting et les variations silencieuses et asynchrones",
+      "L'idéation par les contraintes extrêmes (temps, budget, éthique)",
+      "Le croisement de domaines et la puissance des analogies",
+      "La méthode du 'Crazy 8s' pour forcer la quantité",
+      "Sélectionner les idées sans tuer la créativité émergente"
+     ],
+     "exercices": [
+      "Crazy 8s : 8 concepts en 8 minutes sur une opportunité clé",
+      "Matrice d'analogies : s'inspirer de 3 industries différentes"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Évaluer et prioriser les concepts",
+     "objectif": "Choisir les idées qui méritent d'être testées et financées.",
+     "sections": [
+      "Les critères d'évaluation : Désirabilité, Faisabilité, Viabilité",
+      "La matrice d'impact contre effort (et ses limites)",
+      "Le vote par points (Dot Voting) et ses biais cachés",
+      "Gérer l'ego et les biais des décideurs (HiPPO)",
+      "Le concept du 'Riskiest Assumption' (Hypothèse la plus risquée)",
+      "Documenter les décisions pour éviter les retours en arrière"
+     ],
+     "exercices": [
+      "Matrice Désirabilité/Faisabilité pour les 5 meilleurs concepts",
+      "Identification de l'hypothèse la plus risquée pour le concept retenu"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "De l'idée à la proposition de valeur",
+     "objectif": "Traduire le concept en une promesse claire, testable et mémorable.",
+     "sections": [
+      "Le Value Proposition Canvas d'Alexander Osterwalder",
+      "Aligner les 'Pains' (douleurs) et les 'Gains' (bénéfices)",
+      "Le pitch en une phrase (Le test du post-it)",
+      "Les différents types de valeur : fonctionnelle, émotionnelle, sociale",
+      "Tester la proposition de valeur avant de coder le produit",
+      "L'itération du message et du positionnement"
+     ],
+     "exercices": [
+      "Remplir le Value Proposition Canvas pour le concept retenu",
+      "Rédiger 3 pitches différents et les tester sur 5 collègues"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 : La Conception - Donner forme à la solution",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Architecture de l'information et flux",
+     "objectif": "Organiser l'information pour qu'elle soit intuitive et sans friction.",
+     "sections": [
+      "Les modèles mentaux de navigation et de recherche",
+      "Le tri de cartes (Card Sorting) ouvert et fermé",
+      "L'arborescence, la taxonomie et le vocabulaire utilisateur",
+      "Concevoir des flux sans impasse ni cul-de-sac",
+      "Le mythe de la règle des trois clics",
+      "Le design crucial des états vides, de chargement et d'erreur"
+     ],
+     "exercices": [
+      "Tri de cartes ouvert avec 5 utilisateurs potentiels",
+      "Dessin du flux principal (Happy Path) et du flux d'erreur"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Le prototypage basse fidélité (Low-Fi)",
+     "objectif": "Matérialiser les idées rapidement pour provoquer le feedback précoce.",
+     "sections": [
+      "Le mythe du beau design précoce et l'attachement à ses idées",
+      "Le croquis sur papier (Paper Prototyping) et ses avantages",
+      "Les wireframes cliquables pour tester la navigation",
+      "Le prototypage de service (Roleplay) pour les expériences physiques",
+      "Les outils rapides et jetables",
+      "Savoir quand jeter un prototype et recommencer"
+     ],
+     "exercices": [
+      "Prototype papier d'un flux clé en 30 minutes",
+      "Simulation de rôle (Wizard of Oz) pour un service omnicanal"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Design d'interaction et micro-copies",
+     "objectif": "Guider l'utilisateur avec fluidité, clarté et bienveillance.",
+     "sections": [
+      "Les affordances, les signifiants et les signaux visuels",
+      "L'importance du feedback immédiat et de la rétroaction",
+      "L'impact crucial des micro-copies (UX Writing)",
+      "Définir et appliquer le ton de voix (Tone of Voice)",
+      "Concevoir pour l'échec : la gestion élégante des erreurs",
+      "L'accessibilité cognitive et la réduction de l'effort mental"
+     ],
+     "exercices": [
+      "Audit des micro-copies actuelles (boutons, messages, labels)",
+      "Réécriture de 5 messages d'erreur pour les rendre utiles et humains"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Accessibilité et design inclusif",
+     "objectif": "Concevoir pour la diversité humaine, pas pour une moyenne fictive.",
+     "sections": [
+      "Le spectre des handicaps : permanents, temporaires, situationnels",
+      "Les principes POUR (Perceptible, Utilisable, Compréhensible, Robuste)",
+      "Le design des contrastes, de la typographie et des zones de clic",
+      "La navigation au clavier et la compatibilité lecteurs d'écran",
+      "L'inclusion culturelle, linguistique et socio-économique",
+      "L'accessibilité comme puissant levier d'innovation (Effet Curb-Cut)"
+     ],
+     "exercices": [
+      "Audit de contraste et de hiérarchie visuelle sur les maquettes",
+      "Test de navigation complet sur le prototype sans utiliser la souris"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Le prototypage haute fidélité et l'illusion du réel",
+     "objectif": "Créer une expérience réaliste pour les tests avancés et le développement.",
+     "sections": [
+      "Quand passer en haute fidélité ? (Le bon moment)",
+      "L'utilisation et la contribution aux systèmes de design (Design Systems)",
+      "Les micro-interactions et la psychologie des animations",
+      "L'intégration de données réalistes (éviter le Lorem Ipsum)",
+      "Les limites de l'illusion et le risque de faux positifs",
+      "La collaboration précoce avec les développeurs (Faisabilité)"
+     ],
+     "exercices": [
+      "Création d'un composant réutilisable avec ses états (hover, focus, error)",
+      "Prototypage d'une micro-interaction de validation de formulaire"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Préparer les tests utilisateurs",
+     "objectif": "Mettre en place un cadre rigoureux pour recueillir la vérité terrain.",
+     "sections": [
+      "Définir les objectifs d'apprentissage du test (Learning Goals)",
+      "Rédiger le scénario et les tâches orientées action",
+      "Recruter les bons participants (éviter les faux profils)",
+      "Préparer l'environnement : modéré en direct vs non-modéré à distance",
+      "Le guide du modérateur :中立ité et bienveillance",
+      "Les considérations éthiques, le RGPD et le consentement éclairé"
+     ],
+     "exercices": [
+      "Rédaction d'un scénario de test de 45 minutes avec 3 tâches clés",
+      "Checklist de recrutement et de consentement éthique"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 : La Validation - Confronter la solution au réel et itérer",
+   "chapitres": [
+    {
+     "numero": 19,
+     "titre": "Mener un test utilisateur mémorable",
+     "objectif": "Faciliter la session pour obtenir des insights authentiques et exploitables.",
+     "sections": [
+      "L'accueil, la mise en confiance et le cadre de non-jugement",
+      "La technique du 'Think Aloud' (penser à voix haute)",
+      "Gérer les blocages de l'utilisateur sans lui donner la réponse",
+      "Observer les émotions, les hésitations et les chemins détournés",
+      "La prise de notes en temps réel et le rôle de l'observateur",
+      "La conclusion de la session et le debriefing à chaud"
+     ],
+     "exercices": [
+      "Simulation de modération avec un collègue jouant l'utilisateur difficile",
+      "Création d'une grille d'observation structurée pour les preneurs de notes"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Analyser les retours et itérer",
+     "objectif": "Transformer les observations brutes en décisions de design concrètes.",
+     "sections": [
+      "Le débriefing collectif immédiat post-test",
+      "Catégoriser les problèmes : Critique, Majeur, Mineur, Cosmétique",
+      "Distinguer le symptôme visible de la cause racine cognitive",
+      "Le rapport de recherche actionnable (fini les PDF de 50 pages)",
+      "Présenter les résultats aux parties prenantes avec des vidéos",
+      "Planifier les itérations et les prochains tests"
+     ],
+     "exercices": [
+      "Matrice de sévérité pour classer les 10 problèmes remontés",
+      "Préparation d'une présentation flash (10 min) des résultats clés"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Le MVP et le MLP (Minimum Lovable Product)",
+     "objectif": "Lancer rapidement tout en créant de la valeur et de l'attachement émotionnel.",
+     "sections": [
+      "Les dérives du MVP classique (produit bâclé et décevant)",
+      "Définir le Minimum Lovable Product (MLP)",
+      "La stratégie du Skateboard vs la construction d'une voiture pièce par pièce",
+      "Mesurer l'adoption précoce et la rétention",
+      "Gérer la dette technique et la dette de design",
+      "Le lancement interne (Dogfooding) comme premier filet de sécurité"
+     ],
+     "exercices": [
+      "Définition du périmètre strict du MLP (ce qu'on coupe, ce qu'on garde)",
+      "Plan de lancement interne et de collecte de feedback employé"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Mesurer le succès : Métriques UX et Produit",
+     "objectif": "Quantifier l'expérience utilisateur pour piloter l'amélioration continue.",
+     "sections": [
+      "Les limites du NPS (Net Promoter Score) et du vanity metrics",
+      "Le modèle HEART de Google (Happiness, Engagement, Adoption, Retention, Task success)",
+      "Les métriques comportementales (Taux de réussite, Temps, Erreurs)",
+      "Les métriques attitudinales (SUS, CSAT, Échelle de Likert)",
+      "Lier l'UX aux métriques business (Conversion, LTV, Coût de support)",
+      "Créer et animer un tableau de bord UX partagé"
+     ],
+     "exercices": [
+      "Sélection de 3 métriques clés alignées sur le modèle HEART",
+      "Maquette d'un dashboard UX pour l'équipe produit"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Intégrer l'UX dans les cycles Agiles et DevOps",
+     "objectif": "Synchroniser la découverte continue et la livraison itérative.",
+     "sections": [
+      "Le conflit historique entre le Design (réflexion) et l'Agile (exécution)",
+      "Le Dual-Track Agile (Discovery Track et Delivery Track)",
+      "La cérémonie de la Discovery dans le rituel Scrum",
+      "Le transfert Design-Dev (Handoff) sans perte d'information",
+      "Le QA Design (Design Review) avant la mise en production",
+      "Célébrer les apprentissages autant que les livraisons"
+     ],
+     "exercices": [
+      "Mise en place d'un rituel de synchronisation Dual-Track",
+      "Checklist de Handoff pour garantir la fidélité de l'implémentation"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Créer une culture centrée utilisateur dans l'entreprise",
+     "objectif": "Faire de l'empathie et de la recherche l'ADN de toute l'organisation.",
+     "sections": [
+      "Démocratiser la recherche utilisateur (Research Ops)",
+      "Les rituels de partage d'insights (Research Reviews, Open Space)",
+      "Former les non-designers (devs, marketing, ventes) à l'UX",
+      "Gérer la résistance au changement et le scepticisme",
+      "Le rôle crucial du leadership et de l'exemplarité",
+      "L'impact à long terme sur la marque employeur et la fidélité client"
+     ],
+     "exercices": [
+      "Plan de démocratisation : impliquer 3 non-designers dans un test ce mois-ci",
+      "Organisation du premier 'Research Review' mensuel ouvert à toute l'entreprise"
+     ]
+    }
+   ]
+  }
+ ]
+}
