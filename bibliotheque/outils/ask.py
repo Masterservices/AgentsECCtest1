@@ -1,6 +1,6 @@
 import json,sys,time,urllib.request
 msg=open(sys.argv[1]).read()
-req=urllib.request.Request('https://dialagram.me/router/v1/chat/completions',data=json.dumps({'model':__import__('os').environ.get('DIALAGRAM_MODEL','qwen-3.8-max-thinking'),'stream':True,'messages':[{'role':'user','content':msg}]}).encode(),headers={'Content-Type':'application/json'})
+req=urllib.request.Request('https://dialagram.me/router/v1/chat/completions',data=json.dumps({'model':__import__('os').environ.get('DIALAGRAM_MODEL','qwen-3.8-max-thinking'),'stream':True,'messages':[{'role':'user','content':msg}]}).encode(),headers={'Content-Type':'application/json',**({'Authorization':'Bearer '+__import__('os').environ['DIALAGRAM_API_KEY']} if __import__('os').environ.get('DIALAGRAM_API_KEY') else {})})
 out=[];usage={};t=time.time()
 for l in urllib.request.urlopen(req,timeout=1500):
     l=l.decode().strip()
