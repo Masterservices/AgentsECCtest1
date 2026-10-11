@@ -771,3 +771,22 @@ Ordre de rigueur croissant (ne jamais sauter d'étape pour aller directement au 
 ---
 
 *Fin de la Livraison 1 — Architecture éditoriale. Prochaine étape de la série : rédaction des chapitres selon les budgets validés (82 700 mots), sous réserve de la levée des points de priorité 1 de la section 9.*
+---
+
+## ADDENDUM DE VÉRIFICATION (11/10/2026)
+
+Recherche web complémentaire sur les questions prioritaires de la section 9. Statuts : FAIT / DÉCLARATION / ESTIMATION / INCONNU.
+
+**Corrections à reporter dans le manuscrit :**
+- **ECO-ONE / Minorque — correction de date.** L'article Tendance Hôtellerie (communiqué n° 19928) date du **22/06/2023**, pas d'août 2026 (dates d'affichage trompeuses). Faits : hôtel **Llucatx Menorca** (Mahón), chaîne **Son Parc Hotels**, ~**550 meubles** réemployés depuis **6 hôtels du groupe**, **19 chambres**. ECO-ONE fondée nov. 2020 (Carlos Fluixá Ferrá, Zdenka Lara Goiricelaya), modèle diagnostics gratuits + accompagnement + design durable ; entrée du fonds 3XP Global (2026). Aucun chiffre d'économies/CO2 dans le communiqué. **(FAIT, lecture intégrale.)**
+- **FurnZero — coquille dormante.** furnzero.com n'affiche qu'un titre + « Loading… », sans produit/client/contact/KvK. Startup NL (Amsterdam) fondée 2023, « en construction », financement et enregistrement KvK introuvables. **À traiter comme pré-lancement/dormant, jamais comme concurrent opérationnel avéré. (FAIT pour le site ; INCONNU pour l'activité.)**
+
+**Résolus / consolidés :**
+- **ESPR (Q7) — FAIT.** Working plan ESPR 2025-2030 adopté le **16/04/2025** ; le **mobilier est un groupe de produits prioritaire**, exigences indicatives **~2028** (contraignantes seulement après acte délégué par produit). **Pas de REP mobilier UE obligatoire** à ce jour ; la **France (Éco-mobilier, Valdelia)** est citée comme modèle. (Réf. EUR-Lex exacte : INCONNU, à recouper.)
+- **AGEC art. 58 (Q5) — cadre FAIT, taux INCONNU.** Obligation depuis 01/01/2021, **fournitures uniquement**, 20–100 % selon produit ; décret n° 2024-134 (eff. 01/07/2024) + arrêtés 2024/2025 ; déclaration OECP ; rapport CGDD du **04/07/2023**. Le **« ~1 % » d'application reste NON vérifié** (origine : tribune) — ne pas le présenter comme chiffre officiel.
+
+**Partiels (chiffres sourcés, à compléter) :**
+- **Marché / matière (Q1, Q10) — PARTIEL/INCONNU.** Valdelia : **67 218 t** de mobilier pro collectées en 2023, **7 % au réemploi ESS (~4 000 t)** (FAIT). **Aucun tonnage FF&E spécifiquement hôtelier** trouvé. **HCMI = carbone uniquement**, ne couvre pas la matière/FF&E (FAIT). Donnée de valorisation matière hôtelière : **INCONNU**.
+- **Tarifs concurrents (Q2) — PARTIEL.** Rheaply : « Marketplace Network » **~12 000 $/an** + **15 %** de commission (source 2023, possiblement obsolète). Loopfront : plans indicatifs **~595 € / ~995 € par mois** + commission (page tarifs partiellement illisible, à reconfirmer). Reseat : abonnement + commission (taux INCONNU). ECO-ONE, Deartree : tarifs INCONNUS.
+
+**Reste INCONNU (à ne pas combler par approximation) :** tonnage/valeur du FF&E hôtelier ; tarifs exacts de Reseat/ECO-ONE/Deartree ; KvK et financement FurnZero ; taux chiffré réel de l'article 58 ; référence EUR-Lex du working plan ESPR ; données de valorisation matière hôtelière.
