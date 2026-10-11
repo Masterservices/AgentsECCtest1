@@ -1,4 +1,8 @@
-## Introduction : L'Éveil des Mondes par le Verbe et le Chant
+## Introduction
+
+> **Note de l'éditeur.** Cet ouvrage a été rédigé avec l'assistance d'un modèle d'intelligence artificielle sans accès à Internet. La partie méthodologique (phonétique, construction de langue, API/IPA, écriture de paroles) reste valable dans le temps ; en revanche, les noms d'outils de génération musicale ou de modèles d'IA cités, leurs fonctions et leurs réglages évoluent très vite : vérifiez toujours leur documentation à jour avant de vous en servir.
+
+: L'Éveil des Mondes par le Verbe et le Chant
 
 ### Le Souffle et le Verbe : Pourquoi Créer une Langue ?
 
