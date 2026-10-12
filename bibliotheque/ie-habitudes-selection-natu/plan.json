@@ -1,0 +1,595 @@
+{
+ "titre": "L'Évolution des Habitudes",
+ "sous_titre": "Arrêtez de forcer vos routines : laissez-les muter, survivre et se reproduire — Manuel de sélection naturelle appliquée à votre vie quotidienne",
+ "bibliographie": [
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les petites habitudes composent des résultats massifs via un système en 4 boucles (indice, envie, réponse, récompense).",
+   "apport": "Base mécaniste que notre livre renverse : au lieu d'optimiser une habitude unique, on en génère plusieurs et on laisse l'environnement trier."
+  },
+  {
+   "auteur": "Charles Duhigg",
+   "titre": "The Power of Habit",
+   "annee": "2012",
+   "idee": "La boucle indice-routine-récompense structure tout comportement automatique, individuel et collectif.",
+   "apport": "Cadre de diagnostic : identifier les indices pour concevoir des variants d'habitudes testables."
+  },
+  {
+   "auteur": "BJ Fogg",
+   "titre": "Tiny Habits",
+   "annee": "2019",
+   "idee": "Un comportement naît quand motivation, capacité et déclencheur convergent ; commencer minuscule garantit l'ancrage.",
+   "apport": "Principe de variation à bas coût : nos mutations d'habitudes doivent être microscopiques pour proliférer."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile",
+   "annee": "2012",
+   "idee": "Certains systèmes gagnent à être perturbés ; la redondance et les petits chocs produisent de la robustesse.",
+   "apport": "Justification théorique de la surproduction d'habitudes : la fragilité de chaque variante rend la population globale antifragile."
+  },
+  {
+   "auteur": "Richard Dawkins",
+   "titre": "The Selfish Gene",
+   "annee": "1976",
+   "idee": "L'unité de sélection est le gène, pas l'individu ; les réplicateurs survivent selon leur fécondité, fidélité et longévité.",
+   "apport": "Transposition directe : chaque habitude est un mème-réplicateur ; on mesure sa fécondité (réplication) et sa longévité (survie)."
+  },
+  {
+   "auteur": "Matt Ridley",
+   "titre": "The Evolution of Everything",
+   "annee": "2015",
+   "idee": "La plupart des phénomènes humains (langue, marchés, morale) évoluent de bas en haut, sans planificateur central.",
+   "apport": "Thèse centrale du livre : cesser de planifier ses routines pour laisser émerger les gagnantes par sélection darwinienne."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Deux systèmes cognitifs : le rapide/automatique (S1) et le lent/délibéré (S2) ; la volonté est une ressource rare.",
+   "apport": "Argument contre la construction volontariste : S2 s'épuise, donc mieux vaut laisser S1 sélectionner naturellement."
+  },
+  {
+   "auteur": "Carol S. Dweck",
+   "titre": "Mindset",
+   "annee": "2006",
+   "idee": "L'état d'esprit de croissance transforme l'échec en donnée d'apprentissage plutôt qu'en verdict identitaire.",
+   "apport": "Culture psychologique nécessaire pour éliminer les habitudes non viables sans culpabilité."
+  },
+  {
+   "auteur": "Richard Thaler & Cass Sunstein",
+   "titre": "Nudge",
+   "annee": "2008",
+   "idee": "L'architecture des choix oriente les comportements sans contrainte, via l'environnement physique et décisionnel.",
+   "apport": "Outil de pression de sélection : configurer le contexte comme juge darwinien des habitudes candidates."
+  },
+  {
+   "auteur": "Mihaly Csikszentmihalyi",
+   "titre": "Flow",
+   "annee": "1990",
+   "idee": "L'expérience optimale survient quand défi et compétence s'équilibrent, produisant engagement profond.",
+   "apport": "Critère de survie d'une habitude : celles qui génèrent du flow se répliquent spontanément."
+  },
+  {
+   "auteur": "Angela Duckworth",
+   "titre": "Grit",
+   "annee": "2016",
+   "idee": "La persévérance passionnée surpasse le talent ; le grit se cultive par intérêt, pratique délibérée, but et espoir.",
+   "apport": "À nuancer : notre livre remplace le grit par la variété — la persévérance s'applique à la population, pas à un variant."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Deep Work",
+   "annee": "2016",
+   "idee": "Le travail profond est rare et précieux ; il exige des rituels et une élimination radicale des distractions.",
+   "apport": "Protocoles de protection contextuelle pour que les habitudes candidates survivent dans des niches préservées."
+  },
+  {
+   "auteur": "Nir Eyal",
+   "titre": "Hooked",
+   "annee": "2014",
+   "idee": "Le modèle Hook (trigger, action, reward, investment) crée des produits addictifs et des boucles comportementales.",
+   "apport": "Grille pour concevoir des variants d'habitudes dotés de récompenses intrinsèques qui favorisent leur survie."
+  },
+  {
+   "auteur": "James Surowiecki",
+   "titre": "The Wisdom of Crowds",
+   "annee": "2004",
+   "idee": "Des groupes diversifiés, indépendants et décentralisés prennent de meilleures décisions que les experts isolés.",
+   "apport": "Fondement de l'effet ruche : une population d'habitudes et de pairs surpasse la stratégie individuelle planifiée."
+  },
+  {
+   "auteur": "Bert Hölldobler & E.O. Wilson",
+   "titre": "The Superorganism",
+   "annee": "2009",
+   "idee": "Les colonies d'insectes sociaux fonctionnent comme un organisme unique où la sélection opère au niveau du groupe.",
+   "apport": "Modèle de l'intelligence collective appliquée aux habitudes partagées en famille, équipe ou communauté."
+  },
+  {
+   "auteur": "Greg McKeown",
+   "titre": "Essentialism",
+   "annee": "2014",
+   "idee": "La discipline de poursuivre moins mais mieux ; éliminer impitoyablement ce qui n'est pas essentiel.",
+   "apport": "Contrepoids nécessaire : après prolifération, notre livre impose une extinction sélective rigoureuse."
+  },
+  {
+   "auteur": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
+   "titre": "Make It Stick",
+   "annee": "2014",
+   "idee": "L'apprentissage durable naît de la récupération effortful, de l'espacement et de l'entrelacement, non de la répétition passive.",
+   "apport": "Méthode d'expérimentation hebdomadaire : alterner les variants plutôt que les répéter en masse pour tester leur solidité."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Le darwinisme des routines : pourquoi votre volonté a perdu d'avance",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'illusion du constructeur",
+     "objectif": "Démonter le mythe selon lequel on bâtit une habitude par décret volontaire, et introduire le paradigme évolutif.",
+     "sections": [
+      "Le culte de la discipline : histoire d'une erreur culturelle",
+      "Pourquoi 92 % des résolutions échouent : données et biais",
+      "Volonté comme muscle fatigable : les preuves de Baumeister",
+      "L'habitude n'est pas un bâtiment, c'est une population",
+      "Le darwinisme appliqué à soi : trois principes de base",
+      "Promesse du livre : devenir jardinier, pas architecte"
+     ],
+     "exercices": [
+      "Inventaire honnête de vos 10 dernières tentatives d'habitudes abandonnées",
+      "Calcul du coût énergétique hebdomadaire de votre autodiscipline",
+      "Test d'épuisement décisionnel en fin de journée"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Variation, sélection, réplication : la trinité darwinienne",
+     "objectif": "Poser les trois mécanismes de l'évolution et les transposer au comportement personnel.",
+     "sections": [
+      "Darwin en 10 minutes : ce qu'il faut vraiment retenir",
+      "Le gène, l'individu, le groupe : à quel niveau sélectionner ?",
+      "Transposition : une habitude comme réplicateur mémétique",
+      "Fécondité, fidélité, longévité : les trois critères de Dawkins",
+      "Mutation aléatoire vs mutation dirigée : où placer le curseur",
+      "Le temps comme juge suprême"
+     ],
+     "exercices": [
+      "Cartographier 5 habitudes actuelles selon fécondité/fidélité/longévité",
+      "Identifier une habitude 'fossile' qui survit sans utilité",
+      "Écrire la fiche génétique d'une routine candidate"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "L'intelligence de la ruche : quand le groupe pense pour vous",
+     "objectif": "Montrer que les systèmes décentralisés surpassent les planifications centrales, y compris pour soi.",
+     "sections": [
+      "Abeilles, fourmis, neurones : trois exemples de superorganismes",
+      "Sagesse des foules : les 4 conditions de Surowiecki",
+      "Pourquoi votre cerveau est déjà une ruche de modules",
+      "Habitudes collectives vs habitudes individuelles",
+      "Le piège du PDG intérieur : cesser de tout diriger",
+      "Faire confiance au processus émergent"
+     ],
+     "exercices": [
+      "Observer une journée sans prendre aucune décision planifiée",
+      "Lister 3 routines que votre entourage vous a transmises sans effort",
+      "Tenir un journal d'émergences sur 7 jours"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "L'antifragilité des petits essais",
+     "objectif": "Justifier la surproduction de variants comme source de robustesse personnelle.",
+     "sections": [
+      "Fragile, robuste, antifragile : le triangle de Taleb",
+      "Pourquoi l'optionnalité bat la prédiction",
+      "La barre d'asymétrie : perdre peu, gagner beaucoup",
+      "Le coût microscopique d'un variant d'habitude",
+      "Redondance vs efficacité : l'erreur des optimiseurs prématurés",
+      "Transformer l'échec en information gratuite"
+     ],
+     "exercices": [
+      "Calculer le coût d'essai de 10 variants d'une même routine",
+      "Définir votre plafond de perte acceptable par semaine",
+      "Écrire 3 scénarios où l'échec vous renseigne plus que le succès"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Le contrat évolutif : ce que ce livre vous propose (et ne vous propose pas)",
+     "objectif": "Cadrer les attentes, poser les limites éthiques et présenter la méthode globale.",
+     "sections": [
+      "Aucune promesse de miracle : la sélection est lente",
+      "Ce que ce livre n'est pas (ni médical, ni financier, ni spirituel)",
+      "Les 6 phases du protocole global",
+      "Le journal d'évolution : votre outil central",
+      "Comment lire ce livre : linéaire, modulaire ou expérimental",
+      "Votre première décision : signer le contrat avec vous-même"
+     ],
+     "exercices": [
+      "Rédiger votre contrat évolutif personnel en une page",
+      "Choisir votre format de journal (papier, numérique, hybride)",
+      "Planifier 12 semaines d'expérimentation dans votre agenda"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Générer la variation : l'art de la mutation à bas coût",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "Cartographier votre population d'habitudes actuelles",
+     "objectif": "Établir l'état des lieux avant toute mutation : ce qui vit, ce qui survit, ce qui agonise.",
+     "sections": [
+      "Le recensement darwinien : méthode complète",
+      "Classer par niche (matin, travail, social, corps, esprit)",
+      "Mesurer la fitness apparente de chaque routine",
+      "Identifier les espèces invasives (habitudes toxiques dominantes)",
+      "Repérer les niches vides où lancer des variants",
+      "Construire votre tableau de bord initial"
+     ],
+     "exercices": [
+      "Remplir la grille de recensement sur 7 jours",
+      "Noter chaque habitude sur 3 axes : fréquence, plaisir, utilité",
+      "Dessiner la carte des niches de votre journée type"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Les 12 leviers de mutation",
+     "objectif": "Fournir un répertoire systématique de manières de faire varier une habitude candidate.",
+     "sections": [
+      "Mutation de moment (quand)",
+      "Mutation de lieu (où)",
+      "Mutation de durée (combien de temps)",
+      "Mutation d'intensité (combien d'effort)",
+      "Mutation sociale (avec qui)",
+      "Mutation d'outil (avec quoi)",
+      "Mutation de récompense (pourquoi)",
+      "Mutation d'ordre (séquence)",
+      "Mutation de déclencheur (indice)",
+      "Mutation d'identité (qui je suis en la faisant)",
+      "Mutation par soustraction (enlever plutôt qu'ajouter)",
+      "Mutation par hybridation (combiner deux routines)"
+     ],
+     "exercices": [
+      "Appliquer les 12 leviers à une habitude cible",
+      "Générer 24 variants d'une même routine en 30 minutes",
+      "Sélectionner 5 variants à tester la semaine suivante"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Le protocole de l'essai microscopique",
+     "objectif": "Apprendre à tester un variant en moins de 2 minutes et sans friction matérielle.",
+     "sections": [
+      "La règle des 2 minutes héritée de Fogg et Allen",
+      "Matériel minimal, signal maximal",
+      "Préparer le terrain la veille (pré-engagement)",
+      "Le seuil de ridiculité : un test doit être presque trop facile",
+      "Journaliser en 30 secondes : la fiche variant",
+      "Échec, succès, neutre : trois issues également utiles"
+     ],
+     "exercices": [
+      "Transformer 3 habitudes ambitieuses en variants de 2 minutes",
+      "Installer 5 déclencheurs physiques dans votre environnement",
+      "Tester 5 variants en une seule journée"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Hybridation et croisement : créer des chimères fécondes",
+     "objectif": "Combiner des habitudes existantes pour produire de nouveaux variants potentiellement adaptés.",
+     "sections": [
+      "Le sexe des idées : pourquoi la recombinaison surpasse la mutation ponctuelle",
+      "Habitude-socle et habitude-greffon",
+      "Le 'habit stacking' revisité par la sélection",
+      "Croiser deux domaines opposés (sport × lecture, cuisine × appel)",
+      "Chimères invivables : comment les repérer vite",
+      "Tenir un registre des hybridations"
+     ],
+     "exercices": [
+      "Lister 10 habitudes-socles candidates",
+      "Créer 5 chimères et les tester sur 3 jours",
+      "Évaluer la fertilité de chaque chimère"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Le laboratoire hebdomadaire",
+     "objectif": "Installer un rituel de génération de variants à fréquence régulière.",
+     "sections": [
+      "Pourquoi la semaine est l'unité optimale de test",
+      "Le lundi de lancement : choisir les variants",
+      "Le mercredi de vérification : ajuster à mi-course",
+      "Le dimanche de récolte : compiler les données",
+      "Outils minimaux : carnet, tableur ou application",
+      "Rendre le laboratoire inratable"
+     ],
+     "exercices": [
+      "Bloquer 3 créneaux fixes dans l'agenda",
+      "Concevoir votre tableau de bord hebdomadaire",
+      "Rédiger votre protocole personnel en 10 lignes"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — La pression de sélection : laisser l'environnement juger",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "Qui sélectionne ? Définir les juges de vos habitudes",
+     "objectif": "Identifier les forces qui, concrètement, éliminent ou conservent vos variants.",
+     "sections": [
+      "Le corps comme juge physiologique",
+      "L'agenda comme juge temporel",
+      "L'entourage comme juge social",
+      "L'émotion comme juge hédonique",
+      "Le portefeuille comme juge économique",
+      "L'identité comme juge narratif"
+     ],
+     "exercices": [
+      "Classer vos 10 variants actifs selon leur juge dominant",
+      "Identifier le juge aveugle (celui que vous ignorez)",
+      "Installer un signal visible pour chaque juge"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Architecturer la pression : le nudge darwinien",
+     "objectif": "Utiliser l'environnement physique et numérique pour amplifier la sélection naturelle.",
+     "sections": [
+      "Thaler et Sunstein appliqués à soi-même",
+      "Le design des indices (affordances visibles)",
+      "Friction asymétrique : faciliter les variants candidats, durcir les autres",
+      "Pré-engagement et contrats d'Ulysse",
+      "Le numérique comme accélérateur ou poison",
+      "Revoir son espace tous les mois"
+     ],
+     "exercices": [
+      "Audit de friction de votre lieu de vie principal",
+      "Installer 3 nudges physiques et 2 nudges numériques",
+      "Mesurer l'impact sur 14 jours"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Récompenses intrinsèques et survie spontanée",
+     "objectif": "Comprendre pourquoi les habitudes qui se récompensent elles-mêmes gagnent toujours à long terme.",
+     "sections": [
+      "Le modèle Hook appliqué aux routines personnelles",
+      "Récompense extrinsèque : béquille de démarrage, poison de long terme",
+      "Le flow comme signature d'une habitude viable",
+      "Transformer l'effort en plaisir par micro-ajustements",
+      "Le rôle du sens et de l'identité",
+      "Repérer les 'zombies' : habitudes maintenues par culpabilité"
+     ],
+     "exercices": [
+      "Évaluer chaque variant sur une échelle de récompense intrinsèque (0-10)",
+      "Ajouter un élément de jeu à 3 variants tièdes",
+      "Exterminer une habitude-zombie cette semaine"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "La grille de survie : mesurer sans se mentir",
+     "objectif": "Construire un outil de mesure simple, honnête et actionnable pour chaque variant.",
+     "sections": [
+      "Les 5 dimensions de fitness comportementale",
+      "Fréquence réelle vs fréquence perçue",
+      "La règle des 3 semaines de données minimales",
+      "Biais de confirmation et auto-illusion",
+      "Construire votre grille personnelle",
+      "Automatiser la récolte sans y penser"
+     ],
+     "exercices": [
+      "Dessiner votre grille de survie sur une feuille A4",
+      "Tester la grille sur 3 variants pendant 21 jours",
+      "Identifier vos 3 biais dominants dans l'auto-évaluation"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Extinction sans culpabilité et réplication des gagnantes",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "L'art de tuer une habitude sans drame",
+     "objectif": "Normaliser l'élimination des variants non viables comme geste hygiénique, pas moral.",
+     "sections": [
+      "L'extinction est le cœur de l'évolution",
+      "Sunk cost fallacy : pourquoi on s'accroche aux routines mortes",
+      "Le rituel de l'adieu : formaliser la fin",
+      "Gérer les récidives sans culpabilité",
+      "Le mindset de croissance appliqué à l'abandon",
+      "Tenir un cimetière des habitudes (et le relire)"
+     ],
+     "exercices": [
+      "Organiser une cérémonie d'adieu pour une routine morte",
+      "Écrire 3 leçons apprises grâce à un échec d'habitude",
+      "Ajouter 3 entrées à votre cimetière ce mois-ci"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Répliquer les gagnantes : de la survie à la dominance",
+     "objectif": "Transformer un variant qui survit en une population qui prospère.",
+     "sections": [
+      "Quand un variant devient-il une 'gagnante' ?",
+      "Répéter sans rigidifier : l'équilibre délicat",
+      "Ancrer la gagnante dans plusieurs contextes",
+      "La transmettre à d'autres (famille, équipe)",
+      "Documenter la recette sans la fossiliser",
+      "Éviter l'effet de saturation"
+     ],
+     "exercices": [
+      "Lister les 3 gagnantes de vos 3 derniers mois",
+      "Déployer une gagnante dans 2 nouveaux contextes",
+      "Enseigner une gagnante à un proche cette semaine"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Muter les survivantes : éviter la fossilisation",
+     "objectif": "Continuer à faire évoluer les habitudes gagnantes pour qu'elles ne deviennent pas des prisons.",
+     "sections": [
+      "Pourquoi une routine stabilisée dégénère",
+      "La dérive génétique des habitudes",
+      "Programmer des revues trimestrielles",
+      "Injecter de la variation contrôlée dans les gagnantes",
+      "Le rôle du changement de contexte (déménagement, emploi)",
+      "Quand laisser mourir une ancienne gagnante"
+     ],
+     "exercices": [
+      "Planifier 4 revues trimestrielles dans l'année",
+      "Appliquer 3 leviers de mutation à votre gagnante la plus ancienne",
+      "Accepter la mort d'une routine jadis utile"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Essentialisme évolutif : élaguer sans regrets",
+     "objectif": "Réconcilier prolifération darwinienne et discipline de l'essentiel.",
+     "sections": [
+      "McKeown relu à la lumière de Darwin",
+      "La règle du 'hell yeah or no'",
+      "Combien d'habitudes actives peut-on supporter ?",
+      "Élaguer par saison, pas par année",
+      "Le minimalisme comme résultat, pas comme point de départ",
+      "Vivre avec une population de taille stable"
+     ],
+     "exercices": [
+      "Compter vos habitudes actives actuelles",
+      "Définir votre plafond personnel",
+      "Élaguer 20 % de votre population ce mois-ci"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — L'effet ruche : habitudes collectives et intelligence partagée",
+   "chapitres": [
+    {
+     "numero": 19,
+     "titre": "Les habitudes ne vivent pas seules",
+     "objectif": "Montrer que toute routine s'insère dans un écosystème social qui la sélectionne.",
+     "sections": [
+      "L'individu comme colonie de routines sociales",
+      "Miroir, contagion, normes : trois forces invisibles",
+      "Les 5 personnes dont vous héritez les habitudes",
+      "Habitudes de couple, de famille, d'équipe",
+      "Pourquoi changer seul est presque impossible",
+      "Choisir ses habitats sociaux comme des niches"
+     ],
+     "exercices": [
+      "Cartographier votre réseau d'influence comportementale",
+      "Identifier 3 routines empruntées inconsciemment",
+      "Ajouter une nouvelle niche sociale ce trimestre"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Co-évolution : faire évoluer des habitudes à plusieurs",
+     "objectif": "Appliquer la sélection darwinienne à des binômes, familles ou équipes.",
+     "sections": [
+      "Le binôme comme unité de sélection",
+      "Rituels familiaux comme super-habitudes",
+      "En équipe : OKR comportementaux et revues",
+      "Responsabilité mutuelle sans jugement",
+      "Compétition saine entre variants collectifs",
+      "Gérer les désaccords de fitness"
+     ],
+     "exercices": [
+      "Lancer un laboratoire hebdomadaire à deux",
+      "Organiser une revue familiale mensuelle",
+      "Créer un tableau de bord partagé d'équipe"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Communautés et tribus : la sélection à grande échelle",
+     "objectif": "Exploiter les groupes élargis comme accélérateurs d'évolution.",
+     "sections": [
+      "Les communautés en ligne comme pépinières de variants",
+      "Clubs, associations, groupes de pairs",
+      "Le mentorat comme transmission génétique",
+      "Publier ses variants pour les faire sélectionner par d'autres",
+      "Éviter les tribus toxiques et les normes pathogènes",
+      "Construire votre propre micro-tribu"
+     ],
+     "exercices": [
+      "Rejoindre une communauté alignée avec un variant cible",
+      "Partager publiquement 3 variants pour récolter du feedback",
+      "Fonder un groupe de 3 à 5 expérimentateurs"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Habitudes numériques : la ruche algorithmique",
+     "objectif": "Comprendre comment les plateformes sélectionnent nos routines à notre place, et reprendre la main.",
+     "sections": [
+      "L'algorithme comme prédateur de variants",
+      "Notifications, boucles infinies, récompenses variables",
+      "Auditer sa diète informationnelle",
+      "Installer des barrières de sélection conscientes",
+      "Utiliser la technologie comme accélérateur de variants choisis",
+      "Déconnexion comme niche préservée"
+     ],
+     "exercices": [
+      "Mesurer votre temps d'écran sur 7 jours",
+      "Désactiver toutes les notifications non essentielles",
+      "Créer une niche sans écran d'1 heure par jour"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Le journal d'évolution : suivre sa population sur une vie",
+   "chapitres": [
+    {
+     "numero": 23,
+     "titre": "Tenir un journal qui pense pour vous",
+     "objectif": "Transformer le suivi en outil cognitif, pas en corvée administrative.",
+     "sections": [
+      "Pourquoi écrire change la sélection",
+      "Formats possibles : carnet, tableur, app, audio",
+      "Les 5 colonnes minimales d'un journal évolutif",
+      "Revues hebdo, mensuelles, annuelles",
+      "Relire son journal pour voir sa propre évolution",
+      "Éviter la sur-mesure qui paralyse"
+     ],
+     "exercices": [
+      "Choisir et configurer votre format en 20 minutes",
+      "Remplir 7 jours consécutifs sans faillir",
+      "Programmer 4 revues annuelles pour les 5 prochaines années"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Une vie évolutive : le long terme comme boussole",
+     "objectif": "Intégrer la méthode comme posture existentielle, au-delà du livre.",
+     "sections": [
+      "Les saisons de la vie comme niches successives",
+      "Parentalité, carrière, vieillissement : redémarrer la sélection",
+      "Transmettre la posture évolutive à ses enfants",
+      "Gérer les crises (deuil, maladie, rupture) par variation",
+      "Sagesse darwinienne : accepter l'impermanence",
+      "Le dernier variant : celui que vous laisserez aux autres"
+     ],
+     "exercices": [
+      "Écrire une lettre à votre vous de dans 10 ans",
+      "Lister 3 grandes transitions à venir et les variants à préparer",
+      "Définir 3 habitudes-légats à transmettre"
+     ]
+    }
+   ]
+  }
+ ]
+}

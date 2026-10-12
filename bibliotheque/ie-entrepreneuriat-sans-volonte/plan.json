@@ -1,0 +1,565 @@
+{
+ "titre": "L'Entreprise sans Moteur",
+ "sous_titre": "Bâtir une affaire qui avance même les jours où vous n'avez plus aucune envie",
+ "bibliographie": [
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les petits changements systémiques (indices, envie, réponse, récompense) surpassent la motivation ; l'identité précède l'action.",
+   "apport": "Grille des 4 lois du comportement pour transformer chaque tâche entrepreneuriale en automatisme."
+  },
+  {
+   "auteur": "BJ Fogg",
+   "titre": "Tiny Habits",
+   "annee": "2019",
+   "idee": "Un comportement émerge quand motivation, capacité et déclencheur convergent ; réduire la friction vaut mieux que forcer la volonté.",
+   "apport": "Méthode des 'ancrages' pour greffer les routines business sur des gestes déjà existants."
+  },
+  {
+   "auteur": "Roy F. Baumeister & John Tierney",
+   "titre": "Willpower",
+   "annee": "2011",
+   "idee": "La volonté est une ressource limitée qui s'épuise (ego depletion) ; il faut structurer l'environnement pour ne pas la solliciter.",
+   "apport": "Justification scientifique du postulat 'ne jamais compter sur sa volonté' et audit des fuites d'énergie."
+  },
+  {
+   "auteur": "Charles Duhigg",
+   "titre": "The Power of Habit",
+   "annee": "2012",
+   "idee": "La boucle indice-routine-récompense pilote les organisations autant que les individus ; les habitudes clés entraînent les autres.",
+   "apport": "Identification des 'keystone habits' entrepreneuriales capables de propulser toute l'entreprise."
+  },
+  {
+   "auteur": "Michael E. Gerber",
+   "titre": "The E-Myth Revisited",
+   "annee": "1995",
+   "idee": "Une entreprise doit fonctionner comme une franchise : documentée, reproductible, indépendante du fondateur.",
+   "apport": "Cadre pour transformer chaque poste en système opéré par n'importe qui, y compris un fondateur épuisé."
+  },
+  {
+   "auteur": "Gino Wickman",
+   "titre": "Traction",
+   "annee": "2012",
+   "idee": "L'EOS (Entrepreneurial Operating System) structure vision, personnes, données, processus et réunions pour faire tourner la boîte sans héroïsme.",
+   "apport": "Rituels hebdomadaires et tableaux de bord qui remplacent le leadership charismatique."
+  },
+  {
+   "auteur": "Atul Gawande",
+   "titre": "The Checklist Manifesto",
+   "annee": "2009",
+   "idee": "Les check-lists sauvent des vies en chirurgie et en aviation ; elles protègent contre l'oubli et l'erreur sous pression.",
+   "apport": "Modèle de check-listes opérationnelles pour les jours de panne motivationnelle."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Deep Work",
+   "annee": "2016",
+   "idee": "Le travail en profondeur exige des rituels et un environnement protégé, pas de la force mentale.",
+   "apport": "Design de blocs de production verrouillés, indépendants de l'humeur du fondateur."
+  },
+  {
+   "auteur": "Donella Meadows",
+   "titre": "Thinking in Systems",
+   "annee": "2008",
+   "idee": "Un système se comprend par ses stocks, flux, boucles de rétroaction et points de levier.",
+   "apport": "Cartographie des engrenages internes de l'entreprise comme un système dynamique."
+  },
+  {
+   "auteur": "Richard Thaler & Cass Sunstein",
+   "titre": "Nudge",
+   "annee": "2008",
+   "idee": "L'architecture des choix guide les décisions sans coercition ; le 'choix par défaut' est l'outil le plus puissant.",
+   "apport": "Design de defaults dans les process, les finances et les décisions stratégiques."
+  },
+  {
+   "auteur": "Chip Heath & Dan Heath",
+   "titre": "Switch",
+   "annee": "2010",
+   "idee": "Le changement durable demande de diriger le Cavalier (raison), motiver l'Éléphant (émotion) et tracer le Chemin (environnement).",
+   "apport": "Triple levier pour faire avancer l'équipe sans dépendre de la volonté du dirigeant."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Le Système 1 (rapide, automatique) domine nos choix ; le Système 2 (lent, volontaire) fatigue vite.",
+   "apport": "Concevoir l'entreprise pour qu'elle tourne en Système 1, n'appelant le Système 2 que sur l'essentiel."
+  },
+  {
+   "auteur": "Tim Ferriss",
+   "titre": "The 4-Hour Workweek",
+   "annee": "2007",
+   "idee": "Automatisation, délégation, élimination et règles de décision pré-écrites libèrent du temps sans effort soutenu.",
+   "apport": "Protocoles de délégation et règles 'si… alors…' pour court-circuiter la procrastination."
+  },
+  {
+   "auteur": "Greg McKeown",
+   "titre": "Essentialism",
+   "annee": "2014",
+   "idee": "Faire moins mais mieux ; la discipline sélective remplace la discipline héroïque.",
+   "apport": "Réduction du périmètre de l'entreprise à ce qui peut tourner sans volonté."
+  },
+  {
+   "auteur": "Jim Collins",
+   "titre": "Good to Great",
+   "annee": "2001",
+   "idee": "L'effet volant (flywheel) : de petites poussées cohé accumulent une inertie qui finit par porter l'entreprise seule.",
+   "apport": "Modèle du volant d'inertie comme architecture centrale de l'entreprise sans moteur humain."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Le diagnostic : pourquoi votre volonté vous trahira",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le mythe du fondateur infatigable",
+     "objectif": "Déconstruire l'image héroïque de l'entrepreneur et poser l'hypothèse radicale : la volonté n'est pas une ressource fiable.",
+     "sections": [
+      "1.1 L'entrepreneur héro, une fiction qui coûte cher",
+      "1.2 Ce que la recherche dit vraiment de la volonté (Baumeister, Kahneman)",
+      "1.3 Les trois pannes typiques du moteur motivationnel",
+      "1.4 Le contrat fondateur : signer l'abandon de l'héroïsme",
+      "1.5 Ce que ce livre va vous demander de sacrifier",
+      "1.6 Comment lire ce livre en mode 'sans volonté'"
+     ],
+     "exercices": [
+      "Écrire votre 'épitaphe entrepreneuriale' si vous continuez à forcer",
+      "Lister les 5 moments où votre volonté vous a trahi cette année",
+      "Signer une charte symbolique d'abandon du mythe héroïque"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Cartographier vos dépendances à la motivation",
+     "objectif": "Identifier toutes les zones de l'entreprise qui s'effondrent si le fondateur n'a pas envie.",
+     "sections": [
+      "2.1 L'audit des 7 domaines vitaux (vente, produit, finance, ops, équipe, marketing, stratégie)",
+      "2.2 La matrice Volonté / Impact",
+      "2.3 Détecter les 'single points of failure' humains",
+      "2.4 Mesurer le coût réel d'un jour sans envie",
+      "2.5 Classer les dépendances : critiques, gênantes, cosmétiques",
+      "2.6 Le cahier de pannes : tenir un journal des décrochages"
+     ],
+     "exercices": [
+      "Remplir la matrice Volonté/Impact sur les 30 tâches récurrentes",
+      "Calculer le coût en euros d'une semaine de panne motivationnelle passée",
+      "Identifier les 3 'goulots d'étranglement volonté' les plus dangereux"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "L'anatomie d'un engrenage",
+     "objectif": "Comprendre ce qu'est un système auto-portant et pourquoi il bat toujours la discipline individuelle.",
+     "sections": [
+      "3.1 Définir un engrenage : entrée, transformation, sortie, rétroaction",
+      "3.2 Stocks, flux et boucles : le vocabulaire minimum (Meadows)",
+      "3.3 Différence entre routine, processus et engrenage",
+      "3.4 Les quatre propriétés d'un engrenage robuste",
+      "3.5 Pourquoi les engrenages s'améliorent quand vous dormez",
+      "3.6 Le piège de l'engrenage mal calibré"
+     ],
+     "exercices": [
+      "Dessiner votre premier engrenage sur une feuille A4",
+      "Lister 3 engrenages que vous avez déjà installés sans le savoir",
+      "Identifier une boucle de rétroaction manquante dans votre activité"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Le nouveau rôle du fondateur : architecte, pas moteur",
+     "objectif": "Redéfinir l'identité du dirigeant : il ne pousse plus, il conçoit la machine qui pousse.",
+     "sections": [
+      "4.1 Les trois métiers du fondateur-architecte",
+      "4.2 Passer de 'faire' à 'faire faire au système'",
+      "4.3 Le calendrier-type d'un fondateur sans volonté",
+      "4.4 Gérer l'ego qui veut reprendre les commandes",
+      "4.5 Les indicateurs de succès de l'architecte",
+      "4.6 Quand le fondateur devient optionnel (et pourquoi c'est bon)"
+     ],
+     "exercices": [
+      "Réécrire votre fiche de poste en 'architecte de systèmes'",
+      "Bloquer 4h par semaine dédiées uniquement à la conception",
+      "Calculer votre 'indice d'optionnalité' actuel"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Le volant d'inertie : l'image qui change tout",
+     "objectif": "Installer le modèle du flywheel comme boussole stratégique du livre.",
+     "sections": [
+      "5.1 Le flywheel selon Collins : petites poussées, gros momentum",
+      "5.2 Les 5 composantes d'un volant d'inertie business",
+      "5.3 Identifier le vôtre : l'exercice des causes circulaires",
+      "5.4 Les frictions qui ralentissent le volant",
+      "5.5 Comment le volant porte l'entreprise les jours creux",
+      "5.6 Volant unique vs volants emboîtés"
+     ],
+     "exercices": [
+      "Dessiner le flywheel de votre entreprise en 5 à 7 étapes",
+      "Identifier les 3 frictions principales qui le freinent",
+      "Écrire la phrase-causale 'grâce à X, nous obtenons Y, qui renforce X'"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Le contrat 'zéro motivation'",
+     "objectif": "Formaliser l'engagement radical qui va guider toutes les décisions du livre.",
+     "sections": [
+      "6.1 Les 7 règles du contrat zéro motivation",
+      "6.2 Ce que le contrat interdit explicitement",
+      "6.3 Ce que le contrat exige en contrepartie",
+      "6.4 Le faire signer par vos associés et proches",
+      "6.5 Les clauses de révision annuelle",
+      "6.6 Le rituel de relecture mensuelle"
+     ],
+     "exercices": [
+      "Rédiger votre contrat zéro motivation sur une page",
+      "Le faire contresigner par au moins une personne de confiance",
+      "Programmer la relecture mensuelle dans votre agenda récurrent"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Les déclencheurs : démarrer sans avoir à décider",
+   "chapitres": [
+    {
+     "numero": 7,
+     "titre": "L'architecture des déclencheurs",
+     "objectif": "Comprendre les 4 familles de déclencheurs et savoir les combiner.",
+     "sections": [
+      "7.1 Déclencheurs internes vs externes",
+      "7.2 Les déclencheurs temporels, contextuels, sociaux et numériques",
+      "7.3 Pourquoi les déclencheurs faibles échouent toujours",
+      "7.4 La règle des 3 déclencheurs par action critique",
+      "7.5 Éviter la saturation déclencheur",
+      "7.6 Tester la robustesse d'un déclencheur"
+     ],
+     "exercices": [
+      "Inventorier tous vos déclencheurs actuels (pro et perso)",
+      "Classer les 10 plus importants selon les 4 familles",
+      "Renforcer le déclencheur le plus faible de votre activité"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "L'ancrage : greffer le nouveau sur l'ancien",
+     "objectif": "Utiliser la méthode Fogg pour arrimer chaque tâche entrepreneuriale à un geste déjà acquis.",
+     "sections": [
+      "8.1 La formule 'Après X, je ferai Y'",
+      "8.2 Choisir des ancres solides (pas des intentions)",
+      "8.3 Les 12 ancres universelles du fondateur",
+      "8.4 Ancrer les tâches ingrates en priorité",
+      "8.5 Les erreurs classiques d'ancrage",
+      "8.6 Débugger un ancrage qui ne prend pas"
+     ],
+     "exercices": [
+      "Lister vos 10 ancres quotidiennes les plus fiables",
+      "Écrire 5 formules d'ancrage pour vos tâches critiques",
+      "Tester un ancrage pendant 7 jours et noter le taux d'exécution"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Les defaults : laisser le bon choix se faire tout seul",
+     "objectif": "Appliquer la logique du nudge à toutes les décisions répétitives de l'entreprise.",
+     "sections": [
+      "9.1 Le pouvoir du choix par défaut (Thaler & Sunstein)",
+      "9.2 Defaults financiers : épargne, investissement, pricing",
+      "9.3 Defaults opérationnels : fournisseurs, outils, process",
+      "9.4 Defaults relationnels : réponses clients, relances, recrutement",
+      "9.5 Defaults de contenu : publication, veille, documentation",
+      "9.6 Auditer et nettoyer vos defaults toxiques"
+     ],
+     "exercices": [
+      "Cartographier les 20 décisions répétitives de votre entreprise",
+      "Installer un default sur les 5 plus coûteuses en énergie",
+      "Supprimer un default toxique identifié"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Les règles 'si… alors…' : pré-décider pour ne plus décider",
+     "objectif": "Transformer chaque situation récurrente en règle pré-écrite qui s'exécute sans délibération.",
+     "sections": [
+      "10.1 Les implementation intentions (Gollwitzer) appliquées au business",
+      "10.2 Rédiger une règle 'si… alors…' efficace",
+      "10.3 Les 30 règles fondamentales d'une entreprise sans volonté",
+      "10.4 Règles de vente, de pricing, de recrutement, de crise",
+      "10.5 Le classeur de règles : où les stocker, qui les lit",
+      "10.6 Quand réviser une règle (et quand la garder)"
+     ],
+     "exercices": [
+      "Écrire vos 10 premières règles 'si… alors…'",
+      "Créer le classeur partagé des règles de l'entreprise",
+      "Tester une règle pendant 30 jours et mesurer son impact"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "L'environnement comme déclencheur silencieux",
+     "objectif": "Design du bureau, des outils et des espaces numériques pour qu'ils poussent à l'action.",
+     "sections": [
+      "11.1 Le design d'environnement selon Clear et Heath",
+      "11.2 Le bureau physique : zones, affichage, friction",
+      "11.3 L'espace numérique : bureaux, dossiers, favoris",
+      "11.4 L'environnement mobile : téléphone, notifications",
+      "11.5 L'environnement social : qui vous entoure par défaut",
+      "11.6 L'audit environnemental trimestriel"
+     ],
+     "exercices": [
+      "Faire une 'marche diagnostique' de votre espace de travail",
+      "Supprimer 5 frictions environnementales cette semaine",
+      "Installer 3 indices visuels pour vos priorités du trimestre"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Engagements externes : laisser les autres vous tenir",
+     "objectif": "Utiliser la pression sociale, contractuelle et financière pour verrouiller l'exécution.",
+     "sections": [
+      "12.1 Les 5 formes d'engagement externe",
+      "12.2 Les deadlines publiques et leurs variantes",
+      "12.3 Les contrats à enjeu (stickK, paris, pénalités)",
+      "12.4 Les partenaires de redevabilité (accountability)",
+      "12.5 Les précommandes et engagements clients comme moteur",
+      "12.6 Doser la pression : ni trop, ni trop peu"
+     ],
+     "exercices": [
+      "Prendre un engagement public sur votre objectif du trimestre",
+      "Signer un contrat à enjeu avec un tiers de confiance",
+      "Former un duo de redevabilité hebdomadaire"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Les engrenages : une action entraîne la suivante",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Construire son premier engrenage commercial",
+     "objectif": "Mettre en place une machine à ventes qui produit des prospects et des signatures sans impulsion du fondateur.",
+     "sections": [
+      "13.1 Les 6 maillons d'un engrenage commercial complet",
+      "13.2 Acquisition automatisée : contenu, SEO, publicités evergreen",
+      "13.3 Nurture : séquences email et séquences sociales",
+      "13.4 Qualification : scoring et règles de tri",
+      "13.5 Closing : scripts, playbooks, délégation",
+      "13.6 Rétroaction : mesure, apprentissage, itération"
+     ],
+     "exercices": [
+      "Dessiner l'engrenage commercial cible en 6 maillons",
+      "Identifier le maillon manquant ou le plus faible",
+      "Installer une séquence de nurture evergreen de 7 emails"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "L'engrenage de production : livrer sans forcer",
+     "objectif": "Concevoir la chaîne de production (produit, service, contenu) comme une ligne d'assemblage auto-pilotée.",
+     "sections": [
+      "14.1 Découper la production en étapes standardisées",
+      "14.2 Templates, modèles et bibliothèques de composants",
+      "14.3 Kanban, files d'attente et limites de travail en cours",
+      "14.4 Les rituels de lancement et de clôture de lots",
+      "14.5 Délégation progressive et transfert de savoir",
+      "14.6 Mesurer le débit, pas les heures"
+     ],
+     "exercices": [
+      "Documenter le process complet de votre livraison principale",
+      "Créer 5 templates réutilisables pour les tâches répétées",
+      "Installer un Kanban visible avec limite de WIP"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "L'engrenage financier : l'argent qui circule tout seul",
+     "objectif": "Automatiser rentrées, sorties, épargne, investissement et reporting pour ne jamais piloter à l'émotion.",
+     "sections": [
+      "15.1 Architecture des comptes : collecte, ops, réserve, projet, perso",
+      "15.2 Facturation automatique et relances programmées",
+      "15.3 Le virement automatique comme colonne vertébrale",
+      "15.4 Reporting hebdo sans effort : les 5 chiffres à regarder",
+      "15.5 Règles de décision d'investissement pré-écrites",
+      "15.6 L'audit financier trimestriel minimal"
+     ],
+     "exercices": [
+      "Dessiner l'architecture de vos comptes pro et perso",
+      "Installer 3 virements automatiques stratégiques",
+      "Créer le tableau de bord des 5 chiffres clés"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "L'engrenage humain : recruter, intégrer, faire grandir",
+     "objectif": "Construire une machine à talents qui ne dépende ni du charisme ni de l'énergie du fondateur.",
+     "sections": [
+      "16.1 Le pipeline de recrutement permanent",
+      "16.2 Fiches de poste orientées 'système' et non 'héros'",
+      "16.3 Process de sélection standardisé et documenté",
+      "16.4 Onboarding en 30-60-90 jours",
+      "16.5 Rituels de management : 1-to-1, revues, feedback",
+      "16.6 L'offboarding comme source d'apprentissage"
+     ],
+     "exercices": [
+      "Écrire une fiche de poste 'système' pour votre prochain recrutement",
+      "Rédiger le playbook d'onboarding en 10 étapes",
+      "Installer le rituel hebdomadaire de 1-to-1 de 30 minutes"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "L'engrenage de connaissance : documenter pour ne plus répéter",
+     "objectif": "Faire de chaque apprentissage un actif réutilisable, stocké hors de votre tête.",
+     "sections": [
+      "17.1 Pourquoi votre tête est un mauvais disque dur",
+      "17.2 Les 5 types de documents d'une entreprise sans volonté",
+      "17.3 SOP, playbooks, check-lists, modèles, décisions",
+      "17.4 Outils et structure de la base de connaissance",
+      "17.5 La règle du 'deuxième cerveau' collectif",
+      "17.6 Maintenir la base sans y passer sa vie"
+     ],
+     "exercices": [
+      "Choisir et installer votre outil de base de connaissance",
+      "Documenter les 10 processus les plus répétés de l'entreprise",
+      "Désigner un 'gardien' mensuel de la base"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Emboîter les engrenages : la mécanique d'ensemble",
+     "objectif": "Connecter commercial, production, finance, humains et savoir en un seul système cohérent.",
+     "sections": [
+      "18.1 Les interfaces entre engrenages : où ça casse",
+      "18.2 Le rythme unique : cadencer toute l'entreprise sur un tempo",
+      "18.3 Réunions-pivot : L10, revues trimestrielles, rituels annuels",
+      "18.4 Les indicateurs qui relient les engrenages entre eux",
+      "18.5 Le schéma-maître de votre entreprise",
+      "18.6 Quand un engrenage prend le pas sur un autre"
+     ],
+     "exercices": [
+      "Dessiner le schéma-maître de l'entreprise en une page",
+      "Installer le rituel hebdomadaire de pilotage (type L10)",
+      "Définir 3 indicateurs de liaison entre engrenages"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Les pannes : prévoir, absorber, redémarrer",
+   "chapitres": [
+    {
+     "numero": 19,
+     "titre": "Typologie des pannes du fondateur",
+     "objectif": "Nommer et classer les états dans lesquels le fondateur peut se trouver, pour y répondre par système.",
+     "sections": [
+      "19.1 Panne douce : fatigue, lassitude, ennui",
+      "19.2 Panne moyenne : découragement, doute, deuil",
+      "19.3 Panne sévère : burnout, dépression, crise de santé",
+      "19.4 Panne externe : crise de marché, perte clé, choc personnel",
+      "19.5 Le diagnostic en 3 questions rapides",
+      "19.6 Ne jamais confondre panne et signal stratégique"
+     ],
+     "exercices": [
+      "Écrire votre typologie personnelle des pannes (signaux précoces)",
+      "Associer chaque type de panne à un protocole écrit",
+      "Désigner une personne 'sentinelle' autorisée à déclencher l'alerte"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Le protocole du mode dégradé",
+     "objectif": "Définir à l'avance ce qui continue, ce qui ralentit, ce qui s'arrête en cas de panne.",
+     "sections": [
+      "20.1 Les 3 niveaux de mode dégradé (vert, orange, rouge)",
+      "20.2 Liste des activités 'incompressibles' en mode rouge",
+      "20.3 Les délégations d'urgence pré-désignées",
+      "20.4 Communication interne et externe en mode dégradé",
+      "20.5 Durée maximale et critères de sortie",
+      "20.6 Le retour au mode normal sans rechute"
+     ],
+     "exercices": [
+      "Rédiger le protocole officiel de mode dégradé en 3 niveaux",
+      "Identifier les 5 activités incompressibles en mode rouge",
+      "Désigner le 'capitaine de crise' et son suppléant"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Systèmes de secours : la redondance qui sauve",
+     "objectif": "Installer des doublons humains, financiers et opérationnels pour absorber les chocs.",
+     "sections": [
+      "21.1 La redondance humaine : binômes, suppléants, shadow board",
+      "21.2 La redondance financière : trésorerie de sécurité, lignes de crédit",
+      "21.3 La redondance opérationnelle : fournisseurs, outils, canaux",
+      "21.4 La redondance cognitive : conseillers, mentors, pairs",
+      "21.5 Calculer le coût acceptable de la redondance",
+      "21.6 Tester les secours avant d'en avoir besoin"
+     ],
+     "exercices": [
+      "Cartographier les 10 points sans redondance de l'entreprise",
+      "Installer 3 binômes sur les fonctions critiques",
+      "Constituer une réserve de sécurité de X mois de charges"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Le tableau de bord d'alerte précoce",
+     "objectif": "Détecter les pannes avant qu'elles n'arrivent grâce à des signaux faibles mesurés.",
+     "sections": [
+      "22.1 Les 4 catégories de signaux faibles (corporels, émotionnels, relationnels, business)",
+      "22.2 Choisir 8 à 12 indicateurs d'alerte",
+      "22.3 Fréquence de mesure et seuils de déclenchement",
+      "22.4 Qui lit le tableau, qui alerte, qui décide",
+      "22.5 Le piège des faux positifs",
+      "22.6 Réviser le tableau tous les trimestres"
+     ],
+     "exercices": [
+      "Lister vos 10 signaux faibles personnels et business",
+      "Construire le tableau de bord d'alerte précoce en une page",
+      "Installer la revue hebdomadaire de ce tableau"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Le plan d'absence prolongée",
+     "objectif": "Préparer l'entreprise à tourner 30, 90, voire 365 jours sans vous.",
+     "sections": [
+      "23.1 Le test des 4 semaines : votre premier vrai examen",
+      "23.2 Le test des 90 jours : consolidation du système",
+      "23.3 Le test des 12 mois : préparer la transmission ou la cession",
+      "23.4 Les documents juridiques et mandats à anticiper",
+      "23.5 La communication aux équipes, clients et partenaires",
+      "23.6 Le retour : ne pas reprendre les commandes par réflexe"
+     ],
+     "exercices": [
+      "Planifier votre première absence test de 2 semaines",
+      "Rédiger la lettre-type d'annonce d'absence prolongée",
+      "Lister les 5 mandats juridiques à mettre à jour"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Vivre avec une entreprise sans moteur",
+     "objectif": "Conclure sur la nouvelle vie du fondateur-architecte et ouvrir sur l'après.",
+     "sections": [
+      "24.1 Ce que change une entreprise sans moteur dans votre existence",
+      "24.2 Les nouveaux risques : ennui, perte de sens, sur-optimisation",
+      "24.3 Réinjecter du jeu, de l'art, de la création libre",
+      "24.4 Quand décider de transmettre, vendre ou fermer",
+      "24.5 La révision annuelle du contrat zéro motivation",
+      "24.6 Lettre au fondateur épuisé qui vient de finir ce livre"
+     ],
+     "exercices": [
+      "Écrire votre 'manifeste de l'architecte' en 10 lignes",
+      "Programmer la révision annuelle du contrat et du système",
+      "Choisir un projet purement gratuit, hors système, pour nourrir le jeu"
+     ]
+    }
+   ]
+  }
+ ]
+}

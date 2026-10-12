@@ -1,0 +1,529 @@
+{
+ "titre": "Trente secondes d'amitié",
+ "sous_titre": "Comment un micro-rituel quotidien redessine nos liens et bat les grandes retrouvailles",
+ "bibliographie": [
+  {
+   "auteur": "Robin Dunbar",
+   "titre": "Friends: Understanding the Power of our Most Important Relationships",
+   "annee": "2021",
+   "idee": "Les couches relationnelles (5, 15, 50, 150) se maintiennent par la fréquence des contacts, pas par l'intensité émotionnelle ponctuelle.",
+   "apport": "Cadre des couches de Dunbar pour cartographier le réseau et identifier quels liens méritent le rituel quotidien."
+  },
+  {
+   "auteur": "BJ Fogg",
+   "titre": "Tiny Habits: The Small Changes That Change Everything",
+   "annee": "2019",
+   "idee": "Un comportement minuscule ancré à un déclencheur existant tient toute une vie, là où les grandes résolutions échouent.",
+   "apport": "Méthode de design du rituel de trente secondes : ancrage, célébration, recette ABC."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "L'identité se construit par la répétition de micro-gestes ; la trajectoire compte plus que le résultat ponctuel.",
+   "apport": "Concept d'identité amicale (« je suis celui qui écrit chaque jour ») et loi de la rendue évidente/attractive/facile/satisfaisante."
+  },
+  {
+   "auteur": "John Gottman et Nan Silver",
+   "titre": "The Relationship Cure",
+   "annee": "2001",
+   "idee": "Les « bids for connection » (offres de lien) et leur taux de réponse prédisent la solidité d'une relation mieux que les grands gestes.",
+   "apport": "Le rituel quotidien comme bid minimal ; grille d'analyse des tourné-vers / tourné-contre / tourné-away."
+  },
+  {
+   "auteur": "Mark Granovetter",
+   "titre": "The Strength of Weak Ties (article fondateur, repris dans de nombreux recueils)",
+   "annee": "1973",
+   "idee": "Les liens faibles, entretenus à basse fréquence, apportent des informations nouvelles que les liens forts n'offrent pas.",
+   "apport": "Distinguer liens forts (rituel quotidien) et liens faibles (rituel hebdo/mensuel) pour ne pas tout lisser."
+  },
+  {
+   "auteur": "Robert Putnam",
+   "titre": "Bowling Alone: The Collapse and Revival of American Community",
+   "annee": "2000",
+   "idee": "Le capital social s'érode quand les rituels collectifs réguliers disparaissent au profit d'activités solitaires.",
+   "apport": "Argument sociologique : le micro-rituel quotidien restaure du capital social privatif."
+  },
+  {
+   "auteur": "Hartmut Rosa",
+   "titre": "Résonance. Une sociologie de la relation au monde",
+   "annee": "2018",
+   "idee": "La qualité de vie se mesure à la capacité d'entrer en résonance avec autrui, pas à l'accumulation de ressources.",
+   "apport": "Le rituel comme axe de résonance ; attention à ne pas le transformer en aliénation instrumentale."
+  },
+  {
+   "auteur": "William K. Rawlins",
+   "titre": "The Compass of Friendship",
+   "annee": "2009",
+   "idee": "L'amitié navigue entre tensions dialectiques : liberté/engagement, affection/instrumentalité, privé/public.",
+   "apport": "Grille pour anticiper les tensions que le rituel quotidien va exacerber ou apaiser."
+  },
+  {
+   "auteur": "Sherry Turkle",
+   "titre": "Alone Together",
+   "annee": "2011",
+   "idee": "La connexion numérique permanente peut éroder la solitude fertile et la présence réelle.",
+   "apport": "Mise en garde : le rituel ne doit pas devenir un substitut pauvre de présence ; critères de sobriété numérique."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Digital Minimalism",
+   "annee": "2019",
+   "idee": "Une philosophie technologique minimaliste préserve l'attention pour les relations qui comptent vraiment.",
+   "apport": "Protocole de « cure numérique » avant d'installer le rituel ; choix du canal le plus sobre."
+  },
+  {
+   "auteur": "Charles Duhigg",
+   "titre": "The Power of Habit",
+   "annee": "2012",
+   "idee": "La boucle signal-routine-récompense explique pourquoi certains gestes tient et d'autres non.",
+   "apport": "Diagnostic de la boucle du rituel amical et de sa récompense émotionnelle."
+  },
+  {
+   "auteur": "Marcel Mauss",
+   "titre": "Essai sur le don",
+   "annee": "1925",
+   "idee": "Le don crée l'obligation triple de donner, recevoir et rendre, et fonde le lien social.",
+   "apport": "Le micro-message quotidien comme don asymétrique ; risque de dette symbolique et manières de l'alléger."
+  },
+  {
+   "auteur": "Antoine de Saint-Exupéry",
+   "titre": "Le Petit Prince",
+   "annee": "1943",
+   "idee": "« Tu deviens responsable pour toujours de ce que tu as apprivoisé » ; le rite rend les jours différents.",
+   "apport": "Mythe fondateur du rituel comme apprivoisement ; usage narratif en ouverture de plusieurs chapitres."
+  },
+  {
+   "auteur": "Serge Tisseron",
+   "titre": "Le Bonheur dans la palme de la main (et travaux sur le lien numérique)",
+   "annee": "2015",
+   "idee": "Les liens numériques soutiennent l'amitié s'ils prolongent une présence incarnée, pas s'ils la remplacent.",
+   "apport": "Règles d'alternance texte/voix/présence pour ne pas appauvrir le rituel."
+  },
+  {
+   "auteur": "Jacques Salomé",
+   "titre": "Parle à mon père, ma tête est malade (et méthode ESPERE)",
+   "annee": "1998",
+   "idee": "La communication relationnelle exige de distinguer message, relation et personne.",
+   "apport": "Écharpe relationnelle appliquée au rituel : qui parle, à qui, et comment ne pas confondre rituel et fusion."
+  },
+  {
+   "auteur": "Alain de Botton",
+   "titre": "The Course of Love",
+   "annee": "2016",
+   "idee": "L'amour et l'amitié mûres acceptent l'ennui et la répétition comme matériaux du lien, pas comme ses ennemis.",
+   "apport": "Éthique de la lassitude : tenir quand le rituel devient fade."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — L'hérésie de la fréquence : pourquoi trente secondes battent trois heures",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le mythe des grandes retrouvailles",
+     "objectif": "Déconstruire l'idée reçue selon laquelle l'amitié se prouve par des moments intenses et espacés.",
+     "sections": [
+      "L'illusion du dîner annuel qui sauverait tout",
+      "Ce que la psychologie des souvenirs nous joue : pic-fin et disponibilité",
+      "Quand l'intensité masque la négligence",
+      "Les chiffres réels de l'amitié contemporaine : Dunbar à l'épreuve du smartphone",
+      "La promesse contre-intuitive du livre"
+     ],
+     "exercices": [
+      "Inventaire des « grandes retrouvailles » des 24 derniers mois et de leur retombée émotionnelle à J+7",
+      "Journal de bord : noter pendant une semaine chaque micro-pensée à un ami non suivie d'action"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "La suprématie du micro-geste : ce que dit la science",
+     "objectif": "Fonder la thèse sur des travaux établis en psychologie sociale et neurosciences du lien.",
+     "sections": [
+      "Les bids for connection de Gottman : trois secondes qui prédisent tout",
+      "Ocytocine, dopamine et fréquence : le cerveau préfère le peu-souvent au beaucoup-rarement",
+      "La courbe d'oubli relationnelle et la répétition espacée",
+      "Tiny Habits appliqué aux relations : le levier du minuscule",
+      "Limites et incertitudes des études disponibles"
+     ],
+     "exercices": [
+      "Comptage sur 48 h des micro-interactions avec vos proches vs. interactions longues",
+      "Test A/B sur une semaine : un ami contacté chaque jour 30 s, un autre appelé 30 min le dimanche"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Apprivoiser : le rituel selon Saint-Exupéry",
+     "objectif": "Donner une profondeur narrative et philosophique au concept de rituel.",
+     "sections": [
+      "Le renard et la leçon du rite : relire le chapitre XXI",
+      "Rituel vs routine : la différence tient à l'attention",
+      "Le temps apprivoisé contre le temps subi",
+      "Responsabilité perpétuelle : ce que l'on doit à ce que l'on a quotidien",
+      "Les dérives possibles : ritualiser pour ne pas vraiment rencontrer"
+     ],
+     "exercices": [
+      "Lister trois rituels d'enfance qui structurent encore votre rapport aux autres",
+      "Écrire en une page le « rite » que vous aimeriez installer avec une personne précise"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Fréquence contre intensité : le modèle mathématique du lien",
+     "objectif": "Proposer un modèle simple pour raisonner sur la fréquence optimale d'un lien.",
+     "sections": [
+      "La formule informelle : L = f × a × r (lien = fréquence × attention × réciprocité)",
+      "Pourquoi doubler la fréquence coûte moins que doubler la durée",
+      "Le seuil de désintégration d'un lien selon Dunbar",
+      "Les cas limites : amitiés à haute intensité et basse fréquence qui tiennent",
+      "Quand le modèle échoue : deuil, déménagement, crise"
+     ],
+     "exercices": [
+      "Calculer pour cinq amis votre L actuel et votre L cible",
+      "Simuler sur un tableur l'effet d'un micro-geste quotidien pendant un an"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Designer votre rituel de trente secondes",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Anatomie d'un rituel tenable à vie",
+     "objectif": "Définir les propriétés non négociables d'un micro-rituel amical durable.",
+     "sections": [
+      "Les cinq critères : bref, sobre, asymétrique, ancré, célébré",
+      "Pourquoi trente secondes et pas deux minutes",
+      "La question du canal : texte, voix, image, emoji, lettre",
+      "Sobriété numérique : un rituel qui n'a pas besoin d'une application",
+      "Le test du pire jour : votre rituel tient-il quand tout va mal ?"
+     ],
+     "exercices": [
+      "Check-list des cinq critères appliquée à trois rituels candidats",
+      "Simulation mentale du rituel exécuté un jour de grippe, de deuil ou de voyage"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Le catalogue des trente secondes",
+     "objectif": "Proposer un répertoire ouvert de micro-gestes testés et classés.",
+     "sections": [
+      "Les gestes d'attention : « j'ai pensé à toi parce que… »",
+      "Les gestes de mémoire : la photo-archive, la citation du jour d'avant",
+      "Les gestes de service : la micro-recommandation, le lien utile",
+      "Les gestes de corps : la voix, la photo floue, le son ambiant",
+      "Les gestes négatifs : s'abstenir ensemble, le silence partagé"
+     ],
+     "exercices": [
+      "Composer sa palette personnelle de sept gestes (un par jour de la semaine)",
+      "Tester trois gestes nouveaux en une semaine et noter la réponse reçue"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "L'ancrage : coller le rituel à une habitude qui existe déjà",
+     "objectif": "Utiliser la méthode Tiny Habits pour garantir l'exécution automatique.",
+     "sections": [
+      "Le principe de l'ancre comportementale (Fogg)",
+      "Les meilleures ancres du matin, du midi, du soir",
+      "Éviter les ancres fragiles : le café du dimanche, le trajet variable",
+      "La célébration immédiate : pourquoi elle verrouille l'habitude",
+      "Formuler sa recette : « Après X, je fais Y, puis je célèbre Z »"
+     ],
+     "exercices": [
+      "Cartographier ses routines quotidiennes stables (brossage, café, coucher)",
+      "Écrire trois recettes ABC candidates et en choisir une pour la semaine pilote"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Le canal sobre : choisir sans se piéger",
+     "objectif": "Éviter que le support du rituel ne devienne un problème en soi.",
+     "sections": [
+      "Texte, audio, image : forces, faiblesses, coûts attentionnels",
+      "Pourquoi le SMS pur a encore de l'avenir",
+      "Le carnet papier envoyé par photo : une voie lente",
+      "Les canaux à bannir : ceux qui vous exposent à l'algorithme",
+      "Négocier le canal avec l'ami sans lourdeur"
+     ],
+     "exercices": [
+      "Audit de ses dix canaux de communication actuels et de leur friction",
+      "Expérience d'une semaine sur un canal inhabituel (ex. audio de 20 s)"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Le contrat implicite : prévenir sans alourdir",
+     "objectif": "Installer le rituel sans que l'autre se sente pris en otage.",
+     "sections": [
+      "Pourquoi annoncer sans annoncer : la pédagogie douce",
+      "Le message d'installation en cinq phrases",
+      "Laisser une porte de sortie à l'autre",
+      "Gérer le déséquilibre : quand l'autre ne répond pas",
+      "Réviser le contrat tous les trois mois"
+     ],
+     "exercices": [
+      "Rédiger trois versions du message d'installation (directe, poétique, minimaliste)",
+      "Préparer une réponse élégante à un silence prolongé"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Cartographier son réseau pour savoir où dépenser ses trente secondes",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "La carte réelle de vos amitiés",
+     "objectif": "Passer du réseau fantasmé au réseau effectivement entretenu.",
+     "sections": [
+      "Compter ses contacts des 90 derniers jours, pas de l'année",
+      "Les quatre couches : intimes, proches, réguliers, dormants",
+      "Le ratio cruel : 80 % de l'énergie sur 5 % des gens",
+      "Amis symétriques, asymétriques, fantômes",
+      "Dessiner sa carte à la main, sans outil"
+     ],
+     "exercices": [
+      "Exporter l'historique de messages des 90 derniers jours et classer",
+      "Tracer la carte sur feuille A3 avec codes couleur par fréquence"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Choisir l'ami du rituel : un seul, pas tous",
+     "objectif": "Accepter la radicalité du protocole : pousser un seul lien à la quotidienneté.",
+     "sections": [
+      "Pourquoi un seul lien, et pas cinq",
+      "Les sept critères de l'ami quotidien candidat",
+      "Éviter le piège du conjoint ou du meilleur ami évident",
+      "Le candidat inattendu : l'ami dormant à fort potentiel",
+      "Accepter de décevoir les autres temporairement"
+     ],
+     "exercices": [
+      "Noter sur 10 chaque ami proche selon les sept critères",
+      "Écrire un paragraphe honnête : pourquoi celui-là et pas les autres"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Le cercle des autres : protéger les liens non quotidiens",
+     "objectif": "Éviter que la focalisation sur un lien n'assèche les autres.",
+     "sections": [
+      "Le principe du jardinage différencié",
+      "Assigner une fréquence cible à chaque strate",
+      "Les rituels hebdomadaires, mensuels, annuels",
+      "Le calendrier relationnel annuel : douze amis, douze mois",
+      "Gérer les amis qui réclament plus que leur strate"
+     ],
+     "exercices": [
+      "Remplir un tableau annuel avec un ami par mois et la date de contact",
+      "Installer trois rappels calendrier non négociables pour trois strates"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Les angles morts : qui avez-vous oublié ?",
+     "objectif": "Identifier les amitiés négligées par biais cognitifs et structurels.",
+     "sections": [
+      "Les biais de proximité, de similarité, de récence",
+      "Les amis d'avant : enfance, études, premiers emplois",
+      "Les amis éloignés géographiquement mais proches affectivement",
+      "Les amis discrets : ceux qui ne réclament jamais",
+      "Les amis devenus gênants : faut-il les ressusciter ?"
+     ],
+     "exercices": [
+      "Liste des « oubliés » : parcourir les anciens répertoires, albums, carnets",
+      "Envoyer trois messages de réveil à trois oubliés cette semaine"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Répartir l'énergie sans s'épuiser",
+     "objectif": "Transformer la carte en budget attentionnel tenable.",
+     "sections": [
+      "Le budget attentionnel hebdomadaire en minutes",
+      "La règle du 1-5-15-50 (quotidien, hebdo, mensuel, trimestriel)",
+      "Arbitrer quand la vie se densifie : parent, deuil, promotion",
+      "Savoir geler un lien sans le tuer",
+      "Le droit de ne pas être disponible"
+     ],
+     "exercices": [
+      "Calculer son budget attentionnel réel sur les deux dernières semaines",
+      "Simuler un trimestre chargé et pré-décider trois gels amicaux"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Tenir à vie : la discipline douce du quotidien",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "Les trente premiers jours : installer sans forcer",
+     "objectif": "Passer le cap fragile du premier mois sans décourager ni étouffer.",
+     "sections": [
+      "Le calendrier d'installation progressif : 1-3-7-14-30",
+      "Le journal de bord minimal : une ligne par jour",
+      "Les signaux précoces de déraillement",
+      "Que faire quand on oublie deux jours de suite",
+      "Célébrer les petites victoires sans infantiliser"
+     ],
+     "exercices": [
+      "Préparer un carnet de 30 cases avec une question courte par jour",
+      "Définir trois signaux d'alerte personnels et leur parade"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Traverser la lassitude : quand le rituel devient fade",
+     "objectif": "Faire de la lassitude un matériau du lien et non son tombeau.",
+     "sections": [
+      "La courbe en U de l'enthousiasme : prévoir la chute",
+      "Lassitude du geste vs lassitude de la personne : distinguer",
+      "Variations autorisées : changer de geste sans rompre",
+      "La semaine de jeûne : s'absenter sans disparaître",
+      "Éloge de l'ennui partagé"
+     ],
+     "exercices": [
+      "Lister cinq variations du même geste pour les semaines creuses",
+      "Programmer une semaine de jeûne tous les quatre mois"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "La réciprocité sans comptabilité",
+     "objectif": "Tenir l'asymétrie sans ressentiment ni servitude.",
+     "sections": [
+      "Le mythe du 50/50 : pourquoi il détruit les liens",
+      "Accepter d'être celui qui écrit le plus souvent",
+      "Les formes discrètes de réciprocité : attention, mémoire, présence",
+      "Quand l'asymétrie devient toxique : les signaux rouges",
+      "Renégocier sans drame"
+     ],
+     "exercices": [
+      "Compter pendant un mois sans juger, puis relire à froid",
+      "Écrire une lettre (non envoyée) exprimant le ressentiment pour le dissoudre"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Les saisons de la vie : adapter sans rompre",
+     "objectif": "Anticiper les événements qui menacent la continuité du rituel.",
+     "sections": [
+      "Naissance, deuil, maladie, déménagement, chômage : cinq scénarios",
+      "Le mode dégradé : quel est votre rituel minimal de survie ?",
+      "Confier le rituel à un tiers quand on ne peut plus",
+      "Reprendre après une longue pause sans s'excuser longuement",
+      "Archiver les traces pour les relire plus tard"
+     ],
+     "exercices": [
+      "Définir son rituel de survie (version 10 secondes) pour les jours noirs",
+      "Prévoir un dossier « traces » où stocker les messages échangés"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Mesurer l'effet sans tuer la magie",
+     "objectif": "Évaluer sobrement ce que le rituel produit, sans le transformer en KPI.",
+     "sections": [
+      "Pourquoi mesurer : éviter l'activisme aveugle",
+      "Cinq indicateurs qualitatifs suffisants",
+      "Le bilan trimestriel en vingt minutes",
+      "Les effets indirects : sommeil, humeur, sentiment d'appartenance",
+      "Quand arrêter de mesurer"
+     ],
+     "exercices": [
+      "Définir trois indicateurs qualitatifs personnels",
+      "Programmer quatre bilans trimestriels dans l'année"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Angles morts, risques et éthique du micro-rituel",
+   "chapitres": [
+    {
+     "numero": 20,
+     "titre": "Quand le rituel devient une prison",
+     "objectif": "Reconnaître les dérives possibles et savoir en sortir.",
+     "sections": [
+      "Le rituel-compulsion : signe et sortie",
+      "Le rituel-fuite : éviter les vraies conversations",
+      "Le rituel-emprise : quand l'autre ne peut plus s'en passer",
+      "Le rituel-alibi : se donner bonne conscience à bon prix",
+      "Mettre fin à un rituel avec élégance"
+     ],
+     "exercices": [
+      "Auto-diagnostic en dix questions sur la santé de votre rituel",
+      "Rédiger le message de clôture anticipée au cas où"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Les amitiés que le rituel ne sauvera pas",
+     "objectif": "Admettre les limites : certains liens ont besoin d'autre chose.",
+     "sections": [
+      "Les liens abîmés par un conflit non résolu",
+      "Les amitiés de convenance qu'on confond avec des amitiés",
+      "Les relations à forte asymétrie de pouvoir",
+      "Les amitiés toxiques : reconnaître et couper",
+      "Ce que le rituel ne peut pas remplacer : présence, pardon, acte"
+     ],
+     "exercices": [
+      "Lister trois liens pour lesquels le rituel serait un cache-misère",
+      "Décider d'une action non-rituelle (rencontre, lettre, rupture) pour chacun"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Éthique du don quotidien : ne pas étouffer l'autre",
+     "objectif": "Penser le rituel à la lumière de Mauss et de la dette symbolique.",
+     "sections": [
+      "Le don quotidien peut-il devenir une charge ?",
+      "Laisser à l'autre le droit de ne pas répondre",
+      "Le rituel comme offre, jamais comme exigence",
+      "Respecter les temporalités de l'autre : fatigue, deuil, silence",
+      "Le consentement continu : vérifier sans lourdeur"
+     ],
+     "exercices": [
+      "Envoyer une fois par trimestre un message de « permission de silence »",
+      "Noter les fois où vous avez répondu par obligation et en parler"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Le rituel à l'ère numérique : résister à la dilution",
+     "objectif": "Préserver la qualité du lien dans un environnement d'attention pillée.",
+     "sections": [
+      "Le rituel contre l'algorithmie : choisir des canaux non monétisés",
+      "Notifications, streaks, gamification : ce qu'il faut refuser",
+      "Écrire long de temps en temps : la lettre mensuelle",
+      "La voix comme contre-poison de la fragmentation",
+      "Préserver des amitiés hors écran"
+     ],
+     "exercices": [
+      "Désinstaller pendant 30 jours toute application qui streak-ise vos liens",
+      "Envoyer une lettre manuscrite par trimestre à l'ami du rituel"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Épilogue — Ce que trente secondes changent, ce qu'elles ne changent pas",
+     "objectif": "Clore le livre avec honnêteté : promesses tenables et limites assumées.",
+     "sections": [
+      "Synthèse des résultats observables à six mois",
+      "Ce que le rituel ne promet pas : fusion, vérité, éternité",
+      "La liberté comme horizon : tenir sans s'enchaîner",
+      "Transmettre le rituel : sans évangéliser",
+      "La dernière question : qui serez-vous dans dix ans si vous tenez ?"
+     ],
+     "exercices": [
+      "Écrire une lettre à soi-même dans dix ans, à relire à la date anniversaire",
+      "Offrir le livre ou son protocole à un ami, sans attendre de retour"
+     ]
+    }
+   ]
+  }
+ ]
+}
