@@ -1,0 +1,655 @@
+{
+ "titre": "La bonne clé au bon moment",
+ "sous_titre": "L'alimentation expliquée par l'analogie de la serrure : ouvrir les portes du métabolisme, repérer les catalyseurs, respecter le timing et observer ses réponses",
+ "bibliographie": [
+  {
+   "auteur": "Ancel J. Keys et al.",
+   "titre": "The Biology of Human Starvation",
+   "annee": "1950",
+   "idee": "Somme exhaustive sur la privation alimentaire et la répartition des réserves corporelles. Elle montre que l'absence de « clé » énergétique déclenche une cascade de réglages hormonaux bien ordonnés.",
+   "apport": "Base sérieuse pour parler de jeûne et de restriction sans exaggerer, et pour introduire la notion de conditions d'activation."
+  },
+  {
+   "auteur": "John Yudkin",
+   "titre": "Pure, White and Deadly",
+   "annee": "1972",
+   "idee": "Thèse controversée en son temps : le sucre raffiné, plus que les graisses, serait au cœur des maladies métaboliques. Idée longtemps minoritaire, partiellement réhabilitée depuis.",
+   "apport": "Démonstration qu'un consensus peut être faux, et entrée naturelle vers l'analogie du sucre qui « cogne » la porte insuline."
+  },
+  {
+   "auteur": "Michael Pollan",
+   "titre": "In Defense of Food",
+   "annee": "2008",
+   "idee": "Critique du « nutritionnisme » : focaliser sur les nutriments isolés fait perdre la nourriture entière. Mot d'ordre : manger de la nourriture réelle, surtout des plantes, pas trop.",
+   "apport": "Garde-fou anti-réductionnisme : la clé n'existe pas hors de la matrice alimentaire."
+  },
+  {
+   "auteur": "Gary Taubes",
+   "titre": "Good Calories, Bad Calories",
+   "annee": "2007",
+   "idee": "Met en cause le paradigme « moins de graisses, plus d'activité » et défend le modèle insuline-glucides comme moteur de la prise de poids. Enquête longue mais partielle.",
+   "apport": "Méthode pour exposer une controverse nutritionnelle et distinguer hypothèse mécanistique et preuve épidémiologique."
+  },
+  {
+   "auteur": "Nina Teicholz",
+   "titre": "The Big Fat Surprise",
+   "annee": "2014",
+   "idee": "Réexamen critique des grandes études sur les graisses saturées et des biais institutionnels derrière les recommandations alimentaires.",
+   "apport": "Matériel pour enseigner la lecture critique des preuves, sans basculer vers un contre-dogme."
+  },
+  {
+   "auteur": "Robert H. Lustig",
+   "titre": "Fat Chance",
+   "annee": "2012",
+   "idee": "Le sucre (notamment le fructose) n'est pas une calorie neutre : il agit sur le foie, l'insuline et les signaux de faim.",
+   "apport": "Alimentation centrale du chapitre « serrure du sucre » et de l'idée que la vitesse et la forme de la clé comptent."
+  },
+  {
+   "auteur": "David S. Ludwig",
+   "titre": "Always Hungry?",
+   "annee": "2016",
+   "idee": "Le poids est piloté par les hormones (insuline en tête) : stocker des calories déclenche la faim, indépendamment de la volonté.",
+   "apport": "Lien signal hormonal ↔ comportement alimentaire, utile pour éviter la culpabilisation."
+  },
+  {
+   "auteur": "Stephan J. Guyenet",
+   "titre": "The Hungry Brain",
+   "annee": "2017",
+   "idee": "L'appétit est gouverné par des circuits hypothalamiques et un environnement qui dépassent largement le contrôle conscient.",
+   "apport": "Rappel que la serrure de la faim se règle aussi hors de l'assiette ; antidote au livre de motivation."
+  },
+  {
+   "auteur": "Satchin Panda",
+   "titre": "The Circadian Code",
+   "annee": "2018",
+   "idee": "Les horloges périphériques du foie et de l'intestin dépendent des heures de repas ; la fenêtre de mangeable compte autant que le contenu.",
+   "apport": "Colonne vertébrale scientifique (et grand public) de la partie sur le bon moment."
+  },
+  {
+   "auteur": "Valter Longo",
+   "titre": "The Longevity Diet",
+   "annee": "2016",
+   "idee": "Cycle nourrir/réparer et régimes de jeûne ou de jeûne mimétique étudiés pour la longévité et le métabolisme.",
+   "apport": "Cadre prudent pour parler du cycle jeûne-alimentation et de ses populations à risque."
+  },
+  {
+   "auteur": "David A. Sinclair",
+   "titre": "Lifespan",
+   "annee": "2019",
+   "idee": "Thèse sur le vieillissement comme processus programmable (sirtuines, resvératrol, rapamycine) et sur les interventions possibles.",
+   "apport": "Exemple type de promesses moléculaires à confronter au niveau de preuve réel chez l'humain."
+  },
+  {
+   "auteur": "Matthew Walker",
+   "titre": "Why We Sleep",
+   "annee": "2017",
+   "idee": "Le sommeil est un régulateur central de la mémoire, de l'immunité et du métabolisme ; sa privation altère la sensibilité à l'insuline.",
+   "apport": "Preuve majeure que le catalyseur non alimentaire prime souvent sur la clé elle-même."
+  },
+  {
+   "auteur": "Jason Fung",
+   "titre": "The Obesity Code",
+   "annee": "2016",
+   "idee": "L'obésité serait d'abord un problème hormonal (insuline, horaires de repas) plutôt qu'un simple bilan calorique.",
+   "apport": "Ancrage grand public du jeûne et du timing ; utile pour enseigner à trier les arguments solides des extrapolations."
+  },
+  {
+   "auteur": "T. Colin Campbell et Thomas M. Campbell",
+   "titre": "The China Study",
+   "annee": "2005",
+   "idee": "Association observée entre alimentation végétale et moindre fréquence de maladies chroniques dans une étude de cohorte chinoise.",
+   "apport": "Cas d'école pour distinguer corrélation et causalité dans la lecture des études nutritionnelles."
+  },
+  {
+   "auteur": "Michael Greger",
+   "titre": "How Not to Die",
+   "annee": "2016",
+   "idee": "Panoplie d'aliments et de pratiques appuyées sur des revues de littérature, dans une perspective végétale.",
+   "apport": "Répertoire de « clés » plausibles classées par niveau de preuve ; modèle de citation accessible."
+  },
+  {
+   "auteur": "Cate Shanahan",
+   "titre": "Deep Nutrition",
+   "annee": "2011",
+   "idee": "La qualité d'une alimentation tient à des pratiques culinaires ancestrales : graisses stables, ferments, cuissons lentes, variété.",
+   "apport": "Inspirations pour la partie catalyseurs : préparation et associations comme transformation des clés."
+  },
+  {
+   "auteur": "Sally Fallon et Mary G. Enig",
+   "titre": "Nourishing Traditions",
+   "annee": "1999 (édition de référence ; 1re éd. vers 1995 — année incertaine)",
+   "idee": "Recettes et méthodes traditionnelles (trempage, fermentation, matières grasses d'origine animale) opposées aux recommandations industrielles standard.",
+   "apport": "Friches pratiques de préparation des aliments ; à lire avec esprit critique sur certaines allégations non vérifiées."
+  },
+  {
+   "auteur": "Justin S. Sonnenburg et Erica D. Sonnenburg",
+   "titre": "The Good Gut",
+   "annee": "2015",
+   "idee": "Le microbiote intestinal, nourri par les fibres, produit des métabolites qui parlent à notre organisme (SCFA, acides biliaires secondaires).",
+   "apport": "Socle du chapitre microbiote : l'atelier qui fabrique des clés que nous ne savons pas produire."
+  },
+  {
+   "auteur": "Uffe Ravnskov",
+   "titre": "The Cholesterol Myths",
+   "annee": "2000 (1re éd. ; date incertaine pour certaines éditions)",
+   "idee": "Contre-thèse minoritaire sur le lien direct entre cholestérol alimentaire/sanguin et maladies cardiovasculaires.",
+   "apport": "Exercice de jugement : comment évaluer un argumentaire dissident sérieux sans le rejeter ni l'adopter aveuglément."
+  },
+  {
+   "auteur": "Ori Hofmekler",
+   "titre": "The Warrior Diet",
+   "annee": "2002",
+   "idee": "Jeûne léger pendant la journée et repas principal le soir : version populaire précoce de la fenêtre de repas.",
+   "apport": "Origine culturelle de l'axe « moment » et matière à confronter aux essais cliniques modernes."
+  },
+  {
+   "auteur": "Michel Montignac",
+   "titre": "Dîner minceur",
+   "annee": "1986 (± ; première publication française, date incertaine)",
+   "idee": "Index glycémique et règles d'association d'aliments pour limiter les pics d'insuline.",
+   "apport": "Version française historique de la « grille d'associations » ; utile pour montrer la différence entre heuristique pratique et preuve expérimentale."
+  },
+  {
+   "auteur": "Bruce Alberts et al.",
+   "titre": "Molecular Biology of the Cell",
+   "annee": "1986 (1re éd. ; nombreuses rééditions)",
+   "idee": "Manuel de référence sur les récepteurs, transporteurs, voies de signalisation et régulation de l'expression des gènes.",
+   "apport": "Rigueur mécanistique sous-jacente à l'analogie : ce que « serrure » et « clé » veulent réellement dire en biologie."
+  },
+  {
+   "auteur": "Barry Sears",
+   "titre": "Enter the Zone",
+   "annee": "1995",
+   "idee": "Équilibrer glucides, lipides et protéines à chaque repas pour tenir un « zone » hormonal favorable.",
+   "apport": "Exemple emblématique d'explication hormonale grand public, à confronter aux résultats réels des essais."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — La serrure : comprendre le principe",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Une serrure pour chaque processus : la promesse de l'analogie",
+     "objectif": "Poser le cadre : le corps ne réagit pas parce qu'une substance est présente, mais parce qu'elle rencontre la bonne porte au bon moment. Présenter l'analogie, son histoire biologique et ses limites. Cible : 3 500 mots.",
+     "sections": [
+      "Ce que le corps « ouvre » : un effet ne suit pas toujours une présence",
+      "De Fischer à Koshland : d'où viennent les idées de clé et de serrure (1894, 1958)",
+      "Trois familles de serrures : récepteurs, enzymes, transporteurs",
+      "Spécificité et débordements : quand une serrure accepte plusieurs clés",
+      "Pourquoi la quantité ne suffit pas : affinité, disponibilité, compétition",
+      "Les limites de l'analogie : ce que la serrure n'explique pas",
+      "Première vue d'ensemble : cinq familles de portes à explorer dans le livre"
+     ],
+     "exercices": [
+      "Carte des portes : décrire trois processus de votre journée (énergie du matin, faim de 16 h, sommeil) et leurs conditions d'activation probables",
+      "Mini-dictionnaire : définir affinité, ligand, agoniste, antagoniste en langage de tous les jours",
+      "Chronique du jour : noter un effet dont vous ne voyez pas la cause immédiate (fatigue, clarté, envie de sucré)"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Entre l'assiette et la porte : ce qui compte vraiment",
+     "objectif": "Démontrer que ce qui est ingéré n'est pas ce qui agit : parcourir digestion, absorption, transport, biodisponibilité et matrice alimentaire, avec l'étude de cas du fer. Cible : 3 500 mots.",
+     "sections": [
+      "Quatre étapes avant la rencontre : ingestion, digestion, absorption, transport",
+      "La matrice : la clé encore enfermée dans son métal",
+      "Premier passage hépatique et biodisponibilité : tout n'arrive pas",
+      "Les faux clients : analogues et antinutriments qui encombrent la serrure",
+      "Étude de cas : fer, vitamine C, polyphénols et calcium",
+      "Affinité et saturation : le vocabulaire utile à retenir",
+      "Abandonner le réflexe « mg ingérés » sans tomber dans le flou"
+     ],
+     "exercices": [
+      "Tracer un nutriment : schéma en quatre étapes appliqué aux lentilles (fer) et à un agrume (vitamine C)",
+      "Grille des quatre étapes pour trois aliments de vos habitudes",
+      "Journal d'une journée « ingéré vs ressenti » : ce que vous avez avalé et ce qui s'est réellement passé"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Le langage des correspondances : penser autrement que par les calories",
+     "objectif": "Fournir une méthode de raisonnement : trois grilles de lecture (énergie, information, correspondance), lexique commun et critères pour distinguer hypothèse plausible, vérification et marketing. Cible : 3 500 mots.",
+     "sections": [
+      "Les calories, puis quoi : ce que le décompte énergetique capture et rate",
+      "Trois grilles : énergie, information, correspondance",
+      "Le nutriment comme message : ligand, hormone, facteur de transcription",
+      "Raccourcis utiles et raccourcis dangereux : garder l'analogie à sa place",
+      "Deux écueils à éviter : « tout est toxique » et « tout se réduit aux calories »",
+      "De l'hypothèse à la preuve : plausibilité mécanistique, essais, observation",
+      "Le lexique de travail : serrure, clé, catalyseur, moment, réponse"
+     ],
+     "exercices": [
+      "Tableau avant/après : cinq idées reçues que la grille des correspondances modifie",
+      "Exercice de vulgarisation : expliquer l'analogie en trois phrases à un proche et recueillir ses objections",
+      "Tri des affirmations : plausible / vérifiable / invérifiable / commercial"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Cartographie du corps : les cinq étages de portes",
+     "objectif": "Offrir la carte qui guidera tout le livre : membrane, cytoplasme, noyau, horloge, microbiote, avec les grandes familles de portes et leur attente. Cible : 3 500 mots.",
+     "sections": [
+      "Une carte en cinq étages : membrane, cytoplasme, noyau, horloge, microbiote",
+      "Portes de l'énergie : glucose, acides gras, corps cétoniques",
+      "Portes de la croissance et de la réparation : insuline, IGF-1, mTOR",
+      "Portes du stress et du nettoyage : cortisol, Nrf2, foie",
+      "Portes de l'information : prostaglandines, dopamine et sérotonine intestinales",
+      "Portes du temps : horloges et récepteurs nucléaires sensibles aux lipides",
+      "Comment cette carte servira dans les cinq parties suivantes"
+     ],
+     "exercices": [
+      "Trois processus personnels à replacer sur la carte (énergie, coup de barre, sommeil)",
+      "Afficher la carte murale et la compléter à mesure de l'avancement du livre",
+      "Questionnaire de départ : quels processus de mon corps me posent problème aujourd'hui ?"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Les grandes serrures connues",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "La serrure du sucre : insuline, GLUT4 et les sucres restés dehors",
+     "objectif": "Expliquer mécaniquement l'axe glucose-insuline, l'insulinorésistance et l'effet de la vitesse d'arrivée, en exposant les controverses sans prendre parti. Cible : 3 500 mots.",
+     "sections": [
+      "Banting et Best : la première clé découverte (1921-1922)",
+      "Ce que fait vraiment l'insuline : ouvrir GLUT4 et diriger le sucre",
+      "Quand la serrure résiste : insulinorésistance, foie, muscles, tissu adipeux",
+      "La vitesse d'arrivée : sucres rapides, amidon, fibres, forme du repas",
+      "Index et charge glycémiques : outils utiles ou approximations ? (incertitudes)",
+      "Controverse du modèle sucre-insuline : ce qui est solide, ce qui l'est moins",
+      "L'insuline n'est pas l'ennemi : usages et abus de l'analogie"
+     ],
+     "exercices": [
+      "Carnet glycémique 48 h : aliments, heures, sensation de faim (sans calcul)",
+      "Observation repas A / repas B : même plat avec ou sans fibres, notes 2 h et 4 h plus tard",
+      "Liste des signes possibles d'une porte qui force : coup de barre, faim rapide, fringales"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "AMPK et mTOR : le « il manque » et le « il y a »",
+     "objectif": "Présenter les deux grands interrupteurs énergie/croissance, leur alternance naturelle et la manière prudente de les solliciter par l'alimentation et le mouvement. Cible : 3 500 mots.",
+     "sections": [
+      "Deux interrupteurs : AMPK crie « il manque », mTOR annonce « on construit »",
+      "AMPK : activité physique, restriction, certains médicaments (mention prudente, avis médical)",
+      "mTOR : acides aminés dont la leucine, insuline, synthèse protéique",
+      "Alterner plutôt que couper : le rythme nourrir puis réparer",
+      "Excès et carence d'activation : sarcopénie, suralimentation, promesses anti-âge",
+      "Quand chaque interrupteur domine dans la journée",
+      "Lire ses signaux : faim, satiété, énergie, récupération"
+     ],
+     "exercices": [
+      "Journal de sept jours : activité, heures des repas, faim, énergie, sommeil",
+      "Inventaire protéique de trois jours (sources et moments, sans objectif chiffré)",
+      "Auto-quiz « mon rythme mTOR/AMPK est-il plausiblement équilibré ? »"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Serrures nucléaires : quand la cellule lit votre assiette",
+     "objectif": "Faire comprendre que certains nutriments entrent dans le noyau et modulent l'expression des gènes, en distinguant soigneusement données précliniques et données humaines. Cible : 3 500 mots.",
+     "sections": [
+      "Du signal à l'ADN : des clés qui changent le programme sans le changer",
+      "Récepteurs nucléaires : PPAR (lipides), VDR (vitamine D), récepteurs thyroïdiens",
+      "Nrf2 : la porte de la réponse antioxydante et le brocoli (sulforaphane)",
+      "NF-kB : la porte de l'inflammation et ses drapeaux",
+      "Compétition et coactivation : une serrure, plusieurs prétendantes",
+      "Ce qui est démontré chez l'humain et ce qui reste préclinique",
+      "L'assiette comme bibliothèque de signaux nucléaires"
+     ],
+     "exercices": [
+      "Grille « aliment → récepteur probable → niveau de preuve (in vitro / animal / humain) »",
+      "Lecture critique : résumer une revue sur Nrf2 en cinq lignes (méthode, population, taille)",
+      "Identifier les cinq aliments de votre semaine qui envoient le plus de signaux nucléaires probables"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Serrures sensorielles et digestives : sucre, umami, bile, hormones de l'intestin",
+     "objectif": "Compléter la carte avec les récepteurs de la langue, de l'intestin et du foie, et montrer comment le microbiote et le stress modifient ces portes. Cible : 3 500 mots.",
+     "sections": [
+      "La langue, premier récepteur : T1R2/T1R3 (sucré), T1R1/T1R3 (umami)",
+      "L'intestin sent et parle : SGLT1, GPR41/43, GLP-1, PYY, greline",
+      "Bile et foie : FXR et TGR5, la porte de seconde main",
+      "Quand la clé sensorielle ment : édulcorants, saveurs et attente",
+      "Microbiote : des clés fabriquées ailleurs que dans notre corps",
+      "Système nerveux entérique et stress : la serrure qui se grippe",
+      "Synthèse de partie II : ce que les cinq familles de portes attendent"
+     ],
+     "exercices": [
+      "Test sensoriel en aveugle : eau sucrée vs eau légèrement édulcorée, notes",
+      "Carnet des réponses digestives et de satiété sur sept jours",
+      "Carte finale de partie II : cinq familles × exemples × aliments correspondants"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Les clés alimentaires plausibles",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Macronutriments : des clés autant que de l'énergie",
+     "objectif": "Réinterpréter glucides, lipides, protéines et fibres comme des messagers aux vitesses et rôles distincts, et non comme de simples calories. Cible : 3 500 mots.",
+     "sections": [
+      "Glucides : la clé rapide, la réserve glycogène et le problème du rythme",
+      "Lipides : clés lentes, signaux longs, constitution des membranes",
+      "Protéines : clés de réparation, de satiété et de croissance (leucine)",
+      "Ratios et régimes : ce qui change réellement les serrures (et ce qui n'y change rien)",
+      "Fibres : ni clé ni énergie, elles règlent l'accès aux autres clés",
+      "Monopolies : quand une seule clé tourne en boucle",
+      "Composer une assiette selon ses portes personnelles"
+     ],
+     "exercices": [
+      "Inventaire de trois jours : glucides, lipides, protéines par repas et qualité",
+      "Test d'une variable : petit-déjeuner protéiné vs féculent pendant cinq jours chacun, ordre aléatoire",
+      "Grille de décision : choisir un repas selon le temps disponible et l'objectif du moment"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Micronutriments : les clés de secours et leurs cofacteurs",
+     "objectif": "Expliquer le rôle de cofacteur des vitamines et minéraux, les carences marginales, les risques d'excès et la conduite prudente face aux compléments. Cible : 3 500 mots.",
+     "sections": [
+      "Cofacteurs : des clés secondaires sans lesquelles la principale ne tourne pas",
+      "Cinq exemples parlants : magnésium, zinc, fer, iode, vitamine D",
+      "Carence franche et couverture marginale : la serrure qui force",
+      "Les signes qui trompent : fatigue, ongles, humeur, pièges de l'autodiagnostic",
+      "Trop de clés : toxicité et antagonismes (calcium/magnésium, zinc/cuivre)",
+      "Formes, doses et commerce : bisglycinate, D3, « complexes » — incertitudes",
+      "Règle prudente : aliment d'abord, bilan si doute, professionnel avant complémentation"
+     ],
+     "exercices": [
+      "Carnet de couverture : repérer vos sources des cinq cofacteurs cette semaine",
+      "Quizz « que contient vraiment mon assiette ? » (sources alimentaires vs promesses)",
+      "Fiche d'hypothèse : « je soupçonne X » → comment vérifier proprement (question, mesure, professionnel)"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Phytonutriments : les petites clés discrètes",
+     "objectif": "Présenter polyphénols, flavonoïdes et caroténoïdes avec leurs mécanismes plausibles, leurs doses réelles et les écueils des extraits isolés. Cible : 3 500 mots.",
+     "sections": [
+      "Petites clés végétales : polyphénols, flavonoïdes, caroténoïdes",
+      "Xenohormèse : l'idée que le stress de la plante devient notre signal (controversée)",
+      "Trois cas : curcumine (biodisponibilité), sulforaphane (brocoli), café et thé",
+      "Couleur et matrice : la clé telle que la plante l'a construite",
+      "Dose et hormèse : la courbe en U, plus n'est pas mieux",
+      "Pourquoi l'extrait isolé déçoit souvent",
+      "Proxy pratique : varier les couleurs plutôt que de compter les molécules"
+     ],
+     "exercices": [
+      "Arc-en-ciel de la semaine : compter les familles de couleurs ingérées",
+      "Bibliothèque personnelle de dix clés végétales avec preuve et source",
+      "Auto-expérimentation prudente sur 14 jours d'une infusion précise, notes sans promesse d'effet"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Acides gras et membranes : changer la serrure elle-même",
+     "objectif": "Montrer que les lipides ne sont pas seulement des clés : ils construisent les portes (membranes), régulent l'inflammation et conditionnent l'absorption des vitamines liposolubles. Cible : 3 500 mots.",
+     "sections": [
+      "Membranes : la serrure est aussi faite de matière",
+      "Oméga-3 : EPA/DHA, résolvines, GPR120 — et les essais cliniques décevants",
+      "Oméga-6 : nécessaires et souvent surreprésentés — éviter les caricatures",
+      "Graisses de transformation : les clés qui coincent (consensus relatif)",
+      "Cholestérol : matière, signal, débat — juger les contre-arguments",
+      "Graisses et vitamines liposolubles : le catalyseur caché des repas maigres",
+      "Une politique personnelle des lipides : diversité, stabilité, plaisir"
+     ],
+     "exercices": [
+      "Inventaire sur sept jours des sources de graisses et de leur usage culinaire",
+      "Comparatif de satiété : salade sans matière grasse vs avec huile (mesures à 2 h et 4 h)",
+      "Grille des huiles : usage, température de cuisson, conservation"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Les catalyseurs : associations, contexte, transformation",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Associations : quand deux clés s'aident ou se gênent",
+     "objectif": "Introduire le catalyseur alimentaire : synergies documentées, antagonismes réels, héritage culturel des associations et méthode pour ne tester qu'une variable à la fois. Cible : 3 500 mots.",
+     "sections": [
+      "Le catalyseur qui n'apparaît pas sur l'étiquette",
+      "Synergies : vitamine C + fer, D + K2 + calcium, pipérine + curcumine (doses réelles ?)",
+      "Antagonismes : phytates, oxalates, tanins, calcium au même repas que le fer",
+      "La cuisine comme laboratoire : trempage, germination, fermentation",
+      "Associations culturelles : lentilles et riz, pain et huile — la clé complète",
+      "Food combining : ce qui tient, ce qui relève de la croyance",
+      "Une seule variable à la fois : construire sa grille d'associations"
+     ],
+     "exercices": [
+      "Grille de dix associations à classer : utile / neutre / gênante / incertain",
+      "Test croisé sur dix jours : agrume ou citron avec les légumineuses, notes digestives",
+      "Carnet de recettes-catalyseurs : cinq plats qui combinent clés et cofacteurs"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Préparation : usiner, cuire, faire fermenter la clé",
+     "objectif": "Montrer que le mode de préparation transforme la clé elle-même : destruction, création, pré-découpage par fermentation, contrôle des anti-nutriments. Cible : 3 500 mots.",
+     "sections": [
+      "Trois formes de clé : cru, cuit, fermenté",
+      "Ce que la chaleur détruit et ce qu'elle libère (vitamine C, lycopène, réaction de Maillard)",
+      "Anti-nutriments et lectines : le vrai, le faux, le contexte",
+      "Fermentation : le pré-découpage des clés (levain, yaourt, choucroute, kéfir)",
+      "Cuissons à surveiller : fritures, rôtissage excessif, sucres de cuisson",
+      "Conservation : frais, surgelé, industriel — matrice préservée ou détruite ?",
+      "Méthode d'évaluation : changer la préparation, une seule chose à la fois"
+     ],
+     "exercices": [
+      "Même légumineuse, deux préparations (trempée et longuement cuite vs rapide) : notes digestives sur trois jours",
+      "Lecture d'étiquette : « la clé est-elle préservée ? » (additifs, fibres, matrice)",
+      "Projet fermentation sur 14 jours : carnet de suivi"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Microbiote : l'atelier qui fabrique vos clés",
+     "objectif": "Expliquer comment les bactéries transforment les fibres et la bile en molécules-signaux actives sur nos récepteurs, et ce que les essais permettent réellement d'attendre. Cible : 3 500 mots.",
+     "sections": [
+      "L'atelier : ce que les bactéries transforment (fibres → SCFA, bile → acides secondaires)",
+      "Les portes hôte : GPR41/43, FXR, récepteurs immunitaires intestinaux",
+      "Qui s'installe : diversité végétale, prébiotiques, probiotiques (d'où vient le chiffre des 30 espèces ?)",
+      "Ce que les essais montrent vraiment sur l'humeur, l'appétit et l'immunité",
+      "Dysbiose : un mot devenu commercial — comment s'en méfier",
+      "Antibiotiques, stress, sommeil : ce qui coupe ou restaure la clé microbienne",
+      "Ce que l'on peut essayer prudemment par soi-même"
+     ],
+     "exercices": [
+      "Carnet 14 jours : fibres fermentescibles, transit, satiété, humeur",
+      "Expérimentation progressive : ajouter une portion de légumineuses ou de légumes par jour (tolérance)",
+      "Grille « effet plausible / preuve / risque / coût » pour un probiotique proposé autour de vous"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Catalyseurs non alimentaires : sommeil, stress, mouvement, contexte",
+     "objectif": "Établir que le meilleur nutriment ne sert à rien si le contexte ferme la porte : privation de sommeil, cortisol chronique, sédentarité, attention fragmentée. Cible : 3 500 mots.",
+     "sections": [
+      "Sommeil court et insulinorésistance : la serrure qui se ferme toute seule",
+      "Cortisol : le frein, l'appétit du soir, la boucle stress-grignotage",
+      "Mouvement : ouvrir GLUT4 sans insuline, booster AMPK, effet « après le repas »",
+      "Attention et contexte : manger lentement, en présence, sans écran (données limitées)",
+      "Lumière, température, rythme de travail : catalyseurs environnementaux",
+      "Compléments « catalyseurs » : marketing vs mécanisme (prudence et avis médical)",
+      "Prioriser : les trois catalyseurs les plus plausibles d'abord"
+     ],
+     "exercices": [
+      "Expérimentation sommeil : 45 minutes de coucher en plus pendant sept nuits, échelles du lendemain",
+      "Protocole marche de 10 à 15 minutes après le repas du soir pendant cinq jours",
+      "Respiration ou cohérence cardiaque cinq minutes avant le repas : notes digestives et faim sur dix jours"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Le bon moment : la serrure a des heures",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "L'horloge interne : des portes qui n'ouvrent qu'à heure fixe",
+     "objectif": "Décrire l'horloge centrale et les horloges périphériques, leurs gènes et leurs conséquences concrètes sur la digestion et la sensibilité à l'insuline. Cible : 3 500 mots.",
+     "sections": [
+      "Horloge maîtresse et horloges locales : SCN, foie, muscle, intestin",
+      "Gènes-clocks : BMAL1/CLOCK et récepteurs activés par la nourriture",
+      "Sensibilité variable : le matin n'est pas le soir (phases d'insulinorésistance nocturne)",
+      "Les hormones du jour et de la nuit : cortisol, mélatonine, greline, GLP-1",
+      "Décalage moderne : écrans, lumière bleue, repas tardifs — état des preuves",
+      "Travail posté et décalages : précautions particulières",
+      "Commencer simple : régularité avant sophistication"
+     ],
+     "exercices": [
+      "Carnet sept jours : heure du dernier repas, heure de coucher, qualité perçue",
+      "Test en deux semaines alternées : dernier repas à 20 h vs 23 h (même contenu), notes comparées",
+      "Relevé de la lumière du soir (écran, ampoules) et plan de réduction"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Chrononutrition : quand manger vaut autant que quoi manger",
+     "objectif": "Passer en revue les grandes stratégies horaires (petit-déjeuner, copieux du soir, fenêtre de repas, jeûne) avec leurs preuves réelles et leurs contre-indications. Cible : 3 500 mots.",
+     "sections": [
+      "Petit-déjeuner : bénéfices annoncés, données contradictoires",
+      "Repas le plus copieux : midi ou soir ? état des lieux (travail posté compris)",
+      "Fenêtre de repas : ce que les essais de TRE montrent réellement (souvent égalité calorique)",
+      "Jeûne : continuum 12-16 h, 24 h, 5:2 — bénéfices plausibles, risques réels",
+      "Ne pas jeûner sans avis : grossesse, allaitement, diabète sous traitement, antécédents de troubles alimentaires, mineurs, cas cliniques",
+      "Grignotage nocturne : la serrure qui n'aime pas les petites frappes",
+      "Le « meilleur moment » n'existe pas : métier, horloge, objectifs"
+     ],
+     "exercices": [
+      "Plan d'ancrage : trois repas à heures fixes pendant 14 jours, notes de satiété",
+      "Carnet des grignotages : heure, lieu, émotion, faim réelle",
+      "Fiche de décision « tester la fenêtre de repas oui/non » avec contre-indications cochées"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Le rythme des besoins : jour, saison, âge, effort",
+     "objectif": "Montrer que la même clé n'ouvre pas de la même façon selon l'activité, la saison, le cycle, l'âge ou la convalescence, sans jamais essentialiser ni généraliser. Cible : 3 500 mots.",
+     "sections": [
+      "Jour d'effort vs jour de repos : besoins, timing, récupération",
+      "Faim réelle et faim apprise : les horaires conditionnés",
+      "Saisons : appétit, lumière, vitamine D — robuste ou fragile ?",
+      "Cycle féminin : variations d'appétit et d'humeur, données fragmentaires, refus de l'essentialisation",
+      "Âges de la vie : enfance, adulte, personne âgée (sarcopénie, appétit)",
+      "Maladie, convalescence, opération : besoins accrus et règles de prudence",
+      "Adapter la clé au moment de la vie, pas l'inverse"
+     ],
+     "exercices": [
+      "Calendrier de trois semaines croisant activité, appétit, humeur et sommeil",
+      "Comparaison jour actif vs jour calme : repas et énergie perçue",
+      "Entretien d'observation avec un proche plus âgé (questions d'écoute, pas de conseil)"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Jeûne et repas : le cycle nourrir puis réparer",
+     "objectif": "Synthétiser le rythme alterné nourrir/croître et jeûner/réparer, examiner l'autophagie et la fenêtre anabolique, et prévenir les dérives obsessionnelles. Cible : 3 500 mots.",
+     "sections": [
+      "Autophagie : le nettoyage cellulaire — que sait-on vraiment ?",
+      "Cycle nourrir/croître puis jeûner/réparer : le schéma des deux phases",
+      "La fenêtre après le repas : mythe des trente minutes et repères réalistes",
+      "Répartir les protéines : questions ouvertes (quantité par repas, âge, activité)",
+      "Récupération : sommeil, hydratation, sels — le contexte de l'effort",
+      "Quand « optimiser » devient trouble : signes d'orthorexie et de contrôle excessif",
+      "Sagesse du cycle : nourrir pleinement, alléger raisonnablement"
+     ],
+     "exercices": [
+      "Quatorze jours de fenêtre de douze heures : sommeil, faim, énergie, humeur (échelles 0-3)",
+      "Carnet de la dernière heure avant le coucher (aliments, écrans, qualité d'endormissement)",
+      "Auto-questionnaire des signes de contrôle excessif et repérage de quand en parler à un professionnel"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Observer, tester, décider",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Le journal d'observation : devenir témoin de soi",
+     "objectif": "Donner un outil d'observation simple, honnête et tenable : format minimal, échelles, biais connus et art de la relecture. Cible : 3 500 mots.",
+     "sections": [
+      "Pourquoi noter : la mémoire ment oublie et embellit",
+      "Le minimum tenable : cinq lignes par jour qui tiennent six mois",
+      "Échelles simples et carnet rapide (0-3, pictogrammes)",
+      "Les biais : effet d'attente, désirabilité, réactivité, régression à la moyenne",
+      "Mesure-témoin : observer sans rien changer (la ligne de base)",
+      "Relire : chercher des motifs de semaine, pas des miracles d'un jour",
+      "Une vie, pas un laboratoire : quand arrêter de noter"
+     ],
+     "exercices": [
+      "Modèle de carnet de quatorze jours à créer ou imprimer",
+      "Sept jours de mesure témoin sans aucun changement d'habitude",
+      "Première relecture : trois observations qui tiennent et une fausse conclusion évitée"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Protocoles d'essai prudent : expérimenter sans se nuire",
+     "objectif": "Apprendre à concevoir des micro-expérimentations personnelles (N-of-1) : une variable, des critères d'effet, une durée, des critères d'arrêt et des territoires interdits. Cible : 3 500 mots.",
+     "sections": [
+      "Règle d'or : une seule variable, un objectif, une durée, un arrêt",
+      "Anatomie d'un protocole : hypothèse, critères, contre-indications, critère d'arrêt",
+      "Ligne de base, essai, retest, décision",
+      "Le territoire interdit à l'autotest : régimes restrictifs, jeûnes longs, compléments à forte dose, populations fragiles (et orientation)",
+      "Cinq protocoles sûrs et prudents prêts à l'emploi",
+      "Interpréter : bruit, hasard, saison, maladie, effet placebo",
+      "Quand conclure, quand arrêter, quand consulter (liste de signaux d'alerte)"
+     ],
+     "exercices": [
+      "Fiche de protocole vierge : hypothèse, variable, durée, mesures, arrêt",
+      "Exercice des prédictions : écrire ce que l'on attend avant de tester",
+      "Analyse d'un faux positif : un journal inventé où la fatigue venait d'un rhume"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Grilles d'association : relier cause et effet avec méthode",
+     "objectif": "Fournir une grille structurée pour relier signaux et comportements, avec quatre critères de lecture et des cas commentés, pour transformer des intuitions en règles personnelles pondérées. Cible : 3 500 mots.",
+     "sections": [
+      "La grille : colonnes signal, aliment, contexte, délai, intensité, hypothèse",
+      "Corrélation n'est pas causalité : pièges classiques (saison, caféine, stress, sommeil)",
+      "Quatre critères de lecture : répétabilité, latence, dose-réponse, cohérence mécanistique",
+      "Cas commentés : maux de tête et fromage, ballonnement et légumineuses, coup de barre et repas",
+      "Erreurs fréquentes : généraliser, chercher à confirmer, changer trois choses à la fois",
+      "Parler de ses observations au médecin ou au diététicien : les dire utilement",
+      "De la grille au carnet de règles personnelles (avec niveau de confiance)"
+     ],
+     "exercices": [
+      "Grille vierge de vingt lignes pour quatre semaines",
+      "Analyse de cas fournis (données simulées) selon les quatre critères",
+      "Rédiger trois règles personnelles avec mention « confiance : faible / moyenne / haute »"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Vivre avec la serrure : synthèse, limites et clé finale",
+     "objectif": "Rassembler les cinq axes en une méthode de vie, produire une fiche de serrure personnelle, assumer les limites du modèle et finir par la clause de prudence d'usage. Cible : 3 500 mots.",
+     "sections": [
+      "Synthèse des cinq axes : serrures, clés, catalyseurs, moment, observation",
+      "La fiche de serrure personnelle : dix pages sur vous (portes, clés, catalyseurs, moments, signaux)",
+      "Les priorités qui reviennent partout : variété, fibres, protéines réparties, limites du sucre rapide, mouvement, sommeil, horaires réguliers, plaisir, accompagnement",
+      "Limites du modèle : analogie datée, réductionnisme possible, marchands de clés, preuves inégales",
+      "Apprendre à abandonner une clé : quand l'essai échoue et quand la preuve change",
+      "Tenir un discours sans dogme : répondre aux objections et à ses propres doutes",
+      "Clause finale de prudence : pas de conseil médical personnalisé, questions à poser, ressources pour approfondir"
+     ],
+     "exercices": [
+      "Rédiger sa fiche de serrure (template en dix pages)",
+      "Plan de trente jours : trois changements maximum et une revue à J+30",
+      "Contrat personnel : engagement, révision, signaux d'alerte et professionnels à consulter"
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,624 @@
+{
+ "titre": "Se souvenir, c'est réécrire",
+ "sous_titre": "La mémoire réversible : cinq leviers (espacer, tester, corriger, ancrer, planifier) pour renforcer ce que vous apprenez à chaque rappel, sans tenter de le graver à jamais",
+ "bibliographie": [
+  {
+   "auteur": "Frederick C. Bartlett",
+   "titre": "Remembering: A Study in Experimental and Social Psychology",
+   "annee": "1932",
+   "idee": "Se souvenir n'est pas reproduire : le rappel reconstruit un schème sous influence culturelle et d'attentes. Chaque évocation déforme autant qu'elle restitue.",
+   "apport": "Fondement de la thèse « rappel = réécriture » ; ouvre les chapitres 1 et 4 (exercices de reconstruction consciente)."
+  },
+  {
+   "auteur": "Hermann Ebbinghaus",
+   "titre": "Über das Gedächtnis: Untersuchungen zur experimentellen Psychologie",
+   "annee": "1885",
+   "idee": "Première quantification de l'oubli : la rétention chute vite puis se stabilise ; l'espacement des apprentissages améliore la tenue.",
+   "apport": "Courbe d'oubli et aversion à la révision de dernière minute (chap. 3, 5). Incertitude signalée : travaux sur syllabes sans sens et un seul sujet, à ne pas surinterpréter."
+  },
+  {
+   "auteur": "Frances A. Yates",
+   "titre": "The Art of Memory",
+   "annee": "1966",
+   "idee": "La mémoire oratoire antique se construit comme un édifice (lieux, images) : mémoriser, c'est architecturer l'accès.",
+   "apport": "Exercices de la méthode des lieux pour les séquences ordonnées (chap. 12, 19)."
+  },
+  {
+   "auteur": "Elizabeth F. Loftus",
+   "titre": "Eyewitness Testimony",
+   "annee": "1979",
+   "idee": "Les témoignages se réécrivent sous l'effet de suggestions postérieures : la trace est malléable y compris involontairement.",
+   "apport": "Prudence éthique : exploiter la malléabilité pour apprendre, jamais pour altérer les souvenirs d'autrui (chap. 4, 24)."
+  },
+  {
+   "auteur": "Endel Tulving",
+   "titre": "Elements of Episodic Memory",
+   "annee": "1983",
+   "idee": "Mémoire épisodique indexée par le contexte et encodage spécifique : on récupère mieux avec les indices présents à l'encodage.",
+   "apport": "Base des chapitres contexte (18) et des exercices en deux lieux."
+  },
+  {
+   "auteur": "Alan Baddeley",
+   "titre": "Human Memory: Theory and Practice (cf. aussi Essentials of Human Memory, 1984)",
+   "annee": "1990",
+   "idee": "Mémoire de travail et distinction entre répétition d'étayage (passive) et traitement profond : seule la seconde construit durablement.",
+   "apport": "Cadre descriptif des systèmes (chap. 2) et justification des fiches actives contre la relecture (chap. 7)."
+  },
+  {
+   "auteur": "Joseph E. LeDoux",
+   "titre": "The Emotional Brain",
+   "annee": "1996",
+   "idee": "Les circuits émotionnels (amygdale, voies rapides) modulent l'encodage : ce qui est affectif capte l'attention et marque l'expérience.",
+   "apport": "Partie émotion (chap. 17) : doser l'intensité sans dramatisation artificielle."
+  },
+  {
+   "auteur": "Stephen J. Sara (dir.)",
+   "titre": "Memory Reconsolidation: Behavioral and Molecular Mechanisms",
+   "annee": "2000",
+   "idee": "Le rappel d'une trace la rend temporairement labile avant sa re-stabilisation : preuve mécaniste que le souvenir se réécrit.",
+   "apport": "Appui central de la thèse (chap. 1, 2). Incertitude : une large part des données vient de modèles animaux, transfert humain à nuancer."
+  },
+  {
+   "auteur": "Daniel L. Schacter",
+   "titre": "The Seven Sins of Memory: How the Mind Forgets and Remembers",
+   "annee": "2001",
+   "idee": "Cartographie des défaillances : transience, blocage, attribut, suggestibilité, biais, persistance, intrusion.",
+   "apport": "Carte des écueils du rappel et exercices de détection de faux souvenirs (chap. 4, 24)."
+  },
+  {
+   "auteur": "Yadin Dudai",
+   "titre": "Memory from A to Z: Keywords, Concepts, and More",
+   "annee": "2004",
+   "idee": "Encyclopédie des concepts de la mémoire : encodage, consolidation, réconsolidation, rétention, récupération.",
+   "apport": "Rigueur terminologique du chapitre 2 et vérification des termes techniques employés."
+  },
+  {
+   "auteur": "James L. McGaugh",
+   "titre": "Memory and Emotion: The Making of Lasting Memories",
+   "annee": "2004",
+   "idee": "L'émotionnalité module la rétention par des mécanismes de rétro-modulation cérébrale : ce qui importe est mieux conservé, mais l'effet varie.",
+   "apport": "Chapitre 17 : faire porter l'émotion sur le sens, pas sur l'intensité brute."
+  },
+  {
+   "auteur": "Larry R. Squire & Eric R. Kandel",
+   "titre": "Memory from Mind to Molecules",
+   "annee": "2009",
+   "idee": "Du mécanisme moléculaire aux systèmes cérébraux : trois grandes formes de mémoire à long terme expliquées sans jargon.",
+   "apport": "Colonne vertébrale scientifique du chapitre 2."
+  },
+  {
+   "auteur": "Howard Eichenbaum",
+   "titre": "The Cognitive Neuroscience of Memory: An Introduction (2e éd.)",
+   "annee": "2012 (1re éd. 2002)",
+   "idee": "Hippocampe et indexation contextuelle : la mémoire relie événements et lieux plutôt que d'enregistrer un film.",
+   "apport": "Appui des chapitres contexte (18) et transfert (12). Incertitude : année selon l'édition citée."
+  },
+  {
+   "auteur": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
+   "titre": "Make It Stick: The Science of Successful Learning",
+   "annee": "2014",
+   "idee": "Pratique d'interrogation et espacement surpassent relecture et surlignage ; l'effort de récupération est productif.",
+   "apport": "Fil conducteur pédagogique de tout l'ouvrage ; s'appuie en particulier sur les travaux de Roediger & Karpicke (2006), articles signalés comme tels."
+  },
+  {
+   "auteur": "Benedict Carey",
+   "titre": "How We Learn: The Surprising Truth About When, Where, and Why It Happens",
+   "annee": "2014",
+   "idee": "Panorama grand public des mécanismes : espacement, interlacement, sommeil, détachement, hybride de pratique.",
+   "apport": "Exemples variés et ton pour les parties 2 et 6."
+  },
+  {
+   "auteur": "Barbara Oakley",
+   "titre": "A Mind for Numbers: How to Excel at Math and Science (Even If You Flunked Algebra)",
+   "annee": "2014",
+   "idee": "Apprentissage différé, encodage profond et lutte contre la procrastination : des routines modestes et régulières.",
+   "apport": "Chapitres charge et régularité (20, 23)."
+  },
+  {
+   "auteur": "Gabriel Wyner",
+   "titre": "Fluent Forever: How to Learn Any Language Fast and Never Forget It",
+   "annee": "2014",
+   "idee": "Mémorisation à répétition espacée ancrée sur son, image et orthographe : la fiche doit être multimodale.",
+   "apport": "Conception des fiches à image/son (chap. 7, 22) ; sans promesse de résultat garanti."
+  },
+  {
+   "auteur": "Harry Lorayne & Jerry Lucas",
+   "titre": "The Memory Book",
+   "annee": "1974",
+   "idee": "Systèmes mnémotechniques pratiques : lieux, chiffres, associations exagérées pour retenir listes et discours.",
+   "apport": "Exercices d'imagerie du levier (chap. 12, 19) ; technique utile mais coûteuse en temps de création."
+  },
+  {
+   "auteur": "Joshua Foer",
+   "titre": "Moonwalking with Einstein: The Art and Science of Remembering Everything",
+   "annee": "2011",
+   "idee": "Récit d'un entraînement intense aux lieux mentaux : la mémoire performante s'entraîne, mais ne se confond pas avec la mémoire du quotidien.",
+   "apport": "Exemple de progression par sessions courtes ; mise en garde contre l'oubli des usages ordinaires (chap. 11, 24)."
+  },
+  {
+   "auteur": "Anders Ericsson & Robert Pool",
+   "titre": "Peak: Secrets from the New Science of Expertise",
+   "annee": "2016",
+   "idee": "Pratique délibérée, représentations mentales internes et feedback précis : progresser suppose des séances ciblées.",
+   "apport": "Routine de rappel ciblé et correction (chap. 9, 14)."
+  },
+  {
+   "auteur": "Pooja Agarwal & Patrice M. Bain",
+   "titre": "Powerful Teaching: Unleash the Science of Learning",
+   "annee": "2019",
+   "idee": "Petits tests de rappel en contexte réel d'apprentissage, amorçage et gestion de la charge : la pratique d'interrogation s'industrialise.",
+   "apport": "Mini-rappels et grilles de séance (chap. 10, 21, 22)."
+  },
+  {
+   "auteur": "Scott H. Young",
+   "titre": "Ultralearning",
+   "annee": "2019",
+   "idee": "Apprentissage autodirigé intense et systématique : principes de projet, métaléarning, focus délibéré.",
+   "apport": "Cadre de projets à 30 jours (chap. 21, 23) ; prudence : intensité ≠ garantie."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Se souvenir, c'est réécrire : anatomie d'une trace réversible",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le mythe du souvenir-gravure",
+     "objectif": "Poser la thèse contre-intuitive du livre : rien n'est gravé définitivement en une séance ; chaque rappel rouvre la trace et la réécrit, ce qui est une nouvelle plutôt qu'un problème. Cadrer honnêtement ce que le livre ne promet pas. Visé : ~3 500 mots.",
+     "sections": [
+      "Ce que « graver » veut dire et pourquoi cela rassure",
+      "La thèse du livre : une trace réversible est une trace perfectible",
+      "Réécriture à chaque rappel : la fenêtre de labilité",
+      "Ce que ce livre ne promet pas (limites, cadre général)",
+      "Les cinq axes en un coup d'œil",
+      "Prendre la mesure de votre mémorisation actuelle"
+     ],
+     "exercices": [
+      "Auto-test de 10 mots inconnus, sans aucune préparation, avec relevé de confiance item par item",
+      "Journal des « je me souviens malgré moi » : 3 souvenirs réévisés cette semaine",
+      "Carte des cinq axes du livre annotée : quel axe est mon point faible ?"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "De la synapse au récit : l'anatomie d'une trace malléable",
+     "objectif": "Vulgariser encodage, consolidation, réconsolidation, interférences et grandes familles de mémoire, en tirant une conséquence pratique de chaque mécanisme. Visé : ~3 500 mots.",
+     "sections": [
+      "Encodage : l'attention filtre avant d'écrire",
+      "Consolidation : stabiliser d'abord",
+      "Réconsolidation : le rappel rouvre la porte",
+      "Oubli actif, interférence et effacement : trois choses différentes",
+      "Quatre systèmes : travail, épisodique, sémantique, procédural",
+      "Ce que vous pouvez en faire dès aujourd'hui sur le terrain"
+     ],
+     "exercices": [
+      "Dessiner le cycle encodage → rappel → réécriture d'une phrase que vous venez de lire",
+      "Vocabulaire minimal : 6 termes expliqués sans support, puis vérifiés",
+      "Grille « quel système de mémoire pour quelle tâche ? » appliquée à 5 situations de travail ou d'étude"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "La courbe d'oubli et l'illusion de la nuit avant",
+     "objectif": "Expliquer la courbe d'Ebbinghaus, ses forces et ses limites méthodologiques, et montrer pourquoi accumuler la veille se paie cher. Visé : ~3 500 mots.",
+     "sections": [
+      "1885 : l'expérience fondatrice sur la chute de la rétention",
+      "Ce que la courbe dit vraiment (et ce qu'elle ne dit pas)",
+      "Réplications modernes et incertitudes de méthode",
+      "Pourquoi la session massive la veille s'effondre",
+      "Illusion de fluidité : relire ne veut pas dire savoir",
+      "Premier levier : répartir plutôt qu'accumuler"
+     ],
+     "exercices": [
+      "Mini-expérience personnelle : 20 mots, tests à J+10 min, J+1, J+3, J+7 sur une grille",
+      "Tracer votre courbe personnelle de rétention à partir des résultats",
+      "Refondre un plan d'étude « la veille » en plan réparti sur 7 jours"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Les péchés de la mémoire et les fausses certitudes",
+     "objectif": "À partir de Bartlett, Schacter et Loftus, montrer que le souvenir reconstruit et se déforme, puis apprendre à calibrer sa confiance. Visé : ~3 500 mots.",
+     "sections": [
+      "Remembering : la reconstruction d'un schème plutôt que le playback",
+      "Les sept défaillances du souvenir, en langage courant",
+      "Fausses mémoires et suggestions : la malléabilité involontaire",
+      "Témoignage et mémoire des autres : une borne éthique",
+      "Calibration : être fiable quand on dit « je sais »",
+      "Distinguer réécriture volontaire d'apprentissage et altération subie"
+     ],
+     "exercices": [
+      "Paradigme de fausses mémoires maison : liste, rappel, relevé des intrusions",
+      "Calibration sur 20 affirmations : viser 80 % de confiance pour 80 % de bonnes réponses",
+      "Errata de vie : 3 souvenirs révisés après vérification d'une source externe, avec date"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Planifier : le calendrier de la réécriture",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Le pouvoir de l'espacement : rythmer plutôt que surcharger",
+     "objectif": "Démontrer, avec les résultats robustes sur l'espacement et l'interlacement, qu'un rappel bien placé vaut mieux que dix heures d'affilée, et fixer son horizon de révision. Visé : ~3 500 mots.",
+     "sections": [
+      "Espacement contre travail massé : ce que montrent les études",
+      "Quand le premier rappel rapporte le plus",
+      "Le rapport intervalle/délai : une règle à utiliser avec prudence",
+      "Interlacement : mélanger les sujets pour mieux les distinguer",
+      "Ce que l'espacement ne répare pas",
+      "Choisir son horizon : 7 jours, 30 jours, 365 jours"
+     ],
+     "exercices": [
+      "Grille d'espacement type J0-J1-J3-J7-J21 adaptée à un contenu réel",
+      "Plan d'interlacement pour 3 thèmes entremêlés sur une semaine",
+      "Calcul de charge : minutes par semaine réellement disponibles, arbitrage"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Construire sa grille : des intervalles qui écrivent la trace",
+     "objectif": "Passer du principe à l'outil : découper le contenu en unités réécritables, attribuer difficultés et intervalles, remplir une grille de planification complète. Visé : ~3 500 mots.",
+     "sections": [
+      "Découper le savoir en unités réécritables (la « tesselle »)",
+      "Intervalle de départ selon la difficulté perçue",
+      "La grille à six colonnes : contenu, difficulté, dernier rappel, prochain, résultat, note de réécriture",
+      "Échelles d'intervalles : simple ou multiplicatif",
+      "Calibrer et re-calibrer la grille au fil des résultats",
+      "Mode dégradé : version dix minutes par jour"
+     ],
+     "exercices": [
+      "Remplir la grille type sur 50 unités de votre contenu",
+      "Attribuer une difficulté 1-3 et un intervalle initial à 15 unités",
+      "Écrire le protocole dégradé 10 min/jour pour la semaine à venir"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Fiches qui réécrivent : éviter la reconnaissance passive",
+     "objectif": "Concevoir des supports (fiches papier ou logiciel) qui obligent à produire une réponse plutôt qu'à reconnaître une forme. Visé : ~3 500 mots.",
+     "sections": [
+      "Ce qui sépare « je reconnais » de « je produis »",
+      "Règle d'or : un fait, une question, une réponse",
+      "Cartes de production, cartes de contexte, cartes d'exemple",
+      "Multimodalité : image, son, orthographe (apport de Wyner)",
+      "Enterrer les cartes mortes, parasites ou trop larges",
+      "Papier ou numérique : forces, écueils, sans dogmatisme"
+     ],
+     "exercices": [
+      "Transformer 5 notes passives en 5 cartes réellement actives",
+      "Créer une carte multimodale : image + rappel oral en 10 secondes",
+      "Audit de 10 cartes existantes : lesquelles supprimer ou réécrire ?"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Calibrer et tenir : échecs, régularité, mode examen",
+     "objectif": "Établir des règles de jugement (réussite/échec), une revue hebdomadaire et un mode compression avant échéance, pour que la grille tienne dans la durée. Visé : ~3 500 mots.",
+     "sections": [
+      "Ce que « acquis » veut dire ici : l'effort perçu comme juge",
+      "Notation simple : 0/1/2 ou « à revoir / stable / solide »",
+      "Quand tout s'effondre : recharge honnête des intervalles",
+      "Le rituel hebdomadaire de 20 minutes",
+      "Mode échéance : deux semaines avant, compression et simulations",
+      "Indicateurs de suivi : trois chiffres suffisent"
+     ],
+     "exercices": [
+      "Tableau de suivi sur 4 semaines (rappels prévus, réalisés, notes)",
+      "Simulation de « reset » sur un paquet de 30 cartes en retard",
+      "Verrouiller le créneau hebdomadaire fixe et l'écriture dans l'agenda"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — L'effet de levier des rappels courts",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "L'effet de pratique d'interrogation : le rappel est l'apprentissage",
+     "objectif": "Montrer que se tester n'est pas mesurer ce qu'on sait mais produire l'apprentissage, en l'étayant sur les résultats d'expériences classiques. Visé : ~3 500 mots.",
+     "sections": [
+      "Lire encore ou répondre : l'expérience du texte lu puis rappelé",
+      "Pourquoi l'effort de récupération réécrit la trace",
+      "Tests sans notation punitive : apprendre avec l'épreuve",
+      "Rappel libre contre questions à choix",
+      "Trois minutes de rappel valent mieux que trois relectures",
+      "Limites et nuances : âges, types de contenus, indications à nuancer"
+     ],
+     "exercices": [
+      "Fiche de lecture à blanc : répondre avant toute relecture",
+      "Rappel libre de 60 secondes sur le chapitre précédent",
+      "Mini-expérience comparative : relecture J+1 contre rappel J+1, relevé à J+3"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Micro-rappels : la minute qui fait travailler la trace",
+     "objectif": "Instrumenter des rappels très courts mais judicieusement placés, pour obtenir un effet de levier sans charge horaire supplémentaire. Visé : ~3 500 mots.",
+     "sections": [
+      "Économie d'une minute : pourquoi le court fonctionne",
+      "Les quatre moments d'or : fin de séance, +10 minutes, lendemain matin, veille",
+      "Le rappel à l'aller : questionner avant de rouvrir le support",
+      "Micro-rappels intégrés à la journée : files d'attente, trajets",
+      "Rituels sans support : l'auto-questionnement",
+      "Dix minutes structurées : ne pas se disperser"
+     ],
+     "exercices": [
+      "Boîte à 3 questions écrites à chaud après chaque séance d'apprentissage",
+      "Plan horaire de six micro-rappels sur une journée type",
+      "Rappel du soir sans aucun support, puis comparaison avec les notes au réveil"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Désirs de difficulté : rendre le rappel plus dur, donc plus rentable",
+     "objectif": "Introduire les difficultés désirables (espacement, interdiction, génération, variation) et apprendre à les doser sans décourager l'apprenant. Visé : ~3 500 mots.",
+     "sections": [
+      "Ce que « difficulté désirable » veut dire exactement",
+      "Générer avant de lire : la prédiction comme échauffement",
+      "Interdiction des notes pendant le rappel",
+      "Variation : mêmes règles, contextes changeants",
+      "Dosage : quand le rappel devient trop difficile pour être utile",
+      "Vérifier l'effet différé : tester sept jours plus tard"
+     ],
+     "exercices": [
+      "Échauffement à blanc de 5 minutes avant d'ouvrir le chapitre",
+      "Produire 3 variantes d'un même exemple ou d'une même règle",
+      "Programmer un test différé J+7 et noter la date dans la grille"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Générer, transférer : du fait isolé au pouvoir d'agir",
+     "objectif": "Faire passer du fait isolé à la mobilisation : questions génératives, contre-exemples, méthode des lieux pour les séquences, restitution orale. Visé : ~3 500 mots.",
+     "sections": [
+      "Questions à génération : « pourquoi », « et si », « quand »",
+      "Élèves types, contre-exemples et cas limites",
+      "La méthode des lieux : une architecture pour les listes ordonnées",
+      "Images mentales : interaction, mouvement, exagération",
+      "Changer le décor de la question pour tester le transfert",
+      "Produire : expliquer en 90 secondes"
+     ],
+     "exercices": [
+      "Élaborer 3 questions génératives par notion du chapitre",
+      "Promenade des lieux : 7 repères pour un processus en 7 étapes",
+      "Enregistrer une explication de 90 secondes, puis la réécrire après écoute critique"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Corriger : l'erreur comme pilier du rappel",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "L'erreur qui renforce : se tromper (un peu) avant de réussir",
+     "objectif": "Expliquer en quoi une erreur détectée pendant le rappel renforce la trace, distinguer les types d'erreur, et poser une éthique de la tolérance à l'erreur. Visé : ~3 500 mots.",
+     "sections": [
+      "La courbe de l'erreur utile : suffisamment pour apprendre, pas pour se décourager",
+      "Hypercorrection : heurter sa propre fausse croyance",
+      "Erreur d'attention, erreur de routine, erreur de modèle",
+      "Tolérance zéro pour le processus, pas pour l'apprenant",
+      "Ce que l'erreur ne justifie jamais",
+      "Deux temps : prédire puis vérifier"
+     ],
+     "exercices": [
+      "Prédire la réponse avant de vérifier sur 3 items, relever l'écart",
+      "Liste des 5 erreurs récurrentes avec cause probable associée",
+      "Réécrire une réponse fausse en 3 phrases correctives et planifier son re-test"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Feedback : quand, comment, à quel dosage",
+     "objectif": "Construire un feedback utile (information sur l'action, pas verdict), choisir immédiat ou différé selon l'objectif, éviter la dépendance à la correction. Visé : ~3 500 mots.",
+     "sections": [
+      "Ce qu'un bon feedback doit contenir : réponse correcte, raison, indice",
+      "Immédiat pour la procédure, différé pour le sens : nuances et réserves",
+      "Réponse-référence plutôt que récompense",
+      "Le test suivi de correction commentée",
+      "Auto-correction à partir d'une clé honnête",
+      "Le coût caché d'un feedback permanent"
+     ],
+     "exercices": [
+      "Réviser 3 cartes avec un feedback commenté de deux phrases",
+      "Grille d'auto-feedback : « qu'est-ce qui cloche ? » avant de lire la clé",
+      "Classer 6 situations d'apprentissage en immédiat ou différé, avec justification"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Le journal des erreurs : des errata vivants",
+     "objectif": "Mettre en place un système minimal de suivi des erreurs qui se transforme en cartes et en révisions, pour éviter la répétition de la faute. Visé : ~3 500 mots.",
+     "sections": [
+      "Format minimal : date, erreur, cause, correction, prochain test",
+      "Les erreurs classiques : mélanger, confondre, omettre",
+      "Fiche « mauvais réflexe → bon réflexe »",
+      "Revue hebdomadaire du journal : dix minutes suffisent",
+      "Réparer la fiche, pas juger l'apprenant",
+      "Quand l'écriture est inutile : situations de stress ou d'urgence"
+     ],
+     "exercices": [
+      "Renseigner 3 entrées du journal sur la semaine écoulée",
+      "Créer 3 cartes de type « erreur → correction » programmées à J+2",
+      "Revue hebdo : choisir les 3 entrées les plus utiles à retester"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Illusion de compétence et calibrage de la confiance",
+     "objectif": "Combattre le « je crois savoir » : fluence illusoire de la relecture, surlignage,auto-assurance, et installer des tests de calibration simples. Visé : ~3 500 mots.",
+     "sections": [
+      "L'effet « c'était évident » et la fluence trompeuse",
+      "Relecture contre production : l'écart invisible",
+      "Calibration : prédire sa performance avant de vérifier",
+      "L'interrogation croisée : faire relire par autrui",
+      "Quand la confiance est un allié (performance, sans promesse)",
+      "Rotation honnête : quand laisser un sujet de côté"
+     ],
+     "exercices": [
+      "Prévoir sa note sur 3 mini-tests, puis comparer à la note réelle",
+      "Marquer 10 items « sûr / hésitant » avant test et relever les écarts",
+      "Bilan trimestriel : quelle part du temps passe sur du déjà su ?"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Émotion et contexte : les poignées de la réécriture",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "L'émotion, ce modulateur (et ses excès)",
+     "objectif": "Montrer que l'émotion module l'encodage et la rétention, proposer un usage intentionnel du sens et de la curiosité, et refuser la dramatisation artificielle. Visé : ~3 500 mots.",
+     "sections": [
+      "Pourquoi ce qui nous touche retient mieux",
+      "Le sens avant le fait : donner une raison émotionnelle",
+      "Doser : intensité modérée, intention claire",
+      "Émotion négative et charge : la limite à ne pas franchir",
+      "Curiosité, énigme et humour comme moteurs",
+      "Concevoir une session : exemple dramatique personnel en 60 secondes"
+     ],
+     "exercices": [
+      "Raconter un concept en 60 secondes avec une histoire personnelle",
+      "Rédiger une entrée « ce qui me rend curieux » pour 5 notions",
+      "Noter l'intensité émotionnelle (0-10) de 3 séances et ajuster la suivante"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Contexte, lieu et outil : jouer sur l'encodage spécifique",
+     "objectif": "Exploiter l'encodage spécifique : apprendre et rappeler dans plusieurs environnements, simuler les conditions réelles, varier les indices. Visé : ~3 500 mots.",
+     "sections": [
+      "Encodage spécifique : récupérer avec les bonnes clés",
+      "De la plongée sous l'eau au bureau : études sur la dépendance au contexte",
+      "Double contexte : deux lieux, deux supports, mêmes contenus",
+      "État intérieur : humeur, fatigue, vigilance comme indices (sans prescription)",
+      "Simuler l'examen : conditions réelles en amont",
+      "Contexte social : expliquer à un pair"
+     ],
+     "exercices": [
+      "Double-rappel : travailler le même contenu en deux lieux différents",
+      "Carte des indices d'encodage : lieu, support, ambiance, heure",
+      "Répétition blanche : 30 minutes dans des conditions proches de l'échéance"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Ancrer par le récit, l'image, la sensation",
+     "objectif": "Donner des techniques d'ancrage (image, récit, carte mentale, écriture) avec une appréciation honnête de leur coût en temps et de leur efficacité. Visé : ~3 500 mots.",
+     "sections": [
+      "Une image vaut mieux qu'une phrase, mais coûte du temps",
+      "Association exagérée : interaction, mouvement, absurdité",
+      "Noms propres et chiffres : systèmes classiques et limites",
+      "Écrire pour ancrer : apports empiriques modestes, à signaler",
+      "Carte mentale contre liste : quand choisir quoi",
+      "Le carnet d'images : vingt entrées maximum"
+     ],
+     "exercices": [
+      "Transformer 5 concepts abstraits en images mémorables",
+      "Méthode des lieux sur une liste de 10 mots, puis bilan à 72 heures",
+      "Produire une synthèse visuelle unique pour un chapitre entier"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Sommeil, repos, récupération : la réécriture qui se fait sans vous",
+     "objectif": "Présenter ce que l'on sait du rôle du repos dans la consolidation, proposer des rituels de rappel du soir et du matin, sans aucune recommandation médicale personnalisée. Visé : ~3 500 mots.",
+     "sections": [
+      "Ce qui est plutôt établi sur la consolidation pendant le repos",
+      "Rappel du soir, test du matin : un couple à fort effet",
+      "Sieste et récupération d'attention : données disponibles, limites",
+      "Fatigue et attention : savoir s'arrêter",
+      "Rituels de session : lumière, régularité, cadre général non prescriptif",
+      "Ce que ce chapitre ne conseille pas"
+     ],
+     "exercices": [
+      "Rituel de 10 minutes du soir : cinq rappels sans support",
+      "Test de 3 minutes au réveil sur la veille d'apprentissage",
+      "Journal d'énergie sur 7 jours : à quels moments suis-je le plus lucide ?"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Protocoles, applications et limites",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Protocole 30 jours : la grille complète",
+     "objectif": "Livrer un protocole complet de 30 jours articulant les cinq axes, avec tableaux, checklists et versions de 10, 20 ou 30 minutes par jour. Visé : ~3 500 mots.",
+     "sections": [
+      "Récapitulatif des cinq axes en une page",
+      "Jours 1-7 : installation de la grille et première vague de rappels",
+      "Jours 8-14 : micro-rappels et journal des erreurs",
+      "Jours 15-21 : interlacement et transfert",
+      "Jours 22-30 : simulations, compression, bilan",
+      "Fiches prêtes à l'emploi : grille, journal, tableau de suivi"
+     ],
+     "exercices": [
+      "Remplir le calendrier de 30 jours pour votre contenu réel",
+      "Rédiger la checklist quotidienne de 10 minutes",
+      "Prévoir l'auto-bilan à J30 : critères de réussite définis à l'avance"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Appliquer sans promesse : études, langues, savoirs professionnels",
+     "objectif": "Montrer comment convertir un contenu réel en unités et en rappels (langues, examens, procédures, présentations, lecture) en rappelant qu'aucun résultat n'est garanti. Visé : ~3 500 mots.",
+     "sections": [
+      "Matrice de conversion : contenu → unités → intervalles",
+      "Langues : vocabulaire, son, dialogue (sans promesse de fluence)",
+      "Études et échéances : plans de révision réalistes",
+      "Savoirs au travail : procédures, réunions, présentations",
+      "Lecture active : retenir un livre sans le copier",
+      "Ce qui échoue souvent, et pourquoi"
+     ],
+     "exercices": [
+      "Convertir un chapitre de votre domaine en 20 unités réécritables",
+      "Plan de 14 jours pour une présentation orale",
+      "Créer 30 cartes de vocabulaire d'un domaine et programmer un test à J21"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Tenir dans la durée : charge, hybrides, relances",
+     "objectif": "Prévenir l'épuisement et le perfectionnisme : dimensionner la charge, hybrider papier et numérique, relancer après un arrêt, nettoyer le système. Visé : ~3 500 mots.",
+     "sections": [
+      "Le piège du système parfait",
+      "Calculer sa charge acceptable : minutes par semaine",
+      "Version papier, version numérique, version hybride",
+      "Relance après trois semaines d'arrêt",
+      "Nettoyage semestriel : supprimer, fusionner, archiver",
+      "Signaux d'alerte : le feu rouge à ne pas ignorer"
+     ],
+     "exercices": [
+      "Calcul de charge et arbitrage écrit : ce que je garde, ce que je coupe",
+      "Plan de relance de 15 minutes réparti en 3 séances",
+      "Audit semestriel : retirer 100 entrées devenues inutiles"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Limites, incertitudes, éthique : ce que ce livre ne garantit pas",
+     "objectif": "Conclure honnêtement : bilan de ce qui est robuste, de ce qui est fragile, des hétérogénéités individuelles, des bornes éthiques et juridiques ; aucune promesse de résultat, aucun conseil médical, juridique ou financier personnalisé. Visé : ~3 500 mots.",
+     "sections": [
+      "Ce qui est plutôt bien établi (espacement, rappel, correction)",
+      "Ce qui l'est moins (dosages, réconsolidation humaine, populations)",
+      "Hétérogénéité individuelle : pas de protocole universel",
+      "Borne éthique : ne jamais réécrire la mémoire d'autrui",
+      "Cadre : ouvrage d'information générale, pas de conseil personnalisé",
+      "Par où continuer : les ouvrages de référence et comment les lire"
+     ],
+     "exercices": [
+      "Tableau « établi / probable / inconnu » sur 10 propositions du livre",
+      "Engagement de pratique : 3 choix réalistes pour les 30 prochains jours",
+      "Glossaire personnel : 15 termes expliqués à voix haute sans support"
+     ]
+    }
+   ]
+  }
+ ]
+}
