@@ -1,0 +1,657 @@
+{
+ "titre": "Confiance sans illusion",
+ "sous_titre": "Déléguer son jugement à des preuves vérifiables et auditer sa confiance comme on audite une organisation",
+ "bibliographie": [
+  {
+   "auteur": "Albert Bandura",
+   "titre": "Self-Efficacy: The Exercise of Control",
+   "annee": "1997",
+   "idee": "La confiance en soi (efficacité perçue) se construit surtout par l'expérience de maîtrise, la modélisation et l'interprétation des résultats, non par la simple déclaration positive. L'efficacité perçue influence l'effort, la persistance et la résilience face à l'échec.",
+   "apport": "Fournir le cadre scientifique central : distinguer confiance ressentie et compétence démontrée, et montrer que les sources réelles de la confiance sont des preuves d'action, pas des mantras."
+  },
+  {
+   "auteur": "Carol S. Dweck",
+   "titre": "Mindset: The New Psychology of Success",
+   "annee": "2006",
+   "idee": "Les croyances sur la fixité ou la malléabilité des aptitudes orientent la façon dont on traite l'échec et les retours d'information. Un état d'esprit de développement transforme l'échec en donnée d'apprentissage.",
+   "apport": "Alimenter les chapitres sur l'audit des croyances et la correction des écarts : traiter chaque « échec d'audit » comme une information de système, non comme une condamnation identitaire."
+  },
+  {
+   "auteur": "Angela Duckworth",
+   "titre": "Grit: The Power of Passion and Perseverance",
+   "annee": "2016",
+   "idee": "La persévérance sur le long terme dans un domaine exigeant prédit mieux la performance que le talent brut ou la confiance du moment. La gritté s'entraîne par des objectifs hiérarchisés et des routines de travail.",
+   "apport": "Ancrer le livre dans la durée : le registre de preuves et les audits périodiques sont des systèmes de persistance, pas des sessions ponctuelles de motivation."
+  },
+  {
+   "auteur": "Martin E. P. Seligman",
+   "titre": "Learned Optimism",
+   "annee": "2006 (éd. rev.; orig. 1990)",
+   "idee": "Le style explicatif (permanent vs temporaire, global vs spécifique, interne vs externe) façonne l'optimisme ou le pessimisme appris. On peut réentraîner cette interprétation de l'échec et du succès.",
+   "apport": "Outiller la relecture des preuves : dans le journal et l'audit, corriger les attributions globalisantes du type « je suis nul » vers des lectures spécifiques et vérifiables."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Deux systèmes de pensée coexistent : rapide, intuitif, biaisé, et lent, délibératif, coûteux. Les heuristiques (disponibilité, ancrage, substitution) faussent les jugements, y compris sur soi.",
+   "apport": "Justifier la délégation du jugement à des indicateurs : l'auto-évaluation intuitive est structuralement fragile ; le système de preuves externalise une partie du calcul vers des artefacts vérifiables."
+  },
+  {
+   "auteur": "Philip E. Tetlock et Dan Gardner",
+   "titre": "Superforecasting: The Art and and Science of Prediction",
+   "annee": "2015",
+   "idee": "Les bons prévisionnistes calibrent leurs certitudes, mettent à jour bayésien leurs croyances et apprennent de leurs erreurs scorées. La discipline du feedback mesurable améliore le jugement.",
+   "apport": "Importer les pratiques de calibration, de scoring des prédictions et de mise à jour des croyances dans les protocoles d'audit personnel."
+  },
+  {
+   "auteur": "Daniel Kahneman, Olivier Sibony, Cass R. Sunstein",
+   "titre": "Noise: A Flaw in Human Judgment",
+   "annee": "2021",
+   "idee": "Là où les biais créent des erreurs systématiques, le bruit crée des variabilités injustifiées entre jugements similaires. Même experts, les gens varient énormément selon l'humeur, le contexte et le moment.",
+   "apport": "Expliquer pourquoi une seule auto-évaluation vaut peu : multiplier les points de mesure, journaliser le contexte, et auditer à plusieurs moments pour réduire le bruit."
+  },
+  {
+   "auteur": "Annie Duke",
+   "titre": "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts",
+   "annee": "2018",
+   "idee": "Séparer qualité du processus et qualité du résultat évite de confondre chance et compétence. Mieux vaut des décisions positives en espérance que des histoires de réussite attribuées au talent.",
+   "apport": "Structurer le registre pour enregistrer décisions, raisons, probabilités subjectives et issues, afin d'auditer le processus plutôt que de glorifier ou diaboliser les résultats isolés."
+  },
+  {
+   "auteur": "Julia Galef",
+   "titre": "The Scout Mindset: Why Some People See Things Clearly and Others Don't",
+   "annee": "2021",
+   "idee": "L'esprit soldat (défendre ses croyances) s'oppose à l'esprit scout (cartographier la réalité). Le motif de jugement détermine la qualité des mises à jour de croyances.",
+   "apport": "Fournir le langage éthique et pratique de l'audit : auditer sa confiance, c'est passer en mode scout sur ses propres compétences."
+  },
+  {
+   "auteur": "Peter F. Drucker",
+   "titre": "The Effective Executive",
+   "annee": "1967",
+   "idee": "L'efficacité s'acquiert par des pratiques : concentrer sur les contributions, exploiter ses forces, tenir des décisions claires et mesurer les résultats utiles. Gérer, c'est rendre les forces productives et les faiblesses sans gravité.",
+   "apport": "Importer le vocabulaire et la rigueur de la gouvernance : tableaux de bord, focus, décisions écrites, revue de résultats — appliqués à la personne."
+  },
+  {
+   "auteur": "W. Edwards Deming",
+   "titre": "Out of the Crisis",
+   "annee": "1993",
+   "idee": "Les défauts d'un système s'expliquent largement par la variation et les causes communes, pas par la faute des opérateurs. Améliorer exige mesurer, comprendre la variation et corriger le système.",
+   "apport": "Traiter la confiance comme un système qualité : distinguer variation naturelle et dérive, éviter de sanctionner la personne face à un bruit de processus, améliorer les indicateurs eux-mêmes."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile: Things That Gain from Disorder",
+   "annee": "2012",
+   "idee": "Certaines choses se brisent du stress, d'autres s'y améliorent. Les barbelles, l'optionnalité et la réduction du downside permettent de gagner de la volatilité plutôt que de la subir.",
+   "apport": "Concevoir le système de confiance antifragile : petites expérimentations à coût limité, preuves de rupture, refus des promesses de gain sans risque."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+   "annee": "2018",
+   "idee": "Les identités et comportements se consolident par des systèmes d'habitudes (indice, routine, récompagne), pas par la force de volonté seule. Rendre le bon comportement évident, attractive, simple et satisfaisant.",
+   "apport": "Opérationnaliser la tenue du journal de preuves et le calendrier d'audit dans des rituels concrets à faible friction."
+  },
+  {
+   "auteur": "K. Anders Ericsson et Robert Pool",
+   "titre": "Peak: Secrets from the New Science of Expertise",
+   "annee": "2016",
+   "idee": "L'expertise naît de la pratique délibérée : objectifs précis, feedback immédiat, sortie de la zone de confort technique. Le talent apparent masque souvent des milliers d'heures ciblées.",
+   "apport": "Lier le registre de preuves à l'entraînement : chaque preuve sert à concevoir la prochaine séance de pratique délibérée, pas à flatter l'ego."
+  },
+  {
+   "auteur": "Gerd Gigerenzer",
+   "titre": "Risk Savvy: How to Make Good Decisions",
+   "annee": "2014",
+   "idee": "Face au risque, des heuristiques simples et des représentations transparentes (nombres naturels, fréquences) aident mieux que des modèles opaques pour beaucoup de décideurs. L'incertitude doit être lisible.",
+   "apport": "Exiger des indicateurs simples, compréhensibles et honnêtes sur l'incertitude, plutôt que des scores complexes qui simulent une précision fausse."
+  },
+  {
+   "auteur": "Chris Argyris",
+   "titre": "On Organizational Learning",
+   "annee": "1999",
+   "idee": "L'apprentissage simple corrige l'action dans le cadre existant ; l'apprentissage double boucle interroge les cadres, valeurs et théories en usage. Sans double boucle, les erreurs se répètent sous de nouveaux habits.",
+   "apport": "Donner une architecture aux audits : non seulement corriger des comportements, mais réviser les croyances de fond sur sa compétence et ses indicateurs."
+  },
+  {
+   "auteur": "Donald A. Schön",
+   "titre": "The Reflective Practitioner",
+   "annee": "1983",
+   "idee": "Les professionnels compétents apprennent en action et sur l'action, en réfléchissant à leurs cadres de référence au fil de l'expérience. La réflexivité distingue le routinier du praticien expert.",
+   "apport": "Faire du journal de preuves un outil de réflexion en action, et non un simple carnet d'exploits."
+  },
+  {
+   "auteur": "Kristin Neff",
+   "titre": "Self-Compassion: The Proven Power of Being Kind to Yourself",
+   "annee": "2011",
+   "idee": "La bienveillance envers soi, la common humanity et la mindfulness réduisent la rumination face à l'échec mieux que l'estime de soi conditionnée aux performances. La compassion n'est pas de l'indulgence molle.",
+   "apport": "Éviter que le système d'audit ne devienne un tribunal cruel : cadres d'examen sans autodestruction, correction ferme et respect de soi."
+  },
+  {
+   "auteur": "Gary Klein",
+   "titre": "Sources of Power: How People Make Decisions",
+   "annee": "1998",
+   "idee": "Dans les conditions réelles, les experts s'appuient souvent sur la reconnaissance de schémas et les simulations mentales (RPD), pas sur une analyse pondérée complète. L'intuition nourrie par l'expérience a sa place — à condition d'être entraînée.",
+   "apport": "Nuancer la délégation : l'intuition d'expert comptabilisée comme preuve faible peut cohabiter avec des indicateurs durs, sans en faire le juge final."
+  },
+  {
+   "auteur": "Barry Schwartz",
+   "titre": "The Paradox of Choice: Why More Is Less",
+   "annee": "2004",
+   "idee": "Trop d'options et l'exigence du choix optimal augmentent l'insatisfaction et la procrastination. Les heuristiques de « bon enough » et les contraintes améliorent le bien-être décisionnel.",
+   "apport": "Limiter le nombre d'indicateurs et de preuves suivies pour éviter la surcharge du système d'audit et la quête obsessionnelle du score parfait."
+  },
+  {
+   "auteur": "Philip Zimbardo et John L. Boyd",
+   "titre": "The Time Paradox",
+   "annee": "2008",
+   "idee": "Les orientations temporelles (passé, présent, futur) influencent décisions et bien-être. Un rapport équilibré au temps favorise la planification sans sacrifice total du présent.",
+   "apport": "Articuler horizon d'audit (trimestriel, annuel) et discipline quotidienne/ hebdomadaire du registre sans sacrifier ni l'un ni l'autre."
+  },
+  {
+   "auteur": "Richard S. Lazarus et Susan Folkman",
+   "titre": "Stress, Appraisal, and Coping",
+   "annee": "1984",
+   "idee": "Le stress dépend de l'évaluation cognitive de la menace et des ressources, pas du seul événement. Les stratégies de coping centrées sur le problème et sur l'émotion se complètent.",
+   "apport": "Lire les écarts d'audit comme appraisals : nommer la menace perçue, distinguer faits et émotions, choisir le coping adapté avant tout « plan de performance »."
+  },
+  {
+   "auteur": "Herbert A. Simon",
+   "titre": "Administrative Behavior (et travaux sur la rationalité limitée)",
+   "annee": "1947 (rééd. multiples)",
+   "idee": "Les humains sont rationnels de façon limitée : ils « satisfacent » plutôt qu'ils optimisent, sous contraintes d'information, de temps et de cognition. Les organisations remplacent l'optimisation par des routines et des structures.",
+   "apport": "Justifier l'architecture « gouvernance » : protocoles, registres et audits pallient la rationalité limitée de l'auto-évaluation intuitive."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Distinguer ce que l'on ressent de ce que l'on sait faire",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Confiance ressentie et compétence réelle : deux objets distincts",
+     "objectif": "Établir une distinction opérationnelle entre sentiment de confiance, efficacité perçue et compétence démontrée, afin de cesser de traiter l'un comme substitut des autres.",
+     "sections": [
+      "Définir trois niveaux : confiance émotionnelle, confiance jugée, compétence vérifiée",
+      "Pourquoi le sentiment de confiance peut précéder, suivre ou diverger de la performance",
+      "Effet Dunning-Kruger, excès et défaut de confiance : des phénomènes documentés, pas des jugements moraux",
+      "Ce que la confiance ne prouve pas sur la compétence (et l'inverse)",
+      "Première grille d'analyse : domaines, tâches, critères de réussite externes",
+      "Mise en garde : ni fatalisme (« je suis nul ») ni positivisme creux (« tout est possible »)"
+     ],
+     "exercices": [
+      "Lister 5 domaines où l'on se sent très confiant et 5 où l'on doute, sans chercher encore les preuves",
+      "Pour chaque domaine, écrire une définition de la compétence observable en une phrase (sans adjectifs d'humeur)",
+      "Construire une matrice 2x2 (confiance haute/basse × preuves fortes/faibles) et y placer 10 situations récentes",
+      "Rédiger un paragraphe honnête : « Ce que je crois savoir faire / ce que d'autres pourraient vérifier à ma place »"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Les limites des affirmations, du positif et du « fake it »",
+     "objectif": "Examiner honnêtement ce que les techniques centrées sur le ressenti (affirmations, visualisation seule, posture corporelle) peuvent et ne peuvent pas faire, et pourquoi le livre propose une autre voie.",
+     "sections": [
+      "Bilan critique : effets possibles sur l'humeur, effets limités sur la compétence objective",
+      "Risque de désalignement : se croire prêt sans preuve retarde l'apprentissage",
+      "Quand le discours positif masque des lacunes de compétence vérifiables",
+      "Ce qui reste utile dans la régulation émotionnelle avant une performance",
+      "De la motivation comme carburant à la gouvernance comme structure",
+      "Thèse du livre : remplacer une partie du monologue intérieur par un système de preuves"
+     ],
+     "exercices": [
+      "Journal d'une semaine : noter chaque affirmation ou auto-discours motivant, puis l'issue réelle de la journée concernée",
+      "Identifier 3 domaines où « faire semblant d'être confiant » a produit un résultat positif, et 3 où cela a produit un aveuglement",
+      "Réécrire une affirmation creuse en un énoncé testable (critère, délai, preuve attendue)",
+      "Lister les bénéfices secondaires du doute (préparation, vigilance) pour éviter la diabolisation du doute"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Importer la gouvernance : délégation, audit, registre",
+     "objectif": "Présenter les trois mécanismes de gouvernance transposés à la confiance en soi, et poser les principes éthiques et pratiques du système.",
+     "sections": [
+      "Analogie organisationnelle : le dirigeant ne peut tout vérifier lui-même",
+      "Délégation : confier le jugement à des indicateurs plutôt qu'à l'humeur du moment",
+      "Registre : la mémoire écrite des preuves comme actif d'apprentissage",
+      "Audit : revue périodique des croyances de compétence face aux preuves",
+      "Limites de l'analogie : la personne n'est pas une entreprise, l'éthique de soi compte",
+      "Promesse realiste : meilleur calibrage et apprentissage — pas de garantie de résultat"
+     ],
+     "exercices": [
+      "Cartographier une décision récente où l'on a « jugé soi-même de mémoire » : quelles preuves auraient dû être déléguées à un indicateur ?",
+      "Définir pour soi : délégation, registre, audit — chacun en 3 phrases personnelles",
+      "Rédiger une mini-chartes : à quoi sert mon système de confiance, à quoi il ne sert pas",
+      "Choisir un horizon d'audit initial (hebdomadaire court, mensuel, trimestriel) et le noter"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Cartographier ses territoires et ses illusions de compétence",
+     "objectif": "Produire un inventaire personnel des domaines de vie et de travail où le système de confiance sera déployé en priorité.",
+     "sections": [
+      "Domaines pertinents : travail technique, relations, communication, santé générale de soi, numérique, argent du quotidien, apprentissage",
+      "Cartographie par critères externes : qui peut témoigner ? quels artefacts existent ?",
+      "Zones de confort stériles vs zones d'apprentissage actionnables",
+      "Priorisation : impact × vérifiabilité × coût de collecte des preuves",
+      "Décision de périmètre initial : restreint pour réussir le système, pas dispersé",
+      "Première carte des « territoires de l'ombre » : compétences qu'on revendique sans jamais les tester"
+     ],
+     "exercices": [
+      "Lister 12 territoires de compétence potentiels, avec pour chacun un exemple d'artefact vérifiable",
+      "Sélectionner 3 territoires prioritaires selon la matrice impact/vérifiabilité",
+      "Pour chaque territoire prioritaire, écrire une affirmation de compétence actuelle à tester",
+      "Planifier la première collecte de preuves sur 14 jours (que, quand, comment, où enregistrer)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Déléguer le jugement à des preuves observables",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Le principe de délégation du jugement",
+     "objectif": "Expliquer comment et pourquoi transférer une partie du rôle de « juge intérieur » vers des critères externes, sans renoncer à la réflexion.",
+     "sections": [
+      "Le juge interne surchargé : mémoire sélective, ancrage, humeur, narratives de soi",
+      "Ce qu'on délègue exactement : le scoring, la fréquence de mesure, la définition des seuils",
+      "Ce qu'on ne délègue pas : valeurs, sens, arbitrages finaux, responsabilité",
+      "Design d'une délégation réussie : critères stables, visibles, contestables",
+      "Protocole de contestation : comment contester son propre indicateur sans le saboter",
+      "Analogies utiles : comptabilité, qualité, revue de code — et leurs écueils"
+     ],
+     "exercices": [
+      "Identifier une auto-évaluation récente purement intuitive, et la remplacer par un critère écrit",
+      "Rédiger une « procuration de jugement » : je confie à tel indicateur le soin d'évaluer telle compétence, sous telles réserves",
+      "Définir 3 règles de contestation honnête de ses propres indicateurs",
+      "Exercice de recul : relire une note d'humeur passée (« j'étais nul ce jour-là ») à la lumière d'un indicateur objectif"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Concevoir des indicateurs observables et utiles",
+     "objectif": "Apprendre à fabriquer des indicateurs de compétence qui résistent à la manipulation par l'ego et restent actionnables.",
+     "sections": [
+      "Critères d'un bon indicateur : observabilité, fréquence, lien théorique avec la compétence, coût supportable",
+      "Indicateurs d'entrée (actions) vs indicateurs de sortie (résultats)",
+      "Exemples par domaine : communication, technique, relations, apprentissage, organisation",
+      "Mesures simples vs scores composites : préférer la clarté d'abord",
+      "Seuils, fourchettes et attentes : fixer des bandes, pas des chiffres magiques",
+      "Documentation des indicateurs : fiche indicateur standardisée"
+     ],
+     "exercices": [
+      "Rédiger 5 fiches indicateurs (nom, définition, méthode de mesure, fréquence, source de preuve)",
+      "Test de robustesse : « Pourrais-je tricher facilement cet indicateur sans rien apprendre ? » et ajuster",
+      "Comparer un indicateur vague (« bien communiquer ») avec un indicateur observable",
+      "Choisir 2 indicateurs d'entrée et 2 de sortie par territoire prioritaire"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Métriques qui mentent, tableaux de bord borgnes",
+     "objectif": "Identifier les façons dont les indicateurs déforment la confiance, et mettre en place des garde-fous.",
+     "sections": [
+      "Effets de mesure : ce qui est compté devient ce qui est poursuivi",
+      "Indicateurs capturables mais non pertinents, et inversement",
+      "L'illusion du chiffre unique de « confiance à 7/10 »",
+      "Saisonnalité, contexte et variance légitime (bruit vs signal)",
+      "Contre-mesures : indicateurs contraires, revue qualitative, alertes de déséquilibre",
+      "Dette d'indicateur : quand il faut redessiner le tableau de bord"
+     ],
+     "exercices": [
+      "Auditer ses indicateurs actuels : lister 3 façons de les « gamer » sans progrès réel",
+      "Ajouter à chaque indicateur principal une contre-mesure ou un signal d'alerte",
+      "Étude de cas fictive : un professionnel sur-optimise son indicateur de production et néglige la qualité — proposer un redesign",
+      "Réduire son panel : couper au moins la moitié des métriques personnelles superflues"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Biais d'auto-évaluation et bruit : briser le miroir déformant",
+     "objectif": "Rendre visibles les biais systématiques et le bruit qui polluent le jugement sur soi, et montrer comment la délégation y remédie partiellement.",
+     "sections": [
+      "Biais classiques appliqués à soi : excès de cohérence, ego-protecteurs, mémoire des succès",
+      "Biais d'attribution interne/externe selon le succès ou l'échec",
+      "Bruit : les mêmes faits jugés différemment selon le jour, le sommeil, l'humeur",
+      "Journal du contexte : enregistrer l'état sans le confondre avec la compétence",
+      "Techniques de réduction : averages multi-jours, vue à froid, perspectives tierces",
+      "Quand l'intuition d'expérience compte vraiment (et comment la coder comme preuve faible)"
+     ],
+     "exercices": [
+      "Reprendre 5 auto-évaluations passées et leur donner 3 lectures possibles (biais probable ? bruit ? signal ?)",
+      "Expérience de relecture : noter une compétence un lundi et un jeudi sans relire, comparer",
+      "Créer une légende de « force de preuve » (forte / moyenne / faible / anecdotique) et l'appliquer à 10 souvenirs",
+      "Lister les conditions qui gonflent ou écrasent artificiellement sa confiance (fatigue, validation sociale, réseaux sociaux)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Tenir un registre de preuves",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Architecture du journal de preuves",
+     "objectif": "Concevoir un registre simple, durable et exploitable — papier ou numérique — qui ne devienne ni un fardeau ni un vaniteux album de trophées.",
+     "sections": [
+      "Fonctions du registre : mémoire, apprentissage, matière d'audit, protection contre le réécriture du passé",
+      "Structure minimale : date, territoire, situation, action, résultat, preuve, interprétation provisoire",
+      "Niveaux de détail : entrée courte quotidienne, entrée longue hebdomadaire",
+      "Outils : carnet dédié, tableur, notes structurées — critères de choix et d'anti-complexité",
+      "Règles de non-rédaction victimaire ni héroïque : style factuel",
+      "Sauvegarde, confidentialité, partage éventuel avec un auditeur de confiance"
+     ],
+     "exercices": [
+      "Créer la structure du registre (modèle de 1 page) et le premier enregistrement",
+      "Écrire 7 entrées courtes sur la semaine écoulée en respectant la règle de factuel",
+      "Définir les règles de confidentialité : qui peut lire quoi, quand",
+      "Test d'ergonomie : temps moyen d'une entrée — s'il dépasse le seuil choisi, simplifier"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Taxonomie des preuves : ce qui compte, et à quel titre",
+     "objectif": "Distinguer les types de preuves et leurs forces respectives pour juger une compétence.",
+     "sections": [
+      "Preuves de comportement : ce que l'on a réellement fait, fréquence et durée",
+      "Preuves de résultat : livrables, décisions, retours chiffrés, artefacts",
+      "Preuves sociales : témoignages, évaluations externes, demandes répétées",
+      "Preuves négatives et absences : échecs, refus, silences — comment les lire sans surinterpréter",
+      "Preuves de processus : qualité de la préparation, respect du protocole d'apprentissage",
+      "Hiérarchie contextuelle : une preuve forte dans un domaine n'est pas transposable partout"
+     ],
+     "exercices": [
+      "Classer 20 souvenirs de réussite/d'échec selon la taxonomie et la force de preuve",
+      "Collecter 3 preuves externes récentes (artefacts, retours) pour chaque territoire prioritaire",
+      "Construire un « répertoire de preuves négatives utiles » : ce que les échecs ont enseigné de précis",
+      "Rédiger une note sur les preuves que l'on a tendance à ignorer (silences, non-demandes)"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "La discipline du minimum enregistrable",
+     "objectif": "Installer une pratique durable de collecte minimale pour éviter l'abandon du système dès les premières semaines.",
+     "sections": [
+      "Loi du minimum viable : une ligne vaut mieux qu'un chapitre non écrit",
+      "Ancrage à des routines existantes (après une réunion, un entraînement, un client)",
+      "Checklist quotidienne vs hebdomadaire : ce qui ne saute jamais",
+      "Gérer les oublis sans culpabilité punitive : rattrapage en 10 minutes",
+      "Mesurer la santé du système lui-même : taux de complétion du registre",
+      "Phase de démarrage sur 30 jours : objectifs de constance, pas de perfection"
+     ],
+     "exercices": [
+      "Définir le rituel minimal : heure, durée, déclencheur, format de 3 lignes",
+      "Suivre pendant 14 jours le taux de complétion et les freins observés",
+      "Protocole de rattrapage : écrire un règles de 5 lignes pour les jours manqués",
+      "Ajuster une fois le format si le temps moyen dépasse l'objectif"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Croiser données chiffrées et récits sans se mentir",
+     "objectif": "Intégrer dans le registre à la fois mesures et récits contextuels, en empêchant chaque format de dominer abusivement l'autre.",
+     "sections": [
+      "Chiffres sans contexte : ils calment l'angoisse mais mentent sur le sens",
+      "Récits sans chiffres : ils gonflent ou écrasent selon l'humeur narrative",
+      "Double entrée : colonne fait/mesure + colonne lecture provisoire",
+      "Signaux faibles : micro-preuves qui méritent d'être suivies, pas surestimées",
+      "Tableau de synthèse mensuel : tendances, plateaux, anomalies",
+      "Quand demander un regard externe pour départager chiffres et récits"
+     ],
+     "exercices": [
+      "Prendre une situation récente et produire sa version « chiffrée », sa version « narrative », et une synthèse froide",
+      "Créer le gabarit de synthèse mensuel (une page)",
+      "Identifier 3 signaux faibles à suivre sans les transformer en certitudes",
+      "Exercice de contre-récit : raconter un échec de façon factuelle, puis une version habituelle, comparer"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Auditer périodiquement ses croyances de compétence",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Protocole d'audit personnel de confiance",
+     "objectif": "Fournir un protocole complet, répétable, d'audit des croyances sur sa compétence à partir du registre de preuves.",
+     "sections": [
+      "Préparer l'audit : périmètre, période, matériel, état d'esprit scout",
+      "Étape 1 : liste des croyances de compétence actives (énoncés précis)",
+      "Étape 2 : collecte des preuves pour et contre chaque croyance",
+      "Étape 3 : notation de confiance calibrée (probabilité subjective ou bande)",
+      "Étape 4 : verdict d'alignement (confirmée, fragile, infirmée, indécide)",
+      "Étape 5 : décisions et plans minimaux ; clôture écrite de l'audit",
+      "Durées indicatives et fréquences (mensuel court, trimestriel approfondi)"
+     ],
+     "exercices": [
+      "Réaliser un audit complet fictif sur un exemple de livre avant de l'appliquer à soi",
+      "Conduire un audit pilote de 1 heure sur un seul territoire prioritaire",
+      "Rédiger un modèle de rapport d'audit en une page",
+      "Fixer les trois prochaines dates d'audit dans le calendrier"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Auditer une croyance de compétence : cas pratiques guidés",
+     "objectif": "Illustrer le protocole sur des croyances typiques (parler en public, négocier, apprendre vite, gérer son attention, relations professionnelles).",
+     "sections": [
+      "Cas 1 : « Je suis un bon communicant » — pièges de l'effet de halo",
+      "Cas 2 : « Je n'ai pas le profil pour l'argent / la gestion » — croyances globales durcies",
+      "Cas 3 : « J'apprends vite » — distinguer vitesse d'acquisition et rétention",
+      "Cas 4 : « Je suis fiable en équipe » — preuves sociales vs auto-image",
+      "Cas 5 : « Je sais me défendre dans un conflit » — données rares, bruit élevé",
+      "Leçons transversales : reformuler trop général → spécifique et testable"
+     ],
+     "exercices": [
+      "Appliquer le protocole à une croyance personnelle de type « je suis plutôt bon/mauvais en X »",
+      "Reformuler 5 croyances globales en hypothèses spécifiques auditables",
+      "Pour deux croyances, écrire explicitement la preuve qui les ferait tomber (critère de réfutation)",
+      "Comparer ses verdicts d'audit avec ceux d'une personne de confiance sur un cas partagé"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Calibration : excès, défaut et bande juste",
+     "objectif": "Développer la capacité à ajuster le niveau de certitude à la force réelle des preuves.",
+     "sections": [
+      "Qu'est-ce qu'une bonne calibration ? Correspondance entre certitude et fréquence réelle de succès",
+      "Excès de confiance : actifs (initiative) et passifs (aveuglement, mauvais feedback)",
+      "Défaut de confiance : prudence utile vs auto-sabotage et opportunités manquées",
+      "Exercices de prédiction scorée appliqués à soi",
+      "Bandes plutôt que points : se donner une fourchette d'attente",
+      "Revue de calibration : sous-estimé-on systématiquement un type de tâche ?"
+     ],
+     "exercices": [
+      "Tenir un mini-journal de prédictions (10 prédictions vérifiables à 2 semaines)",
+      "Scorer et calculer un indice de calibration personnel simple",
+      "Identifier un biais de calibration récurrent et un correctif expérimental",
+      "Réécrire 3 croyances avec des probabilités ou fourchettes plutôt que des absolus"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Audit croisé : témoins, pairs, données externes",
+     "objectif": "Enrichir l'audit solitaire de regards et de sources externes, tout en protégeant l'autonomie du système.",
+     "sections": [
+      "Choisir un auditeur de confiance : critères et mandat clair",
+      "Protocole d'entretien court : questions non suggestions",
+      "Sources externes objectives : évaluations, metrics publiques, comparaisons de pairs avec précaution",
+      "Éviter la dépendance à l'approbation : l'externe informe, il ne remplace pas le verdict",
+      "Gérer les retours contradictoires : chercher le schéma, pas la moyenne molle",
+      "Confidentialité et limites : ce qu'on ne met pas en audit public"
+     ],
+     "exercices": [
+      "Rédiger un mandat d'audit croisé (objet, période, questions, format de retour)",
+      "Réaliser un entretien de 20 minutes avec un témoin sur une compétence précise",
+      "Croiser 3 sources externes pour une même croyance et rédiger une synthèse",
+      "Lister les situations où l'on refuse encore tout retour externe — et pourquoi"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Corriger les écarts et apprendre du système",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Lire un rapport d'écarts sans se détruire ni se dédouaner",
+     "objectif": "Transformer le verdict d'audit en lecture utile, ni autodestruction ni auto-absolution.",
+     "sections": [
+      "Anatomie d'un écart : croyance vs preuves vs contexte",
+      "Écarts attendus (bruit, échantillon faible) vs écarts structurels",
+      "Règles d'écriture post-audit : phrases ouvertes, responsabilités situées",
+      "Compassion structurée : fermeté sur les faits, respect sur la personne",
+      "Prioriser : un écart actionnable à la fois, pas une liste de défauts infinis",
+      "Document de clôture : ce que je retiens, ce que je teste ensuite"
+     ],
+     "exercices": [
+      "Prendre un ancien échec et le réécrire en trois colonnes : faits, interprétations, apprentissages",
+      "Classer 6 écarts potentiels en structurels / de contexte / indécids",
+      "Rédiger une synthèse d'audit en 10 lignes avec un seul objectif de correction",
+      "Rituel de clôture émotionnelle après audit (exercice court de recentrage)"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Correctifs proportionnés et expérimentations bornées",
+     "objectif": "Concevoir des plans de correction réalistes, testables et bornés dans le temps et le coût.",
+     "sections": [
+      "Principe de proportionnalité : l'ampleur du correctif suit la taille et la preuve de l'écart",
+      "Hypothèse d'amélioration : si je fais X, alors Y indicateur bouge en N semaines",
+      "Petits experiments (sprints de 2 à 4 semaines) plutôt que transformations totales",
+      "Définir le coût plancher : temps, énergie, risque relationnel, risque financier limité",
+      "Indicateurs de processus pour piloter l'expérimentation",
+      "Conditions d'arrêt : quand abandonner une hypothèse sans appeler cela un échec de soi"
+     ],
+     "exercices": [
+      "Écrire 3 hypothèses d'amélioration avec critères de succès et date de revue",
+      "Concevoir un sprint de 21 jours pour un seul écart prioritaire",
+      "Définir des règles d'arrêt et de pivot avant de commencer",
+      "Étude de cas : un plan de correction surdimensionné — le réduire en un test minimal"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Boucle d'apprentissage : réviser indicateurs, croyances et pratiques",
+     "objectif": "Mettre en place un apprentissage double boucle : non seulement agir mieux, mais réviser les cadres d'évaluation.",
+     "sections": [
+      "Boucle simple : action → mesure → ajustement",
+      "Boucle double : la mesure et la croyance de fond sont-elles justes ?",
+      "Revues trimestrielles des indicateurs : garder, modifier, tuer",
+      "Signaux que le domaine a changé (marché, rôle, santé, outils)",
+      "Transmission : expliquer son système à un pair pour le tester",
+      "Journal des leçons de système : ce qui a rendu l'audit utile ou inutile"
+     ],
+     "exercices": [
+      "Audit rétrospectif des indicateurs : lesquels ont produit des apprentissages réels en 3 mois ?",
+      "Liste rouge : indicateurs à supprimer ou remplacer dès le prochain trimestre",
+      "Rédiger 5 leçons « sur le système de confiance » lui-même (pas sur les compétences)",
+      "Présenter en 15 minutes son système à une personne et noter ses questions"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Plateaux, rechutes et résistance du système personnel",
+     "objectif": "Se préparer aux phases où le système d'audit semble stagner, devenir pénible ou se heurter à des résistances profondes.",
+     "sections": [
+      "Plateau d'apprentissage : le normal statistique, pas la preuve d'inutilité",
+      "Fatigue d'audit et saturation de mesure",
+      "Résistances psychologiques : peur de l'évidence, défense de l'identité, perfectionnisme",
+      "Quand un audit révèle un besoin d'aide spécialisée (orientation générale, sans conseil personnalisé)",
+      "Allègement contrôlé : mode maintenance vs mode exploration",
+      "Reprise après rupture longue du registre : protocole de redémarrage"
+     ],
+     "exercices": [
+      "Plan de maintenance allégé (10 minutes/semaine) pour les périodes de charge",
+      "Protocole de redémarrage après 30 jours sans registre",
+      "Cartographier ses résistances typiques : à quel moment fuit-on l'audit ?",
+      "Liste de questions à poser à un professionnel (coach, formateur, thérapeute selon besoin) sans diagnostic auto-proclamé"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Élargir le périmètre et gouverner dans la durée",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Étendre le système à de nouveaux territoires sans le diluer",
+     "objectif": "Sécuriser une expansion progressive du périmètre de confiance (travail, relations, numérique, argent quotidien, apprentissage) en préservant la qualité du système.",
+     "sections": [
+      "Règle d'extension : un nouveau territoire à la fois, après stabilité des anciens",
+      "Transfert partiel : ce qui se réutilise (méthode) vs ce qui est spécifique (indicateurs)",
+      "Périmètre relationnel : confiance en sa fiabilité, pas contrôle de l'autre",
+      "Périmètre numérique et informationnel : compétences vérifiables d'outils et d'esprit critique",
+      "Périmètre argent du quotidien : budgets, décisions d'achat — cadre général non personnalisé",
+      "Veille et apprentissage continu : nouvelles compétences, nouveaux preuves"
+     ],
+     "exercices": [
+      "Plan d'extension sur 6 mois : ordre des territoires et critères de passage",
+      "Pour un nouveau territoire, rédiger 4 indicateurs de départ et une première fiche de preuves",
+      "Audit rapide (30 min) d'un territoire nouvellement ouvert",
+      "Identifier une compétence à re-prouver après un changement de rôle ou d'outil"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Confiance dans l'incertitude : décisions, risques et limites des preuves",
+     "objectif": "Utiliser le système de preuves pour décider sous incertitude sans croire que le registre supprime le risque.",
+     "sections": [
+      "Ce que les preuves passées ne garantissent jamais : futur, contexte nouveau, black swans",
+      "Décisions en options : petits paris, réversibilité, learning value",
+      "Scénarios et prédictions personnelles notées",
+      "Gestion du regret ex ante vs ex post",
+      "Signaux d'arrêt éthiques et pratiques : ne pas s'enfermer dans une croyance de compétence obsolète",
+      "Humilité calibrée comme posture stable, non comme excuse de l'inaction"
+     ],
+     "exercices": [
+      "Noter une décision à venir : scénarios, probabilités approximatives, options, critères d'arrêt",
+      "Jeu de prédictions sur son propre trimestre (3 à 5 items vérifiables)",
+      "Analyse rétrospective d'une décision passée : processus vs issue",
+      "Rédiger sa règle personnelle de « pari à faible coût d'apprentissage »"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Gouvernance relationnelle : confiance interpersonnelle sans naïveté",
+     "objectif": "Étendre prudemment la logique de délégation et d'audit aux relations (travail, équipe, proches), sans transformer l'humain en indicateur.",
+     "sections": [
+      "Distinguer compétence de soi et jugement sur les autres : risque de surcontrôle",
+      "Indicateurs relationnels éthiques : fiabilité tenue, clarté des engagements, réparation après conflit",
+      "Contrats implicites : attendus non dits et leur coût",
+      "Confiance progressive : preuves accumulées, zones à risque, marges de sécurité",
+      "Feedback réciproque : demander à être audité sur sa collaboration",
+      "Limites strictes : vie privée, consentement, pas de surveillance déguisée"
+     ],
+     "exercices": [
+      "Cartographier 3 relations clés : attentes, preuves observées, zones d'incertitude",
+      "Écrire un mini-contrat clair (non légal) d'attentes pour une collaboration en cours",
+      "Pratiquer une demande de feedback structurée sur un comportement précis",
+      "Lister les indicateurs relationnels que l'on refuse éthiquement de mesurer"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Gouvernance de long terme : maintenir la confiance vérifiée sans s'y enfermer",
+     "objectif": "Consolider une pratique de vie sobre, durable et libre : le système sert la personne, pas l'inverse.",
+     "sections": [
+      "Calendrier annuel de gouvernance : audits, revues d'indicateurs, extensions",
+      "Identité et confiance : sortir de la dépendance au score",
+      "Transmission : enseigner la méthode à un proche ou une équipe",
+      "Révision des valeurs : à quoi sert cette compétence dans ma vie ?",
+      "Refondation après transition majeure (carrière, santé, famille, déménagement numérique ou physique)",
+      "Conclusion ouverte : confiance comme discipline d'enquête, non possession finale",
+      "Rappels de limites : pas de garantie de succès, pas de conseil personnalisé médical/juridique/financier, consultation d'experts quand nécessaire"
+     ],
+     "exercices": [
+      "Rédiger sa gouvernance annuelle : dates, rôles, indicateurs système, budget temps",
+      "Audit annuel de vie : 5 croyances de compétence majeures et leur état de preuve",
+      "Plan de transmission : à qui, comment, sous quelle forme, dans les 90 jours",
+      "Lettre à soi-même dans 12 mois sur l'usage du système (à relire à la date d'audit anniversaire)"
+     ]
+    }
+   ]
+  }
+ ]
+}
