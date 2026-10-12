@@ -1,0 +1,609 @@
+{
+ "titre": "Triage relationnel",
+ "sous_titre": "Et si prendre soin des autres supposait de ne pas traiter tout le monde en même temps",
+ "bibliographie": [
+  {
+   "auteur": "Greg McKeown",
+   "titre": "Essentialism: The Disciplined Pursuit of Less",
+   "annee": "2014",
+   "idee": "Distinguer le vital du trivial et éliminer impitoyablement ce qui n'est pas essentiel pour protéger son énergie.",
+   "apport": "Cadre de décision binaire (essentiel/non-essentiel) adapté à la grille de triage relationnel."
+  },
+  {
+   "auteur": "Stephen R. Covey",
+   "titre": "The 7 Habits of Highly Effective People",
+   "annee": "1989",
+   "idee": "Matrice urgent/important : la plupart des gens vivent dans l'urgent et négligent l'important, source de crises chroniques.",
+   "apport": "Distinction conceptuelle reprise pour séparer urgence relationnelle, importance et chronicité."
+  },
+  {
+   "auteur": "Nedra Glover Tawwab",
+   "titre": "Set Boundaries, Find Peace",
+   "annee": "2021",
+   "idee": "Les limites ne sont pas des murs mais des protocoles de soin ; on peut les poser avec clarté et bienveillance.",
+   "apport": "Langage pratique pour formuler des refus relationnels sans culpabilité."
+  },
+  {
+   "auteur": "Henry Cloud & John Townsend",
+   "titre": "Boundaries: When to Say Yes, How to Say No",
+   "annee": "1992",
+   "idee": "La responsabilité relationnelle a une géographie : on ne peut porter ce qui appartient à autrui sans s'épuiser.",
+   "apport": "Concept de 'limite de propriété' intégré au triage pour refuser les urgences qui ne nous appartiennent pas."
+  },
+  {
+   "auteur": "Robin Dunbar",
+   "titre": "Friends: Understanding the Power of Our Most Important Relationships",
+   "annee": "2021",
+   "idee": "Les relations humaines s'organisent en couches concentriques (5, 15, 50, 150) aux intensités d'investissement décroissantes.",
+   "apport": "Architecture naturelle des cercles relationnels comme base anatomique du triage."
+  },
+  {
+   "auteur": "Oliver Burkeman",
+   "titre": "Four Thousand Weeks: Time Management for Mortals",
+   "annee": "2021",
+   "idee": "Accepter la finitude du temps impose de choisir qui décevoir plutôt que de tenter l'impossible disponibilité universelle.",
+   "apport": "Justification philosophique du refus : le triage est une éthique, pas une technique."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Digital Minimalism",
+   "annee": "2019",
+   "idee": "Les outils numériques multiplient les sollicitations faiblement importantes qui cannibalisent les relations profondes.",
+   "apport": "Protocoles de réduction du bruit relationnel numérique avant même le triage."
+  },
+  {
+   "auteur": "Adam Grant",
+   "titre": "Give and Take",
+   "annee": "2013",
+   "idee": "Les donneurs s'épuisent quand ils donnent sans discrimination ; les donneurs stratégiques prospèrent en choisissant leurs bénéficiaires.",
+   "apport": "Critère de triage : la réciprocité et l'impact réel plutôt que l'ancienneté du lien."
+  },
+  {
+   "auteur": "Emily Nagoski & Amelia Nagoski",
+   "titre": "Burnout: The Secret to Unlocking the Stress Cycle",
+   "annee": "2019",
+   "idee": "Le stress relationnel chronique non complété s'accumule dans le corps ; il faut clore les cycles émotionnels.",
+   "apport": "Section sur les relations chroniques : clore, ritualiser, traiter plutôt que subir."
+  },
+  {
+   "auteur": "Brené Brown",
+   "titre": "Atlas of the Heart",
+   "annee": "2021",
+   "idee": "La granularité émotionnelle permet de nommer ce qu'on ressent dans une relation et d'agir précisément.",
+   "apport": "Vocabulaire de diagnostic pour qualifier la gravité d'une situation relationnelle."
+  },
+  {
+   "auteur": "Marshall B. Rosenberg",
+   "titre": "Nonviolent Communication: A Language of Life",
+   "annee": "2003",
+   "idee": "Derrière chaque demande urgente se cache un besoin non exprimé ; le triage commence par décoder le besoin.",
+   "apport": "Protocole de décodage des sollicitations pour évaluer leur vraie urgence."
+  },
+  {
+   "auteur": "Gary Keller & Jay Papasan",
+   "titre": "The One Thing",
+   "annee": "2013",
+   "idee": "La question qui rend tout le reste secondaire : identifier la relation ou l'action qui rend les autres faciles ou inutiles.",
+   "apport": "Question de triage radical pour les moments de surcharge relationnelle aiguë."
+  },
+  {
+   "auteur": "David Allen",
+   "titre": "Getting Things Done",
+   "annee": "2001",
+   "idee": "Capturer, clarifier, organiser : tout ce qui n'est pas traité dans un système externe pèse sur l'attention.",
+   "apport": "Méthode de capture des sollicitations relationnelles pour les sortir de la tête et les trier à froid."
+  },
+  {
+   "auteur": "Sherry Turkle",
+   "titre": "Reclaiming Conversation",
+   "annee": "2015",
+   "idee": "La disponibilité permanente numérique transforme les proches en interruptions et dégrade la qualité des liens.",
+   "apport": "Argument contre la fausse disponibilité et pour des plages relationnelles protégées."
+  },
+  {
+   "auteur": "Alain de Botton",
+   "titre": "The Course of Love",
+   "annee": "2016",
+   "idee": "Les relations durables exigent d'accepter des phases d'attention inégale sans en conclure à l'échec du lien.",
+   "apport": "Légitimation des variations d'intensité relationnelle comme phénomène normal et non comme trahison."
+  },
+  {
+   "auteur": "Jean-Louis Servan-Schreiber",
+   "titre": "L'Art du temps",
+   "annee": "2010",
+   "idee": "Le temps donné aux autres n'est pas extensible ; choisir, c'est renoncer avec élégance.",
+   "apport": "Ton français et éthique du renoncement relationnel assumé."
+  },
+  {
+   "auteur": "Susan Cain",
+   "titre": "Bittersweet: How Sorrow and Longing Make Us Whole",
+   "annee": "2022",
+   "idee": "Les relations portent aussi de la tristesse et de la distance normales ; vouloir les soigner toutes est une fuite.",
+   "apport": "Reconnaissance des relations qu'il est sain de laisser en souffrance contrôlée plutôt que de sur-traiter."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 — Le diagnostic : pourquoi l'égalité relationnelle nous maltraite",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "La salle d'attente de nos vies",
+     "objectif": "Poser le constat : nous traitons nos proches comme une file d'attente sans priorités, et tout le monde pâtit de cette fausse démocratie.",
+     "sections": [
+      "L'illusion de la disponibilité égale",
+      "Anatomie d'une semaine relationnelle saturée",
+      "Le coût invisible du 'je suis là pour toi'",
+      "Quand la culpabilité tient lieu de boussole",
+      "Le paradoxe : moins on choisit, moins on soigne",
+      "La promesse du triage relationnel"
+     ],
+     "exercices": [
+      "Journal d'une semaine : noter chaque sollicitation reçue et le temps/énergie consacré",
+      "Cartographie des 10 relations les plus chronophages et de leur retour réel",
+      "Identifier trois relations où l'on donne par culpabilité plutôt que par choix",
+      "Écrire une lettre non envoyée à sa propre fatigue relationnelle"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Ce que les urgences nous apprennent du soin",
+     "objectif": "Transposer les principes du triage médical (Manchester, START) aux relations sans les dévoyer.",
+     "sections": [
+      "Naissance du triage : des champs de bataille aux urgences",
+      "Les cinq niveaux du triage clinique et leur logique",
+      "Pourquoi le premier arrivé n'est pas le premier servi",
+      "Ce que 'grave mais non urgent' veut dire en médecine",
+      "Les limites de l'analogie : une relation n'est pas un patient",
+      "Éthique du triage : choisir n'est pas abandonner"
+     ],
+     "exercices": [
+      "Reformuler trois situations relationnelles récentes selon les niveaux de triage clinique",
+      "Lister ce qui, dans sa vie, relève du 'pronostic vital engagé' symbolique",
+      "Identifier une relation traitée comme une urgence alors qu'elle est chronique",
+      "Rédiger son propre serment d'Hippocrate relationnel en trois phrases"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Les trois impostures de l'attention universelle",
+     "objectif": "Démonter les croyances qui nous interdisent de prioriser : équité, permanence, exhaustivité.",
+     "sections": [
+      "Imposture 1 : 'Aimer, c'est être également disponible'",
+      "Imposture 2 : 'Une vraie amitié ne connaît pas de pauses'",
+      "Imposture 3 : 'Je dois répondre à tout le monde, toujours'",
+      "D'où viennent ces croyances : famille, genre, éducation",
+      "Leur coût réel en santé, en intimité, en sens",
+      "Les remplacer par des croyances tenables"
+     ],
+     "exercices": [
+      "Retracer l'origine familiale de sa propre croyance sur la disponibilité",
+      "Lister les personnes pour qui on se sent 'obligé' et distinguer obligation réelle et imaginaire",
+      "Écrire les trois nouvelles croyances relationnelles qu'on souhaite adopter",
+      "Observer pendant 48 heures ses réactions automatiques aux notifications"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Cartographier son territoire relationnel",
+     "objectif": "Dresser l'inventaire réaliste de ses relations avant de pouvoir les trier.",
+     "sections": [
+      "Les cercles de Dunbar appliqués à soi",
+      "Relations choisies, subies, héritées, professionnelles",
+      "Relations symétriques et relations asymétriques",
+      "Les relations dormantes qu'on continue d'arroser",
+      "La cartographie comme acte de vérité",
+      "Oser voir ce que l'on a vraiment"
+     ],
+     "exercices": [
+      "Dessiner ses cinq cercles concentriques et y placer ses relations actuelles",
+      "Marquer d'un symbole différent les relations énergisantes et les relations drainantes",
+      "Identifier les relations 'fantômes' encore actives par inertie",
+      "Calculer le ratio temps investi / satisfaction relationnelle par cercle"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 — La grille de triage : définir ses critères",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Urgent, important, chronique : le triangle relationnel",
+     "objectif": "Installer la matrice à trois axes qui remplacera le réflexe binaire urgent/non-urgent.",
+     "sections": [
+      "Pourquoi la matrice d'Eisenhower ne suffit plus en relationnel",
+      "Définir l'urgence relationnelle : délai réel ou ressenti ?",
+      "Définir l'importance : impact sur la vie, pas intensité émotionnelle",
+      "Définir le chronique : ce qui revient sans se résoudre",
+      "Les huit combinaisons du triangle et leurs traitements",
+      "Pièges classiques : l'urgence simulée, l'importance fantôme"
+     ],
+     "exercices": [
+      "Classer 20 sollicitations récentes sur les trois axes",
+      "Créer sa fiche 'définitions personnelles' d'urgent, important, chronique",
+      "Repérer dans son historique trois urgences qui n'en étaient pas",
+      "Identifier une relation chronique qu'on traite comme urgente à chaque épisode"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Les cinq niveaux du triage relationnel",
+     "objectif": "Décliner le triage en cinq codes couleurs adaptés aux relations, du rouge au vert.",
+     "sections": [
+      "Code rouge : crise vitale, présence immédiate",
+      "Code orange : détresse aiguë, réponse dans les heures",
+      "Code jaune : important mais non pressé, réponse en jours",
+      "Code vert : entretien courant, réponse standardisée",
+      "Code bleu : relation à réévaluer ou à clore",
+      "Comment attribuer un code sans déshumaniser"
+     ],
+     "exercices": [
+      "Attribuer un code couleur à chacune des 15 relations les plus actives",
+      "Définir pour soi les déclencheurs objectifs de chaque code",
+      "Écrire un exemple de réponse adaptée à chaque code",
+      "Identifier une relation mal codée depuis des mois"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Critères de gravité : qu'est-ce qui mérite vraiment notre attention",
+     "objectif": "Établir une échelle de gravité relationnelle fondée sur des indicateurs observables.",
+     "sections": [
+      "La gravité n'est pas l'intensité émotionnelle de l'autre",
+      "Indicateurs objectifs : santé, sécurité, rupture, tournant de vie",
+      "Indicateurs subjectifs : récurrence, demande d'aide explicite, isolement",
+      "Le piège des personnalités dramatiques",
+      "Gravité réelle et gravité performée",
+      "Quand on se trompe : comment recalibrer"
+     ],
+     "exercices": [
+      "Construire sa propre échelle de gravité à 5 niveaux avec exemples concrets",
+      "Repasser en revue trois 'crises' passées et évaluer leur gravité réelle",
+      "Lister les personnes dont l'intensité émotionnelle a faussé son jugement",
+      "Écrire les questions à se poser avant de classer une situation comme grave"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Critères d'urgence : séparer le délai du bruit",
+     "objectif": "Distinguer les vraies contraintes de temps des urgences fabriquées par l'anxiété ou la manipulation.",
+     "sections": [
+      "L'urgence fabriquée : une catégorie clinique méconnue",
+      "Les marqueurs d'urgence authentique",
+      "Les marqueurs d'urgence performée",
+      "L'urgence numérique : notification ≠ urgence",
+      "La règle des 24 heures avant de répondre aux urgences non vitales",
+      "Communiquer un délai sans trahir"
+     ],
+     "exercices": [
+      "Lister dix urgences relationnelles des six derniers mois et leur délai réel",
+      "Installer sur ses appareils des filtres qui distinguent urgence vraie et notification",
+      "S'entraîner à la phrase 'je reviens vers toi demain' sans justification excessive",
+      "Créer un 'sas de 10 minutes' avant toute réponse à une sollicitation urgente"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Critères de chronicité : traiter ce qui ne guérit pas",
+     "objectif": "Identifier les relations qui reviennent cycliquement avec les mêmes demandes et leur appliquer un traitement spécifique.",
+     "sections": [
+      "La chronicité relationnelle : définition clinique",
+      "Les trois profils chroniques : la plainte, la crise récurrente, le conseil redemandé",
+      "Pourquoi le soin standard échoue sur le chronique",
+      "Le passage du curatif au palliatif relationnel",
+      "Quand orienter : déléguer à des professionnels",
+      "Se protéger sans abandonner"
+     ],
+     "exercices": [
+      "Lister les relations chroniques et le motif récurrent de sollicitation",
+      "Pour chacune, écrire ce qu'on a déjà tenté et son résultat",
+      "Rédiger une réponse-type pour la prochaine occurrence",
+      "Identifier un proche qu'il serait juste d'orienter vers un tiers compétent"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 — Les protocoles : standardiser pour libérer du temps de soin",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "Pourquoi standardiser, c'est respecter",
+     "objectif": "Renverser l'idée reçue selon laquelle toute réponse personnalisée est une marque d'amour.",
+     "sections": [
+      "Le mythe de la réponse sur-mesure à chaque message",
+      "Ce que la médecine a gagné en protocolisant",
+      "Standardiser, c'est libérer de l'attention pour ce qui compte",
+      "La différence entre protocole et froideur",
+      "Les domaines relationnels protocolisables",
+      "Ce qui ne doit jamais l'être"
+     ],
+     "exercices": [
+      "Lister les 10 types de sollicitations les plus fréquentes dans sa vie",
+      "Pour chacun, rédiger une réponse-type chaleureuse et claire",
+      "Tester trois réponses-type pendant une semaine et observer les réactions",
+      "Identifier une sollicitation qu'on traite en sur-mesure épuisant"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "La boîte à réponses : sept catégories qui couvrent 90 % des demandes",
+     "objectif": "Fournir un répertoire de réponses prêtes à adapter pour les sollicitations courantes.",
+     "sections": [
+      "Catégorie 1 : l'accusé de réception bienveillant",
+      "Catégorie 2 : la redirection vers une ressource",
+      "Catégorie 3 : le rendez-vous différé",
+      "Catégorie 4 : le refus clair et chaleureux",
+      "Catégorie 5 : la délégation à un tiers pertinent",
+      "Catégorie 6 : la réponse partielle assumée",
+      "Catégorie 7 : la clôture élégante"
+     ],
+     "exercices": [
+      "Constituer son propre répertoire de 20 messages-types classés par catégorie",
+      "Créer des raccourcis clavier ou modèles sur son téléphone",
+      "Utiliser le répertoire pendant 30 jours et mesurer le temps gagné",
+      "Affiner les formules qui sonnent faux à la relecture"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Automatiser sans déshumaniser",
+     "objectif": "Utiliser les outils numériques pour protéger l'attention sans donner l'impression d'un robot.",
+     "sections": [
+      "Messages d'absence, réponses automatiques, statuts : mode d'emploi",
+      "Les filtres de messagerie comme première ligne de triage",
+      "Calendriers partagés et prises de rendez-vous autonomes",
+      "Groupes, canaux, listes de diffusion : segmenter ses audiences",
+      "Le risque de paraître distant et comment le mitiger",
+      "Quand sortir du protocole et répondre en personne"
+     ],
+     "exercices": [
+      "Configurer un message d'attente relationnel sur ses principaux canaux",
+      "Créer trois filtres automatiques de messagerie par type de relation",
+      "Mettre en place un calendrier de disponibilités partagées pour les proches",
+      "Écrire un texte de présentation expliquant sa nouvelle organisation"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Les rituels qui remplacent la disponibilité permanente",
+     "objectif": "Remplacer la disponibilité floue par des rendez-vous relationnels fiables.",
+     "sections": [
+      "Le rituel comme promesse tenue plutôt que disponibilité promise",
+      "Appels hebdomadaires, cafés mensuels, week-ends annuels",
+      "Dimensionner le rituel à la place réelle de la personne",
+      "Rituels individuels et rituels collectifs",
+      "Protéger le rituel comme on protège une réunion importante",
+      "Les rituels de réparation après une période d'absence"
+     ],
+     "exercices": [
+      "Lister les 5 relations qui méritent un rituel et n'en ont pas encore",
+      "Proposer un rituel adapté à chacune et le fixer dans l'agenda",
+      "Transformer trois sollicitations éparses en un rendez-vous récurrent",
+      "Évaluer après 3 mois la qualité perçue de ces relations ritualisées"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Déléguer, orienter, référer : on ne soigne pas tout seul",
+     "objectif": "Apprendre à passer la main quand la demande excède notre compétence ou notre rôle.",
+     "sections": [
+      "La différence entre aider et se substituer",
+      "Les limites du rôle d'ami, de parent, de collègue",
+      "Construire son carnet de ressources : pros, associations, pairs",
+      "Formuler une orientation sans donner l'impression d'un rejet",
+      "Accompagner la transition plutôt que lâcher brutalement",
+      "Quand l'orientation est un acte d'amour"
+     ],
+     "exercices": [
+      "Constituer une liste de 10 ressources de référence classées par thématique",
+      "Rédiger trois messages-types d'orientation chaleureuse",
+      "Identifier une relation où l'on joue un rôle qui n'est pas le sien",
+      "Planifier une conversation de transfert avec la personne concernée"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 — Assumer et communiquer ses choix",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "Dire le triage sans blesser",
+     "objectif": "Trouver les mots pour expliquer sa logique de priorisation sans humilier ni hiérarchiser publiquement.",
+     "sections": [
+      "Faut-il annoncer qu'on trie ?",
+      "Les mots qui blessent et ceux qui éclairent",
+      "Expliquer sa capacité, pas sa préférence",
+      "Le vocabulaire de la finitude plutôt que celui du choix",
+      "Annoncer un changement de régime relationnel",
+      "Gérer les réactions de déception"
+     ],
+     "exercices": [
+      "Écrire trois versions d'un même message de limitation, du plus brut au plus soigné",
+      "S'entraîner à voix haute sur les formules qui sonnent justes",
+      "Anticiper les trois objections les plus probables et y préparer des réponses",
+      "Choisir une personne avec qui tester le nouveau langage cette semaine"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Le refus comme acte de soin",
+     "objectif": "Réhabiliter le refus relationnel en geste mature plutôt qu'en trahison.",
+     "sections": [
+      "Dire oui à tout, c'est dire non à ce qui compte",
+      "Les quatre formes de refus : total, partiel, différé, conditionnel",
+      "Refuser sans se justifier à l'infini",
+      "Refuser la demande, honorer la personne",
+      "Le refus aux personnes qu'on aime le plus",
+      "Quand le refus sauve la relation"
+     ],
+     "exercices": [
+      "Lister 5 demandes qu'on aurait dû refuser et ce qu'elles ont coûté",
+      "S'entraîner au refus en trois phrases : reconnaissance, limite, alternative",
+      "Tenir un journal des refus assumés pendant un mois",
+      "Revisiter une relation abîmée par un oui forcé et envisager une réparation"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Gérer la culpabilité, pas la supprimer",
+     "objectif": "Apprendre à cohabiter avec la culpabilité inévitable du triage sans la laisser dicter nos choix.",
+     "sections": [
+      "La culpabilité : signal, pas verdict",
+      "Distinguer culpabilité saine et culpabilité toxique",
+      "Les origines familiales de la culpabilité relationnelle",
+      "Rituels pour traverser la culpabilité sans céder",
+      "Les alliés qui nous aident à tenir la ligne",
+      "Quand la culpabilité signale une vraie réparation à faire"
+     ],
+     "exercices": [
+      "Nommer la voix intérieure qui culpabilise et lui donner un prénom",
+      "Écrire une lettre à cette voix pour la remercier et la remettre à sa place",
+      "Choisir un allié à qui rendre compte de ses choix chaque semaine",
+      "Lister les situations où la culpabilité a eu raison et celles où elle a eu tort"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Les conversations difficiles du triage",
+     "objectif": "Mener les entretiens de réalignement avec les personnes dont la place change.",
+     "sections": [
+      "Quand faut-il une conversation explicite ?",
+      "Préparer l'entretien : faits, ressentis, demandes",
+      "La structure en quatre temps d'une conversation de réalignement",
+      "Accueillir la déception sans se rétracter",
+      "Les pièges : justification excessive, contre-attaque, fuite",
+      "Conclure sur une proposition claire"
+     ],
+     "exercices": [
+      "Préparer par écrit une conversation de réalignement avec une personne précise",
+      "Répéter la conversation avec un tiers de confiance ou face miroir",
+      "Lister les trois phrases à ne surtout pas prononcer",
+      "Fixer la date de la conversation et s'y tenir"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Affronter les accusations d'égoïsme",
+     "objectif": "Répondre aux critiques, aux chantages affectifs et aux malentendus sans perdre son cap.",
+     "sections": [
+      "Pourquoi le triage déclenche des résistances",
+      "Reconnaître le chantage affectif sans y céder",
+      "La différence entre égoïsme et self-care relationnel",
+      "Répondre aux proches qui se sentent rétrogradés",
+      "Quand la critique révèle une vraie dérive à corriger",
+      "Tenir la ligne dans la durée"
+     ],
+     "exercices": [
+      "Lister les accusations récurrentes qu'on reçoit et leur part de vérité",
+      "Préparer des réponses-types aux trois reproches les plus fréquents",
+      "Identifier une critique qui mérite une vraie correction de trajectoire",
+      "Écrire un manifeste personnel de ses valeurs relationnelles pour s'y référer"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 — Réévaluer, maintenir, vivre avec",
+   "chapitres": [
+    {
+     "numero": 20,
+     "titre": "La revue relationnelle trimestrielle",
+     "objectif": "Installer un rendez-vous avec soi-même pour réviser la grille de triage régulièrement.",
+     "sections": [
+      "Pourquoi une revue périodique est indispensable",
+      "Le format de la revue trimestrielle : 2 heures, 5 étapes",
+      "Les indicateurs à observer : énergie, satisfaction, équilibre des cercles",
+      "Les décisions-types qui en sortent",
+      "La revue annuelle : bilan plus profond",
+      "Tenir la discipline de la revue sur la durée"
+     ],
+     "exercices": [
+      "Bloquer dès maintenant les quatre dates de revue de l'année dans l'agenda",
+      "Construire son tableau de bord relationnel avec 5 indicateurs personnels",
+      "Mener une première revue-test de 90 minutes cette semaine",
+      "Lister les décisions sorties de cette revue et les planifier"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Quand les priorités changent : crises, deuils, transitions",
+     "objectif": "Adapter le triage aux grands bouleversements de la vie sans tout défaire.",
+     "sections": [
+      "Les événements qui rebattent les priorités",
+      "Le mode urgence généralisée : durée et limites",
+      "Le deuil comme redéfinition forcée des cercles",
+      "Naissance, maladie, chômage, déménagement : recalibrer",
+      "Communiquer la transition à son entourage",
+      "Sortir du mode crise sans perdre les nouvelles clartés"
+     ],
+     "exercices": [
+      "Identifier la dernière grande transition vécue et son impact relationnel",
+      "Écrire un 'protocole de crise personnelle' pour la prochaine épreuve",
+      "Lister les personnes à prévenir en priorité en cas de crise",
+      "Prévoir les rituels de retour à la normale après une période intense"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Laisser partir : les relations qu'on déclasse ou qu'on clôt",
+     "objectif": "Traiter avec humanité les relations qui doivent sortir du système de soin actif.",
+     "sections": [
+      "Toutes les relations ne sont pas faites pour durer",
+      "Le déclassement progressif : une alternative à la rupture",
+      "La clôture explicite quand elle est nécessaire",
+      "Le ghosting : pourquoi il est rarement une solution",
+      "Faire le deuil d'une relation qu'on a soi-même choisie de clore",
+      "La gratitude en fin de lien"
+     ],
+     "exercices": [
+      "Lister trois relations à déclisser progressivement dans les six mois",
+      "Rédiger, pour soi, une lettre de clôture pour une relation terminée en silence",
+      "Identifier un rituel symbolique pour marquer une fin de lien",
+      "Écrire ce qu'on a reçu de la relation et ce qu'on en garde"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Prévenir l'épuisement du soignant",
+     "objectif": "Protéger celui qui trie : le triage n'est soutenable que si le soignant se soigne.",
+     "sections": [
+      "Le syndrome du soignant épuisé en version relationnelle",
+      "Signaux d'alerte personnels : les reconnaître tôt",
+      "Le triage de soi : ses propres besoins comme priorité 0",
+      "Construire son équipe de soutien à soi",
+      "Plages de récupération obligatoires",
+      "Quand consulter un professionnel pour soi"
+     ],
+     "exercices": [
+      "Lister ses 10 signaux d'alerte personnels d'épuisement relationnel",
+      "Identifier trois personnes vers qui se tourner quand on sature",
+      "Bloquer chaque semaine une plage de récupération non négociable",
+      "Écrire son protocole personnel de 'mise en pause' en cas de débordement"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Une vie mieux soignée",
+     "objectif": "Synthétiser la méthode et ouvrir sur une vision apaisée et durable des relations.",
+     "sections": [
+      "Le triage comme hygiène de vie, pas comme discipline de crise",
+      "Ce qui change concrètement après un an de pratique",
+      "Les effets inattendus : des relations plus profondes, pas moins",
+      "Transmettre la méthode sans l'imposer",
+      "Le triage relationnel comme éthique de la finitude",
+      "Ouvrir la porte : et si le soin véritable avait toujours été là ?"
+     ],
+     "exercices": [
+      "Écrire une lettre à son soi d'il y a un an pour raconter le chemin parcouru",
+      "Lister les cinq relations qui se sont approfondies grâce au triage",
+      "Choisir une personne à qui offrir ce livre ou cette méthode",
+      "Rédiger son engagement personnel pour les douze prochains mois"
+     ]
+    }
+   ]
+  }
+ ]
+}

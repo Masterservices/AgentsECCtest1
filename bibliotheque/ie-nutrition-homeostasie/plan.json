@@ -1,0 +1,582 @@
+{
+ "titre": "L'Équilibre vivant",
+ "sous_titre": "Cesser de contrôler, apprendre à revenir — Nutrition et homéostasie",
+ "bibliographie": [
+  {
+   "auteur": "Walter B. Cannon",
+   "titre": "The Wisdom of the Body",
+   "annee": "1932",
+   "idee": "Fonde le concept d'homéostasie : les organismes maintiennent leur milieu interne stable grâce à des mécanismes de rétroaction automatiques.",
+   "apport": "Vocabulaire central du livre (point de consigne, boucle de rétroaction, équilibre dynamique) appliqué à l'alimentation."
+  },
+  {
+   "auteur": "Donella Meadows",
+   "titre": "Thinking in Systems: A Primer",
+   "annee": "2008",
+   "idee": "Les systèmes complexes se régulent par stocks, flux et boucles de rétroaction ; intervenir sur la structure plutôt que sur les chiffres.",
+   "apport": "Cadre systémique pour modéliser le corps comme système et construire des tableaux de bord de signaux."
+  },
+  {
+   "auteur": "Evelyn Tribole & Elyse Resch",
+   "titre": "Intuitive Eating",
+   "annee": "1995 (éd. rév. 2020)",
+   "idee": "Dix principes pour retrouver l'écoute de la faim, de la satiété et du plaisir alimentaire sans régime.",
+   "apport": "Référence pour la réhabilitation des signaux internes (faim, satiété, satisfaction) — nuancée par notre approche."
+  },
+  {
+   "auteur": "Michel Cabanac",
+   "titre": "La Thermodynamique du plaisir",
+   "annee": "1986",
+   "idee": "Le plaisir et le déplaisir sont des signaux biologiques utiles indiquant si un stimulus sert l'homéostasie.",
+   "apport": "Légitime l'usage du plaisir comme signal de régulation, pas comme ennemi de l'équilibre."
+  },
+  {
+   "auteur": "Antonio Damasio",
+   "titre": "L'Erreur de Descartes",
+   "annee": "1994",
+   "idee": "Les marqueurs somatiques guident les décisions ; le corps 'sait' avant la raison.",
+   "apport": "Justifie l'importance des signaux corporels (énergie, humeur, digestion) comme boussole alimentaire."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile",
+   "annee": "2012",
+   "idee": "Certains systèmes profitent des perturbations ; la variabilité modérée renforce.",
+   "apport": "Concept d'attracteur et de variabilité utile : un écart n'est pas un échec, c'est un stress qui renforce le retour."
+  },
+  {
+   "auteur": "Richard Thaler & Cass Sunstein",
+   "titre": "Nudge",
+   "annee": "2008",
+   "idee": "L'architecture des choix influence les comportements plus que la volonté.",
+   "apport": "Design de l'environnement alimentaire pour faciliter le retour à l'équilibre sans effort conscient."
+  },
+  {
+   "auteur": "Robert Sapolsky",
+   "titre": "Why Zebras Don't Get Ulcers",
+   "annee": "1994 (éd. rév. 2004)",
+   "idee": "Le stress chronique dérègle les boucles homéostatiques (cortisol, glycémie, sommeil).",
+   "apport": "Lien stress-alimentation-sommeil ; signaux à surveiller en priorité dans le tableau de bord."
+  },
+  {
+   "auteur": "Peter Attia",
+   "titre": "Outlive",
+   "annee": "2023",
+   "idee": "Médecine 3.0 : personnalisation, mesures continues, prévention active basée sur les signaux individuels.",
+   "apport": "Culture de la mesure personnelle, mais re-cadrée : mesurer pour réguler, pas pour obséder."
+  },
+  {
+   "auteur": "Tim Spector",
+   "titre": "The Diet Myth / Spoon-Fed (Spectrum)",
+   "annee": "2014 / 2020",
+   "idee": "La réponse aux aliments est hautement individuelle, médiée par le microbiote et la génétique.",
+   "apport": "Justifie les points de consigne personnels plutôt que des règles universelles."
+  },
+  {
+   "auteur": "Michael Pollan",
+   "titre": "In Defense of Food",
+   "annee": "2008",
+   "idee": "'Mangez de la nourriture, pas trop, surtout des plantes' — critique du nutritionnisme réductionniste.",
+   "apport": "Garde-fou contre la sur-régulation anxieuse par nutriments ; retour à l'aliment comme objet culturel."
+  },
+  {
+   "auteur": "Linda Bacon",
+   "titre": "Health at Every Size",
+   "annee": "2008 (éd. rév. 2010)",
+   "idee": "La santé peut s'améliorer indépendamment de la perte de poids, en se concentrant sur les comportements.",
+   "apport": "Découple le poids (sortie) des signaux fonctionnels (entrée) dans le tableau de bord."
+  },
+  {
+   "auteur": "C. Peter Herman & Janet Polivy",
+   "titre": "The Boundary Model of Eating (article fondateur)",
+   "annee": "1984",
+   "idee": "Les mangeurs restraint ont des bornes cognitives qui, une fois franchies, déclenchent la désinhibition.",
+   "apport": "Explique l'effet 'foutu pour foutu' et fonde les règles de retour précoces après un écart."
+  },
+  {
+   "auteur": "Jean-Pierre Changeux",
+   "titre": "L'Homme neuronal",
+   "annee": "1983",
+   "idee": "Le cerveau apprend par sélection et stabilisation de circuits ; l'apprentissage est un processus darwinien interne.",
+   "apport": "Fonde la pédagogie du livre : on n'impose pas une règle, on stabilise des boucles qui fonctionnent."
+  },
+  {
+   "auteur": "Kevin D. Hall",
+   "titre": "Travaux sur la modélisation du métabolisme et la perte de poids",
+   "annee": "2011-2019",
+   "idee": "Les modèles mathématiques montrent que le poids répond avec retard et non-linéarité aux changements d'apport.",
+   "apport": "Justifie la patience dans les boucles de rétroaction : ne pas corriger sur un signal bruité."
+  },
+  {
+   "auteur": "Matthieu Ricard & Christophe André",
+   "titre": "Méditer, jour après jour / Trois amis en quête de sagesse",
+   "annee": "2011 / 2015",
+   "idee": "L'attention portée au présent modifie la relation aux envies et aux émotions.",
+   "apport": "Exercices d'attention aux signaux alimentaires sans jugement, pour sortir de la sur-régulation."
+  },
+  {
+   "auteur": "Guyton & Hall (traduction française)",
+   "titre": "Précis de physiologie médicale",
+   "annee": "éditions successives",
+   "idee": "Description détaillée des mécanismes homéostatiques (glycémie, sodium, température, pH).",
+   "apport": "Source factuelle des mécanismes physiologiques sous-jacents aux signaux ressentis."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Penser comme le vivant",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'illusion du thermostat fixe",
+     "objectif": "Déconstruire la croyance qu'une alimentation idéale est une cible rigide à atteindre et maintenir.",
+     "sections": [
+      "Le mythe de la diète parfaite : pourquoi les cibles fixes échouent",
+      "Analogie du thermostat : l'équilibre est un processus, pas un état",
+      "Variabilité normale vs dérive pathologique",
+      "Pourquoi le contrôle externe fatigue et déresponsabilise",
+      "L'homéostasie comme compétence, pas comme règle",
+      "Le contrat du livre : réguler plutôt que contrôler"
+     ],
+     "exercices": [
+      "Lister les 5 règles alimentaires les plus contraignantes suivies au cours des 2 dernières années",
+      "Pour chacune, noter si elle a tenu plus de 6 mois et pourquoi elle a cédé",
+      "Identifier un domaine de la vie où la régulation naturelle fonctionne (sommeil, température) et en tirer un principe"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "L'homéostasie expliquée simplement",
+     "objectif": "Donner une compréhension solide et non technique des mécanismes de régulation du vivant.",
+     "sections": [
+      "Définition : milieu intérieur, consigne, perturbation, correction",
+      "Boucles négatives et boucles positives : ce qui ramène, ce qui amplifie",
+      "Capteurs, intégrateurs, effecteurs : les trois maillons",
+      "Les délais : pourquoi le corps ne réagit pas instantanément",
+      "Le bruit : distinguer signal et variation normale",
+      "Quand l'homéostasie change de consigne : allostatie et dérive"
+     ],
+     "exercices": [
+      "Dessiner une boucle de rétroaction simple pour un comportement alimentaire personnel",
+      "Identifier le capteur, l'intégrateur et l'effecteur dans cette boucle",
+      "Noter le délai moyen entre une perturbation et son ressenti"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Le corps comme système",
+     "objectif": "Appliquer la pensée systémique à l'organisme pour comprendre les interactions entre aliments, énergie, sommeil et humeur.",
+     "sections": [
+      "Stocks et flux : ce qui entre, ce qui sort, ce qui s'accumule",
+      "Boucles de renforcement vs boucles d'équilibrage",
+      "Les points de levier : où agir pour un effet maximal",
+      "Retards et non-linéarités : pourquoi les résultats ne sont pas proportionnels",
+      "L'organisme comme système adaptatif complexe",
+      "Conséquence pratique : moins de variables, mieux choisies"
+     ],
+     "exercices": [
+      "Cartographier ses propres stocks (énergie, masse, humeur, sommeil) et flux associés",
+      "Repérer une boucle de renforcement négative active (ex. sucre → fatigue → sucre)",
+      "Choisir une variable à suivre pendant 14 jours comme proxy du système"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "L'antifragilité alimentaire",
+     "objectif": "Installer l'idée qu'un bon système alimentaire profite des petites perturbations au lieu de les craindre.",
+     "sections": [
+      "Fragile, robuste, antifragile : trois régimes face au désordre",
+      "Pourquoi la variabilité modérée renforce le métabolisme",
+      "L'écart comme information, pas comme faute",
+      "Le danger de la sur-optimisation continue",
+      "Stress hormétique : jeûne court, effort, variation thermique",
+      "Redéfinir la réussite : la vitesse de retour, pas la perfection"
+     ],
+     "exercices": [
+      "Classer ses habitudes alimentaires actuelles sur l'axe fragile/robuste/antifragile",
+      "Introduire une petite variation volontaire cette semaine (repas décalé, portion différente)",
+      "Observer et noter la vitesse de retour à l'état habituel"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Identifier ses points de consigne",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Votre consigne n'est pas celle du voisin",
+     "objectif": "Montrer que les besoins et équilibres sont individuels et évolutifs.",
+     "sections": [
+      "Génétique, microbiote, histoire : les trois couches de l'individu",
+      "Pourquoi les recommandations moyennes trahissent les extrêmes",
+      "L'âge, le sexe, le cycle, la saison : consignes mouvantes",
+      "Culture et plaisir : la consigne n'est pas que biologique",
+      "Apprendre à lire sa propre carte plutôt que celle des autres"
+     ],
+     "exercices": [
+      "Remplir une fiche 'carte personnelle' : antécédents, préférences, contraintes, saisons",
+      "Lister 3 aliments ou habitudes qui fonctionnent chez soi mais pas dans les guides",
+      "Définir 3 périodes types de l'année avec des besoins différents"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Les cinq consignes fondamentales",
+     "objectif": "Définir les cinq grands paramètres à réguler : énergie, masse, glycémie, inflammation, humeur.",
+     "sections": [
+      "Énergie disponible : la vraie monnaie du corps",
+      "Masse et composition : distinguer poids et fonction",
+      "Glycémie et insulinémie : la stabilité invisible",
+      "Inflammation de bas grade : le bruit de fond",
+      "Humeur et cognition : le signal le plus honnête",
+      "Hiérarchiser : on ne peut pas tout optimiser en même temps"
+     ],
+     "exercices": [
+      "Coter de 1 à 10 son état actuel sur chacune des cinq consignes",
+      "Choisir une consigne prioritaire pour les 8 prochaines semaines",
+      "Écrire en une phrase ce que 'être en équilibre' signifie pour cette consigne"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Mesurer sans s'asservir",
+     "objectif": "Apprendre à utiliser les outils de mesure (balances, capteurs, applis) comme serviteurs, pas comme maîtres.",
+     "sections": [
+      "Le paradoxe de la mesure : utile au début, toxique à la longue",
+      "Quand mesurer objectivement, quand s'en tenir au ressenti",
+      "Les outils fiables : balance, tour de taille, glycémie, sommeil",
+      "Les outils pièges : calories, pas, poids quotidien",
+      "Règle du mesureur : une mesure, une fréquence, une décision",
+      "Savoir arrêter de mesurer"
+     ],
+     "exercices": [
+      "Faire l'inventaire de toutes les mesures actuellement suivies",
+      "En supprimer au moins une pendant 30 jours et observer",
+      "Choisir une mesure phare avec fréquence maximale hebdomadaire"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Calibrer son propre zéro",
+     "objectif": "Établir une baseline personnelle à partir de laquelle mesurer les écarts.",
+     "sections": [
+      "Pourquoi la baseline est plus informative que la norme",
+      "Durée minimale d'observation : 2 à 4 semaines",
+      "Variables à suivre pour calibrer : énergie, digestion, sommeil, humeur",
+      "Consigner sans juger : le carnet neutre",
+      "Déterminer sa zone de confort homéostatique",
+      "Réviser sa baseline au fil des saisons"
+     ],
+     "exercices": [
+      "Tenir un carnet neutre pendant 14 jours (4 signaux, 1 ligne chacun)",
+      "Calculer sa baseline personnelle sur chaque signal",
+      "Définir la bande de variation normale autour de cette baseline"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Les consignes mouvantes de la vie",
+     "objectif": "Intégrer que les points de consigne changent avec l'âge, le stress, la maladie, les transitions.",
+     "sections": [
+      "Adolescence, grossesses, ménopause, andropause : les grands resets",
+      "Stress chronique : l'allostatie qui décale la consigne",
+      "Maladie et convalescence : accepter un nouveau temporaire",
+      "Vieillissement : la consigne qui s'élargit",
+      "Savoir quand recalibrer plutôt que forcer l'ancienne consigne"
+     ],
+     "exercices": [
+      "Identifier trois moments de la vie où sa consigne a changé",
+      "Pour chacun, noter comment on a réagi (forcé ou adapté)",
+      "Anticiper le prochain changement probable et préparer une transition"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Construire des signaux de rétroaction utiles",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "La faim comme compas",
+     "objectif": "Réhabiliter la faim comme signal fiable et apprendre à la lire finement.",
+     "sections": [
+      "Faim physiologique vs faim hédonique vs faim émotionnelle",
+      "Les signaux précoces, moyens et tardifs de la faim",
+      "Réapprendre à avoir faim avant de manger",
+      "Quand la faim est brouillée : régimes, stress, sommeil",
+      "Satiété : le signal symétrique à ne pas rater",
+      "Exercice du repas en 20 minutes"
+     ],
+     "exercices": [
+      "Attendre la faim physiologique avant le prochain repas principal",
+      "Coter sa faim de 0 à 10 avant, pendant et après chaque repas pendant 7 jours",
+      "Identifier son point de satiété confortable (7/10) vs plein (10/10)"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "L'énergie, monnaie vraie du corps",
+     "objectif": "Faire de l'énergie ressentie le signal principal de régulation alimentaire.",
+     "sections": [
+      "Énergie brute vs énergie stable : la qualité compte",
+      "Courbe d'énergie type sur 24h et rôle des repas",
+      "Les crashs post-prandiaux comme signal d'alarme",
+      "Caféine, sucre, graisses : leurs signatures énergétiques",
+      "Le signal 'coup de barre de 15h' : information ou fatalité",
+      "Construire son profil énergétique personnel"
+     ],
+     "exercices": [
+      "Tracer sa courbe d'énergie horaire pendant 5 jours ouvrés",
+      "Repérer les repas qui précèdent les crashs",
+      "Tester une modification ciblée et mesurer l'effet sur la courbe"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Le sommeil, juge de paix",
+     "objectif": "Utiliser la qualité du sommeil comme rétroaction globale sur l'alimentation de la journée.",
+     "sections": [
+      "Pourquoi le sommeil intègre tout : repas, stress, alcool, lumière",
+      "Alcool et sommeil : la fausse aide qui coûte cher",
+      "Repas tardifs, digestion et architecture du sommeil",
+      "Caféine et demi-vie : la règle des 10 heures",
+      "Sucre du soir et micro-éveils",
+      "Faire du sommeil le juge quotidien de l'alimentation"
+     ],
+     "exercices": [
+      "Noter chaque matin la qualité du sommeil et le repas de la veille au soir",
+      "Tester 3 dîners différents et comparer le sommeil résultant",
+      "Fixer une heure limite pour la caféine et l'alcool pendant 14 jours"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Digestion, humeur, peau : les signaux lents",
+     "objectif": "Lire les signaux à latence longue que l'on a tendance à ignorer.",
+     "sections": [
+      "Transit : fréquence, consistance, confort",
+      "Ballonnements et reflux : signaux d'inadéquation",
+      "Humeur et brouillard mental : lien alimentaire sous-estimé",
+      "Peau, cheveux, ongles : la mémoire longue du corps",
+      "Douleurs articulaires et inflammation de bas grade",
+      "Tenir un journal des signaux lents"
+     ],
+     "exercices": [
+      "Choisir un signal lent prioritaire et le suivre pendant 30 jours",
+      "Établir des corrélations avec des aliments ou habitudes",
+      "Construire une règle de rétroaction personnelle à partir d'une corrélation stable"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Assembler son tableau de bord",
+     "objectif": "Construire un tableau de bord personnel limité, pertinent et actionnable.",
+     "sections": [
+      "Le principe des 3 à 5 signaux maximum",
+      "Signaux rapides (quotidiens) vs signaux lents (hebdomadaires)",
+      "Format minimaliste : papier, carnet, appli, tableur",
+      "La règle du signal utile : mesurable, stable, actionnable",
+      "Éviter le tableau de bord qui devient une prison",
+      "Réviser son tableau tous les trimestres"
+     ],
+     "exercices": [
+      "Choisir 3 signaux rapides et 2 signaux lents",
+      "Dessiner son tableau de bord sur une page A5",
+      "S'engager à le remplir quotidiennement pendant 21 jours"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — L'attracteur et la correction des dérives",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "L'aimant plutôt que la ligne droite",
+     "objectif": "Remplacer l'idée de trajectoire rectiligne par celle d'attracteur vers lequel on revient.",
+     "sections": [
+      "Pourquoi la ligne droite n'existe pas dans le vivant",
+      "L'attracteur : un état vers lequel le système converge",
+      "La force de rappel : proportionnelle à l'écart",
+      "Trajectoire en spirale : avancer en oscillant",
+      "Accepter l'orbite autour de l'équilibre",
+      "Redéfinir le progrès : moins d'amplitude, retour plus rapide"
+     ],
+     "exercices": [
+      "Dessiner sa trajectoire alimentaire des 6 derniers mois : ligne droite ou spirale ?",
+      "Définir son attracteur actuel en 3 mots",
+      "Identifier la force de rappel principale qui l'y ramène"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Corriger tôt, pas fort",
+     "objectif": "Installer le réflexe de micro-corrections précoces plutôt que de grandes reprises brutales.",
+     "sections": [
+      "Le coût exponentiel des grandes corrections",
+      "La règle du 'prochain repas' : la plus petite unité de retour",
+      "Corriger sans culpabiliser : technique du pilote automatique",
+      "Pourquoi les 'lundi détox' et autres reprises brutales échouent",
+      "Signes précoces de dérive : les 3 alertes à ne pas rater",
+      "Le protocole des 24 heures : revenir sans drame"
+     ],
+     "exercices": [
+      "Définir ses 3 signes précoces de dérive personnels",
+      "Écrire sa règle du prochain repas en une phrase",
+      "Tester le protocole des 24 heures lors du prochain écart"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Seuils de correction : quand agir, quand attendre",
+     "objectif": "Définir des seuils clairs pour éviter à la fois la négligence et la sur-réaction.",
+     "sections": [
+      "Bande de tolérance : zone où l'on ne fait rien",
+      "Seuil d'alerte : on observe et on prépare",
+      "Seuil d'action : on corrige activement",
+      "Seuil de rupture : on revoit la consigne",
+      "Éviter le seuil unique qui rend paranoïaque",
+      "Hiérarchie des seuils selon les consignes"
+     ],
+     "exercices": [
+      "Pour chaque signal du tableau de bord, définir les 4 seuils",
+      "Écrire la réponse associée à chaque seuil",
+      "Tester le système pendant 30 jours et ajuster"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Règles de retour : les algorithmes personnels",
+     "objectif": "Transformer les bonnes intentions en règles if-then exécutables sans réflexion.",
+     "sections": [
+      "La puissance des règles if-then (implémentation d'intentions)",
+      "Structure d'une règle de retour : déclencheur, action, durée",
+      "Exemples de règles efficaces : repas, alcool, sucre, portions",
+      "Règles de contexte : voyage, fête, stress, maladie",
+      "Règles de secours quand la règle principale échoue",
+      "Réviser ses règles sans les multiplier"
+     ],
+     "exercices": [
+      "Écrire 5 règles if-then couvrant les situations courantes",
+      "En tester une par semaine",
+      "Remplacer toute règle qui n'a pas tenu 3 fois"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "L'environnement comme régulateur",
+     "objectif": "Utiliser le design de l'environnement pour faciliter les retours à l'équilibre.",
+     "sections": [
+      "La volonté est une ressource finie : l'environnement doit travailler",
+      "Cuisine, courses, placards : architecture du choix par défaut",
+      "Le principe du 'premier visible, premier choisi'",
+      "Rituels et routines : automatiser le retour",
+      "Entourage social : s'entourer de signaux qui aident",
+      "Numérique : notifications, applis, bloqueurs"
+     ],
+     "exercices": [
+      "Auditer sa cuisine : qu'est-ce qui est visible, accessible, par défaut ?",
+      "Modifier 3 éléments d'architecture cette semaine",
+      "Créer un rituel de retour après écart (ex. marche + infusion + repas léger)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Vivre sans sur-réguler",
+   "chapitres": [
+    {
+     "numero": 20,
+     "titre": "Le piège de la sur-régulation anxieuse",
+     "objectif": "Identifier et désamorcer la dérive orthorexique et l'obsession du contrôle parfait.",
+     "sections": [
+      "Quand la régulation devient une pathologie du contrôle",
+      "Orthorexie, comptage, pureté : les signaux d'alerte",
+      "Le coût mental de la vigilance permanente",
+      "Le paradoxe : trop réguler dérègle",
+      "La règle des 80/20 revisitée : marge structurelle d'imperfection",
+      "Quand consulter : limites du livre"
+     ],
+     "exercices": [
+      "Remplir une grille d'auto-évaluation de la relation à l'alimentation",
+      "Identifier un comportement de sur-régulation à abandonner",
+      "Programmer un repas 'sans règle' par semaine"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Le plaisir comme signal légitime",
+     "objectif": "Réintégrer le plaisir dans le système de régulation au lieu de le combattre.",
+     "sections": [
+      "Plaisir hédonique vs plaisir homéostatique : les deux existent",
+      "Pourquoi interdire le plaisir crée des rebonds",
+      "La satiété sensorielle spécifique : un mécanisme réel",
+      "Apprendre à manger avec tous ses sens",
+      "Le repas partagé comme amplificateur de satisfaction",
+      "Plaisir et santé ne sont pas ennemis"
+     ],
+     "exercices": [
+      "Faire un repas en pleine attention sensorielle (vue, odeur, texture, goût)",
+      "Noter la satiété obtenue vs un repas englouti distraitement",
+      "Identifier 3 aliments 'plaisir vrai' à garder dans la rotation"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Fêtes, voyages, saisons : réguler en contexte",
+     "objectif": "Adapter le système aux contextes où les règles habituelles ne s'appliquent pas.",
+     "sections": [
+      "La fête comme stress test homéostatique utile",
+      "Stratégie de la 'parenthèse assumée' : avant, pendant, après",
+      "Voyage : maintenir les signaux, relâcher les règles",
+      "Saisonnalité : manger avec son environnement",
+      "Ramadan, jeûnes culturels : réguler dans la contrainte choisie",
+      "Le retour au quotidien après une parenthèse"
+     ],
+     "exercices": [
+      "Préparer sa prochaine parenthèse (fête ou voyage) avec 3 règles simples",
+      "Définir son protocole de retour en 24-48h",
+      "Tenir un mini-journal pendant la parenthèse"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Relations, culture et sens",
+     "objectif": "Situer l'alimentation dans ses dimensions sociale, culturelle et existentielle.",
+     "sections": [
+      "Manger est un acte relationnel avant d'être nutritionnel",
+      "Gérer les pressions sociales sans se braquer",
+      "Traditions familiales : garder le sens, adapter la forme",
+      "Éthique, écologie, budget : les autres dimensions de l'assiette",
+      "Spiritualité et alimentation : jeûne, gratitude, rituels",
+      "L'alimentation comme pratique de vie, pas comme projet technique"
+     ],
+     "exercices": [
+      "Lister les 3 dimensions non-nutritionnelles les plus importantes de son alimentation",
+      "Identifier une tradition à préserver et une à adapter",
+      "Instituer un rituel de gratitude ou de pause avant un repas par jour"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Le système vivant : entretenir pour la vie",
+     "objectif": "Consolider la méthode en une pratique durable, évolutive et joyeuse.",
+     "sections": [
+      "Récapitulatif : les 5 piliers de l'équilibre vivant",
+      "La maintenance : revue trimestrielle du système",
+      "Transmettre : expliquer sans imposer",
+      "Vieillir avec son système : les adaptations décennie par décennie",
+      "Quand tout recommencer : les grands resets de la vie",
+      "Épilogue : manger, c'est vivre, pas performer"
+     ],
+     "exercices": [
+      "Écrire sa charte personnelle en 10 principes courts",
+      "Programmer 4 revues trimestrielles dans l'année à venir",
+      "Choisir une personne à qui transmettre un principe du livre"
+     ]
+    }
+   ]
+  }
+ ]
+}
