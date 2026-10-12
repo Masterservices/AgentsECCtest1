@@ -107,8 +107,10 @@ function tiles(e, a) {
   const dia = (e.tokens_dialagram || 0) + diaAtelier + diaBiblio;
   const cla = a.tasks.reduce((s, t) => s + ((t.claude && t.claude.tokens) || 0), 0);
   const share = dia + cla ? (dia / (dia + cla) * 100) : 0;
+  const ie = cat.filter((b) => b.collection === "innovation" || (b.slug || "").startsWith("ie-"));
   const items = [
     ["Livres", fmt(cat.length), `objectif ${fmt(9 + (e.objectif || 0))}`],
+    ["Innovation Engine ⚙", fmt(ie.length), `${fmt(ie.reduce((s, b) => s + (b.pages || 0), 0))} pages réalisées`],
     ["Pages", fmt(cat.reduce((s, b) => s + (b.pages || 0), 0)), "format 6×9 pouces"],
     [`<span class="key" style="background:var(--s-dia)"></span>Tokens Dialagram`, short(dia), "mesurés par l'API"],
     [`<span class="key" style="background:var(--s-cla)"></span>Tokens Claude`, "≈ " + short(cla), "estimés, hors contexte relu"],
@@ -123,7 +125,7 @@ function bars(e) {
   if (!list.length) { $("bars").innerHTML = '<p class="note">Les livres de l\'usine apparaîtront ici dès le premier lot terminé.</p>'; return; }
   const max = list[0].tokens;
   $("bars").innerHTML = list.map((b, i) => `<div class="row" tabindex="0" data-i="${i}" aria-label="${esc(b.titre)} : ${fmt(b.tokens)} tokens">
-      <span class="name">${esc(b.titre)}</span><div class="track"><div class="bar" style="width:${(b.tokens / max * 100).toFixed(1)}%"></div></div><span class="val">${short(b.tokens)}</span></div>`).join("") + '<div class="tip" id="tip" hidden></div>';
+      <span class="name">${(b.collection === "innovation" || (b.slug || "").startsWith("ie-")) ? "⚙ " : ""}${esc(b.titre)}</span><div class="track"><div class="bar" style="width:${(b.tokens / max * 100).toFixed(1)}%"></div></div><span class="val">${short(b.tokens)}</span></div>`).join("") + '<div class="tip" id="tip" hidden></div>';
   const tip = $("tip");
   const show = (row) => {
     const b = list[row.dataset.i];

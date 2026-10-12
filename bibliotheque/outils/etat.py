@@ -95,10 +95,13 @@ def catalogue(faits):
                         "pages": b["pages"], "pdf": chemin})
     except (OSError, KeyError, ValueError):
         pass
-    themes = {x["slug"]: x["theme"] for x in json.load(open(f"{R}/bibliotheque/outils/sujets.json"))}
+    sujets = json.load(open(f"{R}/bibliotheque/outils/sujets.json"))
+    themes = {x["slug"]: x["theme"] for x in sujets}
+    collections = {x["slug"]: x.get("collection", "") for x in sujets}
     for f in sorted(faits, key=lambda x: x["slug"]):
         out.append({"slug": f["slug"], "titre": f["titre"], "sous_titre": f.get("sous_titre", ""),
-                    "theme": themes.get(f["slug"], ""), "pages": f["pages"], "mots": f.get("mots"),
+                    "theme": themes.get(f["slug"], ""), "collection": collections.get(f["slug"], ""),
+                    "pages": f["pages"], "mots": f.get("mots"),
                     "tokens": f.get("tokens_dialagram"), "pdf": f"bibliotheque/{f['slug']}/{f['pdf']}"})
     return out
 

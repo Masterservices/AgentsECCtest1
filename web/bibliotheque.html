@@ -66,7 +66,19 @@ footer { border-top: 1px solid var(--line); padding-top: 18px; font-size: .78rem
     <p>Des livres pratiques sur l'argent, l'entreprise, les compétences et la façon de mener sa vie. Chaque titre se télécharge en PDF, prêt à lire ou à imprimer. La collection s'agrandit chaque jour.</p>
     <div class="stats" id="stats"></div>
   </header>
-  <div class="filter"><input id="q" type="search" placeholder="Chercher un titre ou un thème" aria-label="Chercher un titre ou un thème"></div>
+  <div class="filter" style="display:flex;flex-wrap:wrap;gap:10px;align-items:center">
+    <input id="q" type="search" placeholder="Chercher un titre ou un thème" aria-label="Chercher un titre ou un thème">
+    <div id="chips" style="display:flex;gap:6px;flex-wrap:wrap">
+      <button type="button" data-c="" class="chip on">Tous</button>
+      <button type="button" data-c="ie" class="chip">⚙ Innovation Engine</button>
+      <button type="button" data-c="autres" class="chip">Classiques</button>
+    </div>
+  </div>
+  <style>
+    .chip { font: inherit; font-size:.82rem; cursor:pointer; border:1px solid var(--line); background:var(--panel); color:var(--muted); border-radius:999px; padding:6px 12px; }
+    .chip.on { background:var(--accent); color:var(--accent-ink); border-color:var(--accent); }
+    .badge-ie { display:inline-block; font-size:.68rem; font-weight:700; letter-spacing:.04em; text-transform:uppercase; color:var(--accent); border:1px solid var(--accent); border-radius:999px; padding:1px 8px; margin-left:6px; }
+  </style>
   <main class="shelf" id="shelf"><p class="note">Chargement de la collection…</p></main>
   <footer>
     <span>© 2026 Oussama Ghorbel. Tous droits réservés. Aucune reproduction, même partielle, sans l'autorisation écrite de l'auteur.</span>
@@ -95,16 +107,25 @@ async function charger() {
   return (await r.json()).catalogue;
 }
 
+const isIE = (b) => b.collection === "innovation" || (b.slug || "").startsWith("ie-");
+let COLL = "";   // "" = tous, "ie" = Innovation Engine, "autres" = classiques
+
 function render() {
   const q = document.getElementById("q").value.trim().toLowerCase();
-  const list = BOOKS.filter((b) => !q || (b.titre + " " + b.theme + " " + b.sous_titre).toLowerCase().includes(q));
-  document.getElementById("stats").innerHTML = `<span><b>${BOOKS.length}</b> livres</span><span><b>${fmt(BOOKS.reduce((a, b) => a + (b.pages || 0), 0))}</b> pages</span>`;
+  const list = BOOKS.filter((b) => {
+    if (COLL === "ie" && !isIE(b)) return false;
+    if (COLL === "autres" && isIE(b)) return false;
+    return !q || (b.titre + " " + b.theme + " " + b.sous_titre).toLowerCase().includes(q);
+  });
+  const nIE = BOOKS.filter(isIE).length;
+  document.getElementById("stats").innerHTML = `<span><b>${BOOKS.length}</b> livres</span><span><b>${fmt(BOOKS.reduce((a, b) => a + (b.pages || 0), 0))}</b> pages</span>` + (nIE ? `<span><b>${nIE}</b> Innovation Engine ⚙</span>` : "");
   document.getElementById("shelf").innerHTML = list.map((b) => {
     const [c1, c2] = PAL[hash(b.slug) % PAL.length];
+    const badge = isIE(b) ? '<span class="badge-ie">Innovation Engine</span>' : "";
     return `<article class="book">
       <div class="cover" style="--c1:${c1};--c2:${c2}" aria-hidden="true"><span class="col">Bibliothèque O. Ghorbel</span><span class="t">${esc(b.titre)}</span><span class="a">Oussama Ghorbel</span></div>
       <div class="info">
-        <span class="eyebrow">${esc(b.theme)}</span><h2>${esc(b.titre)}</h2><p class="sub">${esc(b.sous_titre)}</p>
+        <span class="eyebrow">${esc(b.theme)}${badge}</span><h2>${esc(b.titre)}</h2><p class="sub">${esc(b.sous_titre)}</p>
         <div class="meta"><span><b>${b.pages}</b> pages</span>${b.mots ? `<span><b>${fmt(b.mots)}</b> mots</span>` : ""}</div>
         <a class="dl" href="${pdfUrl(b.pdf)}" target="_blank" rel="noopener">${ICON}Télécharger le PDF</a>
       </div></article>`;
@@ -112,6 +133,12 @@ function render() {
 }
 
 document.getElementById("q").addEventListener("input", render);
+document.getElementById("chips").addEventListener("click", (e) => {
+  const b = e.target.closest("button[data-c]"); if (!b) return;
+  COLL = b.dataset.c;
+  document.querySelectorAll("#chips .chip").forEach((x) => x.classList.toggle("on", x === b));
+  render();
+});
 charger().then((c) => { BOOKS = c || []; render(); })
   .catch(() => { document.getElementById("shelf").innerHTML = '<p class="note">La collection n\'a pas pu être chargée. Rechargez la page dans un instant.</p>'; });
 </script>
