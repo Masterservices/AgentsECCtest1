@@ -100,12 +100,32 @@ details.form summary { padding: 10px 12px; font-weight: 600; font-size: .9rem; c
       <h1>Atelier Dialagram</h1>
       <p>Les livres de la Bibliothèque Oussama Ghorbel sont écrits par Qwen via Dialagram, puis relus par Claude. Cette page suit l'usine en direct et donne accès aux PDF.</p>
     </div>
-    <nav class="tabs" aria-label="Pages"><a href="index.html" aria-current="page">Atelier</a><a href="bibliotheque.html">Bibliothèque</a><a href="tableau.html">Tableau de bord</a></nav>
+    <nav class="tabs" aria-label="Pages"><a href="index.html" aria-current="page">Atelier</a><a href="bibliotheque.html">Bibliothèque</a><a href="tableau.html">Tableau de bord</a><a href="#apps">Applications</a></nav>
   </header>
 
   <section class="panel" id="direct" aria-live="polite">
     <header><h2><span class="dot" id="lDot"></span>En direct : usine de la bibliothèque</h2><span class="muted" style="font-size:.8rem" id="lMaj">Connexion…</span></header>
+    <div class="msg" style="margin-bottom:10px"><b>Dernière mission :</b> <span id="lastMission">—</span></div>
     <div id="live"><div class="msg">Lecture de l'état de l'usine…</div></div>
+  </section>
+
+  <section class="panel" id="apps">
+    <header><h2>Applications Dialagram</h2></header>
+    <p class="muted" style="font-size:.85rem;margin:.2em 0 1em">Les outils web produits dans l'atelier, accessibles directement.</p>
+    <div class="grid">
+      <article class="card">
+        <span class="stage st-fini">Webapp</span>
+        <h3>MELOLANG — Générateur de langue & chanson</h3>
+        <div class="figs">Inventez une langue, forgez son dictionnaire et générez des paroles (aléatoires ou par thème) prêtes pour Suno.</div>
+        <a class="dl" href="apps/melolang.html" target="_blank" rel="noopener">Ouvrir MELOLANG →</a>
+      </article>
+      <article class="card">
+        <span class="stage st-fini">Webapp</span>
+        <h3>Innovation Engine — Moteur d'idées</h3>
+        <div class="figs">Combine objets, méthodes et principes pour générer des idées innovantes notées et traçables.</div>
+        <a class="dl" href="apps/innovation-engine.html" target="_blank" rel="noopener">Ouvrir Innovation Engine →</a>
+      </article>
+    </div>
   </section>
 
   <section class="panel" id="demandes">
@@ -179,6 +199,14 @@ function renderLive(e, demandes) {
   const vivant = usineActive || actives.length;
   $("lDot").className = "dot" + (vivant ? " on" : "");
   $("lMaj").textContent = (actives.length ? `${actives.length} demande${actives.length > 1 ? "s" : ""} en cours · ` : usineActive ? "Usine en cours · " : "En pause · ") + "mis à jour " + ago(e.maj);
+  // dernière mission : d'abord un livre en cours, sinon le dernier terminé du catalogue
+  const encProg = (e.lot || []).filter((b) => b.etape !== "terminé");
+  const finProg = (e.lot || []).filter((b) => b.etape === "terminé");
+  const cat = e.catalogue || [];
+  const lm = $("lastMission");
+  if (lm) lm.textContent = (usineActive && encProg.length) ? `✍️ En cours — ${encProg[0].titre || encProg[0].slug}`
+    : finProg.length ? `✅ Terminé — ${finProg[finProg.length - 1].titre || finProg[finProg.length - 1].slug}`
+    : cat.length ? `📘 Dernier livre — ${cat[cat.length - 1].titre}` : "—";
   const done = BASE + e.termines, total = BASE + e.objectif;
 
   const carteDemande = (d) => {

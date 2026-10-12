@@ -155,8 +155,25 @@ footer{font-size:.78rem;color:var(--muted);border-top:1px solid var(--line);padd
   <!-- 6 CHANSON -->
   <section class="panel" data-panel="5">
     <h2>Atelier chanson</h2>
-    <p class="note">Tapez vos paroles en français. MELOLANG les écrit <b>entièrement dans votre langue</b> : les mots manquants sont forgés automatiquement et ajoutés au dictionnaire. Vous obtenez une version chantable (à coller dans Suno) et sa transcription phonétique.</p>
-    <label>Paroles en français<textarea id="songFr" placeholder="Exemple :&#10;la lumière danse&#10;je chante la nuit"></textarea></label>
+    <p class="note">Laissez MELOLANG <b>composer les paroles</b> (au hasard ou selon un thème), ou tapez les vôtres en français. Dans tous les cas, elles sont réécrites <b>entièrement dans votre langue</b> (mots manquants forgés et ajoutés au dictionnaire), avec une version chantable pour Suno et sa transcription phonétique.</p>
+    <div class="actions" style="flex-wrap:wrap;gap:8px;align-items:center">
+      <label style="margin:0">Thème
+        <select id="songTheme">
+          <option value="aleatoire">🎲 Aléatoire</option>
+          <option value="amour">Amour</option>
+          <option value="nature">Nature</option>
+          <option value="nuit">Nuit & rêve</option>
+          <option value="fete">Fête & danse</option>
+          <option value="melancolie">Mélancolie</option>
+          <option value="liberte">Liberté</option>
+          <option value="voyage">Voyage</option>
+          <option value="espoir">Espoir</option>
+          <option value="sacre">Sacré & mystique</option>
+        </select>
+      </label>
+      <button class="btn" id="goGen" type="button">✨ Générer des paroles</button>
+    </div>
+    <label>Paroles en français<textarea id="songFr" placeholder="Exemple :&#10;la lumière danse&#10;je chante la nuit&#10;&#10;…ou cliquez « Générer des paroles »."></textarea></label>
     <div class="actions"><button class="btn" id="goTrad">Écrire dans la langue</button></div>
     <div class="lyrbox" id="lyrOut"></div>
     <h2 style="margin-top:8px">Prompt + paroles pour Suno</h2>
@@ -394,6 +411,38 @@ function renderGram(){
   L.grammaire=Object.fromEntries(rules);
   $('#gramBox').innerHTML=rules.map(([k,v])=>`<div><span class="pill">${esc(k)}</span> ${esc(v)}</div>`).join("");
 }
+
+/* ---------- génération de paroles françaises (locale, par thème ou au hasard) ---------- */
+const THEMES={
+  amour:{n:["ton cœur","mes bras","un baiser","ta voix","la flamme","nos mains","le désir","ton regard"],v:["je t'aime","tu danses","je rêve de toi","nos cœurs battent","je te cherche","tu m'emportes","je te garde"],a:["doux","brûlant","infini","fragile","tendre"]},
+  nature:{n:["le vent","la rivière","les arbres","le ciel","la montagne","la pluie","la terre","les oiseaux"],v:["le vent chante","la rivière coule","les arbres dansent","je marche au loin","la pluie tombe","le soleil se lève"],a:["sauvage","immense","vert","libre","calme"]},
+  nuit:{n:["la lune","les étoiles","le silence","un rêve","l'ombre","la nuit","le sommeil"],v:["je rêve encore","les étoiles brillent","la nuit tombe","je ferme les yeux","le silence chante","je flotte au loin"],a:["sombre","profond","étoilé","secret","lointain"]},
+  fete:{n:["la danse","la musique","la foule","les lumières","la fête","le rythme","la joie"],v:["on danse ensemble","la musique monte","lève les mains","le rythme bat","on crie de joie","la nuit s'enflamme"],a:["fou","électrique","brûlant","vivant","rapide"]},
+  melancolie:{n:["la pluie","le vide","un souvenir","les larmes","le gris","l'absence","le temps"],v:["je pleure encore","le temps s'enfuit","je me souviens","tout s'efface","je reste seul","le vide m'appelle"],a:["triste","gris","perdu","froid","lointain"]},
+  liberte:{n:["le ciel","la route","mes ailes","le vent","l'horizon","la vie","mes pas"],v:["je m'envole","je cours au loin","rien ne m'arrête","je brise les chaînes","je respire enfin","j'ouvre les bras"],a:["libre","immense","ouvert","fort","vivant"]},
+  voyage:{n:["la route","la mer","un train","l'horizon","les villes","le monde","le départ"],v:["je pars au loin","la mer m'appelle","je traverse le monde","je cherche ailleurs","le train s'en va","je reviens un jour"],a:["lointain","nouveau","vaste","inconnu","doré"]},
+  espoir:{n:["la lumière","demain","un rêve","le soleil","l'avenir","la force","un matin"],v:["je crois encore","demain nous attend","la lumière revient","je me relève","tout peut changer","je garde l'espoir"],a:["clair","nouveau","fort","doux","brillant"]},
+  sacre:{n:["le ciel","la flamme","l'esprit","le silence","l'éternel","la voix","le temple"],v:["je t'élève","la flamme veille","l'esprit s'éveille","je prie en silence","la voix résonne","le ciel écoute"],a:["sacré","éternel","pur","profond","ancien"]}
+};
+function ligne(t){ const r=Math.random();
+  if(r<.34) return pick(t.v);
+  if(r<.67) return `${pick(t.n)} ${pick(t.a)}`;
+  return `dans ${pick(t.n)}`;
+}
+function genererParoles(cle){
+  if(cle==="aleatoire") cle=pick(Object.keys(THEMES));
+  const t=THEMES[cle];
+  const couplet=()=>Array.from({length:4},()=>ligne(t)).join("\n");
+  const refrain=[`${pick(t.v)}`,`${pick(t.n)} ${pick(t.a)}`,`${pick(t.v)}`].join("\n");
+  return {cle, txt:[couplet(), refrain, couplet(), refrain].join("\n\n")};
+}
+$('#goGen').addEventListener('click',()=>{
+  if(!L){$('#msg6').innerHTML='<span class="err">Créez d\'abord une langue (étapes 1 à 5).</span>';return;}
+  const {cle,txt}=genererParoles($('#songTheme').value);
+  $('#songFr').value=txt;
+  $('#msg6').innerHTML=`<span class="ok">Paroles générées (thème : ${cle}).</span> Réécriture dans ${esc(L.nom)}…`;
+  $('#goTrad').click();   // enchaîne la réécriture dans la langue + le prompt Suno
+});
 
 /* ---------- chanson : paroles entières dans la langue + phonétique ---------- */
 $('#goTrad').addEventListener('click',()=>{
