@@ -151,6 +151,7 @@ const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const fmt = (n) => Number(n || 0).toLocaleString("fr-FR");
 const raw = (branch, path) => `https://raw.githubusercontent.com/${OWNER}/${REPO}/${branch}/${path.split("/").map(encodeURIComponent).join("/")}`;
+const pdfUrl = (p) => location.hostname.endsWith("netlify.app") ? "pdf/" + p.split("/").map(encodeURIComponent).join("/") : raw(LIVRES, p);
 let catalogue = [];
 
 async function lireEtat() {
@@ -186,20 +187,34 @@ function renderLive(e, demandes) {
       <div class="figs">Demande n° ${d.numero} · ${new Date(d.date).toLocaleDateString("fr-FR")}</div>
       <a href="${d.lien}"${d.lien.startsWith("#") ? "" : ' target="_blank" rel="noopener"'}>Suivre la demande</a></article>`;
   };
-  // n'afficher les livres de l'usine en direct que si elle tourne encore (sinon ils sont déjà dans la Bibliothèque)
-  const livres = usineActive ? (e.lot || []).map((b) => {
+  // carte d'un livre en cours de fabrication (plan / rédaction / rectification / mise en page)
+  const carteEnCours = (b) => {
     const [cls, lab] = STAGE[b.etape] || ["st-plan", b.etape];
-    const figs = b.etape === "terminé" ? `${b.pages || "?"} pages · ${fmt(b.mots)} mots`
-      : b.etape === "rectification" ? `${b.chapitres_rectifies}/${b.chapitres_total} chapitres rectifiés · ${fmt(b.mots)} mots`
+    const figs = b.etape === "rectification" ? `${b.chapitres_rectifies}/${b.chapitres_total} chapitres rectifiés · ${fmt(b.mots)} mots`
       : `${b.chapitres_ecrits}/${b.chapitres_total} chapitres écrits · ${fmt(b.mots)} mots`;
     const prompts = (b.prompts || []).length ? `<details><summary>Prompts en cours chez Dialagram (${b.prompts.length})</summary>${b.prompts.map((p) => `<pre>${esc(p)}</pre>`).join("")}</details>` : "";
     return `<article class="card"><span class="stage ${cls}">${esc(lab)}</span><h3>${esc(b.titre || b.slug)}</h3><div class="figs">${figs}</div>
       ${(b.journal || []).length ? `<div class="journal">${b.journal.map(esc).join("<br>")}</div>` : ""}${prompts}</article>`;
-  }).join("") : "";
+  };
+  // carte d'un livre tout juste terminé, avec lien PDF téléchargeable (chemin pris dans le catalogue)
+  const catPdf = {}; (e.catalogue || []).forEach((c) => { if (c.pdf) catPdf[c.slug] = c.pdf; });
+  const carteFini = (b) => {
+    const pdf = catPdf[b.slug];
+    const dl = pdf ? `<a class="dl" href="${pdfUrl(pdf)}" target="_blank" rel="noopener">⬇ Télécharger le PDF</a>` : `<span class="figs">PDF en cours de publication…</span>`;
+    return `<article class="card"><span class="stage st-fini">Terminé</span><h3>${esc(b.titre || b.slug)}</h3>
+      <div class="figs">${b.pages || "?"} pages · ${fmt(b.mots)} mots</div>${dl}</article>`;
+  };
+  // n'afficher les livres de l'usine que si elle tourne encore (sinon ils sont déjà dans la Bibliothèque)
+  const lot = usineActive ? (e.lot || []) : [];
+  const enCours = lot.filter((b) => b.etape !== "terminé");
+  const finis = lot.filter((b) => b.etape === "terminé");
 
   const blocs = [];
+  // 1) EN COURS en haut : demandes actives puis livres en fabrication
   if (actives.length) blocs.push(`<div class="lab">Demandes en cours et en attente</div><div class="grid">${actives.map(carteDemande).join("")}</div>`);
-  if (livres) blocs.push(`<div class="lab">Usine de la bibliothèque</div><div class="grid">${livres}</div>`);
+  if (enCours.length) blocs.push(`<div class="lab">Usine — en cours (${enCours.length})</div><div class="grid">${enCours.map(carteEnCours).join("")}</div>`);
+  // 2) TRAVAUX FAITS DERNIÈREMENT en bas, avec PDF téléchargeables
+  if (finis.length) blocs.push(`<div class="lab">Travaux faits dernièrement (${finis.length})</div><div class="grid">${finis.map(carteFini).join("")}</div>`);
   if (!blocs.length) blocs.push('<div class="msg">Rien en cours pour l\'instant. Envoyez une demande ci-dessous : elle s\'affichera ici pendant son traitement.</div>');
 
   $("live").innerHTML = `<div style="display:grid;gap:12px">
