@@ -1,0 +1,589 @@
+{
+ "titre": "Le Deuil par percolation",
+ "sous_titre": "Quand la guérison s'infiltre au lieu de suivre une route — repérer ses canaux, reconnaître ses seuils, accepter ses rechutes",
+ "bibliographie": [
+  {
+   "auteur": "Elisabeth Kübler-Ross",
+   "titre": "Les derniers instants de la vie (On Death and Dying)",
+   "annee": "1969",
+   "idee": "Modèle des cinq étapes du deuil (déni, colère, marchandage, dépression, acceptation) initialement décrit chez les mourants, puis étendu aux endeuillés.",
+   "apport": "Point de départ historique à inverser : notre livre montrera que ces 'étapes' sont des états coexistants et non une séquence obligatoire."
+  },
+  {
+   "auteur": "Elisabeth Kübler-Ross & David Kessler",
+   "titre": "On Grief and Grieving",
+   "annee": "2005",
+   "idee": "Adaptation des cinq étapes au deuil proprement dit, avec des nuances sur la circularité des émotions.",
+   "apport": "Reconnaissance implicite par les auteurs eux-mêmes que le modèle linéaire est insuffisant — à exploiter comme preuve interne."
+  },
+  {
+   "auteur": "David Kessler",
+   "titre": "Finding Meaning — The Sixth Stage of Grief",
+   "annee": "2019",
+   "idee": "Ajout d'une sixième étape, la recherche de sens, comme condition de la pacification durable.",
+   "apport": "La notion de 'sens' rejoint notre idée de réseau qui se connecte ; nous la reformulerons en 'seuil de percolation du sens'."
+  },
+  {
+   "auteur": "J. William Worden",
+   "titre": "Grief Counseling and Grief Therapy",
+   "annee": "1982 (rééd. 2018)",
+   "idee": "Quatre tâches du deuil (accepter la réalité, traiter la douleur, s'adapter, réinvestir) conçues comme actives et non passives.",
+   "apport": "Le passage d'étapes subies à des tâches actives prépare notre idée de 'canaux' que l'on peut ouvrir ou fermer."
+  },
+  {
+   "auteur": "Margaret Stroebe & Henk Schut",
+   "titre": "The Dual Process Model of Coping with Bereavement",
+   "annee": "1999",
+   "idee": "Le deuil oscille entre orientation vers la perte et orientation vers la restauration ; l'oscillation est saine.",
+   "apport": "Fournit le socle scientifique de la non-linéarité ; notre livre y ajoutera la multiplicité des canaux et le seuil critique."
+  },
+  {
+   "auteur": "Robert A. Neimeyer (dir.)",
+   "titre": "Meaning Reconstruction and the Experience of Loss",
+   "annee": "2001",
+   "idee": "Le deuil est une reconstruction narrative du sens après rupture biographique.",
+   "apport": "Le 'réseau de sens qui se reconnecte' est notre reformulation physique de la reconstruction narrative."
+  },
+  {
+   "auteur": "Thomas Attig",
+   "titre": "How We Grieve — Relearning the World",
+   "annee": "1996",
+   "idee": "Le deuil est un réapprentissage du monde, pas une maladie à guérir.",
+   "apport": "Justifie nos exercices pratiques : on peut s'entraîner à réapprendre comme on s'entraîne à un geste."
+  },
+  {
+   "auteur": "Lois Tonkin",
+   "titre": "Growing Around Grief (article et modèle circulaire)",
+   "annee": "1996",
+   "idee": "Le deuil ne rétrécit pas, c'est la vie qui grandit autour de lui.",
+   "apport": "Image fondatrice pour notre chapitre sur l'expansion du réseau après seuil de percolation."
+  },
+  {
+   "auteur": "John Bowlby",
+   "titre": "Attachment and Loss — vol. III : Loss",
+   "annee": "1980",
+   "idee": "Le deuil est la conséquence de la rupture d'un lien d'attachement structurant.",
+   "apport": "Les 'canaux' sont les voies par lesquelles l'attachement persiste ou se transforme ; nous cartographierons ces voies."
+  },
+  {
+   "auteur": "Colin Murray Parkes",
+   "titre": "Bereavement — Studies of Grief in Adult Life",
+   "annee": "1972",
+   "idee": "Études longitudinales montrant l'hétérogénéité des trajectoires de deuil et l'existence de deuils compliqués.",
+   "apport": "Données empiriques sur la variabilité des parcours, appui à notre thèse anti-linéaire."
+  },
+  {
+   "auteur": "Christophe Fauré",
+   "titre": "Le Deuil, entre souffrance et renaissance",
+   "annee": "2015",
+   "idee": "Approche clinique française intégrant psychiatrie, spiritualité et accompagnement ; insiste sur le temps long.",
+   "apport": "Ressource francophone pour ancrer le livre dans la culture du lectorat cible ; prudence sur la médicalisation."
+  },
+  {
+   "auteur": "Michel Hanus",
+   "titre": "Les Deuils de la vie — pertes et séparations",
+   "annee": "2001",
+   "idee": "Élargit le deuil au-delà de la mort : séparations, échecs, pertes symboliques.",
+   "apport": "Permet d'étendre notre livre à tous les deuils (pas uniquement mortuaires), ce qui élargit le lectorat."
+  },
+  {
+   "auteur": "Bessel van der Kolk",
+   "titre": "The Body Keeps the Score",
+   "annee": "2014",
+   "idee": "Le traumatisme et la perte s'inscrivent dans le corps ; la guérison passe par des voies corporelles.",
+   "apport": "Justifie les canaux corporels (gestes, respiration, marche) et les rituels d'infiltration somatique."
+  },
+  {
+   "auteur": "Francis Weller",
+   "titre": "The Wild Edge of Sorrow",
+   "annee": "2015",
+   "idee": "Cinq 'portes' du deuil : tout ce que l'on aime, les lieux non aimés de soi, les ancêtres, ce qui était attendu et n'est pas venu, le lien au vivant.",
+   "apport": "Structure de canaux multiples qui rejoint directement notre typologie ; nous en ferons une version opérationnelle."
+  },
+  {
+   "auteur": "C. S. Lewis",
+   "titre": "A Grief Observed (Journal de deuil)",
+   "annee": "1961",
+   "idee": "Témoignage brut montrant que le deuil n'est ni linéaire ni prévisible, mais fait de retours, de spirales, de surprises.",
+   "apport": "Source narrative pour incarner la non-linéarité ; citations courtes possibles (domaine public limité, prudence)."
+  },
+  {
+   "auteur": "Joan Didion",
+   "titre": "The Year of Magical Thinking",
+   "annee": "2005",
+   "idee": "Récit d'une année de deuil où la pensée magique, les objets, les lieux jouent un rôle central de canal.",
+   "apport": "Illustre parfaitement nos 'canaux de diffusion' par les objets et les rituels quotidiens."
+  },
+  {
+   "auteur": "Roland Barthes",
+   "titre": "Journal de deuil",
+   "annee": "2009 (posthume, notes 1977-1979)",
+   "idee": "Notation jour après jour d'un deuil maternel fait de micro-états, sans progression claire.",
+   "apport": "Modèle littéraire du 'carnet de canaux' que nous proposerons en exercice."
+  },
+  {
+   "auteur": "Broadbent & Hammersley (référence physique)",
+   "titre": "Percolation processes (articles fondateurs)",
+   "annee": "1957",
+   "idee": "Formalisation mathématique de la percolation : un fluide traverse un milieu aléatoire au-delà d'un seuil critique.",
+   "apport": "Métaphore structurante du livre ; nous traduirons le vocabulaire (nœuds, liens, seuil, amas géant) en langage psychologique."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Défaire le mythe de la route ordonnée",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le mythe des cinq étapes : d'où il vient, pourquoi il nous trahit",
+     "objectif": "Déconstruire l'attente d'une progression linéaire et libérer le lecteur de la culpabilité de 'mal faire' son deuil.",
+     "sections": [
+      "1.1. La vraie histoire de Kübler-Ross : des mourants, pas des endeuillés",
+      "1.2. Comment la culture pop a transformé une hypothèse en dogme",
+      "1.3. Les dégâts du modèle linéaire : honte, impatience, faux diagnostics",
+      "1.4. Ce que dit vraiment la recherche depuis cinquante ans",
+      "1.5. Pourquoi notre cerveau préfère les étapes aux réseaux",
+      "1.6. Trois récits courts de deuils 'hors cases'"
+     ],
+     "exercices": [
+      "Auto-diagnostic : quelles étapes m'a-t-on imposées ou me suis-je imposées ?",
+      "Lettre de décharge : je m'autorise à ne pas suivre le programme",
+      "Liste des injonctions reçues ('tu devrais en être à...')"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Le deuil n'est pas un voyage, c'est un milieu",
+     "objectif": "Installer la métaphore du milieu poreux plutôt que celle du chemin, pour préparer la percolation.",
+     "sections": [
+      "2.1. Voyage, tunnel, montagne : les trois métaphores usées",
+      "2.2. Ce qu'est un milieu poreux (image de l'éponge, de la roche, du sol)",
+      "2.3. Le deuil comme écosystème intérieur à explorer, pas à traverser",
+      "2.4. Ce que change le regard : du progrès à la texture",
+      "2.5. Petits récits : quand on arrête de compter les jours"
+     ],
+     "exercices": [
+      "Dessiner son milieu de deuil (carte libre, sans consigne de forme)",
+      "Nommer cinq 'matières' qui le composent aujourd'hui",
+      "Journal : une semaine sans se demander 'où j'en suis'"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "L'oscillation saine : le modèle à deux pôles",
+     "objectif": "Présenter le Dual Process Model comme alternative scientifique validée à la linéarité.",
+     "sections": [
+      "3.1. Stroebe et Schut : les deux orientations (perte / restauration)",
+      "3.2. Pourquoi l'oscillation est un signe de santé, pas d'échec",
+      "3.3. Les profils : trop de perte, trop de restauration, l'équilibre mouvant",
+      "3.4. Ce que ce modèle ne dit pas encore (et que nous allons ajouter)",
+      "3.5. Transition : de l'oscillation à la diffusion"
+     ],
+     "exercices": [
+      "Grille hebdomadaire perte / restauration sur 4 semaines",
+      "Identifier son biais dominant et ses signaux d'alerte",
+      "Programmer volontairement une micro-bascule par jour"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "La percolation : une métaphore venue de la physique",
+     "objectif": "Introduire le concept central du livre dans un langage accessible et juste.",
+     "sections": [
+      "4.1. Qu'est-ce que la percolation ? (café, pluie dans le sol, rumeurs)",
+      "4.2. Nœuds, liens, seuil, amas géant : le vocabulaire traduit",
+      "4.3. Le seuil critique : pourquoi tout bascule d'un coup",
+      "4.4. Ce que la physique ne dit pas (et que l'humain ajoute)",
+      "4.5. Premières intuitions : où avez-vous déjà vécu une percolation ?",
+      "4.6. Promesse du livre et limites : ce que cette métaphore éclaire, ce qu'elle cache"
+     ],
+     "exercices": [
+      "Inventaire de trois percolations déjà vécues (amour, apprentissage, deuil)",
+      "Schéma personnel : mes nœuds, mes liens manquants",
+      "Engagement : tenir le carnet de canaux pendant toute la lecture"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Cartographier ses canaux de diffusion",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Les canaux sensoriels : quand le corps infiltre avant l'esprit",
+     "objectif": "Montrer que le corps est un premier canal majeur, souvent ignoré par les modèles verbaux du deuil.",
+     "sections": [
+      "5.1. Le corps qui garde le score : mémoire implicite de la perte",
+      "5.2. Odeurs, voix, textures : les déclencheurs discrets",
+      "5.3. Fatigues, douleurs, insomnies : le deuil qui parle autrement",
+      "5.4. Ouvrir le canal sans se noyer : la fenêtre de tolérance",
+      "5.5. Trois pratiques corporelles douces",
+      "5.6. Pièges : quand le corps devient seul canal (somatisations)"
+     ],
+     "exercices": [
+      "Scan corporel quotidien en 5 minutes (grille simple)",
+      "Cartographie : quelles zones de mon corps parlent de la perte ?",
+      "Micro-rituel sensoriel du matin (un sens par jour pendant 7 jours)"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Les canaux des lieux : habiter autrement les espaces communs",
+     "objectif": "Explorer comment les lieux agissent comme réservoirs et diffuseurs du deuil.",
+     "sections": [
+      "6.1. La chambre, la cuisine, la rue : géographie intime de la perte",
+      "6.2. Les lieux évités, les lieux sacralisés, les lieux neutres",
+      "6.3. Déménager, réaménager, voyager : changer de milieu",
+      "6.4. Les lieux nouveaux comme canaux d'infiltration fraîche",
+      "6.5. Le cimetière et les lieux de mémoire : y aller ou pas ?",
+      "6.6. Limites : quand le lieu devient piège"
+     ],
+     "exercices": [
+      "Carte subjective de ses lieux (3 couleurs : doux / neutre / brûlant)",
+      "Réaménager un coin de sa maison cette semaine",
+      "Visite consciente d'un lieu nouveau avec carnet"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Les canaux des objets : ce qui reste, ce qui circule",
+     "objectif": "Traiter la question concrète et douloureuse des affaires du disparu ou du passé perdu.",
+     "sections": [
+      "7.1. Les objets-totems et les objets-fardeaux",
+      "7.2. Trier, garder, donner, brûler : quatre gestes, quatre effets",
+      "7.3. Les vêtements, les lettres, les messages numériques",
+      "7.4. Créer un objet-transition à partir de plusieurs",
+      "7.5. L'objet qui change de sens avec le temps",
+      "7.6. Quand l'objet devient canal pour les autres (famille, enfants)"
+     ],
+     "exercices": [
+      "Inventaire raisonné en 4 piles (garder / transmettre / archiver / lâcher)",
+      "Choisir un objet à transformer en rituel",
+      "Écrire une lettre à un objet avant de s'en séparer"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Les canaux des gestes et des rituels",
+     "objectif": "Montrer que les gestes répétés créent des micro-canaux qui finissent par percoler.",
+     "sections": [
+      "8.1. Pourquoi le geste infiltre là où la pensée bloque",
+      "8.2. Rituels privés vs rituels collectifs : ce que chacun apporte",
+      "8.3. Inventer ses propres rituels sans trahir les traditions",
+      "8.4. Gestes quotidiens, gestes calendaires, gestes d'exception",
+      "8.5. Le risque du rituel vide ou du rituel piège",
+      "8.6. Trois rituels d'infiltration éprouvés en accompagnement"
+     ],
+     "exercices": [
+      "Concevoir un rituel du matin de moins de 3 minutes",
+      "Un rituel mensuel ancré à une date symbolique",
+      "Un rituel d'anniversaire de la perte"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Les canaux des mots, des images et des récits",
+     "objectif": "Traiter les canaux symboliques : écriture, parole, dessin, musique.",
+     "sections": [
+      "9.1. Écrire pour infiltrer : journal, lettres, fictions",
+      "9.2. Parler : à qui, quand, combien de temps ?",
+      "9.3. Images, dessins, collages : quand les mots manquent",
+      "9.4. Musique, films, lectures : les canaux reçus d'autrui",
+      "9.5. Le piège du récit figé et la force du récit mobile",
+      "9.6. Numérique : messages, photos, réseaux sociaux"
+     ],
+     "exercices": [
+      "Lettre non envoyée (une par mois pendant 3 mois)",
+      "Carnet de canaux : une page par jour, sans obligation de texte",
+      "Constituer une playlist de 10 morceaux 'compagnons'"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Le tamis : ce qui filtre, ce qui retient, ce qui passe",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "Le tamis du temps : patience, lenteur, accélérations",
+     "objectif": "Décrire le rôle du temps comme filtre actif et non comme simple écoulement.",
+     "sections": [
+      "10.1. Le temps ne guérit rien tout seul : ce que dit la clinique",
+      "10.2. Les temps morts, les temps denses, les temps troués",
+      "10.3. Dates anniversaires : embuscades et occasions",
+      "10.4. Saisons, années, générations : les échelles du tamis",
+      "10.5. Impatience de soi et impatience des autres",
+      "10.6. Accélérations soudaines : quand le tamis cède"
+     ],
+     "exercices": [
+      "Calendrier personnel des dates sensibles sur 12 mois",
+      "Préparer chaque date sensible 15 jours à l'avance",
+      "Lettre à soi-même dans 1 an (à rouvrir)"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Le tamis des relations : qui laisse passer, qui retient",
+     "objectif": "Analyser le rôle filtrant de l'entourage : alliés, absents, toxiques.",
+     "sections": [
+      "11.1. Les vrais présents et les faux présents",
+      "11.2. Les phrases qui bloquent la percolation",
+      "11.3. Les amis silencieux qui laissent passer",
+      "11.4. Les professionnels : quand les consulter, que leur demander",
+      "11.5. Communautés, groupes de parole, pairs endeuillés",
+      "11.6. Protéger son tamis sans s'isoler"
+     ],
+     "exercices": [
+      "Carte de son entourage en 4 cercles (ressource / neutre / drainant / à距离)",
+      "Préparer 3 phrases types pour répondre aux intrusions",
+      "Identifier une personne à qui demander une aide précise cette semaine"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Le tamis culturel et spirituel",
+     "objectif": "Explorer comment les croyances, religions et cultures filtrent l'expérience du deuil.",
+     "sections": [
+      "12.1. Héritages religieux : ressources et carcans",
+      "12.2. Cultures du silence vs cultures de l'expression",
+      "12.3. Laïcité, spiritualités libres, agnosticisme du deuil",
+      "12.4. Rites officiels : ce qu'ils ouvrent, ce qu'ils ferment",
+      "12.5. Construire son tamis symbolique personnel",
+      "12.6. Limites et prudence : pas de recette universelle"
+     ],
+     "exercices": [
+      "Inventaire de son héritage symbolique (ce que je garde, ce que je quitte)",
+      "Écrire sa propre définition de ce qu'est 'honorer' la perte",
+      "Créer un micro-rite personnel laïc ou syncrétique"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Le tamis du travail, de l'argent, de l'organisation",
+     "objectif": "Aborder les filtres concrets de la vie quotidienne souvent ignorés des livres sur le deuil.",
+     "sections": [
+      "13.1. Reprendre le travail : trop tôt, trop tard, au bon moment",
+      "13.2. Deuils professionnels : licenciement, faillite, fin de vocation",
+      "13.3. L'argent après une perte : héritage, dettes, précarité",
+      "13.4. Administratif, notaire, papiers : le deuil bureaucratique",
+      "13.5. Quand le tamis matériel bloque tout le reste",
+      "13.6. Demander de l'aide pratique sans honte"
+     ],
+     "exercices": [
+      "Liste des tâches administratives en cours, classées par urgence réelle",
+      "Prévoir une demi-journée 'tamis matériel' par mois",
+      "Identifier une aide extérieure mobilisable (juridique, financière, pratique)"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Le tamis numérique : écrans, mémoires, traces",
+     "objectif": "Traiter la spécificité contemporaine du deuil à l'ère du numérique.",
+     "sections": [
+      "14.1. Profils, boîtes mail, clouds : une nouvelle géographie du disparu",
+      "14.2. Relire, écouter, revoir : dose et fréquence",
+      "14.3. Commémoration numérique et comptes de mémoire",
+      "14.4. L'intelligence artificielle face au deuil (prudence et limites)",
+      "14.5. Fermer, archiver, transmettre : trois gestes numériques",
+      "14.6. Éduquer les proches au tamis numérique"
+     ],
+     "exercices": [
+      "Audit de ses traces numériques liées à la perte",
+      "Décider du sort de 3 comptes ou espaces numériques cette semaine",
+      "Créer un dossier 'archive' local, consultable à dates choisies"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Seuils et basculements",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "Reconnaître un seuil quand il approche",
+     "objectif": "Donner des repères concrets pour identifier les seuils personnels de basculement.",
+     "sections": [
+      "15.1. Qu'est-ce qu'un seuil ? définition opérationnelle",
+      "15.2. Signaux faibles, signaux forts, signaux trompeurs",
+      "15.3. Le seuil n'est pas un événement, c'est une densité",
+      "15.4. Exemples de seuils : le premier rire, le premier oubli, le premier projet",
+      "15.5. Peur du seuil : la culpabilité d'aller mieux",
+      "15.6. Seuil collectif vs seuil individuel"
+     ],
+     "exercices": [
+      "Liste personnelle des 10 repères de seuil pertinents pour soi",
+      "Journal de bord des micro-signaux sur 30 jours",
+      "Lettre d'autorisation à franchir le prochain seuil"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "L'amas géant : quand le réseau de sens se connecte",
+     "objectif": "Décrire le phénomène de basculement sans le romanticiser ni le minimiser.",
+     "sections": [
+      "16.1. Avant, pendant, après : ce qui change vraiment",
+      "16.2. Ce qui ne revient jamais, ce qui revient autrement",
+      "16.3. Récits de basculements : trois témoignages",
+      "16.4. Pourquoi le basculement peut passer inaperçu",
+      "16.5. Le sens retrouvé n'est pas le sens perdu",
+      "16.6. Attention aux promesses magiques"
+     ],
+     "exercices": [
+      "Écrire le récit de son réseau avant / après (même partiel)",
+      "Nommer 3 nouveaux liens de sens apparus récemment",
+      "Célébrer un micro-basculement par un geste symbolique"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Les rechutes : pourquoi elles font partie du processus",
+     "objectif": "Normaliser les retours de douleur intense après des périodes d'apaisement.",
+     "sections": [
+      "17.1. Rechute n'est pas régression : la nuance essentielle",
+      "17.2. Les déclencheurs classiques des rechutes",
+      "17.3. Ce que la rechute vient dire (et non punir)",
+      "17.4. Durée, intensité, fréquence : quand s'inquiéter vraiment",
+      "17.5. Accueillir la rechute sans tout remettre en cause",
+      "17.6. Rechute vs deuil compliqué : les critères d'alerte"
+     ],
+     "exercices": [
+      "Kit anti-rechute : 5 gestes, 3 personnes, 2 lieux, 1 mot-clé",
+      "Journal des rechutes passées : qu'avaient-elles à dire ?",
+      "Rédiger une consigne de bienveillance à relire en cas de rechute"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Deuils compliqués, traumatiques, impossibles : quand la percolation ne prend pas",
+     "objectif": "Reconnaître les situations où la métaphore atteint ses limites et où un accompagnement spécialisé est nécessaire.",
+     "sections": [
+      "18.1. Deuil compliqué, deuil traumatique, deuil ambigu : définitions prudentes",
+      "18.2. Signes qui doivent conduire à consulter",
+      "18.3. Pertes impossibles : enfants, suicides, violences",
+      "18.4. Pertes non reconnues socialement (deuils invisibles)",
+      "18.5. Ce que le livre peut encore apporter dans ces cas",
+      "18.6. Orientation vers des ressources professionnelles (principes généraux)"
+     ],
+     "exercices": [
+      "Auto-évaluation prudente (grille non diagnostique, à but orientatif)",
+      "Liste des professionnels disponibles dans son territoire (médecin traitant en premier relais)",
+      "Écrire ce que l'on attendrait d'un accompagnement"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Le seuil de la présence : vivre avec plutôt que sans",
+     "objectif": "Préparer la transition vers la partie finale : la nouvelle relation à la perte.",
+     "sections": [
+      "19.1. Le modèle de Lois Tonkin : grandir autour du deuil",
+      "19.2. Liens persistants : une notion clinique, pas une pathologie",
+      "19.3. Dialoguer avec l'absent : formes, limites, bienfaits",
+      "19.4. La transmission : ce que l'on fait de la perte pour les autres",
+      "19.5. Quand la présence devient encombrante : recalibrer",
+      "19.6. Seuil de présence : un seuil qui se réajuste toute la vie"
+     ],
+     "exercices": [
+      "Écrire une lettre de 'nouvelles' à la personne ou à la période perdue",
+      "Choisir une manière vivante de transmettre (geste, objet, récit)",
+      "Dessiner son cercle de vie avec et autour de la perte"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Vivre avec la non-linéarité",
+   "chapitres": [
+    {
+     "numero": 20,
+     "titre": "Le carnet de canaux : un protocole au long cours",
+     "objectif": "Synthétiser les outils du livre en un protocole pratique utilisable seul.",
+     "sections": [
+      "20.1. Pourquoi un carnet plutôt qu'une application ou un suivi",
+      "20.2. Structure minimale du carnet de canaux",
+      "20.3. Rythmes de remplissage : quotidien, hebdo, mensuel",
+      "20.4. Relectures : à 3 mois, 6 mois, 1 an",
+      "20.5. Carnet partagé : avec un proche, un professionnel",
+      "20.6. Quand arrêter le carnet"
+     ],
+     "exercices": [
+      "Ouvrir son carnet avec une première page-modèle fournie",
+      "Fixer trois dates de relecture dans son agenda",
+      "Désigner une personne de relecture bienveillante"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Les repères de seuil : une boussole personnelle",
+     "objectif": "Consolider la liste personnelle de repères pour les années à venir.",
+     "sections": [
+      "21.1. Des repères qui vieillissent avec vous",
+      "21.2. Les repères individuels, familiaux, collectifs",
+      "21.3. Mettre à jour ses repères sans tout redéfinir",
+      "21.4. Transmettre ses repères à ses proches",
+      "21.5. Repères de seuil pour les deuils futurs (car il y en aura)",
+      "21.6. Limites : un repère n'est pas une garantie"
+     ],
+     "exercices": [
+      "Fiche synthétique de ses 7 repères de seuil principaux",
+      "Partager cette fiche avec une personne de confiance",
+      "Programmer une révision annuelle de ses repères"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Les rituels d'infiltration : garder les canaux ouverts",
+     "objectif": "Installer une pratique rituelle durable pour maintenir la percolation active.",
+     "sections": [
+      "22.1. Rituels minimaux viables : ceux qui tiennent dans une vie chargée",
+      "22.2. Rituels saisonniers pour rythmer l'année",
+      "22.3. Rituels collectifs : créer ou rejoindre un cercle",
+      "22.4. Rituels de transmission (pour enfants, amis, collègues)",
+      "22.5. Rituels de clôture : savoir refermer un cycle",
+      "22.6. Quand un rituel doit mourir"
+     ],
+     "exercices": [
+      "Choisir 3 rituels pour l'année à venir (un quotidien, un mensuel, un annuel)",
+      "Créer un rituel de transmission simple pour un proche",
+      "Planifier un rituel de clôture pour une étape achevée"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Accompagner les autres deuils : une éthique de la percolation",
+     "objectif": "Outiller le lecteur pour soutenir autrui sans imposer de modèle linéaire.",
+     "sections": [
+      "23.1. Ce que l'on dit, ce que l'on ne dit pas",
+      "23.2. Être un canal pour l'autre sans se substituer à lui",
+      "23.3. Respecter le tamis de l'autre",
+      "23.4. Enfants, adolescents, personnes âgées : particularités",
+      "23.5. Deuils collectifs (équipes, communautés, sociétés)",
+      "23.6. Savoir passer le relais"
+     ],
+     "exercices": [
+      "Préparer 5 phrases d'accompagnement non-linéaires",
+      "Proposer un geste concret par mois à un endeuillé de son entourage",
+      "Identifier un relais professionnel à recommander si besoin"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Après le basculement : la vie qui grandit autour",
+     "objectif": "Refermer le livre sur une vision réaliste, non triomphaliste, de l'après.",
+     "sections": [
+      "24.1. La vie d'après n'est pas la vie d'avant réparée",
+      "24.2. Nouveaux engagements, nouvelles amours, nouveaux projets",
+      "24.3. La place juste de la perte dans une vie longue",
+      "24.4. Ce que l'on a appris que l'on ne pourra pas vraiment transmettre",
+      "24.5. La percolation comme compétence de vie, au-delà du deuil",
+      "24.6. Dernier seuil : refermer le livre et continuer"
+     ],
+     "exercices": [
+      "Écrire une lettre de clôture à soi-même, à rouvrir dans 3 ans",
+      "Lister 3 engagements nouveaux que l'on s'autorise",
+      "Offrir le livre (ou son carnet) à quelqu'un qui en aurait besoin"
+     ]
+    }
+   ]
+  }
+ ]
+}

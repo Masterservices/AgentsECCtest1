@@ -1,0 +1,585 @@
+{
+ "titre": "Le Point d'Appui",
+ "sous_titre": "Pourquoi une seule action bien placée soulève plus de confiance que cent affirmations positives",
+ "bibliographie": [
+  {
+   "auteur": "Nathaniel Branden",
+   "titre": "Les Six Piliers de l'estime de soi",
+   "annee": "1994",
+   "idee": "L'estime de soi repose sur six pratiques (conscience de soi, acceptation, responsabilité, affirmation, but, intégrité) et non sur des compliments.",
+   "apport": "Notre livre retiendra l'idée que l'estime est une pratique structurée, et en fera la « poutre maîtresse » sur laquelle pose le levier."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Un rien peut tout changer (Atomic Habits)",
+   "annee": "2018",
+   "idee": "Les petits gains composés (1 % par jour) transforment l'identité plus sûrement que les grands efforts ponctuels.",
+   "apport": "Base du bras de levier : calibrer l'effort minimal répété ; notre livre y ajoute la notion de point d'appui unique plutôt que de dispersion."
+  },
+  {
+   "auteur": "BJ Fogg",
+   "titre": "Tiny Habits",
+   "annee": "2019",
+   "idee": "Un comportement tient quand il est tiny, ancré à un déclencheur et célébré immédiatement.",
+   "apport": "Fournit le protocole du « fil » : le premier geste ténu qui engage toute la corde, adapté à la mécanique du levier."
+  },
+  {
+   "auteur": "Carol S. Dweck",
+   "titre": "Osez réussir ! (Mindset)",
+   "annee": "2006",
+   "idee": "L'état d'esprit de croissance remplace la croyance fixe par la conviction que les capacités se développent.",
+   "apport": "Le point d'appui central est souvent une croyance fixe ; notre livre en fait la « pierre angulaire » à repérer avant tout effort."
+  },
+  {
+   "auteur": "Russ Harris",
+   "titre": "Le Piège du bonheur (The Happiness Trap)",
+   "annee": "2007",
+   "idee": "La thérapie d'acceptation et d'engagement (ACT) apprend à agir selon ses valeurs malgré l'inconfort, plutôt qu'à supprimer les pensées négatives.",
+   "apport": "Éclaire le chapitre sur la non-lutte contre les pensées limitantes : le levier ne pousse pas contre, il prend appui sur."
+  },
+  {
+   "auteur": "Kristin Neff",
+   "titre": "S'aimer (Self-Compassion)",
+   "annee": "2011",
+   "idee": "L'auto-compassion (bienveillance, humanité partagée, pleine conscience) est un moteur plus stable que l'estime narcissique.",
+   "apport": "Sert de garde-fou contre la rupture du levier : éviter que l'exigence de rendement ne vire en auto-maltraitance."
+  },
+  {
+   "auteur": "Martin E. P. Seligman",
+   "titre": "La Force de l'optimisme (Learned Optimism)",
+   "annee": "1990",
+   "idee": "Le style explicatif (permanent/personnel/global vs temporaire/spécifique/externe) conditionne la résilience.",
+   "apport": "Outil de cartographie des appuis : identifier les explications qui tiennent toute la charge psychologique."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Système 1 / Système 2 : les deux vitesses de la pensée",
+   "annee": "2011",
+   "idee": "Notre cerveau oscille entre un mode rapide/intuitif et un mode lent/délibéré, source de biais systématiques.",
+   "apport": "Explique pourquoi un micro-geste (Système 1) peut reprogrammer une croyance lourde sans passer par le débat mental."
+  },
+  {
+   "auteur": "Gary Keller & Jay Papasan",
+   "titre": "The ONE Thing",
+   "annee": "2013",
+   "idee": "La question qui tue : « Quelle est LA chose à faire pour que tout le reste devienne plus facile ou inutile ? »",
+   "apport": "Formulation directe du point d'appui ; notre livre en dérive la méthode de cartographie des appuis."
+  },
+  {
+   "auteur": "Greg McKeown",
+   "titre": "L'Essentialisme",
+   "annee": "2014",
+   "idee": "Faire moins, mais mieux, en éliminant impitoyablement le non-essentiel.",
+   "apport": "Justifie la thèse contre-intuitive : une action bien placée vaut cent affirmations ; nourrit le chapitre sur le rendement."
+  },
+  {
+   "auteur": "Charles Duhigg",
+   "titre": "Le Pouvoir des habitudes",
+   "annee": "2012",
+   "idee": "Toute habitude est une boucle signal-routine-récompense ; changer la routine préserve la boucle.",
+   "apport": "Modèle mécanique du « fil » : un geste ténu inséré dans une boucle existante tire toute la corde comportementale."
+  },
+  {
+   "auteur": "Mihaly Csikszentmihalyi",
+   "titre": "Flow",
+   "annee": "1990",
+   "idee": "L'expérience optimale survient quand le défi est ajusté aux compétences, ni trop facile ni trop dur.",
+   "apport": "Fournit le calibrage du bras de levier : effort juste, ni sous-charge (ennui) ni surcharge (rupture)."
+  },
+  {
+   "auteur": "Angela Duckworth",
+   "titre": "L'Art de la niaque (Grit)",
+   "annee": "2016",
+   "idee": "La persévérance passionnée compte plus que le talent brut pour la réussite à long terme.",
+   "apport": "Éclaire la durée du levier : la confiance se construit dans la répétition d'un appui tenu, pas dans l'intensité d'un coup."
+  },
+  {
+   "auteur": "Viktor E. Frankl",
+   "titre": "Découvrir un sens à sa vie",
+   "annee": "1946",
+   "idee": "Trouver un sens, même minime, permet de supporter des charges psychologiques considérables.",
+   "apport": "Le « sens » est souvent le point d'appui ultime : une raison qui tient tout le reste, au-delà des techniques."
+  },
+  {
+   "auteur": "Ichiro Kishimi & Fumitake Koga",
+   "titre": "Le Courage d'être détesté",
+   "annee": "2013",
+   "idee": "La psychologie adlérienne sépare les tâches d'autrui des siennes et place le courage au-dessus du trauma.",
+   "apport": "Aide à distinguer les faux appuis (regard d'autrui) des vrais (tâches qui nous appartiennent), clé du chapitre sur la cartographie."
+  },
+  {
+   "auteur": "Robert Maurer",
+   "titre": "One Small Step Can Change Your Life (Kaizen)",
+   "annee": "2004",
+   "idee": "La méthode Kaizen contourne la peur en rendant chaque pas si petit que l'amygdale ne s'active pas.",
+   "apport": "Justifie scientifiquement le « fil » : un geste si ténu qu'il ne déclenche aucune résistance interne."
+  },
+  {
+   "auteur": "Albert Bandura",
+   "titre": "Auto-efficacité (Self-Efficacy)",
+   "annee": "1997",
+   "idee": "La croyance en sa capacité à produire un effet se construit par expériences maîtrisées, modèles, persuasion et états physiologiques.",
+   "apport": "Cadre théorique central : le levier transforme une expérience maîtrisée minime en sentiment général d'efficacité."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Le principe du levier : pourquoi la confiance ne se construit pas en bloc",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'illusion de l'accumulation",
+     "objectif": "Démonter l'idée reçue selon laquelle il faudrait empiler victoires et affirmations pour gagner en confiance.",
+     "sections": [
+      "Le mythe du réservoir : la confiance n'est pas une jauge à remplir",
+      "Pourquoi cent affirmations positives peuvent laisser intact le doute profond",
+      "L'analogie mécanique : soulever une charge avec ou sans levier",
+      "La fatigue des résolutions et le cimetière des « nouvelles moi »",
+      "Ce que la recherche en psychologie cognitive dit de l'effort dispersé",
+      "Première thèse : la confiance se multiplie, elle ne s'additionne pas"
+     ],
+     "exercices": [
+      "Inventaire des victoires passées qui n'ont rien changé en profondeur",
+      "Test : combien d'affirmations positives tiennent encore après 48 heures",
+      "Journal d'une semaine sans objectif de performance"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Archimède intime : la loi du levier appliquée à soi",
+     "objectif": "Poser les trois composantes du levier psychologique — point d'appui, bras, charge — et leur traduction concrète.",
+     "sections": [
+      "La formule d'Archimède revisitée : force × bras = charge × résistance",
+      "Le point d'appui : la croyance qui supporte tout l'édifice",
+      "Le bras de levier : l'effort que l'on accepte de fournir",
+      "La charge psychologique : ce que l'on veut vraiment déplacer",
+      "Le rendement : pourquoi un petit geste bien placé fait tout bouger",
+      "Limites de l'analogie : ce que la mécanique ne dit pas de l'humain"
+     ],
+     "exercices": [
+      "Dessiner son propre levier sur une feuille A4",
+      "Identifier trois charges actuelles et leur poids subjectif de 1 à 10",
+      "Formuler en une phrase ce que l'on souhaite vraiment soulever"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "La thèse contre-intuitive : une action vaut cent affirmations",
+     "objectif": "Justifier, exemples et études à l'appui, qu'un micro-geste situé au bon endroit transforme plus qu'un discours interne prolongé.",
+     "sections": [
+      "Le paradoxe du changement : pourquoi forcer verrouille",
+      "L'expérience maîtrisée, source première d'auto-efficacité (Bandura)",
+      "Le cerveau qui croit ce qu'il voit faire plutôt que ce qu'il entend dire",
+      "Trois récits : un geste qui a tout changé",
+      "La différence entre se convaincre et se prouver",
+      "Objection traitée : et si mon point d'appui est invisible ?"
+     ],
+     "exercices": [
+      "Lister trois moments où un petit acte a modifié votre regard sur vous",
+      "Écrire une affirmation, puis la remplacer par une action équivalente de 2 minutes",
+      "Comparaison écrite : effort ressenti vs effet obtenu"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Les cinq erreurs classiques du forçat de la confiance",
+     "objectif": "Recenser les pièges qui poussent à pousser fort plutôt qu'à pousser juste.",
+     "sections": [
+      "Erreur 1 : pousser directement sur la charge (frontalité)",
+      "Erreur 2 : changer de levier chaque semaine",
+      "Erreur 3 : ignorer la qualité du sol sous le point d'appui",
+      "Erreur 4 : confondre intensité et rendement",
+      "Erreur 5 : vouloir soulever toute la charge d'un coup",
+      "Le profil du forçat : pourquoi il s'épuise et accuse son caractère"
+     ],
+     "exercices": [
+      "Auto-diagnostic : quelle erreur est la vôtre aujourd'hui ?",
+      "Relecture d'un échec passé à la lumière des cinq erreurs",
+      "Engagement écrit à abandonner une pratique de forçat"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Le contrat du livre : méthode, promesses et limites",
+     "objectif": "Cadrer la démarche : pas de miracle, pas de pensée magique, un protocole progressif et ses bornes.",
+     "sections": [
+      "Ce que ce livre est : une mécanique, pas une promesse",
+      "Ce que ce livre n'est pas : ni thérapie, ni coaching, ni médecine",
+      "Quand consulter un professionnel avant d'aller plus loin",
+      "Comment lire ce livre : un chapitre, une expérimentation, une pause",
+      "Le journal de rendement : votre instrument de bord",
+      "La règle d'or : zéro violence envers soi"
+     ],
+     "exercices": [
+      "Rédiger son contrat personnel de lecture",
+      "Installer son journal de rendement (format papier ou numérique)",
+      "Définir sa première fenêtre d'expérimentation de 14 jours"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Repérer son point d'appui : la croyance qui tient tout le reste",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "La cartographie des appuis",
+     "objectif": "Fournir une méthode pour visualiser l'ensemble des croyances qui structurent notre rapport à nous-mêmes.",
+     "sections": [
+      "Qu'est-ce qu'une croyance d'appui ? Définition opérationnelle",
+      "Les trois couches : surface, intermédiaire, noyau",
+      "Dessiner sa carte : outils et conventions",
+      "Lire une carte : repérer les nœuds et les lignes de force",
+      "Les faux appuis : ce qui semble solide mais repose sur du sable",
+      "Cas pratique : cartographier trois domaines (travail, corps, relations)"
+     ],
+     "exercices": [
+      "Réaliser sa première carte sur une double page",
+      "Identifier les trois croyances les plus reliées aux autres",
+      "Dater chaque croyance : quand est-elle apparue ?"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Trouver la pierre angulaire",
+     "objectif": "Isoler la croyance unique dont dépendent la majorité des autres, celle qu'il faut travailler en premier.",
+     "sections": [
+      "Le test du « et si ce n'était plus vrai ? »",
+      "La méthode des dominos : quelle croyance, retirée, fait tomber les autres",
+      "Différencier croyance-limitante-maîtresse et simple symptôme",
+      "Les quatre grandes pierres angulaires classiques (valeur, compétence, sécurité, appartenance)",
+      "Pourquoi la pierre angulaire est souvent la plus ancienne",
+      "Signaux corporels : quand le corps dit « c'est là »"
+     ],
+     "exercices": [
+      "Appliquer le test du domino à ses cinq croyances principales",
+      "Écrire la pierre angulaire en une phrase simple et crue",
+      "Noter la réaction corporelle associée (échelle 1-10)"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Distinguer les appuis internes des appuis externes",
+     "objectif": "Apprendre à repérer quand on s'appuie sur le regard, les résultats ou les rôles plutôt que sur soi.",
+     "sections": [
+      "L'appui sur autrui : la validation comme béquille",
+      "L'appui sur la performance : le piège du tableau de bord",
+      "L'appui sur le rôle : quand « mère », « chef » ou « artiste » tiennent lieu de soi",
+      "Le coût caché des appuis externes : fragilité à la première défaillance",
+      "Transiter vers un appui interne sans se couper du monde",
+      "Le critère ultime : l'appui tient-il quand personne ne regarde ?"
+     ],
+     "exercices": [
+      "Classement de ses dix appuis actuels en internes/externes",
+      "Expérience d'une journée sans chercher de validation",
+      "Écrire ce qui resterait de soi si tous les rôles étaient retirés"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Les croyances héritées : appuis d'emprunt",
+     "objectif": "Identifier les croyances reçues de la famille, de la culture, de l'époque, et décider lesquelles garder.",
+     "sections": [
+      "Comment une croyance se transmet sans jamais être formulée",
+      "Les voix d'emprunt : reconnaître leur timbre",
+      "Loauté familiale et résistance au changement d'appui",
+      "Trier : honorer sans obéir",
+      "Les croyances d'époque : productivité, optimisme obligatoire, personal branding",
+      "Le deuil nécessaire de certains appuis hérités"
+     ],
+     "exercices": [
+      "Associer chaque croyance-clé à une voix (parent, professeur, média)",
+      "Écrire une lettre symbolique de restitution",
+      "Choisir une croyance à conserver librement, en conscience"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Valider son point d'appui avant d'agir",
+     "objectif": "Éviter de partir en guerre contre une fausse cible ; vérifier que la pierre angulaire identifiée est bien la bonne.",
+     "sections": [
+      "Le test de la semaine d'observation",
+      "Les indices convergents : rêve, lapsus, résistance",
+      "Demander un miroir : l'ami qui vous connaît depuis longtemps",
+      "La tentation de la fausse profondeur : quand on intellectualise pour ne pas toucher",
+      "Accepter que le point d'appui puisse être simple, voire banal",
+      "Reformuler le point d'appui en langage d'action"
+     ],
+     "exercices": [
+      "Tenir une semaine de relevé des moments de contraction",
+      "Confronter son hypothèse à une personne de confiance",
+      "Écrire la version « action » de sa pierre angulaire"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Calibrer le bras de levier : effort minimal, portée maximale",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "La mécanique du bras : longueur, angle, matière",
+     "objectif": "Transposer les variables physiques du bras de levier en paramètres psychologiques ajustables.",
+     "sections": [
+      "La longueur du bras : combien de temps tient-on l'effort",
+      "L'angle d'attaque : à quel moment de la journée le geste porte le plus",
+      "La matière : la nature du geste (corporel, verbal, relationnel, créatif)",
+      "Le principe du calibrage : trop court = inefficace, trop long = abandon",
+      "Adapter le bras à sa saison de vie",
+      "Quand changer de bras sans changer de point d'appui"
+     ],
+     "exercices": [
+      "Définir trois longueurs de bras (2 min, 15 min, 1 h) pour un même appui",
+      "Tester trois angles horaires sur une semaine",
+      "Choisir la matière qui vous est la plus naturelle"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "La règle des deux minutes revisitées",
+     "objectif": "Affiner la règle populaire en l'ancrant sur le point d'appui plutôt que sur la simple facilité.",
+     "sections": [
+      "La règle originale de David Allen et ses limites pour la confiance",
+      "La reformulation : deux minutes qui touchent la pierre angulaire",
+      "Exemples : du rangement de bureau à la phrase dite à voix haute",
+      "Le seuil de crédibilité : en dessous, le cerveau n'y croit pas",
+      "Le piège de la miniaturisation extrême : quand deux minutes ne disent plus rien",
+      "Articuler deux minutes et gestes plus longs"
+     ],
+     "exercices": [
+      "Concevoir cinq gestes de deux minutes alignés sur sa pierre angulaire",
+      "En choisir un seul pour la semaine",
+      "Noter chaque soir : le geste a-t-il parlé à la croyance ?"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "L'ancrage : attacher le geste à ce qui existe déjà",
+     "objectif": "Utiliser les routines existantes comme points d'amarrage pour éviter la charge mentale de la nouveauté.",
+     "sections": [
+      "Le modèle ancre-action-célébration de BJ Fogg",
+      "Choisir une ancre solide vs une ancre fantaisiste",
+      "La formule magique : « Après [X], je [Y] »",
+      "Gérer les jours où l'ancre elle-même disparaît",
+      "Empiler sans étouffer : combien de greffes supporte une routine",
+      "Les ancres relationnelles : s'appuyer sur la régularité d'un proche"
+     ],
+     "exercices": [
+      "Lister ses dix ancres quotidiennes les plus fiables",
+      "Greffer un unique micro-geste sur l'ancre la plus stable",
+      "Tenir sept jours et noter le taux de réussite"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "L'environnement comme prolongement du bras",
+     "objectif": "Montrer que le bras de levier dépasse le corps : il inclut la pièce, les objets, les gens, les notifications.",
+     "sections": [
+      "Le design de choix : rendre le bon geste inévitable",
+      "La friction : l'augmenter pour les faux appuis, la réduire pour le bon",
+      "Les objets-totems : un carnet, une pierre, une photo qui rappellent l'appui",
+      "Le cercle des cinq personnes qui tiennent le bras avec vous",
+      "Nettoyer son téléphone comme on nettoie un établi",
+      "L'environnement sonore et lumineux : variables sous-estimées"
+     ],
+     "exercices": [
+      "Audit d'une pièce de vie : cinq frictions à supprimer, cinq à ajouter",
+      "Choisir un objet-totem et le placer stratégiquement",
+      "Désactiver trois sources de bruit mental pendant 21 jours"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Calibrer sans se trahir : la justesse plutôt que la performance",
+     "objectif": "Éviter que la recherche du bras optimal ne devienne une nouvelle tyrannie du mieux.",
+     "sections": [
+      "Le symptôme du calibreur obsessionnel",
+      "La juste mesure : assez bon pour tenir, assez précis pour porter",
+      "Écouter le corps comme instrument de calibration",
+      "Les saisons où calibrer court, les saisons où calibrer long",
+      "Accepter de recalibrer en cours de route",
+      "La question qui clôt : ce bras, est-il encore le mien ?"
+     ],
+     "exercices": [
+      "Auto-évaluation hebdomadaire du bras en trois mots",
+      "Expérimenter un bras « volontairement moyen » pendant 10 jours",
+      "Noter les signaux corporels de sur-calibrage"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Le fil : ce premier geste ténu qui engage toute la corde",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "Théorie du fil : pourquoi un geste minuscule met tout en mouvement",
+     "objectif": "Expliquer le mécanisme par lequel un acte infime engage l'identité tout entière.",
+     "sections": [
+      "La corde de l'identité : comment elle s'enroule et se déroule",
+      "Le fil comme promesse tenue à soi-même",
+      "La cohérence interne : une fois le fil tiré, le cerveau suit",
+      "Le seuil de crédibilité personnelle",
+      "Différence entre fil et déclic : le fil est répété, le déclic est subi",
+      "Le fil comme antidote au « je le ferai quand je serai prêt »"
+     ],
+     "exercices": [
+      "Identifier un fil déjà tiré dans son passé (rétrospective)",
+      "Nommer le fil que l'on veut tirer désormais",
+      "Écrire la promesse associée en une seule phrase"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Le protocole du micro-engagement",
+     "objectif": "Décrire précisément comment concevoir, lancer et tenir un micro-engagement sur 21 jours.",
+     "sections": [
+      "Les quatre critères d'un bon micro-engagement",
+      "Le contrat écrit avec soi-même",
+      "Le suivi quotidien en 30 secondes",
+      "La règle du « jamais deux fois de suite raté »",
+      "La célébration : ingrédient sous-estimé",
+      "Que faire quand on rate un jour"
+     ],
+     "exercices": [
+      "Rédiger son contrat de micro-engagement",
+      "Installer un suivi visuel (chaîne de cases à cocher)",
+      "Prévoir sa célébration type (geste, mot, respiration)"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Quand le fil résiste : travailler la honte, la peur, le ridicule",
+     "objectif": "Traiter les émotions qui sabotent spécifiquement le premier geste, souvent perçu comme « trop petit pour compter ».",
+     "sections": [
+      "La honte du petit : « si c'est si simple, pourquoi ne l'ai-je pas fait avant ? »",
+      "La peur du visible : tirer le fil, c'est se montrer à soi",
+      "Le ridicule ressenti et sa fonction protectrice",
+      "L'auto-compassion comme lubrifiant du fil (Neff)",
+      "Parler du fil à une personne : sortir de la clandestinité",
+      "Récits : trois fils qui ont résisté avant de céder"
+     ],
+     "exercices": [
+      "Écrire une lettre bienveillante à son propre doute",
+      "Partager son micro-engagement avec une seule personne",
+      "Noter chaque résistance et la remercier avant de passer outre"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "De la corde à la trame : quand le fil devient identité",
+     "objectif": "Décrire le passage du geste répété à la transformation identitaire stable.",
+     "sections": [
+      "Les trois phases : fil, corde, trame",
+      "Les signes que la trame se forme (langage, posture, choix spontanés)",
+      "Ne pas confondre trame et rigidité : garder la souplesse",
+      "Le moment où l'on n'a plus besoin de « se forcer »",
+      "Protéger la trame naissante des chocs externes",
+      "Vers de nouveaux fils : la spirale vertueuse"
+     ],
+     "exercices": [
+      "Lister cinq phrases que l'on commence à dire naturellement",
+      "Identifier une décision récente qui reflète la trame nouvelle",
+      "Nommer la prochaine corde que l'on souhaite tisser"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Les fils collectifs : confiance partagée et effet d'entraînement",
+     "objectif": "Étendre la logique du fil aux relations : tirer un fil à deux ou à plusieurs.",
+     "sections": [
+      "Le fil de la parole tenue à autrui",
+      "Binômes de confiance : choisir son partenaire de fil",
+      "Le fil de la demande : oser demander petit",
+      "Le fil du pardon : un geste ténu qui dénoue des années",
+      "Les rituels partagés comme cordes collectives",
+      "Attention : on ne peut pas tirer le fil de quelqu'un d'autre"
+     ],
+     "exercices": [
+      "Proposer un binôme de micro-engagements à une personne",
+      "Formuler une demande minuscule mais authentique",
+      "Poser un fil de réparation envers quelqu'un"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Mesurer le rendement plutôt que l'intensité",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Le journal de rendement",
+     "objectif": "Installer l'outil central de suivi : un journal qui note non l'effort fourni mais la charge réellement déplacée.",
+     "sections": [
+      "Pourquoi l'intensité est un mauvais indicateur",
+      "Les quatre colonnes du journal : geste, appui touché, déplacement, humeur",
+      "Le format minimaliste : trois lignes par jour",
+      "La relecture hebdomadaire : repérer les gestes à haut rendement",
+      "Éviter le journal-piège : ni tribunal, ni vitrine",
+      "Numérique vs papier : choisir selon son rapport à la trace"
+     ],
+     "exercices": [
+      "Configurer son journal (modèle fourni)",
+      "Tenir 14 jours sans interruption",
+      "Effectuer sa première relecture et surligner les trois gestes à haut rendement"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Les indicateurs silencieux du déplacement",
+     "objectif": "Apprendre à repérer les signes subtils que la charge bouge, bien avant les résultats visibles.",
+     "sections": [
+      "Le corps qui se détend avant que la situation ne change",
+      "Le vocabulaire qui évolue (« je dois » vers « je choisis »)",
+      "Les rêves et les associations libres",
+      "La réduction du temps de récupération après un choc",
+      "La curiosité qui revient",
+      "L'absence : ce qui ne se produit plus compte autant que ce qui apparaît"
+     ],
+     "exercices": [
+      "Lister ses indicateurs silencieux personnels",
+      "Noter chaque semaine un signe que l'on aurait ignoré auparavant",
+      "Comparer deux entrées de journal à 30 jours d'intervalle"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Quand le rendement baisse : diagnostic sans drame",
+     "objectif": "Distinguer plateau sain, stagnation réelle et besoin de recalibrage.",
+     "sections": [
+      "Le plateau : phase normale de consolidation",
+      "La stagnation : le geste est devenu automatique et ne parle plus",
+      "Le déplacement de la charge : ce que l'on croyait lourd ne l'est plus",
+      "Les signaux externes : changements de vie qui redistribuent les appuis",
+      "Le protocole de révision trimestrielle",
+      "Savoir abandonner un bras sans culpabilité"
+     ],
+     "exercices": [
+      "Réaliser son diagnostic trimestriel en 30 minutes",
+      "Décider de garder, ajuster ou abandonner un bras",
+      "Formuler par écrit ce que le bras sortant a permis"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Éviter la rupture du levier : surcharge, épuisement, violence interne",
+     "objectif": "Protéger la mécanique dans la durée en identifiant et en prévenant ses trois causes de rupture.",
+     "sections": [
+      "La rupture par surcharge : vouloir soulever deux charges à la fois",
+      "La rupture par épuisement : ignorer les saisons basses",
+      "La rupture par violence interne : transformer le levier en fouet",
+      "Les signaux d'alerte précoces (sommeil, irritabilité, cynisme)",
+      "Le protocole de secours : que faire quand le levier a déjà cédé",
+      "Reprendre sans honte : le levier est réparable",
+      "Clôture : la confiance comme artisanat patient"
+     ],
+     "exercices": [
+      "Lister ses cinq signaux d'alerte personnels",
+      "Rédiger son protocole de secours en cinq étapes",
+      "Écrire une lettre de reprise bienveillante pour le jour où il faudra recommencer"
+     ]
+    }
+   ]
+  }
+ ]
+}
