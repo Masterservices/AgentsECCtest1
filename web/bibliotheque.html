@@ -85,8 +85,10 @@ footer { border-top: 1px solid var(--line); padding-top: 18px; font-size: .78rem
     <span>Ouvrages conçus et dirigés par Oussama Ghorbel, rédigés avec l'assistance d'outils d'intelligence artificielle. Contenu éducatif, sans valeur de conseil financier, juridique ou fiscal personnalisé.</span>
   </footer>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script>
 const OWNER = "ghorbeloussama44-source", REPO = "AgentsECCtest", LIVRES = "claude/millionaire-book-500-pages-kb2v7u";
+if (window.pdfjsLib) pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
 const PAL = [["#1f3b34","#e9dcb6"],["#7a2e1f","#f3e6d4"],["#2b3f63","#dfe6f2"],["#4a2c4f","#efe2ec"],["#3d3a2f","#f0c75e"],["#6b2737","#f4d8d0"],["#14505c","#d6eef0"],["#5b4a1e","#efe3bf"],["#2d2a4a","#e3def6"],["#24453a","#cfe7d9"],["#5a3a22","#f2dcc4"],["#33415c","#f1e4c3"]];
 const fmt = (n) => Number(n || 0).toLocaleString("fr-FR");
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -127,7 +129,10 @@ function render() {
       <div class="info">
         <span class="eyebrow">${esc(b.theme)}${badge}</span><h2>${esc(b.titre)}</h2><p class="sub">${esc(b.sous_titre)}</p>
         <div class="meta"><span><b>${b.pages}</b> pages</span>${b.mots ? `<span><b>${fmt(b.mots)}</b> mots</span>` : ""}</div>
-        <a class="dl" href="${pdfUrl(b.pdf)}" target="_blank" rel="noopener">${ICON}Télécharger le PDF</a>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <button class="dl read" type="button" data-read="${pdfUrl(b.pdf)}" data-titre="${esc(b.titre)}">👁 Lire en ligne</button>
+          <a class="dl" href="${pdfUrl(b.pdf)}" target="_blank" rel="noopener">${ICON}Télécharger</a>
+        </div>
       </div></article>`;
   }).join("") || '<p class="note">Aucun livre ne correspond.</p>';
 }
@@ -139,6 +144,69 @@ document.getElementById("chips").addEventListener("click", (e) => {
   document.querySelectorAll("#chips .chip").forEach((x) => x.classList.toggle("on", x === b));
   render();
 });
+/* ---------- visionneuse PDF intégrée (pdf.js) : feuilleter sans télécharger ---------- */
+let PV = null;
+function viewer() {
+  if (PV) return PV;
+  const css = document.createElement("style");
+  css.textContent = `
+  .pv-ov{position:fixed;inset:0;background:rgba(10,14,12,.86);display:none;z-index:50;align-items:center;justify-content:center;padding:10px}
+  .pv-ov.on{display:flex}
+  .pv-box{background:var(--panel);color:var(--ink);border-radius:8px;max-width:min(96vw,880px);width:100%;max-height:94vh;display:flex;flex-direction:column;overflow:hidden;border:1px solid var(--line)}
+  .pv-head{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:10px 14px;border-bottom:1px solid var(--line)}
+  .pv-head h3{margin:0;font-size:1rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .pv-cv{overflow:auto;background:#555;flex:1;display:flex;justify-content:center;align-items:flex-start;padding:12px}
+  .pv-cv canvas{max-width:100%;height:auto;box-shadow:0 2px 12px rgba(0,0,0,.4);background:#fff}
+  .pv-foot{display:flex;gap:10px;align-items:center;justify-content:center;padding:10px;border-top:1px solid var(--line);flex-wrap:wrap}
+  .pv-b{font:inherit;cursor:pointer;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:var(--r);padding:6px 14px;text-decoration:none}
+  .pv-b:disabled{opacity:.4;cursor:default}
+  .pv-x{cursor:pointer;border:none;background:none;color:var(--ink);font-size:1.5rem;line-height:1;padding:0 6px}`;
+  document.head.appendChild(css);
+  const ov = document.createElement("div");
+  ov.className = "pv-ov";
+  ov.innerHTML = `<div class="pv-box" role="dialog" aria-modal="true" aria-label="Lecture du PDF">
+    <div class="pv-head"><h3 id="pvT"></h3><button class="pv-x" id="pvX" aria-label="Fermer">×</button></div>
+    <div class="pv-cv"><canvas id="pvC"></canvas></div>
+    <div class="pv-foot"><button class="pv-b" id="pvP">← Précédent</button><span id="pvN" style="font-variant-numeric:tabular-nums">—</span><button class="pv-b" id="pvNx">Suivant →</button><a class="pv-b" id="pvD" target="_blank" rel="noopener">⬇ Télécharger</a></div></div>`;
+  document.body.appendChild(ov);
+  const $$ = (id) => ov.querySelector(id), cv = $$("#pvC"), cx = cv.getContext("2d");
+  const st = { doc: null, page: 1, total: 0, busy: false };
+  const close = () => { ov.classList.remove("on"); if (st.doc) { try { st.doc.destroy(); } catch (e) {} } st.doc = null; };
+  async function draw() {
+    if (!st.doc || st.busy) return; st.busy = true;
+    try {
+      const page = await st.doc.getPage(st.page);
+      const wrap = $$(".pv-cv"), v0 = page.getViewport({ scale: 1 });
+      const scale = Math.min(2, Math.max(0.3, (wrap.clientWidth - 24) / v0.width));
+      const vp = page.getViewport({ scale });
+      cv.width = vp.width; cv.height = vp.height;
+      await page.render({ canvasContext: cx, viewport: vp }).promise;
+      $$("#pvN").textContent = `Page ${st.page} / ${st.total}`;
+      $$("#pvP").disabled = st.page <= 1; $$("#pvNx").disabled = st.page >= st.total;
+    } catch (e) { $$("#pvN").textContent = "Erreur d'affichage"; }
+    st.busy = false;
+  }
+  $$("#pvP").onclick = () => { if (st.page > 1) { st.page--; draw(); } };
+  $$("#pvNx").onclick = () => { if (st.page < st.total) { st.page++; draw(); } };
+  $$("#pvX").onclick = close;
+  ov.addEventListener("click", (e) => { if (e.target === ov) close(); });
+  document.addEventListener("keydown", (e) => { if (!ov.classList.contains("on")) return; if (e.key === "Escape") close(); else if (e.key === "ArrowLeft") $$("#pvP").click(); else if (e.key === "ArrowRight") $$("#pvNx").click(); });
+  PV = {
+    async open(url, titre) {
+      if (!window.pdfjsLib) { window.open(url, "_blank"); return; }
+      $$("#pvT").textContent = titre || "Lecture"; $$("#pvD").href = url; $$("#pvN").textContent = "Chargement…";
+      ov.classList.add("on"); st.page = 1;
+      try { st.doc = await pdfjsLib.getDocument(url).promise; st.total = st.doc.numPages; await draw(); }
+      catch (e) { $$("#pvN").textContent = "Impossible de charger le PDF. Essayez le téléchargement."; }
+    }
+  };
+  return PV;
+}
+document.getElementById("shelf").addEventListener("click", (e) => {
+  const btn = e.target.closest("button.read"); if (!btn) return;
+  viewer().open(btn.dataset.read, btn.dataset.titre);
+});
+
 charger().then((c) => { BOOKS = c || []; render(); })
   .catch(() => { document.getElementById("shelf").innerHTML = '<p class="note">La collection n\'a pas pu être chargée. Rechargez la page dans un instant.</p>'; });
 </script>
