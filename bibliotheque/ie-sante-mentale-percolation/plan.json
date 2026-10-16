@@ -1,0 +1,612 @@
+{
+ "titre": "Le seuil invisible",
+ "sous_titre": "Santé mentale en réseau : pourquoi rien ne circule — puis pourquoi une seule clé fait basculer tout l'état",
+ "bibliographie": [
+  {
+   "auteur": "Mark S. Granovetter",
+   "titre": "The Strength of Weak Ties (article, American Journal of Sociology)",
+   "annee": "1973",
+   "idee": "Les liens faibles (connaissances peu proches) diffusent mieux que les liens forts l'information et les opportunités nouvelles.",
+   "apport": "Fonde notre définition des « clés » : un pont discret vaut souvent mieux qu'un intime. Note d'incertitude : il s'agit d'un article, non d'un livre."
+  },
+  {
+   "auteur": "Ronald S. Burt",
+   "titre": "Structural Holes: The Social Structure of Competition",
+   "annee": "1992",
+   "idee": "Celui qui occupe un « trou structurel » — l'espace entre deux groupes disjoints — capte, relie et valorise l'information.",
+   "apport": "Modèle opérationnel du chapitre « la clé qui relie les îlots » et grille des critères de passerier."
+  },
+  {
+   "auteur": "Albert-László Barabási",
+   "titre": "Linked: The New Science of Networks",
+   "annee": "2002",
+   "idee": "Les réseaux réels sont « à échelle libre » : quelques nœuds très connectés assurent la cohésion de l'ensemble.",
+   "apport": "Explique pourquoi quelques nœuds de notre réseau intime pèsent disproportionnellement sur la densité globale."
+  },
+  {
+   "auteur": "Duncan J. Watts",
+   "titre": "Six Degrees: The Science of a Connected Age",
+   "annee": "2003",
+   "idee": "Les réseaux « petits mondes » relient tout le monde en peu d'étapes grâce à quelques ponts ; les effets globaux émergent de liens locaux.",
+   "apport": "Base du chapitre sur la diffusion d'un état dans tout le réseau après franchissement du seuil. Note : « Small Worlds » (1998) et « Six Degrees » (2003) traitent le même objet."
+  },
+  {
+   "auteur": "Steven H. Strogatz",
+   "titre": "Sync: The Emerging Science of Spontaneous Order",
+   "annee": "2003",
+   "idee": "Des unités couplées passent brutalement du désordre à la cohérence au-delà d'un seuil de couplage.",
+   "apport": "Rigueur du passage brutal (transition de phase) pour décrire le basculement, sans promettre quand il surviendra."
+  },
+  {
+   "auteur": "Mark Buchanan",
+   "titre": "Nexus: Small Worlds and the Groundbreaking Theory of Networks",
+   "annee": "2002",
+   "idee": "Les communautés fermées reliées par quelques ponts expliquent la transmission rapide de comportements et d'idées.",
+   "apport": "Exercices d'îlots, de ponts et de carte des recoupements entre groupes."
+  },
+  {
+   "auteur": "Philip Ball",
+   "titre": "Critical Mass: How One Thing Leads to Another",
+   "annee": "2004",
+   "idee": "Interactions et normes collectives connaissent des transitions brutales au-delà de seuils de connexion, sans plan préalable.",
+   "apport": "Cœur conceptuel du livre : le seuil de percolation appliqué aux liens et aux habitudes, avec prudence épistémique."
+  },
+  {
+   "auteur": "Günter Grimmett",
+   "titre": "Percolation",
+   "annee": "1998",
+   "idee": "Sous un seuil critique, aucun chemin traversant n'existe ; au-dessus, il apparaît soudainement (modèle mathématique).",
+   "apport": "Rigueur du modèle de seuil et garde-fou contre les simplifications. Note : édition de référence souvent datée de 1991, réédition 1998 ; incertitude sur l'édition exacte citée."
+  },
+  {
+   "auteur": "Dieter Stauffer, Amnon Aharony",
+   "titre": "Introduction to Percolation Theory",
+   "annee": "1992",
+   "idee": "Introduction accessible à la percolation : grappes, seuil critique, lois d'échelle sur réseaux aléatoires.",
+   "apport": "Vocabulaire technique (nœuds, liens, grappes traversantes) traduit en exercices de cartographie personnelle. Note : années d'édition variants selon les réimpressions."
+  },
+  {
+   "auteur": "Malcolm Gladwell",
+   "titre": "The Tipping Point: How Little Things Can Make a Big Difference",
+   "annee": "2000",
+   "idee": "De petits facteurs cumulés (contexte, personnes-clés, contagion) font basculer un phénomène au-delà d'un point de retournement.",
+   "apport": "Structure narrative du « basculement » ; notre livre explicite le mécanisme de seuil et refuse le storytelling magique."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "De minuscules améliorations cumulées et des systèmes (environnement, identité) produisent des effets importants dans le temps.",
+   "apport": "Protocoles d'accumulation, suivi visuel, architecture d'habitudes des parties III et IV."
+  },
+  {
+   "auteur": "BJ Fogg",
+   "titre": "Tiny Habits",
+   "annee": "2019",
+   "idee": "Des comportements minuscules ancrés à des routines existantes et célébrés immédiatement s'installent sans effort de volonté.",
+   "apport": "Fabrication des mini-clés d'habitude et formule d'ancrage « après ___ je fais ___ »."
+  },
+  {
+   "auteur": "Wendy Wood",
+   "titre": "Good Habits, Bad Habits: The Science of Making Positive Changes That Stick",
+   "annee": "2019",
+   "idee": "Le contexte et les signaux quotidiens pèsent plus que la volonté : automatiser les bons choix change la trajectoire.",
+   "apport": "Traitement des habitudes comme nœuds automatisés de la carte (chapitre 4) et modification de l'environnement."
+  },
+  {
+   "auteur": "Charles Duhigg",
+   "titre": "The Power of Habit",
+   "annee": "2012",
+   "idee": "Boucle déclencheur-routine-récompense : changer la routine centrale transforme d'autres habitudes en cascade.",
+   "apport": "Notion d'habitude-pont et d'ordre d'intervention des clés (chapitres 15 et 16)."
+  },
+  {
+   "auteur": "Johann Hari",
+   "titre": "Lost Connections",
+   "annee": "2017",
+   "idee": "Dépression et anxiété tiennent largement à des connexions rompues (travail, sens, autres, estime, valeurs) autant qu'à la biologie.",
+   "apport": "Angle « reconnexion » de la santé mentale et inventaire des types de connexions ; nous restons descriptifs et non médicalisants. Note : paru fin 2017, souvent daté 2018 selon les éditions."
+  },
+  {
+   "auteur": "Alex Korb",
+   "titre": "The Upward Spiral",
+   "annee": "2015",
+   "idee": "De petits changements (marche, sommeil, décisions) déclenchent des boucles de rétroaction positive dans le cerveau.",
+   "apport": "Idée d'effet de levier différé des petits pas, formulée avec modestie et sans promesse individuelle."
+  },
+  {
+   "auteur": "Steven G. Addis, Christopher R. Martell",
+   "titre": "Overcoming Depression One Step at a Time",
+   "annee": "2002",
+   "idee": "L'activation comportementale par toutes petites étapes, relevées systématiquement, réduit l'évitement.",
+   "apport": "Grilles de relevé et protocole pas-à-pas de la partie IV, présentés comme outils d'auto-observation, pas comme thérapie."
+  },
+  {
+   "auteur": "Nicholas A. Christakis, James H. Fowler",
+   "titre": "Connected: The Surprising Power of Our Social Networks",
+   "annee": "2009",
+   "idee": "Comportements, humeurs et états se diffusent selon des motifs de réseau, y compris au-delà du cercle direct.",
+   "apport": "Justifie la diffusion et la stabilisation après le basculement, ainsi que les mesures de contagion de l'axe 2."
+  },
+  {
+   "auteur": "Robert D. Putnam",
+   "titre": "Bowling Alone: The Collapse and Revival of American Community",
+   "annee": "2000",
+   "idee": "L'érosion du capital social (associations, voisinage, confiance) dégrade le bien-être collectif et individuel.",
+   "apport": "Contexte sociétal de la cartographie des liens faibles et de la « zone clairsemée » (chapitres 3 et 8)."
+  },
+  {
+   "auteur": "Martin E. P. Seligman",
+   "titre": "Learned Optimism",
+   "annee": "1990",
+   "idee": "Le style explicatif (permanent, général, omniprésent) façonne résilience, motivation et abandon prématuré.",
+   "apport": "Correction de l'interprétation « mes efforts sont vains » quand on est encore sous le seuil (chapitres 1 et 19). Note : éditions 1990 (USA) et 1991 (UK) selon les sources."
+  },
+  {
+   "auteur": "Richard H. Thaler, Cass R. Sunstein",
+   "titre": "Nudge",
+   "annee": "2008",
+   "idee": "L'architecture des choix (défauts, repères, petits incitatifs) oriente durablement les comportements sans contraindre.",
+   "apport": "Conception d'« environnements-outils » et d'ancrages de stabilisation après le basculement."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Voir le réseau : comprendre le mécanisme et cartographier ses appuis et ses habitudes",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le paradoxe des efforts invisibles",
+     "objectif": "Installer la thèse contre-intuitive : ce qui semble inutile est souvent simplement sous le seuil de percolation, et poser les garde-fous du livre (santé mentale descriptive, aucune promesse de résultat, aucun conseil médical personnalisé). Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Le paradoxe : des efforts réels, aucune trace visible",
+      "La percolation en un schéma : un seuil, pas une pente",
+      "Réseau personnel : nœuds, liens, îlots, seuil",
+      "La thèse : sous le seuil, l'inutile apparent n'est pas l'inutile définitif",
+      "Ce que le modèle ne promet pas (limites, incertitudes, périmètre non médical)",
+      "Le parcours en cinq axes du livre"
+     ],
+     "exercices": [
+      "Test de situation « où suis-je sous le seuil ? » : 12 questions auto-cotées en 10 minutes",
+      "Journal des efforts invisibles : 7 jours, une ligne par petit changement tenté",
+      "Écrire sa question de départ en une phrase (à reprendre au chapitre 24)"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Anatomie d'un réseau personnel",
+     "objectif": "Donner le vocabulaire minimal (nœud, lien, degré, îlot, composante, seuil) et faire choisir un périmètre de cartographie réaliste. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Nœuds : personnes, lieux, activités, rituels, outils",
+      "Liens : fréquence, intensité, sens du flux",
+      "Degré, portée, densité : les cinq mots utiles",
+      "Îlots et composantes : ce qui ne se rejoint pas",
+      "Carte mentale vs réalité : les angles morts du souvenir",
+      "Choisir un périmètre : trois mois, pas toute une vie"
+     ],
+     "exercices": [
+      "Inventaire des nœuds en 5 catégories (objectif : 40 nœuds)",
+      "Compter le degré de ses 5 nœuds centraux",
+      "Rédiger et noter le périmètre de cartographie (dates, domaines exclus)"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Cartographier son réseau d'appuis",
+     "objectif": "Produire une carte des personnes en trois anneaux, avec audit de dix liens, et expliciter l'éthique de la cartographie. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Les trois anneaux : intime, fréquent, occasionnel",
+      "Liens faibles : le carnet des connaissances peu proches",
+      "Carte à 30 nœuds : dessiner, pas résumer",
+      "Auditer un lien : fréquence, qualité, réciprocité, effort",
+      "Ce que la carte révèle : solitudes et surcharges",
+      "Éthique : ne pas cartographier les autres à leur insu"
+     ],
+     "exercices": [
+      "Carte des 30 personnes en trois anneaux",
+      "Grille d'audit de 10 liens sur 4 critères",
+      "Liste des 5 personnes non contactées depuis 6 mois"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Cartographier ses habitudes-câblage",
+     "objectif": "Traiter les habitudes comme des nœuds automatisés du réseau : chaînes, habitudes-ponts, habitudes-culs-de-sac, horaire-type. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "L'habitude comme nœud automatique",
+      "Chaînes : contexte → routine → bénéfice immédiat",
+      "Habitudes-ponts et habitudes-culs-de-sac",
+      "24 heures-type : dessiner son réseau de temps",
+      "Écluses : ce qui bloque la circulation (écran, évitement, fatigue)",
+      "Incohérences entre la carte des personnes et la carte des heures"
+     ],
+     "exercices": [
+      "Journal de comportement 72 heures (15 minutes, 4 fois par jour)",
+      "Diagramme des 5 chaînes habituelles les plus puissantes",
+      "Identifier 3 habitudes-culs-de-sac et 3 habitudes-ponts"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Croiser les deux cartes",
+     "objectif": "Superposer appuis et habitudes, mesurer la composante connectée de sa zone choisie et rédiger un constat de départ non jugeant. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Superposer les deux cartes sur une seule page",
+      "Connexions croisées : une personne qui change une habitude, une habitude qui ouvre une rencontre",
+      "Composante connectée : quel pourcentage de ma vie est « en réseau » ?",
+      "Premier calcul simple : densité locale de la zone choisie",
+      "Constat de départ : décrire l'état des lieux sans jugement",
+      "Périmètre et garde-fous : ce que le livre ne fait pas"
+     ],
+     "exercices": [
+      "Carte en une page : double réseau (personnes + habitudes)",
+      "Mesurer la composante connectée de la zone choisie",
+      "Rédiger un constat de départ de 150 mots"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Mesurer la densité de connexions, sans se punir",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "Le vocabulaire du dégré et de la densité",
+     "objectif": "Apprendre à calculer simplement degré, densité et centralité de passage, avec des exemples chiffrés et un tableau de bord minimal. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Degré : combien de liens partent d'un nœud",
+      "Densité : liens réels / liens possibles (formule simple)",
+      "Centralité de passage : qui passe par qui",
+      "Cinq exemples chiffrés pas à pas",
+      "Pièges de mesure : biais de mémoire et fausse précision",
+      "Tableau de bord minimal : six chiffres, pas plus"
+     ],
+     "exercices": [
+      "Calculer la densité de son réseau de 20 nœuds (feuille guidée)",
+      "Classer ses 10 nœuds par degré",
+      "Repérer les 3 nœuds qui relient deux groupes distincts"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Mesurer la connexion réelle de sa semaine",
+     "objectif": "Passer du stock de liens au flux : régularité, jours connectés, effort de mise en relation, seuil personnel de densité perçue. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Régularité contre intensité : une connexion courte et fréquente",
+      "« Jours connectés » : relevé sur 30 jours",
+      "Coût d'entrée : mesurer l'effort de mise en relation",
+      "Sous-comptage : les liens quotidiens oubliés",
+      "Se comparer à soi : le seuil personnel de densité perçue",
+      "Ce que la mesure ne dit pas de la qualité"
+     ],
+     "exercices": [
+      "Grille 30 jours des jours connectés (oui/non, 10 secondes par jour)",
+      "Score d'effort hebdomadaire de 0 à 10",
+      "Définir une cible de réaliste sur 8 semaines"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Les zones clairsemées",
+     "objectif": "Cartographier le vide sans catastrophiser : distinguer vide structurel et situationnel, hiérarchiser les manques selon cinq domaines de densité. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Voir le vide sans paniquer",
+      "Cartographier les zones clairsemées domaine par domaine",
+      "Vide structurel contre vide situationnel",
+      "Cinq domaines de densité : sommeil, mouvement, liens, sens, repos",
+      "Isolement choisi contre isolement subi",
+      "Hiérarchiser : ce qui se comble vite, ce qui demande du temps"
+     ],
+     "exercices": [
+      "Carte thermique des 5 domaines (note 0 à 5)",
+      "Matrice : vide × urgence × volume d'effort",
+      "Choisir une seule zone clairsemée à traiter en priorité"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Quand trop de liens étouffent",
+     "objectif": "Traiter l'inverse du problème : la surdensité, le coût de maintenance, les coupes à mener pour densifier autrement. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "La surdensité : trop de liens obligatoires",
+      "Coût de maintenance : heures, énergie, culpabilité",
+      "Moins mais mieux : primer la qualité sur le volume",
+      "Coupes : alléger, différer, faire durer",
+      "Seuils personnels de saturation : signaux d'alerte",
+      "L'équilibre : la densité n'est pas la promiscuité"
+     ],
+     "exercices": [
+      "Audit de surdensité : 15 liens classés garder / alléger / mettre en pause",
+      "Plan de nettoyage en 3 niveaux (cette semaine, ce mois, jamais)",
+      "Chronométrer une semaine : temps relationnel réel"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Le tableau de bord mensuel",
+     "objectif": "Bâtir un instrument de mesure bienveillant (huit indicateurs maximum), apprendre à lire une courbe et signaler ce qui ne se mesure pas. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Mesurer pour comprendre, pas pour se punir",
+      "Huit indicateurs maximum, sur une page",
+      "Le rythme de la revue mensuelle : 30 minutes",
+      "Lire une courbe : stagnation, plateau, mouvement",
+      "Signaler les incertitudes : ce qu'on ne sait pas mesurer",
+      "Lier la mesure au premier axe : état des lieux actualisé"
+     ],
+     "exercices": [
+      "Construire son tableau de bord mensuel (modèle type)",
+      "Première revue mensuelle : 6 questions écrites",
+      "Retirer ou régler un indicateur qui culpabilise"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Identifier les clés : ce qui relie les îlots isolés",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "Les îlots isolés",
+     "objectif": "Repérer les îlots relationnels, d'habitudes et mentaux, mesurer leur coût et choisir l'îlot prioritaire. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Qu'est-ce qu'un îlot : définition et exemples concrets",
+      "Îlots relationnels : des groupes qui ne se parlent pas",
+      "Îlots d'habitudes : des activités jamais reliées",
+      "Îlots mentaux : parts de soi que rien ne relie (projets, souvenirs, valeurs)",
+      "Coût de l'entre-deux : l'énergie perdue à la frontière",
+      "Dessiner les frontières : ce qui sépare l'îlot du continent"
+     ],
+     "exercices": [
+      "Inventaire des 6 à 10 îlots, une phrase chacun",
+      "Pour chaque îlot : « un lien qui le rapprocherait du continent »",
+      "Choisir l'îlot prioritaire selon impact × faisabilité"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "La clé : un seul lien peut tout débloquer",
+     "objectif": "Définir opérationnellement la clé (pont, trou structurel, personne, lieu, habitude, croyance) et la reconnaître à sept critères. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Définir la clé : le lien qui relie deux mondes",
+      "Le trou structurel : l'entre-deu comme ressource",
+      "Les formes de clés : personne, lieu, moment, habitude, croyance",
+      "Asymétrie : une clé suffit parfois, d'autres fois il en faut cinq",
+      "Fouiller le passé : trois moments où un lien a tout changé",
+      "Sept critères pour reconnaître une clé"
+     ],
+     "exercices": [
+      "Reconstituer 3 basculements passés sur fiche individuelle",
+      "Grille des 7 critères appliquée à 10 candidats",
+      "Retenir 3 clés candidates à tester dans les 30 jours"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Repérer les clés candidates",
+     "objectif": "Cartographier les recoupements, débusquer le pont manquant, distinguer clés humaines et clés non-humaines, sans forcer. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Passeriers : qui relie déjà des groupes aujourd'hui ?",
+      "Carte des recoupements : qui connaît qui ?",
+      "Questions pour débusquer une clé manquante",
+      "Clés non-humaines : événements, lieux, formats, outils",
+      "Signaux que la clé manque : impasses et répétitions",
+      "Ne pas forcer : distinguer une clé d'une envie"
+     ],
+     "exercices": [
+      "Matrice de recoupement : 10 personnes × 4 groupes",
+      "Questionnaire « pont manquant » : 10 questions",
+      "Lister 3 clés non-humaines mobilisables ce mois-ci"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Poser la clé : la prise de contact",
+     "objectif": "Fournir un mode d'emploi simple d'approche (demande claire, petite, datée), gérer silence et refus, et miser sur la répétition des tentatives. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "L'approche simple : une demande claire, petite, datée",
+      "Formuler ce qu'on demande (et ce qu'on n'exige pas)",
+      "Où et quand : choisir le point de contact",
+      "Les cinq tentatives : la probabilité joue",
+      "Accueillir le silence, le non, le oui tiède",
+      "Après le premier contact : le lien se transforme"
+     ],
+     "exercices": [
+      "Rédiger un message d'approche de 6 lignes (modèle type)",
+      "Plan de 5 tentatives datées pour une clé prioritaire",
+      "Simuler un échange difficile par jeu de rôle écrit"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Clés d'habitude et clés de sens",
+     "objectif": "Fabriquer des clés non relationnelles : habitudes-ponts, mini-clés ancrées, rituels de sens et clé cognitive qui ouvre les autres liens. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Habitudes-ponts : celles qui allument deux autres nœuds",
+      "Ancrage : brancher la nouvelle clé sur une routine déjà solide",
+      "Mini-clés : deux minutes, chaque jour",
+      "Clés de sens : rituel, projet, valeur qui donne un pourquoi",
+      "La clé cognitive : la croyance qui relie (« je peux demander »)",
+      "Ordre d'intervention : d'abord la clé la plus accessible"
+     ],
+     "exercices": [
+      "Identifier ses 3 habitudes-ponts et en mesurer le degré",
+      "Protocole d'ancrage : « Après ___ , je fais ___ pendant 2 min »",
+      "Écrire sa clé cognitive en une phrase et la tester 7 jours"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Accumuler patiemment jusqu'au seuil",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "Pourquoi rien ne « marche » encore",
+     "objectif": "Expliquer la mécanique du seuil et l'effet de retard, déconstruire l'abandon prématuré et transformer la patience en protocole. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "La percolation en six images : du réseau au chemin traversant",
+      "L'effet de retard : pourquoi rien ne « marche » encore",
+      "Ce qui s'accumule sous le seuil : liens invisibles",
+      "L'erreur de l'arrêt au moment presque",
+      "Distance critique : une estimation, pas une promesse",
+      "La patience comme protocole, pas comme vertu"
+     ],
+     "exercices": [
+      "Dessiner le modèle du seuil en 6 cases pour son propre cas",
+      "Compteur de connexions ajoutées sur 8 semaines",
+      "Liste de 3 tentatives abandonnées trop tôt"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Protocole d'accumulation : jamais deux fois zéro",
+     "objectif": "Installer un minimum viable quotidien, un suivi visuel et une règle de reprise sans culpabilité après rechute. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "La règle du minimum viable quotidien",
+      "Jamais deux fois zéro : le seuil se franchit en jours ordinaires",
+      "Rendre la constance visible : calendrier, chaîne, mur",
+      "Rechutes et reprises : redémarrer sans dette",
+      "Fenêtres de repos : protéger l'accumulation",
+      "Suivi : trois chiffres suffisent"
+     ],
+     "exercices": [
+      "Contrat hebdomadaire de minimums (3 lignes, à signer)",
+      "Calendrier mural : chaîne de 30 jours",
+      "Protocole de reprise après 3 jours manqués"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Augmenter la densité petit à petit",
+     "objectif": "Enseigner l'effet d'empilement et la cadence d'ajout (un lien, puis deux, jamais dix), avec vigilance contre fatigue et emballement. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Composition : une connexion en attire une autre",
+      "Cadence d'ajout : jamais dix d'un coup",
+      "Enchaîner sur l'existant : densifier avant d'ouvrir",
+      "Durées d'essai : ce que la recherche dit (et ne dit pas) sur 21 à 66 jours",
+      "Fatigue de densification : signes de surcharge",
+      "Éviter l'emballement du lundi matin"
+     ],
+     "exercices": [
+      "Tableau de cadence sur 12 semaines",
+      "Test « +1 » : une micro-connexion par jour pendant 14 jours",
+      "Définir un indicateur d'alerte de fatigue"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Quand la motivation s'érode",
+     "objectif": "Traverser la vallée des attentes déçues par les preuves archivées, un témoin discret, une réévaluation qui ajuste sans abandonner. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "La vallée des attentes déçues",
+      "Preuves archivées : on ne voit plus ce qu'on a construit",
+      "Micro-preuves : trois lignes par semaine",
+      "Le rôle des pairs et des témoins discrets",
+      "Réévaluer sans abandonner : changer la méthode, garder le cap",
+      "Accepter qu'un chemin ne mène nulle part"
+     ],
+     "exercices": [
+      "Dossier des preuves datées (à ouvrir en cas de doute)",
+      "Protocole de réévaluation à J+30 : 6 questions",
+      "Choisir un témoin de progression (une personne, un carnet)"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Détecter l'approche du seuil",
+     "objectif": "Apprendre à reconnaître les signaux faibles de densité montante, distinguer bruit et signal, préparer le pas suivant avant la bascule. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Signaux faibles : la densité commence à monter",
+      "Occasions qui se multiplient sans qu'on les cherche",
+      "Agrégation : des îlots qui se touchent",
+      "Micro-réactions en chaîne : une chose entraîne la suivante",
+      "Bruit contre signal : faux positifs et euphories",
+      "Préparer le prochain pas avant que le seuil ne tombe"
+     ],
+     "exercices": [
+      "Journal des signaux faibles : 21 jours, 3 lignes le soir",
+      "Grille des faux positifs : 5 questions avant de conclure",
+      "Définir son moment d'alerte : ce que je fais si ça bascule"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Reconnaître le basculement, le stabiliser, durer",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Le basculement : quand tout change d'un coup",
+     "objectif": "Décrire le basculement sans dramatiser ni euphoriser : phénoménologie, rôle de la clé unique, plan de réaction rédigé à l'avance. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "À quoi ressemble le basculement : description précise",
+      "Rien n'est neuf : c'est le parcours qui change",
+      "La clé unique : quand un seul lien débloque tout",
+      "Intensité et durée : ne pas surinterpréter les 48 premières heures",
+      "Plan de réaction : ne pas se disperser, ne pas tout changer",
+      "Euphorie, méfiance, résignation : trois réponses typiques"
+     ],
+     "exercices": [
+      "Fiche « si ça bascule » rédigée à l'avance",
+      "Journal du basculement dans les 48 heures (décrire, pas analyser)",
+      "Choisir deux actions à ne pas faire pendant 14 jours"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Stabiliser : éviter le retour en arrière",
+     "objectif": "Figer les clés actives, construire une routine de stabilisation sur 30 jours et traiter la rechute comme une information. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Pourquoi un état basculé peut se défaire",
+      "Figer les clés actives : les rendre non négociables",
+      "Routine de stabilisation : 30 jours structurés",
+      "Ancrages : environnement, calendrier, personnes, repos",
+      "Surveiller sans obsession : la revue courte",
+      "Rechute : une information, pas un verdict"
+     ],
+     "exercices": [
+      "Plan de stabilisation sur 30 jours (modèle type)",
+      "Carte des trois piliers à maintenir : un geste chacun",
+      "Rédiger sa règle de reprise en cas de rechute"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Redessiner le réseau pour durer",
+     "objectif": "Assurer la continuité face aux pertes de nœuds, diversifier les ponts, enchaîner une seconde vague de connexion et planifier des revues trimestrielles. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Maintenir la densité dans le temps",
+      "Plan de continuité : si un nœud clé disparaît",
+      "Diversifier pour ne pas dépendre d'un seul pont",
+      "Relier les îlots restants : la seconde vague",
+      "Saisonnalité et cycles : anticiper les creux",
+      "La revue trimestrielle du réseau"
+     ],
+     "exercices": [
+      "Test « si X disparaît » : alternatives pour vos 3 nœuds clés",
+      "Plan de continuité écrit sur 1 page",
+      "Calendrier des 4 revues trimestrielles"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Transmettre le modèle — et ses limites",
+     "objectif": "Finir par le partage éthique du modèle, le recours éventuel à un professionnel (repères généraux, pas d'orientation médicale), la nature de métaphore outillée de la percolation et le prochain seuil. Visé : ≈ 3 500 mots.",
+     "sections": [
+      "Transmettre sans prescrire : le modèle comme conversation",
+      "Partager sa carte avec un proche confiant",
+      "Quand faire appel d'un professionnel : repères généraux, pas de conseil personnalisé",
+      "Limites du modèle : la percolation est une métaphore outillée, pas une prédiction",
+      "Éthique, confidentialité, non-dénigrement des absents",
+      "Itération suivante : ce que le seuil suivant exige"
+     ],
+     "exercices": [
+      "Entretien de partage : script de 10 minutes",
+      "Bilan final en 2 pages : avant, après, prochain seuil",
+      "Définir le thème d'une éventuelle suite : la densité sur la durée"
+     ]
+    }
+   ]
+  }
+ ]
+}

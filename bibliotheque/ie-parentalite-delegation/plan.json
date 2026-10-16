@@ -1,0 +1,681 @@
+{
+ "titre": "Point de défaillance unique",
+ "sous_titre": "La parentalité par la délégation et la redondance : bâtir une famille robuste sans tout porter soi-même",
+ "bibliographie": [
+  {
+   "auteur": "Donald W. Winnicott",
+   "titre": "Jeux et jouets",
+   "annee": "1975 (éd. fr.; œuvre d'origine antérieure)",
+   "idee": "La « mère suffisamment bonne » remplace le mythe de la perfection parentale. L'enfant grandit dans un espace transitionnel où l'adulte n'est pas omniprésent.",
+   "apport": "Fonder la thèse : un relais imparfait mais fiable vaut mieux qu'un parent unique épuisé ; légitimer l'abandon du contrôle total."
+  },
+  {
+   "auteur": "John Bowlby",
+   "titre": "Attachement et perte (vol. 1)",
+   "annee": "1969 (références largement établies)",
+   "idee": "L'enfant construit des liens d'attachement avec plusieurs figures de soin, pas seulement la mère. La sécurité vient de la disponibilité relationnelle.",
+   "apport": "Justifier la multiplicité des adultes de confiance comme architecture de sécurité, non comme substitut secondaire."
+  },
+  {
+   "auteur": "Mary Ainsworth",
+   "titre": "Patterns of Attachment",
+   "annee": "1978",
+   "idee": "L'observation des interactions (situation étrange) révèle des styles d'attachement liés à la qualité de réponse du soignant.",
+   "apport": "Inspirer des grilles d'observation non pathologisantes pour évaluer la qualité des relais familiaux."
+  },
+  {
+   "auteur": "Françoise Dolto",
+   "titre": "Le lien affectif",
+   "annee": "1984",
+   "idee": "Le développement passe par le désir et la parole partagés ; l'enfant se construit dans la relation signifiante.",
+   "apport": "Ancrer la délégation dans une éthique de la parole et du respect du sujet, pas dans une logique purement technique."
+  },
+  {
+   "auteur": "Boris Cyrulnik",
+   "titre": "Un merveilleux malheur",
+   "annee": "1997",
+   "idee": "La résilience naît d'une écologie de care : plusieurs relations, un récit qui relie, des appuis dans l'entourage.",
+   "apport": "Élargir le « village » familial comme dispositif de robustesse face aux aléas de la vie."
+  },
+  {
+   "auteur": "Jesper Juul",
+   "titre": "Votre enfant est capable",
+   "annee": "vers 2000 (diffusion large en France)",
+   "idee": "L'enfant naît compétent en relation ; l'éducation adulte consiste à lui confier responsabilités et limites claires.",
+   "apport": "Cadre central pour les protocoles de délégation adaptés à l'âge et le refus du surcontrôle."
+  },
+  {
+   "auteur": "Isabelle Filliozat",
+   "titre": "J'arrête de crier, je m'exprime",
+   "annee": "2011 (approx.)",
+   "idee": "Les cris parentaux signalent souvent un épuisement et un manque de cadres relationnels ; nommer les émotions change le climat.",
+   "apport": "Relier surcharge parentale, communication et besoin de rotation des rôles ; ton pratique accessible."
+  },
+  {
+   "auteur": "Adele Faber et Elaine Mazlish",
+   "titre": "Parler pour que les enfants écoutent, écouter pour que les enfants parlent",
+   "annee": "1982 (nombreuses rééditions)",
+   "idee": "Des outils concrets d'écoute et d'expression remplacent les menaces et les leçons sans épuiser ni parent ni enfant.",
+   "apport": "Boîte à outils de transmission verbale des consignes délégables ; exercices dialogués réutilisables."
+  },
+  {
+   "auteur": "Thomas Gordon",
+   "titre": "P.E.T. : l'éducation parentale efficace",
+   "annee": "1975",
+   "idee": "La communication non directive (écoute, messages « je ») réduit les conflits de pouvoir et responsabilise l'enfant.",
+   "apport": "Techniques de négociation et de clarification des rôles dans les contrats de délégation familiaux."
+  },
+  {
+   "auteur": "Haim Ginott",
+   "titre": "Entre parent et enfant",
+   "annee": "1965 (traductions multiples)",
+   "idee": "Accepter les émotions de l'enfant tout en limitant les comportements crée un cadre sûr sans humiliation.",
+   "apport": "Protocoles pour tolérer l'imperfection du relais sans dévaloriser l'enfant ni l'adulte."
+  },
+  {
+   "auteur": "Magda Gerber",
+   "titre": "Votre bébé compétent (et approche RIE)",
+   "annee": "vers 1998 (sources à vérifier selon éditions)",
+   "idee": "Respecter l'autonomie naissante de l'enfant : l'observer, ne pas sur-stimuler, confier tôt des gestes simples.",
+   "apport": "Fonder l'introduction très précoce de la délégation comme respect, non comme négligence."
+  },
+  {
+   "auteur": "Julie Lythcott-Haims",
+   "titre": "How to Raise an Adult",
+   "annee": "2015",
+   "idee": "Le surparenting (hélicoptère / chasse-neige) fabrique des jeunes adultes fragiles qui n'ont jamais pratiqué la responsabilité.",
+   "apport": "Second pilier contre-intuitif du livre : ne pas tout porter abîme aussi l'enfant ; déléguer est un acte d'éducation."
+  },
+  {
+   "auteur": "Lenore Skenazy",
+   "titre": "Free-Range Kids",
+   "annee": "2009",
+   "idee": "Laisser de l'autonomie progressiste aux enfants (se déplacer, se tromper) renforce compétences et confiance.",
+   "apport": "Modèles concrets de délégation d'autonomie et de gestion du regard social sur le « laxisme » supposé."
+  },
+  {
+   "auteur": "Peter Gray",
+   "titre": "Free to Learn",
+   "annee": "2013",
+   "idee": "Le jeu libre est le moteur d'apprentissage évolutif de l'enfant ; l'adulte doit récupérer une place de cadre, pas de directeur permanent.",
+   "apport": "Justifier des redondances ludiques et des espaces où l'enfant conduit sans supervision constante."
+  },
+  {
+   "auteur": "Jonathan Haidt",
+   "titre": "The Anxious Generation",
+   "annee": "2024",
+   "idee": "La surprotection en monde réel et la surconnexion numérique expliquent en partie la détresse croissante des adolescents.",
+   "apport": "Lier délégation d'autonomie, rituels de présence et régulation des écrans sans tomber dans le moralisme."
+  },
+  {
+   "auteur": "Po Bronson et Ashley Merryman",
+   "titre": "NurtureShock",
+   "annee": "2009",
+   "idee": "De nombreux mythes éducatifs (éloges, talent inné, etc.) sont contredits par la recherche quand on la lit correctement.",
+   "apport": "Habitude d'esprit : tester ses croyances parentales, distinguer intuition et données (avec humilité épistémique)."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile",
+   "annee": "2012",
+   "idee": "Les systèmes robustes gagnent en force sous stress modéré grâce à la redondance, la variété et l'évitement du monopole.",
+   "apport": "Cadre conceptuel principal : la famille antifragile répartit les fonctions et accepte des doublons « coûteux » en temps."
+  },
+  {
+   "auteur": "Karl E. Weick et Kathleen M. Sutcliffe",
+   "titre": "Managing the Unexpected",
+   "annee": "2001",
+   "idee": "Les organisations à haute fiabilité (HRO) survivent grâce à la préoccupation pour l'anomalie, la réticence à simplifier et la décentralisation.",
+   "apport": "Traduire les principes HRO en rituels familiaux, cartographie des appuis et alertes précoces."
+  },
+  {
+   "auteur": "James Reason",
+   "titre": "Human Error",
+   "annee": "1990",
+   "idee": "Les erreurs humaines sont des effets de système (défenses en couche type « fromage suisse »), pas d'abord des fautes morales.",
+   "apport": "Changer de grille après un raté de relais : renforcer les barrières, cesser de chercher un coupable unique."
+  },
+  {
+   "auteur": "Atul Gawande",
+   "titre": "Le manifeste de la checklist",
+   "annee": "2009 (éd. fr.)",
+   "idee": "Les checklists professionnelles évitent les omissions dans des tâches complexes sous charge.",
+   "apport": "Inspirer des checklists familiales (sorties, transferts de garde, conflits) sans rigidité bureaucratique."
+  },
+  {
+   "auteur": "Donella H. Meadows",
+   "titre": "Penser les systèmes",
+   "annee": "2008 (posthume)",
+   "idee": "Un système se comprend par ses stocks, flux, boucles de rétroaction et points de levier.",
+   "apport": "Outils de cartographie familiale : boucles d'épuisement, délégation qui crée des boucles vertueuses."
+  },
+  {
+   "auteur": "Christina Maslach",
+   "titre": "The Truth About Burnout",
+   "annee": "1997",
+   "idee": "L'épuisement vient d'un déséquilibre charge/contrôle/récompense/communauté, pas d'un seul manque de volonté.",
+   "apport": "Modèle d'analyse de l'épuisement parental et de la rotation préventive des rôles."
+  },
+  {
+   "auteur": "Jim Loehr et Tony Schwartz",
+   "titre": "The Power of Full Engagement",
+   "annee": "2003",
+   "idee": "La performance durable repose sur la gestion de l'énergie (pas du temps) et les cycles effort-récupération.",
+   "apport": "Protocoles de rotation, micro-récupérations et design de la semaine familiale haute disponibilité."
+  },
+  {
+   "auteur": "Diane Vaughan",
+   "titre": "The Challenger Launch Decision",
+   "annee": "1996",
+   "idee": "Les catastrophes naissent souvent d'une « normalisation de la dérive » : des écarts deviennent la norme par paliers.",
+   "apport": "Seuils d'alerte et rituels de révision pour éviter que le « ça passe quand même » n'érode la sécurité."
+  },
+  {
+   "auteur": "Alfie Kohn",
+   "titre": "Unconditional Parenting",
+   "annee": "2005",
+   "idee": "Aimer pour ce que l'enfant est, pas pour sa performance, réduit la pression et la tentation du contrôle.",
+   "apport": "Éthique de fond : la délégation n'est ni un marché de performance ni un retrait affectif."
+  },
+  {
+   "auteur": "Daniel J. Siegel",
+   "titre": "The Whole-Brain Child",
+   "annee": "2011",
+   "idee": "Intégrer émotion et raison aide l'enfant à réguler ; « nommer pour apprivoiser » ouvre l'apprentissage.",
+   "apport": "Scripts pour accompagner l'enfant dans les échecs de délégation et les rituels de régulation."
+  },
+  {
+   "auteur": "Brené Brown",
+   "titre": "Les dons de l'imperfection",
+   "annee": "2010",
+   "idee": "Cultiver le courage d'être imparfait et digne d'appartenance réduit la honte et le perfectionnisme.",
+   "apport": "Tolérer le « pas exactement comme moi » chez le relais et chez soi, sans culpabilité."
+  },
+  {
+   "auteur": "Matthew Syed",
+   "titre": "Black Box Thinking",
+   "annee": "2015",
+   "idee": "Les systèmes qui apprennent exploitent les échecs comme données ; les autres les cachent.",
+   "apport": "Rituels d'« après-action » familiaux pour transformer un raté en protocole amélioré."
+  },
+  {
+   "auteur": "Joël de Rosnay",
+   "titre": "Les chemins de la vie",
+   "annee": "1996",
+   "idee": "Les systèmes vivants se maintiennent par relations, rétroactions et diversité ; la vie est auto-organisation.",
+   "apport": "Vocabulaire systémique accessible pour décrire la famille comme organisme adaptatif, non comme machine."
+  },
+  {
+   "auteur": "Amy C. Edmondson",
+   "titre": "The Fearless Organization",
+   "annee": "2019",
+   "idee": "La sécurité psychologique permet de signaler les anomalies sans peur du blâme.",
+   "apport": "Créer un climat où l'enfant et le relais peuvent dire « j'ai raté » ou « je ne sais pas » sans sanction relationnelle."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Cartographie : comprendre la famille comme un système",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le mythe du parent irremplaçable",
+     "objectif": "Déconstruire l'idéal du parent omniscient et montrer qu'un unique point de défaillance fragilise autant l'adulte que l'enfant.",
+     "sections": [
+      "Le récit culturel du parent héroïque",
+      "Ce que « tout porter » coûte réellement",
+      "Cas types : de l'épuisement au blocage de l'enfant",
+      "Premiers signes de monopole parental",
+      "Ce que l'ingénierie de la fiabilité enseigne (analogie claire)",
+      "Position du livre : ni abandon, ni perfectionnisme"
+     ],
+     "exercices": [
+      "Audit express « suis-je irremplaçable ? » (12 questions)",
+      "Chronique d'une journée où tout passe par moi",
+      "Formulation d'une intention de délégation sur 30 jours"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Cartographier les fonctions parentales essentielles",
+     "objectif": "Nommer les fonctions critiques (sécurité, attachement, régulation, éducation, appartenance, transition vers l'autonomie) et les distinguer des tâches optionnelles.",
+     "sections": [
+      "Qu'est-ce qu'une fonction critique en parentalité",
+      "Six familles de fonctions : grille de référence",
+      "Fonction ≠ tâche : démêler le quotidien",
+      "Qui remplit quoi aujourd'hui ? (carte brute)",
+      "Âge de l'enfant et criticité variable",
+      "Ce que la recherche attachementale et l'approche HRO éclairent"
+     ],
+     "exercices": [
+      "Grille des six fonctions : remplissage actuel (1-5)",
+      "Liste des tâches « sacrées » à vérifier",
+      "Entretien de cadrage en binôme parental ou avec un proche de confiance"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "L'architecture invisible de la vie familiale",
+     "objectif": "Rendre visible les flux, dépendances et boucles de rétroaction qui font tenir (ou craquer) le système familial.",
+     "sections": [
+      "Flux : temps, énergie, attention, décisions",
+      "Boucles : surcharge → contrôle → moins d'autonomie → plus de charge",
+      "Points de friction récurrents (transitions, matins, soirées)",
+      "Densité des interactions : quand trop d'interfaces tuent la fiabilité",
+      "Cartographie en un schéma simple sans jargon",
+      "Premiers leviers : où alléger sans déléguer encore"
+     ],
+     "exercices": [
+      "Schéma « flux d'une semaine type »",
+      "Détection des trois boucles d'épuisement les plus actives",
+      "Choisir un point d'allègement non déléguable cette semaine"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Points de défaillance unique : les repérer chez soi",
+     "objectif": "Identifier précisément où le système repose sur une seule personne, une seule compétence ou un seul lieu, et en évaluer le risque.",
+     "sections": [
+      "Définition opérationnelle du point de défaillance unique (PDF)",
+      "Cartographie des risques : gravité × exposition × remplaçabilité",
+      "Rituels, secrets, compétences cachés d'un seul parent",
+      "Dépendances d'objets, de lieux, de numéros utiles",
+      "Niveaux de criticité : ce qui attend vs ce qui ne peut pas attendre",
+      "Plan d'action : trois PDF à traiter en priorité"
+     ],
+     "exercices": [
+      "Matrice de criticité des PDF détectés",
+      "Relevé des « savoirs non transmis » de la famille",
+      "Protocole de sauvegarde minimal pour le PDF n°1"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Déléguer sans abandonner",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Déléguer à l'enfant : protocoles par âge",
+     "objectif": "Construire une progression réaliste de responsabilités confiées à l'enfant, de la petite enfance à l'adolescence, sans surprotection ni surcharge.",
+     "sections": [
+      "Principes : confier, montrer, rater, recommencer",
+      "0-3 ans : autonomie sensorielle et gestes simples (approche respectueuse)",
+      "3-6 ans : routines, choix limités, aide concrète",
+      "6-12 ans : tâches de maison, décisions scolaires modestes, sécurité",
+      "12-18 ans : budget, agenda, conflits, projets",
+      "Signaux que la délégation est trop tôt, trop tard ou trop vague",
+      "Adapter aux particularités de l'enfant sans exceptionnisme paralysant"
+     ],
+     "exercices": [
+      "Échelle de délégation par âge (co-évaluation parent-enfant)",
+      "Protocole écrit pour une nouvelle responsabilité (modèle)",
+      "Test d'une semaine : retrait progressif d'une consigne"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Déléguer à l'entourage : co-parentalité et villages",
+     "objectif": "Élargir le cercle des adultes impliqués (autre parent, famille, amis, professionnels, pairs) avec clarté et sans rivalité.",
+     "sections": [
+      "Le mythe du couple parental monade",
+      "Clarifier les rôles entre adultes : coordination vs contrôle",
+      "Grands-parents, oncles, tuteurs : alliés potentiels",
+      "Amis parents, voisinage, structures d'accueil : le « village » réel",
+      "Quand faire appel à de l'aide n'est pas un échec",
+      "Limites éthiques : partage d'informations et consentement"
+     ],
+     "exercices": [
+      "Carte des appuis potentiels (cercles concentriques)",
+      "Script d'une première délégation à un proche",
+      "Règlement intérieur non écrit : le reformuler en 5 règles partagées"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Contrats de délégation et clarté des rôles",
+     "objectif": "Formaliser les transferts de responsabilité (attentes, marges de manque, feedback) pour éviter les zones grises et les reproches.",
+     "sections": [
+      "Pourquoi un « contrat » psychologique change la dynamite relationnelle",
+      "Les 5 éléments d'une délégation claire",
+      "Autorité, marge d'erreur, réversibilité",
+      "Déléguer une décision vs déléguer une tâche",
+      "Négocier sans marchandage affectif",
+      "Revue et révision périodique des contrats"
+     ],
+     "exercices": [
+      "Modèle de contrat de délégation (à adapter)",
+      "Conversation de cadrage en 15 minutes (script)",
+      "Revue mensuelle : ce qui est maintenu, élargi, repris"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Quand le relais résiste — et quand l'adulte reprend tout",
+     "objectif": "Anticiper les blocages : refus de l'enfant, résistance de l'entourage, reprise en main inconsciente du parent.",
+     "sections": [
+      "Types de résistances (peur, habitude, loyauté, surcharge)",
+      "Le parent qui reprend la main : mécanismes et coûts",
+      "Enfant qui « ne sait pas faire » : symptôme ou apprentissage",
+      "Adulte proche trop intrusive ou trop absent",
+      "Stratégies d'ajustement sans escalade relationnelle",
+      "Quand stopper une délégation sans régression globale"
+     ],
+     "exercices": [
+      "Journal des reprises en main (une semaine)",
+      "Entretien de résistance : questions ouvertes préparées",
+      "Mini-plan d'essai de relance sur un seul domaine"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Bâtir la redondance",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Plusieurs adultes de confiance",
+     "objectif": "Constituer délibérément un réseau de figures d'attachement et de soutien solides, avec des rôles distincts et complémentaires.",
+     "sections": [
+      "Redondance ≠ doublon parfait : des rôles qui se recouvrent partiellement",
+      "Sélection : fiabilité, disponibilité, cohérence des valeurs de base",
+      "Présentation progressive et tests de confiance dans le temps",
+      "Transmission d'informations utiles sans sur-exposition de l'intime",
+      "Réseau de secours : qui appelle qui en urgence (hors pathologie médicale)",
+      "Entretien du réseau : le laisser vieillir ou le renouveler"
+     ],
+     "exercices": [
+      "Grille des adultes de confiance (compétences × disponibilité × lien)",
+      "Plan de mise en relation progressif pour un relais faible",
+      "Liste de contact d'urgence partagée et validée"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Plusieurs manières de faire",
+     "objectif": "Réduire la fragilité en multipliant les modes opératoires : pas une seule routine sacrée, mais des variantes robustes.",
+     "sections": [
+      "Le risque d'une seule routine magique",
+      "Redondance des modes : sommeil, repas, devoirs, sorties",
+      "Standardiser l'essentiel, varier le secondaire",
+      "Checklists et protocoles partagés entre relais",
+      "Simplicité : trop de variantes tue la fiabilité",
+      "Tester des variantes en période calme, pas en crise"
+     ],
+     "exercices": [
+      "Cartographie des routines « à une seule voie »",
+      "Conception de deux variantes acceptables pour une routine clé",
+      "Checklist de transfert de garde (modèle minimal)"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Générations, pairs, milieux : les relais non évidents",
+     "objectif": "Explorer au-delà du cercle immédiat : aînés, cadres, groupes de pairs, milieux associatifs ou spirituels (sans prosélytisme), médias choisis.",
+     "sections": [
+      "Grands-parents et ainés : sagesse, limites, renouvellement",
+      "Mentors, moniteurs, éducateurs : contrats implicites",
+      "Pairs et groupes d'apprentissage : le contournement du parent",
+      "Environnements numériques : filtres, co-visionnage, délégation d'écran",
+      "Associations, sport, art, nature : relais de compétences",
+      "Éviter le recrutement compulsif d'activités"
+     ],
+     "exercices": [
+      "Inventaire des relais non familiaux déjà présents",
+      "Critères de choix pour un nouveau milieu (grille 6 points)",
+      "Plan « un relais, une compétence » pour le trimestre"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Grilles de redondance familiale",
+     "objectif": "Donner des outils d'audit et de design : où la famille a trop peu de redondance, où elle en a trop pour s'épuiser.",
+     "sections": [
+      "Principe : assez de doublons pour survivre, pas assez pour m'épuiser",
+      "Grille fonctions × relais (remplissage, qualité, charge)",
+      "Coût de la redondance : temps, argent, coordination",
+      "Décision : internaliser, déléguer, acheter, simplifier",
+      "Priorisation trimestrielle : trois axes de renforcement",
+      "Revue de la grille avec les enfants selon l'âge"
+     ],
+     "exercices": [
+      "Matrice de redondance complète (outil phare du livre)",
+      "Scénario « que se passe-t-il si X est indisponible une semaine ? »",
+      "Feuille de route trimestrielle : 3 renforcements réalistes"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Tolérer l'imperfection du relais",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Le « pas exactement comme moi »",
+     "objectif": "Travailler le lâcher-prise contrôle : accepter que le relais fasse autrement sans mettre en danger l'identité ou la sécurité de base.",
+     "sections": [
+      "Contrôle et peur : ce que dit l'anxiété du parent",
+      "Différences de style entre adultes : normalité vs danger",
+      "Enfant qui s'adapte à plusieurs registres : compétence relationnelle",
+      "Micro-contrôles qui annulent la délégation",
+      "Seuils d'intervention : quand corriger, quand taire",
+      "Sevrage du perfectionnisme parental"
+     ],
+     "exercices": [
+      "Liste des « écarts » tolérables / non tolérables (tri)",
+      "Pratique de silence observateur 20 minutes",
+      "Débriefing interne après un départ de garde réussi « autrement »"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Erreur de système, pas trahison",
+     "objectif": "Appliquer l'esprit Reason/Dekker : après un raté, renforcer les barrières plutôt que chercher un coupable.",
+     "sections": [
+      "De la culture du blâme à la culture d'apprentissage",
+      "Modèle en couches : où la défense a manqué",
+      "Distinguer négligence grave et maladresse",
+      "Parler avec le relais sans humilier",
+      "Impliquer l'enfant dans la réparation sans le culpabiliser",
+      "Mise à jour du protocole après analyse"
+     ],
+     "exercices": [
+      "Fiche d'analyse post-incident (10 minutes)",
+      "Conversation de réparation en 3 étapes",
+      "Une règle de sécurité renforcée cette semaine"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Normalisation de la dérive et seuils d'alerte",
+     "objectif": "Prévenir l'érosion progressive des standards (un petit raccourci, puis un grand) par des rituels de vigilance.",
+     "sections": [
+      "Ce qu'est la dérive de normalisation (analogie industrielle)",
+      "Exemples familiaux : horaires, écrans, sécurité, promesses",
+      "Préoccupation pour l'anomalie : l'entendre vraiment",
+      "Seuils simples : rouge / orange / vert",
+      "Rituels courts de révision ( hebdo / mensuel)",
+      "Comment dire « non » quand tout le monde a lâché"
+     ],
+     "exercices": [
+      "Carte des dérives actuelles (sans jugement)",
+      "Fixer 3 seuils d'alerte écrits et partagés",
+      "Rituel de revue du dimanche soir (15 minutes)"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Réparer après un raté de relais",
+     "objectif": "Restaurer confiance et continuité quand une délégation a échoué, sans tout reprendre en permanence.",
+     "sections": [
+      "Temps de la crise, temps de l'analyse, temps du rétablissement",
+      "Réparer le lien avant de réparer le plan",
+      "Reprise progressive : petit périmètre d'abord",
+      "Signaux que l'enfant a besoin d'un retour plus soutenu",
+      "Quand arrêter une délégation de façon propre",
+      "Célébrer le redémarrage sans dramatiser"
+     ],
+     "exercices": [
+      "Protocole de rétablissement en 5 séquences",
+      "Reprise contrôlée d'une tâche mini",
+      "Message écrit de clarification au relais (modèle)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Rituels et transmission",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Les rituels comme protocoles vivants",
+     "objectif": "Comprendre pourquoi les rituels transmettent mieux que les injonctions : prévisibilité, appartenance, mémoire du corps.",
+     "sections": [
+      "Rituel ≠ routine : la différence opérationnelle",
+      "Fonctions : sécurité, identité, transition, célébration",
+      "Co-design : l'enfant n'est pas spectateur",
+      "Rituels courts pour tenir sous charge",
+      "Antirituels : ce qui crée de la fragilité",
+      "Mesurer autrement que par la performance"
+     ],
+     "exercices": [
+      "Diagnostic rituel : existants, manques, excès",
+      "Création d'un rituel de transition de 5 minutes",
+      "Test sur 14 jours avec critères de succès simples"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Quotidien, hebdomadaire, saisonnier",
+     "objectif": "Construire un calendrier de rituels sur trois horizons qui structurent la transmission sans rigidité.",
+     "sections": [
+      "Matin, retour, coucher : micro-rituels",
+      "Dîner, réunion familiale, soirée sans écran",
+      "Hebdomadaire : revue, jeux, projets partagés",
+      "Saison et année : fêtes, anniversaires, bilans",
+      "Rituels de séparation et de retrouvailles (garde alternée, voyages)",
+      "Souplesse : rater un rituel sans effondrement"
+     ],
+     "exercices": [
+      "Carte annuelle des rituels prioritaires",
+      "Design d'un rituel hebdomadaire réaliste",
+      "Plan de secours rituel « semaine chargeée »"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Récits de famille et mémoire des appuis",
+     "objectif": "Utiliser le récit comme redondance narrative : l'enfant se souvient des personnes, des valeurs, des solutions passées.",
+     "sections": [
+      "Ce que les histoires familiales procurent (recherche et tradition)",
+      "Parler des difficultés sans angoisser",
+      "Nommer les adultes qui ont aidé autrefois",
+      "Albums, objets, lettres : supports simples",
+      "Transmettre des valeurs par exemples vécus, pas par sermons",
+      "Protéger l'intimité de chacun dans le récit"
+     ],
+     "exercices": [
+      "Entretien « trois personnes qui m'ont aidé » (parent puis enfant)",
+      "Histoire familiale réécrite en 200 mots rassurante",
+      "Boîte à mémoire des appuis (matériel à constituer)"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Transmettre sans contrôler : rites de passage et autonomie",
+     "objectif": "Faire évoluer les rituels et les responsabilités vers l'âge adulte : le relais ultime est l'enfant devenu capable.",
+     "sections": [
+      "Rites d'entrée dans de nouvelles responsabilités",
+      "Autorisation progressive : seuils, symboles, témoins",
+      "Laisser l'enfant devenir expert d'un domaine familial",
+      "Adolescence : co-gestion, pas abdication ni emprise",
+      "Célébrer le départ des compétences (le parent se vide volontairement)",
+      "Signes de réussite : l'enfant se débrouille sans nous appeler"
+     ],
+     "exercices": [
+      "Protocole de rite d'autonomie sur mesure",
+      "Liste des 5 compétences « je te confie avant 18 ans »",
+      "Rituel de passation symbolique pour un nouveau rôle"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Rotation, récupération, haute disponibilité",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Épuisement parental : modèle et signaux",
+     "objectif": "Comprendre l'épuisement via des cadres existants (charge, contrôle, récompense, communauté) et le traiter comme un risque de système.",
+     "sections": [
+      "Ce que l'épuisement n'est pas (faiblesse, manque d'amour)",
+      "Déséquilibres typiques du modèle applicable à la famille",
+      "Signaux faibles : corps, humeur, qualité des liens",
+      "Facteurs aggravants : isolement, dualité travail, sur-stimulation",
+      "Seuils d'alerte personnels et collectifs",
+      "Orientation générale vers de l'aide qualifiée quand c'est nécessaire (sans conseil personnalisé)"
+     ],
+     "exercices": [
+      "Auto-évaluation de charge / contrôle / récompense / communauté",
+      "Radar des signaux faibles (7 jours)",
+      "Décision : un soutien externe à activer cette semaine"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Rotation des rôles et récupération active",
+     "objectif": "Concevoir une rotation explicite des responsabilités familiales pour éviter la mono-personne et régénérer l'énergie.",
+     "sections": [
+      "Principe de rotation : variété des rôles et du temps de présence",
+      "Co-parentalité opérationnelle : plannings, relèves",
+      "Micro-pauses intégrées : récupération non négociable",
+      "Sports, sommeil, lien social du parent : infrastructure, luxe",
+      "Modèles de semaines : blocs, alternance, temps partagé",
+      "Quand la rotation est impossible : solutions de secours"
+     ],
+     "exercices": [
+      "Planning de rotation sur 4 semaines",
+      "Négociation d'un créneau « hors-parentalité » protégé",
+      "Contrat de relève clair pour un soir par semaine"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Tableau de bord familial et revues de charge",
+     "objectif": "Installer des rituels de pilotage légers : voir l'état du système, ajuster la délégation et la redondance en continu.",
+     "sections": [
+      "Principe du tableau de bord minimal (5 indicateurs max)",
+      "Indicateurs famille : charge parentale, plaintes enfants, conflits, rituels tenus, appuis mobilisés",
+      "Revue hebdomadaire de 20 minutes : ordre du jour type",
+      "Revue trimestrielle : redondance, contrats, rituels",
+      "Impliquer l'enfant selon l'âge sans l'adultifier",
+      "KPI de vanité à éviter"
+     ],
+     "exercices": [
+      "Modèle de tableau de bord familial (une page)",
+      "Script de revue hebdomadaire",
+      "Bilan trimestriel : 3 ajustements majeurs"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "La famille haute fiabilité : synthèse et feuille de route",
+     "objectif": "Relier les six axes en un système cohérent et proposer une feuille de route sur 12 mois, sans promesse de résultat garanti.",
+     "sections": [
+      "Rappel des six principes du livre",
+      "Maturité familiale : niveaux de progression réalistes",
+      "Feuille de route saisonnière (mois 1-3, 4-6, 7-9, 10-12)",
+      "Entretenir : prévention de la dérive, formation continue des relais",
+      "Échecs attendus : boucles d'amélioration plutôt que perfection",
+      "Épilogue : le parent remplaçable comme réussite éducative"
+     ],
+     "exercices": [
+      "Plan personnel 12 mois (grille saisonnière)",
+      "Engagements écrits (parent, enfant, relais)",
+      "Cérémonie de clôture / relance du dispositif familial"
+     ]
+    }
+   ]
+  }
+ ]
+}

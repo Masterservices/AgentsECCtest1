@@ -1,0 +1,626 @@
+{
+ "titre": "Le thermostat créatif",
+ "sous_titre": "Homéostasie et architecture de la pratique créative : capteurs, seuils, boucles de rétroaction, petits leviers et rituels pour réguler surcharge, vide et routine",
+ "bibliographie": [
+  {
+   "auteur": "Claude Bernard",
+   "titre": "Introduction à la médecine expérimentale",
+   "annee": "1865",
+   "idee": "L'organisme maintient un « milieu intérieur » malgré les changements du monde extérieur. Cette intuition fonde toute la pensée de la régulation interne.",
+   "apport": "Cadre conceptuel : le créatif vit aussi dans un milieu intérieur à défendre ; on en retiendra l'idée de constante à préserver sans transposer la biologie au sens strict."
+  },
+  {
+   "auteur": "Walter B. Cannon",
+   "titre": "The Wisdom of the Body",
+   "annee": "1932",
+   "idee": "Cannon nomme et formalise l'homéostasie : l'organisme détecte les écarts et mobilise des correctifs pour revenir à une plage de fonctionnement viable.",
+   "apport": "Modèle capteur-référence-correcteur qui structure les cinq axes du livre et la notion de seuil de déclenchement."
+  },
+  {
+   "auteur": "Norbert Wiener",
+   "titre": "Cybernetics (La Cybernétique)",
+   "annee": "1948",
+   "idee": "Les systèmes qui se pilotent reposent sur la rétroaction : l'effet produit est réinjecté comme information pour corriger la suite.",
+   "apport": "Fondement des boucles de rétroaction courtes et longues, et de la distinction entre correction et révision des règles."
+  },
+  {
+   "auteur": "Donella H. Meadows",
+   "titre": "Thinking in Systems (Les points de levier)",
+   "annee": "2008",
+   "idee": "Dans tout système, certains points d'intervention produisent des effets disproportionnés ; le changement optimal passe souvent par des corrections minimales bien placées.",
+   "apport": "Chapitre sur l'effet de levier et la matrice impact/effort des correctifs créatifs."
+  },
+  {
+   "auteur": "Peter Senge",
+   "titre": "La Cinquième Discipline",
+   "annee": "1990",
+   "idee": "Les organisations et les personnes apprennent mal car elles voient les événements isolés, non les structures qui les produisent.",
+   "apport": "Posture « systémique » du livre : corriger la structure de travail plutôt que forcer la volonté."
+  },
+  {
+   "auteur": "Chris Argyris et Donald Schön",
+   "titre": "Theory in Practice / The Reflective Practitioner",
+   "annee": "1978-1983",
+   "idee": "L'apprentissage à boucle simple corrige l'action ; l'apprentissage à double boucle remet en question les règles et valeurs qui guident l'action.",
+   "apport": "Architecture du chapitre « double boucle » : réviser périodiquement ses propres protocoles."
+  },
+  {
+   "auteur": "Mihaly Csikszentmihalyi",
+   "titre": "Flow : The Psychology of Optimal Experience",
+   "annee": "1990",
+   "idee": "L'expérience optimale apparaît quand le défi et la compétence sont en équilibre, ni trop faciles ni trop angoissants.",
+   "apport": "La notion de plage d'ajustement nourrit la définition des zones de tolérance et des seuils de stimulation."
+  },
+  {
+   "auteur": "Anders Ericsson et Robert Pool",
+   "titre": "Peak : Secrets from the New Science of Expertise",
+   "annee": "2016",
+   "idee": "L'expertise repose sur une pratique délibérée, ciblée et soutenue, avec retour d'information et récupération.",
+   "apport": "Ancrage scientifique prudent sur l'entraînement ; on en retiendra le nécessaire équilibre effort/récupération."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Deep Work",
+   "annee": "2016",
+   "idee": "Le travail cognitif de grande valeur exige des périodes de concentration non fragmentée et un entraînement à l'attention.",
+   "apport": "Conception des rituels d'ouverture de séance et de protection de l'attention."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les résultats durables viennent d'habitudes minuscules répétées et d'environnements qui rendent le bon comportement évident.",
+   "apport": "Mécanique des petites corrections et de l'architecture environnementale de régulation."
+  },
+  {
+   "auteur": "BJ Fogg",
+   "titre": "Tiny Habits",
+   "annee": "2019",
+   "idee": "Un comportement devient automatique s'il est très petit, ancré à une routine existante et célébré immédiatement.",
+   "apport": "Modèle des micro-rituels d'ouverture/clôture et des actions de régulation minuscules."
+  },
+  {
+   "auteur": "Wendy Wood",
+   "titre": "Good Habits, Bad Habits",
+   "annee": "2019",
+   "idee": "La majorité de nos actions quotidiennes sont guidées par des contextes et des automatismes, non par la décision consciente.",
+   "apport": "Justification des correctifs contextuels (frictions, environnement) plutôt que des injonctions de volonté."
+  },
+  {
+   "auteur": "Stephen Guise",
+   "titre": "Mini Habits",
+   "annee": "2013",
+   "idee": "Des objectifs absurdement petits contournent la résistance et assurent une présence quotidienne sans épuisement.",
+   "apport": "Noyau minimal de pratique utilisé en « mode dégradé » quand le système est en surcharge."
+  },
+  {
+   "auteur": "Teresa Amabile et Steven Kramer",
+   "titre": "The Progress Principle",
+   "annee": "2011",
+   "idee": "Les micro-progrès perçus sont le principal moteur de l'engagement et de l'humeur au travail créatif.",
+   "apport": "Indicateur « micro-progrès » du tableau de bord et fuite antidote au vide."
+  },
+  {
+   "auteur": "Julia Cameron",
+   "titre": "The Artist's Way",
+   "annee": "1992",
+   "idee": "La créativité se relance par des pratiques quotidiennes simples (pages du matin) et la réduction de l'autocritique.",
+   "apport": "Inspiration des rituels d'ouverture et du journal de signaux faibles, sans reprendre le programme complet."
+  },
+  {
+   "auteur": "Steven Pressfield",
+   "titre": "The War of Art",
+   "annee": "2002",
+   "idee": "La « Résistance » est la force intérieure qui sabote le travail créatif ; elle se combat par la discipline de se présenter.",
+   "apport": "Vocabulaire du blocage : distinguer signal de régulation et simple résistance à contourner par le rituel."
+  },
+  {
+   "auteur": "Austin Kleon",
+   "titre": "Keep Going",
+   "annee": "2019",
+   "idee": "La pratique créative se maintient par de petites routines, la variation et le détachement de la productivité à tout prix.",
+   "apport": "Idées de routines saisonnières et d'antidotes à la routine morte."
+  },
+  {
+   "auteur": "Alex Soojung-Kim Pang",
+   "titre": "Rest : Why You Get More Done When You Work Less",
+   "annee": "2016",
+   "idee": "Les créatifs historiques travaillaient par cycles concentrés courts suivis de repos délibérés, pas par journées interminables.",
+   "apport": "Justification des seuils de fin de séance et des cycles effort-récupération."
+  },
+  {
+   "auteur": "Mason Currey",
+   "titre": "Daily Rituals",
+   "annee": "2013",
+   "idee": "Enquête sur les routines de centaines d'artistes et de scientifiques : grande diversité des formes, constance du cadre.",
+   "apport": "Preuve illustrative que le rituel stabilise sans uniformiser : bases de la conception personnalisée."
+  },
+  {
+   "auteur": "Atul Gawande",
+   "titre": "The Checklist Manifesto",
+   "annee": "2009",
+   "idee": "Même les experts évitent les oublis et améliorent la fiabilité grâce à des checklists courtes et testées.",
+   "apport": "Méthode des checklists de démarrage et des protocoles de régulation écrits à l'avance."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Le jugement humain est biaisé par des heuristiques rapides ; la mesure et l'étayage réduisent l'auto-illusion.",
+   "apport": "Vigilance méthodologique du journal de signaux : éviter illusion de contrôle et biais de confirmation."
+  },
+  {
+   "auteur": "David Epstein",
+   "titre": "Range : Why Generalists Triumph in a Specialized World",
+   "annee": "2019",
+   "idee": "La diversité d'expériences et le balayage large produisent souvent plus d'innovation qu'une spécialisation précoce étroite.",
+   "apport": "Protocoles anti-routine : rotations de formats, projets latéraux, alimentation variée des sources."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Le régulateur invisible : pourquoi la création a besoin d'homéostasie",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le milieu intérieur de la création",
+     "objectif": "Poser les bases de l'homéostasie (Claude Bernard, Walter Cannon) et cadrer honnêtement l'analogie avec la pratique créative : ce qui est modèle utile, ce qui reste métaphore.",
+     "sections": [
+      "De Claude Bernard à Walter Cannon : l'invention du milieu intérieur",
+      "Ce que fait réellement un système homéostatique : capteur, référence, correcteur",
+      "Transposer sans déformer : limites de la métaphore biologique",
+      "Le couple excitation/récupération comme base de l'énergie créative",
+      "Les constantes de la vie créative : énergie, attention, humeur, contexte",
+      "Pourquoi la créativité aussi a un point d'équilibre de fonctionnement"
+     ],
+     "exercices": [
+      "Carte des constantes : lister les 5 variables que vous cherchez instinctivement à garder stables (énergie, heures, humeur, etc.)",
+      "Lecture critique : noter 3 ressemblances et 3 différences entre homéostasie biologique et pratique créative",
+      "Mini-glossaire personnel : définir vos propres termes pour « équilibre », « surcharge », « vide »"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Le mythe de l'intensité",
+     "objectif": "Démontrer que la pousée incontrôlée d'intensité produit des effets décroissants et parfois inverses, et ouvrir la voie à une logique de régulation plutôt que de sprint permanent.",
+     "sections": [
+      "La culture du sprint créatif et ses promesses",
+      "Ce que l'on peut dire prudemment sur l'épuisement (hors tout conseil médical)",
+      "Les cycles de productivité et leur effet rebond",
+      "La loi du rendement décroissant appliquée aux heures de création",
+      "Histoires de retournement : quand « plus » a voulu dire « moins »",
+      "Intensité utile contre intensité subie : les critères de distinction",
+      "Réhabiliter la régulation comme compétence supérieure"
+     ],
+     "exercices": [
+      "Bilan d'intensité rétrospectif : retracez vos 3 périodes les plus intenses et leur lendemain",
+      "Courbe d'énergie subjective sur 14 jours (notation simple, descriptive)",
+      "Énoncé de croyance : rédiger la phrase « il faut forcer quand… » puis la tester à contre-exemple"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Les trois perturbations : surcharge, vide, routine",
+     "objectif": "Fournir une typologie opérationnelle des déséquilibres que le système devra détecter : trop, pas assez, et répétition qui éteint.",
+     "sections": [
+      "Définir la surcharge : créative, décisionnelle, relationnelle",
+      "Définir le vide : matière, envie, horizon, retour d'attention",
+      "Définir la routine : de l'habitude protectrice à l'automatisme mort",
+      "Les signatures typiques de chaque état (signaux faibles caractéristiques)",
+      "Les transitions : comment on glisse d'un état à l'autre",
+      "Questionnaire de repérage non clinique en 10 questions"
+     ],
+     "exercices": [
+      "Grille de repérage : noter chaque jour pendant 7 jours l'état dominant (surcharge/vide/routine/stable)",
+      "Journal des déclencheurs : ce qui a précipité chaque bascule",
+      "Carte de vos patterns types : vos deux ou trois séquences de déséquilibre les plus fréquentes"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "L'architecture autonome : vue d'ensemble des cinq axes",
+     "objectif": "Présenter le système complet — capteurs, seuils, boucles, leviers, rituels — comme une architecture qui s'autocorrige, et en fixer les limites.",
+     "sections": [
+      "Vue d'ensemble : le circuit complet de la régulation",
+      "Axe 1 — Les capteurs : percevoir son état créatif",
+      "Axe 2 — Les seuils : décider quand intervenir",
+      "Axe 3 — Les boucles : réinjecter l'information dans l'action",
+      "Axe 4 — Les leviers : corriger petit pour agir fort",
+      "Axe 5 — Les rituels : stabiliser sans y penser",
+      "Ce que le système ne fera pas à votre place"
+     ],
+     "exercices": [
+      "Schéma d'architecture personnelle : dessiner son circuit en 5 blocs",
+      "Audit de l'existant : lister ce que vous faites déjà (même irrégulièrement) dans chaque axe",
+      "Objectifs de conception : écrire 3 phrases « je veux un système qui… »"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Capteurs : installer la perception de son état créatif",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Les signaux du corps et de l'humeur",
+     "objectif": "Apprendre à capter les indicateurs internes précoces — somatiques et émotionnels — sans s'alarmer ni se sur-mesurer.",
+     "sections": [
+      "Apprendre à écouter sans se diagnostiquer",
+      "Les marqueurs corporels simples : tension, posture, qualité de vigilance ressentie",
+      "Humeur de travail : description avant jugement",
+      "L'enthousiasme, l'agacement, l'indifférence : trois signaux à valoriser",
+      "Les écueils : somatisation anxiogène et métriques d'humeur envahissantes",
+      "Protocole d'auto-observation en trois temps (matin, pic, soir)"
+     ],
+     "exercices": [
+      "Échelle corporelle du matin et du soir sur 1-5, avec mot descriptif (jamais de diagnostic)",
+      "Vocabulaire personnel des signaux : 10 mots qui décrivent vos états sans les dramatiser",
+      "Auto-observation guidée de 5 minutes, une fois par jour pendant une semaine"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Les signaux de la production",
+     "objectif": "Définir une poignée d'indicateurs de production mesurables sans distriction, et apprendre à en lire les limites.",
+     "sections": [
+      "Ce qu'on peut compter sans ruiner la création",
+      "Mesurer la sortie : pages, versions, propositions, décisions",
+      "Mesurer la friction : temps de démarrage, allers-retours, abandons",
+      "La qualité en retour différé : pourquoi elle ne peut pas être un indicateur quotidien",
+      "Blocage : signal de régulation ou simple résistance ?",
+      "Le tableau de bord minimal à trois indicateurs"
+     ],
+     "exercices": [
+      "Choisir et écrire la définition précise de 3 indicateurs",
+      "Relevé quotidien pendant 10 jours dans une case à cocher unique",
+      "Règles de lecture : noter dans quels cas un indicuteur ment (maladie, période creuse, projet atypique)"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Les signaux relationnels et contextuels",
+     "objectif": "Élargir les capteurs au monde extérieur : comparaison, charge de vie, interlocuteurs, espace, interruptions.",
+     "sections": [
+      "Comparaison sociale et bruit ambiant des autres créatifs",
+      "La charge de vie non créative : emploi, famille, logistique",
+      "Climat relationnel et interlocuteurs du projet",
+      "Espace, lumière, matériel : le contexte comme variable mesurable",
+      "Solicitations et coût cognitif des commutations",
+      "Cartographier son écosystème créatif"
+     ],
+     "exercices": [
+      "Carte de l'écosystème : 12 cases (personnes, lieux, outils, contraintes) notées stabilisateurs/destabilisateurs",
+      "Journal des interruptions sur 5 jours (heure, source, coût ressenti)",
+      "Audit d'environnement en 10 points, avec 2 actions correctives immédiates"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Construire son tableau de bord et son journal des signaux faibles",
+     "objectif": "Assembler un dispositif de mesure minimal, tenable au quotidien, qui capte les signaux faibles avant qu'ils ne deviennent des crises.",
+     "sections": [
+      "Moins de mesure, mieux mesurée : le principe d'économie du capteur",
+      "Le journal des signaux faibles : format en 5 lignes",
+      "Fréquence et durée : cinq minutes, pas plus",
+      "Support papier ou numérique : choisir sans dogme",
+      "Se prémunir contre la dérive du suivi total",
+      "Revue mensuelle du tableau de bord lui-même"
+     ],
+     "exercices": [
+      "Créer la fiche type (date, signal, intensité, contexte, note libre)",
+      "Semaine pilote complète, puis réglage du format",
+      "Liste de suppression : qu'on ne mesurera pas (au moins 5 éléments)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Seuils : définir quand le système doit réagir",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Zone de tolérance et notion de seuil",
+     "objectif": "Fournir le vocabulaire de la régulation : zones de fonctionnement, seuils souples et durs, seuil de déclenchement — avant toute crise.",
+     "sections": [
+      "De la physiologie au vocabulaire pratique",
+      "Zone de confort, zone de tolérance, zone de rupture : une carte à trois anneaux",
+      "Ce qu'est un seuil dans un système, et un seuil de déclenchement",
+      "Seuils souples (correction douce) et seuils durs (arrêt ou bascule)",
+      "Pourquoi fixer le seuil avant la crise",
+      "Seuils personnels et contextuels : refuser les valeurs universelles"
+     ],
+     "exercices": [
+      "Carte des trois zones appliquée à votre pratique actuelle",
+      "Estimation provisoire de 5 seuils (heures, jours sans avancée, etc.)",
+      "Récit de vos 3 dépassements passés : où étaient les seuils non écrits"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Exercices de calibrage des seuils",
+     "objectif": "Donner des protocoles concrets pour ajuster des seuils trop hauts, trop bas ou irréalistes, comme on règle une balance.",
+     "sections": [
+      "Pourquoi calibrer : des seuils faux valent pire que pas de seuil",
+      "Méthode rétrospective : repérer les dépassements et les bascules passés",
+      "Méthode expérimentale : petites provocations contrôlées et observation",
+      "Recalibrage par ressenti : échelles descriptives, pas évaluatives",
+      "La dérive du seuil qui monte : piéger l'accoutumance",
+      "La fiche de calibrage en une page"
+     ],
+     "exercices": [
+      "Protocole de calibrage rétrospective (une séance de 45 minutes)",
+      "Protocole de calibrage expérimentale sur 7 jours",
+      "Création de la fiche de seuils version 1 et revue à 14 jours"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Seuils hauts et seuils bas : surcharge et vide",
+     "objectif": "Définir les deux alarmes principales du système — dépassement de charge et effondrement d'envie — avec leurs signaux et leurs actions déclenchées.",
+     "sections": [
+      "Signaux de surcharge : la charge qui grimpe sans qu'on la voie",
+      "Le seuil haut : la règle de déclenchement écrite à l'avance",
+      "Signaux de vide : envie qui s'éteint, matière qui manque, retour d'attention absent",
+      "Le seuil bas : quand le silence devient un problème",
+      "Faux vides (fatigue déguisée) et faux excès (excitation mal orientée)",
+      "Le couple bas-haut : un système qui oscille entre deux alarmes"
+     ],
+     "exercices": [
+      "Fiche seuil haut : signal, valeur, action immédiate, durée de l'action",
+      "Fiche seuil bas : signal, valeur, action d'alimentation, revue",
+      "Jeu de cas : appliquer les deux fiches à 3 scénarios fictifs de votre domaine"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Routine, plateau et règles de décision pré-engagées",
+     "objectif": "Traiter le troisième déséquilibre — la routine et le plateau — et transformer les décisions récurrentes en règles if-then prêtes à l'emploi.",
+     "sections": [
+      "Le plateau : distinguer la patience utile de l'inertie",
+      "Routine stable contre routine morte : les critères",
+      "Seuils temporels : durée sans micro-progrès acceptable",
+      "Les règles if-then : décider une fois, appliquer vite",
+      "Bibliothèque de décisions prêtes à l'emploi",
+      "Tester une règle avant de la généraliser"
+     ],
+     "exercices": [
+      "Rédiger 5 règles if-then (si… alors…) pour vos déséquilibres fréquents",
+      "Construire une bibliothèque de décisions classée par situation",
+      "Protocole de test d'une règle sur 7 jours avec note d'effet"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Boucles : la rétroaction qui autocorrige le travail",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Boucles courtes : réguler dans la journée",
+     "objectif": "Installer des boucles de rétroaction quotidiennes : débrief du soir, check du matin, micro-ajustements en cours de séance.",
+     "sections": [
+      "Ce qu'est une boucle de rétroaction : entrée, comparaison, correction",
+      "Le débrief du soir en cinq minutes",
+      "Le check du matin : charge prévisionnelle et intention unique",
+      "Micro-protocoles en cours de séance (pauses, bascules de tâche)",
+      "Le signal de fin de séance : quand s'arrêter pour protéger demain",
+      "Automatiser sans rigidifier"
+     ],
+     "exercices": [
+      "Script de débrief écrit en 5 lignes et testé pendant 10 jours",
+      "Fiche de check matinal (3 questions maximum)",
+      "Règle personnalisée de fin de séance, à valider par la revue hebdomadaire"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Boucles hebdomadaires : la revue de régulation",
+     "objectif": "Structurer une revue hebdomadaire courte qui compare l'état réel à l'état visé et produit des décisions pour la semaine suivante.",
+     "sections": [
+      "La revue hebdomadaire : objet, durée, moment fixe",
+      "Les cinq questions de la revue",
+      "Revue de charge : heures réelles contre heures prévues",
+      "Revue de qualité et d'enthousiasme perçus",
+      "Décisions pour la semaine suivante : trois maximum",
+      "Le point mensuel et le point trimestriel : la saisonnalité créative"
+     ],
+     "exercices": [
+      "Modèle de revue hebdomadaire en une page",
+      "Agenda des points mensuel et trimestriel posés pour 6 mois",
+      "Gabarit des décisions (conserver / ajuster / arrêter / expérimenter)"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Double boucle : réviser les règles elles-mêmes",
+     "objectif": "Passer de la correction des actions à la révision des règles et du système, en protégeant la révision contre l'impulsivité.",
+     "sections": [
+      "Boucle simple contre double boucle (Argyris et Schön) : le rappel",
+      "Quand une boucle simple ne suffit plus",
+      "L'entretien du système lui-même comme activité planifiée",
+      "Désapprendre un protocole devenu obsolète",
+      "Le journal d'hypothèses : ce que l'on suppose de son fonctionnement",
+      "Garde-fous : ne jamais réviser plusieurs règles en même temps"
+     ],
+     "exercices": [
+      "Entretien trimestriel du système (checklist complète)",
+      "Journal d'hypothèses : 3 hypothèses à tester ce mois-ci",
+      "Tri « garder / supprimer / expérimenter » de tous ses protocoles"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Erreurs de boucle : retard, bruit et surcorrection",
+     "objectif": "Identifier les pannes classiques des systèmes de rétroaction appliqués à la création et apprendre à les corriger.",
+     "sections": [
+      "Le délai de réaction : pourquoi agir trop tardive amplifie le problème",
+      "Le bruit : distinguer signal faible et variation normale",
+      "La surcorrection : l'oscillation entre trop et pas assez",
+      "L'amplification positive incontrôlée : l'engrenage (heures qui s'empilent)",
+      "Régler la sensibilité de ses capteurs : ni dormant ni hypersensible",
+      "Autodiagnostic des dysfonctionnements de son propre système"
+     ],
+     "exercices": [
+      "Analyse rétrospective d'une réaction excessive passée",
+      "Test de sensibilité du journal : noter la même variable pendant 7 jours et repérer le bruit",
+      "Trois règles anti-oscillation écrites pour soi"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Leviers et rituels : petites corrections, grande stabilité",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "L'effet de levier : des corrections minimales à effet maximal",
+     "objectif": "Apprendre à choisir l'endroit et la taille des corrections : agir peu, mais là où l'effet structurel est grand.",
+     "sections": [
+      "Les points de levier de Donella Meadows, résumé applicatif",
+      "Où agir dans un système créatif : les cinq endroits sensibles",
+      "La puissance des micro-ajustements et des petites victoires perçues",
+      "Effet d'échelle : le un pour cent et la régularité",
+      "Identifier son levier numéro un du moment",
+      "Coût de l'intervention : préférer le correctif le moins coûteux"
+     ],
+     "exercices": [
+      "Cartographie des leviers personnels (impact estimé contre effort)",
+      "Expérimentation « un seul petit changement pendant 7 jours »",
+      "Matrice impact/effort appliquée à 10 corrections candidates"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Protocoles de régulation pour surcharge, vide et routine",
+     "objectif": "Fournir trois protocoles types prêts à adapter — structure déclencheur/action/durée/revue — et la règle de ne jamais les cumuler.",
+     "sections": [
+      "Anatomie d'un protocole : déclencheur, action, durée, critère de sortie, revue",
+      "Protocolo anti-surcharge : réduction ciblée, sas, hiérarchisation",
+      "Protocole anti-vide : alimenter, varier, micro-projets, recherche de retour",
+      "Protocole anti-routine : variation contrainte, changement de format, projet latéral",
+      "Séquencer : jamais deux protocoles lourds en parallèle",
+      "Mesurer l'effet d'un protocole avant de l'adopter"
+     ],
+     "exercices": [
+      "Rédaction des trois protocoles personnels",
+      "Fiche de suivi d'effet (avant/après, 14 jours)",
+      "Calendrier d'application sur un mois avec fenêtres de revue"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Les rituels comme stabilisateurs",
+     "objectif": "Concevoir des rituels courts d'ouverture, de clôture et de周期 hebdomadaire qui stabilisent le système sans le rigidifier.",
+     "sections": [
+      "Pourquoi les rituels stabilisent : transition, mémoire procédurale, réduction de la décision",
+      "Rituel d'ouverture de session (2 à 10 minutes)",
+      "Rituel de clôture : détacher le travail de la vie",
+      "Rituels hebdomadaires et rituels de saison",
+      "Le juste dosage : détecter le rituel devenu mécanique mort",
+      "Découpler démarrage et motivation"
+     ],
+     "exercices": [
+      "Concevoir trois rituels datés et minutés",
+      "Fiche « rituel testé sur 5 sessions » avec note d'utilité",
+      "Calendrier rituel hebdomadaire intégré à l'agenda"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Contraintes, environnement et checklists : le correcteur automatique",
+     "objectif": "Aménager l'environnement et les contraintes pour que la régulation se fasse presque sans intervention consciente.",
+     "sections": [
+      "L'environnement comme correcteur automatique : architecte du choix",
+      "Contraintes créatives utiles : temps, format, périmètre",
+      "Checklists et modèles : fiabiliser les débuts",
+      "Ajouter des frictions aux mauvaises habitudes, en retirer aux bonnes",
+      "Protéger l'attention numérique, sans moralisme",
+      "Aménager l'espace de travail pour la régulation"
+     ],
+     "exercices": [
+      "Audit de friction : 10 situations courantes, friction actuelle, friction cible",
+      "Installation de deux correctifs environnementaux cette semaine",
+      "Checklist de démarrage d'une séance créative en 7 points"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — L'architecture complète : mise en œuvre, crises et pérennité",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Assembler son système : de cinq pièces à une architecture",
+     "objectif": "Réunir les cinq axes en un système cohérent, avec une version minimale viable et une personnalisation selon le type de création.",
+     "sections": [
+      "Du découpage des parties à l'unité du circuit",
+      "Le diagramme complet : capteurs, seuils, boucles, leviers, rituels",
+      "La version minimale viable : un système en trente minutes par semaine",
+      "Personnaliser selon le type de création : écrit, visuel, musical, entrepreneurial, recherche",
+      "Phasage d'installation en quatre semaines",
+      "Points de contrôle et mode maintenance"
+     ],
+     "exercices": [
+      "Schéma personnel du système complet",
+      "Rédaction de la version MVP (minimum viable) en une page",
+      "Plan d'installation en 4 semaines avec jalons"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Plan de déploiement sur trente jours",
+     "objectif": "Dérouler une mise en place progressive, jour par jour, sans tout installer d'un coup et sans culpabiliser en cas de reprise.",
+     "sections": [
+      "Jours 1 à 7 : installer les capteurs",
+      "Jours 8 à 14 : estimer et tester les seuils",
+      "Jours 15 à 21 : installer les boucles courte et hebdomadaire",
+      "Jours 22 à 30 : premiers rituels et premier protocole",
+      "Journal de bord du déploiement",
+      "Que faire si l'on abandonne : le protocole de reprise sans culpabilité"
+     ],
+     "exercices": [
+      "Calendrier 30 jours à cases",
+      "Journal de bord quotidien (3 lignes)",
+      "Protocole de reprise écrit à l'avance (reprendre à la case capteurs)"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Régimes extrêmes : surcharge aiguë, longue saison creuse, transition",
+     "objectif": "Fournir des modes dégradés pour les situations où le système complet ne peut pas tourner normalement.",
+     "sections": [
+      "Surcharge aiguë : le mode dégradé (noyau minimal)",
+      "Longue saison creuse : maintenir le fil sans se forcer",
+      "Changer de projet ou de cap : réinitialiser les seuils",
+      "Double charge : création et obligations simultanées",
+      "Quand le système ne suffit pas : demander de l'aide (orientation vers un professionnel de santé si le besoin est clinique)",
+      "Maintenir le noyau minimal en période de tempête"
+     ],
+     "exercices": [
+      "Plan mode dégradé en 3 étapes",
+      "Définition du noyau minimal quotidien (15 minutes réalistes)",
+      "Fiche ressources d'aide : personnes, communautés, professionnels à contacter"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Pérennité : entretenir, transmettre, rester lucide",
+     "objectif": "Assurer la durée du système par des révisions saisonnières, préciser ses limites et rappeler les cadres éthiques du livre.",
+     "sections": [
+      "La révision saisonnière du système (printemps, renouvellement)",
+      "Transmettre sa méthode : enseigner pour consolider",
+      "Se prémunir contre la dogmatisation et l'effet recette magique",
+      "Les limites du modèle : ce que l'analogie de l'homéostasie ne dit pas",
+      "Cadre de prudence : aucune promesse de résultat, aucun conseil médical, juridique ou financier personnalisé",
+      "Conclusion : un système qui s'autocorrige, une pratique qui dure"
+     ],
+     "exercices": [
+      "Bilan trimestriel en 10 questions",
+      "Fiche « ma méthode en une page » à transmettre ou partager",
+      "Engagement de révision annuelle, daté et signé pour soi"
+     ]
+    }
+   ]
+  }
+ ]
+}

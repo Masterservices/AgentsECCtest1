@@ -1,0 +1,614 @@
+{
+ "titre": "S'accorder sans s'enfermer",
+ "sous_titre": "La négociation par engagements réversibles — de l'offre-pilote à la symbiose durable",
+ "bibliographie": [
+  {
+   "auteur": "Roger Fisher, William Ury, Bruce Patton",
+   "titre": "Getting to Yes: Negotiating Agreement Without Giving In",
+   "annee": "1981",
+   "idee": "La négociation principiale sépare personnes, positions et intérêts pour produire des accords mutuellement acceptables.",
+   "apport": "Cadre des intérêts et options inventives, que notre livre étend aux accords temporaires et révisables comme forme légitime d'accord."
+  },
+  {
+   "auteur": "William Ury",
+   "titre": "Getting Past No: Negotiating with Difficult People",
+   "annee": "1991",
+   "idee": "Contre l'adversaire fermé, on s'arme de préparation mentale, d'écoute active et de questions qui rouvrent l'espace négociable.",
+   "apport": "Techniques pour rouvrir sans menacer l'interlocuteur, notamment par des propositions gracieusement réversibles."
+  },
+  {
+   "auteur": "Robert B. Cialdini",
+   "titre": "Influence: The Psychology of Persuasion",
+   "annee": "1984",
+   "idee": "Engagement, cohérence, réciprocité et preuve sociale gouvernent l'adhésion plus que les arguments rationnels.",
+   "apport": "Lecture des biais d'engagement prématuré ; le livre enseigne à court-circuiter la pression vers le « oui définitif »."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "L'aversion aux pertes et les heuristiques rendent toute option irréversible plus coûteuse subjectivement qu'elle ne l'est objectivement.",
+   "apport": "Fondements cognitifs de la peur de se tromper et justification expérimentale de la réversibilité comme levier de déblocage."
+  },
+  {
+   "auteur": "Daniel Kahneman, Jack L. Knetsch, Richard H. Thaler",
+   "titre": "The End of Loss Aversion",
+   "annee": "2013",
+   "idee": "L'intensité de l'aversion aux pertes dépend du cadre de référence et peut être atténuée par le cadrage des gains.",
+   "apport": "Outillage pour formuler les accords-tests comme expériences à gains latents plutôt que comme risques de perte."
+  },
+  {
+   "auteur": "Richard H. Thaler, Cass R. Sunstein",
+   "titre": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
+   "annee": "2008",
+   "idee": "L'architecture des choix (defaults, opt-out) influence massivement les décisions sans interdire aucune option.",
+   "apport": "Inspiration pour des clauses de sortie « opt-out » bien conçues et des points de révision intégrés par défaut."
+  },
+  {
+   "auteur": "Christopher Voss",
+   "titre": "Never Split the Difference: Negotiating As If Your Life Depended On It",
+   "annee": "2016",
+   "idee": "L'empathie tactique, le miroir et l'étiquetage des émotions déverrouillent les blocages plus que le marchandage de chiffres.",
+   "apport": "Répertoire de langage pour nommer la peur de l'engagement et proposer des formats d'accord à faible exposition."
+  },
+  {
+   "auteur": "Deepak Malhotra, Max H. Bazerman",
+   "titre": "Negotiation Genius: How to Overcome Obstacles and Achieve Brilliant Results at the Bargaining Table and Beyond",
+   "annee": "2007",
+   "idee": "Les négociateurs brillants cartographient les incertitudes, créent de la valeur sous contrainte et se protègent des pièges cognitifs.",
+   "apport": "Méthodes de préparation et de création de valeur qui nourrissent nos grilles de réversibilité et d'options réelles."
+  },
+  {
+   "auteur": "Douglas Stone, Bruce Patton, Sheila Heen",
+   "titre": "Difficult Conversations: How to Discuss What Matters Most",
+   "annee": "1999",
+   "idee": "Tout accord difficile porte sur trois conversations : faits, émotions et identité.",
+   "apport": "Cadre pour aborder la peur de « perdre la face » en cas de révision, et sécuriser l'identité des parties."
+  },
+  {
+   "auteur": "Robert Axelrod",
+   "titre": "The Evolution of Cooperation",
+   "annee": "1984",
+   "idee": "Dans les interactions répétées, la coopération émerge avec des règles simples comme la réciprocité graduée (tit-for-tat).",
+   "apport": "Fondements de la symbiose : la réversibilité nourrit la répétition, qui à son tour rend la coopération payante."
+  },
+  {
+   "auteur": "Francis Fukuyama",
+   "titre": "Trust: The Social Virtues and the Creation of Prosperity",
+   "annee": "1995",
+   "idee": "La confiance sociale abaisse les coûts de transaction et permet des organisations complexes à horizon long.",
+   "apport": "Mise en perspective des accords réversibles comme infrastructure de confiance, surtout dans les relations inter-entreprises."
+  },
+  {
+   "auteur": "Amy C. Edmondson",
+   "titre": "The Fearless Organization: Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth",
+   "annee": "2018",
+   "idee": "Sans sécurité psychologique, personne n'ose signaler l'erreur ni apprendre publiquement.",
+   "apport": "Lien entre accords défaisables et climat d'apprentissage : la sortie gracieuse protège la parole et l'expérimentation."
+  },
+  {
+   "auteur": "Eric Ries",
+   "titre": "The Lean Startup: How Constant Innovation Creates Radically Successful Businesses",
+   "annee": "2011",
+   "idee": "Produits et modèles économiques se valident par des expériences à coût minimal (MVP) et des pivots assumés.",
+   "apport": "Transposition aux accords : l'accord-test comme MVP relationnel, avec critères d'apprentissage et de pivot."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile: Things That Gain from Disorder",
+   "annee": "2012",
+   "idee": "L'optionnalité et le barbell (prudent + upside ouvert) rendent les systèmes gagnants face à l'incertitude.",
+   "apport": "Philosophie de la réversibilité tactique : garder de l'air, limiter la perte maximale, maximiser l'apprentissage."
+  },
+  {
+   "auteur": "Margaret A. Peterlin (dir.) — synthèse des travaux d'Amram & Kulatilaka",
+   "titre": "Real Options: Managing Strategic Investment in an Uncertain World",
+   "annee": "1999",
+   "idee": "La valeur d'une décision réside aussi dans les options qu'elle ouvre : différer, étendre, abandonner à faible coût.",
+   "apport": "Vocabulaire des options réelles appliqué aux clauses de sortie, de revue et aux paliers d'engagement."
+  },
+  {
+   "auteur": "Oliver E. Williamson",
+   "titre": "The Economic Institutions of Capitalism",
+   "annee": "1985",
+   "idee": "Les contrats incomplets et les aléas de l'opportunisme expliquent le choix des formes de gouvernance.",
+   "apport": "Lecture économique des clauses de révision et des mécanismes d'adaptation sans renégociation totale."
+  },
+  {
+   "auteur": "Oliver Hart, John Moore",
+   "titre": "Incomplete Contracts and Renegotiation",
+   "annee": "1988",
+   "idee": "Les contrats ne peuvent tout prévoir ; la renégociation efficace est une partie du design institutionnel.",
+   "apport": "Fondement théorique des points de recalibrage et des protocoles de renégociation pacifique."
+  },
+  {
+   "auteur": "John McCall",
+   "titre": "Economics of Information and Job Search",
+   "annee": "1970 (idées élargies ensuite)",
+   "idee": "L'information s'acquiert par coûts ; l'expérimentation a une valeur économique propre face à l'incertitude.",
+   "apport": "Intuition du « test cher mais utile » pour justifier les périodes d'essai et les pilotes payants en apprentissage."
+  },
+  {
+   "auteur": "Kim Lane Scheppele",
+   "titre": "Just Institutions",
+   "annee": "2023 (dans la lignée des travaux sur institutions révisables)",
+   "idee": "Les institutions durables intègrent des mécanismes d'ajustement plutôt que des règles figées.",
+   "apport": "Analogie pour les accords relationnels et collectifs : la réversibilité institutionnalisée comme source de légitimité."
+  },
+  {
+   "auteur": "Karl E. Weick",
+   "titre": "The Sociology of Organizing / Small Wins",
+   "annee": "1968-1984 (articles fondateurs)",
+   "idee": "Le sens se construit par des petites victories concrètes et réversibles plutôt que par des grandes visions figées.",
+   "apport": "Stratégie des gains progressifs par séquences d'accords-tests courtes et visibles."
+  },
+  {
+   "auteur": "Mary Parker Follett",
+   "titre": "Creative Experience",
+   "annee": "1924",
+   "idee": "L'intégration des intérêts (« getting with ») dépasse le compromis par la co-création d'arrangements évolutifs.",
+   "apport": "Ancrage historique de la thèse : préférer des formules vivantes qui s'ajustent à l'expérience partagée."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Le paradoxe de l'accord définitif",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Pourquoi le « oui définitif » fait durcir les positions",
+     "objectif": "Démontrer, par la théorie et des vignettes, que la quête d'un accord unique et permanent élève les enjeux perçus et rigidifie la négociation.",
+     "sections": [
+      "Le contrat total et ses illusions de sécurité",
+      "Effet d'élimination des options : quand tout ou rien gouverne la table",
+      "Ancrage, carotte et bâton : le durcissement face à l'irréversible",
+      "Études de cas abrégées : fusions ratées, partenariats gelés, embauches précipitées",
+      "Mesurer le coût caché de l'irréversibilité prématurée",
+      "Formuler autrement : de l'accord final à la séquence d'accords"
+     ],
+     "exercices": [
+      "Exercice 1 : Audit « irréversibilité » d'un accord récent (grille simple en 8 critères).",
+      "Exercice 2 : Reformuler un engagement définitif en trois paliers révisables.",
+      "Exercice 3 : Identifier les deux peurs principales que masque chaque partie derrière le « il faut signer maintenant »."
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Psychologie de l'erreur évitable : aversion aux pertes et peur de la face",
+     "objectif": "Expliquer les mécanismes cognitifs et émotionnels qui rendent tout engagement définitif subjectivement plus risqué qu'il ne devrait l'être.",
+     "sections": [
+      "Aversion aux pertes et cadres de référence (Kahneman et Tversky)",
+      "Regret anticipé : la peur de se reprocher d'avoir signé",
+      "Identité et face : ce qu'un accord permanent engage de soi",
+      "Sécurité psychologique et droit de se tromper (Edmondson)",
+      "Biais d'engagement et escalade des commitments (Cialdini, Staw)",
+      "Traduire la peur en clauses : sortie, revue, essai"
+     ],
+     "exercices": [
+      "Exercice 1 : Journal des peurs d'engagement sur trois négociations en cours.",
+      "Exercice 2 : « Dé catastrophe » : rédiger la pire conséquence d'un accord, puis la rendre réversible par une clause.",
+      "Exercice 3 : Reformulation empathique pour nommer la peur adverse sans la ridiculiser."
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "La réversibilité comme option stratégique",
+     "objectif": "Introduire le raisonnement en options réelles et montrer comment conserver la liberté d'abandonner, d'étendre ou de pivoter crée de la valeur.",
+     "sections": [
+      "Option d'abandon, d'extension, de différé : vocabulaire minimal",
+      "Prime implicite de la réversibilité dans les marchés incertains",
+      "Coût de l'option : discipline, points de revue, rationalité ex post",
+      "Barbell tactique : s'engager fort sur le processus, souple sur le périmètre",
+      "Quand la réversibilité est un luxe contre-productif (urgence, sécurité)",
+      "Test de robustesse : une clause de sortie est-elle réellement utilisable ?"
+     ],
+     "exercices": [
+      "Exercice 1 : Cartographier trois options cachées dans une offre actuelle.",
+      "Exercice 2 : Chiffrer qualitativement la prime d'option d'un pilote de 90 jours.",
+      "Exercice 3 : Concevoir un barbell « engagement fort / périmètre fluide » pour un partenariat."
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Relations répétées : la coopération naît de la répétition",
+     "objectif": "Relier réversibilité, interactions répétées et formation de la confiance, en mobilisant la théorie des jeux et l'économie des institutions.",
+     "sections": [
+      "Jeux répétés, réciprocité graduée, tit-for-tat (Axelrod)",
+      "Réputation de fair-play : ce qu'une sortie gracieuse signale",
+      "Coûts de transaction et contrats incomplets (Williamson, Hart-Moore)",
+      "Confiance sociale et capacité à coopérer dans la durée (Fukuyama)",
+      "De la transaction ponctuelle à la symbiose : préconditions",
+      "Premiers signaux de confiance : transparence des intentions de révision"
+     ],
+     "exercices": [
+      "Exercice 1 : Identifier les trois interactions futures qui justifient de rester souple aujourd'hui.",
+      "Exercice 2 : Écrire un message qui annonce une révision prévue comme preuve de sérieux, non d'instabilité.",
+      "Exercice 3 : Grille « réputation de réversibilité » pour soi et son organisation."
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Cadre mental : négocier des apprentissages, pas seulement des obligations",
+     "objectif": "Proposer une refondation du succès négocié : l'accord n'est pas seulement une promesse, c'est un dispositif d'apprentissage mutuel.",
+     "sections": [
+      "Définir l'accord-test : durée, périmètre, critères d'apprentissage",
+      "Succès = information acquise + relation préservée + options ouvertes",
+      "KPI relationnels vs KPI contractuels",
+      "Petites victoires et séquences courtes (Weick)",
+      "Rituels de bilan : transformant l'expérience en confiance accumulée",
+      "Erreur de méthode : confondre réversibilité et absence d'engagement"
+     ],
+     "exercices": [
+      "Exercice 1 : Rédiger une charte de négociation personnelle « apprentissage d'abord ».",
+      "Exercice 2 : Définir trois critères d'apprentissage pour un accord en préparation.",
+      "Exercice 3 : Distinguer dans un accord existant ce qui est obligation, ce qui est hypothèse testable."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Concevoir des offres défaisables",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "Offres-pilotes : prototypes d'accord à faible exposition",
+     "objectif": "Apprendre à structurer des propositions que l'on peut lancer vite, observer, ajuster ou arrêter sans dégât majeur.",
+     "sections": [
+      "Anatomie d'une offre-pilote : périmètre, durée, budget, revues",
+      "MVP contractuel : le minimum qui génère de l'information utile",
+      "Choisir un pilote qui éclaire vraiment (hypothèses à valider)",
+      "Communication de l'offre-pilote sans paraître feindre l'engagement",
+      "Budgets d'apprentissage : accepter un coût pour l'information",
+      "Cas types : prestation, emploi, joint-venture, fournisseur, famille"
+     ],
+     "exercices": [
+      "Exercice 1 : Concevoir une offre-pilote de 30 à 90 jours pour votre situation professionnelle réelle.",
+      "Exercice 2 : Rédiger l'hypothèse principale du pilote et son indicateur de validation.",
+      "Exercice 3 : Préparer les objections types (« ce n'est pas sérieux ») et y répondre par le design."
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Clauses de sortie : anatomie, typologie, pièges",
+     "objectif": "Donner une boîte à outils opérationnelle des clauses de sortie, sans fournir de conseil juridique personnalisé.",
+     "sections": [
+      "Sortie pour convenance, pour manquement, pour changement de circonstances",
+      "Préavis, indemnités légères, transferts de matériel et de données",
+      "Conditions suspensives et événements déclencheurs objectifs",
+      "Pièges : clauses de sortie illusoires, asymétries cachées",
+      "Négocier la sortie comme gage de sérieux, non comme mise en garde",
+      "Checklist de rédaction claire (langage compréhensible par non-juristes)"
+     ],
+     "exercices": [
+      "Exercice 1 : Audit d'une clause existante selon la checklist de réalité opérationnelle.",
+      "Exercice 2 : Rédiger deux formulations (courte et détaillée) d'une sortie à notice courte.",
+      "Exercice 3 : Jeu de rôle : proposer une clause de sortie à un partenaire méfiant."
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Clauses de révision et points de recalibrage",
+     "objectif": "Institutionnaliser l'ajustement : prévoir des moments où l'accord est rouvert de façon ordonnée et non conflictuelle.",
+     "sections": [
+      "Pourquoi réviser est plus sain que renégocier dans l'urgence",
+      "Calendrier de revues (30/60/90 jours, annuel) et ordre du jour type",
+      "Critères objectifs de recalibrage : prix, volume, qualité, charge",
+      "Mécanismes d'indexation, de fenêtres, de quotas ajustables",
+      "Renégociation pacifique : protocole de conversation en quatre temps",
+      "Ce qu'on ne révise pas : lignes rouges identifiées dès le départ"
+     ],
+     "exercices": [
+      "Exercice 1 : Intégrer deux points de révision dans un accord en cours de négociation.",
+      "Exercice 2 : Rédiger un ordre du jour de revue en six questions.",
+      "Exercice 3 : Identifier les éléments « fixes » et « fluides » d'un contrat relationnel."
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Grilles de réversibilité : évaluer, comparer, arbitrer",
+     "objectif": "Fournir des instruments de mesure et de décision pour juger le degré de réversibilité d'une proposition.",
+     "sections": [
+      "Grille à 6 dimensions : temps, argent, réputation, capacité, données, relations",
+      "Score de réversibilité et interprétation prudente",
+      "Cartographie des irréversibilités croisées (engagements en cascade)",
+      "Arbitrage : quand une irréversibilité locale vaut le coup",
+      "Partager la grille avec l'autre partie pour co-construire la confiance",
+      "Limites de la grille : faux sentiment de contrôle"
+     ],
+     "exercices": [
+      "Exercice 1 : Noter trois options d'accord avec la grille et en discuter les écarts.",
+      "Exercice 2 : Repérer une irréversible « en cascade » dans votre fil de négociations.",
+      "Exercice 3 : Simplifier la grille en 3 questions pour usage en réunion rapide."
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Architecture de l'offre globale : menu, paliers, mix réversible",
+     "objectif": "Composer des offres multi-niveaux où le client ou partenaire choisit son exposition, augmentant l'adhésion sans perdre la valeur.",
+     "sections": [
+      "Offres en paliers : découverte, essai, standard, engagé",
+      "Menu d'options complémentaires réversibles",
+      "Prix et valeur sous incertitude : rémunérer l'apprentissage",
+      "Packages « essai + extension conditionnelle »",
+      "Transparence sur la trajectoire : ce qui devient irréversible plus tard",
+      "Éviter la fragmentation excessive : tenir un fil relationnel"
+     ],
+     "exercices": [
+      "Exercice 1 : Créer un menu à trois paliers pour votre offre principale.",
+      "Exercice 2 : Simuler le discours de présentation d'un palier d'essai.",
+      "Exercice 3 : Tester la clarté de l'offre auprès d'un pair naïf (lecture à haute voix)."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Expérimenter : concessions, langage, prototypes d'accord",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "Transformer chaque concession en expérience",
+     "objectif": "Réinterpréter la concession non comme une perte définitive mais comme un investissement dans une information relationnelle et opérationnelle.",
+     "sections": [
+      "Concession-exploration vs concession-repli",
+      "Conditions d'une concession-expérimentation : réversibilité, mesure, communication",
+      "Réciprocité attendue et graduée (Axelrod, Cialdini)",
+      "Concessions à paliers : annoncer la suite sans tout donner",
+      "Désapprendre le « toujours plus » : discipline du coût d'apprentissage",
+      "Bilan post-concession : qu'avons-nous appris ?"
+     ],
+     "exercices": [
+      "Exercice 1 : Convertir trois concessions historiques en versions expérimentales.",
+      "Exercice 2 : Script de concession-expérimentation en quatre phrases.",
+      "Exercice 3 : Cartographier les concessions réciproques dans une négociation en cours."
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Protocole d'accord-test : méthode complète",
+     "objectif": "Offrir un protocole reproductible, étape par étape, pour formaliser un accord-test utilisable en entreprise, commerce, emploi et coopérations.",
+     "sections": [
+      "Étape 1 : Clarifier l'hypothèse commune à tester",
+      "Étape 2 : Délimiter périmètre, durée, ressources minimales",
+      "Étape 3 : Définir indicateurs d'apprentissage et de sortie",
+      "Étape 4 : Prévoir revues, ajustements et fin de test",
+      "Étape 5 : Documenter légèrement et communiquer aux parties prenantes",
+      "Étape 6 : Clôturer : adoption, pivot ou arrêt gracieux",
+      "Modèles commentés (fiche d'une page, mémo de deux pages)"
+     ],
+     "exercices": [
+      "Exercice 1 : Rédiger une fiche d'accord-test complète pour un cas réel.",
+      "Exercice 2 : Parcours en pair : l'un joue le sceptique, l'autre applique le protocole.",
+      "Exercice 3 : Réduire la fiche à un post-it lisible en réunion de cadrage."
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Langage et formulation des engagements souples",
+     "objectif": "Maîtriser les tournures verbales et écrites qui signalent fermeté sur l'intention et souplesse sur la durée.",
+     "sections": [
+      "Formules gagnantes : « pour une première période », « sous réserve de revue », « objectif partagé de… »",
+      "Formules toxiques : faux engagement, faux flou, faux ilot",
+      "Empathie tactique pour dire non définitif tout en restant ouvert (Voss)",
+      "Écrire pour être relu dans six mois : clarté des conditions",
+      "Verbal vs écrit : quand fixer par écrit un simple test",
+      "Exercices de reformulation en atelier"
+     ],
+     "exercices": [
+      "Exercice 1 : Relever dix formulations ambiguës et les réécrire avec intention claire.",
+      "Exercice 2 : Jeux de rôle miroir-étiquetage pour aborder la peur de l'engement adverse.",
+      "Exercice 3 : Produire deux versions d'un e-mail d'offre-pilote (courte et détaillée)."
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Négocier l'intérieur : sponsors, métiers, juridique, achats",
+     "objectif": "Élargir la négociation aux coalitions internes : un accord réversible doit survivre aux validateurs de l'organisation.",
+     "sections": [
+      "Cartographie des parties prenantes internes et de leurs peurs",
+      "Sponsor exécutif : condition quasi-nécessaire aux pilotes",
+      "Parler le langage du risque, du budget et de la réputation",
+      "Impliquer tôt juridique et achats pour éviter le veto tardif",
+      "Protocoles d'approbation allégée pour les tests bornés",
+      "Gérer le ressentiment interne d'une « exception » réversible"
+     ],
+     "exercices": [
+      "Exercice 1 : Carte des parties prenantes internes d'un accord-test visé.",
+      "Exercice 2 : Argumentaire de 5 minutes pour un comité d'approbation sceptique.",
+      "Exercice 3 : Identifier le point de veto le plus probable et prévenir par une clause."
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Délais, cadence et rythme : l'art de la séquence",
+     "objectif": "Composer la temporalité de la négociation pour multiplier les apprentissages courts plutôt que le grand soir contractuel.",
+     "sections": [
+      "Cadence des touchpoints : hebdo, quinzaine, revue formelle",
+      "Deadline réelles vs artificielles : usage éthique de l'urgence",
+      "Séquencer : d'abord le test, ensuite les grands volumes",
+      "Fenêtres de renégociation intégrées au calendrier des affaires",
+      "Signaux d'arrêt : quand interrompre un test sans drame",
+      "Rituels de clôture positive pour préserver la relation"
+     ],
+     "exercices": [
+      "Exercice 1 : Timeline d'une négociation en 5 paliers sur 90 jours.",
+      "Exercice 2 : Rédiger un mémo « si rien ne bouge à J+15, nous faisons X ».",
+      "Exercice 3 : Calibrer une revue de mi-parcours : ordre du jour et participants."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — De la réversibilité à la symbiose d'intérêts",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "Cartographier les intérêts communs évolutifs",
+     "objectif": "Détecter et formaliser des intérêts qui se renforcent avec le temps, pour justifier des engagements progressifs.",
+     "sections": [
+      "Passer des positions aux intérêts, puis aux intérêts futurs",
+      "Zones de symbiose : coûts partagés, apprentissage mutuel, réputation croisée",
+      "Intérêts conditionnels : « si tu scales, je gagne en efficacité »",
+      "Entretiens d'intérêts : questions type de cadrage",
+      "Document de travail partagé : hypothèses de symbiose",
+      "Distinguer symbiose réelle et illusion de complémentarité"
+     ],
+     "exercices": [
+      "Exercice 1 : Matrice intérêts individuels / communs / conflictuels potentiels.",
+      "Exercice 2 : Formuler trois hypothèses de renforcement mutuel testables.",
+      "Exercice 3 : Interview croisée de 20 minutes pour découvrir un intérêt caché."
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Bâtir des gains dépendants de la continuité",
+     "objectif": "Concevoir des mécanismes de valeur qui augmentent avec la durée et la qualité de la relation, sans piéger personne.",
+     "sections": [
+      "Effets d'apprentissage conjoint, économies d'interface, co-spécialisation légère",
+      "Tarification et incentives progressifs (séjours, volumes, fidélité réversible)",
+      "Partage d'information comme actif relationnel",
+      "Indicateurs de santé relationnelle (delais, friction, initiative)",
+      "Éviter la dépendance toxique : diversifier sans trahir",
+      "Du test à la convention durable : critères de bascule"
+     ],
+     "exercices": [
+      "Exercice 1 : Concevoir un mécanisme de valeur croissante avec le temps.",
+      "Exercice 2 : Audit de dépendance : où sommes-nous trop exposés ?",
+      "Exercice 3 : Définir 4 indicateurs de santé de la relation partenariale."
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Signaux de confiance et réputation de réversibilité",
+     "objectif": "Comprendre et provoquer des signaux crédibles qui réduisent la méfiance mutuelle au fil des cycles test-bilan.",
+     "sections": [
+      "Coût du signal : ce qui rend une promesse crédible sans la rendre définitive",
+      "Transparence sélective et prévisibilité du comportement",
+      "Signaler la volonté de réviser comme preuve de compétence",
+      "Références, preuves sociales, track record de pilots",
+      "Réparer une réputation d'engagement excessif",
+      "Confiance institutionnelle vs confiance interpersonnelle"
+     ],
+     "exercices": [
+      "Exercice 1 : Choisir trois signaux de confiance à envoyer ce trimestre.",
+      "Exercice 2 : Préparer une preuve sociale adaptée à un partenaire prudent.",
+      "Exercice 3 : Récit d'une sortie gracieuse passée, réécrit comme preuve de sérieux."
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Conflits, renégociation et sortie sans rupture",
+     "objectif": "Traiter les désaccords et fins de test qui surviennent, en préservant la possibilité d'une relation future.",
+     "sections": [
+      "Diagnostique : désaccord de fait, de moyens ou de confiance",
+      "Protocole de renégociation en quatre temps (constats, impacts, options, décision)",
+      "Médiation légère et tiers facilitateurs",
+      "Sortie gracieuse : restitution, transition, reconnaissance mutuelle",
+      "Cas de rupture dure : préparer le terrain sans brûler les ponts",
+      "Apprentissage organisationnel post-rupture"
+     ],
+     "exercices": [
+      "Exercice 1 : Script de renégociation pour un test qui tourne mal côté résultats.",
+      "Exercice 2 : Rédiger un mémo de sortie constructive à un partenaire.",
+      "Exercice 3 : Débriefing structuré : trois leçons, une relation maintenue possible."
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Symbiose durable : quand la réversibilité devient un bien commun",
+     "objectif": "Montrer comment une culture de l'accord défaisable, partagée entre organisations, produit des écosystèmes coopératifs résilients.",
+     "sections": [
+      "Normes partagées : clauses-types, chartes de pilote, communautés de pratique",
+      "Économie des plateformes et coopérations multi-acteurs (vue générale)",
+      "Apprentissage inter-organisationnel et open standards relationnels",
+      "Limites : asymétries de pouvoir, free-riding, épuisement des tests",
+      "De la symbiose opportuniste à l'engagement choisi",
+      "Vision : la confiance comme infrastructure, non comme sentiment"
+     ],
+     "exercices": [
+      "Exercice 1 : Proposer une mini-charte de pilote pour votre écosystème.",
+      "Exercice 2 : Analyser un réseau coopératif existant sous l'angle de la réversibilité.",
+      "Exercice 3 : Rédiger un manifeste en cinq points sur l'accord défaisable dans votre métier."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Graduer l'irréversibilité et appliquer",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Maturation progressive : de l'essai à l'engagement fort",
+     "objectif": "Définir une trajectoire claire d'augmentation graduée de l'exposition, guidée par des critères d'apprentissage et de confiance accumulée.",
+     "sections": [
+      "Échelle d'engagement : 0 test → 1 pilote → 2 extension → 3 ancrage → 4 exclusivité négociée",
+      "Critères objectifs de passage d'un palier à l'autre",
+      "Signaux de confiance croisés (performance, transparence, réparation)",
+      "Ce qui doit rester réversible même dans un engagement fort",
+      "Pièges de la maturité : routine, capture, oubli des revues",
+      "Rituels de renouvellement de la confiance"
+     ],
+     "exercices": [
+      "Exercice 1 : Situer chacune de vos relations clés sur l'échelle d'engagement.",
+      "Exercice 2 : Écrire les trois critères pour passer au palier supérieur.",
+      "Exercice 3 : Planifier une revue de confiance semestrielle."
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Quand l'irréversible est inévitable : le préparer sans paralysie",
+     "objectif": "Éviter le dogme de la réversibilité absolue : reconnaître les zones d'irréversibilité nécessaires et les préparer proprement.",
+     "sections": [
+      "Irréversibilités saines : sécurité, conformité, exclusivités stratégiques limitées",
+      "Préparer l'irréversible : clauses de transition, plans B, sauvegardes relationnelles",
+      "Décider sous incertitude : critères de « go » et de « non »",
+      "Storytelling de la décision : expliquer le passage à l'engagement fort",
+      "Échec de la réversibilité : reconnaître et corriger sans culpabilité",
+      "Limites éthiques : ne pas instrumentaliser la peur de l'autre"
+     ],
+     "exercices": [
+      "Exercice 1 : Liste blanche des irréversibilités que vous acceptez déjà, et pourquoi.",
+      "Exercice 2 : Rédiger un « plan de transition » pour un engagement fort à venir.",
+      "Exercice 3 : Décision simulée : go / no-go avec grille de critères partagée."
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Domaines d'application : entreprise, emploi, commerce, coopération, famille",
+     "objectif": "Transposer la méthode à des contextes variés avec prudence, sans conseil juridique, fiscal ou financier personnalisé.",
+     "sections": [
+      "Entreprise : partenariats, fournisseurs, clients grands comptes",
+      "Emploi : essais, missions, promotions réversibles, retours de candidats",
+      "Commerce et entrepreneuriat : contrats clients, pilots produits",
+      "Coopérations publiques-privées et associations (vue de principe)",
+      "Familles et colocations : accords domestiques testables (principe, non conseil)",
+      "Ce que la méthode ne résout pas : rapports de force, arnaques, aléas extrêmes",
+      "Rappels : consulter des professionnels qualifiés pour tout engagement contraignant"
+     ],
+     "exercices": [
+      "Exercice 1 : Adapter le protocole d'accord-test à votre secteur en 1 page.",
+      "Exercice 2 : Identifier les règles locales (droit du travail, marchés publics, etc.) à faire relire par un professionnel — sans vous substituer à lui.",
+      "Exercice 3 : Étude de cas croisée avec un pair d'un autre domaine."
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Boîte à outils finale et protocole de pratique sur 90 jours",
+     "objectif": "Consolider l'apprentissage du livre en un programme personnel de maîtrise de la négociation réversible.",
+     "sections": [
+      "Synthèse des cinq axes : offres pilotes, clauses, concessions-expériences, symbiose, graduation",
+      "Fiches outils récapitulatives (grilles, checklists, scripts)",
+      "Plan 90 jours : une négociation-pilote par mois",
+      "Mesurer ses progrès : indicateurs d'apprentissage relationnel",
+      "Communauté et pratique continue : pairs, mentors, revues de cas",
+      "Clôture : la réversibilité comme discipline de long terme, non comme astuce"
+     ],
+     "exercices": [
+      "Exercice 1 : Rédiger votre feuille de route 90 jours avec trois engagements-tests concrets.",
+      "Exercice 2 : Constituer un trio de relecture mensuelle pour vos négociations.",
+      "Exercice 3 : Écrire votre manifeste personnel en une page sur l'accord défaisable."
+     ]
+    }
+   ]
+  }
+ ]
+}
