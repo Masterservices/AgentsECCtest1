@@ -1,0 +1,134 @@
+# Usine à livres sur les serveurs GitHub : Qwen orchestre, choisit les sous-agents (modèles) et produit les livres,
+# sans dépendre d'une session Claude. Une exécution dure au plus ~6 h ; si des livres restent, elle se relance toute seule.
+# Claude n'intervient qu'en option, comme vérificateur final (cocher « verif_claude »).
+#
+# Secrets à définir (Settings -> Secrets and variables -> Actions -> New repository secret) :
+#   DIALAGRAM_API_KEY          (obligatoire)  clé nxr-… du tableau de bord Dialagram
+#   CLAUDE_CODE_OAUTH_TOKEN    (optionnel)    vérificateur Claude (abonnement)  — ou —
+#   ANTHROPIC_API_KEY          (optionnel)    vérificateur Claude (clé API)
+# Réglage : Settings -> Actions -> General -> Workflow permissions : « Read and write permissions ».
+name: Usine à livres (Qwen orchestrateur)
+
+on:
+  workflow_dispatch:
+    inputs:
+      cible:
+        description: "Livres : « restants » (tous les sans PDF du préfixe) ou une liste de slugs séparés par des espaces"
+        default: restants
+      prefixe:
+        description: "Préfixe pris en compte avec « restants »"
+        default: ie-
+      verif_claude:
+        description: "Ajouter Claude comme vérificateur final (nécessite une clé Claude)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: usine-livres
+  cancel-in-progress: false
+
+jobs:
+  orchestrer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    outputs:
+      livres: ${{ steps.orch.outputs.livres }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install reportlab pypdf matplotlib
+
+      - name: Préparer l'environnement de l'usine
+        run: |
+          git config user.name "Usine Dialagram"
+          git config user.email "usine@users.noreply.github.com"
+          # usine.sh attend le dépôt à ce chemin
+          sudo mkdir -p /home/user
+          sudo ln -sfn "$GITHUB_WORKSPACE" /home/user/AgentsECCtest
+          mkdir -p /tmp/usine
+          # signature des commits : l'orchestrateur est Qwen, pas Claude
+          sed -e 's#Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>#Orchestrateur : Qwen (usine Dialagram)#' \
+              -e 's#Claude-Session: .*#Exécution : GitHub Actions"#' \
+              bibliotheque/outils/usine.sh > /tmp/usine_actions.sh
+
+      - name: Qwen orchestre l'usine
+        id: orch
+        env:
+          DIALAGRAM_API_KEY: ${{ secrets.DIALAGRAM_API_KEY }}
+          USINE_SCRIPT: /tmp/usine_actions.sh
+          CIBLE: ${{ inputs.cible }}
+          PREFIXE: ${{ inputs.prefixe }}
+        run: python3 bibliotheque/outils/orchestrateur.py --cible "$CIBLE" --prefixe "$PREFIXE" --minutes 330
+
+      - name: Se relancer s'il reste des livres
+        if: steps.orch.outputs.relancer == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CIBLE: ${{ inputs.cible }}
+          PREFIXE: ${{ inputs.prefixe }}
+        run: gh workflow run usine.yml --ref "$GITHUB_REF_NAME" -f cible="$CIBLE" -f prefixe="$PREFIXE" -f verif_claude=false
+
+  verification-claude:
+    # Dernière étape optionnelle : Claude relit les livres produits pendant cette exécution.
+    needs: orchestrer
+    if: ${{ inputs.verif_claude && needs.orchestrer.outputs.livres != '' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Vérifier la présence d'une clé Claude
+        id: cle
+        env:
+          A: ${{ secrets.ANTHROPIC_API_KEY }}
+          B: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          if [ -n "$A$B" ]; then echo "ok=true" >> "$GITHUB_OUTPUT"
+          else echo "::warning::Aucune clé Claude définie : vérification ignorée"; echo "ok=false" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Préparer le dossier de travail
+        if: steps.cle.outputs.ok == 'true'
+        run: mkdir -p travail
+
+      - name: Claude vérifie les livres
+        if: steps.cle.outputs.ok == 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ github.token }}
+          claude_args: >-
+            --max-turns 40
+            --allowedTools "Read,Write,Bash(cat:*),Bash(ls:*),Bash(wc:*)"
+          prompt: |
+            Tu es le vérificateur final d'une usine qui écrit des livres complets en français avec Qwen.
+            Livres à vérifier (slugs) : ${{ needs.orchestrer.outputs.livres }}
+
+            Pour chaque livre :
+            1. Lis bibliotheque/<slug>/controle.json (pages, mots, fuites, rectifications) et bibliotheque/<slug>/plan.json.
+            2. Lis trois chapitres de bibliotheque/<slug>/chapitres_v2/ (début, milieu, fin).
+            3. Contrôle : cohérence avec le sujet et le plan, qualité du français, absence de messages adressés au
+               commanditaire, affirmations ou chiffres non vérifiables non signalés, promesses de résultat, conseils
+               médicaux/juridiques/financiers personnalisés, formules LaTeX mal formées.
+            Écris travail/verification.md : par livre une note sur 20, 3 à 6 constats précis (fichier et passage),
+            et la liste des corrections recommandées. N'écris rien d'autre.
+
+      - name: Publier le rapport de vérification
+        if: steps.cle.outputs.ok == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-claude
+          path: travail/verification.md
+          if-no-files-found: warn
