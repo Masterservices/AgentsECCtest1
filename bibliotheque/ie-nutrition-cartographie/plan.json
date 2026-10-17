@@ -1,0 +1,584 @@
+{
+ "titre": "La carte avant la graine",
+ "sous_titre": "Cartographier son terrain alimentaire pour faire pousser des habitudes durables, sans régime ni interdit",
+ "bibliographie": [
+  {
+   "auteur": "Brian Wansink",
+   "titre": "Mindless Eating: Why We Eat More Than We Think",
+   "annee": "2006",
+   "idee": "L'environnement (taille des assiettes, signalétique des aliments, distance des récipients) influence l'ingestion bien plus que la volonté consciente.",
+   "apport": "Base pour l'idée que le « terrain » (cuisine, plateau-repas, placard) prime sur la résolution individuelle ; le livre en retiendra la méthode d'observation des signaux cachés de l'environnement alimentaire. Prudence : certaines conclusions de Wansink ont été discutées scientifiquement — à citer avec réserve."
+  },
+  {
+   "auteur": "Thaler & Sunstein",
+   "titre": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
+   "annee": "2008",
+   "idee": "De petits aménagements du cadre de choix (architecture du choix) orientent les décisions sans interdire ni moraliser.",
+   "apport": "Fournit le vocabulaire de « redesign spatial » des points de décision alimentaires (réfrigérateur, open space, distributeur). Notre livre l'adapte à la cartographie personnelle : repérer les nœuds de décision pour y placer des « graines »."
+  },
+  {
+   "auteur": "Charles Duhigg",
+   " titre": "The Power of Habit: Why We Do What We Do in Life and Business",
+   "annee": "2012",
+   "idee": "Les habitudes suivent une boucle signal–routine–récompense, modifiable par le travail sur le signal et la récompense plutôt que par la volonté brute.",
+   "apport": "Cadre de la « graine d'habitude » plantée à un point clé de la carte : chaque marqueur géographique personnel devient un signal."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+   "annee": "2018",
+   "idee": "Les identités et les systèmes (petites améliorations cumulatives, design d'environnement) battent les objectifs de résultat.",
+   "apport": "Techniques de friction/visibilité réappliquées aux « oasis » et « zones à risque » de la carte alimentaire ; l'insistance sur les systèmes justifie la révision saisonnière de la carte plutôt qu'un plan figé."
+  },
+  {
+   "auteur": "Wendy Wood",
+   "titre": "Good Habits, Bad Habits: The Science of Making Positive Changes That Stick",
+   "annee": "2019",
+   "idee": "Une grande part des comportements quotidiens est automatique et contextuelle ; changer de contexte est plus efficace que lutter contre la tentation.",
+   "apport": "Justification scientifique du travail cartographique sur les contextes (trajets, bureau, cuisine) plutôt que sur la « volonté »."
+  },
+  {
+   "auteur": "Katie Milkman",
+   "titre": "How to Change: The Science of Getting from Where You Are to Where You Want to Be",
+   "annee": "2021",
+   "idee": "Des stratégies fondées sur la recherche (environnement, engagement, réconfort joyeux) aident à démarrer et tenir des changements de comportement.",
+   "apport": "Idée d'itinéraires attractifs plutôt que d'interdits : rendre le trajet sain plus plaisant que le détour."
+  },
+  {
+   "auteur": "Michel De Certeau",
+   "titre": "L'invention du quotidien. 1. Arts de faire",
+   "annee": "1980",
+   "idee": "Les usagers détournent les espaces prescrits par des pratiques quotidiennes de marche, de détournement et de ruse.",
+   "apport": "Filtre littéraire et conceptuel : le mangeur n'est pas un sujet soumis à un plan nutritionnel, mais un « marcheur » qui trace ses propres itinéraires dans la ville et la cuisine."
+  },
+  {
+   "auteur": "Kevin Lynch",
+   "titre": "The Image of the City",
+   "annee": "1960",
+   "idee": "La lisibilité urbaine repose sur cinq éléments mentaux (chemins, limites, quartiers, nœuds, points de repère).",
+   "apport": "Grammaire cartographique transposée au territoire alimentaire personnel : les cuisines, distributeurs et rues sont décrits en nœuds, chemins et limites."
+  },
+  {
+   "auteur": "Gaston Bachelard",
+   "titre": "La poétique de l'espace",
+   "annee": "1957",
+   "idee": "L'espace habité est aussi un espace rêvé ; la maison et la chambre nourrissent l'imaginaire du foyer et du refuge.",
+   "apport": "Dimension sensible de la carte : l'oasis n'est pas seulement pratique, elle est un lieu de repos imaginé — utile pour motiver les révisions de carte."
+  },
+  {
+   "auteur": "Yves Chirac, Joël Thévenot (dir.)",
+   "titre": "Histoire et civilisation de l'alimentation",
+   "annee": "2012 (approx. — référence d'ouvrage collectif de synthèse, année à confirmer selon édition)",
+   "idee": "Les pratiques alimentaires sont des constructions historiques et culturelles, non des évidences naturelles.",
+   "apport": "Rappel que la « carte alimentaire » est culturelle et saisonnière, et non une vérité universelle diététique."
+  },
+  {
+   "auteur": "Claude Fischler",
+   "titre": "L'Homnivore. Le problème, le goût et la cuisine",
+   "annee": "1990",
+   "idee": "L'être humain est un « omnivore paradoxal » qui doit apprendre à manger par la culture, entre appétits et interdits.",
+   "apport": "Cadre théorique de la thèse : sans repères (carte), le paradoxe de l'omnivore se traduit par l'anxiété alimentaire et l'échec des régimes."
+  },
+  {
+   "auteur": "Marion Nestle",
+   "titre": "Food Politics: How the Food Industry Influences Nutrition and Health",
+   "annee": "2002",
+   "idee": "L'industrie alimentaire façonne les environnements de consommation, les messages et les portions.",
+   "apport": "Justification d'une cartographie qui inclut les extérieurs (supermarché, marketing, distributeurs) comme territoires à lire, non comme terrain neutre."
+  },
+  {
+   "auteur": "Michael Pollan",
+   "titre": "In Defense of Food: An Eater's Manifesto",
+   "annee": "2008",
+   "idee": "Une alimentation saine peut se résumer à des règles simples (manger réel, majoritairement végétal, pas trop) face à la complexité nutritionnelle.",
+   "apport": "Simplicité des itinéraires proposés : de courtes règles de navigation plutôt que des protocoles exhaustifs. Aucun conseil médical personnalisé."
+  },
+  {
+   "auteur": "Jean-Pierre Corbeau",
+   "titre": "Ces aliments qui ont fait l'histoire",
+   "annee": "2011 (approx. — titre et année à vérifier selon édition retenue)",
+   "idee": "Chaque aliment raconte une géographie, un commerce et des rituels.",
+   "apport": "Angle « carte et graine » : montrer que chaque bouchée porte une géographie, ce qui enrichit les exercices de relevé de provenance et de saison."
+  },
+  {
+   "auteur": "Frédéric Loredon / école des « arts de faire » contemporains — note : ouvrage de référence à confirmer ; à défaut, on s'appuie sur Michel De Certeau et sur la littérature de géographie quotidienne",
+   "titre": "Géographie du quotidien et pratiques ordinaires (corpus de synthèse)",
+   "annee": "années 1980–2020",
+   "idee": "La géographie s'intéresse aux parcours ordinaires, aux territorialités personnelles et aux micro-espaces du quotidien.",
+   "apport": "Fonde les protocoles d'observation de terrain (trajets, pauses, bureau) comme objets de enquête légitimes. Incertitude signalée sur un auteur unique de référence."
+  },
+  {
+   "auteur": "Stuart Hall (et école des cultural studies)",
+   "titre": "représentations, identités et pratiques culturelles (corpus de synthèse)",
+   "annee": "années 1970–2000",
+   "idee": "Les pratiques quotidiennes sont des textes culturels à déchiffrer ; l'identité se construit par les gestes répétés.",
+   "apport": "Sert de caution à l'exercice du journal de terrain comme « déchiffrement » de soi, sans psychologisation clinique."
+  },
+  {
+   "auteur": "Christine Bénédicte Heim, Marie-Pierre Hasse (références approximatives — noms et titres à confirmer)",
+   "titre": "Travaux francophones sur les représentations sociales de l'alimentation",
+   "annee": "années 2000–2015",
+   "idee": "Les représentations sociales encadrent ce qui est perçu comme sain, normal ou désirable dans un groupe.",
+   "apport": "Aide à cartographier les « frontières sociales » (repas partagés, interdits familiaux, normes de bureau) ; incertitude bibliographique assumée."
+  },
+  {
+   "auteur": "Norbert Elias",
+   "titre": "La civilisation des mœurs",
+   "annee": "1939",
+   "idee": "Les comportements alimentaires et corporels sont modelés par des processus de socialisation et de contrôle des pulsions.",
+   "apport": "Contextualise les « zones à risque » comme produits d'une histoire sociale, non comme faiblesses morales."
+  },
+  {
+   "auteur": "Bill Mollison",
+   "titre": "Introduction à la permaculture",
+   "annee": "1991 (éditions francophones varient — année à confirmer)",
+   "idee": "Observer les flux et les relations d'un lieu avant d'intervenir ; concevoir des systèmes qui produisent avec le vivant plutôt que contre lui.",
+   "apport": "Métaphore et méthode : « observe avant d'agir », zones d'activité, points d'implantation des cultures — transposées à la maison et au bureau."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Prendre la mesure du terrain",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Pourquoi la volonté n'est pas le problème",
+     "objectif": "Établir la thèse contre-intuitive : l'échec des tentatives alimentaires vient souvent d'une absence de représentation spatiale de son environnement, non d'un défaut de caractère.",
+     "sections": [
+      "Le mythe de la discipline pure et ses effets de honte",
+      "Ce que les sciences comportementales disent du contexte (aperçu, sans conseil médical)",
+      "Anatomie d'un « jour type » : de la première ouverture du placard au dernier en-cas du soir",
+      "Cartographie et graine : pourquoi un territoire bien décrit permet de semer juste",
+      "Limites de l'approche : ce que ce livre ne promet pas"
+     ],
+     "exercices": [
+      "Journal de 48 heures : noter lieu, heure, faim ressentie, émotion et aliment — sans se juger",
+      "Liste des trois derniers régimes ou résolutions et de l'endroit précis où ils ont « quitté la route »",
+      "Schéma naïf de sa journée en cases horaires, marquées C (cuisine), T (trajet), B (bureau), D (domicile autre)"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Les cinq éléments d'une carte alimentaire",
+     "objectif": "Donner au lecteur une grammaire cartographique simple (inspirée de Lynch et des pratiques de permaculture) appliquée au quotidien.",
+     "sections": [
+      "Chemins : les trajets et circulations entre lieux de l'alimentation",
+      "Nœuds : distributeurs, frigos de bureau, feux tricolores, entrées de supermarché",
+      "Quartiers : la cuisine, le bureau, l'épicerie du coin, la table familiale",
+      "Limites : frontières entre zones (escalier, porte de placard, seuil de restaurant)",
+      "Points de repère : le mug du matin, le placard à biscuits, le distributeur du 2ᵉ étage",
+      "Comment lire ces éléments en une seule journée d'observation"
+     ],
+     "exercices": [
+      "Dessiner une première carte en cinq éléments de sa cuisine et de son bureau",
+      "Lister trois nœuds et trois points de repère alimentaires visités chaque jour",
+      "Repérer une limite franchie automatiquement (ex. : « je passe devant la boulangerie sans décider »)"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Protocole d'observation : le terrain se révèle",
+     "objectif": "Installer une pratique d'observation systématique, non intrusive, avant toute action de changement.",
+     "sections": [
+      "Observer sans modifier : la règle des sept jours",
+      "Fiche d'observation : lieu, déclencheur, friction, récompense",
+      "Photographier son environnement (méthode du relevé photo)",
+      "Ce que l'on ne voit pas d'abord : volumes, hauteurs, distances, couleurs",
+      "Erreurs classiques d'observation (sur-noter, noter pour justifier, oublier les soirées)"
+     ],
+     "exercices": [
+      "Protocole des 7 jours de relevé (modèle de fiche fourni dans le chapitre)",
+      "Relevé photo de trois zones : intérieur de frigo, dessus de table de cuisine, sac à main ou bureau de travail",
+      "Carte des heures creuses : repérer deux créneaux réguliers de grignotage"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Cartographier ses environnements",
+   "chapitres": [
+    {
+     "numero": 4,
+     "titre": "La cuisine, cœur du territoire",
+     "objectif": "Cartographier l'espace le plus prescrit et le plus utilisé de l'alimentation, en révélant ses hiérarchies implicites.",
+     "sections": [
+      "Zones de la cuisine : préparation, stockage, décision, sortie",
+      "Hauteurs et visibilité : ce qui se voit, ce qui se voit peu, ce qui se voit jamais",
+      "Le frigo comme carte mentale du ménage",
+      "Entrées et sorties : ce qui entre (courses) et ce qui sort (repas, déchets)",
+      "Cas particuliers : cuisine partagée, kitchenette, absence de cuisine"
+     ],
+     "exercices": [
+      "Plan simple (vue de dessus) de la cuisine avec zones colorées",
+      "Audit visibilité : lister les 10 aliments les plus visibles et les 5 les plus cachés",
+      "Réorganisation-test d'un seul tiroir pendant 48 heures et relevé des effets"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Le bureau, le trajet et les micro-terrains",
+     "objectif": "Étendre la carte aux lieux de travail et de passage, souvent oubliés des approches nutritionnelles classiques.",
+     "sections": [
+      "Le bureau : open space, distributeur, machine à café, bureau privatif",
+      "Le trajet : stations de métro, stations-service, rues commerçantes",
+      "Les micro-terrains : ascenseur, couloir, salle de pause, parking",
+      "Repas debout et repas pris « en marchant » : ce que cela change sur la carte",
+      "Télétravail : la frontière domicile/travail se déplace, la carte aussi"
+     ],
+     "exercices": [
+      "Carte du trajet domicile-travail avec nœuds alimentaires marqués",
+      "Inventaire des accès faciles (distributeurs, snacks) à moins de 3 minutes de son poste",
+      "Protocole « pause sans aliment » ou « pause avec aliment choisi » pendant 5 jours"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Les territoires extérieurs : courses, restaurants, fêtes",
+     "objectif": "Inclure dans la carte les espaces de choix marchands et sociaux, en apprenant à les lire comme des territoires.",
+     "sections": [
+      "Supermarché : parcours induit, îles centrales, caisse, zones d'entrée",
+      "Épiceries de proximité et drive : raccourcis et frictions",
+      "Restaurants, cantines, fast-food : lecture des menus et des portions",
+      "Fêtes et repas partagés : cartographier les occasions sans promesse d'interdit",
+      "Achats en ligne et livraison : le territoire devient écran"
+     ],
+     "exercices": [
+      "Relevé d'un parcours type en supermarché avec annotation des « zones de captation »",
+      "Fiche-observation d'un repas au restaurant (structure du repas, rythme, satisfaction)",
+      "Carte des occasions sociales des 3 prochaines semaines avec note d'intention (observer / participer pleinement / manger avant)"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Représenter : outils, symboles et cartes personnelles",
+     "objectif": "Fournir une boîte à outils graphique et numérique (sans dépendance à un service en ligne) pour tenir une carte vivante.",
+     "sections": [
+      "Carnet de terrain vs application : avantages et inconvénients",
+      "Système de symboles minimal (croix, cercle, vagues, étoiles)",
+      "Cartes en couches : nourriture, émotions, social, temps",
+      "Fiche « un lieu = une page »",
+      "Quand et comment mettre à jour sans se lasser"
+     ],
+     "exercices": [
+      "Créer une légende personnelle de 8 symboles",
+      "Réaliser une carte en couches de sa semaine type",
+      "Définir un rituel de mise à jour hebdomadaire de 15 minutes"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Zones à risque, oasis et grains de terrain",
+   "chapitres": [
+    {
+     "numero": 8,
+     "titre": "Repérer les zones à risque",
+     "objectif": "Identifier et décrire objectivement les moments et lieux où le comportement alimentaire dérive le plus souvent.",
+     "sections": [
+      "Définir « zone à risque » sans morale : fréquence + perte de contrôle perçu + regret",
+      "Catégories : zones de stress, zones d'habitude, zones de disponibilité",
+      "Cartographier les déclencheurs (fatigue, solitude, célébration, ennui)",
+      "Friction : ce qui coûte peu d'effort dans une zone et ce qui en coûte beaucoup",
+      "Ne pas pathologiser : quand une zone à risque demande un accompagnement professionnel"
+     ],
+     "exercices": [
+      "Top 5 des zones à risque avec coordonnées (lieu + heure) et déclencheur probable",
+      "Auto-test « friction » : temps pour accéder à la tentation la plus fréquente",
+      "Rédiger une description factuelle (non culpabilisante) d'une zone à risque récente"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Les oasis : nourrir les lieux et moments de restauration",
+     "objectif": "Identifier et renforcer les zones de confort sain ou de simple respiration, alternatives aux zones à risque.",
+     "sections": [
+      "Oasis pratique : un lieu où manger ou boire devient simple et agréable",
+      "Oasis sociale : repas partagés qui soutiennent sans surveiller",
+      "Oasis temporelle : créneaux de pause qui réduisent l'urgence alimentaire",
+      "Créer une micro-oasis : la chaise, la tasse, la fenêtre, la playlist",
+      "Cartographier les oasis manquantes : les vides sur la carte"
+     ],
+     "exercices": [
+      "Carte des oasis existantes et d'une oasis à installer cette semaine",
+      "Protocole « pause-oasis » de 10 minutes, deux fois par jour, pendant 5 jours",
+      "Liste de trois personnes ou lieux qui fonctionnent comme oasis sociale"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Altitude, relief et saisons de l'appétit",
+     "objectif": "Introduire la dimension temporelle et saisonnière dans la carte : le relief du terrain change au fil de l'année et de la journée.",
+     "sections": [
+      "Le relief quotidien : pic de faim, creux, soirées",
+      "Le relief hebdomadaire : jours chargés, week-end, marché",
+      "Le relief saisonnier : hiver, printemps, chaleur, fêtes de fin d'année",
+      "Faim physiologique vs faim situationnelle : repères simples",
+      "Cartes saisonnières : un même lieu, plusieurs relevés"
+     ],
+     "exercices": [
+      "Courbe subjective de la faim sur deux jours types (matin/midi/soir)",
+      "Journal de terrain sur une semaine de forte charge professionnelle",
+      "Première carte saisonnière : noter trois différences notables entre deux saisons passées"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Graines d'habitudes : où implanter le nouveau",
+     "objectif": "Apprendre à choisir des points d'implantation précis pour de petites pratiques, comme on plante une graine à un point favorable du terrain.",
+     "sections": [
+      "Graine vs résolution : taille d'action et durée",
+      "Ancre existante : attacher la nouvelle action à un repère déjà présent",
+      "Le bon sol : lieu, matériel, personne, moment",
+      "Signaux visuels : rendre la graine visible sans culpabiliser",
+      "Rituels de démarrage et rituels d'abandon anticipé"
+     ],
+     "exercices": [
+      "Choisir trois « graines » de taille minimale (ex. : poser l'assiette avant de servir)",
+      "Associer chaque graine à un ancre existante précise (lieu + heure + geste)",
+      "Plan de repli : que faire si la graine échoue trois jours de suite"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Itinéraires, mises en friction et navigation",
+   "chapitres": [
+    {
+     "numero": 12,
+     "titre": "Tracer des itinéraires plutôt que d'édicter des interdits",
+     "objectif": "Basculer d'une logique de prohibition à une logique de parcours : choisir des chemins praticables dans son propre terrain.",
+     "sections": [
+      "Interdit et rebond : pourquoi les règles dures s'effondrent",
+      "Itinéraire = séquence de décisions spatialisées",
+      "Itinéraires de repli : la version B d'une soirée",
+      "Construire un itinéraire- semaine type navigable",
+      "Signaler ses itinéraires à son entourage (communication non moralisatrice)"
+     ],
+     "exercices": [
+      "Rédiger deux itinéraires pour la situation à risque n°1 de sa carte",
+      "Carte du trajet « après travail » avec trois options réelles de retour",
+      "Test d'un itinéraire alternatif pendant 3 jours"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Frictions et facilités : le relief qu'on crée",
+     "objectif": "Aménager délibérément les distances, les seuils et les accès pour rendre la navigation plus aisée.",
+     "sections": [
+      "Friction positive : rendre le choix soutenu légèrement plus lent",
+      "Friction négative : enlever un obstacle simple au comportement visé",
+      "Distances, hauteurs, portes : la physique du quotidien",
+      "Signalétique domestique : notes, images, couleurs",
+      "Éthique du nudge personnel : ne pas se manipuler jusqu'à la détestation de soi"
+     ],
+     "exercices": [
+      "Liste de cinq frictions faciles à installer dans les 48 heures",
+      "Carte avant/après d'un placard ou d'un bureau réaménagé",
+      "Retirer trois frictions inutiles qui bloquent des comportements déjà voulus"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Marcher la carte : expéditions courtes et repérages",
+     "objectif": "Transformer l'observation en exploration active, façon « marcheur » quotidien.",
+     "sections": [
+      "Repérage à pied : découvrir une rue ou un hall sous l'angle alimentaire",
+      "Interviews express de terrain : demander (sans prosélytisme) à un collègue ou voisin",
+      "Expédition « une heure sans achat impulsif » en zone commerciale",
+      "Rapport de marche : noter ce qui a surpris",
+      "Limiter la collecte : assez de données pour agir"
+     ],
+     "exercices": [
+      "Expédition de 45 minutes avec fiche de marche (modèle fourni)",
+      "Trois questions ouvertes préparées pour un proche (repas familial, collègue de bureau)",
+      "Journal de terrain synthétique de l'expédition en 10 lignes"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Graines avancées : cuisiner, préparer, stocker comme aménagement",
+     "objectif": "Voir la préparation alimentaire non comme une corvée de performance, mais comme l'implantation d'infrastructures sur la carte.",
+     "sections": [
+      "Préparer sans perfection : les quantités minimales utiles",
+      "Stockage intelligent : où placer ce qui soutient les itinéraires",
+      "Batch minimal : deux heures par semaine, ou moins",
+      "Cuisine comme terrain d'essai : une recette = une graine",
+      "Gaspillage et cartographie : ce qui reste et ce qui part"
+     ],
+     "exercices": [
+      "Plan de préparation minimale pour trois jours de la semaine",
+      "Carte du stockage : réorganiser un seul compartiment pour soutenir une graine",
+      "Protocole « une recette-test par semaine » pendant un mois"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Réviser la carte : saisons, identité et transmission",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "La carte n'est pas le territoire : révision et humilité",
+     "objectif": "Ancrer la relativité des représentations et la nécessité de corriger sa carte au contact du réel.",
+     "sections": [
+      "Cartes mentales faussées : biais de mémoire, de désirabilité",
+      "Le territoire bouge : déménagement, nouveau poste, nouveau foyer",
+      "Rituels de révision : hebdomadaire, mensuel, trimestriel",
+      "Ce qu'on perd en modifiant sa carte (attachement) et ce qu'on gagne",
+      "Quand la carte devient obsolète : signaux d'alerte"
+     ],
+     "exercices": [
+      "Comparer deux relevés de la même zone et noter les écarts",
+      "Cérémonie de mise à jour : jeter, archiver, dessiner une nouvelle page",
+      "Liste des trois hypothèses de sa carte actuelle les plus fragiles"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Réviser par saison : quatre relevés, une année",
+     "objectif": "Construire un calendrier de révision saisonnière qui intègre météo, fêtes, rythmes de travail et produits du moment.",
+     "sections": [
+      "Hiver : chaleur, fêtes, repli sur les plats reconfortants",
+      "Printemps : renouveau des envies, marchés, rythmes extérieurs",
+      "Été : chaleur, horaires décalés, repas en extérieur",
+      "Automne : reprise des rythmes, cantines, charges de travail",
+      "Produits de saison comme alliés de l'itinéraire (sans dogme local absolu)"
+     ],
+     "exercices": [
+      "Plan annuel de quatre relevés de 7 jours, un par saison",
+      "Carte saisonnière type : trois zones à actualiser à chaque changement de saison",
+      "Choix d'un produit de saison par saison et d'un point d'implantement dans la cuisine"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Le corps comme carte vivante : faim, sommeil, stress",
+     "objectif": "Relier la géographie externe aux signaux internes, sans basculer dans le conseil médical personnalisé.",
+     "sections": [
+      "Échelle simple de la faim et de la satiété (outil d'observation, non protocole clinique)",
+      "Sommeil et trajets : comment une nuit courte redessine la carte du lendemain",
+      "Stress et nœuds : les raccourcis alimentaires sous tension",
+      "Mouvement et déplacements : la marche comme façon de traverser la carte",
+      "Limites claires : consulter un professionnel de santé pour tout symptôme, trouble ou besoin clinique"
+     ],
+     "exercices": [
+      "Journal croisé signaux / lieux pendant 5 jours",
+      "Carte d'un jour de sommeil court vs un jour de sommeil correct (alimentairement parlant)",
+      "Protocole de respiration ou de pause avant un nœud à risque (3 essais)"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Cartographier à plusieurs : famille, colocs, bureau",
+     "objectif": "Étendre la méthode aux environnements partagés, en évant les rapports de surveillance.",
+     "sections": [
+      "La carte n'est jamais strictement personnelle quand on partage un frigo",
+      "Négocier des zones communes sans imposer des régimes",
+      "Enfants et adolescents : expliquer la carte comme un jeu d'observation",
+      "Bureau : aménagements collectifs discrets et volontaires",
+      "Conflits de territoire alimentaire : repérer, nommer, désamorcer"
+     ],
+     "exercices": [
+      "Entretien-cartographique de 20 minutes avec un proche (guide de questions)",
+      "Proposition d'un aménagement d'espace partagé testable une semaine",
+      "Rédaction d'une « charte de bord » de 5 lignes pour un espace commun"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Identité, récits et fierté discrète du terrain",
+     "objectif": "Ancrer la pratique dans une esthétique de soi modeste : devenir quelqu'un qui lit son terrain, non quelqu'un qui « tient » un régime.",
+     "sections": [
+      "Passer de « je tiens » à « je navigue »",
+      "Récits de réussite et d'échec : les réécrire en termes de carte",
+      "Petites fiertés : célébrer un relevé réussi, pas seulement un chiffre",
+      "Éviter la moralisation de soi : humour, distance, bienveillance factuelle",
+      "Archives de terrain : garder traces et versions successives"
+     ],
+     "exercices": [
+      "Raconter un « échec » alimentaire comme un incident de parcours (texte de 15 lignes)",
+      "Liste de cinq signes que la navigation s'améliore, indépendants du poids",
+      "Créer une première page d'archive datée de sa carte"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Ateliers, modèles et mise en route",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Atelier carte : la première version en une journée",
+     "objectif": "Guider pas à pas la production d'une première carte complète et utilisable en une seule journée intensive.",
+     "sections": [
+      "Matériel et cadre (1 à 2 heures de préparation + observation intégrée)",
+      "Séquence matin : cuisine, frigo, sac",
+      "Séquence midi : bureau ou déjeuner hors domicile",
+      "Séquence soir : trajet retour, salon, chambre",
+      "Assemblage : légende, couleurs, zones à risque, oasis, graines"
+     ],
+     "exercices": [
+      "Checklist d'atelier complète (modèle imprimable décrit dans le livre)",
+      "Production de la Carte n°1 annotée",
+      "Choix des trois premières graines de la carte"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Bibliothèque de modèles : fiches prêtes à photocopier",
+     "objectif": "Fournir une collection de fiches et tableaux simples pour ne pas repartir de zéro à chaque exercice.",
+     "sections": [
+      "Fiche d'observation 7 jours",
+      "Fiche d'une zone (nœud, limites, risques, oasis)",
+      "Fiche graine (ancre, sol, signal, repli)",
+      "Fiche itinéraire (scénario, chemin, alternatives)",
+      "Fiche révision saisonnière",
+      "Grille d'entretien avec un proche",
+      "Bilan mensuel en une page"
+     ],
+     "exercices": [
+      "Composer son classeur de terrain à partir de trois modèles au choix",
+      "Adapter une fiche à sa situation (étudiant, parent, télétravail, déplacements fréquents)",
+      "Test d'une fiche pendant 7 jours et retouche du modèle"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Dérives de terrain : quand la carte devient anxiogène",
+     "objectif": "Prévenir les excès de la méthode (surveillance, obsession, culpabilité) et indiquer les bonnes portes de sortie.",
+     "sections": [
+      "Signes que l'on surveille trop : comptage, photos répétitives, evitement social",
+      "Simplifier : revenir à une carte à trois marques si la complexité monte",
+      "Troubles du comportement alimentaire : reconnaître les signaux d'alerte et orienter vers des professionnels (pas de diagnostic ici)",
+      "Autoriser les zones grises : le terrain n'a pas besoin d'être intégralement optimisé",
+      "Pause cartographique : autoriser un mois sans relevé"
+     ],
+     "exercices": [
+      "Auto-évaluation sur une grille simple de signes de sur-investissement",
+      "Plan « carte allégée » pour un mois",
+      "Liste de ressources d'orientation générales (médecin traitant, psychologue, associations) sans prescription personnalisée"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Votre légende, votre itinéraire, votre graine",
+     "objectif": "Conclure par une synthèse active : le lecteur repart avec une carte versionnée, un carnet et une intention de navigation à un an.",
+     "sections": [
+      "Récapitulatif des six parties comme étapes de voyage",
+      "De la carte n°1 à la carte n°4 : ce que l'année peut apporter",
+      "Écrire sa légende personnelle définitive (pour l'instant)",
+      "Choisir son itinéraire emblématique du trimestre",
+      "Planter sa graine d'anniversaire de la carte",
+      "Cérémonie de clôture : archiver, partager, continuer"
+     ],
+     "exercices": [
+      "Rédiger sa légende personnelle en une page",
+      "Calendrier de révision des quatre saisons pour l'année à venir",
+      "Lettre à soi-même dans 12 mois, glissée dans le classeur de terrain",
+      "Carte n°1 bis : refaire un relevé express et comparer à la première version"
+     ]
+    }
+   ]
+  }
+ ]
+}

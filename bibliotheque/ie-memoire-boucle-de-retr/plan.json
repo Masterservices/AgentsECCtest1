@@ -1,0 +1,645 @@
+{
+ "titre": "Oublier à bon escient",
+ "sous_titre": "La mémoire antifragile : provoquer des oublis mesurés et des rappels ratés pour que chaque boucle de feedback rende votre mémoire plus robuste — 24 protocoles, exercices et journaux de feedback",
+ "bibliographie": [
+  {
+   "auteur": "Hermann Ebbinghaus",
+   "titre": "Über das Gedächtnis (Memory: A Contribution to Experimental Psychology)",
+   "annee": "1885",
+   "idee": "Première quantification expérimentale de la perte de traces non répétées : la chute est rapide puis se stabilise. L'espacement des répétitions ralentit la courbe de l'oubli.",
+   "apport": "Cadre chiffré de la courbe de l'oubli et du rappel espacé : notre livre ralentit l'oubli par l'épreuve espacée, pas par la relecture dense."
+  },
+  {
+   "auteur": "William James",
+   "titre": "The Principles of Psychology",
+   "annee": "1890",
+   "idee": "La mémoire n'est pas un réservoir mais un fil de continuité nourri par l'attention et l'interaction avec le présent. L'oubli est discuté comme phénomène actif, pas comme simple panne.",
+   "apport": "Ancrage philosophique du livre : retenir se décide dans l'attention et l'action, pas dans l'accumulation passive."
+  },
+  {
+   "auteur": "Frederic C. Bartlett",
+   "titre": "Remembering",
+   "annee": "1932",
+   "idee": "Se souvenir, c'est reconstruire à partir de schémas culturels et personnels, jamais rejouer un enregistrement. Les distorsions suivent des règles prévisibles.",
+   "apport": "Justifie de corriger les ratés par la reconstruction active plutôt que par le réappariement mot à mot."
+  },
+  {
+   "auteur": "Norbert Wiener",
+   "titre": "Cybernetics: or Control and Communication in the Animal and the Machine",
+   "annee": "1948",
+   "idee": "Tout système piloté repose sur la rétroaction : l'écart entre état visé et état réel commande la correction. Sans mesure de l'écart, pas de régulation.",
+   "apport": "Colonne vertébrale conceptuelle : la boucle de rappel (tenter, mesurer, corriger, retenter) est un circuit de régulation."
+  },
+  {
+   "auteur": "Karl R. Popper",
+   "titre": "Conjectures and Refutations: The Growth of Scientific Knowledge",
+   "annee": "1963",
+   "idee": "Connaître progresse par tentatives réfutables, pas par accumulation de confirmations. Une erreur bien lue fait avancer le savoir.",
+   "apport": "Cadre épistémique : transformer chaque erreur de récupération en contre-hypothèse utilisable."
+  },
+  {
+   "auteur": "Frances A. Yates",
+   "titre": "The Art of Memory",
+   "annee": "1966",
+   "idee": "Les arts de la mémoire antiques et renaissants sont des architectures de sélection et d'organisation, pas des feats de rétention totale. On n'y range que l'essentiel.",
+   "apport": "Appui historique à la sélection : notre livre assume qu'une mémoire forte est une mémoire filtrée."
+  },
+  {
+   "auteur": "Endel Tulving",
+   "titre": "Elements of Episodic Memory",
+   "annee": "1983",
+   "idee": "Distinction entre disponibilité (trace présente) et récupérabilité (trace activable par les bons indices) ; la spécificité de l'encodage conditionne le rappel.",
+   "apport": "Fonde l'idée centrale : beaucoup de « pertes » sont des échecs de récupération, donc réparables par d'autres indices et d'autres tentatives."
+  },
+  {
+   "auteur": "Donald Meichenbaum",
+   "titre": "Stress Inoculation Training",
+   "annee": "1985",
+   "idee": "On prépare une personne à des situations stressantes par une exposition progressive et des entraînements à des degrés croissants de difficulté.",
+   "apport": "Modèle de la rampe d'exposition de notre chapitre 16 (année de première édition à confirmer, éditions ultérieures existantes)."
+  },
+  {
+   "auteur": "James Reason",
+   "titre": "Human Error",
+   "annee": "1990",
+   "idee": "Taxonomie des erreurs humaines : glissements, lapsus, violations, facteurs actifs et latents. L'erreur reflète des conditions de tâche autant que des personnes.",
+   "apport": "Grille des cinq causes d'échec de rappel et de l'auto-diagnostic sans culpabilisation."
+  },
+  {
+   "auteur": "Gary Klein",
+   "titre": "Sources of Power: How People Make Decisions",
+   "annee": "1998",
+   "idee": "Les experts décident par reconnaissance-priming tirée de l'expérience concrète, pas par calcul. L'erreur nourrit la base de patrons décisionnels.",
+   "apport": "Montre que le retour d'expérience riche vaut mieux qu'un score agrégé pour progresser."
+  },
+  {
+   "auteur": "Daniel L. Schacter",
+   "titre": "The Seven Sins of Memory: How the Mind Forgets and Remembers",
+   "annee": "2001",
+   "idee": "Les défauts de mémoire (absentéisme, blocage, attribut erroné…) sont les revers de processus normalement adaptatifs. Une partie de l'oubli sert la santé mentale.",
+   "apport": "Socle scientifique du retournement d'hypothèse : l'ennemi n'est pas l'oubli en soi, mais l'oubli mal lu ou mal dosé."
+  },
+  {
+   "auteur": "Sidney Dekker",
+   "titre": "The Field Guide to Understanding Human Error",
+   "annee": "2006",
+   "idee": "Distinguer la culture de la culpabilité et la culture du système : un « erreur » dit quelque chose des conditions, pas seulement du prestataire.",
+   "apport": "Posture du journal de feedback : décrire le raté comme donnée technique, jamais comme verdict sur soi (première édition 2006, éditions ultérieures)."
+  },
+  {
+   "auteur": "Carol S. Dweck",
+   "titre": "Mindset: The New Psychology of Success",
+   "annee": "2006",
+   "idee": "Une vision fixe des capacités transforme l'échec en menace ; une vision de développement le transforme en information d'apprentissage.",
+   "apport": "Clé motivationnelle : faire tenir l'entraînement à l'oubli sans menace pour l'estime de soi."
+  },
+  {
+   "auteur": "Donella H. Meadows",
+   "titre": "Thinking in Systems: A Primer",
+   "annee": "2008",
+   "idee": "Comprendre systèmes par stocks, flux, boucles de rétroaction et retards ; identifier les points de levier et se méfier des effets pervers.",
+   "apport": "Feuille de route du chapitre 20 : cartographier son système d'apprentissage et ses délais avant d'intervenir."
+  },
+  {
+   "auteur": "Daniel T. Willingham",
+   "titre": "Why Don't Students Like School?",
+   "annee": "2009",
+   "idee": "La pensée est coûteuse ; la mémoire est le résidu de ce qu'on a effectivement pensé faire. La variété et l'effort de résolution priment sur la présentation de contenu.",
+   "apport": "Justification pédagogique du rappel problématif et de l'abandon de la relecture confortable."
+  },
+  {
+   "auteur": "Robert A. Bjork et Elizabeth L. Bjork",
+   "titre": "Making Things Hard on Yourself, But in a Good Way (chapitre, Psychology and the Real World)",
+   "annee": "2011",
+   "idee": "Les difficultés désirables (espacement, intercalage, génération) ralentissent la performance immédiate mais améliorent le rappel différé et le transfert.",
+   "apport": "Principe directeur du dosage : rendre l'épreuve plus exigeante, mesurer à distance, jamais à la minute."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Deux systèmes, de nombreuses illusions (connaissance avec recul, WYSIATI, biais de confirmation) qui gonflent la confiance subjective d'apprentissage.",
+   "apport": "Outils de calibrage : confronter ses prédictions de rappel à des résultats réels, semaine après semaine."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile: Things That Gain from Disorder",
+   "annee": "2012",
+   "idee": "Au-delà du robuste, certains systèmes gagnent d'un certain désordre, à condition d'une exposition bornée et répétée ; fragiliser par excès de soins.",
+   "apport": "Deuxième pilier de la thèse : dosez les stress mnésiques pour faire passer la mémoire du côté antifragile."
+  },
+  {
+   "auteur": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
+   "titre": "Make It Stick: The Science of Successful Learning",
+   "annee": "2014",
+   "idee": "Synthèse de recherche : rappel actif, espacement, intercalage, variation et feedback précis battent la relecture et le surlignage.",
+   "apport": "Répertoire des protocoles pratiques du chapitre 10 et des critères du feedback utile du chapitre 12."
+  },
+  {
+   "auteur": "Benedict Carey",
+   "titre": "How We Learn: The Surprising Truth About When, Where, and Why It Works",
+   "annee": "2014",
+   "idee": "Fait le point sur espacement, rafraîchissement, intercalage, diversification des contextes, sommeil et incubation.",
+   "apport": "Base des chapitres 13 à 19 : pauses, vides et changements de contexte comme composantes du protocole."
+  },
+  {
+   "auteur": "Matthew Syed",
+   "titre": "Black Box Thinking",
+   "annee": "2015",
+   "idee": "Les systèmes qui progressent captent et analysent systématiquement leurs ratés ; les autres les occultent et répètent les mêmes défaillances.",
+   "apport": "Injonction à consigner chaque échec de rappel dans un journal exploitable plutôt que de le faire disparaître (édition UK 2015, édition US 2016)."
+  },
+  {
+   "auteur": "Anders Ericsson et Robert Pool",
+   "titre": "Peak: Secrets from the New Science of Expertise",
+   "annee": "2016",
+   "idee": "La maîtrise vient d'une pratique délibérée hors de la zone de confort, avec des objectifs précis et un feedback fiable.",
+   "apport": "Cadre de la montée en difficulté progressive (chapitres 15 et 16) et de la révision exigeante."
+  },
+  {
+   "auteur": "Andy Clark",
+   "titre": "Surfing Uncertainty: Prediction, Action, and the Embodied Mind",
+   "annee": "2016",
+   "idee": "L'esprit est une machine de prédiction : l'erreur de prédiction est le carburant de la mise à jour des modèles du monde.",
+   "apport": "Justification théorique de faire des écarts de rappel le signal d'ajustement prioritaire."
+  },
+  {
+   "auteur": "Stanislas Dehaene",
+   "titre": "How We Learn: The New Science of Education and the Brain (édition française existante, titre français exact à vérifier)",
+   "annee": "2020",
+   "idee": "Point de synthèse sur l'apprentissage cérébral : attention, engagement actif, retour d'erreur, consolidation et répétition espacée.",
+   "apport": "Ancrage vulgarisé des mécanismes du chapitre 5 (titre français exact à vérifier, pas d'accès web pour confirmation)."
+  },
+  {
+   "auteur": "Amy C. Edmondson",
+   "titre": "Right Kind of Wrong: Why Learning to Fail Can Teach Us to Thrive",
+   "annee": "2023",
+   "idee": "Différencier les erreurs de base (à éviter) des erreurs de complexité (inévitables et formatrices), dans un climat qui autorise l'aveu.",
+   "apport": "Clarté éthique et pratique : autoriser le raté dans les boucles d'entraînement sans banaliser la négligence."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Renverser l'hypothèse : l'oubli n'est pas l'ennemi",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le procès de l'oubli : changer d'ennemi",
+     "objectif": "Démonter la croyance « tout oubli est une perte », trier les peurs culturelles des usages réels de l'oubli, annoncer la thèse inversée et les règles du jeu du livre ; cible de longueur : 3 500 mots.",
+     "sections": [
+      "L'idée reçue : ne jamais oublier, c'est bien apprendre",
+      "D'où vient le procès scolaire de l'oubli",
+      "Trois visages de l'oubli : fugace, nuisible, nécessaire",
+      "Confondre perte de trace et échec de récupération",
+      "L'offensive du zéro-oubli : captures, transcriptions, notifications",
+      "Ce que ce livre promet — et ce qu'il ne promet pas"
+     ],
+     "exercices": [
+      "Entretien de 10 minutes : cinq peurs de l'oubli, sans jugement",
+      "Double colonne : ce que je croyais perdu / ce qui est revenu tout seul",
+      "Carte des 24 chapitres : choisir mes trois priorités de la semaine 1"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Ce que l'oubli fait déjà pour nous",
+     "objectif": "Présenter les fonctions adaptatives de l'oubli (filtrage, compression, gestion de l'interférence) et les incertitudes associées, pour fonder l'idée d'un oubli à doser plutôt qu'à supprimer ; cible : 3 500 mots.",
+     "sections": [
+      "Filtrer pour reconstruire : l'oubli comme tri",
+      "Interférence proactive et rétroactive : deux visages du même encombrement",
+      "Sommeil et consolidation : ce qui est établi, ce qui reste discuté",
+      "L'art de mémoire comme tradition de la sélection",
+      "Le coût caché du tout retenir",
+      "Formuler notre hypothèse inversée"
+     ],
+     "exercices": [
+      "Exercice d'oubli contrôlé n°1 : dix jours sans réviser un dossier obsolète",
+      "Tri des notes : à conserver en rotation, à laisser s'estomper",
+      "Journal de traces : qu'est-ce qui revient tout seul après 72 heures ?"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Boucles de rétroaction et antifragilité : le moteur caché",
+     "objectif": "Installer les deux concepts jumeaux du livre — la boucle de rétroaction et l'antifragilité — et les transposer au rappel : l'épreuve devient information, la correction devient entraînement ; cible : 3 500 mots.",
+     "sections": [
+      "Anatomie d'une boucle : capter, comparer, corriger",
+      "Rétroaction négative et rétroaction positive : ne pas confondre",
+      "Fragile, robuste, antifragile : l'appliquer au rappel",
+      "L'épreuve comme information, pas comme verdict",
+      "Doses et délais : le feedback arrive toujours avec un décalage",
+      "Limites de l'analogie : ce que l'antifragilité n'explique pas"
+     ],
+     "exercices": [
+      "Dessiner ma boucle de rappel actuelle en six cases",
+      "Grille de fragilité : trois de mes matières sur l'axe fragile → antifragile",
+      "Repérage des délais : combien de temps avant que je voie l'effet ?"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "L'erreur de récupération comme signal utile",
+     "objectif": "Transformer chaque raté en donnée exploitable : cinq causes possibles, procès-verbal d'erreur, distinction signal/bruit, création de la première version du journal de feedback ; cible : 3 500 mots.",
+     "sections": [
+      "Ce que dit un raté : encodage, indices, interférence, charge, rythme",
+      "Procès-verbal d'erreur : du ressenti à la donnée",
+      "Signal ou bruit : lire un écart isolé",
+      "Le raté renseigne sur le système, pas sur la personne",
+      "Première version du journal de feedback",
+      "Ce qu'on ne peut pas conclure d'un seul échec"
+     ],
+     "exercices": [
+      "Fiche PV d'erreur sur trois souvenirs ratés cette semaine",
+      "Codage couleur des cinq causes (dix usages minimum)",
+      "Rédiger les trois premières entrées du journal de feedback"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Comprendre le rappel pour mieux le provoquer",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Stocker, récupérer, confondre",
+     "objectif": "Donner la mécanique minimale nécessaire : encodage, indices, spécificité du contexte, effet de test, différence entre familiarité et rappel, avec signalement des incertitudes ; cible : 3 500 mots.",
+     "sections": [
+      "Deux portes : l'encodage et la récupération",
+      "Disponibilité et récupérabilité : la spécificité de l'encodage",
+      "La relecture crée de la familiarité, pas du rappel",
+      "L'effet de test : rappeler modifie la mémoire",
+      "Indices : construire des ponts qui résistent",
+      "Incertitudes : des effets de laboratoire aux gains individuels"
+     ],
+     "exercices": [
+      "Sprint de rappel à froid : cinq minutes sans support",
+      "Journal des indices : dans quels contextes est-ce que je réussis ?",
+      "Comparatif sur sept jours : relecture face à rappel actif"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Difficultés désirables : apprendre en résistant",
+     "objectif": "Maîtriser les quatre difficultés désirables (espacement, intercalage, génération, variation) et leur dosage, en évaluant l'effet à distance ; cible : 3 500 mots.",
+     "sections": [
+      "Rendre l'apprentissage plus difficile... dans la bonne direction",
+      "L'espacement : étirer le temps entre les rappels",
+      "L'intercalage : mêler les genres de problèmes",
+      "La génération : produire avant de consulter",
+      "Doser : quand la difficulté devient stérile",
+      "Évaluer l'effet : le test différé fait foi"
+     ],
+     "exercices": [
+      "Transformer une séance confortable en séance exigeante (4 leviers)",
+      "Plan d'espacement sur quatre semaines pour une notion clé",
+      "Séance intercalée de trois sujets (45 minutes)"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "L'illusion de la maîtrise",
+     "objectif": "Repérer l'écart entre sentiment de savoir et capacité de rappel, entraîner la métacognition par la calibration des prédictions ; cible : 3 500 mots.",
+     "sections": [
+      "« Je sais » n'est pas « je peux le dire »",
+      "Fluence de lecture et confort de la page annotée",
+      "Prédire, puis vérifier : l'entraînement à la calibration",
+      "Illusions cognitives à connaître (pensée rapide, biais de confirmation)",
+      "La métacognition s'entraîne comme une compétence",
+      "Signaux d'alerte d'une confiance creuse"
+     ],
+     "exercices": [
+      "Carnet de calibration : dix prédictions de rappel notées à J+3",
+      "Test surprise : reformuler à voix haute dix notions",
+      "Score d'écart confiance / réalité pendant quatorze jours"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Interférence : la matière première de l'oubli",
+     "objectif": "Comprendre comment les traces se nuisent entre elles et comment exploiter volontairement interférence et distinctivité comme outils d'entraînement ; cible : 3 500 mots.",
+     "sections": [
+      "Les traces se gênent — et c'est utilisable",
+      "Interférence proactive : le passé gêne le présent",
+      "Interférence rétroactive : le présent gêne le passé",
+      "Distinctivité : rendre chaque trace unique (contexte, contraste)",
+      "La grammaire de l'oubli : ce qu'on sait, ce qu'on ignore encore",
+      "Vers une interférence volontaire"
+     ],
+     "exercices": [
+      "Repérer trois interférences dans mes ratés récents",
+      "Jeu des paires confondues : différencier cinq notions voisines",
+      "Ajouter des marques distinctives à dix fiches de révision"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Boucles de rappel actif qui se corrigent",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "La boucle de rappel en cinq temps",
+     "objectif": "Concevoir la boucle autocorrectrice — préparer, tenter, mesurer, corriger, retenter — et l'embarquer dans une séance de 20 minutes ; cible : 3 500 mots.",
+     "sections": [
+      "Les cinq temps de la boucle",
+      "Pourquoi tenter avant de lire la correction",
+      "Combien de temps durer l'impasse : ni sprint ni dérive",
+      "La correction comme contre-essai : vérifier, pas admirer",
+      "La retentée : le vrai moment de l'apprentissage",
+      "Emballer le tout dans une séance de vingt minutes"
+     ],
+     "exercices": [
+      "Script minuté d'une boucle de 20 minutes (à remplir)",
+      "Feuille de réalisation : cinq lignes après chaque boucle",
+      "Expérience A/B : correction immédiate face à correction différée de 10 minutes"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Protocoles de rappel actif",
+     "objectif": "Constituer une boîte à outils de protocoles concrets (page blanche, reconstruction en trois niveaux, cartes jugées, leçon orale, rappels courts) et les adapter aux contextes ; cible : 3 500 mots.",
+     "sections": [
+      "À blanc : la page vide comme outil",
+      "Reconstruction en trois niveaux : idées, détails, liens",
+      "Cartes jugées : de l'autocorrection au choix des critères",
+      "Leçon de cinq minutes à voix haute",
+      "Protocoles pour contextes courts : transport, files, pauses",
+      "Choisir le protocol selon l'état de la matière"
+     ],
+     "exercices": [
+      "Tests croisés : quatre protocoles sur une même unité, relevé à J+7",
+      "Bibliothèque personnelle de quatre protocoles prêts à l'emploi",
+      "Page blanche hebdomadaire : trente minutes sans notes"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Le journal de feedback",
+     "objectif": "Bâtir et tenir le journal qui convertit les ratés en courbes : architecture d'entrée, rituel quotidien, revue hebdomadaire et mensuelle ; cible : 3 500 mots.",
+     "sections": [
+      "Pourquoi un journal, et pas une simple liste à faire",
+      "Architecture d'une entrée : tentative, score, cause, signal, action",
+      "Le rituel quotidien de dix minutes",
+      "Revue hebdomadaire de trente minutes : lire sa courbe",
+      "Revue mensuelle : changer les règles du jeu",
+      "Formats papier ou numérique et pièges de la surcharge"
+     ],
+     "exercices": [
+      "Modèle d'entrée : un exemple fictif entièrement annoté",
+      "Protocole de revue hebdomadaire (checklist de sept points)",
+      "Engagement de trente jours de journal avec cases à cocher"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Corriger sans décourager : la feedback utile",
+     "objectif": "Apprendre à se donner (ou à donner en binôme) un feedback qui déclenche une action : critères, timing, questions avant réponses, climat de sécurité ; cible : 3 500 mots.",
+     "sections": [
+      "Un feedback est utile s'il déclenche une action",
+      "Soi, un pair, un tuteur : trois registres de voix",
+      "Questions avant réponses : donner une chance à la réparation",
+      "Remplacer la note par le diagnostic",
+      "Le climat : oser se tromper devant quelqu'un (Edmondson)",
+      "Pièges : compliment creux, critique globale, comparaison sociale"
+     ],
+     "exercices": [
+      "Réécrire deux feedbacks anciens en version actionnable",
+      "Grille d'auto-évaluation en six critères",
+      "Séance en binôme : vingt minutes, question avant réponse"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Doser l'oubli contrôlé et l'exposition au stress",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Oubli partiel : la latence volontaire",
+     "objectif": "Doser les vides : retarder une révision pour relever le défi, purger l'obsolète, tester des durées de latence adaptées à la solidité de la trace ; cible : 3 500 mots.",
+     "sections": [
+      "Le vide entre deux rappels : pourquoi il agit",
+      "Repousser la révision : l'oubli comme défi",
+      "Effacer l'obsolète : la purge documentaire",
+      "Suppression volontaire : données disponibles, prudentes",
+      "Dosage : durée du vide selon l'état de la trace",
+      "Garde-fous : ne jamais vider l'essentiel"
+     ],
+     "exercices": [
+      "Boîte à oubli : trois items non vus pendant quatorze jours, test surprise",
+      "Calendrier des vides : six items retirés de la rotation",
+      "Purge de trente minutes : notes hors rotation ou supprimées"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Mélanger et confondre : interférence stratégique",
+     "objectif": "Utiliser l'intercalage et les contrastes pour rendre le rappel plus exigeant et la discrimination plus fine, sans écraser la charge de travail ; cible : 3 500 mots.",
+     "sections": [
+      "Pourquoi mélanger rend le rappel plus exigeant",
+      "Des protocoles d'intercalage concrets",
+      "Similaires-différents : les contrastes qui servent",
+      "Combien mélanger sans saturer",
+      "Symptômes de surcharge et règle de recul",
+      "Consigner le mélange dans le journal"
+     ],
+     "exercices": [
+      "Séance intercalée de trois chapitres intriqués",
+      "Exercice « les différences » : cinq paires de notions voisines",
+      "Plan hebdomadaire à mélanger (modèle à copier)"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "La dose de difficulté utile",
+     "objectif": "Trouver la zone d'effort productif : impasse productive, rappel sous contrainte légère, échec court toléré, récupération — sans promesse ni conseil médical ; cible : 3 500 mots.",
+     "sections": [
+      "Trop facile ou trop dur : chercher la zone d'effort",
+      "L'impasse productive : attendre avant de céder",
+      "Rappel sous contrainte légère : chronomètre, sans support",
+      "Tolérer l'échec court et le faire durer juste assez",
+      "Repos et récupération : la moitié invisible de la dose",
+      "Limite stricte : ni protocole universel ni conseil de santé"
+     ],
+     "exercices": [
+      "Test gradué sous chronomètre (cinq niveaux croissants)",
+      "Échec volontaire puis reconstruction contrôlée à J+2",
+      "Journal de charge : notation de 1 à 5 sur chaque séance"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Rampe d'exposition : le stress croissant",
+     "objectif": "Construire une rampe personnelle d'exposition mnésique (délai, contexte, interférence, enjeu simulé) avec règles de montée, plateau et recul ; cible : 3 500 mots.",
+     "sections": [
+      "Les quatre variables de stress : délai, contexte, interférence, enjeu simulé",
+      "Principes d'entraînement progressif (analogie de l'inoculation du stress)",
+      "Règles de montée : douze semaines, une variable à la fois",
+      "Plateaux, paliers et règle de recul",
+      "Signaux d'arrêt : quand ne pas forcer, à qui demander",
+      "Ma rampe : modèle de six semaines"
+     ],
+     "exercices": [
+      "Construire ma rampe (tableau six semaines × quatre variables)",
+      "Fiche de montée : justifier chaque augmentation",
+      "Matrice stress / valeur : garder trois stresseurs, en écarter deux"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Boucler feedback et révision, antifragiliser le système",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "La spirale : feedback et révision indissociables",
+     "objectif": "Remplacer la relecture par une spirale de rappels décalés (J+1, J+7, J+21, J+60) et instaurer la double boucle : réviser aussi ses propres règles d'étude ; cible : 3 500 mots.",
+     "sections": [
+      "Réviser n'est pas relire : se re-provoquer",
+      "La spirale : quatre paliers de rappel",
+      "Double boucle : réviser ses règles d'étude",
+      "Révision mensuelle de méthode en vingt minutes",
+      "Planifier sans se mentir : la charge réelle",
+      "Dérives : rattrapage permanent et sauts d'étapes"
+     ],
+     "exercices": [
+      "Calendrier de spirale sur neuf semaines",
+      "Rituel « méthode avant matière » : quatre questions",
+      "Audit en double boucle : trois changements de règles ce trimestre"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Transfert : la mêlée des savoir-faire",
+     "objectif": "Faire en sorte que le rappel résiste à un changement de surface : trois formats, mêlée d'application, explication, test à contexte nouveau ; cible : 3 500 mots.",
+     "sections": [
+      "Ce qui transfère vraiment : surface, tâche, contexte",
+      "Trois formats pour la même idée : mot, image, problème",
+      "Explifier et comparer : la frontière de son propre silence",
+      "Mêlée d'application : plancher puis plafond",
+      "Test de transfert à J+14 dans un contexte nouveau",
+      "Limites : le transfert a des frontières"
+     ],
+     "exercices": [
+      "Triplication : une notion en trois formats, vingt minutes chacun",
+      "Leçon de cinq minutes à voix haute, enregistrée puis réécoutée",
+      "Deux questions de transfert en contexte différent"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Repos, intervalles et oubli nonchalant",
+     "objectif": "Intégrer le repos comme composante active de la boucle : intervalles entre rappels, consolidation, micro-pauses, semaine aménagée avec des plages vides ; cible : 3 500 mots.",
+     "sections": [
+      "Consolidation : ce qui est établi, ce qui reste discuté",
+      "Intervalles reposés entre deux rappels",
+      "Contre la session marathon : le rendement décroissant",
+      "Micro-pauses et attention : laisser ouvrir l'oubli utile",
+      "Aménager une semaine avec des plages vides dédiées",
+      "Prudence : bien-être et sommeil, sans conseil médical"
+     ],
+     "exercices": [
+      "Deux plannings comparés : marathon face à espacé, relevé à J+7",
+      "Journal d'énergie par séance (1 à 5) pendant deux semaines",
+      "Reprogrammer trois plages de repos effectives"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Antifragiliser son système d'apprentissage",
+     "objectif": "Voir son apprentissage comme un système (stocks, flux, retards, boucles) : repérer les délais, éviter la rétroaction positive malsaine, choisir les points de levier ; cible : 3 500 mots.",
+     "sections": [
+      "Son apprentissage comme système : stocks, flux, retards",
+      "Les retards : pourquoi le résultat vient avec décalage",
+      "Rétroactions positives dangereuses : cramming et confiance gonflée",
+      "Points de levier : index de robustesse, rituel de boucle, diversité des épreuves",
+      "Tableau de bord système : la vue d'en haut",
+      "Entretien trimestriel : réinitialiser sans tout casser"
+     ],
+     "exercices": [
+      "Diagramme causal d'un cours (dix minutes)",
+      "Repérage des trois délais de ma boucle",
+      "Feuille de route trimestrielle (checklist de dix points)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Mesurer la robustesse, dépanner, transmettre, durer",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Tableaux de bord : la robustesse en chiffres",
+     "objectif": "Remplacer le taux brut de bonnes réponses par cinq indicateurs de robustesse, calculables à la main à partir du journal ; cible : 3 500 mots.",
+     "sections": [
+      "Pourquoi abandonner le taux brut de bonnes réponses",
+      "Cinq indicateurs : rappel différé, délai de récupération, transfert, variabilité de contexte, vitesse de remontée après un raté",
+      "Calculs simples, sans logiciel",
+      "Lire une courbe : bruit, tendance, palier",
+      "Faux indicateurs et effets de bord",
+      "Le tableau de bord mensuel sur une page"
+     ],
+     "exercices": [
+      "Construire sa feuille de bord avec un exemple chiffré fictif",
+      "Relevé de trente jours à partir de mon journal",
+      "Trois signaux d'alerte de dérive à surveiller"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Quand ça bloque : dépanner la boucle",
+     "objectif": "Diagnostiquer plateaux, faux plateaux et découragement : fiche de diagnostic en quatre questions, cinq remèdes fréquents, pause stratégique, recours à l'aide ; cible : 3 500 mots.",
+     "sections": [
+      "Plateau, faux plateau, découragement : distinguer",
+      "Fiche de diagnostic en quatre questions",
+      "Cinq causes fréquentes et leurs remèdes",
+      "Pause stratégique : s'arrêter pour avancer",
+      "Aider et se faire aider : binôme, tuteur, communauté",
+      "Quand demander un avis professionnel : orientation générale uniquement"
+     ],
+     "exercices": [
+      "Quatre scénarios de blocage, diagnostic écrit",
+      "Plan anti-plateau en cinq actions sur dix jours",
+      "Journal des dépannages : trois entrées type"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Transmettre : enseigner à bien oublier",
+     "objectif": "Faire passer la méthode à un pair, une équipe ou une famille sans promesse magique : atelier court, rôles de feedback, charte collective de cinq règles ; cible : 3 500 mots.",
+     "sections": [
+      "Expliquer la thèse sans promesse magique",
+      "Atelier de quarante-cinq minutes : l'effet de test en dix minutes",
+      "Rôles dans un groupe : qui demande, qui note les causes",
+      "Le groupe comme boucle externe : la critique des ratés partagés",
+      "Au travail et en famille : feedback sans statut, sans conseil personnalisé",
+      "Mesurer le collectif : robustesse partagée"
+     ],
+     "exercices": [
+      "Plan d'atelier avec déroulé minuté",
+      "Jeu du raté partagé : faire émerger trois erreurs utiles en équipe",
+      "Charte de cinq règles de feedback rédigée collectivement"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Protocole long terme : vivre avec une mémoire antifragile",
+     "objectif": "Synthétiser les six parties en un programme de douze semaines, fixer une maintenance minimale, lister les incertitudes et les limites éthiques, conclure sur l'oubli comme travail de sélection ; cible : 3 500 mots.",
+     "sections": [
+      "Le calendrier des douze semaines : synthèse des six parties",
+      "Maintenance minimale : une boucle quotidienne choisie",
+      "Raccourcis honnêtes en période de charge",
+      "Ce qui reste incertain : dosage optimal, déterminants individuels, recherches ouvertes",
+      "Limites éthiques : aucune promesse de résultat, aucun conseil médical, juridique ou financier personnalisé",
+      "Conclusion : oublier est un travail de sélection"
+     ],
+     "exercices": [
+      "Calendrier des douze semaines pré-rempli, à dater",
+      "Entretien final avec son journal : vingt-quatre blocs de feedback récapitulés",
+      "Rédiger sa charte personnelle en une page (engagement de pratique)"
+     ]
+    }
+   ]
+  }
+ ]
+}

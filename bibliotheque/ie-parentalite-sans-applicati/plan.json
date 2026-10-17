@@ -1,0 +1,684 @@
+{
+ "titre": "Zéro appli : Élever un enfant sans écran de pilotage",
+ "sous_titre": "Manuel de résistance éducative — observer, mémoriser, ritualiser, transmettre : réapprendre les gestes qui tiennent sans technologie",
+ "bibliographie": [
+  {
+   "auteur": "Françoise Dolto",
+   "titre": "La cause des enfants",
+   "annee": "1985",
+   "idee": "L'enfant est un sujet de droit et de parole, pas un objet à optimiser. Dolto défend une lecture psycho-corporelle de l'enfance et le droit à l'inachevé.\nNotre livre retiendra que l'éducation se joue dans la relation de parole vivante, non dans le dashboard.",
+   "apport": "Fonder le regard parental sur l'enfant-sujet ; justifier la thèse qu'aucune appli ne peut se substituer à la rencontre et à l'écoute incarnée."
+  },
+  {
+   "auteur": "Donald W. Winnicott",
+   "titre": "La mère suffisante (The Good Enough Mother)",
+   "annee": "1971 (fr. 1975)",
+   "idee": "« Assez bon » vaut mieux que parfait. La mère (et le parent) qui échoue parfois permet à l'enfant de découvrir la réalité.\nLe cadre sécurisant prime sur la performance mesurée.",
+   "apport": "Légitimer le détachement du pilotage : la perfection instrumentale est un leurre ; la disponibilité imparfaite est une compétence."
+  },
+  {
+   "auteur": "Maria Montessori",
+   "titre": "L'enfant",
+   "annee": "1936",
+   "idee": "L'enfant construit sa psyché par l'action libre dans un environnement préparé. L'adulte observe et se retire.\nL'observation silencieuse est le premier outil du pédagogue.",
+   "apport": "Protocoles d'observation directe sans capteur ; rôle de l'environnement physique (non numérique) comme tiers éducateur."
+  },
+  {
+   "auteur": "Selma Fraiberg",
+   "titre": "La forêt interdite (Ghosts in the Nursery)",
+   "annee": "1959",
+   "idee": "Les « fantômes » du passé parental hantent la relation présente avec l'enfant. Les revisiter permet de ne pas les transmettre.\nL'inconscient parental est un terrain d'éducation invisible.",
+   "apport": "Ouvrir une piste sur les peurs qui nourrissent le besoin de tout contrôler par l'appli ; inciter au travail réflexif du parent."
+  },
+  {
+   "auteur": "Jean Liedhoff",
+   "titre": "Le concept du continuum : au-delà de l'humanité",
+   "annee": "1975",
+   "idee": "Thèse (discutée) : les besoins fondamentaux de l'enfant se lisent dans la continuité évolutive — contact, portage, réactivité.\nCritique des ruptures artificielles imposées à l'enfance.",
+   "apport": "Oser le retour aux gestes basiques (tenir, répondre, accompagner) face aux gadgets de gestion ; à croiser avec les données de la psychologie du développement, sans naturalisme naïf."
+  },
+  {
+   "auteur": "Bruno Bettelheim",
+   "titre": "Parents défaillants, enfants terribles",
+   "annee": "1962",
+   "idee": "Ouvrage historique et controversé : l'environnement familial façonne les troubles de l'enfant. Certaines thèses sont datées ou invalidées.\nIl reste un classique des débats sur la responsabilité parentale.",
+   "apport": "Sert de contrepoint historique pour discuter la culpabilité parentale — que l'appli numérique aggrave souvent — et défendre une lecture non moralisante des difficultés."
+  },
+  {
+   "auteur": "Alfie Kohn",
+   "titre": "Parentage sans condition (Unconditional Parenting)",
+   "annee": "2005",
+   "idee": "Critique des systèmes de récompense/punition. L'amour inconditionnel et l'autonomie réelle l'emportent sur le contrôle comportemental.\nLes applis de suivi prolongent souvent une logique de récompense.",
+   "apport": "Épistémologie du livre : sortir de la logique de contrôle-récompense que prolongent courbes, badges et notifications parentales."
+  },
+  {
+   "auteur": "Adele Faber & Elaine Mazlish",
+   "titre": "Parler aux enfants pour qu'ils écoutent, écouter pour qu'ils parlent",
+   "annee": "1980",
+   "idee": "Techniques de communication concrètes : décrire, nommer, proposer des choix, exprimer ses limites sans rabaissement.\nLes mots suffisent quand ils sont bien choisis.",
+   "apport": "Boîte à outils verbale de substitution aux alertes et automatisations ; exercices de dialogue sans écran interposé."
+  },
+  {
+   "auteur": "Thomas Gordon",
+   "titre": "Parents efficaces (Parent Effectiveness Training)",
+   "annee": "1975",
+   "idee": "Méthode d'écoute active et de résolution de conflits par l'affirmation non agressive des besoins mutuels.\nLe conflit devient un canal de relation, non une panne à corriger.",
+   "apport": "Protocoles de négociation en face-à-face et de médiation parent-enfant sans mediation numérique."
+  },
+  {
+   "auteur": "Daniel J. Siegel & Tina Payne Bryson",
+   "titre": "Le cerveau de l'enfant expliqué aux parents (The Whole-Brain Child)",
+   "annee": "2011",
+   "idee": " vulgarisation des neurosciences du développement : intégration émotionnelle, narration, répétition des apprentissages.\nLe cerveau se façonne par les relations quotidiennes, pas par les apps éducatives.",
+   "apport": "Ancrage scientifique prudent (avec signalement des limites de la vulgarisation) pour réhabiliter la présence et le récit comme neurostimulation réelle."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Minimalisme numérique (Digital Minimalism)",
+   "annee": "2019",
+   "idee": "Philosophie du retrait volontaire : ne conserver que les outils numériques servant des valeurs explicites. Le silence volontaire reconstitue l'attention.\nMoins d'écran, plus de vie.",
+   "apport": "Cadre méthodologique du sevrage : déserter volontairement, pas par accident ; appliqué ici au pilotage parental."
+  },
+  {
+   "auteur": "Nicholas Carr",
+   "titre": "Connectés à quoi ? Ce que l'Internet fait à notre cerveau (The Shallows)",
+   "annee": "2010",
+   "idee": "Thèse (débattue) : l'usage intensif d'Internet reconfigure l'attention vers le survol et la réactivité.\nLa profondeur cognitive réclame des îlots hors-ligne.",
+   "apport": "Justifier pourquoi le parent qui vit dans le flux a du mal à observer l'enfant ; argument en faveur de pratiques analogiques de mémorisation."
+  },
+  {
+   "auteur": "Sherry Turkle",
+   "titre": "Seuls ensemble (Alone Together)",
+   "annee": "2011",
+   "idee": "Les technologies promettent la connexion mais produisent souvent la solitude relationnelle.\nLa présence de l'autre ne se simule pas par un message lu.",
+   "apport": "Analyse du remplacement des relations humaines par des notifications ; plaidoyer pour la tribu réelle."
+  },
+  {
+   "auteur": "Kim John Payne",
+   "titre": "Une enfance sans surcharge (Simplicity Parenting)",
+   "annee": "2009",
+   "idee": "Simplifier l'environnement (objets, emploi du temps, choix) réduit le stress et aide l'enfant à s'apaiser.\nLa clarté du cadre vaut mieux que l'accumulation d'outils.",
+   "apport": "Livrera des protocoles de désencombrement analogique (pas seulement numérique) structurant le plan de sevrage."
+  },
+  {
+   "auteur": "Richard Louv",
+   "titre": "Les enfants de la nature (Last Child in the Woods)",
+   "annee": "2005",
+   "idee": "Le déficit de nature nuit au développement physique et psychique des enfants.\nLe dehors est un éducateur que l'écran remplace mal.",
+   "apport": "Ancrer plusieurs exercices d'observation hors-murs, sans capteur ni appli de reconnaissance d'espèces (ou en limitant leur usage)."
+  },
+  {
+   "auteur": "Anne-Lorraine Bujon",
+   "titre": "Génération écrans : Trop tôt, trop et sans nous",
+   "annee": "2017",
+   "idee": "Analyse française des expositions précoces et solitaires des jeunes enfants aux écrans.\nAlerte sur l'isolement que produit le pilote automatique éducatif.",
+   "apport": "Référence francophone centrale sur les risques ; notre livre en prolonge la critique en proposant une voie active (sevrage parental) plutôt qu'un simple appel à la modération."
+  },
+  {
+   "auteur": "Mihaly Csikszentmihalyi",
+   "titre": "Vivre (Flow)",
+   "annee": "1990",
+   "idee": "L'expérience optimale naît d'un défi équilibré aux compétences, dans une attention totale.\nL'ennui et le flot numériques empêchent l'engagement profond.",
+   "apport": "Outiller la redécouverte du jeu et du travail manuel avec l'enfant comme sources de flux, hors notifications."
+  },
+  {
+   "auteur": "Ivan Illich",
+   "titre": "Descolariser la société",
+   "annee": "1971",
+   "idee": "Critique radicale des institutions qui monopolisent l'apprentissage et produisent la dépendance.\nÉduquer est trop important pour rester confié à un monopole.",
+   "apport": "Ouvre la piste (sans prôner le retrait scolaire) d'un curriculum de la vie : apprentissages informels, communautaires, hors applis éducatives."
+  },
+  {
+   "auteur": "John Holt",
+   "titre": "Comment les enfants échouent (How Children Fail)",
+   "annee": "1964",
+   "idee": "Les échecs scolaires tiennent souvent à la peur et à l'absence de sens, pas à l'incapacité.\nL'enfant apprend mieux quand il explore sans menace permanente.",
+   "apport": "Soutien à une pédagogie de la confiance et du sens, compatible avec l'abandon du suivi quantitatif permanent."
+  },
+  {
+   "auteur": "Lev Vygotsky",
+   "titre": "Pensée et langage",
+   "annee": "1934",
+   "idee": "Le développement intellectuel passe par le social et le langage. La zone proximale de développement guide l'apprentissage.\nL'adulte est un partenaire, pas un ingénieur.",
+   "apport": "Cadre pour les exercices de médiation verbale et d'apprentissage par étayage en présentiel, sans tuteur algorithmique."
+  },
+  {
+   "auteur": "Jean Piaget",
+   "titre": "La naissance de l'intelligence chez l'enfant",
+   "annee": "1936",
+   "idee": "L'intelligence se construit par l'action et l'adaptation au réel.\nLes stades observationnels de Piaget restent un socle, malgré les révisions postérieures.",
+   "apport": "Référentiel minimal de repères développementaux à observer soi-même (sans appli de « milestones »), en assumant que la science a affiné voire corrigé certaines vues piagétiennes."
+  },
+  {
+   "auteur": "Annette Lareau",
+   "titre": "Des inégalités d'enfance (Unequal Childhoods)",
+   "annee": "2003",
+   "idee": "Enquête sociologique : deux logiques d'éducation dominent selon les classes — « cultivation concertée » et « croissance naturelle accompagnée ».\nLes styles parentaux sont socialement situés.",
+   "apport": "Nuance cruciale : le « sans appli » n'est pas un luxe moral universel ; le livre devra discuter les contraintes matérielles et sociales, sans culpabilisation."
+  },
+  {
+   "auteur": "Loris Malaguzzi & écoles de Reggio Emilia",
+   "titre": "L'environnement comme troisième éducateur (écrits et projets des écoles de Reggio Emilia)",
+   "annee": "1978 (et après)",
+   "idee": "L'enfant est capable, créatif ; l'espace, les matériaux et les relations sont les vrais pédagogues.\nLa documentation (traces, photos, récits) rend l'apprentissage visible sans écran obligatoire.",
+   "apport": "Inspirera les chapitres sur l'environnement physique, les carnets d'enfant et la documentation manuscrite."
+  },
+  {
+   "auteur": "Simone Weil",
+   "titre": "Attente de Dieu (sur l'attention)",
+   "annee": "1942",
+   "idee": "« L'attention est la forme la plus rare et la plus pure de la générosité. »\nS'attacher à quelque chose ou quelqu'un exige un vide préalable.",
+   "apport": "Fondement philosophique du chapitre sur l'attention pleine comme compétence parentale centrale, en tension avec la distraction permanente."
+  },
+  {
+   "auteur": "Vivian Gussin Paley",
+   "titre": "Le garçon qui voulait être hélicoptère (The Boy Who Would Be a Helicopter)",
+   "annee": "1991",
+   "idee": "Dans la classe, les histoires et le jeu symbolique guérissent et socialisent mieux que les dispositifs de contrôle.\nRaconté, un vécu devient partageable.",
+   "apport": "Soutien à la substitution « récit quotidien » face au « tracking » ; exercices de contes et de jeux de rôle familiaux."
+  },
+  {
+   "auteur": "Ken Robinson",
+   "titre": "L'école tuera-t-elle la créativement ? (Out of Our Minds)",
+   "annee": "1999 (fr. diverses éditions)",
+   "idee": "Les systèmes éducatifs standardisés répriment les intelligences multiples.\nCréer demande du risque, pas du conformisme mesuré.",
+   "apport": "Relayer une critique des méthodes « one-size-fits-all » prolongées par les applis éducatives personnalisées à l'excès ; attention : le titre français varie selon les éditions."
+  },
+  {
+   "auteur": "Joshua Foer",
+   "titre": "Comment développer une mémoire d'éléphant (Moonwalking with Einstein)",
+   "annee": "2011",
+   "idee": "Les techniques mnémoniques anciennes (palais de mémoire, association) permettent des performances extraordinaires.\nLa mémoire s'entraîne, elle ne se dégrade pas fatalité.",
+   "apport": "Fournira des exercices concrets de mémorisation parentale : stades, dates, phrases de l'enfant, sans carnet-cloud."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Désinstaller le pilotage : le grand détachement",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "La tyrannie du bon parent connecté",
+     "objectif": "Déconstruire le mythe du parent-outillé et identifier comment l'application de pilotage est devenue une béquille idéologique, souvent plus pour l'adulte que pour l'enfant.",
+     "sections": [
+      "Le complexe du parent-dashboard : quand élever rime avec « monitorer »",
+      "Comment l'appli est entrée dans la chambre, la salle de bain et la tête des parents",
+      "Les promesses non tenues du suivi quantifié de l'enfance",
+      "Anxiété, comparaison sociale et algorithmes du jugement parental",
+      "Le coût caché de la vigilance numérique : présence réelle réduite",
+      "Redéfinir la compétence parentale : de la donnée au discernement"
+     ],
+     "exercices": [
+      "Audit personnel : lister toutes les applications et fonctionnalités de pilotage/installations connectées liées à l'enfant ; noter date d'installation et fréquence d'usage réelle",
+      "Journal de bord d'une semaine « sans notifications parentales » : noter chaque envie de vérifier, ce qui la déclenche, ce qui se passe quand on s'abstient",
+      "Liste des peurs sous-jacentes : à côté de chaque outil, écrire la peur concrète qu'il prétend conjurer",
+      "Entretien croisé (en face-à-face, sans téléphone) avec un autre parent sur sa relation aux applis de suivi"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Sevrer le parent, pas (seulement) l'enfant",
+     "objectif": "Distinguer la dépendance parentale à la technologie de la restriction d'écran pour l'enfant, et concevoir un protocole de sevrage adulte progressif et assumé.",
+     "sections": [
+      "L'addiction au contrôle : symptômes et auto-diagnostic honnête",
+      "Les rituels de vérification : de la nuit au réveil du matin",
+      "Quand l'outil remplace la relation : la substitution silencieuse",
+      "Le transfert de compétence : réapprendre ce que l'appli faisait à votre place",
+      "Étapes du sevrage parental : du retrait à la désinstallation",
+      "Accepter l'incertitude comme condition de la parentalité adulte"
+     ],
+     "exercices": [
+      "Protocole de sevrage progressif sur 30 jours (Jours 1-7 : déplacer l'appli hors de la chambre ; 8-14 : désactiver les notifications ; 15-21 : usage unique quotidien de 5 min ; 22-30 : désinstallation, sauf exception documentée)",
+      "Cartographie des situations où l'appli « remplace » physiquement votre présence (ex. : regarder le sommeil enregistré plutôt que d'entrer dans la chambre)",
+      "Écriture d'une lettre à votre propre anxiété, lue à voix haute devant un miroir ou un proche de confiance",
+      "Bilan de fin de sevrage : ce qui manque, ce qui a été retrouvé, ce qui reste à inventer"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "La confiance comme infrastructure",
+     "objectif": "Construire les fondations relationnelles qui rendent les garde-fous numériques superflus sans laisser l'enfant sans cadre.",
+     "sections": [
+      "Le lien d'attachement comme « antivirus » relationnel",
+      "Discipline sans surveillance constante : autorité et présence",
+      "Moins de contrôle, plus d'autonomie : le paradoxe productif",
+      "L'erreur comme donnée éducative, pas comme bug à corriger par alerte",
+      "Étapes de construction de la confiance mutuelle par âge",
+      "Quand lâcher prise fait peir (et à qui)"
+     ],
+     "exercices": [
+      "Échelle personnalisée de confiance progressive : pour chaque âge/stade de l'enfant, cocher manuellement les responsabilités concédées ce mois-ci",
+      "Contrat parent-enfant (verbal ou manuscrit) sans écran de contrôle : formuler 3 attentes, 3 libertés, 3 recours en cas de conflit",
+      "Protocole de restitution après erreur : 4 temps écrits sur une fiche (faire, ressentir, réparer, recommencer) — sans appli de comportement",
+      "Exercice « week-end hors surveillance » : choisir une activité où l'enfant gère seul un risque mesuré, observer sans intervenir"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Négocier sans algorithme",
+     "objectif": "Réactiver les techniques de communication et de négociation interpersonnelles directes, aujourd'hui déléguées aux filtres et aux automatisations.",
+     "sections": [
+      "L'écoute active avant les logiciels de contrôle",
+      "Communication non-violente en situation réelle (colère, caprice, refus)",
+      "Poser des limites claires sans notifications ni filtres parentaux",
+      "Dire non sans parentalisation logicielle : posture et formulation",
+      "Médiation parentale de vive voix : temps, lieux, rituels du dialogue",
+      "Le conflit comme terrain d'apprentissage mutuel, non comme panne à « gérer » à distance"
+     ],
+     "exercices": [
+      "Jeux de rôle de négociation difficile (ex. : refus d'éteindre, conflit entre fratrie), rejoués avec d'autres parents pour feedback",
+      "Grille d'écoute active à remplir à la main après un vrai conflit de la semaine",
+      "Rituel de « réunion de famille » hebdomadaire de 20 minutes, sans supports numériques, avec ordre du jour écrit au feutre sur une feuille",
+      "Exercice de reformulation : répéter le point de vue de l'enfant jusqu'à satisfaction de celui-ci, noter ce qui a changé dans la suite du conflit"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Reconstruire l'observation directe : le retour du regard",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "L'œil qui observe : anthropologie du regard parental",
+     "objectif": "Rééduquer la capacité d'observation non instrumentée et comprendre ce que l'œil perçoit qu'une interface ne montre jamais.",
+     "sections": [
+      "Ce que l'appli mesure (durées, courbes, alertes) vs ce que l'œil perçoit (nuances, contexte, affect)",
+      "La qualité de présence : regarder vraiment, pas « passer un coup d'œil »",
+      "L'observation participante : être avec sans interrompre",
+      "Les micro-signaux du développement que seul un adulte présent capte",
+      "Le temps long vs le temps de l'alerte : fenêtres de croissance invisibles aux dashboards",
+      "L'art de regarder sans interrompre le jeu de l'enfant"
+     ],
+     "exercices": [
+      "30 minutes d'observation silencieuse quotidienne : l'enfant joue, le parent note zéro sur une fiche, puis écrit 10 phrases descriptives sans jugement",
+      "Carnet d'observation manuscrit (modèle fourni) : date, lieu, durée, description, hypothèse, question ouverte pour demain",
+      "Exercice de « description pure » : décrire une scène sans adjectifs évaluatifs ni référence à un stade développemental",
+      "Comparatif sur 7 jours : noter ce qu'on a appris par l'appli vs par l'observation directe sur le même sujet (ex. : sommeil, humeur, appétit)"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Signes, intuition, prudence : observer sans paniquer",
+     "objectif": "Distinguer l'observation clinique saine de la paranoïa nourrie par les forums et les algorithmes de contenu, tout en respectant les limites de notre expertise.",
+     "sections": [
+      "L'intuition parentale : puissante, biaisée, à recouper",
+      "Quand consulter un professionnel sans passer par une appli de « tri » ou un moteur de recherche",
+      "Les repères développementaux classiques : connaître le socle sans idolâtrer la courbe",
+      "Gérer l'incertitude sans diagnostic Google : le flou est normal",
+      "Le rôle du pédiatre, de l'assistante sociale, du psychologue vs le rôle de l'appli",
+      "Liste non exhaustive des signaux d'alerte nécessitant un avis professionnel (cadre général, non personnalisé)"
+     ],
+     "exercices": [
+      "Journal des intuitions vs réalité vérifiée : noter une intuition de la semaine, ce qu'elle a fait faire, ce qui s'est avéré vrai ou faux après 7 jours",
+      "Fiche « que faire si… » construite à la main avec les numéros utiles (médecin traitant, PMI, urgence) — pas d'appli, pas de site à consulter en premier dans la panique",
+      "Exercice de recadrage face à une « alerte » imaginée : écrire la peur, la probabilité réelle selon ce qu'un professionnel a déjà dit, l'action raisonnable",
+      "Rappel de mission : ce livre ne donne pas de conseil médical personnalisé ; chaque situation réelle relève d'un professionnel"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "L'enfant ethnographe de son propre monde",
+     "objectif": "Donner à l'enfant les moyens d'observer et décrire son environnement, en stimulant la curiosité hors reconnaissance d'images par IA ou applis éducatives.",
+     "sections": [
+      "L'ethnographie ludique : apprendre à « faire comme si on était un explorateur »",
+      "Les enfants comme explorateurs naturels du quotidien",
+      "Observer la nature sans capteur ni appli d'identification (ou en limitant leur rôle)",
+      "Les carnets d'exploration de l'enfant : dessin, mot, collage, objet trouvé",
+      "La curiosité comme compétence, pas comme donnée à optimiser",
+      "Documenter sans smartphone : le carnet, la bande dessinée, la lettre"
+     ],
+     "exercices": [
+      "Kit d'explorateur analogique à fabriquer ensemble : loupe simple, carnet, crayon, sac en toile, boussole basique (si âge adapté)",
+      "Carnet d'exploration nature : 12 pages, une sortie par semaine, une planche dessinée, une question posée à un adulte",
+      "Exercice d'entretien d'enfant sur son environnement : l'enfant pose 5 questions à un adulte sur le quartier, note les réponses (ou les dessine)",
+      "Création d'une carte dessinée du parcours quotidien maison-école avec points d'observation personnels"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Le corps sait, la machine ignore",
+     "objectif": "Recentrer l'éducation sur l'intelligence corporelle et sensorielle, en opposition au tracking quantifié (sommeil, calories, calories dépensées).",
+     "sections": [
+      "Soma et interoception : apprendre à sentir son corps de l'intérieur",
+      "Le sommeil sans montre connectée ni babyphone connecté : observer les signes naturels",
+      "L'appétit sans calcul calorique ni gamification de l'assiette",
+      "La fatigue et le repos sans courbe d'activité : le droit à la lenteur",
+      "Le toucher, la voix, la présence : capteurs humains supérieurs",
+      "Le jeu physique comme baromètre émotionnel"
+     ],
+     "exercices": [
+      "Journal du sommeil manuel sur 21 jours : heure de coucher, signes de fatigue observés, heure de réveil, humeur du matin — noté par le parent ou l'enfant selon l'âge",
+      "Expérience « dîner sans horloge ni écran » : 3 soirs par semaine, chronomètre rangé, conversation ou silence, notes sur l'appétit observé",
+      "Cartographie sensorielle d'une journée type : dessiner ce qui se voit, s'entend, se sent, se touche — sans photographier",
+      "Semaine « corps-capteur » : à chaque envie de vérifier une donnée, noter d'abord ce que le corps de l'enfant (et le vôtre) indique déjà"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Mémoriser au lieu de noter : l'esprit comme carnet",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "La mémoire des parents : un organe sous-exploité",
+     "objectif": "Réactiver les techniques mnémoniques pour la vie quotidienne avec l'enfant, en montrant que déléguer sa mémoire aux outils l'atrophie.",
+     "sections": [
+      "Pourquoi on a délégué la mémoire aux calendriers, applis et cloud",
+      "Les palais de mémoire appliqués à la parentalité : stades, dates, phrases-clés",
+      "Mémoriser ce qui compte vraiment : les besoins, les préférences, les peurs de l'enfant",
+      "La mémoire associative et émotionnelle : mieux que la notification",
+      "Les listes mentales quotidiennes : l'exercice du matin et du soir",
+      "L'oubli comme donnée honnête, pas comme échec technologique"
+     ],
+     "exercices": [
+      "Construction d'un « palais de la maison » : associer chaque pièce à un repère éducatif à mémoriser (ex. : cuisine = règles du goûter ; escalier = transitions)",
+      "Exercice de mémorisation des étapes développementales clés (à titre général) en 3 sessions de 10 minutes, sans flashcard digitale",
+      "Pratique de rappel mental des 3 moments forts de la semaine avec l'enfant, racontés le dimanche sans regarder le téléphone",
+      "Test de rappel libre : écrire de mémoire la routine du coucher de l'enfant, comparer ensuite avec la réalité, noter les trous"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Le carnet manuscrit : compagnon de route",
+     "objectif": "Réintroduire l'écriture lente comme outil de pensée, de suivi et de lien, en remplacement (partiel) des tableaux de bord numériques.",
+     "sections": [
+      "Psychologie de l'écriture manuscrite : ralentir pour mieux retenir",
+      "Structure du carnet parental idéal (dimensions, rubriques, format libre vs structuré)",
+      "Ce qu'on note et ce qu'on laisse volontairement non tracé",
+      "Rituels d'écriture : 5 minutes par jour, ni plus ni moins",
+      "Carnets d'enfant aussi : dès qu'il tient un crayon, son journal commence",
+      "L'objet comme trace physique : le carnet dans le sac, pas dans le cloud"
+     ],
+     "exercices": [
+      "Créer ensemble un carnet familial : une page par membre, une page « questions de l'année », une page « inventions »",
+      "Protocole d'écriture quotidienne de 5 minutes : 1 phrase de gratitude, 1 observation, 1 question pour demain",
+      "Exercice d'écriture de lettres à l'enfant futur : 1 lettre par trimestre, scellée, à ouvrir à 18 ans",
+      "Invitation d'un aîné à signer le carnet avec un souvenir d'éducation analogique"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Raconter plutôt que tracker : le pouvoir du récit",
+     "objectif": "Transformer le suivi quantitatif en récit qualitatif, et faire du récit familial un outil de transmission et de régulation émotionnelle.",
+     "sections": [
+      "Le pouvoir du récit familial : « Quand tu étais petit… »",
+      "Le journal intime partagé : écrire ensemble, à tour de rôle",
+      "La transmission orale : ce que le récit oral révèle qu'une courbe cache",
+      "Contes et métaphores comme outils pédagogiques non numériques",
+      "Raconter les difficultés sans les « escalader » par alerte partagée en ligne",
+      "Le récit comme régulation : nommer une émotion la désamorce souvent"
+     ],
+     "exercices": [
+      "Banque d'histoires familiales : 12 contes ou souvenirs à raconter chaque soir du mois (liste écrite à la main)",
+      "Exercice de « contemporanéité » : raconter la journée de l'enfant en histoire, avec un début, un obstacle, une fin",
+      "Création d'une généalogie narrative avec l'enfant : un arbre dessiné, une anecdote par branche",
+      "Soirée « récits sans écran » : 45 minutes, bougie ou lampe, téléphone dans une autre pièce pour tous"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Archiver sans cloud : la mémoire familiale matérielle",
+     "objectif": "Constituer une mémoire familiale physique et locale, à l'abri des plateformes, et retrouver le plaisir des objets-témoins.",
+     "sections": [
+      "L'album photo papier vs le flux infini du cloud",
+      "Les objets-témoins : un doudou, une pierre ramassée, un dessin daté",
+      "Les lettres et cartes postales : la lenteur comme cadeau",
+      "L'arbre généalogique manuscrit et les réunions de famille pour le compléter",
+      "Les recettes, chants, proverbes et traditions écrits à la main",
+      "La vulnérabilité (et la force) du support matériel : risque de perte, valeur symbolique"
+     ],
+     "exercices": [
+      "Inventaire d'une « capsule temporelle » familiale à constituer cette année (objet, lettre, journal, photo imprimée, article de presse)",
+      "Écriture d'une lettre scellée à ouvrir dans 10 ans, avec une consigne d'ouverture en famille",
+      "Récupération et classement d'archives familiales papier : 2 heures de tri, 1 page d'inventaire, 1 album annoté",
+      "Projet « une recette écrite à la main » : transcrire la recette d'un proche, l'enfant l'illustre"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Rituels analogiques : les gestes qui structurent le temps",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Le rituel, colonne vertébrale du temps enfantin",
+     "objectif": "Comprendre l'anthropologie du rituel et instaurer des rituels structurants sans notification ni minuterie connectée.",
+     "sections": [
+      "Anthropologie du rituel : ce que font les sociétés humaines depuis toujours",
+      "Différence routine / rituel : répétition vide vs sens partagé",
+      "Créer des rituels sur mesure avec et pour l'enfant",
+      "Le petit-déjeuner comme office laïque du matin",
+      "Le coucher comme cérémonie de transition",
+      "Les rituels de transition (école-retour, réveil, repas)",
+      "L'évolution des rituels par âge : les garder, les transformer"
+     ],
+     "exercices": [
+      "Inventaire des rituels existants dans la famille (écrire ce qui se répète vraiment, pas ce qu'on croit faire)",
+      "Conception collaborative d'un nouveau rituel hebdomadaire : 30 minutes de brainstorming manuscrit avec l'enfant",
+      "Calendrier des rituels saisonniers à instaurer (solstice, rentrée, anniversaires de famille)",
+      "Test de pérennité : suivre un nouveau rituel pendant 4 semaines, noter chaque semaine ce qui tient, ce qui s'essouffle"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Le temps sans montre : rythmes, saisons, jeûne informationnel",
+     "objectif": "Réaligner le rythme de vie familial sur les cycles naturels et choisis, plutôt que sur les calendriers numériques et les empilements d'événements synchronisés.",
+     "sections": [
+      "Chronobiologie familiale : besoins de sommeil, de mouvement, de silence",
+      "L'année sans notification : refaire un calendrier à la main",
+      "Les saisons comme cadre éducatif : observatoire du dehors",
+      "Le jeûne informationnel familial : 24 heures sans flux d'actualité",
+      "Le dimanche (ou un autre jour) comme jour sans horloge",
+      "Les fêtes réinventées hors marketing algorithmique"
+     ],
+     "exercices": [
+      "Semaine d'expérimentation « sans montre ni alarme » pour le parent (les obligations scolaires restent, on enlève le superflu)",
+      "Calendrier des saisons à préparer avec les enfants : 12 pages, 1 dessin et 1 activité par mois",
+      "Journée mensuelle « hors calendrier » : aucune inscription, aucun rappel programmé, improvisation assumée",
+      "Carte des sources de stress chronométrées (combien de rappels/jour ?) avant et après tri manuel"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Rites de passage : accompagner les seuils sans outil",
+     "objectif": "Réinvestir les rites de passage traditionnels plutôt que les jalons numériques (notifications « votre enfant a 6 mois ») pour marquer les transitions.",
+     "sections": [
+      "Pourquoi les sociétés anciennes marquaient les transitions de l'enfance",
+      "Invention de rites familiaux originaux et non dogmatiques",
+      "Premier jour d'école, première nuit loin des parents, premiers mots : célébrer sans story",
+      "Les seuils du corps en croissance : puberté, croissance, premières dents (rappel)",
+      "Deuils et séparations : le deuil sans appli de gestion des émotions",
+      "Accompagner sans outil : la présence comme rite"
+     ],
+     "exercices": [
+      "Conception d'un rite de passage familial original pour un seuil à venir (1 page : intention, gestes, mots, symboles)",
+      "Cérémonie de « bienvenue dans l'âge X » : plan détaillé, répartition des rôles, objet témoin à fabriquer",
+      "Écriture d'un serment parental (ou familial) pour chaque palier, lu à voix haute, archivé dans le carnet",
+      "Récupération d'un rite transmis par un aîné : l'adapter, le pratiquer une fois, en noter l'effet ressenti"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Les fêtes sans notification : mémoire collective et tradition",
+     "objectif": "Reconstruire des célébrations significatives hors du calendrier push et du flux commercial, en reliant tradition et invention.",
+     "sections": [
+      "Noël, Aïd, anniversaires : au-delà du calendrier de rappels",
+      "Fabriquer plutôt qu'acheter : le sens du fait-main en famille",
+      "Le sens des traditions religieuses, culturelles et laïques : comprendre avant de rejeter ou de calquer",
+      "Les anniversaires comme moments de récit, pas de contenu à publier",
+      "Inviter, recevoir, offrir sa présence plutôt qu'un post",
+      "Les traditions inventées : créer de nouveaux mythes familiaux"
+     ],
+     "exercices": [
+      "Invention d'une fête familiale annuelle : nom, date, gestes, plat, chanson, à écrire sur une affiche dessinée",
+      "Cérémonie d'anniversaire réinventée sans réseau social : plan en 5 temps, participation de l'enfant à la conception",
+      "Projet intergénérationnel : interviewer un aîné (en face-à-face) sur les fêtes de son enfance, transcrire à la main 1 page",
+      "Liste des achats superflus évités grâce au fait-main, estimés en euros et en temps gagné"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Réseau humain plutôt que notifications : la tribu d'avant",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "La tribu d'avant : reconstruire le village",
+     "objectif": "Identifier et activer un réseau humain de soutien parental hors applications, en assumant que le « village » doit aujourd'hui se réinventer volontairement.",
+     "sections": [
+      "« Il faut un village pour élever un enfant » : origines et usages de l'adage",
+      "Les familles d'emprunt : les construire plutôt qu'attendre qu'elles tombent du ciel",
+      "Les voisinages réinventés : solidarité de proximité",
+      "Les intergénérationnels volontaires : inclure les ainés dans la routine",
+      "Mutualiser la garde : coopératives parentales informelles",
+      "Les professionnels comme alliés (sans appli de conseil en continu)"
+     ],
+     "exercices": [
+      "Carte mentale du réseau de soutien actuel et potentiel (20 noms, 5 questions : qui peut aider pour quoi, quand)",
+      "Protocole de création d'une « coopérative parentale » : 4 rencontres, 1 charte écrite, 1 calendrier partagé à la main",
+      "Entretien avec un aîné ou un voisin expérimenté sur son réseau d'élevage, noté dans le carnet",
+      "Action concrète cette semaine : demander un service précis à une personne de la carte, noter le ressenti"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Parent entre parents : le bouche-à-oreille avant le feed",
+     "objectif": "Remplacer les communautés en ligne (forums, groupes, influenceurs) par des relations de confiance en présentiel et des échanges de vive voix.",
+     "sections": [
+      "Les forums et groupes sociaux comme fausses tribus : ce qu'ils donnent, ce qu'ils coûtent",
+      "Les groupes de parents en vrai : comment les démarrer, les tenir",
+      "Le rôle des pairs dans l'éducation : pairs-enfants, pairs-parents",
+      "Chercher et offrir de l'aide concrète (temps, matière, écoute) sans gamification",
+      "Gérer les jugements en face-à-face : mieux, plus dur, plus réel",
+      "La discrétion comme valeur éducative contre la surexposition"
+     ],
+     "exercices": [
+      "Organisation d'un premier « café des parents » hors-ligne : 1 page de plan (lieu, durée, règle du sans-téléphone)",
+      "Liste de 7 questions à poser à des parents plus expérimentés en personne cette semaine (pas en commentaire)",
+      "Protocole pour demander de l'aide sans honte : script écrit, reformulé par un ami de confiance",
+      "Audit des groupes sociaux rejoints : pour chaque groupe, noter le ratio utile/agressif/anxiogène ; décider d'en quitter la moitié"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Grands-parents, oncles, voisins : la transmission intergénérationnelle",
+     "objectif": "Réactiver le savoir transmis par les générations antérieures, en négociant les conflits de méthodes sans la médiation d'un fil d'actualité familiale.",
+     "sections": [
+      "Le grand-parent comme mémoire vivante et réserve de patience",
+      "Apprendre les gestes manuels ensemble : coudre, réparer, cuisiner, jardiner",
+      "Les langues, les accents, les chansons : patrimoine immatériel familial",
+      "Les contes, les légendes, les proverbes éducatifs",
+      "Les conflits de méthodes : négocier sans humilier ni se soumettre",
+      "Intégrer la tradition sans fundamentalisme ni rejet global"
+     ],
+     "exercices": [
+      "Projet « savoir-faire d'un aîné » sur 3 mois : 1 compétence choisie, 1 séance par semaine, 1 page de compte rendu dessinée ou écrite par l'enfant",
+      "Enregistrement limité (ou simple écoute attentive) d'histoires familiales, puis transcription manuscrite d'un extrait",
+      "Atelier transgénérationnel inventé avec les grands-parents : un après-midi, une recette ou un jardin ou un jeu ancien",
+      "Rédaction d'une « charte de coéducation intergénérationnelle » : 5 accords écrits, signés"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Autorité, expertise, humilité : le parent face aux gourous et aux algorithmes",
+     "objectif": "Redéfinir la posture du parent face aux « experts » omniprésents (livres, applis, influenceurs) et réhabiliter le discernement humble.",
+     "sections": [
+      "L'ère de l'expertise omniprésente : tout le monde sait, personne n'est responsable",
+      "Ce que savent (et ce qu'ignorent) les livres, les applis, les influenceurs",
+      "L'humilité comme compétence : dire « je ne sais pas encore »",
+      "Le jugement parental affiné par l'expérience, pas par le like",
+      "Décider dans l'incertitude : accepter l'arbitraire des choix éducatifs",
+      "Éduquer comme éthique du quotidien, non comme optimisation"
+     ],
+     "exercices": [
+      "Journal des « décisions difficiles sans guide » : 5 décisions de l'année, options, ressources consultées, choix final, regret éventuel",
+      "Exercice de hiérarchisation des sources de conseil : classer (pro, bouquin, ami, appli, réseau, intuition) et justifier manuellement",
+      "Rédaction d'une charte éducative familiale (10 lignes max) affichée dans la cuisine",
+      "Détox d'un mois d'un influenceur parental ou d'une chaîne de conseils : noter les effets sur l'estime de soi"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Racines culturelles et transmission : l'éducation comme héritage vivant",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Les racines : puiser dans les traditions éducatives du monde",
+     "objectif": "Explorer comment les traditions éducatives universelles et locales nourrissent une pédagogie du contact, en assumant un éclectisme critique et non syncrétique.",
+     "sections": [
+      "Les rites éducatifs transversaux : ce que partagent les cultures",
+      "Les pédagogies classiques relues sans appli : socratique, montessori, steiner/waldorf, freinet",
+      "Les traditions méditerranéennes, africaines, asiatiques : quelques exemples choisis (sans exotisme)",
+      "Ce qu'on perd en unifiant les méthodes par des plateformes globales",
+      "L'ancrage culturel familial comme boussole, non comme prison",
+      "La créolisation éducative personnelle : composer son mix assumé"
+     ],
+     "exercices": [
+      "Enquête sur la tradition éducative de sa propre famille ou culture : 3 questions posées à 3 personnes, résumé écrit",
+      "Adoption critique d'une pratique traditionnelle pendant 1 mois : noter avantages, limites, ajustements",
+      "Création d'un « mix éducatif familial » assumé : 3 éléments de tradition, 3 inventions personnelles, 1 page affichée",
+      "Lecture croisée (si disponible) d'un chapitre de Montessori ou de Freinet, sans passer par une appli de résumé automatique"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "L'attention, forme suprême de la générosité",
+     "objectif": "Faire de l'attention pleine la compétence centrale du parent hors écran, en s'inspirant de la philosophie (Weil) et des pratiques de pleine présence.",
+     "sections": [
+      "Simone Weil et l'attention : s'approcher de l'autre sans le capturer",
+      "L'écoute profonde : ce qu'elle exige, ce qu'elle produit",
+      "L'ennui comme espace de créativité parentale et enfantine",
+      "Méditation, respiration, ancrage : outils laïcs pour le parent",
+      "L'attention distribuée vs l'attention focalisée : choisir ses batailles",
+      "Rituels d'attention quotidienne : matin, repas, coucher"
+     ],
+     "exercices": [
+      "Pratique de 10 minutes d'attention pleine à l'enfant chaque jour : assis, regard au même niveau, sans téléphone, sans parler sauf si l'enfant parle",
+      "Journal de l'attention : chaque soir, noter 1 chose vraiment vue aujourd'hui chez l'enfant (1 phrase)",
+      "Exercice de l'ennui partagé : 20 minutes sans activité dirigée, sans écran, pour parent et enfant, observer ce qui émerge",
+      "Séquence de respiration (3 minutes) avant chaque repas en famille, écrite sur une fiche cartonnée dans la cuisine"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Éduquer au-delà de l'école (et de l'appli éducative) : la vie comme curriculum",
+     "objectif": "Intégrer l'idée que l'éducation ne se réduit pas à l'institution scolaire ni aux plateformes d'apprentissage personnalisé, sans pour autant prôner un retrait scolaire généralisé (hors compétence de ce livre).",
+     "sections": [
+      "L'école comme un lieu parmi d'autres, pas comme le monopole de l'apprentissage",
+      "L'apprentissage informel et les apprentissages par projet familial",
+      "L'éducation populaire : ateliers, bibliothèques, associations, voisinage",
+      "Le droit de ne pas savoir (tout de suite) : contre la course aux milestones",
+      "L'échec scolaire et les alternatives : cadre général, renvoi aux professionnels",
+      "La responsabilité éducative du citoyen : élever, c'est aussi former des membres de la communauté"
+     ],
+     "exercices": [
+      "Cartographie des lieux d'apprentissage de l'enfant hors école (maison, rue, parc, bibliothèque, atelier, lieu de culte ou de laïcité, etc.)",
+      "Projet d'apprentissage autodirigé à mener pendant 1 mois : thème choisi par l'enfant, 1 objectif simple, 1 présentation finale manuscrite ou orale",
+      "Liste de ressources communautaires éducatives dans le quartier (écrite à la main, vérifiée en personne)",
+      "Disclaimer assumé dans le carnet : ce livre ne remplace pas un conseil personnalisé sur le parcours scolaire ou thérapeutique"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Vers une pédagogie du contact : le monde sans écran comme terrain",
+     "objectif": "Proposer une synthèse méthodologique originale du livre : la « pédagogie du contact », un cadre actionnable pour les 90 jours suivant la lecture.",
+     "sections": [
+      "Définition de la pédagogie du contact : se rencontrer vraiment, ici et maintenant",
+      "Les 5 piliers : observer, mémoriser, ritualiser, transmettre, appartenir",
+      "L'errance créative : laisser de la place à l'imprévu éducatif",
+      "L'échec et la résilience sans tracking permanent : apprendre à tomber debout",
+      "Transmettre à son tour : partager son expérience sans devenir un influenceur",
+      "Épilogue : ce que l'enfant retiendra de nous, longtemps après avoir oublié nos applis"
+     ],
+     "exercices": [
+      "Plan d'action personnel sur 90 jours : 3 objectifs max (ex. : sevrer une appli, instaurer 1 rituel, activer 2 personnes du réseau), échéances écrites à la main",
+      "Le « contrat de contact » familial : 1 page signée, relu en famille le 1er du mois pendant 1 an",
+      "Cérémonie de clôture et de relance du projet familial sans applis : 1 heure, carnet, objet symbolique, parole de chacun",
+      "Invitation finale : écrire une lettre de remerciement à soi-même dans 5 ans, la sceller, la ranger au même endroit que les lettres aux enfants"
+     ]
+    }
+   ]
+  }
+ ]
+}

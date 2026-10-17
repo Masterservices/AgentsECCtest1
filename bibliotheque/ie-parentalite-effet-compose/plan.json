@@ -1,0 +1,596 @@
+{
+ "titre": "L'éducation à intérêt composé",
+ "sous_titre": "Trente secondes qui éduquent vraiment : comment des micro-gestes quotidiens, capitalisés sur une année, battent une heure de leçon — et comment ils s'essaiment entre frères et sœurs",
+ "bibliographie": [
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les changements durables viennent non pas de transformations radicales mais de systèmes de micro-habitudes répétées à forte fréquence.",
+   "apport": "Cadre des « identités-habitudes » et des boucles contexte-covnaitte-prix que le livre transpose aux micro-gestes parentaux de 30 secondes."
+  },
+  {
+   "auteur": "B. J. Fogg",
+   "titre": "Tiny Habits",
+   "annee": "2019",
+   "idee": "Une habitude se construit en branchant une micro-action (moins de 30 secondes) sur un ancrage quotidien déjà en place, avec une émotion positive immédiate.",
+   "apport": "Méthode « ancrage → micro-geste → célébration » au cœur des rituels de 30 secondes proposés au parent."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "L'esprit humain fonctionne avec un système rapide, intuitif et économe, et un système lent, réfléchi mais coûteux en énergie.",
+   "apport": "Explication des automatismes parentaux et de l'efficacité des gestes courts branchés sur le système 1 plutôt que des discours longs."
+  },
+  {
+   "auteur": "Walter Mischel",
+   "titre": "The Marshmallow Test",
+   "annee": "2014",
+   "idee": "La maîtrise de soi n'est pas un don fixe mais une compétence entraînable par des stratégies d'attention et de re-cadrage du contexte.",
+   "apport": "Appui pour entraîner patience et self-control via des micro-pratiques quotidiennes, sans promesse de performance scolaire."
+  },
+  {
+   "auteur": "Angela Duckworth",
+   "titre": "Grit",
+   "annee": "2016",
+   "idee": "La persévérance et la passion sur le long terme prédisent mieux la réussite que le talent brut ou le QI.",
+   "apport": "Notion de « graine de passion » : un intérêt nourri en 30 secondes par jour se capitalise en engagement durable."
+  },
+  {
+   "auteur": "Carol Dweck",
+   "titre": "Mindset",
+   "annee": "2006",
+   "idee": "La croyance selon laquelle les capacités se développent (état d'esprit « croissant ») favorise l'effort, l'apprentissage et la résilience face à l'échec.",
+   "apport": "Vocabulaire des micro-éloges de processus (effort, stratégie) à glisser dans les rituels de reconnaissance."
+  },
+  {
+   "auteur": "Stanislas Dehaene",
+   "titre": "Apprendre!",
+   "annee": "2018",
+   "idee": "L'apprentissage repose sur l'attention, l'engagement actif, l'erreur comme signal d'erreur, la consolidation et la transférabilité.",
+   "apport": "Ancrage scientifique des micro-leçons quotidiennes et de la répétition espacée sans surcharge cognitive."
+  },
+  {
+   "auteur": "Haim Omer",
+   "titre": "La psychologie de l'autorité",
+   "annee": "2006",
+   "idee": "L'autorité parentale se construit par la disponibilité, la présence valorisante et le retrait des gratifications, non par l'escalade verbale ou la force.",
+   "apport": "Fondements d'une autorité douce compatible avec des rituels courts : disponibilité quotidienne, attention non directive."
+  },
+  {
+   "auteur": "Adele Faber et Elaine Mazlish",
+   "titre": "Parler pour que les enfants écoutent, écouter pour que les enfants parlent",
+   "annee": "1980",
+   "idee": "Des phrases courtes, centrées sur les faits et les sentiments, changent la qualité du climat familial mieux que les longues morale.",
+   "apport": "Boîte à outils de formulations de 15 à 30 secondes : nommer, reformuler, offrir un choix, éviter le jugement global."
+  },
+  {
+   "auteur": "Alfie Kohn",
+   "titre": "Unconditional Parenting",
+   "annee": "2005",
+   "idee": "L'amour inconditionnel et l'autonomie favorisent le bien-être durable ; la sur-recompense conditionnelle érode la motivation intérieure.",
+   "apport": "Mise en garde contre la transformation des micro-gestes en système de primes et contre les intérêts négatifs (éloge manipulatoire, chantage)."
+  },
+  {
+   "auteur": "Daniel J. Siegel et Tina Payne Bryson",
+   "titre": "The Whole-Brain Child",
+   "annee": "2011",
+   "idee": "Reguler les émotions d'un enfant par la connexion avant la correction active le cerveau entier et rend l'apprentissage possible.",
+   "apport": "Séquences de 60 secondes maximum (connecter, nommer, résoudre) intégrées aux rituels de réparation après conflit."
+  },
+  {
+   "auteur": "Morgan Housel",
+   "titre": "The Psychology of Money",
+   "annee": "2020",
+   "idee": "La richesse se construit moins par des paris brillants que par des comportements modestes répétés longtemps (l'effet composé des décisions ordinaires).",
+   "apport": "Métaphore structurante du livre : l'intérêt composé financier appliqué à l'éducation, sans conseil d'investissement personnalisé."
+  },
+  {
+   "auteur": "Kim John Payne",
+   "titre": "Simplicity Parenting",
+   "annee": "2009",
+   "idee": "Réduire le chaos (rythmes, choix, environnement) abaisse le stress de l'enfant et libère de l'énergie pour les relations.",
+   "apport": "Design des micro-rituels : moins de routines, plus simples, plus prévisibles, plus faciles à tenir sur l'année."
+  },
+  {
+   "auteur": "Peter Gray",
+   "titre": "Free to Learn",
+   "annee": "2013",
+   "idee": "Le jeu libre autogéré est le moteur naturel d'apprentissage social, cognitif et émotionnel chez l'enfant.",
+   "apport": "Rituels de jeu libre de 30 secondes comme point d'entrée non coercitif de la relation parent-enfant."
+  },
+  {
+   "auteur": "Jessica Lahey",
+   "titre": "The Gift of Failure",
+   "annee": "2015",
+   "idee": "Protéger l'enfant de l'échec empêche l'acquisition de l'autonomie ; l'échec bien accompagné est un apprentissage.",
+   "apport": "Micro-messages d'accompagnement de l'erreur dans la routine quotidienne (pas de sauvetage immédiat, présence stable)."
+  },
+  {
+   "auteur": "Ross W. Greene",
+   "titre": "The Explosive Child",
+   "annee": "1998",
+   "idee": "Les crises viennent souvent d'un décalage entre les attentes et les capacités ; la résolution collaborative prévient l'escalade.",
+   "apport": "Protocoles courts de résolution de friction (Plan A/B/C adaptés) intégrés au quotidien plutôt qu'aux grandes scènes."
+  },
+  {
+   "auteur": "Kenneth H. Ginsburg",
+   "titre": "Building Resilience in Children and Teens",
+   "annee": "2011",
+   "idee": "La résilience se construit par la connexion, la compétence, le caractère, la contribution, le contrôle et le coping (les 6 C).",
+   "apport": "Grille d'évaluation annuelle des micro-gestes au service des compétences de résilience, pas seulement de la performance."
+  },
+  {
+   "auteur": "Stuart Brown",
+   "titre": "Play",
+   "annee": "2010",
+   "idee": "Le jeu n'est pas un luxe : il façonne le cerveau social, la flexibilité cognitive et la coopération.",
+   "apport": "Justification des rituels de jeu court comme capital relationnel entre frères et sœurs (essaimage)."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Inverser l'hypothèse : pourquoi les grands moments ne suffisent pas",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le mythe de la grande leçon",
+     "objectif": "Montrer pourquoi l'éducation repose trop souvent sur des interventions longues et mémorables, alors que la science de l'apprentissage et le quotidien familial plaident pour des gestes courts et répétés.",
+     "sections": [
+      "Le parent « preneur de parole » : mythes et attentes culturelles",
+      "Pourquoi une heure de morale le dimanche soir s'efface en 48 heures",
+      "Système 1 / système 2 : le cerveau du parent et celui de l'enfant au quotidien",
+      "Ce que l'effet composé financier éclaire (sans promesse magique)",
+      "Trois expériences de pensée : semaine type d'une famille",
+      "Limites et incertitudes de cette hypothèse inversée"
+     ],
+     "exercices": [
+      "Bilan « grandes leçons » : lister les 5 interventions longues du mois et leur effet réel observé la semaine suivante",
+      "Cartographie de l'attention : noter pendant 3 jours les moments où l'enfant écoutait vraiment vs. où il encaissait",
+      "Note de clarification : écrire en 10 lignes ce que le livre ne promet pas (pas de garantie, pas de conseil médical/juridique/fiscal)"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Trente secondes : l'unité de mesure invisible",
+     "objectif": "Définir la micro-unité d'intervention (environ 30 secondes), justifier sa puissance par la fréquence, la faisabilité et la mémoire procédurale, et poser le vocabulaire commun du livre.",
+     "sections": [
+      "Anatomie d'un micro-geste : durée, clarté, non-verbal, émotion",
+      "Fréquence × durée : le calcul simple qui change tout",
+      "Attention, répétition, automatisation : ce que la neurosciences établit (et ce qu'elle ne tranche pas)",
+      "Micro-geste vs micro-management : la frontière éthique",
+      "Choisir un premier geste-test pour la semaine",
+      "Incertitudes : quand 30 secondes ne suffisent pas"
+     ],
+     "exercices": [
+      "Inventaire personnel : 20 micro-gestes déjà utilisés (voulu ou non) dans votre famille",
+      "Test « trois-fois-par-jour » : choisir un geste de 30 secondes et le noter 7 jours sur une grille simple",
+      "Durée réelle : chronométrer 10 interactions typiques (bonjour, consigne, transition) et comparer au ressenti"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Le capital invisible : habitudes du parent, habitudes de l'enfant",
+     "objectif": "Introduire la notion de capital d'habitudes cumulées, distinguant les habitudes du parent (disponibilité, ton, rituel) et celles de l'enfant, et montrer comment elles se capitalisent ou s'annulent.",
+     "sections": [
+      "Habitudes parentales : ton de voix, présence, constance des règles",
+      "Habitudes de l'enfant : routines de sommeil, rangement express, transition douce",
+      "Le capital compound : petite avance quotidienne vs. gros efforts occasionnels",
+      "Identité et réputation familiale : « nous, ici, on fait… »",
+      "Journal des micro-gestes : l'outil de base du livre",
+      "Ce que la recherche ne permet pas d'affirmer (corrélations vs. causalité)"
+     ],
+     "exercices": [
+      "Ouverture d'un journal de micro-gestes (format papier ou fichier simple) : date, geste, réponse observée, émotion du parent",
+      "Définir 3 « habitudes-mères » familiales en une phrase chacune (ex. : on se dit bonjour en se regardant)",
+      "Mesure de base (avant) : noter sur 1 semaine une cible choisie (ex. : nombre de cris le matin) sans rien changer d'autre"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Intérêts négatifs : ce qui ronge le capital",
+     "objectif": "Identifier les « intérêts composés négatifs » — micro-agressions répétées, incohérences, écrans en bruit de fond, promesses non tenues — qui érodent le capital éducatif plus vite qu'on ne le bâtit.",
+     "sections": [
+      "Définition : l'intérêt négatif dans la métaphore financière",
+      "Dette éducative quotidienne : cris matinals, menaces vides, négociations interminables",
+      "L'attention partagée en continu : smartphones, TV en fond, notifications",
+      "Incohérence comme frais de gestion cachés",
+      "Boucles d'évitement : le soulagement court qui paie cher à long terme",
+      "Prioriser : éliminer un négatif avant d'ajouter un positif"
+     ],
+     "exercices": [
+      "Audit des négatifs : lister 10 micro-érosions récurrentes sur 5 jours (ton, retards, promesses, écrans)",
+      "Choisir un seul « négatif » à réduire cette semaine et définir un substitut de 30 secondes",
+      "Compte mental : estimer le temps total passé en escalades verbales sur la semaine passée"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Les rituels de 30 secondes : conception et installation",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Rituels du matin et du soir : les deux piliers",
+     "objectif": "Construire des micro-rituels d'ouverture et de fermeture de journée, courts, stables et agréables, qui captent l'attention au meilleur moment.",
+     "sections": [
+      "Pourquoi matin et soir concentrent le capital relationnel",
+      "Rituel d'arrivée : 30 secondes de contact avant toute consigne",
+      "Rituel de départ : une question, un souhait, un silence partagé",
+      "Coucher : rituel court vs. négociation longue",
+      "Adaptation selon âge (toute petite enfance, primaire, adolescent)",
+      "Reprise après une journée ratée : le rituel de réparation"
+     ],
+     "exercices": [
+      "Prototyper 3 variantes du rituel du matin (7 jours, noter celle qui tient)",
+      "Script de 30 secondes pour le coucher : 3 phrases max + geste",
+      "Rituel de réparation : le tester après un conflit réel et noter ce qui a marché"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Rituels de transition : lever, table, devoirs, sortie",
+     "objectif": "Transformer les moments de friction récurrents (levée, repas, homework, départ) en micro-rituels prévisibles qui réduisent les escalades.",
+     "sections": [
+      "Les transitions comme zones grises : d'où viennent les crises",
+      "Compte à rebours visuels, sons de signal, gestes-symboliques",
+      "Le rituel des chaussures / des sacs / des écrans éteints",
+      "À table : 30 secondes de gratitude ou de tour de table sans en faire un tribunal",
+      "Devoirs : rituel d'ancrage (posture, matériel, première tâche)",
+      "Quand le rituel casse : protocole de redémarrage simple"
+     ],
+     "exercices": [
+      "Cartographier 5 transitions quotidiennes et leur niveau de friction (1 à 10)",
+      "Installer un seul signal de transition sur 10 jours (objet, son, minuteur)",
+      "Journal de friction : noter avant/après sur la cible choisie"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Rituels de langage : nommer, reformuler, choisir",
+     "objectif": "Offrir un répertoire de phrases de 15 à 30 secondes pour remplacer morale longues, cris et menaces, en s'appuyant sur des formulations établies (sans citer de longs passages protégés).",
+     "sections": [
+      "Nommer l'émotion sans l'amplifier",
+      "Reformuler en une phrase : montrer qu'on a entendu",
+      "Consighe courtes : impératif, positif, précis",
+      "Éloges de processus vs. éloges de personne",
+      "Offrir deux choix et laisser le silence faire le travail",
+      "Ce qu'il ne faut pas dire en 30 secondes (et pourquoi)"
+     ],
+     "exercices": [
+      "Phrasebook familial : écrire 15 formulations personnelles sur carte ou note téléphone",
+      "Jeu des deux phrases : reformuler ses 5 répliques préférées en versions courtes",
+      "Défi une semaine : remplacer chaque « non + justification longue » par une phrase courte + une offre de choix"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Rituels du corps et du jeu : se reconnecter sans discours",
+     "objectif": "Utiliser le jeu, le toucher adapté et le mouvement comme micro-gestes non verbaux qui rétablissent le lien et préparent l'apprentissage.",
+     "sections": [
+      "Le jeu comme langage naturel de l'enfant",
+      "30 secondes de fou rire, de mini-jeu, de course aux chaussettes",
+      "Contact physique respectueux et consentement familial",
+      "Respiration courte et ancrage corporel (sans promesse thérapeutique)",
+      "Rituels d'activité physique quotidienne intégrés au quotidien",
+      "Limites : jouer sans instrumentaliser, respecter le refus"
+     ],
+     "exercices": [
+      "Liste de 10 mini-jeux de 30 secondes testables par âge",
+      "Rituel « retour d'école » non verbal (jeu ou silence partagé) pendant 7 jours",
+      "Auto-observation : noter l'effet sur l'humeur du parent autant que sur celle de l'enfant"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Capitalisation : faire fructifier les micro-gestes",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "L'effet composé appliqué à l'année familiale",
+     "objectif": "Modéliser comment un geste de 30 secondes, répété plusieurs fois par jour, se capitalise en habitudes, en climat familial et en compétences, sans promettre de résultats garantis.",
+     "sections": [
+      "Calculs simples : 40 secondes × 3 × 365 jours",
+      "Capital vs. intérêts : distinguer la pratique initiale de ses effets cumulés",
+      "Horizon temporel : les 30, 90 et 365 jours",
+      "Effets non linéaires et retours décroissants (honnêteté du modèle)",
+      "Comparer avec d'autres métriques familiales (heures de screen time, etc.)",
+      "Tableau de bord annuel : ce qu'on suit et ce qu'on ne suit pas"
+     ],
+     "exercices": [
+      "Calculateur personnel : choisir un geste et estimer le volume annuel",
+      "Plan 90 jours : séquencer installation (mois 1), stabilisation (mois 2), extension (mois 3)",
+      "Entretien familial de 10 minutes : présenter le projet aux enfants en langage simple"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Ancrage, automatique, transfert",
+     "objectif": "Passer du geste volontaire (coûteux) à l'habitude automatisée, puis au transfert vers de nouveaux contextes (école, grand-parents, activités).",
+     "sections": [
+      "La boucle : contexte, comportement, récompense interne",
+      "Durcir ou assouplir l'ancrage quand la vie change (week-end, vacances, maladie)",
+      "Désancrage des mauvaises habitudes sans violence",
+      "Transfert : du salon à la voiture, du week-end au mercredi",
+      "Former un second adulte (autre parent, aide, grand-parent) au même rituel",
+      "Signaux d'alarme : l'habitude qui devient mécanique et perd son sens"
+     ],
+     "exercices": [
+      "Carte d'ancrage : écrire contexte → micro-geste → émotion visée pour 3 rituels",
+      "Expérience de transfert : appliquer un rituel du dimanche au mercredi et noter les obstacles",
+      "Entretien de 5 minutes avec un autre adulte pour aligner un rituel-clé"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Motivation intérieure, éloges, récompenses : éviter les effets pervers",
+     "objectif": "Éviter que les micro-gestes ne dégénèrent en système de contrôle, de primes ou de culpabilité, en s'appuyant sur la recherche sur la motivation et les éloges conditionnels.",
+     "sections": [
+      "Autodétermination : autonomie, compétence, lien",
+      "Éloge de processus : quand, comment, à quel dosage",
+      "Récompenses tangibles : le risque de saper l'intérêt intrinsèque",
+      "Le piège du scoreboard familial (points, tableaux, étoiles)",
+      "Journal intérieur du parent : noter ses propres biais de validation",
+      "Quand l'enfant refuse le rituel : options et respect"
+     ],
+     "exercices": [
+      "Audit des éloges de la semaine : catégoriser (personne / résultat / processus / inutile)",
+      "Essai de 7 jours : remplacer 50 % des récompenses par une reconnaissance descriptive courte",
+      "Questionnaire interne : « est-ce que mon rituel sert l'enfant ou mon calme ? » réponse écrite"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Rituels de réparation : quand la journée est ratée",
+     "objectif": "Fournir des micro-protocoles de réparation après crise, oubli ou incohérence, pour protéger le capital au lieu de le laisser s'effondrer.",
+     "sections": [
+      "Réparer en 30 secondes : reconnaître, s'excuser sans sur-excuse, proposer la suite",
+      "Le rituel du « on recommence »",
+      "Guilt parental : distinguer regret utile et rumination stérile",
+      "Réparer entre frères et sœurs (introduction à l'essaimage)",
+      "Soirée de bilan de 3 minutes pour le parent seul",
+      "Ce que la réparation ne répare pas : les limites du micro-geste"
+     ],
+     "exercices": [
+      "Script personnel d'excuse courte (3 versions : au conjoint, à l'enfant, à la famille)",
+      "Bilan de 3 minutes pendant 7 soirs (grille en 4 cases)",
+      "Après une crise réelle : noter le micro-geste de réparation et l'effet à 24 h"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Effet de seuil : la patience avant le déclic",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Sous le seuil : ce qui semble ne rien faire",
+     "objectif": "Comprendre les longues périodes où les micro-gestes ne produisent aucun effet visible, et comment interpréter cette « stagnation » sans tout abandonner.",
+     "sections": [
+      "Le plateau de l'apprentissage et de l'habitude",
+      "Ce que l'enfant absorbe hors de notre radar (modélisation, écoute passive)",
+      "Effets de seuil dans le développement : données établies vs. folklore parental",
+      "Illusion d'insuccès : biais d'observation du parent",
+      "Mesurer autrement : indicateurs faibles (ton, initiative, durée des conflits)",
+      "Quand persister et quand changer de tactique"
+     ],
+     "exercices": [
+      "Tableau des « rien ne se passe » : 14 jours de micro-gestes sans juger la réponse immédiate",
+      "Recherche d'indicateurs faibles : 5 signaux à observer en arrière-plan",
+      "Décision de maintien : critères écrits avant de baisser les bras"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Au-dessus du seuil : reconnaître les micro-bascules",
+     "objectif": "Identifier les premiers signes de bascule (autonomie naissante, imitation, verbalisation) et renforcer le bon geste au bon moment.",
+     "sections": [
+      "Signaux : l'enfant initie, imite, anticipe, verbalise",
+      "Renforcement naturel : laisser l'enfant profiter de sa propre réussite",
+      "Fenêtres de sensibilité : âges et contextes où un geste « prend » mieux",
+      "Sur-solliciter le succès : le tuer par trop d'attention",
+      "Partager la bascule avec le conjoint sans en faire un trophée",
+      "Limite : chaque enfant a son calendrier"
+     ],
+     "exercices": [
+      "Journal des micro-bascules : noter toute initiative de l'enfant liée au rituel",
+      "Après une bascule : ne rien ajouter (pas de discours) et observer 48 h",
+      "Carte individuelle par enfant (si plusieurs) : rythmes et sensibilités propres"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Seuils familiaux : règles, limites et rituels qui basculent",
+     "objectif": "Traiter les moments où le seuil n'est pas dans l'enfant mais dans le système familial (règles floues, deux parents désalignés, rythmes trop chargés).",
+     "sections": [
+      "Règles explicites : trop peu vs. trop many",
+      "Alignement parental en 10 minutes par semaine",
+      "Charge familiale : le rituel qui meurt par excès d'activité",
+      "Seuils culturels et intergénérationnels (grands-parents, école)",
+      "Négocier un rituel avec un adolescent",
+      "Quand un professionnel est utile : repères généraux (sans conseil personnalisé)"
+     ],
+     "exercices": [
+      "Réunion parentale de 15 minutes : 3 règles, 1 rituel, 1 négociation",
+      "Audit de charge : supprimer une activité au profit d'un rituel existant",
+      "Grille d'alignement : noter pendant 2 semaines les divergences de ton ou de limites entre adultes"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Patience active : tenir sur 100 jours",
+     "objectif": "Donner un protocole de longue haleine (100 jours) pour traverser les plateaux sans se décourager, avec revues périodiques et ajustements légers.",
+     "sections": [
+      "Le pacte des 100 jours : engagement écrit et réaliste",
+      "Revue à 21, 50 et 100 jours : ce qu'on garde, ce qu'on allège",
+      "Ajuster sans trahir : changer le contenant, garder l'intention",
+      "Événements perturbateurs : maladie, déménagement, examens, deuil",
+      "Soutien externe : lecture, groupe de pairs, journal",
+      "Clôture : célébrer le processus, pas un score miraculeux"
+     ],
+     "exercices": [
+      "Contrat personnel 100 jours (une page, signé pour soi)",
+      "Jalons dans le calendrier avec questions de revue prêtes à l'avance",
+      "Plan de reprise « après une semaine blanche » (pas de rattrapage punitif)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Essaimage fraternel : quand un geste en sème d'autres",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Mécanismes d'essaimage entre frères et sœurs",
+     "objectif": "Expliquer comment un micro-geste installé chez un enfant peut se diffuser aux autres (modélisation, imitation, jeu, rivalité) et comment favoriser cette contagion positive.",
+     "sections": [
+      "Imitation et modèle : ce que la psychologie du développement établit",
+      "L'enfant « ambassadeur » : sans faire de lui un préfet",
+      "Jeux de rôle et scénarios à deux",
+      "Contagion émotionnelle positive (et négative)",
+      "Rivalité : when essaimage échoue ou se retourne",
+      "Âges et dyades : fratrie rapprochée vs. écartée"
+     ],
+     "exercices": [
+      "Observer 5 jours : noter toute imitation spontanée entre frères/sœurs",
+      "Créer un micro-jeu à deux que l'aîné peut « apprendre » au cadet",
+      "Carte des dyades : qui apprend de qui, sur quel sujet"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Design de rituels « contagieux »",
+     "objectif": "Concevoir des micro-rituels spécifiquement pensés pour se transmettre entre enfants (pas seulement parent→enfant).",
+     "sections": [
+      "Caractéristiques d'un rituel contagieux : court, visible, répétable, amusant, sans enjeu de statut",
+      "Rituels à tours de rôle, rituels de passe, rituels secret de famille",
+      "Supports matiériels : minuteur, carte, boîte à gestes",
+      "Espaces : la chambre, la voiture, la cuisine comme laboratoires",
+      "Protéger le cadet de la comparaison",
+      "Mesurer l'essaimage : indicateurs simples"
+     ],
+     "exercices": [
+      "Co-construire avec les enfants 2 rituels fraternels de 30 secondes",
+      "Test d'une semaine : noter qui l'initie, qui l'adapte, qui l'arrête",
+      "Boîte à gestes : fiches rituels à piocher le soir"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Conflits fraternels : le micro-geste comme outil de désamorçage",
+     "objectif": "Utiliser des protocoles courts de médiation parentale et d'auto-médiation entre enfants, sans tribunal permanent.",
+     "sections": [
+      "Séquence 60 secondes : séparer, calmer, écouter chacun, formuler une issue",
+      "Mots de la famille : code court (« rouge », « pause », « on répare »)",
+      "Qui parle en premier : éviter le jeu du mouton noir",
+      "Rituels de co-résolution : 3 questions, 1 minute",
+      "Quand intervenir et quand s'effacer",
+      "Après la tempête : rituel de réparation fraternel"
+     ],
+     "exercices": [
+      "Fiche « protocole 60 secondes » affichée (ou mémo poche)",
+      "Jeu des trois questions à pratiquer à froid (pas pendant la crise)",
+      "Bilan hebdomadaire des conflits : fréquence, durée, mode de résolution"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Essaimage vers l'extérieur : école, amis, quartier",
+     "objectif": "Montrer comment les micro-habitudes familiales peuvent se transférer hors de la maison, sans surcontrôler ni envahir les autres milieux.",
+     "sections": [
+      "Ce qui se transfère : ton, initiative, politesse active, gestion de la transition",
+      "Ce qui ne se transfère pas : les règles trop contextuelles",
+      "L'enfant comme porteur discret de compétences",
+      "Communication avec l'école : dire peu, observer beaucoup",
+      "Protéger l'enfant du rôle de « modèle imposé »",
+      "Limite : le foyer n'est pas une école d'élite permanente"
+     ],
+     "exercices": [
+      "Liste de 3 compétences à observer chez l'enfant hors domicile (sans interroger l'enfant)",
+      "Message court à un enseignant ou éducateur (si pertinent) : demander un simple retour",
+      "Soirée « hors mur » : raconter une situation externe en 5 minutes sans moraliser"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Mesure sur l'année : journaux, protocoles, revues",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Journal de micro-gestes : outils et discipline d'écriture",
+     "objectif": "Fournir des modèles concrets de journaux (papier, tableur simple) pour suivre les micro-gestes sans y passer sa vie, avec règles d'or et anti-systèmes.",
+     "sections": [
+      "Anatomie d'une fiche : date, geste, contexte, réponse, note parent (1 minute max)",
+      "Fréquence d'écriture : quotidien court vs. hebdomadaire synthèse",
+      "Ce qu'on ne note pas (et pourquoi)",
+      "Outils : carnet, tableur, application basique — sans obsession tech",
+      "Confidentialité et respect de l'enfant : les données familiales",
+      "Relire : mécanisme de capitalisation du journal lui-même"
+     ],
+     "exercices": [
+      "Créer le journal (modèle fourni en annexe du livre) et remplir 7 jours",
+      "Test du « une minute » : temps moyen par fiche, ajuster le format",
+      "Première relecture mensuelle : 3 observations, 1 ajustement"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Protocoles de suivi hebdomadaire et mensuel",
+     "objectif": "Installer un rythme de revue court et régulier (15 à 30 minutes) pour piloter le système familial sans se noyer dans les données.",
+     "sections": [
+      "Agenda de revue : quand, où, durée, participants",
+      "Revue individuelle du parent : 10 minutes, 4 questions",
+      "Revue en couple ou entre adultes référents : 15 minutes",
+      "Revue familiale avec enfants : version courte et inclusive",
+      "Indicateurs de tableau de bord : 5 max",
+      "Ajustements : changer une variable à la fois"
+     ],
+     "exercices": [
+      "Modèle de feuille de revue hebdomadaire (à photocopier ou dupliquer)",
+      "Première revue mensuelle complète avec compte rendu de 5 lignes",
+      "Plan d'ajustement : une modification pour les 14 prochains jours"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Exercices d'application par saison de l'année",
+     "objectif": "Décliner le système sur douze mois avec des exercices hebdomadaires adaptés aux saisons scolaires, aux vacances et aux perturbations prévisibles.",
+     "sections": [
+      "Automne : installation et stabilisation des rituels de rentrée",
+      "Hiver : énergie basse, rituels chauds, lumières, patience",
+      "Printemps : fatigue scolaire, micro-motivation, bilan de mi-parcours",
+      "Été : simplicité, vacances, transferts vers d'autres adultes",
+      "Semaines tests : 4 expérimentations par trimestre",
+      "Banque d'exercices hebdomadaires (26 idées prêtes à l'emploi)"
+     ],
+     "exercices": [
+      "Planificateur saisonnier : 12 expériences de micro-gestes à placer dans l'année",
+      "Semaine test n°1 (à choisir) : objectif, geste, mesure, verdict",
+      "Rituel de vacances : un geste qui voyage dans la valise"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Horizon long : élever sans se rigidifier",
+     "objectif": "Clôturer le livre en rappelant la finalité : des relations de qualité et des enfants qui deviennent autonomes, pas une performance de parents-parfaits ; donner des critères de sortie et de transmission.",
+     "sections": [
+      "Vers l'âge adulte : quels micro-gestes garder, lesquels lâcher",
+      "La liberté progressive : retirer le rituel qui est devenu une béquille",
+      "Transmettre le système sans dogme : ni mode, ni religion parentale",
+      "Erreur et indulgence : le capital se reconstruit",
+      "Ce que la recherche permet encore de dire, et ce qui reste ouvert",
+      "Dernière page : une promesse raisonnable, sans garantie"
+     ],
+     "exercices": [
+      "Lettre à soi dans 5 ans : ce que je veux avoir cultivé en micro-gestes",
+      "Inventaire final de capital : 10 habitudes familiales à préserver, 5 à abandonner",
+      "Cérémonie de clôture familiale de 10 minutes (une seule, pas un spectacle)"
+     ]
+    }
+   ]
+  }
+ ]
+}
