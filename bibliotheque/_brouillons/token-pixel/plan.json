@@ -1,0 +1,605 @@
+{
+ "titre": "Du Token au Pixel : Transformer un Grand Modèle de Langage en Générateur d'Images",
+ "sous_titre": "Tokenisation visuelle, modélisation autorégressive, budget computationnel et protocoles pratiques pour ingénieurs et chercheurs en apprentissage automatique",
+ "bibliographie": [
+  {
+   "auteur": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+   "titre": "Deep Learning",
+   "annee": "2016",
+   "idee": "Fondements mathématiques des réseaux de neurones : représentation, régularisation, optimisation et modèles génératifs (VAE, GAN, flux).",
+   "apport": "Cadre théorique pour formaliser la distribution jointe p(x,y) entre tokens textuels et représentations visuelles latentes ; bases des VAE réutilisées dans la tokenisation."
+  },
+  {
+   "auteur": "Aurélien Géron",
+   "titre": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow (3e éd.)",
+   "annee": "2022",
+   "idee": "Guide pratique couvrant CNN, auto-encodeurs, GAN, transformers et déploiement, avec du code exécutable à chaque étape.",
+   "apport": "Méthodologie d'expérimentation reproductible, gestion des pipelines d'entraînement et astuces d'ingénierie reprises dans nos protocoles pratiques."
+  },
+  {
+   "auteur": "François Chollet",
+   "titre": "Deep Learning with Python (2e éd.)",
+   "annee": "2021",
+   "idee": "Introduction intuitive aux architectures profondes, insistant sur la représentation des données et la créativité computationnelle.",
+   "apport": "Approche pédagogique de la représentation discrète vs continue ; inspiration pour les schémas de raisonnement token→pixel."
+  },
+  {
+   "auteur": "David Foster",
+   "titre": "Generative Deep Learning (2e éd.)",
+   "annee": "2022",
+   "idee": "Panorama des modèles génératifs : VAE, GAN, modèles de diffusion, transformers génératifs, avec implémentations PyTorch.",
+   "apport": "Comparaison structurée diffusion vs autoregression ; chapitres sur VQ-VAE et DALL·E directement exploités pour la partie tokenisation."
+  },
+  {
+   "auteur": "Lewis Tunstall, Leandro von Werra, Thomas Wolf",
+   "titre": "Natural Language Processing with Transformers",
+   "annee": "2022",
+   "idee": "Guide pratique des transformers via la bibliothèque Hugging Face : tokenisation, fine-tuning, génération et déploiement.",
+   "apport": "Mécaniques internes du tokenizer et de la génération autoregressive ; base pour adapter un LLM pré-entraîné à une nouvelle modalité."
+  },
+  {
+   "auteur": "Denis Rothman",
+   "titre": "Transformers for Natural Language Processing and Computer Vision (2e éd.)",
+   "annee": "2023",
+   "idee": "Extension des transformers à la vision : ViT, BEiT, modèles multimodaux, et intégration texte-image.",
+   "apport": "Architecture ViT et patchification ; concepts de position embedding 2D réutilisés pour le balayage raster vs serpentin."
+  },
+  {
+   "auteur": "Kevin P. Murphy",
+   "titre": "Probabilistic Machine Learning: Advanced Topics",
+   "annee": "2023",
+   "idee": "Traitement probabiliste avancé : modèles à variables latentes, VQ-VAE, modèles autoregressifs, diffusion et normalizing flows.",
+   "apport": "Formalisation mathématique de la quantification vectorielle et de la vraisemblance des modèles discrets ; calculs de budget en bits/token."
+  },
+  {
+   "auteur": "Simon J. D. Prince",
+   "titre": "Understanding Deep Learning",
+   "annee": "2023",
+   "idee": "Synthèse moderne couvrant transformers, diffusion, VQ-GAN, multimodalité et grands modèles, avec exercices.",
+   "apport": "Chapitres sur la tokenisation visuelle et les codebooks ; schémas pédagogiques adaptés à nos figures de raisonnement."
+  },
+  {
+   "auteur": "Mohamed Elgendy",
+   "titre": "Deep Learning for Vision Systems",
+   "annee": "2020",
+   "idee": "Architectures CNN et vision par ordinateur : classification, détection, segmentation, GAN et transfert de style.",
+   "apport": "Compréhension des représentations convolutionnelles pré-tokenisation ; base pour le chapitre sur les inducteurs visuels (CNN backbone)."
+  },
+  {
+   "auteur": "Jakub Langr, Vladimir Bok",
+   "titre": "GANs in Action",
+   "annee": "2019",
+   "idee": "Implémentation progressive de GAN : DCGAN, WGAN, StyleGAN, avec PyTorch.",
+   "apport": "Contrepoint génératif : comprendre ce que la diffusion et l'autoregression remplacent ou complètent par rapport aux GAN."
+  },
+  {
+   "auteur": "Christopher M. Bishop",
+   "titre": "Pattern Recognition and Machine Learning",
+   "annee": "2006",
+   "idee": "Fondements statistiques : modèles graphiques, inférence variationnelle, mélange de distributions, kernels.",
+   "apport": "Cadre d'inférence variationnelle nécessaire à la compréhension des VAE et de la borne ELBO utilisée dans les tokenizers."
+  },
+  {
+   "auteur": "David J. C. MacKay",
+   "titre": "Information Theory, Inference, and Learning Algorithms",
+   "annee": "2003",
+   "idee": "Théorie de l'information, codage, entropie, modèles de Markov cachés et réseaux de neurones.",
+   "apport": "Calculs d'entropie et de redondance pour dimensionner le codebook ; lien bits/token/pixel utilisé dans les budgets computationnels."
+  },
+  {
+   "auteur": "Daniel Jurafsky, James H. Martin",
+   "titre": "Speech and Language Processing (3e éd., draft en ligne)",
+   "annee": "2024 (draft)",
+   "idee": "Référence NLP : tokenisation BPE/SentencePiece, transformers, génération de texte, modèles multimodaux.",
+   "apport": "Mécanique BPE et gestion du vocabulaire ; analogie directe avec la construction d'un vocabulaire visuel discret."
+  },
+  {
+   "auteur": "Trevor Hastie, Robert Tibshirani, Jerome Friedman",
+   "titre": "The Elements of Statistical Learning (2e éd.)",
+   "annee": "2009",
+   "idee": "Apprentissage statistique : régression, classification, SVM, forêts, boosting, sélection de modèles.",
+   "apport": "Critères de sélection de modèle et validation croisée appliqués au choix de la taille de codebook et de la résolution de patch."
+  },
+  {
+   "auteur": "Alec Radford et al. (OpenAI) — document technique associé",
+   "titre": "Learning Transferable Visual Models From Natural Language Supervision (CLIP)",
+   "annee": "2021",
+   "idee": "Alignement contraste texte-image via un espace d'embedding partagé ; base de DALL·E et des scoreurs CLIP.",
+   "apport": "Principe d'embedding partagé et de CLIP-score pour l'évaluation ; architecture de cross-attention texte→image. (Note : article, non livre ; incertitude sur le format exact de publication.)"
+  },
+  {
+   "auteur": "Aditya Ramesh et al. (OpenAI) — document technique associé",
+   "titre": "Zero-Shot Text-to-Image Generation (DALL·E)",
+   "annee": "2021",
+   "idee": "Génération autoregressive d'images via tokens VQ-VAE et un transformer GPT-like sur un vocabulaire unifié texte+image.",
+   "apport": "Preuve de concept centrale du livre : un LLM peut générer des images si on lui fournit un tokenizer visuel adéquat. (Article ; incertitude sur détails d'implémentation non publiés.)"
+  },
+  {
+   "auteur": "Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer",
+   "titre": "High-Resolution Image Synthesis with Latent Diffusion Models (Stable Diffusion)",
+   "annee": "2022",
+   "idee": "Diffusion dans un espace latent compressé par auto-encodeur, conditionnée par texte via cross-attention.",
+   "apport": "Contrepoint diffusion : comprendre les compromis qualité/coût entre diffusion latente et autoregression pure. (Article ; chiffres FID à vérifier.)"
+  },
+  {
+   "auteur": "Andreas Blattmann, Robin Rombach et al.",
+   "titre": "Stable Video Diffusion / travaux associés sur la tokenisation continue",
+   "annee": "2023",
+   "idee": "Extension des modèles latents à la vidéo et exploration de tokenizers continus vs discrets.",
+   "apport": "Discussion sur les tokenizers continus (KL-regularized) comme alternative aux codebooks discrets. (Incertitude : détails complets non tous publiés.)"
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Fondations : le Token, le Pixel et la Représentation",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Anatomie d'un LLM : de l'embedding au next-token prediction",
+     "objectif": "Établir une compréhension opérationnelle de l'architecture transformer décodeur afin d'identifier les points d'extension vers la modalité visuelle.",
+     "sections": [
+      "1.1 — Le transformer décodeur : attention causale, couches feed-forward, normalisation",
+      "1.2 — Tokenisation textuelle : BPE, SentencePiece, WordPiece et taille de vocabulaire",
+      "1.3 — Embeddings positionnels : absolus, relatifs, RoPE, ALiBi",
+      "1.4 — La fonction objectif next-token : entropie croisée et température d'échantillonnage",
+      "1.5 — Pourquoi un LLM est « modalement agnostique » : la séquence comme abstraction universelle",
+      "1.6 — Cartographie des points d'injection : où brancher un signal visuel"
+     ],
+     "exercices": [
+      "Tracer à la main le flux d'un token à travers 2 couches d'un GPT minimal (dim 64, 4 têtes).",
+      "Calculer la taille mémoire d'un embedding de vocabulaire 50k × dim 1024 en FP16.",
+      "Modifier un tokenizer BPE (bibliothèque tokenizers) pour y injecter 8 192 tokens visuels fictifs et mesurer l'impact sur la taille du modèle."
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Le pixel comme signal : résolution, canaux, entropie et redondance",
+     "objectif": "Formaliser la nature statistique du pixel pour justifier la nécessité d'une compression avant modélisation autoregressive.",
+     "sections": [
+      "2.1 — L'image comme tenseur : H × W × C, espaces colorimétriques (RGB, YCbCr, Lab)",
+      "2.2 — Entropie d'une image naturelle : estimation, corrélations spatiales, redondance",
+      "2.3 — Coût brut de la modélisation pixel-par-pixel : 256³ niveaux, séquence de H·W·C tokens",
+      "2.4 — Transformées classiques (DCT, ondelettes) comme pré-compression",
+      "2.5 — Du pixel brut au patch : première réduction de dimension",
+      "2.6 — Pourquoi 1 024 tokens suffisent (parfois) pour une image 256 × 256"
+     ],
+     "exercices": [
+      "Calculer l'entropie empirique d'une image 64 × 64 en niveaux de gris via un histogramme.",
+      "Estimer le nombre de tokens nécessaires pour une image 512 × 512 × 3 en pixels bruts vs patches 16 × 16.",
+      "Écrire un script Python qui affiche la carte de chaleur d'autocorrélation spatiale d'une image naturelle."
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "La relation token ↔ pixel : formalisation et premiers calculs",
+     "objectif": "Définir rigoureusement la correspondance entre un indice de token discret et un bloc de pixels, et établir les équations de budget.",
+     "sections": [
+      "3.1 — Définition formelle : token t_i ↔ région R_i de l'image, fonction de décodage D(t_i) → R_i",
+      "3.2 — Résolution effective : lien entre taille du patch p, résolution H × W et nombre de tokens N = (H/p)·(W/p)",
+      "3.3 — Le codebook comme dictionnaire : K entrées, dimension d, capacité expressive K^N",
+      "3.4 — Bits par pixel (bpp) vs bits par token : formules de conversion",
+      "3.5 — Surcoût de la quantification : erreur de reconstruction et distorsion rate-distortion",
+      "3.6 — Tableau de correspondance : 16 × 16, 32 × 32, 64 × 64 patches pour 256, 512, 1024 px"
+     ],
+     "exercices": [
+      "Construire le tableau budget : pour chaque résolution (256, 512, 1024) et chaque taille de patch (8, 16, 32), calculer N tokens, bpp et taille mémoire du codebook.",
+      "Démontrer sur papier que doubler la résolution quadruple le nombre de tokens à patch constant.",
+      "Implémenter une fonction budget_tokens(H, W, p, K) qui retourne le nombre de tokens, les bpp et la taille du codebook."
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Panorama des approches génératives : autoregression, diffusion, GAN, flux",
+     "objectif": "Situer la génération autoregressive par tokens dans l'écosystème des modèles génératifs et identifier ses avantages et limites comparatives.",
+     "sections": [
+      "4.1 — Modèles autoregressifs : factorisation chaîne de p(x), PixR, ImageGPT, DALL·E 1",
+      "4.2 — Modèles de diffusion : DDPM, score matching, Stable Diffusion, DiT",
+      "4.3 — GAN et modèles à base d'énergie : ModeGAN, StyleGAN3",
+      "4.4 — Normalizing flows et modèles continus : Glow, Flow Matching",
+      "4.5 — Hybrides : MAR, Transfusion, Chameleon — mélanger autoregression et diffusion",
+      "4.6 — Critères de choix : qualité, coût, contrôle, scalabilité",
+      "4.7 — Pourquoi l'autoregression sur tokens est naturelle pour un LLM existant"
+     ],
+     "exercices": [
+      "Remplir un tableau comparatif (qualité FID, coût inférence, parallélisme, contrôle) pour 4 familles de modèles.",
+      "Estimer le nombre de FLOPs pour générer une image 256 × 256 en autoregression (1 024 étapes) vs diffusion latente (50 étapes).",
+      "Rédiger un mémo d'une page : « Pourquoi adapter un LLM en générateur d'images plutôt que partir d'une architecture diffusion ? »"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Tokenisation Visuelle : du Continu au Discret",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Auto-encodeurs et VAE : compresser l'image avant de la tokeniser",
+     "objectif": "Maîtriser les auto-encodeurs variationnels comme première étape de compression vers un espace latent exploitable par un LLM.",
+     "sections": [
+      "5.1 — Auto-encodeur convolutif : encodeur, goulot, décodeur, perte de reconstruction",
+      "5.2 — VAE : borne ELBO, régularisation KL, espace latent continu",
+      "5.3 — VQ-VAE (van den Oord et al., 2017) : quantification vectorielle, straight-through estimator",
+      "5.4 — Fonction de perte VQ : commitment loss, codebook loss, EMA updates",
+      "5.5 — Choix de la dimension latente et du taux de compression (×4, ×8, ×16)",
+      "5.6 — Reconstruction et artefacts : mesurer la fidélité du tokenizer"
+     ],
+     "exercices": [
+      "Entraîner un VQ-VAE sur CIFAR-10 avec un codebook de 512 entrées et mesurer le PSNR de reconstruction.",
+      "Comparer visuellement les reconstructions avec taux de compression ×4 vs ×8 vs ×16.",
+      "Tracer la courbe d'utilisation du codebook (fréquence de chaque entrée) et identifier les entrées mortes."
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "VQGAN et au-delà : tokenizers d'images haute fidélité",
+     "objectif": "Étudier les améliorations apportées par VQGAN et les tokenizers modernes pour atteindre une reconstruction quasi sans perte à haut taux de compression.",
+     "sections": [
+      "6.1 — VQGAN (Esser et al., 2021) : adversarial loss + perceptual loss sur le décodeur",
+      "6.2 — Architecture du discriminator patch-based et rôle de la perte perceptive (LPIPS)",
+      "6.3 — Tokenizers continus (KL-regularized) vs tokenizers discrets : compromis",
+      "6.4 — SD-VAE (Stable Diffusion) : compression ×8 dans un espace latent 4 × 64 × 64",
+      "6.5 — Tokenizers récents : Cosmos Tokenizer, MAGVIT-v2, LFQ (Lookup-Free Quantization)",
+      "6.6 — Impact du choix du tokenizer sur la génération en aval : FID du reconstructeur comme plafond"
+     ],
+     "exercices": [
+      "Charger un VQGAN pré-entraîné (ex. checkpoint OpenImages 1024) et encoder/décoder 10 images ; calculer FID local.",
+      "Remplacer la quantification VQ par LFQ et comparer le taux d'utilisation du codebook.",
+      "Mesurer le temps d'encodage/décodage pour 1 000 images 256 × 256 sur GPU et CPU."
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Codebooks : taille, dimension, initialisation et entraînement",
+     "objectif": "Approfondir la conception et l'optimisation du codebook, cœur de la quantification discrète.",
+     "sections": [
+      "7.1 — Taille K du codebook : compromis expressivité / utilisation / mémoire",
+      "7.2 — Dimension d des entrées : 256, 384, 512 — impact sur la fidélité",
+      "7.3 — Initialisation : k-means, aléatoire, EMA (Exponential Moving Average)",
+      "7.4 — Problème des entrées mortes : reset, random restart, codebook dropout",
+      "7.5 — Quantification produit (Product Quantization) et résiduelle (Residual VQ / RQ-VAE)",
+      "7.6 — Multi-codebook et hiérarchie : plusieurs niveaux de granularité"
+     ],
+     "exercices": [
+      "Implémenter un suivi d'utilisation du codebook (histogramme animé) pendant l'entraînement d'un VQ-VAE.",
+      "Tester K ∈ {256, 1 024, 4 096, 8 192} et tracer la courbe PSNR vs K sur un jeu de validation.",
+      "Écrire un pseudo-code de Product Quantization avec 4 sous-codebooks de 256 entrées chacun."
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Patchification et inducteurs visuels : du CNN au ViT",
+     "objectif": "Comprendre comment extraire les patches et les représentations qui alimentent le tokenizer, en lien avec les architectures vision.",
+     "sections": [
+      "8.1 — Extraction de patches : convolution stride = kernel, unfold, patch_embed",
+      "8.2 — ViT (Dosovitskiy et al., 2020) : linéarisation des patches, position embedding 2D",
+      "8.3 — CNN comme inducteur : ResNet, ConvNeXt en backbone d'encodeur",
+      "8.4 — Hybrid CNN-ViT : convolution stem + attention pour les petites résolutions",
+      "8.5 — Taille de patch : 8 × 8, 16 × 16, 32 × 32 — effet sur N et la qualité",
+      "8.6 — Positional encoding 2D : sinusoidal, appris, interpolable"
+     ],
+     "exercices": [
+      "Extraire les patches 16 × 16 d'une image 256 × 256 et visualiser la grille dans un notebook.",
+      "Comparer le nombre de paramètres d'un ViT-B/16 vs ViT-B/32 pour une entrée 224 × 224.",
+      "Implémenter un patch_embed en PyTorch (Conv2d stride=kernel) et vérifier la forme de sortie."
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Tokenizers continus vs discrets : quel choix pour un LLM ?",
+     "objectif": "Analyser les avantages et inconvénients des représentations continues (latents gaussiens) versus discrètes (indices de codebook) dans le contexte LLM.",
+     "sections": [
+      "9.1 — Tokenisation discrète : indice entier, embedding lookup, compatible next-token",
+      "9.2 — Tokenisation continue : vecteur latent, projection linéaire, perte MSE/L1",
+      "9.3 — Compatibilité avec la fonction softmax : discret naturel, continu nécessite une tête de régression",
+      "9.4 — Scalabilité du vocabulaire : ajouter 8 192 tokens visuels vs projeter un espace continu",
+      "9.5 — Qualité de reconstruction : discret plafonné par K, continu plafonné par la dim latente",
+      "9.6 — Verdict pratique : discret pour l'autoregression pure, continu pour les hybrides"
+     ],
+     "exercices": [
+      "Modifier un LLM (GPT-2) pour accepter des embeddings continus en entrée et une tête de régression en sortie ; mesurer la MSE de reconstruction.",
+      "Comparer la perplexité d'un LLM sur une séquence de 1 024 tokens discrets vs 1 024 vecteurs continus projetés.",
+      "Rédiger un arbre de décision : « discret ou continu ? » en fonction du modèle cible et de la tâche."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Modélisation Autorégressive : Ordre, Balayage et Génération",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "Factorisation autoregressive de l'image : p(x) = ∏ p(x_i | x_{<i})",
+     "objectif": "Formaliser la décomposition en chaîne appliquée aux tokens visuels et comprendre les implications de l'ordre de génération.",
+     "sections": [
+      "10.1 — Chaîne de Markov et factorisation jointe sur les tokens visuels",
+      "10.2 — PixelCNN, PixelRNN : historique de la modélisation pixel-par-pixel",
+      "10.3 — Passage aux patches : réduire la longueur de séquence de H·W·C à (H/p)·(W/p)",
+      "10.4 — Le problème de l'exposition (exposure bias) en génération séquentielle",
+      "10.5 — Teacher forcing à l'entraînement, échantillonnage autoregressif à l'inférence",
+      "10.6 — Température, top-k, top-p appliqués aux tokens visuels"
+     ],
+     "exercices": [
+      "Écrire la factorisation complète pour une image 4 × 4 en pixels bruts (48 facteurs) vs patches 2 × 2 (4 facteurs).",
+      "Implémenter une boucle de génération autoregressive sur 64 tokens avec un petit transformer.",
+      "Mesurer la dégradation de qualité quand on augmente la température de 0,7 à 1,5."
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Ordres de balayage : raster, serpentin, Hilbert, spiral et apprentis",
+     "objectif": "Explorer l'impact de l'ordre de parcours des patches sur la qualité de génération et le coût computationnel.",
+     "sections": [
+      "11.1 — Raster scan (ligne par ligne) : simplicité, biais directionnel",
+      "11.2 — Serpentin (boustrophédon) : réduire la discontinuité de fin de ligne",
+      "11.3 — Courbe de Hilbert et Z-order (Morton) : localité spatiale 2D préservée",
+      "11.4 — Balayage spiral et radial : du centre vers les bords",
+      "11.5 — Ordres appris : Meta-Pixel, ordre adaptatif par contenu",
+      "11.6 — Impact empirique : FID et cohérence globale selon l'ordre"
+     ],
+     "exercices": [
+      "Implémenter 4 ordres de balayage (raster, serpentin, Hilbert, spiral) pour une grille 8 × 8 et visualiser les trajectoires.",
+      "Entraîner un petit modèle autoregressif avec raster vs Hilbert sur MNIST et comparer le FID.",
+      "Calculer la distance euclidienne moyenne entre tokens consécutifs pour chaque ordre."
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Génération parallèle et semi-autoregressive : MAR, MaskGIT et au-delà",
+     "objectif": "Présenter les alternatives à la génération strictement séquentielle pour réduire la latence tout en gardant un cadre compatible LLM.",
+     "sections": [
+      "12.1 — Limite de l'autoregression pure : latence O(N) et goulots d'étranglement mémoire",
+      "12.2 — MaskGIT : masking itératif, génération par batches de tokens démasqués",
+      "12.3 — MAR (Masked Autoregressive) : diffusion continue dans un cadre masqué",
+      "12.4 — Génération semi-autoregressive : lignes ou blocs de patches en parallèle",
+      "12.5 — Speculative decoding appliqué aux tokens visuels",
+      "12.6 — Compromis qualité/vitesse : nombre d'étapes vs FID"
+     ],
+     "exercices": [
+      "Implémenter un scheduler de démasquage (cosinus, linéaire) pour MaskGIT sur 256 tokens.",
+      "Mesurer le temps de génération pour 1 024 tokens en mode autoregressif pur vs MaskGIT (8 étapes).",
+      "Tracer la courbe FID vs nombre d'étapes de démasquage."
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Résolution progressive et génération multi-échelle",
+     "objectif": "Stratégies pour générer des images haute résolution sans exploser le budget de tokens.",
+     "sections": [
+      "13.1 — Cascade de modèles : basse résolution → super-résolution (DALL·E 1 → 2)",
+      "13.2 — Génération coarse-to-fine : tokens globaux puis raffinement local",
+      "13.3 — Tokenisation hiérarchique : RQ-VAE multi-niveaux, tokens résiduels",
+      "13.4 — Tiling et génération par tuiles avec recouvrement",
+      "13.5 — Adaptation dynamique de la résolution : plus de tokens sur les zones complexes",
+      "13.6 — Budget tokens pour 1024 × 1024 et au-delà : stratégies pratiques"
+     ],
+     "exercices": [
+      "Concevoir un pipeline 2 étapes : génération 256 × 256 (256 tokens) puis upscaling ×4 ; estimer le coût total.",
+      "Implémenter un schéma RQ-VAE à 3 niveaux résiduels et mesurer le gain de PSNR par niveau.",
+      "Calculer le budget tokens pour une image 1024 × 1024 avec patches 16 × 16 vs une cascade 256→512→1024."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Alignement Texte-Image, Entraînement et Architecture",
+   "chapitres": [
+    {
+     "numero": 14,
+     "titre": "Unifier les vocabulaires : texte et image dans un même espace de tokens",
+     "objectif": "Montrer comment étendre le vocabulaire d'un LLM pour intégrer les tokens visuels et maintenir la cohérence des embeddings.",
+     "sections": [
+      "14.1 — Ajout de tokens spéciaux : <img_start>, <img_end>, indices de codebook",
+      "14.2 — Embedding partagé vs embedding séparé : projection linéaire, adaptateur",
+      "14.3 — Initialisation des nouveaux embeddings : aléatoire, moyenne, héritage sémantique",
+      "14.4 — Format de séquence interleaved : [texte] [image] [texte] [image]",
+      "14.5 — Gestion des longueurs variables : padding, packing, attention mask",
+      "14.6 — Compatibilité avec les poids pré-entraînés du LLM : freeze partiel vs fine-tune total"
+     ],
+     "exercices": [
+      "Étendre le tokenizer GPT-2 avec 8 192 tokens visuels et vérifier la cohérence des shapes d'embedding.",
+      "Écrire un template de séquence interleaved pour 3 paires texte-image et générer l'attention mask.",
+      "Calculer le surcoût mémoire de l'ajout de 8 192 embeddings de dim 4 096 en FP16."
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Cross-attention et conditionnement textuel : guider la génération",
+     "objectif": "Intégrer le signal textuel dans le processus de génération visuelle via des mécanismes d'attention croisée ou de préfixe.",
+     "sections": [
+      "15.1 — Cross-attention texte → image : architecture, nombre de têtes, position",
+      "15.2 — Conditionnement par préfixe (prefix-tuning) : tokens textuels en tête de séquence",
+      "15.3 — CLIP comme encodeur de prompt : extraire l'embedding de condition",
+      "15.4 — Classifier-free guidance adapté à l'autoregression : drop du condition à l'entraînement",
+      "15.5 — Injection du signal dans les couches FFN vs attention : AdaLN, FiLM",
+      "15.6 — Multi-prompt et conditionnement composé : style + contenu + layout"
+     ],
+     "exercices": [
+      "Implémenter un bloc de cross-attention (4 têtes) entre un encodeur CLIP gelé et un décodeur GPT.",
+      "Entraîner avec dropout du condition (10 %) et tester la guidance à l'inférence avec w ∈ {1, 3, 7}.",
+      "Mesurer le CLIP-score de 100 images générées avec et sans guidance."
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Protocoles d'entraînement : données, curriculum, stabilité",
+     "objectif": "Définir un protocole d'entraînement complet pour adapter un LLM à la génération d'images, de la donnée à la convergence.",
+     "sections": [
+      "16.1 — Jeux de données : LAION, CC12M, DataComp, COCO — taille, licence, qualité",
+      "16.2 — Pré-entraînement du tokenizer (VQ-VAE/VQGAN) : objectifs, durée, données",
+      "16.3 — Fine-tuning du LLM : learning rate, warm-up, scheduler, batch size",
+      "16.4 — Curriculum : texte seul → texte+image basse résolution → haute résolution",
+      "16.5 — Stabilité : gradient clipping, mixed precision (BF16), EMA des poids",
+      "16.6 — Coût computationnel : estimation GPU-hours pour 100 M de paires texte-image",
+      "16.7 — Checkpointing, reprise et détection de divergence"
+     ],
+     "exercices": [
+      "Rédiger un fichier de configuration YAML pour un entraînement sur 8 GPU A100 (batch, LR, scheduler, logging).",
+      "Estimer le coût en GPU-hours pour entraîner 1 epoch sur 10 M d'images 256 × 256 avec un LLM 7B.",
+      "Implémenter un callback de détection de divergence (perte > 3 × moyenne mobile) qui sauvegarde et alerte."
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Adapter un LLM existant : GPT, LLaMA, Mistral — étude de cas",
+     "objectif": "Fournir un guide pas-à-pas pour greffer une tête de génération visuelle sur un LLM open-source pré-entraîné.",
+     "sections": [
+      "17.1 — Choix du LLM de base : taille, licence, architecture (GQA, MQA, RoPE)",
+      "17.2 — Gel des couches basses, fine-tuning des couches hautes et de la tête",
+      "17.3 — Ajout d'un module de projection visuel (Q-Former, MLP, Perceiver Resampler)",
+      "17.4 — Tête de sortie : classification sur K tokens visuels vs régression continue",
+      "17.5 — LoRA / QLoRA pour un fine-tuning économe en mémoire",
+      "17.6 — Intégration avec un tokenizer VQGAN pré-entraîné : pipeline bout-en-bout",
+      "17.7 — Pseudo-code complet : de l'image d'entrée à la séquence de tokens générée"
+     ],
+     "exercices": [
+      "Écrire le pseudo-code complet d'une forward pass : image → VQGAN encode → tokens → LLM → next-token → VQGAN decode → image.",
+      "Appliquer LoRA (r=16) sur les couches d'attention d'un LLaMA-7B et calculer le nombre de paramètres entraînés.",
+      "Concevoir un script d'inférence qui génère 4 images 256 × 256 à partir d'un prompt en < 30 secondes sur A100."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Évaluation, Comparaison et Limites",
+   "chapitres": [
+    {
+     "numero": 18,
+     "titre": "Métriques quantitatives : FID, IS, CLIP-score, LPIPS et au-delà",
+     "objectif": "Outiller le lecteur pour évaluer rigoureusement la qualité et la cohérence texte-image des générations.",
+     "sections": [
+      "18.1 — Fréchet Inception Distance (FID) : calcul, interprétation, pièges (taille d'échantillon, résolution)",
+      "18.2 — Inception Score (IS) : diversité et netteté",
+      "18.3 — CLIP-score : alignement sémantique texte-image, variantes (CLIPSim, BLIP)",
+      "18.4 — LPIPS et SSIM : similarité perceptive pour la reconstruction du tokenizer",
+      "18.5 — Métriques de diversité : Recall, Coverage, mode collapse detection",
+      "18.6 — Évaluation humaine : protocoles, biais, reproductibilité",
+      "18.7 — Construire un tableau de bord d'évaluation automatisé"
+     ],
+     "exercices": [
+      "Calculer le FID entre 1 000 images réelles CIFAR-10 et 1 000 images générées par un modèle jouet.",
+      "Implémenter le CLIP-score avec un modèle CLIP ViT-B/32 sur 50 paires prompt-image.",
+      "Concevoir un script qui produit un rapport PDF avec FID, IS, CLIP-score et 16 images échantillons."
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Comparaison approfondie : autoregression par tokens vs diffusion",
+     "objectif": "Analyser en profondeur les compromis entre les deux grandes familles de génération pour guider le choix architectural.",
+     "sections": [
+      "19.1 — Qualité : FID comparable à grande échelle, différences à petite échelle",
+      "19.2 — Vitesse : O(N) steps autoregressifs vs O(T) steps de diffusion (T ≈ 20-50)",
+      "19.3 — Mémoire : KV-cache croissant vs débruitage itératif à taille fixe",
+      "19.4 — Contrôle : inpainting, outpainting, layout — facilité relative",
+      "19.5 — Scalabilité : lois d'échelle (scaling laws) pour chaque paradigme",
+      "19.6 — Hybrides récents : Transfusion, MAR, Chameleon — le meilleur des deux mondes",
+      "19.7 — Tableau récapitulatif et arbre de décision"
+     ],
+     "exercices": [
+      "Remplir un tableau comparatif chiffré (estimations) : FLOPs, mémoire, latence pour 256 × 256 et 1024 × 1024.",
+      "Rédiger un paragraphe de synthèse : « Dans quel cas choisir l'autoregression sur tokens pour un LLM existant ? »",
+      "Simuler le coût mémoire du KV-cache pour N ∈ {256, 1 024, 4 096} avec dim 4 096, 32 couches, FP16."
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Limites actuelles : artefacts, cohérence, coût et sécurité",
+     "objectif": "Identifier honnêtement les limites de l'approche et les verrous scientifiques non résolus.",
+     "sections": [
+      "20.1 — Artefacts de quantification : postérisation, couleurs délavées, textures répétitives",
+      "20.2 — Cohérence globale : difficulté à maintenir la structure sur de longues séquences",
+      "20.3 — Coût inference : latence séquentielle, mémoire KV-cache, throughput",
+      "20.4 — Biais des données de training et reproduction de stéréotypes visuels",
+      "20.5 — Sécurité : deepfakes, watermarking, détection de contenu généré",
+      "20.6 — Limites du tokenizer : plafond de reconstruction, généralisation hors distribution",
+      "20.7 — Ce que l'approche ne sait pas encore faire : texte lisible, mains, géométrie précise"
+     ],
+     "exercices": [
+      "Générer 50 images et cataloguer les artefacts récurrents (tableau typologique).",
+      "Mesurer la dégradation de cohérence structurelle quand N passe de 256 à 1 024 tokens.",
+      "Proposer un protocole de watermarking par perturbation de codebook et tester sa robustesse à la compression JPEG."
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Ablations et diagnostic : comprendre ce qui compte vraiment",
+     "objectif": "Fournir une méthodologie d'ablation systématique pour isoler l'impact de chaque composant du pipeline.",
+     "sections": [
+      "21.1 — Méthodologie d'ablation : un facteur à la fois, plans fractionnaires",
+      "21.2 — Ablation du tokenizer : K, d, taux de compression, type de quantification",
+      "21.3 — Ablation de l'ordre de balayage et de la taille de patch",
+      "21.4 — Ablation du conditionnement : cross-attention vs préfixe vs AdaLN",
+      "21.5 — Ablation de la stratégie d'échantillonnage : température, top-k, guidance scale",
+      "21.6 — Interprétation des résultats : significativité statistique, intervalles de confiance"
+     ],
+     "exercices": [
+      "Concevoir un plan d'ablation complet (tableau 6 facteurs × 3 niveaux) et estimer le nombre d'expériences.",
+      "Réaliser une ablation sur la température ∈ {0,5, 0,7, 1,0, 1,3} et tracer FID vs température.",
+      "Rédiger un template de rapport d'ablation réutilisable pour toute expérience future."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Protocoles Pratiques, Déploiement et Pistes de Recherche",
+   "chapitres": [
+    {
+     "numero": 22,
+     "titre": "Protocole complet : adapter un LLM 7B en générateur 256 × 256",
+     "objectif": "Guider le lecteur pas à pas dans un projet bout-en-bout : du choix du modèle à la génération d'images exploitables.",
+     "sections": [
+      "22.1 — Cahier des charges : résolution, latence cible, matériel disponible",
+      "22.2 — Étape 1 : entraîner ou charger un VQGAN (codebook 8 192, compression ×8)",
+      "22.3 — Étape 2 : étendre le vocabulaire du LLM et initialiser les embeddings visuels",
+      "22.4 — Étape 3 : fine-tuning sur un sous-ensemble de 500 k paires texte-image",
+      "22.5 — Étape 4 : inférence, décodage VQGAN, post-traitement",
+      "22.6 — Étape 5 : évaluation (FID, CLIP-score) et itération",
+      "22.7 — Pseudo-code intégral et checklist de déploiement"
+     ],
+     "exercices": [
+      "Suivre le protocole sur un LLM 1-2 B (GPT-2 XL ou équivalent) avec un dataset réduit (10 k images).",
+      "Produire un rapport de 2 pages : configuration, courbes de perte, 8 images générées, métriques.",
+      "Identifier et corriger au moins 2 points de défaillance du pipeline (NaN loss, codebook collapse, etc.)."
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Optimisation et déploiement : inférence efficace, quantification, serving",
+     "objectif": "Optimiser le pipeline pour un déploiement en production : latence, throughput, coût infrastructure.",
+     "sections": [
+      "23.1 — Quantification des poids du LLM : INT8, INT4, GPTQ, AWQ",
+      "23.2 — KV-cache optimisé : paged attention, sliding window, quantification du cache",
+      "23.3 — Compilation et fusion de kernels : torch.compile, TensorRT, FlashAttention",
+      "23.4 — Batching dynamique et continuous batching pour le serving",
+      "23.5 — Architecture de serving : FastAPI + GPU worker, file d'attente, cache de résultats",
+      "23.6 — Monitoring : latence P50/P99, taux d'erreur, drift de qualité",
+      "23.7 — Estimation des coûts cloud pour 1 000 images/heure"
+     ],
+     "exercices": [
+      "Quantifier le LLM en INT8 avec bitsandbytes et mesurer le gain mémoire vs la perte de FID.",
+      "Écrire un endpoint FastAPI qui accepte un prompt et retourne une image 256 × 256 en base64.",
+      "Dimensionner l'infrastructure (nombre de GPU, mémoire, bande passante) pour 10 000 requêtes/jour."
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Frontières de la recherche : ce qui vient après le token-pixel",
+     "objectif": "Ouvrir les perspectives de recherche actives et émergentes pour situer le travail du lecteur dans la trajectoire du domaine.",
+     "sections": [
+      "24.1 — Scaling laws pour la génération visuelle autoregressive : au-delà de 70 B paramètres",
+      "24.2 — Modèles unifiés natifs (Chameleon, Emu, Transfusion) : texte, image, audio, vidéo",
+      "24.3 — Génération 3D et vidéo par tokens : extension de la tokenisation",
+      "24.4 — Tokenizers apprenables de bout en bout avec le LLM (end-to-end)",
+      "24.5 — Efficacité : génération en 1-4 steps, distillation, consistency models hybrides",
+      "24.6 — Interprétabilité : que « voit » le LLM quand il génère une image ?",
+      "24.7 — Éthique, régulation et open-source : responsabilités du praticien"
+     ],
+     "exercices": [
+      "Rédiger une note de recherche (2 pages) proposant une extension originale du protocole présenté dans le livre.",
+      "Cartographier les publications clés des 12 derniers mois sur l'autoregression visuelle (sans inventer de références : lister les axes).",
+      "Concevoir un protocole expérimental pour tester l'hypothèse : « un codebook de 16 384 entrées améliore le FID de 10 % à résolution égale »."
+     ]
+    }
+   ]
+  }
+ ]
+}
