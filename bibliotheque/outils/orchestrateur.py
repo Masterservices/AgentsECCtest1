@@ -22,6 +22,7 @@ import subprocess
 import sys
 import threading
 import time
+import urllib.request
 from pathlib import Path
 
 R = Path(__file__).resolve().parents[2]              # racine du dépôt
@@ -220,7 +221,27 @@ def lancer(e, essai):
     return subprocess.Popen(["bash", USINE], env=env, cwd=R, stdout=out, stderr=subprocess.STDOUT)
 
 
-def executer(ordre, deadline):
+def notifier(livres):
+    """Réveille Claude (vérificateur final) via l'API d'une routine Claude Code, si elle est configurée.
+    Variables : ROUTINE_FIRE_URL et ROUTINE_FIRE_TOKEN (jeton sk-ant-oat01-… propre à la routine)."""
+    url, token = os.environ.get("ROUTINE_FIRE_URL"), os.environ.get("ROUTINE_FIRE_TOKEN")
+    if not url or not token or not livres:
+        return
+    texte = ("L'usine (orchestrateur Qwen) a terminé ces livres : " + " ".join(livres) +
+             f". PDF, chapitres et rapports sont sur la branche {BRANCHE}, dans bibliotheque/<slug>/. "
+             "Vérifie-les (dernière étape).")
+    req = urllib.request.Request(
+        url, data=json.dumps({"text": texte}).encode("utf-8"), method="POST",
+        headers={"Authorization": f"Bearer {token}", "anthropic-version": "2023-06-01",
+                 "Content-Type": "application/json"})
+    try:
+        urllib.request.urlopen(req, timeout=30).read()
+        log(f"Claude notifié pour {len(livres)} livre(s)")
+    except Exception as e:  # la notification ne doit jamais arrêter l'usine
+        log("⚠ notification de Claude impossible :", e)
+
+
+def executer(ordre, deadline, on_fini=lambda s: None):
     attente, en_cours, essais = list(ordre), {}, {}
     while (attente or en_cours) and time.time() < deadline:
         for s, (p, e) in list(en_cours.items()):
@@ -229,6 +250,7 @@ def executer(ordre, deadline):
             del en_cours[s]
             if a_pdf(s):
                 log(f"[{s}] terminé")
+                on_fini(s)
             elif essais[s] < 2:
                 log(f"[{s}] incomplet, nouvel essai plus tard")
                 attente.append(e)
@@ -286,11 +308,20 @@ def main():
     arret = threading.Event()
     fil = threading.Thread(target=boucle_sauvegarde, args=(slugs, arret), daemon=True)
     fil.start()
+    lot, taille_lot = [], int(os.environ.get("NOTIFIER_LOT", "5"))   # une notification par lot de livres terminés
+
+    def fini(s):
+        lot.append(s)
+        if len(lot) >= taille_lot:
+            notifier(list(lot))
+            lot.clear()
+
     try:
-        executer(ordre, deadline)
+        executer(ordre, deadline, fini)
     finally:
         arret.set()
         sauvegarder(slugs)
+        notifier(list(lot))
 
     produits = [s for s in slugs if a_pdf(s)]
     restants = [s for s in slugs if not a_pdf(s)]
