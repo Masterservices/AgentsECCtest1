@@ -1,0 +1,602 @@
+{
+ "titre": "Cartographier avant d'écrire",
+ "sous_titre": "Le marketing entièrement cartographique : dessinez le terrain mental de votre audience avant de rédiger le moindre message",
+ "bibliographie": [
+  {
+   "auteur": "Seth Godin",
+   "titre": "This Is Marketing",
+   "annee": "2018",
+   "idee": "Le marketing consiste à servir un 'plus petit public viable' en produisant un changement pour lui, non à faire du bruit pour tous.",
+   "apport": "Concept de 'plus petit public viable' pour délimiter le territoire à cartographier avant toute campagne."
+  },
+  {
+   "auteur": "Donald Miller",
+   "titre": "Building a StoryBrand",
+   "annee": "2017",
+   "idee": "Le client est le héros de l'histoire ; la marque n'est que le guide qui lui fournit un plan pour vaincre un méchant.",
+   "apport": "Grille narrative en sept étapes servant de pont entre la rive du client et la rive de la transformation."
+  },
+  {
+   "auteur": "Eugene Schwartz",
+   "titre": "Breakthrough Advertising",
+   "annee": "1966",
+   "idee": "Les cinq niveaux de conscience du marché dictent la forme du message ; on ne vend pas un désir, on canalise une masse de désir déjà existante.",
+   "apport": "Cartographie des niveaux de conscience comme reliefs du terrain mental à relever avant d'écrire."
+  },
+  {
+   "auteur": "Robert Cialdini",
+   "titre": "Influence et Manipulation",
+   "annee": "1984",
+   "idee": "Six principes psychologiques (réciprocité, preuve sociale, autorité, etc.) structurent les décisions humaines.",
+   "apport": "Grille des six leviers utilisée pour repérer les gouffres d'objection et y jeter des ponts de preuve."
+  },
+  {
+   "auteur": "Clayton Christensen, Karen Dillon, Taddy Hall, David Duncan",
+   "titre": "Competing Against Luck (Jobs to Be Done)",
+   "annee": "2016",
+   "idee": "Les clients 'embauchent' un produit pour accomplir une tâche précise dans un contexte de vie donné.",
+   "apport": "Protocole d'interview JTBD pour lever le terrain mental en profondeur, au-delà des personas classiques."
+  },
+  {
+   "auteur": "Rob Fitzpatrick",
+   "titre": "The Mom Test",
+   "annee": "2013",
+   "idee": "La plupart des conversations clients sont faussées par la complaisance ; il faut poser des questions sur le passé concret, jamais sur le futur hypothétique.",
+   "apport": "Règles d'entretien pour obtenir un terrain mental honnête et non un terrain de politesse."
+  },
+  {
+   "auteur": "Geoffrey Moore",
+   "titre": "Crossing the Chasm",
+   "annee": "1991",
+   "idee": "Entre les early adopters et la majorité pragmatique existe un gouffre qui tue la plupart des innovations.",
+   "apport": "Modèle du gouffre appliqué aux objections structurelles entre segments d'audience."
+  },
+  {
+   "auteur": "Chip Heath, Dan Heath",
+   "titre": "Made to Stick",
+   "annee": "2007",
+   "idee": "Six principes (SUCCES) rendent une idée mémorable : simplicité, inattendu, concret, crédible, émotionnel, histoire.",
+   "apport": "Checklist pour vérifier qu'un pont de message tient la charge cognitive du lecteur."
+  },
+  {
+   "auteur": "Jonah Berger",
+   "titre": "Contagious",
+   "annee": "2013",
+   "idee": "Six moteurs (STEPPS) expliquent pourquoi une idée se propage socialement.",
+   "apport": "Balises de propagation à superposer sur la carte du parcours client."
+  },
+  {
+   "auteur": "Joseph Sugarman",
+   "titre": "The Adweek Copywriting Handbook",
+   "annee": "1997",
+   "idee": "Le seul but de la première phrase est de faire lire la deuxième ; le copywriting est un toboggan émotionnel.",
+   "apport": "Modèle du toboggan pour séquencer les ponts de message phrase par phrase."
+  },
+  {
+   "auteur": "Al Ries, Jack Trout",
+   "titre": "Positioning : The Battle for Your Mind",
+   "annee": "1981",
+   "idee": "Le positionnement se joue dans l'esprit du client, pas dans le produit ; on occupe une case mentale ou on est oublié.",
+   "apport": "Cartographie des territoires concurrentiels comme cases mentales à contourner ou à attaquer."
+  },
+  {
+   "auteur": "Claude Hopkins",
+   "titre": "Scientific Advertising",
+   "annee": "1923",
+   "idee": "Toute publicité doit être mesurée comme une expérience ; la spécificité bat toujours la généralité.",
+   "apport": "Discipline de l'actualisation : la carte n'est valide que tant qu'elle est testée et révisée."
+  },
+  {
+   "auteur": "Nir Eyal",
+   "titre": "Hooked",
+   "annee": "2014",
+   "idee": "Les produits addictifs suivent une boucle : déclencheur, action, récompense variable, investissement.",
+   "apport": "Grille pour baliser les parcours récurrents et les points de friction où le client décroche."
+  },
+  {
+   "auteur": "Martin Lindstrom",
+   "titre": "Buyology",
+   "annee": "2008",
+   "idee": "Les décisions d'achat sont largement inconscientes, ritualisées et sensorielles, loin du rationnel déclaré.",
+   "apport": "Méthodes pour cartographier les désirs non-dits et les rituels d'achat comme reliefs cachés."
+  },
+  {
+   "auteur": "Teresa Torres",
+   "titre": "Continuous Discovery Habits",
+   "annee": "2021",
+   "idee": "La découverte client doit être hebdomadaire et structurée autour d'une carte d'opportunités vivante.",
+   "apport": "Rituel d'actualisation de la carte : la cartographie comme discipline continue, non comme livrable unique."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Lever le terrain mental",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'obsession cartographique : pourquoi cartographier avant d'écrire",
+     "objectif": "Installer la thèse contre-intuitive : aucun message ne doit être rédigé avant que le terrain mental de l'audience ne soit entièrement dessiné.",
+     "sections": [
+      "Le mythe du créatif fulgurant et la réalité du terrain ignoré",
+      "Définition opérationnelle d'un 'terrain mental' : croyances, désirs, peurs, vocabulaire",
+      "Les trois coûts cachés du message écrit trop tôt (temps, argent, réputation)",
+      "Études de cas contrastées : un lancement cartographié vs un lancement improvisé",
+      "Le contrat cartographique : s'engager à ne pas écrire avant d'avoir levé le terrain",
+      "Cartographier, ce n'est pas ralentir : c'est accélérer la convergence message-marché"
+     ],
+     "exercices": [
+      "Audit de vos trois dernières campagnes : combien de temps passé en écoute vs en rédaction ?",
+      "Lister les cinq affirmations que vous tenez pour vraies sur votre audience et noter leur source",
+      "Calculer le coût réel d'un message qui n'a pas converti (temps, ads, opportunité)",
+      "Rédiger votre 'contrat cartographique' personnel en une page"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Écouter avant d'écrire : les protocoles de recherche",
+     "objectif": "Fournir une boîte à outils de recherche qualitative pour extraire la matière première du terrain mental.",
+     "sections": [
+      "Les quatre sources de vérité : entretiens, avis publics, forums, conversations internes",
+      "Le Mom Test appliqué au marketing : poser des questions sur le passé, jamais sur le futur",
+      "Conduire un entretien de 45 minutes sans biaiser la réponse",
+      "Mining des avis Amazon, Reddit, Trustpilot : grille de lecture systématique",
+      "Capturer le vocabulaire brut : constitution d'un lexique de terrain",
+      "Trianguler : croiser au moins trois sources avant de valider une hypothèse"
+     ],
+     "exercices": [
+      "Mener trois entretiens de 30 minutes avec des clients récents en suivant la grille fournie",
+      "Extraire 100 verbatims depuis les avis de trois concurrents et les classer par thème",
+      "Constituer votre premier lexique de terrain : 50 mots/phrases exacts employés par vos clients",
+      "Identifier les trois sources de vérité les plus riches pour votre marché spécifique"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "La topographie des croyances : ce que votre audience tient pour vrai",
+     "objectif": "Cartographier les croyances conscientes et inconscientes qui filtrent tout message entrant.",
+     "sections": [
+      "Les croyances sur elles-mêmes : identité, capacités, limites perçues",
+      "Les croyances sur le problème : gravité, urgence, responsabilité",
+      "Les croyances sur les solutions existantes : efficacité, prix, accessibilité",
+      "Les croyances sur votre catégorie : stéréotypes, scandales passés, déceptions",
+      "Les croyances sur le futur : espoirs réalistes vs fantasmes",
+      "Hiérarchiser les croyances par rigidité : lesquelles sont mobiles, lesquelles sont béton ?"
+     ],
+     "exercices": [
+      "Lister 20 croyances de votre audience sur le problème que vous résolvez",
+      "Classer chaque croyance sur un axe 'rigide / malléable'",
+      "Identifier les trois croyances-béton qu'aucun message ne pourra déplacer à court terme",
+      "Cartographier les croyances par segment (débutants vs avancés)"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Le vocabulaire du terrain : parler la langue réelle, pas la langue corporate",
+     "objectif": "Aligner le langage de vos messages sur le lexique vivant de votre audience.",
+     "sections": [
+      "Le piège du jargon d'expert : pourquoi vos mots tuent votre message",
+      "Constitution d'un corpus lexical vivant : verbatims, expressions, métaphores",
+      "Les mots-tabous : ce qu'on ne dit jamais dans votre marché",
+      "Les mots-talismans : les expressions qui déclenchent l'adhésion immédiate",
+      "Adaptation du vocabulaire par niveau de conscience (Schwartz)",
+      "Tester le vocabulaire : le test du miroir linguistique"
+     ],
+     "exercices": [
+      "Remplacer 10 termes corporate par leur équivalent en langue client",
+      "Construire un dictionnaire bilingue 'marque / audience' de 50 entrées",
+      "Identifier 5 mots-tabous à bannir absolument de vos messages",
+      "Réécrire votre promesse principale en trois versions selon le niveau de conscience"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Tracer les reliefs de désir",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Les montagnes de désirs conscients : ce que les gens disent vouloir",
+     "objectif": "Cartographier les désirs déclarés, explicites et socialement acceptables.",
+     "sections": [
+      "Les désirs fonctionnels : gagner du temps, de l'argent, de l'énergie",
+      "Les désirs de statut : reconnaissance, appartenance, distinction",
+      "Les désirs de sécurité : protection, prévisibilité, contrôle",
+      "Les désirs d'apprentissage : maîtrise, compétence, curiosité",
+      "Mesurer l'intensité déclarée vs l'intensité comportementale",
+      "Hiérarchie des montagnes : quel désir domine vraiment la skyline ?"
+     ],
+     "exercices": [
+      "Lister les 10 désirs conscients les plus cités par votre audience",
+      "Classer chaque désir selon Maslow adapté au marketing",
+      "Confronter désir déclaré et comportement réel (ce qu'ils achètent vraiment)",
+      "Cartographier les désirs par saison et par moment de vie"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Les vallées de désirs cachés : ce que les gens n'osent pas avouer",
+     "objectif": "Accéder aux motivations profondes, inavouables ou inconscientes qui pilotent les décisions.",
+     "sections": [
+      "Pourquoi les désirs cachés sont les plus puissants",
+      "Les techniques projectives : troisième personne, complétion de phrases, associations",
+      "Les désirs ombre : vanité, vengeance, paresse, domination",
+      "Les désirs d'identité : qui je veux devenir vs qui je suis",
+      "Éthique de la manipulation : où s'arrêter quand on touche l'intime",
+      "Traduire un désir caché en message socialement acceptable"
+     ],
+     "exercices": [
+      "Mener un entretien projectif avec 5 clients en utilisant la technique de la troisième personne",
+      "Lister 10 désirs cachés plausibles et les classer par intensité supposée",
+      "Réécrire une promesse fonctionnelle en promesse d'identité",
+      "Rédiger trois variantes d'un même message : une consciente, une mixte, une subtilement cachée"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Jobs-to-be-Done : la tâche pour laquelle on vous embauche",
+     "objectif": "Appliquer la grille JTBD pour identifier la vraie mission confiée à votre produit.",
+     "sections": [
+      "Le job fonctionnel, le job émotionnel, le job social",
+      "Le contexte déclencheur : le moment précis où le job surgit",
+      "Les forces en présence : habitude, anxiété, attraction, résistance",
+      "L'interview switch : comprendre pourquoi un client vous a choisi plutôt qu'un autre",
+      "Formuler un job statement : 'Quand… je veux… afin de…'",
+      "Du job à la proposition de valeur : aligner offre et mission"
+     ],
+     "exercices": [
+      "Réaliser deux interviews switch avec des clients récents",
+      "Rédiger 5 job statements couvrant les principaux contextes d'usage",
+      "Cartographier les quatre forces (habitude, anxiété, attraction, résistance) pour votre job principal",
+      "Identifier le job social le plus sous-estimé dans votre marché"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Cartographier l'intensité émotionnelle : chaleur, urgence, charge",
+     "objectif": "Passer d'une carte plate à une carte en relief où chaque désir a une altitude émotionnelle.",
+     "sections": [
+      "Les trois dimensions de l'intensité : chaleur (plaisir), urgence (temps), charge (enjeu)",
+      "Mesurer l'intensité sans la fausser : échelles comportementales plutôt que déclaratives",
+      "Les pics émotionnels : moments de la journée, de la semaine, de l'année",
+      "Les creux émotionnels : moments de désintérêt structurel",
+      "Relier intensité et willingness-to-pay",
+      "Construire une carte thermique des désirs"
+     ],
+     "exercices": [
+      "Noter chaque désir sur les trois axes (chaleur, urgence, charge) de 1 à 10",
+      "Identifier les trois pics émotionnels annuels de votre audience",
+      "Cartographier les jours et heures de plus forte intensité",
+      "Construire votre première carte thermique visuelle (matrice 2D)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Repérer les gouffres d'objection",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Typologie des objections : les sept familles de résistance",
+     "objectif": "Classifier toutes les objections possibles pour les anticiper plutôt que les subir.",
+     "sections": [
+      "Objections de prix : trop cher, pas le moment, pas le budget",
+      "Objections de confiance : qui êtes-vous, pourquoi vous croire",
+      "Objections de besoin : je n'en ai pas vraiment besoin",
+      "Objections d'urgence : je verrai plus tard",
+      "Objections de compétence : je n'y arriverai pas",
+      "Objections sociales : qu'en diront les autres",
+      "Objections structurelles : incompatibilité technique, légale, logistique"
+     ],
+     "exercices": [
+      "Lister toutes les objections rencontrées en vente ou en commentaire",
+      "Classer chaque objection dans l'une des sept familles",
+      "Identifier la famille dominante dans votre marché",
+      "Hiérarchiser les objections par fréquence et par létalité"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Cartographier les peurs : ce que votre client risque de perdre",
+     "objectif": "Nommer précisément les peurs qui bloquent l'action, y compris les peurs non dites.",
+     "sections": [
+      "Peur de perdre de l'argent, du temps, de l'énergie",
+      "Peur de perdre du statut ou de l'image",
+      "Peur de l'échec et de la honte publique",
+      "Peur du regret : et si je m'étais trompé ?",
+      "Peur du changement d'identité : qui serai-je après ?",
+      "Peur systémique : peur de décevoir l'entourage",
+      "Transformer une peur en promesse inversée"
+     ],
+     "exercices": [
+      "Lister les 15 peurs les plus probables de votre audience",
+      "Pour chaque peur, rédiger une promesse inversée (garantie, preuve, réassurance)",
+      "Identifier la peur numéro 1 qui paralyse la décision finale",
+      "Construire une 'carte des peurs' visuelle avec intensité et fréquence"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Les crevasses de méfiance : héritage des déceptions passées",
+     "objectif": "Comprendre comment les promesses non tenues par votre secteur ont creusé des failles de crédibilité.",
+     "sections": [
+      "L'histoire des promesses trahies dans votre marché",
+      "Les arnaques, dérives et scandales qui ont marqué les esprits",
+      "Les figures décevantes : gourous, influenceurs, marques déchues",
+      "Le cynisme comme mécanisme de défense rationnel",
+      "Comment votre audience détecte-t-elle le bullshit aujourd'hui ?",
+      "Stratégies de réparation : preuve, transparence, renonciation"
+     ],
+     "exercices": [
+      "Lister les 10 plus grosses promesses non tenues de votre secteur",
+      "Interviewer 5 clients sur leur 'pire expérience' passée dans votre marché",
+      "Identifier les 5 signaux de bullshit les plus scrutés par votre audience",
+      "Rédiger une 'lettre de renonciation' aux pratiques toxiques du secteur"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Les failles concurrentielles : où les alternatives tiennent encore le terrain",
+     "objectif": "Cartographier les forces réelles des alternatives, y compris l'alternative 'ne rien faire'.",
+     "sections": [
+      "Les concurrents directs : ceux qui font la même chose",
+      "Les concurrents indirects : ceux qui résolvent autrement",
+      "Le concurrent invisible : l'inertie, le statu quo, le DIY",
+      "Ce que chaque alternative fait mieux que vous (soyez honnête)",
+      "Les angles d'attaque légitimes vs les attaques mensongères",
+      "Positionner votre carte dans le territoire concurrentiel"
+     ],
+     "exercices": [
+      "Lister 10 alternatives réelles, y compris 'ne rien faire' et 'le faire soi-même'",
+      "Pour chaque alternative, identifier un avantage réel qu'elle détient",
+      "Construire une carte de positionnement 2 axes avec tous les acteurs",
+      "Rédiger 3 messages qui reconnaissent honnêtement la force d'un concurrent"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Jeter des ponts de message",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "L'architecture du pont narratif : relier deux rives",
+     "objectif": "Concevoir le pont comme structure explicite entre la rive-client et la rive-transformation.",
+     "sections": [
+      "Les deux rives : définir précisément le point A et le point B",
+      "Les cinq composants d'un pont : ancrage, tablier, piliers, garde-fous, issue",
+      "Longueur du pont : court (pub), moyen (landing), long (livre, webinaire)",
+      "Les sept archétypes de ponts narratifs",
+      "Cohérence du pont : un seul pont par audience, par moment",
+      "Le pont et la marque : comment le pont devient signature"
+     ],
+     "exercices": [
+      "Définir la rive-client en 5 phrases factuelles",
+      "Définir la rive-transformation en 5 phrases factuelles",
+      "Choisir l'archétype de pont principal pour votre offre phare",
+      "Dessiner schématiquement votre pont avec ses 5 composants"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Ancrer le pont côté client : montrer que vous l'avez vu",
+     "objectif": "Construire l'ancrage amont du pont en prouvant une compréhension intime du client.",
+     "sections": [
+      "Le pouvoir du 'je sais exactement où tu en es'",
+      "Techniques d'ancrage : symptôme précis, situation vécue, vocabulaire exact",
+      "Le test de l'effet miroir : le client doit se reconnaître en 3 secondes",
+      "Éviter la condescendance : décrire sans juger",
+      "L'ancrage par histoire : le mini-récit d'identification",
+      "Quand l'ancrage est trop fort : le risque de l'enfermement dans la douleur"
+     ],
+     "exercices": [
+      "Rédiger 5 phrases d'ancrage utilisant uniquement le vocabulaire client",
+      "Tester chaque ancrage sur 3 clients : se reconnaissent-ils en moins de 3 secondes ?",
+      "Écrire un micro-récit d'ancrage de 80 mots",
+      "Identifier le risque de condescendance dans vos ancrages et les reformuler"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Ancrer le pont côté destination : rendre la rive désirable et crédible",
+     "objectif": "Rendre la transformation à la fois attirante émotionnellement et plausible rationnellement.",
+     "sections": [
+      "La rive désirable : montrer la vie d'après en images concrètes",
+      "La rive crédible : pourquoi cette transformation est atteignable",
+      "La preuve par le pair : témoignages, études de cas, chiffres",
+      "La gradation : montrer des transformations de tailles variées",
+      "Éviter la rive-fantasme : rester dans le champ du possible",
+      "Le contrat de transformation : ce que vous promettez, ce que vous ne promettez pas"
+     ],
+     "exercices": [
+      "Rédiger trois 'vies d'après' concrètes pour trois profils clients",
+      "Rassembler 10 preuves de transformation de tailles variées",
+      "Rédiger votre 'contrat de transformation' en 10 lignes",
+      "Vérifier que chaque promesse de rive est soutenable et mesurable"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Les piliers de preuve : faire tenir le pont sous la charge du scepticisme",
+     "objectif": "Construire des piliers de preuve capables de soutenir le pont face aux objections identifiées.",
+     "sections": [
+      "Les sept types de preuves : données, démonstration, témoignage, autorité, logique, analogie, essai",
+      "Associer chaque pilier à une objection précise",
+      "La densité de preuve : combien de piliers par mètre de pont ?",
+      "La preuve progressive : du léger au lourd selon l'avancement du lecteur",
+      "La preuve négative : montrer ce que vous ne faites pas",
+      "La preuve par renonciation : garanties, remboursements, sortie facile"
+     ],
+     "exercices": [
+      "Associer chaque objection majeure à un type de preuve adapté",
+      "Construire une bibliothèque de 20 preuves classées par type",
+      "Rédiger une preuve par renonciation (garantie) solide et spécifique",
+      "Tester la densité de preuve de votre page de vente principale"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Baliser les parcours",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Du point A au point B : dessiner le parcours complet",
+     "objectif": "Passer du message isolé au parcours entier, du premier contact à la transformation effective.",
+     "sections": [
+      "Les phases du parcours : découverte, considération, décision, adoption, fidélité, ambassade",
+      "Les micro-conversions à chaque phase",
+      "Les points de sortie : où le client peut décrocher",
+      "La continuité narrative d'une phase à l'autre",
+      "Le parcours non-linéaire : retours, pauses, zigzags",
+      "Cartographier le parcours réel, pas le parcours théorique"
+     ],
+     "exercices": [
+      "Dessiner le parcours réel de 5 clients récents (entretiens)",
+      "Identifier les 3 points de sortie les plus fréquents",
+      "Lister les micro-conversions de chaque phase",
+      "Tracer un parcours-type visuel avec ses bifurcations"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Les étapes de décision : les seuils psychologiques à franchir",
+     "objectif": "Identifier les seuils de décision et les messages spécifiques à chaque seuil.",
+     "sections": [
+      "Seuil 1 : 'c'est peut-être pour moi'",
+      "Seuil 2 : 'le problème mérite mon attention'",
+      "Seuil 3 : 'cette solution pourrait marcher'",
+      "Seuil 4 : 'cette marque est légitime'",
+      "Seuil 5 : 'c'est le bon moment'",
+      "Seuil 6 : 'je m'engage'",
+      "Adapter la longueur et la densité du message à chaque seuil"
+     ],
+     "exercices": [
+      "Définir les 6 seuils spécifiques à votre offre",
+      "Associer à chaque seuil un message-clé et un format",
+      "Mesurer les taux de passage entre seuils dans votre funnel actuel",
+      "Identifier le seuil le plus bloquant et y consacrer un message dédié"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Les signaux de progression : dire au client où il en est",
+     "objectif": "Installer des balises qui rassurent le client sur son avancée dans le parcours.",
+     "sections": [
+      "Pourquoi le cerveau a besoin de savoir où il en est",
+      "Les signaux explicites : barres de progression, étapes numérotées",
+      "Les signaux narratifs : 'vous avez compris que…, maintenant…'",
+      "Les signaux de validation : félicitations, accusés de réception",
+      "Les signaux de proximité : 'plus que 2 étapes'",
+      "Éviter les faux signaux qui infantiliseront le client"
+     ],
+     "exercices": [
+      "Lister tous les moments où le client peut se sentir perdu",
+      "Installer un signal de progression à chaque moment identifié",
+      "Rédiger 5 signaux narratifs adaptés à votre parcours",
+      "Tester un parcours complet en notant chaque signal perçu"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Gérer les bifurcations : segments, retours, abandons",
+     "objectif": "Cartographier les embranchements du parcours et prévoir un message pour chaque branche.",
+     "sections": [
+      "Les bifurcations par segment : débutant, intermédiaire, expert",
+      "Les bifurcations par budget : entry, core, premium",
+      "Les bifurcations par canal : email, social, site, event",
+      "Les parcours de retour : relance après abandon",
+      "Les parcours de deuil : quand le client renonce définitivement",
+      "L'élégance de la sortie : laisser une bonne dernière impression"
+     ],
+     "exercices": [
+      "Cartographier les 5 bifurcations majeures de votre parcours",
+      "Rédiger un message spécifique pour chaque branche de bifurcation",
+      "Concevoir un parcours de retour pour les abandons de panier / d'inscription",
+      "Rédiger un message de sortie élégant pour les désabonnements"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Actualiser les cartes",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Cartes vivantes : rituels de mise à jour",
+     "objectif": "Transformer la cartographie en discipline continue, pas en livrable figé.",
+     "sections": [
+      "Pourquoi une carte périme en 90 jours",
+      "Les quatre fréquences de mise à jour : quotidienne, hebdo, mensuelle, annuelle",
+      "Le rituel hebdomadaire de découverte (Torres)",
+      "Le tableau de bord cartographique : que regarder chaque semaine",
+      "Responsabilités : qui met à jour quoi",
+      "Archivage et versioning des cartes successives"
+     ],
+     "exercices": [
+      "Installer un rituel hebdomadaire de 90 minutes de découverte",
+      "Créer un tableau de bord cartographique avec 5 indicateurs-clés",
+      "Désigner un 'gardien de la carte' dans l'équipe",
+      "Mettre en place un système de versioning simple (dates + notes)"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Signaux faibles et dérives du terrain",
+     "objectif": "Détecter les mouvements souterrains du terrain mental avant qu'ils ne deviennent évidents.",
+     "sections": [
+      "Les quatre types de signaux faibles : lexical, émotionnel, concurrentiel, sociétal",
+      "Où guetter : forums de niche, commentaires, conversations privées",
+      "Le carnet de signaux faibles : noter sans juger",
+      "Distinguer un signal faible d'un bruit passager",
+      "Les dérives lentes : quand la carte se déforme mois après mois",
+      "Quand un signal faible devient une révision de carte"
+     ],
+     "exercices": [
+      "Ouvrir un carnet de signaux faibles et y noter 3 observations par semaine",
+      "Identifier 5 sources de signaux faibles spécifiques à votre marché",
+      "Relire vos cartes de l'an passé : quelles dérives lentes observez-vous ?",
+      "Transformer un signal faible confirmé en révision ciblée d'une section de carte"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Cartographier l'évolution concurrentielle",
+     "objectif": "Tenir à jour une carte vivante du territoire concurrentiel et des mouvements des autres acteurs.",
+     "sections": [
+      "Veille concurrentielle structurée : quoi observer, à quelle fréquence",
+      "Les mouvements des concurrents : lancements, repositionnements, abandons",
+      "L'arrivée de nouveaux entrants : signaux précoces",
+      "Les substitutions émergentes : l'IA, les communautés, le DIY avancé",
+      "Les alliances et consolidations qui redessinent le territoire",
+      "Mettre à jour votre positionnement en fonction de la carte actualisée"
+     ],
+     "exercices": [
+      "Construire une grille de veille concurrentielle avec 10 acteurs clés",
+      "Analyser les 3 derniers mouvements majeurs de votre secteur",
+      "Lister 5 substitutions émergentes qui pourraient vous menacer à 24 mois",
+      "Réviser votre carte de positionnement trimestriellement"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "La cartographie comme culture d'équipe",
+     "objectif": "Installer la cartographie comme pratique partagée, pas comme fonction d'un seul service.",
+     "sections": [
+      "Pourquoi la carte doit être visible de toute l'entreprise",
+      "Les rituels collectifs : revue mensuelle de la carte",
+      "Former les équipes au langage cartographique",
+      "La carte comme boussole des arbitrages stratégiques",
+      "La carte comme onboarding des nouveaux collaborateurs",
+      "Épilogue : cartographier, c'est respecter son audience"
+     ],
+     "exercices": [
+      "Organiser une première revue mensuelle de la carte avec 5 personnes clés",
+      "Créer une affiche murale résumant la carte actuelle",
+      "Intégrer un module 'lecture de la carte' dans l'onboarding",
+      "Rédiger votre manifeste cartographique en une page, signé par l'équipe"
+     ]
+    }
+   ]
+  }
+ ]
+}

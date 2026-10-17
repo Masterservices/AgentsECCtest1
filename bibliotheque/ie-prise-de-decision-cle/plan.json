@@ -1,0 +1,577 @@
+{
+ "titre": "Le Trousseau Décisionnel",
+ "sous_titre": "Clés et abonnements pour trancher sans s'épuiser — 24 protocoles pour libérer votre attention des choix répétitifs",
+ "bibliographie": [
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Système 1 / Système 2 : Les deux vitesses de la pensée",
+   "annee": "2011",
+   "idee": "Le cerveau alterne entre un mode rapide et intuitif (S1) et un mode lent et analytique (S2) ; la plupart des erreurs viennent de la paresse du S2.",
+   "apport": "Fonde la distinction entre décisions à clé automatique (S1 calibré) et décisions à analyse ponctuelle (S2)."
+  },
+  {
+   "auteur": "Richard Thaler et Cass Sunstein",
+   "titre": "Nudge : la méthode douce pour inspirer la bonne décision",
+   "annee": "2008",
+   "idee": "L'architecture des choix oriente les décisions sans contraindre ; un bon 'choix par défaut' fait le travail à notre place.",
+   "apport": "Concept d'abonnement comme 'nudge personnel' souscrit une fois pour toutes."
+  },
+  {
+   "auteur": "Gerd Gigerenzer",
+   "titre": "Gut Feelings : The Intelligence of the Unconscious",
+   "annee": "2007",
+   "idee": "Les heuristiques simples surpassent souvent les modèles complexes dans des environnements incertains.",
+   "apport": "Légitime la 'clé maîtresse' : un critère unique peut trancher mieux qu'une analyse multidimensionnelle."
+  },
+  {
+   "auteur": "Barry Schwartz",
+   "titre": "Le Paradoxe du choix",
+   "annee": "2004",
+   "idee": "Multiplier les options augmente l'anxiété et diminue la satisfaction ; les 'satisficers' vivent mieux que les 'maximizers'.",
+   "apport": "Justifie la réduction du champ décisionnel par des abonnements qui éliminent des options en amont."
+  },
+  {
+   "auteur": "Charles Duhigg",
+   "titre": "Le Pouvoir des habitudes",
+   "annee": "2012",
+   "idee": "Toute habitude suit une boucle signal–routine–récompense ; la modifier exige de conserver signal et récompense.",
+   "apport": "Structure de la 'serrure décisionnelle' : identifier le signal qui déclenche le besoin de choisir."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Un rien peut tout changer (Atomic Habits)",
+   "annee": "2018",
+   "idee": "Les petites routines composées produisent des résultats massifs ; l'identité précède le comportement.",
+   "apport": "Protocole de forge des clés : partir de l'identité désirée pour définir le critère maître."
+  },
+  {
+   "auteur": "Chip Heath et Dan Heath",
+   "titre": "Decisive : How to Make Better Choices in Life and Work",
+   "annee": "2013",
+   "idee": "Quatre pièges (cadre étroit, confirmation, émotion à court terme, excès de confiance) et une méthode WRAP pour les contrer.",
+   "apport": "Grille de détection des 'crochetages émotionnels' qui contournent nos clés."
+  },
+  {
+   "auteur": "Gary Klein",
+   "titre": "Sources of Power : How People Make Decisions",
+   "annee": "1998",
+   "idee": "Les experts en situation critique n'analysent pas : ils reconnaissent des schémas et simulent mentalement.",
+   "apport": "Modèle de la clé comme 'pattern recognition' entraînée, pas comme règle abstraite."
+  },
+  {
+   "auteur": "Dan Ariely",
+   "titre": "C'est (vraiment ?) moi qui décide",
+   "annee": "2008",
+   "idee": "Nos irrationalités sont prévisibles et systématiques ; on peut les anticiper par des règles pré-engagées.",
+   "apport": "Catalogue des biais à transformer en clauses d'abonnement (ex. clause d'ancrage, clause de gratuité)."
+  },
+  {
+   "auteur": "Herbert Simon",
+   "titre": "Models of Bounded Rationality",
+   "annee": "1982",
+   "idee": "La rationalité est limitée par l'information, le temps et la cognition ; on 'satisfice' plutôt qu'on ne maximise.",
+   "apport": "Assise théorique : la clé est un seuil de satisfaction, pas un optimum."
+  },
+  {
+   "auteur": "BJ Fogg",
+   "titre": "Tiny Habits",
+   "annee": "2019",
+   "idee": "Un comportement = motivation × capacité × signal ; pour installer une routine, il faut la rendre minuscule.",
+   "apport": "Protocole d'abonnement progressif : commencer par une clé 'miniature' avant de l'étendre."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Deep Work",
+   "annee": "2016",
+   "idee": "Le travail profond exige la protection de l'attention contre les sollicitations ; les rituels remplacent la volonté.",
+   "apport": "Lien direct entre trousseau décisionnel et préservation de la capacité cognitive."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile",
+   "annee": "2012",
+   "idee": "Certains systèmes profitent du désordre ; les règles simples et robustes (via negativa) battent les modèles fragiles.",
+   "apport": "Critère de test pour les clés : préférer celles qui gagnent à être stressées."
+  },
+  {
+   "auteur": "Gabriele Oettingen",
+   "titre": "Rethinking Positive Thinking",
+   "annee": "2014",
+   "idee": "Le contraste mental (WOOP) lie souhait, résultat, obstacle et plan ; il automatise la réaction face à l'obstacle.",
+   "apport": "Format 'si… alors…' pour les clauses d'abonnement face aux situations récurrentes."
+  },
+  {
+   "auteur": "Peter Drucker",
+   "titre": "The Effective Executive",
+   "annee": "1967",
+   "idee": "L'efficacité vient de la conversion des problèmes récurrents en décisions génériques régies par une règle.",
+   "apport": "Concept fondateur : distinguer décision générique (clé) et décision exceptionnelle (analyse)."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Cartographier vos serrures décisionnelles",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Pourquoi vous prenez 35 000 décisions par jour (et pourquoi c'est un problème)",
+     "objectif": "Montrer l'ampleur de la charge décisionnelle quotidienne et introduire la métaphore clé/serrure/abonnement.",
+     "sections": [
+      "L'anatomie d'une journée type : compter les micro-choix",
+      "Fatigue décisionnelle : ce que la science dit vraiment (et ses limites)",
+      "La métaphore du trousseau : clé, serrure, abonnement",
+      "Décisions génériques vs décisions exceptionnelles : l'héritage de Drucker",
+      "Le mythe du décideur rationnel permanent",
+      "Premier diagnostic : où part votre attention ?"
+     ],
+     "exercices": [
+      "Journal de 48 h : noter chaque décision et sa catégorie",
+      "Test du 'poids décisionnel' : classer 30 choix récents par coût mental",
+      "Carte thermique de vos heures les plus sollicitées"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Repérer les serrures : ces situations qui reviennent sans cesse",
+     "objectif": "Identifier les familles de choix récurrents qui méritent une clé plutôt qu'une analyse.",
+     "sections": [
+      "Les cinq familles de serrures : temps, argent, relations, corps, information",
+      "Signaux déclencheurs : lire le moment avant la décision",
+      "Le test de la répétition : à partir de combien de fois faut-il une règle ?",
+      "Serrures invisibles : les décisions qu'on ne voit plus",
+      "Serrures héritées : celles qu'on n'a jamais choisies",
+      "Exercice de tri : jetable, récurrent, exceptionnel"
+     ],
+     "exercices": [
+      "Matrice fréquence × enjeu sur 20 décisions récentes",
+      "Inventaire des 'toujours pareil' dans votre semaine",
+      "Liste des décisions héritées de votre éducation ou métier"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Anatomie d'une décision : signal, options, critère, acte",
+     "objectif": "Décomposer le mécanisme décisionnel pour localiser les points de fuite d'énergie.",
+     "sections": [
+      "Le cycle en quatre temps : déclencheur, délibération, choix, retour",
+      "Où s'use l'attention : la phase de délibération",
+      "Le rôle du critère : ce qui tranche vraiment",
+      "Quand le critère manque : la décision par épuisement",
+      "Boucles de rétroaction : la décision d'après apprend de la précédente",
+      "Limites du modèle : décisions sous émotion vive"
+     ],
+     "exercices": [
+      "Rejouer 3 décisions de la semaine en isolant le critère utilisé",
+      "Chronométrer la phase de délibération sur 5 micro-choix",
+      "Identifier les décisions prises 'par défaut d'énergie'"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Vos quatre profils de décideur",
+     "objectif": "Établir un diagnostic personnel des tendances dominantes avant de forger des clés.",
+     "sections": [
+      "Le maximiseur : veut le meilleur, paie le prix fort",
+      "Le satisficer : accepte le suffisant, préserve son énergie",
+      "L'impulsif : tranche vite, regrette souvent",
+      "Le procrastineur : diffère jusqu'à ce que le choix disparaisse",
+      "Profil mixte : on change selon les domaines",
+      "Implications pour le trousseau à construire"
+     ],
+     "exercices": [
+      "Auto-questionnaire sur 6 domaines de vie",
+      "Entretien avec un proche : comment me voit-il décider ?",
+      "Choisir un profil cible par domaine pour les 6 prochains mois"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Forger vos clés maîtresses",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Ce qu'est une clé maîtresse (et ce qu'elle n'est pas)",
+     "objectif": "Définir précisément la clé comme critère réutilisable, distinct de la règle rigide ou de l'habitude.",
+     "sections": [
+      "Clé, règle, habitude, principe : quatre objets différents",
+      "Propriétés d'une bonne clé : simple, testable, révisable",
+      "La clé comme heuristique : Gigerenzer relu pour l'action",
+      "Quand une clé devient toxique : rigidité et angles morts",
+      "Exemples de clés célèbres : de Buffett à Drucker",
+      "Avertissement : une clé ne garantit pas le résultat"
+     ],
+     "exercices": [
+      "Lister 5 clés que vous appliquez déjà sans les nommer",
+      "Transformer 3 règles rigides en clés testables",
+      "Écrire la 'notice' d'une clé personnelle en 3 lignes"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Les sept formes de clés",
+     "objectif": "Présenter un catalogue de formats pour adapter la clé au type de serrure.",
+     "sections": [
+      "La clé seuil : 'je prends si X dépasse Y'",
+      "La clé veto : 'jamais si Z est présent'",
+      "La clé prioritaire : 'toujours A avant B'",
+      "La clé d'identité : 'quelqu'un comme moi fait…'",
+      "La clé conditionnelle : 'si contexte C, alors…'",
+      "La clé de délégation : 'je suis l'avis de Q'",
+      "La clé aléatoire contrôlée : tirer au sort quand tout se vaut"
+     ],
+     "exercices": [
+      "Associer chaque forme à 2 serrures de votre inventaire",
+      "Écrire 7 clés, une par forme, sur un domaine choisi",
+      "Tester la clé aléatoire sur une décision sans enjeu"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "La forge : du principe flou au critère opérant",
+     "objectif": "Donner un protocole en six étapes pour transformer une intuition en clé utilisable.",
+     "sections": [
+      "Étape 1 : nommer la serrure précisément",
+      "Étape 2 : formuler l'intention en une phrase",
+      "Étape 3 : choisir la forme de clé adaptée",
+      "Étape 4 : fixer le seuil ou le veto mesurable",
+      "Étape 5 : prévoir l'exception légitime",
+      "Étape 6 : écrire la clé en 15 mots maximum",
+      "Les erreurs classiques de forge"
+     ],
+     "exercices": [
+      "Atelier de forge sur 3 serrures prioritaires",
+      "Confrontation des clés avec un pair ou un mentor",
+      "Réduction à 15 mots : exercice de compression"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Tester une clé avant de l'adopter",
+     "objectif": "Éviter d'adopter des clés séduisantes mais inopérantes, par un protocole de stress-test.",
+     "sections": [
+      "Le test du scénario : 5 situations fictives",
+      "Le test du pire cas : que se passe-t-il si la clé se trompe ?",
+      "Le test de l'antifragilité (Taleb) : la clé gagne-t-elle au désordre ?",
+      "Le test du coût caché : ce que la clé fait payer ailleurs",
+      "Le test de la réversibilité : peut-on revenir en arrière ?",
+      "Quand rejeter une clé malgré son élégance"
+     ],
+     "exercices": [
+      "Grille de stress-test en 6 cases pour chaque clé forgée",
+      "Simulation sur papier de 10 utilisations futures",
+      "Identifier le coût caché de 3 clés candidates"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "La clé d'identité : l'arme secrète du trousseau",
+     "objectif": "Approfondir la forme la plus puissante : la clé qui engage qui vous êtes, pas ce que vous faites.",
+     "sections": [
+      "Identité vs résultat : le levier de James Clear",
+      "Formuler une identité en 'je suis quelqu'un qui…'",
+      "Les identités contradictoires et leur arbitrage",
+      "Identités héritées : celles qu'il faut désabonner",
+      "Le risque de l'identité figée",
+      "Rituel d'installation : dire, écrire, incarner"
+     ],
+     "exercices": [
+      "Liste de 10 identités actives et 10 identités désirées",
+      "Réécrire 3 clés en format d'identité",
+      "Lettre à une identité que vous choisissez de quitter"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Souscrire vos abonnements de décision",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "L'abonnement : décider une fois pour cent fois",
+     "objectif": "Définir l'abonnement comme l'acte d'attacher une clé à une famille de décisions récurrentes.",
+     "sections": [
+      "Anatomie d'un abonnement : clé + domaine + durée + clause de sortie",
+      "Pourquoi 'souscrire' plutôt qu''adopter' : la force du contrat",
+      "Abonnements conscients vs abonnements subis",
+      "Le nudge personnel (Thaler & Sunstein appliqué à soi)",
+      "Les limites éthiques : quand l'abonnement devient prison",
+      "Différence entre abonnement et engagement public"
+     ],
+     "exercices": [
+      "Inventaire des abonnements déjà actifs dans votre vie",
+      "Classifier : souscrits volontairement / subis / oubliés",
+      "Rédiger le 'contrat' de votre premier abonnement conscient"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Les six domaines d'abonnement prioritaires",
+     "objectif": "Proposer un ordre d'attaque pour bâtir le trousseau sans s'éparpiller.",
+     "sections": [
+      "Alimentation et corps : le plus rentable en énergie",
+      "Information et écrans : le plus urgent à notre époque",
+      "Argent courant : le plus libérateur mentalement",
+      "Relations récurrentes : le plus délicat mais le plus puissant",
+      "Travail et tâches : le plus professionnellement transformant",
+      "Temps et agenda : le méta-abonnement qui structure les autres"
+     ],
+     "exercices": [
+      "Choisir un domaine d'attaque pour les 90 prochains jours",
+      "Écrire 3 abonnements par domaine prioritaire",
+      "Hiérarchiser par ratio énergie libérée / effort d'installation"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Le protocole de souscription en cinq étapes",
+     "objectif": "Méthode concrète pour installer un abonnement qui tient dans la durée.",
+     "sections": [
+      "Étape 1 : formuler la promesse en une phrase",
+      "Étape 2 : choisir le moment de déclenchement",
+      "Étape 3 : préparer l'environnement (Fogg : faciliter)",
+      "Étape 4 : prévoir la clause de sortie et la révision",
+      "Étape 5 : annoncer l'abonnement à un tiers",
+      "La période de rodage : 30 jours avant validation"
+     ],
+     "exercices": [
+      "Fiche de souscription standardisée à remplir",
+      "Aménagement concret de l'environnement (1 action physique)",
+      "Choix du tiers de référence et message d'annonce"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Les clauses conditionnelles : 'si… alors…' comme automate",
+     "objectif": "Utiliser le format d'implémentation d'intention (Oettingen, Gollwitzer) pour rendre l'abonnement automatique.",
+     "sections": [
+      "La science du 'si… alors…' : effet mesuré en psychologie",
+      "Construire des déclencheurs précis, pas des ambiances",
+      "Empiler les clauses : les routines en cascade",
+      "Les clauses de secours : quand le déclencheur manque",
+      "Éviter la surcharge : trop de clauses tue les clauses",
+      "Réviser les clauses qui ne se déclenchent pas"
+     ],
+     "exercices": [
+      "Écrire 5 clauses si/alors sur vos abonnements actifs",
+      "Ajouter une clause de secours à chacune",
+      "Tester une cascade de 3 clauses sur une matinée"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Abonnements empilés : construire une architecture de vie",
+     "objectif": "Passer de la collection de clés à une architecture cohérente qui se soutient elle-même.",
+     "sections": [
+      "Les trois couches : fondations, routines, exceptions",
+      "Cohérence entre abonnements : détecter les contradictions",
+      "L'abonnement méta : celui qui gouverne les autres",
+      "Hiérarchie souple : quand un abonnement en suspend un autre",
+      "Architecture personnelle vs architecture familiale ou d'équipe",
+      "Le risque de forteresse : trop d'ordre tue l'adaptation"
+     ],
+     "exercices": [
+      "Carte visuelle de vos abonnements en 3 couches",
+      "Matrice des contradictions potentielles",
+      "Définir votre abonnement méta en une phrase"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Gérer le trousseau au quotidien",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "Le trousseau vivant : ranger, retrouver, dégainer",
+     "objectif": "Organiser le trousseau pour qu'il soit accessible en situation réelle, pas seulement sur le papier.",
+     "sections": [
+      "Formats de support : carnet, fiche, application, ancrage mental",
+      "Indexer par serrure plutôt que par clé",
+      "Le geste de dégainer : 10 secondes maximum",
+      "Trousseau quotidien vs trousseau de crise",
+      "Version minimaliste : 7 clés suffisent-elles ?",
+      "Sauvegarde et transmission : à qui laisser son trousseau ?"
+     ],
+     "exercices": [
+      "Construire un support physique ou numérique en 1 heure",
+      "Test du dégainer : chronométrer l'accès à 5 clés",
+      "Écrire le trousseau minimal de survie (7 clés)"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "La revue hebdomadaire : 30 minutes qui changent tout",
+     "objectif": "Installer un rituel de maintenance pour éviter la dérive silencieuse du trousseau.",
+     "sections": [
+      "Pourquoi hebdomadaire et pas mensuel",
+      "Les cinq questions de la revue",
+      "Comptage des écarts : sans jugement, avec curiosité",
+      "Ajuster une clé vs remplacer une clé",
+      "Journal de bord : garder trace des versions",
+      "Faire de la revue un moment agréable"
+     ],
+     "exercices": [
+      "Installer un créneau récurrent dans l'agenda",
+      "Gabarit de revue en 5 questions",
+      "Première revue guidée pas à pas"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Quand la clé ne tourne pas : diagnostic d'échec",
+     "objectif": "Interpréter les échecs d'application sans culpabilité ni abandon.",
+     "sections": [
+      "Les cinq causes d'échec d'une clé",
+      "Clé mal forgée : critère flou ou irréaliste",
+      "Serrure mal identifiée : le problème n'était pas là",
+      "Contexte changé : la clé était juste hier",
+      "Énergie manquante : la fatigue a pris le volant",
+      "Sabotage émotionnel : voir partie V"
+     ],
+     "exercices": [
+      "Grille de diagnostic en 5 causes sur 3 échecs récents",
+      "Réécrire une clé après diagnostic",
+      "Identifier la cause dominante dans votre profil"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Déléguer, partager, transmettre son trousseau",
+     "objectif": "Élargir le trousseau au-delà de soi : couple, famille, équipe.",
+     "sections": [
+      "Trousseau commun : ce qui se partage vraiment",
+      "Négocier des clés à deux ou à plusieurs",
+      "Transmettre à un enfant ou un junior : pédagogie",
+      "Le trousseau d'équipe en contexte professionnel",
+      "Respecter les trousseaux différents : tolérance",
+      "Quand ne surtout pas partager"
+     ],
+     "exercices": [
+      "Atelier de trousseau commun avec un proche (1 h)",
+      "Liste des clés à transmettre à un plus jeune",
+      "Charte de trousseau d'équipe en 10 lignes"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Détecter les crochetages émotionnels",
+   "chapitres": [
+    {
+     "numero": 19,
+     "titre": "Les six émotions qui crochètent vos serrures",
+     "objectif": "Identifier les états émotionnels qui contournent les clés les mieux forgées.",
+     "sections": [
+      "La peur : véto universel et souvent abusif",
+      "La colère : accélérateur de décisions irréversibles",
+      "L'euphorie : surconfiance et sous-estimation du risque",
+      "La honte : décisions pour sauver la face",
+      "L'ennui : sabotage du suffisant pour du刺激",
+      "La culpabilité : abonnement à payer une dette imaginaire"
+     ],
+     "exercices": [
+      "Cartographie personnelle des émotions crocheteuses",
+      "Journal d'une semaine : émotion dominante par décision ratée",
+      "Identifier votre émotion-reine de sabotage"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Biais cognitifs : les crocheteurs silencieux",
+     "objectif": "Reconnaître les distorsions systématiques qui imitent une décision rationnelle.",
+     "sections": [
+      "Ancrage, disponibilité, confirmation : le trio classique",
+      "Coût irrémédiable : pourquoi on reste abonné au mauvais choix",
+      "Effet de halo et autorité : les clés déléguées toxiques",
+      "Biais du présent : la clé qui oublie le futur soi",
+      "Ariely et les irrationalités prévisibles",
+      "Quand le biais est utile : ne pas tout corriger"
+     ],
+     "exercices": [
+      "Grille de détection des 10 biais principaux",
+      "Relecture de 5 décisions passées au prisme des biais",
+      "Installer un contre-biais par abonnement prioritaire"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Protocole anti-crochetage : le sas de 10 minutes",
+     "objectif": "Installer un dispositif de sécurité entre l'émotion et l'acte.",
+     "sections": [
+      "Pourquoi 10 minutes et pas 24 heures",
+      "Le sas en 4 gestes : nommer, respirer, relire, reporter",
+      "Clauses d'urgence pour décisions à fort enjeu",
+      "Le pair de secours : qui appeler dans le sas",
+      "Limites du sas : situations de danger immédiat",
+      "Entraîner le sas comme un muscle"
+     ],
+     "exercices": [
+      "Écrire son protocole de sas personnalisé",
+      "Désigner un pair de secours et convenir du code",
+      "Simulation de 3 situations de crochetage"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Renouveler les abonnements obsolètes",
+   "chapitres": [
+    {
+     "numero": 22,
+     "titre": "Détecter l'obsolescence : signes faibles et signaux francs",
+     "objectif": "Reconnaître qu'un abonnement ne sert plus, avant qu'il ne nuise.",
+     "sections": [
+      "Les sept signes d'un abonnement obsolète",
+      "L'abonnement zombie : actif mais sans effet",
+      "Changements de vie : les moments de révision naturelle",
+      "Obsolescence douce vs obsolescence brutale",
+      "Le coût de garder un abonnement périmé",
+      "Distinction : obsolète vs simplement inconfortable"
+     ],
+     "exercices": [
+      "Audit annuel de tous les abonnements actifs",
+      "Liste des changements de vie des 3 dernières années",
+      "Classer chaque abonnement : vivant / fatigué / zombie"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Le rituel de désabonnement : quitter sans regret",
+     "objectif": "Mettre fin proprement à un abonnement, en tirer les leçons, éviter la nostalgie paralysante.",
+     "sections": [
+      "Pourquoi un rituel : le cerveau a besoin de clôture",
+      "Les cinq étapes du désabonnement conscient",
+      "Récupérer ce qui reste valide : recyclage de la clé",
+      "Annoncer le désabonnement aux tiers concernés",
+      "Gérer la vacance : que met-on à la place ?",
+      "Archivage : garder trace pour ne pas recommencer"
+     ],
+     "exercices": [
+      "Cérémonie personnelle de désabonnement (30 min)",
+      "Lettre de clôture à l'abonnement quitté",
+      "Archive datée avec raisons du changement"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Le trousseau de toute une vie : évoluer sans se trahir",
+     "objectif": "Penser le trousseau sur la durée longue : âges, transitions, transmissions.",
+     "sections": [
+      "Les quatre saisons du trousseau : fondation, expansion, consolidation, allègement",
+      "Adapter aux transitions : parentalité, carrière, santé, retraite",
+      "Ce qui reste : le noyau invariant d'une vie",
+      "Ce qui change : la périphérie adaptative",
+      "Transmettre son trousseau : héritage immatériel",
+      "Ouverture : le trousseau comme pratique, pas comme possession"
+     ],
+     "exercices": [
+      "Écrire la lettre à votre moi dans 10 ans",
+      "Identifier les 3 clés qui vous suivront toujours",
+      "Planifier la prochaine grande révision du trousseau"
+     ]
+    }
+   ]
+  }
+ ]
+}

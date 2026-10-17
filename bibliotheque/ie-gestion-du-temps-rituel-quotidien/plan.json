@@ -1,0 +1,610 @@
+{
+ "titre": "Le Protocole Libre",
+ "sous_titre": "Et si vous poussiez le rituel quotidien jusqu’à son extrême logique ? Cartographier, mutualiser et réviser vos transitions pour libérer énergie décisionnelle et liberté réelle",
+ "bibliographie": [
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les petites habitudes se composent et transforment l’identité par la répétition de preuves quotidiennes. Un bon système bat une meilleure intention.",
+   "apport": "Notre livre retiendra la logique « système > objectif », la courbe d’aggrégation des micro-gains et l’ancrage identitaire pour justifier la scénarisation fine des transitions, en dépassant le simple « habit stacking » vers une journée entière de protocoles."
+  },
+  {
+   "auteur": "Charles Duhigg",
+   "titre": "The Power of Habit",
+   "annee": "2012",
+   "idee": "L’habitude s’organise en boucle : signal, routine, récompense. Modifier une habitude suppose de comprendre cette boucle sans la déraciner brutalement.",
+   "apport": "La boucle signal-routine-récompense sert de grammaire de base pour diagnostiquer chaque transition, puis de levier pour concevoir des micro-rituels et des rituels de clôture (« golden hour » du soir)."
+  },
+  {
+   "auteur": "Wendy Wood",
+   "titre": "Good Habits, Bad Habits",
+   "annee": "2019",
+   "idee": "Les habitudes se forment surtout par la stabilité du contexte et la répétition, beaucoup moins par la volonté. Le contrôle fonctionne mieux par conception d’environnement que par effort.",
+   "apport": "Justification scientifique prudente de notre thèse : ritualiser l’espace-temps réduit la charge de décision. Appui pour les chapitres sur les ancres, les objets-repères et la transformation de l’environnement."
+  },
+  {
+   "auteur": "BJ Fogg",
+   "titre": "Tiny Habits",
+   "annee": "2019",
+   "idee": "Les petits comportements ancrés après un geste déjà acquis, célébrés aussitôt, se stabilisent mieux que les grandes résolutions.",
+   "apport": "Modèle ancre-comportement-émotion pour les micro-rituels (5 s à 2 min), la version « minimale jamais sautée » et le protocole de secours : noyau vs ornements."
+  },
+  {
+   "auteur": "Peter M. Gollwitzer",
+   "titre": "Implementation Intentions and Goal Achievement (programme de recherche ; article fondateur)",
+   "annee": "1999 (programme continu depuis)",
+   "idee": "Les intentions du type « si X alors Y » transfèrent le contrôle de la situation à l’action, ce qui réduit le coût de déclenchement. Incertitude : il s’agit surtout d’un programme de recherche académique plus que d’un livre grand public unique.",
+   "apport": "Les « si… alors… » structurent nos grilles de transition et les contrats de synchronisation (ch. 6, 10, 18)."
+  },
+  {
+   "auteur": "Roy F. Baumeister et John Tierney",
+   "titre": "Willpower",
+   "annee": "2011",
+   "idee": "La volonté se comporte comme une ressource fragile, sensible à la fatigue et aux choix successifs. Distinguer ce que la recherche établit de ce qui reste débattu.",
+   "apport": "Cadre pour parler de fatigue décisionnelle sans promesse magique, et pour argumenter qu’occuper l’espace par des rituels libère des réserves d’attention réelles."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Deux systèmes de traitement cohabitent : rapide/automatique et lent/réflexif. Les heuristiques et le choix par défaut pèsent sur nos décisions quotidiennes.",
+   "apport": "Vocabulaire de la bascule de contexte, des micro-choix et du choix par défaut conçu : le protocole devient un « système 1 bienveillant » plutôt qu’un dressage."
+  },
+  {
+   "auteur": "Timothy D. Wilson",
+   "titre": "Strangers to Ourselves",
+   "annee": "2002",
+   "idee": "Une grande part de notre fonctionnement est adaptative, inconsciente ; nous nous racontons ensuite des histoires pour l’expliquer. La « reécriture » narratives peut modifier le comportement.",
+   "apport": "Chapitres reprise, résilience, identité du rituel : l’histoire que l’on se raconte après une rupture compte autant que le protocole lui-même."
+  },
+  {
+   "auteur": "Mihaly Csikszentmihalyi",
+   "titre": "Flow",
+   "annee": "1990",
+   "idee": "L’expérience optimale naît d’un équilibre entre défi et compétence, avec des objectifs clairs et un retour d’information immédiat.",
+   "apport": "Les rituels d’entrée en session créent les conditions du flux ; la ritualisation des frontières protège les blocs de concentration profonde."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Deep Work",
+   "annee": "2016",
+   "idee": "Le travail à haute valeur exige des blocs protégés, des rituels de focus et une clôture explicite de la journée professionnelle.",
+   "apport": "Le « shutdown ritual » et la ritualisation des sessions de travail alimentent directement nos protocoles d’entrée/sortie (ch. 7) et les conventions d’équipe (ch. 12)."
+  },
+  {
+   "auteur": "David Allen",
+   "titre": "Getting Things Done",
+   "annee": "2006",
+   "idee": "Externaliser les tâches dans un système de confiance libère l’esprit ; chaque item doit mener à une action physique suivante.",
+   "apport": "La révision hebdomadaire, les next actions et le « mind like water » inspirent notre cycle de revue et la distinction entre capture, protocole et exécution."
+  },
+  {
+   "auteur": "Atul Gawande",
+   "titre": "The Checklist Manifesto",
+   "annee": "2009",
+   "idee": "Même dans des métiers experts, les listes courtes évitent les omissions coûteuses. La clarté du protocole bat l’héroïsme de la mémoire.",
+   "apport": "Design des checklists de transition, version express, protocole de retour après exception : rigueur sans lourdeur administrative."
+  },
+  {
+   "auteur": "Hal Elrod",
+   "titre": "The Miracle Morning",
+   "annee": "2006",
+   "idee": "Un rituel matinal structuré (éveil, affirmation, visualisation, lecture, écriture, exercice) peut reprogrammer le début de journée.",
+   "apport": "Point de comparaison et de dépassement : nous généralisons la logique matinale à toutes les transitions de la journée, avec plus de souplesse et de mutualisation."
+  },
+  {
+   "auteur": "Nir Eyal",
+   "titre": "Indistractable",
+   "annee": "2019",
+   "idee": "La traction et la distraction se gèrent par des règles internes, du temps planifié et de la conception de l’environnement, pas seulement par la force de blocage.",
+   "apport": "Rituels de bascule numérique, timeboxing des transitions, clauses « si distraction alors… » intégrées aux protocoles."
+  },
+  {
+   "auteur": "Donella H. Meadows",
+   "titre": "Thinking in Systems",
+   "annee": "2008",
+   "idee": "Les systèmes se lisent en stocks, flux, boucles de rétroaction et points de levier ; les solutions superficielles reviennent.",
+   "apport": "Vision systémique de la journée et du foyer comme réseaux de transitions ; la mutualisation comme boucle de rétroaction positive ; les revues comme boucles de régulation."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile",
+   "annee": "2012",
+   "idee": "Au-delà de la résistance, certains systèmes gagnent au désordre si l’on préserve des options, une redondance et une taille convexe.",
+   "apport": "Protocoles de secours, modes dégradés, options de rupture volontaire : le répertoire doit gagner en robustesse, pas seulement en performance."
+  },
+  {
+   "auteur": "Randall Collins",
+   "titre": "Interaction Ritual Chains",
+   "annee": "2004",
+   "idee": "Les interactions ritualisées (corps rassemblés, barrière à l’intrusion, symboles partagés, rythme partagé) produisent solidarité et émotion collective.",
+   "apport": "Fondements de la partie mutualisation : synchroniser un rituel à deux ou en équipe n’est pas de la perte de temps, c’est de la fabrique de lien et de coordination."
+  },
+  {
+   "auteur": "Émile Durkheim",
+   "titre": "Les Formes élémentaires de la vie religieuse",
+   "annee": "1912",
+   "idee": "Le rituel collectif crée une « effervescence » qui renforce le groupe et distingue le sacré du profane.",
+   "apport": "Éclairage anthropologique des cérémonies d’équipe et des rituels familiaux, sans religiosité imposée : le sens collectif comme moteur de tenue dans la durée."
+  },
+  {
+   "auteur": "Casper ter Kuile",
+   "titre": "The Power of Ritual",
+   "annee": "2020",
+   "idee": "Les rituels séculiers (commensalité, transitions, engagements, célébrations) donnent sens et appartenance dans des sociétés déreligiosées.",
+   "apport": "Cadrage contemporain des rituels du foyer, des repas et des passages : laïc, inclusif, orienté communauté — utile pour la partie 3."
+  },
+  {
+   "auteur": "Oliver Burkeman",
+   "titre": "Four Thousand Weeks",
+   "annee": "2021",
+   "idee": "La vie est brève ; les stratégies de productivité totales échouent souvent. Accepter la finitude permet de choisir ce qui compte vraiment.",
+   "apport": "Contre-poids essential : ritualiser n’est pas tout contrôler. Les zones libres, les réserves de flou et les revues empêchent le protocole de devenir une tyrannie de la productivité."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Cartographier vos transitions",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le carnet des seuils",
+     "objectif": "Apprendre à observer et consigner ses transitions quotidiennes sans les modifier tout de suite, pour fonder le reste du livre sur des données vécues et non sur des modèles abstraits.",
+     "sections": [
+      "Ce qu’on appelle une transition : définition opérationnelle pour ce livre",
+      "Transitions visibles, invisibles et semi-visibles",
+      "Méthode d’auto-anthropologie : observer avant de corriger",
+      "Quatre familles de seuils : temporels, spatiaux, relationnels, numériques",
+      "Premiers repères de friction, de latence et d’énergie",
+      "Biais d’observation : mémoire nostalgique, projection, effet de nouveauté"
+     ],
+     "exercices": [
+      "Journal des 48 heures par tranches de 30 minutes (tout noter, rien optimiser)",
+      "Liste exhaustive des 30 transitions d’une journée type réelle",
+      "Trois notes corporelles et attentionnelles prises à trois seuils choisis"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "La grammaire de la journée",
+     "objectif": "Transformer l’inventaire brut en modèle lisible : nœuds, franges, séquences, zones mortes, pour savoir quoi scénariser ensuite.",
+     "sections": [
+      "Nœuds, franges et territoires : une grammaire de la journée",
+      "Les trois séquences : ouverture, bascule, clôture",
+      "Cartographier l’écosystème (lieux, objets, personnes, écrans)",
+      "Zones mortes : ni rituel ni repos véritable",
+      "Journée « type » théorique vs journée « réelle » observée",
+      "Premières hypothèses de protocoles (sans encore les écrire)"
+     ],
+     "exercices": [
+      "Schéma comparé journée type / journée réelle sur une même page",
+      "Grille de codage de 12 transitions (durée, intensité, participants, fréquence)",
+      "Identification des 5 nœuds critiques à plus fort coût de bascule"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Le coût caché des bascules",
+     "objectif": "Comprendre pourquoi fragmenter sa journée sans protocoles coûte de l’attention, et formuler la thèse centrale : occuper l’espace des transitions libère de l’énergie décisionnelle.",
+     "sections": [
+      "Bascule de contexte et résidu attentionnel : ce que la recherche suggère, sans chiffres miracles",
+      "Fatigue décisionnelle : distinctions, débats et usages prudents",
+      "Micro-choix, résidences mentales et friction numérique",
+      "Le paradoxe du libre arbitre quotidien",
+      "Pourquoi ritualiser libère : mécanismes et limites de la thèse",
+      "Rituels comme « choix par défaut conçu »"
+     ],
+     "exercices": [
+      "Journal des micro-décisions pendant une demi-journée (compter, pas juger)",
+      "Sept jours de comptage des bascules de contexte (tableur simple)",
+      "Écriture d’un protocole de clôture mentale de 3 minutes en fin de journée"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "La carte des protocoles",
+     "objectif": "Choisir avec méthode quelles transitions ritualiser en premier, en évitant de tout faire ou de commencer par le seul rituel matinal glamour.",
+     "sections": [
+      "Matrice impact / facilité appliquée aux transitions",
+      "Critères de sélection : fréquence, coût de bascule, risque d’erreur, partageabilité",
+      "Erreurs de priorité classiques (trop, trop tôt, trop spectaculaire)",
+      "Séquencer l’adoption : une transition pilote, puis la chaîne",
+      "Tableau de bord du premier protocole (écriture, mesure, revue)",
+      "Quand ne pas ritualiser (transition déjà fluide, environnement instable)"
+     ],
+     "exercices": [
+      "Grille de priorisation sur 12 transitions relevées en partie I",
+      "Rédaction intégrale du premier micro-protocole (signal, geste, clôture, version express)",
+      "Plan d’adoption sur 14 jours avec points de contrôle"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Ritualiser les micro-moments",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "L’architecture des micro-rituels",
+     "objectif": "Concevoir des micro-rituels courts, robustes et répétables, capables de couvrir une grande part des transitions de la journée.",
+     "sections": [
+      "Anatomie d’un micro-rituel : signal, geste, clôture",
+      "La fenêtre utile : de 5 secondes à 2 minutes",
+      "Réduire le nombre d’options dès le design",
+      "Aides-mémoire sensoriels : objet, son, posture, phrase",
+      "Fragilités typiques : durée trop longue, dépendance à un contexte parfait",
+      "Passer du micro-rituel au protocole de séquence"
+     ],
+     "exercices": [
+      "Fabriquer et tester trois micro-rituels sur cinq jours",
+      "Expérience A/B : même rituel avec et sans signal fixe",
+      "Fiche technique d’un rituel (durée, matériau, échec, version express)"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Les ancres",
+     "objectif": "Brancher chaque rituel sur un comportement déjà stable, pour qu’il se déclenche sans négociation interne.",
+     "sections": [
+      "Le modèle ancre → comportement (Fogg) et ses conditions",
+      "Les intentions d’implémentation « si… alors… » (Gollwitzer)",
+      "Choisir une ancre fiable : fréquence, visibilité, stabilité",
+      "Chaîner les ancres sans fragiliser l’ensemble",
+      "Ancres spatiales, matérielles et relationnelles",
+      "Pièges : ancre absente, ancre en compétition, surchaînage"
+     ],
+     "exercices": [
+      "Carte personnelle des ancres existantes (10 comportements acquis)",
+      "Rédaction de 10 intentions d’implémentation pour des transitions précises",
+      "Protocole de chaînage de trois micro-rituels sur une matinée"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Le rituel d’entrée et de sortie",
+     "objectif": "Maîtriser les grandes portes de la journée : lever, début de session de travail, clôture professionnelle, entrées/sorties de lieux, frontières numériques.",
+     "sections": [
+      "Lever : protocole des premières minutes (ni téléphone réflexe ni performance héroïque)",
+      "Entrée en session : préparer le contexte avant le contenu",
+      "Shutdown rituel : fermer la journée de travail sans la laisser filer",
+      "Entrées et sorties de lieu : maison, véhicule, sport, visite",
+      "Transitions numériques : boîte de réception, applications, notifications",
+      "Version express 90 secondes pour les matins contraints"
+     ],
+     "exercices": [
+      "Écriture complète de son protocole d’entrée et de son protocole de sortie",
+      "Test de 10 jours avec note de qualité de bascule (échelle simple)",
+      "Déclinaison express de chaque protocole en 6 étapes maximum"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "La journée presque entièrement ritualisée",
+     "objectif": "Pousser la logique à son extrême contrôlé : scénariser une journée type où presque chaque transition est un protocole, pour en mesurer bénéfices et coûts réels.",
+     "sections": [
+      "Principe de scénarisation complète : hypothèse de travail, non dogme",
+      "Carte heure par heure : protocoles fixes, zones libres, zones grises",
+      "Ancres temporelles et rituels flottants",
+      "Où laisser du flou volontaire : réserves de liberté non négociables",
+      "Risques : rigidité, irritation sociale, illusion de contrôle",
+      "Expérimentation protégée : week-end, congé, journée sans invité"
+     ],
+     "exercices": [
+      "Scénarisation intégrale d’un samedi « protocole total » (grille par transition)",
+      "Journal de bord horaire pendant cette journée expérimentale",
+      "Bilan chiffré et qualitatif : décisions évitées, irritants, joies, ruptures"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Mutualiser les rituels collectifs",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Du rituel privé au protocole partagé",
+     "objectif": "Comprendre pourquoi synchroniser ses rituels avec d’autres en démultiplie la force, et quand il faut au contraire protéger le rituel solitaire.",
+     "sections": [
+      "Efficacité individuelle vs robustesse collective",
+      "Synchronisation, normes implicites et charge mentale partagée",
+      "Ce que disent Durkheim et Collins : interaction rituelle et lien",
+      "Coûts de coordination : horaires, sens, asymétrie d’engagement",
+      "Rituels déjà partagés sans être nommés (famille, équipe, voisinage)",
+      "Quand ne pas mutualiser : intimité, sécurité, rythmes incompatibles"
+     ],
+     "exercices": [
+      "Inventaire des rituels déjà partagés implicitement dans votre semaine",
+      "Identification de trois rituels mutualisables et d’un rituel à protéger seul",
+      "Entretien exploratoire de 15 minutes avec un partenaire potentiel"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Rituels de binôme et de micro-équipe",
+     "objectif": "Concevoir des protocoles à deux ou cinq personnes, stables sans être bureaucrates, pour le travail, l’entraide ou le couple.",
+     "sections": [
+      "Contrat de synchronisation : durée, lieux, signaux, rôles",
+      "Check-in et check-out : ouvrir et fermer le temps partagé",
+      "Pauses, repas et handoffs : les transitions oubliées en équipe",
+      "Rituels d’aide, de relecture et de confirmation mutuelle",
+      "Gérer l’asymétrie d’engagement et les absences récurrentes",
+      "Documentation minimale : une page, pas un manuel"
+     ],
+     "exercices": [
+      "Rédaction d’un contrat de binôme sur une page",
+      "Protocole de point quotidien de 7 minutes (script prêt à l’emploi)",
+      "Exercice de synchronisation sur une semaine complète (deux personnes)"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Rituels familiaux et domestiques",
+     "objectif": "Ritualiser le foyer pour réduire les frictions du quotidien, sans rigidité parentale ni surcharge invisible pour une seule personne.",
+     "sections": [
+      "Le foyer comme système de transitions continues",
+      "Rituels du matin, du repas, du soir, du départ et du retour",
+      "Impliquer les enfants en respectant leurs rythmes et leur jeu",
+      "Répartition des rôles : éviter la charge mentale unilatérale",
+      "Rituels de réparation après conflit ou journée ratée",
+      "Neutralité culturelle et inclusive du protocole domestique"
+     ],
+     "exercices": [
+      "Cartographie familiale des transitions d’une journée de semaine",
+      "Tenue d’une assemblée rituelle de 30 minutes pour choisir trois protocoles",
+      "Protocole repas du soir version simple (signal, rôles, clôture)"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Conventions, contrats et cérémonies d’équipe",
+     "objectif": "Transposer les rituels dans des organisations sans les transformer en process lourds ni en théâtre managérial.",
+     "sections": [
+      "Rituels légers vs process bureaucratiques : le test de l’utilité perçue",
+      "Réunions en trois temps : ouverture, corps, clôture",
+      "Onboarding par protocoles plutôt que par torrents d’informations",
+      "Cérémonies de décision et de fin de projet",
+      "Documenter sans bureaucatiser : où vivent les protocoles",
+      "Désaccord, silence et rotation de facilitation"
+     ],
+     "exercices": [
+      "Réécriture d’une réunion récurrente en protocole en trois actes",
+      "Fiche convention d’équipe (5 à 8 lignes) soumise à validation collective",
+      "Protocole personnel de fin de cycle de projet applicable hors entreprise"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Gérer la rigidité",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "La juste rigidité",
+     "objectif": "Régler intentionnellement le curseur entre protocole ferme et protocole élastique, selon les domaines et les périodes de vie.",
+     "sections": [
+      "Rigidité fonctionnelle vs rigidité pesante (distinction descriptive, non clinique)",
+      "Le continuum d’ajustement et ses cinq positions",
+      "Critères pour un rituel « non négociable » et un rituel « optionnel structuré »",
+      "Le paradoxe d’obéir à un protocole qu’on a soi-même écrit",
+      "Souplesse délibérée : sauter un rituel pour vérifier sa fonction",
+      "Clause de souplesse écrite dans chaque protocole"
+     ],
+     "exercices": [
+      "Noter chaque rituel du répertoire sur une échelle de rigidité 1 à 5",
+      "Test comparatif : une semaine en version ferme, une semaine en version élastique",
+      "Ajout d’une clause de souplesse à trois protocoles clés"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Signaux d’alerte",
+     "objectif": "Repérer précocement les signes que le rituel dégénère en fardeau, en obsession ou en prétexte social, sans pathologiser ni se soigner soi-même.",
+     "sections": [
+      "Anxiété de rupture, culpabilité, rumination autour du protocole",
+      "Perfectionnisme rituel et course à la performance du matin idéal",
+      "Évitement social ou rigidité relationnelle au nom du rituel",
+      "Rituels qui colonisent le reste de la vie (temps, argent, attention)",
+      "Auto-observation : questions d’alerte, pas auto-diagnostic",
+      "Quand demander de l’aide externe (ami, coach, professionnel de santé) : limites de ce livre"
+     ],
+     "exercices": [
+      "Journal des inconforts pendant 14 jours (contexte, intensité, déclencheur)",
+      "Série de 10 questions d’alerte relue chaque dimanche",
+      "Revue mensuelle des signaux avec décision garder / ajuster / suspendre"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Le protocole de secours minimal",
+     "objectif": "Construire pour chaque rituel important une version dégradée et une version express, pour tenir dans les journées cassées sans tout abandonner.",
+     "sections": [
+      "Principe noyau / ornements : ce qui fait tenir le rituel",
+      "Version express (60 s), version allégée, version symbolique",
+      "Kit de secours matériel et mental (ce qu’il faut toujours sur soi)",
+      "Rituels de récupération après une journée entièrement rompue",
+      "Ne jamais confondre secours et échec : statut de la version minimale",
+      "Entretien du kit au moment de la revue"
+     ],
+     "exercices": [
+      "Pour cinq rituels majeurs, écrire la version minimale non négociable",
+      "Constituer un kit de secours physique (sac, trousse, fichier hors-ligne)",
+      "Protocole de reprise « J+1 » applicable après n’importe quelle rupture d’un jour"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Conflits de rituels",
+     "objectif": "Arbitrer les collisions entre rituels personnels, familiaux et professionnels sans céder systématiquement ni imposer.",
+     "sections": [
+      "Typologie des conflits : temps, lieu, sens, rythme, symboles",
+      "Cartographier les collisions sur une semaine réelle",
+      "Négocier sans céder sur le noyau : le triangle noyau / préférence / décor",
+      "Protocoles d’arbitrage à la maison et en équipe",
+      "Coexister avec plusieurs calendriers et temporalités",
+      "Dire non, entendre non, et s’en remettre"
+     ],
+     "exercices": [
+      "Carte des collisions rituelles sur une semaine (matrice parties prenantes)",
+      "Rédaction d’un script de négociation pour le conflit le plus coûteux",
+      "Négociation réelle d’une clause d’exception mutuelle avec un proche ou un collègue"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Prévoir les exceptions",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "La taxonomie des exceptions",
+     "objectif": "Classer les ruptures prévisibles et soudaines afin de cesser de traiter toute exception comme un accident total.",
+     "sections": [
+      "Exceptions annoncées vs exception soudaine",
+      "Grandes familles : voyage, hospitalité, saison, charge extrême, deuil, fête, maladie bénigne",
+      "Ce qui manque réellement : espace, temps, outils, co-présence, sommeil",
+      "Le mythe de l’exception totale : presque toujours il reste un noyau",
+      "Construire son inventaire personnel des 12 prochaines exceptions",
+      "Fiche « terrain hostile » pour chaque type"
+     ],
+     "exercices": [
+      "Inventaire daté des exceptions prévisibles des 90 prochains jours",
+      "Fiche terrain hostile pour voyage et pour semaine de charge",
+      "Répertoire de substitutions : un rituel, trois alternatives"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Les modes opératoires",
+     "objectif": "Concevoir des modes cohérents (normal, voyage, survie, repos) pour basculer sans friction et revenir sans débat interne.",
+     "sections": [
+      "Le mode comme ensemble cohérent, non comme simple allègement",
+      "Mode voyage : trois à cinq protocoles nomades",
+      "Mode survie : bascule sur le minimal assumé",
+      "Mode repos / mode fête : pauses ritualisées plutôt qu’effondrement",
+      "Signal, durée et retour : la mécanique de bascule de mode",
+      "Modes partagés en famille ou en équipe"
+     ],
+     "exercices": [
+      "Définition de quatre modes avec trois rituels chacun",
+      "Fiche de bascule de mode (signal d’entrée, durée, signal de sortie)",
+      "Test en conditions réelles ou simulées (voyage d’un week-end, garde d’enfant, astreinte)"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Le rituel d’exception lui-même",
+     "objectif": "Scénariser la façon d’entrer et de sortir d’une exception, pour que la rupture ne soit pas un trou noir dans le répertoire.",
+     "sections": [
+      "Le protocole de suspension : arrêter proprement",
+      "Le rituel de pré-départ : préparer le terrain et les partenaires",
+      "Maintenir un fil symbolique minimal pendant l’exception",
+      "Le rituel de retour : réintégrer les protocoles sans avalanche",
+      "L’exception comme information : ce qu’elle révèle du protocole",
+      "Durées : exception d’une heure, d’un jour, d’un mois"
+     ],
+     "exercices": [
+      "Protocole complet suspension / retour sur une page",
+      "Journal court « pendant l’exception » (une ligne par jour)",
+      "Checklist de retour en 20 minutes incluant partenaires et environnement"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Résilience et reprise",
+     "objectif": "Recommencer après une longue rupture sans spirale de culpabilité ni abandon définitif de l’identité protocole.",
+     "sections": [
+      "Pourquoi une rupture longue casse le sentiment d’être « quelqu’un qui a des rituels »",
+      "Règles concurrentes : jamais deux fois de suite vs reprise immédiate — choisir la sienne",
+      "Micro-reprise : une seule transition reprise comme porte d’entrée",
+      "L’histoire que l’on se raconte soi-même (Wilson) et la reécriture utile",
+      "Communiquer la reprise aux partenaires sans long plaidoyer",
+      "Plan de 72 heures après une absence prolongée"
+     ],
+     "exercices": [
+      "Protocole de micro-reprise en 5 étapes",
+      "Lettre de reprise à soi-même (150 mots max) relue à J+7",
+      "Plan de 72 h après une longue rupture : jour par jour, noyau seulement"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Réviser le répertoire",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Le cycle de revue",
+     "objectif": "Mettre en place une revue simple, régulière et non obsessionnelle du répertoire de rituels, pour l’ajuster sans le renier.",
+     "sections": [
+      "Quatre fréquences : quotidienne (1 min), hebdomadaire (20 min), mensuelle (1 h), trimestrielle (demi-journée)",
+      "Quoi noter : assez de mesure, pas de tyrannie du tableau de bord",
+      "Les huit questions de revue standard",
+      "Décisions possibles : garder, ajuster, suspendre, archiver, mutualiser",
+      "Outils légers : carnet, notes, tableur minimal",
+      "Intégrer la revue au protocole lui-même"
+     ],
+     "exercices": [
+      "Modèle de revue hebdomadaire prêt à photocopier ou copier-coller",
+      "Tableau de suivi de 12 rituels sur un mois",
+      "Tenue d’une première revue mensuelle intégrale avec décisions écrites"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Archiver et démanteler",
+     "objectif": "Apprendre à abandonner proprement un rituel devenu inutile, pour faire de la place et empêcher l’accumulation morte de protocoles.",
+     "sections": [
+      "Pourquoi lâcher un rituel est aussi difficile qu’en créer un",
+      "Signes qu’un rituel a fait son temps",
+      "Démantèrement progressif vs coupure nette",
+      "Clôturer symboliquement : cérémonie courte et digne",
+      "Archiver pour réutiliser plus tard sans culpabilité",
+      "Prévenir les partenaires d’un démantèlement"
+     ],
+     "exercices": [
+      "Liste des rituels à démanteler classés par degré de difficulté",
+      "Cérémonie d’archive d’un rituel (texte + geste, 10 minutes)",
+      "Test 14 jours sans un rituel, avec notes d’effets réels"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Évoluer par cycles",
+     "objectif": "Faire évoluer le répertoire avec les saisons, les âges de vie et les changements de rôle, sans tout reconstruire à zéro.",
+     "sections": [
+      "Cycles courts (semaine), moyens (saison, projet), longs (années, métamorphoses)",
+      "Moments de bascule de vie : parentalité, déménagement, deuil, retraite, transition professionnelle",
+      "Rituels de passage : héritage anthropologique et usages séculiers",
+      "Réécrire le protocole sans perdre le noyau : la règle des 20 %",
+      "Rituels d’anniversaire du protocole lui-même",
+      "Transmettre un rituel à quelqu’un d’autre"
+     ],
+     "exercices": [
+      "Revue annuelle du répertoire (demi-journée type)",
+      "Fiche « nouveau rôle » : trois rituels à créer, trois à adapter, un à abandonner",
+      "Cérémonie de mise à jour du protocole de vie (30 minutes, écrite)"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Le protocole de vie",
+     "objectif": "Conclure en montrant comment les six axes forment une boucle vivante : la journée presque entièrement ritualisée ne ferme pas la liberté, elle l’organise — avec des limites claires et aucune promesse magique.",
+     "sections": [
+      "Thèse finale : plus d’espace ritualisé, plus de marge décisionnelle réelle (conditions de validité)",
+      "La boucle des six axes : cartographier, micro-rituels, mutualiser, rigidité, exceptions, révision",
+      "Ce que ce livre ne promet pas : santé, performance garantie, réussite universelle",
+      "Outils récapitulatifs : grilles, contrats, modes, checklists",
+      "Le protocole de démarrage en 7 jours pour sortir de la lecture par l’action",
+      "Vivre avec un répertoire qui meurt et renaît"
+     ],
+     "exercices": [
+      "Synthèse écrite : mon protocole de vie version 1 (3 pages max)",
+      "Plan de démarrage 7 jours (une transition par jour)",
+      "Engagement de revue à 30 et 90 jours, daté et signé par soi-même ou un témoin"
+     ]
+    }
+   ]
+  }
+ ]
+}
