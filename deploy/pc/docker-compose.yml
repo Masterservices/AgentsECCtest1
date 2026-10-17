@@ -1,0 +1,44 @@
+# Usine à livres sur ton PC (Windows, Mac ou Linux) : Qwen orchestre, le PC fait tourner la boucle.
+# Lancement : docker compose up -d --build        Suivi : docker compose logs -f
+# Le conteneur redémarre tout seul (après un redémarrage du PC ou une panne) et reprend là où il s'est arrêté.
+services:
+  usine:
+    build:
+      context: .
+      dockerfile_inline: |
+        FROM python:3.12-slim
+        RUN apt-get update && apt-get install -y --no-install-recommends git util-linux ca-certificates \
+            && rm -rf /var/lib/apt/lists/*
+        RUN pip install --no-cache-dir reportlab pypdf matplotlib
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      W: /work
+      MAX_PARALLELE: "8"
+    volumes:
+      - usine-depot:/home/user/AgentsECCtest   # le dépôt cloné (usine.sh attend ce chemin)
+      - usine-travail:/work                    # chapitres en cours, journaux
+    command:
+      - bash
+      - -c
+      - |
+        set -u
+        R=/home/user/AgentsECCtest
+        URL="https://x-access-token:$${GITHUB_TOKEN}@github.com/$${DEPOT}.git"
+        if [ ! -d "$$R/.git" ]; then git clone --branch "$${BRANCHE}" "$$URL" "$$R"; fi
+        cd "$$R"
+        git remote set-url origin "$$URL"
+        git config user.name "Usine Dialagram"
+        git config user.email "usine@users.noreply.github.com"
+        mkdir -p /tmp/usine
+        # boucle sans fin : récupère les nouveautés, restaure les brouillons, produit les livres restants,
+        # puis attend 5 minutes (quand tout est fini, elle ne fait que surveiller les nouveaux sujets)
+        while true; do
+          git pull --rebase -q origin "$${BRANCHE}" || true
+          python3 bibliotheque/outils/orchestrateur.py --cible restants --minutes 100000 || true
+          sleep 300
+        done
+
+volumes:
+  usine-depot:
+  usine-travail:
