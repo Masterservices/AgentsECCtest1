@@ -1,0 +1,536 @@
+{
+ "titre": "Confiance d'audit",
+ "sous_titre": "La confiance en soi comme démarche de vérification : collecter ses preuves, relever les écarts, corriger par micro-expériences",
+ "bibliographie": [
+  {
+   "auteur": "Albert Bandura",
+   "titre": "Self-Efficacy: The Exercise of Control",
+   "annee": "1997",
+   "idee": "La confiance (auto-efficacité) se construit par l'expérience de maîtrise, la persuasion verbale, l'état physiologique et les modèles proches. Elle est spécifique à chaque domaine, pas générale.",
+   "apport": "La thèse centrale de la preuve d'action plutôt que du discours positif ; le découpage par domaine d'audit."
+  },
+  {
+   "auteur": "Martin Seligman",
+   "titre": "Learned Optimism",
+   "annee": "1990",
+   "idee": "L'optimisme appris se travaille en identifiant le style explicatif (permanent, global, personnel) des échecs, puis en le réévaluant sur des faits concrets.",
+   "apport": "L'idée d'auditer son discours intérieur : relever les formulations, les confronter aux données, formuler des corrections."
+  },
+  {
+   "auteur": "Carol Dweck",
+   "titre": "Mindset: The New Psychology of Success",
+   "annee": "2006",
+   "idee": "Deux conceptions de l'intelligence (fixe vs. développable) orientent la réaction à l'échec : évitement ou apprentissage.",
+   "apport": "Le chapitre sur l'échec comme donnée d'audit, et la conception de la compétence comme capital audit-able et améliorable."
+  },
+  {
+   "auteur": "Timothy D. Wilson",
+   "titre": "Redirect: The Surprising New Science of Psychological Change",
+   "annee": "2011",
+   "idee": "Modifier durablement son rapport à soi passe souvent par la réécriture narrative de son histoire, mieux que par l'affirmation pure.",
+   "apport": "L'importance du journal de preuves et de la relecture périodique de son récit professionnel/personnel."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les identités se construisent par la répétition de comportements minimaux ; on devient ce qu'on fait systématiquement.",
+   "apport": "Le protocole d'itération rapide : micro-habitudes vérifiables plutôt que résolutions massives."
+  },
+  {
+   "auteur": "Eric Ries",
+   "titre": "The Lean Startup",
+   "annee": "2011",
+   "idee": "Construire dans l'incertitude par cycles court Mesurer–Apprendre–Construire, avec des MVP testant des hypothèses à risque.",
+   "apport": "L'importation du cycle d'itération et du MVP appliqué aux expériences de confiance (micro-expériences)."
+  },
+  {
+   "auteur": "Ash Maurya",
+   "titre": "Running Lean",
+   "annee": "2012",
+   "idee": "Tester les hypothèses les plus risquées d'abord, avec des entretiens clients et des expériences terrain peu coûteuses.",
+   "apport": "La matrice d'hypothèses de confiance : identifier ce qu'on suppose de soi et le tester d'abord."
+  },
+  {
+   "auteur": "Kathy Sierra",
+   "titre": "Badass: Making Users Awesome",
+   "annee": "2015",
+   "idee": "La valeur vient de la compétence perçue et réelle de l'utilisateur ; progresser est motivant quand on voit des progrès mesurables.",
+   "apport": "La construction d'un tableau de bord de compétences et la visualisation des progrès."
+  },
+  {
+   "auteur": "Atul Gawande",
+   "titre": "The Checklist Manifesto",
+   "annee": "2009",
+   "idee": "Les checklists réduisent les erreurs dans des situations complexes en standardisant les étapes critiques.",
+   "apport": "La création de listes de contrôle personnelles pour les moments de doute (entretiens, prises de parole, etc.)."
+  },
+  {
+   "auteur": "Peter Hollins",
+   "titre": "The Science of Self-Confidence (et travaux sur les croyances limitantes)",
+   "annee": "2015",
+   "idee": "La confiance résulte de croyances sur sa capacité à agir, façonnées par l'expérience passée et la lecture des résultats.",
+   "apport": "La distinction entre confiance globale et confiance contextuelle, utile pour cadrer les périmètres d'audit."
+  },
+  {
+   "auteur": "Douglas Stone & Sheila Heen",
+   "titre": "Thanks for the Feedback",
+   "annee": "2014",
+   "idee": "Recevoir du feedback est difficile car il active des réactions émotionnelles ; on peut apprendre à trier et utiliser le signal utile.",
+   "apport": "Protocole de collecte de preuves externes : comment solliciter, trier et intégrer les retours sans se laisser submerger."
+  },
+  {
+   "auteur": "Anders Ericsson",
+   "titre": "Peak: Secrets from the New Science of Expertise",
+   "annee": "2016",
+   "idee": "L'expertise repose sur l'entraînement délibéré : objectifs précis, feedback immédiat, répétition ciblée sur les faiblesses.",
+   "apport": "La structure des micro-expériences d'audit : objectif précis, exécution, mesure, ajustement."
+  },
+  {
+   "auteur": "Carol Tavris & Elliot Aronson",
+   "titre": "Mistakes Were Made (But Not by Me)",
+   "annee": "2007",
+   "idee": "Le cerveau réduit la dissonance cognitive en justifiant ses actes passés, ce qui rigidifie les croyances sur soi.",
+   "apport": "L'importance d'auditer ses justifications passées et de confronter sa mémoire aux preuves écrites."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Deux systèmes cognitifs coexistent : rapide/intuitif et lent/analytique ; de nombreux biais faussent le jugement.",
+   "apport": "Les biais d'audit : biais de confirmation, excès de confiance, effet de dotation — à anticiper dans chaque grille."
+  },
+  {
+   "auteur": "Guy Winch",
+   "titre": "Emotional First Aid",
+   "annee": "2013",
+   "idee": "Les blessures émotionnelles (rejet, échec, rumination) peuvent être traitées par des interventions simples et structurées.",
+   "apport": "Des protocoles de premier secours pour les coups de confiance : pause, mise en perspective, action de réparation."
+  },
+  {
+   "auteur": "Stephen Guise",
+   "titre": "How to Be an Imperfectionist",
+   "annee": "2015",
+   "idee": "Le perfectionnisme sabote l'action ; des objectifs « assez bons » et des micro-actions permettent d'avancer.",
+   "apport": "La définition de seuils de réussite réalistes dans les micro-expériences, pour éviter l'audit paralysant."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Changer de logiciel : la confiance comme objet d'audit",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Pourquoi les affirmations positives échouent (presque) toujours",
+     "objectif": "Démontrer les limites de l'approche par déclaration positive et poser l'hypothèse alternative : la confiance comme résultat d'une vérification.",
+     "sections": [
+      "1.1 — Ce que dit vraiment la littérature scientifique sur les affirmations",
+      "1.2 — Le mécanisme du rejet des affirmations (effet boomerang)",
+      "1.3 — La confiance ne se commande pas : elle se constate",
+      "1.4 — L'analogie de l'audit : une confiance fondée sur des preuves",
+      "1.5 — Ce que ce livre promet — et ce qu'il ne promet pas"
+     ],
+     "exercices": [
+      "Journal d'affirmations : noter pendant 3 jours ses affirmations positives et l'effet réel ressenti après chacune",
+      "Rédiger une phrase de mission personnelle pour cet audit : qu'est-ce que je veux vérifier, et pourquoi maintenant ?"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Anatomie de la confiance : trois composantes auditables",
+     "objectif": "Décomposer la confiance en composantes mesurables : compétence réelle, perception de compétence, capacité à agir sous incertitude.",
+     "sections": [
+      "2.1 — La confiance globale : un mythe utile à déconstruire",
+      "2.2 — La compétence réelle : ce que vous savez faire",
+      "2.3 — La perception de compétence : ce que vous croyez savoir faire",
+      "2.4 — L'action sous incertitude : le test ultime",
+      "2.5 — Cartographier ses domaines de confiance (matrice personnel/professionnel/social)"
+     ],
+     "exercices": [
+      "Lister 8 domaines de vie et noter pour chacun une note de confiance perçue de 0 à 10",
+      "Sélectionner 3 domaines prioritaires pour le premier audit approfondi"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Le cycle d'audit : collecter, comparer, corriger, itérer",
+     "objectif": "Présenter le modèle central du livre : un cycle en quatre temps inspiré de l'audit financier et du lean startup.",
+     "sections": [
+      "3.1 — De l'audit financier à l'audit de confiance : métaphores et limites",
+      "3.2 — Étape 1 : la collecte de preuves",
+      "3.3 — Étape 2 : la mesure des écarts",
+      "3.4 — Étape 3 : les recommandations",
+      "3.5 — Étape 4 : l'itération par micro-expériences",
+      "3.6 — La cadence : fréquence, durée, moments de relecture"
+     ],
+     "exercices": [
+      "Planifier un calendrier d'audit sur 90 jours (date de collecte, date de comparaison, date de relecture)",
+      "Créer un dossier personnel « Audit Confiance » (physique ou numérique) avec des sous-dossiers par étape"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Posture d'auditeur : bienveillance rigoureuse",
+     "objectif": "Définir l'état d'esprit correct pour mener un audit de soi sans se détruire ni se embellir.",
+     "sections": [
+      "4.1 — L'auditeur externe : rôle, éthique, indépendance",
+      "4.2 — Adapter la posture à l'audit de soi : rigueur sans cruauté",
+      "4.3 — Les risques de l'auto-audit : biais de confirmation, excès de confiance, effet de dotation",
+      "4.4 — Les garde-fous : journal, relecture différée, regard extérieur ponctuel",
+      "4.5 — Quand s'arrêter : signaux d'alerte (rumination, obsession du contrôle)"
+     ],
+     "exercices": [
+      "Rédiger une « charte d'auditeur » personnelle : 5 principes de rigueur et 5 principes de bienveillance",
+      "Identifier un biais cognitif dont vous êtes le plus susceptible et noter un plan pour le contrer"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Collecter les preuves : ce qui est réellement arrivé",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Inventorier ses preuves de compétence",
+     "objectif": "Rassembler un corpus de preuves tangibles des compétences acquises, au-delà des impressions subjectives.",
+     "sections": [
+      "5.1 — Qu'est-ce qu'une preuve ? Définition et hiérarchie (témoignage, document, résultat, accomplissement)",
+      "5.2 — L'inventaire exhaustif : parcours scolaire, professionnel, personnel, associatif",
+      "5.3 — Les preuves indirectes : feedback reçus, responsabilités confiées, choix confiés",
+      "5.4 — Les preuves oubliées : la mémoire sélective et comment la corriger",
+      "5.5 — Structurer son inventoire : format, arborescence, archivage"
+     ],
+     "exercices": [
+      "Lister 20 accomplissements concrets des 5 dernières années, avec date, contexte, résultat",
+      "Collecter 10 preuves documentaires (certificats, e-mails de remerciement, chiffres, publications) et les classer"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Le journal de preuves : outil de collecte continue",
+     "objectif": "Mettre en place un système quotidien ou hebdomadaire de collecte de preuves, pour contrer l'amnésie des succès.",
+     "sections": [
+      "6.1 — Pourquoi le journal fonctionne : ancrage mémoire, preuve écrite, objectivation",
+      "6.2 — Les formats possibles : quotidien court, hebdomadaire réflexif, après-action",
+      "6.3 — Que noter exactement : fait, ressenti, preuve, leçon",
+      "6.4 — Éviter les trampolines du journal : perfectionnisme, surcharge, oubli",
+      "6.5 — Relire son journal : la revue mensuelle"
+     ],
+     "exercices": [
+      "Démarrer un journal de preuves : 3 entrées minimum par semaine pendant 4 semaines",
+      "Définir un format d'entrée (modèle en 4 champs) et le coller en tête du journal"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Chercher la preuve externe : feedback, données, témoins",
+     "objectif": "Compléter l'auto-observation par des preuves externes, avec un protocole pour solliciter et trier les retours.",
+     "sections": [
+      "7.1 — Les limites de l'introspection : ce que les autres voient de nous",
+      "7.2 — Solliciter du feedback : questions types, timing, interlocuteurs",
+      "7.3 — Trier le feedback : signal utile vs. bruit émotionnel",
+      "7.4 — Les données objectives : métriques de travail, résultats chiffrés, taux de réussite",
+      "7.5 — Tableau de bord de compétences : synthèse des preuves externes"
+     ],
+     "exercices": [
+      "Envoyer 3 demandes de feedback ciblées à des personnes de confiance (questions précises écrites à l'avance)",
+      "Construire un tableau de bord minimal de 5 métriques de compétence dans un domaine prioritaire"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Rassembler les preuves d'échec (sans se saborder)",
+     "objectif": "Collecter aussi les échecs et ratés, en vue d'un traitement analytique et non d'un affaiblissement moral.",
+     "sections": [
+      "8.1 — Pourquoi les échecs sont des preuves à part entière",
+      "8.2 — L'inventaire des échecs : protocole et précautions",
+      "8.3 — Catégoriser : échec de compétence, d'exécution, de contexte, de chance",
+      "8.4 — La dissonance cognitive et l'auto-justification : pièges classiques",
+      "8.5 — Sécurité psychologique : quand s'arrêter de creuser"
+     ],
+     "exercices": [
+      "Lister 10 échecs ou ratés significatifs et les classer selon les 4 catégories",
+      "Pour chacun, écrire une ligne « ce que j'en retiens comme donnée utile » (pas d'excuse, pas d'accusation)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Mesurer les écarts : la réalité vs. la perception",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Le grand écart : ce que je crois vs. ce qui est vrai",
+     "objectif": "Comparer systématiquement la perception de compétence aux preuves collectées, et quantifier les écarts.",
+     "sections": [
+      "9.1 — Méthode de comparaison : colonne perception, colonne preuve, colonne écart",
+      "9.2 — Sous-estimer : le syndrome de l'imposteur et ses preuves",
+      "9.3 — Surestimer : l'excès de confiance et ses signaux",
+      "9.4 — Écarts par domaine : où ils sont les plus grands ?",
+      "9.5 — Écrire son rapport d'écarts : format synthétique"
+     ],
+     "exercices": [
+      "Compléter la matrice d'écarts sur les 3 domaines prioritaires (notes de 0 à 10 en perception et en preuve)",
+      "Rédiger un rapport d'écarts de 1 page pour le domaine le plus critique"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Biais cognitifs : les faux positifs et faux négatifs de la confiance",
+     "objectif": "Identifier les biais qui faussent l'auto-évaluation et intégrer des correctifs dans le protocole d'audit.",
+     "sections": [
+      "10.1 — Biais de confirmation : chercher ce qui arrange",
+      "10.2 — Excès de confiance : le sentiment de maîtriser plus qu'on ne maîtrise",
+      "10.3 — Effet Dunning-Kruger : quand l'incompétence masque l'incompétence",
+      "10.4 — Biais de négativité : pondérer disproportionnellement les mauvais retours",
+      "10.5 — Correctifs pratiques : recoupement, contre-expertise, grille anonymisée"
+     ],
+     "exercices": [
+      "Identifier ses 3 biais dominants et écrire une phrase-consigne pour chacun (ex : « Si je pense X, je dois chercher la preuve contraire »)",
+      "Faire relire une de ses auto-évaluations par une personne extérieure et comparer les notes"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Écrire le rapport d'audit : constats, non jugements",
+     "objectif": "Rédiger un rapport d'audit de confiance clair, factuel, actionnable, en distinguant constat, interprétation et recommandation.",
+     "sections": [
+      "11.1 — Structure type d'un rapport d'audit : contexte, périmètre, méthodologie, constats, écarts, recommandations",
+      "11.2 — Rédiger un constat vérifiable : verbes factuels, pas d'adjectifs moraux",
+      "11.3 — La partie recommandations : hiérarchiser par impact et faisabilité",
+      "11.4 — Limites de l'audit : ce que les preuves ne disent pas",
+      "11.5 — Modèle complet de rapport prêt à adapter"
+     ],
+     "exercices": [
+      "Rédiger un rapport d'audit complet de 2 à 3 pages pour un domaine prioritaire",
+      "Faire relire le rapport par une personne de confiance et noter ses remarques"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Accepter le constat : travailler avec ce qui est",
+     "objectif": "Accueillir les résultats d'audit sans minimisation ni catastrophisation, en vue de l'action.",
+     "sections": [
+      "12.1 — Les 5 réactions typiques à un rapport d'audit défavorable",
+      "12.2 — L'acceptation radicale : ce qui est, est (et peut changer)",
+      "12.3 — Séparer l'identité de la performance : je ne suis pas mon écart",
+      "12.4 — Le deuil des compétences imaginées : douleur et libération",
+      "12.5 — Passer du constat à la recommandation : le pont psychologique"
+     ],
+     "exercices": [
+      "Écrire une lettre à soi-même accueillant le constat principal de l'audit, sans justification ni autocritique",
+      "Identifier une croyance limitante liée au constat et la réécrire sous forme d'hypothèse testable"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Formuler et appliquer les recommandations",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Transformer un écart en objectif d'itération",
+     "objectif": "Convertir chaque écart majeur en un objectif d'action précis, borné dans le temps, mesurable.",
+     "sections": [
+      "13.1 — De l'écart à l'objectif : la chaîne de conversion",
+      "13.2 — SMART n'est pas suffisant : ajouter le critère de testabilité",
+      "13.3 — Prioriser : matrice impact / risque / faisabilité",
+      "13.4 — Découper en micro-objectifs atteignables en 1 à 2 semaines",
+      "13.5 — Éviter la surcharge : un objectif d'itération à la fois"
+     ],
+     "exercices": [
+      "Choisir l'écart principal et le formuler en objectif d'itération testable",
+      "Décliner l'objectif en 3 micro-objectifs hebdomadaires mesurables"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Le MVP de la confiance : prototyper ses actions",
+     "objectif": "Concevoir une micro-expérience minimale pour tester une hypothèse de compétence ou de comportement, à la manière d'un MVP start-up.",
+     "sections": [
+      "14.1 — Le MVP appliqué à soi : definition et analogies",
+      "14.2 — Identifier l'hypothèse à risque : qu'est-ce que je crois et qui n'est pas encore prouvé ?",
+      "14.3 — Concevoir l'expérience minimale : durée, coût, enjeu, mesure",
+      "14.4 — Protéger l'expérience : anticiper les freins et les excuses",
+      "14.5 — Table de bord des MVP de confiance : suivi des expériences en cours"
+     ],
+     "exercices": [
+      "Concevoir un MVP de confiance pour l'objectif choisi (scénario, durée, mesure de résultat)",
+      "Lister 3 freins potentiels à l'exécution et 1 contournement pour chacun"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Protocoles d'expériences courtes : le catalogue",
+     "objectif": "Fournir un catalogue de protocoles d'expériences courtes prêts à adapter, classés par type d'écart (compétence, prise de parole, relations, prise de décision).",
+     "sections": [
+      "15.1 — Protocoles pour la compétence technique : mini-projets, exercices chronométrés, certifications courtes",
+      "15.2 — Protocoles pour la prise de parole : prises de parole courtes, enregistrements, retours ciblés",
+      "15.3 — Protocoles pour les relations : demandes, refus, conversations difficiles (versions minimales)",
+      "15.4 — Protocoles pour la prise de décision : décisions à petit enjeu prises en temps limité",
+      "15.5 — Adapter un protocole : checklist de modification"
+     ],
+     "exercices": [
+      "Choisir 2 protocoles dans le catalogue et les adapter à sa situation",
+      "Planifier la date de début et de fin de chaque expérience dans le calendrier"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Exécuter, mesurer, décider : le cycle en action",
+     "objectif": "Dérouler l'itération complète : lancer l'expérience, collecter la mesure, décider de la suite (pivot, persistance, arrêt).",
+     "sections": [
+      "16.1 — Avant l'exécution : checklist de préparation (contexte, énergie, matériel)",
+      "16.2 — Pendant : presence, observation, prise de notes mentale",
+      "16.3 — Après : débrief immédiat (5 minutes) et débrief différé (24 h)",
+      "16.4 — Mesurer le résultat : indicateurs quantitatifs et qualitatifs",
+      "16.5 — Décider : continuer, ajuster, pivoter, arrêt — critères de décision",
+      "16.6 — Célébrer l'itération, pas seulement le succès"
+     ],
+     "exercices": [
+      "Réaliser une itération complète et remplir la fiche de débrief",
+      "Prendre une décision de suite documentée (continuer / ajuster / pivoter / arrêter) avec justification écrite"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Documenter, capitaliser, planifier l'audit suivant",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Le portfolio de preuves : capitaliser sur ses itérations",
+     "objectif": "Constituer un portfolio vivant de preuves de progression, qui alimente la confiance par des faits, au fil du temps.",
+     "sections": [
+      "17.1 — Le portfolio : définition et contenu (preuves, retours, résultats, leçons)",
+      "17.2 — Organiser : arborescence, index, moteur de recherche interne",
+      "17.3 — Mettre à jour : la routine de capitalisation après chaque itération",
+      "17.4 — Lire son portfolio : moments de revue et effets sur la confiance",
+      "17.5 — Partager (optionnel) : mentorat, entretiens, bilans professionnels"
+     ],
+     "exercices": [
+      "Créer la structure du portfolio et y déposer les preuves des audits précédents",
+      "Rédiger une entrée de portfolio pour la dernière itération réalisée"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Revue et relecture : la revue de confiance",
+     "objectif": "Installer une revue périodique formelle de la confiance, à l'image de la revue de gestion, pour capitaliser et ajuster.",
+     "sections": [
+      "18.1 — La revue mensuelle : contenu, durée, questions types",
+      "18.2 — La revue trimestrielle : analyse des tendances et ré-audit complet",
+      "18.3 — Détecter les tendances : la confiance comme courbe, non comme état",
+      "18.4 — Mettre à jour le plan d'itération pour le trimestre suivant",
+      "18.5 — La revue annuelle : bilan et ambition"
+     ],
+     "exercices": [
+      "Planifier et réaliser une première revue mensuelle de confiance (30 minutes, guide fourni)",
+      "Rédiger une note de tendance : qu'est-ce qui s'améliore, qu'est-ce qui stagne, qu'est-ce qui se dégrade ?"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Reconstruire la narration : réécrire son histoire avec les preuves",
+     "objectif": "Utiliser les preuves rassemblées pour réécrire le récit intérieur sur soi, de manière plus juste et plus utile.",
+     "sections": [
+      "19.1 — Pourquoi le récit compte : l'identité narrative et la confiance",
+      "19.2 — Auditer son récit actuel : phrases types, thèmes récurrents",
+      "19.3 — La réécriture factuelle : remplacer les généralisations par des faits",
+      "19.4 — Le récit de progression : le « encore pas » vs. le « déjà »",
+      "19.5 — Pratiquer la nouvelle narration : exercices d'oral et d'écrit"
+     ],
+     "exercices": [
+      "Écrire deux versions de sa « biographie de compétence » : l'ancienne (telle qu'on la raconte) et la nouvelle (fondée sur les preuves)",
+      "Formuler 3 phrases de narration nouvelle, à réciter en situation réelle cette semaine"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Anticiper les rechutes de confiance : protocoles de secours",
+     "objectif": "Préparer des protocoles d'intervention pour les moments où la confiance s'effondre (échec, critique, transition).",
+     "sections": [
+      "20.1 — Les déclencheurs de rechute : identifier ses vulnérabilités",
+      "20.2 — Le kit de secours : documents, preuves, personnes-ressources",
+      "20.3 — Protocole d'urgence : les 5 étapes pour traverser un creux",
+      "20.4 — Le retour d'audit express : 24 h pour remettre les pieds sur terre",
+      "20.5 — Quand demander de l'aide extérieure : signaux et ressources"
+     ],
+     "exercices": [
+      "Constituer un kit de secours physique ou numérique (5 preuves rassurantes, 3 contacts, 1 protocole)",
+      "Rédiger un protocole personnel de retour d'audit express, en 5 étapes numérotées"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Audit avancé : domaines spécifiques et long terme",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Audit de la confiance professionnelle",
+     "objectif": "Adapter la démarche au contexte professionnel : compétences métier, visibilité, négociation, évolution de carrière.",
+     "sections": [
+      "21.1 — Le périmètre professionnel : compétences dures, soft skills, réseau, positionnement",
+      "21.2 — Preuves professionnelles : réalisations, feedbacks managers, indicateurs de performance",
+      "21.3 — Écarts types : compétence réelle vs. visibilité, compétence vs. reconnaissance",
+      "21.4 — Micro-expériences professionnelles : prises d'initiative, candidatures, négociations",
+      "21.5 — L'audit pour l'entretien annuel ou la recherche d'emploi"
+     ],
+     "exercices": [
+      "Réaliser un audit de confiance professionnelle express sur son poste actuel (grille dédiée)",
+      "Identifier 2 micro-expériences professionnelles à lancer ce mois-ci"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Audit de la confiance sociale et relationnelle",
+     "objectif": "Appliquer la méthode aux relations : prise de parole, création de liens, expression des besoins, gestion des conflits.",
+     "sections": [
+      "22.1 — Spécificités du domaine social : la preuve est plus fugace, le biais plus fort",
+      "22.2 — Preuves relationnelles : retours, durée des liens, situations traversées",
+      "22.3 — Écarts classiques : se surestimer en privé, se sous-estimer en public",
+      "22.4 — Micro-expériences sociales : conversations courtes, prises de position, demandes d'aide",
+      "22.5 — Confiance et vulnérabilité : le calcul de l'ouverture"
+     ],
+     "exercices": [
+      "Lister 5 situations sociales où la confiance est faible et noter les preuves disponibles pour chacune",
+      "Réaliser 3 micro-expériences sociales en une semaine et documenter les résultats"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Confiance dans l'incertitude : décider sans certitude",
+     "objectif": "Développer la capacité à agir dans l'incertitude, où les preuves sont partielles et le risque réel.",
+     "sections": [
+      "23.1 — La confiance n'élimine pas l'incertitude : elle la rend navigable",
+      "23.2 — Distinguer risque et incertitude (et ce que chacun exige)",
+      "23.3 — Le « assez bon pour décider » : seuils et regret",
+      "23.4 — Protocoles de décision : checklists, délais, options de réversibilité",
+      "23.5 — Apprendre des décisions : revue de décisions (post-mortem bienveillant)"
+     ],
+     "exercices": [
+      "Réaliser une revue de 3 décisions passées : résultats, processus, leçons",
+      "Prendre une décision moyenne en moins de 48 h en suivant un protocole de décision écrit"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Vivre en mode audit : la confiance comme pratique continue",
+     "objectif": "Ancrer la démarche dans le long terme : la confiance comme processus d'amélioration continue, non comme destination.",
+     "sections": [
+      "24.1 — De l'audit ponctuel à la culture personnelle de l'audit",
+      "24.2 — Le calendrier de vie : revues mensuelles, trimestrielles, annuelles",
+      "24.3 — Transmettre la méthode : aider les autres à auditer leur confiance",
+      "24.4 — Les limites de la méthode : quand l'audit ne suffit pas",
+      "24.5 — Dernière leçon : la confiance vient de la pratique, pas de la certitude"
+     ],
+     "exercices": [
+      "Rédiger son plan d'audit de confiance pour les 12 prochains mois",
+      "Choisir une personne à qui transmettre la méthode et planifier une première séance"
+     ]
+    }
+   ]
+  }
+ ]
+}

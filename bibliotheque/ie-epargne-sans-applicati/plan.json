@@ -1,0 +1,610 @@
+{
+ "titre": "Épargner à la main",
+ "sous_titre": "Sans application bancaire ni tableur automatique : 24 protocoles, enveloppes et rituels pour reprendre la main sur votre argent",
+ "bibliographie": [
+  {
+   "auteur": "Vicki Robin et Joe Dominguez",
+   "titre": "Your Money or Your Life",
+   "annee": "1992",
+   "idee": "L'argent est de la vie-énergie échangée : suivre chaque dollar devient un chemin de transformation personnelle. Le suivi manuel du revenu et des dépenses est présenté comme un rituel presque sacré.",
+   "apport": "Notre livre retient le rituel d'inventaire à la main et l'idée que la friction du carnet crée la reconnexion que les applis effacent. Nous adaptons l'exercice du « vrai salaire horaire » sans en reprendre la philosophie exacte."
+  },
+  {
+   "auteur": "Dave Ramsey",
+   "titre": "The Total Money Makeover",
+   "annee": "2003",
+   "idee": "Plan en étapes simples : fonds d'urgence, remboursement de dettes (boule de neige), puis investissements basiques. Préconise le budget en enveloppes de cash et un engagement psychologique fort.",
+   "apport": "La méthode des enveloppes physiques et la logique d'engagement concret structureront nos protocoles. Nous nuançons toutefois sa rigidité et évitons toute promesse de résultat; certaines formulations de l'ouvrage varient selon les éditions (incertitude signalée)."
+  },
+  {
+   "auteur": "Elizabeth Warren et Amelia Warren Tyagi",
+   "titre": "All Your Worth: The Ultimate Lifetime Money Plan",
+   "annee": "2005",
+   "idee": "La règle 50/30/20 répartit le revenu en besoins, envies et épargne/remboursements. Un budget simple vaut mieux qu'un tableur sophistiqué que personne ne tient à jour.",
+   "apport": "Base de notre budget papier en trois poches, transformé en enveloppes manuelles. Nous montrons comment fixer les ratios sans calculateur automatisé."
+  },
+  {
+   "auteur": "Morgan Housel",
+   "titre": "The Psychology of Money",
+   "annee": "2020",
+   "idee": "La réussite financière dépend davantage du comportement et de la patience que de l'intelligence technique. L'épargne est un jeu long alimenté par l'humilité.",
+   "apport": "Cadre narratif du livre : l'épargne manuelle comme entraînement au comportement. Nous empruntons l'idée que personne ne devrait être forcé à gérer son argent comme un ingénieur."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Deux systèmes mentaux : rapide/associatif et lent/réfléchi. Les biais (aversion à la perte, statu quo, excès de confiance) faussent les décisions financières.",
+   "apport": "Explication des biais qui rendent l'automatisation invisible dangereuse (oubli des prélèvements, déconnexion) et pourquoi le geste manuel active le système lent. Citations limitées et attribuées."
+  },
+  {
+   "auteur": "Richard Thaler et Cass Sunstein",
+   "titre": "Nudge",
+   "annee": "2008",
+   "idee": "L'architecture des choix oriente les décisions sans interdire. De petits « coups de pouce » peuvent favoriser de bonnes décisions.",
+   "apport": "Renversement du concept : nous construisons des auto-nudges physiques (enveloppes visibles, carnet sur la table) plutôt que des nudges numériques. Aucune approbation politique n'est revendiquée."
+  },
+  {
+   "auteur": "Charles Duhigg",
+   "titre": "The Power of Habit",
+   "annee": "2012",
+   "idee": "Les habitudes suivent une boucle signal-routine-récompense. Changer une habitude suppose de conserver le signal et la récompense.",
+   "apport": "Architecture de nos rituels d'épargne hebdomadaires et mensuels : signal fixe (jour et heure), routine manuelle, récompense tangible (case cochée dans le carnet)."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les petites habitudes cumulées produisent des résultats disproportionnés. Le design d'habitudes repose sur la clarté, l'attrait, la facilité et la satisfaction.",
+   "apport": "Règle des « deux minutes » appliquée au versement manuel, et aménagement de l'environnement (carnet, enveloppes, tampon) pour rendre le geste plus facile que l'abandon."
+  },
+  {
+   "auteur": "Carl Richards",
+   "titre": "The Behavior Gap / The One-Page Financial Plan",
+   "annee": "2011-2015",
+   "idee": "Les erreurs émotionnelles creusent l'écart entre les rendements du marché et ceux des investisseurs. Un plan tient en une page s'il est honnête et simple.",
+   "apport": "Exercices de simplification : une page, quelques objectifs, zéro dashboard. Nos chapitres 6 et 18 s'inspirent de cette exigence de sobriété documentaire (titres exacts des deux ouvrages vérifiés à mémoire)."
+  },
+  {
+   "auteur": "Brad Klontz et Ted Klontz",
+   "titre": "Mind Over Money",
+   "annee": "2014",
+   "idee": "Nos comportements d'argent viennent de scripts familiaux inconscients (déni, adoration, évitement, honte). Les comprendre permet de réapprendre à gérer.",
+   "apport": "Travail sur les croyances en ouverture du livre et exercices d'« argent-récit » avant d'instaurer tout protocole. L'année exacte est approximative selon les éditions (incertitude)."
+  },
+  {
+   "auteur": "Sendhil Mullainathan et Eldar Shafir",
+   "titre": "Scarcity",
+   "annee": "2013",
+   "idee": "La pénurie capte l'attention (« bande passante ») et dégrade les décisions. Les systèmes trop lourds aggravent la précarité cognitive.",
+   "apport": "Justification du minimum vital d'outils : un carnet, une enveloppe, un virement. Nous concevons des protocoles légers pour les budgets sous tension, sans conseil personnalisé."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Digital Minimalism",
+   "annee": "2019",
+   "idee": "Le numérique volontaire réduit la dispersion et retrouve du sens dans les activités choisies. Moins d'applis, plus d'attention.",
+   "apport": "Argumentaire de la désinstallation financière : supprimer les apps bancaires et les notifications comme acte de minimalisme. Nous transposons la méthode « 30 jours sans » à l'argent."
+  },
+  {
+   "auteur": "J. L. Collins",
+   "titre": "The Simple Path to Wealth",
+   "annee": "2016",
+   "idee": "La richesse vient d'une épargne élevée et d'allocations simples maintenues longtemps. La complexité est l'ennemie.",
+   "apport": "Délégation aux produits simples (livrets, fonds larges) que l'on « oublie » volontairement. Nous distinguons délégation choisie et pilotage invisible."
+  },
+  {
+   "auteur": "Grant Sabatier",
+   "titre": "Financial Freedom",
+   "annee": "2019",
+   "idee": "Un taux d'épargne élevé et des revenus multiples accélèrent l'indépendance financière. Le budget et la réduction des dépenses sont centraux.",
+   "apport": "Idée de « taux d'épargne » calculé à la main chaque mois. Nous refusons toute promesse de rentabilité et tempérons la culture de l'optimisation permanente."
+  },
+  {
+   "auteur": "Ramit Sethi",
+   "titre": "I Will Teach You to Be Rich",
+   "annee": "2009",
+   "idee": "Dépenses conscientes, épargne automatisée puis optimisation des crédits. L'argent doit tourner en arrière-plan.",
+   "apport": "Contre-modèle productif : nous montrons ce que l'automatisation optimise et ce qu'elle fragmente (visibilité, apprentissage). Nos lecteurs peuvent choisir un hybride informé au chapitre 23."
+  },
+  {
+   "auteur": "Laura Vanderkam",
+   "titre": "I Know How She Does It / 168 Hours",
+   "annee": "2010-2015",
+   "idee": "Le suivi manuel de l'emploi du temps révèle les vraies priorités mieux que l'intuition. 168 heures par semaine suffisent à voir ce qui compte.",
+   "apport": "Technique du carnet horaire appliquée à l'argent : temps passé à gérer l'argent et preuves écrites des versements. Même esprit d'audit bienveillant."
+  },
+  {
+   "auteur": "T. Harv Eker",
+   "titre": "Secrets of the Millionaire Mind",
+   "annee": "2005",
+   "idee": "Les programmes mentaux hérités dictent les finances. « Payez-vous en premier » et les comptes séparés structurent la richesse intérieure.",
+   "apport": "Exercices de reformulation des scripts et prototype du compte « paiement à soi ». Nous gardons la distance face au ton dogmatique de certains passages."
+  },
+  {
+   "auteur": "George S. Clason",
+   "titre": "The Richest Man in Babylon",
+   "annee": "1926",
+   "idee": "Paraboles antiques : garder au moins un dixième de ses revenus, conseiller avisé des dettes et des placements.",
+   "apport": "Ancrage historique de la règle du prélèvement à la source manuel (la dîme personnelle). Inspiration pour nos « lois de l'épargnant manuel »."
+  },
+  {
+   "auteur": "Thomas J. Stanley et William D. Stanley",
+   "titre": "The Millionaire Next Door",
+   "annee": "1996",
+   "idee": "La plupart des millionnaires américains vivent frugalement, sans ostentation, et budgétisent. L'apparence de richesse n'est pas la richesse.",
+   "apport": "Modèle de frugalité discrète et d'épargne systématique sans gadgets. Appuie nos chapitres sur les rituels et le carnet de preuves."
+  },
+  {
+   "auteur": "Daniel Crosby",
+   "titre": "The Behavioral Investor",
+   "annee": "2017",
+   "idee": "Les biais psychologiques (excès de confiance, réactionnalité) nuisent plus aux investisseurs que les frais.",
+   "apport": "Vocabulaire des biais appliqué à l'épargne manuelle : ancrage sur le solde, illusoire maîtrise. Incertitude minime sur la date de publication française."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Le paradoxe de l'argent invisible",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'illusion du pilotage automatique",
+     "objectif": "Montrer comment les applications bancaires, notifications et tableurs de pilotage créent une sensation de contrôle tout en éloignant le sujet de ses décisions d'épargne réelles.",
+     "sections": [
+      "Le confort de l'écran : pourquoi nous croyons tout voir",
+      "Ce que les applis masquent : prélèvements dormants, micro-débits, opacité des soldes",
+      "Étude de cas : un budget « connecté » qui n'épargne rien",
+      "La friction supprimée : quand tout devient invisible devient secondaire",
+      "Premiers symptômes de déconnexion : oublis, report, culpabilité",
+      "Le pari inverse : réintroduire la friction pour réapprendre"
+     ],
+     "exercices": [
+      "Lister toutes les applications financières installées sur votre téléphone et noter, pour chacune, la dernière fois où vous avez pris une décision d'épargne après l'avoir ouverte",
+      "Rédiger en une page le récit d'un mois d'épargne vécu sans notification : qu'avez-vous su, quand, et par quel canal ?",
+      "Définir votre « seuil d'invisibilité » : à partir de quel montant un prélèvement ou un virement doit-il être écrit à la main dans votre carnet ?"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Ce que le manuel révèle que l'appli cache",
+     "objectif": "Faire l'expérience des informations que seul un suivi écrit, compté ou tamponné restitue, et préparer la bascule vers des dispositifs sobres.",
+     "sections": [
+      "Écrire, compter, tamponner : trois gestes qui ancrent la mémoire",
+      "Le biais de familiarité des chiffres affichés à l'écran",
+      "Expérience des 7 jours de carnet : observer sans juger",
+      "Ce que révèlent les tickets, relevés et reçus papier",
+      "Les surprises utiles : erreurs bancaires, doublons, offres oubliées",
+      "Construire sa propre preuve plutôt que se fier au dashboard"
+     ],
+     "exercices": [
+      "Consigner sept jours de suite, dans un carnet prévu à cet effet, chaque sortie d'argent (même 0,50 €) et chaque décision d'épargne reportée",
+      "Au bout de sept jours, comparer votre carnet à l'aperçu de solde de votre banque (si vous y avez encore accès) et noter les écarts",
+      "Choisir trois reçus ou relevés papier de la semaine et résumer à la main, en une phrase chacun, ce qu'ils vous apprennent"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Psychologie de la friction : frein ou levier",
+     "objectif": "Expliquer, avec des notions établies en psychologie cognitive et en économie comportementale, pourquoi la friction peut servir l'épargne plutôt que la contrarier.",
+     "sections": [
+      "Biais de statu quo et effet de simple exposition appliqués aux applis",
+      "Excès de confiance et illusion de maîtrise : Kahneman et les biais",
+      "La bande passante cognitive face aux systèmes budgétaires lourds",
+      "Quand la friction aide : l'impulsion contrariée au bon moment",
+      "Quand la friction nuit : épuisement, abandon, honte",
+      "Distinguer friction bienfaisante et bureaucratie inutile"
+     ],
+     "exercices": [
+      "Cartographier vos gestes d'épargne en notant, pour chacun, le temps, le nombre d'étapes et le degré de distraction",
+      "Classer chaque étape en « friction utile » (ralentit une erreur) ou « friction toxique » (décourage l'action)",
+      "Expérimenter une semaine avec une friction ajoutée (ex. : se rendre en agence pour un virement) et une friction retirée (ex. : préparer l'enveloppe du lundi) ; noter les effets ressentis"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Désinstaller sans se priver : le minimum vital d'outils",
+     "objectif": "Définir un socle minimal d'outils (papier, comptes simples, éventuellement SMS ou relevés papier) et proposer une transition progressive hors du pilotage numérique.",
+     "sections": [
+      "Le test des trois besoins : voir, déplacer, conserver",
+      "Désactiver les notifications, puis désinstaller par étapes",
+      "Ce qu'il est raisonnable de garder : informer sans piloter",
+      "Relevés papier, extraits mensuels, appel bancaire : les canaux lents",
+      "Rédiger sa charte personnelle d'outils (une demi-page)",
+      "Sécurité et trace : ce que le manuel exige de la rigueur"
+     ],
+     "exercices": [
+      "Rédiger votre charte d'outils : lister les trois seuls dispositifs que vous acceptez de garder pour gérer l'épargne, et le motif de chacun",
+      "Programmer (manuellement, dans un agenda papier) une semaine de transition : jour J0 désinstallation partielle, J+7 premier bilan écrit",
+      "Préparer un dossier papier : carnet, enveloppes, un tampon ou un stylo dédié, un classeur — et le poser à un endroit visible"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Fondations : voir, nommer, décider",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Le grand inventaire manuel de votre argent",
+     "objectif": "Réaliser un état des lieux complet à la main : comptes, flux, dettes, actifs, engagements, sans tableur automatique.",
+     "sections": [
+      "Inventaire des comptes : livrets, courant, placements simples, cash",
+      "Recenser les flux entrants et sortants sur douze mois (méthode des relevés papier)",
+      "Dettes et engagements : taux, échéances, priorités de remboursement",
+      "Actifs non financiers utiles à l'épargne (équipements, marchandises, compétences)",
+      "La feuille unique d'inventaire : format une ou deux pages",
+      "Relecture à voix haute : dire son patrimoine à quelqu'un de confiance"
+     ],
+     "exercices": [
+      "Remplir la fiche d'inventaire manuscrite : chaque compte, solde approximatif, motif, dernier relevé consulté",
+      "Relever à la main les six principaux postes de dépense récurrentes du dernier relevé annuel",
+      "Planifier une conversation de trente minutes avec un proche pour lui lire votre inventaire et noter ses questions"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Écrire ses objectifs d'épargne comme des contrats",
+     "objectif": "Transformer les souhaits flous (« mettre de côté ») en objectifs écrits, datés, signés, sans dépendre d'un tracker d'objectifs.",
+     "sections": [
+      "Hiérarchiser : sécurité, horizon moyen, projets de vie",
+      "La règle de la montagne : trois objectifs maximum par an",
+      "Objectif quantifié à la main : montant, échéance, mensualité estimée",
+      "Écrire le contrat avec soi-même : clauses, motifs, sanctions douces",
+      "L'objectif partagé : le rendre visible à un témoin",
+      "Révision manuelle des objectifs : quand et comment réécrire"
+     ],
+     "exercices": [
+      "Rédiger trois objectifs d'épargne sur trois feuillets distincts : montant, date, mensualité, première action dans les 48 heures",
+      "Signer et dater le contrat principal ; le confier en copie à une personne choisie",
+      "Définir une clause de révision : une date de relecture manuscrite du contrat et une question de test (« est-ce encore vrai ? »)"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Le budget papier : de la règle 50/30/20 aux enveloppes vivantes",
+     "objectif": "Construire un budget mensuel lisible, à la main, à partir de repères simples, prêt à être traduit en enveloppes.",
+     "sections": [
+      "Distinguer revenu net, revenu disponible et capacité d'épargne",
+      "La règle 50/30/20 revisitée : repère, pas dogme",
+      "Budget par zéro : affecter chaque euro du mois",
+      "Catégories stables vs. dépenses variables : la règle du minimum de postes",
+      "Mise en page d'un budget d'une page : colonnes et cases à cocher",
+      "Premier budget témoin : le tester un mois sans le modifier"
+     ],
+     "exercices": [
+      "Calculer à la main votre répartition actuelle 50/30/20 sur trois mois de relevés",
+      "Dessiner sur une feuille A4 votre budget modèle : douze postes maximum, une colonne « prévu », une colonne « réel »",
+      "Choisir trois catégories qui deviendront vos premières enveloppes physiques et leur attribuer un plafond mensuel écrit"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Mesurer sa capacité d'épargne sans tableur",
+     "objectif": "Permettre de calculer et suivre, avec papier et calculatrice, le taux et le montant d'épargne possibles, en tenant compte des réalités budgétaires.",
+     "sections": [
+      "Formule simple : revenus — dépenses incompressibles — marge d'erreur",
+      "Les trois sources de gain : réduire, négocier, gagner plus (sans promesse)",
+      "Taux d'épargne : le suivre à la main mois par mois",
+      "Les mois atypiques : vacances, fêtes, régularisations d'énergie",
+      "Construire une marge de sécurité dans le budget (le « non-négociable »)",
+      "Tableau de bord papier : douze cases pour douze mois"
+     ],
+     "exercices": [
+      "Calculer votre capacité d'épargne moyenne sur trois mois à l'aide d'une simple grille",
+      "Remplir le tableau des douze cases annuelles avec vos prévisions manuscrites",
+      "Définir votre « dîme personnelle » (pourcentage d'épargne choisi) et la noter en tête de votre carnet"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Dispositifs de délégation : confier pour mieux garder",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "L'art des enveloppes : méthodes physiques et électroniques limitées",
+     "objectif": "Maîtriser la méthode des enveloppes, ses variantes modernes acceptables (comptes prépayés, virements vers comptes séparés) et ses limites.",
+     "sections": [
+      "Principe : une enveloppe, une intention, un plafond",
+      "Fabriquer son jeu d'enveloppes : catégories, couleurs, étiquettes",
+      "Allocations hebdomadaires vs. mensuelles : quel rythme choisir",
+      "Enveloppe d'urgence et enveloppe de plaisir : les deux soupapes",
+      "Variantes hybrides sans appli de pilotage : agence, DAB, chèques",
+      "Rebondir après une enveloppe percée : le protocole de réparation"
+     ],
+     "exercices": [
+      "Fabriquer et étiqueter cinq enveloppes ; y déposer le premier versement manuscrit",
+      "Écrire au dos de chaque enveloppe sa règle d'usage en une phrase",
+      "Simuler un mois complet d'enveloppes et noter, chaque dimanche, les écarts prévus/réels"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Virements fixes décidés une fois : le rendez-vous avec soi-même",
+     "objectif": "Mettre en place des virements ou retraits récurrents décidés à l'avance, mais exécutés ou vérifiés manuellement, sans outil de pilotage automatique.",
+     "sections": [
+      "Pourquoi un ordre fixe rassure sans hypnotiser",
+      "Choisir le jour J : après encaissement, avant les dépenses",
+      "Construire l'échelle de virements : premier objectif en priorité",
+      "Se rappeler le virement : agenda papier, alarme simple, rituel",
+      "Vérifier chaque virement écrit : la case à cocher obligatoire",
+      "Adapter le montant à la vie réelle : procédure de réécriture"
+     ],
+     "exercices": [
+      "Rédiger une instruction de virement manuscrite datée pour le prochain mois (destinataire, montant, jour, motif)",
+      "Créer un rituel de quinze minutes le jour du virement : exécuter ou confirmer, puis signer la ligne du carnet",
+      "Préparer une règle de baisse (« si revenu en baisse, je réduis d'abord tel virement ») écrite à l'avance"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Livrets, comptes à part, épargne bloquée : la délégation aux produits simples",
+     "objectif": "Comprendre comment laisser des produits d'épargne simples et réglementés jouer le rôle de garde-fous, sans surveillance quotidienne ni application.",
+     "sections": [
+      "Savoir ce qu'est un livret (principe général) : capital préservé, intérêts modestes, liquidité",
+      "Comptes à part ou deuxième compte courant : la séparation par lieu",
+      "Épargne bloquée ou à horizon : quand le temps protège (sans conseil personnalisé)",
+      "Distinguer sécurité, liquidité et rendement : le triangle des compromis",
+      "Les erreurs de délégation : multiplier les comptes sans intention",
+      "Feuille de route produit : une intention = un dispositif"
+     ],
+     "exercices": [
+      "Lister vos intentions d'épargne et leur attribuer un type de contenant simple (enveloppe, livret, compte à part)",
+      "Rédiger une fiche produit en langage clair : ce que vous comprenez, ce que vous ne comprenez pas, ce que vous refusez",
+      "Fixer une date de lecture de conditions tarifaires (sur papier ou en agence) et noter trois questions à poser"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Déléguer à un tiers de confiance : conjoint, parent, banquier, groupe d'épargne",
+     "objectif": "Explorer les formes de délégation humaine : confier une somme ou une responsabilité à un tiers encadré par des règles écrites.",
+     "sections": [
+      "Pourquoi un tiers tient mieux la route qu'une notification",
+      "Choisir son témoin ou gardien : critères et limites",
+      "Contrat de délégation : objet, durée, révocation, restitution",
+      "Le rendez-vous bancaire : préparer ses demandes à la main",
+      "Associations, caisses, cercles d'épargne : entraider sans se diluer",
+      "Protéger la relation : argent et confiance, les lignes rouges"
+     ],
+     "exercices": [
+      "Rédiger une lettre de mission pour un gardien d'épargne (rôle, durée, ce qui n'est pas permis)",
+      "Écrire la liste des questions à poser lors d'un prochain rendez-vous bancaire, sur papier, par ordre de priorité",
+      "Identifier deux personnes potentiellement fiables et noter, pour chacune, une force et un risque"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Rituels : le temps de l'argent",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Le rituel hebdomadaire de caisse",
+     "objectif": "Installer un rendez-vous court et répété de comptage, d'allocation et de préparation, pour que l'épargne devienne un fait de semaine.",
+     "sections": [
+      "Choisir jour et heure : le rendez-vous non négociable",
+      "Le kit du rituel : carnet, enveloppes, calculatrice, stylo",
+      "Séquence en cinq gestes : compter, trier, allouer, noter, fermer",
+      "Gérer la caisse et le cash sans appli : dépôts et retraits",
+      "Le rituel de dix minutes pour les semaines chargées",
+      "Ce que l'on célèbre : la preuve d'un geste accompli"
+     ],
+     "exercices": [
+      "Bloquer dans un agenda papier quatre rendez-vous hebdomadaires du mois et les entourer",
+      "Rédiger votre feuille de rituel en cinq lignes et la placer dans le carnet",
+      "Effectuer trois rituels complets, noter la durée réelle et ajuster le format"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Le grand rendez-vous mensuel",
+     "objectif": "Réaliser un bilan mensuel complet, manuscrit, qui alimente les décisions du mois suivant et la révision des enveloppes.",
+     "sections": [
+      "La grille mensuelle : prévu, réel, écart, leçon",
+      "Passer en revue chaque enveloppe et chaque virement",
+      "Bilan de capacité d'épargne : taux réel du mois",
+      "Décisions pour le mois suivant : maintenir, baisser, accélérer",
+      "Archivage : où mettre les feuilles, comment les dater",
+      "Le rituel de clôture : une phrase écrite pour clore le mois"
+     ],
+     "exercices": [
+      "Compléter une grille mensuelle type à la main sur un mois entier",
+      "Rédiger la « leçon du mois » en cinq lignes et la reporter sur la page de garde du carnet",
+      "Préparer l'enveloppe du mois suivant dès la séance de clôture (aucun report)"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Le trimestriel de révision",
+     "objectif": "Mettre en place une révision plus large (objectifs, enveloppes, produits, délégations) trois à quatre fois par an, sans dépendre d'un tableau de bord automatique.",
+     "sections": [
+      "Le rendez-vous trimestriel : préparer le dossier papier",
+      "Réviser les objectifs : encore justes ?",
+      "Rééquilibrer enveloppes et virements aux nouvelles priorités",
+      "Vérifier les conditions de ses produits simples",
+      "Décider d'une seule amélioration opérationnelle par trimestre",
+      "Carnet annuel : assembler les feuilles comme un récit"
+     ],
+     "exercices": [
+      "Planifier les quatre trimesters sur une page annuelle",
+      "Constituer le dossier du trimestre : feuilles mensuelles, relevés, lettres de délégation",
+      "Rédiger une décision trimestrielle unique et une mesure d'effet attendue (sans promesse)"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Rituels d'annonce : moments fixes pour parler d'argent",
+     "objectif": "Faire de l'épargne un sujet annoncé et partagé, pour éviter que le manuel ne devienne secret ou honteux.",
+     "sections": [
+      "Parler d'argent sans confrontation : le cadre",
+      "Rituels en couple : réunion de quinze minutes par semaine",
+      "Annoncer un objectif au cercle familial ou amical",
+      "Le droit au silence : ce qu'on ne partage pas",
+      "Langage non culpabilisant : décrire sans juger",
+      "Formaliser un compte rendu d'annonce (une demi-page)"
+     ],
+     "exercices": [
+      "Écrire un script de quinze minutes pour votre prochaine réunion d'argent à deux",
+      "Choisir une personne à qui annoncer votre objectif principal et rédiger le message",
+      "Pratiquer trois reformulations : transformer un reproche en fait observé dans le carnet"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Engagements, preuves et comptes rendus",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "L'engagement écrit : contrats avec soi et signatures",
+     "objectif": "Utiliser l'écrit, la date, la signature et parfois un enjeu symbolique pour transformer une intention en engagement crédible.",
+     "sections": [
+      "Ce qui rend un engagement sérieux : contrainte, publicité, enjeu",
+      "Contrat avec soi-même : structure et clauses types",
+      "L'engagement doux : pénalité symbolique, don, tâche",
+      "Quand s'engager avec un tiers (garant, conjoint, ami)",
+      "Révision et sortie : prévoir le licite dérogatoire",
+      "Archiver les contrats : classeur, chemises, chronologie"
+     ],
+     "exercices": [
+      "Rédiger un contrat d'épargne de six mois : objet, montant, vérifications, clause de révision",
+      "Choisir un enjeu symbolique (don à une cause, tâche ménagère) et l'écrire noir sur blanc",
+      "Classer vos engagements par date et écrire une page de synthèse de vos promesses en cours"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Carnet de preuves : bulletins, relevés tamponnés, archives papier",
+     "objectif": "Construire un système d'archives et de preuves manuelles qui remplace les dashboards et sécurise la mémoire financière.",
+     "sections": [
+      "Le carnet de preuves : rubriques et régularité",
+      "Quoi conserver : virements, relevés, contrats, courriers",
+      "Classement annuel : la méthode du classeur unique",
+      "Tamponner ou dater : créer sa propre trace",
+      "Reconstruire un solde à la main en cas de litige ou d'oubli",
+      "Papier et numérique : ce que l'on peut photographier, ce que l'on garde"
+     ],
+     "exercices": [
+      "Mettre en place un classeur à cinq chemises et y verser les documents des douze derniers mois",
+      "Rédiger une procédure personnelle de reconstruction de solde (étapes 1 à 6)",
+      "Tamponner ou dater manuellement les cinq preuves d'épargne du mois en cours"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Le comité d'épargne : pairs, famille, entraide",
+     "objectif": "Créer un petit groupe de relecture régulière qui donne de la cadence, de la bienveillance et une légitimité au suivi manuel.",
+     "sections": [
+      "Pourquoi un groupe tient mieux qu'une application",
+      "Composition idéale : trois à cinq personnes",
+      "Ordre du jour type : preuves, obstacles, décisions",
+      "Bienveillance et confidentialité : la charte du groupe",
+      "Entraide pratique : prêts, comptes rendus, encouragements",
+      "Se retirer ou réduire sans perdre la face"
+     ],
+     "exercices": [
+      "Rédiger une charte de trois articles pour votre comité",
+      "Convoquer la première séance en écrivant à la main une invitation datée",
+      "Préparer un feuillet « preuve du mois » à montrer au groupe (sans détails intimes non consentis)"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Seuils, jalons et célébrations manuelles",
+     "objectif": "Instituer des repères de progrès et des rituels de célébration sobres pour entretenir la motivation sans gamification numérique.",
+     "sections": [
+      "Choisir des jalons pertinents (pas seulement des montants)",
+      "Feuille de progression : cases, tampons, étoiles dessinées",
+      "Célébrer sans ruiner l'objectif : budget de fête",
+      "L'échec de jalons : protocole de récupération",
+      "Anniversaire de l'épargne : bilan annuel écrit",
+      "Partager la victoire : à qui le dire, comment"
+     ],
+     "exercices": [
+      "Définir trois jalons semestriels et les dessiner sur une page de progression",
+      "Budgetiser une célébration simple pour le prochain jalon atteint",
+      "Écrire une lettre à soi-même pour le prochain anniversaire du carnet"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Ancrages, cas limites et autonomie",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Épargner sans compte, sans banque : le cash et l'inclusion",
+     "objectif": "Donner des protocoles d'épargne purement manuels pour les personnes hors banque, en précarité, ou par choix d'indépendance minimale, sans promettre miracle ni contourner la loi.",
+     "sections": [
+      "Cartographier les situations : choix, exclusion, transition",
+      "La boîte ou le tiroir : méthodes de conservation responsables",
+      "Épargne de confiance : confier du cash à un tiers prudent",
+      "Petits montants et régularité : le protocole du gramme",
+      "Sécurité minimale : limites, discrétion, alternatives locales",
+      "Quand demander de l'aide : dispositifs d'accueil et points conseil"
+     ],
+     "exercices": [
+      "Choisir un dispositif de conservation adapté et rédiger ses règles d'accès (pour vous et éventuellement un tiers)",
+      "Mettre en place l'épargne hebdomadaire du « gramme » : montant fixe, enveloppe, preuve écrite",
+      "Lister trois ressources d'aide locale ou associative à contacter en cas de besoin (sans conseil personnalisé)"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Couple et famille : comptes communs et responsabilités manuelles",
+     "objectif": "Structurer l'épargne à deux ou en famille avec des rôles clairs, des rituels partagés et des dispositifs simples, sans appli familiale.",
+     "sections": [
+      "Trois modèles : tout commun, tout séparé, mixte",
+      "La réunion financière de famille : protocole et durée",
+      "Épargne des enfants : enveloppes pédagogiques",
+      "Décisions asymétriques : revenus différents, responsabilités égales",
+      "Conflits et impasses : recours à un médiateur (généralités)",
+      "Protéger les plus fragiles : pudeur et transparence choisie"
+     ],
+     "exercices": [
+      "Cartographier avec votre partenaire les comptes et intentions communes ou séparées sur une feuille unique",
+      "Écrire une convention de trois articles pour vos réunions d'argent (fréquence, durée, ordre du jour)",
+      "Créer une enveloppe ou un rituel d'épargne familiale adapté à l'âge des enfants (ou à un projet commun)"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Le retour d'appli (ou pas) : décider en connaissance de cause",
+     "objectif": "Offrir une grille de décision éclairée pour rester manuel, adopter un hybride limité, ou revenir à des outils numériques, sans dogmatisme ni abandon de la thèse.",
+     "sections": [
+      "Bilan d'un an manuel : acquis, coûts, résistances",
+      "Test du « si j'ajoutais une seule appli » : critères stricts",
+      "Hybrides acceptables : notification d'alerte sans pilotage",
+      "Signaux d'alarme : quand le retour du confort reprend le dessus",
+      "Décider par écrit : note de décision d'une page",
+      "Transmettre sa méthode : la garder vivante"
+     ],
+     "exercices": [
+      "Rédiger une note de décision : rester 100 % manuel, hybride, ou retour partiel — avec trois arguments et trois risques",
+      "Si hybride : lister les fonctions refusées explicitement (catégorisation auto, objectifs gamifiés, crédit intégré)",
+      "Préparer un entretien de check-up avec votre gardien ou comité pour valider la décision"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Manifeste de l'épargnant manuel : douze lois pour durer",
+     "objectif": "Fermer le livre par un manifeste opérationnel, mémorisable, qui synthétise les protocoles et engage le lecteur sur la durée.",
+     "sections": [
+      "Les douze lois : visibilité, rituel, délégation choisie, preuve, engagement, sobriété…",
+      "Rituel d'adoption : lire le manifeste à voix haute",
+      "Anticiper les rechutes : plan de reprise en cinq gestes",
+      "Transmettre sans moraliser : partager la méthode",
+      "Épargner comme art de la contrainte douce",
+      "Page blanche : écrire votre première loi personnelle"
+     ],
+     "exercices": [
+      "Recopier les douze lois dans votre carnet et en cocher trois que vous pratiquez déjà",
+      "Rédiger votre treizième loi personnelle et la signer",
+      "Fixer la date de votre prochain grand rituel annuel dans l'agenda papier"
+     ]
+    }
+   ]
+  }
+ ]
+}

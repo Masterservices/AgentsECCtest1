@@ -1,0 +1,670 @@
+{
+ "titre": "Point de percolation",
+ "sous_titre": "Mémoire poreuse : tisser des liens plutôt qu'empiler des faits, poser des balises, atteindre le seuil où le savoir traverse enfin",
+ "bibliographie": [
+  {
+   "auteur": "Hermann Ebbinghaus",
+   "titre": "Über das Gedächtnis",
+   "annee": "1885",
+   "idee": "Première quantification expérimentale de la mémoire humaine : courbes d'oubli, effet de pratique, répartition des apprentissages. Il montre que la rétention s'effondre vite sans répétition espacée.",
+   "apport": "Servira de socle historique : montrer que la mémoire se mesure, puis dépasser le cadre « quantité de faits » vers le réseau de liens (incertitude : traductions françaises disponibles, titres variables)."
+  },
+  {
+   "auteur": "Alexander Luria",
+   "titre": "Mnésie et son développement (avec le cas du mnémoniste S. Chevtchik)",
+   "annee": "1974",
+   "idee": "Étude d'un sujet doté d'une mémoire prodigieuse qui retient tout mais est submergé par les associations involontaires, sans hiérarchie ni utilité.",
+   "apport": "Il est la démonstration littéraire de notre thèse : tout retenir sans structure produit un matériau non navigable (incertitude : années et titres français exacts à vérifier)."
+  },
+  {
+   "auteur": "Francis Yates",
+   "titre": "The Art of Memory",
+   "annee": "1966",
+   "idee": "Histoire de l'art de la mémoire des rhéteurs latins et du palais de la mémoire : des images fixées dans des lieux, parcourues par un itinéraire.",
+   "apport": "Source du chapitre sur le balisage spatial et des protocoles d'emplacements stables ; introduit l'idée qu'une mémoire utile est un lieu parcourable."
+  },
+  {
+   "auteur": "Endel Tulving",
+   "titre": "Elements of Episodic Memory",
+   "annee": "1983",
+   "idee": "Distinction entre mémoire épisodique (événements datés, vécus) et mémoire sémantique (savoirs détachés du contexte), avec le rôle de la récupération.",
+   "apport": "Cadre conceptuel pour distinguer « faits isolés » et « expériences reconnexées », et pour les exercices de récupération différée."
+  },
+  {
+   "auteur": "Alan Baddeley",
+   "titre": "Your Memory: A User's Guide",
+   "annee": "1979",
+   "idee": "Vulgarisation du modèle de la mémoire de travail (boucle phonologique, carnet visuo-spatial, mémoire tampon central).",
+   "apport": "Fonde les limites de charge : on ne percole pas en encombrant le chantier ; justifie les sessions courtes et le balisage des entrées."
+  },
+  {
+   "auteur": "Daniel Schacter",
+   "titre": "The Seven Sins of Memory",
+   "annee": "2001",
+   "idee": "Sept défaillances typiques de la mémoire (transience, blocking, misattribution, suggestibility, bias, persistence, absent-mindedness).",
+   "apport": "Grille de diagnostic des îlots et des balises manquantes ; alimente les auto-audits de chaque partie."
+  },
+  {
+   "auteur": "Robert A. Bjork et Elizabeth L. Bjork",
+   "titre": "Making Things Hard on Yourself, But in a Good Way (chapitre collectif sur les difficultés désirables)",
+   "annee": "2011",
+   "idee": "Les conditions d'apprentissage les plus confortables sont souvent les moins durables : espacement, intercalage, récupération, charge élevée.",
+   "apport": "Justifie les protocoles d'entretien du réseau (revue espacée, tests de traversée) plutôt que la relecture (incertitude : titre exact de l'ouvrage collectif à confirmer)."
+  },
+  {
+   "auteur": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
+   "titre": "Make It Stick: The Science of Successful Learning",
+   "annee": "2015",
+   "idee": "Synthèse de recherche : récupération active, espacement, intercalage, enseignement à autrui, erreurs comme apprentissage.",
+   "apport": "Sert de socle empirique aux exercices de rappel libre, d'explication orale et de page blanche."
+  },
+  {
+   "auteur": "Joshua Foer",
+   "titre": "Moonwalking with Einstein",
+   "annee": "2011",
+   "idee": "Enquête-journalisme sur les champions de mémoire : la plupart n'ont pas une mémoire exceptionnelle, ils utilisent des techniques de structuration (palais, images).",
+   "apport": "Montre que la performance vient de l'architecture, pas du volume ; ouvre la partie « mémoire-situation »."
+  },
+  {
+   "auteur": "Tony Buzan",
+   "titre": "The Mind Map Book",
+   "annee": "1993",
+   "idee": "La carte mentale : organisation radiale autour d'un mot-clé central, mots-clés, couleurs et images pour stimuler l'association.",
+   "apport": "Base des outils cartographiques, que notre livre dépasse en passant de l'arbre au maillage transversal (année approximative)."
+  },
+  {
+   "auteur": "Grant Wiggins et Jay McTighe",
+   "titre": "Understanding by Design",
+   "annee": "1998",
+   "idee": "Conception pédagogique par résultats visés : définir d'abord les preuves de compréhension, remonter ensuite aux activités.",
+   "apport": "Inspire la logique « test de traversée » : définir ce qu'on doit pouvoir relier avant d'ajouter des contenus."
+  },
+  {
+   "auteur": "Steven Johnson",
+   "titre": "Where Good Ideas Come From",
+   "annee": "2010",
+   "idee": "Les idées naissent des réseaux et de la « possible adjacente » : combinaisons lentes, hasard fertile, carrefours de domaines.",
+   "apport": "Fonde l'axe « projets transversaux » et la valeur des liens entre domaines distincts."
+  },
+  {
+   "auteur": "Albert-László Barabási",
+   "titre": "Linked: The New Science of Networks",
+   "annee": "2002",
+   "idee": "Les réseaux réels sont hétérogènes et sans échelle : quelques nœuds très connectés structurent l'ensemble.",
+   "apport": "Concepts de degré, de hubs et d'îlots ; fournit les indicateurs de densité du chapitre 17."
+  },
+  {
+   "auteur": "Duncan Watts",
+   "titre": "Small Worlds",
+   "annee": "1999",
+   "idee": "Dans les réseaux à petits mondes, quelques ponts rares entre groupes locaux suffisent à raccourcir drastiquement les distances.",
+   "apport": "Justifie les « chemins traversants » et la recherche volontaire de liens inter-domaines (volumes antérieurs : Watts & Strogatz, 1998)."
+  },
+  {
+   "auteur": "Per Bak",
+   "titre": "How Nature Works",
+   "annee": "1996",
+   "idee": "Auto-critique : les systets complexes s'organisent au voisinage d'un seuil, entreavalanches, sans paramètre réglé de l'extérieur.",
+   "apport": "Image du plateau avant la bascule : les petits liens ajoutés semblent inutiles puis le réseau prend brusquement."
+  },
+  {
+   "auteur": "Dana Stauffer et Amnon Aharony",
+   "titre": "Introduction to Percolation Theory",
+   "annee": "1992",
+   "idee": "Ouvrage de référence sur la percolation : apparition d'un chemin continu lorsque la densité de sites ou d'arêtes dépasse un seuil critique p_c.",
+   "apport": "Source scientifique du modèle métaphorique central du livre ; sera explicitement présenté comme heuristique, pas comme modèle cérébral littéral (2e édition)."
+  },
+  {
+   "auteur": "Kevin Lynch",
+   "titre": "The Image of the City",
+   "annee": "1960",
+   "idee": "Lisibilité urbaine : chemins, limites, quartiers, nœuds et repères rendent un environnement mentalement parcourable.",
+   "apport": "Cadre du balisage : une mémoire utile a besoin de repères stables, nommés et localisés, comme une ville."
+  },
+  {
+   "auteur": "Annie Murphy Paul",
+   "titre": "The Extended Mind",
+   "annee": "2021",
+   "idee": "L'esprit s'étend hors du crâne : notes, outils et environnements font partie du système cognitif (thèse de Clark et Chalmers appliquée à la vie courante).",
+   "apport": "Fonde l'articulation mémoire interne / carnet externe et la vigilance contre les notes-îlots."
+  },
+  {
+   "auteur": "Douglas Hofstadter et Emmanuel Sander",
+   "titre": "Surfaces et essences : l'analogie, cœur de la pensée",
+   "annee": "2013",
+   "idee": "La pensée procède par analogies récurrentes, du concret vers l'abstraction, puis revient au concret.",
+   "apport": "Socle de la partie « tisser des liens » : l'analogie comme premier fil entre les nœuds (édition française 2013, version anglaise 2011)."
+  },
+  {
+   "auteur": "Olivier Houdé",
+   "titre": "L'art de se tromper (et travaux sur l'inhibition cognitive)",
+   "annee": "2012",
+   "idee": "L'intelligence mobilise aussi l'inhibition : savoir écarter les automatismes et les fausses connexions pour raisonner juste.",
+   "apport": "Appuie les chapitres sur les faux liens, les pièges du balisage et l'effet de réalité (titre et année à vérifier, incertitude)."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 — Du tas au réseau : ce que la mémoire n'est pas",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'erreur du tas : accumuler n'est pas retenir",
+     "objectif": "Casser l'intuition de la mémoire-entrepôt et poser l'image de travail du livre : une mémoire comme matériau poreux à structurer. Cible : 3 500 mots.",
+     "sections": [
+      "L'intuition du tas : plus j'ajoute, plus je sais",
+      "Ce que dit vraiment la courbe d'oubli (Ebbinghaus)",
+      "Le cas du mnémoniste : tout retenir, rien n'opère",
+      "Quatre images concurrentes de la mémoire (coffre, atelier, réseau, territoire)",
+      "La mémoire comme matériau poreux : définition de travail",
+      "Distinguer connaître, reconnaître et pouvoir relier",
+      "Première mesure : mon taux de vide actuel"
+     ],
+     "exercices": [
+      "Test de rappel libre sur un domaine personnel : noter tout ce qui revient en 10 minutes, sans notes",
+      "Comptage : combien de faits, combien de liens dans une fiche que vous possédez déjà",
+      "Journal de bord « je sais / je peux relier » pendant 5 jours"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 2,
+     "titre": "Le vocabulaire du réseau : percolation, seuil, îlot, balise",
+     "objectif": "Donner les quatre concepts opératoires du livre et fixer honnêtement leurs limites comme modèle heuristique. Cible : 3 500 mots.",
+     "sections": [
+      "Le tamis de Stauffer et Aharony : comment l'eau finit par passer",
+      "Le seuil critique p_c : quand un chemin du bord au bord apparaît",
+      "Réseaux hétérogènes : hubs et nœuds pauvres (Barabási)",
+      "Petits mondes : la valeur des ponts rares (Watts)",
+      "Ce que la métaphore n'est pas : le cerveau n'est pas un gruyère",
+      "Quatre questions diagnostiques sur n'importe quelle matière",
+      "Du modèle à la pratique : la grille des cinq gestes"
+     ],
+     "exercices": [
+      "Expérience du tamis : simuler la densité de liens avec des grilles ou un tableur (grain à grain)",
+      "Comptage du nombre de liens par rapport aux notes dans un domaine donné",
+      "Application de la grille des quatre questions à trois domaines de votre vie"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 3,
+     "titre": "Mémoire de travail, épisodique, sémantique : qui fait quoi",
+     "objectif": "Expliciter l'architecture mémorielle nécessaire à la suite et apprendre à différencier « je n'ai pas appris » de « je n'ai pas de chemin ». Cible : 3 500 mots.",
+     "sections": [
+      "La mémoire de travail : le chantier encombré (Baddeley)",
+      "Mémoire épisodique et sémantique : deux registres (Tulving)",
+      "La récupération comme événement, pas comme stockage",
+      "Les sept péchés de la mémoire en pratique (Schacter)",
+      "Ce que la perspective réseau ajoute : l'oubli comme perte d'arêtes",
+      "Les trois façons d'échouer à retrouver : absent, inaccessible, déconnecté",
+      "Tableau de bord : à quel problème ai-je affaire ?"
+     ],
+     "exercices": [
+      "Auto-diagnostic des sept péchés sur les sept derniers jours",
+      "Fiche « chemin manquant » : retrouver trois savoirs présents mais inatteignables",
+      "Rappel différé : tester le même contenu à J+1 et J+7"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 4,
+     "titre": "Pourquoi votre savoir formé ne percole pas",
+     "objectif": "Montrer que les formats usuels de connaissance (leçon, fiche, chapitre cloisonné) fabriquent des îlots, et proposer un nouveau critère d'évaluation : la traversée. Cible : 3 500 mots.",
+     "sections": [
+      "Le chapitre isolé : comment l'école produit des îlots",
+      "Reconnaître vs. comprendre : l'effet de fluidité",
+      "Évaluer par restitution ou par traversée ?",
+      "Vos cloisons personnelles : travail, famille, projets",
+      "Les faux liens : corrélation, rumeur, analogie fatale",
+      "Le nouveau critère : puis-je aller de A à F en passant par B ?",
+      "Inventaire des domaines à risque dans votre vie"
+     ],
+     "exercices": [
+      "Audit d'un domaine appris : grille de cloisonnement (0 à 20)",
+      "Rédaction de trois énoncés de traversée (A → F) pour un sujet maîtrisé en apparence",
+      "Démolition volontaire d'une fiche cloisonnée et sa reconstruction en réseau"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 5,
+     "titre": "Relevé d'inventaire : la carte des îlots de départ",
+     "objectif": "Produire l'état zéro mesurable : périmètre, listes de faits, de liens et de questions, îlots identifiés, version 0 de la carte des connexions. Cible : 3 500 mots.",
+     "sections": [
+      "Choisir le périmètre : un domaine ni trop vaste ni trop étroit",
+      "Les trois listes : faits, liens, questions",
+      "Repérer les îlots visibles et les absents évidents",
+      "Calculer un premier ratio liens/faits",
+      "Dessiner la version 0 de la carte des connexions",
+      "Mettre en place le carnet de balisage",
+      "Ce que ce relevé servira : le banc d'essai des mesures futures"
+     ],
+     "exercices": [
+      "Inventaire en 45 minutes : faits, liens, questions d'un domaine au choix",
+      "Calcul du ratio liens/faits et des nœuds à degré 0 ou 1",
+      "Première carte de connexions sur une page A3",
+      "Liste des cinq îlots prioritaires à pontier"
+     ],
+     "poids": "3 500 mots"
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 — Tisser des liens plutôt qu'ajouter des faits",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "L'analogie, premier fil",
+     "objectif": "Faire de l'analogie l'outil de premier raccordement, en apprenant à distinguer analogie de surface et structure profonde. Cible : 3 500 mots.",
+     "sections": [
+      "L'analogie comme mécanisme de l'abstraction (Hofstadter et Sander)",
+      "Analogie de surface vs. analogie structurelle",
+      "Fabriquer des ponts A–B–C : les chaînes analogiques",
+      "Le risque d'analogie fatale : mauvaise granularité, mauvais domaine",
+      "Notes en double colonne : « ça ressemble à » / « ça diffère de »",
+      "Connecter trois ponts pour former un triangle",
+      "Quand abandonner une analogie"
+     ],
+     "exercices": [
+      "Matrice analogique : dix concepts de votre domaine, un pont analogique pour chacun",
+      "Chaîne de cinq maillons partant d'une image simple vers une règle abstraite",
+      "Réécriture d'une mauvaise analogie qui vous a induit en erreur",
+      "Carnet « ça ressemble à… » sur dix pages de lecture"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 7,
+     "titre": "Les opérateurs de liaison : questions, contrastes, causalités",
+     "objectif": "Outiller six opérateurs de connexion réutilisables à volonté pour transformer des notes en un réseau typé. Cible : 3 500 mots.",
+     "sections": [
+      "La question comme couture entre deux nœuds",
+      "Six opérateurs : ressemblance, contraste, cause, hiérarchie, analogie, contrefactuel",
+      "« Pourquoi pas le contraire ? » : la question sous-estimée",
+      "Le tableau des contrastes A vs. B",
+      "Questions de synthèse après lecture, jamais pendant",
+      "Questionner à partir du sommaire avant de lire",
+      "Typier les arêtes : chaque lien a un sens"
+     ],
+     "exercices": [
+      "Douze questions-opérateurs à rédiger sur une note choisie",
+      "Tableau contrasté entre deux idées concurrentes d'un même sujet",
+      "Test : écrire en une phrase le lien qui relie deux notes apparemment éloignées",
+      "Relecture d'un dossier en ne marquant que les questions de liaison"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 8,
+     "titre": "Cartes mentales et cartes de connexions",
+     "objectif": "Utiliser Buzan comme point de départ, puis passer délibérément de l'arbre radial au maillage transversal. Cible : 3 500 mots.",
+     "sections": [
+      "Le principe radial de Buzan : mots-clés, couleurs, images",
+      "Ce que la carte mentale fait bien et ce qu'elle masque",
+      "De l'arbre au maillage : ajouter des arêtes transversales",
+      "Carte des connexions : nœuds, arêtes typées, zone de doute",
+      "Tenir une carte sur une page A3 par domaine",
+      "Cartes en couches : du synthétique au détaillé",
+      "Version et date : éviter les cartes devenues fausses"
+     ],
+     "exercices": [
+      "Reconstruire un chapitre en arbre, puis le même en maillage",
+      "Ajouter dix arêtes transversales non évidentes à une carte existante",
+      "Choisir et appliquer un code de trois types d'arêtes",
+      "Produire une carte A3 de synthèse et sa version miniature"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 9,
+     "titre": "Récupération active, explication et difficulté désirable",
+     "objectif": "Installer le moteur d'entretien du réseau : se tester, expliquer, écrire sans notes, accepter l'effort (Brown, Roediger, McDaniel ; Bjork). Cible : 3 500 mots.",
+     "sections": [
+      "Pourquoi relire produit de la confiance à faux",
+      "Récupération active : se tester avant d'être sûr",
+      "L'effet de test : ce que la recherche établit",
+      "Expliquer à voix haute : là où le réseau se déchire",
+      "La page blanche de cinq minutes, puis la réparation",
+      "Difficultés désirables : espacer, intercaler, varier",
+      "Erreurs et carte des trous : un outil, pas une honte"
+     ],
+     "exercices": [
+      "Protocole des trois récupérations : immédiate, à 24 h, à 7 jours",
+      "Explication orale en cinq minutes, enregistrée, puis enregistrée de nouveau",
+      "Page blanche sur un sous-thème, suivie d'une fiche des manques",
+      "Carnet d'erreurs de récupération : cinq entrées par semaine"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 10,
+     "titre": "Mémoire-situation : lieux, fichiers, esprit étendu",
+     "objectif": "Intégrer les supports externes à la mémoire sans créer de nouveaux îlots (Yates, Foer, Annie Murphy Paul). Cible : 3 500 mots.",
+     "sections": [
+      "Le palais de la mémoire : des emplacements stables et un itinéraire",
+      "Ce que les champions de mémoire nous apprennent vraiment",
+      "L'esprit étendu : l'outil fait partie du système",
+      "Trois infrastructures : bloc-notes, fichiers, notes numériques",
+      "Quand externaliser aide, et quand ça isole encore",
+      "Convention de nommage pour que l'externe reste relier",
+      "La règle : pas de connaissance sans chemin de retour"
+     ],
+     "exercices": [
+      "Palais de quinze emplacements pour une liste de quinze éléments à retenir une semaine",
+      "Audit de « coffre-fort » de notes : découvrabilité en moins de 60 secondes",
+      "Protocole de nommage et de tags sur vingt documents",
+      "Test « retrouver sans moteur de recherche » : trois requêtes, temps mesuré"
+     ],
+     "poids": "3 500 mots"
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 — Poser des balises",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "Qu'est-ce qu'une balise",
+     "objectif": "Définir la balise comme repère stable, nommé, localisé, et fixer la règle de densité ni trop rare ni trop riche. Cible : 3 500 mots.",
+     "sections": [
+      "Du balisage maritime et urbain au balisage mental (Lynch)",
+      "Définition de travail : stable, nommé, localisé, retrouvable",
+      "Quatre fonctions : orienter, marquer, prévenir, rappeler",
+      "Trois familles : sémantiques, procédurales, existentielles",
+      "Signaux faibles : une balise doit se trouver sans qu'on la cherche",
+      "Densité optimale : trop de balises équivaut à aucune",
+      "Premières balises naturelles : dates, images, formules pivot"
+     ],
+     "exercices": [
+      "Inventaire de vos balises naturelles déjà en usage (20 minimum)",
+      "Test de densité sur un dossier : balises utiles / balises mortes",
+      "Choix d'un système de balises pour un domaine, écrit en une page"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 12,
+     "titre": "Six protocoles de balisage",
+     "objectif": "Fournir six protocoles applicables immédiatement et une règle de révision et de retrait. Cible : 3 500 mots.",
+     "sections": [
+      "Protocole 1 — la balise-porte : un titre qui annonce le passage",
+      "Protocole 2 — la balise-jalon : date ou étape de repère",
+      "Protocole 3 — la balise-pivot : le mot-clé qui ouvre un réseau",
+      "Protocole 4 — la balise-contraste : l'opposé de X",
+      "Protocole 5 — la balise-pont : « à relier avec… »",
+      "Protocole 6 — la balise-incertitude : ce que je ne sais pas encore",
+      "Réviser, déplacer, retirer : la vie d'une balise"
+     ],
+     "exercices": [
+      "Application des six protocoles à six notes différentes",
+      "Balisage rétroactif d'un ancien dossier en une heure",
+      "Règles écrites de retrait : trois critères de balise à supprimer",
+      "Création d'une balise-pivot de domaine (une par domaine)"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 13,
+     "titre": "Balisage avant, pendant, après : la lecture utile",
+     "objectif": "Transformer la lecture en opération de balisage en trois temps et mesurer l'effet sur le rappel. Cible : 3 500 mots.",
+     "sections": [
+      "Avant : baliser le sommaire et poser la question-guide",
+      "Pendant : trois signaux seulement (attention, pont, doute)",
+      "Après : la page de synthèse balisée en cinq lignes",
+      "Le journal de bord des balises",
+      "Lire en balisant : cadence et attention (prudence méthodologique)",
+      "Cas particuliers : cours, conférences, réunions",
+      "Mesurer : rappel à J+7 avec et sans balisage"
+     ],
+     "exercices": [
+      "Protocole de lecture balisée appliqué à un article ou un chapitre",
+      "Note de réunion ou de cours balisée selon les trois signaux",
+      "Synthèse en cinq lignes avec au moins deux balises-ponts",
+      "Expérience A/B sur deux textes comparables, rappel à sept jours"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 14,
+     "titre": "Le carnet de balisage : votre table d'orientation",
+     "objectif": "Mettre en place l'outil central : entrées, index, revue hebdomadaire, un seul endroit d'autorité. Cible : 3 500 mots.",
+     "sections": [
+      "Support au choix : papier, fichier, notes numériques — et l'engagement de tenir",
+      "Structure d'entrée : date, domaine, balise, type, liens",
+      "L'index des balises : la table de orientation",
+      "Revue hebdomadaire de 15 minutes : le protocole",
+      "Balises mortes : regrouper, archiver, supprimer",
+      "Règle du lieu unique d'autorité (éviter les doubles saisies)",
+      "Interopérabilité minimale avec la carte des connexions"
+     ],
+     "exercices": [
+      "Création de l'index des balises depuis vos notes existantes",
+      "Tenue d'une revue hebdomadaire type, minute par minute",
+      "Écriture de la règle personnelle « pas de double saisie »",
+      "Protocole d'archivage : ce qui sort de l'index, comment et quand"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 15,
+     "titre": "Les six pièges du balisage",
+     "objectif": "Rendre le balisage robuste contre ses dérives : signification faible, sur-balisage, ego, isolement, fossiles, copie. Cible : 3 500 mots.",
+     "sections": [
+      "La balise qui ne dit rien : « idées », « important »",
+      "Le sur-balisage compulsif et sa dette d'entretien",
+      "La balise-ego : montrer plutôt qu'orienter",
+      "La balise en impasse : marquer sans relier",
+      "Les fossiles : balises qui ne servent plus depuis des mois",
+      "Emprunter un système à autrui sans l'adapter",
+      "Audit : noter vos balises"
+     ],
+     "exercices": [
+      "Audit de 20 balises existantes avec note de qualité (0 à 3)",
+      "Réécriture des balises notées 0 ou 1",
+      "Règle « une balise = un usage » appliquée à un dossier",
+      "Retrait de dix fossiles et archivage écrit"
+     ],
+     "poids": "3 500 mots"
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 — Atteindre le seuil : traversées et détection des îlots",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "Le seuil de percolation : ce qu'il est, ce qu'il n'est pas",
+     "objectif": "Expliciter l'idée de seuil dans son exacte portée : effet non linéaire annoncé, non promesse garanti. Cible : 3 500 mots.",
+     "sections": [
+      "Retour au modèle : p_c et le chemin du bord au bord",
+      "Portée exacte : un seuil heuristique, pas une loi du cerveau",
+      "Signes d'approche : interpoler, prédire, enseigner sans plan",
+      "Le plateau avant la bascule (Bak, auto-critique)",
+      "Ce que le seuil n'est pas : ni score, ni date, ni diplôme",
+      "Petits liens, grands effets : la réticence structurelle",
+      "Les cinq signes concrets à surveiller chez soi"
+     ],
+     "exercices": [
+      "Journal des signes de seuil, hebdomadaire, pendant huit semaines",
+      "Liste des vingt liens qui devraient exister mais n'existent pas encore",
+      "Auto-évaluation du taux de traversée réussie, semaine par semaine"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 17,
+     "titre": "Mesurer la densité : quatre indicateurs sans se mentir",
+     "objectif": "Remplacer la satisfaction subjective par quatre indicateurs simples et répétables. Cible : 3 500 mots.",
+     "sections": [
+      "Pourquoi compter des faits ne sert à rien",
+      "Indicateur 1 : ratio liens/faits",
+      "Indicateur 2 : degré moyen de la carte",
+      "Indicateur 3 : nœuds à degré 0 ou 1 (îlots)",
+      "Indicateur 4 : tests de traversée réussis, temps et erreurs",
+      "Tableau de bord mensuel sur une page",
+      "Se mentir à soi : biais d'optimisme et habillage"
+     ],
+     "exercices": [
+      "Calcul des quatre indicateurs sur un domaine cartographié",
+      "Construction d'une courbe sur douze semaines (tableur ou papier)",
+      "Test de traversée chronométré, à deux reprises, trois semaines d'écart",
+      "Rédaction de la règle personnelle de mesure (jour, durée, seuil d'alerte)"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 18,
+     "titre": "Créer des chemins traversants : l'art de la longue chaîne",
+     "objectif": "Apprendre à fabriquer des chaînes de cinq à sept maillons, horizontales et verticales, et à poser une balise intermédiaire quand la chaîne casse. Cible : 3 500 mots.",
+     "sections": [
+      "Du point A au point F : la chaîne de cinq à sept maillons",
+      "La phrase pivot : un énoncé qui porte trois idées",
+      "Le sens montant : du cas particulier vers la règle",
+      "Le sens descendant : de la règle vers trois cas, contraire compris",
+      "Traversées verticales (du général au détaillé) et horizontales (entre domaines)",
+      "Quand la chaîne casse : ajouter une balise intermédiaire",
+      "Longueur utile : éviter les chaînes interminables"
+     ],
+     "exercices": [
+      "Cinq traversées longues écrites, de bout en bout",
+      "Phrase pivot sur cinq paires de concepts éloignés",
+      "Généralisation de trois cas vers une règle, puis retour vers un contre-exemple",
+      "Une traversée verticale et une traversée horizontale sur le même thème"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 19,
+     "titre": "Ateliers de mise en réseau, à deux, en groupe et en solo",
+     "objectif": "Fournir cinq formats d'atelier prêts à l'emploi et un format solo pour produire des liens en quantité et en qualité. Cible : 3 500 mots.",
+     "sections": [
+      "Atelier 1 — la table des liens : deux personnes, 30 minutes",
+      "Atelier 2 — le mur de cartes : réseau partagé",
+      "Atelier 3 — l'adversaire du réseau : défier ses propres arêtes",
+      "Atelier 4 — la permutation : expliquer avec les mots d'un autre domaine",
+      "Atelier 5 — la chaîne de récupération en groupe",
+      "Solo — le journal quotidien des connexions",
+      "Ce qu'on produit : sortie et traçabilité"
+     ],
+     "exercices": [
+      "Fiche de conduite d'atelier : rôle, minuteur, sortie attendue",
+      "Script complet d'auto-atelier de 25 minutes",
+      "Grille d'évaluation des liens produits (pertinence, nouveauté, solidité)",
+      "Trois sessions hebdomadaires à documenter dans le carnet"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 20,
+     "titre": "Détecter et réparer les îlots isolés",
+     "objectif": "Offrir une méthode de diagnostic et trois stratégies de réparation, y compris l'abandon honnête d'un îlot. Cible : 3 500 mots.",
+     "sections": [
+      "Signaux d'un îlot : vocabulaire opaque, jamais cité, jamais citant",
+      "Le recensement : trouver les nœuds orphelins de votre carte",
+      "Stratégie A : lui donner deux ponts minimum",
+      "Stratégie B : le rattacher à une balise déjà traversante",
+      "Stratégie C : l'abandon officiel ou le périmètre différé",
+      "Les îlots douloureux : sujets intimidants et vieux blocages",
+      "Vérifier la réparation : test de traversée avant/après"
+     ],
+     "exercices": [
+      "Liste des dix orphelins de votre domaine, avec cause probable",
+      "Plan de pontage sur dix jours : deux arêtes par jour ouvré",
+      "Test de traversée avant et après pontage, résultats consignés",
+      "Lettre d'abandon écrite pour un îlot volontairement laissé"
+     ],
+     "poids": "3 500 mots"
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 — Tenir le réseau dans le temps : revue, projets, partage",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Revue et entretien : ne pas retomber sous le seuil",
+     "objectif": "Installer la maintenance minimale du réseau et le protocole de reprise après interruption. Cible : 3 500 mots.",
+     "sections": [
+      "La revue hebdomadaire de 30 minutes, minute par minute",
+      "Révision espacée : principes établis et zones d'incertitude sur les protocoles",
+      "Réviser des liens, pas des fiches",
+      "Le retour sous le seuil : ce qui se passe après une longue pause",
+      "Redémarrage en trois séances",
+      "Calendrier minimal viable : une fois par semaine, sans exception de confort"
+     ],
+     "exercices": [
+      "Fiche de revue hebdomadaire prête à remplir",
+      "Plan de reprise après trois semaines d'absence",
+      "Inventaire des dix liens à « rafraîchir » en priorité",
+      "Alerte automatique ou manuelle de revue : mise en place concrète"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 22,
+     "titre": "Projets transversaux : apprenant en construisant",
+     "objectif": "Faire du projet un accélérateur de connexions en imposant trois domaines minimum et des jalons de liens. Cible : 3 500 mots.",
+     "sections": [
+      "Le projet comme prétexte à la traversée (Johnson, possible adjacente)",
+      "Choisir un projet qui force des liens entre trois domaines",
+      "Le cycle : question → réseau → prototype → restitution",
+      "Trois formes de traversée : écrire, expliquer, construire",
+      "Documentation des liens découverts pendant le projet",
+      "Éviter le projet-îlot : projet qui grossit sans se relier",
+      "Rétrospective : que s'est-il connecté ?"
+     ],
+     "exercices": [
+      "Cahier des charges d'un projet transversal en une page",
+      "Matrice des domaines touchés et des liens visés par domaine",
+      "Jalon hebdomadaire : cinq nouveaux liens tracés sur la carte",
+      "Rétrospective finale : liste des connexions créées et des îlots apparus"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 23,
+     "titre": "À plusieurs : faire percoler une équipe ou une famille",
+     "objectif": "Transposer le modèle au groupe sans discours managérial : vocabulaire commun, cahier de connexions, réunions de traversée. Cible : 3 500 mots.",
+     "sections": [
+      "L'organisation comme matériau : silos et ponts",
+      "La balise commune : glossaire de trente termes pivot",
+      "Le cahier des connexions partagé et ses limites (confidentialité, prudence)",
+      "Réunion de traversée : format de 25 minutes",
+      "Onboarding : donner des balises plutôt qu'un manuel",
+      "Résistances : le savoir comme pouvoir, l'écrit comme menace (hypothèses à tester)",
+      "Mesurer les silos : questionnaire simple en dix items"
+     ],
+     "exercices": [
+      "Glossaire de trente termes pivot, validé collectivement",
+      "Conduite d'une réunion de traversée selon le script fourni",
+      "Plan d'onboarding balisé : première journée, première semaine",
+      "Questionnaire des silos passé à une équipe ou un groupe familial (usage informel)"
+     ],
+     "poids": "3 500 mots"
+    },
+    {
+     "numero": 24,
+     "titre": "Vers une mémoire percolée : cadre, limites, quatre-vingt-dix jours",
+     "objectif": "Récapituler les cinq gestes, livrer un plan de 90 jours et dresser un bilan honnête des certitudes et des incertitudes. Cible : 3 500 mots.",
+     "sections": [
+      "Les cinq gestes : lier, baliser, mesurer, traverser, pontier",
+      "Plan des 90 premiers jours, mois par mois",
+      "Ce que la science établit : bilan des fondements solides",
+      "Ce qui reste heuristique et spéculatif : bilan des incertitudes",
+      "Cinq erreurs fréquentes en fin de parcours",
+      "Ce que ce livre ne promet pas : pas de garantie, pas de conseil personnalisé",
+      "Ouverture : la mémoire comme territoire habitable"
+     ],
+     "exercices": [
+      "Plan de 90 jours écrit avec jalons et revues",
+      "Audit final des quatre indicateurs, comparé à l'état zéro du chapitre 5",
+      "Engagement de revue mensuelle, signé et daté",
+      "Lettre à soi-même dans six mois, scellée dans le carnet de balisage"
+     ],
+     "poids": "3 500 mots"
+    }
+   ]
+  }
+ ]
+}
