@@ -1,0 +1,586 @@
+{
+ "titre": "L'Ordre Sans Chef",
+ "sous_titre": "Comment les règles simples et les lois de puissance font émerger les meilleures décisions — des fourmilières aux marchés, des équipes aux existences",
+ "bibliographie": [
+  {
+   "auteur": "Friedrich Hayek",
+   "titre": "The Use of Knowledge in Society (article) / Law, Legislation and Liberty",
+   "annee": "1945 / 1973",
+   "idee": "L'ordre spontané du marché agrège des connaissances locales qu'aucun planificateur central ne peut réunir.",
+   "apport": "Fondation théorique : la centralisation perd l'information tacite, les règles locales la préservent."
+  },
+  {
+   "auteur": "Ilya Prigogine et Isabelle Stengers",
+   "titre": "La Nouvelle Alliance (Order Out of Chaos)",
+   "annee": "1979",
+   "idee": "Loin de l'équilibre, les structures dissipatives créent de l'ordre à partir du chaos par auto-organisation.",
+   "apport": "Cadre physique : l'ordre émerge sans chef, par fluctuations amplifiées."
+  },
+  {
+   "auteur": "Henri Atlan",
+   "titre": "Entre le cristal et la fumée",
+   "annee": "1979",
+   "idee": "Le vivant s'organise entre rigidité et désordre, par complexité par le bruit.",
+   "apport": "Justifie la nécessité d'une part de désordre et de lâcher-prise dans toute décision collective."
+  },
+  {
+   "auteur": "Elinor Ostrom",
+   "titre": "Governing the Commons",
+   "annee": "1990",
+   "idee": "Des communautés gèrent durablement des biens communs via des règles locales auto-négociées, sans État ni marché pur.",
+   "apport": "Protocoles concrets de règles locales minimales (les 8 principes d'Ostrom)."
+  },
+  {
+   "auteur": "Kevin Kelly",
+   "titre": "Out of Control",
+   "annee": "1994",
+   "idee": "Les systèmes biologiques, économiques et technologiques obéissent aux mêmes logiques d'auto-organisation décentralisée.",
+   "apport": "Métaphores unificatrices (ruche, essaim, marché) et vocabulaire du lâcher-prise décisionnel."
+  },
+  {
+   "auteur": "Stuart Kauffman",
+   "titre": "At Home in the Universe",
+   "annee": "1995",
+   "idee": "L'auto-organisation est une propriété intrinsèque des réseaux biologiques au bord du chaos.",
+   "apport": "Notion de « bord du chaos » comme zone optimale de décision collective."
+  },
+  {
+   "auteur": "Pierre Lévy",
+   "titre": "L'intelligence collective — Pour une anthropologie du cyberespace",
+   "annee": "1994",
+   "idee": "L'intelligence n'est ni individuelle ni centralisée, elle se distribue et s'augmente par coopération.",
+   "apport": "Ancrage francophone et grille de lecture des collectifs numériques."
+  },
+  {
+   "auteur": "Malcolm Gladwell",
+   "titre": "The Tipping Point",
+   "annee": "2000",
+   "idee": "Trois types d'acteurs (connecteurs, mavens, vendeurs) suffisent à déclencher des cascades sociales.",
+   "apport": "Cartographie empirique des nœuds à forte influence dans un groupe."
+  },
+  {
+   "auteur": "Albert-László Barabási",
+   "titre": "Linked: The New Science of Networks",
+   "annee": "2002",
+   "idee": "Les réseaux réels suivent une loi de puissance (scale-free) : quelques hubs concentrent l'essentiel des liens.",
+   "apport": "Loi de puissance formalisée et appliquée à l'influence réelle des acteurs."
+  },
+  {
+   "auteur": "Steven Johnson",
+   "titre": "Emergence: The Connected Lives of Ants, Brains, Cities, and Software",
+   "annee": "2001",
+   "idee": "L'intelligence émerge de bas en haut, via des interactions locales simples entre agents non intelligents.",
+   "apport": "Récits pédagogiques (fourmis, quartiers, logiciels) pour illustrer l'émergence."
+  },
+  {
+   "auteur": "Duncan Watts",
+   "titre": "Six Degrees: The Science of a Connected Age",
+   "annee": "2003",
+   "idee": "Les réseaux petits mondes combinent clustering local et liens longs ; la contagion dépend de la structure.",
+   "apport": "Distinction entre influenceurs supposés et vrais déclencheurs de cascades."
+  },
+  {
+   "auteur": "James Surowiecki",
+   "titre": "The Wisdom of Crowds",
+   "annee": "2004",
+   "idee": "Sous 4 conditions (diversité, indépendance, décentralisation, agrégation), un groupe bat ses meilleurs experts.",
+   "apport": "Checklist des conditions minimales pour qu'une foule décide mieux qu'un chef."
+  },
+  {
+   "auteur": "Chris Anderson",
+   "titre": "The Long Tail",
+   "annee": "2006",
+   "idee": "Les marchés numériques révèlent une loi de puissance : la queue cumule autant de valeur que la tête.",
+   "apport": "Application économique et éditoriale de la loi de puissance aux choix de vie et de carrière."
+  },
+  {
+   "auteur": "Scott E. Page",
+   "titre": "The Difference: The Power of Diversity",
+   "annee": "2007",
+   "idee": "La diversité cognitive bat la capacité individuelle moyenne pour résoudre des problèmes complexes.",
+   "apport": "Argument pour composer des groupes hétérogènes plutôt que de chercher le « meilleur chef »."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile",
+   "annee": "2012",
+   "idee": "Certains systèmes profitent du désordre via la voie via negativa et les petites pertes itératives.",
+   "apport": "Méthode de correction par petites touches et détection des emballements (cygne noir, fragilité)."
+  },
+  {
+   "auteur": "Melanie Mitchell",
+   "titre": "Complexity: A Guided Tour",
+   "annee": "2009",
+   "idee": "Synthèse accessible des sciences de la complexité : information, réseaux, évolution, émergence.",
+   "apport": "Colonne vertébrale pédagogique pour vulgariser sans trahir."
+  },
+  {
+   "auteur": "Edgar Morin",
+   "titre": "La Méthode (tomes 1-6)",
+   "annee": "1977-2004",
+   "idee": "La pensée complexe relie ce qui est séparé et accepte l'incertitude comme condition de l'action.",
+   "apport": "Posture épistémologique : humilité, reliance, refus du réductionnisme managérial."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Poser des règles locales minimales",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Pourquoi le chef se trompe (presque) toujours",
+     "objectif": "Démontrer, preuves et récits à l'appui, que la centralisation écrase l'information locale et fabrique de mauvaises décisions.",
+     "sections": [
+      "Le mythe du décideur omniscient",
+      "L'information tacite que personne ne remonte",
+      "Hayek contre le planificateur : ce que le marché sait et que l'État ignore",
+      "Les trois coûts cachés de la centralisation (délai, distorsion, démotivation)",
+      "Quand le chef a raison trop tard",
+      "Études de cas : plans quinquennaux, grands projets IT, reorganisations"
+     ],
+     "exercices": [
+      "Cartographier, dans votre équipe, les décisions qui remontent vs celles qui se prennent sur place",
+      "Lister 5 informations cruciales que votre hiérarchie ne connaît pas",
+      "Calculer le délai moyen entre un signal terrain et une décision centrale"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Les fourmis n'ont pas de PDG",
+     "objectif": "Introduire l'auto-organisation biologique comme modèle transférable aux groupes humains.",
+     "sections": [
+      "La phéromone comme règle locale",
+      "Stigmergie : coordonner sans se parler",
+      "Des termites aux algorithmes de routage",
+      "Les trois conditions de l'émergence (agents, interactions, rétroaction)",
+      "Ce que les humains font mieux — et moins bien — que les insectes",
+      "Transposer sans singer : limites de la métaphore biologique"
+     ],
+     "exercices": [
+      "Observer une file d'attente ou un carrefour et y repérer des règles implicites",
+      "Écrire une règle stigmergique pour un problème récurrent de votre équipe",
+      "Simuler sur papier un algorithme de fourmis pour répartir des tâches"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Le protocole des 5 règles minimales",
+     "objectif": "Fournir une méthode concrète pour écrire les règles locales qui suffisent à faire émerger une bonne décision.",
+     "sections": [
+      "Pourquoi 5, et pas 50",
+      "Les 8 principes d'Ostrom adaptés aux équipes modernes",
+      "Règle 1 : qui décide de quoi (périmètre)",
+      "Règle 2 : comment on tranche en cas de conflit (arbitrage)",
+      "Règle 3 : ce qui est visible par tous (transparence)",
+      "Règle 4 : comment on sanctionne sans punir (rétroaction)",
+      "Règle 5 : comment on change la règle (méta-règle)"
+     ],
+     "exercices": [
+      "Rédiger en une page les 5 règles minimales d'un projet en cours",
+      "Faire relire ces règles par un nouvel arrivant et mesurer sa compréhension",
+      "Tester la méta-règle : proposer une modification et observer son adoption"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Sagesse des foules : les 4 conditions non négociables",
+     "objectif": "Préciser quand un groupe décide mieux qu'un expert, et quand il devient foule idiote.",
+     "sections": [
+      "Le pari de Galton au concours de bétail",
+      "Diversité : pourquoi les clones se trompent ensemble",
+      "Indépendance : tuer le brainstorming mal fait",
+      "Décentralisation : laisser chacun utiliser ce qu'il sait",
+      "Agrégation : le mécanisme qui transforme les avis en décision",
+      "Quand la foule devient bêtise (paniques, bulles, lynchages)"
+     ],
+     "exercices": [
+      "Auditer une décision récente sur les 4 conditions de Surowiecki",
+      "Remplacer un brainstorming par un marché prédictif interne",
+      "Organiser un vote secret avant toute discussion collective"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Écrire pour que ça tienne sans vous",
+     "objectif": "Transformer les règles en artefacts durables : chartes, protocoles, contrats courts.",
+     "sections": [
+      "La charte comme constitution minimale",
+      "Le contrat court contre le règlement long",
+      "Ritualiser sans bureaucratiser",
+      "Les formats qui survivent au turnover",
+      "Faire vivre la règle : relecture, versionning, enterrement",
+      "Pièges classiques : la règle zombie, la règle décorative"
+     ],
+     "exercices": [
+      "Rédiger une charte d'équipe en moins de 300 mots",
+      "Transformer un règlement de 20 pages en 5 règles + 3 protocoles",
+      "Planifier une « révision constitutionnelle » trimestrielle"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Identifier les nœuds à loi de puissance",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "La loi de puissance, cette inégalité qui structure tout",
+     "objectif": "Rendre intuitive la loi de puissance et montrer son universalité (villes, mots, richesses, citations, followers).",
+     "sections": [
+      "Pareto, Zipf, Price : trois noms, une même courbe",
+      "Pourquoi 20/80 n'est qu'une approximation",
+      "Les mécanismes : attachement préférentiel et avantage cumulatif",
+      "Ce que la loi de puissance dit de vos choix de vie",
+      "Confusions classiques : gaussienne vs puissance, corrélation vs causalité",
+      "Lire une distribution sans se faire piéger"
+     ],
+     "exercices": [
+      "Tracer la distribution des ventes, audiences ou citations dans votre domaine",
+      "Identifier les 3 nœuds qui concentrent 50% de l'influence réelle",
+      "Comparer vos intuitions avec les données : où vous trompez-vous ?"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Hubs, connecteurs et super-diffuseurs",
+     "objectif": "Distinguer les vrais nœuds d'influence des chefs formels et des influenceurs apparents.",
+     "sections": [
+      "Le hub n'est pas le chef",
+      "Connecteurs, mavens, vendeurs : la typologie de Gladwell revisitée",
+      "Watts et la chute du mythe de l'influenceur",
+      "Ponts structurels : ceux qui relient des mondes",
+      "Les nœuds dormants : influence potentielle non activée",
+      "Cartographier sans ficher : éthique minimale"
+     ],
+     "exercices": [
+      "Dessiner à la main le graphe informel de votre organisation",
+      "Identifier 3 ponts structurels que l'organigramme ignore",
+      "Tester un message via un hub vs via la voie hiérarchique"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "La carte d'influence en 7 étapes",
+     "objectif": "Méthode pratique pour produire une carte d'influence utilisable dans une décision concrète.",
+     "sections": [
+      "Délimiter le périmètre de la décision",
+      "Lister les acteurs (sans oublier les absents)",
+      "Qualifier les liens (confiance, dépendance, fréquence)",
+      "Pondérer sans fausse précision",
+      "Visualiser : du post-it au logiciel de graphes",
+      "Mettre à jour sans s'épuiser",
+      "Interpréter : where is the power, really ?"
+     ],
+     "exercices": [
+      "Construire une carte d'influence pour une décision en cours",
+      "Faire faire la même carte par 3 personnes différentes et comparer",
+      "Identifier un nœud sous-utilisé et lui confier un test"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Longue traîne et décisions de vie",
+     "objectif": "Appliquer la loi de puissance aux choix personnels : carrière, lectures, relations, projets.",
+     "sections": [
+      "La longue traîne d'Anderson appliquée à soi",
+      "Pourquoi vos 3 habitudes font 80% de vos résultats",
+      "Les micro-nœuds : amis, livres, lieux qui pèsent lourd",
+      "Optimiser la tête sans négliger la queue",
+      "Le piège de la diversification à tout prix",
+      "Quand couper un nœud change une vie"
+     ],
+     "exercices": [
+      "Lister vos 20 dernières décisions importantes et leur poids réel a posteriori",
+      "Identifier les 3 nœuds (personnes, habitudes, lieux) qui structurent votre vie",
+      "Expérimenter la suppression volontaire d'un nœud pendant 30 jours"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Quand les nœuds deviennent toxiques",
+     "objectif": "Repérer les hubs qui capturent le système à leur profit et savoir les neutraliser sans détruire le réseau.",
+     "sections": [
+      "Le hub extractif vs le hub générateur",
+      "Signaux faibles de capture",
+      "Le gatekeeper qui bloque l'information",
+      "Stratégies douces : contourner, diluer, dupliquer",
+      "Stratégies dures : quand il faut couper",
+      "Éthique : ne pas confondre influence et manipulation"
+     ],
+     "exercices": [
+      "Auditer les 3 hubs principaux de votre réseau : génèrent-ils ou extraient-ils ?",
+      "Concevoir un contournement pour un gatekeeper identifié",
+      "Préparer une conversation de recadrage avec un hub devenu toxique"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Laisser émerger sans forcer",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "Le bord du chaos : la zone où ça marche",
+     "objectif": "Expliquer pourquoi les meilleurs systèmes vivent entre ordre rigide et désordre total.",
+     "sections": [
+      "Kauffman et la临界ité auto-organisée",
+      "Trop d'ordre : la mort par procédure",
+      "Trop de désordre : la mort par bruit",
+      "Signes que vous êtes du mauvais côté",
+      "Ajuster les curseurs sans mesurer précisément",
+      "Le bord du chaos dans une vie personnelle"
+     ],
+     "exercices": [
+      "Situer votre équipe sur l'axe ordre/désordre",
+      "Identifier 3 procédures à supprimer et 3 règles à ajouter",
+      "Tenir un journal de bord du chaos pendant 4 semaines"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Lâcher-prise décisionnel : mode d'emploi",
+     "objectif": "Transformer le lâcher-prise en compétence entraînable, pas en posture mystique.",
+     "sections": [
+      "Ce que lâcher-prise n'est pas (démission, fatalisme, indifférence)",
+      "Les 3 niveaux : tactique, stratégique, existentiel",
+      "Atlan et la complexité par le bruit",
+      "Le manager-jardinier vs le manager-horloger",
+      "Rituels personnels de desserrement",
+      "Quand ne surtout pas lâcher"
+     ],
+     "exercices": [
+      "Choisir 3 décisions à déléguer intégralement cette semaine",
+      "Pratiquer le « je ne tranche pas » sur un sujet secondaire",
+      "Écrire une lettre de démission fictive de votre rôle de décideur"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Le temps de l'émergence",
+     "objectif": "Apprendre à respecter les délais propres à l'auto-organisation, très différents du temps managérial.",
+     "sections": [
+      "Pourquoi l'émergence est lente puis soudaine",
+      "Le piège du quarterly thinking",
+      "Signaux précoces vs signaux tardifs",
+      "Patience active vs patience passive",
+      "Raccourcir sans forcer : le rôle des prototypes",
+      "Vies longues, décisions lentes"
+     ],
+     "exercices": [
+      "Lister 3 projets où vous avez tué l'émergence par impatience",
+      "Fixer une date-butoir d'observation avant toute intervention",
+      "Concevoir un prototype minimal pour accélérer un apprentissage"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Protéger les marges et les minorités",
+     "objectif": "Montrer que la diversité cognitive est le carburant de l'émergence et qu'il faut la protéger activement.",
+     "sections": [
+      "Scott Page : la diversité bat le talent moyen",
+      "Les marges comme laboratoire",
+      "Conformisme : le tueur silencieux",
+      "Aménager des espaces protégés (skunk works, 20% time, tiers-lieux)",
+      "Écouter les voix faibles sans les instrumentaliser",
+      "Le droit à l'erreur comme infrastructure"
+     ],
+     "exercices": [
+      "Recruter ou inviter dans votre groupe une personne cognitivement dissonante",
+      "Créer un canal anonyme pour les voix faibles",
+      "Budgeter 5% du temps pour des explorations non validées"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Les rituels qui font tenir l'émergence",
+     "objectif": "Incarner l'auto-organisation dans des rituels collectifs, pas seulement dans des règles écrites.",
+     "sections": [
+      "Pourquoi les rituels battent les procédures",
+      "Rituels de synchronisation (stand-ups, rétrospectives)",
+      "Rituels de transmission (onboarding, mentoring inversé)",
+      "Rituels de clôture (post-mortem, célébration des échecs)",
+      "Rituels de silence (journées sans réunion, semaines sans mail)",
+      "Les rituels toxiques à supprimer"
+     ],
+     "exercices": [
+      "Installer un rituel hebdomadaire de 30 minutes, tenu 12 semaines",
+      "Organiser un post-mortem sans coupable sur un échec récent",
+      "Instaurer une journée mensuelle sans réunion"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Corriger par petites touches",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "La via negativa de Taleb",
+     "objectif": "Apprendre à améliorer un système en retranchant plutôt qu'en ajoutant.",
+     "sections": [
+      "Soustraire avant d'ajouter",
+      "Pourquoi les ajouts sont invisiblement coûteux",
+      "Le médecin qui guérit en ne faisant rien",
+      "Applications managériales : supprimer une réunion, une règle, un reporting",
+      "Applications personnelles : jeûne décisionnel",
+      "Limites : quand il faut tout de même ajouter"
+     ],
+     "exercices": [
+      "Lister 10 choses à retrancher cette semaine (règles, outils, réunions)",
+      "Tenir un journal des soustractions et de leurs effets",
+      "Mesurer le temps gagné après 30 jours de via negativa"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "L'antifragilité au quotidien",
+     "objectif": "Construire des systèmes (équipes, vies) qui profitent des chocs plutôt que les subir.",
+     "sections": [
+      "Fragile, robuste, antifragile : le trio de Taleb",
+      "La barre d'haltérophilie comme modèle",
+      "Redondance vs efficacité",
+      "Petites pertes, grands gains",
+      "Optionnalité : garder des portes ouvertes",
+      "Antifragilité personnelle : stress, corps, relations"
+     ],
+     "exercices": [
+      "Classer vos 10 principaux engagements en fragile/robuste/antifragile",
+      "Introduire volontairement un petit choc mensuel (changement d'outil, de lieu, d'interlocuteur)",
+      "Construire une option concrète (compétence, contact, revenu) ce trimestre"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Corriger sans humilier",
+     "objectif": "Faire de la correction un geste ordinaire, pas un événement traumatique.",
+     "sections": [
+      "Pourquoi on sur-réagit aux corrections",
+      "Le feedback comme information, pas comme jugement",
+      "Rétroactions courtes, fréquentes, locales",
+      "Le rôle du tiers (pair, client, donnée)",
+      "Corriger en public vs en privé",
+      "Se corriger soi-même sans s'effondrer"
+     ],
+     "exercices": [
+      "Donner 3 micro-feedbacks cette semaine (moins de 2 minutes chacun)",
+      "Demander un feedback à 3 personnes et ne pas se justifier",
+      "Tenir un carnet des corrections reçues et de leur utilité réelle"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Les boucles de rétroaction qui marchent",
+     "objectif": "Concevoir des boucles de rétroaction rapides, honnêtes et actionnables.",
+     "sections": [
+      "Anatomie d'une boucle : capteur, traitement, action",
+      "Les boucles qui mentent (KPI vaniteux, sondages biaisés)",
+      "Boucles directes vs boucles déléguées",
+      "Le client comme meilleur capteur",
+      "Automatiser sans déshumaniser",
+      "Quand couper une boucle devenue toxique"
+     ],
+     "exercices": [
+      "Cartographier les boucles de rétroaction actuelles de votre équipe",
+      "Installer une boucle directe avec un utilisateur final cette semaine",
+      "Supprimer une boucle qui ne produit aucune décision"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "L'art du pivot",
+     "objectif": "Reconnaître qu'il faut changer de direction et le faire sans tout casser.",
+     "sections": [
+      "Le pivot n'est pas un échec",
+      "Signaux faibles qu'il est temps de pivoter",
+      "Pivot de moyen vs pivot de fin",
+      "Communiquer le pivot sans perdre la confiance",
+      "Conserver les acquis du chemin abandonné",
+      "Les pivots de vie : carrière, couple, lieu"
+     ],
+     "exercices": [
+      "Lister 3 signaux faibles que vous ignorez depuis 6 mois",
+      "Préparer un pivot en 3 étapes sur un projet en difficulté",
+      "Écrire le récit du pivot pour vos parties prenantes"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Repérer les emballements",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Cascades, bulles et paniques",
+     "objectif": "Comprendre comment les systèmes auto-organisés dérapent et s'emballent.",
+     "sections": [
+      "Anatomie d'une cascade informationnelle",
+      "Bulles spéculatives : du tulipe au crypto",
+      "Paniques bancaires et paniques managériales",
+      "Effets de seuil et points de bascule",
+      "Pourquoi les sages se taisent pendant les emballements",
+      "Les emballements positifs (et pourquoi ils finissent mal aussi)"
+     ],
+     "exercices": [
+      "Identifier 3 emballements en cours dans votre secteur",
+      "Reconstituer a posteriori un emballement que vous avez suivi",
+      "Lister vos propres signaux d'emballement personnel (FOMO, sur-engagement)"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Cygnes noirs et risques de ruine",
+     "objectif": "Distinguer les risques ordinaires des risques de ruine, et organiser sa vie pour y survivre.",
+     "sections": [
+      "Taleb et la méditerranée : ce qu'on ne voit pas arriver",
+      "Risque de ruine vs risque mesurable",
+      "L'ergodicité pour les nuls",
+      "Ne jamais miser ce qu'on ne peut pas perdre",
+      "La barre de fer : protéger le noyau dur",
+      "Cygnes noirs personnels : divorce, maladie, licenciement"
+     ],
+     "exercices": [
+      "Lister les risques de ruine (financiers, relationnels, sanitaires) dans votre vie",
+      "Construire une protection sur chacun (assurance, diversification, redondance)",
+      "Simuler mentalement la perte du principal actif et votre réaction"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Couper le circuit avant l'explosion",
+     "objectif": "Installer des coupe-circuits individuels et collectifs pour interrompre les emballements.",
+     "sections": [
+      "Le disjoncteur de la Bourse comme modèle",
+      "Coupe-circuits personnels (seuils, alertes, tiers de confiance)",
+      "Coupe-circuits collectifs (moratoires, revues, veto)",
+      "Le rôle du fou du roi",
+      "Déclencher sans se faire lyncher",
+      "Et après : reprendre sans répéter"
+     ],
+     "exercices": [
+      "Définir 3 coupe-circuits personnels (financier, temporel, émotionnel)",
+      "Nommer un « avocat du diable » officiel dans votre équipe",
+      "Simuler un arrêt d'urgence sur un projet en accélération"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Vivre avec l'incertain — conclusion active",
+     "objectif": "Refermer le livre sur une posture : décider moins, décider mieux, vivre avec ce qui émerge.",
+     "sections": [
+      "Morin : accepter l'incertitude comme condition",
+      "Les 5 gestes résumés en une page",
+      "Le programme de 90 jours pour transformer une équipe",
+      "Le programme de 90 jours pour transformer une vie",
+      "Ce que ce livre ne promet pas (et pourquoi)",
+      "La dernière décision : relâcher le livre lui-même"
+     ],
+     "exercices": [
+      "Écrire votre charte personnelle d'auto-organisation en 10 lignes",
+      "Choisir 3 chantiers concrets à lancer dans les 30 jours",
+      "Fixer une date de relecture du livre dans 6 mois, avec un ami"
+     ]
+    }
+   ]
+  }
+ ]
+}

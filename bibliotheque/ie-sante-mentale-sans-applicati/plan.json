@@ -1,0 +1,564 @@
+{
+ "titre": "Tête nue",
+ "sous_titre": "Renoncer aux applications de suivi pour retrouver ses signaux intérieurs — rituels manuels, répétition espacée papier et repères corporels",
+ "bibliographie": [
+  {
+   "auteur": "Cal Newport",
+   "titre": "Digital Minimalism",
+   "annee": "2019",
+   "idee": "Propose une philosophie d'usage intentionnel du numérique via une désintoxication de trente jours et des règles de réintroduction.",
+   "apport": "Cadre de la désinstallation progressive et de la non-rechute ; inspiration pour les rituels de remplacement analogiques."
+  },
+  {
+   "auteur": "Nicholas Carr",
+   "titre": "The Shallows: What the Internet Is Doing to Our Brains",
+   "annee": "2010",
+   "idee": "L'usage intensif du web remodelle les circuits de l'attention et de la mémoire profonde au profit d'un balayage superficiel.",
+   "apport": "Argument neurocognitif contre la délégation du suivi mental à des interfaces fragmentantes."
+  },
+  {
+   "auteur": "Johann Hari",
+   "titre": "Stolen Focus",
+   "annee": "2022",
+   "idee": "Douze causes expliquent l'effondrement de l'attention, dont la surveillance attentionnelle et la perte de temps de vagabondage.",
+   "apport": "Thèse selon laquelle le suivi numérique lui-même vole l'attention qu'il prétend restaurer."
+  },
+  {
+   "auteur": "Adam Alter",
+   "titre": "Irresistible",
+   "annee": "2017",
+   "idee": "Les design persuasifs exploitent six leviers psychologiques pour créer des addictions comportementales.",
+   "apport": "Grille de lecture des mécanismes de rechute après désinstallation d'une appli de suivi."
+  },
+  {
+   "auteur": "Jean Twenge",
+   "titre": "iGen",
+   "annee": "2017",
+   "idee": "La cohorte née après 1995 montre une hausse corrélée de détresse psychique liée au temps d'écran.",
+   "apport": "Contexte épidémiologique de la dépendance aux outils numériques de bien-être."
+  },
+  {
+   "auteur": "Jaron Lanier",
+   "titre": "Ten Arguments for Deleting Your Social Media Accounts Right Now",
+   "annee": "2018",
+   "idee": "Les plateformes dégradent l'autonomie, la vérité et l'humeur en modulant les comportements par renforcement intermittent.",
+   "apport": "Critique structurelle des tableaux de bord qui transforment l'état intérieur en métrique."
+  },
+  {
+   "auteur": "Michel Desmurget",
+   "titre": "La Fabrique du crétin digital",
+   "annee": "2019",
+   "idee": "Synthèse des effets du numérique sur le développement cognitif, le sommeil et la santé mentale.",
+   "apport": "Arguments scientifiques pour justifier la contrainte sans écran."
+  },
+  {
+   "auteur": "Daniel J. Siegel",
+   "titre": "Mindsight",
+   "annee": "2010",
+   "idee": "La capacité à percevoir ses propres états mentaux (mindsight) se cultive par l'attention introspective, non par des mesures externes.",
+   "apport": "Fondement du concept de repères internes et de la roue de la conscience."
+  },
+  {
+   "auteur": "Jon Kabat-Zinn",
+   "titre": "Wherever You Go, There You Are",
+   "annee": "1994",
+   "idee": "La pleine conscience est une pratique accessible, incarnée, indépendante de tout support technologique.",
+   "apport": "Modèle de rituels sans outil et d'ancrage dans le corps."
+  },
+  {
+   "auteur": "Daniel Goleman",
+   "titre": "Focus",
+   "annee": "2013",
+   "idee": "Trois formes d'attention (intérieure, extérieure, sur autrui) structurent l'intelligence émotionnelle et décisionnelle.",
+   "apport": "Cartographie des signaux intérieurs à réapprendre à écouter."
+  },
+  {
+   "auteur": "Bessel van der Kolk",
+   "titre": "The Body Keeps the Score",
+   "annee": "2014",
+   "idee": "Le corps enregistre les états émotionnels ; la régulation passe par des pratiques somatiques plus que par la cognition seule.",
+   "apport": "Justification de la partie sur les repères corporels."
+  },
+  {
+   "auteur": "Peter A. Levine",
+   "titre": "Waking the Tiger",
+   "annee": "1997",
+   "idee": "Le système nerveux autonome possède des cycles naturels de décharge qu'il faut apprendre à repérer.",
+   "apport": "Exercices de repérage des signaux neuroceptifs sans instrumentation."
+  },
+  {
+   "auteur": "Hermann Ebbinghaus",
+   "titre": "Über das Gedächtnis (travaux fondateurs)",
+   "annee": "1885",
+   "idee": "Courbe de l'oubli et principe de la répétition espacée comme levier de consolidation mnésique.",
+   "apport": "Fondement théorique des rappels manuels à intervalles."
+  },
+  {
+   "auteur": "Piotr Wozniak",
+   "titre": "Travaux sur SuperMemo et l'algorithme SM",
+   "annee": "1990-2020",
+   "idee": "Formalisation algorithmique de la répétition espacée optimale (dates incertaines selon versions).",
+   "apport": "Transposition manuelle des intervalles sans logiciel : 1-3-7-21-60 jours."
+  },
+  {
+   "auteur": "Sönke Ahrens",
+   "titre": "How to Take Smart Notes",
+   "annee": "2017",
+   "idee": "La méthode Zettelkasten montre qu'un système papier bien relié surpasse les outils numériques pour la pensée.",
+   "apport": "Modèle d'architecture papier pour un journal de bord intérieur."
+  },
+  {
+   "auteur": "Ryder Carroll",
+   "titre": "The Bullet Journal Method",
+   "annee": "2018",
+   "idee": "Un carnet unique peut remplacer agendas, listes et trackers grâce à des collections modulaires.",
+   "apport": "Gabarit pour le protocole papier central du livre."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les habitudes se construisent par indices, routines, récompenses et identité plutôt que par motivation.",
+   "apport": "Architecture des rituels de rappel et d'ancrage environnemental."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Désinstaller sans rechute",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le diagnostic de dépendance au suivi",
+     "objectif": "Identifier les applis de suivi mental devenues béquilles et mesurer leur coût attentionnel réel.",
+     "sections": [
+      "Pourquoi on installe une appli de bien-être",
+      "La boucle indice-routine-récompense appliquée au suivi de l'humeur",
+      "Signes cliniques informels de la délégation cognitive",
+      "Le paradoxe : mesurer pour aller mieux, aller moins bien en mesurant",
+      "Cartographie personnelle de ses applis",
+      "Écrire son contrat de désinstallation"
+     ],
+     "exercices": [
+      "Inventaire papier des applis de suivi installées et de leur fréquence d'ouverture",
+      "Journal de 48 h des déclencheurs qui poussent à ouvrir l'appli",
+      "Lettre manuscrite à l'appli que l'on va quitter"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "La désinstallation en sept jours",
+     "objectif": "Désinstaller les applis de suivi sans créer de vide anxiogène ni de compensation par d'autres écrans.",
+     "sections": [
+      "Préparer le terrain : sauvegarde papier des données utiles",
+      "Jour 1-2 : supprimer les notifications",
+      "Jour 3-4 : retirer les icônes de l'écran d'accueil",
+      "Jour 5-6 : désinstaller et verrouiller les comptes",
+      "Jour 7 : rituel de clôture manuscrit",
+      "Anticiper les situations à risque"
+     ],
+     "exercices": [
+      "Recopier à la main les trois dernières semaines de données jugées utiles",
+      "Rédiger une checklist papier des situations à risque",
+      "Cérémonie de désinstallation avec témoin de confiance"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Gérer le sevrage des chiffres",
+     "objectif": "Traverser les deux premières semaines sans tableau de bord ni score quotidien.",
+     "sections": [
+      "La courbe émotionnelle typique du sevrage",
+      "Nommer le manque sans le nourrir",
+      "Remplacer la validation chiffrée par la validation narrative",
+      "Les pièges de la substitution par un autre outil",
+      "Construire une phrase-mantra de tolérance à l'incertitude",
+      "Le rôle du pair ou du proche"
+     ],
+     "exercices": [
+      "Écrire chaque soir trois phrases décrivant la journée sans aucun chiffre",
+      "Tenir une feuille de rechutes : contexte, durée, sortie",
+      "Choisir un pair de désinstallation et un rituel d'appel hebdomadaire"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Protéger l'espace numérique résiduel",
+     "objectif": "Verrouiller les canaux par lesquels les applis de suivi reviennent (publicités, mails, suggestions).",
+     "sections": [
+      "Se désabonner des newsletters de bien-être quantifié",
+      "Nettoyer les flux sociaux des influenceurs du suivi",
+      "Configurer le téléphone en mode low-tech",
+      "La règle des trois clics pour toute nouvelle appli",
+      "Écrire sa charte de réintroduction"
+     ],
+     "exercices": [
+      "Vide de boîte mail thématique en une session",
+      "Rédaction d'une charte manuscrite affichée près du bureau",
+      "Liste blanche de cinq applis autorisées, toutes catégories confondues"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "La non-rechute comme pratique",
+     "objectif": "Transformer la tentation récurrente en signal utile plutôt qu'en échec.",
+     "sections": [
+      "Différence entre rechute et lapse",
+      "Les quatre saisons du désir d'application",
+      "Le carnet de bord des tentations",
+      "Rituels de reconnexion à soi après un écart",
+      "Quand réinstaller est légitime : critères stricts",
+      "Célébrer les jalons sans métriques"
+     ],
+     "exercices": [
+      "Dessiner sa carte personnelle des tentations récurrentes",
+      "Rédiger une procédure papier en cas d'envie aiguë",
+      "Rituel trimestriel de relecture du contrat initial"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Bâtir des repères corporels",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "Réapprendre à sentir avant de nommer",
+     "objectif": "Restaurer la perception brute des états internes avant toute catégorisation.",
+     "sections": [
+      "Intéroception, proprioception, neuroception",
+      "Pourquoi les applis nous ont fait sauter l'étape du sentir",
+      "Le vocabulaire minimal des sensations",
+      "Scanner corporel sans guide audio",
+      "La règle des trois respirations avant toute étiquette"
+     ],
+     "exercices": [
+      "Scan corporel matinal de sept minutes, chronométré par sablier",
+      "Carnet de sensations brutes : un mot, une zone, une intensité qualitative",
+      "Exercice de la main sur le ventre pour repérer la respiration diaphragmatique"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Les trois jauges corporelles fondamentales",
+     "objectif": "Définir trois indicateurs somatiques personnels remplaçant les scores numériques.",
+     "sections": [
+      "Choisir ses trois jauges : tension, énergie, ouverture",
+      "Échelles qualitatives plutôt que numériques",
+      "Le rituel du matin : trois minutes, trois jauges",
+      "Le rituel du soir : relecture sans jugement",
+      "Ajuster les jauges au fil des saisons"
+     ],
+     "exercices": [
+      "Dessiner ses trois jauges sur une fiche cartonnée format carte postale",
+      "Tenir pendant 21 jours le rituel matinal des trois jauges",
+      "Revue mensuelle : mes jauges sont-elles encore pertinentes ?"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Le corps comme horloge interne",
+     "objectif": "Utiliser les rythmes biologiques pour remplacer les notifications de rappel.",
+     "sections": [
+      "Rythmes ultradiens de 90 minutes",
+      "Repérer son pic et son creux de vigilance",
+      "Signes physiques de la fin d'un cycle",
+      "La marche comme métronome",
+      "Synchroniser repas, effort et repos sur des indices corporels"
+     ],
+     "exercices": [
+      "Observer pendant une semaine les bâillements, étirements, fringales comme signaux",
+      "Alterner blocs de 90 minutes avec pauses de 20 minutes, sans minuteur",
+      "Marche quotidienne de 15 minutes au même moment, comme ancre circadienne"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Émotions : la météo intérieure sans bulletins",
+     "objectif": "Suivre ses états émotionnels par métaphores sensibles plutôt que par échelles chiffrées.",
+     "sections": [
+      "Pourquoi noter l'humeur sur 10 appauvrit l'expérience",
+      "La métaphore météo : brouillard, éclaircie, orage",
+      "Écrire une phrase émotionnelle par jour",
+      "Repérer les émotions composées",
+      "Quand l'émotion demande une action plutôt qu'un enregistrement"
+     ],
+     "exercices": [
+      "Carnet météo : un dessin par jour, sans légende",
+      "Lettre à l'émotion dominante de la semaine",
+      "Relecture mensuelle pour déceler les récurrences saisonnières"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Le sommeil raconté, non mesuré",
+     "objectif": "Remplacer le tracker de sommeil par une observation qualitative de la nuit et du réveil.",
+     "sections": [
+      "Les limites des trackers grand public",
+      "Les trois signes d'une nuit réparatrice",
+      "Le rituel du coucher sans écran",
+      "Le carnet de chevet papier",
+      "Ajuster l'hygiène de vie à partir du ressenti"
+     ],
+     "exercices": [
+      "Noter au réveil trois mots sur la qualité du sommeil, avant tout écran",
+      "Rituel du soir en cinq étapes manuscrites",
+      "Revue hebdomadaire des habitudes corrélées au ressenti de repos"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Inventer des rappels manuels espacés",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "La répétition espacée sans algorithme",
+     "objectif": "Transposer les principes d'Ebbinghaus et Wozniak dans un système de fiches papier.",
+     "sections": [
+      "La courbe de l'oubli en langage courant",
+      "Les intervalles canoniques : 1, 3, 7, 21, 60 jours",
+      "Pourquoi le geste manuel consolide mieux que le tap",
+      "Le matériel minimal : fiches, boîte à cinq cases",
+      "La règle d'or : réviser avant d'oublier tout à fait"
+     ],
+     "exercices": [
+      "Fabriquer sa boîte à cinq cases en carton",
+      "Écrire ses dix premières fiches de rappel intérieur",
+      "Planifier les quatre prochaines révisions sur un calendrier papier"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Le fichier des leçons de vie",
+     "objectif": "Constituer un corpus personnel de leçons à revisiter aux bons intervalles.",
+     "sections": [
+      "Qu'est-ce qu'une leçon de vie digne d'être fichée",
+      "Format recto-verso : situation et principe",
+      "Classer par thèmes sans rigidité",
+      "Ajouter, retirer, fusionner",
+      "La relecture comme conversation avec soi"
+     ],
+     "exercices": [
+      "Écrire ses cinq leçons fondatrices sur fiches cartonnées",
+      "Rituel dominical de relecture de trois fiches",
+      "Revue annuelle : quelles fiches n'ont plus de sens ?"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Les rituels de rappel incarnés",
+     "objectif": "Associer chaque intervalle de rappel à un geste, un lieu ou un objet.",
+     "sections": [
+      "Le rappel à 1 jour : le réveil",
+      "Le rappel à 3 jours : la marche",
+      "Le rappel à 7 jours : la table d'écriture",
+      "Le rappel à 21 jours : la sortie longue",
+      "Le rappel à 60 jours : la lettre à soi-même"
+     ],
+     "exercices": [
+      "Associer chaque intervalle à un lieu précis de son quotidien",
+      "Écrire une lettre à son soi dans 60 jours, cachetée",
+      "Tenir un rituel hebdomadaire de rappel à la même heure"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Le calendrier mural des rendez-vous intérieurs",
+     "objectif": "Remplacer les notifications par un calendrier papier visible et ritualisé.",
+     "sections": [
+      "Choisir son support : grand calendrier, cahier annuel",
+      "Inscrire les rendez-vous avec soi comme des rendez-vous pro",
+      "Le code couleur des types de rappel",
+      "La revue du dimanche soir",
+      "Que faire quand on rate un rendez-vous intérieur"
+     ],
+     "exercices": [
+      "Afficher un calendrier annuel dans un lieu de passage quotidien",
+      "Planifier douze rendez-vous intérieurs sur les trois prochains mois",
+      "Revue dominicale de vingt minutes avec stylo et thé"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Ancrer dans l'environnement physique",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "La maison comme tableau de bord",
+     "objectif": "Faire de chaque pièce un rappel d'un aspect de son état intérieur.",
+     "sections": [
+      "Attribuer une fonction symbolique à chaque pièce",
+      "L'entrée comme sas de décompression",
+      "La cuisine comme lieu du rythme",
+      "La chambre comme sanctuaire du sommeil",
+      "Le bureau comme lieu de l'attention volontaire"
+     ],
+     "exercices": [
+      "Dessiner le plan de son logement avec les fonctions symboliques",
+      "Installer un objet-seuil à l'entrée",
+      "Réaménager une pièce pour refléter une intention de l'année"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Objets-seuils et totems",
+     "objectif": "Choisir des objets physiques qui déclenchent un état intérieur choisi.",
+     "sections": [
+      "Définition de l'objet-seuil",
+      "Les cinq totems de base",
+      "La charge symbolique par l'usage répété",
+      "Éviter la fétichisation",
+      "Remplacer un totem usé"
+     ],
+     "exercices": [
+      "Choisir cinq objets du quotidien comme totems",
+      "Rituel de charge : utiliser chaque totem en pleine conscience pendant sept jours",
+      "Inventaire annuel : quels totems fonctionnent encore ?"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Le parcours quotidien comme rituel",
+     "objectif": "Transformer les trajets récurrents en séquences de rappel intérieur.",
+     "sections": [
+      "Le trajet domicile-travail comme transition",
+      "La marche consciente sans podcast",
+      "Les points de repère urbains comme déclencheurs",
+      "Le retour chez soi comme décompression",
+      "Varier les parcours pour réveiller l'attention"
+     ],
+     "exercices": [
+      "Identifier trois points de repère sur son trajet et y associer une intention",
+      "Parcourir une fois par semaine son trajet en silence total",
+      "Explorer un nouveau chemin chaque mois"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Écrire à la main pour penser à la main",
+     "objectif": "Faire de l'écriture manuscrite l'outil central de régulation intérieure.",
+     "sections": [
+      "Ce que la main fait au cerveau",
+      "Choisir ses outils : carnet, stylo, encre",
+      "Les trois formats utiles : note rapide, page longue, lettre",
+      "Le morning paper sans modèle imposé",
+      "Relire pour tisser du sens"
+     ],
+     "exercices": [
+      "Écrire trois pages manuscrites chaque matin pendant 21 jours",
+      "Constituer une pile de carnets archivés, non numériques",
+      "Relecture trimestrielle avec surlignage et annotations"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "La nature comme partenaire de régulation",
+     "objectif": "Utiliser les éléments naturels comme régulateurs du système nerveux.",
+     "sections": [
+      "Lumière naturelle et vigilance",
+      "Air extérieur et respiration",
+      "Sol vivant et ancrage",
+      "Eau et reset sensoriel",
+      "Saisons comme grandes unités de mesure"
+     ],
+     "exercices": [
+      "Exposition à la lumière naturelle dans les trente minutes du réveil",
+      "Marche pieds nus sur sol naturel dix minutes par semaine",
+      "Tenir un carnet des saisons : un passage écrit à chaque équinoxe et solstice"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Mesurer sans quantifier",
+   "chapitres": [
+    {
+     "numero": 20,
+     "titre": "Pourquoi moins de chiffres, c'est plus de sens",
+     "objectif": "Refonder l'idée de mesure sur le récit plutôt que sur la statistique.",
+     "sections": [
+      "La tyrannie de la métrique unique",
+      "Goodhart : quand la mesure devient la cible",
+      "Le récit comme forme supérieure de mesure",
+      "Les indicateurs qualitatifs valides",
+      "Accepter l'approximation féconde"
+     ],
+     "exercices": [
+      "Lister les cinq métriques que l'on suivait et écrire ce qu'elles masquaient",
+      "Rédiger un paragraphe narratif par semaine plutôt qu'un score",
+      "Revue annuelle en forme d'essai personnel"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Le journal de bord narratif",
+     "objectif": "Tenir un journal structuré qui remplace tous les trackers par une prose régulière.",
+     "sections": [
+      "Structure hebdomadaire minimale",
+      "Les quatre questions fondatrices",
+      "Écrire pour son futur soi",
+      "La relecture comme outil de régulation",
+      "Archiver sans numériser"
+     ],
+     "exercices": [
+      "Tenir un journal narratif hebdomadaire pendant 52 semaines",
+      "Relecture à 3 mois, 6 mois, 1 an",
+      "Constituer une bibliothèque physique de ses carnets"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Les signaux faibles que l'algorithme ne voit pas",
+     "objectif": "Apprendre à détecter les micro-changements annonciateurs.",
+     "sections": [
+      "Les signaux faibles du burn-out",
+      "Les signaux faibles d'une dépression naissante",
+      "Les signaux faibles d'une période créative",
+      "Les signaux faibles relationnels",
+      "Quand consulter un professionnel : repères non médicaux généraux"
+     ],
+     "exercices": [
+      "Lister ses cinq signaux faibles personnels dans un carnet dédié",
+      "Revue mensuelle de ces signaux",
+      "Partager sa liste avec un proche de confiance"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Rituels de bilan sans bilan chiffré",
+     "objectif": "Concevoir des revues hebdomadaires, mensuelles, annuelles sous forme de rituels.",
+     "sections": [
+      "La revue du dimanche soir",
+      "La revue de fin de mois",
+      "La revue d'anniversaire",
+      "La revue de solstice et d'équinoxe",
+      "La lettre annuelle à soi-même"
+     ],
+     "exercices": [
+      "Inscrire quatre revues annuelles dans son calendrier papier",
+      "Écrire une lettre annuelle à son futur soi, scellée",
+      "Relecture de la lettre de l'an passé lors de la revue d'anniversaire"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Vivre tête nue",
+     "objectif": "Consolider l'identité de personne qui prend soin de sa tête sans outil numérique.",
+     "sections": [
+      "L'identité comme levier ultime",
+      "Transmettre sans prêcher",
+      "Accompagner un proche qui veut s'y mettre",
+      "Les limites du système : quand l'outil redevient pertinent",
+      "La tête nue comme posture existentielle"
+     ],
+     "exercices": [
+      "Écrire son manifeste personnel de la tête nue",
+      "Offrir un carnet et un stylo à un proche avec une lettre",
+      "Relecture du manifeste tous les six mois, avec amendements manuscrits"
+     ]
+    }
+   ]
+  }
+ ]
+}

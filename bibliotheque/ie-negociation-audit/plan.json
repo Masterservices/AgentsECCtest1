@@ -1,0 +1,628 @@
+{
+ "titre": "L'Audit de la Table",
+ "sous_titre": "Négocier comme un comptable des flux humains : auditer, capter, boucler, l'emporter",
+ "bibliographie": [
+  {
+   "auteur": "Roger Fisher & William Ury",
+   "titre": "Getting to Yes (Comment réussir une négociation)",
+   "annee": "1981",
+   "idee": "Négociation raisonnée basée sur les intérêts, les options et les critères objectifs plutôt que sur les positions.",
+   "apport": "Grille d'audit des intérêts sous-jacents et séparation des personnes du problème."
+  },
+  {
+   "auteur": "William Ury",
+   "titre": "Getting Past No",
+   "annee": "1991",
+   "idee": "Cinq étapes pour transformer un refus en opportunité : monter au balcon, marcher à côté, recadrer, construire un pont d'or, user de pouvoir sans guerre.",
+   "apport": "Protocole de débriefing émotionnel avant et pendant l'échange."
+  },
+  {
+   "auteur": "Chris Voss",
+   "titre": "Never Split the Difference",
+   "annee": "2016",
+   "idee": "Négociation tactique fondée sur l'écoute active, le miroir, l'étiquetage des émotions et le 'non' calibré.",
+   "apport": "Capteurs verbaux et non verbaux à installer en direct sur la table."
+  },
+  {
+   "auteur": "G. Richard Shell",
+   "titre": "Bargaining for Advantage",
+   "annee": "1999",
+   "idee": "Les six styles de négociateur et l'importance de connaître son propre profil avant d'entrer en salle.",
+   "apport": "Audit de ses angles morts personnels et de son style dominant."
+  },
+  {
+   "auteur": "Deepak Malhotra & Max Bazerman",
+   "titre": "Negotiation Genius",
+   "annee": "2007",
+   "idee": "Détection des biais cognitifs, des informations manquantes et des stratégies de manipulation.",
+   "apport": "Check-list d'audit des pièges informationnels et des asymétries."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow (Système 1 / Système 2)",
+   "annee": "2011",
+   "idee": "Deux systèmes de pensée, heuristiques et biais qui déforment le jugement en temps réel.",
+   "apport": "Cadre d'audit des biais à surveiller chez soi et chez l'autre."
+  },
+  {
+   "auteur": "Dan Ariely",
+   "titre": "Predictably Irrational",
+   "annee": "2008",
+   "idee": "Les décisions économiques sont systématiquement irrationnelles mais prévisibles.",
+   "apport": "Grille des ancrages, effets de contraste et gratuité à auditer dans les offres."
+  },
+  {
+   "auteur": "Robert Cialdini",
+   "titre": "Influence et Manipulation",
+   "annee": "1984",
+   "idee": "Six principes universels d'influence : réciprocité, engagement, preuve sociale, autorité, sympathie, rareté.",
+   "apport": "Capteurs de persuasion à instrumenter sur la table."
+  },
+  {
+   "auteur": "Jim Camp",
+   "titre": "Start with No",
+   "annee": "2002",
+   "idee": "Le 'non' est le point de départ d'une vraie négociation ; éviter le 'peut-être' toxique.",
+   "apport": "Protocole d'audit des réponses floues et conversion en données exploitables."
+  },
+  {
+   "auteur": "Michael Wheeler",
+   "titre": "The Art of Negotiation",
+   "annee": "2013",
+   "idee": "Négociation comme improvisation jazz : préparer, adapter, apprendre en boucle.",
+   "apport": "Concept de boucle de rétroaction continue intégré à notre méthode."
+  },
+  {
+   "auteur": "Daniel Shapiro",
+   "titre": "Negotiating the Nonnegotiable",
+   "annee": "2016",
+   "idee": "Gérer les conflits chargés d'identité et d'émotions fortes par cinq tentations à éviter.",
+   "apport": "Audit de la dimension identitaire souvent angle mort des grilles classiques."
+  },
+  {
+   "auteur": "Douglas Stone, Bruce Patton & Sheila Heen",
+   "titre": "Difficult Conversations",
+   "annee": "1999",
+   "idee": "Toute conversation difficile contient trois conversations imbriquées : le 'quoi', les émotions, l'identité.",
+   "apport": "Triangulation d'audit en trois couches appliquée à chaque échange."
+  },
+  {
+   "auteur": "Kerry Patterson et al.",
+   "titre": "Crucial Conversations",
+   "annee": "2002",
+   "idee": "Gérer les dialogues à fort enjeu et forte émotion en maintenant la sécurité psychologique.",
+   "apport": "Indicateurs de sécurité à capter en temps réel sur la table."
+  },
+  {
+   "auteur": "Roger Fisher & Daniel Shapiro",
+   "titre": "Beyond Reason",
+   "annee": "2005",
+   "idee": "Cinq préoccupations émotionnelles universelles : appréciation, affiliation, autonomie, statut, rôle.",
+   "apport": "Grille d'audit émotionnel à cinq entrées pour lire l'autre partie."
+  },
+  {
+   "auteur": "Leigh Thompson",
+   "titre": "The Mind and Heart of the Negotiator",
+   "annee": "2001 (rééd. 2020)",
+   "idee": "Synthèse académique des diagnostics, pièges et stratégies de la négociation multi-enjeux.",
+   "apport": "Modèles de ZOPA, BATNA et valeur de réservation à auditer systématiquement."
+  },
+  {
+   "auteur": "Eliyahu Goldratt",
+   "titre": "Le But (The Goal)",
+   "annee": "1984",
+   "idee": "Théorie des contraintes : identifier le goulot d'étranglement pour libérer la valeur du système.",
+   "apport": "Métaphore comptable appliquée à l'audit des goulots de la négociation."
+  },
+  {
+   "auteur": "Eric Ries",
+   "titre": "The Lean Startup",
+   "annee": "2011",
+   "idee": "Boucle Construire-Mesurer-Apprendre pour itérer rapidement à partir de données.",
+   "apport": "Architecture de la boucle de rétroaction en temps réel sur la table."
+  },
+  {
+   "auteur": "John Doerr",
+   "titre": "Measure What Matters",
+   "annee": "2018",
+   "idee": "OKR : objectifs et résultats clés pour piloter par la mesure.",
+   "apport": "Instrumentation de la table en objectifs et indicateurs mesurables."
+  },
+  {
+   "auteur": "Richard Rumelt",
+   "titre": "Good Strategy Bad Strategy",
+   "annee": "2011",
+   "idee": "Une bonne stratégie = diagnostic, politique directrice, actions cohérentes.",
+   "apport": "Structure du diagnostic préalable à toute prise de parole."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile",
+   "annee": "2012",
+   "idee": "Construire des systèmes qui profitent du désordre plutôt que de le subir.",
+   "apport": "Audit des fragilités cachées dans les accords post-signature."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Auditer l'autre partie avant de s'asseoir",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le diagnostic Rumelt : pourquoi la négociation se gagne avant la table",
+     "objectif": "Installer la thèse centrale : l'audit préalable est l'acte fondateur qui conditionne tous les autres.",
+     "sections": [
+      "1.1 Le mythe du charisme : ce que la table cache comme travail invisible",
+      "1.2 Le triangle Rumelt appliqué à la négociation : diagnostic, politique, actions",
+      "1.3 Comptable des flux humains : une nouvelle identité professionnelle",
+      "1.4 Les trois temps de l'audit : avant, pendant, après",
+      "1.5 Le coût de l'absence d'audit : cinq études de cas anonymisées",
+      "1.6 Promesse et limites de la méthode : ce qu'elle ne fera jamais"
+     ],
+     "exercices": [
+      "Auto-évaluation : combien de vos 10 dernières négociations ont fait l'objet d'un diagnostic écrit ?",
+      "Cartographie des flux entrants/sortants de votre dernière négociation",
+      "Rédaction d'un diagnostic Rumelt en une page pour une négociation à venir"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Cartographier les intérêts sous-jacents : au-delà des positions affichées",
+     "objectif": "Distinguer positions, intérêts, besoins et peurs de l'autre partie avec la grille Fisher-Ury enrichie.",
+     "sections": [
+      "2.1 Positions vs intérêts : l'iceberg classique revisité",
+      "2.2 La grille des cinq 'pourquoi' pour forer les intérêts",
+      "2.3 Intérêts déclarés, intérêts réels, intérêts cachés : trois registres",
+      "2.4 Intérêts matériels, relationnels, identitaires, procéduraux",
+      "2.5 Identifier les intérêts concurrents entre membres de l'autre équipe",
+      "2.6 Construire la carte d'intérêts avant la première rencontre",
+      "2.7 Signaler les zones d'incertitude avec un code couleur"
+     ],
+     "exercices": [
+      "Exercice des cinq 'pourquoi' sur une contrepartie connue",
+      "Cartographie graphique des intérêts en trois couleurs",
+      "Simulation : deviner les intérêts non déclarés à partir d'un communiqué public"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "BATNA, ZOPA, valeur de réservation : les trois chiffres à connaître",
+     "objectif": "Auditer les marges de manœuvre chiffrées de l'autre partie et les comparer aux siennes.",
+     "sections": [
+      "3.1 Définitions rigoureuses : BATNA, ZOPA, valeur de réservation",
+      "3.2 Estimer la BATNA adverse : sources publiques, indices indirects",
+      "3.3 Estimer la valeur de réservation adverse : coûts, délais, alternatives",
+      "3.4 La ZOPA existe-t-elle vraiment ? Les cas de ZOPA fantôme",
+      "3.5 Asymétries d'information et leurs conséquences sur la ZOPA",
+      "3.6 Calculer sa propre BATNA sans complaisance",
+      "3.7 Tenir un tableau de bord des trois chiffres en pré-négociation"
+     ],
+     "exercices": [
+      "Calcul complet BATNA/ZOPA/réservation sur un cas fourni",
+      "Exercice de réduction de l'incertitude : trois questions à poser",
+      "Test de robustesse : que se passe-t-il si la BATNA adverse est deux fois meilleure que prévu ?"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Décrypter les contraintes : temps, argent, autorité, politique interne",
+     "objectif": "Auditer les quatre familles de contraintes qui bornent la liberté de l'autre partie.",
+     "sections": [
+      "4.1 La contrainte de temps : urgences réelles et fabriquées",
+      "4.2 La contrainte budgétaire : enveloppes, cycles, approbations",
+      "4.3 La contrainte d'autorité : qui décide vraiment ?",
+      "4.4 La contrainte politique interne : coalitions, rivaux, mandants",
+      "4.5 La contrainte juridique et réglementaire : ce qui ne se négocie pas",
+      "4.6 Construire la matrice 4×3 des contraintes de l'autre",
+      "4.7 Utiliser les contraintes adverses comme leviers, pas comme obstacles"
+     ],
+     "exercices": [
+      "Matrice 4×3 remplie sur une contrepartie réelle",
+      "Jeu de rôle : jouer le mandant caché de l'autre partie",
+      "Identification de trois leviers issus des contraintes adverses"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Profiler l'équipe adverse : rôles, styles, relations de pouvoir",
+     "objectif": "Auditer les personnes, leurs styles (Shell), leurs dynamiques internes et leurs angles morts collectifs.",
+     "sections": [
+      "5.1 Les six styles de Shell et leur combinaison dans une équipe",
+      "5.2 Identifier le décideur, l'influenceur, le gardien, le saboteur",
+      "5.3 Cartographier les relations de pouvoir internes à l'équipe adverse",
+      "5.4 Signaux faibles de dissension : silences, regards, reprises de parole",
+      "5.5 Le profil émotionnel : cinq préoccupations de Fisher-Shapiro",
+      "5.6 Construire une fiche par interlocuteur avant la table",
+      "5.7 Éthique du profilage : où s'arrêter"
+     ],
+     "exercices": [
+      "Questionnaire de style Shell sur soi et estimation sur trois adversaires",
+      "Organigramme informel de l'équipe adverse",
+      "Rédaction de trois fiches-interlocuteurs pour une négociation à venir"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Auditer ses propres angles morts",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "Les biais cognitifs qui sabotent le négociateur",
+     "objectif": "Identifier et neutraliser les quinze biais les plus coûteux en négociation.",
+     "sections": [
+      "6.1 Ancrage, confirmation, disponibilité : le trio de tête",
+      "6.2 Aversion à la perte et effet de dotation",
+      "6.3 Biais d'excès de confiance et illusion de contrôle",
+      "6.4 Biais d'engagement et escalade irrationnelle",
+      "6.5 Biais de cadrage et influence du libellé des offres",
+      "6.6 Tableau de bord des 15 biais avec parade individuelle",
+      "6.7 Mettre en place un 'contradicteur interne' systématique"
+     ],
+     "exercices": [
+      "Auto-test : quel biais vous coûte le plus cher ?",
+      "Réécriture d'une offre sous trois cadrages différents",
+      "Rituel du contradictoire : trois questions à se poser avant chaque séance"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Auditer son propre style et ses déclencheurs émotionnels",
+     "objectif": "Connaître son profil (Shell + Shapiro) et ses points de rupture émotionnelle.",
+     "sections": [
+      "7.1 Relire les six styles de Shell depuis son propre miroir",
+      "7.2 Les cinq tentations identitaires de Shapiro",
+      "7.3 Cartographier ses déclencheurs : mépris, interruption, silence",
+      "7.4 Le corps comme premier capteur : rythme cardiaque, voix, posture",
+      "7.5 Construire son protocole personnel de retour au balcon",
+      "7.6 Gérer la fatigue décisionnelle sur les négociations longues",
+      "7.7 Quand déléguer : auditer ses propres limites"
+     ],
+     "exercices": [
+      "Journal de bord émotionnel sur cinq négociations passées",
+      "Protocole écrit de retour au balcon en trois gestes",
+      "Identification des trois situations où déléguer est impératif"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Auditer sa propre préparation : la check-list du comptable",
+     "objective": "Construire et appliquer une check-list exhaustive de préparation avant chaque négociation.",
+     "sections": [
+      "8.1 Les 40 points de la check-list maîtresse",
+      "8.2 Préparation informationnelle : ce que je sais, ce que j'ignore, ce que je crois",
+      "8.3 Préparation stratégique : objectifs, seuils, scénarios",
+      "8.4 Préparation tactique : ouverture, séquence, concessions planifiées",
+      "8.5 Préparation logistique : lieu, temps, ordre du jour, procès-verbal",
+      "8.6 Préparation relationnelle : qui parle, qui écoute, qui note",
+      "8.7 Le rituel de validation croisée avant d'entrer en salle"
+     ],
+     "exercices": [
+      "Remplir la check-list complète sur un cas réel",
+      "Faire relire sa check-list par un pair et intégrer ses remarques",
+      "Simuler une entrée en salle après check-list complète vs sans check-list"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "La théorie des contraintes appliquée à soi-même",
+     "objectif": "Identifier son propre goulot d'étranglement (temps, expertise, réseau, courage).",
+     "sections": [
+      "9.1 Rappel Goldratt : le système est limité par son maillon le plus faible",
+      "9.2 Les cinq goulots classiques du négociateur",
+      "9.3 Audit de son emploi du temps de préparation",
+      "9.4 Audit de ses expertises techniques manquantes",
+      "9.5 Audit de son réseau de conseillers et de contradicteurs",
+      "9.6 Audit de son courage : les concessions qu'on n'ose pas demander",
+      "9.7 Plan de levée des goulots sur les 90 prochains jours"
+     ],
+     "exercices": [
+      "Identifier son goulot dominant par élimination successive",
+      "Plan d'action 90 jours avec trois jalons mesurables",
+      "Constitution d'un cercle de trois contradicteurs de confiance"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Éthique et valeurs : l'audit qui protège de soi-même",
+     "objectif": "Définir ses lignes rouges éthiques avant d'être soumis à la pression de la table.",
+     "sections": [
+      "10.1 Pourquoi l'éthique se décide avant, pas pendant",
+      "10.2 Les sept pratiques grises les plus fréquentes en négociation",
+      "10.3 Construire sa charte personnelle en cinq principes",
+      "10.4 Le test du journal public : pourrais-je assumer ma tactique demain ?",
+      "10.5 Gérer la pression du mandant qui pousse à la zone grise",
+      "10.6 Quand rompre la négociation : les trois signaux absolus",
+      "10.7 Documenter pour se protéger : traces et procès-verbaux"
+     ],
+     "exercices": [
+      "Rédaction de sa charte éthique personnelle en une page",
+      "Test du journal public sur trois tactiques récemment employées",
+      "Scénario de rupture : préparer une sortie propre"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Instrumenter la table en capteurs",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "Les sept familles de capteurs à installer en salle",
+     "objectif": "Définir les catégories de signaux à capter en continu pendant la négociation.",
+     "sections": [
+      "11.1 Capteurs verbaux : mots, répétitions, omissions",
+      "11.2 Capteurs para-verbaux : débit, ton, silences",
+      "11.3 Capteurs non verbaux : posture, regard, micro-gestes",
+      "11.4 Capteurs émotionnels : les cinq préoccupations en direct",
+      "11.5 Capteurs informationnels : nouvelles données, contradictions",
+      "11.6 Capteurs temporels : rythmes, accélérations, pauses",
+      "11.7 Capteurs relationnels : coalitions, ruptures, alliages en formation"
+     ],
+     "exercices": [
+      "Grille vierge des sept familles à imprimer pour chaque séance",
+      "Entraînement sur une vidéo de négociation publique",
+      "Binôme d'observation : un capte, un négocie"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Le carnet de bord temps réel : format, rôles, discipline",
+     "objectif": "Mettre en place un protocole de notation en direct qui ne perturbe pas la négociation.",
+     "sections": [
+      "12.1 Pourquoi un carnet papier plutôt qu'un écran",
+      "12.2 Le format à trois colonnes : fait, interprétation, action",
+      "12.3 Répartir les rôles : qui note quoi dans l'équipe",
+      "12.4 La discipline du factuel : séparer observation et lecture",
+      "12.5 Codes et abréviations pour aller vite sans trahir",
+      "12.6 Protéger le carnet : confidentialité et destruction",
+      "12.7 Numériser après coup pour constituer une base de données"
+     ],
+     "exercices": [
+      "Créer son format de carnet personnalisé",
+      "Simulation en binôme avec rotation des rôles",
+      "Numériser un carnet papier et en extraire trois enseignements"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Les questions-calibrateurs : transformer chaque échange en donnée",
+     "objectif": "Utiliser les questions ouvertes de Voss comme instruments de mesure.",
+     "sections": [
+      "13.1 Les questions 'comment' et 'quoi' comme sondes",
+      "13.2 L'étiquetage des émotions comme capteur affectif",
+      "13.3 Le miroir comme amplificateur de signaux faibles",
+      "13.4 Les questions de contrôle : vérifier sans braquer",
+      "13.5 Séquence type : sonde → miroir → étiquetage → reformulation",
+      "13.6 Les questions interdites : celles qui ferment l'information",
+      "13.7 Construire sa banque de 50 questions-calibrateurs"
+     ],
+     "exercices": [
+      "Transformer 10 questions fermées en questions-calibrateurs",
+      "Jeu de rôle : obtenir trois informations cachées avec cinq questions",
+      "Constituer sa banque personnelle classée par famille d'enjeu"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Détecter les tactiques adverses en temps réel",
+     "objectif": "Reconnaître les vingt tactiques classiques pour ne pas les subir.",
+     "sections": [
+      "14.1 Les tactiques d'ancrage et de cadrage",
+      "14.2 Les tactiques de pression temporelle",
+      "14.3 Les tactiques émotionnelles : colère, larmes, flatterie",
+      "14.4 Les tactiques de division de l'équipe adverse",
+      "14.5 Les tactiques de diversion et de noyage du poisson",
+      "14.6 Les tactiques de fausse autorité et de mandant fantôme",
+      "14.7 Le protocole de neutralisation : nommer, recadrer, revenir"
+     ],
+     "exercices": [
+      "Quiz de reconnaissance sur vingt extraits de dialogues",
+      "Simulation : subir une tactique et appliquer le protocole",
+      "Constitution d'une fiche-réflexe par tactique"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Instrumenter les pauses et les apartés : la table hors la table",
+     "objectif": "Capter l'information la plus riche, souvent livrée hors séance officielle.",
+     "sections": [
+      "15.1 Les trois moments-clés hors table : avant, pause, après",
+      "15.2 Préparer ses questions d'aparté comme on prépare ses questions de table",
+      "15.3 L'écoute active en couloir : les confidences involontaires",
+      "15.4 Gérer les déjeuners et dîners comme des séances instrumentées",
+      "15.5 Noter sans paraître noter : techniques discrètes",
+      "15.6 Recouper les données hors table avec les données de table",
+      "15.7 Éthique de la captation hors table"
+     ],
+     "exercices": [
+      "Préparer cinq questions d'aparté pour une prochaine rencontre",
+      "Exercice de mémoire : restituer un aparté deux heures après",
+      "Tableau de recoupement table/hors table sur un cas réel"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Boucler l'information en temps réel",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "La boucle Construire-Mesurer-Apprendre appliquée à la table",
+     "objectif": "Transposer le cycle Lean à la négociation pour itérer séance après séance.",
+     "sections": [
+      "16.1 Rappel du cycle Lean de Ries",
+      "16.2 Construire : formuler une hypothèse négociable",
+      "16.3 Mesurer : tester l'hypothèse par une offre ou une question",
+      "16.4 Apprendre : interpréter la réaction et ajuster",
+      "16.5 La fréquence optimale de la boucle selon le type de négociation",
+      "16.6 Documenter chaque tour de boucle pour capitaliser",
+      "16.7 Les pièges de la boucle : sur-ajustement et perte de cap"
+     ],
+     "exercices": [
+      "Décomposer une négociation récente en tours de boucle",
+      "Concevoir trois hypothèses testables pour une négociation à venir",
+      "Tenir un journal de boucle sur une semaine"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Le mini-débriefing de séance : quinze minutes qui changent tout",
+     "objectif": "Instaurer un rituel de débriefing structuré entre chaque séance.",
+     "sections": [
+      "17.1 Pourquoi débriefing immédiat > débriefing différé",
+      "17.2 Le format en cinq questions en quinze minutes",
+      "17.3 Rôles : qui anime, qui note, qui contredit",
+      "17.4 Séparer les faits, les émotions, les interprétations",
+      "17.5 Décider des ajustements pour la séance suivante",
+      "17.6 Archiver le débriefing pour la mémoire longue",
+      "17.7 Gérer les débriefings à distance et en équipe dispersée"
+     ],
+     "exercices": [
+      "Mener un débriefing de quinze minutes sur une simulation",
+      "Concevoir le gabarit de débriefing de son équipe",
+      "Comparer deux débriefings (immédiat vs différé) sur le même cas"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Réajuster sa BATNA en cours de négociation",
+     "objectif": "Mettre à jour dynamiquement ses options de repli à mesure que l'information arrive.",
+     "sections": [
+      "18.1 La BATNA n'est pas un chiffre fixe : c'est une estimation vivante",
+      "18.2 Les signaux qui doivent déclencher une révision",
+      "18.3 Méthode bayésienne simplifiée pour réviser ses probabilités",
+      "18.4 Réviser la BATNA adverse en parallèle",
+      "18.5 Impact sur la ZOPA et sur sa propre valeur de réservation",
+      "18.6 Décider de sortir : quand la BATNA révisée dépasse l'offre en cours",
+      "18.7 Communiquer la révision à son mandant sans perdre en crédibilité"
+     ],
+     "exercices": [
+      "Réviser une BATNA à partir de trois nouvelles informations",
+      "Calcul bayésien simplifié sur un cas chiffré",
+      "Scénario de sortie : préparer la communication au mandant"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "La boucle des concessions : donner, recevoir, comptabiliser",
+     "objectif": "Traiter chaque concession comme une donnée à enregistrer et à équilibrer.",
+     "sections": [
+      "19.1 Concession ≠ cadeau : la règle de la réciprocité calibrée",
+      "19.2 Le registre des concessions : qui a donné quoi, quand, en échange de quoi",
+      "19.3 Évaluer la valeur subjective d'une concession pour l'autre",
+      "19.4 Les concessions à faible coût pour soi et forte valeur pour l'autre",
+      "19.5 Les concessions empoisonnées : les reconnaître et les refuser",
+      "19.6 Séquencer les concessions pour maximiser l'information reçue",
+      "19.7 Le bilan des concessions en fin de séance"
+     ],
+     "exercices": [
+      "Tenir un registre des concessions sur une simulation de trois tours",
+      "Lister vingt concessions à faible coût dans son domaine",
+      "Identifier trois concessions empoisonnées typiques de son secteur"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Piloter la table en tableau de bord : indicateurs, seuils, alertes",
+     "objectif": "Construire un tableau de bord temps réel avec indicateurs et seuils d'alerte.",
+     "sections": [
+      "20.1 Les dix indicateurs maîtres d'une négociation en cours",
+      "20.2 Définir les seuils verts, orange, rouges pour chaque indicateur",
+      "20.3 Le rôle du 'copilote' qui surveille le tableau de bord",
+      "20.4 Visualiser sans distraire : formats discrets en salle",
+      "20.5 Alertes et protocoles de sortie de séance",
+      "20.6 Tableau de bord pour les négociations à multiples enjeux",
+      "20.7 Tableau de bord pour les négociations en équipe"
+     ],
+     "exercices": [
+      "Construire son tableau de bord personnel à dix indicateurs",
+      "Définir les seuils d'alerte sur trois négociations types",
+      "Simulation : le copilote déclenche une alerte et l'équipe ajuste"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Auditer l'accord après signature",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "L'audit de robustesse : l'accord résistera-t-il au réel ?",
+     "objectif": "Soumettre l'accord signé à des tests de résistance avant son exécution.",
+     "sections": [
+      "21.1 Les cinq fragilités classiques d'un accord signé",
+      "21.2 Test de l'ambiguïté : chaque clause est-elle interprétable à l'identique ?",
+      "21.3 Test du choc externe : que se passe-t-il si le marché bouge de 20 % ?",
+      "21.4 Test du changement d'interlocuteur : l'accord survit-il aux personnes ?",
+      "21.5 Test du déséquilibre : une partie aura-t-elle intérêt à trahir ?",
+      "21.6 Leçons d'Antifragile : rendre l'accord renforcé par les chocs",
+      "21.7 Documenter l'audit de robustesse avant exécution"
+     ],
+     "exercices": [
+      "Appliquer les cinq tests à un accord réel ou fictif",
+      "Rédiger trois clauses de protection contre les chocs identifiés",
+      "Simuler un changement d'interlocuteur et observer la solidité"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Le protocole d'exécution : transformer l'accord en flux mesurables",
+     "objectif": "Décliner l'accord en jalons, indicateurs, responsables et dates.",
+     "sections": [
+      "22.1 De l'accord juridique au plan d'exécution opérationnel",
+      "22.2 Découper en lots, jalons et livrables mesurables",
+      "22.3 Affecter un responsable par lot et un sponsor par axe",
+      "22.4 Définir les indicateurs d'exécution (OKR adaptés)",
+      "22.5 Prévoir les points de synchronisation entre parties",
+      "22.6 Outiller le suivi : tableaux partagés, comités, rituels",
+      "22.7 Gérer les écarts sans retourner à la table tout de suite"
+     ],
+     "exercices": [
+      "Décliner un accord en plan d'exécution à 90 jours",
+      "Définir trois OKR partagés entre les deux parties",
+      "Préparer le premier comité de suivi et son ordre du jour"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Le débriefing post-négociation : capitaliser pour la prochaine",
+     "objectif": "Transformer chaque négociation, gagnée ou perdue, en actif de connaissance.",
+     "sections": [
+      "23.1 Pourquoi 90 % des négociateurs ne débriefent jamais vraiment",
+      "23.2 Le format en sept questions structurées",
+      "23.3 Séparer performance individuelle, collective et stratégique",
+      "23.4 Identifier les trois apprentissages majeurs à retenir",
+      "23.5 Mettre à jour les check-lists et protocoles personnels",
+      "23.6 Constituer une base de cas anonymisée et exploitable",
+      "23.7 Partager au sein de l'équipe sans trahir la confidentialité"
+     ],
+     "exercices": [
+      "Mener un débriefing post-négociation complet sur un cas réel",
+      "Mettre à jour sa check-list maîtresse à partir de trois apprentissages",
+      "Rédiger une fiche de cas anonymisée pour la base collective"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "La boucle longue : devenir un négociateur-auditeur à vie",
+     "objectif": "Installer une pratique continue qui transforme l'identité professionnelle sur le long terme.",
+     "sections": [
+      "24.1 Le cycle annuel de progression : quatre saisons de l'auditeur",
+      "24.2 Mesurer sa propre progression sur dix indicateurs personnels",
+      "24.3 Construire son réseau de pairs-auditeurs",
+      "24.4 Mentorat : apprendre en enseignant la méthode",
+      "24.5 Se spécialiser : quels secteurs récompensent le plus l'audit ?",
+      "24.6 Transmettre la méthode dans son organisation",
+      "24.7 Rester humble : l'audit ne garantit rien, il augmente les probabilités"
+     ],
+     "exercices": [
+      "Plan annuel personnel de progression en quatre saisons",
+      "Auto-évaluation sur les dix indicateurs de maturité",
+      "Identifier trois pairs-auditeurs avec qui échanger chaque trimestre"
+     ]
+    }
+   ]
+  }
+ ]
+}

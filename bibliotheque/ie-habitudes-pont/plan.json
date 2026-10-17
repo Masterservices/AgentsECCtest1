@@ -1,0 +1,569 @@
+{
+ "titre": "Le Pont des Habitudes",
+ "sous_titre": "Construire le changement comme un ouvrage d'art — piles, tablier, joints de dilatation et répétition espacée",
+ "bibliographie": [
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les petites améliorations composées (1 % par jour) et les quatre lois du changement de comportement (indice, envie, réponse, récompense) structurent une habitude.",
+   "apport": "Notion d'empilement d'habitudes comme 'pile' d'ancrage, et boucle de rétroaction comme tablier."
+  },
+  {
+   "auteur": "BJ Fogg",
+   "titre": "Tiny Habits",
+   "annee": "2019",
+   "idee": "Le modèle B = MAP (Motivation, Aptitude, Prompt) montre qu'une habitude naît d'un comportement minuscule déclenché par un ancrage existant.",
+   "apport": "Concept d'ancrage comportemental = implantation des piles dans le terrain existant."
+  },
+  {
+   "auteur": "Charles Duhigg",
+   "titre": "The Power of Habit",
+   "annee": "2012",
+   "idee": "La boucle indice-routine-récompense et les 'habitudes clés' (keystone habits) réorganisent tout un système de vie.",
+   "apport": "Identification des routines à remplacer et des keystone comme piles maîtresses."
+  },
+  {
+   "auteur": "Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel",
+   "titre": "Make It Stick: The Science of Successful Learning",
+   "annee": "2014",
+   "idee": "La répétition espacée, la récupération active et l'entrelacement consolident la mémoire à long terme bien mieux que la répétition massée.",
+   "apport": "Fondement scientifique des traversées à intervalles croissants sur le pont comportemental."
+  },
+  {
+   "auteur": "Hermann Ebbinghaus (référence historique)",
+   "titre": "Über das Gedächtnis",
+   "annee": "1885",
+   "idee": "La courbe de l'oubli montre une décroissance exponentielle de la rétention sans révision, atténuée par des rappels espacés.",
+   "apport": "Justification du calendrier de répétition espacée appliqué aux habitudes."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Deux systèmes cognitifs (rapide/automatique vs lent/délibéré) expliquent pourquoi le changement volontaire fatigue et rechute.",
+   "apport": "Le tablier doit être conçu pour minimiser la charge du Système 2."
+  },
+  {
+   "auteur": "Roy F. Baumeister & John Tierney",
+   "titre": "Willpower: Rediscovering the Greatest Human Strength",
+   "annee": "2011",
+   "idee": "La volonté fonctionne comme un muscle qui s'épuise (ego depletion) et se reconstitue ; elle dépend du glucose et du repos.",
+   "apport": "Les joints de dilatation absorbent les jours de fatigue décisionnelle."
+  },
+  {
+   "auteur": "Kelly McGonigal",
+   "titre": "The Willpower Instinct",
+   "annee": "2011",
+   "idee": "La maîtrise de soi repose sur trois forces : 'je ne ferai pas', 'je ferai', 'je veux' ; l'autocompassion après échec améliore la reprise.",
+   "apport": "Protocole de réparation après rupture d'une pile ou d'un joint."
+  },
+  {
+   "auteur": "Chip Heath & Dan Heath",
+   "titre": "Switch: How to Change Things When Change Is Hard",
+   "annee": "2010",
+   "idee": "Métaphore du Cavalier (raison), de l'Éléphant (émotion) et du Chemin (environnement) ; changer = diriger, motiver, façonner.",
+   "apport": "Le pont doit adresser les trois niveaux pour être traversé durablement."
+  },
+  {
+   "auteur": "Richard Thaler & Cass Sunstein",
+   "titre": "Nudge",
+   "annee": "2008",
+   "idee": "L'architecture des choix (defaults, framing, salience) oriente les décisions sans contraindre.",
+   "apport": "Design des abords du pont : signalétique, rampes, garde-corps comportementaux."
+  },
+  {
+   "auteur": "Gretchen Rubin",
+   "titre": "Better Than Before",
+   "annee": "2015",
+   "idee": "Les quatre tendances (Upholder, Questioner, Obliger, Rebel) déterminent comment chacun répond aux attentes internes et externes.",
+   "apport": "Adaptation du type de pont au profil du bâtisseur."
+  },
+  {
+   "auteur": "Nir Eyal",
+   "titre": "Hooked: How to Build Habit-Forming Products",
+   "annee": "2014",
+   "idee": "Le Hook Model (Trigger, Action, Variable Reward, Investment) crée des boucles d'engagement.",
+   "apport": "Conception des récompenses variables à chaque traversée du pont."
+  },
+  {
+   "auteur": "Carol S. Dweck",
+   "titre": "Mindset: The New Psychology of Success",
+   "annee": "2006",
+   "idee": "L'état d'esprit de croissance (vs fixe) transforme l'échec en donnée d'apprentissage.",
+   "apport": "Posture d'entretien de l'ouvrage : une fissure n'est pas un effondrement."
+  },
+  {
+   "auteur": "Robert Sapolsky",
+   "titre": "Behave: The Biology of Humans at Our Best and Worst",
+   "annee": "2017",
+   "idee": "Le comportement s'explique à plusieurs échelles (neurones, hormones, culture, évolution) ; aucune cause unique.",
+   "apport": "Vision multi-échelle du pont : du matériau (biologie) au trafic (contexte social)."
+  },
+  {
+   "auteur": "Anders Ericsson & Robert Pool",
+   "titre": "Peak: Secrets from the New Science of Expertise",
+   "annee": "2016",
+   "idee": "La pratique délibérée, avec feedback et représentations mentales, construit l'expertise bien au-delà des 10 000 heures naïves.",
+   "apport": "Traversées conscientes du pont avec retours et ajustements du tablier."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Implanter les piles : ancrer le changement dans l'existant",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Pourquoi sauter dans le vide échoue presque toujours",
+     "objectif": "Démontrer, données et métaphores à l'appui, que la décision brute de changement néglige la transition et produit une rechute majoritaire.",
+     "sections": [
+      "Le mythe du déclic : récit de la révélation et de la chute",
+      "Anatomie d'un saut dans le vide : ce qui casse sous la charge",
+      "Courbe de l'abandon : statistiques des résolutions et des régimes",
+      "L'illusion de la volonté comme unique matériau",
+      "Présentation de la métaphore du pont : piles, tablier, joints",
+      "Contrat de lecture : ce que ce livre promet et ne promet pas"
+     ],
+     "exercices": [
+      "Cartographier ses trois derniers 'sauts dans le vide' et leurs points de rupture",
+      "Écrire la lettre d'adieu à la méthode du 'à partir de lundi, je change tout'"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Lire le terrain : inventaire des appuis disponibles",
+     "objectif": "Apprendre à identifier les routines, lieux, personnes et rythmes déjà en place sur lesquels fonder les nouvelles piles.",
+     "sections": [
+      "Topographie comportementale : dessiner sa journée type",
+      "Les trois natures d'appui : temporel, spatial, social",
+      "Repérer les 'roches porteuses' : ce qui n'a jamais bougé",
+      "Identifier les sols meubles : zones instables à éviter",
+      "Entretien de sondage : questions à ses proches et à soi-même",
+      "Journal de bord du terrain sur sept jours"
+     ],
+     "exercices": [
+      "Tenir un journal minute-par-minute pendant trois jours ouvrés",
+      "Lister dix routines existantes immuables (café, douche, trajet...)",
+      "Dessiner une carte mentale de ses lieux et personnes-ancres"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Choisir l'emplacement des piles : la règle du prochain passage obligé",
+     "objectif": "Formaliser le critère d'implantation d'une pile : le comportement nouveau doit être greffé juste après un comportement déjà automatique.",
+     "sections": [
+      "Le principe d'empilement comportemental revisité",
+      "Distance critique : trop près sature, trop loin oublie",
+      "Hiérarchie des déclencheurs : heure, lieu, action précédente, émotion",
+      "Éviter les collisions avec des piles déjà chargées",
+      "Cas particuliers : piles mobiles (voyage, télétravail)",
+      "Protocole de décision en cinq questions"
+     ],
+     "exercices": [
+      "Appliquer la formule 'Après [ancre], je [nouveau micro-geste]'",
+      "Tester trois emplacements différents pendant une semaine chacun",
+      "Noter pour chaque pile candidate un score de friction (0 à 10)"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Fonder en profondeur : valeurs, identité et sens",
+     "objectif": "Montrer qu'une pile superficielle (basée sur l'apparence ou la pression sociale) cède sous la charge ; seules les piles ancrées dans l'identité tiennent.",
+     "sections": [
+      "Identité vs résultat : changer qui l'on est avant ce que l'on fait",
+      "L'exercice des cinq 'pourquoi' appliqué à l'habitude cible",
+      "Rédiger un énoncé d'identité en une phrase",
+      "Aligner la nouvelle habitude avec trois valeurs cardinales",
+      "Détecter les conflits d'identité cachés (loyautés familiales, peurs)",
+      "Rituel de fondation : acte symbolique de pose de la première pile"
+     ],
+     "exercices": [
+      "Compléter la phrase : 'Je suis le genre de personne qui...'",
+      "Lister cinq preuves passées qui soutiennent déjà cette identité",
+      "Écrire une lettre à son futur soi dans cinq ans"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Dimensionner les piles : micro-habitudes et marge de sécurité",
+     "objectif": "Appliquer le principe de la marge de sécurité en ingénierie : une pile doit supporter plus que la charge prévue, donc commencer ridiculement petit.",
+     "sections": [
+      "La règle des deux minutes de David Allen, revisitée",
+      "Calculer la charge maximale admissible d'une journée difficile",
+      "Version minimale viable vs version de croisière",
+      "Le coefficient de sécurité 1,5 appliqué aux habitudes",
+      "Pourquoi trop de piles tuent les piles : surcharge cognitive",
+      "Tableau de dimensionnement : largeur, profondeur, espacement"
+     ],
+     "exercices": [
+      "Décliner l'habitude cible en trois tailles (mini, standard, max)",
+      "Définir la version 'jour catastrophique' qui compte tout de même",
+      "Limiter volontairement à trois piles nouvelles par trimestre"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Poser le tablier : concevoir la nouvelle routine",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "Dessiner le tablier : la boucle indice–routine–récompense",
+     "objectif": "Construire la structure complète de la nouvelle routine en intégrant les trois composantes de la boucle comportementale.",
+     "sections": [
+      "Rappel de la boucle de Duhigg et ses limites en conditions réelles",
+      "Choisir un indice saillant et non ambigu",
+      "Séquentialiser la routine en étapes numérotées",
+      "Ingénierie de la récompense : immédiate, proportionnée, saine",
+      "Boucler la boucle : signal de fin explicite",
+      "Dessiner le schéma technique de son propre tablier"
+     ],
+     "exercices": [
+      "Remplir une fiche-tablier standardisée (une page)",
+      "Identifier trois récompenses candidates et les tester une semaine chacune",
+      "Ajouter un 'geste de clôture' ritualisé à la routine"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Les matériaux du tablier : environnement, outils et friction",
+     "objectif": "Agir sur l'architecture des choix pour que la routine devienne le chemin de moindre résistance.",
+     "sections": [
+      "Réduire la friction du comportement cible : la règle des 20 secondes",
+      "Augmenter la friction du comportement concurrent",
+      "Préparer la veille : le rituel du 'kit de traversée'",
+      "Design de l'espace : zones dédiées, signalétique visuelle",
+      "Outils numériques : rappels, trackers, automatisations",
+      "Pièges classiques : notifications, tentations adjacentes"
+     ],
+     "exercices": [
+      "Réaménager une pièce pour soutenir la routine (avant/après photographié)",
+      "Installer un tableau de bord minimal (trois indicateurs maximum)",
+      "Lister dix frictions inutiles et en éliminer au moins cinq"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Le garde-corps : règlesbright lines et engagements publics",
+     "objectif": "Installer des protections latérales qui empêchent la dérive progressive hors du tablier.",
+     "sections": [
+      "Bright lines vs zones grises : pourquoi la clarté bat la flexibilité",
+      "Contrats d'Ulysse : s'attacher au mât avant la tempête",
+      "Engagement public, partenaire de responsabilité, coach",
+      "Enjeux réversibles vs irréversibles : calibrer la pression",
+      "Garde-corps numériques (bloqueurs, comptes séparés, argent verrouillé)",
+      "Quand retirer un garde-corps : signe de maturité du tablier"
+     ],
+     "exercices": [
+      "Formuler trois bright lines écrites et signées",
+      "Désigner un 'compagnon de pont' et convenir d'un rituel hebdomadaire",
+      "Installer un dispositif d'engagement financier modéré"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Signalétique et éclairage : rendre la traversée lisible",
+     "objectif": "Fournir au Système 1 une lecture immédiate de la routine pour réduire la charge du Système 2.",
+     "sections": [
+      "Checklists à la manière d'Atul Gawande",
+      "Rituels d'entrée et de sortie : la rampe d'accès",
+      "Marqueurs visuels, auditifs, kinesthésiques",
+      "Éclairer le 'prochain pas' plutôt que l'ensemble du trajet",
+      "Langage intérieur : remplacer 'je dois' par 'je fais'",
+      "Tableau de signalisation type pour une routine complexe"
+     ],
+     "exercices": [
+      "Rédiger une checklist de cinq items maximum pour la routine",
+      "Choisir un déclencheur sensoriel unique (musique, odeur, objet)",
+      "Enregistrer un mémo vocal de 30 secondes à écouter avant la traversée"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Mise en charge progressive : du piéton au poids lourd",
+     "objectif": "Établir un protocole d'augmentation graduelle de l'intensité ou de la durée de la routine, comme on teste un pont par charges croissantes.",
+     "sections": [
+      "Semaine 1 à 4 : charge d'essai (version minimale)",
+      "Semaine 5 à 8 : charge normale (version standard)",
+      "Semaine 9 à 12 : charge de croisière (version cible)",
+      "Indicateurs de surcharge : signaux faibles à surveiller",
+      "Rétrograder sans honte : le droit de revenir à la version mini",
+      "Journal de charge : noter intensité, humeur, contexte"
+     ],
+     "exercices": [
+      "Planifier un calendrier de montée en charge sur 12 semaines",
+      "Définir trois seuils de rétrogradation automatique",
+      "Tenir un carnet de charge quotidien (une ligne)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Gérer les joints de dilatation : absorber les jours de flottement",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "Pourquoi tout ouvrage rigide finit par fissurer",
+     "objectif": "Expliquer, par la mécanique des structures et la psychologie, pourquoi la rigidité comportementale est un piège mortel.",
+     "sections": [
+      "Leçon d'ingénierie : dilatation thermique et contraintes",
+      "Transposition : voyages, maladies, deuils, fêtes, crises",
+      "Le mythe de la streak parfaite et ses dégâts",
+      "Statistiques des rechutes : où et quand elles surviennent",
+      "Rigidité vs résilience : définir la souplesse utile",
+      "Auto-diagnostic : suis-je un bâtisseur rigide ou souple ?"
+     ],
+     "exercices": [
+      "Lister les dix événements prévisibles qui perturberont l'année",
+      "Évaluer sa tendance au 'tout ou rien' sur une échelle de 1 à 10",
+      "Identifier trois rigidités comportementales actuelles"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Concevoir des joints : les versions dégradées planifiées",
+     "objectif": "Préparer à l'avance des versions allégées de la routine pour les jours difficiles, afin qu'aucun jour ne soit 'zéro'.",
+     "sections": [
+      "La règle du 'jamais deux jours d'affilée sans traversée'",
+      "Trois niveaux de routine : complète, allégée, symbolique",
+      "Déclencheurs explicites du passage en mode dégradé",
+      "Le minimum viable comme victoire, non comme échec",
+      "Protéger le noyau dur : quelle partie ne jamais sacrifier",
+      "Tableau de correspondance contexte / version de routine"
+     ],
+     "exercices": [
+      "Écrire les trois versions de sa routine sur une fiche",
+      "Définir à l'avance cinq scénarios de déclenchement du mode dégradé",
+      "Simuler mentalement une semaine difficile et répéter les transitions"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Le plan de reprise après rupture : IF-THEN de secours",
+     "objectif": "Fournir un protocole écrit d'avance pour les jours où la routine a été totalement manquée, afin d'éviter l'effet 'what the hell'.",
+     "sections": [
+      "L'effet 'what the hell' décortiqué (Janet Polivy)",
+      "Plans d'implémentation : la recherche de Peter Gollwitzer",
+      "Formuler des règles IF-THEN précises et réalistes",
+      "Le principe d'autocompassion comme lubrifiant du joint",
+      "Rituel de reprise en trois gestes (reconnaître, respirer, refaire petit)",
+      "Analyse post-incident sans culpabilité : la fiche d'avarie"
+     ],
+     "exercices": [
+      "Rédiger cinq règles IF-THEN pour ses scénarios de rechute",
+      "Écrire un protocole de reprise tenant sur une carte de visite",
+      "Remplir une fiche d'avarie après chaque rupture (sans jugement)"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Les saisons du pont : vacances, fêtes, déménagements, deuils",
+     "objectif": "Adapter la routine aux grandes variations saisonnières et biographiques de la vie.",
+     "sections": [
+      "Vacances : pont en maintenance programmée",
+      "Fêtes familiales : trafic exceptionnel et déviation",
+      "Déménagement ou changement d'emploi : reconstruction partielle",
+      "Maladie, burnout, parentalité : mise en service restreint",
+      "Deuil et ruptures : quand il faut rebâtir certaines piles",
+      "Calendrier annuel des perturbations prévisibles"
+     ],
+     "exercices": [
+      "Construire un calendrier annuel de maintenance du pont",
+      "Préparer un 'kit vacances' avec version minimale de chaque routine",
+      "Écrire un protocole spécifique pour les deux prochaines grandes perturbations attendues"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Émotions et fatigue : les charges dynamiques du tablier",
+     "objectif": "Intégrer la gestion des états internes (colère, tristesse, épuisement) comme charges dynamiques à absorber par les joints.",
+     "sections": [
+      "Fatigue décisionnelle : pourquoi le soir est le pire ennemi",
+      "Émotions comme signaux, pas comme saboteurs",
+      "Le rôle du sommeil, de l'alimentation et du mouvement",
+      "Routines-tampons : respiration, marche, écriture",
+      "HALT : Hungry, Angry, Lonely, Tired — checklist d'urgence",
+      "Distinguer fatigue réelle et résistance du Système 1"
+     ],
+     "exercices": [
+      "Tenir un journal énergie/émotion sur deux semaines",
+      "Installer trois routines-tampons de moins de cinq minutes",
+      "Créer une 'trousse HALT' physique ou numérique accessible en 30 secondes"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Répéter les traversées : la consolidation par répétition espacée",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "La science de la répétition espacée appliquée aux habitudes",
+     "objectif": "Transposer les principes de la mémorisation (Ebbinghaus, Pimsleur, Leitner) à la consolidation d'un comportement.",
+     "sections": [
+      "Courbe de l'oubli et courbe de la rechute : un même modèle",
+      "Le système Leitner appliqué aux traversées comportementales",
+      "Intervalles optimaux : 1, 3, 7, 14, 30, 90 jours",
+      "Récupération active vs répétition passive",
+      "Entrelacement : varier les contextes de traversée",
+      "Limites et précautions : ce que la science ne garantit pas"
+     ],
+     "exercices": [
+      "Construire son propre calendrier de répétition sur 90 jours",
+      "Installer un système Leitner physique ou numérique pour ses habitudes",
+      "Planifier trois traversées en contextes différents cette semaine"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Le calendrier de traversée : planifier sans s'enfermer",
+     "objectif": "Concevoir un planning réaliste de traversées qui intègre marges, repos et imprévus.",
+     "sections": [
+      "Semaine type vs semaine réelle : l'écart à combler",
+      "Bloquer des créneaux vs saisir des opportunités",
+      "La règle des 80 % : viser l'excellence, pas la perfection",
+      "Rituels de planification hebdomadaire (30 minutes)",
+      "Revue mensuelle : ajuster intervalles et intensité",
+      "Outils : agenda papier, numérique, hybridation"
+     ],
+     "exercices": [
+      "Bloquer trois créneaux de traversée dans l'agenda de la semaine",
+      "Conduire une revue mensuelle de 45 minutes avec formulaire type",
+      "Comparer pendant quatre semaines planning prévu et planning vécu"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Mesurer sans se mesurer : indicateurs et pièges du tracking",
+     "objectif": "Utiliser le suivi comme outil d'apprentissage et non comme juge ; éviter les dérives de la quantification de soi.",
+     "sections": [
+      "Tracker pour apprendre, pas pour se punir",
+      "Les trois indicateurs qui comptent vraiment (fréquence, qualité, récupération)",
+      "Quand cesser de tracker : signe de maturité",
+      "Biais du survivant et des streaks : illusions d'optique",
+      "Qualitatif vs quantitatif : le journal narratif comme complément",
+      "Protéger sa vie privée : où vont les données ?"
+     ],
+     "exercices": [
+      "Choisir un seul indicateur principal pour chaque habitude",
+      "Tenir un journal narratif de trois phrases par jour pendant un mois",
+      "Programmer une date d'arrêt du tracking (test de trois mois)"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Traversées conscientes : la pratique délibérée du geste quotidien",
+     "objectif": "Transformer les traversées automatiques en occasions d'ajustement fin, à la manière d'Ericsson.",
+     "sections": [
+      "Automatisme vs délibération : les deux sont nécessaires",
+      "Une traversée par semaine en mode 'haute attention'",
+      "Représentations mentales : visualiser la traversée idéale",
+      "Feedback immédiat : miroir, enregistrement, partenaire",
+      "Micro-ajustements : changer un détail à chaque passage",
+      "Éviter la paralysie par l'analyse"
+     ],
+     "exercices": [
+      "Désigner une traversée hebdomadaire 'délibérée' dans l'agenda",
+      "Enregistrer ou filmer une traversée et la revoir avec bienveillance",
+      "Noter un micro-ajustement à tester lors de la prochaine traversée"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Quand l'habitude devient identité : le passage du tablier au paysage",
+     "objectif": "Repérer le moment où la routine n'est plus un effort mais une partie de soi, et adapter la stratégie en conséquence.",
+     "sections": [
+      "Les signes objectifs de l'internalisation",
+      "Le langage change : de 'je fais' à 'je suis'",
+      "Réduire les garde-corps sans les supprimer",
+      "Transmettre : enseigner consolide",
+      "Nouveaux risques : la routine devenue invisible s'érode",
+      "Réinstaller des checkpoints trimestriels"
+     ],
+     "exercices": [
+      "Rédiger un texte court où l'on se décrit comme 'le genre de personne qui...'",
+      "Enseigner la méthode à un proche (réel ou fictif)",
+      "Programmer quatre checkpoints trimestriels dans l'année"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Entretenir l'ouvrage : inspection, réparation, extension",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Inspections périodiques : la revue trimestrielle du pont",
+     "objectif": "Institutionnaliser un rituel d'inspection pour détecter fissures, corrosion et surcharges avant qu'elles ne deviennent critiques.",
+     "sections": [
+      "Pourquoi trimestriel : ni trop près ni trop loin",
+      "Les sept points d'inspection (piles, tablier, joints, signalétique, charge, identité, sens)",
+      "Fiche d'inspection standardisée (une page)",
+      "Décider : réparer, renforcer, remplacer, retirer",
+      "Inspection solo vs inspection accompagnée",
+      "Archiver les rapports : mémoire de l'ouvrage"
+     ],
+     "exercices": [
+      "Réaliser une inspection complète avec la fiche fournie",
+      "Programmer les quatre inspections de l'année dans l'agenda",
+      "Constituer un dossier 'mémoire du pont' (physique ou numérique)"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Réparer les fissures : protocoles courts pour rechutes courantes",
+     "objectif": "Disposer de protocoles de réparation rapides et éprouvés pour les avaries ordinaires.",
+     "sections": [
+      "Typologie des fissures : oubli, évitement, sabotage, ennui, conflit",
+      "Protocole 'fissure d'oubli' : réinstaller l'indice",
+      "Protocole 'fissure d'évitement' : réduire la friction",
+      "Protocole 'fissure de sabotage' : identifier la loyauté cachée",
+      "Protocole 'fissure d'ennui' : varier ou augmenter la charge",
+      "Quand faire appel à un professionnel (limites du livre)"
+     ],
+     "exercices": [
+      "Diagnostiquer sa fissure récurrente avec la typologie",
+      "Appliquer le protocole correspondant pendant deux semaines",
+      "Documenter le résultat dans la fiche d'avarie"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Étendre le réseau : du pont unique au viaduc des habitudes",
+     "objectif": "Passer d'une habitude isolée à un système cohérent d'habitudes qui se renforcent mutuellement.",
+     "sections": [
+      "Habitudes-clés (keystone) et effets de levier",
+      "Séquencer les nouvelles piles : une à la fois, jamais trois",
+      "Cartographier son réseau : ponts, échangeurs, ronds-points",
+      "Redondances utiles et redondances nuisibles",
+      "Quand démolir un pont devenu inutile",
+      "Vision long terme : le réseau à cinq ans"
+     ],
+     "exercices": [
+      "Dessiner la carte actuelle de ses habitudes (réseau)",
+      "Identifier la prochaine habitude-levier à construire",
+      "Lister trois ponts candidats à la démolition"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Transmettre l'ouvrage : héritage, enseignement et sagesse du bâtisseur",
+     "objectif": "Consolider sa propre maîtrise en enseignant, et préparer la transmission aux proches, enfants ou équipes.",
+     "sections": [
+      "L'effet protége : enseigner, c'est approfondir",
+      "Adapter le discours à l'âge et au profil (Upholder, Obliger, etc.)",
+      "Construire des ponts en famille ou en équipe",
+      "Écrire son propre manuel : un livret de dix pages",
+      "Sagesse du bâtisseur : accepter l'impermanence",
+      "Épilogue : marcher sur le pont, regarder le paysage"
+     ],
+     "exercices": [
+      "Rédiger un livret de transmission de dix pages",
+      "Offrir une 'traversée accompagnée' à un proche",
+      "Écrire la lettre de clôture à son ancien soi"
+     ]
+    }
+   ]
+  }
+ ]
+}
