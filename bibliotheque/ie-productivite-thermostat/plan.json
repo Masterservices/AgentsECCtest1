@@ -1,0 +1,575 @@
+{
+ "titre": "Le Thermostat Productif",
+ "sous_titre": "Pourquoi réguler son énergie bat toujours l'intensité maximale - Le guide du rythme durable",
+ "bibliographie": [
+  {
+   "auteur": "Cal Newport",
+   "titre": "Deep Work: Rules for Focused Success in a Distracted World",
+   "annee": "2016",
+   "idee": "Le travail en profondeur nécessite des périodes de concentration intense sans distraction, mais doit être structuré et limité dans le temps.",
+   "apport": "Concept de blocs de travail profond comme cycles de chauffe contrôlée, à alterner avec des phases de récupération."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les petites habitudes composées créent des résultats remarquables; le système bat l'objectif.",
+   "apport": "Architecture des boucles de régulation quotidiennes et hebdomadaires; mesure des habitudes plutôt que des pics de performance."
+  },
+  {
+   "auteur": "Jim Loehr & Tony Schwartz",
+   "titre": "The Power of Full Engagement",
+   "annee": "2003",
+   "idee": "L'énergie, non le temps, est la ressource fondamentale; alternance stress/récupération optimale.",
+   "apport": "Modèle des quatre énergies (physique, émotionnelle, mentale, spirituelle) comme variables de consigne du thermostat."
+  },
+  {
+   "auteur": "Greg McKeown",
+   "titre": "Essentialism: The Disciplined Pursuit of Less",
+   "annee": "2014",
+   "idee": "Faire moins mais mieux; éliminer le non-essentiel pour protéger son énergie.",
+   "apport": "Définition de la consigne par soustraction; critères de décision pour maintenir la température optimale."
+  },
+  {
+   "auteur": "Alex Soojung-Kim Pang",
+   "titre": "Rest: Why You Get More Done When You Work Less",
+   "annee": "2016",
+   "idee": "Le repos délibéré et la récupération active sont des multiplicateurs de productivité, non des pertes de temps.",
+   "apport": "Protocoles de refroidissement actif; intégration du repos comme composante du système de régulation."
+  },
+  {
+   "auteur": "Emily Nagoski & Amelia Nagoski",
+   "titre": "Burnout: The Secret to Unlocking the Stress Cycle",
+   "annee": "2019",
+   "idee": "Le burnout résulte de cycles de stress non complétés; il faut fermer la boucle physiologique.",
+   "apport": "Détection des signaux de surchauffe; techniques de complétion du cycle de stress comme reset du thermostat."
+  },
+  {
+   "auteur": "Daniel Pink",
+   "titre": "When: The Scientific Secrets of Perfect Timing",
+   "annee": "2018",
+   "idee": "Le timing optimal dépend des rythmes circadiens; pic, creux, remontée.",
+   "apport": "Calibration de la consigne selon les chronotypes; alignement des tâches avec les phases d'énergie naturelle."
+  },
+  {
+   "auteur": "Jake Knapp & John Zeratsky",
+   "titre": "Make Time: How to Focus on What Matters Every Day",
+   "annee": "2018",
+   "idee": "Quatre étapes quotidiennes: point fort, laser, énergie, réflexion.",
+   "apport": "Structure du protocole de réglage quotidien; tableau de bord simplifié de régulation."
+  },
+  {
+   "auteur": "Nir Eyal",
+   "titre": "Indistractable: How to Control Your Attention and Choose Your Life",
+   "annee": "2019",
+   "idee": "Les distractions internes (inconfort émotionnel) sont plus destructrices que les externes.",
+   "apport": "Gestion des fuites d'énergie émotionnelle; compostage des interruptions et des tâches avortées."
+  },
+  {
+   "auteur": "Brad Stulberg & Steve Magness",
+   "titre": "Peak Performance: Elevate Your Game, Avoid Burnout, and Thrive",
+   "annee": "2017",
+   "idee": "Stress + repos = croissance; la périodisation est essentielle.",
+   "apport": "Modèle de périodisation appliqué au travail intellectuel; cycles de surcharge et de récupération."
+  },
+  {
+   "auteur": "Matthew Walker",
+   "titre": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+   "annee": "2017",
+   "idee": "Le sommeil est le régulateur maître de toutes les fonctions cognitives et physiques.",
+   "apport": "Le sommeil comme calibration nocturne du thermostat; protocoles de préparation au refroidissement."
+  },
+  {
+   "auteur": "Greg McKeown",
+   "titre": "Effortless: Make It Easier to Do What Matters Most",
+   "annee": "2021",
+   "idee": "Réduire la friction et l'effort pour rendre l'essentiel plus facile que le superflu.",
+   "apport": "Design de l'environnement pour maintenir la consigne sans résistance; automatisation des décisions."
+  },
+  {
+   "auteur": "David Allen",
+   "titre": "Getting Things Done: The Art of Stress-Free Productivity",
+   "annee": "2001",
+   "idee": "Capturer, clarifier, organiser, réfléchir, engager pour libérer l'esprit.",
+   "apport": "Système de capture comme capteur du thermostat; revue hebdomadaire comme recalibration."
+  },
+  {
+   "auteur": "Darren Hardy",
+   "titre": "The Compound Effect",
+   "annee": "2010",
+   "idee": "De petits choix consistants, multipliés par le temps, créent des résultats exponentiels.",
+   "apport": "Mesure de la régularité sur le long terme; valorisation de la consistance sur l'intensité."
+  },
+  {
+   "auteur": "David Epstein",
+   "titre": "Range: Why Generalists Triumph in a Specialized World",
+   "annee": "2019",
+   "idee": "L'exploration large et les détours apparents construisent des compétences transférables.",
+   "apport": "Légitimation des temps morts et des phases d'exploration comme compostage nécessaire."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1: Le Mythe de l'Accélérateur",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Pourquoi pousser à fond ne fonctionne jamais longtemps",
+     "objectif": "Démontrer par la science et l'expérience que l'intensité maximale mène inévitablement à l'épuisement et à la baisse de performance.",
+     "sections": [
+      "L'anatomie d'un burnout: ce qui se passe quand on reste à 110%",
+      "La courbe en U inversé: pourquoi plus n'est pas mieux",
+      "Les coûts cachés de l'intensité: dette d'énergie, erreurs, relations",
+      "Études de cas: entrepreneurs, artistes et athlètes qui ont crashé",
+      "Le paradoxe de la productivité: moins d'heures, plus de résultats",
+      "Votre propre histoire: identifier vos cycles de surchauffe passés"
+     ],
+     "exercices": [
+      "Auto-évaluation: cartographier vos 3 derniers épisodes de surchauffe",
+      "Calcul du coût réel: heures perdues en récupération après chaque sprint",
+      "Interview de soi: quelles croyances vous poussent à l'accélérateur?"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Le thermostat: un modèle pour durer",
+     "objectif": "Introduire l'analogie du thermostat comme système de régulation intelligent et présenter ses principes fondamentaux.",
+     "sections": [
+      "Comment fonctionne un thermostat: consigne, capteur, actionneur",
+      "La sagesse de la régulation: stabilité vs variabilité extrême",
+      "Pourquoi votre corps est déjà un thermostat (homéostasie)",
+      "Les trois composantes: consigne d'énergie, boucles de feedback, capacité d'ajustement",
+      "Thermostat vs accélérateur: comparaison point par point",
+      "Exemples de thermostats dans la nature et les systèmes complexes"
+     ],
+     "exercices": [
+      "Dessiner votre thermostat idéal: quelle serait votre consigne optimale?",
+      "Identifier vos capteurs actuels: comment savez-vous que vous surchauffez?",
+      "Lister vos actionneurs: que faites-vous pour refroidir?"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Le compostage: transformer les déchets en ressources",
+     "objectif": "Présenter le compostage comme métaphore de la transformation des échecs, temps morts et tâches inachevées en matière utile.",
+     "sections": [
+      "La logique du compost: rien ne se perd, tout se transforme",
+      "Pourquoi les échecs sont des nutriments, pas des déchets",
+      "Les temps morts comme phase de décomposition nécessaire",
+      "Conditions du compostage: temps, chaleur, aération, humidité",
+      "Compostage rapide vs lent: quand accélérer la transformation",
+      "Ce qui ne composte pas: les toxiques à éliminer définitivement"
+     ],
+     "exercices": [
+      "Inventaire de votre compost actuel: quels échecs n'ont pas été transformés?",
+      "Identifier les conditions manquantes: pourquoi certains projets ne se décomposent pas?",
+      "Créer votre bac à compost mental: un espace pour déposer sans juger"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Les quatre énergies: calibrer votre consigne",
+     "objectif": "Définir les quatre types d'énergie (physique, émotionnelle, mentale, spirituelle) et apprendre à mesurer leur niveau.",
+     "sections": [
+      "L'énergie physique: le carburant de base (sommeil, nutrition, mouvement)",
+      "L'énergie émotionnelle: la qualité de votre carburant (positif vs négatif)",
+      "L'énergie mentale: la concentration et la clarté",
+      "L'énergie spirituelle: le sens et l'alignement avec vos valeurs",
+      "Comment ces énergies interagissent et se compensent",
+      "Mesurer chaque énergie: échelles subjectives et indicateurs objectifs"
+     ],
+     "exercices": [
+      "Audit énergétique: noter vos 4 énergies 3 fois par jour pendant une semaine",
+      "Identifier vos fuites: quelle énergie s'épuise le plus vite?",
+      "Définir votre consigne minimale viable pour chaque énergie"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2: Définir Votre Consigne Personnelle",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Trouver votre température optimale",
+     "objectif": "Aider le lecteur à identifier sa zone de performance durable, ni trop basse (ennui) ni trop haute (épuisement).",
+     "sections": [
+      "La zone de flux vs la zone de surchauffe: reconnaître la différence",
+      "Votre chronotype: êtes-vous du matin, du soir ou intermédiaire?",
+      "Identifier vos pics naturels d'énergie sur 24 heures",
+      "La règle des 85%: pourquoi viser le maximum est contre-productif",
+      "Signaux corporels de la température optimale",
+      "Ajuster selon les saisons de vie: périodes de haute vs basse intensité"
+     ],
+     "exercices": [
+      "Journal d'énergie sur 2 semaines: tracker énergie et productivité heure par heure",
+      "Cartographier votre journée idéale: quand faire quoi?",
+      "Tester la règle des 85%: réduire volontairement l'intensité et observer"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Définir vos non-négociables",
+     "objectif": "Établir les limites infranchissables qui protègent la consigne d'énergie, comme un thermostat avec sécurité intégrée.",
+     "sections": [
+      "Pourquoi les limites sont des multiplicateurs de liberté",
+      "Les 5 catégories de non-négociables: santé, relations, valeurs, apprentissage, repos",
+      "Comment dire non sans culpabilité: scripts et stratégies",
+      "Les non-négociables quotidiens vs hebdomadaires vs annuels",
+      "Gérer les violations: que faire quand vous franchissez vos limites?",
+      "Réviser vos non-négociables: quand les assouplir ou les renforcer"
+     ],
+     "exercices": [
+      "Lister vos 10 non-négociables actuels (ou à créer)",
+      "Identifier les 3 demandes récentes auxquelles vous auriez dû dire non",
+      "Créer votre manifeste de limites: un document à relire en cas de doute"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Calibrer selon votre saison de vie",
+     "objectif": "Adapter la consigne d'énergie aux différentes phases de vie (jeune professionnel, parent, entrepreneur, transition).",
+     "sections": [
+      "Les saisons de vie: exploration, construction, consolidation, transition",
+      "Pourquoi une consigne unique ne fonctionne pas sur 40 ans de carrière",
+      "Ajuster les attentes: ce qui est réaliste à chaque saison",
+      "Gérer les transitions: quand changer de consigne?",
+      "Les saisons forcées: maladie, deuil, crise économique",
+      "Planifier les saisons futures: anticiper les changements de consigne"
+     ],
+     "exercices": [
+      "Identifier votre saison actuelle et ses contraintes spécifiques",
+      "Réviser votre consigne: est-elle adaptée à votre saison?",
+      "Projeter les 3 prochaines saisons: quelles consignes anticiper?"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Votre charte de régulation personnelle",
+     "objectif": "Créer un document de référence qui synthétise consigne, non-négociables et principes de régulation.",
+     "sections": [
+      "Pourquoi écrire sa charte: engagement et clarté",
+      "Les 7 sections d'une charte efficace",
+      "Exemples de chartes: du minimaliste au détaillé",
+      "Où garder votre charte et quand la relire",
+      "Réviser sa charte: fréquence et déclencheurs",
+      "Partager sa charte: avec qui et pourquoi?"
+     ],
+     "exercices": [
+      "Rédiger votre charte de régulation (template fourni)",
+      "Identifier 3 situations où votre charte vous aurait aidé",
+      "Planifier les révisions trimestrielles de votre charte"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3: Installer Vos Boucles de Régulation",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Le protocole quotidien: rituels de calibration",
+     "objectif": "Concevoir une routine quotidienne qui maintient la consigne sans effort conscient excessif.",
+     "sections": [
+      "Le matin: calibration initiale (15 minutes)",
+      "Les checkpoints de mi-journée: ajustements mineurs",
+      "Le soir: refroidissement et préparation au sommeil",
+      "Les micro-rituels: 2 minutes pour recentrer",
+      "Adapter le protocole aux jours atypiques",
+      "Quand le protocole échoue: diagnostic et correction"
+     ],
+     "exercices": [
+      "Designer votre protocole quotidien idéal (template horaire)",
+      "Tester pendant 2 semaines et ajuster",
+      "Créer 3 versions: jour normal, jour chargé, jour de crise"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "La revue hebdomadaire: recalibration stratégique",
+     "objectif": "Mettre en place une revue hebdomadaire qui permet d'ajuster la consigne et les systèmes en fonction des données collectées.",
+     "sections": [
+      "Pourquoi hebdomadaire: ni trop court ni trop long",
+      "Les 6 étapes de la revue efficace (45-60 minutes)",
+      "Collecter les données: quels indicateurs tracker?",
+      "Analyser les écarts: pourquoi la consigne n'a-t-elle pas été tenue?",
+      "Ajuster les systèmes: quoi changer pour la semaine prochaine?",
+      "Célébrer les victoires: renforcer les comportements positifs"
+     ],
+     "exercices": [
+      "Créer votre template de revue hebdomadaire",
+      "Choisir votre créneau fixe (dimanche soir, vendredi après-midi?)",
+      "Tester pendant 4 semaines et affiner le processus"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Les capteurs d'énergie: mesurer avant de réguler",
+     "objectif": "Installer des systèmes de mesure de l'énergie (subjectifs et objectifs) pour détecter les dérives avant qu'elles ne deviennent problématiques.",
+     "sections": [
+      "Pourquoi mesurer: ce qui n'est pas mesuré n'est pas géré",
+      "Capteurs subjectifs: échelles d'auto-évaluation",
+      "Capteurs objectifs: fréquence cardiaque, sommeil, erreurs",
+      "Applications et outils: que tracker sans devenir obsédé?",
+      "Fréquence de mesure: trop vs pas assez",
+      "Interpréter les données: tendances vs bruit"
+     ],
+     "exercices": [
+      "Choisir 3 capteurs à installer cette semaine",
+      "Créer votre tableau de bord minimal (1 page)",
+      "Définir vos seuils d'alerte: quand intervenir?"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Les actionneurs: outils de refroidissement rapide",
+     "objectif": "Constituer une boîte à outils de techniques pour réduire rapidement l'intensité quand les capteurs signalent une surchauffe.",
+     "sections": [
+      "Actionneurs physiques: respiration, mouvement, eau froide",
+      "Actionneurs mentaux: méditation, journaling, distraction",
+      "Actionneurs environnementaux: changer de lieu, réduire les stimuli",
+      "Actionneurs sociaux: parler, demander de l'aide, déléguer",
+      "Actionneurs temporels: pauses, report, annulation",
+      "Créer votre menu d'actionneurs: 5 minutes, 30 minutes, 2 heures"
+     ],
+     "exercices": [
+      "Tester 5 actionneurs différents et noter leur efficacité",
+      "Créer votre trousse d'urgence refroidissement (liste de 10 techniques)",
+      "Simuler des scénarios de surchauffe et choisir l'actionneur approprié"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4: Composter pour Transformer",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "L'art de rater utilement",
+     "objectif": "Transformer l'échec en apprentissage structuré grâce à des protocoles de compostage des projets ratés et des erreurs.",
+     "sections": [
+      "Pourquoi nous gaspillons nos échecs: déni, honte, oubli",
+      "L'autopsie sans blâme: extraire les leçons sans se flageller",
+      "Le journal des échecs: documenter pour ne pas répéter",
+      "Catégoriser les échecs: évitables vs inévitables, petits vs grands",
+      "Partager ses échecs: normaliser et apprendre des autres",
+      "Quand abandonner est la bonne décision: critères de sortie"
+     ],
+     "exercices": [
+      "Réaliser l'autopsie de votre dernier échec significatif",
+      "Créer votre journal des échecs (template fourni)",
+      "Identifier 3 échecs passés qui vous ont réellement servi"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Les temps morts comme incubateurs",
+     "objectif": "Légitimer et optimiser les périodes de faible activité apparente comme phases nécessaires de maturation et de créativité.",
+     "sections": [
+      "La science de l'incubation: ce qui se passe quand vous ne faites rien",
+      "Différencier procrastination et incubation",
+      "Créer des espaces d'ennui productif",
+      "Les activités d'incubation: marche, douche, rêverie",
+      "Capturer les insights qui émergent du compost",
+      "Combien de temps morts planifier: ratios et fréquences"
+     ],
+     "exercices": [
+      "Planifier 3 heures d'incubation cette semaine (sans écran)",
+      "Tester la technique de la marche sans destination",
+      "Créer un système de capture rapide pour les idées spontanées"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Composter les tâches inachevées",
+     "objectif": "Transformer la liste des projets abandonnés et des tâches reportées en insights sur vos priorités réelles et vos capacités.",
+     "sections": [
+      "Pourquoi nous accumulons des tâches inachevées: optimisme, perfectionnisme, peur",
+      "Le coût mental de l'inachevé: effet Zeigarnik et charge cognitive",
+      "Trier le compost: quoi garder, quoi transformer, quoi jeter?",
+      "Extraire les pépites: quelles tâches méritent d'être ressuscitées?",
+      "Fermer les boucles ouvertes: renégocier avec soi et les autres",
+      "Prévenir l'accumulation: dire non plus tôt, découper plus fin"
+     ],
+     "exercices": [
+      "Faire l'inventaire de toutes vos tâches inachevées (personnelles et pro)",
+      "Appliquer la matrice: abandonner, déléguer, redécouper, faire",
+      "Célébrer les abandons conscients: ritualiser la fermeture"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Transformer les interruptions en nutriments",
+     "objectif": "Gérer les interruptions inévitables en les intégrant au système plutôt qu'en les subissant passivement.",
+     "sections": [
+      "Les interruptions sont inévitables: changer de posture",
+      "Catégoriser: urgentes vs importantes vs bruit",
+      "Créer des tampons: plages horaires protégées vs ouvertes",
+      "La technique du parking: noter et traiter plus tard",
+      "Transformer les interruptions en opportunités de connexion",
+      "Récupérer après une interruption: retour au flux"
+     ],
+     "exercices": [
+      "Tracker vos interruptions pendant 3 jours: fréquence, source, durée",
+      "Designer vos plages protégées et vos plages ouvertes",
+      "Tester la technique du parking pendant une semaine"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5: Détecter et Prévenir la Surchauffe",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Les signaux précoces d'alerte",
+     "objectif": "Identifier les signaux subtils qui précèdent l'épuisement, bien avant les symptômes évidents.",
+     "sections": [
+      "Les 4 niveaux d'alerte: vert, jaune, orange, rouge",
+      "Signaux physiques: sommeil perturbé, tensions, maladies fréquentes",
+      "Signaux émotionnels: irritabilité, cynisme, détachement",
+      "Signaux cognitifs: oublis, erreurs, difficulté à décider",
+      "Signaux comportementaux: procrastination, isolement, addictions",
+      "Votre profil d'alerte personnel: quels signaux apparaissent en premier?"
+     ],
+     "exercices": [
+      "Créer votre échelle d'alerte personnelle avec 3 signaux par niveau",
+      "Identifier vos 5 signaux les plus précoces (ceux que vous ignorez habituellement)",
+      "Installer un checkpoint quotidien de 2 minutes pour scanner ces signaux"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Le cycle du stress: le compléter pour reset",
+     "objectif": "Comprendre et appliquer la science de la complétion du cycle de stress pour éviter l'accumulation toxique.",
+     "sections": [
+      "La différence entre stresseur et stress: pourquoi le problème persiste",
+      "Les 7 façons de compléter le cycle de stress (recherche de Nagoski)",
+      "Activité physique: le compléteur le plus efficace",
+      "Respiration profonde: le compléteur portable",
+      "Connexion sociale positive: rire, câlins, gratitude partagée",
+      "Créativité et pleurs: les compléteurs sous-estimés"
+     ],
+     "exercices": [
+      "Tester les 7 compléteurs et identifier vos 2 préférés",
+      "Installer un rituel de complétion en fin de journée (10 minutes)",
+      "Créer votre trousse de complétion d'urgence pour les jours de crise"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "La récupération stratégique: repos actif vs passif",
+     "objectif": "Maîtriser les différentes formes de récupération et savoir quand utiliser chacune pour maintenir la consigne.",
+     "sections": [
+      "Pourquoi le repos passif (canapé) ne suffit pas toujours",
+      "Les 7 types de repos: physique, mental, sensoriel, créatif, émotionnel, social, spirituel",
+      "Récupération active: mouvement doux, nature, jeux",
+      "Récupération passive: sieste, méditation, bain",
+      "Micro-récupérations: 5 minutes pour recharger",
+      "Macro-récupérations: week-ends, vacances, sabbatiques"
+     ],
+     "exercices": [
+      "Audit de votre récupération actuelle: quels types manquent?",
+      "Créer votre menu de récupération: 5 options par type",
+      "Planifier une macro-récupération dans les 3 prochains mois"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Quand intervenir: protocoles d'urgence",
+     "objectif": "Disposer de plans d'action clairs pour les situations de surchauffe avérée, du léger débordement à la crise.",
+     "sections": [
+      "Niveau jaune: ajustements mineurs (réduire 10% de charge)",
+      "Niveau orange: réductions significatives (annuler, déléguer, reporter)",
+      "Niveau rouge: arrêt d'urgence (congés, aide professionnelle)",
+      "Scripts pour communiquer vos limites en crise",
+      "Gérer la culpabilité de ralentir ou s'arrêter",
+      "Le retour progressif: ne pas repartir à 100% immédiatement"
+     ],
+     "exercices": [
+      "Rédiger vos protocoles pour chaque niveau (templates fournis)",
+      "Identifier vos 3 tâches les plus faciles à annuler/déléguer en urgence",
+      "Préparer vos scripts de communication pour dire 'je dois ralentir'"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 6: Maintenir la Régularité sur le Long Terme",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Mesurer la régularité, pas les pics",
+     "objectif": "Changer de métrique: valoriser la consistance sur la performance exceptionnelle, comme un thermostat qui vise la stabilité.",
+     "sections": [
+      "Pourquoi les pics sont trompeurs: ils masquent les creux",
+      "Les bonnes métriques: jours consécutifs, moyenne mobile, variance",
+      "Le pouvoir du 'assez bon': perfectionnisme vs régularité",
+      "Célébrer la consistance: renforcer les comportements durables",
+      "Gérer les breaks sans culpabilité: la règle du 'jamais deux fois'",
+      "Tableaux de bord de régularité: visualiser la tendance"
+     ],
+     "exercices": [
+      "Choisir 3 métriques de régularité adaptées à vos objectifs",
+      "Créer votre tableau de bord de régularité (template Excel/Notion)",
+      "Définir votre seuil de 'assez bon' pour chaque métrique"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "L'alternance chauffe-refroidissement: périodisation",
+     "objectif": "Appliquer les principes de périodisation sportive au travail intellectuel pour maximiser la performance durable.",
+     "sections": [
+      "La périodisation: cycles de surcharge et de récupération",
+      "Macro-cycles: saisons de haute et basse intensité (trimestres)",
+      "Méso-cycles: phases de 4-6 semaines avec focus spécifique",
+      "Micro-cycles: semaines types avec alternance quotidienne",
+      "Planifier les périodes de récupération avant qu'elles ne soient forcées",
+      "Adapter la périodisation aux contraintes professionnelles réelles"
+     ],
+     "exercices": [
+      "Designer votre année en 4 macro-cycles avec intensités variées",
+      "Planifier votre prochain méso-cycle de 6 semaines",
+      "Créer votre semaine type avec alternance chauffe-refroidissement"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Gérer les perturbations externes",
+     "objectif": "Maintenir la consigne malgré les imprévus, crises et changements de contexte inévitables.",
+     "sections": [
+      "Les perturbations sont la norme, pas l'exception",
+      "Catégoriser: temporaires vs permanentes, contrôlables vs subies",
+      "Le mode dégradé: fonctionner à 60% sans crasher",
+      "Protéger le noyau dur: les 20% qui génèrent 80% des résultats",
+      "Communiquer en temps de crise: gérer les attentes des autres",
+      "Le retour à la normale: recalibrer progressivement"
+     ],
+     "exercices": [
+      "Identifier votre noyau dur: quelles activités sont non-négociables même en crise?",
+      "Créer votre plan de mode dégradé: que réduire en premier?",
+      "Simuler 3 scénarios de perturbation et planifier vos réponses"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Évoluer sans perdre le cap: révision annuelle",
+     "objectif": "Mettre en place une revue annuelle qui permet d'ajuster la consigne et les systèmes en fonction de l'évolution personnelle et contextuelle.",
+     "sections": [
+      "Pourquoi annuel: le recul nécessaire pour voir les patterns",
+      "Les 10 questions de la revue annuelle",
+      "Analyser l'année écoulée: succès, échecs, surprises",
+      "Ajuster la consigne: est-elle toujours adaptée?",
+      "Renouveler les systèmes: qu'est-ce qui a vieilli?",
+      "Définir les thèmes de l'année à venir (pas des objectifs rigides)"
+     ],
+     "exercices": [
+      "Bloquer une demi-journée pour votre revue annuelle (template fourni)",
+      "Rédiger votre lettre à vous-même dans un an",
+      "Définir 3 thèmes pour l'année prochaine et les décliner en habitudes"
+     ]
+    }
+   ]
+  }
+ ]
+}

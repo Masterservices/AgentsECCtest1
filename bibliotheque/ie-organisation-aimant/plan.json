@@ -1,0 +1,624 @@
+{
+ "titre": "Aimanté : l'organisation par attraction",
+ "sous_titre": "Six pôles pour attirer vos tâches, polariser vos priorités, déléguer sans contrainte et neutraliser les parasites de votre champ d'action",
+ "bibliographie": [
+  {
+   "auteur": "David Allen",
+   "titre": "Getting Things Done",
+   "annee": "2001",
+   "idee": "Externaliser toute tâche et idée dans un système de confiance hors du cerveau, puis la trier par étapes d'action.",
+   "apport": "La boîte de réception universelle, la discipline de capture et de revue : le socle de nos champs de captation hebdomadaires."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les petites habitudes répétées, façonnées par l'environnement plus que par la motivation, produisent des résultats composés.",
+   "apport": "Le design des signaux d'attraction et la réduction de friction : rendre la bonne tâche plus visible que la mauvaise."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Deep Work",
+   "annee": "2016",
+   "idee": "Le travail de fond, sans distraction, est de plus en plus rare et de plus en plus précieux dans l'économie du savoir.",
+   "apport": "La protection des plages de haute concentration comme vraies zones de polarité professionnelle."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "L'esprit fonctionne avec un système 1 rapide et intuitif et un système 2 lent et exigeant, tous deux sujets à des biais.",
+   "apport": "La justification de l'organisation « sans effort de volonté » : anticiper les biais plutôt que les combattre par l'effort."
+  },
+  {
+   "auteur": "Roy Baumeister et John Tierney",
+   "titre": "Willpower",
+   "annee": "2011",
+   "idee": "La volonté ressemble à une ressource qui s'épuise ; les environnements et les habitudes la ménagent mieux que l'intention.",
+   "apport": "La thèse centrale : ne jamais reposer l'organisation sur la seule force de caractère, mais sur des pôles attractifs."
+  },
+  {
+   "auteur": "Greg McKeown",
+   "titre": "Essentialism",
+   "annee": "2014",
+   "idee": "Moins, mais mieux : sélectionner rigoureusement l'essentiel et éliminer tout le reste par un critère clair de qualification.",
+   "apport": "Le tri par polarité : ce qui n'attire pas le pôle est écarté, pas repoussé à plus tard."
+  },
+  {
+   "auteur": "Gary Keller et Jay Papasan",
+   "titre": "The One Thing",
+   "annee": "2013",
+   "idee": "Une seule question focalisante — quelle est l'action unique qui rend tout le reste plus facile ou inutile — doit guider les journées.",
+   "apport": "La cascade d'objectifs unique depuis le pôle stratégique jusqu'à la tâche du jour."
+  },
+  {
+   "auteur": "Stephen R. Covey",
+   "titre": "The 7 Habits of Highly Effective People",
+   "annee": "1989",
+   "idee": "L'efficacité durable repose sur la proactivité, la vision par l'issue finale et la gestion par matrice urgent/important.",
+   "apport": "Le passage de l'urgence imposée à l'important attirant, et l'idée de centre de gravité personnel."
+  },
+  {
+   "auteur": "Peter F. Drucker",
+   "titre": "The Effective Executive",
+   "annee": "1967",
+   "idee": "L'efficacité s'apprend par la gestion du temps, le focus sur les forces, les contributions et les bonnes décisions.",
+   "apport": "La délégation par résultat et par critères, non par procédure : le socle théorique du chapitre 13."
+  },
+  {
+   "auteur": "Andrew S. Grove",
+   "titre": "High Output Management",
+   "annee": "1983",
+   "idee": "La productivité d'un manager se mesure à celle de son équipe ; tout est levier d'amplification, de l'entretien à l'indicateur.",
+   "apport": "La notion de levier et d'amplification : un pôle bien posé multiplie l'effort des autres sans le contraindre."
+  },
+  {
+   "auteur": "Kim Scott",
+   "titre": "Radical Candor",
+   "annee": "2017",
+   "idee": "Le management efficace allie care personnel et challenge direct : dire la vérité en voulant vraiment du bien à l'autre.",
+   "apport": "Le climat de confiance nécessaire pour que la délégation par attraction fonctionne : feedbacks courts et bienveillants."
+  },
+  {
+   "auteur": "Robert B. Cialdini",
+   "titre": "Influence",
+   "annee": "1984",
+   "idee": "Six principes (réciprocité, engagement, preuve sociale, sympathie, autorité, rareté) gouvernent le consentement.",
+   "apport": "Les mécanismes d'attraction appliqués à l'organisation : attirer l'adhésion plutôt que l'imposer."
+  },
+  {
+   "auteur": "Richard H. Thaler et Cass R. Sunstein",
+   "titre": "Nudge",
+   "annee": "2008",
+   "idee": "L'architecture des choix oriente les décisions sans interdire ni modifier fortement les incitations.",
+   "apport": "Les champs de captation : aménager l'interface de décision quotidienne pour que le bon choix devienne le chemin de moindre résistance."
+  },
+  {
+   "auteur": "Nir Eyal",
+   "titre": "Indistractable",
+   "annee": "2019",
+   "idee": "Résister à la distraction suppose de maîtriser ses déclencheurs internes (ennui, anxiété) autant que les interrupteurs externes.",
+   "apport": "L'inventaire et la neutralisation des parasites d'attention, notifications et sollicitations."
+  },
+  {
+   "auteur": "Charles Duhigg",
+   "titre": "The Power of Habit",
+   "annee": "2012",
+   "idee": "Les habitudes suivent une boucle signal, routine, récompense, modifiable en agissant sur le signal ou la récompense.",
+   "apport": "Le protocole de réaimantation hebdomadaire conçu comme une boucle d'habitude ancrée."
+  },
+  {
+   "auteur": "Chip Heath et Dan Heath",
+   "titre": "Switch",
+   "annee": "2010",
+   "idee": "Le changement réussit quand on dirige le rider (raison), l'éléphant (émotion) et on trace le chemin (environnement).",
+   "apport": "La structure des protocoles : motiver, simplifier, tracer le chemin dans un même dispositif."
+  },
+  {
+   "auteur": "Daniel J. Levitin",
+   "titre": "The Organized Mind",
+   "annee": "2014",
+   "idee": "Le cerveau traite mal l'information non triée ; segmenter et ranger réduit la charge cognitive.",
+   "apport": "La règle de segmentation de l'information entrante et les bacs de tri à entrée unique."
+  },
+  {
+   "auteur": "Chris Bailey",
+   "titre": "The Productivity Project",
+   "annee": "2016",
+   "idee": "La productivité s'améliore par l'expérimentation personnelle systématique sur l'attention, l'énergie et le temps.",
+   "apport": "Les audits de champ et les expériences hebdomadaires mesurées plutôt que les injonctions génériques."
+  },
+  {
+   "auteur": "Oliver Burkeman",
+   "titre": "Four Thousand Weeks",
+   "annee": "2021",
+   "idee": "Une vie offre environ quatre mille semaines : accepter la finitude libère mieux qu'une prétention à tout faire.",
+   "apport": "Le cadre honnête du livre : aucun système ne promet de tout absorber, il aide à choisir ce qui vaut la peine d'être attiré."
+  },
+  {
+   "auteur": "Caroline Arnold",
+   "titre": "Small Move, Big Change",
+   "annee": "2014",
+   "idee": "Les micro-résolutions ciblent un comportement précis et minuscule, bien plus tenables que les objectifs ambitieux.",
+   "apport": "Les micro-engagements de captation : de petits aimantages quotidiens plutôt que des refontes totales."
+  },
+  {
+   "auteur": "Barry Schwartz",
+   "titre": "The Paradox of Choice",
+   "annee": "2004",
+   "idee": "Trop d'options paralysent et diminuent la satisfaction ; des règles de choix réduisent la surcharge décisionnelle.",
+   "apport": "Les grilles de polarité et les règles de décision préalables aux moments de forte charge."
+  },
+  {
+   "auteur": "Mihaly Csikszentmihalyi",
+   "titre": "Flow",
+   "annee": "1990",
+   "idee": "L'engagement optimal surgit quand le défi correspond aux compétences, dans un environnement à objectifs clairs.",
+   "apport": "Le critère de conception des pôles : attirer des tâches au niveau de défi juste, source d'énergie plutôt que de fatigue."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Définir vos pôles attracteurs",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le principe aimant appliqué à l'organisation",
+     "objectif": "Comprendre l'analogie aimant/pôle/champ/pol et ses limites, puis remplacer la logique de course par une logique d'attraction (viser ~3 500 mots).",
+     "sections": [
+      "Pourquoi courir après vos tâches vous épuise",
+      "Le principe physique de l'aimant expliqué simplement : pôle, champ, polarité, atténuation",
+      "Transposition : l'organisation comme système de champs attractifs",
+      "Champ contre volonté : ce que dit la recherche sur l'attention",
+      "Ce que l'analogie ne dit pas : limites et incertitudes de la métaphore",
+      "Protocole de départ : le diagnostic de course sur 72 heures"
+     ],
+     "exercices": [
+      "Audit de course : relever pendant 72 heures toutes les sollicitations et tâches subies",
+      "Carte des forces : lister dix activités qui vous attirent naturellement et dix qui vous vident",
+      "Première formule de pôle : rédiger une phrase d'orientation en une seule ligne"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Cartographier vos pôles personnels",
+     "objectif": "Identifier les trois à cinq pôles personnels (valeurs, énergie, talents) qui doivent attirer votre vie quotidienne (viser ~3 500 mots).",
+     "sections": [
+      "Les pôles intrinsèques : valeurs, curiosités, sujets d'obsession saine",
+      "Moments de traction : repérer les périodes où le temps semble s'étirer",
+      "Inventaire des valeurs classées par attraction réelle, non par norme",
+      "Conflits de polarité : quand deux pôles tirent en sens inverse",
+      "Le test de l'année passée : ce qui vous a réellement attiré malgré vous",
+      "Protocole des trois pôles : sélectionner, formuler, hiérarchiser"
+     ],
+     "exercices": [
+      "Grille de polarité personnelle : noter chaque grande activité sur l'axe attraction/épuisement",
+      "Entretien miroir : questionner trois proches sur ce qui vous « ressemble le plus »",
+      "Rédiger trois fiches-pôles d'une page chacune avec critères de validation"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Vos pôles professionnels et votre mandat",
+     "objectif": "Définir le pôle professionnel qui attire vers vous les bonnes missions, et celui qui vous rend remplaçable (viser ~3 500 mots).",
+     "sections": [
+      "Le mandat : ce qu'on attend réellement de vous, au-delà de la fiche de poste",
+      "Les résultats, pas les tâches : la distinction de Drucker",
+      "Zones d'attribution : ce que seul vous pouvez produire",
+      "Positionnement et promesse de valeur : attirer les demandes qui vous correspondent",
+      "Cartographie des parties prenantes et de leurs attentes",
+      "Rédaction de la fiche-pôle professionnelle"
+     ],
+     "exercices": [
+      "Grille contribution : listez 20 activités professionnelles et classez-les par effet de levier",
+      "Matrice des demandes reçues : catégoriser un mois de sollicitations selon votre pôle",
+      "Écrire une fiche-pôle professionnelle de 200 mots et la confronter à votre responsable"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Écrire votre charte de polarité",
+     "objectif": "Produire le document de référence unique qui servira de boussole de décision à tout le système (viser ~3 500 mots).",
+     "sections": [
+      "Pourquoi un document unique : la charge de décision mémorisée",
+      "Format en une page : pôles, critères, exclusions, promesses",
+      "Formulations actives et testables, pas des vœux pieux",
+      "Critères de décision : la question « quel pôle attire cette demande ? »",
+      "Test de cohérence : confronter la charte aux dix dernières décisions",
+      "Circulation et révision : usage quotidien, réécriture annuelle"
+     ],
+     "exercices": [
+      "Rédiger la charte de polarité en une page, en six lignes maximum par pôle",
+      "Rejouer cinq décisions récentes avec la charte et noter les divergences",
+      "Planifier un rappel de révision annuelle et un point de validation à 30 jours"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Créer des champs de captation",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Architecture de l'environnement : le design avant la discipline",
+     "objectif": "Aménager l'espace physique et numérique pour que les signaux bons deviennent plus forts que les signaux parasites (viser ~3 500 mots).",
+     "sections": [
+      "Friction et attraction : deux leviers complémentaires",
+      "Signaux visuels : ce que vos yeux croisent en premier chaque matin",
+      "Simplifier la première action : la règle des deux secondes",
+      "Espaces dédiés : un lieu, une fonction, un pôle",
+      "L'environnement numérique : écrans, applications, page d'accueil",
+      "Protocole de réaménagement en un week-end"
+     ],
+     "exercices": [
+      "Audit des signaux : photographier et noter les 10 stimuli perçus en ouvrant vos yeux et votre téléphone",
+      "Repositionner trois objets ou raccourcis pour servir le pôle principal",
+      "Supprimer trois sources de friction sur la tâche du jour la plus importante"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "La boîte de réception universelle",
+     "objectif": "Mettre en place un système de capture unique qui attire tout ce qui entre, pour libérer le mémoire de travail (viser ~3 500 mots).",
+     "sections": [
+      "Le cerveau comme processeur, non comme stockage",
+      "Une entrée, une seule entrée : capturer sans trier",
+      "Objets de capture : tâches, idées, engagements, informations",
+      "Le tri quotidien en trois minutes : faire, reporter, jeter",
+      "Listes de confiance : actions, attentes, projets, someday",
+      "Réduction à zéro : la boîte vide comme état de santé du système"
+     ],
+     "exercices": [
+      "Choisir et nommer une seule boîte de réception (physique + numérique liées)",
+      "Vider la tête en dix minutes : y écrire 30 à 50 éléments",
+      "Définir et tester une routine de tri de trois minutes, deux fois par jour"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Flux d'information et files de tri par polarité",
+     "objectif": "Concevoir un circuit d'information qui classe automatiquement les entrées selon leur pôle d'appartenance (viser ~3 500 mots).",
+     "sections": [
+      "Pourquoi l'information non triée pollue le champ",
+      "Bacs de tri : entrée, traitement, archive",
+      "Classer par pôle, non par thème : la règle de polarité",
+      "Cadence des lots : traiter par fenêtres, pas en continu",
+      "Règle des deux minutes pour les entrées triviales",
+      "Rétention minimale : ce qu'on garde, ce qu'on efface"
+     ],
+     "exercices": [
+      "Créer quatre bacs (à traiter, par pôle A/B/C, archive) et y router une semaine de courriels",
+      "Écrire une règle personnelle de classement en trois lignes",
+      "Mesurer le temps moyen entre réception et tri d'une entrée type, puis le réduire de moitié"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Le calendrier-aimant",
+     "objectif": "Transformer le calendrier en système d'attraction du temps profond vers les pôles, plutôt qu'en liste de rendez-vous subis (viser ~3 500 mots).",
+     "sections": [
+      "Le temps comme matière première irréversible",
+      "Bloquer d'abord : les plages non négociables des pôles",
+      "Thèmes de jour : alléger la charge de décision",
+      "Cadences pomodoro, ultradiens et fenêtres de concentration",
+      "Réunions : entrer uniquement avec un rôle et un livrable",
+      "Suivi réel contre prévu : le calendrier comme miroir"
+     ],
+     "exercices": [
+      "Repeindre la semaine type : réserver trois blocs de 90 minutes pour le pôle principal",
+      "Appliquer la règle du rôle-livrable à toutes les réunions de la semaine",
+      "Comparaison prévu/réel sur cinq jours et correction du plan suivant"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Polariser vos priorités",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "La grille de polarité",
+     "objectif": "Remplacer les listes infinies par un instrument de mesure qui classe les tâches selon leur attraction pour vos pôles (viser ~3 500 mots).",
+     "sections": [
+      "Limites des matrices classiques urgent/important",
+      "L'axe d'attraction : attiré, neutre, repoussé",
+      "Calculer un score de polarité sur 10",
+      "Poids des pôles : pondérer selon la charte",
+      "Le lot des trois : ce que l'on fait vraiment aujourd'hui",
+      "Protocole de reclassement hebdomadaire"
+     ],
+     "exercices": [
+      "Passer la semaine en cours à la grille de polarité, tâche par tâche",
+      "Élaborer une grille personnalisée avec trois critères maximum",
+      "Identifier les tâches à score faible : déléguer, supprimer ou automatiser"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "L'objectif unique en cascade",
+     "objectif": "Faire descendre l'attraction du pôle stratégique jusqu'à l'action unique du jour (viser ~3 500 mots).",
+     "sections": [
+      "La question focalisante et sa déclinaison annuelle",
+      "Cascade : année, mois, semaine, jour",
+      "Le nerf de la guerre : l'action qui rend le reste plus facile",
+      "Alignement des pôles : vérifier l'absence de tiraillement",
+      "Quand le unique devient un portefeuille : gérer deux pôles max",
+      "Cérémonie de recentrage de fin de journée"
+     ],
+     "exercices": [
+      "Décliner la question focalisante sur quatre niveaux (an, mois, semaine, jour)",
+      "Définir le nerf de la guerre de la semaine et le bloquer en calendrier",
+      "Rituel des cinq minutes de clôture : noter l'action du lendemain attirante"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Décider vite avec des règles préalables",
+     "objectif": "Réduire la fatigue décisionnelle en préparant des règles de décision liées aux pôles (viser ~3 500 mots).",
+     "sections": [
+      "Le coût caché des décisions retardées",
+      "Règles if-then : si cela, alors réponse automatique",
+      "Seuils : quand une décision mérite du temps, quand elle ne le mérite pas",
+      "Grilles de décision à deux critères",
+      "Décider à l'avance : engagements et politiques personnelles",
+      "Réviser les règles : le carnet de décisions"
+     ],
+     "exercices": [
+      "Écrire dix règles if-then pour les demandes fréquentes",
+      "Appliquer la matrice à trois décisions en attente et trancher sous 48 heures",
+      "Tenir un carnet de décisions : revoir mensuellement ce qui a bien vieilli"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Dire non : le filtre des sollicitations",
+     "objectif": "Installer un filtre d'entrée qui protège le champ sans brûler les relations (viser ~3 500 mots).",
+     "sections": [
+      "Le coût invisible de chaque oui",
+      "Le test du pôle : trois questions avant de répondre",
+      "Dire non avec reconnaissance : formulations utilisables",
+      "Politiques de disponibilité et canaux officiels",
+      "Gérer l'urgence des autres comme une information, non comme un ordre",
+      "Suivi des non-dits : ce qu'on a déguisé en oui"
+     ],
+     "exercices": [
+      "Traiter la pile des demandes en attente avec le test du pôle",
+      "Rédiger trois formulations personnelles de refus poli et clair",
+      "Relever une semaine de oui régressifs et écrire la correction à apporter"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Déléguer par attraction plutôt que par consigne",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "De la consigne à l'attraction",
+     "objectif": "Comprendre le principe : rendre la responsabilité désirable et évidente plutôt qu'ordonnée (viser ~3 500 mots).",
+     "sections": [
+      "Pourquoi les instructions produisent le minimum",
+      "Le résultat attirant : vendre le pourquoi avant le comment",
+      "Autonomie, maîtrise et sens : les leviers d'adhésion",
+      "Rétrogradation de la micro-gestion : coûts et symptômes",
+      "Contrat de confiance : engagement réciproque",
+      "Quand la consigne reste nécessaire : sécurité, urgence, débutants"
+     ],
+     "exercices": [
+      "Lister cinq tâches que vous imposez encore et réécrire chacune en termes de résultat attendu",
+      "Choisir une délégation à transformer et préparer son entretien de lancement",
+      "Mettre par écrit votre contrat de confiance avec un collaborateur ou un proche"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Poser les pôles de responsabilité",
+     "objectif": "Attribuer clairement chaque résultat à un responsable unique, avec des critères de réussite (viser ~3 500 mots).",
+     "sections": [
+      "Une responsabilité, un nom : la règle de l'unicité",
+      "Matrice simplifiée : responsable, consultés, informés",
+      "Niveaux de délégation : de l'exécution selon moyens à la pleine autonomie",
+      "Fiches-résultats : livrable, qualité, échéance, contraintes",
+      "Déléguer aux équipes, aux prestataires et aux outils",
+      "Les zones grises : causes des conflits et leur levage"
+     ],
+     "exercices": [
+      "Cartographier vos dix processus récurrents et leur responsable unique",
+      "Rédiger trois fiches-résultats et les valider avec les concernés",
+      "Repérer deux zones grises et les lever par un échange de 15 minutes"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Préparer le terrain : contexte, ressources, boucles courtes",
+     "objectif": "Sécuriser l'attraction de la délégation par un terrain compris, équipé et récompensé par un retour régulier (viser ~3 500 mots).",
+     "sections": [
+      "Le briefing de contexte : histoire, enjeu, limites",
+      "Ressources : temps, budget, accès, personnes",
+      "Accords de service : promesses réciproques et délais",
+      "Feedbacks courts et fréquents : célébrer, corriger, ajuster",
+      "Droit à l'essai : protocole d'expérimentation sécurisé",
+      "Suivi sans harcèlement : les jalons plutôt que les vérifications permanentes"
+     ],
+     "exercices": [
+      "Préparer une grille de briefing en huit points pour la prochaine délégation",
+      "Instaurer un point de 15 minutes hebdomadaire avec chaque responsable",
+      "Rédiger un feedback type : faits, impact, attente, soutien"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Déléguer aux systèmes : automatisation, outils et délégation extérieure",
+     "objectif": "Élargir l'attraction au-delà des personnes : faire travailler à votre place des processus, des outils et des partenaires (viser ~3 500 mots).",
+     "sections": [
+      "Hiérarchie du gain : automatiser, standardiser, sous-tracter",
+      "Modèles, listes de contrôle et procédures courtes",
+      "Automatisations sans code : ce qu'elles font bien et mal",
+      "Déléguer à l'extérieur : assistants, freelances, services",
+      "Confidentialité et suivi : garder la main sur les pôles",
+      "Révision du portefeuille d'aides : coût contre temps rendu"
+     ],
+     "exercices": [
+      "Identifier cinq tâches répétitives et tester une automatisation ou un modèle sur l'une d'elles",
+      "Écrire une procédure standard de 10 lignes pour un processus hebdomadaire",
+      "Lister trois missions externalisables et calculer le temps rendu estimé"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Neutraliser les parasites du champ",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Inventaire des parasites",
+     "objectif": "Recenser les forces qui désaimantent votre champ : interruptions, réunions, tâches-fausses, engagements dormants (viser ~3 500 mots).",
+     "sections": [
+      "Définition d'un parasite : ce qui prend du champ sans servir de pôle",
+      "Quatre familles : attention, information, relation, procédure",
+      "Coût réel : minutes perdues et coût de reprise",
+      "Interruptions et contexte : le prix de la relance",
+      "Réunions sans ordre du jour ni décision",
+      "Protocole d'inventaire sur dix jours"
+     ],
+     "exercices": [
+      "Tenir un journal de parasites : chaque interruption notée avec sa source",
+      "Trier un mois de réunions : garder, raccourcir, supprimer",
+      "Calculer le temps de reprise moyen après une interruption"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Nettoyer le champ informationnel",
+     "objectif": "Réduire à néant le flux d'informations qui n'alimente aucun de vos pôles (viser ~3 500 mots).",
+     "sections": [
+      "Le bruit : trop d'information, trop peu de sens",
+      "Désabonnement en masse : commencer par la liste",
+      "Filtres, dossiers automatiques et tri par pôle",
+      "Réseaux sociaux : règles d'usage, pas de serment d'abstinence",
+      "Sources de confiance : peu, mais stables",
+      "Politique personnelle de l'information : ce qu'on ne lit plus"
+     ],
+     "exercices": [
+      "Désabonner ou masquer 50 sources en une séance",
+      "Créer trois filtres automatiques par pôle",
+      "Écrire sa politique personnelle de l'information en cinq lignes"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Parasites relationnels, émotionnels et mentaux",
+     "objectif": "Traiter les parasites internes et interpersonnels qui désaimantent l'attention, sans prétention médicale (viser ~3 500 mots).",
+     "sections": [
+      "Ruminations et boucles de pensée : les reconnaître sans se juger",
+      "Charge mentale : la rendre visible et la partager",
+      "Conflits non traités : coût et protocole de clarification",
+      "Engagements dormants : décider de finir ou d'abandonner explicitement",
+      "Comparaison sociale et syndrome de l'imposteur : cadres de travail",
+      "Limites de ce chapitre : quand faire appel à un professionnel de santé"
+     ],
+     "exercices": [
+      "Liste des dix pensées récurrentes et classement : à traiter, à lâcher, à documenter",
+      "Rendre la charge mentale visible par une liste partagée dans le foyer ou l'équipe",
+      "Clore un engagement dormant : décision écrite d'abandon ou de suite"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Le protocole de neutralisation en quatre temps",
+     "objectif": "Appliquer une méthode répétable : détecter, mesurer, isoler, supprimer ou réduire chaque parasite (viser ~3 500 mots).",
+     "sections": [
+      "Étape 1 : détecter avec les journaux des parties précédentes",
+      "Étape 2 : mesurer en temps et en fréquence",
+      "Étape 3 : isoler par filet, créneau ou règle",
+      "Étape 4 : supprimer, automatiser ou accepter",
+      "Fichier des parasites : suivi dans le temps",
+      "Le parasite utile : ce qui sert un pôle et doit être nourri"
+     ],
+     "exercices": [
+      "Appliquer les quatre étapes à trois parasites majeurs",
+      "Créer le fichier de suivi et le remplir une première fois",
+      "Programmer le filet suivant : une règle hebdomadaire par parasite traité"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Entretenir l'aimantation",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Le protocole hebdomadaire de réaimantation",
+     "objectif": "Installer un rituel de 60 à 90 minutes qui réaligne pôles, champs, priorités et délégations (viser ~3 500 mots).",
+     "sections": [
+      "Pourquoi la cadence hebdomadaire : ni quotidien épuisant, ni mensuel trop tard",
+      "Ordre du jour type en sept temps",
+      "Revue des engagements : ce qui a attiré, ce qui a fui",
+      "Réinitialisation des listes et de la boîte de réception",
+      "Préparation du calendrier-aimant de la semaine",
+      "Rituels d'ouverture et de clôture : ancrer la boucle"
+     ],
+     "exercices": [
+      "Écrire et coller l'ordre du jour du protocole hebdomadaire",
+      "Réaliser une première séance complète et noter le temps réel",
+      "Bloquer l'heure fixe récurrente dans le calendrier pour huit semaines"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Audits de champ et grilles de polarité avancées",
+     "objectif": "Mettre en place une revue mensuelle de mesure : l'état du champ, la répartition du temps, la santé des délégations (viser ~3 500 mots).",
+     "sections": [
+      "L'audit de champ : cinq indicateurs simples",
+      "Répartition du temps par pôle : le graphique mensuel",
+      "Taux de délégation réussi : erreurs, reprises, autonomie",
+      "Balance d'attraction : tâches attirées contre subies",
+      "Grilles avancées : pondérations et seuils d'alerte",
+      "Tableau de bord en une page"
+     ],
+     "exercices": [
+      "Construire un tableau de bord d'une page avec cinq indicateurs",
+      "Réaliser le premier audit mensuel complet",
+      "Fixer deux seuils d'alerte et leur action corrective automatique"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Énergie, attention et maintenance de l'aimant",
+     "objectif": "Entretenir la capacité d'attraction elle-même : attention, rythmes, récupération, apprentissage (viser ~3 500 mots).",
+     "sections": [
+      "Un aimant faibli attire moins : la maintenance de la personne",
+      "Attention comme ressource : récupération, pauses, marche",
+      "Rythmes : travailler avec sa chronobiologie, pas contre elle",
+      "Sommeil, alimentation, mouvement : généralités de bon sens et renvoi aux professionnels",
+      "Alimentation du pôle : variété, défi et apprentissage continu",
+      "Plan de maintenance personnel sur douze mois"
+     ],
+     "exercices": [
+      "Cartographier son énergie sur sept jours par créneau horaire",
+      "Définir trois rituels de récupération et les bloquer",
+      "Rédiger un plan de maintenance personnel en une page"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Protocole des 90 jours et passage à l'échelle",
+     "objectif": "Ancrer durablement le système, le transmettre à une équipe ou un foyer, et conclre honnêtement sans promesse garantie (viser ~3 500 mots).",
+     "sections": [
+      "Les 90 jours : phases d'installation, de stabilisation, d'ajustement",
+      "Semaine 1, mois 1, mois 3 : jalons et correctifs",
+      "Transmettre le système : famille, équipe, collaborateurs",
+      "Adapter sans figer : la charte se réécrit, le principe demeure",
+      "Limites, échecs probables et signaux d'alerte",
+      "Conclusion : attirer ce qui compte, laisser filer le reste"
+     ],
+     "exercices": [
+      "Rédiger un plan de 90 jours avec trois jalons datés",
+      "Présenter le système en 15 minutes à un proche ou un collaborateur",
+      "Planifier l'audit des 90 jours et la réécriture de la charte"
+     ]
+    }
+   ]
+  }
+ ]
+}

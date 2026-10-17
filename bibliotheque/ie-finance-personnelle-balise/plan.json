@@ -1,0 +1,615 @@
+{
+ "titre": "Le Financier-Navigateur",
+ "sous_titre": "Pilotez votre argent comme un navigateur guidé par des balises : évitez les écueils financiers sans budget rigide",
+ "bibliographie": [
+  {
+   "auteur": "Vicki Robin et Joe Dominguez",
+   "titre": "Votre argent ou votre vie",
+   "annee": "1992 (rééditions multiples)",
+   "idee": "L'argent est du temps de vie converti ; le vrai pilotage consiste à aligner dépenses et valeurs plutôt qu'à compter chaque euro à la sortie.",
+   "apport": "Notre livre retiendra la notion de « seuil de suffisance » comme première balise existentielle, avant tout réglage technique."
+  },
+  {
+   "auteur": "Dave Ramsey",
+   "titre": "La méthode totale pour devenir riche",
+   "annee": "2003 (éditions françaises ultérieures)",
+   "idee": "Un plan séquentiel clair (fonds d'urgence, remboursement par boule de neige, investissement) bat les tentatives dispersées.",
+   "apport": "L'idée d'un ordre de priorité strict, transposée dans notre protocole de triage dépenses/dettes/placements."
+  },
+  {
+   "auteur": "George S. Clason",
+   "titre": "L'homme le plus riche de Babylone",
+   "annee": "1926",
+   "idee": "Payez-vous en premier, gardez moins de dix pour cent de ce que vous gagnez, et laissez le temps aux placements.",
+   "apport": "Le principe de « prélèvement automatique en premier » comme balise amont, non comme simple règle budgétaire."
+  },
+  {
+   "auteur": "Robert T. Kiyosaki",
+   "titre": "Rich Dad Poor Dad",
+   "annee": "1997",
+   "idee": "La distinction actif/passif et la culture financière priment sur le simple effort d'épargne.",
+   "apport": "Notre cartographie des chenaux financiers séparera clairement flux de patrimoine et flux de consommation."
+  },
+  {
+   "auteur": "Benjamin Graham",
+   "titre": "L'investisseur intelligent",
+   "annee": "1949",
+   "idee": "La marge de sécurité et la discipline rationnelle protègent mieux que la détection de « bonnes affaires ».",
+   "apport": "La notion de marge de sécurité devient une balise de prudence : jamais au plus près de l'écueil."
+  },
+  {
+   "auteur": "Burton G. Malkiel",
+   "titre": "Une promenade au hasard dans Wall Street",
+   "annee": "1973",
+   "idee": "Les marchés sont largement inefficaces pour le particulier ; la diversification et les frais bas gagnent sur le temps.",
+   "apport": "Prudence systématique sur les « raccourcis » : le navigateur suit les balises, il ne court-piste pas les rumes."
+  },
+  {
+   "auteur": "Richard H. Thaler et Cass R. Sunstein",
+   "titre": "Nudge",
+   "annee": "2008",
+   "idee": "L'architecture des choix (« choice architecture ») oriente les décisions sans interdire, bien mieux que les injonctions morales.",
+   "apport": "Nos balises sont des nudge financiers : des seuils concrets qui modifient le comportement sans micro-gestion."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Système 1 / Système 2 : Les deux vitesses de la pensée",
+   "annee": "2011",
+   "idee": "Le cerveau simplifie et évalue les pertes plus fortement que les gains, d'où les dérives budgétaires.",
+   "apport": "Les alertes de notre système visent à court-circuiter le pilotage automatique qui mène à la dérive financière."
+  },
+  {
+   "auteur": "Daniel Crosby",
+   "titre": "The Behavioral Investor",
+   "annee": "2017",
+   "idee": "Le comportement, pas le知识 technique, explique l'écart entre rendement du marché et rendement de l'investisseur.",
+   "apport": "Chapitres d'alerte : reconnaître ses propres biais (excès de confiance, aversion à la perte) comme signaux faibles."
+  },
+  {
+   "auteur": "Ramit Sethi",
+   "titre": "I Will Teach You to Be Rich",
+   "annee": "2009",
+   "idee": "Automatiser l'essentiel (épargne, investissements) et dépenser sans culpabilité sur ce qui compte vraiment.",
+   "apport": "L'automatisation comme « balise permanente » qui fonctionne même quand le navigateur dort."
+  },
+  {
+   "auteur": "Carl Richards",
+   "titre": "The One-Page Financial Plan",
+   "annee": "2013",
+   "idee": "Une planification financière tient sur une page si elle répond à « qu'est-ce qui compte vraiment pour moi ? ».",
+   "apport": "Notre première balise existentielle : une carte simplifiée avant tout détail technique."
+  },
+  {
+   "auteur": "Jason Zweig",
+   "titre": "Your Money and Your Brain",
+   "annee": "2007",
+   "idee": "Le cerveau récompense l'anticipation et la nouveauté comme une addiction, ce qui favorise le trading compulsif.",
+   "apport": "Comprendre la neurologie du plaisir dépensier pour mieux calibrer les balises de freinage."
+  },
+  {
+   "auteur": "Brad J. Klontz et Ted Klontz",
+   "titre": "Mind Over Money",
+   "annee": "2009",
+   "idee": "Les scripts financiers familiaux inconscients (croyances sur l'argent) dictent nos comportements dysfonctionnels.",
+   "apport": "Recalibrer les repères inclut un travail sur les croyances héritées, pas seulement sur les tableaux Excel."
+  },
+  {
+   "auteur": "Morgan Housel",
+   "titre": "The Psychology of Money",
+   "annee": "2020",
+   "idee": "La gestion d'argent est une discipline behaviorale bien plus qu'une compétence technique ; l'humilité et la durée gagnent.",
+   "apport": "Thèse centrale renforcée : l'attitude face à l'incertitude prime sur le plan parfait."
+  },
+  {
+   "auteur": "David Bach",
+   "titre": "The Automatic Millionaire",
+   "annee": "2003",
+   "idee": "Les « cafés latte » (petites dépenses répétées) et l'automatisation expliquent la plus grande partie des trajectoires d'enrichissement.",
+   "apport": "Identification des micro-fuites comme signaux faibles à détecter avant l'alerte rouge."
+  },
+  {
+   "auteur": "Thomas J. Stanley et William D. Danko",
+   "titre": "The Millionaire Next Door",
+   "annee": "1996",
+   "idee": "La majorité des millionnaires vivent sobrement, épargnent systématiquement et résistent à la pression statutaire.",
+   "apport": "Notion de « navigation silencieuse » : le pilote efficace ne cherche pas à impressionner les autres."
+  },
+  {
+   "auteur": "Ken Honda",
+   "titre": "Happy Money",
+   "annee": "2017 (version originale japonaise antérieure)",
+   "idee": "L'argent qui circule avec gratitude et sans anxiété est plus équilibré que l'argent accumulé par peur.",
+   "apport": "Dimension émotionnelle du recalibrage : la relation à l'argent se soigne, elle ne se contrôle pas uniquement."
+  },
+  {
+   "auteur": "Jonathan Clements",
+   "titre": "How to Make Money Grow on Trees (et travaux variés sur la personalfinance)",
+   "annee": "années 2000",
+   "idee": "Simplicité, diversification et discipline temporelle : les fondamentaux répétés depuis des décennies restent valides.",
+   "apport": "Confirmation que les « vieilles balises » (épargne, diversification, patience) n'ont pas été dépassées."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Cartographier vos chenaux",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Pourquoi votre budget échoue comme une carte sans sonde",
+     "objectif": "Comprendre par analogie pourquoi la micro-gestion budgétaire classique s'effondre (surcharge cognitive, biais, abandon), et poser la thèse du balisage : moins de contrôle, mieux placé.",
+     "sections": [
+      "Le budget comme tentative de cartographier chaque centimètre de mer",
+      "Les trois nauages du budget classique : surcharge, culpabilité, rigidité",
+      "Ce que la navigation maritime enseigne : on ne sonde pas tout, on balise",
+      "Les signaux faibles vs les contrôles lourds",
+      "Définir le navigateur : vigilance régulière, pas obsession permanente",
+      "Anatomie d'une dérive financière typique (cas fictif type)",
+      "Promesse réaliste : un système de repères, pas une garantie de richesse"
+     ],
+     "exercices": [
+      "Audit honnête : décrire vos trois derniers budgets (ou tentatives de budget) et ce qui a fait capoter",
+      "Liste des « heures perdues » dans la micro-gestion de votre argent sur le dernier mois",
+      "Écrire en une phrase votre définition personnelle du « bon pilote financier »"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Prendre la passe : connaître vos courants financiers",
+     "objectif": "Établir une cartographie claire des flux d'argent entrants, sortants et latéraux (dettes, placements), pour identifier les chenaux navigables vs les zones d'écueil.",
+     "sections": [
+      "Les trois courants : revenus fixes, revenus variables, flux de patrimoine",
+      "Relever vos relevés sans jugement : 90 jours d'observation",
+      "Distinguer chenu principal (essentiel) et chenaux secondaires",
+      "Les écueils invisibles : abonnements dormants, frais bancaires, assurance inutiles",
+      "Cartographier vos dettes comme des courants contraires",
+      "Les flux automatiques positifs (épargne, placements) et négatifs (crédits revolving)",
+      "Version « une page » de votre carte financière"
+     ],
+     "exercices": [
+      "Exercice de relevé : lister tous vos prélèvements récurrents sur les 3 dernants mois",
+      "Carte en une page : revenus, sorties essentielles, sorties optionnelles, dettes, placements",
+      "Identifier trois zones d'écueil non repérées auparavant (coûts cachés)"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Fixer votre port d'attache : les valeurs et le cap vital",
+     "objectif": "Avant tout réglage technique, définir le port vers lequel vous naviguez : besoins vitaux, objectifs de vie, seuil de suffisance.",
+     "sections": [
+      "Le port d'attache existe-t-il vraiment dans votre vie ?",
+      "Différencier besoins vitaux, besoins sociaux, envies de statut",
+      "L'illusion de l'argent infini et la fuite devant le choix",
+      "Exercice du « suffisance » : où s'arrête le besoin et commence l'ostentation ?",
+      "Les quatre piliers du cap vital : santé, relations, temps, sécurité",
+      "Rédiger une boussole personnelle en dix lignes",
+      "Lier chaque dépense à un pilier (ou l'assumer comme loisir)"
+     ],
+     "exercices": [
+      "Exercice du port d'attache : décrire la vie que votre argent devrait financer dans 1, 5 et 10 ans",
+      "Liste des dépenses actuelles sans lien avec aucun pilier vital",
+      "Formuler votre « seuil de suffisance » : le revenu mensuel au-delà duquel le surplus est destiné à la liberté, pas au confort accru"
+     ]
+    },
+    {
+     "numero": 4,
+     "title": "Lire la météo : revenus, charges, saisonnalité",
+     "objectif": "Comprendre les variations naturelles de vos flux (saisonnalité, primes, charges variables) pour ne pas confondre tempête et climat.",
+     "sections": [
+      "Météo ponctuelle vs climat financier : distinguer l'exception de la tendance",
+      "Les mois à fort courant : fêtes, rentrée, vacances, assurances annuelles",
+      "Revenus irréguliers : intérim, freelance, commissions",
+      "L'erreur classique : dépenser un mois exceptionnel comme si c'était la norme",
+      "Lissage : le concept de salaire mensuel plancher",
+      "Construire une trésorerie de « marée basse »",
+      "Calendrier financier annuel personnel"
+     ],
+     "exercices": [
+      "Cartographier les 12 prochains mois : charges exceptionnelles connues et revenus anticipés",
+      "Calculer votre revenu mensuel plancher (le plus bas des 12 derniers mois, hors exception)",
+      "Identifier deux périodes de l'année où vous êtes structurellement en déficit"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Repérer les signaux faibles avant l'écueil",
+     "objectif": "Développer l'œil du navigateur : repérer les micro-indices (décalage dans les dépenses, sentiment d'inconfort, petites fuites) avant qu'ils ne deviennent des crises.",
+     "sections": [
+      "Qu'est-ce qu'un signal faible en navigation ? Transposition financière",
+      "Les dix signaux faibles les plus fréquents (dépenses « oubliées », report de virement, petites dettes)",
+      "Le rôle de l'intuition financière : l'écouter sans la paralyser",
+      "Tableau de bord minimal : trois chiffres à suivre chaque semaine",
+      "Les biais cognitifs qui masquent les signaux (déni, normalisation)",
+      "Journal de bord : noter les anomalies sans plan d'action immédiat",
+      "Quand un signal faible devient alerte : seuils de bascule"
+     ],
+     "exercices": [
+      "Tenir un journal de bord financier sur 14 jours : noter chaque inconfort ou anomalie, sans corriger",
+      "Liste personnelle des 5 signaux faibles les plus souvent ignorés dans votre cas",
+      "Définir trois chiffres de tableau de bord à suivre chaque semaine (ex : solde courant, dépenses cumulées, ratio épargne)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Poser vos balises de seuil",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "Les balises d'entrée : protéger la trésorerie minimale",
+     "objectif": "Installer la première balise du système : le fonds d'urgence et le solde plancher, pour ne jamais naviguer à vue en cas de coup de vent.",
+     "sections": [
+      "Pourquoi une trésorerie minimale change tout le système",
+      "Dimensionner le coussin : 3, 6 ou 12 mois selon votre situation (sans conseil personnalisé)",
+      "Où la placer : liquidité, accessibilité, protection",
+      "Automatiser l'alimentation du coussin avant tout autre dépense",
+      "Le solde plancher du compte courant : votre balise rouge",
+      "Que faire quand on pénètre la balise rouge : protocole de stabilisation",
+      "Le coussin n'est pas un placement, c'est une assurance de navigation"
+     ],
+     "exercices": [
+      "Calculer votre trésorerie cible (x mois de dépenses essentielles)",
+      "Vérifier où se trouve actuellement votre coussin et sa liquidité",
+      "Mettre en place un virement automatique vers le coussin dès la réception du revenu"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Les balises de dépense : plafonds par catégorie sans micro-budget",
+     "objectif": "Remplacer le budget détaillé par des plafonds par grand chenin (essentiels, confort, loisirs), avec alertes de franchissement.",
+     "sections": [
+      "Pourquoi les plafonds larges battent les lignes budgétaires détaillées",
+      "Choisir 4 à 6 grandes catégories, pas quarante",
+      "Dimensionner chaque plafond : méthode par pourcentage et par usage",
+      "La règle des 24 heures pour les dépenses hors balise",
+      "Ce qui se passe en cas de dépassement : ajustement, pas culpabilité",
+      "Plafonds saisonniers (fêtes, été, rentrée)",
+      "Les plafonds fixes vs les plafonds proportionnels au revenu"
+     ],
+     "exercices": [
+      "Définir 4 à 6 catégories de plafonds mensuels pour les 3 prochains mois",
+      "Calibrer un premier plafond « loisirs » et un premier plafond « confort »",
+      "Rédiger votre protocole de dépassement : que faire concrètement si la balise tombe"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Les balises de dette : prioriser sans s'épuiser",
+     "objectif": "Installer un système de balisage des dettes : hiérarchiser, freiner l'accumulation, visualiser l'avancement.",
+     "sections": [
+      "Cartographier toutes vos dettes : taux, mensualité, terme, urgence",
+      "La différence dette-piège et dette-outil",
+      "Deux méthodes de remboursement : la avalanche et la boule de neige",
+      "Plafond d'endettement personnel : votre balise rouge",
+      "Interdire mécaniquement les nouvelles dettes de consommation",
+      "Négocier, regrouper, alléger : options sans conseil personnalisé",
+      "Visualiser l'avancement : le tableau des balises franchies"
+     ],
+     "exercices": [
+      "Tableau complet de vos dettes : solde, taux, mensualité, type",
+      "Choisir une méthode de remboursement et justifier le choix en deux phrases",
+      "Définir votre plafond d'endettement personnel (pourcentage des revenus)"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Les balises de placement : investir sans paranoïa ni illusion",
+     "objectif": "Poser des règles simples pour les placements : horizon, diversification, frais, automatisme, sans prétendre à la performance.",
+     "sections": [
+      "La balise horizontale : à quoi sert l'argent placé, et pour quand ?",
+      "La marge de sécurité comme balise anti-écueil",
+      "Diversification sans jargon : ne pas mettre tout le monde dans le même canot",
+      "Les frais : le courant silencieux qui ronge le patrimoine",
+      "Automatiser l'investissement mensuel (DCA) comme balise permanente",
+      "Les produits à éviter à vue : promesses de rendement, complexité opaque",
+      "Ce que notre livre ne fait pas : conseil d'allocation personnalisé"
+     ],
+     "exercices": [
+      "Lister vos placements actuels : horizon, frais, diversification apparente",
+      "Calculer le coût annuel approximatif de vos frais de gestion",
+      "Mettre en place un virement automatique mensuel vers un support simple de diversification (recherche personnelle requise)"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Les balises de temps : quand naviguer, quand laisser dériver",
+     "objectif": "Compléter les balises financières par des balises temporelles : fréquence de contrôle, périodes d'action, périodes de non-intervention.",
+     "sections": [
+      "Le piège du contrôle permanent : le navigateur épuisé",
+      "Définir la fréquence idéale de revue (quotidienne, hebdo, mensuelle, trimestrielle)",
+      "La règle du « pas de modification sous tempête » : décider hors émotion",
+      "Les fenêtres d'action : moments où il faut recalibrer",
+      "Les périodes de dérive assumée : laisser travailler le temps et les placements",
+      "Bloquer les plateformes de trading compulsif quand nécessaire",
+      "Calendrier de navigation : votre routine d'un mois type"
+     ],
+     "exercices": [
+      "Fixer vos trois rendez-vous de navigation mensuels (dates et durées)",
+      "Lister les actions interdites pendant les périodes de forte émotion financière",
+      "Créer un rappel récurrent pour votre première revue mensuelle complète"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Instaurer un triage mensuel",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "Le rituel du pont de navigation",
+     "objectif": "Structurer une revue mensuelle courte et efficace, type briefing de pont, pour faire le point sans se perdre dans les détails.",
+     "sections": [
+      "Pourquoi un rituel bat une bonne intention",
+      "La durée idéale : 30 à 45 minutes par mois",
+      "Matériel minimal : trois chiffres, une liste, une décision",
+      "Ordre du type de séance : état des lieux, écarts, alertes, ajustements",
+      "Le carnet de bord mensuel : format et exemples",
+      "Comment tenir le rituel quand on a « zapper » un mois",
+      "Variantes en couple ou en famille"
+     ],
+     "exercices": [
+      "Planifier votre premier rituel de pont dans les 7 prochains jours",
+      "Créer un modèle de carnet de bord mensuel (papier ou numérique)",
+      "Rédiger une checklist de 6 questions pour votre revue"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Triage des dépenses : vitale, utile, superflue, toxique",
+     "objectif": "Appliquer une grille de triage mensuelle à toutes les sorties d'argent, pour décider vite où couper et où maintenir.",
+     "sections": [
+      "Les quatre catégories de triage : définitions claires",
+      "Vitale : ne jamais sacrifier sans plan B",
+      "Utile : optimisable sans souffrance",
+      "Superflue : choix conscient et plafonné",
+      "Toxique : dette à intérêt élevé, dépenses addictives, frais piégés",
+      "Trier en groupe : famille, couple, colocation",
+      "Le triage n'est pas l'ascétisme : garder ce qui nourrit"
+     ],
+     "exercices": [
+      "Passer en revue les dépenses du mois écoulé et les classer dans les quatre catégories",
+      "Identifier une dépense « toxique » à éliminer ce mois-ci",
+      "Identifier une dépense « superflue » à plafonner, et une dépense « utile » à optimiser"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Triage des dettes : rembourser, négocier, contenir, écrire",
+     "objectif": "Appliquer le triage aux dettes : chaque dette reçoit une stratégie mensuelle claire.",
+     "sections": [
+      "Quand rembourser plus vite : puissance de la boule de neige",
+      "Quand négocier : taux, échéances, regroupement (avec prudence)",
+      "Quand contenir : dettes à taux bas, priorité ailleurs",
+      "Quand envisager l'effacement : cadre légal, accompagnement, sans promesse",
+      "Dette de couple : responsabilité partagée ou séparée ?",
+      "La honte comme carburant toxique : en finir avec le tabou",
+      "Tableau de bord de dette mensuel en une page"
+     ],
+     "exercices": [
+      "Attribuer une stratégie de triage à chaque dette de votre tableau",
+      "Préparer une demande de négociation (lettre ou appel prévu) pour la dette la plus coûteuse",
+      "Calculer le montant mensuel supplémentaire mobilisable pour le remboursement accéléré"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Triage des placements : garder, compléter, alléger, sortir",
+     "objectif": "Faire un tri mensuel ou trimestriel de ses placements sans céder à l'agitation ou à la panique.",
+     "sections": [
+      "Garder : le placement qui suit toujours son objectif",
+      "Compléter : renforcer ce qui fonctionne (sans concentration)",
+      "Alléger : réduire les frais ou les redondances",
+      "Sortir : abandonner une conviction devenue irrationnelle",
+      "Les critères objectifs de triage vs les envies du moment",
+      "L'effet de possession : aimer ses mauvais placements",
+      "Fréquence de triage placement : trimestrielle suffit souvent"
+     ],
+     "exercices": [
+      "Lister chaque placement et lui attribuer une action de triage (garder/compléter/alléger/sortir)",
+      "Calculer le total des frais annuels de votre portefeuille",
+      "Décider d'une seule opération d'allègement ou de simplification à réaliser"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Le tableau de bord complet : un seul écran pour décider",
+     "objectif": "Constituer un tableau de bord unique qui synthétise signaux, balises et décisions de triage, pour éviter la dispersion des outils.",
+     "sections": [
+      "Principe : une vue, pas dix applications",
+      "Les cinq blocs du tableau de bord : solde, flux, balises, dettes, placements",
+      "Version papier et version numérique",
+      "Chiffres en rouge, en vert, en orange : comment les lire",
+      "Mettre à jour sans refaire l'analyse à chaque fois",
+      "Partager le tableau de bord en couple sans conflit",
+      "Éviter la sur-ingénierie : si ça prend plus de 15 minutes, c'est trop"
+     ],
+     "exercices": [
+      "Construire votre tableau de bord complet en une page (papier ou feuille de calcul)",
+      "Le remplir pour le mois écoulé",
+      "En tirer trois décisions concrètes pour le mois à venir"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Réagir aux alertes",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "Les niveaux d'alerte : orange, rouge, mayday",
+     "objectif": "Définir un système d'alerte à trois niveaux avec des réponses graduées, pour réagir vite sans dramatiser.",
+     "sections": [
+      "Alerte orange : dérive modérée, redressement en cours de mois",
+      "Alerte rouge : franchissement de balise critique, action sous 7 jours",
+      "Mayday : crise de trésorerie ou surendettement, protocole d'urgence",
+      "Qui déclenche l'alerte : vous, un proche, un outil automatique",
+      "Comment recevoir une alerte sans s'autodétruire (notifications bien réglées)",
+      "Protocole mayday en 5 étapes : respirer, lister, trier, demander, décider",
+      "Après l'alerte : débriefing obligatoire"
+     ],
+     "exercices": [
+      "Définir vos seuils personnels pour orange, rouge et mayday (montants ou ratios)",
+      "Rédiger votre protocole mayday personnel en une demi-page",
+      "Configurer au moins une alerte automatique (banque, application, rappel)"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Tempête de trésorerie : sortir du rouge sans paniquer",
+     "objectif": "Protocole opérationnel quand le solde tombe à zéro ou en négatif : stabiliser, décider, communiquer.",
+     "sections": [
+      "Les premières 48 heures : actions prioritaires",
+      "Couper les sorties non vitales immédiatement",
+      "Distinguer le découvert temporaire du surendettement structurel",
+      "Faire face : épargne de précaution, prêt familial (avec garde-fous), facilities bancaires (prudence)",
+      "Les idées reçues mortelles en tempête (« ça va se arranger tout seul »)",
+      "Quand et comment solliciter une aide professionnelle reconnue",
+      "Reconstruction post-tempête : le plan de retour au vert"
+     ],
+     "exercices": [
+      "Simuler un scénario de tempête (perte de revenu de 30 % pendant 2 mois) et rédiger votre plan",
+      "Lister les 5 coupes immédiates que vous déclencheriez en mayday",
+      "Identifier une ressource d'aide légale et informative disponible dans votre pays (sans conseil personnalisé)"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Dérive lente : quand l'écart se creuse sans bruit",
+     "objectif": "Repérer et corriger les dérives progressives (inflation du train de vie, abandon de l'épargne, accumulation de micro-dettes) avant la crise.",
+     "sections": [
+      "La dérive lente : le danger n°1 invisible",
+      "Mesurer l'écart : comparaison mois par mois, trimestre par trimestre",
+      "Les signaux faibles de dérive lente (revenu stable, sorties en hausse continue)",
+      "Effet de « lifestyle inflation » : le piège de la réussite",
+      "Plan de redressement progressif : 1 % par mois",
+      "Les conversations difficiles (en couple, en famille) sur la dérive",
+      "Célébrer les redressements pour ancrer le comportement"
+     ],
+     "exercices": [
+      "Comparer vos dépenses totales du mois courant avec celles d'il y a 6 et 12 mois",
+      "Identifier la catégorie responsable de la plus grande dérive",
+      "Fixer un plan de redressement de 90 jours avec un objectif mensuel de 1 à 3 %"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Surcharge de dette : quand les courants vous prenent",
+     "objectif": "Réagir quand les dettes deviennent structurellement ingérables : priorités drastiques, accompagnement, parcours légaux.",
+     "sections": [
+      "Le point de bascule entre dette tenable et dette piège",
+      "Arrêt total des nouvelles dettes : la règle absolue",
+      "Triage brutal : une seule dette attaquée à la fois",
+      "Négociation avec les créanciers : arguments et limites",
+      "Les voies de traitement du surendettement (cadre français et principes généraux)",
+      "L'accompagnement associatif et l'aide psychologique",
+      "Sortir de l'ombre : reconstruire son identité financière"
+     ],
+     "exercices": [
+      "Établir le ratio mensuel « remboursement de dettes / revenus nets » et interpréter-le",
+      "Rédiger une lettre de négociation type (à adapter)",
+      "Identifier un point d'entrée d'information reconnu (Banque de France, association, etc.) et noter le contact"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Alerte comportementale : quand c'est vous le vent contraire",
+     "objectif": "Identifier et neutraliser les biais et comportements qui sabotent le système (FOMO, excès de confiance, panique de vente).",
+     "sections": [
+      "Le biais de la perte : pourquoi la douleur de perdre double celle de gagner",
+      "FOMO et effet de troupeau : les bulles personnelles",
+      "Excès de confiance : le pilote qui surestime son expérience",
+      "L'effet possession : garder trop longtemps ce qui ne fonctionne plus",
+      "Rituels anti-biais : attente obligatoire, deuxième avis, règle du sommeil",
+      "Reconnaître la crise d'angoisse financière et demander de l'aide",
+      "L'humilité comme atout de navigation"
+     ],
+     "exercices": [
+      "Lister trois décisions financières passées pilotées par un biais identifié",
+      "Écrire votre règle personnelle anti-impulsivité (ex : 72 h d'attente avant tout achat > X €)",
+      "Identifier une personne de confiance à qui demander un « deuxième avis » en cas de doute"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Recalibrer les repères",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "La revue trimestrielle : ajuster la carte",
+     "objectif": "Passer de la réaction ponctuelle à l'ajustement stratégique trimestriel : recalibrer balises, objectifs et allocations en fonction de la vie réelle.",
+     "sections": [
+      "Pourquoi trimestriel plutôt qu'annuel : assez souvent, pas trop",
+      "Ordre du type de révision : bilan, écarts, nouvelles balises, décisions",
+      "Quand une balise doit monter, descendre, ou disparaître",
+      "Intégrer les changements de vie : emploi, couple, enfant, déménagement, santé",
+      "Mettre à jour la carte des chenaux (Partie I) avec les leçons apprises",
+      "Le carnet de navigation comme mémoire du système",
+      "Ancrer la confiance dans le système, pas dans la prédiction"
+     ],
+     "exercices": [
+      "Planifier votre prochaine revue trimestrielle (date, lieu, durée)",
+      "Répondre aux cinq questions de la revue : qu'est-ce qui a marché, quels écarts, quelles balises révisées, quelles nouvelles priorités, quelle intention",
+      "Réviser un seuil ou un plafond en fonction du trimestre écoulé"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Recalibrer ses croyances sur l'argent",
+     "objectif": "Travailler sur les scripts financiers hérités et les peurs qui contredisent le système de balisage, pour une navigation plus sereine.",
+     "sections": [
+      "Les grandes croyances auto-sabotages : « l'argent ne fait pas le bonheur », « je ne suis pas doué pour l'argent »",
+      "Origines familiales et culturelles des scripts",
+      "Différencier conviction utile et superstition paralysante",
+      "La gratitude et l'abondance comme carburant durable",
+      "Le rapport à l'ostentation : naviguer sans se comparer",
+      "Rituels de recentrage : méditation, écriture, dialogue",
+      "Accepter l'imperfection du pilote"
+     ],
+     "exercices": [
+      "Écrire les trois phrases sur l'argent les plus répétées dans votre famille d'origine",
+      "Pour chaque phrase : la garder, la nuancer, ou la remplacer",
+      "Pratiquer un rituel hebdomadaire de 10 minutes de recentrage financier (gratitude, intention, silence)"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Transmettre et partager la navigation",
+     "objectif": "Élargir le système au couple, à la famille, aux enfants, et envisager la transmission sans naïveté ni technicité excessive.",
+     "sections": [
+      "Le couple : deux boussoles, une carte commune",
+      "Finances séparées, communes, ou hybrides : choisir sans dogme",
+      "Éduquer ses enfants au balisage (pas à l'obsession budgétaire)",
+      "Parler d'argent avec ses proches sans conflit",
+      "La transmission : du savoir-faire plus que du patrimoine",
+      "L'aide financière aux proches : poser des limites claires",
+      "Devenir un phare pour son entourage : modèle sans prosélytisme"
+     ],
+     "exercices": [
+      "Organiser une réunion financière en couple ou famille (modèle fourni)",
+      "Rédiger une « charte de navigation » familiale en 5 points",
+      "Préparer une conversation délicate sur les limites d'aide à un proche"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Le navigateur accompli : liberté, sobriété, horizon",
+     "objectif": "Clôturer le livre en dépassant le pilotage technique : vers une relation libre et mature à l'argent, avec des repères qui durent.",
+     "sections": [
+      "Ce que « bien naviguer » veut dire : pas forcément être riche",
+      "La sobriété choisie vs la privation subie",
+      "L'argent comme instrument de liberté, jamais comme but ultime",
+      "Les balises qui vieillissent bien et celles qu'il faut abandonner",
+      "Le système complet en une synthèse : cartographier, baliser, trier, alerter, recalibrer",
+      "Rester humble face à l'incertitude : pas de promesse, pas de guru",
+      "Votre prochaine escale : l'intention pour les douze mois à venir"
+     ],
+     "exercices": [
+      "Rédiger votre déclaration de navigation personnelle (une page)",
+      "Lister les balises que vous garderez à vie et celles que vous réviserez chaque année",
+      "Fixer une intention de navigation pour les 12 prochains mois (chiffrée et réaliste)"
+     ]
+    }
+   ]
+  }
+ ]
+}
