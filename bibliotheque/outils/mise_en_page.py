@@ -24,6 +24,16 @@ from reportlab.platypus import (
     Table, TableStyle, KeepTogether,
 )
 from reportlab.platypus.tableofcontents import TableOfContents
+from reportlab.platypus import Image as RLImage
+
+try:
+    import mathrender  # formules LaTeX -> images (même dossier que ce script)
+except Exception:  # matplotlib absent : les formules restent en texte brut, la mise en page continue
+    class mathrender:
+        set_cache = staticmethod(lambda d: None)
+        protect = staticmethod(lambda t: (t, []))
+        restore = staticmethod(lambda t, m, fs, fallback=None: t)
+        display_rows = staticmethod(lambda tex, fs: None)
 from reportlab.pdfbase.pdfmetrics import registerFontFamily
 
 # ─── Constantes géométriques (6 x 9 pouces) ─────────────────────────────────
@@ -131,11 +141,17 @@ def inline_markup(text: str) -> str:
     text = _sub(r'(?<!\w)_(.+?)_(?!\w)', '<i>', '</i>', text)
     return text
 
+MATH_FONT = BODY_DEFAULT  # taille des formules (fixée par build_book d'après --corps)
+MATH_SCALE = 1.0          # réduit dans les tableaux (texte des cellules en 9 pt)
+
 def md_to_xml(text: str) -> str:
+    # Les formules $...$ / $$...$$ sont extraites avant toute mise en forme, puis rendues en images.
+    text, maths = mathrender.protect(text)
     text = sanitize_winansi(text)
     text = escape_xml(text)
     text = inline_markup(text)
-    return text
+    return mathrender.restore(text, maths, MATH_FONT * 0.95 * MATH_SCALE,
+                              fallback=lambda s: escape_xml(sanitize_winansi(s)))
 
 def strip_think_tags(text: str) -> str:
     return re.sub(r'', '', text, flags=re.DOTALL | re.IGNORECASE)
@@ -174,6 +190,24 @@ def strip_chapter_heading(md_text: str, chap_num: int) -> str:
             return '\n'.join(lines[:i] + lines[i + 1:])
         break
     return md_text
+
+def math_block(tex: str, styles: dict) -> list:
+    """Formule hors texte : une image centrée par ligne ; texte brut en repli."""
+    rows = mathrender.display_rows(tex, MATH_FONT) if tex else None
+    if not rows:
+        return [safe_paragraph(escape_xml(sanitize_winansi(tex)), styles['body'])]
+    max_w = PAGE_W - 2 * MARGIN_LR
+    parts = [Spacer(1, 3)]
+    for r in rows:
+        w, h = r['w'], r['h']
+        if w > max_w:
+            h *= max_w / w
+            w = max_w
+        img = RLImage(r['path'], width=w, height=h)
+        img.hAlign = 'CENTER'
+        parts += [img, Spacer(1, 2)]
+    parts.append(Spacer(1, 3))
+    return [KeepTogether(parts)]
 
 def parse_markdown(md_text: str, styles: dict) -> list:
     """Convertit le Markdown en flowables."""
@@ -216,6 +250,28 @@ def parse_markdown(md_text: str, styles: dict) -> list:
         if not stripped:
             flush_list()
             i += 1
+            continue
+
+        # Formule hors texte $$ ... $$ (sur une ou plusieurs lignes)
+        if stripped.startswith('$$'):
+            flush_list()
+            body = stripped[2:]
+            j = i
+            if '$$' in body:
+                tex = body.split('$$')[0]
+            else:
+                buf = [body]
+                j += 1
+                while j < len(lines):
+                    part = lines[j].strip()
+                    if '$$' in part:
+                        buf.append(part.split('$$')[0])
+                        break
+                    buf.append(part)
+                    j += 1
+                tex = ' '.join(buf)
+            flowables.extend(math_block(tex.strip(), styles))
+            i = j + 1
             continue
 
         # Séparateur horizontal
@@ -303,12 +359,19 @@ def parse_markdown(md_text: str, styles: dict) -> list:
     return flowables
 
 def build_table(table_lines: list, styles: dict) -> list:
+    global MATH_SCALE
     rows = []
     for tl in table_lines:
         if re.match(r'^\|[\s\-:|]+\|$', tl):
             continue
-        cells = [c.strip() for c in tl.strip('|').split('|')]
-        cells = [md_to_xml(c) for c in cells]
+        # les | à l'intérieur d'une formule $...$ (ex. $|V| \times d$) ne séparent pas des colonnes
+        shielded = re.sub(r'\$[^$]*\$', lambda m: m.group(0).replace('|', '\x01'), tl)
+        cells = [c.strip().replace('\x01', '|') for c in shielded.strip('|').split('|')]
+        MATH_SCALE = 9.0 / MATH_FONT  # formules à la taille du texte des cellules
+        try:
+            cells = [md_to_xml(c) for c in cells]
+        finally:
+            MATH_SCALE = 1.0
         rows.append(cells)
     if not rows:
         return []
@@ -519,6 +582,9 @@ def read_file_safe(path: str) -> str:
 
 def build_book(plan_path: str, chapitres_dir: str, output_path: str,
                corps: float, auteur: str, annee: int, collection: str):
+    global MATH_FONT
+    MATH_FONT = corps
+    mathrender.set_cache(os.path.join(os.path.dirname(os.path.abspath(output_path)), 'math_cache'))
     leading = LEADING_DEFAULT if corps == BODY_DEFAULT else corps * 1.25
     styles = make_styles(corps, leading)
 
