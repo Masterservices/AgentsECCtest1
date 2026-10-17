@@ -1,0 +1,693 @@
+{
+ "titre": "Volée d'étourneaux",
+ "sous_titre": "Et si votre système de productivité s'organisait tout seul ? Règles locales, engrenages de tâches et protocole d'émergence",
+ "bibliographie": [
+  {
+   "auteur": "James C. Scott",
+   "titre": "Seeing Like a State",
+   "annee": "1998",
+   "idee": "Les grandes tentatives de planification de haut en bas échouent parce qu'elles rendent le réel « lisible » en effaçant les savoirs locaux et tacites. Le practical knowledge des praticens est systématiquement sacrifié au tableau de bord central.",
+   "apport": "Fonder notre thèse : une to-do list unique et hiérarchisée est une tentative de « haute modernisme » sur son propre travail ; elle écrase les connaissances locales de la journée."
+  },
+  {
+   "auteur": "Herbert A. Simon",
+   "titre": "The Sciences of the Artificial",
+   "annee": "1969 (édition révisée 1981)",
+   "idee": "Les systèmes complexes sont presque décomposables : des sous-systèmes fortement couplés, faiblement liés entre eux. On résout les problèmes par satisficing (suffisamment bon), pas par optimisation globale.",
+   "apport": "Justifier l'architecture en modules-roues indépendants et abandonner la recherche du planning optimal au profit de règles satisfaisantes."
+  },
+  {
+   "auteur": "Norbert Wiener",
+   "titre": "Cybernetics: Or Control and Communication in the Animal and the Machine",
+   "annee": "1948",
+   "idee": "Le contrôle repose sur la rétroaction : un système se guide en comparant un état visé à un état mesuré. Sans retour d'information, il n'y a pas de pilotage, seulement de la dérive.",
+   "apport": "Fournir le socle théorique des boucles de rétroaction du chapitre 16 et du vocabulaire capteur/comparateur/action."
+  },
+  {
+   "auteur": "W. Ross Ashby",
+   "titre": "An Introduction to Cybernetics",
+   "annee": "1956",
+   "idee": "Loi de la variété : un régulateur ne peut contrer une perturbation que s'il dispose d'autant de réponses que la perturbation a de formes. L'ultra-stabilité permet de changer de stratégie quand celle-ci échoue.",
+   "apport": "Deux idées directrices : multiplier les réponses locales plutôt que le contrôle central, et prévoir le changement de règles (chapitres 18 et 21)."
+  },
+  {
+   "auteur": "Donella H. Meadows",
+   "titre": "Thinking in Systems: A Primer",
+   "annee": "2008 (posthume)",
+   "idee": "Un système se décrit en stocks, flux et boucles de rétroaction ; les leviers d'action les plus puissants sont en tête du système, dont les règles et les objectifs.",
+   "apport": "Modéliser les engrenages de tâches comme des stocks et des flux, et situer l'ajustement des règles parmi les hauts leviers."
+  },
+  {
+   "auteur": "Kevin Kelly",
+   "titre": "Out of Control: The New Biology of Machines, Social Systems, and the Economic World",
+   "annee": "1994",
+   "idee": "L'ordre émerge de la somme de comportements simples, distribués et sans centre de commande. Le contrôle naît de la confiance accordée aux agents de bas niveau.",
+   "apport": "La démonstration centrale du chapitre 2 : remplacer le chef d'orchestre par des règles de bas niveau."
+  },
+  {
+   "auteur": "Steven Johnson",
+   "titre": "Emergence: The Connected Lives of Ants, Brains, Cities, and Software",
+   "annee": "2001",
+   "idee": "Des systèmes urbains, fourmis et logiciels produisent de l'ordre par interactions locales et traces laissées dans l'environnement (stigmergie), sans plan préalable.",
+   "apport": "Modèle de la trace-action : un tableau de tâches efficace fonctionne comme une fourmilière, par signaux locaux."
+  },
+  {
+   "auteur": "Deborah M. Gordon",
+   "titre": "Ant Encounters: Individual Interaction and Colony Organization",
+   "annee": "2010",
+   "idee": "Une colonie de fourmis s'organise sans leader : les individus répètent des comportements simples et la colonie émerge des taux d'interaction, pas d'un plan.",
+   "apport": "Ancrer la transposition « tâches = fourmis » : la cadence d'interaction compte plus que la liste des intentions."
+  },
+  {
+   "auteur": "Edward O. Wilson, Bert Hölldobler",
+   "titre": "The Ants",
+   "annee": "1990",
+   "idee": "Encyclopédie de la vie sociale des fourmis : phéromones, castes et division du travail produisent une intelligence collective sans centralisation. La trace chimique organise la colonie.",
+   "apport": "Vocabulaire de l'engrenage social (phéromone = trace, relais = main tendue) pour le chapitre 15."
+  },
+  {
+   "auteur": "Melanie Mitchell",
+   "titre": "Complexity: A Guided Tour",
+   "annee": "2009",
+   "idee": "Panorama des systèmes adaptatifs complexes : adaptation, computation, et les limites de nos modèles. L'émergence est étudiable sans mysticisme.",
+   "apport": "Fournir un cadre rigoureux et prudent (signaler ce qu'on ne sait pas) pour parler d'auto-organisation appliquée."
+  },
+  {
+   "auteur": "John H. Holland",
+   "titre": "Hidden Order: How Adaptation Builds Complexity",
+   "annee": "1995",
+   "idee": "Les systèmes adaptatifs reposent sur des blocs de base réutilisables, des signaux et une sélection ; la complexité se construit par recombinaison de ces briques.",
+   "apport": "Concevoir les tâches comme des blocs réutilisables et les déclencheurs comme des signaux (chapitre 9)."
+  },
+  {
+   "auteur": "Stuart A. Kauffman",
+   "titre": "At Home in the Universe: The Search for the Laws of Self-Organization and Complexity",
+   "annee": "1995",
+   "idee": "L'ordre naît « gratuitement » dès que la densité d'interactions dépasse un seuil ; auto-organisation et sélection naturelle se complètent.",
+   "apport": "Expliquer pourquoi un seuil minimal de tâches connectées suffit à faire tourner un système, et au-delà pourquoi trop de connexions grippent."
+  },
+  {
+   "auteur": "Ilya Prigogine, Isabelle Stengers",
+   "titre": "La Nouvelle Alliance (Order Out of Chaos)",
+   "annee": "1979",
+   "idee": "Les structures dissipatives montrent que le désordre peut produire de l'ordre nouveau loin de l'équilibre. Le chaos est parfois le carburant de la réorganisation.",
+   "apport": "Fonder le chapitre 18 sur le désordre fertile : tolérer un désordre local pour régénérer le système."
+  },
+  {
+   "auteur": "David D. Allen",
+   "titre": "Getting Things Done: The Art of Stress-Free Productivity",
+   "annee": "2001",
+   "idee": "Tout doit être capturé hors de la tête, clarifié en actions suivantes et revu régulièrement ; la tranquillité vient de la confiance dans le système.",
+   "apport": "Point de départ critique à dépasser : nous conservons la capture et les actions, mais remplaçons la revue centrale par des règles locales."
+  },
+  {
+   "auteur": "Francesco Cirillo",
+   "titre": "The Pomodoro Technique",
+   "annee": "2006",
+   "idee": "Travailler en tranches chronométrées courtes avec des pauses, pour rendre le temps visible et réduire la résistance au démarrage.",
+   "apport": "Modèle de règle locale type : petite, temporelle, vérifiable en une session (chapitres 6 et 7)."
+  },
+  {
+   "auteur": "Eliyahu M. Goldratt",
+   "titre": "The Goal: A Process of Ongoing Improvement",
+   "annee": "1984 (édition révisée 1992)",
+   "idee": "Un système est valué par son goulot d'étranglement ; tout doit s'ordonner autour du flux à travers la contrainte (tambour-tampon-corde).",
+   "apport": "Repérer le rouage limitant et cesser d'accélérer les rouages non critiques (chapitre 19)."
+  },
+  {
+   "auteur": "Taiichi Ohno",
+   "titre": "Toyota Production System: Beyond Large-Scale Production",
+   "annee": "1978 (traduction 1988)",
+   "idee": "Produire à la demande par signaux (kanban), arrêter la ligne au moindre défaut, éliminer le gaspillage d'attente.",
+   "apport": "Le signal plutôt que le plan : travailler en flux tiré par la tâche suivante, avec une limite de stock en amont."
+  },
+  {
+   "auteur": "W. Edwards Deming",
+   "titre": "Out of the Crisis",
+   "annee": "1986",
+   "idee": "Gérer par la compréhension de la variation et du système, pas par les objectifs chiffrés et les évaluations individuelles.",
+   "apport": "Désapprendre le pilotage par chiffres anxiogènes ; distinguer variation commune et cause spéciale dans la revue hebdomadaire."
+  },
+  {
+   "auteur": "Stafford Beer",
+   "titre": "Brain of the Firm (Management Cybernetics)",
+   "annee": "1972",
+   "idee": "L'entreprise viable s'organise en boucles emboîtées avec gestion de la variété : atténuer ou amplifier les signaux à chaque niveau.",
+   "apport": "Structure des boucles emboîtées quotidienne/hebdo/mensuelle du protocole d'émergence (chapitres 16 et 20)."
+  },
+  {
+   "auteur": "Yves Morieux, Peter Tollman",
+   "titre": "Six Simple Rules: How to Manage Complexity without Getting Complicated",
+   "annee": "2011",
+   "idee": "Face à la complexité, six règles simples valent mieux que des procédures complexes : clarifier les interfaces, augmenter la réciprocité, répartir la décision.",
+   "apport": "Preuve qu'un petit nombre de règles locales produit plus de coopération qu'un manuel de procédures (chapitres 6 et 23)."
+  },
+  {
+   "auteur": "Frederic Laloux",
+   "titre": "Reinventing Organizations",
+   "annee": "2014",
+   "idee": "Des organisations à self-management : pas de managers, des rôles clairs, des processus de conseil et des dîners de décision.",
+   "apport": "Montrer qu'une équipe peut fonctionner sans chef d'orchestre grâce à des règles d'interface (chapitre 23)."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "A World Without Email: Reimagining Work in an Age of Communication Overload",
+   "annee": "2021",
+   "idee": "La communication en flux poussé (ruches hyperactives) fragmente l'attention ; il faut des workflows à flux tiré et des canaux limités.",
+   "apport": "Alimenter les règles d'interruption et de coordination asynchrone (chapitres 7 et 15)."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile: Things That Gain from Disorder",
+   "annee": "2012",
+   "idee": "Au-delà de la robustesse, certains systèmes gagnent du désordre ; préférer la petite expérience réversible aux grands plans.",
+   "apport": "Philosophie des tests de règles de deux semaines et du déploiement progressif (chapitres 21 et 22)."
+  },
+  {
+   "auteur": "Peter M. Senge",
+   "titre": "The Fifth Discipline: The Art and Practice of the Learning Organization",
+   "annee": "1990",
+   "idee": "La pensée systémique révèle des archétypes (transfert de charge, escalade) et des délais qui trahissent les intentions.",
+   "apport": "Diagnostiquer les pannes d'engrenage avec des schémas systémiques plutôt qu'avec la culpabilité (chapitre 19)."
+  },
+  {
+   "auteur": "Chris Argyris, Donald A. Schön",
+   "titre": "Organizational Learning: A Theory of Action Perspective",
+   "annee": "1978",
+   "idee": "L'apprentissage à boucle simple corrige l'action dans le cadre existant ; l'apprentissage à boucle double remet en question les règles du cadre.",
+   "apport": "Le cœur du chapitre 21 : ajuster les règles, pas les tâches."
+  },
+  {
+   "auteur": "Tom DeMarco, Timothy Lister",
+   "titre": "Peopleware: Productive Projects and Teams",
+   "annee": "1987",
+   "idee": "La productivité dépend de l'environnement et de l'absence d'interruptions bien plus que des outils ; le travail intellectuel exige des plages ininterrompues.",
+   "apport": "Dimension environnementale des engrenages profonds et règles de protection du chapitre 14."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Le chef d'orchestre invisible : pourquoi planifier de haut en bas épuise",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'illusion de la to-do list parfaite",
+     "objectif": "Démontrer contre-intuitivement que la centralisation obsessionnelle de ses tâches (liste unique, plan minuté, hiérarchie parfaite) crée plus de coût que de valeur. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Le mythe du système parfait et ce qu'on lui promet",
+      "Ce que cache une liste centralisée : latence, coordination, oubli",
+      "Expérience de pensée : la journée entièrement programmée à la minute",
+      "La dette de planification : ce que le plan nous doit en retour",
+      "Les trois symptômes du contrôle excessif : rigidité, report, culpabilité",
+      "Formuler l'hypothèse alternative de ce livre"
+     ],
+     "exercices": [
+      "Inventaire du coût du contrôle : chronométrer pendant deux jours le temps passé à planifier, trier et reprioriser",
+      "Test de la liste unique : noter toutes les entrées, annulations et reportings d'une journée de travail",
+      "Écriture de la dette de planification : lister les plans des 30 derniers jours et leur devenir réel"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 2,
+     "titre": "Volée d'étourneaux : l'ordre sans chef",
+     "objectif": "Introduire le principe d'auto-organisation à travers l'observation des nuées d'étourneaux, des fourmis et des flux urbains, puis transposer au travail individuel. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Murmurations : ce que l'on observe et ce que l'on ne sait pas encore",
+      "Les règles du vol : alignement, cohésion, séparation (modèles de Reynolds et de Vicsek, dates à vérifier)",
+      "Pourquoi il n'y a pas de chef dans la nuée : densité, proximité, règle locale",
+      "Fourmis, pistes urbaines et tableaux muraux : la stigmergie",
+      "Transposition : la tâche comme oiseau, le flux comme nuée",
+      "Trois malentendus sur l'auto-organisation (bordel, absence de discipline, utopie)",
+      "Ce que ce livre promet et ce qu'il ne promet pas"
+     ],
+     "exercices": [
+      "Simulation papier de la nuée : sur une grille, faire bouger 20 points avec trois règles écrites à la main",
+      "Cartographie des chefs : qui décide quoi dans mon travail, et qui décide réellement",
+      "Formulation de ma première règle locale de vol : une phrase, un périmètre, une durée"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 3,
+     "titre": "Le grand inventaire : d'où viennent vos tâches ?",
+     "objectif": "Cartographier les sources réelles des tâches pour comprendre qu'un flux ne se planifie pas comme une liste se remplit. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Les six portes d'entrée : moi, les autres, le calendrier, l'environnement, les outils, l'urgence",
+      "Capture sans planification : l'erreur du collecter-tout-prévoir-tout",
+      "Tâches sociales : messages, réunions, sollicitations comme stigmergie humaine",
+      "Latence et file d'attente : l'attente réelle entre deux tâches",
+      "Le coût des changements de contexte en minutes et en qualité",
+      "Diagnostic : cartographier son flux d'entrées sur sept jours"
+     ],
+     "exercices": [
+      "Journal des entrées : pendant 7 jours, noter chaque tâche reçue, sa porte et l'heure",
+      "Compteur de contextes : relever le nombre de bascules entre outils, dossiers et sujets",
+      "Mesure de la latence : temps moyen entre la réception d'une demande et son premier geste"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 4,
+     "titre": "Pourquoi le plan central craque : cinq forces",
+     "objectif": "Expliquer les cinq mécanismes qui font échouer toute planification centrale fine, et préparer le basculement des étapes vers les règles. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "La traçabilité à l'ancienne : rendre le travail « lisible » au prix de sa réalité",
+      "L'incertitude irréductible : ce qui ne se prévoit pas",
+      "Les autres joueurs : le travail est interactif, pas solitaire",
+      "La faible capacité de l'attention et le coût de la bascule",
+      "La variation : ce que Deming nous interdit de confondre avec de la négligence",
+      "L'effet de rigidité du plan et le repli vers la règle",
+      "Réécrire un objectif en règle locale"
+     ],
+     "exercices": [
+      "Étude de cas : raconter le dernier plan sérieux qui a échoué, en identifiant la force en jeu",
+      "Liste des cinq points de rupture typiques de mes propres plans",
+      "Réécriture : transformer trois étapes de mon plan actuel en trois règles locales"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 5,
+     "titre": "L'engrenage : la métaphore centrale du livre",
+     "objectif": "Installer le vocabulaire mécanique du livre : engrenage de tâches, dent, rapport de transmission, glissement, grippage. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Anatomie d'un engrenage : roue, dent, axe, contact, rapport",
+      "Un engrenage de tâches en pratique : deux activités qui se conduisent l'une l'autre",
+      "Le rapport de transmission comme vitesse et comme priorité réelle",
+      "Glissement, bruit et grippage : les trois défauts à diagnostiquer",
+      "Engrenages imbriqués contre séquences figées",
+      "Le lexique commun du livre (12 termes)",
+      "Première cartographie express de trois roues de mon travail"
+     ],
+     "exercices": [
+      "Dessiner trois engrenages de mon activité avec les dents en contact réel",
+      "Identifier les dents : quels points de passage concrets relient deux de mes tâches",
+      "Rédiger mon glossaire personnel de douze termes à partir du lexique du chapitre"
+     ],
+     "exercices_notes": null
+    }
+   ]
+  },
+  {
+   "titre": "Poser les règles locales",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "Une bonne règle locale est petite",
+     "objectif": "Définir ce qu'est une règle locale opérationnelle et donner un test de réduction pour la rendre actionnable. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Définition opérationnelle : une règle locale est petite, bornée, testable",
+      "Anatomie : condition, action, périmètre, durée",
+      "Règle globale contre règle locale : exemples comparés côte à côte",
+      "Le test de simplification : jusqu'où peut-on réduire une consigne",
+      "Combien de règles en même temps : la bande passante réelle",
+      "Règles écrites, règles implicites, règles subies",
+      "Les sept caractères d'une bonne règle locale"
+     ],
+     "exercices": [
+      "Audit de mes règles actuelles : lister celles que je me donne et celles que l'on me donne",
+      "Réduction : ramener une consigne de travail à une phrase de douze mots maximum",
+      "Écriture de ma règle n°1 sur la fiche format quatre lignes"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 7,
+     "titre": "Le kit des règles locales : douze règles de départ",
+     "objectif": "Livrer le premier livrable pratique : un ensemble de douze règles locales prêtes à tester, dont on n'en choisira que trois. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Règles de début de session : ouvrir le système en deux gestes",
+      "Règles de tri : ne traiter que trois éléments par lot",
+      "Règles de démarrage : contourner la résistance au premier geste",
+      "Règles d'interruption : que faire quand on nous sollicite",
+      "Règles de fin de session : laisser des traces pour la prochaine fois",
+      "Règles de coordination : demander, relancer, rendre",
+      "Comment choisir trois règles parmi douze sans se disperser"
+     ],
+     "exercices": [
+      "Sélection de trois règles pour les deux prochaines semaines, avec justification en une ligne chacune",
+      "Fiche règle complète : condition, action, périmètre, durée de test",
+      "Mise en place des rappels physiques (post-it, fichier, alarme) pour les trois règles"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 8,
+     "titre": "Stigmergie : laisser des traces qui déclenchent",
+     "objectif": "Concevoir l'environnement de travail comme une fourmilière : des traces visibles qui déclenchent l'action suivante sans mémoire centrale. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Stigmergie : définition (termes de Grassé, travaux de Heylighen ; bibliographie secondaire à vérifier)",
+      "Traces physiques et traces numériques : leurs forces respectives",
+      "Tableaux, kanban, fichiers ouverts : les nids de signaux",
+      "Design d'une trace : visible, actionnable, datée, jetable",
+      "Le tableau décoratif : pourquoi tant de systèmes deviennent du mobilier",
+      "Signaux sociaux : qui voit ma trace et que lui dit-elle",
+      "Protocole de nettoyage : retirer les traces mortes"
+     ],
+     "exercices": [
+      "Audit de stigmergie : lister toutes les traces que je laisse et celles que je consulte réellement",
+      "Créer une trace simple et actionnable (ticket, post-it, note de début de session)",
+      "Nettoyage hebdomadaire : supprimer dix traces devenues mortes"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 9,
+     "titre": "Règles de séquence : quand une tâche en entraîne une autre",
+     "objectif": "Concevoir des chaînes de déclencheurs courts pour que chaque tâche terminée entraîne mécaniquement la suivante. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Lier plutôt que lister : la différence fondamentale",
+      "Formats de déclencheur : état, lieu, fin d'une tâche, signal calendaire",
+      "Chaînes courtes contre chaînes longues : le risque du plan caché",
+      "L'erreur de la chaîne complète : pré-planifier douze maillons",
+      "Entrées asynchrones : intégrer ce qui arrive pendant le chaînage",
+      "Où déclencher : calendrier, boîte de réception, tableau, objet physique",
+      "Règles anti-blocage : que faire quand un maillon résiste"
+     ],
+     "exercices": [
+      "Écrire cinq chaînes de trois maillons chacune, en énonçant le déclencheur de chaque maillon",
+      "Casser une chaîne de douze maillons en trois chaînes de quatre",
+      "Tester un seul déclencheur pendant trois jours et noter son taux de déclenchement"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 10,
+     "titre": "Le périmètre : poser des frontières, pas des programmes",
+     "objectif": "Remplacer les objectifs globaux par des frontières locales : limites de travail en cours, créneaux fermés, boîte à outils réduite. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Frontière contre objectif : ce que l'on peut tenir sans effort de volonté",
+      "La limite de travail en cours comme règle locale",
+      "Le temps comme frontière : créneaux fermés et fin de séance",
+      "La boîte à outils fermée : réduire les choix disponibles",
+      "Dire non par règle : heures de silence et canaux fermés",
+      "Frontières d'équipe : protéger le collectif",
+      "Signes qu'on a ouvert trop large"
+     ],
+     "exercices": [
+      "Définir ma limite de travail en cours (par exemple trois projets simultanés) et l'écrire sur une trace visible",
+      "Créer deux créneaux fermés par semaine et les bloquer dans le calendrier",
+      "Rédiger ma règle de refus : la phrase exacte à dire ou écrire quand une demande casse le périmètre"
+     ],
+     "exercices_notes": null
+    }
+   ]
+  },
+  {
+   "titre": "Concevoir les engrenages",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "Cartographier vos engrenages de tâches",
+     "objectif": "Produire la cartographie des engrenages : un tracé simple des roues de votre travail, de leurs dents et de leurs rapports. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Inventaire des roues : les domaines qui tournent réellement",
+      "Repérer les dents : les points de contact concrets entre deux roues",
+      "Écrire le mouvement : qui entraîne qui, et à quelle vitesse",
+      "Rouages moteurs contre rouages subordonnés",
+      "Le jeu mécanique : laissé exprès, il évite le grippage",
+      "Outils de tracé : papier grand format, tableau mural, fichier unique",
+      "Première carte réalisée en quarante-cinq minutes"
+     ],
+     "exercices": [
+      "Carte des engrenages en trois roues avec les dents et le sens de rotation",
+      "Mesurer le jeu : relever les délais réels entre deux tâches apparemment liées",
+      "Identifier le rouage principal de la semaine prochaine et ce qui l'entraîne"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 12,
+     "titre": "Les engrenages qui s'entraînent les uns les autres",
+     "objectif": "Concevoir des entraînements croisés : des tâches qui font avancer leur voisine par contact direct, cadence commune ou main tendue. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Entraînement direct et indirect : les deux transmissions",
+      "Le lot-jumeau : traiter deux tâches en contact permanent",
+      "La main tendue : le handoff comme dent de roue",
+      "Cadences communes : les rituels courts qui synchronisent deux roues",
+      "Asymétrie de régime : petite roue rapide et grande roue lente",
+      "Cas d'étude : écriture, relecture, publication comme engrenage triple",
+      "Détecter les rouages qui tournent à vide"
+     ],
+     "exercices": [
+      "Créer un entraînement croisé : relier deux tâches par un déclencheur de contact direct",
+      "Définir une cadence commune de dix minutes entre deux roues (par exemple notes et tri)",
+      "Repérer un rouage qui tourne à vide et écrire la phrase qui l'arrêtera"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 13,
+     "titre": "Réduire le frottement : engrenages bien huilés",
+     "objectif": "Diagnostiquer et supprimer les frottements de démarrage, de choix, d'information et de coordination, sans effacer la difficulté utile. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Les quatre frottements et comment les mesurer",
+      "Le frottement de démarrage : l'énergie d'activation du premier geste",
+      "Le frottement du choix : décider quoi faire coûte plus que le faire",
+      "Le frottement d'information : chercher ce qu'on sait déjà exister",
+      "Le frottement de coordination : le coût des autres",
+      "Templates, checklists et pièces préparées : huiler sans contourner",
+      "Quand ne pas réduire le frottement : la difficulté utile"
+     ],
+     "exercices": [
+      "Chronométrer le démarrage de cinq tâches typiques, du « je veux » au premier geste",
+      "Créer un template pour une tâche répétée au moins deux fois par mois",
+      "Retirer un obstacle physique unique (onglet, fichier, déplacement, recherche)"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 14,
+     "titre": "Les engrenages lents : la profondeur et le travail long",
+     "objectif": "Protéger les roues à régime lent : blocs profonds, rituel de reprise, mesure de la continuité. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Le régime long : pourquoi les grosses roues grippe",
+      "Blocs profonds protégés : architecture de la séance",
+      "La règle du seul objectif du bloc",
+      "Rituel de reprise après interruption en quatre gestes",
+      "Engraisser la grosse roue : préparer la pièce la veille",
+      "Mesurer la continuité : les heures pleines plutôt que les tâches comptées",
+      "Étude de cas : engrenage d'écriture d'un chapitre"
+     ],
+     "exercices": [
+      "Définir trois blocs profonds hebdomadaires et les inscrire comme frontière",
+      "Écrire un rituel de reprise en quatre étapes et le tester sur trois interruptions",
+      "Calculer mon taux de continuité : heures pleines divisées par heures travaillées"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 15,
+     "titre": "Engrenages sociaux : les tâches des autres",
+     "objectif": "Intégrer les autres personnes dans la mécanique : demandes, contrats simples, réunions à dent fixe ou mobile, déblocage. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "L'autre comme roue : dépendances visibles et invisibles",
+      "Règles de demande : contexte, échéance, format, une seule question",
+      "Réunions : dent fixe, dent mobile ou roue à arrêter",
+      "Faire tourner par le signal plutôt que par la pression",
+      "Contrats simples en trois lignes : je livre, tu livres, quand",
+      "Charges mentales et relais : ne pas porter la roue des autres",
+      "Protocole de déblocage quand l'engrenage social s'arrête"
+     ],
+     "exercices": [
+      "Cartographier mes cinq rouages partagés avec leurs personnes-contacts",
+      "Écrire un contrat de collaboration en trois lignes pour un projet en cours",
+      "Réécrire un message de relance type selon la règle de demande"
+     ],
+     "exercices_notes": null
+    }
+   ]
+  },
+  {
+   "titre": "Rétroaction et désordre fertile",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "Boucles de rétroaction : voir ce que l'on fait",
+     "objectif": "Installer des boucles de rétroaction minimales : référence, capteur, comparateur, action, et surtout délais courts. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Ce qu'est une boucle : référence, capteur, comparateur, action",
+      "Boucle ouverte contre boucle fermée : le plan sans mesure",
+      "Le délai de boucle : première cause des retournements",
+      "Indicateurs minimaux : trois maximum, choisis pour être observables",
+      "Rétroaction rapide et lente : quotidien, semaine, saison",
+      "Confondre mesure et contrôle : observer sans punir",
+      "Construire son tableau de bord en une page"
+     ],
+     "exercices": [
+      "Dessiner la boucle principale de mon activité avec ses quatre éléments",
+      "Choisir trois indicateurs observables en moins de cinq minutes par jour",
+      "Mesurer le délai de ma boucle : combien de temps avant que je voie l'effet d'une action"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 17,
+     "titre": "Réglage fin : la métrique qui gouverne",
+     "objectif": "Choisir des métriques de flux qui guident sans déformer, et installer une revue hebdomadaire courte. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Goodhart : quand la mesure devient l'objectif, la mesure ne vaut plus",
+      "Métriques de flux contre métriques de stock",
+      "Le compteur d'engrenages : compter les tâches qui déclenchent la suivante",
+      "Signal et bruit : ce qui demande une décision et ce qui n'en demande pas",
+      "Les trois rythmes de revue : jour, semaine, saison",
+      "Tableaux à éviter : scores personnels anxiogènes et classements",
+      "Protocole de revue hebdomadaire en trente minutes"
+     ],
+     "exercices": [
+      "Test Goodhart : pour chacun de mes indicateurs, écrire comment il pourrait être gonflé sans progrès réel",
+      "Rédiger un tableau de bord minimal d'une page avec trois indicateurs de flux",
+      "Réaliser une première revue hebdomadaire chronométrée, en respectant les trente minutes"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 18,
+     "titre": "Le désordre fertile : tolérer le chaos productif",
+     "objectif": "Distinguer le désordre stérile du désordre fertile, et allouer délibérément une part d'exploration non priorisée. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Désordre utile et désordre stérile : critères de distinction",
+      "La pile de recherche : ce bruit qui contient des idées",
+      "Exploration et exploitation : le ratio à maintenir",
+      "La file d'attente non priorisée : contre le tri permanent",
+      "Variété et rigidité : pourquoi l'ordre total rend fragile",
+      "La quarantaine : le désordre a besoin d'un périmètre",
+      "Signaux que le désordre a dégénéré"
+     ],
+     "exercices": [
+      "Classer mon désordre visible en deux colonnes : fertile et stérile",
+      "Créer une boîte de bruit fertile : un contenant unique pour les idées non triées",
+      "Budget d'exploration : réserver dix pour cent du temps sans objectif de rendement"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 19,
+     "titre": "Panne, grippage, oscillation : lire les pannes d'engrenage",
+     "objectif": "Donner un diagnostic en dix minutes des pannes typiques : grippage, dents cassées, sous-dimensionnement, oscillation, goulot. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Les signes de grippage : report en cascade, abandon silencieux",
+      "Les dents cassées : une règle mal formulée",
+      "Le sous-dimensionnement : trop de roues pour une seule journée",
+      "L'oscillation : l'aller-retour perpétuel entre deux états",
+      "Le goulot d'étranglement : accélérer ailleurs ne sert à rien",
+      "Arbre des causes en dix minutes",
+      "Le journal de pannes comme instrument d'apprentissage"
+     ],
+     "exercices": [
+      "Tenir un journal de pannes pendant deux semaines (date, symptôme, règle en cause)",
+      "Analyser une panne récente avec la méthode des cinq pourquoi",
+      "Repérer le goulot de ma semaine et écrire la règle qui protège sa cadence"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 20,
+     "titre": "Le protocole d'émergence (première version)",
+     "objectif": "Assembler les pièces en un protocole répétable en six temps, exécutable en trente minutes hebdomadaires. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Les six temps : observer, écrire, tester, mesurer, ajuster, archiver",
+      "La cadence : trente minutes le lundi, sans exception ni culpabilité",
+      "La fiche règle : format, version, durée de test",
+      "Critères d'acceptation : locale, petite, testable, réversible",
+      "Critères d'arrêt : quand abandonner une règle",
+      "Cas complet : le protocole appliqué à la production d'un rapport",
+      "Erreurs de débutant du protocole et comment les éviter"
+     ],
+     "exercices": [
+      "Exécuter le protocole complet sur une règle pendant une semaine",
+      "Remplir une fiche règle vierge, avec version et date de fin de test",
+      "Rédiger ma liste personnelle de critères d'arrêt de règle"
+     ],
+     "exercices_notes": null
+    }
+   ]
+  },
+  {
+   "titre": "Ajuster les règles, pas les tâches",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Double boucle : changer la règle, pas la tâche",
+     "objectif": "Passer du pilotage par correction des tâches à l'apprentissage par changement de règles, avec un journal versionné. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Boucle simple et boucle double : deux façons de réagir à un échec",
+      "Pourquoi corriger la tâche ne règle jamais rien",
+      "Les quatre questions de la revue de règle",
+      "L'aversion au changement de règle : habitudes, identité, orgueil",
+      "Le journal de règles : vivant, daté, versionné",
+      "Tests A/B artisanaux sur deux semaines",
+      "Demander la rétroaction sociale sur ses règles"
+     ],
+     "exercices": [
+      "Remplacer un « faire mieux » habituel par un changement de règle explicite",
+      "Versionner trois règles : v1, ce qui a échoué, v2",
+      "Lancer un test A/B : deux règles en parallèle sur deux semaines, une seule sera gardée"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 22,
+     "titre": "Déployer sans tout casser",
+     "objectif": "Mettre en place le système progressivement, avec un mode dégradé pour les semaines chargées. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Résistance du système : soi-même, ses habitudes, son entourage",
+      "Déploiement en trois phases : sept, quatorze et trente jours",
+      "Ne changer qu'une roue à la fois",
+      "L'ancrage par la trace : faire durer une règle sans effort",
+      "Le mode dégradé : les trois règles minimum des semaines impossibles",
+      "Signaux d'abandon prématuré",
+      "Coexister avec l'existant : calendrier, outils, demandes du management"
+     ],
+     "exercices": [
+      "Écrire un plan de déploiement sur trente jours, une phase par ligne",
+      "Rédiger mon mode dégradé : les trois règles tenables même dans une semaine chargée",
+      "Point d'étape à J+7 : noter ce qui tourne, ce qui frotte, ce qu'on retire"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 23,
+     "titre": "À plusieurs : l'équipe sans chef d'orchestre",
+     "objectif": "Étendre les règles locales à un collectif : interfaces claires, limites de WIP communes, cercle de règles hebdomadaire. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Passer des règles personnelles aux règles d'équipe",
+      "Six règles simples appliquées : clarifier les interfaces, augmenter la réciprocité",
+      "Kanban d'équipe et limites de travail en cours partagées",
+      "Le cercle de règles : vingt minutes hebdomadaires",
+      "Décision par conseil plutôt que par hiérarchie",
+      "Rituels courts de synchronisation : dix minutes, debout",
+      "Échecs types : le processus qui se fige et la règle qui devient procédure"
+     ],
+     "exercices": [
+      "Écrire trois règles d'équipe, une phrase chacune, validées par les concernés",
+      "Fixer une limite de travail en cours commune et l'afficher",
+      "Animer un premier cercle de règles de vingt minutes avec une grille en une page"
+     ],
+     "exercices_notes": null
+    },
+    {
+     "numero": 24,
+     "titre": "Limites, éthique et horizon",
+     "objectif": "Délimiter honnêtement le champ d'action de l'émergence, lister les cas où il faut planifier explicitement, et fixer l'entretien annuel du système. Longueur visée : environ 3 500 mots.",
+     "sections": [
+      "Quand il faut planifier explicitement : irréversibilité, échéances fixes, sécurité",
+      "Ce que ce livre ne promet pas : aucun résultat garanti, aucune méthode universelle",
+      "Limites : santé, argent, droit et fiscalité relèvent de professionnels, pas de ce livre",
+      "Risques de l'auto-organisation : isolement, effondrement, théâtre d'outils",
+      "L'entretien du système : bilan saisonnier en une page",
+      "La volée continue : garder le plaisir du mouvement",
+      "Épilogue : une journée type quand les engrenages tournent"
+     ],
+     "exercices": [
+      "Liste des cas où je planifierai explicitement, malgré tout le reste",
+      "Bilan saisonnier : grille d'une page, quatre questions, deux fois par an",
+      "Écrire sa journée type d'un an plus tard, en décrivant les engrenages en marche"
+     ],
+     "exercices_notes": null
+    }
+   ]
+  }
+ ]
+}

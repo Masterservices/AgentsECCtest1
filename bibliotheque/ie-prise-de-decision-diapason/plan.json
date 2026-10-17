@@ -1,0 +1,650 @@
+{
+ "titre": "Accorder ses décisions",
+ "sous_titre": "Diapason de valeurs, compostage des erreurs et protocole d'accordage pour des choix justes",
+ "bibliographie": [
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "L'esprit fonctionne selon deux systèmes : rapide/intuitif et lent/réfléchi, et le premier est sujet à de nombreux biais systématiques. Ces biais faussent nos jugements sans que nous le sachions.",
+   "apport": "Fournir la carte des « harmoniques parasites » cognitives qui désaccordent la décision, et justifier le besoin d'un diapason externe stable."
+  },
+  {
+   "auteur": "Gerd Gigerenzer",
+   "titre": "Gut Feelings: The Intelligence of the Unconscious",
+   "annee": "2007",
+   "idee": "Des heuristiques simples et l'intuition éclairée permettent souvent de meilleures décisions que les calculs complexes, à condition d'être ancrées dans l'environnement. L'intuition n'est pas magique : c'est de l'expertise digérée.",
+   "apport": "Nuancer le culte du calcul : l'accordage ne consiste pas à tout rationaliser, mais à calibrer l'écoute du sentiment intuitif sur des valeurs claires."
+  },
+  {
+   "auteur": "Barry Schwartz",
+   "titre": "The Paradox of Choice",
+   "annee": "2004",
+   "idee": "Trop d'options paralysent, rongent la satisfaction et augmentent le regret. Le « satisficer » (satisfaire suffisamment) bat souvent le « maximiser » (vouloir le meilleur).",
+   "apport": "Limiter la partition à jouer : le diapason aide à réduire l'espace des options pour retrouver un jeu décidé plutôt qu'éparpillé."
+  },
+  {
+   "auteur": "Annie Duke",
+   "titre": "Thinking in Bets",
+   "annee": "2018",
+   "idee": "Une bonne décision n'est pas la même chose qu'un bon résultat : les décisions se jugent en probabilités, pas au binaire bon/mauvais. Résoudre l'outcome bias est la clé du discernement.",
+   "apport": "Séparer la note jouée du jugement rétrospectif sur le succès, et fonder le carnet de compostage sur la qualité du processus, pas sur le seul gain."
+  },
+  {
+   "auteur": "Chip Heath et Dan Heath",
+   "titre": "Decisive",
+   "annee": "2013",
+   "idee": "Le cadre WRAP (Élargir, Réalisme, Distance, Préparer) aide à surmonter les quatre pièges de la prise de décision (cadrage étroit, émotion, myopie, exubérance). Les bonnes procédures battent la volonté seule.",
+   "apport": "Ancrer le protocole d'accordage dans des gestes procéduraux répétables, plutôt que dans la force de caractère."
+  },
+  {
+   "auteur": "Gary Klein",
+   "titre": "Sources of Power: How People Make Decisions",
+   "annee": "1998",
+   "idee": "Les experts décident souvent par reconnaissance de schémas (modèle décisionnel naturel), pas par comparaison d'options. L'intuition experte naît de patterns expérientiels.",
+   "apport": "Comprendre que le diapason se fabrique par répétition et rétroaction, et que « fausses notes » et justes patterns se distinguent par la fréquence d'exposition."
+  },
+  {
+   "auteur": "Herbert A. Simon",
+   "titre": "Administrative Behavior / Sciences des organisations",
+   "annee": "1947",
+   "idee": "La rationalité est bornée : on ne peut ni tout connaître ni tout comparer. Le décideur raisonne satisfactoirement, non optimisant.",
+   "apport": "Libérer du mythe de la décision parfaite : l'accordage vise la justesse suffisante, pas l'optimisation impossible."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile",
+   "annee": "2012",
+   "idee": "Certains systèmes gagnent du désordre et du stress : ils sont antifragiles. Il faut se positionner pour profiter des chocs plutôt que de les subir.",
+   "apport": "Transformer les erreurs en intrant de croissance : le compostage décisionnel comme pratique antifragile individuelle."
+  },
+  {
+   "auteur": "Ray Dalio",
+   "titre": "Principles",
+   "annee": "2017",
+   "idee": "On peut écrire des principes personnels explicites pour guider ses décisions, et convertir la douleur en apprentissage par la réflexion. La mécanisation des principes réduit l'émotion parasites.",
+   "apport": "Construire et maintenir un diapason de critères écrits, révisables, et opérationnels — sans tomber dans la rigidité dogmatique."
+  },
+  {
+   "auteur": "Amy C. Edmondson",
+   "titre": "The Fearless Organization / Teaming",
+   "annee": "2018",
+   "idee": "L'apprentissage par l'erreur exige une sécurité psychologique : on ne composte que ce qu'on ose nommer. Le leadership juste modélise la vulnérabilité.",
+   "apport": "Étendre le compostage au collectif : créer des conditions où les fausses notes sont partagées et non cachées."
+  },
+  {
+   "auteur": "Robert Kegar et Lisa Laskow Lahey",
+   "titre": "Immunity to Change",
+   "annee": "2009",
+   "idee": "Les résistances au changement ne sont pas de la paresse : elles protègent des conflits intérieurs cachés. Rendre l'immunité visible permet de la contourner.",
+   "apport": "Repérer les « silences d'orchestre » qui empêchent d'entendre ses propres fausses notes, et traiter le conflit de valeurs."
+  },
+  {
+   "auteur": "Richard Sennett",
+   "titre": "The Craftsman",
+   "annee": "2008",
+   "idee": "Le geste artisanal allie la main, l'outil et la matière : la compétence se cultive par une attention patiente aux résistances du réel. Travailler bien, c'est accorder sa pratique.",
+   "apport": "Fonder la métaphore de l'accordage dans une philosophie concrète du métier, du calibrage et du toucher."
+  },
+  {
+   "auteur": "Karl E. Weick",
+   "titre": "Sensemaking in Organizations",
+   "annee": "1995",
+   "idee": "Les organisations (et les personnes) construisent le sens a posteriori en réenchantant les événements. Le sens n'est pas trouvé, il est assemblé.",
+   "apport": "Composter, c'est réenchanter son passé décisionnel : réécrire le récit des erreurs pour en faire de la matière utile."
+  },
+  {
+   "auteur": "Daniel Gilbert",
+   "titre": "Stumbling on Happiness",
+   "annee": "2006",
+   "idee": "Nous sommes mauvais à prédire ce qui nous rendra heureux : prévision affective biaisée, impact négligé, focalisation sur des mauvais choix de cible.",
+   "apport": "Accepter l'incertitude du fruit : certaines décisions ne livrent leur valeur qu'après longue maturation, voire jamais comme prévu."
+  },
+  {
+   "auteur": "Carol S. Dweck",
+   "titre": "Mindset",
+   "annee": "2006",
+   "idee": "Un état d'esprit « croissant » voit les échecs comme de l'information ; un état d'esprit « fixe » les vit comme un verdict sur soi. L'intelligence se développe, elle n'est pas un don figé.",
+   "apport": "Condition culturelle interne au compostage : croire que l'erreur nourrit, sinon le protocole reste théorique."
+  },
+  {
+   "auteur": "Atul Gawande",
+   "titre": "The Checklist Manifesto",
+   "annee": "2009",
+   "idee": "Les checklists, même pour des experts, réduisent les erreurs de bâclage et rendent explicite l'essentiel. La simplicité du rituel protège la complexité du jugement.",
+   "apport": "Des rituels d'accordage brefs et listés, plus fiables que les grandes résolutions."
+  },
+  {
+   "auteur": "Brené Brown",
+   "titre": "Dare to Lead",
+   "annee": "2018",
+   "idee": "Le courage se construit par la vulnérabilité assumée et le « rumble » (dialogue honnête et structuré). On ne peut pas décider juste tout en se protégeant de la douleur.",
+   "apport": "Le chapitre sur l'audace de nommer les fausses notes, y compris face à soi-même."
+  },
+  {
+   "auteur": "Kristin Neff",
+   "titre": "Self-Compassion",
+   "annee": "2011",
+   "idee": "La bienveillance envers soi-même face à l'échec améliore la résilience et la motivation, mieux que l'auto-critique. Trois piliers : gentillesse, humanité partagée, pleine conscience.",
+   "apport": "Rendre le compost possible : sans auto-compassion active, l'erreur se décompose en honte au lieu de se transformer."
+  },
+  {
+   "auteur": "Christian Madsbjerg",
+   "titre": "Sensemaking: The Power of Humanities in the Digital Age",
+   "annee": "2017",
+   "idee": "L'intelligence humaine (empathie, jugement contextualisé, attention phénoménologique) reste irremplaçable face aux données brutes. Il faut savoir regarder, pas seulement calculer.",
+   "apport": "Réaccorder la décision à une écoute fine du contexte, pas seulement à des KPI."
+  },
+  {
+   "auteur": "Albert O. Hirschman",
+   "titre": "Exit, Voice, and Loyalty",
+   "annee": "1970",
+   "idee": "Face à une situation dégradée, on peut partir (exit), parler (voice) ou rester loyal. Chaque option a un coût et une efficacité selon le contexte.",
+   "apport": "Offrir un vocabulaire pour décider quand rester dans un engagement ou le « compost » d'une relation, d'un poste, d'un projet."
+  },
+  {
+   "auteur": "Ellen J. Langer",
+   "titre": "Mindfulness",
+   "annee": "1989",
+   "idee": "L'attention conditionnelle — remarquer ce qui change vraiment — réduit les automatismes défaillants. Beaucoup d'erreurs viennent d'une conscience trop figée.",
+   "apport": "L'écoute aiguë de la « fausse note » en situation, et le calibrage comme pratique attentionnelle quotidienne."
+  },
+  {
+   "auteur": "Chris Argyris et Donald A. Schön",
+   "titre": "Theory in Practice: Increasing Professional Effectiveness (apprentissage double boucle)",
+   "annee": "1974",
+   "idee": "L'apprentissage simple corrige les actions ; l'apprentissage double boucle remet en question les cadres et valeurs qui produisent les actions. Sans double boucle, on répète les mêmes erreurs.",
+   "apport": "Faire du diapason un objet révisable : réaccorder les critères, pas seulement les comportements."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Première partie — Poser le diapason : retrouver le ton juste de ses choix",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Désaccordés : pourquoi nos décisions sonnent-elles creux ?",
+     "objectif": "Établir le diagnostic commun d'un vécu décisionnel souvent approximatif (régrets, hésitations, décisions recopiées) et introduire l'analogie de l'instrument accordé, sans promesse magique.",
+     "sections": [
+      "Le bruit de fond du quotidien : décider par inertie, par mimétisme, par panique",
+      "Trois façons d'être faux : la note manquée, la note forcée, la note hors tempo",
+      "Le mythe du décideur parfait et le coût de son absence",
+      "Pourquoi « juste trancher » ne suffit pas : binaire et biais",
+      "Annoncer le contrat du livre : diapason, compost, protocole",
+      "Ce que ce livre ne promet pas (pas de recette miracle, pas de conseil personnalisé)",
+      "Premiers repères : une grille de lecture en trois verbes (accorder, écouter, composter)"
+     ],
+     "exercices": [
+      "Journal des cinq dernières décisions importantes : noter pour chacune la source (autrui, émotion, calcul, routine) et le sentiment rétrospectif en une phrase",
+      "Test express de désaccord : noter sur 10 le degré de « solidité » de ses critères de choix dans quatre domaines (travail, argent, relations, éthique)"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "La métaphore de l'accordage : ce que la musique nous apprend du choix",
+     "objectif": "Construire rigoureusement la métaphore diapason/instrument pour la décision : fonctions, limites, et transfert conceptuel depuis le métier artisanal et l'expertise.",
+     "sections": [
+      "Anatomie d'un instrument : cordes, caisse, chevilles, table d'harmonie",
+      "Le diapason : un objet simple qui rend possible tout le reste",
+      "Accorder n'est pas jouer : distinction entre critères et exécution",
+      "Harmoniques, faux unissons, battements : vocabulaire des erreurs",
+      "Du particulier à l'universel : ce que la métaphore éclaire et ce qu'elle masque",
+      "Histoire brève des instruments comme outils de mesure et de lien",
+      "Premier rituel : sonner sa propre note fondamentale"
+     ],
+     "exercices": [
+      "Identifier trois domaines de vie où l'on se sent « hors jeu » et reformuler ce qui pourrait y être un diapason",
+      "Écoute active d'une pièce musicale, puis tenir un carnet d'analogies entre ce qui est perçu et ce qui est vécu en décision"
+     ],
+     "exercices_notes": "Le second exercice peut être abrégé pour les lecteurs peu musiciens."
+    },
+    {
+     "numero": 3,
+     "titre": "Trouver sa note fondamentale : l'alignement des valeurs",
+     "objectif": "Fournir un chemin concret pour nommer, hiérarchiser et valider les valeurs qui jouent le rôle de diapason personnel.",
+     "sections": [
+      "Valeurs, préférences, objectifs : ne pas tout confondre",
+      "Une méthode en trois temps : lister, éprouver, hiérarchiser",
+      "Épreuves de réalité : que fait-on quand personne ne regarde ?",
+      "Les valeurs en tension : authenticité vs loyauté, sécurité vs aventure",
+      "Faire tenir le diapason sur un document vivant, pas une plaque de granit",
+      "Détecter les valeurs d'emprunt (famille, réseaux, époque)",
+      "Cas d'étude : trois profils de diapason contrastés"
+     ],
+     "exercices": [
+      "Exercice des dix non-négociables : écrire dix valeurs, puis n'en garder que cinq, puis trois pour les six prochains mois",
+      "Test d'épreuve rétrospective : pour chaque valeur retenue, raconter une situation où elle a été honorée et une où elle a été trahie"
+     ],
+     "exercices_notes": "Proposer une version courte de cinq minutes et une version longue d'une heure."
+    },
+    {
+     "numero": 4,
+     "titre": "Cartographier ses marges : ce qui se négocie et ce qui ne se négocie pas",
+     "objectif": "Distinguer le noyau dur (corps de l'instrument) et les réglages périphériques (chevilles) afin de savoir où l'on peut improviser sans trahir son diapason.",
+     "sections": [
+      "Noyau, principes, préférences : une géographie en trois cercles",
+      "Pourquoi tout rendre non négociable conduit à la rupture",
+      "Cas pratique : argent, carrière, parenté, spiritualité, corps",
+      "Le contrat avec soi : écrire ses frontières avant la tempête",
+      "Signaux d'alarme : quand une marge se resserre sans prévenir",
+      "Négocier sans se trahir : le vocabulaire du juste compromis",
+      "Construire sa « charte d'accordage » personnelle en une page"
+     ],
+     "exercices": [
+      "Schéma des trois cercles pour quatre domaines de vie choisis",
+      "Simulation : trois scénarios de dilemme (famille/travail, argent/éthique, confort/vérité) et application du noyau vs marge"
+     ],
+     "exercices_notes": "Prévoir des exemples génériques pour éviter tout conseil personnalisé."
+    }
+   ]
+  },
+  {
+   "titre": "Deuxième partie — Repérer les fausses notes : écouter ce qui sonne faux",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "L'écoute de la fausse note : signaux corporels, émotionnels et rationnels",
+     "objectif": "Enseigner à détecter en temps réel les signes d'une décision en désaccord, sans paranoïa ni naïveté.",
+     "sections": [
+      "Où vivent les fausses notes : corps, affects, pensées, actions",
+      "Taxonomie simple : fausse note aiguë (urgence), sourde (doute), battement (conflit de valeurs)",
+      "Le ralentissement du temps avant un choix inconfortable",
+      "Distinguer peur légitime et résistance confortable",
+      "Le rôle de l'attention conditionnelle (Langer) : remarquer le contexte",
+      "Créer un barème interne de résonance (sur 10)",
+      "Quand demander un avis extérieur — et à qui"
+     ],
+     "exercices": [
+      "Mémo des signaux : liste personnelle des dix signaux de fausse note, classés corporels/émotionnels/rationnels",
+      "Journal d'une semaine de micro-décisions : noter à chaque fois le score de résonance et un commentaire"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Les harmoniques parasites : biais cognitifs, illusions et bruits d'époque",
+     "objectif": "Rendre opérationnels les biais majeurs comme des phénomènes de désaccordage acoustique, avec des garde-fous concrets.",
+     "sections": [
+      "Biais de confirmation, ancrage, disponibilité : le bruit qui fausse la mesure",
+      "Émotion et myopie temporelle : jouer à un seul tempo",
+      "Régret, statu quo, coût irrécupérable : les résonances fausses",
+      "L'illusion de contrôle et le biais de croyance à l'avantage social",
+      "Biais d'époque : succès, vitesse, productivité comme faux diapasons culturels",
+      "Une checklist biais en dix lignes (inspirée de Gawande)",
+      "Ne pas se haïr pour ses biais : posture d'artisan"
+     ],
+     "exercices": [
+      "Vérification biais avant décision majeure : remplir une demi-page à partir de la checklist",
+      "Relecture d'une ancienne décision : identifier quels biais ont probablement joué"
+     ],
+     "exercices_notes": "Insister sur l'approximation honnête, pas sur la certitude rétrospective."
+    },
+    {
+     "numero": 7,
+     "titre": "Deux tempos : décider vite, décider lentement",
+     "objectif": "Situer chaque type de décision dans le bon tempo d'accordage, en s'inspirant des travaux de Kahneman et Klein sans les opposer artificiellement.",
+     "sections": [
+      "Modèle dual : système rapide, système lent — ce qu'il faut en retenir",
+      "Quand l'intuition experte est fiable (environnements stables, rétroaction rapide)",
+      "Quand l'intuition nous trahit (hasard, émotion, biais)",
+      "Matrice tempo/urgence pour classer ses décisions récurrentes",
+      "Protocole des « quarante secondes d'accordage » avant un choix rapide",
+      "Décisions irréversibles : forcer le slow-down",
+      "Les faux dilemmes : parfois on peut accélérer l'un pour gagner du temps sur l'autre"
+     ],
+     "exercices": [
+      "Classification de douze décisions types en quatre cases (vite/juste, lent/juste, etc.) et rédaction d'une règle personnelle de tempo",
+      "Expérience : prendre une micro-décision quotidienne en quarante secondes strictement protocolées"
+     ],
+     "exercices_notes": "Proposer un tableau vierge à photocopier mentalement (description textuelle, pas de modèle protégé)."
+    },
+    {
+     "numero": 8,
+     "titre": "L'attention discrète : cultiver l'écoute de soi sans s'écouter à la loupe",
+     "objectif": "Construire une attention juste — ni narcissique ni absente — permettant d'entendre les fausses notes au fil de la vie.",
+     "sections": [
+      "Pleine conscience laïque et non dogmatique : attention aux sensations et aux idées",
+      "Journaling minimal : la page du matin, la page du soir",
+      "Le silence utile : marche, douche, tâches manuelles",
+      "Éviter l'hyper-introspection qui tourne en boucle",
+      "Signaux faibles et signaux forts : hiérarchiser ce qu'on entend",
+      "Quand l'écoute de soi se heurte à la honte : faire appel à l'auto-compassion (Neff)",
+      "Rituels d'écoute hebdomadaire de vingt minutes"
+     ],
+     "exercices": [
+      "Sept jours de page du matin (cinq minutes) : sensations, humeur, une décision en cours",
+      "Hebdomadaire de vingt minutes : « audit d'écoute » — qu'est-ce que j'entends de récurrent cette semaine ?"
+     ],
+     "exercices_notes": "Prévoir une version alternative pour personnes pour qui l'écrit est difficile."
+    }
+   ]
+  },
+  {
+   "titre": "Troisième partie — Le compostage des erreurs : transformer la fausse note en engrais",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Jeter, recycler, composter : trois régimes de l'erreur",
+     "objectif": "Établir une théorie et une pratique différenciée de l'erreur pour éviter à la fois le déni, la culpabilité et la rumination.",
+     "sections": [
+      "L'erreur comme verdict (à éviter) vs l'erreur comme information",
+      "Jeter : les erreurs purement mécaniques qu'on corrige en une ligne",
+      "Recycler : les erreurs qu'on transforme en règle immédiate",
+      "Composter : les erreurs lourdes, lentes, riches, à maturer",
+      "Pourquoi certaines erreurs ne se compostent pas (préjudice irréparable, dégât sur autrui)",
+      "Éthique : ne pas romantiser la souffrance, ne pas exploiter l'échec d'autrui",
+      "Annoncer le carnet : l'outil central de la partie"
+     ],
+     "exercices": [
+      "Classement d'un répertoire d'erreurs passées (cinq à dix) en jeter/recycler/composter",
+      "Choix d'une seule erreur « à composter » comme projet du chapitre"
+     ],
+     "exercices_notes": "Demander la prudence : ne reprendre que des erreurs supportables à revoir."
+    },
+    {
+     "numero": 10,
+     "titre": "Préparer le sol : autocompassion active face à la faute",
+     "objectif": "Démontrer et faire vivre que le compostage exige un sol psychologique : bienveillance, lucidité, humanité partagée.",
+     "sections": [
+      "Le problème de l'auto-critique : motivation apparente, coût réel",
+      "Trois piliers de l'auto-compassion (Neff) appliqués à la décision",
+      "Désactiver le « tout ou rien » identitaire (Dweck)",
+      "Le discours intérieur : trois tons possibles (juge, collègue, artisan)",
+      "Réparer avant de comprendre : l'ordre des priorités quand on a blessé",
+      "Ne pas confondre compassion et indulgence",
+      "Micro-pratiques de compassion en trois respirations"
+     ],
+     "exercices": [
+      "Lettre à soi-même depuis la perspective d'un artisan aimant, à propos d'une erreur récente",
+      "Dialogue à deux voix sur papier : la voix juge vs la voix artisan, cinq échanges"
+     ],
+     "exercices_notes": "Mentionner que la honte persistante peut nécessiter un accompagnement professionnel — pas de thérapie en livre."
+    },
+    {
+     "numero": 11,
+     "titre": "Extraire la graine : le protocole d'extraction d'apprentissage",
+     "objectif": "Proposer un protocole en étapes pour transformer une erreur passée en apprentissage actionnable et vérifiable.",
+     "sections": [
+      "Étape 1 : décrire sans interpréter (fait brut)",
+      "Étape 2 : reconstituer les options réellement ouvertes",
+      "Étape 3 : séparer processus et résultat (Duke)",
+      "Étape 4 : repérer les jugements de valeurs concernés",
+      "Étape 5 : formuler une graine (une phrase, un principe)",
+      "Étape 6 : tester la graine sur un prochain cas",
+      "Étape 7 : archiver et rouvrir plus tard",
+      "Cas détaillé fictif complet, étape par étape"
+     ],
+     "exercices": [
+      "Application complète du protocole à l'erreur choisie au chapitre précédent (deux pages)",
+      "Rédaction de la graine en une phrase, et calendrier de réouverture à trente et un jours"
+     ],
+     "exercices_notes": "Prévoir un exemple de protocole rempli pour guider le lecteur débutant."
+    },
+    {
+     "numero": 12,
+     "titre": "Le carnet de compostage : journal de transformation",
+     "objectif": "Concevoir et lancer le carnet de compostage, outil central de l'ouvrage, avec sa structure, son rythme et ses règles d'usage.",
+     "sections": [
+      "Pourquoi un objet physique ou numérique dédié",
+      "Structure proposée : date, contexte, note fausse, ressenti, hypothèses, graine, échéance, réouverture",
+      "Fréquence : le minimum viable (une fiche par erreur notable)",
+      "Règles de confidentialité et d'honnêteté",
+      "Erreurs du carnet : trop de perfection, trop d'auto-flagellation, fuite",
+      "Le carnet collectif en équipe ou famille (anonymisé)",
+      "Relire son carnet : la revue trimestrielle"
+     ],
+     "exercices": [
+      "Créer les premières quatre fiches du carnet (structure papier ou fichier)",
+      "Planifier les quatre revues trimestrielles de l'année dans son agenda"
+     ],
+     "exercices_notes": "Proposer une structure textuelle claire pour que chaque lecteur puisse la reproduire sans gabarit externe."
+    }
+   ]
+  },
+  {
+   "titre": "Quatrième partie — Laisser mûrir : l'art de la maturation des choix",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Le repos décisionnel : pourquoi tout trancher tout de suite n'est pas un vertu",
+     "objectif": "Réhabiliter la suspension et la maturation lente comme compétences, face à la culture de la réactivité permanente.",
+     "sections": [
+      "L'urgence fabriquée et le culte du résultat visible",
+      "Le repos n'est pas l'inaction : il y a un travail de fond",
+      "Différences entre procrastination, tergiversation et maturation",
+      "Le cerveau en mode repos et la digestion des idées",
+      "Signaux que l'on a besoin de laisser reposer",
+      "Le coût caché des décisions précipitées dans les relations et l'argent",
+      "Définir une « patience active » : ce qu'on fait pendant qu'on attend"
+     ],
+     "exercices": [
+      "Liste des décisions actuellement ouvertes : classer en urgentes / mûrissables / à longue incubation",
+      "Choisir une décision mûrissable et écrire une date de réévaluation (pas de décision avant)"
+     ],
+     "exercices_notes": "Rappeler que certaines situations exigent de trancher vite — le repos n'est pas une règle universelle."
+    },
+    {
+     "numero": 14,
+     "titre": "La sieste créative de l'esprit : incubation, récits et métaphores vivantes",
+     "objectif": "Exploiter les mécanismes d'incubation et de sens-making (Weick) pour laisser les idées et les choix se transformer.",
+     "sections": [
+      "Incubation : ce que la psychologie établit et ce qui reste incertain",
+      "Le rôle du sommeil, de la marche et des tâches à faible charge cognitive",
+      "Métaphores vivantes : se demander « à quoi cela ressemble-t-il ? »",
+      "Réenchanter le passé : réécrire une histoire d'échec en histoire d'apprentissage",
+      "Les listes de possibles (pas de décisions) : diverger avant de converger",
+      "Dialoguer avec un alter ego ou un conseil imaginaire (précautions)",
+      "Quand faire appel à un tiers pour accélérer l'incubation"
+     ],
+     "exercices": [
+      "Marche de quarante-cinq minutes sans téléphone, avec un carnet pour noter les images qui viennent",
+      "Réécriture narrative d'un ancien revers en trois versions : tragique, comique, artisan"
+     ],
+     "exercices_notes": "Souligner que la métaphore et le récit ne remplacent pas l'analyse factuelle."
+    },
+    {
+     "numero": 15,
+     "titre": "Décider de ne pas décider encore : protocoles de suspension",
+     "objectif": "Fournir des protocoles concrets pour suspendre une décision de manière délibérée et traçable, sans s'y perdre.",
+     "sections": [
+      "Le droit de dire « pas encore » dans un monde qui exige l'avis",
+      "Définir la durée, le déclencheur et la question de réouverture",
+      "Le paradoxe de la liberté dans la contrainte temporelle",
+      "Gérer la pression sociale autour de l'attente",
+      "Journal de bord d'une suspension réussie (exemple fictif)",
+      "Décider par étapes : mini-expérimentations et options réversibles",
+      "Signes que la suspension est devenue de l'évitement"
+     ],
+     "exercices": [
+      "Rédiger une « ordonnance de suspension » : question, durée, critères de sortie, personne ressource",
+      "Pour une décision en cours : concevoir une micro-expérimentation de sept jours"
+     ],
+     "exercices_notes": "Fournir un modèle de suspension en dix lignes."
+    },
+    {
+     "numero": 16,
+     "titre": "Signes de maturité : quand est-ce que le fruit tombe ?",
+     "objectif": "Aider le lecteur à reconnaître qu'une décision est prête à être prise, ou qu'elle exige encore du temps.",
+     "sections": [
+      "Indicateurs de maturité : clarté, stabilité émotionnelle, alignement des valeurs",
+      "Les faux signaux : lassitude, pression d'entourage, envie de clore",
+      "Écouter le corps et les rêves sans mysticisme",
+      "Le test du oui/tranquille vs oui/exalté",
+      "Prendre la décision comme on cueille : geste net, respect du fruit",
+      "Écrire sa « déclaration de maturité » avant l'annonce",
+      "Quand le fruit ne tombe jamais : accepter le non-choix assumé"
+     ],
+     "exercices": [
+      "Baromètre de maturité sur dix critères pour la décision cible",
+      "Simuler l'annonce de la décision à une personne bienveillante (oral ou écrit)"
+     ],
+     "exercices_notes": "Proposer une grille auto-évaluative indicative, non scientifique."
+    }
+   ]
+  },
+  {
+   "titre": "Cinquième partie — Le protocole d'accordage : un système pour les décisions de tous les jours",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Les sept gestes de l'accordage décisionnel",
+     "objectif": "Exposer le protocole complet, synthèse opérationnelle de l'ensemble du livre, utilisable en douze à trente minutes.",
+     "sections": [
+      "Présentation des sept gestes : situer, clarifier le diapason, élargir, sentir, tester, trancher ou suspendre, noter",
+      "Temps requis et niveau d'exigence selon le type de décision",
+      "Geste 1-2 : situer la décision dans sa carte de noyau/marge",
+      "Geste 3-4 : options et première écoute de résonance",
+      "Geste 5-6 : tests de réalité, deadline, acte",
+      "Geste 7 : fiche carnet immédiate",
+      "Adaptations mobile : les sept gestes en cinq minutes"
+     ],
+     "exercices": [
+      "Simuler le protocole complet sur une décision réelle mais modérée (pas la plus dure)",
+      "Version express cinq minutes sur une décision quotidienne"
+     ],
+     "exercices_notes": "Inclure un récapitulatif textuel des sept gestes pour mémorisation."
+    },
+    {
+     "numero": 18,
+     "titre": "Calibrage quotidien : rituels courts, listes et boussoles",
+     "objectif": "Ancrer l'accordage dans le quotidien par des rituels sobres, sans surcharge.",
+     "sections": [
+      "Le quotidien comme terrain d'entraînement : micro-décisions",
+      "La checklist de matin (trois questions), la checklist de soir (trois questions)",
+      "Revue hebdomadaire de vingt minutes : erreurs, graines, maturations",
+      "Revue mensuelle : ajustement des chevilles, pas du noyau",
+      "Outils simples : carnet, rappel, page blanche, conversation",
+      "Éviter la productivité toxique du développement personnel",
+      "Signes que les rituels ont été oubliés et comment les relancer"
+     ],
+     "exercices": [
+      "Mettre en place trois rituels sur sept jours et tenir un mini-suivi",
+      "Rédiger une checklist personnelle d'accordage en dix lignes maximum"
+     ],
+     "exercices_notes": "Insister sur la robustesse à la fatigue : les rituels doivent survivre aux mauvais jours."
+    },
+    {
+     "numero": 19,
+     "titre": "Réaccorder ses critères quand la vie change",
+     "objectif": "Apprendre à réviser le diapason lui-même (double boucle) aux grands carrefours, sans tomber dans le bricolage opportuniste.",
+     "sections": [
+      "Changements de vie : parentalité, deuil, migration, maladie, promotion, rupture",
+      "Le noyau est-il stable ? questions de réévaluation éthique",
+      "Distinguer usure du diapason et besoin légitime de transposition",
+      "Rituels de réaccordage : trimestre, année, anniversaires marquants",
+      "Demander un avis de confiance : protocole d'accordage partagé",
+      "Quand les valeurs entrent en conflit avec celles de son entourage",
+      "Ne pas tout changer en même temps"
+     ],
+     "exercices": [
+      "Exercice « carte de réaccordage » : trois domaines qui demandent une révision de critères",
+      "Rédaction d'un amendment à la charte d'accordage (une page)"
+     ],
+     "exercices_notes": "Prévoir des exemples fictifs, pas de témoignages invérifiables."
+    },
+    {
+     "numero": 20,
+     "titre": "Accorder un collectif : décider à plusieurs sans casser l'orchestre",
+     "objectif": "Étendre l'accordage aux familles, équipes et groupes, en s'appuyant sur la sécurité psychologique et le dialogue structuré.",
+     "sections": [
+      "Le diapason partagé : valeurs communes et marges individuelles",
+      "Rôles, responsabilités, qui tranche et qui consulte",
+      "Rituels d'équipe : rétrospective erreur, carnet anonyme, pré-mortem",
+      "Pré-mortem : imaginer l'échec avant de décider (technique issue de la gestion des risques, popularisée par Gary Klein)",
+      "Sécurité psychologique (Edmondson) : conditions de base",
+      "Décision en famille : argent, éducation, projets de vie",
+      "Gérer le désaccord durable sans rupture ni soumission"
+     ],
+     "exercices": [
+      "Faciliter une séance pré-mortem de groupe sur un projet fictif ou réel",
+      "Négocier une mini-charte d'accordage à deux ou en équipe"
+     ],
+     "exercices_notes": "Proposer des scripts de phrases prêtes à l'emploi."
+    }
+   ]
+  },
+  {
+   "titre": "Sixième partie — Jouer sa partition : intégrer l'accordage à une vie entière",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Improviser : la décision en contexte incertain et changeant",
+     "objectif": "Préparer à jouer sans partition figée : entraîner la capacité d'improvisation fondée sur un diapason solide.",
+     "sections": [
+      "L'improvisation musicale comme discipline : structure et liberté",
+      "Principes d'improvisation décisionnelle : accepter l'incertitude, avancer par essais",
+      "Quand l'environnement change vite : réduire le périmètre, augmenter la fréquence de feedback",
+      "Jeux et mises en situation pour entraîner le réflexe d'accordage",
+      "La place du corps : respiration, posture, voix sous pression",
+      "Erreurs d'improvisation : comment rebondir sans casser le morceau",
+      "Célébrer les bons coups aussi : ancrer le succès"
+     ],
+     "exercices": [
+      "Exercice des trois options en dix minutes sur une situation modérée",
+      "Compte rendu d'une improvisation réussie ou ratée, et relecture avec la grille du protocole"
+     ],
+     "exercices_notes": "Inviter à des mises en situation bas risque."
+    },
+    {
+     "numero": 22,
+     "titre": "Les grands virages : décider quand tout bascule",
+     "objectif": "Accompagner les décisions rares et lourdes (carrière, amour, santé de projet, déménagement) avec un accroissement du protocole, sans injonction au dépassement.",
+     "sections": [
+      "Ce qui distingue les décisions de virage",
+      "Prendre son temps sans s'immobiliser : calendrier élargi",
+      "Le conseil de terrain : composer son panel (métier, cœur, expérience)",
+      "Écrire un journal de crise : tenir la chronique",
+      "Arbitrer entre amour, argent, sens et risque sans recette magique",
+      "Quand décider de partir : exit, voice, loyalty (Hirschman)",
+      "Quand décider de rester : le courage de la continuité",
+      "Deuil des options non choisies : rituel symbolique",
+      "Aide professionnelle et limites de ce livre (médical, juridique, financier)"
+     ],
+     "exercices": [
+      "Carte des options de virage : quatre scénarios, conséquences à six mois, un an, trois ans (estimation honnête)",
+      "Rituel symbolique d'adieu à l'option non choisie"
+     ],
+     "exercices_notes": "Rappel explicite : pour santé, droit, fiscalité, consulter des professionnels qualifiés."
+    },
+    {
+     "numero": 23,
+     "titre": "Transmettre son diapason : éduquer, diriger, partager",
+     "objectif": "Montrer que l'accordage se transmet par l'exemple, l'apprentissage et la modélisation de l'erreur, pas par les sermons.",
+     "sections": [
+      "Transmettre aux enfants : nommer les fausses notes sans humilier",
+      "Éduquer au choix : donner des options limitées et du temps",
+      "Diriger : montrer sa propre révision de critères",
+      "Le récit d'échec partagé en équipe : puissance et précautions",
+      "Mentorat et contre-mentorat",
+      "Écrire pour soi et pour les autres : blog, lettre, carnet familial",
+      "Construire une micro-culture de l'accordage dans une organisation"
+     ],
+     "exercices": [
+      "Préparer un récit de cinq minutes sur une erreur compostée, à raconter à une personne ou un groupe",
+      "Observer une situation d'éducation au choix et noter ce qui a favorisé ou bloqué l'accordage"
+     ],
+     "exercices_notes": "Proposer des formulations concrètes à utiliser en famille."
+    },
+    {
+     "numero": 24,
+     "titre": "Vivre en accord : la décision comme pratique de vie",
+     "objectif": "Boucler le livre : intégrer diapason, compost et protocole dans une éthique de long terme, avec lucidité sur les limites.",
+     "sections": [
+      "Synthèse en trois verbes : accorder, écouter, composter",
+      "La décision n'est pas un sommet mais une partition continue",
+      "Biomécanique de la confiance en soi : se faire confiance progressivement",
+      "Éviter le piège du « développe personnel permanent » : quand s'arrêter",
+      "Rituels de long terme : saisonnalité, anniversaires de décisions",
+      "L'acceptation : certaines notes resteront imprécises",
+      "Une promesse raisonnable : mieux écouter, mieux transformer, mieux transmettre",
+      "Épilogue : une fiche carnet vierge et un calendrier de réaccordage"
+     ],
+     "exercices": [
+      "Rédiger sa charte d'accordage finale (une à deux pages)",
+      "Planifier le premier semestre d'accordage : dates de revues, carnet, personne ressource"
+     ],
+     "exercices_notes": "Conclure par un appel à la pratique régulière, sans garantie de résultat."
+    }
+   ]
+  }
+ ]
+}

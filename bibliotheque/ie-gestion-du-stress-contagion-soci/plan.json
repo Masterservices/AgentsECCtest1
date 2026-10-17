@@ -1,0 +1,560 @@
+{
+ "titre": "Et si votre stress n'était pas le vôtre ?",
+ "sous_titre": "Cartographier les chaînes de contagion émotionnelle, couper la transmission, devenir une balise d'immunité dans votre réseau",
+ "bibliographie": [
+  {
+   "auteur": "Nicholas Christakis et James H. Fowler",
+   "titre": "Connected: The Surprising Power of Our Social Networks and How They Shape Our Lives",
+   "annee": "2009",
+   "idee": "Les états émotionnels, les comportements de santé et les habitudes se propagent dans les réseaux sociaux jusqu'à trois degrés de séparation. Un ami stressé augmente mécaniquement la probabilité de stress de ses proches, puis de leurs proches.",
+   "apport": "Socle scientifique de la thèse : le stress n'est pas une affaire purement individuelle. Nous en retenons le vocabulaire de « propagation » et l'idée qu'il existe des structures de réseau qui amplifient ou freinent la contagion."
+  },
+  {
+   "auteur": "Elaine C. Hatfield, John T. Cacioppo et Richard L. Rapson",
+   "titre": "Emotional Contagion",
+   "annee": "1994",
+   "idee": "L'émotion se transmet par un processus automatique d'imitation faciale, vocale et posturale : on « attrape » l'état émotionnel d'autrui sans s'en rendre compte, dès les premières secondes d'interaction.",
+   "apport": "Mécanisme micro de la contagion. Le livre montre que la « charge virale » émotionnelle se fixe d'abord par le corps (souffle, visage, posture) avant de passer dans le récit mental."
+  },
+  {
+   "auteur": "Sigal Barsade",
+   "titre": "The Ripple Effect: Emotional Contagion and Its Influence on Group Behavior",
+   "annee": "2002",
+   "idee": "Dans les groupes, l'humeur d'une seule personne se répand comme une onde et modifie la coopération, la performance perçue et le climat collectif. Les personnalités les plus expressives dominent l'humeur du groupe.",
+   "apport": "L'idée qu'il existe des « porteurs » à fort pouvoir d'émission au sein des collectifs, et que les réunions sont des sites majeurs de contamination émotionnelle."
+  },
+  {
+   "auteur": "Daniel Goleman",
+   "titre": "Social Intelligence: The New Science of Human Relationships",
+   "annee": "2006",
+   "idee": "Le cerveau social réagit aux états des autres par synchronie neurale et miroir ; nos relations façonnent littéralement notre physiologie et notre régulation émotionnelle.",
+   "apport": "Le lien entre relations et régulation biologique du stress, sans basculer dans le neuro-marketing. Inspiration du concept de « balise » : une présence qui réorganise le système nerveux d'autrui."
+  },
+  {
+   "auteur": "Robert M. Sapolsky",
+   "titre": "Why Zebras Don't Get Ulcers",
+   "annee": "1994",
+   "idee": "Le stress chronique différé, typiquement humain, diffère du stress aigu des prédateurs : c'est la rumination sociale et narrative qui entretient la charge, plus que le danger réel.",
+   "apport": "Distinction essentielle entre urgence (utile) et contamination narrative (toxique). Cadre pour expliquer pourquoi « se calmer seul » échoue : le stimulus de recontamination est souvent social."
+  },
+  {
+   "auteur": "James J. Gross",
+   "titre": "Handbook of Emotion Regulation",
+   "annee": "2007",
+   "idee": "La régulation émotionnelle opère à plusieurs niveaux : sélection de la situation, modification de la situation, attention, réévaluation cognitive et modulation de la réponse. Le niveau situationnel est souvent sous-estimé.",
+   "apport": "Justification des quarantaines ponctuelles : changer d'environnement ou de présence est une stratégie de régulation aussi légitime que la respiration. Le livre en tire des protocoles d'évitement temporaire ciblé."
+  },
+  {
+   "auteur": "Barbara L. Fredrickson",
+   "titre": "Love 2.0: How Our Supreme Emotion Affects Everything We Feel, Think, Do, and Become",
+   "annee": "2013",
+   "idee": "Les micro-moments de connexion positive (« love 2.0 ») se synchronisent biochimiquement entre personnes et construisent des ressources durables, une forme d'immunité relationnelle.",
+   "apport": "Modèle positif de la contagion : on ne coupe pas seulement les chaînes toxiques, on cultive activement la transmission des états apaisants. Base du chapitre sur devenir balise."
+  },
+  {
+   "auteur": "Matthew D. Lieberman",
+   "titre": "Social: Why Our Brains Are Wired to Connect",
+   "annee": "2013",
+   "idee": "Le besoin d'appartenance sociale active les mêmes circuits que les besoins fondamentaux ; l'exclusion sociale fait mal comme une brûlure physique.",
+   "apport": "Pourcentage et mécanismes : le cerveau social tourne en arrière-plan presque en permanence. Explication du coût psychologique des quarantaines mal dosées (risque de se couper trop)."
+  },
+  {
+   "auteur": "John Gottman et Nan Silver",
+   "titre": "The Seven Principles for Making Marriage Work",
+   "annee": "1999",
+   "idee": "Les couples en détresse sont souvent piégés par des cycles de critiques-défense-retrait-humiliation (les « quatre cavaliers ») qui contaminent mutuellement leur système émotionnel.",
+   "apport": "Grille d'analyse des dyades : le stress de l'un devient le carburant de l'autre. Source des protocoles de désescalade à deux et du rituel de réparation."
+  },
+  {
+   "auteur": "Sue A. Johnson",
+   "titre": "Hold Me Tight: Seven Conversations for a Lifetime of Love",
+   "annee": "2008",
+   "idee": "Les conflits conjugaux naissent souvent d'une peur d'abandon activée, transformant deux personnes vulnérables en deux combattants ; l'attachement secure se reconstruit par des dialogues guidés.",
+   "apport": "Compréhension profonde des « foyers » émotionnels du couple. Le livre s'en inspire pour un exercice de désescalade basé sur la vulnérabilité plutôt que l'argumentation."
+  },
+  {
+   "auteur": "Steven M. Stosny",
+   "titre": "Treating Attachment Abuse: An Emotion-Focused Workbook",
+   "annee": "2006",
+   "idee": "L'abus et l'agressivité relationnelle s'entretiennent par des cascades de défense et de contournement émotionnel ; la compassion active et le discernement du pouvoir émotionnel freinent la réactivité.",
+   "apport": "Concepts de « pouvoir émotionnel » et de réactivité défensive utiles pour le chapitre sur les porteurs de colère et de peur. Usage prudent, hors cadre thérapeutique."
+  },
+  {
+   "auteur": "Robert W. Levenson",
+   "titre": "Emotion in Social Relationships (dir. avec K. T. Sullivan et J. A. Coan)",
+   "annee": "2006",
+   "idee": "Les époux régulent réciproquement leurs émotions au fil du temps ; l'adéquation (ou l'inadéquation) de cette coregulation prédit la satisfaction relationnelle et la santé.",
+   "apport": "La coregulation comme fait normal, non comme pathologie. Idée que la « quarantaine » doit être ponctuelle, car l'isolement prolongé dérègle le système."
+  },
+  {
+   "auteur": "Amir Barak",
+   "titre": "Internet-Based Interventions for Health and Well-being",
+   "annee": "2019",
+   "idee": "Les interventions numériques peuvent soutenir le bien-être, mais leur efficacité dépend de la qualité relationnelle et de l'engagement, pas de la seule technologie.",
+   "apport": "Mise en garde utile : les réseaux numériques sont des vecteurs de contagion du stress (comparaison, outrage, notification). Place dans les chapitres sur le balisage numérique."
+  },
+  {
+   "auteur": "Mark S. Granovetter",
+   "titre": "The Strength of Weak Ties",
+   "annee": "1973",
+   "idee": "Les liens faibles (connaissances, collègues occasionnels) sont souvent plus informatifs et porteurs de ressources que les liens forts, car ils connectent des cercles différents.",
+   "apport": "Les balises ne sont pas toujours nos intimes : certaines personnes périphériques (coaching, voisins, pairs) désamorcent mieux le stress que les proches les plus proches du foyer."
+  },
+  {
+   "auteur": "Robin I. M. Dunbar",
+   "titre": "How Many Friends Does One Person Need? Dunbar's Number and Other Evolutionary Tales",
+   "annee": "2010",
+   "idee": "La capacité humaine à maintenir des relations stables est limitée (autour de 150, avec des cercles plus denses). Au-delà, la qualité de la relation et le statut social gouvernent la contagion.",
+   "apport": "Cadre pour dimensionner le journal de contagion : on ne peut pas « baliser » tout son réseau, il faut prioriser les nœuds à fort impact (les 5 à 15 personnes les plus connectées à soi)."
+  },
+  {
+   "auteur": "Teresa M. Amabile et Steven J. Kramer",
+   "titre": "The Progress Principle: Using Small Wins to Ignite Joy, Engagement, and Creativity at Work",
+   "annee": "2011",
+   "idee": "Les progrès, même minimes, sont le plus fort moteur d'humeur positive au travail ; les événements quotidiens négatifs ont un effet plus puissant que les positifs (négativité biaisée).",
+   "apport": "Le biais de négativité explique pourquoi un seul « porteur » de stress peut annuler plusieurs « balises ». Stratégies de micro-progrès collectifs dans les chapitres rituels."
+  },
+  {
+   "auteur": "Christine Porath et Amir Barclay",
+   "titre": "Mastering Civility: A Manifesto for the Workplace",
+   "annee": "2016",
+   "idee": "L'incivilité quotidienne (regard fuyant, interruption, sarcasme) coûte cher en attention, en engagement et en stress des témoins, bien au-delà de la cible.",
+   "apport": "Vecteur fréquent de contagion au travail : le chapitre sur la charge virale inclut les micro-agressions comme particules virales émotionnelles."
+  },
+  {
+   "auteur": "James W. Pennebaker",
+   "titre": "Opening Up: The Healing Power of Expressing Emotions",
+   "annee": "1997",
+   "idee": "L'expression écrite ou orale des émotions améliore la santé perçue et la régulation, en particulier lorsque l'expression passe du chaos émotionnel à un récit cohérent.",
+   "apport": "Fondement du journal de contagion : écrire non pas pour se plaindre, mais pour nommer la source (soi, l'autre, le contexte) et reprendre la main sur le processus de transmission."
+  },
+  {
+   "auteur": "Steven C. Hayes",
+   "titre": "A Liberated Mind: How to Step Beyond the Tyranny of Your Mind and Embrace the Cost of Uncertainty",
+   "annee": "2019",
+   "idee": "L'évitement expérientiel (fuir ses émotions, y compris par le contrôle excessif) entretient la souffrance ; l'acceptation psychologique et les valeurs guident l'action malgré le stress.",
+   "apport": "Rappel que couper les chaînes de transmission ne signifie pas nier ce qu'on ressent. Les quarantaines sont ciblées et choisies, pas défensives en bloc."
+  },
+  {
+   "auteur": "Marshall B. Rosenberg",
+   "titre": "Nonviolent Communication: A Language of Life",
+   "annee": "2003",
+   "idee": "La communication non violente distingue observations, sentiments, besoins et demandes, réduisant les cycles d'accusation et de défense qui amplifient le stress relationnel.",
+   "apport": "Outil central des désescalades : reformuler le besoin derrière le comportement « porteur » sans le juger, ce qui désarme la contagion agressive."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "PREMIÈRE PARTIE — Comprendre la contagion : votre stress a une carte sociale",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le stress que vous portez n'est peut-être pas né en vous",
+     "objectif": "Poser la thèse : distinguer le stress auto-généré du stress hérité par contagion, expliquer pourquoi la seule volonté individuelle échoue face à un environnement saturé.",
+     "sections": [
+      "Pourquoi « se calmer » seul fonctionne parfois et échoue souvent",
+      "Le stress comme phénomène relationnel et non purement intrapsychique",
+      "La différence entre stimulus stressant et réaction stressée (première boussole)",
+      "Trois profils de contamination : héritée, subie, auto-amplifiée",
+      "Ce que le livre ne promet pas (pas de garantie, pas de conseil médical personnalisé)"
+     ],
+     "exercices": [
+      "Test de suspicion de contagion : lister trois situations récentes de stress et noter la présence d'autrui au déclenchement",
+      "Mini-carnet « première minute » : qui était là, quels mots, quel climat avant le pic de tension"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Les six mécanismes de transmission émotionnelle",
+     "objectif": "Décrire de façon concrète et vulgarisée les canaux par lesquels le stress saute d'une personne à l'autre.",
+     "sections": [
+      "L'imitation corporelle : visage, souffle, posture (contagion préverbale)",
+      "Le biais de négativité : pourquoi un événement menaçant l'emporte sur dix apaisants",
+      "Les récits partagés : le storytelling collectif de la peur et de l'urgence",
+      "Les attentes et les prédictions sociales : le stress par prophétie",
+      "Le rôle des silences et des non-dits comme vecteurs",
+      "Le numérique : notifications, scroll, outrage et comparaison permanente"
+     ],
+     "exercices": [
+      "Relevé des six canaux sur une journée type : cocher le canal dominant à chaque épisode de tension",
+      "Expérience de 48 h sans actualités ni réseaux sociaux : noter l'évolution de la vigilance"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Charge virale émotionnelle : mesurer ce que vous respirez",
+     "objectif": "Proposer un vocabulaire et une grille simple pour quantifier (symboliquement) la dose de stress émotionnel reçue dans différents environnements.",
+     "sections": [
+      "Définir la « charge virale » : intensité × durée × fréquence d'exposition",
+      "Échelle subjective de 0 à 10 pour les cinq canaux principaux",
+      "Les environnements à forte densité : réunion, foyer, transport, fil d'actualité",
+      "La mémoire du corps : maux, tensions, sommeil comme indicateurs indirects",
+      "Attention à ne pas pathologiser : indicateur de tendance, pas diagnostic"
+     ],
+     "exercices": [
+      "Grille de charge virale quotidienne (5 minutes le soir)",
+      "Carte thermique hebdomadaire de vos environnements (foyer, travail, transports, écran)"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Votre réseau, un organisme qui respire à votre place",
+     "objectif": "Présenter le réseau social comme un système vivant qui module la régulation émotionnelle, à la manière d'un système immunitaire partagé.",
+     "sections": [
+      "Liens forts, liens faibles : qui vous stresse, qui vous répare",
+      "La coregulation : fait normal, pas faiblesse",
+      "Pourquoi couper tout le monde n'est pas une stratégie durable",
+      "Le paradoxe de l'isolement : moins de contagion, moins de régulation",
+      "Première esquisse de cartographie sociale (aperçu du chapitre 6)"
+     ],
+     "exercices": [
+      "Dessin du réseau en trois cercles : intimes, réguliers, périphériques (10 minutes)",
+      "Repérer une personne dont la présence baisse votre tension corporelle sans effort"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "DEUXIÈME PARTIE — Cartographier : porteurs, balises et foyers",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Identifier les « porteurs » de stress dans votre entourage",
+     "objectif": "Apprendre à repérer les personnes qui, sans malveillance, diffusent régulièrement de la tension et à comprendre leurs profils types.",
+     "sections": [
+      "Le porteur n'est pas un « mauvais » : distinguer intention et effet",
+      "Profils : l'urgentiste chronique, le catastrophiste, le contrôleur, le ruminateur, le critique",
+      "Les porteurs situationnels : collègue de crise, parent fatigué, ami en transition",
+      "Reconnaître la contagion en soi face à eux (écho, pas infestation)",
+      "Éviter le piège du diagnostic d'autrui : observer les effets, pas étiqueter les gens"
+     ],
+     "exercices": [
+      "Liste des trois personnes les plus souvent associées à vos pics de tension, avec contexte et durée",
+      "Journal de l'écho : noter les mots et postures que vous imitez involontairement après un échange"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Repérer les « balises » apaisantes : vos phares relationnels",
+     "objectif": "Inventorier les personnes, lieux et rituels qui régulent votre système nerveux et qui méritent d'être protégés ou cultivés.",
+     "sections": [
+      "Définition d'une balise : présence qui ramène vers le calme sans injonction",
+      "Balises humaines : qui, quand, comment elles opèrent",
+      "Balises non humaines : nature, animaux, musique, travail manuel",
+      "Les balises périphériques : le coiffeur, le voisin, le pair de sport",
+      "Le test du « après-eux » : sensation corporelle 15 minutes après la rencontre"
+     ],
+     "exercices": [
+      "Inventaire des balises (personnes + lieux + activités) classé par effet mesuré",
+      "Planifier trois contacts de balise sur la semaine suivante (protocole de dosage)"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Cartographie complète : dessiner la carte de contagion de votre vie",
+     "objectif": "Assembler les données en une carte visuelle (familiale, professionnelle, amicale, numérique) pour prioriser les interventions.",
+     "sections": [
+      "Choisir une échelle : cercles, tableau, application ou papier",
+      "Nœuds à fort impact : les 5 à 15 personnes les plus connectées à vous",
+      "Zones chaudes : endroits et horaires de charge virale maximale",
+      "Zones froides : moments et lieux déjà protecteurs",
+      "Règle de confidentialité : la carte est pour vous, pas pour diffusion"
+     ],
+     "exercices": [
+      "Réalisation de la carte de contagion (format libre, 30 minutes)",
+      "Premier diagnostic : trois chaînes à couper en priorité, trois balises à renforcer"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Mesurer sa propre charge d'émission : êtes-vous le porteur ?",
+     "objectif": "Retourner le miroir : évaluer comment soi-même on diffuse du stress autour de soi, sans culpabilité excessive.",
+     "sections": [
+      "L'émission passive : visage fermé, souffle court, silence lourd",
+      "L'émission active : remarques anxiogènes, catastrophisme partagé",
+      "L'émission réactive : stress hérité qui se retourne vers la famille",
+      "Effet de halo dans les rôles d'autorité (parent, manager, soignant)",
+      "L'autocritique comme premier vecteur d'émission"
+     ],
+     "exercices": [
+      "Audit d'émission : demander à une personne de confiance trois observations factuelles",
+      "Expérience « visage au repos » : se filmer ou se photographier en situation de fatigue et observer"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "TROISIÈME PARTIE — Couper les chaînes : quarantaines et désescalade",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "La quarantaine ponctuelle : s'isoler sans se couper",
+     "objectif": "Enseigner l'art de la mise à distance temporaire et ciblée, alternative à l'évitement permanent ou à la résignation.",
+     "sections": [
+      "Quarantaine ≠ rupture : durée, intention, réintégration",
+      "Les trois niveaux : micro-pause, demi-journée, retrait de soirée",
+      "Communicer la quarantaine sans blesser (scripts prêts à l'emploi)",
+      "Quand la quarantaine est dangereuse (isolement pathologique, deuil, dépression)",
+      "Remplacer le vide : ce qu'on met dans le temps protégé"
+     ],
+     "exercices": [
+      "Conception d'une quarantaine de 30 minutes adaptable (soirée, bureau, repas familial)",
+      "Rédiger deux phrases-types pour annoncer un retrait temporaire à un proche"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Protocoles de désescalade à deux",
+     "objectif": "Fournir des scripts et des rituels de décompression mutuelle pour couples, amis ou collègues volontaires.",
+     "sections": [
+      "Principe : désescalader le système, pas gagner l'argument",
+      "Protocole 1 — La respiration synchronisée de 90 secondes",
+      "Protocole 2 — Le tour de parole à minuteur (observation / sentiment / besoin)",
+      "Protocole 3 — Le mot-code d'arrêt et la reprise différée",
+      "Protocole 4 — La marche côte-à-côte sans verbaliser le conflit",
+      "Quand le protocole échoue : reconnaître et recommencer plus tard"
+     ],
+     "exercices": [
+      "S'entraîner aux quatre protocoles sur un sujet de tension modéré (pas le sujet brûlant)",
+      "Créer un mot-code personnel du couple ou du binôme"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Désamorcer la contagion au travail",
+     "objectif": "Stratégies concrètes pour les réunions, open spaces, managers et équipes exposées à la tension collective.",
+     "sections": [
+      "La réunion comme site de contagion : premières minutes, rôles, non-dits",
+      "Ouvrir et fermer les réunions par un ancrage corporel partagé",
+      "Réponses aux urgences permanentes : distinguer crise réelle et crise perpétuelle",
+      "Managers : ne pas être le porteur en chef, ni le déni",
+      "Télétravail : frontières floues et contagion par messagerie"
+     ],
+     "exercices": [
+      "Audit d'une réunion type sur trois indicateurs de contagion",
+      "Protocole d'ouverture de réunion de 3 minutes (version sobre, sans jargon"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Couper les chaînes numériques",
+     "objectif": "Traiter le réseau social et la messagerie comme des vecteurs majeurs de contamination émotionnelle, avec des règles d'hygiène réalistes.",
+     "sections": [
+      "Le fil d'actualité comme salle d'épidémie : outrage, comparaison, FOMO",
+      "Notifications : la micro-interruption comme stress permanent",
+      "Discussions de groupe familiaux et politiques : le pic de charge virale",
+      "Curations et désabonnements : alléger sans se couper du monde",
+      "Hygiène de rédaction : ne pas diffuser sa charge avant l'apaisement"
+     ],
+     "exercices": [
+      "Nettoyage de 30 abonnements / notifications en une session",
+      "Règle des 24 heures avant de répondre à un message anxiogène ou agressif"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "QUATRIÈME PARTIE — Devenir balise : soi comme source d'immunité",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Ancrer son propre système avant de baliser les autres",
+     "objectif": "Stabiliser la régulation personnelle comme prérequis éthique et pratique à toute tentative d'apaiser autrui.",
+     "sections": [
+      "L'ancre d'abord : cohérence entre souffle, posture et attention",
+      "Techniques de recentrage brèves (issues de la psychophysiologie du stress, sans promesse thérapeutique)",
+      "Le sommeil, l'alimentation, le mouvement : socle non glamour, hautement efficace",
+      "Gérer sa rumination narrative (le stress passé qui contamine le présent)",
+      "Se protéger soi-même sans égoïsme : masque d'oxygène appliqué d'abord à soi"
+     ],
+     "exercices": [
+      "Routine de 7 minutes d'ancrage matinale (respiration + intention de balise)",
+      "Journal de rumination : écrire 10 minutes puis clore volontairement la session"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "L'art du balisage : calmer sans forcer",
+     "objectif": "Définir et pratiquer le « balisage » : interventions discrètes qui modulent l'émotion d'autrui sans le manipuler ni le sauver.",
+     "sections": [
+      "Balisage vs sauvetage : on propose un climat, on ne décide pas pour l'autre",
+      "Le pouvoir du ton de la voix et du rythme respiratoire (contagion constructive)",
+      "Reformulation apaisante : refléter, nommer, resituer",
+      "Le silence actif et la présence stable",
+      "Savoir quand ne pas baliser : respecter le deuil, la colère légitime"
+     ],
+     "exercices": [
+      "Exercice en binôme : briefer une minute sur un événement stressant, l'autre balise sans conseil",
+      "Enregistrement vocal d'un message de balisage à soi-même (voix de balise pour soi)"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Devenir la balise de son foyer : couple et famille",
+     "objectif": "Appliquer le balisage aux relations les plus exposées à la contagion quotidienne : conjoint, enfants, parents âgés.",
+     "sections": [
+      "Le foyer comme système : un stress n'y reste jamais localisé",
+      "Enfants : ne pas leur confier la gestion de notre charge, leur offrir des rituels stables",
+      "Adolescents : distance et présence, le pari de la disponibilité sans intrusion",
+      "Parents et beaux-parents : frontières affectives sans rupture",
+      "Rituels de retour à la maison : passage symbolique entre le monde extérieur et le foyer"
+     ],
+     "exercices": [
+      "Mettre en place un rituel de 10 minutes de « décompression partagée » à l'heure du retour",
+      "Lettre non envoyée à un proche « porteur » : exprimer sans envoyer"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Balisage professionnel : collègues, équipe, clients",
+     "objectif": "Utiliser son influence émotionnelle au travail de façon éthique et mesurée pour abaisser la contagion collective.",
+     "sections": [
+      "Le rôle social : plus on est en haut d'une hiérarchie, plus on irradie",
+      "Protocoles de fin de crise : clôture narrative et reconnaissance",
+      "Empathie limitée : accompagner sans absorber",
+      "Créer des micro-rituels d'équipe qui freinent la charge virale",
+      "Cas difficiles : manager anxieux, client agressif, collègue débordé"
+     ],
+     "exercices": [
+      "Rédiger une phrase de clôture de réunion en période de tension",
+      "Cartographier son influence émission/réception dans l'équipe actuelle"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "CINQUIÈME PARTIE — Immunité collective : rituels, culture et horizon",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Rituels d'immunité : des micro-pratiques répétées",
+     "objectif": "Construire des rituels simples, répétés et partagés qui augmentent la résistance collective à la contagion du stress.",
+     "sections": [
+      "Pourquoi les rituels marchent mieux que les vœux : répétition, symbole, prévisibilité",
+      "Rituels individuels : ouverture et clôture de journée",
+      "Rituels dyadiques : débrief du soir, respiration du matin",
+      "Rituels collectifs : tour de table, silence partagé, marche du dimanche",
+      "Mesurer l'effet réel sans se mentir : indicateurs simples"
+     ],
+     "exercices": [
+      "Concevoir un rituel personnel et un rituel collectif, les tester une semaine",
+      "Relevé avant/après de la charge virale sur le rituel adopté"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Le journal de contagion : outil central de l'ouvrage",
+     "objectif": "Développer pleinement le journal de contagion comme pratique réflexive, en évitant la rumination.",
+     "sections": [
+      "Structure du journal : épisode, canal, émission, réception, intervention, issue",
+      "Fréquence et durée : 5 à 10 minutes, pas plus (anti-rumination)",
+      "Catégoriser sans se juger : hérité / subi / émis / interrompu",
+      "Revue hebdomadaire : tendances, pas culpabilité",
+      "Quand arrêter ou adapter le journal (fatigue, obsession)"
+     ],
+     "exercices": [
+      "Modèle de fiche journal de contagion (imprimable / copiable)",
+      "Premier cycle complet d'une semaine de journal + synthèse en une page"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Désescalade avancée : les conflits longs et les blessures anciennes",
+     "objectif": "Traiter les chaînes de transmission les plus tenaces : rancœurs familiales, traumatismes partagés, polarisations idéologiques.",
+     "sections": [
+      "Pourquoi certains liens contaminent pendant des décennies",
+      "La reconnaissance sans aveu : faire place à l'expérience de l'autre",
+      "Gérer les fêtes familiales et les retrouvailles à charge virale élevée",
+      "Polarisation politique et amicale : préserver le lien ou couper volontairement",
+      "Se faire accompagner : quand un professionnel est indispensable"
+     ],
+     "exercices": [
+      "Scénario de retrait sécurisé lors d'un repas familial conflictuel (plan écrit)",
+      "Exercice d'écriture de perspectives croisées sur un conflit ancien"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Culture organisationnelle et contagion à grande échelle",
+     "objectif": "Élargir le prisme : comment les organisations (entreprises, écoles, associations) peuvent freiner ou amplifier le stress collectif.",
+     "sections": [
+      "Le climat social comme variable de santé publique informelle",
+      "Signaux faibles de contagion systémique (turnover, blagues amères, réunions mortes)",
+      "Politiques de charge : clôtures, délégation, droit à la déconnexion",
+      "Leadership de balise : former des relais apaisants dans la hiérarchie",
+      "Limites : l'organisation ne remplace pas les soins individuels"
+     ],
+     "exercices": [
+      "Diagnostic express de culture : 10 questions sur les normes de stress visibles",
+      "Proposition d'un rituel organisationnel de 15 minutes testable en équipe"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Grandir une immunité positive : la contagion de l'apaisement",
+     "objectif": "Passer d'une logique de défense (couper le mauvais) à une logique de construction (multiplier les bonnes transmissions).",
+     "sections": [
+      "La contagion positive : humour, gratitude, joie tranquille, présence",
+      "Le biais de négativité : compenser par des micro-signaux positifs plus fréquents",
+      "Gratitude et reconnaissance adressées : désinfecter la relation par le renforcement",
+      "Le jeu et la légèreté comme immunité relationnelle",
+      "Mesurer le positif reçu et émis (complémentaire de la charge virale)"
+     ],
+     "exercices": [
+      "Quotidien de trois micro-reconnaissances adressées (sans réseaux sociaux)",
+      "Recenser les dix derniers moments de contagion positive et leur canal"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Éthique du balisage : influence, consentement, limites",
+     "objectif": "Établir les garde-fous moraux et pratiques pour ne pas devenir manipulateur ou sauveur narcissique.",
+     "sections": [
+      "Influence émotionnelle : pouvoir réel, responsabilité accrue",
+      "Consentement implicite et explicite dans le balisage",
+      "Ne pas instrumentaliser la vulnérabilité d'autrui",
+      "Respecter la pathologie et le parcours de soin des autres (limites du livre)",
+      "Auto-critique : quand on balise pour se rassurer soi-même"
+     ],
+     "exercices": [
+      "Grille d'auto-évaluation éthique avant une intervention de balisage",
+      "Liste des situations où il faut renoncer à baliser et référer vers un professionnel"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Maintenir la pratique dans la durée : rechutes, saisons, crises",
+     "objectif": "Prévoir les moments où le système retombe (surmenage, deuil, période festive, crise économique) et stabiliser les habitudes.",
+     "sections": [
+      "Les pics saisonniers de charge virale (fêtes, rentrée, bilans)",
+      "Reconnaître les signes de recontamination silencieuse",
+      "Plan de maintien minimal : le rituel « survivre » quand tout va mal",
+      "Réparer une chaîne de transmission rompue : repasser balise sans culpabilité",
+      "Communauté de pratique : peers, groupes de soutien informels"
+     ],
+     "exercices": [
+      "Rédiger un plan de crise personnel (3 pages maximum) déclenchable",
+      "Identifier deux personnes ressources pour un check-in mensuel sur la contagion"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Votre stress n'était peut-être pas le vôtre : maintenant, faites-en autre chose",
+     "objectif": "Conclure en réaffirmant la thèse, en célébrant les acquis et en ouvrant vers une posture de citoyen émotionnel responsable.",
+     "sections": [
+      "Bilan : de la victime de contagion au cartographe actif",
+      "Rappel des six mécanismes et des outils clés (synthèse en une page)",
+      "Le choix quotidien : diffuser la panique ou la lucidité",
+      "Histoires et exemples (fictifs ou types) de transformation relationnelle",
+      "Ce que le livre ne résout pas : honnêteté sur les limites scientifiques et cliniques",
+      "Appel final : devenir la balise qu'on aurait aimé croiser"
+     ],
+     "exercices": [
+      "Rédiger une lettre à soi-même dans six mois concernant la contagion émotionnelle",
+      "Engagement de trois comportements de balise à tenir le mois suivant"
+     ]
+    }
+   ]
+  }
+ ]
+}
