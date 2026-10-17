@@ -1,0 +1,571 @@
+{
+ "titre": "Le Miroir et l'Aimant",
+ "sous_titre": "Comment vos décisions vous trahissent — et comment reprendre le contrôle",
+ "bibliographie": [
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Système 1 / Système 2 : Les deux vitesses de la pensée",
+   "annee": "2011",
+   "idee": "Notre cerveau utilise deux systèmes : l'un rapide et intuitif, l'autre lent et analytique, créant des biais systématiques dans nos décisions.",
+   "apport": "Cadre théorique pour comprendre pourquoi nos choix automatiques (miroir) diffèrent de nos choix réfléchis"
+  },
+  {
+   "auteur": "Robert Cialdini",
+   "titre": "Influence et Manipulation",
+   "annee": "1984",
+   "idee": "Six principes universels (réciprocité, preuve sociale, autorité, etc.) expliquent comment nous sommes influencés par notre environnement social.",
+   "apport": "Identification des miroirs sociaux qui déforment nos décisions par conformité"
+  },
+  {
+   "auteur": "Dan Ariely",
+   "titre": "C'est (vraiment ?) moi qui décide",
+   "annee": "2008",
+   "idee": "Nos décisions irrationnelles sont prévisibles et systématiques, influencées par des facteurs émotionnels et contextuels invisibles.",
+   "apport": "Concept d'aimants émotionnels : attractions irrationnelles mais répétitives"
+  },
+  {
+   "auteur": "Barry Schwartz",
+   "titre": "Le Paradoxe du choix",
+   "annee": "2004",
+   "idee": "Trop de choix paralyse et réduit la satisfaction, car nous comparons constamment nos décisions à des alternatives imaginaires.",
+   "apport": "Compréhension de la fatigue décisionnelle et des miroirs comparatifs"
+  },
+  {
+   "auteur": "Chip Heath & Dan Heath",
+   "titre": "Decisive",
+   "annee": "2013",
+   "idee": "Un processus en quatre étapes (WRAP) pour améliorer nos décisions en élargissant nos options et testant nos hypothèses.",
+   "apport": "Méthodologie pratique pour neutraliser les biais et décider depuis le réel"
+  },
+  {
+   "auteur": "Daniel Goleman",
+   "titre": "L'Intelligence émotionnelle",
+   "annee": "1995",
+   "idee": "Les émotions jouent un rôle crucial dans nos décisions, souvent plus important que la raison pure.",
+   "apport": "Cartographie des pôles attractifs émotionnels et de leur influence"
+  },
+  {
+   "auteur": "Malcolm Gladwell",
+   "titre": "Blink : Réflexions sur le pouvoir de la première impression",
+   "annee": "2005",
+   "idee": "Nos décisions instantanées peuvent être brillantes ou désastreuses selon notre expérience et nos biais inconscients.",
+   "apport": "Analyse des miroirs rapides et de leur fiabilité variable"
+  },
+  {
+   "auteur": "Richard Thaler & Cass Sunstein",
+   "titre": "Nudge : La méthode douce pour inspirer la bonne décision",
+   "annee": "2008",
+   "idee": "L'architecture des choix influence massivement nos décisions sans que nous en ayons conscience.",
+   "apport": "Compréhension des aimants structurels et contextuels qui orientent nos choix"
+  },
+  {
+   "auteur": "Sheena Iyengar",
+   "titre": "L'Art de choisir",
+   "annee": "2010",
+   "idee": "Nos choix sont façonnés par notre culture, notre histoire personnelle et nos attentes sociales.",
+   "apport": "Identification des miroirs culturels et familiaux dans nos décisions"
+  },
+  {
+   "auteur": "Brené Brown",
+   "titre": "Le Pouvoir de la vulnérabilité",
+   "annee": "2012",
+   "idee": "L'authenticité et la vulnérabilité sont essentielles pour faire des choix alignés avec nos valeurs réelles.",
+   "apport": "Processus de retournement du miroir vers soi pour découvrir nos vrais désirs"
+  },
+  {
+   "auteur": "Viktor Frankl",
+   "titre": "Découvrir un sens à sa vie",
+   "annee": "1946",
+   "idee": "Même dans les circonstances les plus extrêmes, nous conservons la liberté de choisir notre attitude et notre réponse.",
+   "apport": "Philosophie de la décision authentique malgré les contraintes externes"
+  },
+  {
+   "auteur": "Carol Dweck",
+   "titre": "Changer d'état d'esprit",
+   "annee": "2006",
+   "idee": "Notre état d'esprit (fixe ou de croissance) détermine nos choix face aux défis et aux échecs.",
+   "apport": "Identification des miroirs identitaires qui limitent ou expandent nos possibilités"
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Un rien peut tout changer",
+   "annee": "2018",
+   "idee": "Nos habitudes sont des décisions automatisées qui reflètent notre identité et notre environnement.",
+   "apport": "Compréhension des aimants habituels et de leur désactivation"
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Le Cygne Noir",
+   "annee": "2007",
+   "idee": "Nous sommes aveugles à l'imprévisible et construisons des narratifs rétrospectifs pour justifier nos choix.",
+   "apport": "Critique des miroirs narratifs qui déforment notre perception du risque"
+  },
+  {
+   "auteur": "Robert Greene",
+   "titre": "Les 48 Lois du pouvoir",
+   "annee": "1998",
+   "idee": "Les dynamiques de pouvoir et d'influence sociale façonnent constamment nos décisions, souvent à notre insu.",
+   "apport": "Cartographie des aimants relationnels et des jeux de pouvoir dans nos choix"
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie 1 : Le Miroir — Comment vos choix vous reflètent",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Vos décisions parlent de vous (plus que vous ne le pensez)",
+     "objectif": "Comprendre que chaque choix est un acte d'identité et une projection de soi",
+     "sections": [
+      "Le choix comme signature personnelle",
+      "Les trois couches de toute décision : consciente, émotionnelle, identitaire",
+      "Pourquoi nous répétons les mêmes schémas décisionnels",
+      "Le miroir social : choisir pour être vu",
+      "Le miroir familial : choisir pour appartenir",
+      "Le miroir des peurs : choisir pour se protéger"
+     ],
+     "exercices": [
+      "Journal de bord décisionnel : tracer 10 décisions récentes et identifier les motifs récurrents",
+      "Exercice du miroir triple : pour chaque choix majeur, identifier ce qu'il dit de vos valeurs, peurs et désirs d'appartenance",
+      "Cartographie de vos modèles décisionnels familiaux"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Les trois miroirs : entourage, peur, modèles",
+     "objectif": "Identifier les trois sources principales qui déforment nos décisions",
+     "sections": [
+      "Le miroir de l'entourage : la tyrannie du 'qu'en-dira-t-on'",
+      "Le miroir de la peur : choisir par évitement plutôt que par attraction",
+      "Le miroir des modèles : quand nous imitons sans discerner",
+      "Comment ces miroirs se combinent et s'amplifient",
+      "Les signaux d'alerte : reconnaître quand vous décidez sous influence",
+      "Étude de cas : trois histoires de décisions miroirs"
+     ],
+     "exercices": [
+      "Inventaire des influences : lister les 10 personnes qui influencent le plus vos choix",
+      "Test du 'et si personne ne le savait ?' : revisiter vos décisions sous hypothèse d'anonymat total",
+      "Identification de vos 5 modèles principaux et analyse critique de leur pertinence"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "La conformité invisible : pourquoi vous faites comme les autres",
+     "objectif": "Comprendre les mécanismes de conformité sociale et leur influence sur nos choix",
+     "sections": [
+      "L'expérience d'Asch et ses enseignements modernes",
+      "La preuve sociale : quand la majorité a toujours raison (sauf quand elle a tort)",
+      "L'appartenance comme besoin primaire",
+      "Les micro-conformités quotidiennes",
+      "Quand la conformité devient prison",
+      "Les coûts cachés de la non-conformité",
+      "Trouver l'équilibre entre authenticité et appartenance"
+     ],
+     "exercices": [
+      "Audit de conformité : identifier 20 choix récents et évaluer leur degré de conformité sociale",
+      "Expérience de déviation contrôlée : faire un choix mineur contraire à la norme et observer vos émotions",
+      "Cartographie de vos cercles d'appartenance et de leur influence"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Les choix-reflets : quand vous décidez pour plaire",
+     "objectif": "Reconnaître et désactiver les décisions prises pour satisfaire les attentes d'autrui",
+     "sections": [
+      "L'anatomie d'un choix-reflet",
+      "Les attentes explicites vs implicites",
+      "Le syndrome du bon élève dans la vie adulte",
+      "Choisir pour éviter le conflit",
+      "Le poids des promesses non tenues (envers soi et les autres)",
+      "Reconnaître vos propres attentes projetées sur autrui"
+     ],
+     "exercices": [
+      "Test de la déception : pour chaque décision majeure, identifier qui serait déçu si vous choisissiez autrement",
+      "Lettre aux attentes : écrire ce que vous devez aux autres vs ce que vous vous devez",
+      "Protocole de validation interne : créer votre propre système d'approbation"
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "L'identité projetée : choisir qui vous voulez paraître",
+     "objectif": "Distinguer les choix d'être des choix de paraître",
+     "sections": [
+      "La construction sociale de l'identité",
+      "Les choix-signaux : ce que vos décisions communiquent",
+      "L'identité de consommation : acheter pour devenir",
+      "Les choix de carrière comme performance identitaire",
+      "Le décalage entre identité projetée et identité vécue",
+      "Quand le masque devient visage"
+     ],
+     "exercices": [
+      "Inventaire des choix-signaux : identifier vos décisions qui servent principalement à communiquer",
+      "Test de l'invisibilité : quels choix feriez-vous si personne ne pouvait jamais les observer ?",
+      "Alignement identitaire : comparer votre identité projetée et votre identité ressentie"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 2 : Les Miroirs déformants — Biais et illusions décisionnelles",
+   "chapitres": [
+    {
+     "numero": 6,
+     "titre": "Les biais cognitifs : votre cerveau vous ment (avec méthode)",
+     "objectif": "Identifier les principaux biais qui déforment systématiquement nos décisions",
+     "sections": [
+      "Le biais de confirmation : chercher ce qui nous arrange",
+      "L'ancrage : le pouvoir du premier chiffre",
+      "Le biais de disponibilité : confondre fréquence et facilité de rappel",
+      "L'aversion à la perte : pourquoi perdre 100€ fait plus mal que gagner 100€",
+      "Le biais du survivant : apprendre des gagnants en ignorant les perdants",
+      "Le biais de statu quo : préférer ce qui existe déjà"
+     ],
+     "exercices": [
+      "Quiz d'auto-évaluation des biais : tester votre vulnérabilité aux 10 biais principaux",
+      "Journal des biais : pendant une semaine, noter chaque biais identifié dans vos décisions",
+      "Technique de l'avocat du diable : argumenter systématiquement contre votre position initiale"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "L'illusion de contrôle : vous ne maîtrisez pas autant que vous le croyez",
+     "objectif": "Reconnaître les limites de notre contrôle réel sur les événements",
+     "sections": [
+      "L'expérience des dés et l'illusion de contrôle",
+      "Pourquoi nous surestimons notre influence",
+      "Le biais rétrospectif : 'je le savais depuis le début'",
+      "L'attribution interne vs externe",
+      "Les domaines de contrôle réel vs illusoire",
+      "Accepter l'incertitude sans sombrer dans le fatalisme"
+     ],
+     "exercices": [
+      "Cartographie contrôle/influence/acceptation : classer vos préoccupations actuelles",
+      "Analyse rétrospective : revisiter 5 décisions passées et séparer chance et compétence",
+      "Protocole d'incertitude : créer des décisions robustes malgré l'imprévisible"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Les émotions parasites : quand le ressenti remplace la raison",
+     "objectif": "Identifier les émotions qui détournent nos décisions de leur objectif réel",
+     "sections": [
+      "Le rôle légitime des émotions dans la décision",
+      "Quand l'émotion devient parasite",
+      "La colère comme boussole cassée",
+      "L'anxiété décisionnelle : avoir peur d'avoir peur",
+      "La culpabilité comme conseiller toxique",
+      "L'euphorie comme aveuglement temporaire"
+     ],
+     "exercices": [
+      "Thermomètre émotionnel décisionnel : évaluer votre état émotionnel avant chaque choix important",
+      "Protocole des 24 heures : reporter les décisions prises sous forte émotion",
+      "Technique de l'observateur : décrire vos émotions sans les incarner"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "La fatigue décisionnelle : quand votre volonté s'épuise",
+     "objectif": "Comprendre et gérer l'épuisement de notre capacité à décider",
+     "sections": [
+      "La volonté comme ressource limitée",
+      "Le paradoxe du choix : trop d'options tuent la décision",
+      "Les micro-décisions qui épuisent",
+      "L'effet de l'heure et du contexte",
+      "Les stratégies des décideurs professionnels",
+      "Créer des routines pour préserver votre énergie décisionnelle"
+     ],
+     "exercices": [
+      "Audit décisionnel quotidien : compter et catégoriser vos décisions sur 24h",
+      "Automatisation stratégique : identifier 10 décisions récurrentes à transformer en règles",
+      "Protocole de protection : créer des fenêtres décisionnelles optimales"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Les narratifs trompeurs : les histoires que vous vous racontez",
+     "objectif": "Identifier les récits personnels qui biaisent vos choix",
+     "sections": [
+      "Le pouvoir des histoires sur nos décisions",
+      "Les narratifs familiaux hérités",
+      "Le récit de la victime et ses bénéfices cachés",
+      "Le récit du héros et ses exigences impossibles",
+      "Le narratif de la rareté vs abondance",
+      "Réécrire son histoire sans se mentir"
+     ],
+     "exercices": [
+      "Identification de vos 3 narratifs dominants",
+      "Test de vérité : quelles preuves soutiennent ou contredisent vos récits ?",
+      "Exercice de réécriture : reformuler vos histoires limitantes en narratives empowering"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 3 : L'Aimant — Les attractions invisibles",
+   "chapitres": [
+    {
+     "numero": 11,
+     "titre": "La polarité émotionnelle : pourquoi certaines options vous attirent",
+     "objectif": "Comprendre comment les charges émotionnelles orientent nos choix indépendamment de leur valeur réelle",
+     "sections": [
+      "Le concept de charge émotionnelle",
+      "Attraction vs répulsion : les deux pôles",
+      "L'intensité émotionnelle comme faux indicateur de valeur",
+      "Les aimants positifs : ce qui nous attire",
+      "Les aimants négatifs : ce que nous fuyons",
+      "Quand l'attraction émotionnelle contredit l'intérêt rationnel"
+     ],
+     "exercices": [
+      "Cartographie de vos aimants : identifier vos 10 attractions et 10 répulsions principales",
+      "Test de corrélation : vos choix émotionnels correspondent-ils à vos résultats réels ?",
+      "Exercice de dissociation : séparer l'émotion de l'option"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Les aimants du passé : trauma, nostalgie et répétition",
+     "objectif": "Identifier comment notre passé crée des attractions et répulsions automatiques",
+     "sections": [
+      "La répétition compulsive : refaire les mêmes choix",
+      "Le trauma comme aimant négatif puissant",
+      "La nostalgie comme aimant positif trompeur",
+      "Les loyautés invisibles envers notre histoire",
+      "Quand le passé dicte l'avenir",
+      "Briser les patterns répétitifs"
+     ],
+     "exercices": [
+      "Généalogie décisionnelle : tracer les choix similaires sur 3 générations",
+      "Identification de vos 3 patterns répétitifs majeurs",
+      "Protocole de rupture de pattern : créer des interruptions conscientes"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Les aimants relationnels : décider sous influence affective",
+     "objectif": "Reconnaître comment nos relations créent des champs magnétiques décisionnels",
+     "sections": [
+      "L'amour comme aimant puissant et aveuglant",
+      "La peur de l'abandon comme boussole cassée",
+      "Les dettes émotionnelles et leurs intérêts",
+      "Les relations toxiques comme aimants parasites",
+      "Choisir pour maintenir la paix relationnelle",
+      "L'autonomie décisionnelle dans l'interdépendance"
+     ],
+     "exercices": [
+      "Cartographie de vos dettes émotionnelles : à qui pensez-vous devoir des choix ?",
+      "Test de la relation hypothétique : feriez-vous ce choix si cette personne n'existait pas ?",
+      "Protocole de clarification : distinguer amour sain et dépendance décisionnelle"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Les aimants financiers : l'argent comme force magnétique",
+     "objectif": "Comprendre comment l'argent et ses symboliques orientent nos choix",
+     "sections": [
+      "L'argent comme score vs l'argent comme outil",
+      "Les croyances familiales sur l'argent",
+      "L'aversion au risque financier",
+      "L'attraction du gain rapide",
+      "Le coût émotionnel des décisions financières",
+      "Décider avec l'argent sans être décidé par lui"
+     ],
+     "exercices": [
+      "Inventaire de vos croyances monétaires héritées",
+      "Test de la valeur réelle : quel prix seriez-vous prêt à payer émotionnellement ?",
+      "Protocole de décision financière alignée : intégrer valeurs et rentabilité"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Les aimants du statut : prestige, reconnaissance et validation",
+     "objectif": "Identifier comment la quête de statut influence nos décisions",
+     "sections": [
+      "Le statut comme drogue sociale",
+      "Les marqueurs de statut et leur évolution",
+      "Choisir pour grimper l'échelle sociale",
+      "Le syndrome de l'imposteur comme aimant négatif",
+      "La comparaison comme vol d'énergie décisionnelle",
+      "Le statut interne vs le statut externe"
+     ],
+     "exercices": [
+      "Audit de statut : quels choix servez votre image vs votre bien-être ?",
+      "Test de l'anonymat : quels statuts poursuivriez-vous si personne ne savait ?",
+      "Définition de votre propre échelle de réussite"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 4 : Neutraliser les forces parasites",
+   "chapitres": [
+    {
+     "numero": 16,
+     "titre": "Le protocole de décontamination émotionnelle",
+     "objectif": "Créer un processus systématique pour séparer émotion parasite et décision saine",
+     "sections": [
+      "Les 5 étapes de la décontamination",
+      "Identifier l'émotion source",
+      "Dater l'émotion : est-elle actuelle ou résiduelle ?",
+      "Mesurer l'intensité réelle vs perçue",
+      "Créer de la distance émotionnelle",
+      "Revenir à la décision avec clarté"
+     ],
+     "exercices": [
+      "Protocole complet de décontamination en 5 étapes",
+      "Journal de décontamination : appliquer le processus à 5 décisions récentes",
+      "Création de votre routine de décontamination personnalisée"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Cartographier vos pôles attractifs et répulsifs",
+     "objectif": "Créer une carte personnelle de vos aimants pour anticiper leurs effets",
+     "sections": [
+      "Pourquoi cartographier plutôt que combattre",
+      "Identifier vos 10 attractions principales",
+      "Identifier vos 10 répulsions principales",
+      "Évaluer la légitimité de chaque pôle",
+      "Créer votre carte magnétique personnelle",
+      "Utiliser la carte comme outil de vigilance"
+     ],
+     "exercices": [
+      "Création complète de votre carte magnétique personnelle",
+      "Test de validation : vos pôles correspondent-ils à vos valeurs ?",
+      "Protocole de consultation : utiliser la carte avant chaque décision majeure"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Désactiver les aimants obsolètes",
+     "objectif": "Identifier et neutraliser les attractions/répulsions qui ne servent plus vos intérêts actuels",
+     "sections": [
+      "Pourquoi certains aimants persistent après leur utilité",
+      "Le processus de deuil des anciens aimants",
+      "Remplacer les aimants négatifs par des choix conscients",
+      "Gérer la résistance au changement",
+      "Créer de nouveaux aimants alignés",
+      "Maintenir la désactivation dans la durée"
+     ],
+     "exercices": [
+      "Inventaire des aimants obsolètes : lesquels datent de plus de 5 ans ?",
+      "Cérémonie de désactivation : ritualiser la fin des anciens patterns",
+      "Protocole de remplacement : créer des attractions conscientes"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Retourner le miroir : décider depuis vos valeurs réelles",
+     "objectif": "Passer des décisions-reflets aux décisions-alignées",
+     "sections": [
+      "La différence entre valeurs héritées et valeurs choisies",
+      "Identifier vos 5 valeurs fondamentales réelles",
+      "Le test de congruence : vos choix reflètent-ils vos valeurs ?",
+      "Créer des décisions alignées",
+      "Gérer les conflits de valeurs",
+      "Maintenir l'alignement sous pression"
+     ],
+     "exercices": [
+      "Identification de vos 5 valeurs fondamentales (processus complet)",
+      "Audit de congruence : évaluer l'alignement de vos 20 dernières décisions",
+      "Protocole de décision alignée : intégrer vos valeurs dans chaque choix"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Créer votre boussole interne",
+     "objectif": "Développer un système de guidance interne fiable et personnalisé",
+     "sections": [
+      "Pourquoi une boussole plutôt qu'une carte",
+      "Les 4 points cardinaux de votre boussole",
+      "Calibrer votre boussole sur vos valeurs",
+      "Tester votre boussole sur des décisions mineures",
+      "Utiliser votre boussole dans l'incertitude",
+      "Réajuster sans perdre le nord"
+     ],
+     "exercices": [
+      "Création complète de votre boussole décisionnelle personnelle",
+      "Phase de test : appliquer votre boussole à 10 décisions mineures",
+      "Protocole de consultation rapide : utiliser votre boussole en situation de pression"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie 5 : Décider depuis le réel",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Le processus WRAP : élargir, tester, préparer",
+     "objectif": "Maîtriser une méthodologie éprouvée pour des décisions robustes",
+     "sections": [
+      "Widen your options : élargir vos options",
+      "Reality-test your assumptions : tester vos hypothèses",
+      "Attain distance before deciding : prendre de la distance",
+      "Prepare to be wrong : se préparer à l'erreur",
+      "Adapter WRAP à vos décisions quotidiennes",
+      "Études de cas : WRAP en action"
+     ],
+     "exercices": [
+      "Application complète de WRAP à une décision actuelle majeure",
+      "Création de votre template WRAP personnalisé",
+      "Protocole d'application rapide : WRAP en 15 minutes"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Décider dans l'incertitude : l'art du choix robuste",
+     "objectif": "Apprendre à décider efficacement malgré l'information incomplète",
+     "sections": [
+      "Pourquoi attendre la certitude est une illusion",
+      "Les décisions réversibles vs irréversibles",
+      "Le principe de précaution vs le principe d'action",
+      "Créer des options robustes",
+      "Le concept de décision 'satisficing'",
+      "Gérer l'anxiété de l'incertitude"
+     ],
+     "exercices": [
+      "Classification de vos décisions : réversibles ou irréversibles ?",
+      "Protocole de décision robuste : créer des choix qui fonctionnent dans plusieurs scénarios",
+      "Technique du pré-mortem : imaginer l'échec pour mieux décider"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "L'engagement et la sortie : savoir quand persévérer, quand abandonner",
+     "objectif": "Maîtriser l'art de maintenir ou quitter une décision",
+     "sections": [
+      "Le biais d'engagement : pourquoi nous persistons dans l'erreur",
+      "Les coûts irrécupérables et leur tyrannie",
+      "Reconnaître les signaux de sortie",
+      "La différence entre persévérance et entêtement",
+      "Quitter avec grâce et apprentissage",
+      "Réengager après une sortie"
+     ],
+     "exercices": [
+      "Audit des engagements : quels choix méritent votre persévérance ?",
+      "Protocole de décision de sortie : quand et comment quitter",
+      "Création de vos critères personnels de persévérance vs abandon"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "La sagesse décisionnelle : intégrer tous les apprentissages",
+     "objectif": "Créer une pratique décisionnelle mature et intégrée",
+     "sections": [
+      "Les 7 principes de la sagesse décisionnelle",
+      "Créer votre philosophie décisionnelle personnelle",
+      "La décision comme pratique quotidienne",
+      "Gérer les regrets et les erreurs",
+      "Transmettre votre sagesse décisionnelle",
+      "Rester humble et ouvert à l'apprentissage continu"
+     ],
+     "exercices": [
+      "Rédaction de votre manifeste décisionnel personnel",
+      "Création de votre routine décisionnelle quotidienne",
+      "Protocole de révision annuelle : évaluer et ajuster votre pratique"
+     ]
+    }
+   ]
+  }
+ ]
+}

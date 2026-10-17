@@ -1,0 +1,571 @@
+{
+ "titre": "Décider Moins, Décider Mieux",
+ "sous_titre": "Auto-organisation, rotation et règles minimales pour des choix collectifs robustes en équipe et en famille",
+ "bibliographie": [
+  {
+   "auteur": "Elinor Ostrom",
+   "titre": "Governing the Commons",
+   "annee": "1990",
+   "idee": "Les communautés peuvent gérer des ressources communes sans État ni marché grâce à des règles locales co-construites et surveillées.",
+   "apport": "Modèle de chartes de règles minimales et de surveillance collective des dérives."
+  },
+  {
+   "auteur": "James Surowiecki",
+   "titre": "The Wisdom of Crowds",
+   "annee": "2004",
+   "idee": "Sous conditions (diversité, indépendance, décentralisation, agrégation), un groupe surpasse souvent ses meilleurs experts.",
+   "apport": "Critères pour distinguer ce qui doit être décidé d'en haut de ce qui peut émerger."
+  },
+  {
+   "auteur": "Scott E. Page",
+   "titre": "The Difference",
+   "annee": "2007",
+   "idee": "La diversité cognitive bat la capacité individuelle pour résoudre des problèmes complexes.",
+   "apport": "Justification de la rotation des rôles comme outil de diversité cognitive forcée."
+  },
+  {
+   "auteur": "James C. Scott",
+   "titre": "Seeing Like a State",
+   "annee": "1998",
+   "idee": "Les schémas centralisés de haute modernité échouent car ils ignorent les savoirs locaux et pratiques (mètis).",
+   "apport": "Mise en garde contre la sur-décision centralisée et plaidoyer pour les règles locales."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile",
+   "annee": "2012",
+   "idee": "Les systèmes centralisés sont fragiles ; les systèmes distribués gagnent à être exposés à de petits chocs.",
+   "apport": "Cadre pour expliquer pourquoi concentrer la décision crée des goulets et de la fragilité."
+  },
+  {
+   "auteur": "Donella Meadows",
+   "titre": "Thinking in Systems",
+   "annee": "2008",
+   "idee": "Les leviers d'action dans un système vont des paramètres aux paradigmes ; les boucles de rétroaction sont centrales.",
+   "apport": "Architecture des boucles de rétroaction et tableaux de signaux faibles."
+  },
+  {
+   "auteur": "Frederic Laloux",
+   "titre": "Reinventing Organizations",
+   "annee": "2014",
+   "idee": "Les organisations « opale » fonctionnent par auto-gouvernance, raison d'être et plénitude.",
+   "apport": "Protocoles concrets de décision distribuée (advice process, consentement)."
+  },
+  {
+   "auteur": "Brian Robertson",
+   "titre": "Holacracy",
+   "annee": "2015",
+   "idee": "Une constitution explicite définit rôles, cercles et processus de gouvernance sans manager unique.",
+   "apport": "Structure des chartes de règles minimales et protocole de rotation des rôles."
+  },
+  {
+   "auteur": "Margaret Heffernan",
+   "titre": "Beyond Measure",
+   "annee": "2015",
+   "idee": "Les petites marges, les conflits constructifs et la culture du « je ne sais pas » produisent de meilleurs résultats.",
+   "apport": "Exercices de délégation émergente et culture du doute partagé."
+  },
+  {
+   "auteur": "Reid Hastie & Cass Sunstein",
+   "titre": "Wiser",
+   "annee": "2014",
+   "idee": "Les groupes amplifient souvent les erreurs (polarisation, cascade) sauf si des architectures de choix sont posées.",
+   "apport": "Liste des pièges collectifs à surveiller et règles anti-dérive."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Deux systèmes de pensée ; les biais individuels se propagent dans les décisions de groupe sans garde-fous.",
+   "apport": "Checklists de biais à intégrer dans les chartes et les protocoles de rotation."
+  },
+  {
+   "auteur": "Karl Weick",
+   "titre": "Sensemaking in Organizations",
+   "annee": "1995",
+   "idee": "On agit d'abord puis on comprend ; le sens émerge de l'action collective et non d'un plan figé.",
+   "apport": "Justification théorique de l'émergence : poser des règles, laisser agir, observer."
+  },
+  {
+   "auteur": "Christopher Alexander",
+   "titre": "A Pattern Language",
+   "annee": "1977",
+   "idee": "Des motifs simples et recombinables permettent à des non-experts de produire des espaces vivants.",
+   "apport": "Méthode pour écrire des règles locales minimales sous forme de « motifs » réutilisables."
+  },
+  {
+   "auteur": "David Snowden & Mary Boone",
+   "titre": "A Leader's Framework for Decision Making (HBR, Cynefin)",
+   "annee": "2007",
+   "idee": "Selon le domaine (simple, compliqué, complexe, chaotique), le mode de décision doit changer radicalement.",
+   "apport": "Matrice pour décider ce qui doit être tranché d'en haut ou laissé à l'émergence."
+  },
+  {
+   "auteur": "Gerard Endenburg",
+   "titre": "Sociocracy: The Organization of Decision-Making",
+   "annee": "1988",
+   "idee": "Décision par consentement, double lien, cercles et élection sans candidat pour gouverner sans chef unique.",
+   "apport": "Protocoles de rotation et de décision par absence d'objection argumentée."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Pourquoi décider moins change tout",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le mythe du décideur central",
+     "objectif": "Déconstruire le culte du chef qui tranche et montrer ses coûts cachés.",
+     "sections": [
+      "Le héros décisionnel : genèse culturelle d'une illusion",
+      "Goulets d'étranglement : quand le chef devient le plafond du groupe",
+      "Fragilité : un point de défaillance unique pour toute l'équipe",
+      "Fatigue décisionnelle et dilution de la responsabilité",
+      "Cas d'école : trois échecs célèbres de sur-centralisation",
+      "Ce que la décision centralisée nous fait perdre en silence"
+     ],
+     "exercices": [
+      "Cartographier les décisions de la semaine dernière et leur auteur",
+      "Calculer le temps d'attente moyen avant qu'une décision soit tranchée",
+      "Lister trois décisions récentes qu'aucun chef n'aurait pu mieux prendre seul"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Ce que l'auto-organisation n'est pas (et ce qu'elle est)",
+     "objectif": "Clarifier le concept pour éviter la confusion avec le laissez-faire ou le chaos.",
+     "sections": [
+      "Auto-organisation ≠ absence de règles",
+      "L'ordre qui émerge : exemples biologiques, urbains et logiciels",
+      "La condition oubliée : des contraintes locales bien posées",
+      "Différence entre délégation, autonomie et émergence",
+      "Pourquoi les familles et les petites équipes sont des terrains idéaux",
+      "Les trois illusions qui font échouer les tentatives naïves"
+     ],
+     "exercices": [
+      "Observer un phénomène auto-organisé dans votre quotidien et en extraire trois règles implicites",
+      "Classer dix décisions de votre équipe entre « imposées », « déléguées » et « émergentes »",
+      "Écrire en une phrase ce que l'auto-organisation n'est pas pour vous"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Quand décider plus produit moins",
+     "objectif": "Montrer les mécanismes par lesquels l'excès de décision dégrade la qualité collective.",
+     "sections": [
+      "Cascade d'information : suivre le premier qui parle",
+      "Polarisation de groupe : décider plus fort, pas plus juste",
+      "L'effet expertise illusoire et la surconfiance du décideur isolé",
+      "Surcharge cognitive et décisions par défaut",
+      "La tyrannie du consensus mou",
+      "Le paradoxe : moins de décisions explicites, plus de cohérence"
+     ],
+     "exercices": [
+      "Rejouer une réunion récente en inversant l'ordre de parole",
+      "Identifier une décision prise par fatigue plutôt que par choix",
+      "Noter trois cas où « ne rien décider » a mieux servi le groupe"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "La matrice : ce qui doit être tranché, ce qui peut émerger",
+     "objectif": "Fournir un outil simple pour trier les décisions selon leur nature.",
+     "sections": [
+      "Les quatre domaines : simple, compliqué, complexe, chaotique",
+      "Domaine simple : bonnes pratiques décidées une fois pour toutes",
+      "Domaine compliqué : experts et check-lists",
+      "Domaine complexe : émergence, expérimentation, règles minimales",
+      "Domaine chaotique : agir d'abord, stabiliser ensuite",
+      "Erreurs fréquentes : appliquer le mauvais mode au mauvais domaine",
+      "Utiliser la matrice en famille et en équipe réduite"
+     ],
+     "exercices": [
+      "Placer vingt décisions récurrentes dans la matrice à quatre cases",
+      "Identifier une décision complexe traitée comme simple (et inversement)",
+      "Rédiger une règle minimale pour une décision complexe récurrente"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Écrire des règles locales minimales",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "L'art de la règle minimale",
+     "objectif": "Apprendre à formuler des règles assez précises pour guider, assez ouvertes pour laisser émerger.",
+     "sections": [
+      "Trois règles qui ont changé des systèmes entiers",
+      "Anatomie d'une bonne règle : courte, testable, locale",
+      "La différence entre règle, procédure et valeur",
+      "Comment éviter la surcouche normative",
+      "Le test de la règle : que se passe-t-il si tout le monde la suit ?",
+      "Quand supprimer une règle est plus puissant qu'en ajouter"
+     ],
+     "exercices": [
+      "Réécrire cinq règles d'équipe en moins de dix mots chacune",
+      "Supprimer une règle existante et observer pendant deux semaines",
+      "Inventer une règle minimale pour un problème récurrent à la maison"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Chartes : le contrat de base des groupes auto-organisés",
+     "objectif": "Construire une charte de fonctionnement qui tient dans une page.",
+     "sections": [
+      "Pourquoi une charte tient lieu de chef bienveillant",
+      "Les six blocs d'une charte minimale",
+      "La clause d'objection : comment contester sans bloquer",
+      "Chartes d'équipe, chartes de famille, chartes de projet",
+      "Faire signer (ou pas) : l'engagement symbolique",
+      "Réviser la charte sans la trahir"
+     ],
+     "exercices": [
+      "Rédiger une charte d'une page pour votre équipe ou famille",
+      "Formuler trois objections types et leur mode de traitement",
+      "Planifier une révision trimestrielle de la charte"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Motifs et patterns : réutiliser ce qui marche",
+     "objectif": "Constituer un catalogue de motifs de décision réutilisables.",
+     "sections": [
+      "Qu'est-ce qu'un motif au sens d'Alexander ?",
+      "Dix motifs essentiels pour équipes et familles",
+      "Combiner des motifs sans créer d'usine à gaz",
+      "Le motif « décision à deux tours »",
+      "Le motif « silence comme consentement »",
+      "Le motif « décision réversible rapide »"
+     ],
+     "exercices": [
+      "Choisir trois motifs et les appliquer pendant un mois",
+      "Créer un motif original pour une situation spécifique",
+      "Documenter un motif qui a échoué et pourquoi"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Consentement, consensus, majorité : choisir son régime",
+     "objectif": "Distinguer les régimes de décision et savoir quand les alterner.",
+     "sections": [
+      "Le consensus : mythes et coûts réels",
+      "Le consentement : absence d'objection argumentée",
+      "La majorité qualifiée : quand elle a du sens",
+      "La décision individuelle dans un cadre collectif",
+      "Le tirage au sort comme outil de rotation et d'équité",
+      "Combiner les régimes selon l'enjeu et le délai"
+     ],
+     "exercices": [
+      "Expérimenter une décision par consentement sur un sujet à faible enjeu",
+      "Tirer au sort un rôle ou une tâche pendant un mois",
+      "Classer les décisions du trimestre selon le régime effectivement utilisé"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Protéger les minorités sans paralyser le groupe",
+     "objectif": "Éviter la tyrannie de la majorité et l'invisibilisation des voix faibles.",
+     "sections": [
+      "Pourquoi les voix minoritaires sont des signaux",
+      "Le rôle de l'avocat du diable tournant",
+      "Les seuils d'alerte : quand une minorité suffit à suspendre",
+      "Écouter les absents et les silencieux",
+      "Éviter que la protection ne devienne veto permanent",
+      "Cas particuliers : enfants, juniors, nouveaux arrivants"
+     ],
+     "exercices": [
+      "Désigner un avocat du diable à chaque réunion importante",
+      "Installer un canal anonyme de signalement des doutes",
+      "Revoir une décision passée à la lumière des voix non entendues"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — La rotation des rôles comme muscle collectif",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "Pourquoi figer les rôles tue la décision",
+     "objectif": "Montrer les effets délétères de la spécialisation excessive sur la qualité décisionnelle.",
+     "sections": [
+      "Captures cognitives : le spécialiste ne voit plus que son angle",
+      "Captures de pouvoir : le rôle devient une rente",
+      "Fragilité : quand l'expert disparaît, tout s'arrête",
+      "Démotivation et usure des rôles ingrats",
+      "L'illusion de l'efficacité à court terme",
+      "Ce que la rotation change dans le corps et l'esprit"
+     ],
+     "exercices": [
+      "Lister les rôles figés depuis plus d'un an dans votre groupe",
+      "Identifier les trois tâches que personne ne veut faire",
+      "Mesurer la dépendance du groupe à une personne précise"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Concevoir un protocole de rotation soutenable",
+     "objectif": "Mettre en place une rotation qui ne détruise pas la compétence.",
+     "sections": [
+      "Quels rôles peuvent tourner, lesquels non",
+      "La période juste : trop court, trop long",
+      "Le tuilage : transmettre avant de partir",
+      "Binômes et trinômes pour lisser la transition",
+      "Le carnet de bord du rôle : mémoire vivante",
+      "Échecs classiques et correctifs"
+     ],
+     "exercices": [
+      "Concevoir un calendrier de rotation sur six mois",
+      "Rédiger un carnet de bord type pour un rôle clé",
+      "Organiser une session de tuilage entre sortant et entrant"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Rotation en famille : partager le pouvoir domestique",
+     "objectif": "Appliquer la rotation aux rôles familiaux pour équilibrer charges et apprentissages.",
+     "sections": [
+      "Les rôles invisibles qui pèsent le plus",
+      "Faire tourner la cuisine, les courses, les devoirs, les finances",
+      "La rotation comme école pour les enfants",
+      "Gérer les résistances et les préférences",
+      "Le rôle de « gardien du rythme familial »",
+      "Quand un rôle ne doit pas tourner (ancrage, soins)"
+     ],
+     "exercices": [
+      "Cartographier les rôles domestiques et leur porteur actuel",
+      "Expérimenter une rotation mensuelle sur trois rôles",
+      "Créer un tableau de rotation visible pour tous"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Rotation en équipe : animer, décider, représenter",
+     "objectif": "Étendre la rotation aux rôles de leadership et de représentation.",
+     "sections": [
+      "Faire tourner la facilitation des réunions",
+      "Faire tourner la représentation extérieure",
+      "Faire tourner la prise de décision finale en cas de blocage",
+      "La rotation comme antidote aux carrières informelles",
+      "Gérer la rotation dans les équipes à forte expertise",
+      "Cas des startups, associations et collectifs"
+     ],
+     "exercices": [
+      "Désigner un facilitateur différent à chaque réunion",
+      "Faire tourner la signature ou la représentation sur un trimestre",
+      "Évaluer les effets sur la qualité des décisions après trois mois"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Élections sans candidat et tirage au sort",
+     "objectif": "Utiliser des mécanismes anciens pour renouveler les rôles sans compétition toxique.",
+     "sections": [
+      "Le principe de l'élection sans candidat",
+      "Le tirage au sort : Athènes, jurys citoyens, groupes modernes",
+      "Quand le hasard est plus juste que le vote",
+      "Combiner tirage, rotation et volontariat",
+      "Légitimer un rôle attribué par le sort",
+      "Limites et précautions"
+     ],
+     "exercices": [
+      "Organiser une élection sans candidat pour un rôle mineur",
+      "Tirer au sort l'ordre du jour d'une réunion",
+      "Comparer ressenti et efficacité entre élection classique et tirage"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Boucles de rétroaction et surveillance des dérives",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "Fermer la boucle : pourquoi décider ne suffit pas",
+     "objectif": "Montrer qu'une décision sans retour d'information est une décision aveugle.",
+     "sections": [
+      "La boucle sense-decide-act-learn",
+      "Décider sans mesurer : la pente naturelle des groupes",
+      "Rétroaction rapide vs rétroaction lente",
+      "Signaux faibles et signaux forts",
+      "Le coût de l'absence de boucle",
+      "Boucles formelles et boucles informelles"
+     ],
+     "exercices": [
+      "Dessiner la boucle de rétroaction d'une décision récente",
+      "Identifier une décision prise il y a six mois sans retour mesuré",
+      "Installer une boucle courte sur un sujet en cours"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Tableaux de signaux : voir avant qu'il ne soit trop tard",
+     "objectif": "Construire un tableau de bord minimaliste adapté aux groupes auto-organisés.",
+     "sections": [
+      "Pourquoi les tableaux de bord classiques tuent l'attention",
+      "Les cinq familles de signaux utiles",
+      "Signaux de charge, de tension, d'apprentissage, de dérive, d'usure",
+      "Fréquence et format : le moins est le mieux",
+      "Tableaux partagés vs tableaux individuels",
+      "Le rituel de lecture collective"
+     ],
+     "exercices": [
+      "Concevoir un tableau de cinq signaux pour votre équipe",
+      "Désigner un lecteur tournant du tableau chaque semaine",
+      "Supprimer deux indicateurs qui ne changent jamais une décision"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Repérer les dérives avant qu'elles ne s'installent",
+     "objectif": "Identifier les patterns de dégradation propres aux systèmes auto-organisés.",
+     "sections": [
+      "La dérive oligarchique : quelques-uns reprennent la main",
+      "La dérive ritualiste : on suit les règles sans les vivre",
+      "La dérive du confort : on évite les décisions difficiles",
+      "La dérive du jargon : on parle sans agir",
+      "La dérive de l'épuisement : tout le monde fait tout",
+      "Signaux précoces et seuils d'alerte"
+     ],
+     "exercices": [
+      "Cocher les dérives déjà observées dans votre groupe",
+      "Définir un seuil d'alerte pour chaque dérive redoutée",
+      "Préparer un protocole de réponse rapide"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Rituels de révision : quand et comment changer les règles",
+     "objectif": "Installer des moments dédiés à la révision des règles et des rôles.",
+     "sections": [
+      "La révision n'est pas une crise",
+      "Rétrospectives courtes vs révisions profondes",
+      "Qui propose, qui valide, qui archive",
+      "Le registre vivant des règles et de leur historique",
+      "Éviter la révision permanente qui épuise",
+      "Rituels familiaux et rituels d'équipe"
+     ],
+     "exercices": [
+      "Fixer un rituel mensuel de révision de trente minutes",
+      "Ouvrir un registre partagé des règles actives et retirées",
+      "Faire une révision approfondie semestrielle"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Gérer les crises sans recentraliser",
+     "objectif": "Montrer que l'urgence n'oblige pas à revenir au chef unique.",
+     "sections": [
+      "Pourquoi la crise appelle instinctivement un chef",
+      "Le rôle temporaire du coordinateur de crise",
+      "Les protocoles d'urgence écrits à froid",
+      "Débriefing obligatoire après chaque crise",
+      "Ce qui peut être pré-décidé vs ce qui doit émerger même sous pression",
+      "Exemples : incident technique, crise familiale, conflit aigu"
+     ],
+     "exercices": [
+      "Rédiger un protocole d'urgence pour un scénario plausible",
+      "Désigner un coordinateur de crise tournant pour l'année",
+      "Simuler une crise et débriefer à chaud"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Mises en œuvre : équipes, familles, projets",
+   "chapitres": [
+    {
+     "numero": 20,
+     "titre": "Démarrer petit : les trente premiers jours",
+     "objectif": "Fournir un chemin d'entrée progressif pour éviter le big bang.",
+     "sections": [
+      "Choisir une zone test à faible enjeu",
+      "Les trois premières règles à poser",
+      "Le premier rôle à faire tourner",
+      "Communiquer sans effrayer",
+      "Les objections légitimes et les résistances de confort",
+      "Mesurer les progrès sans sur-mesurer"
+     ],
+     "exercices": [
+      "Sélectionner une zone test pour les trente prochains jours",
+      "Annoncer l'expérience en une réunion de trente minutes",
+      "Tenir un journal de bord quotidien pendant un mois"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Équipes : du projet à la gouvernance partagée",
+     "objectif": "Décliner la méthode dans des équipes professionnelles variées.",
+     "sections": [
+      "Équipes produit, équipes support, équipes créatives",
+      "Articuler avec la hiérarchie existante",
+      "La place du manager dans un système auto-organisé",
+      "Rémunération, évaluation et rotation",
+      "Gestion des conflits et médiation tournante",
+      "Quand l'auto-organisation atteint ses limites en entreprise"
+     ],
+     "exercices": [
+      "Adapter la charte type à votre équipe",
+      "Proposer un protocole de rotation au responsable hiérarchique",
+      "Mettre en place une médiation tournante interne"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Familles : décider ensemble sans s'épuiser",
+     "objectif": "Adapter la méthode aux contraintes affectives et éducatives familiales.",
+     "sections": [
+      "Ce qui peut émerger vs ce que les parents doivent trancher",
+      "Le conseil de famille : fréquence, format, rôles",
+      "Budget, écrans, vacances, tâches : quatre chantiers types",
+      "Enfants, adolescents, adultes : ajuster selon l'âge",
+      "Familles recomposées et co-parentalité",
+      "Préserver l'intimité et les espaces non négociables"
+     ],
+     "exercices": [
+      "Organiser un premier conseil de famille de vingt minutes",
+      "Écrire une charte familiale d'une page avec les enfants",
+      "Faire tourner la préparation du repas du dimanche pendant un mois"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Projets, associations et collectifs éphémères",
+     "objectif": "Appliquer la méthode à des groupes à durée de vie limitée.",
+     "sections": [
+      "L'enjeu spécifique des groupes temporaires",
+      "Charte éclair pour un projet de quelques mois",
+      "Rotation accélérée et rôles courts",
+      "Clôturer proprement : archiver, transmettre, célébrer",
+      "Collectifs militants, groupes de pairs, communautés en ligne",
+      "Éviter la bureaucratisation des petits groupes"
+     ],
+     "exercices": [
+      "Rédiger une charte éclair pour un projet en cours",
+      "Planifier la clôture dès le lancement du projet",
+      "Documenter les apprentissages pour le prochain collectif"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Vivre avec moins de décisions : une éthique quotidienne",
+     "objectif": "Proposer une posture durable pour les individus et les groupes.",
+     "sections": [
+      "La sobriété décisionnelle comme hygiène de vie",
+      "Accepter l'imperfection des décisions émergentes",
+      "La joie discrète des règles qui tiennent",
+      "Transmettre sans imposer",
+      "Quand revenir à une décision centralisée, provisoirement",
+      "Ouverture : décider moins pour vivre plus"
+     ],
+     "exercices": [
+      "Écrire une lettre à son groupe dans un an",
+      "Lister les décisions que vous avez cessé de prendre cette année",
+      "Offrir la méthode à un autre groupe sans convaincre"
+     ]
+    }
+   ]
+  }
+ ]
+}

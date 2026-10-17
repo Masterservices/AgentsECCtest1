@@ -1,0 +1,585 @@
+{
+ "titre": "L'Ordre par Petites Touches",
+ "sous_titre": "Pourquoi la résilience n'est pas une forteresse mais un jardin — Manuel d'entropie personnelle et d'effet composé",
+ "bibliographie": [
+  {
+   "auteur": "Ilya Prigogine & Isabelle Stengers",
+   "titre": "La Nouvelle Alliance",
+   "annee": "1979",
+   "idee": "Les structures dissipatives créent de l'ordre loin de l'équilibre grâce aux flux d'énergie et aux fluctuations.",
+   "apport": "Cadre conceptuel : l'ordre personnel comme structure dissipative, maintenue par flux, non par isolation."
+  },
+  {
+   "auteur": "Nassim Nicholas Taleb",
+   "titre": "Antifragile",
+   "annee": "2012",
+   "idee": "Certains systèmes profitent du désordre, d'autres y résistent, d'autres y cassent.",
+   "apport": "Distinction résilience/antifragilité ; concevoir des micro-chocs volontaires comme réinjections d'énergie."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "Les améliorations de 1 % composées quotidiennement produisent des transformations massives.",
+   "apport": "Modèle mathématique de l'effet composé appliqué aux micro-réinjections d'ordre."
+  },
+  {
+   "auteur": "BJ Fogg",
+   "titre": "Tiny Habits",
+   "annee": "2019",
+   "idee": "Un comportement = motivation × capacité × déclencheur ; les micro-gestes tiennent mieux que les résolutions.",
+   "apport": "Protocole d'ancrage des rituels de réordonnancement à des déclencheurs existants."
+  },
+  {
+   "auteur": "Mihaly Csikszentmihalyi",
+   "titre": "Flow",
+   "annee": "1990",
+   "idee": "L'entropie psychique (désordre attentionnel) est l'état par défaut ; le flow réordonne la conscience.",
+   "apport": "Cartographie de l'entropie attentionnelle et rituels de recentrage."
+  },
+  {
+   "auteur": "Roy Baumeister & John Tierney",
+   "titre": "Willpower",
+   "annee": "2011",
+   "idee": "La volonté est une ressource limitée qui s'épuise ; compter dessus pour tenir est une erreur stratégique.",
+   "apport": "Argument central : la volonté ponctuelle est un carburant coûteux, les rituels sont une infrastructure."
+  },
+  {
+   "auteur": "Kelly McGonigal",
+   "titre": "The Willpower Instinct",
+   "annee": "2012",
+   "idee": "L'autocontrôle fonctionne comme un muscle : il fatigue mais se renforce par micro-doses.",
+   "apport": "Protocoles de micro-réinjection calibrés pour ne pas épuiser le muscle de la volonté."
+  },
+  {
+   "auteur": "Charles Duhigg",
+   "titre": "The Power of Habit",
+   "annee": "2012",
+   "idee": "Boucle signal-routine-récompense ; les habitudes keystone réorganisent des pans entiers de vie.",
+   "apport": "Identification des habitudes-keystone comme points de levier contre l'entropie."
+  },
+  {
+   "auteur": "Greg McKeown",
+   "titre": "Essentialism",
+   "annee": "2014",
+   "idee": "Sans tri actif, le désordre des engagements croît par défaut ; l'essentialisme est un filtre continu.",
+   "apport": "Chapitre sur le choix des batailles : quelles entropies combattre, lesquelles laisser dériver."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Deep Work",
+   "annee": "2016",
+   "idee": "L'attention profonde est un capital qui se dégrade sans rituels de protection.",
+   "apport": "Rituels de maintenance cognitive et lutte contre l'entropie numérique."
+  },
+  {
+   "auteur": "David Allen",
+   "titre": "Getting Things Done",
+   "annee": "2001",
+   "idee": "Un système externe de capture réduit l'entropie mentale en déchargeant la mémoire de travail.",
+   "apport": "Audit des fuites d'énergie par boucles ouvertes et protocoles de clôture."
+  },
+  {
+   "auteur": "Viktor Frankl",
+   "titre": "Man's Search for Meaning",
+   "annee": "1946",
+   "idee": "Le sens agit comme un attracteur qui réordonne l'expérience autour de lui.",
+   "apport": "Le sens comme structure dissipative personnelle ; ancrage des rituels dans une finalité."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Le Système 2 est coûteux en énergie ; le Système 1 laisse passer l'entropie par défaut.",
+   "apport": "Économie cognitive : déléguer l'ordre au Système 1 via des routines automatisées."
+  },
+  {
+   "auteur": "Stephen Covey",
+   "titre": "The 7 Habits of Highly Effective People",
+   "annee": "1989",
+   "idee": "Le quadrant II (important non urgent) est le lieu de la maintenance préventive.",
+   "apport": "Matrice pour classer les foyers d'entropie selon urgence et importance de leur maintenance."
+  },
+  {
+   "auteur": "Robert Greene",
+   "titre": "Mastery",
+   "annee": "2012",
+   "idee": "La maîtrise est un processus long où l'apprenti accepte des phases de désordre structurant.",
+   "apport": "L'entropie comme phase nécessaire de l'apprentissage ; distinguer désordre stérile et désordre fécond."
+  },
+  {
+   "auteur": "Jeremy England (travaux)",
+   "titre": "Dissipation-driven adaptation",
+   "annee": "2013",
+   "idee": "La matière s'organise pour mieux dissiper l'énergie qu'elle reçoit.",
+   "apport": "Métaphore fondatrice : nos rituels sont des structures qui dissipent le chaos ambiant."
+  },
+  {
+   "auteur": "Anders Ericsson & Robert Pool",
+   "titre": "Peak",
+   "annee": "2016",
+   "idee": "La pratique délibérée maintient et affine les représentations mentales contre leur dégradation.",
+   "apport": "Modèle de réinjection ciblée : où et comment injecter de l'énergie pour maintenir la compétence."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Le diagnostic : comprendre que vous êtes un système ouvert",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'entropie n'est pas votre ennemie, c'est votre condition",
+     "objectif": "Poser le cadre scientifique et philosophique : tout système ouvert tend au désordre sans apport d'énergie.",
+     "sections": [
+      "1.1 Qu'est-ce que l'entropie, vraiment (sans équations)",
+      "1.2 Pourquoi votre vie est une structure dissipative",
+      "1.3 Le mythe de la stabilité : l'homéostasie est un mouvement",
+      "1.4 Trois lois de l'entropie personnelle à graver",
+      "1.5 Pourquoi la volonté ponctuelle perd toujours à long terme",
+      "1.6 Le paradoxe : accepter la dérive pour mieux la gouverner"
+     ],
+     "exercices": [
+      "Journal d'entropie : noter pendant 7 jours ce qui se dégrade sans intervention",
+      "Carte mentale : dessiner vos 5 grands systèmes (corps, esprit, relations, travail, environnement)",
+      "Liste des 'miracles quotidiens invisibles' que vous maintenez sans y penser"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Cartographier vos foyers d'entropie",
+     "objectif": "Identifier les zones de votre vie où le désordre s'accumule le plus vite.",
+     "sections": [
+      "2.1 Les sept foyers classiques d'entropie personnelle",
+      "2.2 Entropie visible vs entropie silencieuse",
+      "2.3 L'audit des 168 heures : où passe vraiment votre temps",
+      "2.4 Cartographier par température : froid, tiède, brûlant",
+      "2.5 Distinguer entropie subie et entropie choisie",
+      "2.6 Le piège de l'entropie déplacée (ranger un tiroir en laissant pourrir un conflit)"
+     ],
+     "exercices": [
+      "Matrice des foyers d'entropie (gravité × vitesse de dégradation)",
+      "Audit photographique : 20 photos de votre environnement physique en une semaine",
+      "Inventaire des dettes invisibles (administratives, relationnelles, de santé)"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Repérer vos fuites d'énergie",
+     "objectif": "Identifier les points par lesquels votre énergie de maintenance s'échappe inutilement.",
+     "sections": [
+      "3.1 Les quatre types de fuites : cognitive, émotionnelle, relationnelle, environnementale",
+      "3.2 Les boucles ouvertes de David Allen revisitées",
+      "3.3 Le coût invisible du multitâche et des notifications",
+      "3.4 Fuites passives (ce que vous tolérez) vs fuites actives (ce que vous alimentez)",
+      "3.5 L'entropie des engagements : pourquoi dire oui coûte plus cher que vous ne le croyez",
+      "3.6 Le test du 'si je devais recommencer aujourd'hui'"
+     ],
+     "exercices": [
+      "Traçage énergétique horaire pendant 3 jours (niveau d'énergie de 1 à 10)",
+      "Liste des 50 'tolérances' qui drainent votre énergie",
+      "Audit des abonnements, engagements et promesses non tenues"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Mesurer votre dérive naturelle",
+     "objectif": "Établir une baseline honnête : à quoi ressemble votre vie quand vous n'injectez rien.",
+     "sections": [
+      "4.1 L'expérience de la semaine zéro (sans nouveaux efforts)",
+      "4.2 Calculer votre vitesse de dégradation par domaine",
+      "4.3 Identifier votre point de bascule personnel",
+      "4.4 Les signaux précoces que vous ignorez toujours",
+      "4.5 Le journal de la dérive : documenter sans juger",
+      "4.6 Pourquoi mesurer change déjà le système"
+     ],
+     "exercices": [
+      "Protocole semaine zéro (sécurisé et limité)",
+      "Grille de signaux précoces par domaine de vie",
+      "Courbe de dérive personnelle sur 12 mois passés"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Le changement de paradigme : de la forteresse au jardin",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Pourquoi la volonté ponctuelle est un piège",
+     "objectif": "Démonter l'idéal héroïque du 'coup de collier' et lui substituer l'ingénierie des petits flux.",
+     "sections": [
+      "5.1 L'économie cognitive : la volonté coûte cher en glucose et en attention",
+      "5.2 L'effet 'what the hell' et la spirale de la rechute",
+      "5.3 Le mythe du déclic et de la motivation durable",
+      "5.4 La fatigue décisionnelle comme accélérateur d'entropie",
+      "5.5 Ce que les résolutions de janvier nous apprennent de l'échec",
+      "5.6 Remplacer l'héroïsme par l'infrastructure"
+     ],
+     "exercices": [
+      "Audit de vos 10 dernières grandes résolutions et de leur devenir",
+      "Calcul du coût énergétique moyen d'une décision récurrente",
+      "Liste des décisions à automatiser dans les 30 jours"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "L'effet composé : la huitième merveille de votre résilience",
+     "objectif": "Montrer mathématiquement et qualitativement pourquoi de petits apports réguliers battent les grands efforts ponctuels.",
+     "sections": [
+      "6.1 La courbe exponentielle discrète expliquée simplement",
+      "6.2 1 % par jour : mythe, réalité et bonnes approximations",
+      "6.3 La non-linéarité des petits gestes qui s'empilent",
+      "6.4 Les intérêts composés relationnels, cognitifs, physiques",
+      "6.5 Le valley of disappointment : traverser la phase ingrate",
+      "6.6 Pourquoi l'effet composé récompense les systèmes, pas les objectifs"
+     ],
+     "exercices": [
+      "Simulateur personnel : modéliser 3 scénarios d'apports sur 5 ans",
+      "Calcul de votre 'taux d'intérêt' actuel dans 4 domaines clés",
+      "Journal de la preuve : noter chaque micro-apport pendant 30 jours"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Accepter la dérive pour mieux la gouverner",
+     "objectif": "Transformer l'acceptation en outil stratégique, non en résignation.",
+     "sections": [
+      "7.1 Le stoïcisme revisité par la thermodynamique",
+      "7.2 Distinguer dérive acceptable et dérive pathologique",
+      "7.3 L'acceptation comme économie d'énergie",
+      "7.4 Choisir ses défaites : l'art stratégique du lâcher-prise",
+      "7.5 Le deuil de l'ordre parfait",
+      "7.6 Construire une relation saine avec le désordre"
+     ],
+     "exercices": [
+      "Liste des 20 choses que vous voulez contrôler mais ne pouvez pas",
+      "Protocole du 'jardin sauvage' : désigner une zone volontairement non entretenue",
+      "Rituel hebdomadaire de deuil des ambitions irréalistes"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Choisir ses batailles contre le désordre",
+     "objectif": "Définir une doctrine personnelle de l'entretien : où injecter de l'énergie, où laisser faire.",
+     "sections": [
+      "8.1 La matrice essentialiste appliquée à l'entropie",
+      "8.2 Entropie fertile vs entropie stérile",
+      "8.3 Les batailles symboliques qui structurent tout le reste",
+      "8.4 Le principe du 'good enough' calibré par domaine",
+      "8.5 Quand le désordre devient signal d'alarme utile",
+      "8.6 Réviser sa doctrine tous les trimestres"
+     ],
+     "exercices": [
+      "Matrice 2×2 : coût de l'entretien × coût du désordre",
+      "Charte personnelle des standards minimaux par domaine",
+      "Liste des 3 batailles symboliques à gagner en priorité"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — L'ingénierie des micro-réinjections",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Anatomie d'un rituel de réordonnancement",
+     "objectif": "Définir ce qu'est un rituel efficace et ce qui le distingue d'une résolution ou d'une routine.",
+     "sections": [
+      "9.1 Définition : un rituel est un geste symbolique répété qui réinjecte de l'ordre",
+      "9.2 Les cinq composantes d'un rituel robuste",
+      "9.3 Rituel vs routine vs habitude vs discipline",
+      "9.4 La dimension symbolique : pourquoi le sens change tout",
+      "9.5 La durée minimale efficace : entre 30 secondes et 15 minutes",
+      "9.6 Les trois échelles de rituels : micro, méso, macro"
+     ],
+     "exercices": [
+      "Inventaire des rituels déjà existants dans votre vie",
+      "Analyse d'un rituel personnel qui fonctionne (pourquoi ?)",
+      "Conception de 3 rituels prototypes sur les 3 échelles"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Concevoir des micro-gestes qui tiennent",
+     "objectif": "Appliquer la méthode Tiny Habits à la lutte contre l'entropie.",
+     "sections": [
+      "10.1 La formule de BJ Fogg revisitée pour l'entropie",
+      "10.2 Le choix du déclencheur : ancrer à ce qui existe déjà",
+      "10.3 Réduire jusqu'à l'absurde : le pouvoir du 'au moins une fois'",
+      "10.4 La célébration immédiate comme ciment neurologique",
+      "10.5 Itérer et ajuster : un rituel est un prototype permanent",
+      "10.6 Le stacking de rituels : empiler sans surcharger"
+     ],
+     "exercices": [
+      "Cartographie de vos routines existantes (points d'ancrage)",
+      "Conception de 5 micro-rituels de moins de 2 minutes",
+      "Protocole de test sur 21 jours avec grille d'ajustement"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Les protocoles de micro-réinjection par domaine",
+     "objectif": "Fournir une bibliothèque de protocoles concrets pour les sept foyers d'entropie.",
+     "sections": [
+      "11.1 Protocoles corps : sommeil, mouvement, alimentation",
+      "11.2 Protocoles esprit : attention, apprentissage, repos",
+      "11.3 Protocoles émotions : régulation, expression, digestion",
+      "11.4 Protocoles relations : présence, réparation, gratitude",
+      "11.5 Protocoles travail : priorités, clôture, transition",
+      "11.6 Protocoles environnement : physique, numérique, financier",
+      "11.7 Protocoles sens : alignement, révision, projection"
+     ],
+     "exercices": [
+      "Choix de 7 protocoles (un par domaine) à tester en rotation",
+      "Fiche protocole personnalisée (déclencheur, geste, durée, récompense)",
+      "Tableau de bord de suivi hebdomadaire"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Composer les apports dans le temps",
+     "objectif": "Orchestrer les micro-réinjections pour qu'elles se renforcent mutuellement au lieu de se concurrencer.",
+     "sections": [
+      "12.1 Le principe de la composition : fréquence × intensité × timing",
+      "12.2 Rythmes circadiens, ultradiens et saisonniers",
+      "12.3 La semaine comme unité de base de la composition",
+      "12.4 Séquencer : quel rituel avant quel autre",
+      "12.5 Éviter la surcharge : le budget d'attention disponible",
+      "12.6 Les fenêtres de réinjection critique (matin, transition, soir)"
+     ],
+     "exercices": [
+      "Design de votre semaine-type avec plages de réinjection",
+      "Calendrier de composition sur 90 jours",
+      "Test de charge cognitive : combien de rituels pouvez-vous réellement tenir"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Installer des boucles de feedback",
+     "objectif": "Mettre en place les capteurs qui vous diront si vos réinjections fonctionnent.",
+     "sections": [
+      "13.1 Mesurer sans obsesser : la bonne granularité",
+      "13.2 Indicateurs avancés vs indicateurs retardés",
+      "13.3 Le journal de bord minimaliste",
+      "13.4 La revue hebdomadaire comme rituel-maître",
+      "13.5 La revue trimestrielle : recalibrer la doctrine",
+      "13.6 Quand les chiffres mentent : l'importance du qualitatif"
+     ],
+     "exercices": [
+      "Choix de 5 indicateurs clés personnels",
+      "Template de revue hebdomadaire (30 minutes)",
+      "Template de revue trimestrielle (2 heures)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Les situations critiques : quand l'entropie explose",
+   "chapitres": [
+    {
+     "numero": 14,
+     "titre": "Gérer les crises sans perdre la structure",
+     "objectif": "Adapter le système aux moments où l'entropie s'emballe (deuil, maladie, rupture, perte d'emploi).",
+     "sections": [
+      "14.1 Le mode dégradé : définir votre minimum vital",
+      "14.2 Quels rituels garder, lesquels suspendre",
+      "14.3 Le rituel-ancrage : celui qui ne tombe jamais",
+      "14.4 Accepter la dégradation contrôlée",
+      "14.5 Le retour progressif : ne pas relancer trop vite",
+      "14.6 Tirer des leçons structurelles de la crise"
+     ],
+     "exercices": [
+      "Définition écrite de votre mode dégradé personnel",
+      "Identification de votre rituel-ancrage unique",
+      "Protocole de reprise progressive sur 6 semaines"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "L'entropie relationnelle : liens, conflits, solitudes",
+     "objectif": "Appliquer le cadre entropique aux relations humaines, là où la dérive est la plus douloureuse.",
+     "sections": [
+      "15.1 Les relations comme systèmes dissipatifs à deux",
+      "15.2 L'entropie du non-dit et de l'accumulation",
+      "15.3 Micro-réinjections relationnelles : présence, reconnaissance, réparation",
+      "15.4 Gérer l'entropie des liens faibles et du réseau",
+      "15.5 Quand l'autre ne joue pas le jeu : asymétries d'entretien",
+      "15.6 Les relations qu'il faut laisser dériver"
+     ],
+     "exercices": [
+      "Cartographie de vos 10 relations les plus importantes et de leur état d'entretien",
+      "Protocole de micro-réinjection relationnelle hebdomadaire",
+      "Liste des relations à réparer, à maintenir, à laisser aller"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "L'entropie numérique et attentionnelle",
+     "objectif": "Traiter le cas particulier de l'environnement numérique, accélérateur majeur d'entropie moderne.",
+     "sections": [
+      "16.1 Pourquoi vos appareils sont des machines à entropie",
+      "16.2 L'économie de l'attention comme prélèvement énergétique",
+      "16.3 Design défensif : paramétrer pour réduire l'entropie",
+      "16.4 Rituels de clôture numérique (fin de journée, fin de semaine)",
+      "16.5 La diète informationnelle comme réinjection d'ordre",
+      "16.6 L'environnement numérique comme extension de soi"
+     ],
+     "exercices": [
+      "Audit de vos écrans : temps, notifications, abonnements",
+      "Protocole de paramétrage défensif (pas à pas)",
+      "Rituel de clôture numérique en 5 étapes"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "L'entropie financière et matérielle",
+     "objectif": "Appliquer le cadre à l'argent et aux possessions, foyers d'entropie souvent négligés.",
+     "sections": [
+      "17.1 L'entropie des dépenses non surveillées",
+      "17.2 L'accumulation matérielle comme dette d'entretien",
+      "17.3 Micro-réinjections financières (revues, automatisations)",
+      "17.4 Le minimalisme comme stratégie anti-entropique",
+      "17.5 La maintenance préventive des objets qui comptent",
+      "17.6 L'argent comme énergie stockée : où la réinjecter"
+     ],
+     "exercices": [
+      "Audit des dépenses récurrentes et des abonnements fantômes",
+      "Inventaire matériel et tri en 4 piles",
+      "Automatisation de 3 réinjections financières"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Quand le corps lâche : entropie biologique",
+     "objectif": "Traiter avec honnêteté le corps comme système entropique, sans promesses médicales.",
+     "sections": [
+      "18.1 Le corps comme système ouvert par excellence",
+      "18.2 Les signaux faibles que l'on ignore toujours trop longtemps",
+      "18.3 Micro-réinjections corporelles non négociables",
+      "18.4 La relation au vieillissement comme entropie acceptée",
+      "18.5 Distinguer maintenance et obsession du contrôle",
+      "18.6 Savoir déléguer aux professionnels (limites du livre)"
+     ],
+     "exercices": [
+      "Check-list des signaux faibles personnels",
+      "Protocole minimal de maintenance corporelle quotidienne",
+      "Liste des professionnels à consulter en prévention"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — La vie comme pratique : tenir dans la durée",
+   "chapitres": [
+    {
+     "numero": 19,
+     "titre": "Le sens comme attracteur étrange",
+     "objectif": "Montrer que le sens personnel est la structure dissipative ultime qui organise toutes les autres.",
+     "sections": [
+      "19.1 Le sens comme attracteur au sens mathématique",
+      "19.2 Pourquoi les rituels sans sens s'effondrent",
+      "19.3 Construire un récit personnel révisable",
+      "19.4 Les trois sources du sens : contribution, lien, transcendance",
+      "19.5 Le sens comme filtre des batailles à mener",
+      "19.6 Réviser son sens sans le trahir"
+     ],
+     "exercices": [
+      "Écriture de votre énoncé de sens en 3 phrases",
+      "Test de cohérence : vos rituels servent-ils votre sens ?",
+      "Rituel annuel de révision du sens"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Composer avec les saisons de la vie",
+     "objectif": "Adapter le système aux grandes transitions (parentalité, carrière, deuil, retraite).",
+     "sections": [
+      "20.1 Les saisons humaines ne sont pas linéaires",
+      "20.2 Reconfigurer sans repartir à zéro",
+      "20.3 Les transitions comme moments d'entropie maximale",
+      "20.4 Le principe du noyau invariant",
+      "20.5 Anticiper les saisons suivantes",
+      "20.6 Transmettre son système à d'autres"
+     ],
+     "exercices": [
+      "Cartographie de vos 5 dernières grandes transitions",
+      "Identification de votre noyau invariant (3 à 5 rituels)",
+      "Protocole d'entrée en nouvelle saison"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Éviter les pièges du perfectionnisme entropique",
+     "objectif": "Se prémunir contre la dérive inverse : vouloir tout contrôler devient une source d'entropie.",
+     "sections": [
+      "21.1 Le méta-désordre : quand l'ordre devient pathologique",
+      "21.2 Les signes que votre système vous contrôle",
+      "21.3 La place du chaos fécond et de l'improvisation",
+      "21.4 Le droit à la saleté, à l'oubli, à la paresse",
+      "21.5 L'art de la désinstallation temporaire",
+      "21.6 Rire de soi : l'humour comme anti-entropique"
+     ],
+     "exercices": [
+      "Auto-diagnostic du perfectionnisme entropique",
+      "Journée volontairement sans rituel (en sécurité)",
+      "Liste des moments où le désordre vous a servi"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "L'entropie collective : au-delà de soi",
+     "objectif": "Élargir le cadre à la famille, à l'équipe, à la communauté.",
+     "sections": [
+      "22.1 Les systèmes collectifs ont leur propre entropie",
+      "22.2 Rituels familiaux comme structures dissipatives partagées",
+      "22.3 Entropie d'équipe et rituels professionnels",
+      "22.4 Le rôle du leader comme injecteur d'énergie",
+      "22.5 Communautés comme jardins collectifs",
+      "22.6 Limites éthiques : ne pas imposer son ordre"
+     ],
+     "exercices": [
+      "Inventaire des rituels collectifs déjà en place",
+      "Conception d'un rituel familial ou d'équipe",
+      "Charte d'entretien collectif négociée"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Tableaux de composition et outils concrets",
+     "objectif": "Fournir les artefacts pratiques qui soutiennent la méthode au quotidien.",
+     "sections": [
+      "23.1 Le tableau de bord personnel minimal",
+      "23.2 Le carnet de bord hebdomadaire",
+      "23.3 Le tableau de composition annuel",
+      "23.4 Les fiches-rituels : format standard",
+      "23.5 Les check-lists de transition (matin, soir, semaine, trimestre)",
+      "23.6 L'audit annuel complet (une journée)"
+     ],
+     "exercices": [
+      "Remplir son premier tableau de bord",
+      "Concevoir ses 5 fiches-rituels maîtresses",
+      "Planifier son premier audit annuel"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Tenir, sans fin : la résilience comme manière d'habiter le monde",
+     "objectif": "Conclure en élevant le propos : la résilience n'est pas un état à atteindre mais une manière d'être.",
+     "sections": [
+      "24.1 Récapitulation : les dix principes du jardinier de soi",
+      "24.2 La beauté du geste répété",
+      "24.3 Ce que l'entropie nous enseigne sur la finitude",
+      "24.4 Transmettre sans imposer",
+      "24.5 Le dernier rituel : celui de la gratitude envers le désordre",
+      "24.6 Commencer aujourd'hui, petit, et recommencer demain"
+     ],
+     "exercices": [
+      "Écriture de votre charte personnelle du jardinier de soi",
+      "Lettre à vous-même dans 5 ans",
+      "Choix du premier micro-geste à faire dès la fermeture du livre"
+     ]
+    }
+   ]
+  }
+ ]
+}
