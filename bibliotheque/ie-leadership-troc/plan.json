@@ -1,0 +1,556 @@
+{
+ "titre": "Le Pendule du Troc",
+ "sous_titre": "Le leadership poussé à son extrême : et si tout, absolument tout, n'était qu'échange de valeur ?",
+ "bibliographie": [
+  {
+   "auteur": "Marcel Mauss",
+   "titre": "Essai sur le don",
+   "annee": "1925",
+   "idee": "Toute relation sociale repose sur trois obligations indissociables : donner, recevoir, rendre. Le don n'est jamais pur : le contre-don est la condition de la cohésion sociale.",
+   "apport": "Fondation théorique de la thèse : le leadership moderne n'échappe pas à cette grammaire tripartite. Notre livre en retient le « triple devoir » comme première loi du maître-troqueur et comme boussole pour auditer toute relation managériale."
+  },
+  {
+   "auteur": "Robert Cialdini",
+   "titre": "Influence : science et persuasion",
+   "annee": "1984 (éditions ultérieures)",
+   "idee": "Six principes universels d'influence, dont la réciprocité — on rend plus volontiers ce qu'on a reçu —, sont les véritables moteurs de la persuasion humaine.",
+   "apport": "Nous retournons le principe de réciprocité contre la manipulation : plutôt que de l'exploiter à des fins de vente, nous en faisons la base d'un audit éthique des trocs et d'un protocole de rééquilibrage transparent. Citation courte attribuée uniquement si nécessaire."
+  },
+  {
+   "auteur": "Peter M. Blau",
+   "titre": "Exchange and Power in Social Life",
+   "annee": "1964",
+   "idee": "Les échanges sociaux suivent une micro-économie de la réciprocité ; le pouvoir émerge lorsqu'un acteur contrôle une ressource que l'autre ne peut obtenir ailleurs (asymétrie de dépendance).",
+   "apport": "Premier cadre explicite du livre : l'autorité n'est qu'un rapport de dépendance dans le troc. Notre grille d'audit s'inspire de sa distinction échange/norme pour séparer ce qui se troque vraiment de ce qui se prétend donner."
+  },
+  {
+   "auteur": "George C. Homans",
+   "titre": "Social Behavior as Exchange",
+   "annee": "1958 (article fondateur ; développements dans The Human Group, 1950)",
+   "idee": "Le comportement social peut se lire comme un échange d'avantages : chacun maximise récompenses et minimise coûts dans ses interactions répétées.",
+   "apport": "Nous retanons le vocabulaire « coût / bénéfice / réinvestissement » pour construire le bilan de valeur de chaque relation d'équipe, sans jamais réduire l'humain à un calcul purement monétaire."
+  },
+  {
+   "auteur": "Adam M. Grant",
+   "titre": "Give and Take : Why Helping Others Drives Our Success",
+   "annee": "2013",
+   "idee": "Trois profils d'acteurs coexistent : donneurs, preneurs et équilibrateurs (matchers). Les donneurs réussissent souvent mieux, à condition de canaliser leur générosité.",
+   "apport": "Taxonomie pratique reprise et radicalisée : nous ajoutons le « maître-troqueur », qui ne donne pas par nature mais ajuste en continu le pendule. Exercices d'auto-classification et de cartographie d'équipe."
+  },
+  {
+   "auteur": "John C. Maxwell",
+   "titre": "The 21 Irrefutable Laws of Leadership",
+   "annee": "1998",
+   "idee": "Le leadership est influence ; parmi les « lois », celle de réciprocité stipule que le vrai leader ajoute de la valeur constante à ceux qui le suivent.",
+   "apport": "Point de comparaison : Maxwell conserve une figure centrale du leader. Notre livre pousse la loi de réciprocité jusqu'à son extrême et dissout le leader-unique en maître-troqueur parmi d'autres, régulé par le pendule."
+  },
+  {
+   "auteur": "Simon Sinek",
+   "titre": "Start with Why",
+   "annee": "2009",
+   "idee": "Les leaders durables commencent par le « pourquoi » ; ils échangent du sens avant d'échanger des biens ou des instructions.",
+   "apport": "Base du chapitre « Le sens comme monnaie souveraine » : le troc de sens prime sur le troc de ressources. Nous prolongeons Sinek en montrant que le sens lui-même se troque — il n'est pas unilatéral."
+  },
+  {
+   "auteur": "Daniel H. Pink",
+   "titre": "Drive : The Surprising Truth About What Motivates Us",
+   "annee": "2009",
+   "idee": "La motivation profonde repose sur l'autonomie, la maîtrise et le but, plus que sur les incitations financières classiques.",
+   "apport": "Cartographie des « monnaies non monétaires » du leadership : autonomie, temps d'apprentissage, reconnaissance, sens. Notre grille d'audit mesure ces flux aussi sérieusement que les budgets."
+  },
+  {
+   "auteur": "Erving Goffman",
+   "titre": "The Presentation of Self in Everyday Life",
+   "annee": "1959",
+   "idee": "La vie sociale est une mise en scène d'impressions ; chaque interaction est un échange de « faces » (image sociale) réglé par des rituels.",
+   "apport": "Le chapitre sur le non-dit des réunions s'appuie sur cette lecture : on troque du statut, de la face et de l'attention dans chaque tour de table. Nous en tirons des exercices de décodage des trocs invisibles."
+  },
+  {
+   "auteur": "Robert K. Greenleaf",
+   "titre": "Servant Leadership",
+   "annee": "1970 (essai initial ; développement ultérieur)",
+   "idee": "Le vrai leader est d'abord serviteur : l'autorité légitime naît du service rendu au groupe, non d'un statut conféré.",
+   "apport": "Point de bascule de notre thèse : Greenleaf sacralise le don ; nous montrons que le don de service est lui-même un troc (il achète influence, légitimité, réciprocité future). Dépassement, non réfutation."
+  },
+  {
+   "auteur": "Keith Ferrazzi",
+   "titre": "Never Eat Alone",
+   "annee": "2006",
+   "idee": "Le réseau se construit par la générosité systématique : offrir de la valeur avant d'en demander, et entretenir des relations avant d'en avoir besoin.",
+   "apport": "Protocole de « première offrande » adapté au management d'équipe : chaque interaction commence par un apport de valeur identifiable, mesurable et traçable dans le carnet de trocs."
+  },
+  {
+   "auteur": "Brené Brown",
+   "titre": "Dare to Lead",
+   "annee": "2018",
+   "idee": "La vulnérabilité assumée (demander de l'aide, reconnaître ses limites) est une force de leadership, pas une faiblesse ; elle fonde la confiance.",
+   "apport": "La vulnérabilité devient un actif d'échange explicite : avouer un besoin, c'est offrir une opportunité de contre-don. Exercices d'aveu structuré et de réception sans culpabilité."
+  },
+  {
+   "auteur": "Frédéric Laloux",
+   "titre": "Reinventing Organizations",
+   "annee": "2014",
+   "idee": "Des organisations auto-gérées montrent qu'on peut faire circuler l'autorité sans hiérarchie figée, par des pratiques de rétroaction et d'équité radicales.",
+   "apport": "Inspiration du « pendule distribué » : la régulation des trocs peut être collective, rituelle et horizontale. Nous en tirons le protocole de rééquilibrage à plusieurs voix."
+  },
+  {
+   "auteur": "Charles H. Handy",
+   "titre": "Understanding Organizations",
+   "annee": "1976 (éditions révisées ultérieures ; date incertaine selon les éditions)",
+   "idee": "Les organisations sont des systèmes de pouvoir, de culture et de confiance ; la culture est le « tissu » de ce qui circule et de ce qui ne circule pas.",
+   "apport": "Lecture culturelle des trocs : chaque organisation possède une grammaire implicite de l'échange (qui donne, qui reçoit, ce qui ne se dit pas). Notre audit commence par déchiffrer cette grammaire."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Deux systèmes cognitifs — intuitif et analytique — produisent des biais systématiques dans l'évaluation des gains, des pertes et de la valeur.",
+   "apport": "Nous cartographions les biais qui sabinent le troc : effet de dotation, aversion à la perte, ancrage, illusion de transparence. La grille d'audit intègre des cases « biais à corriger »."
+  },
+  {
+   "auteur": "Francis Fukuyama",
+   "titre": "Trust : The Social Virtues and the Creation of Prosperity",
+   "annee": "1995",
+   "idee": "La confiance (capital social) conditionne la capacité des sociétés et des entreprises à engager des échanges efficaces et à réduire les coûts de transaction.",
+   "apport": "La confiance est la monnaie de réserve du pendule : elle permet d'encaisser des déséquilibres temporaires sans rupture. Chapitre sur les « réserves » et les « faillites de confiance »."
+  },
+  {
+   "auteur": "Alain Caillé",
+   "titre": "Anthropologie du don",
+   "annee": "2000",
+   "idee": "Contre le « paradigme de l'intérêt » économique, Caillé défend que le don-contredon est le moteur premier des sociétés humaines.",
+   "apport": "Nuance essentielle de notre thèse : même en disant « tout n'est que troc », nous refusons la réduction purement marchande. Le troc inclut le gratuit, le symbolique, le sacré. Garde-fou éthique du livre."
+  },
+  {
+   "auteur": "Chris Argyris",
+   "titre": "On Organizational Learning (et travaux sur les routines défensives)",
+   "annee": "1999 (travaux antérieurs dès les années 1970)",
+   "idee": "Les organisations et leurs acteurs développent des routines défensives qui empêchent l'apprentissage et l'affrontement des vrais problèmes.",
+   "apport": "Diagnostic des « figements » du pendule : quand les échanges se figent en habitudes, personne ne relance le cycle. Exercices de mise à l'épreuve des routines de réciprocité."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Le procès de l'autorité : déconstruire le leader, installer le pendule",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'autorité est un mythe commode",
+     "objectif": "Établir la thèse provocatrice du livre : ce que nous appelons « leadership » n'est qu'un enchevêtrement d'échanges de valeur ; le statut, le charisme et la position hiérarchique ne sont que des masques sur des trocs ordinaires.",
+     "sections": [
+      "Le leader que l'on croit voir : une fiction utile",
+      "Ce que les équipes échangent réellement à chaque instant",
+      "Trois récits de « leadership » démontés (l'inspirant, le stratège, le serviteur)",
+      "Contre-exemples et limites de la thèse : où le troc seul ne suffit pas à expliquer",
+      "Annoncer le pacte de lecture : ni cynisme, ni naïveté"
+     ],
+     "exercices": [
+      "Exercice 1 — Retour en arrière : décrire une scène où un « leader » a semblé agir « naturellement », puis réécrire la scène en termes de ce qui a été donné, reçu et rendu.",
+      "Exercice 2 — Liste des cinq personnes qui ont le plus influencé votre carrière ; pour chacune, noter le premier « don » reçu et le « contre-don » effectif ou manqué."
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Le pendule : une métaphore pour remplacer la hiérarchie",
+     "objectif": "Introduire et définir rigoureusement la métaphore centrale du livre : le pendule des réciprocités, qui oscille entre donner et recevoir, et dont l'immobilisation signale la mort du leadership.",
+     "sections": [
+      "Qu'est-ce qu'un pendule de réciprocité (définition opérationnelle)",
+      "Les quatre états du pendule : en mouvement, déséquilibré, bloqué, brisé",
+      "Pourquoi une métaphore plutôt qu'un organigramme",
+      "Le pendule à plusieurs corps : équipes, organisations, coalitions",
+      "Première mesure : observer un pendule pendant une semaine"
+     ],
+     "exercices": [
+      "Exercice 1 — Schématiser le pendule de votre équipe actuelle : flèches d'aller et de retour, ce qui circule, ce qui coince.",
+      "Exercice 2 — Journal d'observation : noter pendant cinq jours un échange quotidien (e-mail, réunion, couloir) et tenter d'en identifier les flux de valeur."
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Les cinq monnaies du leadership",
+     "objectif": "Inventorier les « devises » qui circulent réellement dans les organisations — au-delà de l'argent — pour doter le lecteur d'un vocabulaire commun d'audit des trocs.",
+     "sections": [
+      "Monnaie 1 : ressources matérielles et temps",
+      "Monnaie 2 : information et accès au réseau",
+      "Monnaie 3 : reconnaissance, statut et face",
+      "Monnaie 4 : sens, vision et cohérence narrative",
+      "Monnaie 5 : attention et présence relationnelle",
+      "Pourquoi croiser les monnaies : les trocs mixtes et leur prix psychologique"
+     ],
+     "exercices": [
+      "Exercice 1 — Journal de bord des monnaies : pendant une semaine, classer chaque échange reçu ou donné dans l'une des cinq monnaies.",
+      "Exercice 2 — Auto-évaluation : quelle monnaie émettez-vous le plus ? Laquelle réclamez-vous le plus souvent ? Tracer son propre « profil de change »."
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "La grammaire du troc : donner, recevoir, rendre",
+     "objectif": "Fonder la grammaire opérationnelle du livre sur la leçon de Mauss et de l'échange social, en la transposant au management quotidien : trois obligations, un cycle, des sanctions sociales.",
+     "sections": [
+      "Donner : l'obligation d'offrir de la valeur en premier",
+      "Recevoir : l'art de accepter sans dette immédiate ni refus",
+      "Rendre : le contre-don, sa temporalité et ses formes",
+      "Les sanctions du cycle rompu : passivité-agressive, turnover, cynisme",
+      "Première version du protocole « trois obligations » appliqué à une réunion"
+     ],
+     "exercices": [
+      "Exercice 1 — Audit express d'une relation professionnelle : lister les dons, les receptions et les rendus en suspens depuis 90 jours.",
+      "Exercice 2 — Expérience de laboratoire : dans une réunion, s'engager explicitement à donner d'abord, noter les réactions et les effets sur le pendule."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Inventorier ce que chacun donne et reçoit vraiment",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Cartographie des échanges dans l'équipe",
+     "objectif": "Apprendre à produire une carte vivante des flux de valeur entre les membres d'un collectif : qui alimente le pendule, qui le freine, quels sont les points de congestion.",
+     "sections": [
+      "De l'organigramme formel à la carte des dépendances réelles",
+      "Méthode des entretiens croisés : trois questions, zéro jugement",
+      "Identifier les « centrales » et les « îlots » du réseau de trocs",
+      "Les zones grises : relations bilatérales non observables",
+      "Première restitution collective de la cartographie"
+     ],
+     "exercices": [
+      "Exercice 1 — Matrice de flux : sur une équipe de 5 à 12 personnes, noter pour chaque dyade le type dominant de monnaie échangée.",
+      "Exercice 2 — Entretiens croisés : interviewer deux collègues sur « ce que tu reçois et ce que tu donnes le plus souvent au travail » ; consigner les écarts de perception."
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Les trocs visibles : tâches, budgets, décisions",
+     "objectif": "Rendre mesurable ce qui se troque déjà officiellement — charge de travail, temps, argent, droit de décision — et en révéler les déséquilibres structurels.",
+     "sections": [
+      "La comptabilité implicite de la charge : qui porte le lourd ?",
+      "Budgets et temps : les monnaies rares, donc politiques",
+      "Droits de veto et micro-décisions : le troc invisible du pouvoir de blocage",
+      "Réunions : le plus grand marché de trocs de l'entreprise",
+      "Tableau de bord minimal des trocs visibles"
+     ],
+     "exercices": [
+      "Exercice 1 — Chronométrage d'une semaine : noter le temps réel consacré aux tâches héritées des autres et aux tâches confiées.",
+      "Exercice 2 — Inventaire des « droits de veto » non écrits de votre équipe : qui peut réellement bloquer quoi, et quel contre-don cela implique-t-il ?"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Les trocs invisibles : attention, reconnaissance, statut",
+     "objectif": "Rendre auditable les échanges non matériels qui décident pourtant de la vitalité du pendule : qui prête attention à qui, qui reconnaît quoi, qui octroie de la face.",
+     "sections": [
+      "L'attention comme ressource la plus rare du XXIe siècle managérial",
+      "Reconnaissance : dosage, sincérité, effet de levier",
+      "Statut et face : le troc derrière les mots politiques",
+      "Silences et micro-humiliations : les contre-dons négatifs",
+      "Protocole de « relevé d'attention » sur quinze jours"
+     ],
+     "exercices": [
+      "Exercice 1 — Compte-rendu d'attention : noter chaque fois que vous accordez ou recevez une attention pleine (écoute sans écran) et chaque fois qu'elle est simulaée.",
+      "Exercice 2 — Carte de reconnaissance : lister les personnes de votre entourage qui ne sont jamais reconnues ; préparer un contre-don de reconnaissance ciblé."
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Le bilan de valeur : mesurer ce qui circule vraiment",
+     "objectif": "Construire un « bilan de valeur » personnel et d'équipe, analogue au bilan comptable, mais pour les cinq monnaies du leadership, avec ses écarts et ses provisions.",
+     "sections": [
+      "Principes d'un bilan de valeur : stocks, flux, provisions de confiance",
+      "Les postes de l'actif : ce que je reçois et que je peux mobiliser",
+      "Les postes du passif : ce que je dois rendre et ce que je dois encore recevoir",
+      "Les provisions : confiance, capital relationnel, réputation",
+      "Quand le bilan est négatif : signaux d'alerte et premières corrections"
+     ],
+     "exercices": [
+      "Exercice 1 — Modèle de bilan de valeur sur une page : remplir les postes pour une relation de travail clé.",
+      "Exercice 2 — Comparaison de bilans entre deux membres d'une même équipe (anonymisée) pour identifier les asymétries de perception."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Rendre explicites les trocs invisibles",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Le contrat psychologique comme carnet de trocs",
+     "objectif": "Utiliser la notion de contrat psychologique (non écrit, souvent inconscient) pour formaliser les attentes de don et de contre-don qui structurent chaque relation de travail.",
+     "sections": [
+      "Définir le contrat psychologique sans jargon",
+      "Les clauses non dites : temps, loyauté, flexibilité, reconnaissance",
+      "Violation de contrat : quand un troc promis n'est jamais rendu",
+      "Réviser un contrat psychologique par la conversation explicite",
+      "Version écrite ou version parlée : ce qui fonctionne vraiment"
+     ],
+     "exercices": [
+      "Exercice 1 — Rédiger les cinq clauses implicites de votre contrat avec votre manager ; préparer la conversation pour en confronter deux.",
+      "Exercice 2 — Audit de violations : lister les trois ruptures de contrat perçues (par vous ou l'autre) au cours de l'année écoulée ; proposer une réparation symbolique."
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Décoder le non-dit des réunions",
+     "objectif": "Transformer la réunition en laboratoire d'observation des trocs cachés : tours de parole, interruptions, silences, agendas fantômes.",
+     "sections": [
+      "La réunition comme rituel d'échange de faces (lecture goffmanienne)",
+      "Qui parle, qui se tait, qui résume : cartographie linguistique",
+      "Les interruptions comme micro-vols de statut",
+      "L'agenda fantôme : le vrai sujet qui n'est jamais inscrit",
+      "Protocole d'observation neutre d'une réunion type"
+     ],
+     "exercices": [
+      "Exercice 1 — Compter les interruptions et les tours de parole non sollicités dans une réunion d'une heure ; confronter aux ressentis des participants.",
+      "Exercice 2 — « Désigner l'agenda fantôme » : proposer à l'équipe de nommer en début de réunion le sujet sensible que tout le monde pense mais que personne n'ose poser."
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Le langage qui nomme les échanges",
+     "objectif": "Outiller le lecteur d'un vocabulaire minimal pour nommer, dans le flux de l'action, les trocs en cours — sans théâtralité ni culpabilisation.",
+     "sections": [
+      "Phrases-types pour reconnaître un don reçu sans devenir débiteur",
+      "Phrases-types pour demander un contre-don sans marchander",
+      "Le « merci » et ses limites : reconnaissance vs transaction",
+      "Nommer le déséquilibre en réunion sans accuser",
+      "Le journal de langage : noter ses propres formules d'échange"
+     ],
+     "exercices": [
+      "Exercice 1 — Refaire une conversation difficile de la semaine en utilisant le vocabulaire du troc (dons, contre-dons, pendule) ; noter les effets.",
+      "Exercice 2 — Jeu de rôle à deux : apprendre à dire « je viens de te donner X, j'ai besoin de Y d'ici Z » sans agressivité ni effacement."
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Ateliers de mise à nu des réciprocités",
+     "objectif": "Concevoir et animer un atelier collectif (demi-journée) où une équipe rend explicites ses trocs, ses attentes et ses zones de friction — le cœur pratique de la partie III.",
+     "sections": [
+      "Préparer le terrain : consentement, cadre de sécurité, anonymat partiel",
+      "Séquence 1 : cartographie silencieuse individuelle des trocs",
+      "Séquence 2 : partage en binômes, puis en sous-groupes",
+      "Séquence 3 : restitution collective et premiers engagements",
+      "Gérer les résistances : cynisme, peur, sur-performance",
+      "Après l'atelier : rituels de suivi pour ne pas retomber dans le non-dit"
+     ],
+     "exercices": [
+      "Exercice 1 — Concevoir le déroulé détaillé (au minuteur) d'un atelier de 3 heures pour votre propre équipe.",
+      "Exercice 2 — Dérouler un mini-atelier pilote avec trois volontaires ; recueillir leurs retours sur ce qui a rendu les trocs visibles ou inconfortables."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Détecter les échanges déséquilibrés",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Anatomie du déséquilibre : donneurs, preneurs, équilibrateurs",
+     "objectif": "Affiner la taxonomie des profils d'échange et montrer comment les déséquilibres se reproduisent systématiquement, au-delà des caractères individuels.",
+     "sections": [
+      "Reprendre et dépasser la typologie de Grant : trois profils, six situations",
+      "Le « donneur chronique » : générosité ou stratégie de contrôle ?",
+      "Le « preneur » : efficacité à court terme, faillite relationnelle à long terme",
+      "L'« équilibrateur » obsessionnel : la juste réciprocité comme piège",
+      "Quand le leader change de profil selon les enjeux : le maître-troqueur émerge"
+     ],
+     "exercices": [
+      "Exercice 1 — Auto-diagnostic : cocher dans une grille de 20 items le profil dominant de son propre échange de valeur.",
+      "Exercice 2 — Observer trois collègues sous l'angle du profil ; vérifier les hypothèses par un entretien ouvert et non accusateur."
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "La dépendance toxique : quand le pendule s'immobilise",
+     "objectif": "Identifier les configurations où un acteur contrôle une monnaie que l'autre ne peut obtenir ailleurs, produisant du pouvoir abusif et de la fragilité organisationnelle.",
+     "sections": [
+      "Dépendance simple, mutuelle et asymétrique : modèles de Blau et Emerson",
+      "Cas type : le gardien de l'information unique, le décideur omniprésent",
+      "Coûts invisibles de la dépendance : créativité tuée, loyauté forcée",
+      "Sevrer une équipe d'un pivot unique : méthodes progressives",
+      "Quand la dépendance est assumée et négociée (et quand elle ne l'est pas)"
+     ],
+     "exercices": [
+      "Exercice 1 — Cartographier les dépendances critiques de votre équipe : pour chaque ressource rare, qui la contrôle, qui en souffre.",
+      "Exercice 2 — Planifier une première étape de diversification d'un flux de valeur trop monopolisé (ex. : documenter, former, partager)."
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Les angles morts du leadership : ce qu'on refuse de voir",
+     "objectif": "Confronter les biais cognitifs et les routines défensives qui empêchent les leaders — et les équipes — de voir les déséquilibres de troc dont ils bénéficient ou dont ils souffrent.",
+     "sections": [
+      "Effet de dotation : « j'ai donné beaucoup, donc je mérite »",
+      "Illusion de transparence : « tout le monde voit bien ce que je fais »",
+      "Aversion à la perte : la peur de demander un contre-don",
+      "Routines défensives : le « ce n'est pas le sujet » et ses cousins",
+      "Exercice de contre-histoire : réécrire sa semaine vue par l'autre"
+     ],
+     "exercices": [
+      "Exercice 1 — Liste des « sujets que personne n'aborde » dans votre organisation ; classer par risque de déséquilibre de troc.",
+      "Exercice 2 — Faire relire par un tiers bienveillant son bilan de valeur ; noter les angles morts révélés."
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Grille d'audit des trocs",
+     "objectif": "Livrer l'outil phare de la promesse pratique : une grille d'audit complète, applicable à soi, à une relation ou à une équipe, pour diagnostiquer l'état du pendule.",
+     "sections": [
+      "Architecture de la grille : 5 monnaies × 4 états du pendule",
+      "Notation : de « trop » à « pas assez », avec justification qualitative",
+      "Seuils d'alerte : quand l'audit doit déclencher une action",
+      "Cas d'école illustré : audit commenté d'une équipe fictive",
+      "Rythme d'audit : ponctuel, trimestriel, ou en continu",
+      "Limite de l'outil : ce que la grille ne mesure pas"
+     ],
+     "exercices": [
+      "Exercice 1 — Réaliser un audit complet sur une relation ou une équipe ; produire un rapport de deux pages avec trois recommandations prioritaires.",
+      "Exercice 2 — Partager l'audit (parties non sensibles) avec les personnes concernées et recueillir leurs contre-audits."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Relancer le pendule : protocoles, attention, sens",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Protocole de rééquilibrage en cinq mouvements",
+     "objectif": "Offrir une méthode structurée et itérative pour relancer un pendule déséquilibré ou bloqué, applicable à des situations interpersonnelles comme collectives.",
+     "sections": [
+      "Mouvement 1 : constater sans accuser (exposé des faits de troc)",
+      "Mouvement 2 : nommer la valeur qui circule et celle qui manque",
+      "Mouvement 3 : proposer un contre-don réparable et concret",
+      "Mouvement 4 : négocier une nouvelle temporalité du pendule",
+      "Mouvement 5 : institutionnaliser un rituel de re-vérification",
+      "Quand le protocole échoue : sorties de secours et limites"
+     ],
+     "exercices": [
+      "Exercice 1 — Appliquer les cinq mouvements à un déséquilibre mineur de la semaine ; tenir un journal d'exécution.",
+      "Exercice 2 — Jeu de rôle : un partenaire joue le preneur bloqué, l'autre applique le protocole ; débrief des réactions émotionnelles."
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Troquer de l'attention avant de troquer des ressources",
+     "objectif": "Faire de l'attention la première monnaie que le maître-troqueur investit, avant les budgets, les promotions ou les faveurs matérielles, et montrer son effet de levier sur le pendule.",
+     "sections": [
+      "L'attention pleine : définition, mythes, conditions d'exercice",
+      "Écoute sans écran : protocole des dix minutes",
+      "Attention ciblée vs attention diluée : l'art du dosage",
+      "Le troc d'attention dans les rituels digitaux (Slack, e-mail, visio)",
+      "Cas d'usage : relancer une équipe démotivée sans budget supplémentaire"
+     ],
+     "exercices": [
+      "Exercice 1 — Semaine de l'attention : prendre rendez-vous avec trois personnes de son équipe pour un entretien de 20 minutes sans objectif de production.",
+      "Exercice 2 — Auditer son propre flux d'attention : combien de demandes d'attention accorde-t-on par jour ? À qui, et à quel prix ?"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Le sens comme monnaie souveraine",
+     "objectif": "Théoriser et pratiquer le troc de sens : non pas « donner du sens » du haut vers le bas, mais échanger des récits, des raisons et des cohérences qui rendent les autres acteurs capables de rendre.",
+     "sections": [
+      "Sens et signification : deux niveaux à ne pas confondre",
+      "Le « pourquoi » comme première offrande du leader-troqueur",
+      "Répondre à « à quoi bon ? » sans slogan",
+      "Le sens dans les mauvaises nouvelles : troc brutal mais loyal",
+      "Construire un récit d'équipe qui rende les contre-dons évidents"
+     ],
+     "exercices": [
+      "Exercice 1 — Rédiger un paragraphe de sens pour une décision impopulaire ; le tester auprès de deux collaborateurs et recueillir leurs objections.",
+      "Exercice 2 — Cartographier les moments de l'année où le sens s'est évaporé (crise, routine, conflit) et préparer une intervention de ré-injection de sens."
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Les rituels qui entretiennent le pendule",
+     "objectif": "Concevoir une « hygiène rituelle » de la réciprocité : des pratiques légères, répétées, qui empêchent l'immobilisation du pendule et rendent les trocs visibles dans le temps.",
+     "sections": [
+      "Pourquoi les rituels, pas seulement les processus",
+      "Rituels courts : check-in de valeur, tour de reconnaissance, clôture de boucle",
+      "Rituels moyens : revue de bilan de valeur trimestrielle, atelier de rééquilibrage",
+      "Rituels de sortie : départ, fin de projet, rupture de relation de travail",
+      "Adapter les rituels à la culture d'organisation (sans colonialisme managérial)",
+      "Mesurer l'effet des rituels : indicateurs simples de vitalité du pendule"
+     ],
+     "exercices": [
+      "Exercice 1 — Concevoir un rituel hebdomadaire de 10 minutes pour votre équipe ; le tester pendant trois semaines.",
+      "Exercice 2 — Inventorier les rituels existants (inconscients) de votre organisation et classer ceux qui nourrissent ou affaiblissent le pendule."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Le maître-troqueur : maîtrise, éthique, dépassement",
+   "chapitres": [
+    {
+     "numero": 21,
+     "titre": "Devenir maître-troqueur : arts et disciplines",
+     "objectif": "Définir le profil du maître-troqueur — ni saint, ni prédateur — et proposer un chemin de développement personnel fondé sur la pratique répétée des cinq monnaies et des trois obligations.",
+     "sections": [
+      "Portrait-robot du maître-troqueur : compétences, vertus, limites",
+      "Les cinq disciplines quotidiennes (observer, offrir, recevoir, rendre, rééquilibrer)",
+      "Se former sans école : lecture de situations, mentorat, retours d'expérience",
+      "Stades de progression : du novice qui compte ses dons au maître qui ajuste le pendule",
+      "Ce que le maître-troqueur refuse : l'angélisme, la dette perpétuelle, le contrôle total"
+     ],
+     "exercices": [
+      "Exercice 1 — Plan de développement sur 90 jours : une discipline par mois, avec indicateurs de progrès.",
+      "Exercice 2 — Trouver un « miroir » (collègue ou mentor) pour un feedback trimestriel sur l'évolution de son style d'échange."
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Négocier sans dominer : l'échange radical",
+     "objectif": "Appliquer la grammaire du troc aux négociations difficiles (conflits, arbitrages, partenariats) pour obtenir des accords durables sans abus de pouvoir ni effacement.",
+     "sections": [
+      "Négociation comme rééquilibrage de pendule, pas comme bataille",
+      "Identifier la vraie monnaie de chaque partie (au-delà du prix)",
+      "Proposer d'abord : la première offrande stratégique",
+      "Gérer l'asymétrie : quand l'autre refuse de rendre",
+      "Accords de réciprocité explicite : clauses verbales et écrites",
+      "Sortir d'une négociation en préservant le capital de confiance"
+     ],
+     "exercices": [
+      "Exercice 1 — Analyser une négociation passée sous l'angle du troc : quelles monnaies ont circulé ? Quels rendus ont manqué ?",
+      "Exercice 2 — Préparer une négociation à venir en rédigeant sa « première offrande » concrète et en anticipant trois formes de contre-don possibles."
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "Éthique et limites du troc total",
+     "objectif": "Poser les garde-fous d'une thèse volontairement extrême : si tout n'est que troc, où placer les limites du gratuit, du devoir, du sacré et de la justice organisationnelle ?",
+     "sections": [
+      "Le danger du cynisme : quand la thèse devient une justification du marché intérieur",
+      "Le gratuit comme acte qui refuse la logique du troc (et pourquoi il compte)",
+      "Dette et dignité : ne jamais transformer un collaborateur en débiteur éternel",
+      "Inégalités structurelles : le pendule ne corrige pas à lui seul les systèmes",
+      "Confidentialité, loyauté, santé mentale : des biens qui ne se troquent pas",
+      "Notre engagement d'auteur : aucune promesse de résultat garanti, aucune advice personnalisée de santé, de droit ou de finance"
+     ],
+     "exercices": [
+      "Exercice 1 — Définir pour soi trois « biens non trocables » dans son travail et les expliciter à son équipe.",
+      "Exercice 2 — Étude de cas éthique : un leader utilise le protocole de rééquilibrage pour fidéliser artificiellement une équipe ; discerner l'abus et proposer une correction."
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Le pendule intérieur : se troquer à soi",
+     "objectif": "Conclure en recentrant la thèse sur la personne du lecteur-leader : le premier troc à auditer, relancer et honorer est celui que l'on a avec soi-même — temps, attention, santé, sens.",
+     "sections": [
+      "Soi comme partenaire de troc : le contrat que l'on signe sans le lire",
+      "Sacrifier sa propre attention au nom du service : l'auto-déséquilibre",
+      "Récupérer sa monnaie intérieure : sommeil, hors-ligne, limites",
+      "Le pendule de vie : carrière, famille, santé, engagement civique",
+      "Rituel de clôture : relire son bilan de valeur de l'année",
+      "Épilogue : rester en mouvement — le pendule n'est jamais fini"
+     ],
+     "exercices": [
+      "Exercice 1 — Auto-audit du pendule intérieur sur les cinq monnaies ; noter les postes en négatif depuis plus de six mois.",
+      "Exercice 2 — Écrire sa « charte du maître-troqueur intérieur » (une page) : trois engagements de rééquilibrage envers soi pour les douze prochains mois ; la partager à un témoin."
+     ]
+    }
+   ]
+  }
+ ]
+}

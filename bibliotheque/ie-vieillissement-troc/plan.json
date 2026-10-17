@@ -1,0 +1,580 @@
+{
+ "titre": "Le grand troc",
+ "sous_titre": "Et si vieillir n'était pas une perte mais un échange permanent qu'on peut négocier",
+ "bibliographie": [
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Système 1 / Système 2 : Les deux vitesses de la pensée",
+   "annee": "2011",
+   "idee": "L'esprit fonctionne en double système : intuition rapide et contrôlée. L'âge modifie l'équilibre entre vitesse intuitive et raisonnement délibéré.",
+   "apport": "Fonder l'échange « vitesse contre profondeur » sur une distinction cognitive reconnue, sans réduire le vieillissement à un seul axe."
+  },
+  {
+   "auteur": "Paul Baltes et Margaret Baltes",
+   "titre": "Successful Aging: Perspectives from the Behavioral Sciences",
+   "annee": "1990",
+   "idee": "Le vieillissement réussi repose sur compensation, optimisation et sélection. On gagne en s'appuyant sur ce qui reste fonctionnel.",
+   "apport": "Ancrer le modèle de troc dans la recherche gerontologique sérieux et éviter le discours du déclin linéaire."
+  },
+  {
+   "auteur": "Laura Carstensen",
+   "titre": "A Long Bright Future: Happiness, Health, and Financial Security in an Age of Longevity",
+   "annee": "2009",
+   "idee": "Avec la longévité, les priorités émotionnelles se recentrent : on privilégie des relations et des expériences plus profondes plutôt que la nouveauté extensive.",
+   "apport": "Éclairer le troc quantité de contacts contre qualité de liens, et montrer que l'orientation temporelle change la valeur perçue des échanges."
+  },
+  {
+   "auteur": "K. Warner Schaie",
+   "titre": "Developmental Influences on Adult Intelligence: The Seattle Longitudinal Study",
+   "annee": "2005",
+   "idee": "Les trajectoires cognitives à l'âge adulte sont multidimensionnelles et variables : certaines aptitudes déclinent, d'autres se stabilisent ou progressent.",
+   "apport": "Dédramatiser le « déclin global » et introduire la marche aléatoire orientée plutôt que la chute uniforme."
+  },
+  {
+   "auteur": "Ursula M. Staudinger",
+   "titre": "Wisdom: A Metaheuristic (Pragmatic) to Orchestrate Mind and Virtue",
+   "annee": "2006 (approx.)",
+   "idee": "La sagesse n'est pas un produit automatique de l'âge, mais une compétence d'expertise pratique et de jugement qui peut se cultiver.",
+   "apport": "Distinguer sagesse automatique et sagesse construite ; situer la sagesse comme un bien échangeable et entraînable."
+  },
+  {
+   "auteur": "Ellen J. Langer",
+   "titre": "Counterclockwise: Mindful Health and the Power of Possibility",
+   "annee": "2009",
+   "idee": "Les attentes et le cadre mental influencent la perception et parfois la performance liée à l'âge.",
+   "apport": "Appuyer l'idée que refuser le récit du déclin modifie l'orientation du troc, sans promesse médicale."
+  },
+  {
+   "auteur": "Atul Gawande",
+   "titre": "Being Mortal: Medicine and What Matters in the End",
+   "annee": "2014",
+   "idee": "La fin de vie et le grand âge posent la question de ce qui compte vraiment, au-delà de la seule conservation des fonctions.",
+   "apport": "Introduire les garde-fous éthiques : ce qu'on refuse de troquer, et pourquoi."
+  },
+  {
+   "auteur": "Viktor E. Frankl",
+   "titre": "L'Homme en quête de sens",
+   "annee": "1946",
+   "idee": "Même dans des conditions extrêmes, la liberté de choisir son attitude demeure un noyau de dignité.",
+   "apport": "Ancrer la négociation du troc dans le sens de vie et non dans une simple ingénierie des performances."
+  },
+  {
+   "auteur": "Jean Piaget",
+   "titre": "Épistémologie génétique",
+   "annee": "1970",
+   "idee": "L'intelligence se construit par adaptation, assimilation et accommodation tout au long de la vie.",
+   "apport": "Fournir un cadre pour décrire les reconfigurations cognitives liées aux échanges d'âge."
+  },
+  {
+   "auteur": "Erik H. Erikson",
+   "titre": "La vie : un cycle d'étapes développementales",
+   "annee": "1982",
+   "idee": "Le parcours de vie se structure en crises (confiance, initiative, identité, intimité, générationnalité, intégrité).",
+   "apport": "Organiser les bilans de troc par décennie autour de tâches développementales, pas seulement de capacités physiques."
+  },
+  {
+   "auteur": "Timothy D. Wilson",
+   "titre": "Redirect: The Surprising New Science of Psychological Change",
+   "annee": "2011",
+   "idee": "On peut réécrire sa narration de soi et ses interprétations pour orienter durablement son comportement.",
+   "apport": "Bâtir l'exercice d'inventaire du troc passé comme un travail de récit, pas un simple questionnaire."
+  },
+  {
+   "auteur": "Mihaly Csikszentmihalyi",
+   "titre": "Flow: The Psychology of Optimal Experience",
+   "annee": "1990",
+   "idee": "L'engagement total dans une activité proportionnée à ses compétences produit une expérience optimale.",
+   "apport": "Orienter la marche vers des activités où le nouveau troc devient source de maîtrise et de plaisir."
+  },
+  {
+   "auteur": "Philip Zimbardo et John Boyd",
+   "titre": "The Time Paradox: The New Psychology of Time That Will Change Your Life",
+   "annee": "2008",
+   "idee": "La façon dont on se situe dans le temps (présent, passé, futur) influence décisions et bien-être.",
+   "apport": "Relier orientation temporelle et capacité à négocier consciemment les prochains échanges."
+  },
+  {
+   "auteur": "Atul Gawande (collectif, Harvard)",
+   "titre": "The Checklist Manifesto",
+   "annee": "2009",
+   "idee": "Des listes de contrôle simples réduisent les erreurs dans des systèmes complexes.",
+   "apport": "Fournir la forme des garde-fous pratiques : protocoles annuels, listes de surveillance, seuils d'alerte."
+  },
+  {
+   "auteur": "Angela Duckworth",
+   "titre": "Grit: The Power of Passion and Perseverance",
+   "annee": "2016",
+   "idee": "La persévérance à long terme prédisse mieux la réussite que le seul talent initial.",
+   "apport": "Nourrir l'idée que l'orientation de la marche se travaille par entraînement régulier et objectifs tenus."
+  },
+  {
+   "auteur": "Peter C. Whybrow",
+   "titre": "American Mania: When More Is Not Enough",
+   "annee": "2005",
+   "idee": "La culture de la stimulation permanente et de la croissance sans fin produit de l'inquiétude et de la dispersion.",
+   "apport": "Questionner le culte de la performance permanente, qui empêche d'accepter les échanges nécessaires du vieillissement."
+  },
+  {
+   "auteur": "Jacqueline Lobo",
+   "titre": "Travailler au fil de l'âge",
+   "annee": "approx. 2010-2020",
+   "idee": "Les transitions professionnelles tardives peuvent être des moments de reconversion plutôt que de simple ralentissement.",
+   "apport": "Illustrer des trocs concrets (vitesse d'exécution contre expertise relationnelle) dans la vie professionnelle.",
+   "incertitude": "Référence indicative ; le titre exact et l'année doivent être vérifiés avant publication."
+  },
+  {
+   "auteur": "Benoît Millet et collectif",
+   "titre": "Gérontologie sociale : vieillissement et sociabilité",
+   "annee": "approx. 2015",
+   "idee": "Le vieillissement se joue aussi dans les liens, les habitats et les institutions, pas seulement dans le corps.",
+   "apport": "Élargir le troc au-delà de l'individu isolé : réseaux, environnement, rôles sociaux.",
+   "incertitude": "Repérage bibliographique à confirmer ; à remplacer si nécessaire par une source francophone de référence en gérontologie sociale."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Désapprendre le déclin : changer l'hypothèse de départ",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "L'hypothèse inversée : vieillir comme troc, non comme perte",
+     "objectif": "Poser la thèse centrale du livre : le vieillissement est un ensemble d'échanges entre capacités, et non une simple érosion. Montrer pourquoi cette hypothèse est utile sans être naïve.",
+     "sections": [
+      "Ce que le récit commun du vieillissement nous fait perdre avant l'âge",
+      "Différences entre perte, compensation et troc",
+      "La marche aléatoire : une métaphore de trajectoire, non une fatalité",
+      "Les limites de la thèse : ce que le troc n'explique pas",
+      "Premier repère : âge chronologique, âge biologique, âge vécu"
+     ],
+     "exercices": [
+      "Écrire en une page son « récit officiel » du vieillissement, puis relever au moins cinq expressions de type perte irréversible",
+      "Identifier trois changements récents de sa vie qu'on peut reformuler comme échanges plutôt que comme manques",
+      "Lister ce qu'on croit devoir refuser absolument de troquer (cinq items) et noter la peur associée"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Le marché caché : inventorier les trocs déjà réalisés",
+     "objectif": "Rendre visibles les échanges déjà effectués sans en avoir pris conscience, en s'appuyant sur des domaines variés (corps, cognition, émotions, relations, travail).",
+     "sections": [
+      "Pourquoi les trocs silencieux semblent être des pertes",
+      "Domaines d'inventaire : corps, attention, mémoire, social, statut, énergie",
+      "Méthode des « écarts comparés » entre deux périodes de vie",
+      "Le biais de nostalgie : quand le passé est réécrit",
+      "Premiers signaux de trocs avantageux qu'on minimise"
+     ],
+     "exercices": [
+      "Grille d'inventaire sur douze domaines : noter pour chacun ce qui a été gagné et ce qui a été cédé depuis dix ans",
+      "Sélectionner trois personnes de générations différentes et décrire comment elles formulent leurs propres trocs",
+      "Comparer un même objectif poursuivi à 25 ans et aujourd'hui : différence de moyens, pas seulement de résultats"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "La marche aléatoire orientée : comprendre la mécanique du hasard",
+     "objectif": "Expliquer le modèle de marche aléatoire appliqué au vieillissement : chaque étape comporte une part imprévisible, mais des choix locaux peuvent orienter la direction moyenne.",
+     "sections": [
+      "Qu'est-ce qu'une marche aléatoire, en langage courant",
+      "Hasard biographique, hasard contextuel, hasard décisionnel",
+      "Ce qu'on peut orienter : fréquence et qualité des décisions, pas chaque pas",
+      "Différence entre prévoir et préparer",
+      "Danger de la pensée magique : croire qu'on contrôle tout"
+     ],
+     "exercices": [
+      "Reconstituer une « trajectoire à tiroirs » : cinq bifurcations passées, alternatives possibles, facteurs de hasard",
+      "Identifier trois zones où l'on subit encore la marche et trois où l'on peut déjà orienter",
+      "Rédiger une règle personnelle de décision pour les six prochains mois, formulée comme une boussole, pas comme un objectif unique"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Le coût de refuser le troc : pourquoi résister aggrave le déclin",
+     "objectif": "Montrer que le refus d'échanger (vouloir garder à l'identique vitesse, mémoire, apparence, statut) produit des coûts psychologiques, relationnels et pratiques supérieurs à ceux de l'échange lui-même.",
+     "sections": [
+      "L'attachement identitaire aux capacités de la jeunesse",
+      "Coûts directs : épuisement, erreurs, conflits, isolement",
+      "Coûts indirects : rigidité, rancœur, comparaison permanente",
+      "Quand le refus du troc est sain : situations où il faut dire non",
+      "Distinguer préservation saine et déni"
+     ],
+     "exercices": [
+      "Cartographier les stratégies de déni utilisées depuis un an (minimisation, surenchère d'effort, secret)",
+      "Mesurer un « indice de résistance » : sur dix situations récentes, combien ont consisté à faire comme avant coûte que coûte ?",
+      "Écrire une lettre de protestation aux limites de son âge, puis une réponse qui formule un compromis de troc"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Les trocs en cours : bilans par décennies",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Bilan de troc 20-30 ans : l'accumulation et ses premières dettes",
+     "objectif": "Décrire les échanges typiques de la vingtaine : apprentissage intense, accumulation d'options, dette de sommeil et d'attention, construction identitaire.",
+     "sections": [
+      "Ce que la vingtaine échange souvent sans le savoir",
+      "Dette de récupération et illusion d'invulnérabilité",
+      "Réseau large contre liens profonds",
+      "Compétences liquides contre maîtrise spécialisée",
+      "Quand on commence à payer les premières factures"
+     ],
+     "exercices": [
+      "Retracer dix échanges implicites de sa vingtaine : qu'a-t-on sacrifié pour apprendre, aimer, travailler ?",
+      "Identifier une « dette » encore active aujourd'hui liée à cette période",
+      "Formuler un rattrapage modeste pour les douze prochains mois (un seul domaine)"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Bilan de troc 30-40 ans : la spécialisation et la réduction des options",
+     "objectif": "Analyser le passage de l'expérimentation à la spécialisation : gains de compétence et de statut, perte d'exploration et parfois d'élasticité sociale.",
+     "sections": [
+      "Le prix de la carrière et de la parentalité",
+      "Moins d'options, plus de maîtrise",
+      "Compression du temps libre contre hausse de la compétence",
+      "La comparaison sociale comme moteur et comme piège",
+      "Signes qu'un rééquilibrage est urgent"
+     ],
+     "exercices": [
+      "Schéma des options ouvertes à 28 ans et à 38 ans : qu'est-ce qui a été fermé volontairement, qu'est-ce qui s'est éteint seul ?",
+      "Chiffrer (en heures) le troc temps/compétence des cinq dernières années",
+      "Choisir une micro-expérimentation annuelle pour réintroduire un peu d'exploration"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Bilan de troc 40-50 ans : le basculement vers la profondeur",
+     "objectif": "Décrire le basculement souvent observé vers la priorité donnée au sens, aux liens choisis et à la transmission, tout en maintenant la pression productive.",
+     "sections": [
+      "Crise du milieu de vie : mythe et réalités différenciées",
+      "Passage du « plus » au « mieux »",
+      "Expertise relationnelle contre flexibilité brute",
+      "Corps qui demande un autre contrat d'entretien",
+      "Transmissions : donner sans se vider"
+     ],
+     "exercices": [
+      "Inventorier les engagements à arrêter d'ici deux ans (au moins cinq)",
+      "Identifier trois formes d'expertise accumulée qui peuvent être converties en formes plus souples",
+      "Rédiger une charte de transmission : à qui, quoi, à quel rythme, sans martyr"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Bilan de troc 50-70 ans : statut, corps et réorganisation sociale",
+     "objectif": "Préparer les trocs majeurs liés à la transition professionnelle, au vieillissement physique visible et à la reconfiguration des réseaux.",
+     "sections": [
+      "Statut contre influence : trouver de nouvelles façons d'avoir du poids",
+      "Force et endurance contre endurance de fond et économie de geste",
+      "Amis contre alliés de longue route",
+      "Veuve sociale et solitude choisie : les deux visages",
+      "Le risque de se retirer trop tôt"
+     ],
+     "exercices": [
+      "Simuler un calendrier de réduction progressive d'engagements, sur cinq ans",
+      "Lister les lieux et personnes où l'on a encore de l'autorité naturelle, et ceux où elle s'érode",
+      "Planifier deux entretiens par mois avec des personnes plus jeunes pour maintenir l'échange intergénérationnel"
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Bilan de troc 70 ans et au-delà : autonomie, présence et sens",
+     "objectif": "Aborder les trocs de l'âge avancé sans catastrophisme ni déni : perte progressive d'autonomie certaine, gains possibles en présence, en sérénité active et en clarté relationnelle.",
+     "sections": [
+      "Autonomie comme négociation continue, pas comme tout ou rien",
+      "Mémoire épisodique contre mémoire de sédimentation",
+      "Présence disponible contre agitation",
+      "Le rôle social du grand âge : témoin, ancrage, mémoire vivante",
+      "Préparer la dernière phase sans la mordre à l'avance"
+     ],
+     "exercices": [
+      "Définir trois conditions matérielles et relationnelles minimales pour rester chez soi dignement (hors conseils légaux personnalisés)",
+      "Constituer un « trésor de transmission » : cinq textes, cinq recettes, cinq récits, cinq contacts utiles",
+      "Écrire un texte de deux pages : ce que je veux qu'on retienne de ma manière d'avoir vieilli"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Les grandes négociations : vitesse, profondeur, force, finesse",
+   "chapitres": [
+    {
+     "numero": 10,
+     "titre": "Vitesse contre profondeur",
+     "objectif": "Offrir un cadre pour échanger volontairement de la rapidité brute contre de la compréhension fine, sans renoncer à l'efficacité utile.",
+     "sections": [
+      "Où la vitesse compte encore vraiment",
+      "Coûts cachés de la précipitation chronique",
+      "Techniques de ralentissement utile (lecture lente, écoute intégrale, relecture différée)",
+      "Quand la profondeur devient procrastination",
+      "Protocole de test : passer un mois en mode « vitesse calibrée »"
+     ],
+     "exercices": [
+      "Journal de vitesse : pendant sept jours, noter chaque tâche pressée, son résultat et son coût réel",
+      "Choisir une activité à faire « lentement intentionnellement » trois fois par semaine",
+      "Définir un seuil d'urgence personnel : ce qui mérite vraiment la vitesse"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Force contre finesse",
+     "objectif": "Accompagner le passage d'une logique de puissance d'impact à une logique de précision, de dosage et d'efficience énergétique.",
+     "sections": [
+      "Force brute : héritage sportif, professionnel, familial",
+      "Finesse comme compétence d'économie et de ciblage",
+      "Gestes, attention, parole : où la finesse paie",
+      "L'humiliation d'être « moins fort » et comment la transformer",
+      "Construire un style propre fondé sur la précision"
+     ],
+     "exercices": [
+      "Identifier trois tâches où l'on force encore alors qu'un geste précis suffirait",
+      "Atelier d'économie de geste sur une semaine (cuisine, marche, travail, sport adapté sans conseil médical personnalisé)",
+      "Décrire en une phrase le style qu'on veut développer : « je ne force plus, je… »"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Mémoire vive contre mémoire de sens",
+     "objectif": "Distinguer les formes de mémoire et apprendre à exploiter ce qui se sédimente plutôt que de tout exiger de la mémoire de rappel immédiat.",
+     "sections": [
+      "Mémoire de travail, mémoire sémantique, mémoire autobiographique",
+      "Ce que l'âge change (et ne change pas) dans les sciences cognitives",
+      "Externaliser : notes, systèmes, rituels, gens",
+      "La sagesse comme compression d'expériences réutilisables",
+      "Pièges : confondre lenteur de rappel et perte d'intelligence"
+     ],
+     "exercices": [
+      "Créer un « système de mémoire externe » minimal et l'utiliser pendant vingt et un jours",
+      "Rituel de synthèse hebdomadaire : trois leçons retenues, deux questions ouvertes",
+      "Raconter à quelqu'un une expérience ancienne et noter ce que le récit éclaire sur aujourd'hui"
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Réseau large contre cercle intime",
+     "objectif": "Négocier consciemment la contraction sociale : moins de contacts, plus de réciprocité, sans tomber dans l'isolement subi.",
+     "sections": [
+      "Le réseau comme capital et comme charge",
+      "Différence entre solitude choisie et solitude imposée",
+      "Entretien des liens forts : rituels, attention, aide concrète",
+      "Mentorat, transmission, compagnonnage intergénérationnel",
+      "Quand élargir à nouveau son réseau est nécessaire"
+     ],
+     "exercices": [
+      "Cartographie des liens : dix liens forts, vingt liens utiles, cinquante contacts dormants",
+      "Plan d'entretien trimestriel des dix liens essentiels",
+      "Initier une relation de transmission réciproque avec une personne plus jeune"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Statut contre influence",
+     "objectif": "Préparer la sortie ou la baisse des positions de statut formel en les convertissant en influence relationnelle, éditoriale ou communautaire.",
+     "sections": [
+      "Statut : titres, visibilité, rémunération",
+      "Influence : capacité à faire advenir des choses sans badge",
+      "Capitaliseer une carrière en capital humain et en confiance",
+      "Risques de l'amertume du déclassement",
+      "Reconstruire un rôle social utile hors du système hiérarchique"
+     ],
+     "exercices": [
+      "Lister cinq ressources d'influence encore disponibles sans fonction officielle",
+      "Trois entretiens de « reconnaissance de valeur » avec d'anciens collaborateurs ou pairs",
+      "Projet d'influence indépendante : petit, concret, mensurable en un an"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Négocier avec soi : protocole, garde-fous, réévaluation",
+   "chapitres": [
+    {
+     "numero": 15,
+     "titre": "La table des négociations : dialoguer avec soi sans se trahir",
+     "objectif": "Établir un protocole interne de négociation du troc : on ne se commande pas, on s'écoute, on propose, on arbitre.",
+     "sections": [
+      "Rôles internes : le performant, le conservateur, le joueur, le sage",
+      "Règles d'une négociation saine avec soi-même",
+      "Écouter la résistance comme information, non comme échec",
+      "Formuler des offres de troc précises et réversibles",
+      "Éviter l'auto-persuasion abusive"
+     ],
+     "exercices": [
+      "Mettre en scène un dialogue écrit entre quatre parts de soi autour d'un échange réel",
+      "Rédiger trois « offres de troc » testables (durée, critères d'abandon, signes de réussite)",
+      "Pratiquer une revue de négociation bimensuelle pendant deux mois"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Protocole de négociation annuel",
+     "objectif": "Fournir un cadre complet et répétable pour conduire une négociation de troc une fois par an, avec questions, critères et engagement écrit.",
+     "sections": [
+      "Préparation : données de l'année, énergies, événements",
+      "Étape 1 : constat sans jugement",
+      "Étape 2 : proposition de troc chiffrée quand c'est possible",
+      "Étape 3 : clauses de protection et de révision",
+      "Étape 4 : calendrier de mise en œuvre et de suivi",
+      "Étape 5 : cérémonie de clôture et d'acceptation"
+     ],
+     "exercices": [
+      "Modèle de procès-verbal de négociation annuelle avec soi (deux pages maximum)",
+      "Liste de douze questions obligatoires pour la revue annuelle",
+      "Fixer la date de la prochaine négociation et bloquer le temps dans le calendrier"
+     ]
+    },
+    {
+     "numero": 17,
+     "titre": "Garde-fous : ce qu'on refuse de troquer",
+     "objectif": "Définir des principes non négociables pour éviter que la logique d'échange ne dévore la dignité, l'éthique ou la santé relationnelle.",
+     "sections": [
+      "Principes de base : dignité, loyauté envers les proches, intégrité corporelle fondamentale",
+      "Seuils d'alerte : épuisement, isolement, auto-mépris",
+      "Garde-fous relationnels : ne jamais troquer l'amitié contre un avantage ponctuel",
+      "Garde-fous attentionnels : protéger le temps de pensée",
+      "Quand demander de l'aide externe (sans conseil médical personnalisé)"
+     ],
+     "exercices": [
+      "Rédiger une charte personnelle de cinq non-négociables",
+      "Définir deux indicateurs précoces par non-négociable",
+      "Identifier une personne de confiance à qui signaler franchissement de seuil"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "Orienter la marche : exercices de direction",
+     "objectif": "Proposer des exercices concrets pour influencer la direction moyenne de la marche aléatoire : habitudes, environnements, répétitions, entourage.",
+     "sections": [
+      "L'orientation ne se décrète pas, elle s'installe",
+      "Habitudes comme balises répétées",
+      "Architecture de l'environnement : friction et facilitation",
+      "Effet d'entourage sur la direction du vieillissement",
+      "Boussoles plutôt qu'objectifs uniques"
+     ],
+     "exercices": [
+      "Redesigner trois environnements (numérique, physique, social) pour orienter une capacité choisie",
+      "Protocole de micro-expérimentation de trente jours (quatre par an)",
+      "Construire une « carte des vents » : influences externes qui poussent la marche dans certaines directions"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie V — Vivre le troc : corps, travail, relations, sens",
+   "chapitres": [
+    {
+     "numero": 19,
+     "titre": "Le corps comme partenaire de négociation",
+     "objectif": "Traiter du rapport au corps dans le vieillissement comme un dialogue permanent d'échanges, sans promesse médicale ni programme personnalisé.",
+     "sections": [
+      "Écouter les signaux plutôt que les combattre systématiquement",
+      "Adapter les ambitions corporelles sans les abandonner",
+      "Mouvement, récupération, plaisir : triade d'échange",
+      "Apparence : le troc le plus refusé et le plus coûteux",
+      "Frontière : quand le corps impose un terme à la négociation"
+     ],
+     "exercices": [
+      "Journal corporel de quinze jours : signaux, réponses, effets sur l'humeur",
+      "Définir un « contrat corporel » mensuel simple (sans objectif médical personnalisé)",
+      "Reformuler trois plaintes corporelles en questions de troc : qu'est-ce que je peux échanger pour améliorer cela ?"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Travail et savoir-faire : convertir son capital",
+     "objectif": "Montrer comment convertir l'expérience accumulée en formes de travail adaptées aux trocs de l'âge : expertise, conseil, pédagogie, création allégée.",
+     "sections": [
+      "De la performance horaire à la valeur de jugement",
+      "Formes possibles de conversion : transmission, consulting léger, création, bénévolat expert",
+      "Apprendre encore : curiosité comme stratégie anti-rigidité",
+      "Négocier avec les organisations plutôt que de subir",
+      "Préparer la transition bien avant le pic"
+     ],
+     "exercices": [
+      "Inventaire des compétences convertibles en trois formats de service différents",
+      "Entretiens exploratoires : trois personnes qui ont déjà opéré cette conversion",
+      "Plan de montée en compétence sur un outil ou domaine nouveau (six mois)"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Amour, famille, amitié : le socle qu'on n'échange pas à légère",
+     "objectif": "Appliquer la logique de troc aux relations intimes en protégeant le socle : réciprocité, loyauté, temps de présence, réparation.",
+     "sections": [
+      "Le couple comme négociation continue des échanges",
+      "Parentalité adulte : changer de rôle sans se perdre",
+      "Amitié longue : entre fidélité et évolution",
+      "Deuils, séparations, blessures : quand le troc est imposé",
+      "Présence qualifiée contre contact permanent"
+     ],
+     "exercices": [
+      "Entretien relationnel trimestriel (seul ou en dyade) selon un canevas simple",
+      "Carte des rôles actuels dans sa famille : lesquels veut-on garder, transformer, abandonner ?",
+      "Rituel de réparation : identifier un contentieux et proposer une conversation réelle"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Sens, spiritualité et héritage : le troc ultime",
+     "objectif": "Relier les échanges du vieillissement à une question de sens : ce qu'on donne, ce qu'on reçoit, ce qu'on laisse.",
+     "sections": [
+      "Le sens comme produit du jugement mûri",
+      "Spiritualité laïque ou religieuse : langages communs",
+      "Héritage matériel, immatériel, humain",
+      "La générosité calibrée : donner sans se sacrifier",
+      "Intégrité de fin de vie : cohérence avec le parcours"
+     ],
+     "exercices": [
+      "Rédiger une « éthique personnelle du troc » en une page",
+      "Constituer un héritage non matériel : trois messages, trois enseignements, trois legs concrets",
+      "Pratique de gratitude hebdomadaire orientée « échanges » : qu'ai-je reçu, qu'ai-je donné, qu'ai-je transformé ?"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie VI — Pratiques durables : rituels, collectifs, réévaluation",
+   "chapitres": [
+    {
+     "numero": 23,
+     "titre": "Rituels d'orientation : la marche au quotidien",
+     "objectif": "Installer des rituels simples pour que l'orientation de la marche ne reste pas un beau principe mais devienne une pratique récurrente.",
+     "sections": [
+      "Rituels quotidiens, hebdomadaires, mensuels, annuels",
+      "Durée minimale viable : le protocole des quinze minutes",
+      "Suivi sans obsession : métriques légères",
+      "Rebond après les ruptures de routine",
+      "Adapter les rituels aux transitions de vie"
+     ],
+     "exercices": [
+      "Construire un calendrier de rituels de troc sur une page",
+      "Test de trois semaines avec mesure de facilité perçue et d'utilité perçue",
+      "Désigner un « rituel de secours » pour les périodes de crise"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Réévaluer chaque année : clause de révision de soi",
+     "objectif": "Clôturer le livre par une méthode durable de réévaluation annuelle du troc, permettant de changer de négociation sans se trahir soi-même.",
+     "sections": [
+      "Pourquoi une clause de révision est morale et pratique",
+      "Bilan chiffré et narratif : les deux faces",
+      "Désapprendre une négociation devenue inutile",
+      "Accompagner les proches dans leurs propres révisions",
+      "Le livre comme compagnon de long terme : relire, annoter, transformer"
+     ],
+     "exercices": [
+      "Modèle complet de bilan annuel de troc (questionnaire de vingt questions)",
+      "Cérémonie personnelle de clôture d'année : trois trocs acceptés, trois refusés, une orientation choisie",
+      "Partager le bilan avec une personne de confiance et recueillir un contre-regard"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes_de_synthese": {
+  "structure_totale": "4 à 6 parties, 24 chapitres, cible environ 3 500 mots par chapitre, soit environ 84 000 mots hors annexes.",
+  "originalite": "Le livre synthétise gerontologie comportementale, psychologie cognitive, récit de soi et outils pratiques de négociation interne, sans reprendre aucun texte protégé. La métaphore de la marche aléatoire orientée et le protocole de négociation annuel avec soi constituent l'apport structurant original.",
+  "prudence": "Aucune promesse de résultat garanti. Aucun conseil médical, juridique ou fiscal personnalisé. Les incertitudes bibliographiques sont signalées et doivent être vérifiées avant publication finale."
+ }
+}

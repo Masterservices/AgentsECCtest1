@@ -1,0 +1,633 @@
+{
+ "titre": "Seuils",
+ "sous_titre": "Changer l'architecture de son stress au lieu de le combattre : mesurer sa distance au point de bascule, installer des rituels-tampons, redessiner le déroulement de ses journées",
+ "bibliographie": [
+  {
+   "auteur": "Hans Selye",
+   "titre": "The Stress of Life",
+   "annee": "1956",
+   "idee": "Selye formalise le syndrome d'adaptation général : le stress est une réponse systémique non spécifique, avec phase d'alarme, de résistance et d'épuisement.",
+   "apport": "Notion de phase et d'épuisement par usure — on retient le modèle de dégradation graduelle plutôt que l'idée d'un stress soudain."
+  },
+  {
+   "auteur": "Bruce McEwen",
+   "titre": "The End of Stress As We Know It",
+   "annee": "2002",
+   "idee": "Le cerveau s'adapte en permanence ; trop d'adaptation (charge allostasique) use l'organisme plus que les facteurs de stress eux-mêmes.",
+   "apport": "La thèse centrale : ce n'est pas l'intensité de la charge mais le cumul non amorti qui casse le système. Idée directrice du livre."
+  },
+  {
+   "auteur": "Robert Sapolsky",
+   "titre": "Why Zebras Don't Get Ulcers",
+   "annee": "1998",
+   "idee": "Les animaux activent le stress en réponse à un danger immédiat et l'éteignent vite ; les humains le maintiennent par la rumination et l'anticipation.",
+   "apport": "Distinction déclencheur immédiat / stress chronique mental — et l'idée que c'est la durée, pas l'intensité, qui détruit."
+  },
+  {
+   "auteur": "Kelly McGonigal",
+   "titre": "The Upside of Stress",
+   "annee": "2015",
+   "idee": "La perception du stress (menace ou défi) modifie la réponse physiologique ; le refus du stress peut être plus coûteux que le stress lui-même.",
+   "apport": "Ne pas promettre de « tuer » le stress mais de le restructurer ; le stress utile est un signal, pas un ennemi."
+  },
+  {
+   "auteur": "Roy F. Baumeister et John Tierney",
+   "titre": "Willpower: Rediscovering the Greatest Human Strength",
+   "annee": "2011",
+   "idee": "La volonté est une ressource limitée qui s'épuise au fil des décisions ; les routines réduisent le coût des arbitrages.",
+   "apport": "Justification des rituels comme économiseurs de décision, et de la « charge de décision » comme variable à cartographier."
+  },
+  {
+   "auteur": "Daniel Kahneman",
+   "titre": "Thinking, Fast and Slow",
+   "annee": "2011",
+   "idee": "Deux systèmes de pensée coexistent : rapide, intuitif, coûteux en fatigue ; lent, réfléchi, délibératif.",
+   "apport": "Explication du coût cognitif des enchaînements ; l'agenda saturé force le système rapide, donc les seuils se rapprochent."
+  },
+  {
+   "auteur": "Wendy Wood",
+   "titre": "Good Habits, Bad Habits: The Science of Making Positive Changes That Stick",
+   "annee": "2019",
+   "idee": "La majorité de nos actes quotidiens sont automatisés ; l'environnement et le contexte prédisent mieux le comportement que la motivation.",
+   "apport": "Les rituels-tampons ne doivent pas reposer sur la volonté mais sur la conception de l'environnement et des contextes."
+  },
+  {
+   "auteur": "James Clear",
+   "titre": "Atomic Habits",
+   "annee": "2018",
+   "idee": "De petits changements cumulatifs, ancrés dans des systèmes plus que dans des objectifs, produisent des transformations durables.",
+   "apport": "Protocole d'installation progressif des rituels (petits, contextuels, répétés) et notion d'identité comme ancre."
+  },
+  {
+   "auteur": "Jim Loehr et Tony Schwartz",
+   "titre": "The Power of Full Engagement",
+   "annee": "2003",
+   "idee": "La performance durable vient de la gestion de l'énergie (physique, émotionnelle, mentale, spirituelle) par cycles d'effort et de récupération.",
+   "apport": "L'idée de sas et de cycles : la journée n'est pas une ligne droite mais une suite de pics et de creux à orchestrer."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Deep Work: Rules for Focused Success in a Distracted World",
+   "annee": "2016",
+   "idee": "Le travail profond (non fragmenté) est de plus en plus rare et de plus en plus précieux ; la fragmentation constante dégrade la qualité cognitive.",
+   "apport": "Redesign de l'agenda pour protéger les blocs à haute exigence et éloigner les bascules par micro-interruptions."
+  },
+  {
+   "auteur": "Sophie Leroy",
+   "titre": "Why is it so hard to do my work? (article, Organizational Behavior and Human Decision Processes)",
+   "annee": "2009",
+   "idee": "L'attention reste partiellement engagée sur la tâche précédente (attention residue), ce qui réduit les performances sur la suivante.",
+   "apport": "Fondement théorique des sas de transition : il faut conclure visiblement une tâche avant d'en entamer une autre."
+  },
+  {
+   "auteur": "Mihaly Csikszentmihalyi",
+   "titre": "Flow: The Psychology of Optimal Experience",
+   "annee": "1990",
+   "idee": "L'expérience optimale survient quand le défi correspond aux compétences ; trop ou trop peu de challenge brise l'engagement.",
+   "apport": "La zone de bascule négative est souvent un déséquilibre défi/compétence ; régler la difficulté, pas seulement le volume."
+  },
+  {
+   "auteur": "Jon Kabat-Zinn",
+   "titre": "Full Catastrophe Living: Using the Wisdom of Your Body and Mind to Face Stress, Pain, and Illness",
+   "annee": "1990",
+   "idee": "La pleine conscience appliquée au stress permet d'observer les sensations sans réaction automatique, réduisant la réactivité.",
+   "apport": "Un des rituels-tampons les plus documentés : observation corporelle brève comme détection précoce d'approche du seuil."
+  },
+  {
+   "auteur": "Herbert Benson",
+   "titre": "The Relaxation Response",
+   "annee": "1975",
+   "idee": "Une réponse physiologique de relaxation peut être déclenchée volontairement par la respiration lente et la répétition d'un mot-clé.",
+   "apport": "Technique de base, courte et mesurable, pour les micro-sas de récupération dans la journée."
+  },
+  {
+   "auteur": "Matthew Walker",
+   "titre": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+   "annee": "2017",
+   "idee": "Le sommeil est le régulateur central de l'humeur, de la mémoire et de la régulation émotionnelle ; sa privation abaisse les seuils.",
+   "apport": "Le sommeil comme premier amortisseur structurel : aucun rituel ne compense un sommeil dégradé."
+  },
+  {
+   "auteur": "Bessel van der Kolk",
+   "titre": "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma",
+   "annee": "2014",
+   "idee": "Le stress et le trauma s'inscrivent dans le corps ; la régulation passe aussi par le mouvement, le souffle et les sensations.",
+   "apport": "Ancrage corporel de la cartographie des seuils : on localise le point de bascule autant dans le corps que dans la tête."
+  },
+  {
+   "auteur": "Greg McKeown",
+   "titre": "Essentialism: The Disciplined Pursuit of Less",
+   "annee": "2014",
+   "idee": "Faire moins, mais mieux : l'essentielisme exige de dire non systématiquement pour protéger l'énergie limitée.",
+   "apport": "Redesign de l'agenda par soustraction d'engagements avant d'ajouter des rituels ; sinon les tampons sont noyés."
+  },
+  {
+   "auteur": "David Allen",
+   "titre": "Getting Things Done: The Art of Stress-Free Productivity",
+   "annee": "2001",
+   "idee": "Sortir les engagements de sa tête dans un système extérieur libère la mémoire de travail et réduit l'anxiété diffuse.",
+   "apport": "Un sas cognitif : la « capture » quotidienne comme rituel de sortie de charge mentale."
+  },
+  {
+   "auteur": "Laura Vanderkam",
+   "titre": "168 Hours: You Have More Time Than You Think",
+   "annee": "2010",
+   "idee": "La semaine compte 168 heures ; en auditant réellement son temps, on découvre des marges insoupçonnées pour les priorités.",
+   "apport": "Méthode d'audit de semaine comme outil de cartographie des zones à risque et des creux disponibles."
+  },
+  {
+   "auteur": "Arianna Huffington",
+   "titre": "The Sleep Revolution: Transforming Your Life, One Night at a Time",
+   "annee": "2016",
+   "idee": "La culture de la performance permanente sacralise la privation de sommeil ; récupérer n'est pas de la paresse mais de l'ingénierie.",
+   "apport": "Cadre culturel : légitimer les sas et le repos comme composantes de design, non comme aveux de faiblesse."
+  },
+  {
+   "auteur": "Stuart Brown",
+   "titre": "Play: How It Shapes the Brain, Opens the Imagination, and Invigorates the Soul",
+   "annee": "2009",
+   "idee": "Le jeu est un besoin biologique qui restaure la flexibilité cognitive et réduit la rigidité sous stress.",
+   "apport": "Un type de rituel-tampon souvent négligé : les micro-jeu, exploration libre, hors performance."
+  },
+  {
+   "auteur": "Tal Ben-Shahar",
+   "titre": "Happier: Learn the Secrets to Daily Joy and Lasting Fulfillment",
+   "annee": "2007",
+   "idee": "Le bien-être durable se construit par de petites pratiques quotidiennes et une acceptation réaliste des limites humaines.",
+   "apport": "Posture du livre : progressisme (« un peu mieux ») et non perfectionnisme dans l'installation des rituels."
+  },
+  {
+   "auteur": "Stephen R. Covey",
+   "titre": "The 7 Habits of Highly Effective People",
+   "annee": "1989",
+   "idee": "L'efficacité personnelle vient de l'alignement principes/valeurs et de la matrice important/urgent pour arbitrer le temps.",
+   "apport": "Grille de reconfiguration d'agenda : réduire le quadrant urgent-non-important qui génère le stress réactif."
+  },
+  {
+   "auteur": "Cal Newport",
+   "titre": "Slow Productivity: The Lost Art of Accomplishment Without Burnout",
+   "annee": "2024",
+   "idee": "La « lenteur productive » consiste à faire moins de choses, avec un rythme naturel, et à finir ce qu'on commence.",
+   "apport": "Justification du redimensionnement de la charge : moins d'engagements simultanés éloigne mécaniquement le point de bascule."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "PREMIÈRE PARTIE — Le seuil : comprendre le point de bascule",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Ce n'est pas le stress qui vous casse, c'est la distance",
+     "objectif": "Instaurer la thèse contre-intuitive du livre : le problème n'est pas l'intensité d'un événement stressant mais la proximité permanente de nos seuils de bascule.",
+     "sections": [
+      "Le mythe de l'intensité : pourquoi « résister plus fort » échoue",
+      "Charge allostasique : le cumul invisible (McEwen, Selye)",
+      "Point de bascule : définition et métaphore du système",
+      "Cartographie plutôt que combat : changer d'angle d'attaque",
+      "Ce que ce livre promet — et ce qu'il ne promet pas",
+      "Premiers repères : la journée comme architecture, pas comme liste"
+     ],
+     "exercices": [
+      "Auto-diagnostic « distance au seuil » : notation de 12 situations récentes sur une échelle 0–10",
+      "Journal de bascule sur 3 jours : noter les moments où l'on bascule (irritabilité, brouillard, épuisement)",
+      "Liste des « solutions ratées » déjà essayées et du coût qu'elles ont engagé"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Anatomie d'une bascule : corps, esprit, environnement",
+     "objectif": "Décrire les trois registres où se manifeste l'approche du seuil pour apprendre à le reconnaître précocement.",
+     "sections": [
+      "Le corps premier : signaux physiologiques (respiration, tension, sommeil)",
+      "L'esprit : rumination, attention résiduelle, charge de décision (Leroy, Kahneman)",
+      "L'environnement : bruit, notifications, enchaînements, transitions non amorties",
+      "Les faux positifs : stress utile vs. stress destructeur (McGonigal)",
+      "Interactions : comment un environnement pauvre abaisse le seuil corporel",
+      "Première cartographie personnelle : les trois registres sur une journée type"
+     ],
+     "exercices": [
+      "Grille des 15 signaux précoces : classer ses propres signaux corps/esprit/environnement",
+      "Relecture d'une journée « difficile » récente sous l'angle des trois registres",
+      "Identification de 3 environnements physiques ou numériques qui abaissent son seuil"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Cartographier ses seuils critiques personnels",
+     "objectif": "Fournir un protocole de repérage des zones rouges propres à chaque lecteur, plutôt qu'une liste universelle.",
+     "sections": [
+      "Pourquoi les listes de « déclencheurs » génériques ne suffisent pas",
+      "Méthode d'auto-observation en contexte réel (pas en thérapie)",
+      "Seuils contextuels : le même stimulus, deux bascules selon le jour",
+      "Seuils liés aux rôles sociaux et professionnels",
+      "La question de l'histoire personnelle : sensibilité accrue sans diagnostic",
+      "Mise à jour périodique : un seuil n'est pas gravé dans le marbre"
+     ],
+     "exercices": [
+      "Protocole de cartographie sur 14 jours : tableau des situations → intensité → distance ressentie → récupération",
+      "Entretien imaginaire avec soi-même six mois plus tôt : quels seuils ont bougé ?",
+      "Construction d'une carte personnelle synthétique (une page) : mes 5 zones rouges, mes 3 zones vertes"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Mesurer sa distance au point de bascule",
+     "objectif": "Donner des indicateurs simples et non médicaux pour estimer, au fil de la journée, sa distance au seuil.",
+     "sections": [
+      "L'échelle de distance : de « marge large » à « bascule imminente »",
+      "Indicateurs quantitatifs imparfaits mais utiles : sommeil, pauses, nombre de décisions",
+      "Indicateurs qualitatifs : qualité de l'attention, humeur, patience",
+      "Les instruments de mesure low-tech : journal, application générique, minuteur",
+      "Ce que la mesure ne peut pas dire : limites et précautions",
+      "Installer un rituel de relevé : le point de mi-journée"
+     ],
+     "exercices": [
+      "Construction d'un baromètre personnel en 5 paliers avec descripteurs concrets",
+      "Relevé trois fois par jour pendant une semaine (matin, mi-journée, soir)",
+      "Calibration : comparer relevés et événements réels pour ajuster les paliers"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "DEUXIÈME PARTIE — Les rituels-tampons : amortir avant la zone rouge",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Qu'est-ce qu'un rituel-tampon ?",
+     "objectif": "Définir précisément le concept central : un rituel est une pratique courte, répétée, placée stratégiquement pour augmenter la distance au seuil.",
+     "sections": [
+      "Rituel ≠ routine ≠ habitude : nuances d'usage dans ce livre",
+      "Critères d'un bon tampon : durée, simplicité, placement, fiabilité",
+      "Tampon d'entrée, tampon de mi-parcours, tampon de sortie",
+      "La science de l'habitude au service du tampon (Wood, Clear)",
+      "Tampons individuels vs. tampons partagés (équipe, famille)",
+      "Erreurs fréquentes : trop ambitieux, mal placé, non mesuré"
+     ],
+     "exercices": [
+      "Audit des rituels déjà existants (inconscients ou oubliés)",
+      "Test de trois mini-tampons de 2 minutes sur trois jours consécutifs",
+      "Choix d'un premier tampon pilote et définition de son indice de succès"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Le réveil : amorcer la journée sans précipitation",
+     "objectif": "Concevoir les premières minutes de la journée comme une première zone d'éloignement du seuil.",
+     "sections": [
+      "Les 60 premières minutes : impact sur la régulation du jour (Walker)",
+      "Rituel d'ancrage corporel : souffle, lumière, mouvement doux",
+      "Capture mentale du matin : sortir de la tête (Allen)",
+      "Résistance au réveil « réactif » (e-mails, notifications immédiates)",
+      "Variantes selon les contraintes (parents, horaires décalés, télétravail)",
+      "Mesurer l'effet : comparaison de deux semaines"
+     ],
+     "exercices": [
+      "Protocole d'installation d'un rituel de réveil en 4 étapes sur 21 jours",
+      "Carte du matin idéal vs. matin réel : écart et plan de réduction",
+      "Test A/B : une semaine avec rituel, une sans, relevé du baromètre"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "La respiration et le corps : des micro-sas de récupération",
+     "objectif": "Intégrer des pratiques corporelles courtes comme instruments de régulation dans la journée, sans discours ésotérique.",
+     "sections": [
+      "Physiologie simple : système nerveux, souffle, tension (Benson, Van der Kolk)",
+      "La relaxation response en 3 minutes : protocole de base",
+      "Détection corporelle précoce : où je sens le seuil approcher",
+      "Micro-marche, étirement, posture : le mouvement comme antidote à l'immobilité cognitive",
+      "Pleine conscience brève : observer sans agir (Kabat-Zinn)",
+      "Quand ça ne « marche » pas : gérer l'impatience et l'effet placebo"
+     ],
+     "exercices": [
+      "Protocole des 3 micro-sas (matin, après-midi, soir) sur 14 jours",
+      "Fiche personnelle des 5 pratiques corporelles les plus accessibles",
+      "Expérience de seuil : pratiquer avant et après une tâche connue pour basculer"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Le sommeil : l'amortisseur structurel",
+     "objectif": "Traiter le sommeil comme la fondation qui détermine la hauteur de tous les seuils de la journée suivante.",
+     "sections": [
+      "Sommeil et régulation émotionnelle : le lien établi (Walker)",
+      "Hygiène de sommeil : ce qui est robuste vs. ce qui relève du marketing",
+      "Rituel de clôture de soirée : le sas avant le coucher",
+      "Ruminations nocturnes : technique de sortie de charge mentale",
+      "Sommeil et performance : le paradoxe du « dormir moins pour produire plus »",
+      "Limites : insomnie persistante, troubles du sommeil → orientation professionnelle"
+     ],
+     "exercices": [
+      "Audit de sommeil sur 7 nuits (heure, qualité perçue, rituel, humeur au réveil)",
+      "Conception d'un rituel de coucher personnalisé en 3 éléments maximum",
+      "Test d'éloignement des écrans 45 minutes avant le coucher, relevé d'impact"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "TROISIÈME PARTIE — Redessiner l'enchaînement des journées",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "L'agenda comme architecture : concevoir, pas subir",
+     "objectif": "Faire basculer le lecteur d'une logique de gestion du temps vers une logique de conception de la distance au seuil.",
+     "sections": [
+      "Agenda réactif vs. agenda conçu : le changement de paradigme",
+      "Les trois variables du design : ordre, densité, transitions",
+      "Charge de décision : réduire les arbitrages matinaux (Baumeister, Kahneman)",
+      "Bloquer d'abord les tampons, remplir ensuite",
+      "L'agenda comme outil de protection, pas de remplissage",
+      "Audit d'une semaine type : visualiser les zones de risque"
+     ],
+     "exercices": [
+      "Audit complet de l'agenda d'une semaine : coloration par type d'activité et estimation de distance au seuil",
+      "Exercice de reconstruction : refaire la semaine idéale avec les mêmes engagements mais un ordre différent",
+      "Identification des 3 « enchaînements mortels » à casser"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "L'ordre des tâches : la séquence avant le volume",
+     "objectif": "Montrer que l'ordre dans lequel on enchaîne les tâches modifie la trajectoire vers le point de bascule.",
+     "sections": [
+      "Attention residue : le coût invisible des transitions (Leroy)",
+      "Alterner haute et basse exigence : le principe de contraste",
+      "Tâches « dangereuses » en début de pic, tâches « sûres » en creux",
+      "Le coût cognitif des réunions enchaînées",
+      "La règle du « jamais deux zones rouges d'affilée »",
+      "Adaptation aux journées imprévues (réunions de crise, urgences)"
+     ],
+     "exercices": [
+      "Replanification d'une journée type en appliquant le principe de contraste",
+      "Journal de séquence : noter pendant 5 jours l'ordre réel et la courbe d'énergie perçue",
+      "Protocole d'urgence : que faire quand la séquence prévue est rompue"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Les sas entre les charges : la transition comme rituel",
+     "objectif": "Faire de chaque transition (réunion → travail, travail → foyer, tâche → tâche) un point d'amortissement délibéré.",
+     "sections": [
+      "Pourquoi les transitions sont les moments les plus dangereux",
+      "Le sas de 5 minutes : structure, durée, contenu",
+      "Clôturer visiblement : rituel de fin de tâche",
+      "Sas physiques : quitter la pièce, changer de posture",
+      "Sas numériques : fermer les onglets, couper les notifications",
+      "Sas relationnels : bascule entre rôle pro et rôle familial"
+     ],
+     "exercices": [
+      "Invention et test de 3 sas de transition de 5 minutes sur une semaine",
+      "Protocole de clôture de tâche en 4 questions (fait ? suite ? charge résiduelle ? prochain slot ?)",
+      "Cartographie des transitions d'une journée type et priorisation des 3 à amortir en priorité"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Le mi-journée : le point de bascule souvent ignoré",
+     "objectif": "Traiter explicitement le milieu de journée comme zone de risque maximale pour beaucoup de profils.",
+     "sections": [
+      "Courbe d'énergie naturelle : variations individuelles et sociales",
+      "Le repas : récupération réelle ou simple pause de façade",
+      "La sieste courte : ce que la recherche soutient et ce qu'elle ne soutient pas",
+      "Le creux post-déjeuner : adapter la charge, pas la volonté",
+      "Micro-créneaux de récupération en contexte de bureau",
+      "Le point de relevé : intégrer le baromètre du mi-journée"
+     ],
+     "exercices": [
+      "Expérimentation de 3 stratégies de mi-journée sur 15 jours",
+      "Reconfiguration de la plage 12h–15h pour protéger un tampon de récupération",
+      "Test de sieste de 10–20 minutes et relevé d'impact sur l'après-midi"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "QUATRIÈME PARTIE — Zones rouges, surplus et soustraction",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Repérer les zones rouges récurrentes",
+     "objectif": "Identifier dans l'agenda les plages structurellement proches du seuil et agir sur leur conception.",
+     "sections": [
+      "Définition opérationnelle d'une zone rouge",
+      "Les classiques : lundi matin, fin de mois, enchaînements de réunions",
+      "Zones rouges liées aux personnes et aux contextes relationnels",
+      "Zones rouges numériques : boîte mail, flux d'actualités, messageries",
+      "Distinguer zone rouge événementielle et zone rouge structurelle",
+      "Plan de mitigation : amortir, déplacer, réduire, déléguer"
+     ],
+     "exercices": [
+      "Cartographie des 5 zones rouges récurrentes sur un mois",
+      "Plan d'intervention pour chacune (type d'action : amortir / déplacer / déléguer)",
+      "Suivi de l'effet sur 4 relevés hebdomadaires"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Dire non pour éloigner le seuil",
+     "objectif": "Utiliser la soustraction d'engagements comme levier principal d'éloignement du point de bascule (McKeown, Newport).",
+     "sections": [
+      "Le sur-engagement comme cause structurelle de proximité du seuil",
+      "Grille d'arbitrage : important/urgent appliquée à la charge (Covey)",
+      "Dire non sans se couper : formulations et principes",
+      "Réviser les engagements existants : entretiens de « désabonnement »",
+      "Le coût d'opportunité invisible : ce que chaque oui consomme",
+      "Accepter le vide : gérer le malaise de la sous-charge temporaire"
+     ],
+     "exercices": [
+      "Liste exhaustive des engagements actifs (pro + perso) et notation « charge seuil » pour chacun",
+      "Décision sur 3 engagements à réduire ou arrêter dans le mois",
+      "Préparation de 5 scripts de refus adaptés à son contexte"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Gérer l'urgence permanente",
+     "objectif": "Distinguer les urgences réelles de l'urgence ressentie, et concevoir des routines de réponse proportionnées.",
+     "sections": [
+      "Urgence réelle vs. urgence perçue : test de classification",
+      "La réactivité par défaut : coût sur la distance au seuil",
+      "Protocole de réponse décalée (sas avant de répondre)",
+      "Quand l'urgence est légitime : amortir sans retarder",
+      "Protéger les blocs profonds dans un environnement urgent (Newport)",
+      "Rituels de « fin d'urgence » : revenir à la baseline"
+     ],
+     "exercices": [
+      "Journal des urgences sur 10 jours : classification réelle/ressentie, temps de réponse, coût en bascule",
+      "Mise en place d'un sas de réponse de 15 minutes pour les sollicitations non critiques",
+      "Design d'un « bloc protégé » hebdomadaire de 90 minutes"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Le dimanche soir et les bascules de saison",
+     "objectif": "Traiter les bascules périodiques (début de semaine, fin de mois, rentrées, transitions de saison) comme des architectures à part.",
+     "sections": [
+      "Effet « dimanche soir » : anticipation négative et ruminations",
+      "Rituel de préparation hebdomadaire (20–40 minutes)",
+      "Bascules de fin de mois et de clôture de projets",
+      "Rentrées, congés, retours : les transitions longues",
+      "Calendrier annuel : anticiper les zones rouges saisonnières",
+      "Le rythme naturel vs. le rythme social imposé"
+     ],
+     "exercices": [
+      "Protocole de rituel du dimanche soir en 5 étapes",
+      "Carte annuelle des 4 zones rouges prévisibles et plan d'amortissement pour chacune",
+      "Expérimentation sur 4 semaines consécutives avec relevé du lundi matin"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "CINQUIÈME PARTIE — Ancrer, mesurer, transmettre : faire tenir le système",
+   "chapitres": [
+    {
+     "numero": 17,
+     "titre": "Installer un rituel sans se décourager",
+     "objectif": "Fournir un protocole progressif d'installation de rituels-tampons, compatible avec une vie réelle et imparfaite.",
+     "sections": [
+      "Le protocole en 5 étapes : choisir, réduire, ancrer, répéter, ajuster",
+      "Ancrage à un signal existant : le rituel précédent comme déclencheur (Clear)",
+      "La règle du « jamais deux jours de suite sans »",
+      "Gérer l'échec : reprise sans culpabilité ni effet rebond",
+      "Identifier ses identités porteuses : « quelqu'un qui prend ses sas »",
+      "Quand un rituel ne convient plus : le retirer sans regret"
+     ],
+     "exercices": [
+      "Fiche d'installation d'un nouveau rituel (contexte, déclencheur, durée, mesure, plan de reprise)",
+      "Plan de 21 jours avec marqueurs de progression",
+      "Auto-entretien à J+21 : ce qui a tenu, ce qui a lâché, pourquoi"
+     ]
+    },
+    {
+     "numero": 18,
+     "titre": "L'environnement au service de la distance",
+     "objectif": "Concevoir activement l'environnement physique et numérique pour augmenter la marge par défaut.",
+     "sections": [
+      "Le poids du contexte : l'environnement prédit mieux que la volonté (Wood)",
+      "Espace de travail : posture, lumière, bruit, seuils physiques",
+      "Téléphone et notifications : le design des interruptions",
+      "Espace domestique : séparer les zones de charge et de récupération",
+      "Aménagements partagés : négocier l'environnement familial ou de bureau",
+      "Coût et pragmatisme : aménagements à fort effet, à faible effort"
+     ],
+     "exercices": [
+      "Audit d'environnement en 10 points (bureau, maison, téléphone)",
+      "Plan d'aménagement en 3 actions prioritaires, testables en une semaine",
+      "Règles numériques personnelles : 3 règles strictes, 3 souples"
+     ]
+    },
+    {
+     "numero": 19,
+     "titre": "Mesurer l'effet : baromètres et revues",
+     "objectif": "Établir un système de suivi simple pour vérifier que la distance au seuil augmente réellement.",
+     "sections": [
+      "Ce qu'on mesure bien : indicateurs simples, fréquents, actionnables",
+      "Le baromètre de distance comme instrument central (rappel et raffinement)",
+      "Revue hebdomadaire de 15 minutes : ce qui a basculé, ce qui a tenu",
+      "Revue mensuelle : ajustement de la cartographie des seuils",
+      "L'effet d'observer : le suivi lui-même comme rituel",
+      "Limites de l'auto-mesure : biais, enthousiasme, déni"
+     ],
+     "exercices": [
+      "Mise en place d'une revue hebdomadaire de 15 minutes (modèle fourni)",
+      "Tableau de bord mensuel : distance perçue, nombre de bascules, rituels tenus",
+      "Expérience de 8 semaines : comparaison point de départ / point d'arrivée"
+     ]
+    },
+    {
+     "numero": 20,
+     "titre": "Relations, famille et travail d'équipe : le seuil n'est pas seulement personnel",
+     "objectif": "Étendre le cadre architectural aux interactions : les seuils se jouent aussi dans le collectif.",
+     "sections": [
+      "L'effet miroir : comment les bascules des autres rapprochent les nôtres",
+      "Négocier des rituels partagés (réunions amorties, fins de journée collectives)",
+      "Famille : sas entre travail et foyer, rythmes communs",
+      "Manager et collaborateurs : protéger la distance au seuil de l'équipe",
+      "Conflit et charge relationnelle : zones rouges interpersonnelles",
+      "Poser des limites sans s'isoler : la frontière comme tampon social"
+     ],
+     "exercices": [
+      "Entretien de négociation : proposer un rituel d'équipe (modèle de conversation)",
+      "Carte des 3 relations les plus « consommatrices de seuil » et plan d'amortissement",
+      "Rituel familial de transition (retrouver la maison / le soir) à tester une semaine"
+     ]
+    },
+    {
+     "numero": 21,
+     "titre": "Quand la charge ne diminue pas : stratégies de résilience structurelle",
+     "objectif": "Offrir des leviers pour les périodes où la réduction de charge est impossible (crises, contraintes fortes).",
+     "sections": [
+      "Distinguer réduction de charge et augmentation de marge",
+      "Stratégies de compensation : sommeil, mouvement, soutien social",
+      "Micro-récupération dans l'impossible : sas de 90 secondes",
+      "Reconfigurer le sens : défis vs. menaces (McGonigal)",
+      "Seuil durablement bas : quand orienter vers un professionnel de santé",
+      "Périodes de crise : protocole minimal, pas idéal"
+     ],
+     "exercices": [
+      "Protocole minimal de crise : 3 rituels intouchables en période de surcharge",
+      "Audit des ressources de compensation (sommeil, corps, relations)",
+      "Check-list de signaux d'alerte nécessitant un accompagnement professionnel"
+     ]
+    },
+    {
+     "numero": 22,
+     "titre": "Reconfigurer sa semaine type : exercice intégrateur",
+     "objectif": "Réunir toutes les méthodes du livre dans un exercice complet de redesign d'une semaine réelle.",
+     "sections": [
+      "Étape 1 : audit de 168 heures (Vanderkam) et cartographie des seuils",
+      "Étape 2 : soustraction — retirer ce qui creuse la proximité du seuil",
+      "Étape 3 : insertion des tampons et sas dans le calendrier existant",
+      "Étape 4 : réordonnancement des séquences à haute exigence",
+      "Étape 5 : anticipation des bascules de la semaine et plan de réponse",
+      "Étape 6 : test, mesure, ajustement"
+     ],
+     "exercices": [
+      "Exercice intégrateur complet : redessiner sa semaine type en 6 étapes (modèle détaillé)",
+      "Mise en œuvre sur 2 semaines avec relevés quotidiens",
+      "Bilan d'intégration : ce qui change durablement vs. ce qui reste expérimental"
+     ]
+    },
+    {
+     "numero": 23,
+     "titre": "L'architecture au-delà de soi : le design des rythmes collectifs",
+     "objectif": "Élargir la réflexion : on peut agir sur les rythmes de son organisation, de sa famille, de sa communauté.",
+     "sections": [
+      "Le coût collectif de l'architecture du stress actuel",
+      "Réunions, délais, disponibilité permanente : réformer sans révolution",
+      "Le droit à la déconnexion comme architecture, pas seulement comme droit",
+      "Éducation des enfants et modélisation des rythmes",
+      "Communautés et lieux de travail : aménagements à fort levier",
+      "Vers une culture de la marge : ce que l'on peut raisonnablement porter"
+     ],
+     "exercices": [
+      "Diagnostic d'une organisation ou d'un foyer : 5 aménagements possibles",
+      "Proposition écrite d'une réforme rythmique (réunion, école, famille)",
+      "Plan de plaidoyer doux : introduire un rituel collectif en partant d'un problème partagé"
+     ]
+    },
+    {
+     "numero": 24,
+     "titre": "Vivre avec ses seuils, sans les fuir",
+     "objectif": "Conclure sur une posture : la marge n'est pas l'absence de stress mais la capacité à rester loin du point de bascule durablement.",
+     "sections": [
+      "Accepter d'avoir des seuils : humanité et limites",
+      "Le stress utile reste utile : ne pas vider sa vie de tout défi",
+      "Progressisme vs. perfectionnisme dans l'architecture de soi",
+      "Le rituel comme acte de respect envers soi-même",
+      "Le suivi à long terme : la cartographie est un travail vivant",
+      "Mot de fin : changer la structure, pas la volonté"
+     ],
+     "exercices": [
+      "Lettre à soi-même dans 6 mois : ce que l'on veut avoir reconfiguré",
+      "Carte finale : seuils, tampons, sas, zones rouges — synthèse sur une page",
+      "Engagement de trois pratiques durables et de leur mode de révision"
+     ]
+    }
+   ]
+  }
+ ]
+}
