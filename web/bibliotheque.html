@@ -102,6 +102,7 @@ let BOOKS = [];
 const SITE = location.hostname.endsWith("netlify.app");
 const pdfUrl = (p) => SITE ? "pdf/" + p.split("/").map(encodeURIComponent).join("/") : raw(LIVRES, p);
 async function charger() {
+  try { const r = await fetch("catalogue.json?t=" + Date.now()); if (r.ok) return (await r.json()).catalogue; } catch (e) {}   // copie embarquée (GitHub indisponible)
   if (SITE) { try { const r = await fetch("etat.json?t=" + Date.now()); if (r.ok) return (await r.json()).catalogue; } catch (e) {} }
   try {
     const r = await fetch(raw("etat-usine", "etat.json") + "?t=" + Date.now());

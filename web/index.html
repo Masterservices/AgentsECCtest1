@@ -175,6 +175,7 @@ const pdfUrl = (p) => location.hostname.endsWith("netlify.app") ? "pdf/" + p.spl
 let catalogue = [];
 
 async function lireEtat() {
+  try { const r = await fetch("catalogue.json?t=" + Date.now()); if (r.ok) return await r.json(); } catch (e) {}   // copie embarquée (GitHub indisponible)
   if (location.hostname.endsWith("netlify.app")) { try { const r = await fetch("etat.json?t=" + Date.now()); if (r.ok) return await r.json(); } catch (e) {} }
   // raw.githubusercontent (sans limite d'appels, cache de quelques minutes), puis repli sur l'API GitHub (60 appels/h par visiteur)
   try {
