@@ -68,6 +68,9 @@ def nettoyer_patterns(pats, label, notes):
         if p in GENERIQUES:
             notes["mot trop général retiré"] += 1
             continue
+        if re.search(r"[^\x00-ɏЀ-ӿ؀-ۿ‐-‧]", p):
+            notes["motif hors alphabets latin/cyrillique/arabe retiré"] += 1
+            continue
         garde.append(p)
     # compléter avec les libellés si moins de 3 motifs
     for lang in ("fr", "en", "ru", "ar"):
@@ -137,7 +140,7 @@ FUSIONS = {"facebook-ads": "meta-ads", "sap-hr": "sap-hcm", "oracle-netsuite": "
            "microsoft-dynamics-nav": "dynamics-nav", "arabe-commercial": "arabe", "russe-commercial": "russe"}
 RETIRES = {"google-optimize"}  # arrêté par Google en septembre 2023
 MARQUES_MOTS_COURANTS = {"tableau", "notion", "sage", "lever", "doctrine", "luminance", "teams", "canvas", "prisma", "unity",
-                         "buffer", "indeed", "relativity", "epic", "spring", "glint", "factorial"}
+                         "buffer", "indeed", "relativity", "epic", "spring", "glint", "factorial", "safe"}
 REMPLACEMENTS = {"buffer": ["buffer.com", "buffer app", "buffer publish"], "indeed": ["indeed.com", "indeed.fr", "sur indeed"],
                  "prisma": ["prisma orm", "prisma.io", "prisma client"]}
 OUTIL_GENERIQUE = re.compile(r"system|tools|sensors|whiteboard|databases|record|advanced|suite|services", re.I)
@@ -261,8 +264,6 @@ def consolider(skills, alias, notes):
                         notes["variante d'écriture ajoutée à un outil"] += 1
     # marques qui sont aussi des mots courants (« tableau de bord », « sage-femme », « spring ») : pas de motif nu
     for s in skills.values():
-        if s["category"] != "outil":
-            continue
         for mot in MARQUES_MOTS_COURANTS & set(s["patterns"]):
             s["patterns"].remove(mot)
             notes["marque = mot courant : motif nu retiré"] += 1

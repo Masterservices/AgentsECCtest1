@@ -38,11 +38,12 @@
 - motif ar/ru rejeté par la relecture : 141
 - motif court ambigu retiré : 59
 - quasi-doublon fusionné : 47
-- marque = mot courant : motif nu retiré : 18
+- marque = mot courant : motif nu retiré : 19
 - motif ajouté depuis le libellé : 7
 - doublon relu fusionné : 6
 - mot trop général retiré : 4
 - variante de langue fusionnée : 4
+- motif hors alphabets latin/cyrillique/arabe retiré : 2
 - outil arrêté retiré : 1
 
 ## Points à surveiller
