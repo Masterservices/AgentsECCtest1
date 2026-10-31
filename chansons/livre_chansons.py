@@ -50,8 +50,11 @@ ST = {
     "api": ParagraphStyle("ap", fontName="DVM", fontSize=6.9, leading=8.8, textColor=GRIS),
     "idx": ParagraphStyle("i", fontName="DV", fontSize=7.4, leading=9.6, textColor=ENCRE),
 }
-MODULES = [("fr", "Module 1 — Chansons en français"), ("en", "Module 2 — Songs in English"),
-           ("ar", "Module 3 — Chansons en derja tunisienne (" + "الدارجة التونسية" + ")")]
+ST["module"] = ParagraphStyle("h1", fontName="DVB", fontSize=26, leading=32, alignment=TA_CENTER, textColor=ACCENT, spaceAfter=12)
+MODULES = [("fr", "Module 1 — Chansons en français", "Pop, chanson, rap, ballades… en français"),
+           ("en", "Module 2 — Songs in English", "Pop, R&B, rock, jazz, gospel… in English"),
+           ("ar", "Module 3 — Chansons en derja tunisienne", "الدارجة التونسية"),]
+SOUS_AR = "Chaque vers en trois lignes : écriture arabe, romanisation chantable pour Suno, transcription API"
 LANG = {"fr": "français", "en": "anglais", "ar": "derja tunisienne"}
 TEMPOS = [("Lent (moins de 80 BPM)", 0, 79), ("Modéré (80 à 109 BPM)", 80, 109), ("Rapide (110 à 129 BPM)", 110, 129),
           ("Très rapide (130 BPM et plus)", 130, 999)]
@@ -121,7 +124,7 @@ def charger():
                              "paroles_chant": (c.get("paroles_chant") or "").strip(), "paroles_api": (c.get("paroles_api") or "").strip(),
                              "controle_derja": (derja or {}).get("controle", [])})
     ordre_g = {g["cle"]: i for i, g in enumerate(genres)}
-    ordre_l = {l: i for i, (l, _) in enumerate(MODULES)}
+    ordre_l = {l: i for i, (l, *_) in enumerate(MODULES)}
     tout.sort(key=lambda c: (ordre_l[c["langue"]], ordre_g[c["genre"]], c["bpm"], cle_titre(c["titre"])))
     for i, c in enumerate(tout, 1):
         c["numero"] = i
@@ -220,20 +223,25 @@ def main():
            Paragraph("<b>Droits</b> : paroles originales écrites avec l'assistance de l'intelligence artificielle sous la direction "
                      "d'Oussama Ghorbel. © 2026 Oussama Ghorbel, tous droits réservés. Vérifiez les conditions d'utilisation de Suno "
                      "pour l'exploitation commerciale des morceaux générés.", ST["corps"]), Spacer(1, 4)]
-    lignes_t = [["Genre", "Tempo"] + [l.upper() for l, _ in MODULES]]
+    lignes_t = [["Genre", "Tempo"] + [l.upper() for l, *_ in MODULES]]
     for g in genres:
         n = Counter(c["langue"] for c in tout if c["genre"] == g["cle"])
-        lignes_t.append([g["nom"], f"{g['bpm'][0]}–{g['bpm'][1]} BPM"] + [str(n.get(l, "")) for l, _ in MODULES])
+        lignes_t.append([g["nom"], f"{g['bpm'][0]}–{g['bpm'][1]} BPM"] + [str(n.get(l, "")) for l, *_ in MODULES])
     t = Table(lignes_t, colWidths=[7.5 * cm, 3.2 * cm, 1.6 * cm, 1.6 * cm, 1.6 * cm])
     t.setStyle(TableStyle([("FONT", (0, 0), (-1, -1), "DV", 8), ("FONT", (0, 0), (-1, 0), "DVB", 8),
                            ("LINEBELOW", (0, 0), (-1, 0), 0.6, ACCENT), ("TOPPADDING", (0, 0), (-1, -1), 1),
                            ("BOTTOMPADDING", (0, 0), (-1, -1), 1), ("ALIGN", (2, 0), (-1, -1), "CENTER")]))
-    fl += [t, NextPageTemplate("deux"), PageBreak()]
-    for code, nom in MODULES:
+    fl.append(t)
+    for code, nom, sous in MODULES:
         ms = [c for c in tout if c["langue"] == code]
         if not ms:
             continue
-        fl.append(Paragraph(f"{x(nom)} · {len(ms)} chansons", ST["h1"]))
+        # page de titre du module sur une colonne, puis les chansons sur deux colonnes
+        fl += [NextPageTemplate("une"), PageBreak(), Spacer(1, 7 * cm), Paragraph(x(nom), ST["module"]),
+               Paragraph(x(sous), ST["sous"]), Spacer(1, 8), Paragraph(f"{len(ms)} chansons", ST["sous"])]
+        if code == "ar":
+            fl += [Spacer(1, 8), Paragraph(SOUS_AR, ST["sous"])]
+        fl += [NextPageTemplate("deux"), PageBreak()]
         for g in genres:
             gs = [c for c in ms if c["genre"] == g["cle"]]
             if gs:

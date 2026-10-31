@@ -1,0 +1,903 @@
+{
+ "cours": "fr-pour-russes",
+ "num": 9,
+ "niveau": "A1",
+ "id": "fr-pour-russes-A1-09",
+ "titre": {
+  "cible": "À la cantine",
+  "natif": "В столовой"
+ },
+ "objectifs": [
+  "Уметь заказывать и выбирать блюда в столовой самообслуживания",
+  "Выражать голод и жажду с помощью глагола prendre и наречий количества",
+  "Использовать частичные артикли в отрицательной форме (ne… pas de)",
+  "Рассказывать о своих пищевых привычках и предпочтениях",
+  "Различать на слух и произносить звуки [y] и [u]"
+ ],
+ "scene": {
+  "lieu": "Restaurant universitaire (RU) self-service, grandes baies vitrées donnant sur le campus",
+  "moment": "Mardi, 12 h 15, début novembre",
+  "decor_3d": "Grande salle lumineuse avec de hautes baies vitrées laissant voir les platanes du campus. File d'attente avec présentoirs réfrigérés (entrées, plats chauds, desserts). Plateaux en plastique rouge, couverts en inox. Tables rondes en bois clair, chaises empilables oranges. Au fond, un comptoir de distribution avec une vitrine chauffante et une employée en blouse blanche. Lumière naturelle rasante de novembre, ambiance animée.",
+  "objets": [
+   "plateau self-service rouge",
+   "assiette creuse en céramique blanche",
+   "fourchette, couteau, cuillère en inox",
+   "verre d'eau",
+   "carafe d'eau sur la table",
+   "présentoir à salades",
+   "vitrine chauffante avec plats du jour",
+   "panneau menu du jour",
+   "bouteille de jus d'orange",
+   "corbeille de pain"
+  ],
+  "personnages": [
+   "anna",
+   "lucas",
+   "sophie"
+  ],
+  "figurants": [
+   {
+    "id": "dame_cantine",
+    "nom": "Nadine",
+    "apparence": "Femme de 50 ans, cheveux courts gris attachés, blouse blanche, tablier bleu marine, sourire chaleureux, lunettes rondes",
+    "voix": "Féminine, chaleureuse, légèrement grave, débit posé"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "anna",
+   "texte": "Oh là là, j'ai très faim ! Je n'ai pas pris de petit-déjeuner ce matin.",
+   "traduction": "Ой, я очень голодна! Я сегодня не завтракала.",
+   "geste": "Anna pose la main sur son ventre, se penche légèrement vers le comptoir en regardant les plats avec envie."
+  },
+  {
+   "perso": "sophie",
+   "texte": "Moi aussi, j'ai faim ! Allez, on prend un plateau et on fait la queue. Tu veux quoi comme entrée ?",
+   "traduction": "Я тоже голодна! Давай возьмём поднос и встанем в очередь. Что ты хочешь на закуску?",
+   "geste": "Sophie attrape deux plateaux rouges, en tend un à Anna, et pointe du doigt le présentoir à entrées."
+  },
+  {
+   "perso": "anna",
+   "texte": "Je ne sais pas… Je ne mange pas beaucoup de crudités d'habitude. Qu'est-ce que tu prends, toi ?",
+   "traduction": "Не знаю… Я обычно не ем много сырых овощей. А ты что берёшь?",
+   "geste": "Anna hésite devant les salades, penche la tête à gauche puis à droite, puis se tourne vers Sophie."
+  },
+  {
+   "perso": "lucas",
+   "texte": "Moi, je prends toujours une salade verte. Et après, je prends un plat chaud. Aujourd'hui, il y a du poulet avec des haricots verts.",
+   "traduction": "Я всегда беру зелёный салат. А потом — горячее блюдо. Сегодня есть курица с зелёной фасолью.",
+   "geste": "Lucas avance son plateau sur le rail métallique, désigne la vitrine chauffante et lève le pouce."
+  },
+  {
+   "perso": "anna",
+   "texte": "Mmm, ça a l'air bon. Je prends le poulet aussi. Mais je ne mange pas trop de pain, sinon j'ai sommeil après.",
+   "traduction": "М-м, выглядит вкусно. Я тоже возьму курицу. Но я не ем слишком много хлеба, а то потом клонит в сон.",
+   "geste": "Anna fait glisser son plateau, se sert du poulet, puis écarte légèrement la corbeille de pain."
+  },
+  {
+   "perso": "dame_cantine",
+   "texte": "Vous voulez de la sauce avec le poulet, mademoiselle ?",
+   "traduction": "Хотите соус к курице, мадемуазель?",
+   "geste": "Nadine tient une louche au-dessus d'un bol de sauce, se penche vers Anna avec un sourire."
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, s'il vous plaît. Un peu de sauce, merci beaucoup !",
+   "traduction": "Да, пожалуйста. Немного соуса, спасибо большое!",
+   "geste": "Anna hoche la tête, sourit et fait un petit geste de la main pour indiquer une petite quantité."
+  },
+  {
+   "perso": "sophie",
+   "texte": "Et à boire ? Tu prends de l'eau ou du jus ?",
+   "traduction": "А пить? Ты возьмёшь воду или сок?",
+   "geste": "Sophie tient une carafe dans une main et une bouteille de jus dans l'autre, regarde Anna."
+  },
+  {
+   "perso": "anna",
+   "texte": "Je prends de l'eau, merci. En Russie, je bois beaucoup de thé, mais ici, je bois peu de thé au déjeuner.",
+   "traduction": "Я возьму воду, спасибо. В России я пью много чая, но здесь за обедом пью мало чая.",
+   "geste": "Anna prend un verre, le remplit d'eau à la carafe, puis s'assoit à une table ronde."
+  },
+  {
+   "perso": "lucas",
+   "texte": "C'est drôle ! Moi, je ne bois jamais de thé. Je prends un café le matin et de l'eau le midi. Tu manges souvent au RU ?",
+   "traduction": "Забавно! Я вообще не пью чай. Утром я беру кофе, а в обед — воду. Ты часто ешь в студенческой столовой?",
+   "geste": "Lucas s'assoit en face d'Anna, pose ses couverts et croise les bras sur la table."
+  },
+  {
+   "perso": "anna",
+   "texte": "Non, c'est la première fois ! En Russie, je mange à la cantine de l'université tous les jours, mais les plats sont différents.",
+   "traduction": "Нет, это в первый раз! В России я ем в университетской столовой каждый день, но блюда другие.",
+   "geste": "Anna écarte les mains en signe d'étonnement, puis commence à couper le poulet avec son couteau."
+  },
+  {
+   "perso": "sophie",
+   "texte": "Tu vas adorer ! Ici, on a le choix : entrée, plat, fromage et dessert. Bon appétit, Anna !",
+   "traduction": "Тебе понравится! Здесь есть выбор: закуска, основное блюдо, сыр и десерт. Приятного аппетита, Анна!",
+   "geste": "Sophie lève son verre d'eau comme pour trinquer, puis attaque sa salade avec enthousiasme."
+  },
+  {
+   "perso": "anna",
+   "texte": "Bon appétit ! Mmm… c'est délicieux. Je n'ai pas souvent l'occasion de manger aussi bien.",
+   "traduction": "Приятного аппетита! М-м… очень вкусно. У меня нечасто бывает возможность так хорошо поесть.",
+   "geste": "Anna goûte le poulet, ferme les yeux de plaisir, puis sourit largement à ses amis."
+  },
+  {
+   "perso": "lucas",
+   "texte": "Demain, on mange ensemble encore ? Il y a du poisson le vendredi, c'est très bon.",
+   "traduction": "Завтра снова вместе пообедаем? В пятницу есть рыба, очень вкусная.",
+   "geste": "Lucas pointe sa fourchette vers Anna, sourit et lève un sourcil interrogateur."
+  },
+  {
+   "perso": "anna",
+   "texte": "Avec plaisir ! Je prends le poisson. J'adore ça !",
+   "traduction": "С удовольствием! Я возьму рыбу. Я обожаю её!",
+   "geste": "Anna tape doucement sur la table avec ses couverts et fait un grand sourire."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "la cantine",
+   "prononciation": "[la kɑ̃tin]",
+   "nature": "nom f.",
+   "traduction": "столовая",
+   "exemple": "Je mange à la cantine tous les jours.",
+   "exemple_traduction": "Я ем в столовой каждый день."
+  },
+  {
+   "mot": "le repas",
+   "prononciation": "[lə ʁəpa]",
+   "nature": "nom m.",
+   "traduction": "приём пищи, еда",
+   "exemple": "Le repas à la française a trois ou quatre plats.",
+   "exemple_traduction": "Французский приём пищи состоит из трёх или четырёх блюд."
+  },
+  {
+   "mot": "le plat",
+   "prononciation": "[lə pla]",
+   "nature": "nom m.",
+   "traduction": "блюдо",
+   "exemple": "Quel est le plat du jour ?",
+   "exemple_traduction": "Какое сегодня блюдо дня?"
+  },
+  {
+   "mot": "l'entrée",
+   "prononciation": "[lɑ̃tʁe]",
+   "nature": "nom f.",
+   "traduction": "закуска (первое блюдо)",
+   "exemple": "Je prends une salade comme entrée.",
+   "exemple_traduction": "Я беру салат как закуску."
+  },
+  {
+   "mot": "le dessert",
+   "prononciation": "[lə dɛsɛʁ]",
+   "nature": "nom m.",
+   "traduction": "десерт",
+   "exemple": "Je ne prends pas de dessert aujourd'hui.",
+   "exemple_traduction": "Я сегодня не беру десерт."
+  },
+  {
+   "mot": "le poulet",
+   "prononciation": "[lə pulɛ]",
+   "nature": "nom m.",
+   "traduction": "курица (мясо)",
+   "exemple": "Le poulet avec des haricots verts est délicieux.",
+   "exemple_traduction": "Курица с зелёной фасолью очень вкусная."
+  },
+  {
+   "mot": "le pain",
+   "prononciation": "[lə pɛ̃]",
+   "nature": "nom m.",
+   "traduction": "хлеб",
+   "exemple": "Je ne mange pas trop de pain.",
+   "exemple_traduction": "Я не ем слишком много хлеба."
+  },
+  {
+   "mot": "la fourchette",
+   "prononciation": "[la fuʁʃɛt]",
+   "nature": "nom f.",
+   "traduction": "вилка",
+   "exemple": "Tu prends ta fourchette et ton couteau.",
+   "exemple_traduction": "Ты берёшь вилку и нож."
+  },
+  {
+   "mot": "le couteau",
+   "prononciation": "[lə kuto]",
+   "nature": "nom m.",
+   "traduction": "нож",
+   "exemple": "Je coupe le poulet avec le couteau.",
+   "exemple_traduction": "Я режу курицу ножом."
+  },
+  {
+   "mot": "le plateau",
+   "prononciation": "[lə plɑto]",
+   "nature": "nom m.",
+   "traduction": "поднос",
+   "exemple": "On prend un plateau et on fait la queue.",
+   "exemple_traduction": "Берём поднос и встаём в очередь."
+  },
+  {
+   "mot": "la faim",
+   "prononciation": "[la fɛ̃]",
+   "nature": "nom f.",
+   "traduction": "голод",
+   "exemple": "J'ai très faim ce matin.",
+   "exemple_traduction": "Я очень голодна сегодня утром."
+  },
+  {
+   "mot": "la soif",
+   "prononciation": "[la swaf]",
+   "nature": "nom f.",
+   "traduction": "жажда",
+   "exemple": "Tu as soif ? Je prends de l'eau.",
+   "exemple_traduction": "Хочешь пить? Я возьму воды."
+  },
+  {
+   "mot": "la saveur",
+   "prononciation": "[la savœʁ]",
+   "nature": "nom f.",
+   "traduction": "вкус (оттенок)",
+   "exemple": "Ce plat a une bonne saveur.",
+   "exemple_traduction": "У этого блюда хороший вкус."
+  },
+  {
+   "mot": "le jus",
+   "prononciation": "[lə ʒy]",
+   "nature": "nom m.",
+   "traduction": "сок",
+   "exemple": "Tu prends du jus d'orange ?",
+   "exemple_traduction": "Ты возьмёшь апельсиновый сок?"
+  },
+  {
+   "mot": "prendre",
+   "prononciation": "[pʁɑ̃dʁ]",
+   "nature": "verbe (3e groupe)",
+   "traduction": "брать, заказывать",
+   "exemple": "Je prends une salade et un café.",
+   "exemple_traduction": "Я беру салат и кофе."
+  },
+  {
+   "mot": "le fromage",
+   "prononciation": "[lə fʁɔmaʒ]",
+   "nature": "nom m.",
+   "traduction": "сыр",
+   "exemple": "En France, on mange du fromage après le plat.",
+   "exemple_traduction": "Во Франции едят сыр после основного блюда."
+  },
+  {
+   "mot": "les haricots verts",
+   "prononciation": "[le aʁiko vɛʁ]",
+   "nature": "nom m. pl.",
+   "traduction": "зелёная фасоль",
+   "exemple": "Le poulet est servi avec des haricots verts.",
+   "exemple_traduction": "Курица подаётся с зелёной фасолью."
+  },
+  {
+   "mot": "le petit-déjeuner",
+   "prononciation": "[lə pəti deʒœne]",
+   "nature": "nom m.",
+   "traduction": "завтрак",
+   "exemple": "Je n'ai pas pris de petit-déjeuner ce matin.",
+   "exemple_traduction": "Я не завтракала сегодня утром."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Глагол prendre в настоящем времени",
+   "explication": "Глагол prendre («брать», «заказывать», «принимать») относится к 3-й группе неправильных глаголов. Он очень часто используется во французском языке в значении «взять / заказать» еду или напитки: Je prends un café, Tu prends une salade. Спряжение необходимо запомнить, так как корень меняется: je prends, tu prends, il/elle prend, nous prenons, vous prenez, ils/elles prennent. Обратите внимание: в форме ils/elles появляется двойное «n». Глагол prendre также входит в состав устойчивых выражений: prendre le petit-déjeuner (завтракать), prendre le déjeuner (обедать), prendre le dîner (ужинать). В отрицании используется стандартная конструкция ne… pas: Je ne prends pas de café. В вопросительной форме: Est-ce que tu prends du poisson ?",
+   "tableau": [
+    [
+     "Pronom",
+     "Forme",
+     "Exemple"
+    ],
+    [
+     "je",
+     "prends",
+     "Je prends une salade."
+    ],
+    [
+     "tu",
+     "prends",
+     "Tu prends du jus ?"
+    ],
+    [
+     "il / elle / on",
+     "prend",
+     "Elle prend un café."
+    ],
+    [
+     "nous",
+     "prenons",
+     "Nous prenons le déjeuner."
+    ],
+    [
+     "vous",
+     "prenez",
+     "Vous prenez du poisson ?"
+    ],
+    [
+     "ils / elles",
+     "prennent",
+     "Ils prennent le dîner ensemble."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Je prends un plateau et une fourchette.",
+     "natif": "Я беру поднос и вилку."
+    },
+    {
+     "cible": "Est-ce que tu prends du dessert ?",
+     "natif": "Ты берёшь десерт?"
+    },
+    {
+     "cible": "Nous ne prenons pas de viande le lundi.",
+     "natif": "Мы не едим мясо по понедельникам."
+    },
+    {
+     "cible": "Elles prennent toujours un jus d'orange.",
+     "natif": "Они всегда берут апельсиновый сок."
+    }
+   ]
+  },
+  {
+   "titre": "Частичные артикли в отрицании и наречия количества (beaucoup, peu, trop)",
+   "explication": "Вы уже знаете частичные артикли du, de la, de l', des (урок 4–5). Важное правило: в отрицательной форме после ne… pas частичный и неопределённый артикль заменяется на de (или d' перед гласной): Je mange du pain → Je ne mange pas de pain. Je prends une salade → Je ne prends pas de salade. Исключение: с глаголом être артикль сохраняется: Ce n'est pas du pain. Наречия количества beaucoup, peu, trop всегда требуют после себя de (не du, не de la!): Je mange beaucoup de légumes (не ~~beaucoup des légumes~~). Peu используется для обозначения малого количества: Je bois peu de café. Trop означает «слишком много» и может выражать недовольство: C'est trop de sucre ! Порядок: подлежащее + глагол + наречие + de + существительное.",
+   "tableau": [
+    [
+     "Affirmation",
+     "Négation / Quantité",
+     "Règle"
+    ],
+    [
+     "Je mange du pain.",
+     "Je ne mange pas de pain.",
+     "ne… pas + de"
+    ],
+    [
+     "Elle prend de la sauce.",
+     "Elle ne prend pas de sauce.",
+     "ne… pas + de"
+    ],
+    [
+     "Il prend des haricots.",
+     "Il ne prend pas de haricots.",
+     "ne… pas + de"
+    ],
+    [
+     "—",
+     "Je mange beaucoup de légumes.",
+     "beaucoup + de"
+    ],
+    [
+     "—",
+     "Je bois peu de thé.",
+     "peu + de"
+    ],
+    [
+     "—",
+     "C'est trop de sucre !",
+     "trop + de"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Je ne prends pas de café le soir.",
+     "natif": "Я не пью кофе вечером."
+    },
+    {
+     "cible": "Elle mange beaucoup de fruits.",
+     "natif": "Она ест много фруктов."
+    },
+    {
+     "cible": "Il boit peu d'eau au déjeuner.",
+     "natif": "Он пьёт мало воды за обедом."
+    },
+    {
+     "cible": "Tu prends trop de pain !",
+     "natif": "Ты берёшь слишком много хлеба!"
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Звук [y] (французское «u») в отличие от [u] (русское «у»): du, tu, tout",
+  "explication": "Во французском языке звук [y] не имеет аналога в русском языке. Губы округлены и вытянуты вперёд, как для произнесения русского «у», но язык при этом находится в положении для «и» (кончик языка упирается в нижние зубы, средняя часть языка поднята к нёбу). Сравните: tu [ty] (ты) и tout [tu] (всё) — в слове tout звук [u] похож на русское «у», а в слове tu губы напряжены сильнее, звук более «сжатый». Слова du [dy], jus [ʒy], poulet [pulɛ] помогут вам почувствовать разницу. Совет: произнесите русское «и», не двигая языком, и округлите губы — получится французское [y]. Тренируйтесь перед зеркалом: губы трубочкой, язык как для «и».",
+  "exemples": [
+   "tu [ty] — ты",
+   "du [dy] — немного (артикль)",
+   "le jus [lə ʒy] — сок",
+   "tout [tu] — всё",
+   "la sauce [la sos] — соус",
+   "le poulet [lə pulɛ] — курица",
+   "la rue [la ʁy] — улица",
+   "le loup [lə lu] — волк"
+  ]
+ },
+ "culture": {
+  "titre": "Обед во Франции и студенческая столовая (RU)",
+  "texte": "Французский обед — это ритуал. Классический приём пищи включает закуску (entrée), основное блюдо (plat), сыр (fromage) и десерт (dessert). В студенческой столовой (Restaurant universitaire, или сокращённо RU) обед стоит символическую сумму — около 3,30 евро для студентов. Меню обычно фиксированное: вы берёте поднос и проходите вдоль стойки самообслуживания. Хлеб и вода — бесплатные и стоят на столах. Студенты обедают между 12:00 и 14:00, и это время общения: за столом обсуждают учёбу, планы, новости. В отличие от российских столовых, во французском RU часто подают салаты, сыр и иногда даже рыбу. Фраза «Bon appétit!» обязательна перед началом еды."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Выберите правильную форму глагола prendre.",
+   "items": [
+    {
+     "question": "Je ___ une salade verte.",
+     "choix": [
+      "prends",
+      "prend",
+      "prenons"
+     ],
+     "reponse": "prends"
+    },
+    {
+     "question": "Nous ___ le déjeuner à midi.",
+     "choix": [
+      "prennent",
+      "prenons",
+      "prenez"
+     ],
+     "reponse": "prenons"
+    },
+    {
+     "question": "Elles ___ du jus d'orange.",
+     "choix": [
+      "prend",
+      "prends",
+      "prennent"
+     ],
+     "reponse": "prennent"
+    },
+    {
+     "question": "Vous ___ du poisson le vendredi ?",
+     "choix": [
+      "prenez",
+      "prenons",
+      "prend"
+     ],
+     "reponse": "prenez"
+    },
+    {
+     "question": "Tu ___ un café le matin ?",
+     "choix": [
+      "prend",
+      "prends",
+      "prenons"
+     ],
+     "reponse": "prends"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Заполните пропуски правильной формой: de, du, de la, des или d'.",
+   "items": [
+    {
+     "question": "Je ne mange pas ___ pain le soir.",
+     "reponse": "de"
+    },
+    {
+     "question": "Elle boit beaucoup ___ thé.",
+     "reponse": "de"
+    },
+    {
+     "question": "Il ne prend pas ___ sauce.",
+     "reponse": "de"
+    },
+    {
+     "question": "Tu manges peu ___ légumes ?",
+     "reponse": "de"
+    },
+    {
+     "question": "Nous ne prenons pas ___ eau, nous prenons ___ jus.",
+     "reponse": "d' ; du"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Соотнесите слово с его переводом.",
+   "items": [
+    {
+     "question": "le plateau",
+     "reponse": "поднос"
+    },
+    {
+     "question": "la fourchette",
+     "reponse": "вилка"
+    },
+    {
+     "question": "le plat du jour",
+     "reponse": "блюдо дня"
+    },
+    {
+     "question": "la faim",
+     "reponse": "голод"
+    },
+    {
+     "question": "le fromage",
+     "reponse": "сыр"
+    },
+    {
+     "question": "le petit-déjeuner",
+     "reponse": "завтрак"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Расставьте слова в правильном порядке, чтобы получить предложение.",
+   "items": [
+    {
+     "question": "beaucoup / de / Je / légumes / mange",
+     "reponse": "Je mange beaucoup de légumes."
+    },
+    {
+     "question": "pas / ne / de / Elle / prend / dessert",
+     "reponse": "Elle ne prend pas de dessert."
+    },
+    {
+     "question": "trop / C'est / sucre / de / !",
+     "reponse": "C'est trop de sucre !"
+    },
+    {
+     "question": "peu / bois / Je / de / thé",
+     "reponse": "Je bois peu de thé."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Переведите предложения на французский язык.",
+   "items": [
+    {
+     "question": "Я беру курицу с зелёной фасолью.",
+     "reponse": "Je prends du poulet avec des haricots verts."
+    },
+    {
+     "question": "Она не ест хлеб за обедом.",
+     "reponse": "Elle ne mange pas de pain au déjeuner."
+    },
+    {
+     "question": "Ты берёшь воду или сок?",
+     "reponse": "Tu prends de l'eau ou du jus ?"
+    },
+    {
+     "question": "Мы обедаем в столовой каждый день.",
+     "reponse": "Nous prenons le déjeuner à la cantine tous les jours."
+    },
+    {
+     "question": "Он пьёт слишком много кофе.",
+     "reponse": "Il boit trop de café."
+    }
+   ]
+  },
+  {
+   "type": "oral",
+   "consigne": "Ответьте вслух на вопросы, используя глагол prendre и наречия beaucoup / peu / trop.",
+   "items": [
+    {
+     "question": "Qu'est-ce que vous prenez au petit-déjeuner ?",
+     "reponse": "(Réponse libre) Exemple : Je prends du café et du pain."
+    },
+    {
+     "question": "Vous mangez beaucoup de légumes ?",
+     "reponse": "(Réponse libre) Exemple : Oui, je mange beaucoup de légumes. / Non, je mange peu de légumes."
+    },
+    {
+     "question": "Qu'est-ce que vous ne prenez pas au déjeuner ?",
+     "reponse": "(Réponse libre) Exemple : Je ne prends pas de dessert au déjeuner."
+    },
+    {
+     "question": "Vous avez faim maintenant ? Qu'est-ce que vous voulez prendre ?",
+     "reponse": "(Réponse libre) Exemple : Oui, j'ai faim. Je veux prendre une salade et du poulet."
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Добро пожаловать на девятый урок курса «Французский для русскоязычных»! Сегодня мы идём в студенческую столовую — по-французски «le restaurant universitaire», или просто «le RU». Анна обедает с Лукасом и Софи.",
+   "ecran": "Камера плавно приближается к зданию столовой через большие стеклянные двери. Видны подносы, студенты в очереди. Появляется заголовок: «Leçon 9 — À la cantine».",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Цели урока: научиться выбирать блюдо, говорить о голоде и жажде, использовать глагол prendre, отрицание с частичными артиклями и наречия количества. Начнём с диалога!",
+   "ecran": "Появляются три цели урока в виде иконок: тарелка с вилкой, стакан воды, список глаголов. Затем камера переходит к трём персонажам у входа в столовую.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oh là là, j'ai très faim ! Je n'ai pas pris de petit-déjeuner ce matin.",
+   "ecran": "Анна входит в столовую, держась за живот. Камера крупным планом показывает её голодное выражение лица.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v04",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Обратите внимание: Анна говорит «j'ai faim» — я голодна. По-французски голод выражается через глагол avoir: avoir faim, avoir soif. А «prendre le petit-déjeuner» значит «завтракать».",
+   "ecran": "На экране всплывает плашка: «avoir faim / avoir soif» и «prendre le petit-déjeuner = завтракать». Анна берёт поднос.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v05",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Moi aussi, j'ai faim ! Allez, on prend un plateau et on fait la queue. Tu veux quoi comme entrée ?",
+   "ecran": "Софи берёт два красных подноса, один протягивает Анне. Камера показывает очередь у раздачи.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Je ne sais pas… Je ne mange pas beaucoup de crudités d'habitude. Qu'est-ce que tu prends, toi ?",
+   "ecran": "Анна стоит перед витриной с салатами, нерешительно наклоняет голову. Софи улыбается.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "Moi, je prends toujours une salade verte. Et après, je prends un plat chaud. Aujourd'hui, il y a du poulet avec des haricots verts.",
+   "ecran": "Лукас двигает поднос по рельсам, указывает на витрину с горячим. На витрине видна курица и фасоль.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Mmm, ça a l'air bon. Je prends le poulet aussi. Mais je ne mange pas trop de pain, sinon j'ai sommeil après.",
+   "ecran": "Анна кладёт курицу на тарелку, затем отодвигает корзинку с хлебом. Крупный план: поднос с едой.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "dame_cantine",
+   "langue": "fr",
+   "texte": "Vous voulez de la sauce avec le poulet, mademoiselle ?",
+   "ecran": "Надин, женщина в белом халате, держит половник над миской с соусом. Она наклоняется к Анне.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, s'il vous plaît. Un peu de sauce, merci beaucoup !",
+   "ecran": "Анна кивает, делает жест «чуть-чуть» пальцами. Надин льёт немного соуса.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Et à boire ? Tu prends de l'eau ou du jus ?",
+   "ecran": "Софи держит графин воды в одной руке и бутылку сока в другой, смотрит на Анну.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Je prends de l'eau, merci. En Russie, je bois beaucoup de thé, mais ici, je bois peu de thé au déjeuner.",
+   "ecran": "Анна наполняет стакан водой из графина. Всплывает мини-анимация: чашка чая с русским флагом → стакан воды с французским.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "C'est drôle ! Moi, je ne bois jamais de thé. Je prends un café le matin et de l'eau le midi. Tu manges souvent au RU ?",
+   "ecran": "Лукас садится напротив Анны, ставит приборы на стол. Камера показывает общий план стола.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Non, c'est la première fois ! En Russie, je mange à la cantine de l'université tous les jours, mais les plats sont différents.",
+   "ecran": "Анна разводит руками, затем начинает резать курицу. На заднем плане — другие студенты за столами.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Tu vas adorer ! Ici, on a le choix : entrée, plat, fromage et dessert. Bon appétit, Anna !",
+   "ecran": "Софи поднимает стакан, как будто чокается. Появляется схема: entrée → plat → fromage → dessert.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Bon appétit ! Mmm… c'est délicieux. Je n'ai pas souvent l'occasion de manger aussi bien.",
+   "ecran": "Анна пробует курицу, закрывает глаза от удовольствия. Крупный план улыбки.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "Demain, on mange ensemble encore ? Il y a du poisson le vendredi, c'est très bon.",
+   "ecran": "Лукас указывает вилкой на Анну, поднимает бровь. Всплывает иконка рыбы и слово «vendredi».",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Avec plaisir ! Je prends le poisson. J'adore ça !",
+   "ecran": "Анна стучит приборами по столу, широко улыбается. Экран затемняется.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отлично! Диалог завершён. Теперь давайте повторим ключевые слова. Повторяйте за диктором вслух.",
+   "ecran": "Появляется список слов с транскрипцией. Первое слово подсвечивается: «la cantine [la kɑ̃tin]».",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "La cantine. Le repas. Le plat. L'entrée. Le dessert. Le poulet. Le pain. La fourchette. Le couteau. Le plateau.",
+   "ecran": "Слова появляются по одному с картинкой-иконкой. Каждое слово подсвечивается в момент произнесения.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "La faim. La soif. La saveur. Le jus. Prendre. Le fromage. Les haricots verts. Le petit-déjeuner.",
+   "ecran": "Продолжение списка слов с иконками. В конце появляется анимация: все слова в облаках вокруг тарелки.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь перейдём к грамматике. Первое: глагол prendre. Это неправильный глагол третьей группы. Он означает «брать», «заказывать». Запомните формы: je prends, tu prends, il prend, nous prenons, vous prenez, ils prennent.",
+   "ecran": "На экране появляется таблица спряжения глагола prendre. Каждая строка подсвечивается по очереди. Справа — анимация: рука берёт тарелку с прилавка.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Обратите внимание: в форме «ils prennent» появляется двойная «n». Глагол prendre используется для всех приёмов пищи: prendre le petit-déjeuner, prendre le déjeuner, prendre le dîner.",
+   "ecran": "Крупный план формы «ils prennent» с выделенными двумя «n». Ниже — три иконки: чашка кофе (утро), тарелка (день), луна (вечер).",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Второе важное правило: частичные артикли в отрицании. Вы помните: du, de la, des. Но после «ne… pas» они превращаются в «de». Пример: Je mange du pain → Je ne mange pas de pain. После «beaucoup», «peu», «trop» тоже всегда «de»: beaucoup de légumes, peu de thé, trop de sucre.",
+   "ecran": "Анимация: артикль «du» перечёркивается и заменяется на «de» внутри конструкции «ne…pas». Затем появляется формула: beaucoup/peu/trop + de + nom.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь перейдём к произношению. Сегодня мы учимся различать французский звук [y] и русский [u]. Для звука [y] округлите губы, как для «у», но язык держите как для «и». Попробуйте: tu — [ty], du — [dy], jus — [ʒy]. А в слове «tout» — [tu] — звук ближе к русскому «у».",
+   "ecran": "3D-модель речевого аппарата в разрезе: губы трубочкой, язык в позиции «и». Рядом два слова: «tu [ty]» и «tout [tu]» с разными цветами.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Немного культуры. Французский обед — это ритуал: закуска, горячее, сыр и десерт. В студенческой столовой, или «RU», обед стоит около трёх евро тридцать. Хлеб и вода бесплатны. Перед едой обязательно говорят «Bon appétit !».",
+   "ecran": "Анимация: поднос движется по конвейеру, на него поочерёдно ставятся тарелки: entrée, plat, fromage, dessert. В углу — ценник «3,30 €».",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Переходим к упражнениям. Первое задание: тест с выбором ответа. Выберите правильную форму глагола prendre. Нажмите на вариант, который считаете верным.",
+   "ecran": "Появляется первый вопрос теста: «Je ___ une salade verte.» Три кнопки-варианта. Таймер не установлен.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Второе задание: заполните пропуски. Впишите нужную форму: de, du, de la, des или d'. Напишите ответ в поле.",
+   "ecran": "Появляются предложения с пропусками. Курсор мигает в первом поле ввода.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Третье задание: соедините слова с переводами. Перетащите элемент из левого столбца к соответствующему переводу справа.",
+   "ecran": "Два столбца: слева французские слова, справа русские переводы в перемешанном порядке. Линии соединения анимируются при правильном ответе.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Четвёртое задание: расставьте слова в правильном порядке. Перетащите слова, чтобы получилось предложение.",
+   "ecran": "Слова в виде карточек-пазлов разбросаны в случайном порядке. Пустая строка внизу для сборки.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Пятое задание: перевод. Переведите предложения с русского на французский. Напишите ответ в текстовом поле.",
+   "ecran": "Русское предложение сверху, пустое текстовое поле ниже. Кнопка «Проверить» справа.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Шестое задание: устное. Ответьте на вопросы вслух. Используйте глагол prendre и наречия количества. Нажмите на микрофон и говорите.",
+   "ecran": "Иконка микрофона пульсирует. Вопрос отображается текстом и воспроизводится голосом. Появляется индикатор записи.",
+   "interaction": "parler"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отличная работа! Давайте подведём итоги. Сегодня вы научились заказывать еду с помощью глагола prendre, использовать отрицание с артиклями и наречия количества, а также узнали, как устроен обед в студенческой столовой во Франции.",
+   "ecran": "Появляется итоговая карточка: три галочки — глагол prendre ✓, отрицание de ✓, наречия beaucoup/peu/trop ✓. Анна, Лукас и Софи машут рукой.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Не забудьте повторять слова каждый день. В следующем уроке мы пойдём на рынок и будем покупать продукты. До встречи! И помните: Bon appétit !",
+   "ecran": "Камера отъезжает от столовой. Три персонажа уходят по аллее кампуса. Появляется надпись «Leçon 10 — Au marché». Экран затемняется.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Je prends un plateau et une fourchette.",
+   "natif": "Я беру поднос и вилку."
+  },
+  {
+   "cible": "Je ne mange pas de pain le soir.",
+   "natif": "Я не ем хлеб вечером."
+  },
+  {
+   "cible": "Elle boit beaucoup de thé, mais peu de café.",
+   "natif": "Она пьёт много чая, но мало кофе."
+  },
+  {
+   "cible": "Tu prends du poulet avec des haricots verts ?",
+   "natif": "Ты берёшь курицу с зелёной фасолью?"
+  },
+  {
+   "cible": "C'est trop de sucre ! Je ne prends pas de dessert.",
+   "natif": "Это слишком много сахара! Я не беру десерт."
+  },
+  {
+   "cible": "Bon appétit ! On mange ensemble au RU demain ?",
+   "natif": "Приятного аппетита! Мы обедаем вместе в столовой завтра?"
+  }
+ ],
+ "controle": []
+}

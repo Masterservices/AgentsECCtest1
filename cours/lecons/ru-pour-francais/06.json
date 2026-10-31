@@ -1,0 +1,919 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 6,
+ "niveau": "A1",
+ "id": "ru-pour-francais-A1-06",
+ "titre": {
+  "cible": "Что ты де́лаешь? Вини́тельный паде́ж",
+  "natif": "Que fais-tu ? L'accusatif"
+ },
+ "objectifs": [
+  "Exprimer une action sur un objet direct : Я читаю книгу, Я пью чай.",
+  "Décrire ses activités quotidiennes au présent (lire, écrire, boire, manger, regarder, écouter, faire, ranger).",
+  "Demander et dire ce que quelqu'un fait : Что ты делаешь?",
+  "Former l'accusatif des noms inanimés (masculin, neutre, féminin) et des adjectifs accordés.",
+  "Conjuguer les verbes de la 1re conjugaison (-ать, -ять) et de la 2e conjugaison (-ить, -еть) au présent."
+ ],
+ "scene": {
+  "lieu": "Chambre de Thomas chez Nina Ivanovna, Moscou",
+  "moment": "Soir, vers 20 h. Lumière chaude d'une lampe de bureau ; dehors, nuit moscovite.",
+  "decor_3d": "Petite chambre soviétique rénovée : papier peint à fleurs, lit étroit avec couverture en laine, bureau en bois sous la fenêtre, étagère avec livres et magazines. Un ordinateur portable ouvert sur le bureau, une tasse de thé fumante, des feuilles éparpillées. Porte en bois à droite. Au mur, une carte de la France et une photo de Paris. Lumière tamisée, ambiance chaleureuse.",
+  "objets": [
+   "ordinateur portable ouvert avec e-mail affiché",
+   "tasse de thé en porcelaine avec soucoupe",
+   "livre ouvert sur le bureau",
+   "pile de magazines et journaux",
+   "étagère en bois avec livres",
+   "plateau avec théière et deux tasses",
+   "lit avec couverture en laine",
+   "fenêtre montrant la nuit moscovite",
+   "carte de la France au mur",
+   "lampe de bureau articulée"
+  ],
+  "personnages": [
+   "thomas",
+   "nina"
+  ],
+  "figurants": []
+ },
+ "dialogue": [
+  {
+   "perso": "thomas",
+   "texte": "Ма́ма, приве́т! Я пишу́ письмо́. Я в Москве́, в ко́мнате.",
+   "traduction": "Maman, salut ! J'écris une lettre. Je suis à Moscou, dans ma chambre.",
+   "geste": "Thomas est assis au bureau, tape sur le clavier de l'ordinateur portable, sourit à l'écran."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Я чита́ю кни́гу, слуша́ю му́зыку и пью́ чай.",
+   "traduction": "Je lis un livre, j'écoute de la musique et je bois du thé.",
+   "geste": "Thomas montre du doigt le livre ouvert, puis ses écouteurs, puis la tasse de thé."
+  },
+  {
+   "perso": "nina",
+   "texte": "То́ма! Ты пи́шешь письмо́?",
+   "traduction": "Toma ! Tu écris une lettre ?",
+   "geste": "Nina entre par la porte à droite, un plateau avec une théière à la main, regard curieux."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Да, Ни́на Ива́новна! Я пишу́ письмо́. Ма́ма в Пари́же.",
+   "traduction": "Oui, Nina Ivanovna ! J'écris une lettre. Maman est à Paris.",
+   "geste": "Thomas se retourne sur sa chaise, sourit à Nina, pointe la carte de la France au mur."
+  },
+  {
+   "perso": "nina",
+   "texte": "Молоде́ц! Я ста́влю чай на стол. Ты пьёшь чай?",
+   "traduction": "Bravo ! Je pose le thé sur la table. Tu bois du thé ?",
+   "geste": "Nina pose délicatement le plateau sur le bureau, verse le thé dans une tasse."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Да, спасибо́! Я пью́ чай.",
+   "traduction": "Oui, merci ! Je bois du thé.",
+   "geste": "Thomas prend la tasse, souffle sur le thé, boit une gorgée."
+  },
+  {
+   "perso": "nina",
+   "texte": "А что ты де́лаешь ве́чером?",
+   "traduction": "Et que fais-tu le soir ?",
+   "geste": "Nina s'assoit sur le bord du lit, croise les mains, regarde Thomas avec intérêt."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Я чита́ю кни́гу, смотрю́ фи́льм и убира́ю ко́мнату.",
+   "traduction": "Je lis un livre, je regarde un film et je range la chambre.",
+   "geste": "Thomas compte sur ses doigts : un, deux, trois, en mimant chaque action."
+  },
+  {
+   "perso": "nina",
+   "texte": "Ты убира́ешь ко́мнату? Хорошо́! А я гото́влю у́жин.",
+   "traduction": "Tu ranges la chambre ? Bien ! Et moi, je prépare le dîner.",
+   "geste": "Nina hoche la tête avec approbation, fait un geste vers la cuisine hors champ."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Я ста́влю кни́ги на стол и убира́ю газе́ты.",
+   "traduction": "Je pose les livres sur la table et je range les journaux.",
+   "geste": "Thomas se lève, prend une pile de magazines, les empile sur l'étagère."
+  },
+  {
+   "perso": "nina",
+   "texte": "Ты ешь суп ве́чером?",
+   "traduction": "Tu manges de la soupe le soir ?",
+   "geste": "Nina se dirige vers la porte, se retourne, lève un doigt interrogateur."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Да! Я ем суп. Спа́сибо, Ни́на Ива́новна!",
+   "traduction": "Oui ! Je mange de la soupe. Merci, Nina Ivanovna !",
+   "geste": "Thomas sourit largement, fait un petit signe de la main à Nina qui sort."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "чита́ть",
+   "prononciation": "chiTAT'",
+   "nature": "verbe (1re conjugaison)",
+   "traduction": "lire",
+   "exemple": "Я чита́ю кни́гу.",
+   "exemple_traduction": "Je lis un livre."
+  },
+  {
+   "mot": "писа́ть",
+   "prononciation": "piSAT'",
+   "nature": "verbe (1re conjugaison)",
+   "traduction": "écrire",
+   "exemple": "Я пишу́ письмо́.",
+   "exemple_traduction": "J'écris une lettre."
+  },
+  {
+   "mot": "пить",
+   "prononciation": "PIT'",
+   "nature": "verbe (1re conjugaison)",
+   "traduction": "boire",
+   "exemple": "Я пью́ чай.",
+   "exemple_traduction": "Je bois du thé."
+  },
+  {
+   "mot": "есть",
+   "prononciation": "YEST'",
+   "nature": "verbe (1re conjugaison, irrégulier)",
+   "traduction": "manger",
+   "exemple": "Я ем суп.",
+   "exemple_traduction": "Je mange de la soupe."
+  },
+  {
+   "mot": "смотре́ть",
+   "prononciation": "smatRET'",
+   "nature": "verbe (2e conjugaison)",
+   "traduction": "regarder",
+   "exemple": "Я смотрю́ фи́льм.",
+   "exemple_traduction": "Je regarde un film."
+  },
+  {
+   "mot": "слу́шать",
+   "prononciation": "SLUshat'",
+   "nature": "verbe (1re conjugaison)",
+   "traduction": "écouter",
+   "exemple": "Я слуша́ю му́зыку.",
+   "exemple_traduction": "J'écoute de la musique."
+  },
+  {
+   "mot": "де́лать",
+   "prononciation": "DElat'",
+   "nature": "verbe (1re conjugaison)",
+   "traduction": "faire",
+   "exemple": "Что ты де́лаешь?",
+   "exemple_traduction": "Que fais-tu ?"
+  },
+  {
+   "mot": "убира́ть",
+   "prononciation": "ubiRAT'",
+   "nature": "verbe (1re conjugaison)",
+   "traduction": "ranger, nettoyer",
+   "exemple": "Я убира́ю ко́мнату.",
+   "exemple_traduction": "Je range la chambre."
+  },
+  {
+   "mot": "гото́вить",
+   "prononciation": "gaTOvit'",
+   "nature": "verbe (2e conjugaison)",
+   "traduction": "préparer, cuisiner",
+   "exemple": "Я гото́влю у́жин.",
+   "exemple_traduction": "Je prépare le dîner."
+  },
+  {
+   "mot": "письмо́",
+   "prononciation": "pis'MO",
+   "nature": "nom n.",
+   "traduction": "lettre (courrier)",
+   "exemple": "Я пишу́ письмо́.",
+   "exemple_traduction": "J'écris une lettre."
+  },
+  {
+   "mot": "кни́га",
+   "prononciation": "KNIga",
+   "nature": "nom f.",
+   "traduction": "livre",
+   "exemple": "Я чита́ю кни́гу.",
+   "exemple_traduction": "Je lis un livre."
+  },
+  {
+   "mot": "му́зыка",
+   "prononciation": "MUzyka",
+   "nature": "nom f.",
+   "traduction": "musique",
+   "exemple": "Я слуша́ю му́зыку.",
+   "exemple_traduction": "J'écoute de la musique."
+  },
+  {
+   "mot": "ко́мната",
+   "prononciation": "KOMnata",
+   "nature": "nom f.",
+   "traduction": "chambre, pièce",
+   "exemple": "Я убира́ю ко́мнату.",
+   "exemple_traduction": "Je range la chambre."
+  },
+  {
+   "mot": "газе́та",
+   "prononciation": "gaZEta",
+   "nature": "nom f.",
+   "traduction": "journal",
+   "exemple": "Я убира́ю газе́ты.",
+   "exemple_traduction": "Je range les journaux."
+  },
+  {
+   "mot": "журна́л",
+   "prononciation": "zhurNAL",
+   "nature": "nom m.",
+   "traduction": "magazine, revue",
+   "exemple": "Я чита́ю журна́л.",
+   "exemple_traduction": "Je lis un magazine."
+  },
+  {
+   "mot": "у́жин",
+   "prononciation": "Uzhin",
+   "nature": "nom m.",
+   "traduction": "dîner, souper",
+   "exemple": "Я гото́влю у́жин.",
+   "exemple_traduction": "Je prépare le dîner."
+  },
+  {
+   "mot": "чай",
+   "prononciation": "CHAY",
+   "nature": "nom m.",
+   "traduction": "thé",
+   "exemple": "Я пью́ чай.",
+   "exemple_traduction": "Je bois du thé."
+  },
+  {
+   "mot": "стол",
+   "prononciation": "STOL",
+   "nature": "nom m.",
+   "traduction": "table",
+   "exemple": "Я ста́влю чай на стол.",
+   "exemple_traduction": "Je pose le thé sur la table."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "L'accusatif des noms inanimés (complément d'objet direct)",
+   "explication": "En russe, le complément d'objet direct se met à l'accusatif (винительный падеж). Pour les noms inanimés, la règle est simple : les noms masculins et neutres gardent la forme du nominatif (on ne change rien !). Les noms féminins en -а remplacent -а par -у, et les noms féminins en -я remplacent -я par -ю. L'adjectif s'accorde : masculin/neutre en -ый/-ий/-ое restent identiques au nominatif ; le féminin -ая devient -ую. Comparez avec le français : « Je lis le livre » → le COD « le livre » ne change pas de forme ; en russe non plus pour le masculin/neutre. Mais « Je lis la chambre » → ко́мната devient ко́мнату, comme « la table » → « la table » en français ne change pas, mais en russe le féminin marque l'accusatif. C'est la seule vraie différence à retenir : féminin -а/-я → -у/-ю.",
+   "tableau": [
+    [
+     "Genre",
+     "Nominatif",
+     "Accusatif (inanimé)",
+     "Exemple"
+    ],
+    [
+     "Masculin",
+     "стол, журна́л",
+     "стол, журна́л (= nom.)",
+     "Я чита́ю журна́л."
+    ],
+    [
+     "Neutre",
+     "письмо́, окно́",
+     "письмо́, окно́ (= nom.)",
+     "Я пишу́ письмо́."
+    ],
+    [
+     "Féminin en -а",
+     "кни́га, ко́мната",
+     "кни́гу, ко́мнату",
+     "Я чита́ю кни́гу."
+    ],
+    [
+     "Féminin en -я",
+     "му́зыка",
+     "му́зыку",
+     "Я слуша́ю му́зыку."
+    ],
+    [
+     "Adj. fém. -ая",
+     "но́вая",
+     "но́вую",
+     "Я чита́ю но́вую кни́гу."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Я чита́ю кни́гу.",
+     "natif": "Je lis un livre. (кни́га → кни́гу : fém. -а → -у)"
+    },
+    {
+     "cible": "Я пишу́ письмо́.",
+     "natif": "J'écris une lettre. (письмо́ : neutre, pas de changement)"
+    },
+    {
+     "cible": "Я слуша́ю му́зыку.",
+     "natif": "J'écoute de la musique. (му́зыка → му́зыку : fém. -а → -у)"
+    },
+    {
+     "cible": "Я смотрю́ но́вый фи́льм.",
+     "natif": "Je regarde un nouveau film. (мasc. : pas de changement)"
+    }
+   ]
+  },
+  {
+   "titre": "Le présent : 1re conjugaison (-ать, -ять) et 2e conjugaison (-ить, -еть)",
+   "explication": "Le présent russe se forme en ajoutant des terminaisons au radical du verbe. La 1re conjugaison regroupe la plupart des verbes en -ать et -ять : terminaisons -у/-ю, -ешь, -ет, -ем, -ете, -ют. La 2e conjugaison regroupe les verbes en -ить et quelques verbes en -еть : terminaisons -у/-ю, -ишь, -ит, -им, -ите, -ят. Attention aux irréguliers : писа́ть → я пишу́ (alternance с/ш), есть → я ем, ты ешь. Pour demander « Que fais-tu ? », on dit Что ты де́лаешь? (де́лать, 1re conj.). La personne est indiquée par la terminaison : le pronom я, ты… est donc souvent omis, mais on le garde pour l'insistance ou la clarté, surtout en A1.",
+   "tableau": [
+    [
+     "Personne",
+     "1re conj. (чита́ть)",
+     "2e conj. (смотре́ть)",
+     "писа́ть (irrég.)"
+    ],
+    [
+     "я",
+     "чита́ю",
+     "смотрю́",
+     "пишу́"
+    ],
+    [
+     "ты",
+     "чита́ешь",
+     "смо́тришь",
+     "пи́шешь"
+    ],
+    [
+     "он/она́",
+     "чита́ет",
+     "смо́трит",
+     "пи́шет"
+    ],
+    [
+     "мы",
+     "чита́ем",
+     "смо́трим",
+     "пи́шем"
+    ],
+    [
+     "вы",
+     "чита́ете",
+     "смо́трите",
+     "пи́шете"
+    ],
+    [
+     "они́",
+     "чита́ют",
+     "смо́трят",
+     "пи́шут"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Что ты де́лаешь? — Я чита́ю кни́гу.",
+     "natif": "Que fais-tu ? — Je lis un livre."
+    },
+    {
+     "cible": "Я смотрю́ фи́льм ве́чером.",
+     "natif": "Je regarde un film le soir."
+    },
+    {
+     "cible": "Ни́на Ива́новна гото́вит у́жин.",
+     "natif": "Nina Ivanovna prépare le dîner."
+    },
+    {
+     "cible": "Ты пьёшь чай?",
+     "natif": "Tu bois du thé ?"
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Consonnes dures et molles. Le signe mou Ь.",
+  "explication": "En russe, chaque consonne existe en deux versions : dure (comme en français) et molle (palatalisée). Le signe mou Ь après une consonne indique qu'elle est molle : la langue monte vers le palais, produisant un son « mouillé ». Paires à retenir : т/ть, д/дь, н/нь, л/ль. Le son mouillé ressemble au « gn » français dans « oignon » ou au « ni » dans « union » : ть ≈ « ti » mouillé, нь ≈ « ni » mouillé, ль ≈ « li » mouillé. Dans notre vocabulaire : писа́ть se termine par -ть (t mouillé), чита́ть aussi. Comparez : мат (tapis, t dur) vs. мать (mère, t mouillé avec Ь). Écoutez la différence : le son final de мать est plus doux, presque « tié ».",
+  "exemples": [
+   "мат [mat] → мать [mat'] — le Ь adoucit le т final",
+   "нос [nos] (nez) → нёс [n'os] (a porté) — le н devient mou",
+   "писа́ть [piSAT'] — le т final est mou grâce au Ь",
+   "чита́ть [chiTAT'] — même phénomène",
+   "стол [STOL] (dur) vs. соль [SOL'] (sel, л mou)"
+  ]
+ },
+ "culture": {
+  "titre": "Écrire à sa famille : décalage horaire, appels vidéo et thé inattendu",
+  "texte": "Entre Moscou et Paris, il y a deux heures de décalage horaire (MSK = UTC+3). Quand Thomas écrit à sa mère le soir à Moscou, il est encore fin d'après-midi en France. À l'ère des appels vidéo, beaucoup d'étudiants russes ou étrangers privilégient WhatsApp ou Telegram pour garder le contact, mais l'e-mail reste un rituel rassurant : on prend le temps, on raconte sa journée. La nostalgie pointe souvent le soir. En Russie, la réponse à la solitude s'appelle… une tasse de thé. Nina Ivanovna incarne cette tradition : elle apporte du thé sans qu'on le demande, comme une grand-mère qui « sait » que vous en avez besoin. Refuser serait presque impoli ; accepter, c'est entrer dans la famille."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez la forme correcte de l'accusatif pour compléter la phrase.",
+   "items": [
+    {
+     "question": "Я читаю ___ . (книга)",
+     "choix": [
+      "кни́га",
+      "кни́гу",
+      "кни́ги"
+     ],
+     "reponse": "кни́гу"
+    },
+    {
+     "question": "Я пишу ___ . (письмо)",
+     "choix": [
+      "письмо́",
+      "письму́",
+      "письма́"
+     ],
+     "reponse": "письмо́"
+    },
+    {
+     "question": "Я слушаю ___ . (музыка)",
+     "choix": [
+      "му́зыка",
+      "му́зыку",
+      "му́зыки"
+     ],
+     "reponse": "му́зыку"
+    },
+    {
+     "question": "Я смотрю ___ . (журнал)",
+     "choix": [
+      "журна́л",
+      "журна́лу",
+      "журна́ла"
+     ],
+     "reponse": "журна́л"
+    },
+    {
+     "question": "Я убираю ___ . (комната)",
+     "choix": [
+      "ко́мната",
+      "ко́мнату",
+      "ко́мнаты"
+     ],
+     "reponse": "ко́мнату"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez les phrases avec la forme conjuguée correcte du verbe entre parenthèses.",
+   "items": [
+    {
+     "question": "Я ___ письмо́. (писа́ть)",
+     "reponse": "пишу́"
+    },
+    {
+     "question": "Ты ___ кни́гу. (чита́ть)",
+     "reponse": "чита́ешь"
+    },
+    {
+     "question": "Она́ ___ му́зыку. (слу́шать)",
+     "reponse": "слу́шает"
+    },
+    {
+     "question": "Мы ___ фи́льм. (смотре́ть)",
+     "reponse": "смо́трим"
+    },
+    {
+     "question": "Нина Ивановна ___ ужин. (гото́вить)",
+     "reponse": "гото́вит"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez chaque verbe à son complément d'objet direct logique.",
+   "items": [
+    {
+     "question": "чита́ть",
+     "reponse": "кни́гу"
+    },
+    {
+     "question": "пить",
+     "reponse": "чай"
+    },
+    {
+     "question": "писа́ть",
+     "reponse": "письмо́"
+    },
+    {
+     "question": "смотре́ть",
+     "reponse": "фи́льм"
+    },
+    {
+     "question": "слу́шать",
+     "reponse": "му́зыку"
+    },
+    {
+     "question": "гото́вить",
+     "reponse": "у́жин"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez les mots dans l'ordre pour former une phrase correcte.",
+   "items": [
+    {
+     "question": "книгу / Я / читаю",
+     "reponse": "Я чита́ю кни́гу."
+    },
+    {
+     "question": "письмо / пишет / Он",
+     "reponse": "Он пи́шет письмо́."
+    },
+    {
+     "question": "музыку / слушает / Она́",
+     "reponse": "Она́ слу́шает му́зыку."
+    },
+    {
+     "question": "чаем / пьёшь / Ты",
+     "reponse": "Ты пьёшь чай."
+    },
+    {
+     "question": "комнату / убираю / Я",
+     "reponse": "Я убира́ю ко́мнату."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez en russe les phrases suivantes.",
+   "items": [
+    {
+     "question": "Je lis un livre.",
+     "reponse": "Я чита́ю кни́гу."
+    },
+    {
+     "question": "Tu écris une lettre.",
+     "reponse": "Ты пи́шешь письмо́."
+    },
+    {
+     "question": "Elle écoute de la musique.",
+     "reponse": "Она́ слу́шает му́зыку."
+    },
+    {
+     "question": "Nous regardons un film.",
+     "reponse": "Мы смо́трим фи́льм."
+    },
+    {
+     "question": "Il prépare le dîner.",
+     "reponse": "Он гото́вит у́жин."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez la phrase et identifiez le verbe utilisé.",
+   "items": [
+    {
+     "question": "🔊 [Я читаю книгу.]",
+     "choix": [
+      "писа́ть",
+      "чита́ть",
+      "слу́шать"
+     ],
+     "reponse": "чита́ть"
+    },
+    {
+     "question": "🔊 [Она готовит ужин.]",
+     "choix": [
+      "гото́вить",
+      "де́лать",
+      "убира́ть"
+     ],
+     "reponse": "гото́вить"
+    },
+    {
+     "question": "🔊 [Ты пьёшь чай.]",
+     "choix": [
+      "есть",
+      "пить",
+      "смотре́ть"
+     ],
+     "reponse": "пить"
+    },
+    {
+     "question": "🔊 [Мы смотрим фильм.]",
+     "choix": [
+      "смотре́ть",
+      "слу́шать",
+      "писа́ть"
+     ],
+     "reponse": "смотре́ть"
+    },
+    {
+     "question": "🔊 [Я убираю комнату.]",
+     "choix": [
+      "де́лать",
+      "убира́ть",
+      "гото́вить"
+     ],
+     "reponse": "убира́ть"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bienvenue dans la leçon six ! Aujourd'hui, nous allons apprendre à dire ce que nous faisons : Что ты де́лаешь ? Et surtout, nous découvrons l'accusatif, le cas du complément d'objet direct.",
+   "ecran": "Écran titre avec le nom de la leçon en russe et en français, animation d'un livre qui s'ouvre.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "À la fin de cette leçon, vous saurez exprimer une action sur un objet, décrire vos activités quotidiennes et conjuguer les verbes russes au présent. Prêt ? C'est parti !",
+   "ecran": "Liste des objectifs qui apparaissent un par un avec des icônes animées.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Nous sommes le soir, dans la chambre de Thomas chez Nina Ivanovna. Thomas écrit un e-mail à sa mère restée à Paris. Nina va frapper à la porte avec du thé. Écoutez bien le dialogue.",
+   "ecran": "La caméra 3D entre dans la chambre : lumière chaude, Thomas au bureau, nuit dehors par la fenêtre.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Ма́ма, приве́т! Я пишу́ письмо́. Я в Москве́, в ко́мнате.",
+   "ecran": "Thomas tape sur son ordinateur. Gros plan sur l'écran montrant l'e-mail.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Я чита́ю кни́гу, слуша́ю му́зыку и пью́ чай.",
+   "ecran": "Thomas montre le livre, ses écouteurs, puis sa tasse. Les objets s'illuminent un par un.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "То́ма! Ты пи́шешь письмо́?",
+   "ecran": "Nina entre par la droite avec un plateau, sourire bienveillant.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Да, Ни́на Ива́новна! Я пишу́ письмо́. Ма́ма в Пари́же.",
+   "ecran": "Thomas se retourne, pointe la carte de la France au mur.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Молоде́ц! Я ста́влю чай на стол. Ты пьёшь чай?",
+   "ecran": "Nina pose le plateau, verse le thé. La vapeur s'élève en animation.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Да, спасибо́! Я пью́ чай.",
+   "ecran": "Thomas prend la tasse, boit une gorgée, sourit.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "А что ты де́лаешь ве́чером?",
+   "ecran": "Nina s'assoit sur le lit, penche la tête avec curiosité.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Я чита́ю кни́гу, смотрю́ фи́льм и убира́ю ко́мнату.",
+   "ecran": "Thomas compte sur ses doigts. Des pictogrammes (livre, film, balai) apparaissent.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Ты убира́ешь ко́мнату? Хорошо́! А я гото́влю у́жин.",
+   "ecran": "Nina hoche la tête, fait un geste vers la cuisine.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Я ста́влю кни́ги на стол и убира́ю газе́ты.",
+   "ecran": "Thomas se lève, empile des magazines sur l'étagère.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Ты ешь суп ве́чером?",
+   "ecran": "Nina se dirige vers la porte, se retourne.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Да! Я ем суп. Спа́сибо, Ни́на Ива́новна!",
+   "ecran": "Thomas sourit, fait signe de la main. Nina sort en souriant.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Très bien ! Passons maintenant au vocabulaire. Répétez chaque mot après le signal. Les verbes d'action d'abord.",
+   "ecran": "Grille de mots avec icônes. Les verbes s'affichent un par un avec leur image.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "чита́ть… писа́ть… пить… есть… смотре́ть… слу́шать… де́лать… убира́ть… гото́вить…",
+   "ecran": "Chaque verbe apparaît en grand avec sa translittération, puis une animation illustre l'action.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "письмо́… кни́га… му́зыка… ко́мната… газе́та… журна́л… у́жин… чай… стол…",
+   "ecran": "Les objets 3D tournent lentement : lettre, livre, note de musique, pièce, journal, magazine, assiette, tasse, table.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Parfait ! Maintenant, la grammaire. Observez : quand Thomas dit « Я читаю книгу », кни́га est devenu кни́гу. C'est l'accusatif, le cas du complément d'objet direct.",
+   "ecran": "Tableau animé : la phrase s'écrit, puis le mot книгу se colore en rouge avec une flèche depuis книга.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Règle simple : au masculin et au neutre inanimés, l'accusatif est identique au nominatif. Rien ne change ! Au féminin, -а devient -у, et -я devient -ю. Regardez le tableau.",
+   "ecran": "Tableau de l'accusatif qui se remplit ligne par ligne avec animations de flèches.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exemples : Я пишу письмо — письмо ne change pas, c'est neutre. Я читаю книгу — книга perd son -а et gagne -у. Я слушаю музыку — même logique. Et l'adjectif ? Je lis un nouveau livre : Я читаю новую книгу.",
+   "ecran": "Les exemples défilent avec les terminaisons colorées : bleu pour nom., rouge pour acc.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Deuxième point : la conjugaison au présent. Première conjugaison : verbes en -ать, -ять. Terminaisons : -у, -ешь, -ет, -ем, -ете, -ют. Deuxième conjugaison : verbes en -ить, -еть. Terminaisons : -у, -ишь, -ит, -им, -ите, -ят.",
+   "ecran": "Deux colonnes côte à côte, terminaisons qui s'écrivent en animation. Verbe modèle чита́ть à gauche, смотре́ть à droite.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Répétez : Я читаю, ты читаешь, он читает. Я смотрю, ты смотришь, он смотрит. Attention : писа́ть est irrégulier : я пишу, ты пишешь, он пишет. Le с devient ш.",
+   "ecran": "Tableau de conjugaison interactif. Chaque forme s'illumine quand elle est prononcée.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la prononciation. Aujourd'hui : les consonnes dures et molles. Le signe mou Ь après une consonne la rend douce, « mouillée ». Écoutez la différence : мат, tapis, avec un т dur… et мать, mère, avec un т mou. C'est comme le « ni » français dans « union ».",
+   "ecran": "Gros plan sur une bouche 3D qui articule. Ondes sonores comparant [t] dur et [t'] mou.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "мат… мать… нос… нёс… писа́ть… чита́ть…",
+   "ecran": "Les mots apparaissent avec le Ь en surbrillance. La langue 3D montre la position palatale.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Un mot de culture. Entre Moscou et Paris, deux heures de décalage. Thomas écrit à sa mère le soir, elle est encore en fin d'après-midi. Et Nina ? Elle apporte du thé sans qu'on le demande. C'est la tendresse russe : on ne demande pas, on devine. Acceptez toujours ce thé, c'est un lien.",
+   "ecran": "Horloge divisée Moscou/Paris. Puis animation de Nina versant le thé, cœur qui flotte.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "C'est l'heure des exercices ! Exercice un : choisissez la bonne forme de l'accusatif. Lisez la phrase, regardez le nom entre parenthèses, et sélectionnez la réponse correcte.",
+   "ecran": "Interface QCM avec les choix en boutons cliquables.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice deux : complétez avec la forme conjuguée du verbe. Écrivez votre réponse dans le trou.",
+   "ecran": "Phrases à trous avec champ de saisie. Le verbe à conjuguer apparaît entre parenthèses.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice trois : associez chaque verbe à son objet. Reliez la colonne de gauche à la colonne de droite.",
+   "ecran": "Deux colonnes avec lignes à tracer. Animation de connexion quand on associe correctement.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice quatre : remettez les mots dans l'ordre pour former une phrase correcte. Glissez-déposez les mots.",
+   "ecran": "Mots mélangés en bas, zone de phrase en haut. Drag and drop.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice cinq : traduisez du français au russe. Écrivez la phrase complète dans le champ de texte.",
+   "ecran": "Phrase en français affichée, champ de saisie en dessous. Clavier russe virtuel disponible.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice six : écoutez la phrase audio et identifiez le verbe. Cliquez sur la bonne réponse.",
+   "ecran": "Bouton play audio, trois choix de verbes en dessous. Icône oreille animée.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo ! Récapitulons. Aujourd'hui vous avez appris : l'accusatif des noms inanimés, la conjugaison au présent des verbes de la premièreet de la deuxième conjugaison, le vocabulaire des actions quotidiennes, et la différence entre les consonnes dures et molles avec le signe Ь.",
+   "ecran": "Résumé animé : les icônes de l'accusatif, de la conjugaison, du vocabulaire et de la prononciation s'affichent en cercle autour de Thomas qui sourit.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Répétez ces phrases clés pour bien les mémoriser. Что ты де́лаешь ? Я чита́ю кни́гу. Я пью́ чай. Молоде́ц !",
+   "ecran": "Les phrases du résumé défilent une par une au centre de l'écran avec un bouton de répétition audio.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "C'est la fin de la leçon six. Dans la prochaine leçon, nous retrouverons Masha à l'université pour découvrir comment parler de ses goûts. До свида́ния !",
+   "ecran": "Fondu vers le logo Russtudy, puis aperçu de la leçon 7 avec Masha dans un couloir universitaire.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Что ты де́лаешь?",
+   "natif": "Que fais-tu ?"
+  },
+  {
+   "cible": "Я чита́ю кни́гу.",
+   "natif": "Je lis un livre."
+  },
+  {
+   "cible": "Я пью́ чай.",
+   "natif": "Je bois du thé."
+  },
+  {
+   "cible": "Я пишу́ письмо́ ма́ме.",
+   "natif": "J'écris une lettre à maman."
+  },
+  {
+   "cible": "Я убира́ю ко́мнату.",
+   "natif": "Je range la chambre."
+  }
+ ],
+ "controle": []
+}

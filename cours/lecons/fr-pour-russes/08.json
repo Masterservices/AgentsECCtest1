@@ -1,0 +1,963 @@
+{
+ "cours": "fr-pour-russes",
+ "num": 8,
+ "niveau": "A1",
+ "id": "fr-pour-russes-A1-08",
+ "titre": {
+  "cible": "Silence, on étudie !",
+  "natif": "Тише, мы учимся!"
+ },
+ "objectifs": [
+  "Уметь попросить документ в библиотеке и взять книгу на дом",
+  "Использовать возвратные глаголы se lever и s'asseoir в настоящем времени",
+  "Называть время, продолжительность и частоту действий",
+  "Говорить тихо и вежливо в общественном месте",
+  "Произносить французские слова с немыми конечными согласными (s, t, x, d)"
+ ],
+ "scene": {
+  "lieu": "Salle de lecture de la Bibliothèque Sainte-Geneviève, Paris",
+  "moment": "Après-midi d'automne, vers 15 h 30",
+  "decor_3d": "Vaste salle de lecture néo-classique sous une voûte en fer et verre. Trois grands lustres en bronze diffusent une lumière chaude et dorée. De longues tables en chêne massif sont alignées en rangées symétriques, chacune équipée d'une lampe verte articulée. Des colonnes en fonte peinte soutiennent la galerie supérieure garnie de rayonnages en bois sombre. De hautes fenêtres laissent entrer la lumière grise de novembre. Le sol est en parquet ciré. Un grand comptoir en bois accueille le public à l'entrée. L'atmosphère est silencieuse, studieuse, presque solennelle.",
+  "objets": [
+   "lustre en bronze à trois niveaux",
+   "table en chêne avec lampe verte",
+   "chaise en bois à assise capitonnée",
+   "étagère haute remplie de livres",
+   "ordinateur de consultation sur le comptoir",
+   "livre « Introduction à la programmation »",
+   "carte de bibliothèque plastifiée",
+   "pancarte « Silence » en bois gravé",
+   "sac à dos d'Anna",
+   "carnet de croquis de Sophie"
+  ],
+  "personnages": [
+   "anna",
+   "sophie"
+  ],
+  "figurants": [
+   {
+    "id": "biblio",
+    "nom": "Mme Dupont",
+    "apparence": "Femme d'une cinquantaine d'années, cheveux châtains relevés en chignon bas, lunettes rondes à monture dorée, tailleur bleu marine sur chemisier crème, badge de la bibliothèque épinglé à la poitrine, sourire discret et professionnel",
+    "voix": "Féminine, posée, légèrement grave, articulation très claire, ton calme et bienveillant"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "anna",
+   "texte": "Sophie, regarde cette belle table ! On s'assoit ici ?",
+   "traduction": "Софи, посмотри, какой красивый стол! Сядем здесь?",
+   "geste": "Anna chuchote en désignant une table libre près de la fenêtre, son sac à dos sur l'épaule."
+  },
+  {
+   "perso": "sophie",
+   "texte": "Oui, parfait ! Je m'assois toujours à cette table. Il y a une bonne lumière.",
+   "traduction": "Да, отлично! Я всегда сажусь за этот стол. Здесь хорошее освещение.",
+   "geste": "Sophie tire sa chaise, pose son carnet de croquis sur la table et allume la lampe verte."
+  },
+  {
+   "perso": "anna",
+   "texte": "Je dois chercher un livre pour mon cours d'informatique. Tu sais où demander ?",
+   "traduction": "Мне нужно найти книгу для курса по информатике. Ты знаешь, где спросить?",
+   "geste": "Anna ouvre son sac, sort une feuille de notes et montre le titre à Sophie en parlant à voix basse."
+  },
+  {
+   "perso": "sophie",
+   "texte": "Va au comptoir, la bibliothécaire est très gentille. Et parle à voix basse, c'est la règle ici.",
+   "traduction": "Иди к стойке, библиотекарша очень добрая. И говори тихо — здесь такое правило.",
+   "geste": "Sophie pointe le doigt vers le comptoir et met son index sur ses lèvres pour imiter le silence."
+  },
+  {
+   "perso": "anna",
+   "texte": "Bonjour, madame. Excusez-moi, je cherche un livre sur l'informatique. C'est « Introduction à la programmation ».",
+   "traduction": "Здравствуйте, мадам. Извините, я ищу книгу по информатике. Это «Введение в программирование».",
+   "geste": "Anna s'approche du comptoir, se tient droite et parle doucement en souriant à Mme Dupont."
+  },
+  {
+   "perso": "biblio",
+   "texte": "Bonjour. Un moment, je regarde dans l'ordinateur… Voilà, il est à l'étagère trois, deuxième rangée.",
+   "traduction": "Здравствуйте. Одну минуту, я посмотрю в компьютере… Вот, она на третьей полке, второй ряд.",
+   "geste": "Mme Dupont tape sur le clavier, lit l'écran, puis lève la tête et pointe la direction du doigt."
+  },
+  {
+   "perso": "biblio",
+   "texte": "Vous pouvez emprunter ce livre pour deux semaines. N'oubliez pas de le rendre à temps.",
+   "traduction": "Вы можете взять эту книгу на две недели. Не забудьте вернуть вовремя.",
+   "geste": "Mme Dupont tend la carte de bibliothèque d'Anna, scanne le livre et le pose sur le comptoir."
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci beaucoup ! À quelle heure la bibliothèque ferme, s'il vous plaît ?",
+   "traduction": "Большое спасибо! В котором часу библиотека закрывается, пожалуйста?",
+   "geste": "Anna prend le livre à deux mains et incline légèrement la tête en signe de gratitude."
+  },
+  {
+   "perso": "biblio",
+   "texte": "À vingt heures en semaine. Le samedi, nous fermons à dix-huit heures. Le dimanche, c'est fermé.",
+   "traduction": "В двадцать часов по будням. По субботам мы закрываемся в восемнадцать. В воскресенье — закрыто.",
+   "geste": "Mme Dupont montre une petite affiche encadrée près du comptoir avec les horaires."
+  },
+  {
+   "perso": "sophie",
+   "texte": "Alors, tu as trouvé ? Tu es restée longtemps au comptoir !",
+   "traduction": "Ну что, нашла? Ты долго была у стойки!",
+   "geste": "Sophie lève les yeux de son carnet quand Anna revient à la table, souriante."
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui ! Je peux emprunter le livre pour deux semaines. J'adore cette bibliothèque, je viens ici souvent.",
+   "traduction": "Да! Я могу взять книгу на две недели. Обожаю эту библиотеку, я часто сюда прихожу.",
+   "geste": "Anna pose délicatement le livre sur la table, s'assoit et caresse la couverture du bout des doigts."
+  },
+  {
+   "perso": "sophie",
+   "texte": "Moi aussi, je viens souvent ici. Bon, on se lève dans une heure ? Je veux finir à la maison.",
+   "traduction": "Я тоже часто сюда прихожу. Ну что, встанем через час? Хочу закончить дома.",
+   "geste": "Sophie consulte sa montre, puis fait un geste de la main indiquant « encore un peu »."
+  },
+  {
+   "perso": "anna",
+   "texte": "D'accord. Je m'assois, j'ouvre mon livre et je travaille. Silence, on étudie !",
+   "traduction": "Договорились. Сажусь, открываю книгу и работаю. Тише, мы учимся!",
+   "geste": "Anna ouvre le livre, ajuste sa lampe verte et met son index sur ses lèvres avec un sourire complice."
+  },
+  {
+   "perso": "sophie",
+   "texte": "Chut… Silence, on étudie !",
+   "traduction": "Тс-с… Тише, мы учимся!",
+   "geste": "Sophie rit silencieusement, baisse la tête vers son carnet et commence à dessiner."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "la bibliothèque",
+   "prononciation": "[biblijɔtɛk]",
+   "nature": "nom f.",
+   "traduction": "библиотека",
+   "exemple": "La bibliothèque ferme à vingt heures.",
+   "exemple_traduction": "Библиотека закрывается в двадцать часов."
+  },
+  {
+   "mot": "le livre",
+   "prononciation": "[livʁ]",
+   "nature": "nom m.",
+   "traduction": "книга",
+   "exemple": "Je cherche un livre sur l'informatique.",
+   "exemple_traduction": "Я ищу книгу по информатике."
+  },
+  {
+   "mot": "emprunter",
+   "prononciation": "[ɑ̃pʁœ̃te]",
+   "nature": "verbe (1er groupe)",
+   "traduction": "брать (на время), одалживать",
+   "exemple": "Vous pouvez emprunter ce livre pour deux semaines.",
+   "exemple_traduction": "Вы можете взять эту книгу на две недели."
+  },
+  {
+   "mot": "rendre",
+   "prononciation": "[ʁɑ̃dʁ]",
+   "nature": "verbe (3e groupe)",
+   "traduction": "возвращать",
+   "exemple": "N'oubliez pas de rendre le livre à temps.",
+   "exemple_traduction": "Не забудьте вернуть книгу вовремя."
+  },
+  {
+   "mot": "l'étagère",
+   "prononciation": "[etaʒɛʁ]",
+   "nature": "nom f.",
+   "traduction": "полка, стеллаж",
+   "exemple": "Le livre est à l'étagère trois.",
+   "exemple_traduction": "Книга на третьей полке."
+  },
+  {
+   "mot": "le document",
+   "prononciation": "[dɔkymɑ̃]",
+   "nature": "nom m.",
+   "traduction": "документ",
+   "exemple": "Je demande un document à la bibliothécaire.",
+   "exemple_traduction": "Я прошу документ у библиотекаря."
+  },
+  {
+   "mot": "chercher",
+   "prononciation": "[ʃɛʁʃe]",
+   "nature": "verbe (1er groupe)",
+   "traduction": "искать",
+   "exemple": "Je cherche un livre pour mon cours.",
+   "exemple_traduction": "Я ищу книгу для своего курса."
+  },
+  {
+   "mot": "l'ordinateur",
+   "prononciation": "[ɔʁdinatœʁ]",
+   "nature": "nom m.",
+   "traduction": "компьютер",
+   "exemple": "La bibliothécaire regarde dans l'ordinateur.",
+   "exemple_traduction": "Библиотекарь смотрит в компьютере."
+  },
+  {
+   "mot": "s'asseoir",
+   "prononciation": "[saswaʁ]",
+   "nature": "verbe pronominal (3e groupe)",
+   "traduction": "садиться",
+   "exemple": "Je m'assois toujours à cette table.",
+   "exemple_traduction": "Я всегда сажусь за этот стол."
+  },
+  {
+   "mot": "se lever",
+   "prononciation": "[sə ləve]",
+   "nature": "verbe pronominal (1er groupe)",
+   "traduction": "вставать, подниматься",
+   "exemple": "On se lève dans une heure.",
+   "exemple_traduction": "Мы встанем через час."
+  },
+  {
+   "mot": "les études",
+   "prononciation": "[etdy]",
+   "nature": "nom f. pl.",
+   "traduction": "учёба, занятия",
+   "exemple": "J'aime mes études à Paris.",
+   "exemple_traduction": "Мне нравится моя учёба в Париже."
+  },
+  {
+   "mot": "la salle de lecture",
+   "prononciation": "[sal də lɛktyʁ]",
+   "nature": "nom f.",
+   "traduction": "читальный зал",
+   "exemple": "La salle de lecture est très calme.",
+   "exemple_traduction": "Читальный зал очень тихий."
+  },
+  {
+   "mot": "toujours",
+   "prononciation": "[tuʒuʁ]",
+   "nature": "adverbe de fréquence",
+   "traduction": "всегда",
+   "exemple": "Je viens toujours ici le mardi.",
+   "exemple_traduction": "Я всегда прихожу сюда по вторникам."
+  },
+  {
+   "mot": "souvent",
+   "prononciation": "[suvɑ̃]",
+   "nature": "adverbe de fréquence",
+   "traduction": "часто",
+   "exemple": "Je viens souvent à cette bibliothèque.",
+   "exemple_traduction": "Я часто прихожу в эту библиотеку."
+  },
+  {
+   "mot": "parfois",
+   "prononciation": "[paʁfwa]",
+   "nature": "adverbe de fréquence",
+   "traduction": "иногда",
+   "exemple": "Parfois, je travaille à la maison.",
+   "exemple_traduction": "Иногда я работаю дома."
+  },
+  {
+   "mot": "rarement",
+   "prononciation": "[ʁaʁmɑ̃]",
+   "nature": "adverbe de fréquence",
+   "traduction": "редко",
+   "exemple": "Lucas vient rarement à la bibliothèque.",
+   "exemple_traduction": "Люка редко приходит в библиотеку."
+  },
+  {
+   "mot": "jamais",
+   "prononciation": "[ʒamɛ]",
+   "nature": "adverbe de fréquence",
+   "traduction": "никогда",
+   "exemple": "Je ne parle jamais fort dans la salle de lecture.",
+   "exemple_traduction": "Я никогда не говорю громко в читальном зале."
+  },
+  {
+   "mot": "à voix basse",
+   "prononciation": "[a vwa bas]",
+   "nature": "locution adverbiale",
+   "traduction": "тихо, вполголоса",
+   "exemple": "Parle à voix basse, s'il te plaît.",
+   "exemple_traduction": "Говори тихо, пожалуйста."
+  },
+  {
+   "mot": "le silence",
+   "prononciation": "[silɑ̃s]",
+   "nature": "nom m.",
+   "traduction": "тишина, молчание",
+   "exemple": "Le silence est important dans la bibliothèque.",
+   "exemple_traduction": "Тишина важна в библиотеке."
+  },
+  {
+   "mot": "l'informatique",
+   "prononciation": "[ɛ̃fɔʁmatik]",
+   "nature": "nom f.",
+   "traduction": "информатика",
+   "exemple": "Mon cours d'informatique est le lundi.",
+   "exemple_traduction": "Мой курс по информатике по понедельникам."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Возвратные глаголы в настоящем времени (se lever, s'asseoir)",
+   "explication": "Во французском языке возвратные глаголы (verbes pronominaux) всегда сопровождаются возвратным местоимением (me, te, se, nous, vous, se), которое согласуется с подлежащим. Это местоимение ставится перед глаголом. В настоящем времени (présent) возвратные глаголы первого спряжения, такие как se lever, спрягаются как обычные глаголы на -er, но с добавлением возвратного местоимения: je me lève, tu te lèves, il/elle se lève, nous nous levons, vous vous levez, ils/elles se lèvent. Обратите внимание: в формах с nous и vous местоимение совпадает с формой местоимения подлежащего, но стоит перед глаголом. Глагол s'asseoir относится к третьему спряжению и имеет особую основу: je m'assois, tu t'assois, il/elle s'assoit, nous nous asseyons, vous vous asseyez, ils/elles s'assoient. В отрицании частицы ne…pas окружают связку «местоимение + глагол»: je ne me lève pas. В вопросительной конструкции с est-ce que возвратное местоимение остаётся перед глаголом: Est-ce que tu t'assois ici ?",
+   "tableau": [
+    [
+     "Personne",
+     "se lever",
+     "s'asseoir"
+    ],
+    [
+     "je",
+     "me lève",
+     "m'assois"
+    ],
+    [
+     "tu",
+     "te lèves",
+     "t'assois"
+    ],
+    [
+     "il / elle / on",
+     "se lève",
+     "s'assoit"
+    ],
+    [
+     "nous",
+     "nous levons",
+     "nous asseyons"
+    ],
+    [
+     "vous",
+     "vous levez",
+     "vous asseyez"
+    ],
+    [
+     "ils / elles",
+     "se lèvent",
+     "s'assoient"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Je me lève à sept heures.",
+     "natif": "Я встаю в семь часов."
+    },
+    {
+     "cible": "Tu t'assois à cette table ?",
+     "natif": "Ты садишься за этот стол?"
+    },
+    {
+     "cible": "Sophie s'assoit toujours près de la fenêtre.",
+     "natif": "Софи всегда садится у окна."
+    },
+    {
+     "cible": "Nous nous levons dans une heure.",
+     "natif": "Мы встанем через час."
+    },
+    {
+     "cible": "Est-ce que vous vous asseyez ici ?",
+     "natif": "Вы садитесь здесь?"
+    },
+    {
+     "cible": "Ils ne se lèvent jamais avant midi.",
+     "natif": "Они никогда не встают до полудня."
+    }
+   ]
+  },
+  {
+   "titre": "Часы, продолжительность и наречия частотности",
+   "explication": "Чтобы назвать время, используйте конструкцию Il est + цифра + heures: Il est vingt heures (20:00), Il est dix-huit heures trente (18:30). Для обозначения продолжительности применяются предлоги pour (на срок), pendant (в течение), depuis (с какого-то момента): J'emprunte le livre pour deux semaines (Я беру книгу на две недели), Je travaille pendant trois heures (Я работаю три часа). Наречия частотности (adverbes de fréquence) показывают, как часто происходит действие, и располагаются после спрягаемого глагола (или между ne и participe в отрицании): toujours (всегда) → souvent (часто) → parfois (иногда) → rarement (редко) → jamais (никогда). В отрицательном предложении jamais заменяет pas: Je ne viens jamais ici (Я никогда сюда не прихожу). Наречия также могут стоять в начале предложения для усиления: Parfois, je travaille à la maison.",
+   "tableau": [
+    [
+     "Наречие",
+     "Значение",
+     "Пример"
+    ],
+    [
+     "toujours",
+     "всегда",
+     "Je viens toujours ici le mardi."
+    ],
+    [
+     "souvent",
+     "часто",
+     "Anna vient souvent à la bibliothèque."
+    ],
+    [
+     "parfois",
+     "иногда",
+     "Parfois, Sophie reste à la maison."
+    ],
+    [
+     "rarement",
+     "редко",
+     "Lucas vient rarement ici."
+    ],
+    [
+     "jamais",
+     "никогда",
+     "Je ne parle jamais fort."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "La bibliothèque ferme à vingt heures.",
+     "natif": "Библиотека закрывается в двадцать часов."
+    },
+    {
+     "cible": "J'emprunte ce livre pour deux semaines.",
+     "natif": "Я беру эту книгу на две недели."
+    },
+    {
+     "cible": "Je viens souvent à la salle de lecture.",
+     "natif": "Я часто прихожу в читальный зал."
+    },
+    {
+     "cible": "Elle ne se lève jamais avant huit heures.",
+     "natif": "Она никогда не встаёт раньше восьми часов."
+    },
+    {
+     "cible": "Parfois, nous travaillons pendant trois heures.",
+     "natif": "Иногда мы работаем три часа."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Немые конечные согласные: s, t, x, d",
+  "explication": "Во французском языке конечные согласные s, t, x и d, как правило, не произносятся. Это правило касается подавляющего большинства слов: livres произносится [livʁ] (не [livʁs]), grand — [ɡʁɑ̃] (не [ɡʁɑ̃d]), voix — [vwa] (не [vwaks]), petit — [pəti] (не [pətit]). Запомните: если слово заканчивается на -s, -t, -x или -d, эта буква «молчит». Исключения немногочисленны (например, bus [bys], fils [fis], mais [mɛ], donc [dɔ̃k]). Для русскоговорящих это особенно важно: в русском языке мы привыкли произносить все согласные на конце слова. Тренируйтесь «проглатывать» последнюю букву: книги → livre [livʁ], стол → table [tabl], два → deux [dø], большой → grand [ɡʁɑ̃].",
+  "exemples": [
+   "livres [livʁ] — не [livʁs]",
+   "grand [ɡʁɑ̃] — не [ɡʁɑ̃d]",
+   "voix [vwa] — не [vwaks]",
+   "petit [pəti] — не [pətit]",
+   "deux [dø] — не [døks]",
+   "ferme à vingt heures [vɛ̃.t‿œʁ] — liaison между t и œʁ"
+  ]
+ },
+ "culture": {
+  "titre": "Великие библиотеки Парижа",
+  "texte": "Париж — город библиотек. Библиотека Святой Женевьевы (Bibliothèque Sainte-Geneviève), построенная в 1851 году архитектором Анри Лабрустом, славится своим читальным залом с железными арками и стеклянным сводом: под ним за дубовыми столами занимаются студенты Сорбонны. Национальная библиотека Франции (BnF), основанная ещё в Средние века, хранит более 40 миллионов документов и расположена в четырёх стеклянных башнях на берегу Сены. Библиотека Мазарини, старейшая публичная библиотека страны (1643), открыта для всех. Во французских библиотеках царит строгая тишина: говорят шёпотом, телефоны выключены, а книги берут по специальной карточке. Для студента во Франции библиотека — не просто хранилище, а второе рабочее место."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Выберите правильный вариант ответа.",
+   "items": [
+    {
+     "question": "Je ___ toujours à cette table.",
+     "choix": [
+      "m'assois",
+      "t'assois",
+      "se assoit",
+      "nous asseyons"
+     ],
+     "reponse": "m'assois"
+    },
+    {
+     "question": "La bibliothèque ferme à ___ heures.",
+     "choix": [
+      "vingt",
+      "vingts",
+      "vint",
+      "vin"
+     ],
+     "reponse": "vingt"
+    },
+    {
+     "question": "Vous pouvez ___ ce livre pour deux semaines.",
+     "choix": [
+      "emprunter",
+      "empruntez",
+      "emprunté",
+      "empruntant"
+     ],
+     "reponse": "emprunter"
+    },
+    {
+     "question": "Elle ne se lève ___ avant midi.",
+     "choix": [
+      "jamais",
+      "pas",
+      "toujours",
+      "souvent"
+     ],
+     "reponse": "jamais"
+    },
+    {
+     "question": "Parle ___, s'il te plaît.",
+     "choix": [
+      "à voix basse",
+      "à voix haut",
+      "au voix basse",
+      "de voix basse"
+     ],
+     "reponse": "à voix basse"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Заполните пропуски подходящими словами из списка: m'assois, emprunter, souvent, heures, se lève.",
+   "items": [
+    {
+     "question": "Je ___ toujours à cette table pour travailler.",
+     "reponse": "m'assois"
+    },
+    {
+     "question": "Vous pouvez ___ ce livre pour deux semaines.",
+     "reponse": "emprunter"
+    },
+    {
+     "question": "Anna vient ___ à la bibliothèque Sainte-Geneviève.",
+     "reponse": "souvent"
+    },
+    {
+     "question": "La salle de lecture ferme à vingt ___.",
+     "reponse": "heures"
+    },
+    {
+     "question": "Sophie ___ dans une heure pour rentrer à la maison.",
+     "reponse": "se lève"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Соедините французское слово с его переводом на русский язык.",
+   "items": [
+    {
+     "question": "la bibliothèque",
+     "reponse": "библиотека"
+    },
+    {
+     "question": "l'ordinateur",
+     "reponse": "компьютер"
+    },
+    {
+     "question": "l'étagère",
+     "reponse": "полка"
+    },
+    {
+     "question": "le silence",
+     "reponse": "тишина"
+    },
+    {
+     "question": "les études",
+     "reponse": "учёба"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Расставьте слова в правильном порядке, чтобы составить предложение.",
+   "items": [
+    {
+     "question": "m'assois / Je / table / cette / à / toujours",
+     "reponse": "Je m'assois toujours à cette table."
+    },
+    {
+     "question": "livre / emprunter / Vous / pouvez / ce",
+     "reponse": "Vous pouvez emprunter ce livre."
+    },
+    {
+     "question": "ferme / heures / La / à / bibliothèque / vingt",
+     "reponse": "La bibliothèque ferme à vingt heures."
+    },
+    {
+     "question": "voix / Parle / basse / à",
+     "reponse": "Parle à voix basse."
+    },
+    {
+     "question": "souvent / ici / viens / Je",
+     "reponse": "Je viens souvent ici."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Переведите предложения на французский язык.",
+   "items": [
+    {
+     "question": "Я всегда сажусь за этот стол.",
+     "reponse": "Je m'assois toujours à cette table."
+    },
+    {
+     "question": "Вы можете взять эту книгу на две недели.",
+     "reponse": "Vous pouvez emprunter ce livre pour deux semaines."
+    },
+    {
+     "question": "Библиотека закрывается в двадцать часов.",
+     "reponse": "La bibliothèque ferme à vingt heures."
+    },
+    {
+     "question": "Говори тихо, пожалуйста.",
+     "reponse": "Parle à voix basse, s'il te plaît."
+    },
+    {
+     "question": "Она никогда не встаёт рано.",
+     "reponse": "Elle ne se lève jamais tôt."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Прослушайте аудио и выберите правильный вариант ответа.",
+   "items": [
+    {
+     "question": "Что делает Анна у стойки? (Аудио: « Anna cherche un livre sur l'informatique. »)",
+     "choix": [
+      "Ищет книгу по информатике",
+      "Возвращает книгу",
+      "Спрашивает дорогу"
+     ],
+     "reponse": "Ищет книгу по информатике"
+    },
+    {
+     "question": "На какой полке находится книга? (Аудио: « Le livre est à l'étagère trois. »)",
+     "choix": [
+      "На первой",
+      "На второй",
+      "На третьей"
+     ],
+     "reponse": "На третьей"
+    },
+    {
+     "question": "Как часто Софи приходит в библиотеку? (Аудио: « Sophie vient souvent à la bibliothèque. »)",
+     "choix": [
+      "Редко",
+      "Часто",
+      "Никогда"
+     ],
+     "reponse": "Часто"
+    },
+    {
+     "question": "Во сколько закрывается библиотека в субботу? (Аудио: « Le samedi, nous fermons à dix-huit heures. »)",
+     "choix": [
+      "В 18:00",
+      "В 20:00",
+      "В 16:00"
+     ],
+     "reponse": "В 18:00"
+    },
+    {
+     "question": "Когда они встанут? (Аудио: « On se lève dans une heure. »)",
+     "choix": [
+      "Через час",
+      "Через два часа",
+      "Сейчас"
+     ],
+     "reponse": "Через час"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Добро пожаловать на восьмой урок курса «Французский для русскоговорящих»! Сегодня мы отправимся в знаменитую библиотеку Святой Женевьевы в Париже.",
+   "ecran": "Vue extérieure de la Bibliothèque Sainte-Geneviève sous un ciel gris de novembre, puis fondu vers l'intérieur : la grande salle de lecture avec ses lustres allumés.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "На этом уроке вы научитесь просить документ в библиотеке, брать книги на дом и говорить тихо. Мы также изучим возвратные глаголы, время, продолжительность и наречия частотности.",
+   "ecran": "Icônes animées apparaissant sur l'écran : un livre, une carte de bibliothèque, un doigt sur les lèvres, une horloge.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Анна и её подруга Софи пришли заниматься в читальный зал. Посмотрите на великолепный интерьер: дубовые столы, бронзовые люстры и зелёные лампы.",
+   "ecran": "Caméra panoramique balayant la salle de lecture, s'arrêtant sur Anna et Sophie debout près d'une table libre.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Давайте послушаем их диалог. Обратите внимание, как они говорят тихо — à voix basse.",
+   "ecran": "Le texte du dialogue commence à s'afficher en bas de l'écran. Les personnages sont prêts à parler.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v05",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Sophie, regarde cette belle table ! On s'assoit ici ?",
+   "ecran": "Anna chuchote en désignant une table libre près de la fenêtre, son sac à dos sur l'épaule.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Oui, parfait ! Je m'assois toujours à cette table. Il y a une bonne lumière.",
+   "ecran": "Sophie tire sa chaise, pose son carnet de croquis sur la table et allume la lampe verte.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Je dois chercher un livre pour mon cours d'informatique. Tu sais où demander ?",
+   "ecran": "Anna ouvre son sac, sort une feuille de notes et montre le titre à Sophie en parlant à voix basse.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Va au comptoir, la bibliothécaire est très gentille. Et parle à voix basse, c'est la règle ici.",
+   "ecran": "Sophie pointe le doigt vers le comptoir et met son index sur ses lèvres pour imiter le silence.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Bonjour, madame. Excusez-moi, je cherche un livre sur l'informatique. C'est « Introduction à la programmation ».",
+   "ecran": "Anna s'approche du comptoir, se tient droite et parle doucement en souriant à Mme Dupont.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "biblio",
+   "langue": "fr",
+   "texte": "Bonjour. Un moment, je regarde dans l'ordinateur… Voilà, il est à l'étagère trois, deuxième rangée.",
+   "ecran": "Mme Dupont tape sur le clavier, lit l'écran, puis lève la tête et pointe la direction du doigt.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "biblio",
+   "langue": "fr",
+   "texte": "Vous pouvez emprunter ce livre pour deux semaines. N'oubliez pas de le rendre à temps.",
+   "ecran": "Mme Dupont tend la carte de bibliothèque d'Anna, scanne le livre et le pose sur le comptoir.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci beaucoup ! À quelle heure la bibliothèque ferme, s'il vous plaît ?",
+   "ecran": "Anna prend le livre à deux mains et incline légèrement la tête en signe de gratitude.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "biblio",
+   "langue": "fr",
+   "texte": "À vingt heures en semaine. Le samedi, nous fermons à dix-huit heures. Le dimanche, c'est fermé.",
+   "ecran": "Mme Dupont montre une petite affiche encadrée près du comptoir avec les horaires.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Alors, tu as trouvé ? Tu es restée longtemps au comptoir !",
+   "ecran": "Sophie lève les yeux de son carnet quand Anna revient à la table, souriante.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui ! Je peux emprunter le livre pour deux semaines. J'adore cette bibliothèque, je viens ici souvent.",
+   "ecran": "Anna pose délicatement le livre sur la table, s'assoit et caresse la couverture du bout des doigts.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Moi aussi, je viens souvent ici. Bon, on se lève dans une heure ? Je veux finir à la maison.",
+   "ecran": "Sophie consulte sa montre, puis fait un geste de la main indiquant « encore un peu ».",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "D'accord. Je m'assois, j'ouvre mon livre et je travaille. Silence, on étudie !",
+   "ecran": "Anna ouvre le livre, ajuste sa lampe verte et met son index sur ses lèvres avec un sourire complice.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Chut… Silence, on étudie !",
+   "ecran": "Sophie rit silencieusement, baisse la tête vers son carnet et commence à dessiner.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отлично! А теперь давайте разберём новые слова. Повторяйте за диктором.",
+   "ecran": "Affichage des mots de vocabulaire un par un avec leur transcription API et traduction.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "La bibliothèque [biblijɔtɛk].",
+   "ecran": "Le mot « la bibliothèque » apparaît en gros plan avec l'image d'une étagère remplie de livres.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Emprunter [ɑ̃pʁœ̃te].",
+   "ecran": "Animation d'une main prenant un livre sur un comptoir.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "S'asseoir [saswaʁ].",
+   "ecran": "Animation d'un personnage tirant une chaise et s'asseyant.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Se lever [sə ləve].",
+   "ecran": "Animation d'un personnage se levant de sa chaise.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Обратите внимание на грамматику. Возвратные глаголы во французском языке используются с возвратными местоимениями: me, te, se, nous, vous, se. Например, se lever — вставать. Je me lève — я встаю.",
+   "ecran": "Tableau de conjugaison de « se lever » et « s'asseoir » qui s'affiche progressivement à l'écran.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Глагол s'asseoir — садиться — имеет неправильную основу. Запомните формы: je m'assois, tu t'assois, il s'assoit. В отрицании частица ne... pas окружает местоимение и глагол: je ne m'assois pas.",
+   "ecran": "Mise en évidence des formes conjuguées de « s'asseoir » avec des couleurs différentes pour les pronoms réfléchis.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь поговорим о времени и наречиях частотности. Чтобы сказать, который час, используйте конструкцию Il est + число + heures. Например, Il est vingt heures — сейчас двадцать часов.",
+   "ecran": "Une horloge murale classique tourne ses aiguilles pour indiquer 20h00, avec le texte « Il est vingt heures ».",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Наречия частотности ставятся после глагола. Toujours — всегда, souvent — часто, parfois — иногда, rarement — редко, jamais — никогда. Запомните: с jamais частица pas не нужна! Je ne viens jamais ici.",
+   "ecran": "Échelle graphique affichant les adverbes de fréquence de 100% (toujours) à 0% (jamais).",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Важное правило произношения! Во французском языке конечные согласные s, t, x и d обычно не читаются. Слово livres произносится [livʁ], без звука 'с' на конце. Grand звучит как [ɡʁɑ̃], а deux — как [dø].",
+   "ecran": "Les mots « livres », « grand », « deux », « voix » apparaissent, et les lettres finales s, d, x, s'effacent visuellement ou deviennent grises.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Немного культуры. Библиотека Святой Женевьевы — одна из самых красивых в мире. Она была построена в девятнадцатом веке. Здесь студенты Сорбонны готовятся к экзаменам в абсолютной тишине.",
+   "ecran": "Photos historiques et vues 3D de la Bibliothèque Sainte-Geneviève, de la BnF et de la Bibliothèque Mazarine défilent doucement.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "А теперь проверим ваши знания! Выполните шесть упражнений. Начнём с теста.",
+   "ecran": "Transition vers l'interface des exercices. Le premier exercice QCM s'affiche.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Выберите правильную форму возвратного глагола или нужное слово.",
+   "ecran": "Questions du QCM interactif avec boutons cliquables.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "В следующем задании нужно заполнить пропуски подходящими словами из списка.",
+   "ecran": "Interface de l'exercice à trous avec un clavier virtuel ou des mots glissables.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Соедините французские слова с их переводом на русский язык, перетащив элементы друг к другу.",
+   "ecran": "Interface d'association avec des éléments à relier par glisser-déposer.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Расставьте слова в правильном порядке, чтобы получилось верное предложение.",
+   "ecran": "Mots mélangés sous forme de blocs à réordonner.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Переведите предложения с русского на французский. Напишите ваш ответ в поле ввода.",
+   "ecran": "Zone de saisie de texte pour l'exercice de traduction.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v36",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "И последнее задание — аудирование. Послушайте фразу и выберите правильный ответ. Поздравляем, вы завершили восьмой урок! Тише, мы учимся!",
+   "ecran": "Icône de haut-parleur pour l'exercice d'écoute, puis écran de félicitations avec Anna et Sophie qui sourient dans la bibliothèque.",
+   "interaction": "choisir"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Je m'assois toujours à cette table.",
+   "natif": "Я всегда сажусь за этот стол."
+  },
+  {
+   "cible": "Vous pouvez emprunter ce livre pour deux semaines.",
+   "natif": "Вы можете взять эту книгу на две недели."
+  },
+  {
+   "cible": "La bibliothèque ferme à vingt heures.",
+   "natif": "Библиотека закрывается в двадцать часов."
+  },
+  {
+   "cible": "Parle à voix basse, s'il te plaît.",
+   "natif": "Говори тихо, пожалуйста."
+  },
+  {
+   "cible": "Je viens souvent ici, mais je ne parle jamais fort.",
+   "natif": "Я часто прихожу сюда, но никогда не говорю громко."
+  }
+ ],
+ "controle": []
+}

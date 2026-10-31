@@ -1,0 +1,961 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 7,
+ "niveau": "A1",
+ "id": "ru-pour-francais-A1-07",
+ "titre": {
+  "cible": "У меня́ есть… Родительный падеж",
+  "natif": "J'ai… Le génitif"
+ },
+ "objectifs": [
+  "Exprimer la possession avec У + génitif + есть (У меня есть книга.)",
+  "Exprimer l'absence avec У + génitif + нет (У меня нет времени.)",
+  "Demander une quantité et un prix au marché (Сколько это стоит? Кило яблок, пожалуйста.)",
+  "Former le génitif singulier des trois genres et l'utiliser après les nombres",
+  "Prononcer correctement [ц] et distinguer [ш] de [щ]"
+ ],
+ "scene": {
+  "lieu": "Marché Danilovski (Даниловский рынок), Moscou",
+  "moment": "Samedi matin, début d'automne, lumière dorée",
+  "decor_3d": "Grande halle couverte en verre et métal, étals en bois disposés en allées. Au premier plan : un étal de fruits (pommes rouges, poires jaunes), un étal de légumes (tomates, concombres, carottes) et un étal de fromages ronds. Des guirlandes de prix en papier pendues aux auvents. Une babouchka en tablier à fleurs derrière sa balance à plateau. Au fond, d'autres étals et des clients flânent. Sol en carrelage gris, cageots empilés.",
+  "objets": [
+   "Étal de fruits avec pommes, poires et oranges en 3D",
+   "Étal de légumes : tomates, concombres, carottes, pommes de terre",
+   "Étal de fromages : meules rondes et wedges sous cloche",
+   "Balance à plateau ancienne en métal",
+   "Cageots en bois empilés",
+   "Pancartes de prix en roubles (150 ₽, 200 ₽, 300 ₽)",
+   "Sacs en papier kraft et sacs plastique",
+   "Monnaie : billets et pièces de roubles et kopecks",
+   "Liste de courses sur papier (côté Thomas)",
+   "Portefeuille ouvert (côté Dima)"
+  ],
+  "personnages": [
+   "thomas",
+   "dima"
+  ],
+  "figurants": [
+   {
+    "id": "babushka_zina",
+    "nom": "Zinaïda Fiodorovna",
+    "apparence": "Femme de 65 ans, ronde, tablier à fleurs bleues sur robe grise, foulard coloré noué sous le menton, lunettes rondes, mains farineuses, sourire chaleureux",
+    "voix": "Voix féminine grave, chaleureuse, légèrement rauque, débit lent et maternel"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "dima",
+   "texte": "Тома́с, э́то Дани́ловский ры́нок! Здесь мы покупа́ем фру́кты, о́вощи и сыр.",
+   "traduction": "Thomas, c'est le marché Danilovski ! Ici, on achète des fruits, des légumes et du fromage.",
+   "geste": "Dima écarte les bras largement pour montrer la halle, puis pointe les étals du doigt."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Отли́чно! У меня́ есть спи́сок. Я хочу́ купи́ть я́блоки, помидо́ры и сыр.",
+   "traduction": "Super ! J'ai une liste. Je veux acheter des pommes, des tomates et du fromage.",
+   "geste": "Thomas sort un papier plié de sa poche et le déplie en souriant."
+  },
+  {
+   "perso": "dima",
+   "texte": "У меня́ нет спи́ска, но у меня́ есть де́ньги! Идём к э́той ба́бушке.",
+   "traduction": "Moi, je n'ai pas de liste, mais j'ai de l'argent ! Allons vers cette babouchka.",
+   "geste": "Dima tapote son portefeuille avec un clin d'œil, puis fait signe à Thomas de le suivre."
+  },
+  {
+   "perso": "babushka_zina",
+   "texte": "Здра́вствуйте! Что вам ну́жно?",
+   "traduction": "Bonjour ! Qu'est-ce qu'il vous faut ?",
+   "geste": "La babouchka lève les yeux de sa balance et sourit en ouvrant les mains."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Ско́лько сто́ят я́блоки?",
+   "traduction": "Combien coûtent les pommes ?",
+   "geste": "Thomas pointe les pommes du doigt et incline la tête, interrogateur."
+  },
+  {
+   "perso": "babushka_zina",
+   "texte": "Сто пятьдеся́т рубле́й за килогра́мм. Попробу́йте, о́чень вку́сные!",
+   "traduction": "Cent cinquante roubles le kilo. Goûtez, elles sont très bonnes !",
+   "geste": "Elle tend une pomme coupée en deux à Thomas sur un petit couteau."
+  },
+  {
+   "perso": "thomas",
+   "texte": "М-м, вку́сный! Килогра́мм я́блок, пожа́луйста.",
+   "traduction": "Mmm, délicieux ! Un kilo de pommes, s'il vous plaît.",
+   "geste": "Thomas croque la pomme, ferme les yeux de plaisir, puis montre un doigt levé pour « un kilo »."
+  },
+  {
+   "perso": "dima",
+   "texte": "А у вас есть помидо́ры?",
+   "traduction": "Et vous avez des tomates ?",
+   "geste": "Dima se penche par-dessus l'étal en regardant les cagettes."
+  },
+  {
+   "perso": "babushka_zina",
+   "texte": "Да, коне́чно. Две́сти рубле́й за килогра́мм.",
+   "traduction": "Oui, bien sûr. Deux cents roubles le kilo.",
+   "geste": "Elle soulève un cageot de tomates bien rouges et le pose devant Dima."
+  },
+  {
+   "perso": "dima",
+   "texte": "Два килогра́мма помидо́ров, пожа́луйста.",
+   "traduction": "Deux kilos de tomates, s'il vous plaît.",
+   "geste": "Dima montre deux doigts et hoche la tête."
+  },
+  {
+   "perso": "thomas",
+   "texte": "У меня́ нет сы́ра до́ма. Ско́лько сто́ит сыр?",
+   "traduction": "Je n'ai pas de fromage à la maison. Combien coûte le fromage ?",
+   "geste": "Thomas fait un geste négatif de la tête puis pointe l'étal de fromages."
+  },
+  {
+   "perso": "babushka_zina",
+   "texte": "Три́ста рубле́й за килогра́мм. Попробу́йте!",
+   "traduction": "Trois cents roubles le kilo. Goûtez !",
+   "geste": "Elle coupe un petit morceau de fromage avec un fil et le tend à Thomas."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Сто гра́ммов сы́ра, пожа́луйста.",
+   "traduction": "Cent grammes de fromage, s'il vous plaît.",
+   "geste": "Thomas fait un petit geste de la main pour indiquer une petite quantité."
+  },
+  {
+   "perso": "dima",
+   "texte": "Тома́с, ты сказа́л: «У меня́ нет вре́мени!» А у тебя́ уже́ три паке́та!",
+   "traduction": "Thomas, tu as dit : « Je n'ai pas le temps ! » Et tu as déjà trois sacs !",
+   "geste": "Dima compte les sacs dans les bras de Thomas en riant, puis lui tape l'épaule."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Спа́сибо! У меня́ есть фру́кты, о́вощи и сыр. Отли́чный день!",
+   "traduction": "Merci ! J'ai des fruits, des légumes et du fromage. Excellente journée !",
+   "geste": "Thomas lève ses trois sacs fièrement et sourit largement à la caméra."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "я́блоко",
+   "prononciation": "YA-bla-ka",
+   "nature": "nom n.",
+   "traduction": "pomme",
+   "exemple": "У меня́ есть я́блоко.",
+   "exemple_traduction": "J'ai une pomme."
+  },
+  {
+   "mot": "помидо́р",
+   "prononciation": "pa-mi-DOR",
+   "nature": "nom m.",
+   "traduction": "tomate",
+   "exemple": "Я хочу́ купи́ть помидо́ры.",
+   "exemple_traduction": "Je veux acheter des tomates."
+  },
+  {
+   "mot": "огурец",
+   "prononciation": "a-gu-RETS",
+   "nature": "nom m.",
+   "traduction": "concombre",
+   "exemple": "У неё нет огурцо́в.",
+   "exemple_traduction": "Elle n'a pas de concombres."
+  },
+  {
+   "mot": "сыр",
+   "prononciation": "SYR",
+   "nature": "nom m.",
+   "traduction": "fromage",
+   "exemple": "Ско́лько сто́ит сыр?",
+   "exemple_traduction": "Combien coûte le fromage ?"
+  },
+  {
+   "mot": "карто́фель",
+   "prononciation": "kar-TO-fel'",
+   "nature": "nom m.",
+   "traduction": "pomme de terre",
+   "exemple": "Два килогра́мма карто́феля, пожа́луйста.",
+   "exemple_traduction": "Deux kilos de pommes de terre, s'il vous plaît."
+  },
+  {
+   "mot": "морко́вь",
+   "prononciation": "mar-KOF'",
+   "nature": "nom f.",
+   "traduction": "carotte",
+   "exemple": "У меня́ нет морко́ви.",
+   "exemple_traduction": "Je n'ai pas de carotte."
+  },
+  {
+   "mot": "рубль",
+   "prononciation": "ROUBL'",
+   "nature": "nom m.",
+   "traduction": "rouble",
+   "exemple": "Сто рубле́й за килогра́мм.",
+   "exemple_traduction": "Cent roubles le kilo."
+  },
+  {
+   "mot": "копе́йка",
+   "prononciation": "ka-PIEY-ka",
+   "nature": "nom f.",
+   "traduction": "kopeck (1/100 de rouble)",
+   "exemple": "Де́вяносто де́вять копе́ек.",
+   "exemple_traduction": "Quatre-vingt-dix-neuf kopecks."
+  },
+  {
+   "mot": "килогра́мм",
+   "prononciation": "ki-la-GRAMM",
+   "nature": "nom m.",
+   "traduction": "kilogramme",
+   "exemple": "Килогра́мм я́блок, пожа́луйста.",
+   "exemple_traduction": "Un kilo de pommes, s'il vous plaît."
+  },
+  {
+   "mot": "сто́ить",
+   "prononciation": "STO-it'",
+   "nature": "verbe (impf.)",
+   "traduction": "coûter",
+   "exemple": "Ско́лько э́то сто́ит?",
+   "exemple_traduction": "Combien ça coûte ?"
+  },
+  {
+   "mot": "покупа́ть",
+   "prononciation": "pa-ku-PAT'",
+   "nature": "verbe (impf.)",
+   "traduction": "acheter",
+   "exemple": "Мы покупа́ем о́вощи на ры́нке.",
+   "exemple_traduction": "Nous achetons des légumes au marché."
+  },
+  {
+   "mot": "продава́ть",
+   "prononciation": "pra-da-VAT'",
+   "nature": "verbe (impf.)",
+   "traduction": "vendre",
+   "exemple": "Ба́бушка продаёт све́жие о́вощи.",
+   "exemple_traduction": "La babouchka vend des légumes frais."
+  },
+  {
+   "mot": "вку́сный",
+   "prononciation": "VKOUS-nyï",
+   "nature": "adj.",
+   "traduction": "délicieux, bon (goût)",
+   "exemple": "Э́тот сыр о́чень вку́сный.",
+   "exemple_traduction": "Ce fromage est très bon."
+  },
+  {
+   "mot": "све́жий",
+   "prononciation": "SVIE-jiy",
+   "nature": "adj.",
+   "traduction": "frais, fraîche",
+   "exemple": "У нас све́жие помидо́ры.",
+   "exemple_traduction": "Nous avons des tomates fraîches."
+  },
+  {
+   "mot": "ры́нок",
+   "prononciation": "RY-nak",
+   "nature": "nom m.",
+   "traduction": "marché",
+   "exemple": "Мы на ры́нке.",
+   "exemple_traduction": "Nous sommes au marché."
+  },
+  {
+   "mot": "де́ньги",
+   "prononciation": "DIEN'-gui",
+   "nature": "nom pl. (plurale tantum)",
+   "traduction": "argent (monnaie)",
+   "exemple": "У меня́ есть де́ньги.",
+   "exemple_traduction": "J'ai de l'argent."
+  },
+  {
+   "mot": "цена́",
+   "prononciation": "tsi-NA",
+   "nature": "nom f.",
+   "traduction": "prix",
+   "exemple": "Кака́я цена́?",
+   "exemple_traduction": "Quel est le prix ?"
+  },
+  {
+   "mot": "попробовать",
+   "prononciation": "pa-PRO-ba-vat'",
+   "nature": "verbe (perf.)",
+   "traduction": "goûter, essayer",
+   "exemple": "Попробу́йте э́то я́блоко!",
+   "exemple_traduction": "Goûtez cette pomme !"
+  },
+  {
+   "mot": "паке́т",
+   "prononciation": "pa-KIET",
+   "nature": "nom m.",
+   "traduction": "sac (en papier/plastique)",
+   "exemple": "У меня́ три паке́та.",
+   "exemple_traduction": "J'ai trois sacs."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Le génitif singulier et la construction У + génitif + есть / нет",
+   "explication": "Le génitif (родительный падеж) répond à la question « кого? чего? » (de qui ? de quoi ?). Au singulier, les terminaisons sont : masculin et neutre → -а / -я ; féminin → -ы / -и. On l'utilise dans la construction de possession russe : У + [pronom/nom au génitif] + есть + [objet au nominatif]. Exemple : У меня́ есть кни́га (J'ai un livre). Pour la négation, on remplace есть par нет et l'objet passe au génitif : У меня́ нет кни́ги (Je n'ai pas de livre). Attention : en français on dit « je n'ai pas DE livre », mais en russe la structure est totalement différente — il n'y a pas de verbe « avoir » ; on utilise la préposition У (chez) + génitif du possesseur. Le génitif est aussi obligatoire après нет pour exprimer l'absence. C'est l'un des premiers cas où la terminaison du nom change : кни́га (nom.) → кни́ги (gén.), сто́л (nom.) → стола́ (gén.), окно́ (nom.) → окна́ (gén.).",
+   "tableau": [
+    [
+     "Genre",
+     "Nominatif",
+     "Génitif",
+     "Terminaison"
+    ],
+    [
+     "Masculin (consonne)",
+     "стол",
+     "стола́",
+     "-а"
+    ],
+    [
+     "Masculin (-й, -ь)",
+     "рубль",
+     "рубля́",
+     "-я"
+    ],
+    [
+     "Neutre (-о)",
+     "яблоко",
+     "я́блока",
+     "-а"
+    ],
+    [
+     "Neutre (-е)",
+     "море",
+     "мо́ря",
+     "-я"
+    ],
+    [
+     "Féminin (-а)",
+     "книга",
+     "кни́ги",
+     "-и"
+    ],
+    [
+     "Féminin (-я)",
+     "неделя",
+     "неде́ли",
+     "-и"
+    ],
+    [
+     "Féminin (-ь)",
+     "морковь",
+     "морко́ви",
+     "-и"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "У меня́ есть я́блоко.",
+     "natif": "J'ai une pomme."
+    },
+    {
+     "cible": "У меня́ нет я́блока.",
+     "natif": "Je n'ai pas de pomme."
+    },
+    {
+     "cible": "У Димы́ есть де́ньги.",
+     "natif": "Dima a de l'argent."
+    },
+    {
+     "cible": "У Тома́са нет сы́ра.",
+     "natif": "Thomas n'a pas de fromage."
+    },
+    {
+     "cible": "У неё нет вре́мени.",
+     "natif": "Elle n'a pas le temps."
+    }
+   ]
+  },
+  {
+   "titre": "Le génitif après les nombres : 2-4 vs 5 et plus",
+   "explication": "En russe, le nom qui suit un nombre change de forme. Après 2, 3 et 4, on utilise le génitif singulier : два я́блока, три помидо́ра, четы́ре гру́ши. Après 5 et au-delà (ainsi qu'après 0), on utilise le génitif pluriel : пять я́блок, шесть помидо́ров, семь груш. C'est une différence majeure avec le français où le nom reste simplement au pluriel. Retenez : 1 → nominatif (одно́ я́блоко), 2-3-4 → génitif singulier (два я́блока), 5+ → génitif pluriel (пять я́блок). Les adjectifs s'accordent aussi : два вку́сных сы́ра, пять све́жих огурцо́в. Cette règle s'applique aussi aux unités de mesure : килогра́мм я́блок, сто гра́ммов сы́ра.",
+   "tableau": [
+    [
+     "Nombre",
+     "Cas du nom",
+     "Exemple",
+     "Traduction"
+    ],
+    [
+     "1",
+     "Nominatif",
+     "одно́ я́блоко",
+     "une pomme"
+    ],
+    [
+     "2, 3, 4",
+     "Génitif singulier",
+     "два я́блока / три помидо́ра",
+     "deux pommes / trois tomates"
+    ],
+    [
+     "5, 6, 7…",
+     "Génitif pluriel",
+     "пять я́блок / шесть помидо́ров",
+     "cinq pommes / six tomates"
+    ],
+    [
+     "100, 200…",
+     "Génitif pluriel",
+     "сто рубле́й / две́сти рубле́й",
+     "cent roubles / deux cents roubles"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Два килогра́мма помидо́ров, пожа́луйста.",
+     "natif": "Deux kilos de tomates, s'il vous plaît."
+    },
+    {
+     "circuit": "Пять я́блок и три гру́ши.",
+     "natif": "Cinq pommes et trois poires."
+    },
+    {
+     "cible": "Сто гра́ммов сы́ра.",
+     "natif": "Cent grammes de fromage."
+    },
+    {
+     "cible": "У меня́ два паке́та.",
+     "natif": "J'ai deux sacs."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Le son [ц] et la distinction [ш] / [щ]",
+  "explication": "Le son [ц] n'existe pas en français. Il correspond à « ts » dans l'anglais « cats » ou l'allemand « Zeit ». Les lèvres sont neutres, la langue touche le palais juste derrière les dents supérieures puis se détache brusquement. On le trouve dans цена́, огуре́ц, мо́лодец. Attention : après ц, on écrit toujours ы (et non и) : огурцы́, но pas *огурци. Deuxième point : [ш] est dur et bref (comme « ch » français), tandis que [щ] est long, mou et légèrement chuinté, comme un « ch » qu'on prolonge en avançant la langue. Comparez : ша́шка (dame, jeu) vs ща́вка (oseille). Le вirelangue ci-dessous combine ces trois sons.",
+  "exemples": [
+   "цена́ [tsi-NA] : prix — цыплёнок [tsy-PLIO-nak] : poussin",
+   "огуре́ц [a-gu-RIETS] : concombre — конце́ [kan-TSIE] : à la fin",
+   "ша́шка [CHACH-ka] : dame (jeu) — щётка [CHIO-tka] : brosse",
+   "Виревланг : «Цыплёнок у цыганки в корзине́, а щу́ка в реке́.» [Le poussin chez la Tzigane dans le panier, et le brochet dans la rivière.]",
+   "Виревланг : «Шесть мышат в шалаше шуршат.» [Six souriceaux bruissent dans la cabane.] → [ш] dur et bref",
+   "Виревланг : «Щу́ку тащу́, тащу́, не отпущу́.» [Je tire le brochet, je tire, je ne lâcherai pas.] → [щ] long et mou"
+  ]
+ },
+ "culture": {
+  "titre": "Le marché russe (рынок) : un rituel social",
+  "texte": "Le рынок est bien plus qu'un supermarché en Russie : c'est un lieu de rencontre et de négociation. On goûte toujours avant d'acheter — la vendeuse vous tendra un morceau de fromage ou un quartier de pomme sans que vous demandiez. Les babouchkas vendent souvent leurs propres légumes du jardin (свое́, « fait maison »), gage de fraîcheur. On négocie gentiment, surtout en fin de journée. Les poids s'expriment en килограмм et гра́ммы ; la monnaie en рубли et копе́йки (1 ₽ = 100 копеек). Depuis l'époque soviétique, le marché reste un espace de confiance : on dit « на рынке » (au marché, avec на, comme vu en L5) et on tutoie souvent la vendeuse après deux échanges."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez la forme correcte du génitif pour compléter la phrase.",
+   "items": [
+    {
+     "question": "У меня́ нет ___ (книга).",
+     "choix": [
+      "кни́га",
+      "кни́ги",
+      "кни́гу",
+      "кни́ге"
+     ],
+     "reponse": "кни́ги"
+    },
+    {
+     "question": "У Тома́са нет ___ (сыр).",
+     "choix": [
+      "сыр",
+      "сы́ра",
+      "сы́ру",
+      "сы́ре"
+     ],
+     "reponse": "сы́ра"
+    },
+    {
+     "question": "У Димы́ нет ___ (деньги, gén. pl.).",
+     "choix": [
+      "де́ньги",
+      "де́нег",
+      "де́ньгам",
+      "де́ньгами"
+     ],
+     "reponse": "де́нег"
+    },
+    {
+     "question": "У неё нет ___ (время).",
+     "choix": [
+      "вре́мя",
+      "вре́мени",
+      "вре́мяу",
+      "вре́мен"
+     ],
+     "reponse": "вре́мени"
+    },
+    {
+     "question": "У нас нет ___ (огурец, gén. pl.).",
+     "choix": [
+      "огуре́ц",
+      "огурца́",
+      "огурцо́в",
+      "огурцы"
+     ],
+     "reponse": "огурцо́в"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez les phrases avec la forme correcte entre parenthèses (génitif singulier ou pluriel).",
+   "items": [
+    {
+     "question": "Два килогра́мма ___ (помидоры).",
+     "reponse": "помидо́ров"
+    },
+    {
+     "question": "У меня́ есть ___ (яблоко). → У меня́ нет ___ (яблоко).",
+     "reponse": "я́блоко / я́блока"
+    },
+    {
+     "question": "Три ___ (груша) и пять ___ (груша).",
+     "reponse": "гру́ши / груш"
+    },
+    {
+     "question": "Сто ___ (рубль) за килогра́мм.",
+     "reponse": "рубле́й"
+    },
+    {
+     "question": "У Ма́ши нет ___ (морковь).",
+     "reponse": "морко́ви"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez chaque nom au nominatif à sa forme au génitif singulier.",
+   "items": [
+    {
+     "question": "стол",
+     "reponse": "стола́"
+    },
+    {
+     "question": "книга",
+     "reponse": "кни́ги"
+    },
+    {
+     "question": "окно́",
+     "reponse": "окна́"
+    },
+    {
+     "question": "рубль",
+     "reponse": "рубля́"
+    },
+    {
+     "question": "неделя",
+     "reponse": "неде́ли"
+    },
+    {
+     "question": "морковь",
+     "reponse": "морко́ви"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez les mots dans l'ordre pour former une phrase correcte.",
+   "items": [
+    {
+     "question": "есть / меня / У / яблоко",
+     "reponse": "У меня́ есть я́блоко."
+    },
+    {
+     "question": "нет / времени / У / него",
+     "reponse": "У него́ нет вре́мени."
+    },
+    {
+     "question": "помидоров / Два / килограмма / пожалуйста",
+     "reponse": "Два килогра́мма помидо́ров, пожа́луйста."
+    },
+    {
+     "question": "стоит / Сколько / сыр / ?",
+     "reponse": "Ско́лько сто́ит сыр?"
+    },
+    {
+     "question": "рублей / сто / за / Сто / килограмм",
+     "reponse": "Сто рубле́й за килогра́мм."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez en russe les phrases françaises suivantes.",
+   "items": [
+    {
+     "question": "J'ai une liste.",
+     "reponse": "У меня́ есть спи́сок."
+    },
+    {
+     "question": "Je n'ai pas de fromage.",
+     "reponse": "У меня́ нет сы́ра."
+    },
+    {
+     "question": "Combien coûtent les pommes ?",
+     "reponse": "Ско́лько сто́ят я́блоки?"
+    },
+    {
+     "question": "Trois kilos de pommes de terre, s'il vous plaît.",
+     "reponse": "Три килогра́мма карто́феля, пожа́луйста."
+    },
+    {
+     "question": "Dima a de l'argent.",
+     "reponse": "У Димы́ есть де́ньги."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez l'audio (voix de la babouchka) et choisissez ce que vous entendez.",
+   "items": [
+    {
+     "question": "🔊 [Audio : « Сто пятьдеся́т рубле́й за килогра́мм. »]",
+     "choix": [
+      "Сто рубле́й за килогра́мм.",
+      "Сто пятьдеся́т рубле́й за килогра́мм.",
+      "Две́сти рубле́й за килогра́мм.",
+      "Пятьдеся́т рубле́й за килогра́мм."
+     ],
+     "reponse": "Сто пятьдеся́т рубле́й за килогра́мм."
+    },
+    {
+     "question": "🔊 [Audio : « У меня́ нет помидо́ров. »]",
+     "choix": [
+      "У меня́ есть помидо́ры.",
+      "У меня́ нет помидо́ров.",
+      "У меня́ нет помидо́ры.",
+      "У тебя́ нет помидо́ров."
+     ],
+     "reponse": "У меня́ нет помидо́ров."
+    },
+    {
+     "question": "🔊 [Audio : « Попробу́йте, о́чень вку́сные! »]",
+     "choix": [
+      "Покупа́йте, о́чень вку́сные!",
+      "Попробу́йте, о́чень вку́сные!",
+      "Попробу́йте, о́чень све́жие!",
+      "Посмотри́те, о́чень вку́сные!"
+     ],
+     "reponse": "Попробу́йте, о́чень вку́сные!"
+    },
+    {
+     "question": "🔊 [Audio : « Два килогра́мма огурцо́в, пожа́луйста. »]",
+     "choix": [
+      "Два килогра́мма помидо́ров, пожа́луйста.",
+      "Два килогра́мма огурцо́в, пожа́луйста.",
+      "Три килогра́мма огурцо́в, пожа́луйста.",
+      "Два килогра́мма огурцо́в, спа́сибо."
+     ],
+     "reponse": "Два килогра́мма огурцо́в, пожа́луйста."
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bienvenue dans la leçon sept du cours « Le russe pour francophones » sur Russtudy ! Aujourd'hui, direction le marché Danilovski à Moscou. Thomas fait ses premières courses avec Dima. Objectif : apprendre à dire « j'ai » et « je n'ai pas » en russe, demander des quantités et découvrir le génitif, un cas essentiel.",
+   "ecran": "Vue aérienne 3D du marché Danilovski qui se rapproche en travelling. Titre de la leçon en surimpression : « У меня есть… Родительный падеж ». Les objectifs défilent à gauche.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "À la fin de cette leçon, vous saurez exprimer la possession, l'absence, demander un prix et une quantité au marché. Vous maîtriserez les terminaisons du génitif singulier et la règle des nombres. Commençons !",
+   "ecran": "Les quatre objectifs apparaissent un à un en bulles animées. Fondu vers l'entrée du marché où Thomas et Dima arrivent.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Тома́с, э́то Дани́ловский ры́нок! Здесь мы покупа́ем фру́кты, о́вощи и сыр.",
+   "ecran": "Dima écarte les bras devant la halle vitrée. Caméra panoramique sur les étals colorés. Sous-titres français en bas.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v04",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Отли́чно! У меня́ есть спи́сок. Я хочу́ купи́ть я́блоки, помидо́ры и сыр.",
+   "ecran": "Thomas déplie sa liste. Gros plan sur le papier avec les mots я́блоки, помидо́ры, сыр. Il pointe chaque mot.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Дима́, у меня́ нет вре́мени. Ско́лько сто́ят я́блоки?",
+   "ecran": "Thomas regarde sa montre avec inquiétude, puis pointe les pommes. Zoom sur l'étiquette de prix.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "babushka_zina",
+   "langue": "ru",
+   "texte": "Здра́вствуйте! Что вам ну́жно?",
+   "ecran": "La babouchka Zinaïda lève les yeux de sa balance, sourit. Son tablier à fleurs est bien visible.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Ско́лько сто́ят я́блоки?",
+   "ecran": "Gros plan sur les pommes rouges. Une étiquette 3D « 150 ₽/кг » apparaît. Thomas pointe du doigt.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "babushka_zina",
+   "langue": "ru",
+   "texte": "Сто пятьдеся́т рубле́й за килогра́мм. Попробу́йте, о́чень вку́сные!",
+   "ecran": "Elle coupe une pomme en deux, tend un morceau. Animation du couteau et de la pomme. Le prix s'affiche en grand.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "М-м, вку́сный! Килогра́мм я́блок, пожа́луйста.",
+   "ecran": "Thomas croque, ferme les yeux. Il lève un doigt pour « un kilo ». La babouchka pèse les pommes sur la balance.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "А у вас есть помидо́ры?",
+   "ecran": "Dima se penche sur un cageot. Caméra en plongée sur les tomates bien rouges.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "babushka_zina",
+   "langue": "ru",
+   "texte": "Да, коне́чно. Две́сти рубле́й за килогра́мм.",
+   "ecran": "Elle soulève un cageot de tomates. Étiquette 3D « 200 ₽/кг » apparaît.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Два килогра́мма помидо́ров, пожа́луйста.",
+   "ecran": "Dima montre deux doigts. La balance affiche 2,0 кг. Animation de pesée.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "У меня́ нет сы́ра до́ма. Ско́лько сто́ит сыр?",
+   "ecran": "Thomas fait non de la tête, puis pointe l'étal de fromages. Zoom sur les meules rondes.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "babushka_zina",
+   "langue": "ru",
+   "texte": "Три́ста рубле́й за килогра́мм. Попробу́йте!",
+   "ecran": "Elle coupe un morceau avec un fil à fromage. Étiquette « 300 ₽/кг ». Elle tend le morceau.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Сто гра́ммов сы́ра, пожа́луйста.",
+   "ecran": "Thomas fait un petit geste de la main. La balance affiche 100 г. Le fromage est enveloppé dans du papier.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Тома́с, ты сказа́л: «У меня́ нет вре́мени!» А у тебя́ уже́ три паке́та!",
+   "ecran": "Dima rit et compte les trois sacs dans les bras de Thomas. Thomas regarde ses sacs, surpris, puis rit.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Спа́сибо! У меня́ есть фру́кты, о́вощи и сыр. Отли́чный день!",
+   "ecran": "Thomas lève ses sacs fièrement. La babouchka fait un signe de la main. Fondu vers la section vocabulaire.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Très bien ! Passons au vocabulaire. Répétez chaque mot après le signal. Attention à l'accent tonique, marqué par la syllabe en majuscules.",
+   "ecran": "Grille 3D avec les 19 mots du vocabulaire disposés sur des étiquettes de marché. Chaque mot s'illumine à son tour.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Я́блоко. Помидо́р. Огуре́ц. Сыр. Карто́фель. Морко́вь.",
+   "ecran": "Chaque fruit/légume apparaît en 3D à côté du mot écrit. Animation de rotation lente.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Рубль. Копе́йка. Килогра́мм. Цена́. Де́ньги. Ры́нок.",
+   "ecran": "Pièces et billets 3D tournoient. Une balance affiche « 1 кг ». Pancarte « ЦЕНА ».",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Сто́ить. Покупа́ть. Продава́ть. Вку́сный. Све́жий. Попробовать. Паке́т.",
+   "ecran": "Verbes et adjectifs sur des bulles animées. Une main 3D goûte un morceau de fromage.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la grammaire. Le génitif est le cas de la possession et de l'absence. En russe, on ne dit pas « j'ai » avec un verbe avoir. On dit : У меня есть, littéralement « chez moi il y a ». Regardez le tableau.",
+   "ecran": "Le tableau des terminaisons du génitif singulier apparaît en 3D, colonnes colorées par genre. Animation : стол → стола́, книга → книги, окно → окна.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Pour la négation : У меня нет плюс génitif. « Je n'ai pas de livre » devient У меня нет книги. Le nom passe au génitif. C'est la grande différence avec le français : pas de verbe avoir, pas de « de » séparé — tout est dans la structure У + génitif + нет.",
+   "ecran": "Animation : la phrase У меня есть книга se transforme en У меня нет книги. Le mot книги change de couleur (rouge) pour montrer le changement de cas.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Deuxième point : après les nombres. Deux, trois, quatre sont suivis du génitif singulier : два яблока, три помидора. Mais cinq et plus sont suivis du génitif pluriel : пять яблок, шесть помидоров. Mémorisez cette règle, elle est très fréquente au marché !",
+   "ecran": "Schéma animé : les nombres 2-3-4 d'un côté (gén. sing.), 5+ de l'autre (gén. pl.). Des pommes apparaissent en comptant : 2 pommes → « два яблока », 5 pommes → « пять яблок ».",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Prononciation maintenant. Le son [ц] n'existe pas en français. C'est un « ts » sec, comme dans l'anglais « cats ». Répétez : цена́, огуре́ц, конце́. Et rappelez-vous : après ц, on écrit ы, jamais и.",
+   "ecran": "Gros plan 3D sur une bouche articulée produisant [ц]. Ondes sonores. Les mots цена́, огуре́ц, конце́ s'affichent avec le ц en rouge.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Deuxième difficulté : la différence entre [ш] et [щ]. [ш] est dur et bref, comme « ch » en français. [щ] est long, mou, presque sifflé. Comparez : ша́шка, « dame » au jeu, et щётка, « brosse ». Répétez le virelangue : «Щуку тащу, тащу, не отпущу».",
+   "ecran": "Deux ondes sonores côte à côte : une courte [ш], une longue [щ]. Animation de la langue en coupe. Le virelangue défile en karaoké.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Un mot de culture : le marché russe, ou рынок, est un lieu vivant. On goûte avant d'acheter, on discute avec la vendeuse, on négocie un peu. Les babouchkas vendent souvent leurs propres légumes. On dit « на рынке » avec la préposition на, comme vous l'avez vu à la leçon cinq.",
+   "ecran": "Panoramique 3D sur le marché : babouchka qui tend un morceau de fromage, clients qui goûtent, balance à plateau. Ambiance sonore de marché.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons aux exercices. Premier exercice : un QCM. Choisissez la bonne forme du génitif. Lisez bien la phrase et identifiez le cas requis. Vous avez quatre choix, un seul est correct.",
+   "ecran": "Écran d'exercice QCM. Cinq questions défilent. Boutons radio pour chaque choix. Un chronomètre doux en haut à droite.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Deuxième exercice : texte à trous. Complétez chaque phrase avec la forme correcte du génitif. Écrivez votre réponse dans le champ prévu.",
+   "ecran": "Cinq phrases à trous apparaissent sur un fond de marché. Champ de saisie sous chaque trou. Bouton « Vérifier ».",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Troisième exercice : association. Reliez chaque nom au nominatif à sa forme au génitif singulier. Glissez-déposez ou cliquez pour associer.",
+   "ecran": "Deux colonnes : noms au nominatif à gauche, formes au génitif à droite. Lignes de connexion animées quand on associe.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Quatrième exercice : remise en ordre. Replacez les mots dans le bon ordre pour former une phrase correcte. Cliquez sur les mots dans l'ordre souhaité.",
+   "ecran": "Mots en désordre sur des étiquettes 3D flottantes. L'apprenant clique pour les ranger sur une ligne. Cinq phrases.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Cinquième exercice : traduction. Traduisez ces cinq phrases du français au russe. Utilisez les structures vues aujourd'hui : У + génitif + есть/нет, et le génitif après les nombres.",
+   "ecran": "Cinq phrases françaises à gauche, champ de saisie en russe à droite. Clavier cyrillique virtuel disponible.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Sixième et dernier exercice : écoute. Vous entendrez la voix de la babouchka Zinaïda. Écoutez attentivement et cochez la phrase que vous entendez. Vous pouvez réécouter deux fois.",
+   "ecran": "Icône de haut-parleur animée. Quatre choix par item. Bouton « Réécouter ». La voix de la babouchka est jouée.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo, vous avez terminé la leçon sept ! Récapitulons : У меня есть — j'ai. У меня нет — je n'ai pas, suivi du génitif. Le génitif singulier : -а/-я au masculin et neutre, -ы/-и au féminin. Après 2-3-4 : génitif singulier ; après 5 et plus : génitif pluriel. Et au marché, n'oubliez pas : on goûte avant d'acheter !",
+   "ecran": "Tableau récapitulatif animé avec les quatre règles clés. Thomas et Dima font un signe de la main depuis le marché. Confettis légers.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "À la prochaine leçon, nous verrons comment se déplacer en ville et utiliser les verbes de mouvement. Дима вас ждёт ! À bientôt sur Russtudy !",
+   "ecran": "Fondu vers un plan de Moscou avec le métro en arrière-plan. Logo Russtudy. Bouton « Leçon suivante ».",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "У меня́ есть спи́сок.",
+   "natif": "J'ai une liste."
+  },
+  {
+   "cible": "У меня́ нет сы́ра.",
+   "natif": "Je n'ai pas de fromage."
+  },
+  {
+   "cible": "Ско́лько сто́ят я́блоки?",
+   "natif": "Combien coûtent les pommes ?"
+  },
+  {
+   "cible": "Два килогра́мма помидо́ров, пожа́луйста.",
+   "natif": "Deux kilos de tomates, s'il vous plaît."
+  },
+  {
+   "cible": "Сто пятьдеся́т рубле́й за килогра́мм.",
+   "natif": "Cent cinquante roubles le kilo."
+  },
+  {
+   "cible": "У тебя́ уже́ три паке́та!",
+   "natif": "Tu as déjà trois sacs !"
+  }
+ ],
+ "controle": []
+}
