@@ -1,0 +1,62 @@
+Tu es lexicographe RH et expert en recrutement international. Tu construis un
+dictionnaire de compétences professionnelles pour un générateur de CV qui lit des
+offres d'emploi en français, anglais, arabe et russe.
+
+SECTEUR À TRAITER : {SECTEUR}
+
+OBJECTIF
+Lister de façon exhaustive les compétences que les recruteurs de ce secteur
+demandent réellement dans les offres d'emploi : outils et logiciels, méthodes,
+normes et certifications, savoir-faire métier, compétences transverses propres au
+secteur. Vise 60 à 120 compétences. Aucune compétence inventée, aucun logiciel
+qui n'existe pas.
+
+POUR CHAQUE COMPÉTENCE, DONNE :
+- id : identifiant court en minuscules avec des tirets (ex. "google-tag-manager")
+- label : { fr, en, ar, ru }. Le nom tel qu'un recruteur natif l'écrirait, pas
+  une traduction mot à mot. Les noms de marque et de logiciel restent en lettres
+  latines dans toutes les langues.
+- patterns : les façons dont la compétence apparaît dans une offre, en minuscules
+  et SANS ACCENTS : synonymes, abréviations, variantes d'orthographe, formes en
+  arabe et en russe (radical russe sans terminaison, ex. "переговор").
+  Règles :
+  * un motif de 3 caractères ou moins seulement s'il est sans ambiguïté
+    ("seo", "sql" oui ; "ai", "it", "pm" non)
+  * pas de mot trop général qui déclencherait de faux positifs ("gestion",
+    "client", "qualite" seuls sont interdits)
+  * 3 à 10 motifs par compétence
+- category : "outil" | "methode" | "norme" | "metier" | "transverse" | "langue"
+- topics : 1 à 3 thèmes parmi web, seo, marketing, business, project,
+  consulting, erp, textile, quality, engineering, data, ai, finance, rh,
+  logistique, sante, juridique, education, btp, hotellerie, industrie, design.
+  Si aucun ne convient, propose un nouveau thème en un mot.
+- level : "courant" (demandé dans la plupart des offres du secteur),
+  "frequent" ou "specialise"
+- related : 3 à 6 id de compétences voisines (celles qu'on demande souvent
+  ensemble)
+- jobs : 2 à 5 intitulés de poste typiques en français qui la demandent
+
+FORMAT DE SORTIE
+Uniquement un JSON valide, sans texte avant ni après, sans commentaire :
+{
+  "sector": "{SECTEUR}",
+  "skills": [
+    {
+      "id": "google-tag-manager",
+      "label": { "fr": "Google Tag Manager", "en": "Google Tag Manager",
+                 "ar": "Google Tag Manager", "ru": "Google Tag Manager" },
+      "patterns": ["google tag manager", "tag manager", "gtm"],
+      "category": "outil",
+      "topics": ["marketing", "seo"],
+      "level": "frequent",
+      "related": ["google-analytics", "google-ads", "a-b-testing"],
+      "jobs": ["Chargé de marketing digital", "Consultant SEO", "Traffic manager"]
+    }
+  ]
+}
+
+CONTRÔLE AVANT DE RÉPONDRE
+- Chaque id cité dans related existe dans ta liste ; sinon retire-le.
+- Pas de doublon : une même compétence n'apparaît qu'une fois, avec tous ses
+  synonymes dans patterns.
+- Tous les patterns sont en minuscules et sans accents.
