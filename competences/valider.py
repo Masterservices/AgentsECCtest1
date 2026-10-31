@@ -124,6 +124,178 @@ def fusionner(a, b):
     a["level"] = min(a["level"], b["level"], key=rang.get)
 
 
+FIN_RU = sorted(["ование", "ение", "ания", "ения", "ость", "ости", "ами", "ями", "ого", "его", "ому", "ему", "ыми", "ими",
+                 "ах", "ях", "ов", "ев", "ой", "ей", "ий", "ый", "ая", "яя", "ое", "ее", "ие", "ые", "ую", "юю", "ом", "ем",
+                 "ам", "ям", "а", "я", "ы", "и", "е", "у", "ю", "о"], key=len, reverse=True)
+LANGUES = {"english": "anglais", "arabic": "arabe", "german": "allemand", "chinese": "chinois", "mandarin": "chinois",
+           "spanish": "espagnol", "french": "francais", "russian": "russe", "italian": "italien", "portuguese": "portugais",
+           "turkish": "turc", "japanese": "japonais", "dutch": "neerlandais"}
+
+
+# relecture Claude : doublons d'outils non détectés automatiquement (perdu -> gardé) et outils arrêtés
+FUSIONS = {"facebook-ads": "meta-ads", "sap-hr": "sap-hcm", "oracle-netsuite": "netsuite",
+           "microsoft-dynamics-nav": "dynamics-nav", "arabe-commercial": "arabe", "russe-commercial": "russe"}
+RETIRES = {"google-optimize"}  # arrêté par Google en septembre 2023
+MARQUES_MOTS_COURANTS = {"tableau", "notion", "sage", "lever", "doctrine", "luminance", "teams", "canvas", "prisma", "unity",
+                         "buffer", "indeed", "relativity", "epic", "spring", "glint", "factorial"}
+REMPLACEMENTS = {"buffer": ["buffer.com", "buffer app", "buffer publish"], "indeed": ["indeed.com", "indeed.fr", "sur indeed"],
+                 "prisma": ["prisma orm", "prisma.io", "prisma client"]}
+OUTIL_GENERIQUE = re.compile(r"system|tools|sensors|whiteboard|databases|record|advanced|suite|services", re.I)
+MOTS_VIDES = {"the", "and", "for", "pro", "cloud", "suite", "data", "app", "studio", "software", "management", "online",
+              "web", "center", "manager", "system", "systems"}
+
+
+def radical_ru(texte: str) -> str:
+    mots = []
+    for m in texte.split():
+        if len(m) > 5 and re.fullmatch(r"[а-яй-]+", m):
+            for f in FIN_RU:
+                if m.endswith(f) and len(m) - len(f) >= 4:
+                    m = m[: -len(f)]
+                    break
+        mots.append(m)
+    return " ".join(mots)
+
+
+def score_motif(p, s):
+    """Pertinence d'un motif pour une compétence : 3 = c'est son nom, 2 = contenu dans son nom, 0 sinon."""
+    noms = {sans_accents(s["label"][l]) for l in ("fr", "en")} | {s["id"].replace("-", " ")}
+    if p in noms:
+        return 3
+    return 2 if any(p in n for n in noms) else 0
+
+
+def consolider(skills, alias, notes):
+    # 1. une seule compétence par langue (anglais-commercial, english, anglais-rh -> anglais)
+    for s in list(skills.values()):
+        if s["category"] != "langue":
+            continue
+        mot = norm_id(s["label"]["en"]).split("-")[0]
+        racine = LANGUES.get(mot)
+        if not racine or s["id"] == racine:
+            continue
+        if racine in skills:
+            fusionner(skills[racine], s)
+        else:
+            s2 = dict(s, id=racine)
+            s2["label"] = dict(s["label"], fr=racine.capitalize(), en=mot.capitalize())
+            skills[racine] = s2
+        del skills[s["id"]]
+        alias[s["id"]] = racine
+        notes["variante de langue fusionnée"] += 1
+    # 2. quasi-doublons : même id sans tirets, id suffixé (problem-solving-data), ou motifs très proches
+    def compact(i): return i.replace("-", "")
+    index = defaultdict(set)
+    for s in skills.values():
+        for p in s["patterns"]:
+            index[p].add(s["id"])
+    paires = {tuple(sorted((a, b))) for ids in index.values() for a in ids for b in ids if a < b}
+    parent = {i: i for i in skills}
+    def racine(i):
+        while parent[i] != i:
+            i = parent[i]
+        return i
+    for a, b in paires:
+        A, B = skills[a], skills[b]
+        pa, pb = set(A["patterns"]), set(B["patterns"])
+        commun = len(pa & pb)
+        meme = compact(a) == compact(b) or a.startswith(b + "-") or b.startswith(a + "-")
+        if (meme and commun) or (commun >= 2 and commun / len(pa | pb) >= 0.5):
+            ra, rb = racine(a), racine(b)
+            if ra != rb:
+                garde, perd = sorted((ra, rb), key=lambda i: (-len(skills[i]["sectors"]), len(i)))
+                parent[perd] = garde
+    for i in list(skills):
+        r = racine(i)
+        if r != i:
+            fusionner(skills[r], skills[i])
+            alias[i] = r
+            del skills[i]
+            notes["quasi-doublon fusionné"] += 1
+    # 3. motifs arabes et russes tirés des libellés (formes réelles des offres dans ces langues)
+    for s in skills.values():
+        ajouts = []
+        ar = sans_accents(s["label"]["ar"])
+        if re.search("[؀-ۿ]", ar):
+            ajouts.append(ar)
+        ru = sans_accents(s["label"]["ru"])
+        if re.search("[а-я]", ru):
+            ajouts.append(radical_ru(ru))
+        for p in ajouts:
+            if p and p not in s["patterns"] and p not in GENERIQUES and len(s["patterns"]) < 10:
+                s["patterns"].append(p)
+                notes["motif ar/ru ajouté depuis le libellé"] += 1
+    # 4. corrections relues par Claude : doublons d'outils aux noms différents, outil arrêté, variantes de langue
+    for perd, garde in FUSIONS.items():
+        if perd not in skills:
+            continue
+        if garde in skills:
+            fusionner(skills[garde], skills[perd])
+        else:  # la compétence cible n'existe pas encore : on renomme
+            skills[garde] = dict(skills[perd], id=garde)
+            skills[garde]["label"] = dict(skills[perd]["label"], fr=garde.capitalize())
+        del skills[perd]
+        alias[perd] = garde
+        notes["doublon relu fusionné"] += 1
+    for i in RETIRES:
+        if skills.pop(i, None):
+            notes["outil arrêté retiré"] += 1
+    if "pandas" in skills:
+        skills["pandas"]["label"] = {l: "Pandas" for l in ("fr", "en", "ar", "ru")}
+    # 5. outils de marque : chaque motif doit contenir le nom de la marque (pas de synonyme générique)
+    for s in skills.values():
+        if s["category"] != "outil" or OUTIL_GENERIQUE.search(s["label"]["en"]) or re.fullmatch(r"[A-Z0-9 /&+.-]{2,6}", s["label"]["en"]):
+            continue
+        jetons = {t for t in re.split(r"[^a-z0-9+#]+", sans_accents(s["label"]["en"]) + " " + s["id"].replace("-", " "))
+                  if len(t) >= 3 and t not in MOTS_VIDES}
+        garde = [p for p in s["patterns"] if any(t in p for t in jetons)]
+        if garde and len(garde) < len(s["patterns"]):
+            notes["motif non ancré retiré d'un outil de marque"] += len(s["patterns"]) - len(garde)
+            s["patterns"] = garde
+        # variantes d'écriture réelles d'un nom en plusieurs mots : « power bi », « powerbi », « power-bi »
+        for p in list(s["patterns"]):
+            if " " in p and re.fullmatch(r"[a-z0-9 .]+", p):
+                for v in (p.replace(" ", ""), p.replace(" ", "-")):
+                    if v not in s["patterns"] and len(s["patterns"]) < 4:
+                        s["patterns"].append(v)
+                        notes["variante d'écriture ajoutée à un outil"] += 1
+    # marques qui sont aussi des mots courants (« tableau de bord », « sage-femme », « spring ») : pas de motif nu
+    for s in skills.values():
+        if s["category"] != "outil":
+            continue
+        for mot in MARQUES_MOTS_COURANTS & set(s["patterns"]):
+            s["patterns"].remove(mot)
+            notes["marque = mot courant : motif nu retiré"] += 1
+            for q in REMPLACEMENTS.get(mot, []):
+                if q not in s["patterns"]:
+                    s["patterns"].append(q)
+    # relecture des motifs arabes/russes d'un mot par Dialagram (revue/mauvais.json : [[id, motif, raison], ...])
+    revue = ICI / "revue" / "mauvais.json"
+    if revue.exists():
+        for i, motif, *_ in json.loads(revue.read_text(encoding="utf-8")):
+            while i not in skills and i in alias and alias[i] != i:
+                i = alias[i]
+            p = sans_accents(motif)
+            if i in skills and p in skills[i]["patterns"] and len(skills[i]["patterns"]) > 1:
+                skills[i]["patterns"].remove(p)
+                notes["motif ar/ru rejeté par la relecture"] += 1
+    # 6. un motif partagé reste seulement chez la (les) compétence(s) dont c'est le nom
+    usage = defaultdict(list)
+    for s in skills.values():
+        for p in s["patterns"]:
+            usage[p].append(s["id"])
+    for p, ids in usage.items():
+        if len(ids) < 2:
+            continue
+        scores = {i: score_motif(p, skills[i]) for i in ids}
+        best = max(scores.values())
+        gagnants = [i for i in ids if scores[i] == best] if best else [max(ids, key=lambda i: len(skills[i]["sectors"]))]
+        for i in ids:
+            if i not in gagnants and len(skills[i]["patterns"]) > 1:
+                skills[i]["patterns"].remove(p)
+                notes["motif partagé retiré d'une compétence voisine"] += 1
+
+
 def main():
     secteurs = json.loads((ICI / "secteurs.json").read_text(encoding="utf-8"))
     skills, par_secteur, notes = {}, {}, Counter()
@@ -150,12 +322,17 @@ def main():
                 skills[sid] = s
                 alias.setdefault(cle_alias, sid)
         par_secteur[cle] = (n, brut.get("model", ""))
+    consolider(skills, alias, notes)
     # related : uniquement des id existants, sans soi-même, 6 au plus
     ids = set(skills)
     for s in skills.values():
         rel = []
         for r in s["related"]:
-            r = r if r in ids else alias.get(r)
+            for _ in range(5):  # suit les fusions successives jusqu'à l'id final
+                if r in ids or r not in alias:
+                    break
+                r = alias[r]
+            r = r if r in ids else None
             if r and r != s["id"] and r not in rel:
                 rel.append(r)
         notes["related inexistant retiré"] += len(s["related"]) - len(rel)

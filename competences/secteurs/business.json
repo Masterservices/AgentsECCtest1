@@ -1,0 +1,3441 @@
+{
+ "sector": "Commerce, vente et développement commercial",
+ "key": "business",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "salesforce",
+   "label": {
+    "fr": "Salesforce",
+    "en": "Salesforce",
+    "ar": "Salesforce",
+    "ru": "Salesforce"
+   },
+   "patterns": [
+    "salesforce",
+    "sf crm",
+    "sales cloud",
+    "force.com",
+    "salesforce crm"
+   ],
+   "category": "outil",
+   "topics": [
+    "business",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "hubspot-crm",
+    "microsoft-dynamics-365",
+    "pipeline-management",
+    "pipedrive"
+   ],
+   "jobs": [
+    "Commercial BtoB",
+    "Key Account Manager",
+    "Business Developer",
+    "Sales Operations Manager"
+   ]
+  },
+  {
+   "id": "hubspot-crm",
+   "label": {
+    "fr": "HubSpot CRM",
+    "en": "HubSpot CRM",
+    "ar": "HubSpot CRM",
+    "ru": "HubSpot CRM"
+   },
+   "patterns": [
+    "hubspot",
+    "hubspot crm",
+    "hubspot sales",
+    "hubspot marketing"
+   ],
+   "category": "outil",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "salesforce",
+    "inbound-sales",
+    "email-marketing",
+    "pipedrive"
+   ],
+   "jobs": [
+    "Business Developer",
+    "SDR",
+    "Inbound Sales Representative",
+    "Marketing Commercial"
+   ]
+  },
+  {
+   "id": "pipedrive",
+   "label": {
+    "fr": "Pipedrive",
+    "en": "Pipedrive",
+    "ar": "Pipedrive",
+    "ru": "Pipedrive"
+   },
+   "patterns": [
+    "pipedrive",
+    "pipe drive"
+   ],
+   "category": "outil",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "salesforce",
+    "hubspot-crm",
+    "pipeline-management",
+    "zoho-crm"
+   ],
+   "jobs": [
+    "Commercial BtoB",
+    "Sales Manager",
+    "Business Developer"
+   ]
+  },
+  {
+   "id": "zoho-crm",
+   "label": {
+    "fr": "Zoho CRM",
+    "en": "Zoho CRM",
+    "ar": "Zoho CRM",
+    "ru": "Zoho CRM"
+   },
+   "patterns": [
+    "zoho",
+    "zoho crm",
+    "zoho one",
+    "zoho bigin"
+   ],
+   "category": "outil",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "salesforce",
+    "hubspot-crm",
+    "freshsales",
+    "pipedrive"
+   ],
+   "jobs": [
+    "Commercial BtoB",
+    "Responsable commercial",
+    "Sales Operations"
+   ]
+  },
+  {
+   "id": "microsoft-dynamics-365",
+   "label": {
+    "fr": "Microsoft Dynamics 365",
+    "en": "Microsoft Dynamics 365",
+    "ar": "Microsoft Dynamics 365",
+    "ru": "Microsoft Dynamics 365"
+   },
+   "patterns": [
+    "dynamics 365",
+    "dynamics365",
+    "ms dynamics",
+    "d365",
+    "dynamics crm",
+    "dynamics sales"
+   ],
+   "category": "outil",
+   "topics": [
+    "business",
+    "erp"
+   ],
+   "level": "frequent",
+   "related": [
+    "salesforce",
+    "sap-sd",
+    "microsoft-dynamics-nav",
+    "power-bi"
+   ],
+   "jobs": [
+    "Key Account Manager",
+    "Sales Operations Manager",
+    "Commercial Grands Comptes"
+   ]
+  },
+  {
+   "id": "freshsales",
+   "label": {
+    "fr": "Freshsales",
+    "en": "Freshsales",
+    "ar": "Freshsales",
+    "ru": "Freshsales"
+   },
+   "patterns": [
+    "freshsales",
+    "freshworks crm",
+    "fresh sales"
+   ],
+   "category": "outil",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "hubspot-crm",
+    "zoho-crm",
+    "pipedrive"
+   ],
+   "jobs": [
+    "Business Developer",
+    "SDR",
+    "Commercial BtoB"
+   ]
+  },
+  {
+   "id": "linkedin-sales-navigator",
+   "label": {
+    "fr": "LinkedIn Sales Navigator",
+    "en": "LinkedIn Sales Navigator",
+    "ar": "LinkedIn Sales Navigator",
+    "ru": "LinkedIn Sales Navigator"
+   },
+   "patterns": [
+    "sales navigator",
+    "linkedin sales",
+    "linkedin sn",
+    "salesnav"
+   ],
+   "category": "outil",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "social-selling",
+    "apollo-io",
+    "waalaxy",
+    "prospection"
+   ],
+   "jobs": [
+    "Business Developer",
+    "SDR",
+    "Account Executive",
+    "Sales Hunter"
+   ]
+  },
+  {
+   "id": "apollo-io",
+   "label": {
+    "fr": "Apollo.io",
+    "en": "Apollo.io",
+    "ar": "Apollo.io",
+    "ru": "Apollo.io"
+   },
+   "patterns": [
+    "apollo.io",
+    "apollo io",
+    "apollo"
+   ],
+   "category": "outil",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "linkedin-sales-navigator",
+    "zoominfo",
+    "lusha",
+    "hunter-io"
+   ],
+   "jobs": [
+    "SDR",
+    "Business Developer",
+    "Sales Hunter",
+    "Lead Generation Specialist"
+   ]
+  },
+  {
+   "id": "zoominfo",
+   "label": {
+    "fr": "ZoomInfo",
+    "en": "ZoomInfo",
+    "ar": "ZoomInfo",
+    "ru": "ZoomInfo"
+   },
+   "patterns": [
+    "zoominfo",
+    "zoom info"
+   ],
+   "category": "outil",
+   "topics": [
+    "business",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "apollo-io",
+    "linkedin-sales-navigator",
+    "lusha"
+   ],
+   "jobs": [
+    "SDR",
+    "Business Developer",
+    "Sales Operations"
+   ]
+  },
+  {
+   "id": "lusha",
+   "label": {
+    "fr": "Lusha",
+    "en": "Lusha",
+    "ar": "Lusha",
+    "ru": "Lusha"
+   },
+   "patterns": [
+    "lusha"
+   ],
+   "category": "outil",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "apollo-io",
+    "kaspr",
+    "hunter-io",
+    "linkedin-sales-navigator"
+   ],
+   "jobs": [
+    "SDR",
+    "Business Developer",
+    "Sales Hunter"
+   ]
+  },
+  {
+   "id": "kaspr",
+   "label": {
+    "fr": "Kaspr",
+    "en": "Kaspr",
+    "ar": "Kaspr",
+    "ru": "Kaspr"
+   },
+   "patterns": [
+    "kaspr"
+   ],
+   "category": "outil",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "lusha",
+    "linkedin-sales-navigator",
+    "waalaxy"
+   ],
+   "jobs": [
+    "SDR",
+    "Business Developer",
+    "Sales Hunter"
+   ]
+  },
+  {
+   "id": "dropcontact",
+   "label": {
+    "fr": "Dropcontact",
+    "en": "Dropcontact",
+    "ar": "Dropcontact",
+    "ru": "Dropcontact"
+   },
+   "patterns": [
+    "dropcontact"
+   ],
+   "category": "outil",
+   "topics": [
+    "business",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "hunter-io",
+    "apollo-io",
+    "lemlist"
+   ],
+   "jobs": [
+    "SDR",
+    "Lead Generation Specialist",
+    "Growth Hacker"
+   ]
+  },
+  {
+   "id": "hunter-io",
+   "label": {
+    "fr": "Hunter.io",
+    "en": "Hunter.io",
+    "ar": "Hunter.io",
+    "ru": "Hunter.io"
+   },
+   "patterns": [
+    "hunter.io",
+    "hunter io",
+    "email hunter"
+   ],
+   "category": "outil",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "dropcontact",
+    "apollo-io",
+    "lemlist"
+   ],
+   "jobs": [
+    "SDR",
+    "Business Developer",
+    "Lead Generation Specialist"
+   ]
+  },
+  {
+   "id": "waalaxy",
+   "label": {
+    "fr": "Waalaxy",
+    "en": "Waalaxy",
+    "ar": "Waalaxy",
+    "ru": "Waalaxy"
+   },
+   "patterns": [
+    "waalaxy",
+    "prospectin"
+   ],
+   "category": "outil",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "linkedin-sales-navigator",
+    "phantombuster",
+    "lemlist",
+    "social-selling"
+   ],
+   "jobs": [
+    "Business Developer",
+    "SDR",
+    "Growth Hacker"
+   ]
+  },
+  {
+   "id": "phantombuster",
+   "label": {
+    "fr": "Phantombuster",
+    "en": "Phantombuster",
+    "ar": "Phantombuster",
+    "ru": "Phantombuster"
+   },
+   "patterns": [
+    "phantombuster",
+    "phantom buster"
+   ],
+   "category": "outil",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "waalaxy",
+    "linkedin-sales-navigator",
+    "lemlist"
+   ],
+   "jobs": [
+    "Growth Hacker",
+    "Business Developer",
+    "SDR"
+   ]
+  },
+  {
+   "id": "lemlist",
+   "label": {
+    "fr": "Lemlist",
+    "en": "Lemlist",
+    "ar": "Lemlist",
+    "ru": "Lemlist"
+   },
+   "patterns": [
+    "lemlist",
+    "lem list",
+    "lemwarm"
+   ],
+   "category": "outil",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "apollo-io",
+    "dropcontact",
+    "waalaxy",
+    "cold-emailing"
+   ],
+   "jobs": [
+    "SDR",
+    "Business Developer",
+    "Outbound Sales",
+    "Growth Hacker"
+   ]
+  },
+  {
+   "id": "shopify",
+   "label": {
+    "fr": "Shopify",
+    "en": "Shopify",
+    "ar": "Shopify",
+    "ru": "Shopify"
+   },
+   "patterns": [
+    "shopify",
+    "shopify plus"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "prestashop",
+    "magento",
+    "woocommerce",
+    "e-commerce"
+   ],
+   "jobs": [
+    "E-commerce Manager",
+    "Responsable e-commerce",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "prestashop",
+   "label": {
+    "fr": "PrestaShop",
+    "en": "PrestaShop",
+    "ar": "PrestaShop",
+    "ru": "PrestaShop"
+   },
+   "patterns": [
+    "prestashop",
+    "presta shop"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "shopify",
+    "magento",
+    "woocommerce",
+    "e-commerce"
+   ],
+   "jobs": [
+    "E-commerce Manager",
+    "Responsable e-commerce",
+    "Chef de projet e-commerce"
+   ]
+  },
+  {
+   "id": "magento",
+   "label": {
+    "fr": "Magento",
+    "en": "Magento",
+    "ar": "Magento",
+    "ru": "Magento"
+   },
+   "patterns": [
+    "magento",
+    "magento 2",
+    "adobe commerce"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "shopify",
+    "prestashop",
+    "mirakl",
+    "e-commerce"
+   ],
+   "jobs": [
+    "E-commerce Manager",
+    "Responsable e-commerce",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "woocommerce",
+   "label": {
+    "fr": "WooCommerce",
+    "en": "WooCommerce",
+    "ar": "WooCommerce",
+    "ru": "WooCommerce"
+   },
+   "patterns": [
+    "woocommerce",
+    "woo commerce",
+    "woo"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "shopify",
+    "prestashop",
+    "wordpress"
+   ],
+   "jobs": [
+    "E-commerce Manager",
+    "Responsable e-commerce"
+   ]
+  },
+  {
+   "id": "mirakl",
+   "label": {
+    "fr": "Mirakl",
+    "en": "Mirakl",
+    "ar": "Mirakl",
+    "ru": "Mirakl"
+   },
+   "patterns": [
+    "mirakl",
+    "marketplace mirakl"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "magento",
+    "e-commerce",
+    "marketplace-management"
+   ],
+   "jobs": [
+    "Marketplace Manager",
+    "Responsable marketplace",
+    "E-commerce Manager"
+   ]
+  },
+  {
+   "id": "sap-sd",
+   "label": {
+    "fr": "SAP SD",
+    "en": "SAP SD",
+    "ar": "SAP SD",
+    "ru": "SAP SD"
+   },
+   "patterns": [
+    "sap sd",
+    "sap sales and distribution",
+    "sap s/d"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-erp",
+    "microsoft-dynamics-365",
+    "oracle-netsuite"
+   ],
+   "jobs": [
+    "Administration des ventes",
+    "Sales Operations Manager",
+    "ADV"
+   ]
+  },
+  {
+   "id": "sap-erp",
+   "label": {
+    "fr": "SAP ERP",
+    "en": "SAP ERP",
+    "ar": "SAP ERP",
+    "ru": "SAP ERP"
+   },
+   "patterns": [
+    "sap",
+    "sap erp",
+    "sap s/4hana",
+    "sap s4",
+    "sap ecc"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "sap-sd",
+    "microsoft-dynamics-365",
+    "oracle-netsuite"
+   ],
+   "jobs": [
+    "Key Account Manager",
+    "Administration des ventes",
+    "Responsable commercial"
+   ]
+  },
+  {
+   "id": "oracle-netsuite",
+   "label": {
+    "fr": "Oracle NetSuite",
+    "en": "Oracle NetSuite",
+    "ar": "Oracle NetSuite",
+    "ru": "Oracle NetSuite"
+   },
+   "patterns": [
+    "netsuite",
+    "net suite",
+    "oracle netsuite"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-erp",
+    "microsoft-dynamics-365",
+    "sage"
+   ],
+   "jobs": [
+    "Sales Operations Manager",
+    "Administration des ventes"
+   ]
+  },
+  {
+   "id": "sage",
+   "label": {
+    "fr": "Sage",
+    "en": "Sage",
+    "ar": "Sage",
+    "ru": "Sage"
+   },
+   "patterns": [
+    "sage",
+    "sage 100",
+    "sage x3",
+    "sage 50"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-erp",
+    "oracle-netsuite",
+    "cegid"
+   ],
+   "jobs": [
+    "Administration des ventes",
+    "ADV",
+    "Commercial sédentaire"
+   ]
+  },
+  {
+   "id": "microsoft-dynamics-nav",
+   "label": {
+    "fr": "Microsoft Dynamics NAV",
+    "en": "Microsoft Dynamics NAV",
+    "ar": "Microsoft Dynamics NAV",
+    "ru": "Microsoft Dynamics NAV"
+   },
+   "patterns": [
+    "dynamics nav",
+    "navision",
+    "business central",
+    "dynamics bc"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "microsoft-dynamics-365",
+    "sap-erp",
+    "sage"
+   ],
+   "jobs": [
+    "Administration des ventes",
+    "ADV",
+    "Sales Operations"
+   ]
+  },
+  {
+   "id": "power-bi",
+   "label": {
+    "fr": "Power BI",
+    "en": "Power BI",
+    "ar": "Power BI",
+    "ru": "Power BI"
+   },
+   "patterns": [
+    "power bi",
+    "powerbi",
+    "pbi",
+    "dax"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "tableau",
+    "qlikview",
+    "excel-avance",
+    "sales-forecasting"
+   ],
+   "jobs": [
+    "Sales Analyst",
+    "Sales Operations Manager",
+    "Business Analyst"
+   ]
+  },
+  {
+   "id": "tableau",
+   "label": {
+    "fr": "Tableau",
+    "en": "Tableau",
+    "ar": "Tableau",
+    "ru": "Tableau"
+   },
+   "patterns": [
+    "tableau",
+    "tableau software",
+    "tableau desktop"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "power-bi",
+    "qlikview",
+    "looker"
+   ],
+   "jobs": [
+    "Sales Analyst",
+    "Business Analyst",
+    "Sales Operations"
+   ]
+  },
+  {
+   "id": "qlikview",
+   "label": {
+    "fr": "QlikView / Qlik Sense",
+    "en": "QlikView / Qlik Sense",
+    "ar": "QlikView / Qlik Sense",
+    "ru": "QlikView / Qlik Sense"
+   },
+   "patterns": [
+    "qlikview",
+    "qlik view",
+    "qlik sense",
+    "qlik"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "power-bi",
+    "tableau",
+    "excel-avance"
+   ],
+   "jobs": [
+    "Sales Analyst",
+    "Business Analyst"
+   ]
+  },
+  {
+   "id": "excel-avance",
+   "label": {
+    "fr": "Excel avancé",
+    "en": "Advanced Excel",
+    "ar": "إكسل متقدم",
+    "ru": "Продвинутый Excel"
+   },
+   "patterns": [
+    "excel avance",
+    "excel avancee",
+    "tableaux croises dynamiques",
+    "tcd",
+    "vba excel",
+    "pivot table",
+    "excel tcd",
+    "excel vba"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "power-bi",
+    "sales-forecasting",
+    "qlikview"
+   ],
+   "jobs": [
+    "Sales Analyst",
+    "Administration des ventes",
+    "ADV",
+    "Commercial sédentaire"
+   ]
+  },
+  {
+   "id": "google-analytics",
+   "label": {
+    "fr": "Google Analytics",
+    "en": "Google Analytics",
+    "ar": "Google Analytics",
+    "ru": "Google Analytics"
+   },
+   "patterns": [
+    "google analytics",
+    "ga4",
+    "ga 4",
+    "universal analytics"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "seo",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-tag-manager",
+    "google-ads",
+    "e-commerce"
+   ],
+   "jobs": [
+    "E-commerce Manager",
+    "Traffic Manager",
+    "Digital Sales Manager"
+   ]
+  },
+  {
+   "id": "google-tag-manager",
+   "label": {
+    "fr": "Google Tag Manager",
+    "en": "Google Tag Manager",
+    "ar": "Google Tag Manager",
+    "ru": "Google Tag Manager"
+   },
+   "patterns": [
+    "google tag manager",
+    "tag manager",
+    "gtm"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-analytics",
+    "google-ads"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "E-commerce Manager",
+    "Digital Marketing Manager"
+   ]
+  },
+  {
+   "id": "google-ads",
+   "label": {
+    "fr": "Google Ads",
+    "en": "Google Ads",
+    "ar": "Google Ads",
+    "ru": "Google Ads"
+   },
+   "patterns": [
+    "google ads",
+    "adwords",
+    "google adwords",
+    "sea"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-analytics",
+    "google-tag-manager",
+    "facebook-ads"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "E-commerce Manager",
+    "Digital Sales Manager"
+   ]
+  },
+  {
+   "id": "facebook-ads",
+   "label": {
+    "fr": "Meta Ads / Facebook Ads",
+    "en": "Meta Ads / Facebook Ads",
+    "ar": "إعلانات ميتا",
+    "ru": "Meta Ads / Facebook Ads"
+   },
+   "patterns": [
+    "facebook ads",
+    "meta ads",
+    "fb ads",
+    "ads manager"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-ads",
+    "tiktok-ads",
+    "social-selling"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "E-commerce Manager",
+    "Digital Sales"
+   ]
+  },
+  {
+   "id": "nielsen-retail",
+   "label": {
+    "fr": "Nielsen Retail / IQVIA",
+    "en": "Nielsen Retail / IQVIA",
+    "ar": "Nielsen Retail",
+    "ru": "Nielsen Retail"
+   },
+   "patterns": [
+    "nielsen",
+    "nielsen retail",
+    "iqvia",
+    "nielseniq",
+    "nielsen iq"
+   ],
+   "category": "outil",
+   "topics": [
+    "business",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "category-management",
+    "trade-marketing",
+    "merchandising"
+   ],
+   "jobs": [
+    "Category Manager",
+    "Trade Marketing Manager",
+    "Chef de secteur GMS"
+   ]
+  },
+  {
+   "id": "spin-selling",
+   "label": {
+    "fr": "SPIN Selling",
+    "en": "SPIN Selling",
+    "ar": "SPIN Selling",
+    "ru": "SPIN Selling"
+   },
+   "patterns": [
+    "spin selling",
+    "spin",
+    "methode spin",
+    "spin method"
+   ],
+   "category": "methode",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "meddic",
+    "challenger-sale",
+    "solution-selling",
+    "negociation-commerciale"
+   ],
+   "jobs": [
+    "Commercial BtoB",
+    "Account Executive",
+    "Sales Manager",
+    "Business Developer"
+   ]
+  },
+  {
+   "id": "meddic",
+   "label": {
+    "fr": "MEDDIC / MEDDPICC",
+    "en": "MEDDIC / MEDDPICC",
+    "ar": "MEDDIC",
+    "ru": "MEDDIC"
+   },
+   "patterns": [
+    "meddic",
+    "meddpicc",
+    "meddipcc"
+   ],
+   "category": "methode",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "spin-selling",
+    "challenger-sale",
+    "pipeline-management",
+    "solution-selling"
+   ],
+   "jobs": [
+    "Account Executive",
+    "Commercial BtoB",
+    "Sales Manager"
+   ]
+  },
+  {
+   "id": "challenger-sale",
+   "label": {
+    "fr": "Challenger Sale",
+    "en": "Challenger Sale",
+    "ar": "Challenger Sale",
+    "ru": "Challenger Sale"
+   },
+   "patterns": [
+    "challenger sale",
+    "challenger sales",
+    "methode challenger"
+   ],
+   "category": "methode",
+   "topics": [
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "spin-selling",
+    "meddic",
+    "solution-selling",
+    "consultative-selling"
+   ],
+   "jobs": [
+    "Account Executive",
+    "Commercial Grands Comptes",
+    "Sales Manager"
+   ]
+  },
+  {
+   "id": "solution-selling",
+   "label": {
+    "fr": "Solution Selling",
+    "en": "Solution Selling",
+    "ar": "Solution Selling",
+    "ru": "Solution Selling"
+   },
+   "patterns": [
+    "solution selling",
+    "vente par solution",
+    "solution sell"
+   ],
+   "category": "methode",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "spin-selling",
+    "challenger-sale",
+    "consultative-selling"
+   ],
+   "jobs": [
+    "Account Executive",
+    "Commercial BtoB",
+    "Ingénieur commercial"
+   ]
+  },
+  {
+   "id": "sandler",
+   "label": {
+    "fr": "Sandler Training",
+    "en": "Sandler Training",
+    "ar": "Sandler Training",
+    "ru": "Sandler Training"
+   },
+   "patterns": [
+    "sandler",
+    "sandler training",
+    "methode sandler"
+   ],
+   "category": "methode",
+   "topics": [
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "spin-selling",
+    "meddic",
+    "challenger-sale"
+   ],
+   "jobs": [
+    "Account Executive",
+    "Sales Manager",
+    "Commercial BtoB"
+   ]
+  },
+  {
+   "id": "consultative-selling",
+   "label": {
+    "fr": "Vente consultative",
+    "en": "Consultative Selling",
+    "ar": "البيع الاستشاري",
+    "ru": "Консультативные продажи"
+   },
+   "patterns": [
+    "vente consultative",
+    "consultative selling",
+    "consultative sales",
+    "vente conseil"
+   ],
+   "category": "methode",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "solution-selling",
+    "spin-selling",
+    "challenger-sale",
+    "negociation-commerciale"
+   ],
+   "jobs": [
+    "Commercial BtoB",
+    "Account Executive",
+    "Ingénieur commercial",
+    "Chef de projet commercial"
+   ]
+  },
+  {
+   "id": "negociation-commerciale",
+   "label": {
+    "fr": "Négociation commerciale",
+    "en": "Sales Negotiation",
+    "ar": "التفاوض التجاري",
+    "ru": "Коммерческие переговоры"
+   },
+   "patterns": [
+    "negociation commerciale",
+    "negociation",
+    "sales negotiation",
+    "techniques de negociation",
+    "переговор"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "closing",
+    "objection-handling",
+    "consultative-selling",
+    "spin-selling"
+   ],
+   "jobs": [
+    "Commercial BtoB",
+    "Key Account Manager",
+    "Business Developer",
+    "Directeur commercial"
+   ]
+  },
+  {
+   "id": "closing",
+   "label": {
+    "fr": "Closing / Techniques de closing",
+    "en": "Closing Techniques",
+    "ar": "إتمام الصفقات",
+    "ru": "Закрытие сделок"
+   },
+   "patterns": [
+    "closing",
+    "closing techniques",
+    "techniques de closing",
+    "close deal",
+    "закрыт"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "negociation-commerciale",
+    "objection-handling",
+    "meddic"
+   ],
+   "jobs": [
+    "Account Executive",
+    "Closer",
+    "Commercial BtoB",
+    "Business Developer"
+   ]
+  },
+  {
+   "id": "objection-handling",
+   "label": {
+    "fr": "Traitement des objections",
+    "en": "Objection Handling",
+    "ar": "معالجة الاعتراضات",
+    "ru": "Работа с возражениями"
+   },
+   "patterns": [
+    "traitement des objections",
+    "objection handling",
+    "gerer les objections",
+    "handling objections",
+    "возражен"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "negociation-commerciale",
+    "closing",
+    "spin-selling"
+   ],
+   "jobs": [
+    "Commercial BtoB",
+    "SDR",
+    "Account Executive",
+    "Télévendeur"
+   ]
+  },
+  {
+   "id": "prospection",
+   "label": {
+    "fr": "Prospection commerciale",
+    "en": "Sales Prospecting",
+    "ar": "البحث عن العملاء المحتملين",
+    "ru": "Поиск клиентов"
+   },
+   "patterns": [
+    "prospection",
+    "prospection commerciale",
+    "prospecting",
+    "chasse commerciale",
+    "поиск клиент"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "cold-emailing",
+    "cold-calling",
+    "linkedin-sales-navigator",
+    "social-selling"
+   ],
+   "jobs": [
+    "Business Developer",
+    "SDR",
+    "Sales Hunter",
+    "Commercial terrain"
+   ]
+  },
+  {
+   "id": "cold-emailing",
+   "label": {
+    "fr": "Cold emailing",
+    "en": "Cold Emailing",
+    "ar": "البريد البارد",
+    "ru": "Холодная рассылка"
+   },
+   "patterns": [
+    "cold emailing",
+    "cold email",
+    "cold mail",
+    "email a froid"
+   ],
+   "category": "metier",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "lemlist",
+    "prospection",
+    "cold-calling",
+    "apollo-io"
+   ],
+   "jobs": [
+    "SDR",
+    "Business Developer",
+    "Lead Generation Specialist"
+   ]
+  },
+  {
+   "id": "cold-calling",
+   "label": {
+    "fr": "Cold calling / Phoning",
+    "en": "Cold Calling",
+    "ar": "الاتصال البارد",
+    "ru": "Холодные звонки"
+   },
+   "patterns": [
+    "cold calling",
+    "cold call",
+    "phoning",
+    "phoning commercial",
+    "appel a froid",
+    "холодн звонк"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "prospection",
+    "cold-emailing",
+    "objection-handling"
+   ],
+   "jobs": [
+    "SDR",
+    "Télévendeur",
+    "Commercial sédentaire",
+    "Business Developer"
+   ]
+  },
+  {
+   "id": "account-based-marketing",
+   "label": {
+    "fr": "Account-Based Marketing (ABM)",
+    "en": "Account-Based Marketing (ABM)",
+    "ar": "التسويق القائم على الحسابات",
+    "ru": "Account-Based Marketing"
+   },
+   "patterns": [
+    "abm",
+    "account based marketing",
+    "account-based marketing"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "key-account-management",
+    "social-selling",
+    "linkedin-sales-navigator"
+   ],
+   "jobs": [
+    "Marketing Commercial",
+    "Business Developer Grands Comptes",
+    "Account Manager"
+   ]
+  },
+  {
+   "id": "social-selling",
+   "label": {
+    "fr": "Social Selling",
+    "en": "Social Selling",
+    "ar": "البيع عبر وسائل التواصل",
+    "ru": "Social Selling"
+   },
+   "patterns": [
+    "social selling",
+    "social sell",
+    "ssi linkedin"
+   ],
+   "category": "methode",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "linkedin-sales-navigator",
+    "waalaxy",
+    "account-based-marketing",
+    "inbound-sales"
+   ],
+   "jobs": [
+    "Business Developer",
+    "SDR",
+    "Account Executive",
+    "Commercial BtoB"
+   ]
+  },
+  {
+   "id": "inbound-sales",
+   "label": {
+    "fr": "Inbound Sales",
+    "en": "Inbound Sales",
+    "ar": "المبيعات الواردة",
+    "ru": "Входящие продажи"
+   },
+   "patterns": [
+    "inbound sales",
+    "inbound sell",
+    "vente entrante"
+   ],
+   "category": "methode",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "outbound-sales",
+    "hubspot-crm",
+    "social-selling"
+   ],
+   "jobs": [
+    "Inbound Sales Representative",
+    "Commercial sédentaire",
+    "SDR"
+   ]
+  },
+  {
+   "id": "outbound-sales",
+   "label": {
+    "fr": "Outbound Sales",
+    "en": "Outbound Sales",
+    "ar": "المبيعات الصادرة",
+    "ru": "Исходящие продажи"
+   },
+   "patterns": [
+    "outbound sales",
+    "outbound sell",
+    "vente sortante"
+   ],
+   "category": "methode",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "inbound-sales",
+    "cold-calling",
+    "cold-emailing",
+    "prospection"
+   ],
+   "jobs": [
+    "SDR",
+    "Business Developer",
+    "Sales Hunter"
+   ]
+  },
+  {
+   "id": "pipeline-management",
+   "label": {
+    "fr": "Gestion du pipeline commercial",
+    "en": "Sales Pipeline Management",
+    "ar": "إدارة خط المبيعات",
+    "ru": "Управление воронкой продаж"
+   },
+   "patterns": [
+    "pipeline",
+    "pipeline commercial",
+    "sales pipeline",
+    "pipeline management",
+    "воронк продаж"
+   ],
+   "category": "methode",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "sales-forecasting",
+    "salesforce",
+    "hubspot-crm",
+    "meddic"
+   ],
+   "jobs": [
+    "Sales Manager",
+    "Directeur commercial",
+    "Sales Operations",
+    "Account Executive"
+   ]
+  },
+  {
+   "id": "sales-forecasting",
+   "label": {
+    "fr": "Prévision des ventes",
+    "en": "Sales Forecasting",
+    "ar": "التنبؤ بالمبيعات",
+    "ru": "Прогнозирование продаж"
+   },
+   "patterns": [
+    "sales forecasting",
+    "forecast",
+    "previsions de ventes",
+    "previsions commerciales",
+    "прогноз продаж"
+   ],
+   "category": "methode",
+   "topics": [
+    "business",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "pipeline-management",
+    "excel-avance",
+    "power-bi",
+    "revenue-management"
+   ],
+   "jobs": [
+    "Sales Manager",
+    "Directeur commercial",
+    "Sales Analyst",
+    "Sales Operations"
+   ]
+  },
+  {
+   "id": "territory-management",
+   "label": {
+    "fr": "Gestion de secteur / Territory Management",
+    "en": "Territory Management",
+    "ar": "إدارة المنطقة البيعية",
+    "ru": "Управление территориями"
+   },
+   "patterns": [
+    "territory management",
+    "gestion de secteur",
+    "sectorisation",
+    "carte de visite",
+    "управл территори"
+   ],
+   "category": "methode",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "key-account-management",
+    "prospection",
+    "chef-de-secteur"
+   ],
+   "jobs": [
+    "Chef de secteur",
+    "Commercial terrain",
+    "Responsable régional"
+   ]
+  },
+  {
+   "id": "key-account-management",
+   "label": {
+    "fr": "Gestion des grands comptes",
+    "en": "Key Account Management",
+    "ar": "إدارة الحسابات الرئيسية",
+    "ru": "Управление ключевыми клиентами"
+   },
+   "patterns": [
+    "key account management",
+    "kam",
+    "gestion grands comptes",
+    "gestion de comptes cles",
+    "ключев клиент"
+   ],
+   "category": "methode",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "account-based-marketing",
+    "negociation-commerciale",
+    "customer-success",
+    "fidelisation-client"
+   ],
+   "jobs": [
+    "Key Account Manager",
+    "Responsable grands comptes",
+    "Directeur de clientèle"
+   ]
+  },
+  {
+   "id": "category-management",
+   "label": {
+    "fr": "Category Management",
+    "en": "Category Management",
+    "ar": "إدارة الفئات",
+    "ru": "Категорийный менеджмент"
+   },
+   "patterns": [
+    "category management",
+    "category manager",
+    "gestion de categorie",
+    "catman",
+    "категорийн"
+   ],
+   "category": "methode",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "trade-marketing",
+    "merchandising",
+    "nielsen-retail",
+    "planogramme"
+   ],
+   "jobs": [
+    "Category Manager",
+    "Acheteur GMS",
+    "Chef de produit"
+   ]
+  },
+  {
+   "id": "trade-marketing",
+   "label": {
+    "fr": "Trade Marketing",
+    "en": "Trade Marketing",
+    "ar": "التسويق التجاري",
+    "ru": "Trade-маркетинг"
+   },
+   "patterns": [
+    "trade marketing",
+    "trade-marketing",
+    "marketing trade"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "category-management",
+    "merchandising",
+    "planogramme",
+    "nielsen-retail"
+   ],
+   "jobs": [
+    "Trade Marketing Manager",
+    "Chef de secteur",
+    "Category Manager"
+   ]
+  },
+  {
+   "id": "merchandising",
+   "label": {
+    "fr": "Merchandising",
+    "en": "Merchandising",
+    "ar": "عرض المنتجات",
+    "ru": "Мерчандайзинг"
+   },
+   "patterns": [
+    "merchandising",
+    "merchandiser",
+    "mise en rayon",
+    "мерчандайз"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "trade-marketing",
+    "category-management",
+    "planogramme",
+    "chef-de-secteur"
+   ],
+   "jobs": [
+    "Merchandiseur",
+    "Chef de secteur GMS",
+    "Responsable merchandising"
+   ]
+  },
+  {
+   "id": "planogramme",
+   "label": {
+    "fr": "Planogramme",
+    "en": "Planogram",
+    "ar": "مخطط العرض",
+    "ru": "Планограмма"
+   },
+   "patterns": [
+    "planogramme",
+    "planogram",
+    "plano",
+    "планграграм"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "merchandising",
+    "category-management",
+    "trade-marketing"
+   ],
+   "jobs": [
+    "Merchandiseur",
+    "Category Manager",
+    "Chef de secteur"
+   ]
+  },
+  {
+   "id": "revenue-management",
+   "label": {
+    "fr": "Revenue Management / Yield Management",
+    "en": "Revenue Management",
+    "ar": "إدارة الإيرادات",
+    "ru": "Revenue Management"
+   },
+   "patterns": [
+    "revenue management",
+    "yield management",
+    "yield",
+    "rm"
+   ],
+   "category": "methode",
+   "topics": [
+    "business",
+    "finance",
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "pricing-strategy",
+    "sales-forecasting",
+    "excel-avance"
+   ],
+   "jobs": [
+    "Revenue Manager",
+    "Yield Manager",
+    "Pricing Analyst"
+   ]
+  },
+  {
+   "id": "pricing-strategy",
+   "label": {
+    "fr": "Stratégie de pricing / Politique tarifaire",
+    "en": "Pricing Strategy",
+    "ar": "استراتيجية التسعير",
+    "ru": "Ценообразование"
+   },
+   "patterns": [
+    "pricing",
+    "pricing strategy",
+    "politique tarifaire",
+    "tarification",
+    "strategie prix",
+    "ценообразован"
+   ],
+   "category": "methode",
+   "topics": [
+    "business",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "revenue-management",
+    "negociation-commerciale",
+    "sales-forecasting"
+   ],
+   "jobs": [
+    "Pricing Manager",
+    "Responsable pricing",
+    "Directeur commercial"
+   ]
+  },
+  {
+   "id": "competitive-intelligence",
+   "label": {
+    "fr": "Veille concurrentielle",
+    "en": "Competitive Intelligence",
+    "ar": "الاستخبارات التنافسية",
+    "ru": "Конкурентная разведка"
+   },
+   "patterns": [
+    "veille concurrentielle",
+    "competitive intelligence",
+    "veille marche",
+    "benchmark concurrentiel",
+    "конкурент разведк"
+   ],
+   "category": "methode",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "market-research",
+    "pricing-strategy",
+    "account-based-marketing"
+   ],
+   "jobs": [
+    "Business Developer",
+    "Chef de produit",
+    "Marketing Analyst"
+   ]
+  },
+  {
+   "id": "market-research",
+   "label": {
+    "fr": "Études de marché",
+    "en": "Market Research",
+    "ar": "أبحاث السوق",
+    "ru": "Исследование рынка"
+   },
+   "patterns": [
+    "etude de marche",
+    "etudes de marche",
+    "market research",
+    "recherche marche",
+    "исследован рынк"
+   ],
+   "category": "methode",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "competitive-intelligence",
+    "pricing-strategy",
+    "business-development"
+   ],
+   "jobs": [
+    "Chef de produit",
+    "Business Developer",
+    "Marketing Analyst",
+    "Consultant commercial"
+   ]
+  },
+  {
+   "id": "incoterms",
+   "label": {
+    "fr": "Incoterms",
+    "en": "Incoterms",
+    "ar": "Incoterms",
+    "ru": "Incoterms"
+   },
+   "patterns": [
+    "incoterms",
+    "incoterms 2020",
+    "fob",
+    "cif",
+    "exw",
+    "dap",
+    "инкотермс"
+   ],
+   "category": "norme",
+   "topics": [
+    "business",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "credit-documentaire",
+    "douane",
+    "commerce-international"
+   ],
+   "jobs": [
+    "Responsable export",
+    "Commercial export",
+    "ADV export"
+   ]
+  },
+  {
+   "id": "credit-documentaire",
+   "label": {
+    "fr": "Crédit documentaire / CREDOC",
+    "en": "Letter of Credit",
+    "ar": "الاعتماد المستندي",
+    "ru": "Аккредитив"
+   },
+   "patterns": [
+    "credit documentaire",
+    "cred doc",
+    "c redoc",
+    "lettre de credit",
+    "letter of credit",
+    "аккредит"
+   ],
+   "category": "methode",
+   "topics": [
+    "business",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "incoterms",
+    "douane",
+    "commerce-international"
+   ],
+   "jobs": [
+    "Responsable export",
+    "Administration des ventes export",
+    "Commercial export"
+   ]
+  },
+  {
+   "id": "douane",
+   "label": {
+    "fr": "Réglementation douanière",
+    "en": "Customs Regulations",
+    "ar": "اللوائح الجمركية",
+    "ru": "Таможенное регулирование"
+   },
+   "patterns": [
+    "douane",
+    "declaration douaniere",
+    "hs code",
+    "nomenclature douaniere",
+    "delta",
+    "тамож"
+   ],
+   "category": "norme",
+   "topics": [
+    "business",
+    "logistique",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "incoterms",
+    "commerce-international",
+    "credit-documentaire"
+   ],
+   "jobs": [
+    "Responsable export",
+    "ADV export",
+    "Déclarant en douane"
+   ]
+  },
+  {
+   "id": "commerce-international",
+   "label": {
+    "fr": "Commerce international / Export",
+    "en": "International Trade",
+    "ar": "التجارة الدولية",
+    "ru": "Международная торговля"
+   },
+   "patterns": [
+    "commerce international",
+    "export",
+    "international trade",
+    "grand export",
+    "международ торговл"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "incoterms",
+    "credit-documentaire",
+    "douane",
+    "anglais-commercial"
+   ],
+   "jobs": [
+    "Responsable export",
+    "Commercial export",
+    "Zone Manager",
+    "Directeur export"
+   ]
+  },
+  {
+   "id": "customer-success",
+   "label": {
+    "fr": "Customer Success",
+    "en": "Customer Success",
+    "ar": "نجاح العملاء",
+    "ru": "Customer Success"
+   },
+   "patterns": [
+    "customer success",
+    "csm",
+    "customer success manager",
+    "succes client"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "fidelisation-client",
+    "nps",
+    "csat",
+    "upselling"
+   ],
+   "jobs": [
+    "Customer Success Manager",
+    "Responsable relation client",
+    "Account Manager"
+   ]
+  },
+  {
+   "id": "fidelisation-client",
+   "label": {
+    "fr": "Fidélisation client",
+    "en": "Customer Retention",
+    "ar": "الاحتفاظ بالعملاء",
+    "ru": "Удержание клиентов"
+   },
+   "patterns": [
+    "fidelisation",
+    "retention client",
+    "customer retention",
+    "churn",
+    "attrition",
+    "удержан клиент"
+   ],
+   "category": "metier",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "customer-success",
+    "nps",
+    "csat",
+    "relation-client"
+   ],
+   "jobs": [
+    "Account Manager",
+    "Customer Success Manager",
+    "Responsable fidélisation"
+   ]
+  },
+  {
+   "id": "nps",
+   "label": {
+    "fr": "Net Promoter Score (NPS)",
+    "en": "Net Promoter Score (NPS)",
+    "ar": "Net Promoter Score",
+    "ru": "NPS"
+   },
+   "patterns": [
+    "nps",
+    "net promoter score",
+    "promoter score"
+   ],
+   "category": "methode",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "csat",
+    "customer-success",
+    "fidelisation-client",
+    "satisfaction-client"
+   ],
+   "jobs": [
+    "Customer Success Manager",
+    "Responsable expérience client",
+    "Account Manager"
+   ]
+  },
+  {
+   "id": "csat",
+   "label": {
+    "fr": "Customer Satisfaction Score (CSAT)",
+    "en": "Customer Satisfaction Score (CSAT)",
+    "ar": "مؤشر رضا العملاء",
+    "ru": "CSAT"
+   },
+   "patterns": [
+    "csat",
+    "customer satisfaction",
+    "satisfaction client"
+   ],
+   "category": "methode",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "nps",
+    "customer-success",
+    "fidelisation-client"
+   ],
+   "jobs": [
+    "Customer Success Manager",
+    "Responsable relation client"
+   ]
+  },
+  {
+   "id": "upselling",
+   "label": {
+    "fr": "Upselling / Montée en gamme",
+    "en": "Upselling",
+    "ar": "البيع التصاعدي",
+    "ru": "Апсейл"
+   },
+   "patterns": [
+    "upselling",
+    "up selling",
+    "up-sell",
+    "montee en gamme",
+    "апсейл"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "cross-selling",
+    "customer-success",
+    "fidelisation-client"
+   ],
+   "jobs": [
+    "Account Manager",
+    "Commercial BtoB",
+    "Customer Success Manager"
+   ]
+  },
+  {
+   "id": "cross-selling",
+   "label": {
+    "fr": "Cross-selling / Vente croisée",
+    "en": "Cross-selling",
+    "ar": "البيع المتقاطع",
+    "ru": "Кросс-продажи"
+   },
+   "patterns": [
+    "cross selling",
+    "cross-sell",
+    "vente croisee",
+    "ventes additionnelles",
+    "кросс продаж"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "upselling",
+    "customer-success",
+    "fidelisation-client"
+   ],
+   "jobs": [
+    "Account Manager",
+    "Commercial BtoB",
+    "Customer Success Manager"
+   ]
+  },
+  {
+   "id": "relation-client",
+   "label": {
+    "fr": "Relation client",
+    "en": "Customer Relationship",
+    "ar": "علاقة العملاء",
+    "ru": "Работа с клиентами"
+   },
+   "patterns": [
+    "relation client",
+    "customer relationship",
+    "gestion relation client",
+    "relation clientele",
+    "работ клиент"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "fidelisation-client",
+    "customer-success",
+    "crm"
+   ],
+   "jobs": [
+    "Chargé de clientèle",
+    "Account Manager",
+    "Commercial sédentaire"
+   ]
+  },
+  {
+   "id": "storytelling",
+   "label": {
+    "fr": "Storytelling commercial",
+    "en": "Sales Storytelling",
+    "ar": "السرد القصصي التسويقي",
+    "ru": "Сторителлинг"
+   },
+   "patterns": [
+    "storytelling",
+    "story telling",
+    "recit commercial",
+    "сторител"
+   ],
+   "category": "transverse",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "presentation-commerciale",
+    "communication-commerciale",
+    "consultative-selling"
+   ],
+   "jobs": [
+    "Business Developer",
+    "Account Executive",
+    "Marketing Commercial"
+   ]
+  },
+  {
+   "id": "presentation-commerciale",
+   "label": {
+    "fr": "Présentation commerciale / Pitch",
+    "en": "Sales Presentation / Pitch",
+    "ar": "العرض التجاري",
+    "ru": "Коммерческая презентация"
+   },
+   "patterns": [
+    "pitch",
+    "presentation commerciale",
+    "sales deck",
+    "pitch deck",
+    "soutenance commerciale",
+    "презентац"
+   ],
+   "category": "transverse",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "storytelling",
+    "communication-commerciale",
+    "negociation-commerciale"
+   ],
+   "jobs": [
+    "Business Developer",
+    "Account Executive",
+    "Commercial BtoB"
+   ]
+  },
+  {
+   "id": "communication-commerciale",
+   "label": {
+    "fr": "Communication commerciale",
+    "en": "Sales Communication",
+    "ar": "التواصل التجاري",
+    "ru": "Коммерческие коммуникации"
+   },
+   "patterns": [
+    "communication commerciale",
+    "sales communication",
+    "aisance relationnelle",
+    "ecoute active",
+    "коммерческ коммуникац"
+   ],
+   "category": "transverse",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "presentation-commerciale",
+    "storytelling",
+    "negociation-commerciale"
+   ],
+   "jobs": [
+    "Commercial BtoB",
+    "Account Manager",
+    "Business Developer"
+   ]
+  },
+  {
+   "id": "reponse-appel-offres",
+   "label": {
+    "fr": "Réponse aux appels d'offres",
+    "en": "Tender / RFP Response",
+    "ar": "الرد على المناقصات",
+    "ru": "Ответ на тендер"
+   },
+   "patterns": [
+    "appel d'offres",
+    "appel doffres",
+    "ao",
+    "reponse ao",
+    "rfp",
+    "rfi",
+    "tender",
+    "тендер"
+   ],
+   "category": "metier",
+   "topics": [
+    "business",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "negociation-commerciale",
+    "marches-publics",
+    "pricing-strategy"
+   ],
+   "jobs": [
+    "Ingénieur d'affaires",
+    "Chargé d'affaires",
+    "Responsable commercial",
+    "Bid Manager"
+   ]
+  },
+  {
+   "id": "marches-publics",
+   "label": {
+    "fr": "Marchés publics",
+    "en": "Public Procurement",
+    "ar": "الصفقات العمومية",
+    "ru": "Госзакупки"
+   },
+   "patterns": [
+    "marches publics",
+    "marche public",
+    "code des marches publics",
+    "plateforme achat",
+    "госзакуп"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "reponse-appel-offres",
+    "negociation-commerciale"
+   ],
+   "jobs": [
+    "Chargé d'affaires publiques",
+    "Responsable appels d'offres",
+    "Bid Manager"
+   ]
+  },
+  {
+   "id": "anglais-commercial",
+   "label": {
+    "fr": "Anglais commercial courant",
+    "en": "Business English",
+    "ar": "الإنجليزية التجارية",
+    "ru": "Деловой английский"
+   },
+   "patterns": [
+    "anglais commercial",
+    "business english",
+    "anglais courant",
+    "anglais professionnel",
+    "english fluent",
+    "английск"
+   ],
+   "category": "langue",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "commerce-international",
+    "espagnol-commercial",
+    "allemand-commercial"
+   ],
+   "jobs": [
+    "Responsable export",
+    "Key Account Manager",
+    "Business Developer international"
+   ]
+  },
+  {
+   "id": "espagnol-commercial",
+   "label": {
+    "fr": "Espagnol commercial",
+    "en": "Business Spanish",
+    "ar": "الإسبانية التجارية",
+    "ru": "Деловой испанский"
+   },
+   "patterns": [
+    "espagnol",
+    "espanol",
+    "spanish",
+    "espanol commercial",
+    "испанск"
+   ],
+   "category": "langue",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "anglais-commercial",
+    "commerce-international"
+   ],
+   "jobs": [
+    "Zone Manager export",
+    "Commercial export",
+    "Responsable export"
+   ]
+  },
+  {
+   "id": "allemand-commercial",
+   "label": {
+    "fr": "Allemand commercial",
+    "en": "Business German",
+    "ar": "الألمانية التجارية",
+    "ru": "Деловой немецкий"
+   },
+   "patterns": [
+    "allemand",
+    "german",
+    "deutsch",
+    "allemand commercial",
+    "немецк"
+   ],
+   "category": "langue",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "anglais-commercial",
+    "commerce-international"
+   ],
+   "jobs": [
+    "Zone Manager export",
+    "Commercial export",
+    "Responsable export"
+   ]
+  },
+  {
+   "id": "chinois-commercial",
+   "label": {
+    "fr": "Mandarin / Chinois commercial",
+    "en": "Business Mandarin",
+    "ar": "الصينية التجارية",
+    "ru": "Деловой китайский"
+   },
+   "patterns": [
+    "mandarin",
+    "chinois",
+    "chinois commercial",
+    "chinese",
+    "китайск"
+   ],
+   "category": "langue",
+   "topics": [
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "anglais-commercial",
+    "commerce-international"
+   ],
+   "jobs": [
+    "Responsable export Asie",
+    "Acheteur international",
+    "Business Developer Chine"
+   ]
+  },
+  {
+   "id": "arabe-commercial",
+   "label": {
+    "fr": "Arabe commercial",
+    "en": "Business Arabic",
+    "ar": "العربية التجارية",
+    "ru": "Деловой арабский"
+   },
+   "patterns": [
+    "arabe",
+    "arabic",
+    "arabe commercial",
+    "арабск"
+   ],
+   "category": "langue",
+   "topics": [
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "anglais-commercial",
+    "commerce-international"
+   ],
+   "jobs": [
+    "Zone Manager Moyen-Orient",
+    "Responsable export",
+    "Commercial export"
+   ]
+  },
+  {
+   "id": "russe-commercial",
+   "label": {
+    "fr": "Russe commercial",
+    "en": "Business Russian",
+    "ar": "الروسية التجارية",
+    "ru": "Деловой русский"
+   },
+   "patterns": [
+    "russe",
+    "russian",
+    "russe commercial",
+    "русск"
+   ],
+   "category": "langue",
+   "topics": [
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "anglais-commercial",
+    "commerce-international"
+   ],
+   "jobs": [
+    "Zone Manager CEI",
+    "Responsable export",
+    "Commercial export"
+   ]
+  },
+  {
+   "id": "chef-de-secteur",
+   "label": {
+    "fr": "Techniques de chef de secteur GMS",
+    "en": "Field Sales Techniques (FMCG)",
+    "ar": "تقنيات المبيعات الميدانية",
+    "ru": "Торговый представитель"
+   },
+   "patterns": [
+    "chef de secteur",
+    "gms",
+    "grande distribution",
+    "terrain",
+    "торгов представитель"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "merchandising",
+    "trade-marketing",
+    "territory-management",
+    "category-management"
+   ],
+   "jobs": [
+    "Chef de secteur GMS",
+    "Commercial terrain",
+    "Attaché commercial"
+   ]
+  },
+  {
+   "id": "adv",
+   "label": {
+    "fr": "Administration des ventes (ADV)",
+    "en": "Sales Administration",
+    "ar": "إدارة المبيعات",
+    "ru": "Администрирование продаж"
+   },
+   "patterns": [
+    "adv",
+    "administration des ventes",
+    "sales administration",
+    "admin ventes",
+    "администрирован продаж"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "sap-sd",
+    "excel-avance",
+    "relation-client"
+   ],
+   "jobs": [
+    "Assistant ADV",
+    "Gestionnaire ADV",
+    "Administration des ventes"
+   ]
+  },
+  {
+   "id": "crm",
+   "label": {
+    "fr": "CRM / Gestion de la relation client",
+    "en": "CRM",
+    "ar": "إدارة علاقة العملاء",
+    "ru": "CRM"
+   },
+   "patterns": [
+    "crm",
+    "gestion relation client",
+    "customer relationship management",
+    "crm sales"
+   ],
+   "category": "outil",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "salesforce",
+    "hubspot-crm",
+    "pipedrive",
+    "relation-client"
+   ],
+   "jobs": [
+    "Commercial BtoB",
+    "Account Manager",
+    "Sales Operations"
+   ]
+  },
+  {
+   "id": "e-commerce",
+   "label": {
+    "fr": "Gestion e-commerce",
+    "en": "E-commerce Management",
+    "ar": "إدارة التجارة الإلكترونية",
+    "ru": "Управление e-commerce"
+   },
+   "patterns": [
+    "e-commerce",
+    "ecommerce",
+    "commerce en ligne",
+    "boutique en ligne",
+    "e commerce"
+   ],
+   "category": "metier",
+   "topics": [
+    "web",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "shopify",
+    "prestashop",
+    "magento",
+    "google-analytics"
+   ],
+   "jobs": [
+    "E-commerce Manager",
+    "Responsable e-commerce",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "marketplace-management",
+   "label": {
+    "fr": "Gestion de marketplace",
+    "en": "Marketplace Management",
+    "ar": "إدارة السوق الإلكتروني",
+    "ru": "Управление маркетплейсами"
+   },
+   "patterns": [
+    "marketplace",
+    "amazon seller",
+    "cdiscount",
+    "fnac",
+    "mirakl",
+    "ozon",
+    "wildberries",
+    "маркетплейс"
+   ],
+   "category": "metier",
+   "topics": [
+    "web",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "e-commerce",
+    "mirakl",
+    "shopify"
+   ],
+   "jobs": [
+    "Marketplace Manager",
+    "Responsable marketplace",
+    "E-commerce Manager"
+   ]
+  },
+  {
+   "id": "iso-9001",
+   "label": {
+    "fr": "ISO 9001 - Management de la qualité",
+    "en": "ISO 9001 - Quality Management",
+    "ar": "ISO 9001",
+    "ru": "ISO 9001"
+   },
+   "patterns": [
+    "iso 9001",
+    "iso9001",
+    "certification iso"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "relation-client",
+    "satisfaction-client"
+   ],
+   "jobs": [
+    "Responsable commercial",
+    "Directeur commercial",
+    "Key Account Manager"
+   ]
+  },
+  {
+   "id": "rgpd-commercial",
+   "label": {
+    "fr": "RGPD appliqué au commerce",
+    "en": "GDPR for Sales",
+    "ar": "الامتثال لـ GDPR",
+    "ru": "GDPR в продажах"
+   },
+   "patterns": [
+    "rgpd",
+    "gdpr",
+    "protection des donnees",
+    "data privacy",
+    "opt in"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "cold-emailing",
+    "prospection",
+    "dropcontact"
+   ],
+   "jobs": [
+    "Business Developer",
+    "SDR",
+    "Data Protection Officer commercial"
+   ]
+  },
+  {
+   "id": "cci-certified",
+   "label": {
+    "fr": "Certification CCI / Incoterms CCI",
+    "en": "ICC Certification",
+    "ar": "شهادة غرفة التجارة الدولية",
+    "ru": "Сертификация ICC"
+   },
+   "patterns": [
+    "cci",
+    "icc",
+    "chambre de commerce internationale",
+    "certifie cci"
+   ],
+   "category": "norme",
+   "topics": [
+    "business",
+    "juridique"
+   ],
+   "level": "specialise",
+   "related": [
+    "incoterms",
+    "credit-documentaire",
+    "commerce-international"
+   ],
+   "jobs": [
+    "Responsable export",
+    "Directeur commercial international"
+   ]
+  },
+  {
+   "id": "satisfaction-client",
+   "label": {
+    "fr": "Satisfaction client",
+    "en": "Customer Satisfaction",
+    "ar": "رضا العملاء",
+    "ru": "Удовлетворённость клиентов"
+   },
+   "patterns": [
+    "satisfaction client",
+    "customer satisfaction",
+    "experience client",
+    "cx",
+    "удовлетвор клиент"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "nps",
+    "csat",
+    "customer-success",
+    "fidelisation-client"
+   ],
+   "jobs": [
+    "Customer Success Manager",
+    "Responsable expérience client",
+    "Account Manager"
+   ]
+  },
+  {
+   "id": "supply-chain-commerciale",
+   "label": {
+    "fr": "Supply chain & commerce",
+    "en": "Sales & Supply Chain",
+    "ar": "سلسلة التوريد والمبيعات",
+    "ru": "Логистика и продажи"
+   },
+   "patterns": [
+    "supply chain",
+    "chaine logistique",
+    "logistique commerciale",
+    "disponibilite produit",
+    "цеп поставок"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "incoterms",
+    "commerce-international",
+    "adv"
+   ],
+   "jobs": [
+    "Responsable logistique commerciale",
+    "Supply Chain Coordinator",
+    "ADV"
+   ]
+  },
+  {
+   "id": "email-marketing",
+   "label": {
+    "fr": "Emailing commercial / Marketing automation",
+    "en": "Email Marketing / Marketing Automation",
+    "ar": "التسويق عبر البريد الإلكتروني",
+    "ru": "Email-маркетинг"
+   },
+   "patterns": [
+    "emailing",
+    "email marketing",
+    "marketing automation",
+    "mailchimp",
+    "sendinblue",
+    "brevo",
+    "mail jet",
+    "mailjet"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "cold-emailing",
+    "hubspot-crm",
+    "lemlist",
+    "inbound-sales"
+   ],
+   "jobs": [
+    "Marketing Commercial",
+    "Digital Marketing Manager",
+    "Business Developer"
+   ]
+  },
+  {
+   "id": "sales-enablement",
+   "label": {
+    "fr": "Sales Enablement",
+    "en": "Sales Enablement",
+    "ar": "تمكين المبيعات",
+    "ru": "Sales Enablement"
+   },
+   "patterns": [
+    "sales enablement",
+    "enablement",
+    "sales content"
+   ],
+   "category": "methode",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "specialise",
+   "related": [
+    "pipeline-management",
+    "salesforce",
+    "hubspot-crm"
+   ],
+   "jobs": [
+    "Sales Enablement Manager",
+    "Sales Operations",
+    "Directeur commercial"
+   ]
+  },
+  {
+   "id": "business-development",
+   "label": {
+    "fr": "Développement commercial / Business Development",
+    "en": "Business Development",
+    "ar": "تطوير الأعمال",
+    "ru": "Развитие бизнеса"
+   },
+   "patterns": [
+    "business development",
+    "dev commercial",
+    "developpement commercial",
+    "biz dev",
+    "развити бизнес"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "prospection",
+    "negociation-commerciale",
+    "key-account-management"
+   ],
+   "jobs": [
+    "Business Developer",
+    "Responsable développement",
+    "Directeur commercial"
+   ]
+  },
+  {
+   "id": "grands-comptes",
+   "label": {
+    "fr": "Vente grands comptes",
+    "en": "Enterprise Sales",
+    "ar": "مبيعات الشركات الكبرى",
+    "ru": "Продажи крупным клиентам"
+   },
+   "patterns": [
+    "grands comptes",
+    "grand compte",
+    "enterprise sales",
+    "key account",
+    "крупн клиент"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "key-account-management",
+    "account-based-marketing",
+    "negociation-commerciale"
+   ],
+   "jobs": [
+    "Key Account Manager",
+    "Directeur de clientèle",
+    "Ingénieur d'affaires"
+   ]
+  },
+  {
+   "id": "technico-commercial",
+   "label": {
+    "fr": "Vente technico-commerciale",
+    "en": "Technical Sales",
+    "ar": "المبيعات التقنية",
+    "ru": "Технические продажи"
+   },
+   "patterns": [
+    "technico commercial",
+    "technico-commercial",
+    "technical sales",
+    "vente technique",
+    "технич продаж"
+   ],
+   "category": "metier",
+   "topics": [
+    "business",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "solution-selling",
+    "consultative-selling",
+    "ingenieur-affaires"
+   ],
+   "jobs": [
+    "Ingénieur commercial",
+    "Technico-commercial",
+    "Sales Engineer"
+   ]
+  },
+  {
+   "id": "ingenieur-affaires",
+   "label": {
+    "fr": "Ingénierie d'affaires",
+    "en": "Business Engineering",
+    "ar": "هندسة الأعمال",
+    "ru": "Инжиниринг сделок"
+   },
+   "patterns": [
+    "ingenieur d'affaires",
+    "ingenieur affaires",
+    "charge d'affaires",
+    "business engineering",
+    "инженер сделк"
+   ],
+   "category": "metier",
+   "topics": [
+    "business",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "reponse-appel-offres",
+    "technico-commercial",
+    "negociation-commerciale"
+   ],
+   "jobs": [
+    "Ingénieur d'affaires",
+    "Chargé d'affaires",
+    "Directeur d'affaires"
+   ]
+  },
+  {
+   "id": "retail-analytics",
+   "label": {
+    "fr": "Retail Analytics / Analyse retail",
+    "en": "Retail Analytics",
+    "ar": "تحليلات التجزئة",
+    "ru": "Ритейл-аналитика"
+   },
+   "patterns": [
+    "retail analytics",
+    "analyse retail",
+    "kpi retail",
+    "analyste retail",
+    "ритейл аналит"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "nielsen-retail",
+    "category-management",
+    "power-bi"
+   ],
+   "jobs": [
+    "Retail Analyst",
+    "Category Manager",
+    "Analyste commercial"
+   ]
+  },
+  {
+   "id": "kpi-commerciaux",
+   "label": {
+    "fr": "KPI commerciaux / Indicateurs de vente",
+    "en": "Sales KPIs",
+    "ar": "مؤشرات الأداء البيعية",
+    "ru": "KPI продаж"
+   },
+   "patterns": [
+    "kpi commercial",
+    "kpi vente",
+    "sales kpi",
+    "indicateurs commerciaux",
+    "kpi sales",
+    "kpi продаж"
+   ],
+   "category": "methode",
+   "topics": [
+    "business",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "sales-forecasting",
+    "pipeline-management",
+    "power-bi"
+   ],
+   "jobs": [
+    "Sales Manager",
+    "Directeur commercial",
+    "Sales Analyst"
+   ]
+  },
+  {
+   "id": "ticket-moyen",
+   "label": {
+    "fr": "Optimisation du panier moyen",
+    "en": "Average Basket Optimization",
+    "ar": "تحسين متوسط السلة",
+    "ru": "Средний чек"
+   },
+   "patterns": [
+    "panier moyen",
+    "ticket moyen",
+    "average basket",
+    "average order value",
+    "aov",
+    "средн чек"
+   ],
+   "category": "metier",
+   "topics": [
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "upselling",
+    "cross-selling",
+    "e-commerce"
+   ],
+   "jobs": [
+    "E-commerce Manager",
+    "Category Manager",
+    "Responsable de magasin"
+   ]
+  },
+  {
+   "id": "conversion-rate",
+   "label": {
+    "fr": "Taux de conversion",
+    "en": "Conversion Rate Optimization",
+    "ar": "تحسين معدل التحويل",
+    "ru": "Конверсия"
+   },
+   "patterns": [
+    "taux de conversion",
+    "conversion rate",
+    "cro",
+    "optimisation conversion",
+    "конверс"
+   ],
+   "category": "metier",
+   "topics": [
+    "web",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "e-commerce",
+    "google-analytics",
+    "a-b-testing"
+   ],
+   "jobs": [
+    "E-commerce Manager",
+    "Digital Sales Manager",
+    "Growth Hacker"
+   ]
+  },
+  {
+   "id": "a-b-testing",
+   "label": {
+    "fr": "A/B Testing",
+    "en": "A/B Testing",
+    "ar": "اختبار A/B",
+    "ru": "A/B-тестирование"
+   },
+   "patterns": [
+    "a/b testing",
+    "ab testing",
+    "ab test",
+    "a-b testing",
+    "а/б тест"
+   ],
+   "category": "methode",
+   "topics": [
+    "web",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "conversion-rate",
+    "e-commerce",
+    "google-analytics"
+   ],
+   "jobs": [
+    "E-commerce Manager",
+    "Digital Sales Manager",
+    "Growth Hacker"
+   ]
+  },
+  {
+   "id": "wordpress",
+   "label": {
+    "fr": "WordPress",
+    "en": "WordPress",
+    "ar": "WordPress",
+    "ru": "WordPress"
+   },
+   "patterns": [
+    "wordpress",
+    "wp",
+    "woo"
+   ],
+   "category": "outil",
+   "topics": [
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "woocommerce",
+    "prestashop",
+    "e-commerce"
+   ],
+   "jobs": [
+    "E-commerce Manager",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "looker",
+   "label": {
+    "fr": "Looker",
+    "en": "Looker",
+    "ar": "Looker",
+    "ru": "Looker"
+   },
+   "patterns": [
+    "looker",
+    "looker studio",
+    "google data studio",
+    "data studio"
+   ],
+   "category": "outil",
+   "topics": [
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "power-bi",
+    "tableau",
+    "google-analytics"
+   ],
+   "jobs": [
+    "Sales Analyst",
+    "Business Analyst",
+    "Data Analyst commercial"
+   ]
+  },
+  {
+   "id": "cegid",
+   "label": {
+    "fr": "Cegid",
+    "en": "Cegid",
+    "ar": "Cegid",
+    "ru": "Cegid"
+   },
+   "patterns": [
+    "cegid",
+    "cegid retail",
+    "cegid y2"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "sage",
+    "sap-erp"
+   ],
+   "jobs": [
+    "Responsable de magasin",
+    "Retail Manager",
+    "ADV"
+   ]
+  },
+  {
+   "id": "tiktok-ads",
+   "label": {
+    "fr": "TikTok Ads",
+    "en": "TikTok Ads",
+    "ar": "TikTok Ads",
+    "ru": "TikTok Ads"
+   },
+   "patterns": [
+    "tiktok ads",
+    "tik tok ads",
+    "tiktok for business"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "facebook-ads",
+    "google-ads",
+    "social-selling"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "E-commerce Manager",
+    "Digital Sales"
+   ]
+  }
+ ]
+}

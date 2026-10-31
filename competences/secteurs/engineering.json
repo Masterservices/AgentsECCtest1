@@ -1,0 +1,3225 @@
+{
+ "sector": "Ingénierie mécanique, électrique et industrielle",
+ "key": "engineering",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "autocad",
+   "label": {
+    "fr": "AutoCAD",
+    "en": "AutoCAD",
+    "ar": "AutoCAD",
+    "ru": "AutoCAD"
+   },
+   "patterns": [
+    "autocad",
+    "autodesk autocad",
+    "auto cad"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "design",
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "solidworks",
+    "technical-drawing",
+    "mechanical-design",
+    "revit",
+    "bim"
+   ],
+   "jobs": [
+    "Dessinateur projeteur",
+    "Ingénieur mécanique",
+    "Technicien bureau d'études"
+   ]
+  },
+  {
+   "id": "solidworks",
+   "label": {
+    "fr": "SolidWorks",
+    "en": "SolidWorks",
+    "ar": "SolidWorks",
+    "ru": "SolidWorks"
+   },
+   "patterns": [
+    "solidworks",
+    "solid works",
+    "dassault solidworks"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "design",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "autocad",
+    "catia",
+    "mechanical-design",
+    "dfm",
+    "fea"
+   ],
+   "jobs": [
+    "Ingénieur conception mécanique",
+    "Dessinateur industriel",
+    "Chef de projet mécanique"
+   ]
+  },
+  {
+   "id": "catia",
+   "label": {
+    "fr": "CATIA",
+    "en": "CATIA",
+    "ar": "CATIA",
+    "ru": "CATIA"
+   },
+   "patterns": [
+    "catia",
+    "catia v5",
+    "catia v6",
+    "3dexperienc"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "design",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "solidworks",
+    "nx-siemens",
+    "mechanical-design",
+    "dfm"
+   ],
+   "jobs": [
+    "Ingénieur aéronautique",
+    "Concepteur mécanique",
+    "Ingénieur R&D"
+   ]
+  },
+  {
+   "id": "nx-siemens",
+   "label": {
+    "fr": "Siemens NX",
+    "en": "Siemens NX",
+    "ar": "Siemens NX",
+    "ru": "Siemens NX"
+   },
+   "patterns": [
+    "siemens nx",
+    "nx cad",
+    "ug nx",
+    "unigraphics"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "design",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "catia",
+    "solidworks",
+    "mechanical-design"
+   ],
+   "jobs": [
+    "Ingénieur conception",
+    "Dessinateur projeteur",
+    "Ingénieur CAO"
+   ]
+  },
+  {
+   "id": "inventor",
+   "label": {
+    "fr": "Autodesk Inventor",
+    "en": "Autodesk Inventor",
+    "ar": "Autodesk Inventor",
+    "ru": "Autodesk Inventor"
+   },
+   "patterns": [
+    "autodesk inventor",
+    "inventor",
+    "inventor cad"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "design",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "autocad",
+    "solidworks",
+    "mechanical-design"
+   ],
+   "jobs": [
+    "Dessinateur industriel",
+    "Technicien CAO",
+    "Ingénieur mécanique"
+   ]
+  },
+  {
+   "id": "ansys",
+   "label": {
+    "fr": "Ansys",
+    "en": "Ansys",
+    "ar": "Ansys",
+    "ru": "Ansys"
+   },
+   "patterns": [
+    "ansys",
+    "ansys mechanical",
+    "ansys fluent",
+    "ansys workbench"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "data",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "fea",
+    "cfd",
+    "matlab",
+    "mechanical-design"
+   ],
+   "jobs": [
+    "Ingénieur calcul",
+    "Ingénieur simulation",
+    "Chargé d'études mécaniques"
+   ]
+  },
+  {
+   "id": "matlab",
+   "label": {
+    "fr": "MATLAB",
+    "en": "MATLAB",
+    "ar": "MATLAB",
+    "ru": "MATLAB"
+   },
+   "patterns": [
+    "matlab",
+    "mathworks matlab"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "data",
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "simulink",
+    "ansys",
+    "python",
+    "embedded-systems"
+   ],
+   "jobs": [
+    "Ingénieur R&D",
+    "Ingénieur automatique",
+    "Data scientist industriel"
+   ]
+  },
+  {
+   "id": "simulink",
+   "label": {
+    "fr": "Simulink",
+    "en": "Simulink",
+    "ar": "Simulink",
+    "ru": "Simulink"
+   },
+   "patterns": [
+    "simulink",
+    "matlab simulink"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "automation",
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "matlab",
+    "motor-control",
+    "embedded-systems"
+   ],
+   "jobs": [
+    "Ingénieur contrôle commande",
+    "Ingénieur systèmes",
+    "Automaticien"
+   ]
+  },
+  {
+   "id": "plc-programming",
+   "label": {
+    "fr": "Automates programmables",
+    "en": "PLC Programming",
+    "ar": "برمجة PLC",
+    "ru": "программирован ПЛК"
+   },
+   "patterns": [
+    "plc",
+    "automate programmable",
+    "programmable logic controller",
+    "программирован",
+    "برمجة plc"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "automation",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "scada",
+    "hmi-design",
+    "iec-61131-3",
+    "profinet"
+   ],
+   "jobs": [
+    "Automaticien",
+    "Ingénieur contrôle commande",
+    "Technicien en automatisme"
+   ]
+  },
+  {
+   "id": "scada",
+   "label": {
+    "fr": "SCADA",
+    "en": "SCADA",
+    "ar": "نظام سكادا",
+    "ru": "скада"
+   },
+   "patterns": [
+    "scada",
+    "supervisory control",
+    "скада",
+    "نظام سكادا"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "automation",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "plc-programming",
+    "hmi-design",
+    "iiot",
+    "mes-systems"
+   ],
+   "jobs": [
+    "Ingénieur supervision",
+    "Automaticien",
+    "Ingénieur systèmes industriels"
+   ]
+  },
+  {
+   "id": "hmi-design",
+   "label": {
+    "fr": "Conception IHM",
+    "en": "HMI Design",
+    "ar": "تصميم واجهات المستخدم",
+    "ru": "проектирован ЧМИ"
+   },
+   "patterns": [
+    "hmi",
+    "ihm",
+    "interface homme machine",
+    "human machine interface",
+    "чми"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "automation",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "scada",
+    "plc-programming",
+    "profinet"
+   ],
+   "jobs": [
+    "Automaticien",
+    "Ingénieur contrôle commande",
+    "Ergonome industriel"
+   ]
+  },
+  {
+   "id": "electrical-design",
+   "label": {
+    "fr": "Conception électrique",
+    "en": "Electrical Design",
+    "ar": "التصميم الكهربائي",
+    "ru": "проектирован электрич"
+   },
+   "patterns": [
+    "conception electrique",
+    "electrical design",
+    "electrical drafting",
+    "проектирован электрич"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "electronics",
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "power-distribution",
+    "etap",
+    "autocad",
+    "dialux"
+   ],
+   "jobs": [
+    "Ingénieur électricien",
+    "Dessinateur électricité",
+    "Chef de projet électrique"
+   ]
+  },
+  {
+   "id": "mechanical-design",
+   "label": {
+    "fr": "Conception mécanique",
+    "en": "Mechanical Design",
+    "ar": "التصميم الميكانيكي",
+    "ru": "проектирован механич"
+   },
+   "patterns": [
+    "conception mecanique",
+    "mechanical design",
+    "machine design",
+    "проектирован механич"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "design",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "solidworks",
+    "catia",
+    "autocad",
+    "fea",
+    "gdt"
+   ],
+   "jobs": [
+    "Ingénieur mécanique",
+    "Concepteur mécanique",
+    "Dessinateur projeteur"
+   ]
+  },
+  {
+   "id": "hvac-design",
+   "label": {
+    "fr": "Conception CVC",
+    "en": "HVAC Design",
+    "ar": "تصميم أنظمة التكييف",
+    "ru": "проектирован ОВК"
+   },
+   "patterns": [
+    "hvac",
+    "cvcd",
+    "chauffage ventilation",
+    "отоплени",
+    "التدفئة والتهوية"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "btp",
+    "energy"
+   ],
+   "level": "courant",
+   "related": [
+    "ashrae-standards",
+    "revit",
+    "piping-design",
+    "heat-transfer"
+   ],
+   "jobs": [
+    "Ingénieur CVC",
+    "Dessinateur CVC",
+    "Chargé d'affaires CVC"
+   ]
+  },
+  {
+   "id": "piping-design",
+   "label": {
+    "fr": "Conception de tuyauterie",
+    "en": "Piping Design",
+    "ar": "تصميم الأنابيب",
+    "ru": "проектирован трубопровод"
+   },
+   "patterns": [
+    "piping",
+    "tuyauterie",
+    "pipe stress",
+    "трубопровод"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "industrie",
+    "btp"
+   ],
+   "level": "frequent",
+   "related": [
+    "hvac-design",
+    "autocad",
+    "navisworks",
+    "api-standards"
+   ],
+   "jobs": [
+    "Ingénieur tuyauterie",
+    "Dessinateur tuyauterie",
+    "Ingénieur procédés"
+   ]
+  },
+  {
+   "id": "fea",
+   "label": {
+    "fr": "Éléments finis",
+    "en": "Finite Element Analysis",
+    "ar": "تحليل العناصر المحدودة",
+    "ru": "метод конечн элемент"
+   },
+   "patterns": [
+    "fea",
+    "finite element",
+    "elements finis",
+    "methode element fini",
+    "конечн элемент"
+   ],
+   "category": "methode",
+   "topics": [
+    "engineering",
+    "data",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "ansys",
+    "mechanical-design",
+    "solidworks",
+    "material-science"
+   ],
+   "jobs": [
+    "Ingénieur calcul",
+    "Ingénieur simulation",
+    "Chargé d'études mécaniques"
+   ]
+  },
+  {
+   "id": "cfd",
+   "label": {
+    "fr": "Mécanique des fluides numérique",
+    "en": "Computational Fluid Dynamics",
+    "ar": "ديناميكا الموائع الحسابية",
+    "ru": "вычислительн гидродинамик"
+   },
+   "patterns": [
+    "cfd",
+    "computational fluid",
+    "mecanique des fluides",
+    "вычислительн гидродинамик"
+   ],
+   "category": "methode",
+   "topics": [
+    "engineering",
+    "data",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "ansys",
+    "fluid-mechanics",
+    "heat-transfer",
+    "thermodynamics"
+   ],
+   "jobs": [
+    "Ingénieur calcul",
+    "Aérodynamicien",
+    "Ingénieur thermique"
+   ]
+  },
+  {
+   "id": "lean-manufacturing",
+   "label": {
+    "fr": "Lean Manufacturing",
+    "en": "Lean Manufacturing",
+    "ar": "التصنيع الرشيق",
+    "ru": "бережлив производств"
+   },
+   "patterns": [
+    "lean manufacturing",
+    "lean production",
+    "production au plus juste",
+    "бережлив производств"
+   ],
+   "category": "methode",
+   "topics": [
+    "industrie",
+    "manufacturing",
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "six-sigma",
+    "kaizen",
+    "5s-method",
+    "value-engineering"
+   ],
+   "jobs": [
+    "Ingénieur amélioration continue",
+    "Responsable production",
+    "Lean manager"
+   ]
+  },
+  {
+   "id": "six-sigma",
+   "label": {
+    "fr": "Six Sigma",
+    "en": "Six Sigma",
+    "ar": "ستة سيغما",
+    "ru": "шесть сигм"
+   },
+   "patterns": [
+    "six sigma",
+    "6 sigma",
+    "lean six sigma",
+    "шесть сигм"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "manufacturing",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-manufacturing",
+    "fmea",
+    "root-cause-analysis",
+    "python"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Black belt",
+    "Ingénieur amélioration continue"
+   ]
+  },
+  {
+   "id": "kaizen",
+   "label": {
+    "fr": "Kaizen",
+    "en": "Kaizen",
+    "ar": "كايزن",
+    "ru": "кайдзен"
+   },
+   "patterns": [
+    "kaizen",
+    "amelioration continue",
+    "continuous improvement",
+    "кайдзен"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "manufacturing",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "lean-manufacturing",
+    "5s-method",
+    "value-engineering"
+   ],
+   "jobs": [
+    "Ingénieur amélioration continue",
+    "Responsable production",
+    "Animateur qualité"
+   ]
+  },
+  {
+   "id": "5s-method",
+   "label": {
+    "fr": "Méthode 5S",
+    "en": "5S Methodology",
+    "ar": "منهجية 5S",
+    "ru": "система 5S"
+   },
+   "patterns": [
+    "5s",
+    "methode 5s",
+    "5s methodology"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "manufacturing",
+    "safety"
+   ],
+   "level": "courant",
+   "related": [
+    "kaizen",
+    "lean-manufacturing",
+    "hse-management"
+   ],
+   "jobs": [
+    "Ingénieur amélioration continue",
+    "Responsable production",
+    "Chef d'atelier"
+   ]
+  },
+  {
+   "id": "iso-9001",
+   "label": {
+    "fr": "ISO 9001",
+    "en": "ISO 9001",
+    "ar": "آيزو 9001",
+    "ru": "ISO 9001"
+   },
+   "patterns": [
+    "iso 9001",
+    "iso9001",
+    "quality management system",
+    "qms"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "industrie",
+    "manufacturing"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-14001",
+    "iso-45001",
+    "fmea",
+    "six-sigma"
+   ],
+   "jobs": [
+    "Responsable qualité",
+    "Auditeur qualité",
+    "Ingénieur qualité"
+   ]
+  },
+  {
+   "id": "iso-14001",
+   "label": {
+    "fr": "ISO 14001",
+    "en": "ISO 14001",
+    "ar": "آيزو 14001",
+    "ru": "ISO 14001"
+   },
+   "patterns": [
+    "iso 14001",
+    "iso14001",
+    "environmental management",
+    "ems"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "safety",
+    "energy"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-9001",
+    "iso-45001",
+    "hse-management",
+    "energy-audit"
+   ],
+   "jobs": [
+    "Responsable environnement",
+    "HSE manager",
+    "Ingénieur QSE"
+   ]
+  },
+  {
+   "id": "iso-45001",
+   "label": {
+    "fr": "ISO 45001",
+    "en": "ISO 45001",
+    "ar": "آيزو 45001",
+    "ru": "ISO 45001"
+   },
+   "patterns": [
+    "iso 45001",
+    "iso45001",
+    "ohsas 18001",
+    "health and safety"
+   ],
+   "category": "norme",
+   "topics": [
+    "safety",
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-9001",
+    "iso-14001",
+    "hse-management",
+    "lockout-tagout"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Ingénieur sécurité",
+    "Préventeur"
+   ]
+  },
+  {
+   "id": "iec-61508",
+   "label": {
+    "fr": "IEC 61508",
+    "en": "IEC 61508",
+    "ar": "آيزو IEC 61508",
+    "ru": "IEC 61508"
+   },
+   "patterns": [
+    "iec 61508",
+    "iec61508",
+    "functional safety"
+   ],
+   "category": "norme",
+   "topics": [
+    "safety",
+    "automation",
+    "electronics"
+   ],
+   "level": "specialise",
+   "related": [
+    "hazop",
+    "plc-programming",
+    "iec-61131-3"
+   ],
+   "jobs": [
+    "Ingénieur sûreté de fonctionnement",
+    "Ingénieur automatisme",
+    "Ingénieur systèmes"
+   ]
+  },
+  {
+   "id": "api-standards",
+   "label": {
+    "fr": "Normes API",
+    "en": "API Standards",
+    "ar": "معايير API",
+    "ru": "стандарты API"
+   },
+   "patterns": [
+    "api standards",
+    "american petroleum institute",
+    "api 650",
+    "api 570"
+   ],
+   "category": "norme",
+   "topics": [
+    "industrie",
+    "engineering",
+    "manufacturing"
+   ],
+   "level": "specialise",
+   "related": [
+    "piping-design",
+    "welding-inspection",
+    "ndt"
+   ],
+   "jobs": [
+    "Ingénieur pétrolier",
+    "Inspecteur de soudure",
+    "Ingénieur mécanique"
+   ]
+  },
+  {
+   "id": "asme-y14-5",
+   "label": {
+    "fr": "ASME Y14.5",
+    "en": "ASME Y14.5",
+    "ar": "ASME Y14.5",
+    "ru": "ASME Y14.5"
+   },
+   "patterns": [
+    "asme y14.5",
+    "asme y14 5",
+    "asme"
+   ],
+   "category": "norme",
+   "topics": [
+    "engineering",
+    "quality",
+    "manufacturing"
+   ],
+   "level": "frequent",
+   "related": [
+    "gdt",
+    "mechanical-design",
+    "technical-drawing",
+    "tolerance-analysis"
+   ],
+   "jobs": [
+    "Ingénieur mécanique",
+    "Dessinateur industriel",
+    "Technicien métrologie"
+   ]
+  },
+  {
+   "id": "gdt",
+   "label": {
+    "fr": "Tolérancement géométrique",
+    "en": "GD&T",
+    "ar": "التفاوت الهندسي",
+    "ru": "геометрическ допуск"
+   },
+   "patterns": [
+    "gdt",
+    "geometric dimensioning",
+    "tolerancement geometrique"
+   ],
+   "category": "methode",
+   "topics": [
+    "engineering",
+    "quality",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "asme-y14-5",
+    "tolerance-analysis",
+    "mechanical-design",
+    "technical-drawing"
+   ],
+   "jobs": [
+    "Ingénieur mécanique",
+    "Dessinateur projeteur",
+    "Technicien métrologie"
+   ]
+  },
+  {
+   "id": "dfm",
+   "label": {
+    "fr": "Conception pour la fabrication",
+    "en": "Design for Manufacturing",
+    "ar": "التصميم من أجل التصنيع",
+    "ru": "проектирован для производств"
+   },
+   "patterns": [
+    "dfm",
+    "design for manufacturing",
+    "conception pour la fabrication"
+   ],
+   "category": "methode",
+   "topics": [
+    "engineering",
+    "manufacturing",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "dfa",
+    "mechanical-design",
+    "solidworks",
+    "lean-manufacturing"
+   ],
+   "jobs": [
+    "Ingénieur méthodes",
+    "Ingénieur conception",
+    "Ingénieur industrialisation"
+   ]
+  },
+  {
+   "id": "dfa",
+   "label": {
+    "fr": "Conception pour l'assemblage",
+    "en": "Design for Assembly",
+    "ar": "التصميم من أجل التجميع",
+    "ru": "проектирован для сборк"
+   },
+   "patterns": [
+    "dfa",
+    "design for assembly",
+    "conception pour l assemblage"
+   ],
+   "category": "methode",
+   "topics": [
+    "engineering",
+    "manufacturing",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "dfm",
+    "mechanical-design",
+    "lean-manufacturing"
+   ],
+   "jobs": [
+    "Ingénieur méthodes",
+    "Ingénieur conception",
+    "Ingénieur industrialisation"
+   ]
+  },
+  {
+   "id": "fmea",
+   "label": {
+    "fr": "AMDEC",
+    "en": "FMEA",
+    "ar": "تحليل أنماط الفشل",
+    "ru": "анализ вид и послед отказ"
+   },
+   "patterns": [
+    "fmea",
+    "amdec",
+    "failure mode",
+    "analyse des modes de defaillance"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "manufacturing",
+    "safety"
+   ],
+   "level": "courant",
+   "related": [
+    "root-cause-analysis",
+    "six-sigma",
+    "reliability-engineering",
+    "hazop"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Ingénieur fiabilité",
+    "Responsable méthode"
+   ]
+  },
+  {
+   "id": "root-cause-analysis",
+   "label": {
+    "fr": "Analyse des causes racines",
+    "en": "Root Cause Analysis",
+    "ar": "تحليل الأسباب الجذرية",
+    "ru": "анализ корнев причин"
+   },
+   "patterns": [
+    "root cause",
+    "analyse des causes racines",
+    "8d",
+    "ishikawa"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "manufacturing",
+    "safety"
+   ],
+   "level": "courant",
+   "related": [
+    "fmea",
+    "six-sigma",
+    "kaizen",
+    "reliability-engineering"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Ingénieur amélioration continue",
+    "Responsable production"
+   ]
+  },
+  {
+   "id": "preventive-maintenance",
+   "label": {
+    "fr": "Maintenance préventive",
+    "en": "Preventive Maintenance",
+    "ar": "الصيانة الوقائية",
+    "ru": "профилактическ ремонт"
+   },
+   "patterns": [
+    "preventive maintenance",
+    "maintenance preventive",
+    "plan de maintenance",
+    "профилактическ"
+   ],
+   "category": "metier",
+   "topics": [
+    "maintenance",
+    "industrie",
+    "manufacturing"
+   ],
+   "level": "courant",
+   "related": [
+    "predictive-maintenance",
+    "sap-pm",
+    "cmms",
+    "reliability-engineering"
+   ],
+   "jobs": [
+    "Responsable maintenance",
+    "Technicien de maintenance",
+    "Ingénieur fiabilité"
+   ]
+  },
+  {
+   "id": "predictive-maintenance",
+   "label": {
+    "fr": "Maintenance prédictive",
+    "en": "Predictive Maintenance",
+    "ar": "الصيانة التنبؤية",
+    "ru": "прогноз ремонт"
+   },
+   "patterns": [
+    "predictive maintenance",
+    "maintenance predictive",
+    "condition based",
+    "прогноз"
+   ],
+   "category": "metier",
+   "topics": [
+    "maintenance",
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "preventive-maintenance",
+    "iiot",
+    "machine-vision",
+    "python"
+   ],
+   "jobs": [
+    "Ingénieur maintenance",
+    "Data scientist industriel",
+    "Responsable maintenance"
+   ]
+  },
+  {
+   "id": "reliability-engineering",
+   "label": {
+    "fr": "Ingénierie de fiabilité",
+    "en": "Reliability Engineering",
+    "ar": "هندسة الموثوقية",
+    "ru": "инженер надежност"
+   },
+   "patterns": [
+    "reliability",
+    "fiabilite",
+    "surete de fonctionnement",
+    "надежност"
+   ],
+   "category": "metier",
+   "topics": [
+    "maintenance",
+    "quality",
+    "safety"
+   ],
+   "level": "frequent",
+   "related": [
+    "fmea",
+    "predictive-maintenance",
+    "preventive-maintenance",
+    "root-cause-analysis"
+   ],
+   "jobs": [
+    "Ingénieur fiabilité",
+    "Responsable maintenance",
+    "Ingénieur sûreté"
+   ]
+  },
+  {
+   "id": "project-management",
+   "label": {
+    "fr": "Gestion de projet",
+    "en": "Project Management",
+    "ar": "إدارة المشاريع",
+    "ru": "управлен проек"
+   },
+   "patterns": [
+    "project management",
+    "gestion de projet",
+    "chef de projet",
+    "управлен проек"
+   ],
+   "category": "transverse",
+   "topics": [
+    "project",
+    "business",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "primavera-p6",
+    "ms-project",
+    "supply-chain",
+    "procurement"
+   ],
+   "jobs": [
+    "Chef de projet industriel",
+    "Directeur de projet",
+    "Ingénieur projet"
+   ]
+  },
+  {
+   "id": "primavera-p6",
+   "label": {
+    "fr": "Primavera P6",
+    "en": "Primavera P6",
+    "ar": "Primavera P6",
+    "ru": "Primavera P6"
+   },
+   "patterns": [
+    "primavera",
+    "primavera p6",
+    "oracle primavera"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "btp",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "ms-project",
+    "project-management",
+    "sap-erp"
+   ],
+   "jobs": [
+    "Planificateur projet",
+    "Chef de projet",
+    "Ingénieur planning"
+   ]
+  },
+  {
+   "id": "ms-project",
+   "label": {
+    "fr": "MS Project",
+    "en": "MS Project",
+    "ar": "MS Project",
+    "ru": "MS Project"
+   },
+   "patterns": [
+    "ms project",
+    "microsoft project"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "business",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "primavera-p6",
+    "project-management",
+    "sap-erp"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Planificateur",
+    "Responsable PMO"
+   ]
+  },
+  {
+   "id": "sap-pm",
+   "label": {
+    "fr": "SAP PM",
+    "en": "SAP PM",
+    "ar": "SAP PM",
+    "ru": "SAP PM"
+   },
+   "patterns": [
+    "sap pm",
+    "sap plant maintenance"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "maintenance",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-pp",
+    "sap-erp",
+    "cmms",
+    "preventive-maintenance"
+   ],
+   "jobs": [
+    "Consultant SAP PM",
+    "Responsable maintenance",
+    "Gestionnaire GMAO"
+   ]
+  },
+  {
+   "id": "sap-pp",
+   "label": {
+    "fr": "SAP PP",
+    "en": "SAP PP",
+    "ar": "SAP PP",
+    "ru": "SAP PP"
+   },
+   "patterns": [
+    "sap pp",
+    "sap production planning"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "manufacturing",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-pm",
+    "sap-erp",
+    "lean-manufacturing",
+    "mes-systems"
+   ],
+   "jobs": [
+    "Consultant SAP PP",
+    "Responsable production",
+    "Planificateur de production"
+   ]
+  },
+  {
+   "id": "sap-erp",
+   "label": {
+    "fr": "SAP ERP",
+    "en": "SAP ERP",
+    "ar": "SAP ERP",
+    "ru": "SAP ERP"
+   },
+   "patterns": [
+    "sap erp",
+    "sap r3",
+    "sap s4hana",
+    "s4 hana"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "sap-pm",
+    "sap-pp",
+    "erp-systems",
+    "supply-chain"
+   ],
+   "jobs": [
+    "Consultant SAP",
+    "Chef de projet ERP",
+    "Responsable SI"
+   ]
+  },
+  {
+   "id": "cmms",
+   "label": {
+    "fr": "GMAO",
+    "en": "CMMS",
+    "ar": "نظام إدارة الصيانة",
+    "ru": "систем управлен ремонт"
+   },
+   "patterns": [
+    "cmms",
+    "gmao",
+    "maintenance management system"
+   ],
+   "category": "outil",
+   "topics": [
+    "maintenance",
+    "erp",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "sap-pm",
+    "preventive-maintenance",
+    "predictive-maintenance",
+    "iiot"
+   ],
+   "jobs": [
+    "Responsable maintenance",
+    "Gestionnaire GMAO",
+    "Technicien méthodes"
+   ]
+  },
+  {
+   "id": "bim",
+   "label": {
+    "fr": "BIM",
+    "en": "BIM",
+    "ar": "نمذجة معلومات البناء",
+    "ru": "информацион модел здан"
+   },
+   "patterns": [
+    "bim",
+    "building information modeling",
+    "maquette numerique",
+    "информацион модел"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "design",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "revit",
+    "navisworks",
+    "autocad",
+    "digital-twin"
+   ],
+   "jobs": [
+    "BIM manager",
+    "Coordinateur BIM",
+    "Dessinateur projeteur"
+   ]
+  },
+  {
+   "id": "revit",
+   "label": {
+    "fr": "Revit",
+    "en": "Revit",
+    "ar": "Revit",
+    "ru": "Revit"
+   },
+   "patterns": [
+    "revit",
+    "autodesk revit",
+    "revit mep"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "design",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "bim",
+    "navisworks",
+    "autocad",
+    "hvac-design"
+   ],
+   "jobs": [
+    "BIM modeleur",
+    "Dessinateur CVC",
+    "Architecte"
+   ]
+  },
+  {
+   "id": "navisworks",
+   "label": {
+    "fr": "Navisworks",
+    "en": "Navisworks",
+    "ar": "Navisworks",
+    "ru": "Navisworks"
+   },
+   "patterns": [
+    "navisworks",
+    "autodesk navisworks"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "design",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "revit",
+    "bim",
+    "autocad",
+    "piping-design"
+   ],
+   "jobs": [
+    "Coordinateur BIM",
+    "BIM manager",
+    "Ingénieur synthèse"
+   ]
+  },
+  {
+   "id": "etabs",
+   "label": {
+    "fr": "ETABS",
+    "en": "ETABS",
+    "ar": "ETABS",
+    "ru": "ETABS"
+   },
+   "patterns": [
+    "etabs",
+    "csi etabs"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "staad-pro",
+    "revit",
+    "bim",
+    "autocad"
+   ],
+   "jobs": [
+    "Ingénieur structure",
+    "Calculateur béton",
+    "Dessinateur béton armé"
+   ]
+  },
+  {
+   "id": "staad-pro",
+   "label": {
+    "fr": "STAAD.Pro",
+    "en": "STAAD.Pro",
+    "ar": "STAAD.Pro",
+    "ru": "STAAD.Pro"
+   },
+   "patterns": [
+    "staad",
+    "staad pro",
+    "bentley staad"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "etabs",
+    "revit",
+    "autocad",
+    "bim"
+   ],
+   "jobs": [
+    "Ingénieur structure",
+    "Calculateur charpente",
+    "Ingénieur génie civil"
+   ]
+  },
+  {
+   "id": "dialux",
+   "label": {
+    "fr": "DIALux",
+    "en": "DIALux",
+    "ar": "DIALux",
+    "ru": "DIALux"
+   },
+   "patterns": [
+    "dialux",
+    "dialux evo"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "electrical-design",
+    "revit",
+    "autocad",
+    "hvac-design"
+   ],
+   "jobs": [
+    "Ingénieur électricien",
+    "Concepteur éclairage",
+    "Bureau d'études électricité"
+   ]
+  },
+  {
+   "id": "etap",
+   "label": {
+    "fr": "ETAP",
+    "en": "ETAP",
+    "ar": "ETAP",
+    "ru": "ETAP"
+   },
+   "patterns": [
+    "etap",
+    "electrical transient analyzer"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "electronics",
+    "energy"
+   ],
+   "level": "specialise",
+   "related": [
+    "electrical-design",
+    "skm-powertools",
+    "easypower",
+    "power-distribution"
+   ],
+   "jobs": [
+    "Ingénieur électricien",
+    "Ingénieur réseaux électriques",
+    "Chargé d'études"
+   ]
+  },
+  {
+   "id": "skm-powertools",
+   "label": {
+    "fr": "SKM PowerTools",
+    "en": "SKM PowerTools",
+    "ar": "SKM PowerTools",
+    "ru": "SKM PowerTools"
+   },
+   "patterns": [
+    "skm powertools",
+    "skm electrical"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "electronics",
+    "energy"
+   ],
+   "level": "specialise",
+   "related": [
+    "etap",
+    "easypower",
+    "electrical-design",
+    "power-distribution"
+   ],
+   "jobs": [
+    "Ingénieur électricien",
+    "Ingénieur études électriques",
+    "Consultant énergie"
+   ]
+  },
+  {
+   "id": "easypower",
+   "label": {
+    "fr": "EasyPower",
+    "en": "EasyPower",
+    "ar": "EasyPower",
+    "ru": "EasyPower"
+   },
+   "patterns": [
+    "easypower",
+    "easy power"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "electronics",
+    "energy"
+   ],
+   "level": "specialise",
+   "related": [
+    "etap",
+    "skm-powertools",
+    "electrical-design"
+   ],
+   "jobs": [
+    "Ingénieur électricien",
+    "Ingénieur réseaux électriques",
+    "Chargé d'études"
+   ]
+  },
+  {
+   "id": "altium-designer",
+   "label": {
+    "fr": "Altium Designer",
+    "en": "Altium Designer",
+    "ar": "Altium Designer",
+    "ru": "Altium Designer"
+   },
+   "patterns": [
+    "altium",
+    "altium designer"
+   ],
+   "category": "outil",
+   "topics": [
+    "electronics",
+    "engineering",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "eagle-pcb",
+    "kicad",
+    "pcb-design",
+    "embedded-systems"
+   ],
+   "jobs": [
+    "Ingénieur électronique",
+    "Concepteur de circuits",
+    "Dessinateur électronique"
+   ]
+  },
+  {
+   "id": "eagle-pcb",
+   "label": {
+    "fr": "Autodesk EAGLE",
+    "en": "Autodesk EAGLE",
+    "ar": "Autodesk EAGLE",
+    "ru": "Autodesk EAGLE"
+   },
+   "patterns": [
+    "eagle",
+    "autodesk eagle",
+    "eagle cad"
+   ],
+   "category": "outil",
+   "topics": [
+    "electronics",
+    "engineering",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "altium-designer",
+    "kicad",
+    "pcb-design"
+   ],
+   "jobs": [
+    "Ingénieur électronique",
+    "Concepteur de circuits",
+    "Technicien R&D"
+   ]
+  },
+  {
+   "id": "kicad",
+   "label": {
+    "fr": "KiCad",
+    "en": "KiCad",
+    "ar": "KiCad",
+    "ru": "KiCad"
+   },
+   "patterns": [
+    "kicad"
+   ],
+   "category": "outil",
+   "topics": [
+    "electronics",
+    "engineering",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "altium-designer",
+    "eagle-pcb",
+    "pcb-design"
+   ],
+   "jobs": [
+    "Ingénieur électronique",
+    "Concepteur de circuits",
+    "Maker"
+   ]
+  },
+  {
+   "id": "pspice",
+   "label": {
+    "fr": "PSpice",
+    "en": "PSpice",
+    "ar": "PSpice",
+    "ru": "PSpice"
+   },
+   "patterns": [
+    "pspice",
+    "orcad pspice"
+   ],
+   "category": "outil",
+   "topics": [
+    "electronics",
+    "engineering",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "ltspice",
+    "electrical-design",
+    "pcb-design",
+    "matlab"
+   ],
+   "jobs": [
+    "Ingénieur électronique",
+    "Ingénieur analogique",
+    "Concepteur de circuits"
+   ]
+  },
+  {
+   "id": "ltspice",
+   "label": {
+    "fr": "LTspice",
+    "en": "LTspice",
+    "ar": "LTspice",
+    "ru": "LTspice"
+   },
+   "patterns": [
+    "ltspice"
+   ],
+   "category": "outil",
+   "topics": [
+    "electronics",
+    "engineering",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "pspice",
+    "electrical-design",
+    "pcb-design"
+   ],
+   "jobs": [
+    "Ingénieur électronique",
+    "Ingénieur analogique",
+    "Concepteur de circuits"
+   ]
+  },
+  {
+   "id": "labview",
+   "label": {
+    "fr": "LabVIEW",
+    "en": "LabVIEW",
+    "ar": "LabVIEW",
+    "ru": "LabVIEW"
+   },
+   "patterns": [
+    "labview",
+    "ni labview",
+    "national instruments"
+   ],
+   "category": "outil",
+   "topics": [
+    "automation",
+    "engineering",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "matlab",
+    "python",
+    "machine-vision",
+    "embedded-systems"
+   ],
+   "jobs": [
+    "Ingénieur test et validation",
+    "Ingénieur automatisme",
+    "Ingénieur banc d'essai"
+   ]
+  },
+  {
+   "id": "python",
+   "label": {
+    "fr": "Python",
+    "en": "Python",
+    "ar": "Python",
+    "ru": "Python"
+   },
+   "patterns": [
+    "python",
+    "python3",
+    "py"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "ai",
+    "automation"
+   ],
+   "level": "courant",
+   "related": [
+    "matlab",
+    "labview",
+    "machine-vision",
+    "iiot"
+   ],
+   "jobs": [
+    "Ingénieur R&D",
+    "Data scientist",
+    "Ingénieur automatisation"
+   ]
+  },
+  {
+   "id": "cplusplus",
+   "label": {
+    "fr": "C++",
+    "en": "C++",
+    "ar": "C++",
+    "ru": "C++"
+   },
+   "patterns": [
+    "c++",
+    "cplusplus",
+    "c plus plus"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "automation",
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "embedded-systems",
+    "ros",
+    "python",
+    "matlab"
+   ],
+   "jobs": [
+    "Ingénieur logiciel embarqué",
+    "Développeur C++",
+    "Ingénieur robotique"
+   ]
+  },
+  {
+   "id": "embedded-systems",
+   "label": {
+    "fr": "Systèmes embarqués",
+    "en": "Embedded Systems",
+    "ar": "الأنظمة المدمجة",
+    "ru": "встраиваем систем"
+   },
+   "patterns": [
+    "embedded",
+    "systemes embarques",
+    "embedded systems",
+    "встраиваем систем"
+   ],
+   "category": "metier",
+   "topics": [
+    "electronics",
+    "automation",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "cplusplus",
+    "pcb-design",
+    "altium-designer",
+    "motor-control"
+   ],
+   "jobs": [
+    "Ingénieur systèmes embarqués",
+    "Ingénieur électronique",
+    "Développeur firmware"
+   ]
+  },
+  {
+   "id": "pcb-design",
+   "label": {
+    "fr": "Conception de circuits imprimés",
+    "en": "PCB Design",
+    "ar": "تصميم الدوائر المطبوعة",
+    "ru": "проектирован печатн плат"
+   },
+   "patterns": [
+    "pcb",
+    "printed circuit board",
+    "circuit imprime",
+    "печатн плат"
+   ],
+   "category": "metier",
+   "topics": [
+    "electronics",
+    "engineering",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "altium-designer",
+    "eagle-pcb",
+    "kicad",
+    "electrical-design"
+   ],
+   "jobs": [
+    "Ingénieur électronique",
+    "Concepteur de circuits",
+    "Dessinateur électronique"
+   ]
+  },
+  {
+   "id": "power-distribution",
+   "label": {
+    "fr": "Distribution électrique",
+    "en": "Power Distribution",
+    "ar": "توزيع الطاقة الكهربائية",
+    "ru": "распределен электроэнерг"
+   },
+   "patterns": [
+    "power distribution",
+    "distribution electrique",
+    "mvlv",
+    "hv mv lv"
+   ],
+   "category": "metier",
+   "topics": [
+    "energy",
+    "engineering",
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "electrical-design",
+    "etap",
+    "nec-code",
+    "ul-standards"
+   ],
+   "jobs": [
+    "Ingénieur électricien",
+    "Chargé d'affaires électricité",
+    "Ingénieur HT/BT"
+   ]
+  },
+  {
+   "id": "motor-control",
+   "label": {
+    "fr": "Commande moteur",
+    "en": "Motor Control",
+    "ar": "التحكم في المحركات",
+    "ru": "управлен электродвигател"
+   },
+   "patterns": [
+    "motor control",
+    "commande moteur",
+    "vfd",
+    "variable frequency drive"
+   ],
+   "category": "metier",
+   "topics": [
+    "automation",
+    "electronics",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "embedded-systems",
+    "plc-programming",
+    "power-distribution",
+    "simulink"
+   ],
+   "jobs": [
+    "Ingénieur automatisme",
+    "Ingénieur électronique de puissance",
+    "Électricien industriel"
+   ]
+  },
+  {
+   "id": "robotics",
+   "label": {
+    "fr": "Robotique",
+    "en": "Robotics",
+    "ar": "الروبوتات",
+    "ru": "робототехник"
+   },
+   "patterns": [
+    "robotics",
+    "robotique",
+    "industrial robot",
+    "робототехник"
+   ],
+   "category": "metier",
+   "topics": [
+    "automation",
+    "engineering",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "ros",
+    "plc-programming",
+    "machine-vision",
+    "embedded-systems"
+   ],
+   "jobs": [
+    "Ingénieur robotique",
+    "Automaticien",
+    "Intégrateur robot"
+   ]
+  },
+  {
+   "id": "ros",
+   "label": {
+    "fr": "ROS",
+    "en": "ROS",
+    "ar": "ROS",
+    "ru": "ROS"
+   },
+   "patterns": [
+    "ros",
+    "robot operating system"
+   ],
+   "category": "outil",
+   "topics": [
+    "automation",
+    "ai",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "robotics",
+    "cplusplus",
+    "python",
+    "machine-vision"
+   ],
+   "jobs": [
+    "Ingénieur robotique",
+    "Développeur robotique",
+    "Chercheur en robotique"
+   ]
+  },
+  {
+   "id": "machine-vision",
+   "label": {
+    "fr": "Vision industrielle",
+    "en": "Machine Vision",
+    "ar": "الرؤية الحاسوبية",
+    "ru": "техническ зрен"
+   },
+   "patterns": [
+    "machine vision",
+    "vision industrielle",
+    "computer vision",
+    "техническ зрен"
+   ],
+   "category": "metier",
+   "topics": [
+    "automation",
+    "ai",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "robotics",
+    "python",
+    "labview",
+    "predictive-maintenance"
+   ],
+   "jobs": [
+    "Ingénieur vision",
+    "Ingénieur automatisme",
+    "Ingénieur contrôle qualité"
+   ]
+  },
+  {
+   "id": "pneumatics",
+   "label": {
+    "fr": "Pneumatique",
+    "en": "Pneumatics",
+    "ar": "الأنظمة الهوائية",
+    "ru": "пневматик"
+   },
+   "patterns": [
+    "pneumatics",
+    "pneumatique",
+    "pneumatic systems",
+    "пневматик"
+   ],
+   "category": "metier",
+   "topics": [
+    "automation",
+    "engineering",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "hydraulics",
+    "mechanical-design",
+    "plc-programming",
+    "dfm"
+   ],
+   "jobs": [
+    "Ingénieur mécanique",
+    "Technicien de maintenance",
+    "Automaticien"
+   ]
+  },
+  {
+   "id": "hydraulics",
+   "label": {
+    "fr": "Hydraulique",
+    "en": "Hydraulics",
+    "ar": "الأنظمة الهيدروليكية",
+    "ru": "гидравлик"
+   },
+   "patterns": [
+    "hydraulics",
+    "hydraulique",
+    "hydraulic systems",
+    "гидравлик"
+   ],
+   "category": "metier",
+   "topics": [
+    "automation",
+    "engineering",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "pneumatics",
+    "mechanical-design",
+    "piping-design",
+    "fluid-mechanics"
+   ],
+   "jobs": [
+    "Ingénieur mécanique",
+    "Technicien hydraulique",
+    "Ingénieur R&D"
+   ]
+  },
+  {
+   "id": "thermodynamics",
+   "label": {
+    "fr": "Thermodynamique",
+    "en": "Thermodynamics",
+    "ar": "الديناميكا الحرارية",
+    "ru": "термодинамик"
+   },
+   "patterns": [
+    "thermodynamics",
+    "thermodynamique",
+    "термодинамик"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "energy",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "heat-transfer",
+    "fluid-mechanics",
+    "hvac-design",
+    "cfd"
+   ],
+   "jobs": [
+    "Ingénieur thermique",
+    "Ingénieur procédés",
+    "Ingénieur R&D"
+   ]
+  },
+  {
+   "id": "heat-transfer",
+   "label": {
+    "fr": "Transfert thermique",
+    "en": "Heat Transfer",
+    "ar": "انتقال الحرارة",
+    "ru": "теплопередач"
+   },
+   "patterns": [
+    "heat transfer",
+    "transfert thermique",
+    "теплопередач"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "energy",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "thermodynamics",
+    "fluid-mechanics",
+    "hvac-design",
+    "cfd"
+   ],
+   "jobs": [
+    "Ingénieur thermique",
+    "Ingénieur CVC",
+    "Chargé d'études fluides"
+   ]
+  },
+  {
+   "id": "fluid-mechanics",
+   "label": {
+    "fr": "Mécanique des fluides",
+    "en": "Fluid Mechanics",
+    "ar": "ميكانيكا الموائع",
+    "ru": "гидромеханик"
+   },
+   "patterns": [
+    "fluid mechanics",
+    "mecanique des fluides",
+    "гидромеханик"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "energy",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "thermodynamics",
+    "heat-transfer",
+    "cfd",
+    "hydraulics"
+   ],
+   "jobs": [
+    "Ingénieur procédés",
+    "Ingénieur aéronautique",
+    "Chargé d'études fluides"
+   ]
+  },
+  {
+   "id": "material-science",
+   "label": {
+    "fr": "Science des matériaux",
+    "en": "Material Science",
+    "ar": "علم المواد",
+    "ru": "материаловеден"
+   },
+   "patterns": [
+    "material science",
+    "science des materiaux",
+    "материаловеден"
+   ],
+   "category": "metier",
+   "topics": [
+    "materials",
+    "engineering",
+    "manufacturing"
+   ],
+   "level": "frequent",
+   "related": [
+    "metallurgy",
+    "fea",
+    "mechanical-design",
+    "ndt"
+   ],
+   "jobs": [
+    "Ingénieur matériaux",
+    "Métallurgiste",
+    "Chercheur matériaux"
+   ]
+  },
+  {
+   "id": "metallurgy",
+   "label": {
+    "fr": "Métallurgie",
+    "en": "Metallurgy",
+    "ar": "علم المعادن",
+    "ru": "металлург"
+   },
+   "patterns": [
+    "metallurgy",
+    "metallurgie",
+    "металлург"
+   ],
+   "category": "metier",
+   "topics": [
+    "materials",
+    "engineering",
+    "manufacturing"
+   ],
+   "level": "frequent",
+   "related": [
+    "material-science",
+    "welding-inspection",
+    "ndt",
+    "mechanical-design"
+   ],
+   "jobs": [
+    "Ingénieur métallurgiste",
+    "Ingénieur matériaux",
+    "Technicien laboratoire"
+   ]
+  },
+  {
+   "id": "welding-inspection",
+   "label": {
+    "fr": "Inspection de soudure",
+    "en": "Welding Inspection",
+    "ar": "فحص اللحام",
+    "ru": "контрол сварк"
+   },
+   "patterns": [
+    "welding inspection",
+    "controle de soudure",
+    "cswip",
+    "aws cwi"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "manufacturing",
+    "safety"
+   ],
+   "level": "specialise",
+   "related": [
+    "ndt",
+    "metallurgy",
+    "api-standards",
+    "hse-management"
+   ],
+   "jobs": [
+    "Inspecteur de soudure",
+    "Contrôleur non destructif",
+    "Ingénieur qualité"
+   ]
+  },
+  {
+   "id": "ndt",
+   "label": {
+    "fr": "Contrôle non destructif",
+    "en": "Non-Destructive Testing",
+    "ar": "الاختبار غير الإتلافي",
+    "ru": "неразрушающ контрол"
+   },
+   "patterns": [
+    "ndt",
+    "non destructive testing",
+    "cnd",
+    "controle non destructif",
+    "нк"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "manufacturing",
+    "safety"
+   ],
+   "level": "frequent",
+   "related": [
+    "welding-inspection",
+    "metallurgy",
+    "material-science",
+    "api-standards"
+   ],
+   "jobs": [
+    "Technicien CND",
+    "Inspecteur de soudure",
+    "Contrôleur qualité"
+   ]
+  },
+  {
+   "id": "hse-management",
+   "label": {
+    "fr": "Gestion HSE",
+    "en": "HSE Management",
+    "ar": "إدارة الصحة والسلامة",
+    "ru": "управлен охран труд"
+   },
+   "patterns": [
+    "hse",
+    "qse",
+    "hygiene securite environnement",
+    "health safety environment"
+   ],
+   "category": "transverse",
+   "topics": [
+    "safety",
+    "quality",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-45001",
+    "iso-14001",
+    "hazop",
+    "lockout-tagout"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Ingénieur sécurité",
+    "Préventeur"
+   ]
+  },
+  {
+   "id": "hazop",
+   "label": {
+    "fr": "HAZOP",
+    "en": "HAZOP",
+    "ar": "تحليل المخاطر",
+    "ru": "анализ опасност"
+   },
+   "patterns": [
+    "hazop",
+    "hazard and operability",
+    "analyse de risques"
+   ],
+   "category": "methode",
+   "topics": [
+    "safety",
+    "quality",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "hse-management",
+    "fmea",
+    "iec-61508",
+    "piping-design"
+   ],
+   "jobs": [
+    "Ingénieur procédés",
+    "Responsable HSE",
+    "Ingénieur sûreté"
+   ]
+  },
+  {
+   "id": "lockout-tagout",
+   "label": {
+    "fr": "Consignation",
+    "en": "Lockout/Tagout",
+    "ar": "إغلاق ووضع العلامات",
+    "ru": "блокиров и маркиров"
+   },
+   "patterns": [
+    "loto",
+    "lockout tagout",
+    "consignation",
+    "lock out tag out"
+   ],
+   "category": "methode",
+   "topics": [
+    "safety",
+    "maintenance",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "hse-management",
+    "iso-45001",
+    "preventive-maintenance",
+    "electrical-design"
+   ],
+   "jobs": [
+    "Technicien de maintenance",
+    "Responsable HSE",
+    "Électricien industriel"
+   ]
+  },
+  {
+   "id": "atex",
+   "label": {
+    "fr": "ATEX",
+    "en": "ATEX",
+    "ar": "ATEX",
+    "ru": "ATEX"
+   },
+   "patterns": [
+    "atex",
+    "atmospheres explosives",
+    "directive atex"
+   ],
+   "category": "norme",
+   "topics": [
+    "safety",
+    "engineering",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "hse-management",
+    "ce-marking",
+    "electrical-design",
+    "iec-61508"
+   ],
+   "jobs": [
+    "Ingénieur électricien",
+    "Responsable HSE",
+    "Ingénieur instrumentation"
+   ]
+  },
+  {
+   "id": "ce-marking",
+   "label": {
+    "fr": "Marquage CE",
+    "en": "CE Marking",
+    "ar": "علامة CE",
+    "ru": "маркировк CE"
+   },
+   "patterns": [
+    "ce marking",
+    "marquage ce",
+    "ce directive",
+    "directive machine"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "safety",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "atex",
+    "ul-standards",
+    "iso-9001",
+    "mechanical-design"
+   ],
+   "jobs": [
+    "Ingénieur conformité",
+    "Responsable qualité",
+    "Ingénieur mécanique"
+   ]
+  },
+  {
+   "id": "ul-standards",
+   "label": {
+    "fr": "Normes UL",
+    "en": "UL Standards",
+    "ar": "معايير UL",
+    "ru": "стандарты UL"
+   },
+   "patterns": [
+    "ul standards",
+    "underwriters laboratories",
+    "ul certification",
+    "ul listing"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "safety",
+    "electronics"
+   ],
+   "level": "frequent",
+   "related": [
+    "ce-marking",
+    "nec-code",
+    "electrical-design",
+    "power-distribution"
+   ],
+   "jobs": [
+    "Ingénieur conformité",
+    "Ingénieur électricien",
+    "Responsable qualité"
+   ]
+  },
+  {
+   "id": "nec-code",
+   "label": {
+    "fr": "Code NEC",
+    "en": "NEC Code",
+    "ar": "كود NEC",
+    "ru": "код NEC"
+   },
+   "patterns": [
+    "nec code",
+    "national electrical code",
+    "nfpa 70"
+   ],
+   "category": "norme",
+   "topics": [
+    "safety",
+    "engineering",
+    "btp"
+   ],
+   "level": "specialise",
+   "related": [
+    "ul-standards",
+    "electrical-design",
+    "power-distribution",
+    "etap"
+   ],
+   "jobs": [
+    "Ingénieur électricien",
+    "Dessinateur électricité",
+    "Inspecteur électrique"
+   ]
+  },
+  {
+   "id": "iec-61131-3",
+   "label": {
+    "fr": "IEC 61131-3",
+    "en": "IEC 61131-3",
+    "ar": "IEC 61131-3",
+    "ru": "IEC 61131-3"
+   },
+   "patterns": [
+    "iec 61131",
+    "iec61131",
+    "iec 61131-3"
+   ],
+   "category": "norme",
+   "topics": [
+    "automation",
+    "engineering",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "plc-programming",
+    "profibus",
+    "profinet",
+    "scada"
+   ],
+   "jobs": [
+    "Automaticien",
+    "Ingénieur contrôle commande",
+    "Ingénieur systèmes"
+   ]
+  },
+  {
+   "id": "profibus",
+   "label": {
+    "fr": "PROFIBUS",
+    "en": "PROFIBUS",
+    "ar": "PROFIBUS",
+    "ru": "PROFIBUS"
+   },
+   "patterns": [
+    "profibus",
+    "profibus dp",
+    "profibus pa"
+   ],
+   "category": "metier",
+   "topics": [
+    "automation",
+    "electronics",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "profinet",
+    "modbus",
+    "plc-programming",
+    "iec-61131-3"
+   ],
+   "jobs": [
+    "Automaticien",
+    "Ingénieur réseau industriel",
+    "Technicien instrumentation"
+   ]
+  },
+  {
+   "id": "profinet",
+   "label": {
+    "fr": "PROFINET",
+    "en": "PROFINET",
+    "ar": "PROFINET",
+    "ru": "PROFINET"
+   },
+   "patterns": [
+    "profinet"
+   ],
+   "category": "metier",
+   "topics": [
+    "automation",
+    "electronics",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "profibus",
+    "ethercat",
+    "plc-programming",
+    "iiot"
+   ],
+   "jobs": [
+    "Automaticien",
+    "Ingénieur réseau industriel",
+    "Ingénieur contrôle commande"
+   ]
+  },
+  {
+   "id": "modbus",
+   "label": {
+    "fr": "Modbus",
+    "en": "Modbus",
+    "ar": "Modbus",
+    "ru": "Modbus"
+   },
+   "patterns": [
+    "modbus",
+    "modbus tcp",
+    "modbus rtu"
+   ],
+   "category": "metier",
+   "topics": [
+    "automation",
+    "electronics",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "profibus",
+    "mqtt",
+    "opc-ua",
+    "scada"
+   ],
+   "jobs": [
+    "Automaticien",
+    "Ingénieur réseau industriel",
+    "Technicien instrumentation"
+   ]
+  },
+  {
+   "id": "ethercat",
+   "label": {
+    "fr": "EtherCAT",
+    "en": "EtherCAT",
+    "ar": "EtherCAT",
+    "ru": "EtherCAT"
+   },
+   "patterns": [
+    "ethercat"
+   ],
+   "category": "metier",
+   "topics": [
+    "automation",
+    "electronics",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "profinet",
+    "profibus",
+    "plc-programming",
+    "robotics"
+   ],
+   "jobs": [
+    "Ingénieur automatisme",
+    "Ingénieur robotique",
+    "Automaticien"
+   ]
+  },
+  {
+   "id": "opc-ua",
+   "label": {
+    "fr": "OPC UA",
+    "en": "OPC UA",
+    "ar": "OPC UA",
+    "ru": "OPC UA"
+   },
+   "patterns": [
+    "opc ua",
+    "opcua",
+    "open platform communications"
+   ],
+   "category": "metier",
+   "topics": [
+    "automation",
+    "data",
+    "iiot"
+   ],
+   "level": "frequent",
+   "related": [
+    "mqtt",
+    "iiot",
+    "scada",
+    "mes-systems"
+   ],
+   "jobs": [
+    "Ingénieur automatisme",
+    "Ingénieur IoT",
+    "Intégrateur systèmes"
+   ]
+  },
+  {
+   "id": "mqtt",
+   "label": {
+    "fr": "MQTT",
+    "en": "MQTT",
+    "ar": "MQTT",
+    "ru": "MQTT"
+   },
+   "patterns": [
+    "mqtt",
+    "mq telemetry transport"
+   ],
+   "category": "metier",
+   "topics": [
+    "automation",
+    "data",
+    "iiot"
+   ],
+   "level": "frequent",
+   "related": [
+    "opc-ua",
+    "iiot",
+    "mes-systems",
+    "python"
+   ],
+   "jobs": [
+    "Ingénieur IoT",
+    "Développeur embarqué",
+    "Ingénieur données industrielles"
+   ]
+  },
+  {
+   "id": "iiot",
+   "label": {
+    "fr": "IIoT",
+    "en": "IIoT",
+    "ar": "إنترنت الأشياء الصناعي",
+    "ru": "промышлен интернет"
+   },
+   "patterns": [
+    "iiot",
+    "industrial iot",
+    "internet of things",
+    "internet industriel"
+   ],
+   "category": "metier",
+   "topics": [
+    "automation",
+    "data",
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "mqtt",
+    "opc-ua",
+    "predictive-maintenance",
+    "scada"
+   ],
+   "jobs": [
+    "Ingénieur IoT",
+    "Architecte digital",
+    "Ingénieur industrie 4.0"
+   ]
+  },
+  {
+   "id": "digital-twin",
+   "label": {
+    "fr": "Jumeau numérique",
+    "en": "Digital Twin",
+    "ar": "التوأم الرقمي",
+    "ru": "цифров двойник"
+   },
+   "patterns": [
+    "digital twin",
+    "jumeau numerique",
+    "цифров двойник"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "ai",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "bim",
+    "ansys",
+    "iiot",
+    "mes-systems"
+   ],
+   "jobs": [
+    "Ingénieur simulation",
+    "Architecte digital",
+    "Ingénieur R&D"
+   ]
+  },
+  {
+   "id": "mes-systems",
+   "label": {
+    "fr": "Systèmes MES",
+    "en": "MES Systems",
+    "ar": "أنظمة MES",
+    "ru": "систем MES"
+   },
+   "patterns": [
+    "mes system",
+    "manufacturing execution system",
+    "suivi de production"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "manufacturing",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "scada",
+    "sap-pp",
+    "iiot",
+    "erp-systems"
+   ],
+   "jobs": [
+    "Chef de projet MES",
+    "Ingénieur méthodes",
+    "Responsable production"
+   ]
+  },
+  {
+   "id": "erp-systems",
+   "label": {
+    "fr": "Systèmes ERP",
+    "en": "ERP Systems",
+    "ar": "أنظمة ERP",
+    "ru": "систем ERP"
+   },
+   "patterns": [
+    "erp",
+    "enterprise resource planning",
+    "pgi",
+    "progiciel de gestion"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "sap-erp",
+    "mes-systems",
+    "supply-chain",
+    "sap-pp"
+   ],
+   "jobs": [
+    "Consultant ERP",
+    "Chef de projet SI",
+    "Responsable supply chain"
+   ]
+  },
+  {
+   "id": "supply-chain",
+   "label": {
+    "fr": "Supply Chain",
+    "en": "Supply Chain",
+    "ar": "سلسلة التوريد",
+    "ru": "цеп поставок"
+   },
+   "patterns": [
+    "supply chain",
+    "chaine logistique",
+    "logistique",
+    "цеп поставок"
+   ],
+   "category": "transverse",
+   "topics": [
+    "logistique",
+    "business",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "erp-systems",
+    "procurement",
+    "sap-erp",
+    "project-management"
+   ],
+   "jobs": [
+    "Responsable supply chain",
+    "Planificateur",
+    "Ingénieur logistique"
+   ]
+  },
+  {
+   "id": "procurement",
+   "label": {
+    "fr": "Achats industriels",
+    "en": "Procurement",
+    "ar": "المشتريات",
+    "ru": "закупк"
+   },
+   "patterns": [
+    "procurement",
+    "achats",
+    "purchasing",
+    "sourcing",
+    "закупк"
+   ],
+   "category": "transverse",
+   "topics": [
+    "business",
+    "logistique",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "supply-chain",
+    "erp-systems",
+    "project-management",
+    "value-engineering"
+   ],
+   "jobs": [
+    "Acheteur industriel",
+    "Responsable achats",
+    "Ingénieur approvisionnement"
+   ]
+  },
+  {
+   "id": "technical-drawing",
+   "label": {
+    "fr": "Dessin industriel",
+    "en": "Technical Drawing",
+    "ar": "الرسم الصناعي",
+    "ru": "техническ черчен"
+   },
+   "patterns": [
+    "technical drawing",
+    "dessin industriel",
+    "dessin technique",
+    "черчен"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "design",
+    "manufacturing"
+   ],
+   "level": "courant",
+   "related": [
+    "autocad",
+    "gdt",
+    "asme-y14-5",
+    "mechanical-design"
+   ],
+   "jobs": [
+    "Dessinateur industriel",
+    "Technicien bureau d'études",
+    "Projeteur"
+   ]
+  },
+  {
+   "id": "tolerance-analysis",
+   "label": {
+    "fr": "Analyse des tolérances",
+    "en": "Tolerance Analysis",
+    "ar": "تحليل التفاوتات",
+    "ru": "анализ допуск"
+   },
+   "patterns": [
+    "tolerance analysis",
+    "analyse des tolerances",
+    "tolerance stack up"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "engineering",
+    "manufacturing"
+   ],
+   "level": "specialise",
+   "related": [
+    "gdt",
+    "asme-y14-5",
+    "mechanical-design",
+    "six-sigma"
+   ],
+   "jobs": [
+    "Ingénieur mécanique",
+    "Technicien métrologie",
+    "Ingénieur qualité"
+   ]
+  },
+  {
+   "id": "value-engineering",
+   "label": {
+    "fr": "Analyse de la valeur",
+    "en": "Value Engineering",
+    "ar": "هندسة القيمة",
+    "ru": "ценност инжиниринг"
+   },
+   "patterns": [
+    "value engineering",
+    "analyse de la valeur",
+    "ingenierie de la valeur"
+   ],
+   "category": "methode",
+   "topics": [
+    "business",
+    "engineering",
+    "manufacturing"
+   ],
+   "level": "frequent",
+   "related": [
+    "dfm",
+    "lean-manufacturing",
+    "procurement",
+    "project-management"
+   ],
+   "jobs": [
+    "Ingénieur méthodes",
+    "Chef de projet",
+    "Ingénieur industrialisation"
+   ]
+  },
+  {
+   "id": "energy-audit",
+   "label": {
+    "fr": "Audit énergétique",
+    "en": "Energy Audit",
+    "ar": "تدقيق الطاقة",
+    "ru": "энергоаудит"
+   },
+   "patterns": [
+    "energy audit",
+    "audit energetique",
+    "энергоаудит"
+   ],
+   "category": "metier",
+   "topics": [
+    "energy",
+    "safety",
+    "btp"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-14001",
+    "hvac-design",
+    "ashrae-standards",
+    "thermodynamics"
+   ],
+   "jobs": [
+    "Ingénieur énergie",
+    "Auditeur énergétique",
+    "Responsable utilities"
+   ]
+  },
+  {
+   "id": "ashrae-standards",
+   "label": {
+    "fr": "Normes ASHRAE",
+    "en": "ASHRAE Standards",
+    "ar": "معايير ASHRAE",
+    "ru": "стандарты ASHRAE"
+   },
+   "patterns": [
+    "ashrae",
+    "ashrae 90.1",
+    "ashrae 62.1",
+    "ashrae 55"
+   ],
+   "category": "norme",
+   "topics": [
+    "energy",
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "hvac-design",
+    "energy-audit",
+    "heat-transfer",
+    "piping-design"
+   ],
+   "jobs": [
+    "Ingénieur CVC",
+    "Ingénieur thermique",
+    "Consultant énergie"
+   ]
+  }
+ ]
+}

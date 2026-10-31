@@ -1,0 +1,2913 @@
+{
+ "sector": "Droit et métiers juridiques",
+ "key": "juridique",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "westlaw",
+   "label": {
+    "fr": "Westlaw",
+    "en": "Westlaw",
+    "ar": "Westlaw",
+    "ru": "Westlaw"
+   },
+   "patterns": [
+    "westlaw",
+    "west law",
+    "westlaw edge",
+    "westlawnext"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "lexisnexis",
+    "legal-research",
+    "doctrine"
+   ],
+   "jobs": [
+    "Juriste d'entreprise",
+    "Avocat collaborateur",
+    "Documentaliste juridique"
+   ]
+  },
+  {
+   "id": "lexisnexis",
+   "label": {
+    "fr": "LexisNexis",
+    "en": "LexisNexis",
+    "ar": "LexisNexis",
+    "ru": "LexisNexis"
+   },
+   "patterns": [
+    "lexisnexis",
+    "lexis nexis",
+    "lexis",
+    "lexis 360"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "westlaw",
+    "legal-research",
+    "dalloz"
+   ],
+   "jobs": [
+    "Juriste d'entreprise",
+    "Avocat collaborateur",
+    "Documentaliste juridique"
+   ]
+  },
+  {
+   "id": "dalloz",
+   "label": {
+    "fr": "Dalloz",
+    "en": "Dalloz",
+    "ar": "Dalloz",
+    "ru": "Dalloz"
+   },
+   "patterns": [
+    "dalloz",
+    "dalloz.fr",
+    "recueil dalloz",
+    "editions dalloz"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "lexisnexis",
+    "lextenso",
+    "legal-research"
+   ],
+   "jobs": [
+    "Juriste contentieux",
+    "Avocat",
+    "Juriste généraliste"
+   ]
+  },
+  {
+   "id": "doctrine",
+   "label": {
+    "fr": "Doctrine",
+    "en": "Doctrine",
+    "ar": "Doctrine",
+    "ru": "Doctrine"
+   },
+   "patterns": [
+    "doctrine",
+    "doctrine.fr",
+    "legal intelligence doctrine"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique",
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "predictice",
+    "lexisnexis",
+    "veille-juridique"
+   ],
+   "jobs": [
+    "Juriste d'entreprise",
+    "Avocat d'affaires",
+    "Legal analyst"
+   ]
+  },
+  {
+   "id": "lextenso",
+   "label": {
+    "fr": "Lextenso",
+    "en": "Lextenso",
+    "ar": "Lextenso",
+    "ru": "Lextenso"
+   },
+   "patterns": [
+    "lextenso",
+    "lextenso editions",
+    "lextenso.fr"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "dalloz",
+    "lexisnexis",
+    "jurisquare"
+   ],
+   "jobs": [
+    "Juriste",
+    "Avocat",
+    "Assistant juridique"
+   ]
+  },
+  {
+   "id": "predictice",
+   "label": {
+    "fr": "Predictice",
+    "en": "Predictice",
+    "ar": "Predictice",
+    "ru": "Predictice"
+   },
+   "patterns": [
+    "predictice",
+    "predictice justice predictive"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique",
+    "ai",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "doctrine",
+    "legal-research",
+    "contentieux-commercial"
+   ],
+   "jobs": [
+    "Avocat contentieux",
+    "Data juriste",
+    "Legal tech analyst"
+   ]
+  },
+  {
+   "id": "jurisquare",
+   "label": {
+    "fr": "Jurisquare",
+    "en": "Jurisquare",
+    "ar": "Jurisquare",
+    "ru": "Jurisquare"
+   },
+   "patterns": [
+    "jurisquare",
+    "jurisquare.be"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "lexisnexis",
+    "dalloz",
+    "legal-research"
+   ],
+   "jobs": [
+    "Juriste",
+    "Avocat",
+    "Conseiller juridique"
+   ]
+  },
+  {
+   "id": "kleos",
+   "label": {
+    "fr": "Kleos",
+    "en": "Kleos",
+    "ar": "Kleos",
+    "ru": "Kleos"
+   },
+   "patterns": [
+    "kleos",
+    "kleos wolters kluwer",
+    "cabinet kleos"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique",
+    "erp"
+   ],
+   "level": "frequent",
+   "related": [
+    "secib",
+    "clio",
+    "redaction-d-actes"
+   ],
+   "jobs": [
+    "Avocat",
+    "Gestionnaire de cabinet",
+    "Secrétaire juridique"
+   ]
+  },
+  {
+   "id": "secib",
+   "label": {
+    "fr": "Secib",
+    "en": "Secib",
+    "ar": "Secib",
+    "ru": "Secib"
+   },
+   "patterns": [
+    "secib",
+    "secib neo",
+    "secib.axio"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique",
+    "erp"
+   ],
+   "level": "courant",
+   "related": [
+    "kleos",
+    "clio",
+    "redaction-d-actes"
+   ],
+   "jobs": [
+    "Avocat",
+    "Secrétaire juridique",
+    "Assistant juridique"
+   ]
+  },
+  {
+   "id": "clio",
+   "label": {
+    "fr": "Clio",
+    "en": "Clio",
+    "ar": "Clio",
+    "ru": "Clio"
+   },
+   "patterns": [
+    "clio",
+    "clio manage",
+    "clio grow",
+    "goclio"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique",
+    "erp"
+   ],
+   "level": "frequent",
+   "related": [
+    "kleos",
+    "secib",
+    "practice-management"
+   ],
+   "jobs": [
+    "Avocat",
+    "Office manager juridique",
+    "Legal operations"
+   ]
+  },
+  {
+   "id": "docusign",
+   "label": {
+    "fr": "DocuSign",
+    "en": "DocuSign",
+    "ar": "DocuSign",
+    "ru": "DocuSign"
+   },
+   "patterns": [
+    "docusign",
+    "docu sign",
+    "signature electronique docusign"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "adobe-sign",
+    "yousign",
+    "contract-management"
+   ],
+   "jobs": [
+    "Juriste contrats",
+    "Legal counsel",
+    "Contract manager"
+   ]
+  },
+  {
+   "id": "adobe-sign",
+   "label": {
+    "fr": "Adobe Sign",
+    "en": "Adobe Sign",
+    "ar": "Adobe Sign",
+    "ru": "Adobe Sign"
+   },
+   "patterns": [
+    "adobe sign",
+    "adobesign",
+    "echosign"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "docusign",
+    "yousign",
+    "contract-management"
+   ],
+   "jobs": [
+    "Juriste",
+    "Contract manager",
+    "Assistant juridique"
+   ]
+  },
+  {
+   "id": "yousign",
+   "label": {
+    "fr": "Yousign",
+    "en": "Yousign",
+    "ar": "Yousign",
+    "ru": "Yousign"
+   },
+   "patterns": [
+    "yousign",
+    "you sign",
+    "signature yousign"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "docusign",
+    "adobe-sign",
+    "contract-management"
+   ],
+   "jobs": [
+    "Juriste contrats",
+    "Contract manager",
+    "Legal operations"
+   ]
+  },
+  {
+   "id": "netdocuments",
+   "label": {
+    "fr": "NetDocuments",
+    "en": "NetDocuments",
+    "ar": "NetDocuments",
+    "ru": "NetDocuments"
+   },
+   "patterns": [
+    "netdocuments",
+    "net docs",
+    "netdocuments dms"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "imanage",
+    "redaction-d-actes",
+    "e-discovery"
+   ],
+   "jobs": [
+    "Avocat",
+    "Documentaliste juridique",
+    "Knowledge lawyer"
+   ]
+  },
+  {
+   "id": "imanage",
+   "label": {
+    "fr": "iManage",
+    "en": "iManage",
+    "ar": "iManage",
+    "ru": "iManage"
+   },
+   "patterns": [
+    "imanage",
+    "imanage work",
+    "worksite imanage"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "netdocuments",
+    "redaction-d-actes",
+    "e-discovery"
+   ],
+   "jobs": [
+    "Avocat d'affaires",
+    "Legal IT",
+    "Documentaliste juridique"
+   ]
+  },
+  {
+   "id": "ironclad",
+   "label": {
+    "fr": "Ironclad",
+    "en": "Ironclad",
+    "ar": "Ironclad",
+    "ru": "Ironclad"
+   },
+   "patterns": [
+    "ironclad",
+    "ironclad clm",
+    "ironclad ai"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique",
+    "ai"
+   ],
+   "level": "specialise",
+   "related": [
+    "contract-lifecycle-management",
+    "docusign",
+    "contract-management"
+   ],
+   "jobs": [
+    "Contract manager",
+    "Legal operations manager",
+    "Juriste contrats"
+   ]
+  },
+  {
+   "id": "relativity",
+   "label": {
+    "fr": "Relativity",
+    "en": "Relativity",
+    "ar": "Relativity",
+    "ru": "Relativity"
+   },
+   "patterns": [
+    "relativity",
+    "relativityone",
+    "kcura relativity"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "e-discovery",
+    "litigation-management",
+    "luminance"
+   ],
+   "jobs": [
+    "E-discovery analyst",
+    "Litigation support",
+    "Avocat contentieux"
+   ]
+  },
+  {
+   "id": "kira-systems",
+   "label": {
+    "fr": "Kira Systems",
+    "en": "Kira Systems",
+    "ar": "Kira Systems",
+    "ru": "Kira Systems"
+   },
+   "patterns": [
+    "kira systems",
+    "kira",
+    "kira contract analysis"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique",
+    "ai"
+   ],
+   "level": "specialise",
+   "related": [
+    "luminance",
+    "due-diligence",
+    "fusions-acquisitions"
+   ],
+   "jobs": [
+    "Avocat M&A",
+    "Legal tech specialist",
+    "Associate corporate"
+   ]
+  },
+  {
+   "id": "luminance",
+   "label": {
+    "fr": "Luminance",
+    "en": "Luminance",
+    "ar": "Luminance",
+    "ru": "Luminance"
+   },
+   "patterns": [
+    "luminance",
+    "luminance ai",
+    "luminance autodraft"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique",
+    "ai"
+   ],
+   "level": "specialise",
+   "related": [
+    "kira-systems",
+    "due-diligence",
+    "contract-management"
+   ],
+   "jobs": [
+    "Avocat d'affaires",
+    "Legal counsel",
+    "Legal operations"
+   ]
+  },
+  {
+   "id": "onetrust",
+   "label": {
+    "fr": "OneTrust",
+    "en": "OneTrust",
+    "ar": "OneTrust",
+    "ru": "OneTrust"
+   },
+   "patterns": [
+    "onetrust",
+    "one trust",
+    "onetrust privacy"
+   ],
+   "category": "outil",
+   "topics": [
+    "juridique",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "rgpd",
+    "data-protection",
+    "compliance-audit"
+   ],
+   "jobs": [
+    "DPO",
+    "Juriste RGPD",
+    "Privacy counsel"
+   ]
+  },
+  {
+   "id": "due-diligence",
+   "label": {
+    "fr": "Due diligence",
+    "en": "Due diligence",
+    "ar": "العناية الواجبة",
+    "ru": "дью дилидженс"
+   },
+   "patterns": [
+    "due diligence",
+    "due-diligence",
+    "dd juridique",
+    "legal due diligence",
+    "العناية الواجبة",
+    "дью дилидженс",
+    "юридическая проверка"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique",
+    "finance",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "fusions-acquisitions",
+    "kira-systems",
+    "private-equity"
+   ],
+   "jobs": [
+    "Avocat M&A",
+    "Juriste fusions-acquisitions",
+    "Associate corporate"
+   ]
+  },
+  {
+   "id": "veille-juridique",
+   "label": {
+    "fr": "Veille juridique",
+    "en": "Legal monitoring",
+    "ar": "المتابعة القانونية",
+    "ru": "правовой мониторинг"
+   },
+   "patterns": [
+    "veille juridique",
+    "veille reglementaire",
+    "legal watch",
+    "regulatory monitoring",
+    "المتابعة القانونية",
+    "правовой мониторинг",
+    "юридический мониторинг"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "regulatory-affairs",
+    "legal-research",
+    "doctrine"
+   ],
+   "jobs": [
+    "Juriste d'entreprise",
+    "Legal counsel",
+    "Knowledge lawyer"
+   ]
+  },
+  {
+   "id": "redaction-d-actes",
+   "label": {
+    "fr": "Rédaction d'actes",
+    "en": "Legal drafting",
+    "ar": "صياغة العقود",
+    "ru": "составление документов"
+   },
+   "patterns": [
+    "redaction d'actes",
+    "redaction d actes",
+    "legal drafting",
+    "drafting contracts",
+    "صياغة العقود",
+    "صياغة قانونية",
+    "составление документов",
+    "юридическое письмо"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "droit-des-contrats",
+    "redaction-juridique",
+    "contract-management"
+   ],
+   "jobs": [
+    "Avocat",
+    "Juriste contrats",
+    "Notaire assistant"
+   ]
+  },
+  {
+   "id": "mediation",
+   "label": {
+    "fr": "Médiation",
+    "en": "Mediation",
+    "ar": "الوساطة",
+    "ru": "медиация"
+   },
+   "patterns": [
+    "mediation",
+    "mediation judiciaire",
+    "mediation conventionnelle",
+    "الوساطة",
+    "медиация",
+    "медиатор"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "arbitrage",
+    "negotiation",
+    "contentieux-commercial"
+   ],
+   "jobs": [
+    "Médiateur",
+    "Avocat médiateur",
+    "Juriste contentieux"
+   ]
+  },
+  {
+   "id": "arbitrage",
+   "label": {
+    "fr": "Arbitrage",
+    "en": "Arbitration",
+    "ar": "التحكيم",
+    "ru": "арбитраж"
+   },
+   "patterns": [
+    "arbitrage",
+    "arbitration",
+    "arbitre",
+    "arbitral tribunal",
+    "التحكيم",
+    "арбитраж",
+    "третейский суд"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "arbitrage-international",
+    "mediation",
+    "contentieux-commercial"
+   ],
+   "jobs": [
+    "Avocat arbitragiste",
+    "Counsel arbitration",
+    "Juriste contentieux"
+   ]
+  },
+  {
+   "id": "negotiation",
+   "label": {
+    "fr": "Négociation",
+    "en": "Negotiation",
+    "ar": "التفاوض",
+    "ru": "переговоры"
+   },
+   "patterns": [
+    "negotiation",
+    "negociation",
+    "negotiation skills",
+    "التفاوض",
+    "переговоры",
+    "ведение переговоров"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique",
+    "business",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "mediation",
+    "contract-management",
+    "conseil-strategique"
+   ],
+   "jobs": [
+    "Juriste d'affaires",
+    "Legal counsel",
+    "Avocat d'affaires"
+   ]
+  },
+  {
+   "id": "compliance-audit",
+   "label": {
+    "fr": "Audit de conformité",
+    "en": "Compliance audit",
+    "ar": "تدقيق الامتثال",
+    "ru": "аудит комплаенс"
+   },
+   "patterns": [
+    "audit de conformite",
+    "compliance audit",
+    "audit compliance",
+    "audit reglementaire",
+    "تدقيق الامتثال",
+    "аудит комплаенс",
+    "комплаенс аудит"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique",
+    "finance",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "compliance",
+    "risk-mapping",
+    "sapin-2"
+   ],
+   "jobs": [
+    "Compliance officer",
+    "Auditeur juridique",
+    "Juriste conformité"
+   ]
+  },
+  {
+   "id": "risk-mapping",
+   "label": {
+    "fr": "Cartographie des risques",
+    "en": "Risk mapping",
+    "ar": "خريطة المخاطر",
+    "ru": "карта рисков"
+   },
+   "patterns": [
+    "cartographie des risques",
+    "risk mapping",
+    "risk map",
+    "cartographie risques",
+    "خريطة المخاطر",
+    "карта рисков",
+    "картирование рисков"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique",
+    "finance",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "compliance-audit",
+    "gestion-des-risques",
+    "sapin-2"
+   ],
+   "jobs": [
+    "Risk manager",
+    "Compliance officer",
+    "Juriste risques"
+   ]
+  },
+  {
+   "id": "contract-lifecycle-management",
+   "label": {
+    "fr": "Gestion du cycle de vie des contrats",
+    "en": "Contract lifecycle management",
+    "ar": "إدارة دورة حياة العقد",
+    "ru": "управление жизненным циклом контракта"
+   },
+   "patterns": [
+    "contract lifecycle management",
+    "clm",
+    "gestion cycle de vie contrat",
+    "gestion du cycle de vie des contrats",
+    "إدارة دورة حياة العقد",
+    "управление контрактами",
+    "clm platform"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "contract-management",
+    "ironclad",
+    "redaction-d-actes"
+   ],
+   "jobs": [
+    "Contract manager",
+    "Juriste contrats",
+    "Legal operations"
+   ]
+  },
+  {
+   "id": "e-discovery",
+   "label": {
+    "fr": "E-discovery",
+    "en": "E-discovery",
+    "ar": "الاكتشاف الإلكتروني",
+    "ru": "электронное раскрытие"
+   },
+   "patterns": [
+    "e-discovery",
+    "ediscovery",
+    "electronic discovery",
+    "e disclosure",
+    "الاكتشاف الإلكتروني",
+    "электронное раскрытие",
+    "e-disclosure"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "relativity",
+    "litigation-management",
+    "netdocuments"
+   ],
+   "jobs": [
+    "E-discovery specialist",
+    "Litigation support",
+    "Avocat contentieux"
+   ]
+  },
+  {
+   "id": "litigation-management",
+   "label": {
+    "fr": "Gestion du contentieux",
+    "en": "Litigation management",
+    "ar": "إدارة التقاضي",
+    "ru": "управление судебными спорами"
+   },
+   "patterns": [
+    "gestion du contentieux",
+    "litigation management",
+    "contentieux management",
+    "إدارة التقاضي",
+    "управление спорами",
+    "ведение судебных дел"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "contentieux-commercial",
+    "e-discovery",
+    "redaction-juridique"
+   ],
+   "jobs": [
+    "Juriste contentieux",
+    "Litigation counsel",
+    "Avocat contentieux"
+   ]
+  },
+  {
+   "id": "regulatory-affairs",
+   "label": {
+    "fr": "Affaires réglementaires",
+    "en": "Regulatory affairs",
+    "ar": "الشؤون التنظيمية",
+    "ru": "регуляторные вопросы"
+   },
+   "patterns": [
+    "regulatory affairs",
+    "affaires reglementaires",
+    "affaires règlementaires",
+    "الشؤون التنظيمية",
+    "регуляторные вопросы",
+    "регуляторика"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique",
+    "sante",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "veille-juridique",
+    "compliance",
+    "droit-public"
+   ],
+   "jobs": [
+    "Regulatory affairs manager",
+    "Juriste réglementation",
+    "Responsable affaires publiques"
+   ]
+  },
+  {
+   "id": "legal-research",
+   "label": {
+    "fr": "Recherche juridique",
+    "en": "Legal research",
+    "ar": "البحث القانوني",
+    "ru": "правовые исследования"
+   },
+   "patterns": [
+    "recherche juridique",
+    "legal research",
+    "البحث القانوني",
+    "правовые исследования",
+    "юридический поиск"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "westlaw",
+    "lexisnexis",
+    "doctrine"
+   ],
+   "jobs": [
+    "Juriste",
+    "Avocat",
+    "Paralegal"
+   ]
+  },
+  {
+   "id": "kyc-aml",
+   "label": {
+    "fr": "KYC / LCB-FT",
+    "en": "KYC / AML",
+    "ar": "اعرف عميلك ومكافحة غسل الأموال",
+    "ru": "KYC / ПОД/ФТ"
+   },
+   "patterns": [
+    "kyc",
+    "aml",
+    "lcb-ft",
+    "lcb ft",
+    "know your customer",
+    "anti money laundering",
+    "اعرف عميلك",
+    "مكافحة غسل الأموال",
+    "под фт",
+    "противодействие отмыванию"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique",
+    "finance",
+    "banque"
+   ],
+   "level": "frequent",
+   "related": [
+    "compliance",
+    "droit-bancaire",
+    "compliance-audit"
+   ],
+   "jobs": [
+    "Compliance officer",
+    "KYC analyst",
+    "Juriste conformité bancaire"
+   ]
+  },
+  {
+   "id": "whistleblowing",
+   "label": {
+    "fr": "Dispositif d'alerte",
+    "en": "Whistleblowing",
+    "ar": "الإبلاغ عن المخالفات",
+    "ru": "сигналы о нарушениях"
+   },
+   "patterns": [
+    "whistleblowing",
+    "lanceur d'alerte",
+    "dispositif d'alerte",
+    "whistleblower",
+    "الإبلاغ عن المخالفات",
+    "сигналы о нарушениях",
+    "информатор"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "sapin-2",
+    "compliance",
+    "ethique"
+   ],
+   "jobs": [
+    "Compliance officer",
+    "Ethics officer",
+    "Juriste conformité"
+   ]
+  },
+  {
+   "id": "rgpd",
+   "label": {
+    "fr": "RGPD",
+    "en": "GDPR",
+    "ar": "GDPR",
+    "ru": "GDPR"
+   },
+   "patterns": [
+    "rgpd",
+    "gdpr",
+    "reglement general protection donnees",
+    "general data protection regulation",
+    "اللائحة العامة لحماية البيانات",
+    "общий регламент защиты данных"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "data-protection",
+    "onetrust",
+    "cyberlaw"
+   ],
+   "jobs": [
+    "DPO",
+    "Juriste RGPD",
+    "Data protection counsel"
+   ]
+  },
+  {
+   "id": "iso-27001",
+   "label": {
+    "fr": "ISO 27001",
+    "en": "ISO 27001",
+    "ar": "ISO 27001",
+    "ru": "ISO 27001"
+   },
+   "patterns": [
+    "iso 27001",
+    "iso27001",
+    "iso/iec 27001",
+    "iso 27001 smsi"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "data",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "cyberlaw",
+    "rgpd",
+    "data-protection"
+   ],
+   "jobs": [
+    "Juriste cybersécurité",
+    "RSSI",
+    "Compliance IT"
+   ]
+  },
+  {
+   "id": "iso-37001",
+   "label": {
+    "fr": "ISO 37001",
+    "en": "ISO 37001",
+    "ar": "ISO 37001",
+    "ru": "ISO 37001"
+   },
+   "patterns": [
+    "iso 37001",
+    "iso37001",
+    "anti-bribery management system"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "sapin-2",
+    "fcpa",
+    "uk-bribery-act"
+   ],
+   "jobs": [
+    "Compliance officer anticorruption",
+    "Ethics officer",
+    "Juriste conformité"
+   ]
+  },
+  {
+   "id": "sapin-2",
+   "label": {
+    "fr": "Loi Sapin II",
+    "en": "Sapin II Act",
+    "ar": "قانون سابين 2",
+    "ru": "закон Сапен II"
+   },
+   "patterns": [
+    "sapin 2",
+    "sapin ii",
+    "loi sapin 2",
+    "loi sapin ii",
+    "قانون سابين",
+    "закон сапен"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "compliance",
+    "compliance-audit",
+    "iso-37001"
+   ],
+   "jobs": [
+    "Compliance officer",
+    "Juriste anticorruption",
+    "Ethics officer"
+   ]
+  },
+  {
+   "id": "sarbanes-oxley",
+   "label": {
+    "fr": "Loi Sarbanes-Oxley",
+    "en": "Sarbanes-Oxley",
+    "ar": "قانون ساربانز أوكسلي",
+    "ru": "закон Сарбейнса-Оксли"
+   },
+   "patterns": [
+    "sarbanes oxley",
+    "sox",
+    "loi sarbanes",
+    "sarbanes-oxley",
+    "قانون ساربانز أوكسلي",
+    "сарбейнс оксли"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "compliance",
+    "droit-bancaire",
+    "compliance-audit"
+   ],
+   "jobs": [
+    "Auditeur interne",
+    "Compliance officer",
+    "Juriste financier"
+   ]
+  },
+  {
+   "id": "fcpa",
+   "label": {
+    "fr": "FCPA",
+    "en": "FCPA",
+    "ar": "FCPA",
+    "ru": "FCPA"
+   },
+   "patterns": [
+    "fcpa",
+    "foreign corrupt practices act",
+    "قانون الممارسات الأجنبية الفاسدة",
+    "закон о коррупции за рубежом"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "uk-bribery-act",
+    "sapin-2",
+    "iso-37001"
+   ],
+   "jobs": [
+    "Compliance officer international",
+    "Juriste anti-corruption",
+    "White collar lawyer"
+   ]
+  },
+  {
+   "id": "uk-bribery-act",
+   "label": {
+    "fr": "UK Bribery Act",
+    "en": "UK Bribery Act",
+    "ar": "UK Bribery Act",
+    "ru": "UK Bribery Act"
+   },
+   "patterns": [
+    "uk bribery act",
+    "ukba",
+    "bribery act 2010",
+    "قانون الرشوة البريطاني",
+    "закон о взяточничестве великобритании"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "fcpa",
+    "sapin-2",
+    "iso-37001"
+   ],
+   "jobs": [
+    "Compliance officer",
+    "Juriste conformité international",
+    "White collar lawyer"
+   ]
+  },
+  {
+   "id": "ccpa",
+   "label": {
+    "fr": "CCPA",
+    "en": "CCPA",
+    "ar": "CCPA",
+    "ru": "CCPA"
+   },
+   "patterns": [
+    "ccpa",
+    "california consumer privacy act",
+    "قانون خصوصية المستهلك في كاليفورنيا",
+    "калифорнийский закон о конфиденциальности"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "rgpd",
+    "data-protection",
+    "cyberlaw"
+   ],
+   "jobs": [
+    "DPO",
+    "Privacy counsel",
+    "Juriste data protection"
+   ]
+  },
+  {
+   "id": "hipaa",
+   "label": {
+    "fr": "HIPAA",
+    "en": "HIPAA",
+    "ar": "HIPAA",
+    "ru": "HIPAA"
+   },
+   "patterns": [
+    "hipaa",
+    "health insurance portability",
+    "قانون التأمين الصحي",
+    "закон о переносимости медицинского страхования"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "sante"
+   ],
+   "level": "specialise",
+   "jobs": [
+    "Healthcare counsel",
+    "Juriste santé",
+    "Compliance officer santé"
+   ],
+   "related": [
+    "rgpd",
+    "data-protection",
+    "droit-de-la-sante"
+   ]
+  },
+  {
+   "id": "dsa-dma",
+   "label": {
+    "fr": "DSA / DMA",
+    "en": "DSA / DMA",
+    "ar": "DSA / DMA",
+    "ru": "DSA / DMA"
+   },
+   "patterns": [
+    "dsa",
+    "dma",
+    "digital services act",
+    "digital markets act",
+    "loi sur les services numeriques",
+    "закон о цифровых услугах"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "rgpd",
+    "cyberlaw",
+    "droit-de-la-concurrence"
+   ],
+   "jobs": [
+    "Juriste numérique",
+    "Digital legal counsel",
+    "Regulatory affairs"
+   ]
+  },
+  {
+   "id": "mifid",
+   "label": {
+    "fr": "MiFID",
+    "en": "MiFID",
+    "ar": "MiFID",
+    "ru": "MiFID"
+   },
+   "patterns": [
+    "mifid",
+    "mifid 2",
+    "mifid ii",
+    "directive marches instruments financiers",
+    "директива mifid"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "droit-bancaire",
+    "compliance",
+    "kyc-aml"
+   ],
+   "jobs": [
+    "Juriste bancaire",
+    "Compliance officer financier",
+    "Legal counsel banque"
+   ]
+  },
+  {
+   "id": "crfpa",
+   "label": {
+    "fr": "CRFPA",
+    "en": "CRFPA",
+    "ar": "CRFPA",
+    "ru": "CRFPA"
+   },
+   "patterns": [
+    "crfpa",
+    "examen crfpa",
+    "centre regional formation professionnelle avocats"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "education"
+   ],
+   "level": "specialise",
+   "related": [
+    "capa",
+    "deontologie"
+   ],
+   "jobs": [
+    "Élève avocat",
+    "Avocat stagiaire",
+    "Préparateur CRFPA"
+   ]
+  },
+  {
+   "id": "capa",
+   "label": {
+    "fr": "CAPA",
+    "en": "CAPA",
+    "ar": "CAPA",
+    "ru": "CAPA"
+   },
+   "patterns": [
+    "capa",
+    "certificat aptitude profession avocat"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique"
+   ],
+   "level": "specialise",
+   "related": [
+    "crfpa",
+    "deontologie"
+   ],
+   "jobs": [
+    "Avocat",
+    "Avocat collaborateur",
+    "Avocat associé"
+   ]
+  },
+  {
+   "id": "droit-des-societes",
+   "label": {
+    "fr": "Droit des sociétés",
+    "en": "Corporate law",
+    "ar": "قانون الشركات",
+    "ru": "корпоративное право"
+   },
+   "patterns": [
+    "droit des societes",
+    "corporate law",
+    "company law",
+    "قانون الشركات",
+    "корпоративное право",
+    "корпоративный юрист"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "fusions-acquisitions",
+    "droit-des-contrats",
+    "private-equity"
+   ],
+   "jobs": [
+    "Juriste corporate",
+    "Avocat corporate",
+    "Legal counsel sociétés"
+   ]
+  },
+  {
+   "id": "droit-fiscal",
+   "label": {
+    "fr": "Droit fiscal",
+    "en": "Tax law",
+    "ar": "القانون الضريبي",
+    "ru": "налоговое право"
+   },
+   "patterns": [
+    "droit fiscal",
+    "tax law",
+    "fiscalite",
+    "القانون الضريبي",
+    "налоговое право",
+    "налоговый юрист"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "droit-des-societes",
+    "fusions-acquisitions",
+    "private-equity"
+   ],
+   "jobs": [
+    "Avocat fiscaliste",
+    "Juriste fiscal",
+    "Tax counsel"
+   ]
+  },
+  {
+   "id": "droit-du-travail",
+   "label": {
+    "fr": "Droit du travail",
+    "en": "Employment law",
+    "ar": "قانون العمل",
+    "ru": "трудовое право"
+   },
+   "patterns": [
+    "droit du travail",
+    "employment law",
+    "labour law",
+    "قانون العمل",
+    "трудовое право",
+    "трудовой юрист"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "droit-social",
+    "contentieux-commercial",
+    "mediation"
+   ],
+   "jobs": [
+    "Juriste droit social",
+    "Avocat en droit du travail",
+    "Legal counsel RH"
+   ]
+  },
+  {
+   "id": "droit-penal",
+   "label": {
+    "fr": "Droit pénal",
+    "en": "Criminal law",
+    "ar": "القانون الجنائي",
+    "ru": "уголовное право"
+   },
+   "patterns": [
+    "droit penal",
+    "criminal law",
+    "penal law",
+    "القانون الجنائي",
+    "уголовное право",
+    "уголовный адвокат"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "droit-penal-des-affaires",
+    "contentieux-commercial",
+    "plaidoirie"
+   ],
+   "jobs": [
+    "Avocat pénaliste",
+    "Juriste pénal",
+    "Magistrat"
+   ]
+  },
+  {
+   "id": "droit-penal-des-affaires",
+   "label": {
+    "fr": "Droit pénal des affaires",
+    "en": "White collar crime",
+    "ar": "القانون الجنائي للأعمال",
+    "ru": "экономическое уголовное право"
+   },
+   "patterns": [
+    "droit penal des affaires",
+    "penal des affaires",
+    "white collar crime",
+    "القانون الجنائي للأعمال",
+    "экономическое уголовное право",
+    "беловоротничковая преступность"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "droit-penal",
+    "fcpa",
+    "sapin-2"
+   ],
+   "jobs": [
+    "Avocat pénaliste affaires",
+    "White collar lawyer",
+    "Juriste compliance pénale"
+   ]
+  },
+  {
+   "id": "propriete-intellectuelle",
+   "label": {
+    "fr": "Propriété intellectuelle",
+    "en": "Intellectual property",
+    "ar": "الملكية الفكرية",
+    "ru": "интеллектуальная собственность"
+   },
+   "patterns": [
+    "propriete intellectuelle",
+    "ip law",
+    "intellectual property",
+    "الملكية الفكرية",
+    "интеллектуальная собственность",
+    "ip lawyer"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "ip-litigation",
+    "droit-des-contrats",
+    "cyberlaw"
+   ],
+   "jobs": [
+    "Juriste PI",
+    "Avocat propriété intellectuelle",
+    "IP counsel"
+   ]
+  },
+  {
+   "id": "droit-des-contrats",
+   "label": {
+    "fr": "Droit des contrats",
+    "en": "Contract law",
+    "ar": "قانون العقود",
+    "ru": "договорное право"
+   },
+   "patterns": [
+    "droit des contrats",
+    "contract law",
+    "قانون العقود",
+    "договорное право",
+    "контрактное право"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "contract-management",
+    "redaction-d-actes",
+    "droit-des-societes"
+   ],
+   "jobs": [
+    "Juriste contrats",
+    "Legal counsel",
+    "Avocat droit des affaires"
+   ]
+  },
+  {
+   "id": "droit-international",
+   "label": {
+    "fr": "Droit international",
+    "en": "International law",
+    "ar": "القانون الدولي",
+    "ru": "международное право"
+   },
+   "patterns": [
+    "droit international",
+    "international law",
+    "القانون الدولي",
+    "международное право",
+    "международный юрист"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "arbitrage-international",
+    "droit-des-societes",
+    "legal-english"
+   ],
+   "jobs": [
+    "Avocat international",
+    "Juriste international",
+    "Legal counsel international"
+   ]
+  },
+  {
+   "id": "droit-de-la-concurrence",
+   "label": {
+    "fr": "Droit de la concurrence",
+    "en": "Competition law",
+    "ar": "قانون المنافسة",
+    "ru": "антимонопольное право"
+   },
+   "patterns": [
+    "droit de la concurrence",
+    "competition law",
+    "antitrust",
+    "قانون المنافسة",
+    "антимонопольное право",
+    "конкурентное право"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "fusions-acquisitions",
+    "droit-des-societes",
+    "dsa-dma"
+   ],
+   "jobs": [
+    "Avocat concurrence",
+    "Juriste antitrust",
+    "Competition counsel"
+   ]
+  },
+  {
+   "id": "droit-immobilier",
+   "label": {
+    "fr": "Droit immobilier",
+    "en": "Real estate law",
+    "ar": "القانون العقاري",
+    "ru": "недвижимостное право"
+   },
+   "patterns": [
+    "droit immobilier",
+    "real estate law",
+    "property law",
+    "القانون العقاري",
+    "недвижимостное право",
+    "юрист по недвижимости"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "btp"
+   ],
+   "level": "frequent",
+   "related": [
+    "droit-des-contrats",
+    "redaction-d-actes",
+    "contentieux-commercial"
+   ],
+   "jobs": [
+    "Juriste immobilier",
+    "Notaire",
+    "Avocat droit immobilier"
+   ]
+  },
+  {
+   "id": "droit-de-l-environnement",
+   "label": {
+    "fr": "Droit de l'environnement",
+    "en": "Environmental law",
+    "ar": "القانون البيئي",
+    "ru": "экологическое право"
+   },
+   "patterns": [
+    "droit de l'environnement",
+    "environmental law",
+    "القانون البيئي",
+    "экологическое право",
+    "природоохранное право"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "regulatory-affairs",
+    "compliance",
+    "droit-public"
+   ],
+   "jobs": [
+    "Juriste environnement",
+    "Environmental counsel",
+    "Avocat droit public"
+   ]
+  },
+  {
+   "id": "droit-de-la-famille",
+   "label": {
+    "fr": "Droit de la famille",
+    "en": "Family law",
+    "ar": "قانون الأسرة",
+    "ru": "семейное право"
+   },
+   "patterns": [
+    "droit de la famille",
+    "family law",
+    "قانون الأسرة",
+    "семейное право",
+    "семейный адвокат"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "mediation",
+    "droit-penal",
+    "redaction-d-actes"
+   ],
+   "jobs": [
+    "Avocat famille",
+    "Juriste droit de la famille",
+    "Médiateur familial"
+   ]
+  },
+  {
+   "id": "fusions-acquisitions",
+   "label": {
+    "fr": "Fusions-acquisitions",
+    "en": "Mergers and acquisitions",
+    "ar": "الاندماج والاستحواذ",
+    "ru": "слияния и поглощения"
+   },
+   "patterns": [
+    "fusions acquisitions",
+    "m&a",
+    "mergers and acquisitions",
+    "mergers acquisitions",
+    "الاندماج والاستحواذ",
+    "слияния и поглощения",
+    "m and a"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "due-diligence",
+    "private-equity",
+    "droit-des-societes"
+   ],
+   "jobs": [
+    "Avocat M&A",
+    "Associate corporate",
+    "Juriste fusions-acquisitions"
+   ]
+  },
+  {
+   "id": "private-equity",
+   "label": {
+    "fr": "Private equity",
+    "en": "Private equity",
+    "ar": "Private equity",
+    "ru": "Private equity"
+   },
+   "patterns": [
+    "private equity",
+    "capital investissement",
+    "pe",
+    "لخاص",
+    "прямые инвестиции",
+    "частные инвестиции"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "fusions-acquisitions",
+    "droit-des-societes",
+    "droit-fiscal"
+   ],
+   "jobs": [
+    "Avocat private equity",
+    "PE associate",
+    "Juriste capital-investissement"
+   ]
+  },
+  {
+   "id": "contentieux-commercial",
+   "label": {
+    "fr": "Contentieux commercial",
+    "en": "Commercial litigation",
+    "ar": "التقاضي التجاري",
+    "ru": "коммерческие споры"
+   },
+   "patterns": [
+    "contentieux commercial",
+    "commercial litigation",
+    "business litigation",
+    "التقاضي التجاري",
+    "коммерческие споры",
+    "хозяйственные споры"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "litigation-management",
+    "arbitrage",
+    "mediation"
+   ],
+   "jobs": [
+    "Avocat contentieux",
+    "Litigation counsel",
+    "Juriste contentieux"
+   ]
+  },
+  {
+   "id": "arbitrage-international",
+   "label": {
+    "fr": "Arbitrage international",
+    "en": "International arbitration",
+    "ar": "التحكيم الدولي",
+    "ru": "международный арбитраж"
+   },
+   "patterns": [
+    "arbitrage international",
+    "international arbitration",
+    "icc arbitration",
+    "التحكيم الدولي",
+    "международный арбитраж",
+    "мсц"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique"
+   ],
+   "level": "specialise",
+   "related": [
+    "arbitrage",
+    "droit-international",
+    "legal-english"
+   ],
+   "jobs": [
+    "Avocat arbitrage international",
+    "International arbitration counsel",
+    "Associate arbitration"
+   ]
+  },
+  {
+   "id": "restructuring",
+   "label": {
+    "fr": "Restructuration",
+    "en": "Restructuring",
+    "ar": "إعادة الهيكلة",
+    "ru": "реструктуризация"
+   },
+   "patterns": [
+    "restructuring",
+    "restructuration",
+    "corporate restructuring",
+    "إعادة الهيكلة",
+    "реструктуризация",
+    "санация"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "fusions-acquisitions",
+    "droit-des-societes",
+    "droit-fiscal"
+   ],
+   "jobs": [
+    "Avocat restructuring",
+    "Juriste restructuration",
+    "Insolvency lawyer"
+   ]
+  },
+  {
+   "id": "ip-litigation",
+   "label": {
+    "fr": "Contentieux PI",
+    "en": "IP litigation",
+    "ar": "تقاضي الملكية الفكرية",
+    "ru": "споры по ИС"
+   },
+   "patterns": [
+    "ip litigation",
+    "contentieux pi",
+    "contentieux propriete intellectuelle",
+    "تقاضي الملكية الفكرية",
+    "споры по интеллектуальной собственности",
+    "ip disputes"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "design"
+   ],
+   "level": "specialise",
+   "related": [
+    "propriete-intellectuelle",
+    "contentieux-commercial",
+    "arbitrage"
+   ],
+   "jobs": [
+    "Avocat PI",
+    "IP litigation counsel",
+    "Juriste contentieux PI"
+   ]
+  },
+  {
+   "id": "droit-bancaire",
+   "label": {
+    "fr": "Droit bancaire",
+    "en": "Banking law",
+    "ar": "القانون المصرفي",
+    "ru": "банковское право"
+   },
+   "patterns": [
+    "droit bancaire",
+    "banking law",
+    "financial law",
+    "القانون المصرفي",
+    "банковское право",
+    "финансовый юрист"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "droit-des-societes",
+    "mifid",
+    "kyc-aml"
+   ],
+   "jobs": [
+    "Juriste bancaire",
+    "Avocat droit bancaire",
+    "Legal counsel banque"
+   ]
+  },
+  {
+   "id": "droit-des-assurances",
+   "label": {
+    "fr": "Droit des assurances",
+    "en": "Insurance law",
+    "ar": "قانون التأمين",
+    "ru": "страховое право"
+   },
+   "patterns": [
+    "droit des assurances",
+    "insurance law",
+    "قانون التأمين",
+    "страховое право",
+    "юрист по страхованию"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "droit-des-contrats",
+    "contentieux-commercial",
+    "droit-bancaire"
+   ],
+   "jobs": [
+    "Juriste assurances",
+    "Avocat assurances",
+    "Legal counsel assurance"
+   ]
+  },
+  {
+   "id": "droit-public",
+   "label": {
+    "fr": "Droit public",
+    "en": "Public law",
+    "ar": "القانون العام",
+    "ru": "публичное право"
+   },
+   "patterns": [
+    "droit public",
+    "public law",
+    "administrative law",
+    "القانون العام",
+    "публичное право",
+    "административное право"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "regulatory-affairs",
+    "contentieux-commercial",
+    "droit-de-l-environnement"
+   ],
+   "jobs": [
+    "Avocat droit public",
+    "Juriste droit public",
+    "Conseiller juridique administration"
+   ]
+  },
+  {
+   "id": "droit-social",
+   "label": {
+    "fr": "Droit social",
+    "en": "Social law",
+    "ar": "القانون الاجتماعي",
+    "ru": "социальное право"
+   },
+   "patterns": [
+    "droit social",
+    "social law",
+    "القانون الاجتماعي",
+    "социальное право",
+    "социальный юрист"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "droit-du-travail",
+    "rh",
+    "contentieux-commercial"
+   ],
+   "jobs": [
+    "Juriste droit social",
+    "Avocat droit social",
+    "Legal counsel RH"
+   ]
+  },
+  {
+   "id": "compliance",
+   "label": {
+    "fr": "Compliance",
+    "en": "Compliance",
+    "ar": "الامتثال",
+    "ru": "комплаенс"
+   },
+   "patterns": [
+    "compliance",
+    "conformite",
+    "conformité",
+    "الامتثال",
+    "комплаенс",
+    "соблюдение нормативных требований"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "compliance-audit",
+    "sapin-2",
+    "kyc-aml"
+   ],
+   "jobs": [
+    "Compliance officer",
+    "Responsable conformité",
+    "Juriste compliance"
+   ]
+  },
+  {
+   "id": "data-protection",
+   "label": {
+    "fr": "Protection des données",
+    "en": "Data protection",
+    "ar": "حماية البيانات",
+    "ru": "защита данных"
+   },
+   "patterns": [
+    "data protection",
+    "protection des donnees",
+    "privacy",
+    "حماية البيانات",
+    "защита данных",
+    "защита персональных данных"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "rgpd",
+    "onetrust",
+    "cyberlaw"
+   ],
+   "jobs": [
+    "DPO",
+    "Data protection officer",
+    "Juriste données personnelles"
+   ]
+  },
+  {
+   "id": "cyberlaw",
+   "label": {
+    "fr": "Droit du numérique",
+    "en": "Cyber law",
+    "ar": "القانون السيبراني",
+    "ru": "киберправо"
+   },
+   "patterns": [
+    "cyber law",
+    "cyberlaw",
+    "droit du numerique",
+    "digital law",
+    "القانون السيبراني",
+    "киберправо",
+    "интернет-право"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "rgpd",
+    "propriete-intellectuelle",
+    "dsa-dma"
+   ],
+   "jobs": [
+    "Juriste numérique",
+    "Digital legal counsel",
+    "Avocat IT"
+   ]
+  },
+  {
+   "id": "droit-maritime",
+   "label": {
+    "fr": "Droit maritime",
+    "en": "Maritime law",
+    "ar": "القانون البحري",
+    "ru": "морское право"
+   },
+   "patterns": [
+    "droit maritime",
+    "maritime law",
+    "admiralty law",
+    "القانون البحري",
+    "морское право",
+    "морской юрист"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "logistique"
+   ],
+   "level": "specialise",
+   "related": [
+    "droit-des-assurances",
+    "contentieux-commercial",
+    "arbitrage-international"
+   ],
+   "jobs": [
+    "Avocat droit maritime",
+    "Juriste maritime",
+    "Admiralty lawyer"
+   ]
+  },
+  {
+   "id": "droit-de-la-sante",
+   "label": {
+    "fr": "Droit de la santé",
+    "en": "Health law",
+    "ar": "القانون الصحي",
+    "ru": "медицинское право"
+   },
+   "patterns": [
+    "droit de la sante",
+    "health law",
+    "medical law",
+    "القانون الصحي",
+    "медицинское право",
+    "юрист в здравоохранении"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "hipaa",
+    "rgpd",
+    "regulatory-affairs"
+   ],
+   "jobs": [
+    "Juriste santé",
+    "Healthcare counsel",
+    "Avocat droit de la santé"
+   ]
+  },
+  {
+   "id": "redaction-juridique",
+   "label": {
+    "fr": "Rédaction juridique",
+    "en": "Legal writing",
+    "ar": "الكتابة القانونية",
+    "ru": "юридическое письмо"
+   },
+   "patterns": [
+    "redaction juridique",
+    "legal writing",
+    "legal drafting",
+    "الكتابة القانونية",
+    "юридическое письмо",
+    "юридическое письмо и стиль"
+   ],
+   "category": "transverse",
+   "topics": [
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "redaction-d-actes",
+    "analyse-juridique",
+    "legal-research"
+   ],
+   "jobs": [
+    "Juriste",
+    "Avocat",
+    "Paralegal"
+   ]
+  },
+  {
+   "id": "plaidoirie",
+   "label": {
+    "fr": "Plaidoirie",
+    "en": "Advocacy",
+    "ar": "الترافع",
+    "ru": "судебные речи"
+   },
+   "patterns": [
+    "plaidoirie",
+    "advocacy",
+    "oral advocacy",
+    "court advocacy",
+    "الترافع",
+    "судебные речи",
+    "выступление в суде"
+   ],
+   "category": "transverse",
+   "topics": [
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "contentieux-commercial",
+    "droit-penal",
+    "litigation-management"
+   ],
+   "jobs": [
+    "Avocat plaidant",
+    "Barrister",
+    "Avocat pénaliste"
+   ]
+  },
+  {
+   "id": "conseil-strategique",
+   "label": {
+    "fr": "Conseil stratégique",
+    "en": "Strategic advisory",
+    "ar": "الاستشارة الاستراتيجية",
+    "ru": "стратегическое консультирование"
+   },
+   "patterns": [
+    "conseil strategique",
+    "strategic advisory",
+    "legal advisory",
+    "الاستشارة الاستراتيجية",
+    "стратегическое консультирование",
+    "юридический консалтинг"
+   ],
+   "category": "transverse",
+   "topics": [
+    "juridique",
+    "consulting",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "negotiation",
+    "analyse-juridique",
+    "droit-des-societes"
+   ],
+   "jobs": [
+    "Legal counsel",
+    "Avocat d'affaires",
+    "General counsel"
+   ]
+  },
+  {
+   "id": "deontologie",
+   "label": {
+    "fr": "Déontologie",
+    "en": "Legal ethics",
+    "ar": "أخلاقيات المهنة",
+    "ru": "профессиональная этика"
+   },
+   "patterns": [
+    "deontologie",
+    "legal ethics",
+    "professional conduct",
+    "أخلاقيات المهنة",
+    "профессиональная этика",
+    "этика адвоката"
+   ],
+   "category": "transverse",
+   "topics": [
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "secret-professionnel",
+    "crfpa",
+    "capa"
+   ],
+   "jobs": [
+    "Avocat",
+    "Juriste",
+    "Bâtonnier"
+   ]
+  },
+  {
+   "id": "secret-professionnel",
+   "label": {
+    "fr": "Secret professionnel",
+    "en": "Attorney-client privilege",
+    "ar": "السر المهني",
+    "ru": "адвокатская тайна"
+   },
+   "patterns": [
+    "secret professionnel",
+    "attorney client privilege",
+    "legal privilege",
+    "confidentialite",
+    "السر المهني",
+    "адвокатская тайна",
+    "юридическая тайна"
+   ],
+   "category": "transverse",
+   "topics": [
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "deontologie",
+    "ethique"
+   ],
+   "jobs": [
+    "Avocat",
+    "Juriste",
+    "Legal counsel"
+   ]
+  },
+  {
+   "id": "analyse-juridique",
+   "label": {
+    "fr": "Analyse juridique",
+    "en": "Legal analysis",
+    "ar": "التحليل القانوني",
+    "ru": "правовой анализ"
+   },
+   "patterns": [
+    "analyse juridique",
+    "legal analysis",
+    "التحليل القانوني",
+    "правовой анализ",
+    "юридический анализ"
+   ],
+   "category": "transverse",
+   "topics": [
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "legal-research",
+    "redaction-juridique",
+    "veille-juridique"
+   ],
+   "jobs": [
+    "Juriste",
+    "Avocat",
+    "Paralegal"
+   ]
+  },
+  {
+   "id": "gestion-des-risques",
+   "label": {
+    "fr": "Gestion des risques",
+    "en": "Risk management",
+    "ar": "إدارة المخاطر",
+    "ru": "управление рисками"
+   },
+   "patterns": [
+    "gestion des risques",
+    "risk management",
+    "إدارة المخاطر",
+    "управление рисками",
+    "риск-менеджмент"
+   ],
+   "category": "transverse",
+   "topics": [
+    "juridique",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "risk-mapping",
+    "compliance",
+    "compliance-audit"
+   ],
+   "jobs": [
+    "Risk manager",
+    "Compliance officer",
+    "Juriste risques"
+   ]
+  },
+  {
+   "id": "contract-management",
+   "label": {
+    "fr": "Gestion des contrats",
+    "en": "Contract management",
+    "ar": "إدارة العقود",
+    "ru": "управление договорами"
+   },
+   "patterns": [
+    "contract management",
+    "gestion des contrats",
+    "gestion de contrat",
+    "إدارة العقود",
+    "управление договорами",
+    "контрактный менеджмент"
+   ],
+   "category": "transverse",
+   "topics": [
+    "juridique",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "contract-lifecycle-management",
+    "redaction-d-actes",
+    "droit-des-contrats"
+   ],
+   "jobs": [
+    "Contract manager",
+    "Juriste contrats",
+    "Legal operations"
+   ]
+  },
+  {
+   "id": "legal-english",
+   "label": {
+    "fr": "Anglais juridique",
+    "en": "Legal English",
+    "ar": "الإنجليزية القانونية",
+    "ru": "юридический английский"
+   },
+   "patterns": [
+    "legal english",
+    "anglais juridique",
+    "الإنجليزية القانونية",
+    "юридический английский",
+    "английский для юристов"
+   ],
+   "category": "langue",
+   "topics": [
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "toles",
+    "ilec",
+    "droit-international"
+   ],
+   "jobs": [
+    "Avocat international",
+    "Juriste international",
+    "Legal counsel"
+   ]
+  },
+  {
+   "id": "toles",
+   "label": {
+    "fr": "TOLES",
+    "en": "TOLES",
+    "ar": "TOLES",
+    "ru": "TOLES"
+   },
+   "patterns": [
+    "toles",
+    "test of legal english skills",
+    "toles foundation",
+    "toles higher",
+    "toles advanced"
+   ],
+   "category": "langue",
+   "topics": [
+    "juridique",
+    "education"
+   ],
+   "level": "specialise",
+   "related": [
+    "legal-english",
+    "ilec",
+    "droit-international"
+   ],
+   "jobs": [
+    "Avocat international",
+    "Juriste international",
+    "Legal translator"
+   ]
+  },
+  {
+   "id": "ilec",
+   "label": {
+    "fr": "ILEC",
+    "en": "ILEC",
+    "ar": "ILEC",
+    "ru": "ILEC"
+   },
+   "patterns": [
+    "ilec",
+    "international legal english certificate",
+    "cambridge ilec"
+   ],
+   "category": "langue",
+   "topics": [
+    "juridique",
+    "education"
+   ],
+   "level": "specialise",
+   "related": [
+    "legal-english",
+    "toles",
+    "droit-international"
+   ],
+   "jobs": [
+    "Avocat international",
+    "Juriste international",
+    "Legal translator"
+   ]
+  },
+  {
+   "id": "legal-design",
+   "label": {
+    "fr": "Legal design",
+    "en": "Legal design",
+    "ar": "Legal design",
+    "ru": "Legal design"
+   },
+   "patterns": [
+    "legal design",
+    "legal design thinking",
+    "visual law",
+    "التصميم القانوني",
+    "правовой дизайн"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique",
+    "design"
+   ],
+   "level": "specialise",
+   "related": [
+    "redaction-juridique",
+    "contract-management",
+    "conseil-strategique"
+   ],
+   "jobs": [
+    "Legal designer",
+    "Juriste innovation",
+    "Legal operations"
+   ]
+  },
+  {
+   "id": "legal-operations",
+   "label": {
+    "fr": "Legal operations",
+    "en": "Legal operations",
+    "ar": "Legal operations",
+    "ru": "Legal operations"
+   },
+   "patterns": [
+    "legal operations",
+    "legal ops",
+    "operations juridiques",
+    "операционное управление юр"
+   ],
+   "category": "methode",
+   "topics": [
+    "juridique",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "contract-lifecycle-management",
+    "clio",
+    "conseil-strategique"
+   ],
+   "jobs": [
+    "Legal operations manager",
+    "Head of legal operations",
+    "Legal project manager"
+   ]
+  },
+  {
+   "id": "legal-tech",
+   "label": {
+    "fr": "Legal tech",
+    "en": "Legal tech",
+    "ar": "Legal tech",
+    "ru": "Legal tech"
+   },
+   "patterns": [
+    "legal tech",
+    "legaltech",
+    "legal technology",
+    "التكنولوجيا القانونية",
+    "юридические технологии"
+   ],
+   "category": "transverse",
+   "topics": [
+    "juridique",
+    "ai",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "kira-systems",
+    "luminance",
+    "legal-operations"
+   ],
+   "jobs": [
+    "Legal tech specialist",
+    "Legal innovation manager",
+    "Product manager legal tech"
+   ]
+  },
+  {
+   "id": "general-counsel",
+   "label": {
+    "fr": "Direction juridique",
+    "en": "General counsel role",
+    "ar": "المستشار القانوني العام",
+    "ru": "генеральный юрисконсульт"
+   },
+   "patterns": [
+    "general counsel",
+    "direction juridique",
+    "directeur juridique",
+    "المستشار القانوني العام",
+    "генеральный юрисконсульт",
+    "главный юрист"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique",
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "conseil-strategique",
+    "compliance",
+    "gestion-des-risques"
+   ],
+   "jobs": [
+    "General counsel",
+    "Directeur juridique",
+    "Chief legal officer"
+   ]
+  },
+  {
+   "id": "paralegal",
+   "label": {
+    "fr": "Paralegal",
+    "en": "Paralegal",
+    "ar": "مساعد قانوني",
+    "ru": "параюрист"
+   },
+   "patterns": [
+    "paralegal",
+    "assistant juridique",
+    "legal assistant",
+    "مساعد قانوني",
+    "параюрист",
+    "помощник юриста"
+   ],
+   "category": "metier",
+   "topics": [
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "legal-research",
+    "redaction-juridique",
+    "analyse-juridique"
+   ],
+   "jobs": [
+    "Paralegal",
+    "Assistant juridique",
+    "Secrétaire juridique"
+   ]
+  }
+ ]
+}

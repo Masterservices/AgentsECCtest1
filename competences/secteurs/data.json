@@ -1,0 +1,3102 @@
+{
+ "sector": "Data, analyse de données et business intelligence",
+ "key": "data",
+ "model": "qwen-3.8-max-thinking",
+ "skills": [
+  {
+   "id": "sql",
+   "label": {
+    "fr": "SQL",
+    "en": "SQL",
+    "ar": "SQL",
+    "ru": "SQL"
+   },
+   "patterns": [
+    "sql",
+    "structured query language",
+    "langage sql",
+    "запрос sql",
+    "стэк",
+    "لغة sql",
+    "استعلام sql"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "postgresql",
+    "data-warehouse",
+    "etl",
+    "python",
+    "data-modeling"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Business Intelligence Developer",
+    "Data Engineer",
+    "Consultant BI"
+   ]
+  },
+  {
+   "id": "python",
+   "label": {
+    "fr": "Python",
+    "en": "Python",
+    "ar": "Python",
+    "ru": "Python"
+   },
+   "patterns": [
+    "python",
+    "python 3",
+    "langage python",
+    "بايثون",
+    "пайтон",
+    "питон"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "ai",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "pandas",
+    "scikit-learn",
+    "machine-learning",
+    "sql",
+    "apache-spark"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Data Engineer",
+    "Data Analyst",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "r-programming",
+   "label": {
+    "fr": "R",
+    "en": "R",
+    "ar": "R",
+    "ru": "R"
+   },
+   "patterns": [
+    "langage r",
+    "r studio",
+    "rstudio",
+    "r programming",
+    "rstat",
+    "لغة r",
+    "язык r",
+    "эр статистик"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "statistiques",
+    "data-mining",
+    "python",
+    "pandas",
+    "data-visualization"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Statisticien",
+    "Data Analyst",
+    "Chargé d'études quantitatives"
+   ]
+  },
+  {
+   "id": "scala",
+   "label": {
+    "fr": "Scala",
+    "en": "Scala",
+    "ar": "Scala",
+    "ru": "Scala"
+   },
+   "patterns": [
+    "scala",
+    "langage scala",
+    "سكالا",
+    "скала язык"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "apache-spark",
+    "hadoop",
+    "data-engineering",
+    "python"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Big Data Developer",
+    "Ingénieur données distribuées"
+   ]
+  },
+  {
+   "id": "sas",
+   "label": {
+    "fr": "SAS",
+    "en": "SAS",
+    "ar": "SAS",
+    "ru": "SAS"
+   },
+   "patterns": [
+    "sas",
+    "sas enterprise guide",
+    "sas base",
+    "sas programming",
+    "ساس",
+    "сас анализ"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "finance",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "statistiques",
+    "sql",
+    "data-mining",
+    "r-programming"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Statisticien",
+    "Consultant SAS",
+    "Analyste risque"
+   ]
+  },
+  {
+   "id": "postgresql",
+   "label": {
+    "fr": "PostgreSQL",
+    "en": "PostgreSQL",
+    "ar": "PostgreSQL",
+    "ru": "PostgreSQL"
+   },
+   "patterns": [
+    "postgresql",
+    "postgres",
+    "postgre",
+    "بوستغريس",
+    "постгрес"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "sql",
+    "data-warehouse",
+    "etl",
+    "mysql",
+    "data-modeling"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Développeur base de données",
+    "Data Analyst",
+    "Architecte données"
+   ]
+  },
+  {
+   "id": "mysql",
+   "label": {
+    "fr": "MySQL",
+    "en": "MySQL",
+    "ar": "MySQL",
+    "ru": "MySQL"
+   },
+   "patterns": [
+    "mysql",
+    "maria",
+    "mariadb",
+    "ماي اس كيو ال",
+    "майэскуэль"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "web",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "sql",
+    "postgresql",
+    "data-warehouse",
+    "etl"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Développeur BI",
+    "Data Engineer",
+    "Administrateur bases de données"
+   ]
+  },
+  {
+   "id": "sql-server",
+   "label": {
+    "fr": "SQL Server",
+    "en": "SQL Server",
+    "ar": "SQL Server",
+    "ru": "SQL Server"
+   },
+   "patterns": [
+    "sql server",
+    "microsoft sql server",
+    "mssql",
+    "ms sql",
+    "تي اس كيو ال",
+    "мс скл"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "ssis",
+    "power-bi",
+    "sql",
+    "data-warehouse",
+    "etl"
+   ],
+   "jobs": [
+    "Consultant BI",
+    "Data Engineer",
+    "Développeur SQL Server",
+    "Administrateur bases de données"
+   ]
+  },
+  {
+   "id": "oracle-database",
+   "label": {
+    "fr": "Oracle Database",
+    "en": "Oracle Database",
+    "ar": "Oracle Database",
+    "ru": "Oracle Database"
+   },
+   "patterns": [
+    "oracle",
+    "oracle db",
+    "pl/sql",
+    "pl sql",
+    "اوراكل",
+    "оракал",
+    "плскл"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "erp",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "sql",
+    "data-warehouse",
+    "etl",
+    "teradata",
+    "data-modeling"
+   ],
+   "jobs": [
+    "DBA",
+    "Data Engineer",
+    "Consultant BI",
+    "Architecte données"
+   ]
+  },
+  {
+   "id": "mongodb",
+   "label": {
+    "fr": "MongoDB",
+    "en": "MongoDB",
+    "ar": "MongoDB",
+    "ru": "MongoDB"
+   },
+   "patterns": [
+    "mongodb",
+    "mongo",
+    "mongo db",
+    "مونجو دي بي",
+    "монго"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "nosql",
+    "data-engineering",
+    "python",
+    "data-lake"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Développeur Big Data",
+    "Architecte données",
+    "DevOps Data"
+   ]
+  },
+  {
+   "id": "nosql",
+   "label": {
+    "fr": "NoSQL",
+    "en": "NoSQL",
+    "ar": "NoSQL",
+    "ru": "NoSQL"
+   },
+   "patterns": [
+    "nosql",
+    "no sql",
+    "base nosql",
+    "قاعدة بيانات نوسك",
+    "носкл",
+    "не реляцион"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "mongodb",
+    "data-lake",
+    "hadoop",
+    "data-engineering",
+    "apache-spark"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Architecte données",
+    "Big Data Developer",
+    "Consultant données"
+   ]
+  },
+  {
+   "id": "teradata",
+   "label": {
+    "fr": "Teradata",
+    "en": "Teradata",
+    "ar": "Teradata",
+    "ru": "Teradata"
+   },
+   "patterns": [
+    "teradata",
+    "tera data",
+    "تيراداتا",
+    "терадата"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "finance",
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "data-warehouse",
+    "sql",
+    "etl",
+    "oracle-database"
+   ],
+   "jobs": [
+    "Consultant BI",
+    "Data Engineer",
+    "Architecte entrepôt de données",
+    "Analyste données senior"
+   ]
+  },
+  {
+   "id": "tableau",
+   "label": {
+    "fr": "Tableau",
+    "en": "Tableau",
+    "ar": "Tableau",
+    "ru": "Tableau"
+   },
+   "patterns": [
+    "tableau",
+    "tableau desktop",
+    "tableau server",
+    "tableau prep",
+    "تابلو",
+    "табло визуализ"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "power-bi",
+    "data-visualization",
+    "dashboard-creation",
+    "sql",
+    "data-storytelling"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Consultant BI",
+    "Business Intelligence Analyst",
+    "Data Visualization Specialist"
+   ]
+  },
+  {
+   "id": "power-bi",
+   "label": {
+    "fr": "Power BI",
+    "en": "Power BI",
+    "ar": "Power BI",
+    "ru": "Power BI"
+   },
+   "patterns": [
+    "power bi",
+    "powerbi",
+    "power bi desktop",
+    "power bi service",
+    "باور بي اي",
+    "пауэр биай"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "tableau",
+    "data-visualization",
+    "dashboard-creation",
+    "sql-server",
+    "dax"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Consultant BI",
+    "Contrôleur de gestion",
+    "Business Analyst"
+   ]
+  },
+  {
+   "id": "dax",
+   "label": {
+    "fr": "DAX",
+    "en": "DAX",
+    "ar": "DAX",
+    "ru": "DAX"
+   },
+   "patterns": [
+    "dax",
+    "data analysis expressions",
+    "لغة داكس",
+    "дакс формул"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "power-bi",
+    "data-visualization",
+    "sql",
+    "dashboard-creation"
+   ],
+   "jobs": [
+    "Consultant BI",
+    "Data Analyst",
+    "Contrôleur de gestion",
+    "Développeur Power BI"
+   ]
+  },
+  {
+   "id": "qlik-sense",
+   "label": {
+    "fr": "Qlik Sense / QlikView",
+    "en": "Qlik Sense / QlikView",
+    "ar": "Qlik Sense",
+    "ru": "Qlik Sense"
+   },
+   "patterns": [
+    "qlik",
+    "qlik sense",
+    "qlikview",
+    "qlik view",
+    "كليك",
+    "клик сенс",
+    "кликвью"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "tableau",
+    "power-bi",
+    "data-visualization",
+    "sql",
+    "dashboard-creation"
+   ],
+   "jobs": [
+    "Consultant BI",
+    "Data Analyst",
+    "Développeur Qlik",
+    "Business Intelligence Analyst"
+   ]
+  },
+  {
+   "id": "looker",
+   "label": {
+    "fr": "Looker",
+    "en": "Looker",
+    "ar": "Looker",
+    "ru": "Looker"
+   },
+   "patterns": [
+    "looker",
+    "looker studio",
+    "google data studio",
+    "lookml",
+    "لوكر",
+    "лукер"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-bigquery",
+    "data-visualization",
+    "sql",
+    "dashboard-creation",
+    "gcp-data-services"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Analytics Engineer",
+    "Consultant BI",
+    "Product Analyst"
+   ]
+  },
+  {
+   "id": "sap-business-objects",
+   "label": {
+    "fr": "SAP Business Objects",
+    "en": "SAP BusinessObjects",
+    "ar": "SAP Business Objects",
+    "ru": "SAP BusinessObjects"
+   },
+   "patterns": [
+    "business objects",
+    "sap bo",
+    "sap businessobjects",
+    "web intelligence",
+    "webi",
+    "بزنس أوبجكتس",
+    "бизнесобъект"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "erp",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-bw",
+    "data-warehouse",
+    "etl",
+    "sql",
+    "dashboard-creation"
+   ],
+   "jobs": [
+    "Consultant BI SAP",
+    "Data Analyst",
+    "Consultant décisionnel",
+    "Développeur BO"
+   ]
+  },
+  {
+   "id": "sap-bw",
+   "label": {
+    "fr": "SAP BW / BW4HANA",
+    "en": "SAP BW / BW4HANA",
+    "ar": "SAP BW",
+    "ru": "SAP BW"
+   },
+   "patterns": [
+    "sap bw",
+    "bw4hana",
+    "sap business warehouse",
+    "sap hana",
+    "بي دبليو",
+    "сап бв"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "erp",
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "sap-business-objects",
+    "data-warehouse",
+    "etl",
+    "abap"
+   ],
+   "jobs": [
+    "Consultant SAP BI",
+    "Architecte données SAP",
+    "Consultant BW",
+    "Développeur SAP"
+   ]
+  },
+  {
+   "id": "microstrategy",
+   "label": {
+    "fr": "MicroStrategy",
+    "en": "MicroStrategy",
+    "ar": "MicroStrategy",
+    "ru": "MicroStrategy"
+   },
+   "patterns": [
+    "microstrategy",
+    "micro strategy",
+    "مايكروستراتيجي",
+    "микростратеджи"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "tableau",
+    "power-bi",
+    "data-warehouse",
+    "sql",
+    "dashboard-creation"
+   ],
+   "jobs": [
+    "Consultant BI",
+    "Architecte décisionnel",
+    "Data Analyst senior",
+    "Développeur MicroStrategy"
+   ]
+  },
+  {
+   "id": "etl",
+   "label": {
+    "fr": "ETL / ELT",
+    "en": "ETL / ELT",
+    "ar": "ETL",
+    "ru": "ETL"
+   },
+   "patterns": [
+    "etl",
+    "elt",
+    "extract transform load",
+    "integration de donnees",
+    "استخراج تحويل تحميل",
+    "этл",
+    "извлечение преобразов"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "informatica",
+    "talend",
+    "apache-airflow",
+    "data-warehouse",
+    "data-pipeline"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Consultant ETL",
+    "Architecte données",
+    "Développeur BI"
+   ]
+  },
+  {
+   "id": "informatica",
+   "label": {
+    "fr": "Informatica",
+    "en": "Informatica",
+    "ar": "Informatica",
+    "ru": "Informatica"
+   },
+   "patterns": [
+    "informatica",
+    "informatica powercenter",
+    "informatica cloud",
+    "iics",
+    "انفورماتيكا",
+    "информатика тулз"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "etl",
+    "data-warehouse",
+    "talend",
+    "data-governance",
+    "master-data-management"
+   ],
+   "jobs": [
+    "Consultant ETL",
+    "Data Engineer",
+    "Architecte données",
+    "Développeur Informatica"
+   ]
+  },
+  {
+   "id": "talend",
+   "label": {
+    "fr": "Talend",
+    "en": "Talend",
+    "ar": "Talend",
+    "ru": "Talend"
+   },
+   "patterns": [
+    "talend",
+    "talend open studio",
+    "talend data integration",
+    "تالند",
+    "талан"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "etl",
+    "informatica",
+    "data-warehouse",
+    "apache-airflow",
+    "data-pipeline"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Consultant ETL",
+    "Développeur Talend",
+    "Architecte données"
+   ]
+  },
+  {
+   "id": "apache-airflow",
+   "label": {
+    "fr": "Apache Airflow",
+    "en": "Apache Airflow",
+    "ar": "Apache Airflow",
+    "ru": "Apache Airflow"
+   },
+   "patterns": [
+    "airflow",
+    "apache airflow",
+    "ايرفلو",
+    "аирфлоу",
+    "эрфлоу"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "etl",
+    "data-pipeline",
+    "dbt",
+    "python",
+    "data-engineering"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Analytics Engineer",
+    "Ingénieur données",
+    "DevOps Data"
+   ]
+  },
+  {
+   "id": "dbt",
+   "label": {
+    "fr": "dbt",
+    "en": "dbt",
+    "ar": "dbt",
+    "ru": "dbt"
+   },
+   "patterns": [
+    "dbt",
+    "dbt core",
+    "dbt cloud",
+    "data build tool",
+    "دي بي تي",
+    "дбт"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "apache-airflow",
+    "snowflake",
+    "data-warehouse",
+    "sql",
+    "data-pipeline"
+   ],
+   "jobs": [
+    "Analytics Engineer",
+    "Data Engineer",
+    "Data Analyst",
+    "Consultant données"
+   ]
+  },
+  {
+   "id": "ssis",
+   "label": {
+    "fr": "SSIS",
+    "en": "SSIS",
+    "ar": "SSIS",
+    "ru": "SSIS"
+   },
+   "patterns": [
+    "ssis",
+    "sql server integration services",
+    "integration services",
+    "سس",
+    "ссис"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "sql-server",
+    "etl",
+    "data-warehouse",
+    "power-bi"
+   ],
+   "jobs": [
+    "Développeur BI",
+    "Data Engineer",
+    "Consultant SQL Server",
+    "Intégrateur données"
+   ]
+  },
+  {
+   "id": "apache-nifi",
+   "label": {
+    "fr": "Apache NiFi",
+    "en": "Apache NiFi",
+    "ar": "Apache NiFi",
+    "ru": "Apache NiFi"
+   },
+   "patterns": [
+    "nifi",
+    "apache nifi",
+    "نيفاي",
+    "нифай"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "etl",
+    "data-pipeline",
+    "apache-kafka",
+    "streaming-data",
+    "data-engineering"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Ingénieur streaming",
+    "Architecte données",
+    "Consultant Big Data"
+   ]
+  },
+  {
+   "id": "matillion",
+   "label": {
+    "fr": "Matillion",
+    "en": "Matillion",
+    "ar": "Matillion",
+    "ru": "Matillion"
+   },
+   "patterns": [
+    "matillion",
+    "matillion etl",
+    "ماتيليون",
+    "матиллион"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "etl",
+    "snowflake",
+    "amazon-redshift",
+    "google-bigquery",
+    "data-pipeline"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Consultant données cloud",
+    "Architecte données",
+    "Analytics Engineer"
+   ]
+  },
+  {
+   "id": "fivetran",
+   "label": {
+    "fr": "Fivetran",
+    "en": "Fivetran",
+    "ar": "Fivetran",
+    "ru": "Fivetran"
+   },
+   "patterns": [
+    "fivetran",
+    "فايفتران",
+    "файвтран"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "etl",
+    "data-pipeline",
+    "snowflake",
+    "dbt",
+    "data-warehouse"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Analytics Engineer",
+    "Consultant données",
+    "Architecte données"
+   ]
+  },
+  {
+   "id": "data-warehouse",
+   "label": {
+    "fr": "Entrepôt de données",
+    "en": "Data Warehouse",
+    "ar": "مستودع البيانات",
+    "ru": "Хранилище данных"
+   },
+   "patterns": [
+    "data warehouse",
+    "datawarehouse",
+    "entrepot de donnees",
+    "dwh",
+    "star schema",
+    "schema en etoile",
+    "مستودع البيانات",
+    "хранилище данных",
+    "склад данных"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "business",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "etl",
+    "data-modeling",
+    "sql",
+    "snowflake",
+    "data-lake"
+   ],
+   "jobs": [
+    "Architecte données",
+    "Consultant BI",
+    "Data Engineer",
+    "Chef de projet décisionnel"
+   ]
+  },
+  {
+   "id": "snowflake",
+   "label": {
+    "fr": "Snowflake",
+    "en": "Snowflake",
+    "ar": "Snowflake",
+    "ru": "Snowflake"
+   },
+   "patterns": [
+    "snowflake",
+    "snowflake cloud",
+    "سنوفليك",
+    "сноуфлейк"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "data-warehouse",
+    "dbt",
+    "etl",
+    "sql",
+    "data-lake"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Architecte données",
+    "Analytics Engineer",
+    "Consultant cloud data"
+   ]
+  },
+  {
+   "id": "amazon-redshift",
+   "label": {
+    "fr": "Amazon Redshift",
+    "en": "Amazon Redshift",
+    "ar": "Amazon Redshift",
+    "ru": "Amazon Redshift"
+   },
+   "patterns": [
+    "redshift",
+    "amazon redshift",
+    "aws redshift",
+    "ريدشيفت",
+    "редшифт"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "aws-data-services",
+    "data-warehouse",
+    "etl",
+    "sql",
+    "data-lake"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Architecte cloud",
+    "Consultant données AWS",
+    "Analytics Engineer"
+   ]
+  },
+  {
+   "id": "google-bigquery",
+   "label": {
+    "fr": "Google BigQuery",
+    "en": "Google BigQuery",
+    "ar": "Google BigQuery",
+    "ru": "Google BigQuery"
+   },
+   "patterns": [
+    "bigquery",
+    "big query",
+    "google bigquery",
+    "بيج كويري",
+    "бигквери"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "gcp-data-services",
+    "data-warehouse",
+    "sql",
+    "looker",
+    "data-pipeline"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Analytics Engineer",
+    "Consultant données GCP",
+    "Data Analyst"
+   ]
+  },
+  {
+   "id": "azure-synapse",
+   "label": {
+    "fr": "Azure Synapse Analytics",
+    "en": "Azure Synapse Analytics",
+    "ar": "Azure Synapse",
+    "ru": "Azure Synapse"
+   },
+   "patterns": [
+    "azure synapse",
+    "synapse analytics",
+    "azure data warehouse",
+    "سينابس",
+    "синапс"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "azure-data-services",
+    "data-warehouse",
+    "power-bi",
+    "etl",
+    "sql"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Architecte données Azure",
+    "Consultant BI",
+    "Analytics Engineer"
+   ]
+  },
+  {
+   "id": "databricks",
+   "label": {
+    "fr": "Databricks",
+    "en": "Databricks",
+    "ar": "Databricks",
+    "ru": "Databricks"
+   },
+   "patterns": [
+    "databricks",
+    "databricks lakehouse",
+    "داتابريكس",
+    "датабрикс"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "ai",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "apache-spark",
+    "python",
+    "data-lake",
+    "machine-learning",
+    "sql"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Architecte données"
+   ]
+  },
+  {
+   "id": "aws-data-services",
+   "label": {
+    "fr": "AWS Data Services",
+    "en": "AWS Data Services",
+    "ar": "خدمات بيانات AWS",
+    "ru": "Сервисы данных AWS"
+   },
+   "patterns": [
+    "aws data",
+    "amazon web services data",
+    "aws glue",
+    "aws athena",
+    "aws emr",
+    "خدمات امازون",
+    "амазон веб"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "amazon-redshift",
+    "data-lake",
+    "etl",
+    "data-pipeline",
+    "apache-spark"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Architecte cloud",
+    "Consultant AWS",
+    "Ingénieur données"
+   ]
+  },
+  {
+   "id": "azure-data-services",
+   "label": {
+    "fr": "Azure Data Services",
+    "en": "Azure Data Services",
+    "ar": "خدمات بيانات Azure",
+    "ru": "Сервисы данных Azure"
+   },
+   "patterns": [
+    "azure data",
+    "azure data factory",
+    "azure data lake",
+    "adf",
+    "خدمات ازور",
+    "азур данные"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "azure-synapse",
+    "power-bi",
+    "etl",
+    "data-pipeline",
+    "data-lake"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Architecte cloud Azure",
+    "Consultant données",
+    "Ingénieur données"
+   ]
+  },
+  {
+   "id": "gcp-data-services",
+   "label": {
+    "fr": "Google Cloud Data Services",
+    "en": "Google Cloud Data Services",
+    "ar": "خدمات بيانات Google Cloud",
+    "ru": "Сервисы данных Google Cloud"
+   },
+   "patterns": [
+    "google cloud data",
+    "gcp data",
+    "cloud dataflow",
+    "cloud dataproc",
+    "cloud composer",
+    "خدمات جوجل",
+    "гугл клауд"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-bigquery",
+    "looker",
+    "data-pipeline",
+    "apache-spark",
+    "etl"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Architecte cloud GCP",
+    "Consultant données",
+    "Analytics Engineer"
+   ]
+  },
+  {
+   "id": "apache-spark",
+   "label": {
+    "fr": "Apache Spark",
+    "en": "Apache Spark",
+    "ar": "Apache Spark",
+    "ru": "Apache Spark"
+   },
+   "patterns": [
+    "spark",
+    "apache spark",
+    "pyspark",
+    "spark sql",
+    "سبارك",
+    "спарк"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering",
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "hadoop",
+    "databricks",
+    "scala",
+    "python",
+    "data-engineering"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Big Data Developer",
+    "Data Scientist",
+    "Architecte données"
+   ]
+  },
+  {
+   "id": "hadoop",
+   "label": {
+    "fr": "Hadoop",
+    "en": "Hadoop",
+    "ar": "Hadoop",
+    "ru": "Hadoop"
+   },
+   "patterns": [
+    "hadoop",
+    "hdfs",
+    "mapreduce",
+    "hadoop ecosystem",
+    "هادوب",
+    "хадуп"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "apache-spark",
+    "apache-hive",
+    "data-lake",
+    "nosql",
+    "scala"
+   ],
+   "jobs": [
+    "Big Data Engineer",
+    "Data Engineer",
+    "Architecte Big Data",
+    "Consultant Hadoop"
+   ]
+  },
+  {
+   "id": "apache-hive",
+   "label": {
+    "fr": "Apache Hive",
+    "en": "Apache Hive",
+    "ar": "Apache Hive",
+    "ru": "Apache Hive"
+   },
+   "patterns": [
+    "hive",
+    "apache hive",
+    "hiveql",
+    "هايف",
+    "хайв"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "hadoop",
+    "apache-spark",
+    "sql",
+    "data-lake",
+    "data-warehouse"
+   ],
+   "jobs": [
+    "Big Data Engineer",
+    "Data Engineer",
+    "Consultant Big Data",
+    "Architecte données"
+   ]
+  },
+  {
+   "id": "apache-kafka",
+   "label": {
+    "fr": "Apache Kafka",
+    "en": "Apache Kafka",
+    "ar": "Apache Kafka",
+    "ru": "Apache Kafka"
+   },
+   "patterns": [
+    "kafka",
+    "apache kafka",
+    "kafka streams",
+    "كافكا",
+    "кафка"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "streaming-data",
+    "data-pipeline",
+    "apache-flink",
+    "data-engineering",
+    "apache-spark"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Ingénieur streaming",
+    "Architecte données",
+    "Développeur temps réel"
+   ]
+  },
+  {
+   "id": "apache-flink",
+   "label": {
+    "fr": "Apache Flink",
+    "en": "Apache Flink",
+    "ar": "Apache Flink",
+    "ru": "Apache Flink"
+   },
+   "patterns": [
+    "flink",
+    "apache flink",
+    "فلينك",
+    "флинк"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "apache-kafka",
+    "streaming-data",
+    "apache-spark",
+    "data-pipeline"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Ingénieur streaming",
+    "Architecte données",
+    "Big Data Developer"
+   ]
+  },
+  {
+   "id": "streaming-data",
+   "label": {
+    "fr": "Traitement de données en temps réel",
+    "en": "Real-time / Streaming Data",
+    "ar": "معالجة البيانات في الوقت الفعلي",
+    "ru": "Потоковая обработка данных"
+   },
+   "patterns": [
+    "streaming",
+    "real time data",
+    "temps reel",
+    "flux de donnees",
+    "معالجة الوقت الفعلي",
+    "потоков",
+    "реал тайм"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "apache-kafka",
+    "apache-flink",
+    "apache-spark",
+    "data-pipeline",
+    "data-engineering"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Ingénieur streaming",
+    "Architecte données",
+    "Consultant Big Data"
+   ]
+  },
+  {
+   "id": "data-lake",
+   "label": {
+    "fr": "Data Lake",
+    "en": "Data Lake",
+    "ar": "بحيرة البيانات",
+    "ru": "Озеро данных"
+   },
+   "patterns": [
+    "data lake",
+    "datalake",
+    "lac de donnees",
+    "بحيرة البيانات",
+    "озеро данных",
+    "лэйкхаус"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-warehouse",
+    "hadoop",
+    "aws-data-services",
+    "databricks",
+    "data-engineering"
+   ],
+   "jobs": [
+    "Architecte données",
+    "Data Engineer",
+    "Consultant Big Data",
+    "Chef de projet données"
+   ]
+  },
+  {
+   "id": "data-pipeline",
+   "label": {
+    "fr": "Pipeline de données",
+    "en": "Data Pipeline",
+    "ar": "خط أنابيب البيانات",
+    "ru": "Конвейер данных"
+   },
+   "patterns": [
+    "data pipeline",
+    "pipeline de donnees",
+    "pipeline data",
+    "خط انابيب البيانات",
+    "конвейер данных",
+    "пайплайн"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "etl",
+    "apache-airflow",
+    "data-engineering",
+    "streaming-data",
+    "dbt"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Analytics Engineer",
+    "Ingénieur données",
+    "Architecte données"
+   ]
+  },
+  {
+   "id": "data-engineering",
+   "label": {
+    "fr": "Data Engineering",
+    "en": "Data Engineering",
+    "ar": "هندسة البيانات",
+    "ru": "Инженерия данных"
+   },
+   "patterns": [
+    "data engineering",
+    "ingenierie des donnees",
+    "هندسة البيانات",
+    "инженерия данных",
+    "дата инжен"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "etl",
+    "data-pipeline",
+    "apache-spark",
+    "data-warehouse",
+    "python"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Ingénieur données",
+    "Architecte données",
+    "Lead Data Engineer"
+   ]
+  },
+  {
+   "id": "machine-learning",
+   "label": {
+    "fr": "Machine Learning",
+    "en": "Machine Learning",
+    "ar": "التعلم الآلي",
+    "ru": "Машинное обучение"
+   },
+   "patterns": [
+    "machine learning",
+    "ml",
+    "apprentissage automatique",
+    "تعلم آلي",
+    "машинн обучен",
+    "мл модел"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "python",
+    "scikit-learn",
+    "deep-learning",
+    "statistiques",
+    "predictive-analytics"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Data Analyst senior",
+    "Consultant IA"
+   ]
+  },
+  {
+   "id": "deep-learning",
+   "label": {
+    "fr": "Deep Learning",
+    "en": "Deep Learning",
+    "ar": "التعلم العميق",
+    "ru": "Глубокое обучение"
+   },
+   "patterns": [
+    "deep learning",
+    "apprentissage profond",
+    "تعلم عميق",
+    "глубок обучен",
+    "нейросет"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "ai"
+   ],
+   "level": "specialise",
+   "related": [
+    "machine-learning",
+    "tensorflow",
+    "pytorch",
+    "nlp",
+    "python"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Chercheur IA",
+    "Ingénieur IA"
+   ]
+  },
+  {
+   "id": "tensorflow",
+   "label": {
+    "fr": "TensorFlow",
+    "en": "TensorFlow",
+    "ar": "TensorFlow",
+    "ru": "TensorFlow"
+   },
+   "patterns": [
+    "tensorflow",
+    "tensor flow",
+    "keras",
+    "تينسورفلو",
+    "тензорфлоу"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "ai"
+   ],
+   "level": "specialise",
+   "related": [
+    "deep-learning",
+    "pytorch",
+    "machine-learning",
+    "python",
+    "nlp"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Ingénieur IA",
+    "Chercheur en apprentissage automatique"
+   ]
+  },
+  {
+   "id": "pytorch",
+   "label": {
+    "fr": "PyTorch",
+    "en": "PyTorch",
+    "ar": "PyTorch",
+    "ru": "PyTorch"
+   },
+   "patterns": [
+    "pytorch",
+    "py torch",
+    "باي تورش",
+    "пайторч"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "ai"
+   ],
+   "level": "specialise",
+   "related": [
+    "deep-learning",
+    "tensorflow",
+    "machine-learning",
+    "python",
+    "nlp"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Ingénieur IA",
+    "Chercheur IA"
+   ]
+  },
+  {
+   "id": "scikit-learn",
+   "label": {
+    "fr": "Scikit-learn",
+    "en": "Scikit-learn",
+    "ar": "Scikit-learn",
+    "ru": "Scikit-learn"
+   },
+   "patterns": [
+    "scikit-learn",
+    "scikit learn",
+    "sklearn",
+    "سايكيت ليرن",
+    "скитлерн"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "python",
+    "machine-learning",
+    "pandas",
+    "statistiques",
+    "data-mining"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Data Analyst",
+    "Machine Learning Engineer",
+    "Consultant data science"
+   ]
+  },
+  {
+   "id": "nlp",
+   "label": {
+    "fr": "NLP / Traitement du langage naturel",
+    "en": "NLP / Natural Language Processing",
+    "ar": "معالجة اللغة الطبيعية",
+    "ru": "Обработка естественного языка"
+   },
+   "patterns": [
+    "nlp",
+    "natural language processing",
+    "traitement du langage",
+    "text mining",
+    "معالجة اللغة",
+    "обработк естествен"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "ai"
+   ],
+   "level": "specialise",
+   "related": [
+    "machine-learning",
+    "deep-learning",
+    "python",
+    "tensorflow",
+    "data-mining"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "NLP Engineer",
+    "Machine Learning Engineer",
+    "Chercheur IA"
+   ]
+  },
+  {
+   "id": "data-mining",
+   "label": {
+    "fr": "Data Mining",
+    "en": "Data Mining",
+    "ar": "التنقيب عن البيانات",
+    "ru": "Интеллектуальный анализ данных"
+   },
+   "patterns": [
+    "data mining",
+    "fouille de donnees",
+    "exploration de donnees",
+    "تنقيب البيانات",
+    "интеллектуальн анализ",
+    "датамайнинг"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "ai",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "machine-learning",
+    "statistiques",
+    "python",
+    "r-programming",
+    "predictive-analytics"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Data Analyst",
+    "Statisticien",
+    "Consultant data mining"
+   ]
+  },
+  {
+   "id": "predictive-analytics",
+   "label": {
+    "fr": "Analytique prédictive",
+    "en": "Predictive Analytics",
+    "ar": "التحليلات التنبؤية",
+    "ru": "Предиктивная аналитика"
+   },
+   "patterns": [
+    "predictive analytics",
+    "analyse predictive",
+    "modelisation predictive",
+    "تحليل تنبؤي",
+    "предиктивн аналитик",
+    "предсказательн"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "ai",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "machine-learning",
+    "statistiques",
+    "data-mining",
+    "python",
+    "data-science"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Data Analyst senior",
+    "Consultant analytics",
+    "Responsable data"
+   ]
+  },
+  {
+   "id": "statistiques",
+   "label": {
+    "fr": "Statistiques",
+    "en": "Statistics",
+    "ar": "الإحصاء",
+    "ru": "Статистика"
+   },
+   "patterns": [
+    "statistiques",
+    "statistique",
+    "analyse statistique",
+    "statistical analysis",
+    "احصاء",
+    "статистик",
+    "статанализ"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "ai",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "r-programming",
+    "python",
+    "machine-learning",
+    "data-mining",
+    "a-b-testing"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Data Scientist",
+    "Statisticien",
+    "Chargé d'études quantitatives"
+   ]
+  },
+  {
+   "id": "pandas",
+   "label": {
+    "fr": "Pandas / NumPy",
+    "en": "Pandas / NumPy",
+    "ar": "Pandas",
+    "ru": "Pandas"
+   },
+   "patterns": [
+    "pandas",
+    "numpy",
+    "scipy",
+    "باندا",
+    "пандас",
+    "нампай"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "python",
+    "scikit-learn",
+    "machine-learning",
+    "statistiques",
+    "data-mining"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Data Analyst",
+    "Data Engineer",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "data-science",
+   "label": {
+    "fr": "Data Science",
+    "en": "Data Science",
+    "ar": "علم البيانات",
+    "ru": "Наука о данных"
+   },
+   "patterns": [
+    "data science",
+    "science des donnees",
+    "علم البيانات",
+    "наука о данных",
+    "дата саенс"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "machine-learning",
+    "python",
+    "statistiques",
+    "predictive-analytics",
+    "data-mining"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Lead Data Scientist",
+    "Consultant data science",
+    "Responsable data science"
+   ]
+  },
+  {
+   "id": "data-governance",
+   "label": {
+    "fr": "Gouvernance des données",
+    "en": "Data Governance",
+    "ar": "حوكمة البيانات",
+    "ru": "Управление данными"
+   },
+   "patterns": [
+    "data governance",
+    "gouvernance des donnees",
+    "gouvernance data",
+    "حوكمة البيانات",
+    "управление данными",
+    "дат говернанс"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "business",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-quality",
+    "rgpd",
+    "master-data-management",
+    "data-catalog",
+    "data-lineage"
+   ],
+   "jobs": [
+    "Data Governance Manager",
+    "Chief Data Officer",
+    "Consultant gouvernance données",
+    "Responsable qualité données"
+   ]
+  },
+  {
+   "id": "data-quality",
+   "label": {
+    "fr": "Qualité des données",
+    "en": "Data Quality",
+    "ar": "جودة البيانات",
+    "ru": "Качество данных"
+   },
+   "patterns": [
+    "data quality",
+    "qualite des donnees",
+    "qualite data",
+    "جودة البيانات",
+    "качество данных",
+    "дат 퀄리티"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-governance",
+    "master-data-management",
+    "etl",
+    "data-catalog",
+    "rgpd"
+   ],
+   "jobs": [
+    "Data Quality Manager",
+    "Consultant qualité données",
+    "Data Steward",
+    "Responsable données"
+   ]
+  },
+  {
+   "id": "master-data-management",
+   "label": {
+    "fr": "Master Data Management",
+    "en": "Master Data Management",
+    "ar": "إدارة البيانات الرئيسية",
+    "ru": "Управление основными данными"
+   },
+   "patterns": [
+    "mdm",
+    "master data management",
+    "gestion des donnees de reference",
+    "referentiel de donnees",
+    "ادارة البيانات الرئيسية",
+    "мастер дата"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "erp",
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "data-governance",
+    "data-quality",
+    "informatica",
+    "data-catalog",
+    "etl"
+   ],
+   "jobs": [
+    "Consultant MDM",
+    "Architecte données",
+    "Data Governance Manager",
+    "Responsable référentiels"
+   ]
+  },
+  {
+   "id": "data-catalog",
+   "label": {
+    "fr": "Catalogue de données",
+    "en": "Data Catalog",
+    "ar": "فهرس البيانات",
+    "ru": "Каталог данных"
+   },
+   "patterns": [
+    "data catalog",
+    "catalogue de donnees",
+    "data dictionary",
+    "dictionnaire de donnees",
+    "فهرس البيانات",
+    "каталог данных",
+    "дата каталог"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "data-governance",
+    "data-lineage",
+    "data-quality",
+    "master-data-management"
+   ],
+   "jobs": [
+    "Data Steward",
+    "Consultant gouvernance données",
+    "Data Governance Manager",
+    "Architecte données"
+   ]
+  },
+  {
+   "id": "data-lineage",
+   "label": {
+    "fr": "Traçabilité des données",
+    "en": "Data Lineage",
+    "ar": "تتبع البيانات",
+    "ru": "Прослеживаемость данных"
+   },
+   "patterns": [
+    "data lineage",
+    "tracabilite des donnees",
+    "lineage",
+    "تتبع البيانات",
+    "линейдж",
+    "прослеживаемост"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "business",
+    "juridique"
+   ],
+   "level": "specialise",
+   "related": [
+    "data-governance",
+    "data-catalog",
+    "data-quality",
+    "etl",
+    "data-warehouse"
+   ],
+   "jobs": [
+    "Data Governance Manager",
+    "Consultant données",
+    "Data Steward",
+    "Architecte données"
+   ]
+  },
+  {
+   "id": "data-security",
+   "label": {
+    "fr": "Sécurité des données",
+    "en": "Data Security",
+    "ar": "أمن البيانات",
+    "ru": "Безопасность данных"
+   },
+   "patterns": [
+    "data security",
+    "securite des donnees",
+    "securite data",
+    "protection des donnees",
+    "أمن البيانات",
+    "безопасност данных"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "rgpd",
+    "data-governance",
+    "data-quality",
+    "data-engineering"
+   ],
+   "jobs": [
+    "Data Protection Officer",
+    "Consultant sécurité données",
+    "RSSI",
+    "Architecte données"
+   ]
+  },
+  {
+   "id": "rgpd",
+   "label": {
+    "fr": "RGPD / GDPR",
+    "en": "GDPR",
+    "ar": "اللائحة العامة لحماية البيانات",
+    "ru": "GDPR / Защита персональных данных"
+   },
+   "patterns": [
+    "rgpd",
+    "gdpr",
+    "reglement general protection donnees",
+    "general data protection",
+    "حماية البيانات",
+    "защита персональн"
+   ],
+   "category": "norme",
+   "topics": [
+    "data",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-governance",
+    "data-security",
+    "data-quality",
+    "data-privacy"
+   ],
+   "jobs": [
+    "Data Protection Officer",
+    "Consultant RGPD",
+    "Data Governance Manager",
+    "Juriste données"
+   ]
+  },
+  {
+   "id": "data-modeling",
+   "label": {
+    "fr": "Modélisation de données",
+    "en": "Data Modeling",
+    "ar": "نمذجة البيانات",
+    "ru": "Моделирование данных"
+   },
+   "patterns": [
+    "data modeling",
+    "data modelling",
+    "modelisation de donnees",
+    "modele de donnees",
+    "نمذجة البيانات",
+    "моделировани данных",
+    "дата модел"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "data-warehouse",
+    "sql",
+    "etl",
+    "data-engineering",
+    "star-schema"
+   ],
+   "jobs": [
+    "Architecte données",
+    "Data Engineer",
+    "Consultant BI",
+    "Modélisateur données"
+   ]
+  },
+  {
+   "id": "star-schema",
+   "label": {
+    "fr": "Schéma en étoile / flocon",
+    "en": "Star Schema / Snowflake Schema",
+    "ar": "المخطط النجمي",
+    "ru": "Схема звезда / снежинка"
+   },
+   "patterns": [
+    "star schema",
+    "snowflake schema",
+    "schema en etoile",
+    "schema en flocon",
+    "dimensional modeling",
+    "مخطط نجمي",
+    "схема звезд"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "engineering",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-warehouse",
+    "data-modeling",
+    "etl",
+    "sql",
+    "olap"
+   ],
+   "jobs": [
+    "Architecte données",
+    "Consultant BI",
+    "Data Engineer",
+    "Modélisateur données"
+   ]
+  },
+  {
+   "id": "olap",
+   "label": {
+    "fr": "OLAP",
+    "en": "OLAP",
+    "ar": "OLAP",
+    "ru": "OLAP"
+   },
+   "patterns": [
+    "olap",
+    "online analytical processing",
+    "cube olap",
+    "traitement analytique",
+    "أولاب",
+    "олап",
+    "аналитическ обработ"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "business",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-warehouse",
+    "star-schema",
+    "power-bi",
+    "tableau",
+    "sql"
+   ],
+   "jobs": [
+    "Consultant BI",
+    "Data Analyst",
+    "Contrôleur de gestion",
+    "Développeur décisionnel"
+   ]
+  },
+  {
+   "id": "a-b-testing",
+   "label": {
+    "fr": "A/B Testing",
+    "en": "A/B Testing",
+    "ar": "اختبار A/B",
+    "ru": "A/B-тестирование"
+   },
+   "patterns": [
+    "a/b testing",
+    "ab testing",
+    "ab test",
+    "test ab",
+    "split testing",
+    "اختبار أ ب",
+    "а б тест"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "statistiques",
+    "data-visualization",
+    "python",
+    "predictive-analytics",
+    "kpi-reporting"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Product Analyst",
+    "Growth Analyst",
+    "Data Scientist"
+   ]
+  },
+  {
+   "id": "data-visualization",
+   "label": {
+    "fr": "Visualisation de données",
+    "en": "Data Visualization",
+    "ar": "تصور البيانات",
+    "ru": "Визуализация данных"
+   },
+   "patterns": [
+    "data visualization",
+    "data visualisation",
+    "visualisation de donnees",
+    "dataviz",
+    "تصور البيانات",
+    "визуализаци данных",
+    "датавиз"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "tableau",
+    "power-bi",
+    "dashboard-creation",
+    "data-storytelling",
+    "qlik-sense"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Consultant BI",
+    "Data Visualization Specialist",
+    "Business Analyst"
+   ]
+  },
+  {
+   "id": "dashboard-creation",
+   "label": {
+    "fr": "Création de tableaux de bord",
+    "en": "Dashboard Design & Creation",
+    "ar": "تصميم لوحات المعلومات",
+    "ru": "Создание дашбордов"
+   },
+   "patterns": [
+    "dashboard",
+    "tableau de bord",
+    "tableaux de bord",
+    "reporting dashboard",
+    "لوحة معلومات",
+    "дашборд",
+    "приборн панель"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "data-visualization",
+    "power-bi",
+    "tableau",
+    "kpi-reporting",
+    "data-storytelling"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Consultant BI",
+    "Contrôleur de gestion",
+    "Business Analyst"
+   ]
+  },
+  {
+   "id": "data-storytelling",
+   "label": {
+    "fr": "Data Storytelling",
+    "en": "Data Storytelling",
+    "ar": "سرد البيانات",
+    "ru": "Сторителлинг данных"
+   },
+   "patterns": [
+    "data storytelling",
+    "storytelling",
+    "narration de donnees",
+    "سرد البيانات",
+    "сторителлинг",
+    "нарратив данных"
+   ],
+   "category": "transverse",
+   "topics": [
+    "data",
+    "business",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-visualization",
+    "dashboard-creation",
+    "communication-data",
+    "kpi-reporting"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Consultant BI",
+    "Data Scientist",
+    "Responsable reporting"
+   ]
+  },
+  {
+   "id": "kpi-reporting",
+   "label": {
+    "fr": "Définition et suivi de KPI",
+    "en": "KPI Definition & Reporting",
+    "ar": "تحديد ومتابعة مؤشرات الأداء",
+    "ru": "Определение и мониторинг KPI"
+   },
+   "patterns": [
+    "kpi",
+    "indicateurs de performance",
+    "key performance indicator",
+    "reporting",
+    "مؤشرات اداء",
+    "капэи",
+    "показател эффектив"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "business",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "dashboard-creation",
+    "data-visualization",
+    "business-analysis",
+    "statistiques",
+    "power-bi"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Contrôleur de gestion",
+    "Business Analyst",
+    "Responsable reporting"
+   ]
+  },
+  {
+   "id": "data-strategy",
+   "label": {
+    "fr": "Stratégie données",
+    "en": "Data Strategy",
+    "ar": "استراتيجية البيانات",
+    "ru": "Стратегия данных"
+   },
+   "patterns": [
+    "data strategy",
+    "strategie data",
+    "strategie des donnees",
+    "feuille de route data",
+    "استراتيجية البيانات",
+    "стратегия данных"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "business",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-governance",
+    "data-architecture",
+    "business-analysis",
+    "project-management-data"
+   ],
+   "jobs": [
+    "Chief Data Officer",
+    "Directeur données",
+    "Consultant stratégie data",
+    "Responsable données"
+   ]
+  },
+  {
+   "id": "data-architecture",
+   "label": {
+    "fr": "Architecture des données",
+    "en": "Data Architecture",
+    "ar": "هندسة معمارية البيانات",
+    "ru": "Архитектура данных"
+   },
+   "patterns": [
+    "data architecture",
+    "architecture des donnees",
+    "architecture data",
+    "معمارية البيانات",
+    "архитектура данных",
+    "дата архитектор"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-warehouse",
+    "data-lake",
+    "data-modeling",
+    "data-engineering",
+    "data-strategy"
+   ],
+   "jobs": [
+    "Architecte données",
+    "Lead Data Engineer",
+    "Consultant architecture données",
+    "CTO Data"
+   ]
+  },
+  {
+   "id": "business-analysis",
+   "label": {
+    "fr": "Analyse métier / Business Analysis",
+    "en": "Business Analysis",
+    "ar": "تحليل الأعمال",
+    "ru": "Бизнес-анализ"
+   },
+   "patterns": [
+    "business analysis",
+    "analyse metier",
+    "business analyst",
+    "analyse fonctionnelle",
+    "تحليل الاعمال",
+    "бизнес анализ"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "business",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "requirements-gathering",
+    "kpi-reporting",
+    "data-strategy",
+    "stakeholder-management",
+    "sql"
+   ],
+   "jobs": [
+    "Business Analyst",
+    "Consultant fonctionnel BI",
+    "Product Owner données",
+    "Analyste métier"
+   ]
+  },
+  {
+   "id": "requirements-gathering",
+   "label": {
+    "fr": "Recueil des besoins",
+    "en": "Requirements Gathering",
+    "ar": "جمع المتطلبات",
+    "ru": "Сбор требований"
+   },
+   "patterns": [
+    "requirements gathering",
+    "recueil des besoins",
+    "collecte des besoins",
+    "cahier des charges",
+    "جمع المتطلبات",
+    "сбор требований",
+    "выявление требован"
+   ],
+   "category": "transverse",
+   "topics": [
+    "data",
+    "project",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "business-analysis",
+    "stakeholder-management",
+    "project-management-data",
+    "agile-scrum"
+   ],
+   "jobs": [
+    "Consultant BI",
+    "Business Analyst",
+    "Chef de projet décisionnel",
+    "Product Owner données"
+   ]
+  },
+  {
+   "id": "agile-scrum",
+   "label": {
+    "fr": "Agile / Scrum",
+    "en": "Agile / Scrum",
+    "ar": "أجايل / سكرم",
+    "ru": "Agile / Scrum"
+   },
+   "patterns": [
+    "agile",
+    "scrum",
+    "methode agile",
+    "sprint",
+    "agil",
+    "أجايل",
+    "скрам",
+    "аджайл"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "project",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "project-management-data",
+    "requirements-gathering",
+    "data-engineering",
+    "kanban"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Chef de projet données",
+    "Scrum Master",
+    "Product Owner données"
+   ]
+  },
+  {
+   "id": "kanban",
+   "label": {
+    "fr": "Kanban",
+    "en": "Kanban",
+    "ar": "كانبان",
+    "ru": "Kanban"
+   },
+   "patterns": [
+    "kanban",
+    "كانبان",
+    "канбан"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "agile-scrum",
+    "project-management-data",
+    "data-engineering"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Chef de projet données",
+    "Responsable équipe data",
+    "Scrum Master"
+   ]
+  },
+  {
+   "id": "project-management-data",
+   "label": {
+    "fr": "Gestion de projet data",
+    "en": "Data Project Management",
+    "ar": "إدارة مشاريع البيانات",
+    "ru": "Управление проектами данных"
+   },
+   "patterns": [
+    "gestion de projet data",
+    "project management",
+    "data project",
+    "chef de projet decisionnel",
+    "ادارة مشاريع البيانات",
+    "управление проект"
+   ],
+   "category": "transverse",
+   "topics": [
+    "data",
+    "project",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "agile-scrum",
+    "requirements-gathering",
+    "stakeholder-management",
+    "data-strategy",
+    "communication-data"
+   ],
+   "jobs": [
+    "Chef de projet BI",
+    "Chef de projet données",
+    "Directeur de programme data",
+    "Consultant BI"
+   ]
+  },
+  {
+   "id": "communication-data",
+   "label": {
+    "fr": "Communication et vulgarisation data",
+    "en": "Data Communication & Literacy",
+    "ar": "التواصل في مجال البيانات",
+    "ru": "Коммуникация данных"
+   },
+   "patterns": [
+    "vulgarisation",
+    "communication data",
+    "data literacy",
+    "culture data",
+    "تواصل البيانات",
+    "коммуникация данных",
+    "грамотность данных"
+   ],
+   "category": "transverse",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-storytelling",
+    "data-visualization",
+    "stakeholder-management",
+    "dashboard-creation"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Consultant BI",
+    "Data Scientist",
+    "Responsable données"
+   ]
+  },
+  {
+   "id": "stakeholder-management",
+   "label": {
+    "fr": "Gestion des parties prenantes",
+    "en": "Stakeholder Management",
+    "ar": "إدارة أصحاب المصلحة",
+    "ru": "Управление заинтересованными сторонами"
+   },
+   "patterns": [
+    "stakeholder management",
+    "gestion des parties prenantes",
+    "relation metier",
+    "ادارة اصحاب المصلحة",
+    "стейкхолдер",
+    "заинтересованн сторон"
+   ],
+   "category": "transverse",
+   "topics": [
+    "data",
+    "business",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "business-analysis",
+    "communication-data",
+    "project-management-data",
+    "requirements-gathering"
+   ],
+   "jobs": [
+    "Consultant BI",
+    "Chef de projet données",
+    "Business Analyst",
+    "Data Product Manager"
+   ]
+  },
+  {
+   "id": "problem-solving-data",
+   "label": {
+    "fr": "Résolution de problèmes analytiques",
+    "en": "Analytical Problem Solving",
+    "ar": "حل المشكلات التحليلية",
+    "ru": "Аналитическое решение задач"
+   },
+   "patterns": [
+    "problem solving",
+    "resolution de problemes",
+    "esprit analytique",
+    "analytical thinking",
+    "حل المشكلات",
+    "решение задач",
+    "аналитическ мышлен"
+   ],
+   "category": "transverse",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "statistiques",
+    "data-mining",
+    "business-analysis",
+    "critical-thinking"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Data Scientist",
+    "Consultant BI",
+    "Business Analyst"
+   ]
+  },
+  {
+   "id": "critical-thinking",
+   "label": {
+    "fr": "Esprit critique",
+    "en": "Critical Thinking",
+    "ar": "التفكير النقدي",
+    "ru": "Критическое мышление"
+   },
+   "patterns": [
+    "critical thinking",
+    "esprit critique",
+    "pensee critique",
+    "تفكير نقدي",
+    "критическ мышлен"
+   ],
+   "category": "transverse",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "problem-solving-data",
+    "data-quality",
+    "statistiques",
+    "business-analysis"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Data Scientist",
+    "Consultant données",
+    "Auditeur données"
+   ]
+  },
+  {
+   "id": "excel-advanced",
+   "label": {
+    "fr": "Excel avancé",
+    "en": "Advanced Excel",
+    "ar": "Excel المتقدم",
+    "ru": "Excel продвинутый"
+   },
+   "patterns": [
+    "excel",
+    "excel avance",
+    "tableaux croises dynamiques",
+    "pivot table",
+    "vlookup",
+    "اكسل",
+    "эксель"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "vba",
+    "power-bi",
+    "kpi-reporting",
+    "dashboard-creation",
+    "sql"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Contrôleur de gestion",
+    "Business Analyst",
+    "Chargé de reporting"
+   ]
+  },
+  {
+   "id": "vba",
+   "label": {
+    "fr": "VBA",
+    "en": "VBA",
+    "ar": "VBA",
+    "ru": "VBA"
+   },
+   "patterns": [
+    "vba",
+    "visual basic for applications",
+    "macro excel",
+    "في بي اي",
+    "вба",
+    "макрос"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "excel-advanced",
+    "power-bi",
+    "sql",
+    "kpi-reporting"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Data Analyst",
+    "Chargé de reporting",
+    "Analyste financier"
+   ]
+  }
+ ]
+}

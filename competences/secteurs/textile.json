@@ -1,0 +1,2312 @@
+{
+ "sector": "Industrie textile et habillement",
+ "key": "textile",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "patronage",
+   "label": {
+    "fr": "Patronage",
+    "en": "Pattern making",
+    "ar": "صناعة الباترون",
+    "ru": "Конструирование одежды"
+   },
+   "patterns": [
+    "patronage",
+    "pattern making",
+    "patternmaking",
+    "صناعة الباترون",
+    "конструир",
+    "построение лекал"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "gradation",
+    "modelisme",
+    "lectra-modaris",
+    "gerber-accumark"
+   ],
+   "jobs": [
+    "Modéliste",
+    "Patronier",
+    "Styliste modéliste"
+   ]
+  },
+  {
+   "id": "gradation",
+   "label": {
+    "fr": "Gradation",
+    "en": "Pattern grading",
+    "ar": "تدريج المقاسات",
+    "ru": "Градация лекал"
+   },
+   "patterns": [
+    "gradation",
+    "grading",
+    "pattern grading",
+    "تدريج المقاسات",
+    "градаци",
+    "размножение лекал"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile"
+   ],
+   "level": "courant",
+   "related": [
+    "patronage",
+    "modelisme",
+    "lectra-modaris"
+   ],
+   "jobs": [
+    "Gradeur",
+    "Modéliste",
+    "Technicien bureau d'études"
+   ]
+  },
+  {
+   "id": "modelisme",
+   "label": {
+    "fr": "Modélisme",
+    "en": "Pattern drafting",
+    "ar": "تصميم الأزياء والباترون",
+    "ru": "Моделирование одежды"
+   },
+   "patterns": [
+    "modelisme",
+    "modelisme vetement",
+    "pattern drafting",
+    "تصميم الأزياء",
+    "моделир",
+    "конструиров"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "patronage",
+    "gradation",
+    "clo-3d"
+   ],
+   "jobs": [
+    "Modéliste",
+    "Chef modéliste",
+    "Styliste"
+   ]
+  },
+  {
+   "id": "lectra-modaris",
+   "label": {
+    "fr": "Lectra Modaris",
+    "en": "Lectra Modaris",
+    "ar": "Lectra Modaris",
+    "ru": "Lectra Modaris"
+   },
+   "patterns": [
+    "lectra modaris",
+    "modaris",
+    "lectra",
+    "модалис"
+   ],
+   "category": "outil",
+   "topics": [
+    "textile",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "patronage",
+    "gradation",
+    "gerber-accumark",
+    "optitex"
+   ],
+   "jobs": [
+    "Modéliste CAO",
+    "Opérateur CAO",
+    "Technicien bureau d'études"
+   ]
+  },
+  {
+   "id": "clo-3d",
+   "label": {
+    "fr": "CLO 3D",
+    "en": "CLO 3D",
+    "ar": "CLO 3D",
+    "ru": "CLO 3D"
+   },
+   "patterns": [
+    "clo 3d",
+    "clo3d",
+    "clo",
+    "кло 3д"
+   ],
+   "category": "outil",
+   "topics": [
+    "textile",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "browzwear",
+    "optitex",
+    "modelisme",
+    "adobe-illustrator"
+   ],
+   "jobs": [
+    "Designer 3D mode",
+    "Modéliste 3D",
+    "Styliste"
+   ]
+  },
+  {
+   "id": "optitex",
+   "label": {
+    "fr": "Optitex",
+    "en": "Optitex",
+    "ar": "Optitex",
+    "ru": "Optitex"
+   },
+   "patterns": [
+    "optitex",
+    "оптитекс"
+   ],
+   "category": "outil",
+   "topics": [
+    "textile",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "lectra-modaris",
+    "clo-3d",
+    "browzwear",
+    "gerber-accumark"
+   ],
+   "jobs": [
+    "Modéliste CAO",
+    "Technicien CAO",
+    "Designer 3D"
+   ]
+  },
+  {
+   "id": "browzwear",
+   "label": {
+    "fr": "Browzwear",
+    "en": "Browzwear",
+    "ar": "Browzwear",
+    "ru": "Browzwear"
+   },
+   "patterns": [
+    "browzwear",
+    "vstitcher",
+    "lfa",
+    "бровзвер",
+    "ви-стичер"
+   ],
+   "category": "outil",
+   "topics": [
+    "textile",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "clo-3d",
+    "optitex",
+    "modelisme"
+   ],
+   "jobs": [
+    "Designer 3D mode",
+    "Modéliste 3D",
+    "Styliste"
+   ]
+  },
+  {
+   "id": "gerber-accumark",
+   "label": {
+    "fr": "Gerber AccuMark",
+    "en": "Gerber AccuMark",
+    "ar": "Gerber AccuMark",
+    "ru": "Gerber AccuMark"
+   },
+   "patterns": [
+    "gerber accumark",
+    "accumark",
+    "gerber",
+    "аккумарк",
+    "гербер"
+   ],
+   "category": "outil",
+   "topics": [
+    "textile",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "lectra-modaris",
+    "optitex",
+    "patronage",
+    "gradation"
+   ],
+   "jobs": [
+    "Modéliste CAO",
+    "Opérateur Gerber",
+    "Technicien bureau d'études"
+   ]
+  },
+  {
+   "id": "adobe-illustrator",
+   "label": {
+    "fr": "Adobe Illustrator",
+    "en": "Adobe Illustrator",
+    "ar": "Adobe Illustrator",
+    "ru": "Adobe Illustrator"
+   },
+   "patterns": [
+    "illustrator",
+    "adobe illustrator",
+    "иллюстратор",
+    "адоби иллюстратор",
+    "illustrateur"
+   ],
+   "category": "outil",
+   "topics": [
+    "design",
+    "textile"
+   ],
+   "level": "courant",
+   "related": [
+    "adobe-photoshop",
+    "clo-3d",
+    "modelisme",
+    "pantone"
+   ],
+   "jobs": [
+    "Styliste",
+    "Designer textile",
+    "Graphiste mode"
+   ]
+  },
+  {
+   "id": "adobe-photoshop",
+   "label": {
+    "fr": "Adobe Photoshop",
+    "en": "Adobe Photoshop",
+    "ar": "Adobe Photoshop",
+    "ru": "Adobe Photoshop"
+   },
+   "patterns": [
+    "photoshop",
+    "adobe photoshop",
+    "фотошоп",
+    "адоби фотошоп"
+   ],
+   "category": "outil",
+   "topics": [
+    "design",
+    "textile"
+   ],
+   "level": "courant",
+   "related": [
+    "adobe-illustrator",
+    "wgsn",
+    "impression-numerique-textile"
+   ],
+   "jobs": [
+    "Styliste",
+    "Designer textile",
+    "Graphiste mode"
+   ]
+  },
+  {
+   "id": "centric-plm",
+   "label": {
+    "fr": "Centric PLM",
+    "en": "Centric PLM",
+    "ar": "Centric PLM",
+    "ru": "Centric PLM"
+   },
+   "patterns": [
+    "centric plm",
+    "centric",
+    "plm centric",
+    "plm mode",
+    "плм центрик",
+    "plm текстиль"
+   ],
+   "category": "outil",
+   "topics": [
+    "textile",
+    "erp"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-afs",
+    "fastreact",
+    "gestion-production",
+    "sourcing-textile"
+   ],
+   "jobs": [
+    "Chef de produit mode",
+    "Responsable PLM",
+    "Coordinateur collection"
+   ]
+  },
+  {
+   "id": "sap-afs",
+   "label": {
+    "fr": "SAP AFS",
+    "en": "SAP AFS",
+    "ar": "SAP AFS",
+    "ru": "SAP AFS"
+   },
+   "patterns": [
+    "sap afs",
+    "sap is-retail",
+    "sap retail",
+    "sap fashion",
+    "сап афс",
+    "сап мода"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "textile"
+   ],
+   "level": "specialise",
+   "related": [
+    "centric-plm",
+    "fastreact",
+    "gestion-stocks",
+    "logistique-internationale"
+   ],
+   "jobs": [
+    "Consultant SAP Retail",
+    "Responsable ERP",
+    "Directeur systèmes d'information"
+   ]
+  },
+  {
+   "id": "fastreact",
+   "label": {
+    "fr": "FastReact",
+    "en": "FastReact",
+    "ar": "FastReact",
+    "ru": "FastReact"
+   },
+   "patterns": [
+    "fastreact",
+    "fast react",
+    "coats digital",
+    "фастриакт"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "textile"
+   ],
+   "level": "specialise",
+   "related": [
+    "sap-afs",
+    "planification-production",
+    "gestion-production"
+   ],
+   "jobs": [
+    "Responsable planification",
+    "Directeur de production",
+    "ERP Manager"
+   ]
+  },
+  {
+   "id": "controle-qualite-textile",
+   "label": {
+    "fr": "Contrôle qualité textile",
+    "en": "Textile quality control",
+    "ar": "مراقبة جودة المنسوجات",
+    "ru": "Контроль качества тканей"
+   },
+   "patterns": [
+    "controle qualite textile",
+    "qc textile",
+    "qa textile",
+    "مراقبة الجودة",
+    "контроль качества ткани",
+    "текстиль qc"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "textile"
+   ],
+   "level": "courant",
+   "related": [
+    "tests-physiques-textiles",
+    "aql",
+    "audit-usine",
+    "oeko-tex"
+   ],
+   "jobs": [
+    "Contrôleur qualité textile",
+    "Responsable qualité",
+    "Technicien laboratoire"
+   ]
+  },
+  {
+   "id": "tests-physiques-textiles",
+   "label": {
+    "fr": "Tests physiques textiles",
+    "en": "Textile physical testing",
+    "ar": "الاختبارات الفيزيائية للمنسوجات",
+    "ru": "Физические испытания тканей"
+   },
+   "patterns": [
+    "tests physiques",
+    "textile testing",
+    "resistance traction",
+    "boulochage",
+    "pilling",
+    "испытание тканей",
+    "разрывная нагрузка"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "textile"
+   ],
+   "level": "frequent",
+   "related": [
+    "controle-qualite-textile",
+    "oeko-tex",
+    "reach",
+    "ennoblissement"
+   ],
+   "jobs": [
+    "Technicien laboratoire textile",
+    "Ingénieur qualité",
+    "Contrôleur qualité"
+   ]
+  },
+  {
+   "id": "oeko-tex",
+   "label": {
+    "fr": "Oeko-Tex Standard 100",
+    "en": "Oeko-Tex Standard 100",
+    "ar": "Oeko-Tex",
+    "ru": "Oeko-Tex"
+   },
+   "patterns": [
+    "oeko-tex",
+    "oeko tex",
+    "standard 100",
+    "اوكو تكس",
+    "эко-текс",
+    "стандарт 100"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "textile"
+   ],
+   "level": "courant",
+   "related": [
+    "gots",
+    "reach",
+    "bci",
+    "controle-qualite-textile"
+   ],
+   "jobs": [
+    "Responsable conformité",
+    "Acheteur textile",
+    "Responsable RSE"
+   ]
+  },
+  {
+   "id": "gots",
+   "label": {
+    "fr": "GOTS",
+    "en": "Global Organic Textile Standard",
+    "ar": "GOTS",
+    "ru": "GOTS"
+   },
+   "patterns": [
+    "gots",
+    "global organic textile standard",
+    "certification bio",
+    "عضوي",
+    "готс",
+    "органический текстиль"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "textile"
+   ],
+   "level": "frequent",
+   "related": [
+    "oeko-tex",
+    "bci",
+    "eco-conception",
+    "rse-mode"
+   ],
+   "jobs": [
+    "Responsable RSE",
+    "Acheteur matières premières",
+    "Chef de produit"
+   ]
+  },
+  {
+   "id": "reach",
+   "label": {
+    "fr": "Règlement REACH",
+    "en": "REACH compliance",
+    "ar": "REACH",
+    "ru": "REACH"
+   },
+   "patterns": [
+    "reach",
+    "reach compliance",
+    "substances chimiques",
+    "riper",
+    "рч",
+    "химическая безопасность"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "oeko-tex",
+    "tests-physiques-textiles",
+    "ennoblissement"
+   ],
+   "jobs": [
+    "Responsable conformité produit",
+    "Ingénieur chimiste",
+    "Responsable qualité"
+   ]
+  },
+  {
+   "id": "lean-manufacturing",
+   "label": {
+    "fr": "Lean manufacturing",
+    "en": "Lean manufacturing",
+    "ar": "التصنيع الرشيق",
+    "ru": "Бережливое производство"
+   },
+   "patterns": [
+    "lean",
+    "lean manufacturing",
+    "toyota",
+    "التصنيع الرشيق",
+    "бережлив",
+    "лин"
+   ],
+   "category": "methode",
+   "topics": [
+    "industrie",
+    "textile"
+   ],
+   "level": "frequent",
+   "related": [
+    "six-sigma",
+    "5s",
+    "gestion-production",
+    "planification-production"
+   ],
+   "jobs": [
+    "Responsable amélioration continue",
+    "Directeur de production",
+    "Ingénieur méthodes"
+   ]
+  },
+  {
+   "id": "six-sigma",
+   "label": {
+    "fr": "Six Sigma",
+    "en": "Six Sigma",
+    "ar": "Six Sigma",
+    "ru": "Шесть сигм"
+   },
+   "patterns": [
+    "six sigma",
+    "6 sigma",
+    "lean six sigma",
+    "dmaic",
+    "шесть сигм",
+    "сигма"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "lean-manufacturing",
+    "5s",
+    "controle-qualite-textile"
+   ],
+   "jobs": [
+    "Black Belt",
+    "Responsable qualité",
+    "Ingénieur amélioration continue"
+   ]
+  },
+  {
+   "id": "5s",
+   "label": {
+    "fr": "5S",
+    "en": "5S",
+    "ar": "5S",
+    "ru": "5S"
+   },
+   "patterns": [
+    "5s",
+    "methode 5s",
+    "rangement",
+    "система 5s",
+    "бережливое производство 5s"
+   ],
+   "category": "methode",
+   "topics": [
+    "industrie",
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "lean-manufacturing",
+    "six-sigma",
+    "hse",
+    "gestion-production"
+   ],
+   "jobs": [
+    "Responsable de production",
+    "Chef d'atelier",
+    "Responsable amélioration continue"
+   ]
+  },
+  {
+   "id": "sourcing-textile",
+   "label": {
+    "fr": "Sourcing textile",
+    "en": "Textile sourcing",
+    "ar": "مصادر المنسوجات",
+    "ru": "Поиск поставщиков тканей"
+   },
+   "patterns": [
+    "sourcing textile",
+    "sourcing mode",
+    "textile sourcing",
+    "مصادر",
+    "поиск поставщиков",
+    "сорсинг ткани"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "achats-matieres",
+    "negociation-fournisseurs",
+    "audit-usine",
+    "bci"
+   ],
+   "jobs": [
+    "Acheteur textile",
+    "Responsable sourcing",
+    "Sourcing manager"
+   ]
+  },
+  {
+   "id": "achats-matieres",
+   "label": {
+    "fr": "Achats matières premières",
+    "en": "Raw material purchasing",
+    "ar": "شراء المواد الخام",
+    "ru": "Закупка сырья"
+   },
+   "patterns": [
+    "achats matieres",
+    "achat tissu",
+    "matieres premieres",
+    "raw material",
+    "закупка сырья",
+    "покупка ткани"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "sourcing-textile",
+    "negociation-fournisseurs",
+    "gestion-stocks"
+   ],
+   "jobs": [
+    "Acheteur matières premières",
+    "Responsable achats",
+    "Category manager textile"
+   ]
+  },
+  {
+   "id": "merchandising",
+   "label": {
+    "fr": "Merchandising",
+    "en": "Merchandising",
+    "ar": "الترويج التجاري",
+    "ru": "Мерчандайзинг"
+   },
+   "patterns": [
+    "merchandising",
+    "merchandiser",
+    "retail merchandising",
+    "ترويج",
+    "мерчандайзинг",
+    "выкладка"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "textile"
+   ],
+   "level": "courant",
+   "related": [
+    "visual-merchandising",
+    "retail-analytics",
+    "omnicanal",
+    "gestion-demande"
+   ],
+   "jobs": [
+    "Merchandiser",
+    "Responsable merchandising",
+    "Chef de produit"
+   ]
+  },
+  {
+   "id": "visual-merchandising",
+   "label": {
+    "fr": "Visual merchandising",
+    "en": "Visual merchandising",
+    "ar": "العرض المرئي",
+    "ru": "Визуальный мерчандайзинг"
+   },
+   "patterns": [
+    "visual merchandising",
+    "vitrines",
+    "agencement magasin",
+    "визуальный мерчандайзинг",
+    "витрина",
+    "оформление витрин"
+   ],
+   "category": "metier",
+   "topics": [
+    "design",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "merchandising",
+    "adobe-illustrator",
+    "omnicanal"
+   ],
+   "jobs": [
+    "Visual merchandiser",
+    "Responsable visual merchandising",
+    "Architecte commercial"
+   ]
+  },
+  {
+   "id": "wgsn",
+   "label": {
+    "fr": "WGSN",
+    "en": "WGSN",
+    "ar": "WGSN",
+    "ru": "WGSN"
+   },
+   "patterns": [
+    "wgsn",
+    "tendances mode",
+    "trend forecasting",
+    "اتجاهات الموضة",
+    "прогноз трендов",
+    "вгсн"
+   ],
+   "category": "outil",
+   "topics": [
+    "textile",
+    "design"
+   ],
+   "level": "specialise",
+   "related": [
+    "pantone",
+    "adobe-illustrator",
+    "modelisme"
+   ],
+   "jobs": [
+    "Styliste",
+    "Directeur artistique",
+    "Trend forecaster"
+   ]
+  },
+  {
+   "id": "pantone",
+   "label": {
+    "fr": "Pantone",
+    "en": "Pantone",
+    "ar": "Pantone",
+    "ru": "Pantone"
+   },
+   "patterns": [
+    "pantone",
+    "pantonier",
+    "nuancier",
+    "colorimetrie",
+    "пантон",
+    "цветовой каталог"
+   ],
+   "category": "outil",
+   "topics": [
+    "textile",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "wgsn",
+    "adobe-illustrator",
+    "ennoblissement",
+    "impression-numerique-textile"
+   ],
+   "jobs": [
+    "Designer textile",
+    "Styliste",
+    "Technicien couleur"
+   ]
+  },
+  {
+   "id": "tissage",
+   "label": {
+    "fr": "Tissage",
+    "en": "Weaving",
+    "ar": "النسيج",
+    "ru": "Ткачество"
+   },
+   "patterns": [
+    "tissage",
+    "weaving",
+    "metier a tisser",
+    "نساج",
+    "ткачеств",
+    "ткацкий станок"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "tricotage",
+    "ennoblissement",
+    "achats-matieres"
+   ],
+   "jobs": [
+    "Technicien tissage",
+    "Chef de fabrication",
+    "Ingénieur textile"
+   ]
+  },
+  {
+   "id": "tricotage",
+   "label": {
+    "fr": "Tricotage",
+    "en": "Knitting",
+    "ar": "الحياكة",
+    "ru": "Вязание"
+   },
+   "patterns": [
+    "tricotage",
+    "knitting",
+    "maille",
+    "حياكة",
+    "вязан",
+    "трикотаж"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "tissage",
+    "maille",
+    "ennoblissement"
+   ],
+   "jobs": [
+    "Technicien tricotage",
+    "Chef de fabrication maille",
+    "Ingénieur textile"
+   ]
+  },
+  {
+   "id": "ennoblissement",
+   "label": {
+    "fr": "Ennoblissement textile",
+    "en": "Textile finishing",
+    "ar": "تجهيز المنسوجات",
+    "ru": "Отделка тканей"
+   },
+   "patterns": [
+    "ennoblissement",
+    "finishing",
+    "teinture",
+    "dyeing",
+    "تجهيز",
+    "крашение",
+    "отделка ткани"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "tissage",
+    "tricotage",
+    "reach",
+    "impression-numerique-textile"
+   ],
+   "jobs": [
+    "Responsable ennoblissement",
+    "Teinturier",
+    "Ingénieur chimiste textile"
+   ]
+  },
+  {
+   "id": "impression-numerique-textile",
+   "label": {
+    "fr": "Impression numérique textile",
+    "en": "Digital textile printing",
+    "ar": "الطباعة الرقمية على الأقمشة",
+    "ru": "Цифровая печать на ткани"
+   },
+   "patterns": [
+    "impression numerique",
+    "digital printing",
+    "dtg",
+    "dtf",
+    "طباعة رقمية",
+    "цифровая печать",
+    "принт ткань"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "sublimation",
+    "serigraphie",
+    "pantone",
+    "ennoblissement"
+   ],
+   "jobs": [
+    "Opérateur impression numérique",
+    "Technicien impression",
+    "Responsable atelier"
+   ]
+  },
+  {
+   "id": "sublimation",
+   "label": {
+    "fr": "Sublimation",
+    "en": "Dye sublimation",
+    "ar": "التسامي الصبغي",
+    "ru": "Сублимация"
+   },
+   "patterns": [
+    "sublimation",
+    "dye sub",
+    "transfer printing",
+    "تسامي",
+    "сублимаци",
+    "термотрансфер"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "impression-numerique-textile",
+    "serigraphie",
+    "pantone"
+   ],
+   "jobs": [
+    "Opérateur sublimation",
+    "Technicien impression",
+    "Responsable production"
+   ]
+  },
+  {
+   "id": "serigraphie",
+   "label": {
+    "fr": "Sérigraphie",
+    "en": "Screen printing",
+    "ar": "الطباعة بالشاشة الحريرية",
+    "ru": "Шелкография"
+   },
+   "patterns": [
+    "serigraphie",
+    "screen printing",
+    "silk screen",
+    "شاشة حريرية",
+    "шелкографи",
+    "трафаретная печать"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "impression-numerique-textile",
+    "broderie",
+    "sublimation"
+   ],
+   "jobs": [
+    "Sérigraphe",
+    "Opérateur impression",
+    "Chef d'atelier"
+   ]
+  },
+  {
+   "id": "broderie",
+   "label": {
+    "fr": "Broderie",
+    "en": "Embroidery",
+    "ar": "التطريز",
+    "ru": "Вышивка"
+   },
+   "patterns": [
+    "broderie",
+    "embroidery",
+    "تطريز",
+    "вышивк",
+    "машинная вышивка"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "serigraphie",
+    "coupe-et-couture",
+    "modelisme"
+   ],
+   "jobs": [
+    "Brodeur",
+    "Technicien broderie",
+    "Responsable atelier"
+   ]
+  },
+  {
+   "id": "coupe-et-couture",
+   "label": {
+    "fr": "Coupé-cousu",
+    "en": "Cut and sew",
+    "ar": "القص والخياطة",
+    "ru": "Раскрой и пошив"
+   },
+   "patterns": [
+    "coupe et couture",
+    "cut and sew",
+    "confection",
+    "قص وخياطة",
+    "раскрой",
+    "пошив",
+    "швейное"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "patronage",
+    "gradation",
+    "gestion-production",
+    "broderie"
+   ],
+   "jobs": [
+    "Chef d'atelier confection",
+    "Responsable production",
+    "Couturier"
+   ]
+  },
+  {
+   "id": "maille",
+   "label": {
+    "fr": "Maille",
+    "en": "Knitwear",
+    "ar": "التريكو",
+    "ru": "Трикотаж"
+   },
+   "patterns": [
+    "maille",
+    "knitwear",
+    "tricot",
+    "تريكو",
+    "трикотаж",
+    "вязаные изделия"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "tricotage",
+    "coupe-et-couture",
+    "modelisme"
+   ],
+   "jobs": [
+    "Styliste maille",
+    "Technicien tricot",
+    "Chef de produit maille"
+   ]
+  },
+  {
+   "id": "maroquinerie",
+   "label": {
+    "fr": "Maroquinerie",
+    "en": "Leather goods",
+    "ar": "المنتجات الجلدية",
+    "ru": "Изделия из кожи"
+   },
+   "patterns": [
+    "maroquinerie",
+    "leather goods",
+    "cuir",
+    "منتجات جلدية",
+    "кожгалантере",
+    "изделия из кожи"
+   ],
+   "category": "metier",
+   "topics": [
+    "textile",
+    "design"
+   ],
+   "level": "specialise",
+   "related": [
+    "coupe-et-couture",
+    "patronage",
+    "controle-qualite-textile"
+   ],
+   "jobs": [
+    "Maroquinier",
+    "Chef de produit accessoires",
+    "Responsable atelier cuir"
+   ]
+  },
+  {
+   "id": "gestion-production",
+   "label": {
+    "fr": "Gestion de production",
+    "en": "Production management",
+    "ar": "إدارة الإنتاج",
+    "ru": "Управление производством"
+   },
+   "patterns": [
+    "gestion production",
+    "production management",
+    "pilotage atelier",
+    "ادارة الإنتاج",
+    "управление производств",
+    "производств"
+   ],
+   "category": "metier",
+   "topics": [
+    "industrie",
+    "textile"
+   ],
+   "level": "courant",
+   "related": [
+    "planification-production",
+    "lean-manufacturing",
+    "5s",
+    "coupe-et-couture"
+   ],
+   "jobs": [
+    "Responsable de production",
+    "Directeur d'usine",
+    "Chef de fabrication"
+   ]
+  },
+  {
+   "id": "planification-production",
+   "label": {
+    "fr": "Planification de production",
+    "en": "Production planning",
+    "ar": "تخطيط الإنتاج",
+    "ru": "Планирование производства"
+   },
+   "patterns": [
+    "planification production",
+    "production planning",
+    "ordonnancement",
+    "تخطيط الإنتاج",
+    "планиров",
+    "график производства"
+   ],
+   "category": "metier",
+   "topics": [
+    "industrie",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "gestion-production",
+    "fastreact",
+    "gestion-stocks",
+    "lean-manufacturing"
+   ],
+   "jobs": [
+    "Planificateur de production",
+    "Responsable ordonnancement",
+    "Supply chain planner"
+   ]
+  },
+  {
+   "id": "controle-gestion-industriel",
+   "label": {
+    "fr": "Contrôle de gestion industriel",
+    "en": "Industrial cost accounting",
+    "ar": "الرقابة الإدارية الصناعية",
+    "ru": "Производственный контроллинг"
+   },
+   "patterns": [
+    "controle gestion industriel",
+    "costing",
+    "prix de revient",
+    "التكلفة الصناعية",
+    "калькуляция",
+    "себестоимость"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-production",
+    "excel-avance",
+    "sap-afs"
+   ],
+   "jobs": [
+    "Contrôleur de gestion industriel",
+    "Cost controller",
+    "Responsable financier usine"
+   ]
+  },
+  {
+   "id": "hse",
+   "label": {
+    "fr": "HSE",
+    "en": "Health Safety Environment",
+    "ar": "الصحة والسلامة والبيئة",
+    "ru": "ОТиТБ и Экология"
+   },
+   "patterns": [
+    "hse",
+    "qse",
+    "hygiene securite",
+    "sante securite",
+    "الصحة والسلامة",
+    "охрана труда",
+    "тб"
+   ],
+   "category": "norme",
+   "topics": [
+    "industrie",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "5s",
+    "lean-manufacturing",
+    "audit-usine",
+    "smeta"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Animateur sécurité",
+    "Directeur d'usine"
+   ]
+  },
+  {
+   "id": "rse-mode",
+   "label": {
+    "fr": "RSE Mode",
+    "en": "Fashion CSR",
+    "ar": "المسؤولية الاجتماعية للأزياء",
+    "ru": "КСО в моде"
+   },
+   "patterns": [
+    "rse mode",
+    "csr fashion",
+    "durabilite mode",
+    "المسؤولية الاجتماعية",
+    "экологичная мода",
+    "устойчивая мода",
+    "csr"
+   ],
+   "category": "methode",
+   "topics": [
+    "textile",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "gots",
+    "eco-conception",
+    "bsci",
+    "tracabilite"
+   ],
+   "jobs": [
+    "Responsable RSE",
+    "Sustainability manager",
+    "Chef de projet RSE"
+   ]
+  },
+  {
+   "id": "eco-conception",
+   "label": {
+    "fr": "Éco-conception",
+    "en": "Eco-design",
+    "ar": "التصميم البيئي",
+    "ru": "Экодизайн"
+   },
+   "patterns": [
+    "eco conception",
+    "eco design",
+    "circular fashion",
+    "تصميم بيئي",
+    "экодизайн",
+    "цикличная мода"
+   ],
+   "category": "methode",
+   "topics": [
+    "textile",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "upcycling",
+    "rse-mode",
+    "gots",
+    "tracabilite"
+   ],
+   "jobs": [
+    "Éco-designer",
+    "Responsable développement durable",
+    "Chef de produit"
+   ]
+  },
+  {
+   "id": "upcycling",
+   "label": {
+    "fr": "Upcycling",
+    "en": "Upcycling",
+    "ar": "إعادة التدوير الإبداعي",
+    "ru": "Апсайклинг"
+   },
+   "patterns": [
+    "upcycling",
+    "surcyclage",
+    "revalorisation",
+    "إعادة التدوير",
+    "апсайклинг",
+    "вторичное использование"
+   ],
+   "category": "methode",
+   "topics": [
+    "textile",
+    "design"
+   ],
+   "level": "specialise",
+   "related": [
+    "eco-conception",
+    "rse-mode",
+    "gots"
+   ],
+   "jobs": [
+    "Designer upcycling",
+    "Responsable innovation",
+    "Chef de projet mode circulaire"
+   ]
+  },
+  {
+   "id": "tracabilite",
+   "label": {
+    "fr": "Traçabilité",
+    "en": "Traceability",
+    "ar": "التتبع",
+    "ru": "Прослеживаемость"
+   },
+   "patterns": [
+    "tracabilite",
+    "traceability",
+    "blockchain supply chain",
+    "التتبع",
+    "прослеживаем",
+    "трекинг"
+   ],
+   "category": "methode",
+   "topics": [
+    "logistique",
+    "textile"
+   ],
+   "level": "frequent",
+   "related": [
+    "rfid",
+    "rse-mode",
+    "bsci",
+    "logistique-internationale"
+   ],
+   "jobs": [
+    "Responsable traçabilité",
+    "Supply chain manager",
+    "Responsable RSE"
+   ]
+  },
+  {
+   "id": "rfid",
+   "label": {
+    "fr": "RFID",
+    "en": "RFID",
+    "ar": "RFID",
+    "ru": "RFID"
+   },
+   "patterns": [
+    "rfid",
+    "puce rfid",
+    "etiquette rfid",
+    "تردد لاسلكي",
+    "рфид",
+    "радиочастотная метка"
+   ],
+   "category": "outil",
+   "topics": [
+    "logistique",
+    "textile"
+   ],
+   "level": "frequent",
+   "related": [
+    "wms",
+    "gestion-stocks",
+    "tracabilite",
+    "omnicanal"
+   ],
+   "jobs": [
+    "Responsable logistique",
+    "Supply chain manager",
+    "Chef de projet RFID"
+   ]
+  },
+  {
+   "id": "wms",
+   "label": {
+    "fr": "WMS",
+    "en": "Warehouse Management System",
+    "ar": "WMS",
+    "ru": "WMS"
+   },
+   "patterns": [
+    "wms",
+    "warehouse management",
+    "gestion entrepot",
+    "نظام إدارة المستودعات",
+    "складская система",
+    "wms склад"
+   ],
+   "category": "outil",
+   "topics": [
+    "logistique",
+    "erp"
+   ],
+   "level": "courant",
+   "related": [
+    "rfid",
+    "gestion-stocks",
+    "sap-afs",
+    "logistique-internationale"
+   ],
+   "jobs": [
+    "Responsable entrepôt",
+    "Supply chain manager",
+    "Chef de projet WMS"
+   ]
+  },
+  {
+   "id": "gestion-stocks",
+   "label": {
+    "fr": "Gestion des stocks",
+    "en": "Inventory management",
+    "ar": "إدارة المخزون",
+    "ru": "Управление запасами"
+   },
+   "patterns": [
+    "gestion stocks",
+    "inventory management",
+    "rotation stocks",
+    "ادارة المخزون",
+    "управление запасами",
+    "складской учет"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "wms",
+    "rfid",
+    "planification-production",
+    "prevision-ventes"
+   ],
+   "jobs": [
+    "Responsable stocks",
+    "Inventory manager",
+    "Supply chain planner"
+   ]
+  },
+  {
+   "id": "logistique-internationale",
+   "label": {
+    "fr": "Logistique internationale",
+    "en": "International logistics",
+    "ar": "اللوجستيات الدولية",
+    "ru": "Международная логистика"
+   },
+   "patterns": [
+    "logistique internationale",
+    "international logistics",
+    "freight",
+    "الشحن الدولي",
+    "международная логистика",
+    "вэд"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "textile"
+   ],
+   "level": "courant",
+   "related": [
+    "incoterms",
+    "nomenclature-douaniere",
+    "wms",
+    "tracabilite"
+   ],
+   "jobs": [
+    "Responsable transport",
+    "Supply chain manager",
+    "Transitaire"
+   ]
+  },
+  {
+   "id": "incoterms",
+   "label": {
+    "fr": "Incoterms",
+    "en": "Incoterms",
+    "ar": "Incoterms",
+    "ru": "Инкотермс"
+   },
+   "patterns": [
+    "incoterms",
+    "fob",
+    "cif",
+    "exw",
+    "إنكوترمز",
+    "инкотермс",
+    "условия поставки"
+   ],
+   "category": "norme",
+   "topics": [
+    "logistique",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "logistique-internationale",
+    "nomenclature-douaniere",
+    "negociation-fournisseurs"
+   ],
+   "jobs": [
+    "Responsable import-export",
+    "Supply chain manager",
+    "Acheteur international"
+   ]
+  },
+  {
+   "id": "nomenclature-douaniere",
+   "label": {
+    "fr": "Nomenclature douanière",
+    "en": "HS codes classification",
+    "ar": "الرموز الجمركية",
+    "ru": "ТН ВЭД"
+   },
+   "patterns": [
+    "nomenclature douaniere",
+    "hs codes",
+    "customs classification",
+    "الرمز الجمركي",
+    "тн вэд",
+    "код тн"
+   ],
+   "category": "norme",
+   "topics": [
+    "logistique",
+    "juridique"
+   ],
+   "level": "specialise",
+   "related": [
+    "incoterms",
+    "logistique-internationale",
+    "reach"
+   ],
+   "jobs": [
+    "Déclarant en douane",
+    "Responsable douane",
+    "Supply chain manager"
+   ]
+  },
+  {
+   "id": "bsci",
+   "label": {
+    "fr": "BSCI",
+    "en": "amfori BSCI",
+    "ar": "BSCI",
+    "ru": "BSCI"
+   },
+   "patterns": [
+    "bsci",
+    "amfori",
+    "social compliance",
+    "الامتثال الاجتماعي",
+    "бсци",
+    "социальный аудит"
+   ],
+   "category": "norme",
+   "topics": [
+    "textile",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "smeta",
+    "sa8000",
+    "wrap",
+    "audit-usine"
+   ],
+   "jobs": [
+    "Responsable conformité sociale",
+    "Auditeur RSE",
+    "Responsable sourcing"
+   ]
+  },
+  {
+   "id": "smeta",
+   "label": {
+    "fr": "SMETA",
+    "en": "SMETA audit",
+    "ar": "SMETA",
+    "ru": "SMETA"
+   },
+   "patterns": [
+    "smeta",
+    "sedex",
+    "ethical audit",
+    "تدقيق أخلاقي",
+    "смета",
+    "седекс"
+   ],
+   "category": "norme",
+   "topics": [
+    "textile",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "bsci",
+    "sa8000",
+    "audit-usine",
+    "hse"
+   ],
+   "jobs": [
+    "Auditeur social",
+    "Responsable RSE",
+    "Responsable conformité"
+   ]
+  },
+  {
+   "id": "sa8000",
+   "label": {
+    "fr": "SA8000",
+    "en": "SA8000",
+    "ar": "SA8000",
+    "ru": "SA8000"
+   },
+   "patterns": [
+    "sa8000",
+    "social accountability",
+    "المساءلة الاجتماعية",
+    "са8000",
+    "социальная ответственность"
+   ],
+   "category": "norme",
+   "topics": [
+    "textile",
+    "rh"
+   ],
+   "level": "specialise",
+   "related": [
+    "bsci",
+    "smeta",
+    "wrap",
+    "rse-mode"
+   ],
+   "jobs": [
+    "Responsable RSE",
+    "Auditeur certification",
+    "Directeur conformité"
+   ]
+  },
+  {
+   "id": "wrap",
+   "label": {
+    "fr": "WRAP",
+    "en": "WRAP certification",
+    "ar": "WRAP",
+    "ru": "WRAP"
+   },
+   "patterns": [
+    "wrap",
+    "worldwide responsible",
+    "الإنتاج المسؤول",
+    "врап",
+    "сертификация производства"
+   ],
+   "category": "norme",
+   "topics": [
+    "textile",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "bsci",
+    "smeta",
+    "sa8000",
+    "audit-usine"
+   ],
+   "jobs": [
+    "Responsable compliance",
+    "Directeur d'usine",
+    "Auditeur usine"
+   ]
+  },
+  {
+   "id": "bci",
+   "label": {
+    "fr": "Better Cotton Initiative",
+    "en": "Better Cotton",
+    "ar": "BCI",
+    "ru": "BCI"
+   },
+   "patterns": [
+    "bci",
+    "better cotton",
+    "coton responsable",
+    "قطن أفضل",
+    "бси",
+    "экологичный хлопок"
+   ],
+   "category": "norme",
+   "topics": [
+    "textile",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "gots",
+    "oeko-tex",
+    "sourcing-textile",
+    "achats-matieres"
+   ],
+   "jobs": [
+    "Acheteur coton",
+    "Responsable sourcing",
+    "Chef de produit"
+   ]
+  },
+  {
+   "id": "aql",
+   "label": {
+    "fr": "AQL",
+    "en": "Acceptable Quality Limit",
+    "ar": "AQL",
+    "ru": "AQL"
+   },
+   "patterns": [
+    "aql",
+    "acceptable quality limit",
+    "niveau qualite acceptable",
+    "nqa",
+    "предел качества",
+    "выборка aql"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "textile"
+   ],
+   "level": "courant",
+   "related": [
+    "controle-qualite-textile",
+    "tests-physiques-textiles",
+    "audit-usine"
+   ],
+   "jobs": [
+    "Contrôleur qualité",
+    "Responsable qualité",
+    "Inspecteur merchandising"
+   ]
+  },
+  {
+   "id": "audit-usine",
+   "label": {
+    "fr": "Audit d'usine",
+    "en": "Factory audit",
+    "ar": "تدقيق المصانع",
+    "ru": "Аудит фабрики"
+   },
+   "patterns": [
+    "audit usine",
+    "factory audit",
+    "supplier audit",
+    "تدقيق المصنع",
+    "аудит фабрики",
+    "проверка поставщика"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "textile"
+   ],
+   "level": "courant",
+   "related": [
+    "bsci",
+    "smeta",
+    "aql",
+    "sourcing-textile"
+   ],
+   "jobs": [
+    "Auditeur qualité",
+    "Responsable sourcing",
+    "Inspecteur conformité"
+   ]
+  },
+  {
+   "id": "negociation-fournisseurs",
+   "label": {
+    "fr": "Négociation fournisseurs",
+    "en": "Supplier negotiation",
+    "ar": "التفاوض مع الموردين",
+    "ru": "Переговоры с поставщиками"
+   },
+   "patterns": [
+    "negociation fournisseurs",
+    "supplier negotiation",
+    "achats",
+    "التفاوض",
+    "переговор",
+    "закупки"
+   ],
+   "category": "transverse",
+   "topics": [
+    "business",
+    "textile"
+   ],
+   "level": "courant",
+   "related": [
+    "sourcing-textile",
+    "achats-matieres",
+    "incoterms"
+   ],
+   "jobs": [
+    "Acheteur",
+    "Responsable sourcing",
+    "Directeur des achats"
+   ]
+  },
+  {
+   "id": "prevision-ventes",
+   "label": {
+    "fr": "Prévision des ventes",
+    "en": "Sales forecasting",
+    "ar": "التنبؤ بالمبيعات",
+    "ru": "Прогнозирование продаж"
+   },
+   "patterns": [
+    "prevision ventes",
+    "sales forecasting",
+    "demand forecasting",
+    "التنبؤ",
+    "прогноз продаж",
+    "планирование продаж"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "gestion-demande",
+    "retail-analytics",
+    "gestion-stocks",
+    "merchandising"
+   ],
+   "jobs": [
+    "Demand planner",
+    "Contrôleur de gestion",
+    "Responsable supply chain"
+   ]
+  },
+  {
+   "id": "gestion-demande",
+   "label": {
+    "fr": "Gestion de la demande",
+    "en": "Demand planning",
+    "ar": "تخطيط الطلب",
+    "ru": "Планирование спроса"
+   },
+   "patterns": [
+    "gestion demande",
+    "demand planning",
+    "previsions",
+    "تخطيط الطلب",
+    "планирование спроса",
+    "управление спросом"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "prevision-ventes",
+    "planification-production",
+    "gestion-stocks",
+    "retail-analytics"
+   ],
+   "jobs": [
+    "Demand planner",
+    "Supply chain planner",
+    "Responsable approvisionnement"
+   ]
+  },
+  {
+   "id": "retail-analytics",
+   "label": {
+    "fr": "Retail analytics",
+    "en": "Retail analytics",
+    "ar": "تحليلات التجزئة",
+    "ru": "Ритейл-аналитика"
+   },
+   "patterns": [
+    "retail analytics",
+    "analyse retail",
+    "kpi magasin",
+    "تحليلات",
+    "ритейл аналитика",
+    "аналитика продаж"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "merchandising",
+    "prevision-ventes",
+    "power-bi",
+    "omnicanal"
+   ],
+   "jobs": [
+    "Retail data analyst",
+    "Contrôleur de gestion retail",
+    "Responsable performance"
+   ]
+  },
+  {
+   "id": "omnicanal",
+   "label": {
+    "fr": "Omnicanal",
+    "en": "Omnichannel",
+    "ar": "التكامل بين القنوات",
+    "ru": "Омниканальность"
+   },
+   "patterns": [
+    "omnicanal",
+    "omnichannel",
+    "cross canal",
+    "التكامل",
+    "омниканальн",
+    "мультиканал"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "merchandising",
+    "retail-analytics",
+    "rfid",
+    "gestion-stocks"
+   ],
+   "jobs": [
+    "Responsable e-commerce",
+    "Directeur retail",
+    "Chef de projet omnicanal"
+   ]
+  },
+  {
+   "id": "power-bi",
+   "label": {
+    "fr": "Power BI",
+    "en": "Power BI",
+    "ar": "Power BI",
+    "ru": "Power BI"
+   },
+   "patterns": [
+    "power bi",
+    "powerbi",
+    "dax",
+    "باور بي آي",
+    "дашборд",
+    "визуализация данных"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "excel-avance",
+    "retail-analytics",
+    "prevision-ventes",
+    "gestion-demande"
+   ],
+   "jobs": [
+    "Data analyst",
+    "Contrôleur de gestion",
+    "Business analyst"
+   ]
+  },
+  {
+   "id": "excel-avance",
+   "label": {
+    "fr": "Excel avancé",
+    "en": "Advanced Excel",
+    "ar": "Excel المتقدم",
+    "ru": "Продвинутый Excel"
+   },
+   "patterns": [
+    "excel avance",
+    "tableaux croises",
+    "vba excel",
+    "macros",
+    "إكسل متقدم",
+    "сводные таблицы",
+    "вба"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "power-bi",
+    "controle-gestion-industriel",
+    "gestion-stocks",
+    "prevision-ventes"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Supply chain analyst",
+    "Acheteur"
+   ]
+  },
+  {
+   "id": "anglais-technique-textile",
+   "label": {
+    "fr": "Anglais technique textile",
+    "en": "Technical English for textiles",
+    "ar": "الإنجليزية التقنية للمنسوجات",
+    "ru": "Технический английский в текстиле"
+   },
+   "patterns": [
+    "anglais technique",
+    "english textile",
+    "anglais metier",
+    "الإنجليزية التقنية",
+    "технический английский",
+    "английский для бизнеса"
+   ],
+   "category": "langue",
+   "topics": [
+    "textile",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "sourcing-textile",
+    "negociation-fournisseurs",
+    "logistique-internationale"
+   ],
+   "jobs": [
+    "Acheteur international",
+    "Responsable sourcing",
+    "Commercial export"
+   ]
+  },
+  {
+   "id": "chinois-affaires",
+   "label": {
+    "fr": "Chinois des affaires",
+    "en": "Business Chinese",
+    "ar": "الصينية للأعمال",
+    "ru": "Деловой китайский"
+   },
+   "patterns": [
+    "chinois affaires",
+    "mandarin",
+    "business chinese",
+    "الصينية",
+    "китайский язык",
+    "мандарин"
+   ],
+   "category": "langue",
+   "topics": [
+    "business",
+    "textile"
+   ],
+   "level": "specialise",
+   "related": [
+    "sourcing-textile",
+    "negociation-fournisseurs",
+    "anglais-technique-textile"
+   ],
+   "jobs": [
+    "Sourcing manager Chine",
+    "Acheteur international",
+    "Représentant bureau d'achat"
+   ]
+  },
+  {
+   "id": "arabe-affaires",
+   "label": {
+    "fr": "Arabe des affaires",
+    "en": "Business Arabic",
+    "ar": "العربية للأعمال",
+    "ru": "Деловой арабский"
+   },
+   "patterns": [
+    "arabe affaires",
+    "business arabic",
+    "العربية",
+    "арабский язык",
+    "деловой арабский"
+   ],
+   "category": "langue",
+   "topics": [
+    "business",
+    "textile"
+   ],
+   "level": "specialise",
+   "related": [
+    "sourcing-textile",
+    "negociation-fournisseurs",
+    "anglais-technique-textile"
+   ],
+   "jobs": [
+    "Responsable export Moyen-Orient",
+    "Commercial zone MENA",
+    "Acheteur international"
+   ]
+  },
+  {
+   "id": "russe-affaires",
+   "label": {
+    "fr": "Russe des affaires",
+    "en": "Business Russian",
+    "ar": "الروسية للأعمال",
+    "ru": "Деловой русский"
+   },
+   "patterns": [
+    "russe affaires",
+    "business russian",
+    "الروسية",
+    "русский язык",
+    "деловой русский"
+   ],
+   "category": "langue",
+   "topics": [
+    "business",
+    "textile"
+   ],
+   "level": "specialise",
+   "related": [
+    "sourcing-textile",
+    "negociation-fournisseurs",
+    "anglais-technique-textile"
+   ],
+   "jobs": [
+    "Responsable export CEI",
+    "Commercial zone Russie",
+    "Acheteur international"
+   ]
+  }
+ ]
+}

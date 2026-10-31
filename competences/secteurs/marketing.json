@@ -1,0 +1,4222 @@
+{
+ "sector": "Marketing digital et communication",
+ "key": "marketing",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "google-ads",
+   "label": {
+    "fr": "Google Ads",
+    "en": "Google Ads",
+    "ar": "Google Ads",
+    "ru": "Google Ads"
+   },
+   "patterns": [
+    "google ads",
+    "google adwords",
+    "adwords",
+    "google advertising",
+    "إعلانات جوجل",
+    "google reklama",
+    "гугл адс"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "google-analytics",
+    "sea",
+    "google-tag-manager",
+    "keyword-research"
+   ],
+   "jobs": [
+    "Traffic manager",
+    "Consultant SEA",
+    "Chargé de marketing digital",
+    "Media buyer"
+   ]
+  },
+  {
+   "id": "google-analytics",
+   "label": {
+    "fr": "Google Analytics",
+    "en": "Google Analytics",
+    "ar": "Google Analytics",
+    "ru": "Google Analytics"
+   },
+   "patterns": [
+    "google analytics",
+    "ga4",
+    "ga 4",
+    "analytics",
+    "غوغل أناليتكس",
+    "гугл аналитик",
+    "google analitik"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "data",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "google-tag-manager",
+    "google-ads",
+    "web-analytics",
+    "looker-studio",
+    "kpi-tracking"
+   ],
+   "jobs": [
+    "Analyste web",
+    "Traffic manager",
+    "Data analyst marketing",
+    "Consultant SEO"
+   ]
+  },
+  {
+   "id": "google-tag-manager",
+   "label": {
+    "fr": "Google Tag Manager",
+    "en": "Google Tag Manager",
+    "ar": "Google Tag Manager",
+    "ru": "Google Tag Manager"
+   },
+   "patterns": [
+    "google tag manager",
+    "tag manager",
+    "gtm",
+    "менеджер тегов",
+    "google тег менеджер"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-analytics",
+    "google-ads",
+    "hotjar",
+    "meta-pixel"
+   ],
+   "jobs": [
+    "Traffic manager",
+    "Analyste web",
+    "Consultant SEO",
+    "Data analyst marketing"
+   ]
+  },
+  {
+   "id": "meta-ads",
+   "label": {
+    "fr": "Meta Ads",
+    "en": "Meta Ads",
+    "ar": "Meta Ads",
+    "ru": "Meta Ads"
+   },
+   "patterns": [
+    "meta ads",
+    "facebook ads",
+    "instagram ads",
+    "meta advertising",
+    "fb ads",
+    "إعلانات ميتا",
+    "إعلانات فيسبوك",
+    "мета реклама",
+    "facebook reklama"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "tiktok-ads",
+    "linkedin-ads",
+    "social-media-strategy",
+    "meta-pixel"
+   ],
+   "jobs": [
+    "Social media manager",
+    "Traffic manager",
+    "Chargé de marketing digital",
+    "Media buyer"
+   ]
+  },
+  {
+   "id": "linkedin-ads",
+   "label": {
+    "fr": "LinkedIn Ads",
+    "en": "LinkedIn Ads",
+    "ar": "LinkedIn Ads",
+    "ru": "LinkedIn Ads"
+   },
+   "patterns": [
+    "linkedin ads",
+    "linkedin advertising",
+    "linkedin campaign",
+    "إعلانات لينكد إن",
+    "линкедин реклама"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "meta-ads",
+    "google-ads",
+    "b2b-marketing",
+    "lead-generation"
+   ],
+   "jobs": [
+    "Traffic manager",
+    "Chargé de marketing B2B",
+    "Growth marketer",
+    "Media buyer"
+   ]
+  },
+  {
+   "id": "tiktok-ads",
+   "label": {
+    "fr": "TikTok Ads",
+    "en": "TikTok Ads",
+    "ar": "TikTok Ads",
+    "ru": "TikTok Ads"
+   },
+   "patterns": [
+    "tiktok ads",
+    "tiktok advertising",
+    "tiktok for business",
+    "إعلانات تيك توك",
+    "тикток реклама"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "meta-ads",
+    "video-marketing",
+    "social-media-strategy",
+    "influencer-marketing"
+   ],
+   "jobs": [
+    "Social media manager",
+    "Traffic manager",
+    "Chargé de marketing digital"
+   ]
+  },
+  {
+   "id": "google-search-console",
+   "label": {
+    "fr": "Google Search Console",
+    "en": "Google Search Console",
+    "ar": "Google Search Console",
+    "ru": "Google Search Console"
+   },
+   "patterns": [
+    "google search console",
+    "search console",
+    "gsc",
+    "webmaster tools",
+    "google webmaster",
+    "وحدة تحكم بحث جوجل",
+    "гугл серч консоль"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "seo",
+    "technical-seo",
+    "semrush",
+    "ahrefs"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable SEO",
+    "Chargé de marketing digital",
+    "Webmaster"
+   ]
+  },
+  {
+   "id": "semrush",
+   "label": {
+    "fr": "Semrush",
+    "en": "Semrush",
+    "ar": "Semrush",
+    "ru": "Semrush"
+   },
+   "patterns": [
+    "semrush",
+    "sem rush",
+    "семраш",
+    "семруш"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "ahrefs",
+    "moz",
+    "seo",
+    "keyword-research",
+    "google-search-console"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable SEO",
+    "Traffic manager",
+    "Chargé de marketing digital"
+   ]
+  },
+  {
+   "id": "ahrefs",
+   "label": {
+    "fr": "Ahrefs",
+    "en": "Ahrefs",
+    "ar": "Ahrefs",
+    "ru": "Ahrefs"
+   },
+   "patterns": [
+    "ahrefs",
+    "ахрефс",
+    "ахреф"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "semrush",
+    "moz",
+    "link-building",
+    "seo",
+    "keyword-research"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable SEO",
+    "Spécialiste netlinking"
+   ]
+  },
+  {
+   "id": "moz",
+   "label": {
+    "fr": "Moz",
+    "en": "Moz",
+    "ar": "Moz",
+    "ru": "Moz"
+   },
+   "patterns": [
+    "moz",
+    "moz pro",
+    "open site explorer",
+    "موز",
+    "моз"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "semrush",
+    "ahrefs",
+    "seo",
+    "link-building"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "screaming-frog",
+   "label": {
+    "fr": "Screaming Frog",
+    "en": "Screaming Frog",
+    "ar": "Screaming Frog",
+    "ru": "Screaming Frog"
+   },
+   "patterns": [
+    "screaming frog",
+    "screamingfrog",
+    "frog seo spider",
+    "скриминг фрог"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "technical-seo",
+    "seo",
+    "google-search-console"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable SEO",
+    "Auditeur SEO"
+   ]
+  },
+  {
+   "id": "hotjar",
+   "label": {
+    "fr": "Hotjar",
+    "en": "Hotjar",
+    "ar": "Hotjar",
+    "ru": "Hotjar"
+   },
+   "patterns": [
+    "hotjar",
+    "хотжар",
+    "хотджар"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "data",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-analytics",
+    "cro",
+    "a-b-testing",
+    "ux-research"
+   ],
+   "jobs": [
+    "UX researcher",
+    "Product manager",
+    "CRO specialist",
+    "Analyste web"
+   ]
+  },
+  {
+   "id": "mixpanel",
+   "label": {
+    "fr": "Mixpanel",
+    "en": "Mixpanel",
+    "ar": "Mixpanel",
+    "ru": "Mixpanel"
+   },
+   "patterns": [
+    "mixpanel",
+    "микспанель",
+    "микс панел"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "specialise",
+   "related": [
+    "amplitude",
+    "google-analytics",
+    "product-analytics",
+    "data-analysis"
+   ],
+   "jobs": [
+    "Product analyst",
+    "Data analyst marketing",
+    "Growth analyst"
+   ]
+  },
+  {
+   "id": "amplitude",
+   "label": {
+    "fr": "Amplitude",
+    "en": "Amplitude",
+    "ar": "Amplitude",
+    "ru": "Amplitude"
+   },
+   "patterns": [
+    "amplitude",
+    "amplitude analytics",
+    "амплитуда аналитик",
+    "амплитуд"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "specialise",
+   "related": [
+    "mixpanel",
+    "google-analytics",
+    "product-analytics"
+   ],
+   "jobs": [
+    "Product analyst",
+    "Data analyst marketing",
+    "Growth analyst"
+   ]
+  },
+  {
+   "id": "adobe-analytics",
+   "label": {
+    "fr": "Adobe Analytics",
+    "en": "Adobe Analytics",
+    "ar": "Adobe Analytics",
+    "ru": "Adobe Analytics"
+   },
+   "patterns": [
+    "adobe analytics",
+    "omniture",
+    "adobe marketing cloud",
+    "أدوبي أناليتكس",
+    "адоб аналитик"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "specialise",
+   "related": [
+    "google-analytics",
+    "web-analytics",
+    "data-analysis"
+   ],
+   "jobs": [
+    "Analyste web",
+    "Data analyst marketing",
+    "Consultant analytics"
+   ]
+  },
+  {
+   "id": "matomo",
+   "label": {
+    "fr": "Matomo",
+    "en": "Matomo",
+    "ar": "Matomo",
+    "ru": "Matomo"
+   },
+   "patterns": [
+    "matomo",
+    "piwik",
+    "матомо",
+    "пивик"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-analytics",
+    "web-analytics",
+    "rgpd"
+   ],
+   "jobs": [
+    "Analyste web",
+    "Data protection officer",
+    "Webmaster"
+   ]
+  },
+  {
+   "id": "wordpress",
+   "label": {
+    "fr": "WordPress",
+    "en": "WordPress",
+    "ar": "WordPress",
+    "ru": "WordPress"
+   },
+   "patterns": [
+    "wordpress",
+    "wp",
+    "وردبريس",
+    "вордпресс",
+    "вордпрес"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "seo",
+    "content-marketing",
+    "webflow",
+    "shopify"
+   ],
+   "jobs": [
+    "Chargé de contenu web",
+    "Webmaster",
+    "Content manager",
+    "Blog manager"
+   ]
+  },
+  {
+   "id": "shopify",
+   "label": {
+    "fr": "Shopify",
+    "en": "Shopify",
+    "ar": "Shopify",
+    "ru": "Shopify"
+   },
+   "patterns": [
+    "shopify",
+    "شوبفاي",
+    "шопифай",
+    "shopify plus"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "woocommerce",
+    "magento",
+    "ecommerce",
+    "cro"
+   ],
+   "jobs": [
+    "E-commerce manager",
+    "Responsable e-commerce",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "webflow",
+   "label": {
+    "fr": "Webflow",
+    "en": "Webflow",
+    "ar": "Webflow",
+    "ru": "Webflow"
+   },
+   "patterns": [
+    "webflow",
+    "ويب فلو",
+    "вебфлоу",
+    "веб флоу"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "wordpress",
+    "figma",
+    "ux-design",
+    "web-design"
+   ],
+   "jobs": [
+    "Web designer",
+    "Designer UI/UX",
+    "Intégrateur web"
+   ]
+  },
+  {
+   "id": "hubspot",
+   "label": {
+    "fr": "HubSpot",
+    "en": "HubSpot",
+    "ar": "HubSpot",
+    "ru": "HubSpot"
+   },
+   "patterns": [
+    "hubspot",
+    "hub spot",
+    "هاب سبوت",
+    "хабспот",
+    "хаб спот"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "salesforce",
+    "marketing-automation",
+    "crm",
+    "inbound-marketing",
+    "lead-nurturing"
+   ],
+   "jobs": [
+    "Marketing automation manager",
+    "Inbound marketer",
+    "CRM manager",
+    "Growth marketer"
+   ]
+  },
+  {
+   "id": "salesforce",
+   "label": {
+    "fr": "Salesforce",
+    "en": "Salesforce",
+    "ar": "Salesforce",
+    "ru": "Salesforce"
+   },
+   "patterns": [
+    "salesforce",
+    "sfcrm",
+    "sales force",
+    "سيلزفورس",
+    "сейлсфорс"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "hubspot",
+    "crm",
+    "marketing-automation",
+    "lead-generation"
+   ],
+   "jobs": [
+    "CRM manager",
+    "Marketing operations manager",
+    "Salesforce administrator"
+   ]
+  },
+  {
+   "id": "mailchimp",
+   "label": {
+    "fr": "Mailchimp",
+    "en": "Mailchimp",
+    "ar": "Mailchimp",
+    "ru": "Mailchimp"
+   },
+   "patterns": [
+    "mailchimp",
+    "mail chimp",
+    "ميل تشيمب",
+    "мейлчимп",
+    "мэйл чимп"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "brevo",
+    "email-marketing",
+    "marketing-automation",
+    "klaviyo"
+   ],
+   "jobs": [
+    "Email marketing manager",
+    "Chargé de communication",
+    "Marketing automation specialist"
+   ]
+  },
+  {
+   "id": "brevo",
+   "label": {
+    "fr": "Brevo",
+    "en": "Brevo",
+    "ar": "Brevo",
+    "ru": "Brevo"
+   },
+   "patterns": [
+    "brevo",
+    "sendinblue",
+    "send in blue",
+    "بريفو",
+    "брэво",
+    "сендинблу"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "mailchimp",
+    "email-marketing",
+    "marketing-automation"
+   ],
+   "jobs": [
+    "Email marketing manager",
+    "Chargé de communication",
+    "Marketing automation specialist"
+   ]
+  },
+  {
+   "id": "activecampaign",
+   "label": {
+    "fr": "ActiveCampaign",
+    "en": "ActiveCampaign",
+    "ar": "ActiveCampaign",
+    "ru": "ActiveCampaign"
+   },
+   "patterns": [
+    "activecampaign",
+    "active campaign",
+    "أكتيف كامبين",
+    "активкампейн"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "hubspot",
+    "email-marketing",
+    "marketing-automation",
+    "lead-nurturing"
+   ],
+   "jobs": [
+    "Marketing automation manager",
+    "Email marketing specialist",
+    "CRM manager"
+   ]
+  },
+  {
+   "id": "klaviyo",
+   "label": {
+    "fr": "Klaviyo",
+    "en": "Klaviyo",
+    "ar": "Klaviyo",
+    "ru": "Klaviyo"
+   },
+   "patterns": [
+    "klaviyo",
+    "كليفيو",
+    "клавиё",
+    "клавио"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "mailchimp",
+    "email-marketing",
+    "shopify",
+    "ecommerce"
+   ],
+   "jobs": [
+    "E-commerce marketing manager",
+    "Email marketing specialist",
+    "Retention manager"
+   ]
+  },
+  {
+   "id": "marketo",
+   "label": {
+    "fr": "Marketo",
+    "en": "Marketo",
+    "ar": "Marketo",
+    "ru": "Marketo"
+   },
+   "patterns": [
+    "marketo",
+    "adobe marketo",
+    "ماركيتو",
+    "маркето"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "hubspot",
+    "salesforce",
+    "marketing-automation",
+    "b2b-marketing"
+   ],
+   "jobs": [
+    "Marketing automation manager",
+    "Marketo specialist",
+    "Marketing operations manager"
+   ]
+  },
+  {
+   "id": "hootsuite",
+   "label": {
+    "fr": "Hootsuite",
+    "en": "Hootsuite",
+    "ar": "Hootsuite",
+    "ru": "Hootsuite"
+   },
+   "patterns": [
+    "hootsuite",
+    "hoot suite",
+    "هوتسويت",
+    "хутсьют",
+    "хутсуит"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "buffer",
+    "sprout-social",
+    "community-management",
+    "social-media-strategy"
+   ],
+   "jobs": [
+    "Community manager",
+    "Social media manager",
+    "Chargé de communication digitale"
+   ]
+  },
+  {
+   "id": "buffer",
+   "label": {
+    "fr": "Buffer",
+    "en": "Buffer",
+    "ar": "Buffer",
+    "ru": "Buffer"
+   },
+   "patterns": [
+    "buffer",
+    "بافر",
+    "баффер",
+    "буфер"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "hootsuite",
+    "sprout-social",
+    "community-management"
+   ],
+   "jobs": [
+    "Community manager",
+    "Social media manager"
+   ]
+  },
+  {
+   "id": "sprout-social",
+   "label": {
+    "fr": "Sprout Social",
+    "en": "Sprout Social",
+    "ar": "Sprout Social",
+    "ru": "Sprout Social"
+   },
+   "patterns": [
+    "sprout social",
+    "sproutsocial",
+    "سبراوت سوشال",
+    "спраут социал"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "hootsuite",
+    "buffer",
+    "social-listening",
+    "community-management"
+   ],
+   "jobs": [
+    "Social media manager",
+    "Community manager",
+    "Social media analyst"
+   ]
+  },
+  {
+   "id": "canva",
+   "label": {
+    "fr": "Canva",
+    "en": "Canva",
+    "ar": "Canva",
+    "ru": "Canva"
+   },
+   "patterns": [
+    "canva",
+    "كانفا",
+    "канва"
+   ],
+   "category": "outil",
+   "topics": [
+    "design",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "adobe-creative-suite",
+    "figma",
+    "content-creation",
+    "social-media-strategy"
+   ],
+   "jobs": [
+    "Community manager",
+    "Content creator",
+    "Chargé de communication",
+    "Graphiste"
+   ]
+  },
+  {
+   "id": "adobe-creative-suite",
+   "label": {
+    "fr": "Adobe Creative Suite",
+    "en": "Adobe Creative Suite",
+    "ar": "Adobe Creative Suite",
+    "ru": "Adobe Creative Suite"
+   },
+   "patterns": [
+    "adobe creative suite",
+    "adobe cc",
+    "creative cloud",
+    "photoshop",
+    "illustrator",
+    "indesign",
+    "premiere pro",
+    "after effects",
+    "أدوبي كرييتيف",
+    "адоб креатив сьют"
+   ],
+   "category": "outil",
+   "topics": [
+    "design",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "canva",
+    "figma",
+    "graphic-design",
+    "video-marketing",
+    "content-creation"
+   ],
+   "jobs": [
+    "Graphiste",
+    "Directeur artistique",
+    "Content creator",
+    "Motion designer"
+   ]
+  },
+  {
+   "id": "figma",
+   "label": {
+    "fr": "Figma",
+    "en": "Figma",
+    "ar": "Figma",
+    "ru": "Figma"
+   },
+   "patterns": [
+    "figma",
+    "فيجما",
+    "фигма"
+   ],
+   "category": "outil",
+   "topics": [
+    "design",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "adobe-creative-suite",
+    "ux-design",
+    "webflow",
+    "ui-design"
+   ],
+   "jobs": [
+    "UI designer",
+    "UX designer",
+    "Web designer",
+    "Product designer"
+   ]
+  },
+  {
+   "id": "looker-studio",
+   "label": {
+    "fr": "Looker Studio",
+    "en": "Looker Studio",
+    "ar": "Looker Studio",
+    "ru": "Looker Studio"
+   },
+   "patterns": [
+    "looker studio",
+    "google data studio",
+    "data studio",
+    "لوكير ستوديو",
+    "лукер студио",
+    "гугл дата студио"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "google-analytics",
+    "data-visualization",
+    "kpi-tracking",
+    "web-analytics"
+   ],
+   "jobs": [
+    "Data analyst marketing",
+    "Analyste web",
+    "Traffic manager",
+    "Consultant analytics"
+   ]
+  },
+  {
+   "id": "tableau",
+   "label": {
+    "fr": "Tableau",
+    "en": "Tableau",
+    "ar": "Tableau",
+    "ru": "Tableau"
+   },
+   "patterns": [
+    "tableau",
+    "tableau software",
+    "تابلو",
+    "табло",
+    "табло софтвер"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "power-bi",
+    "looker-studio",
+    "data-visualization",
+    "data-analysis"
+   ],
+   "jobs": [
+    "Data analyst",
+    "Business analyst",
+    "Data analyst marketing"
+   ]
+  },
+  {
+   "id": "power-bi",
+   "label": {
+    "fr": "Power BI",
+    "en": "Power BI",
+    "ar": "Power BI",
+    "ru": "Power BI"
+   },
+   "patterns": [
+    "power bi",
+    "powerbi",
+    "microsoft power bi",
+    "باور بي آي",
+    "пауэр биай"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "tableau",
+    "data-visualization",
+    "data-analysis",
+    "excel"
+   ],
+   "jobs": [
+    "Data analyst",
+    "Business analyst",
+    "BI analyst"
+   ]
+  },
+  {
+   "id": "seo",
+   "label": {
+    "fr": "SEO",
+    "en": "SEO",
+    "ar": "تحسين محركات البحث",
+    "ru": "SEO"
+   },
+   "patterns": [
+    "seo",
+    "search engine optimization",
+    "referencement naturel",
+    "référencement naturel",
+    "تحسين محركات البحث",
+    "سيو",
+    "сео",
+    "продвижение сайтов",
+    "поисковая оптимизац"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "web",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "sea",
+    "technical-seo",
+    "on-page-seo",
+    "off-page-seo",
+    "keyword-research",
+    "google-search-console"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable SEO",
+    "Chargé de marketing digital",
+    "Traffic manager"
+   ]
+  },
+  {
+   "id": "sea",
+   "label": {
+    "fr": "SEA",
+    "en": "SEA",
+    "ar": "إعلانات محركات البحث",
+    "ru": "SEA"
+   },
+   "patterns": [
+    "sea",
+    "search engine advertising",
+    "referencement payant",
+    "référencement payant",
+    "paid search",
+    "إعلانات محركات البحث",
+    "سيا",
+    "контекстная реклам"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "seo",
+    "google-ads",
+    "media-buying",
+    "ppc"
+   ],
+   "jobs": [
+    "Consultant SEA",
+    "Traffic manager",
+    "Media buyer",
+    "Chargé de marketing digital"
+   ]
+  },
+  {
+   "id": "technical-seo",
+   "label": {
+    "fr": "SEO technique",
+    "en": "Technical SEO",
+    "ar": "تحسين محركات البحث التقني",
+    "ru": "Техническое SEO"
+   },
+   "patterns": [
+    "technical seo",
+    "seo technique",
+    "seo technique",
+    "site audit",
+    "core web vitals",
+    "سيو تقني",
+    "техническое сео",
+    "тех сео"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "seo",
+    "on-page-seo",
+    "screaming-frog",
+    "google-search-console"
+   ],
+   "jobs": [
+    "Consultant SEO technique",
+    "Auditeur SEO",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "on-page-seo",
+   "label": {
+    "fr": "SEO on-page",
+    "en": "On-page SEO",
+    "ar": "تحسين السيو الداخلي",
+    "ru": "Внутреннее SEO"
+   },
+   "patterns": [
+    "on-page seo",
+    "onpage seo",
+    "seo on page",
+    "seo interne",
+    "سيو داخلي",
+    "онпейдж сео",
+    "внутренняя оптимизац"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "seo",
+    "technical-seo",
+    "off-page-seo",
+    "keyword-research"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Content manager SEO",
+    "Rédacteur web"
+   ]
+  },
+  {
+   "id": "off-page-seo",
+   "label": {
+    "fr": "SEO off-page",
+    "en": "Off-page SEO",
+    "ar": "تحسين السيو الخارجي",
+    "ru": "Внешнее SEO"
+   },
+   "patterns": [
+    "off-page seo",
+    "offpage seo",
+    "seo off page",
+    "netlinking",
+    "سيو خارجي",
+    "оффпейдж сео",
+    "внешняя оптимизац"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "seo",
+    "link-building",
+    "on-page-seo",
+    "pr"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Spécialiste netlinking",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "link-building",
+   "label": {
+    "fr": "Netlinking",
+    "en": "Link building",
+    "ar": "بناء الروابط",
+    "ru": "Линкбилдинг"
+   },
+   "patterns": [
+    "link building",
+    "linkbuilding",
+    "netlinking",
+    "backlink",
+    "بناء الروابط",
+    "لينك بيلدينغ",
+    "линкбилдинг",
+    "наращивание ссылочной масс"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "off-page-seo",
+    "seo",
+    "ahrefs",
+    "pr"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Spécialiste netlinking",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "keyword-research",
+   "label": {
+    "fr": "Recherche de mots-clés",
+    "en": "Keyword research",
+    "ar": "بحث الكلمات المفتاحية",
+    "ru": "Подбор ключевых слов"
+   },
+   "patterns": [
+    "keyword research",
+    "recherche mots cles",
+    "recherche de mots-cles",
+    "keyword analysis",
+    "بحث الكلمات المفتاحية",
+    "подбор ключевых слов",
+    "ключевые слов",
+    "keyword strateg"
+   ],
+   "category": "metier",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "seo",
+    "sea",
+    "semrush",
+    "ahrefs",
+    "on-page-seo"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Consultant SEA",
+    "Traffic manager",
+    "Rédacteur web"
+   ]
+  },
+  {
+   "id": "content-marketing",
+   "label": {
+    "fr": "Marketing de contenu",
+    "en": "Content marketing",
+    "ar": "تسويق المحتوى",
+    "ru": "Контент-маркетинг"
+   },
+   "patterns": [
+    "content marketing",
+    "marketing de contenu",
+    "marketing contenu",
+    "content strateg",
+    "تسويق المحتوى",
+    "контент-маркетинг",
+    "контент маркетинг"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "seo",
+    "copywriting",
+    "content-strategy",
+    "storytelling",
+    "blog"
+   ],
+   "jobs": [
+    "Content manager",
+    "Content strategist",
+    "Chargé de marketing de contenu",
+    "Rédacteur web"
+   ]
+  },
+  {
+   "id": "content-strategy",
+   "label": {
+    "fr": "Stratégie de contenu",
+    "en": "Content strategy",
+    "ar": "استراتيجية المحتوى",
+    "ru": "Контент-стратегия"
+   },
+   "patterns": [
+    "content strategy",
+    "strategie de contenu",
+    "stratégie éditoriale",
+    "editorial strategy",
+    "استراتيجية المحتوى",
+    "контент-стратеги"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "content-marketing",
+    "copywriting",
+    "editorial-planning",
+    "seo"
+   ],
+   "jobs": [
+    "Content strategist",
+    "Content manager",
+    "Responsable éditorial"
+   ]
+  },
+  {
+   "id": "copywriting",
+   "label": {
+    "fr": "Copywriting",
+    "en": "Copywriting",
+    "ar": "كتابة الإعلانات",
+    "ru": "Копирайтинг"
+   },
+   "patterns": [
+    "copywriting",
+    "copywriter",
+    "redaction publicitaire",
+    "rédaction publicitaire",
+    "persuasive writing",
+    "كتابة الإعلانات",
+    "копирайтинг",
+    "копирайт"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "content-marketing",
+    "storytelling",
+    "content-strategy",
+    "seo",
+    "ux-writing"
+   ],
+   "jobs": [
+    "Copywriter",
+    "Rédacteur web",
+    "Content manager",
+    "Concepteur-rédacteur"
+   ]
+  },
+  {
+   "id": "storytelling",
+   "label": {
+    "fr": "Storytelling",
+    "en": "Storytelling",
+    "ar": "سرد القصص",
+    "ru": "Сторителлинг"
+   },
+   "patterns": [
+    "storytelling",
+    "brand storytelling",
+    "narrative marketing",
+    "سرد القصص",
+    "сторителлинг"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "copywriting",
+    "brand-strategy",
+    "content-marketing",
+    "video-marketing"
+   ],
+   "jobs": [
+    "Brand content manager",
+    "Content strategist",
+    "Directeur de création",
+    "Copywriter"
+   ]
+  },
+  {
+   "id": "inbound-marketing",
+   "label": {
+    "fr": "Inbound marketing",
+    "en": "Inbound marketing",
+    "ar": "التسويق الداخلي",
+    "ru": "Inbound-маркетинг"
+   },
+   "patterns": [
+    "inbound marketing",
+    "inbound",
+    "marketing entrant",
+    "التسويق الداخلي",
+    "инбаунд маркетинг"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "hubspot",
+    "content-marketing",
+    "lead-nurturing",
+    "marketing-automation"
+   ],
+   "jobs": [
+    "Inbound marketer",
+    "Marketing automation manager",
+    "Growth marketer"
+   ]
+  },
+  {
+   "id": "marketing-automation",
+   "label": {
+    "fr": "Marketing automation",
+    "en": "Marketing automation",
+    "ar": "أتمتة التسويق",
+    "ru": "Маркетинговая автоматизация"
+   },
+   "patterns": [
+    "marketing automation",
+    "automatisation marketing",
+    "automatisation du marketing",
+    "أتمتة التسويق",
+    "маркетинговая автоматизац",
+    "маркетологическая автоматизац"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "hubspot",
+    "email-marketing",
+    "lead-nurturing",
+    "crm",
+    "inbound-marketing"
+   ],
+   "jobs": [
+    "Marketing automation manager",
+    "CRM manager",
+    "Growth marketer",
+    "Marketing operations manager"
+   ]
+  },
+  {
+   "id": "email-marketing",
+   "label": {
+    "fr": "Email marketing",
+    "en": "Email marketing",
+    "ar": "التسويق عبر البريد الإلكتروني",
+    "ru": "Email-маркетинг"
+   },
+   "patterns": [
+    "email marketing",
+    "emailing",
+    "newsletter",
+    "email campaign",
+    "التسويق عبر البريد",
+    "имейл маркетинг",
+    "email маркетинг",
+    "рассылк"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "mailchimp",
+    "brevo",
+    "marketing-automation",
+    "lead-nurturing",
+    "copywriting"
+   ],
+   "jobs": [
+    "Email marketing manager",
+    "Chargé d'emailing",
+    "Marketing automation specialist"
+   ]
+  },
+  {
+   "id": "lead-nurturing",
+   "label": {
+    "fr": "Lead nurturing",
+    "en": "Lead nurturing",
+    "ar": "رعاية العملاء المحتملين",
+    "ru": "Лид-нёрчеринг"
+   },
+   "patterns": [
+    "lead nurturing",
+    "nurturing",
+    "lead cultivation",
+    "رعاية العملاء المحتملين",
+    "лид-нёрчеринг",
+    "лид nurturing"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "marketing-automation",
+    "lead-generation",
+    "email-marketing",
+    "inbound-marketing",
+    "crm"
+   ],
+   "jobs": [
+    "Marketing automation manager",
+    "Lead generation specialist",
+    "Growth marketer"
+   ]
+  },
+  {
+   "id": "lead-generation",
+   "label": {
+    "fr": "Génération de leads",
+    "en": "Lead generation",
+    "ar": "توليد العملاء المحتملين",
+    "ru": "Генерация лидов"
+   },
+   "patterns": [
+    "lead generation",
+    "leadgen",
+    "generation de leads",
+    "génération de prospects",
+    "توليد العملاء المحتملين",
+    "генерация лидов",
+    "лидогенерац"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "lead-nurturing",
+    "seo",
+    "sea",
+    "marketing-automation",
+    "landing-page"
+   ],
+   "jobs": [
+    "Lead generation specialist",
+    "Growth marketer",
+    "Traffic manager",
+    "Chargé de marketing digital"
+   ]
+  },
+  {
+   "id": "community-management",
+   "label": {
+    "fr": "Community management",
+    "en": "Community management",
+    "ar": "إدارة المجتمع",
+    "ru": "Комьюнити-менеджмент"
+   },
+   "patterns": [
+    "community management",
+    "community manager",
+    "gestion de communaute",
+    "gestion de communauté",
+    "إدارة المجتمع",
+    "комьюнити менеджмент",
+    "коммьюнити менедж"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "social-media-strategy",
+    "content-creation",
+    "social-listening",
+    "hootsuite"
+   ],
+   "jobs": [
+    "Community manager",
+    "Social media manager",
+    "Chargé de communication digitale"
+   ]
+  },
+  {
+   "id": "social-media-strategy",
+   "label": {
+    "fr": "Stratégie social media",
+    "en": "Social media strategy",
+    "ar": "استراتيجية وسائل التواصل الاجتماعي",
+    "ru": "SMM-стратегия"
+   },
+   "patterns": [
+    "social media strategy",
+    "strategie social media",
+    "stratégie réseaux sociaux",
+    "smm strategy",
+    "استراتيجية وسائل التواصل",
+    "смт стратеги",
+    "стратегия соцсет"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "community-management",
+    "content-strategy",
+    "meta-ads",
+    "influencer-marketing"
+   ],
+   "jobs": [
+    "Social media manager",
+    "Responsable social media",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "influencer-marketing",
+   "label": {
+    "fr": "Marketing d'influence",
+    "en": "Influencer marketing",
+    "ar": "التسويق عبر المؤثرين",
+    "ru": "Инфлюенс-маркетинг"
+   },
+   "patterns": [
+    "influencer marketing",
+    "marketing influence",
+    "marketing d'influence",
+    "التسويق عبر المؤثرين",
+    "инфлюенс маркетинг",
+    "маркетинг влияни"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "social-media-strategy",
+    "community-management",
+    "pr",
+    "brand-management"
+   ],
+   "jobs": [
+    "Influencer manager",
+    "Social media manager",
+    "Chef de projet influence"
+   ]
+  },
+  {
+   "id": "social-listening",
+   "label": {
+    "fr": "Social listening",
+    "en": "Social listening",
+    "ar": "الاستماع الاجتماعي",
+    "ru": "Социальное прослушивание"
+   },
+   "patterns": [
+    "social listening",
+    "ecoute sociale",
+    "écoute sociale",
+    "social monitoring",
+    "الاستماع الاجتماعي",
+    "социальное прослушиван",
+    "мониторинг соцсет"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "community-management",
+    "social-media-strategy",
+    "sprout-social",
+    "brand-management"
+   ],
+   "jobs": [
+    "Social media analyst",
+    "Community manager",
+    "E-réputation manager"
+   ]
+  },
+  {
+   "id": "a-b-testing",
+   "label": {
+    "fr": "A/B testing",
+    "en": "A/B testing",
+    "ar": "اختبار أ/ب",
+    "ru": "A/B-тестирование"
+   },
+   "patterns": [
+    "a/b testing",
+    "ab testing",
+    "ab test",
+    "split testing",
+    "اختبار أ/ب",
+    "а/б тестирован",
+    "сплит тест"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "data",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "cro",
+    "hotjar",
+    "google-analytics",
+    "landing-page",
+    "ux-research"
+   ],
+   "jobs": [
+    "CRO specialist",
+    "Growth marketer",
+    "Product manager",
+    "UX researcher"
+   ]
+  },
+  {
+   "id": "cro",
+   "label": {
+    "fr": "Optimisation du taux de conversion",
+    "en": "Conversion rate optimization",
+    "ar": "تحسين معدل التحويل",
+    "ru": "Оптимизация конверсии"
+   },
+   "patterns": [
+    "cro",
+    "conversion rate optimization",
+    "optimisation taux de conversion",
+    "optimisation conversion",
+    "تحسين معدل التحويل",
+    "оптимизация конверси",
+    "cro специал"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "web",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "a-b-testing",
+    "hotjar",
+    "google-analytics",
+    "landing-page",
+    "ux-research"
+   ],
+   "jobs": [
+    "CRO specialist",
+    "Growth marketer",
+    "UX researcher",
+    "Product manager"
+   ]
+  },
+  {
+   "id": "media-planning",
+   "label": {
+    "fr": "Planification média",
+    "en": "Media planning",
+    "ar": "تخطيط الوسائط",
+    "ru": "Медиапланирование"
+   },
+   "patterns": [
+    "media planning",
+    "planification media",
+    "plan media",
+    "media strateg",
+    "تخطيط الوسائط",
+    "медиапланирован"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "media-buying",
+    "google-ads",
+    "meta-ads",
+    "programmatic"
+   ],
+   "jobs": [
+    "Media planner",
+    "Chef de publicité",
+    "Traffic manager",
+    "Responsable média"
+   ]
+  },
+  {
+   "id": "media-buying",
+   "label": {
+    "fr": "Achat média",
+    "en": "Media buying",
+    "ar": "شراء الوسائط",
+    "ru": "Медиабаинг"
+   },
+   "patterns": [
+    "media buying",
+    "achat media",
+    "achat d'espace",
+    "media buyer",
+    "شراء الوسائط",
+    "медиабаинг",
+    "закупка реклам"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "media-planning",
+    "google-ads",
+    "meta-ads",
+    "programmatic",
+    "sea"
+   ],
+   "jobs": [
+    "Media buyer",
+    "Traffic manager",
+    "Acheteur d'espace",
+    "Responsable média"
+   ]
+  },
+  {
+   "id": "programmatic",
+   "label": {
+    "fr": "Publicité programmatique",
+    "en": "Programmatic advertising",
+    "ar": "الإعلان البرمجي",
+    "ru": "Программатик"
+   },
+   "patterns": [
+    "programmatic",
+    "programmatic advertising",
+    "publicite programmatique",
+    "rtb",
+    "real time bidding",
+    "الإعلان البرمجي",
+    "программатик",
+    "программная закупк"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "specialise",
+   "related": [
+    "media-buying",
+    "display-advertising",
+    "dsp",
+    "google-ads"
+   ],
+   "jobs": [
+    "Programmatic trader",
+    "Media buyer",
+    "Traffic manager",
+    "Responsable programmatique"
+   ]
+  },
+  {
+   "id": "display-advertising",
+   "label": {
+    "fr": "Publicité display",
+    "en": "Display advertising",
+    "ar": "الإعلانات الصورية",
+    "ru": "Медийная реклама"
+   },
+   "patterns": [
+    "display advertising",
+    "display ads",
+    "banniere publicitaire",
+    "bannière publicitaire",
+    "الإعلانات الصورية",
+    "медийная реклам",
+    "дисплей реклам"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "programmatic",
+    "media-buying",
+    "google-ads",
+    "remarketing"
+   ],
+   "jobs": [
+    "Traffic manager",
+    "Media buyer",
+    "Chef de publicité digitale"
+   ]
+  },
+  {
+   "id": "remarketing",
+   "label": {
+    "fr": "Remarketing",
+    "en": "Remarketing",
+    "ar": "إعادة التسويق",
+    "ru": "Ремаркетинг"
+   },
+   "patterns": [
+    "remarketing",
+    "retargeting",
+    "re ciblage",
+    "reciblage",
+    "إعادة التسويق",
+    "ремаркетинг",
+    "ретаргетинг"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "display-advertising",
+    "google-ads",
+    "meta-ads",
+    "media-buying"
+   ],
+   "jobs": [
+    "Traffic manager",
+    "Media buyer",
+    "E-commerce manager"
+   ]
+  },
+  {
+   "id": "affiliate-marketing",
+   "label": {
+    "fr": "Marketing d'affiliation",
+    "en": "Affiliate marketing",
+    "ar": "التسويق بالعمولة",
+    "ru": "Партнёрский маркетинг"
+   },
+   "patterns": [
+    "affiliate marketing",
+    "affiliation",
+    "marketing affiliation",
+    "التسويق بالعمولة",
+    "партнёрский маркетинг",
+    "аффилиат маркетинг"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "lead-generation",
+    "ecommerce",
+    "media-buying"
+   ],
+   "jobs": [
+    "Affiliate manager",
+    "E-commerce manager",
+    "Responsable affiliation"
+   ]
+  },
+  {
+   "id": "growth-hacking",
+   "label": {
+    "fr": "Growth hacking",
+    "en": "Growth hacking",
+    "ar": "اختراق النمو",
+    "ru": "Гроус-хакинг"
+   },
+   "patterns": [
+    "growth hacking",
+    "growth hacker",
+    "growth marketing",
+    "اختراق النمو",
+    "гроус хакинг",
+    "гроузхакинг"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "a-b-testing",
+    "marketing-automation",
+    "lead-generation",
+    "cro"
+   ],
+   "jobs": [
+    "Growth hacker",
+    "Growth marketer",
+    "Head of growth"
+   ]
+  },
+  {
+   "id": "customer-journey",
+   "label": {
+    "fr": "Parcours client",
+    "en": "Customer journey",
+    "ar": "رحلة العميل",
+    "ru": "Путь клиента"
+   },
+   "patterns": [
+    "customer journey",
+    "parcours client",
+    "customer journey mapping",
+    "رحلة العميل",
+    "путь клиента",
+    "customer journey map"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "persona",
+    "inbound-marketing",
+    "ux-research",
+    "crm"
+   ],
+   "jobs": [
+    "Customer experience manager",
+    "Marketing strategist",
+    "UX researcher"
+   ]
+  },
+  {
+   "id": "persona",
+   "label": {
+    "fr": "Persona",
+    "en": "Buyer persona",
+    "ar": "شخصية المشتري",
+    "ru": "Персона покупателя"
+   },
+   "patterns": [
+    "persona",
+    "buyer persona",
+    "avatar client",
+    "target persona",
+    "شخصية المشتري",
+    "персона покупател",
+    "аватар клиент"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "customer-journey",
+    "content-strategy",
+    "inbound-marketing",
+    "market-research"
+   ],
+   "jobs": [
+    "Marketing strategist",
+    "Product manager",
+    "UX researcher",
+    "Content strategist"
+   ]
+  },
+  {
+   "id": "brand-management",
+   "label": {
+    "fr": "Gestion de marque",
+    "en": "Brand management",
+    "ar": "إدارة العلامة التجارية",
+    "ru": "Управление брендом"
+   },
+   "patterns": [
+    "brand management",
+    "gestion de marque",
+    "brand manager",
+    "إدارة العلامة التجارية",
+    "управление бренд"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "brand-strategy",
+    "pr",
+    "social-listening",
+    "storytelling"
+   ],
+   "jobs": [
+    "Brand manager",
+    "Responsable de marque",
+    "Chef de produit"
+   ]
+  },
+  {
+   "id": "brand-strategy",
+   "label": {
+    "fr": "Stratégie de marque",
+    "en": "Brand strategy",
+    "ar": "استراتيجية العلامة التجارية",
+    "ru": "Стратегия бренда"
+   },
+   "patterns": [
+    "brand strategy",
+    "strategie de marque",
+    "brand positioning",
+    "plateforme de marque",
+    "استراتيجية العلامة التجارية",
+    "стратегия бренд"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "brand-management",
+    "storytelling",
+    "content-strategy",
+    "pr"
+   ],
+   "jobs": [
+    "Brand strategist",
+    "Directeur de marque",
+    "Consultant branding"
+   ]
+  },
+  {
+   "id": "pr",
+   "label": {
+    "fr": "Relations presse",
+    "en": "Public relations",
+    "ar": "العلاقات العامة",
+    "ru": "Связи с общественностью"
+   },
+   "patterns": [
+    "pr",
+    "public relations",
+    "relations presse",
+    "relations publiques",
+    "press relations",
+    "العلاقات العامة",
+    "связи с общественност",
+    "пиар",
+    "pr-менеджер"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "brand-management",
+    "brand-strategy",
+    "influencer-marketing",
+    "content-marketing"
+   ],
+   "jobs": [
+    "Attaché de presse",
+    "Chargé de relations presse",
+    "Responsable communication",
+    "PR manager"
+   ]
+  },
+  {
+   "id": "event-marketing",
+   "label": {
+    "fr": "Marketing événementiel",
+    "en": "Event marketing",
+    "ar": "التسويق الفعاليات",
+    "ru": "Ивент-маркетинг"
+   },
+   "patterns": [
+    "event marketing",
+    "marketing evenementiel",
+    "marketing événementiel",
+    "التسويق الفعاليات",
+    "ивент маркетинг",
+    "событийный маркетинг"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "pr",
+    "brand-management",
+    "lead-generation",
+    "community-management"
+   ],
+   "jobs": [
+    "Chef de projet événementiel",
+    "Responsable événements",
+    "Marketing event manager"
+   ]
+  },
+  {
+   "id": "video-marketing",
+   "label": {
+    "fr": "Marketing vidéo",
+    "en": "Video marketing",
+    "ar": "التسويق بالفيديو",
+    "ru": "Видео-маркетинг"
+   },
+   "patterns": [
+    "video marketing",
+    "marketing video",
+    "video content",
+    "youtube marketing",
+    "التسويق بالفيديو",
+    "видео маркетинг"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "content-marketing",
+    "social-media-strategy",
+    "tiktok-ads",
+    "adobe-creative-suite"
+   ],
+   "jobs": [
+    "Content creator vidéo",
+    "Vidéaste corporate",
+    "Social media manager"
+   ]
+  },
+  {
+   "id": "mobile-marketing",
+   "label": {
+    "fr": "Marketing mobile",
+    "en": "Mobile marketing",
+    "ar": "التسويق عبر الجوال",
+    "ru": "Мобильный маркетинг"
+   },
+   "patterns": [
+    "mobile marketing",
+    "marketing mobile",
+    "app marketing",
+    "التسويق عبر الجوال",
+    "мобильный маркетинг"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-ads",
+    "meta-ads",
+    "app-store-optimization",
+    "ux-design"
+   ],
+   "jobs": [
+    "Mobile marketing manager",
+    "App marketing manager",
+    "Growth marketer"
+   ]
+  },
+  {
+   "id": "ux-writing",
+   "label": {
+    "fr": "UX writing",
+    "en": "UX writing",
+    "ar": "كتابة تجربة المستخدم",
+    "ru": "UX-райтинг"
+   },
+   "patterns": [
+    "ux writing",
+    "ux writer",
+    "redaction ux",
+    "rédaction ux",
+    "microcopy",
+    "كتابة تجربة المستخدم",
+    "ux-райтинг",
+    "ux райтер"
+   ],
+   "category": "metier",
+   "topics": [
+    "design",
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "copywriting",
+    "ux-design",
+    "content-strategy",
+    "figma"
+   ],
+   "jobs": [
+    "UX writer",
+    "Content designer",
+    "Rédacteur UX"
+   ]
+  },
+  {
+   "id": "web-analytics",
+   "label": {
+    "fr": "Web analytics",
+    "en": "Web analytics",
+    "ar": "تحليلات الويب",
+    "ru": "Веб-аналитика"
+   },
+   "patterns": [
+    "web analytics",
+    "analyse web",
+    "analytique web",
+    "تحليلات الويب",
+    "веб-аналитик",
+    "веб аналитик"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "google-analytics",
+    "looker-studio",
+    "kpi-tracking",
+    "data-analysis"
+   ],
+   "jobs": [
+    "Analyste web",
+    "Web analyst",
+    "Data analyst marketing",
+    "Consultant analytics"
+   ]
+  },
+  {
+   "id": "data-analysis",
+   "label": {
+    "fr": "Analyse de données",
+    "en": "Data analysis",
+    "ar": "تحليل البيانات",
+    "ru": "Анализ данных"
+   },
+   "patterns": [
+    "data analysis",
+    "analyse de donnees",
+    "analyse de données",
+    "تحليل البيانات",
+    "анализ данных"
+   ],
+   "category": "transverse",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "google-analytics",
+    "web-analytics",
+    "excel",
+    "sql",
+    "data-visualization"
+   ],
+   "jobs": [
+    "Data analyst",
+    "Data analyst marketing",
+    "Business analyst",
+    "Analyste web"
+   ]
+  },
+  {
+   "id": "kpi-tracking",
+   "label": {
+    "fr": "Suivi de KPI",
+    "en": "KPI tracking",
+    "ar": "تتبع مؤشرات الأداء",
+    "ru": "Отслеживание KPI"
+   },
+   "patterns": [
+    "kpi tracking",
+    "suivi kpi",
+    "kpi monitoring",
+    "performance indicators",
+    "تتبع مؤشرات الأداء",
+    "отслеживание kpi",
+    "kpi мониторинг"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "google-analytics",
+    "looker-studio",
+    "web-analytics",
+    "roi-analysis",
+    "reporting"
+   ],
+   "jobs": [
+    "Traffic manager",
+    "Marketing analyst",
+    "Chargé de marketing digital",
+    "Consultant SEO"
+   ]
+  },
+  {
+   "id": "roi-analysis",
+   "label": {
+    "fr": "Analyse ROI",
+    "en": "ROI analysis",
+    "ar": "تحليل العائد على الاستثمار",
+    "ru": "Анализ ROI"
+   },
+   "patterns": [
+    "roi analysis",
+    "analyse roi",
+    "return on investment",
+    "retour sur investissement",
+    "roas",
+    "تحليل العائد على الاستثمار",
+    "анализ roi",
+    "анализ окупаемост"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "business",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "kpi-tracking",
+    "google-analytics",
+    "marketing-attribution",
+    "media-buying"
+   ],
+   "jobs": [
+    "Marketing analyst",
+    "Traffic manager",
+    "Media planner",
+    "Responsable marketing"
+   ]
+  },
+  {
+   "id": "marketing-attribution",
+   "label": {
+    "fr": "Attribution marketing",
+    "en": "Marketing attribution",
+    "ar": "إسناد التسويق",
+    "ru": "Маркетинговая атрибуция"
+   },
+   "patterns": [
+    "marketing attribution",
+    "attribution marketing",
+    "attribution modeling",
+    "multi-touch attribution",
+    "إسناد التسويق",
+    "маркетинговая атрибуци"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "google-analytics",
+    "roi-analysis",
+    "kpi-tracking",
+    "web-analytics"
+   ],
+   "jobs": [
+    "Marketing analyst",
+    "Data analyst marketing",
+    "Marketing operations manager"
+   ]
+  },
+  {
+   "id": "google-ads-certification",
+   "label": {
+    "fr": "Certification Google Ads",
+    "en": "Google Ads Certification",
+    "ar": "شهادة Google Ads",
+    "ru": "Сертификация Google Ads"
+   },
+   "patterns": [
+    "google ads certification",
+    "certification google ads",
+    "google ads certified",
+    "google partner",
+    "شهادة Google Ads",
+    "сертификация google ads"
+   ],
+   "category": "norme",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-ads",
+    "sea",
+    "google-analytics-certification"
+   ],
+   "jobs": [
+    "Consultant SEA",
+    "Traffic manager",
+    "Media buyer"
+   ]
+  },
+  {
+   "id": "google-analytics-certification",
+   "label": {
+    "fr": "Certification Google Analytics",
+    "en": "Google Analytics Certification",
+    "ar": "شهادة Google Analytics",
+    "ru": "Сертификация Google Analytics"
+   },
+   "patterns": [
+    "google analytics certification",
+    "ga4 certification",
+    "certification google analytics",
+    "شهادة Google Analytics",
+    "сертификация google analytics"
+   ],
+   "category": "norme",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-analytics",
+    "web-analytics",
+    "google-ads-certification"
+   ],
+   "jobs": [
+    "Analyste web",
+    "Data analyst marketing",
+    "Consultant analytics"
+   ]
+  },
+  {
+   "id": "hubspot-certification",
+   "label": {
+    "fr": "Certification HubSpot",
+    "en": "HubSpot Certification",
+    "ar": "شهادة HubSpot",
+    "ru": "Сертификация HubSpot"
+   },
+   "patterns": [
+    "hubspot certification",
+    "hubspot certified",
+    "inbound certification",
+    "hubspot academy",
+    "شهادة HubSpot",
+    "сертификация hubspot"
+   ],
+   "category": "norme",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "hubspot",
+    "inbound-marketing",
+    "marketing-automation"
+   ],
+   "jobs": [
+    "Inbound marketer",
+    "Marketing automation manager",
+    "CRM manager"
+   ]
+  },
+  {
+   "id": "meta-blueprint",
+   "label": {
+    "fr": "Meta Blueprint",
+    "en": "Meta Blueprint",
+    "ar": "Meta Blueprint",
+    "ru": "Meta Blueprint"
+   },
+   "patterns": [
+    "meta blueprint",
+    "facebook blueprint",
+    "meta certified",
+    "facebook certified",
+    "ميتا بلوبرينت",
+    "мета блупринт"
+   ],
+   "category": "norme",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "meta-ads",
+    "social-media-strategy",
+    "community-management"
+   ],
+   "jobs": [
+    "Social media manager",
+    "Traffic manager",
+    "Media buyer"
+   ]
+  },
+  {
+   "id": "rgpd",
+   "label": {
+    "fr": "RGPD",
+    "en": "GDPR",
+    "ar": "اللائحة العامة لحماية البيانات",
+    "ru": "GDPR"
+   },
+   "patterns": [
+    "rgpd",
+    "gdpr",
+    "reglement general protection donnees",
+    "règlement général protection données",
+    "اللائحة العامة لحماية البيانات",
+    "gdpr",
+    "общий регламент защит"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "email-marketing",
+    "matomo",
+    "data-protection",
+    "cookie-management"
+   ],
+   "jobs": [
+    "Data protection officer",
+    "Juriste marketing",
+    "Responsable conformité"
+   ]
+  },
+  {
+   "id": "project-management",
+   "label": {
+    "fr": "Gestion de projet",
+    "en": "Project management",
+    "ar": "إدارة المشاريع",
+    "ru": "Управление проектами"
+   },
+   "patterns": [
+    "project management",
+    "gestion de projet",
+    "gestion projet",
+    "إدارة المشاريع",
+    "управление проект"
+   ],
+   "category": "transverse",
+   "topics": [
+    "project",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "agile",
+    "scrum",
+    "trello",
+    "asana",
+    "jira"
+   ],
+   "jobs": [
+    "Chef de projet digital",
+    "Project manager",
+    "Responsable marketing",
+    "Traffic manager"
+   ]
+  },
+  {
+   "id": "agile",
+   "label": {
+    "fr": "Méthode Agile",
+    "en": "Agile methodology",
+    "ar": "منهجية أجايل",
+    "ru": "Agile"
+   },
+   "patterns": [
+    "agile",
+    "agile methodology",
+    "methode agile",
+    "méthode agile",
+    "منهجية أجايل",
+    "аджайл",
+    "agile подход"
+   ],
+   "category": "methode",
+   "topics": [
+    "project",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "scrum",
+    "project-management",
+    "kanban"
+   ],
+   "jobs": [
+    "Chef de projet digital",
+    "Product owner",
+    "Scrum master",
+    "Marketing operations manager"
+   ]
+  },
+  {
+   "id": "scrum",
+   "label": {
+    "fr": "Scrum",
+    "en": "Scrum",
+    "ar": "سكرام",
+    "ru": "Scrum"
+   },
+   "patterns": [
+    "scrum",
+    "scrum master",
+    "product owner",
+    "سكرام",
+    "скрам"
+   ],
+   "category": "methode",
+   "topics": [
+    "project",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "agile",
+    "project-management",
+    "kanban"
+   ],
+   "jobs": [
+    "Scrum master",
+    "Product owner",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "budget-management",
+   "label": {
+    "fr": "Gestion de budget",
+    "en": "Budget management",
+    "ar": "إدارة الميزانية",
+    "ru": "Управление бюджетом"
+   },
+   "patterns": [
+    "budget management",
+    "gestion de budget",
+    "budget optimization",
+    "gestion budget",
+    "إدارة الميزانية",
+    "управление бюджет"
+   ],
+   "category": "transverse",
+   "topics": [
+    "business",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "media-planning",
+    "media-buying",
+    "roi-analysis",
+    "project-management"
+   ],
+   "jobs": [
+    "Responsable marketing",
+    "Traffic manager",
+    "Media planner",
+    "Directeur marketing"
+   ]
+  },
+  {
+   "id": "ecommerce",
+   "label": {
+    "fr": "E-commerce",
+    "en": "E-commerce",
+    "ar": "التجارة الإلكترونية",
+    "ru": "Электронная коммерция"
+   },
+   "patterns": [
+    "ecommerce",
+    "e-commerce",
+    "commerce en ligne",
+    "online retail",
+    "التجارة الإلكترونية",
+    "электронная коммерци",
+    "интернет-магазин"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "web",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "shopify",
+    "cro",
+    "email-marketing",
+    "seo",
+    "google-ads"
+   ],
+   "jobs": [
+    "E-commerce manager",
+    "Responsable e-commerce",
+    "Chef de projet e-commerce"
+   ]
+  },
+  {
+   "id": "landing-page",
+   "label": {
+    "fr": "Landing page",
+    "en": "Landing page",
+    "ar": "صفحة الهبوط",
+    "ru": "Лендинг"
+   },
+   "patterns": [
+    "landing page",
+    "page d'atterrissage",
+    "page de destination",
+    "صفحة الهبوط",
+    "лендинг",
+    "посадочная страниц"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "cro",
+    "a-b-testing",
+    "lead-generation",
+    "copywriting",
+    "google-ads"
+   ],
+   "jobs": [
+    "Growth marketer",
+    "Traffic manager",
+    "Webmaster",
+    "UX designer"
+   ]
+  },
+  {
+   "id": "content-creation",
+   "label": {
+    "fr": "Création de contenu",
+    "en": "Content creation",
+    "ar": "إنشاء المحتوى",
+    "ru": "Создание контента"
+   },
+   "patterns": [
+    "content creation",
+    "creation de contenu",
+    "création de contenu",
+    "إنشاء المحتوى",
+    "создание контент"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "copywriting",
+    "video-marketing",
+    "social-media-strategy",
+    "adobe-creative-suite",
+    "canva"
+   ],
+   "jobs": [
+    "Content creator",
+    "Community manager",
+    "Chargé de contenu",
+    "Rédacteur web"
+   ]
+  },
+  {
+   "id": "ux-design",
+   "label": {
+    "fr": "UX design",
+    "en": "UX design",
+    "ar": "تصميم تجربة المستخدم",
+    "ru": "UX-дизайн"
+   },
+   "patterns": [
+    "ux design",
+    "ux designer",
+    "user experience design",
+    "تصميم تجربة المستخدم",
+    "ux-дизайн",
+    "ux проектирован"
+   ],
+   "category": "metier",
+   "topics": [
+    "design",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "figma",
+    "ui-design",
+    "ux-research",
+    "ux-writing"
+   ],
+   "jobs": [
+    "UX designer",
+    "Product designer",
+    "UX researcher"
+   ]
+  },
+  {
+   "id": "ui-design",
+   "label": {
+    "fr": "UI design",
+    "en": "UI design",
+    "ar": "تصميم واجهة المستخدم",
+    "ru": "UI-дизайн"
+   },
+   "patterns": [
+    "ui design",
+    "ui designer",
+    "user interface design",
+    "تصميم واجهة المستخدم",
+    "ui-дизайн"
+   ],
+   "category": "metier",
+   "topics": [
+    "design",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "ux-design",
+    "figma",
+    "adobe-creative-suite",
+    "webflow"
+   ],
+   "jobs": [
+    "UI designer",
+    "Product designer",
+    "Web designer"
+   ]
+  },
+  {
+   "id": "ux-research",
+   "label": {
+    "fr": "Recherche UX",
+    "en": "UX research",
+    "ar": "بحث تجربة المستخدم",
+    "ru": "UX-исследования"
+   },
+   "patterns": [
+    "ux research",
+    "ux researcher",
+    "user research",
+    "recherche utilisateur",
+    "بحث تجربة المستخدم",
+    "ux-исследован"
+   ],
+   "category": "metier",
+   "topics": [
+    "design",
+    "web",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "ux-design",
+    "hotjar",
+    "a-b-testing",
+    "persona",
+    "customer-journey"
+   ],
+   "jobs": [
+    "UX researcher",
+    "Product manager",
+    "UX designer"
+   ]
+  },
+  {
+   "id": "graphic-design",
+   "label": {
+    "fr": "Design graphique",
+    "en": "Graphic design",
+    "ar": "التصميم الجرافيكي",
+    "ru": "Графический дизайн"
+   },
+   "patterns": [
+    "graphic design",
+    "design graphique",
+    "التصميم الجرافيكي",
+    "графический дизайн"
+   ],
+   "category": "metier",
+   "topics": [
+    "design",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "adobe-creative-suite",
+    "canva",
+    "figma",
+    "brand-management"
+   ],
+   "jobs": [
+    "Graphiste",
+    "Designer graphique",
+    "Directeur artistique"
+   ]
+  },
+  {
+   "id": "web-design",
+   "label": {
+    "fr": "Web design",
+    "en": "Web design",
+    "ar": "تصميم المواقع",
+    "ru": "Веб-дизайн"
+   },
+   "patterns": [
+    "web design",
+    "web designer",
+    "conception web",
+    "تصميم المواقع",
+    "веб-дизайн"
+   ],
+   "category": "metier",
+   "topics": [
+    "design",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "ux-design",
+    "ui-design",
+    "figma",
+    "webflow",
+    "wordpress"
+   ],
+   "jobs": [
+    "Web designer",
+    "Designer web",
+    "Intégrateur web"
+   ]
+  },
+  {
+   "id": "b2b-marketing",
+   "label": {
+    "fr": "Marketing B2B",
+    "en": "B2B marketing",
+    "ar": "التسويق بين الشركات",
+    "ru": "B2B-маркетинг"
+   },
+   "patterns": [
+    "b2b marketing",
+    "marketing b2b",
+    "business to business marketing",
+    "التسويق بين الشركات",
+    "b2b маркетинг"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "linkedin-ads",
+    "lead-generation",
+    "inbound-marketing",
+    "content-marketing"
+   ],
+   "jobs": [
+    "Marketing manager B2B",
+    "Chargé de marketing B2B",
+    "Responsable marketing B2B"
+   ]
+  },
+  {
+   "id": "market-research",
+   "label": {
+    "fr": "Études de marché",
+    "en": "Market research",
+    "ar": "أبحاث السوق",
+    "ru": "Маркетинговые исследования"
+   },
+   "patterns": [
+    "market research",
+    "etudes de marche",
+    "études de marché",
+    "competitive analysis",
+    "أبحاث السوق",
+    "маркетинговые исследован"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "persona",
+    "customer-journey",
+    "brand-strategy",
+    "data-analysis"
+   ],
+   "jobs": [
+    "Chargé d'études marketing",
+    "Market researcher",
+    "Analyste marketing"
+   ]
+  },
+  {
+   "id": "reporting",
+   "label": {
+    "fr": "Reporting",
+    "en": "Reporting",
+    "ar": "إعداد التقارير",
+    "ru": "Отчётность"
+   },
+   "patterns": [
+    "reporting",
+    "rapport",
+    "report",
+    "dashboard",
+    "tableau de bord",
+    "إعداد التقارير",
+    "отчётност",
+    "дашборд"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "kpi-tracking",
+    "looker-studio",
+    "google-analytics",
+    "web-analytics"
+   ],
+   "jobs": [
+    "Marketing analyst",
+    "Traffic manager",
+    "Analyste web",
+    "Responsable marketing"
+   ]
+  },
+  {
+   "id": "data-visualization",
+   "label": {
+    "fr": "Visualisation de données",
+    "en": "Data visualization",
+    "ar": "تصور البيانات",
+    "ru": "Визуализация данных"
+   },
+   "patterns": [
+    "data visualization",
+    "visualisation de donnees",
+    "visualisation de données",
+    "data viz",
+    "تصور البيانات",
+    "визуализация данных"
+   ],
+   "category": "transverse",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "tableau",
+    "power-bi",
+    "looker-studio",
+    "data-analysis"
+   ],
+   "jobs": [
+    "Data analyst",
+    "Business analyst",
+    "Data analyst marketing"
+   ]
+  },
+  {
+   "id": "excel",
+   "label": {
+    "fr": "Excel",
+    "en": "Excel",
+    "ar": "Excel",
+    "ru": "Excel"
+   },
+   "patterns": [
+    "excel",
+    "microsoft excel",
+    "tableur",
+    "إكسل",
+    "эксель",
+    "эксел"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "data-analysis",
+    "power-bi",
+    "reporting",
+    "kpi-tracking"
+   ],
+   "jobs": [
+    "Marketing analyst",
+    "Traffic manager",
+    "Data analyst",
+    "Responsable marketing"
+   ]
+  },
+  {
+   "id": "sql",
+   "label": {
+    "fr": "SQL",
+    "en": "SQL",
+    "ar": "SQL",
+    "ru": "SQL"
+   },
+   "patterns": [
+    "sql",
+    "structured query language",
+    "mysql",
+    "postgresql",
+    "أس كيو إل",
+    "эскьюэл",
+    "сиквел"
+   ],
+   "category": "outil",
+   "topics": [
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "data-analysis",
+    "google-analytics",
+    "bigquery"
+   ],
+   "jobs": [
+    "Data analyst",
+    "Data analyst marketing",
+    "Marketing analyst"
+   ]
+  },
+  {
+   "id": "meta-pixel",
+   "label": {
+    "fr": "Meta Pixel",
+    "en": "Meta Pixel",
+    "ar": "Meta Pixel",
+    "ru": "Meta Pixel"
+   },
+   "patterns": [
+    "meta pixel",
+    "facebook pixel",
+    "fb pixel",
+    "pixel meta",
+    "ميتا بيكسل",
+    "мета пиксель",
+    "facebook пиксел"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "meta-ads",
+    "google-tag-manager",
+    "remarketing",
+    "google-analytics"
+   ],
+   "jobs": [
+    "Traffic manager",
+    "Media buyer",
+    "E-commerce manager"
+   ]
+  },
+  {
+   "id": "ppc",
+   "label": {
+    "fr": "PPC",
+    "en": "PPC",
+    "ar": "الدفع لكل نقرة",
+    "ru": "PPC"
+   },
+   "patterns": [
+    "ppc",
+    "pay per click",
+    "paiement par clic",
+    "cout par clic",
+    "coût par clic",
+    "الدفع لكل نقرة",
+    "ппс",
+    "оплата за клик"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "sea",
+    "google-ads",
+    "media-buying",
+    "meta-ads"
+   ],
+   "jobs": [
+    "Traffic manager",
+    "Consultant SEA",
+    "Media buyer"
+   ]
+  },
+  {
+   "id": "crm",
+   "label": {
+    "fr": "CRM",
+    "en": "CRM",
+    "ar": "إدارة علاقات العملاء",
+    "ru": "CRM"
+   },
+   "patterns": [
+    "crm",
+    "customer relationship management",
+    "gestion relation client",
+    "إدارة علاقات العملاء",
+    "црм",
+    "crm систем"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "hubspot",
+    "salesforce",
+    "marketing-automation",
+    "lead-nurturing"
+   ],
+   "jobs": [
+    "CRM manager",
+    "Marketing automation manager",
+    "Responsable relation client"
+   ]
+  },
+  {
+   "id": "dsp",
+   "label": {
+    "fr": "DSP",
+    "en": "DSP",
+    "ar": "DSP",
+    "ru": "DSP"
+   },
+   "patterns": [
+    "dsp",
+    "demand side platform",
+    "plateforme d'achat",
+    "دي إس بي",
+    "дсп",
+    "dsp платформ"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "specialise",
+   "related": [
+    "programmatic",
+    "media-buying",
+    "display-advertising"
+   ],
+   "jobs": [
+    "Programmatic trader",
+    "Media buyer",
+    "Traffic manager"
+   ]
+  },
+  {
+   "id": "editorial-planning",
+   "label": {
+    "fr": "Planning éditorial",
+    "en": "Editorial calendar",
+    "ar": "التقويم التحريري",
+    "ru": "Редакционный план"
+   },
+   "patterns": [
+    "editorial calendar",
+    "planning editorial",
+    "calendrier editorial",
+    "calendrier éditorial",
+    "التقويم التحريري",
+    "редакционный план",
+    "контент-план"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "content-strategy",
+    "content-marketing",
+    "community-management",
+    "social-media-strategy"
+   ],
+   "jobs": [
+    "Content manager",
+    "Community manager",
+    "Responsable éditorial"
+   ]
+  },
+  {
+   "id": "blog",
+   "label": {
+    "fr": "Blog",
+    "en": "Blog",
+    "ar": "مدونة",
+    "ru": "Блог"
+   },
+   "patterns": [
+    "blog",
+    "blogging",
+    "corporate blog",
+    "مدونة",
+    "блог",
+    "блогинг"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "content-marketing",
+    "seo",
+    "wordpress",
+    "copywriting"
+   ],
+   "jobs": [
+    "Blog manager",
+    "Content manager",
+    "Rédacteur web",
+    "Chargé de contenu"
+   ]
+  },
+  {
+   "id": "native-advertising",
+   "label": {
+    "fr": "Publicité native",
+    "en": "Native advertising",
+    "ar": "الإعلانات الأصلية",
+    "ru": "Нативная реклама"
+   },
+   "patterns": [
+    "native advertising",
+    "publicite native",
+    "publicité native",
+    "native ads",
+    "الإعلانات الأصلية",
+    "нативная реклам"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "specialise",
+   "related": [
+    "content-marketing",
+    "display-advertising",
+    "media-buying",
+    "pr"
+   ],
+   "jobs": [
+    "Media planner",
+    "Content strategist",
+    "Traffic manager"
+   ]
+  },
+  {
+   "id": "app-store-optimization",
+   "label": {
+    "fr": "App Store Optimization",
+    "en": "App Store Optimization",
+    "ar": "تحسين متجر التطبيقات",
+    "ru": "ASO"
+   },
+   "patterns": [
+    "aso",
+    "app store optimization",
+    "optimisation app store",
+    "تحسين متجر التطبيقات",
+    "асо",
+    "продвижение приложен"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "specialise",
+   "related": [
+    "mobile-marketing",
+    "seo",
+    "growth-hacking"
+   ],
+   "jobs": [
+    "Mobile marketing manager",
+    "ASO specialist",
+    "Growth marketer"
+   ]
+  },
+  {
+   "id": "cookie-management",
+   "label": {
+    "fr": "Gestion des cookies",
+    "en": "Cookie management",
+    "ar": "إدارة ملفات تعريف الارتباط",
+    "ru": "Управление cookie"
+   },
+   "patterns": [
+    "cookie management",
+    "gestion cookies",
+    "cookie consent",
+    "cmp",
+    "consent management",
+    "إدارة الكوكيز",
+    "управление куки",
+    "согласие на обработк"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "web",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "rgpd",
+    "google-tag-manager",
+    "matomo",
+    "web-analytics"
+   ],
+   "jobs": [
+    "Data protection officer",
+    "Web analyst",
+    "Consultant RGPD"
+   ]
+  },
+  {
+   "id": "marketing-attribution-models",
+   "label": {
+    "fr": "Modèles d'attribution",
+    "en": "Attribution models",
+    "ar": "نماذج الإسناد",
+    "ru": "Модели атрибуции"
+   },
+   "patterns": [
+    "attribution model",
+    "modele attribution",
+    "modèle d'attribution",
+    "last click",
+    "first click",
+    "linear attribution",
+    "نماذج الإسناد",
+    "модель атрибуци"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "specialise",
+   "related": [
+    "marketing-attribution",
+    "google-analytics",
+    "roi-analysis",
+    "kpi-tracking"
+   ],
+   "jobs": [
+    "Marketing analyst",
+    "Data analyst marketing",
+    "Traffic manager"
+   ]
+  },
+  {
+   "id": "trello",
+   "label": {
+    "fr": "Trello",
+    "en": "Trello",
+    "ar": "Trello",
+    "ru": "Trello"
+   },
+   "patterns": [
+    "trello",
+    "تريلو",
+    "трелло"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "asana",
+    "jira",
+    "project-management",
+    "agile"
+   ],
+   "jobs": [
+    "Chef de projet digital",
+    "Community manager",
+    "Marketing coordinator"
+   ]
+  },
+  {
+   "id": "asana",
+   "label": {
+    "fr": "Asana",
+    "en": "Asana",
+    "ar": "Asana",
+    "ru": "Asana"
+   },
+   "patterns": [
+    "asana",
+    "أسانا",
+    "асана"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "trello",
+    "jira",
+    "monday",
+    "project-management"
+   ],
+   "jobs": [
+    "Chef de projet digital",
+    "Marketing operations manager",
+    "Project manager"
+   ]
+  },
+  {
+   "id": "jira",
+   "label": {
+    "fr": "Jira",
+    "en": "Jira",
+    "ar": "Jira",
+    "ru": "Jira"
+   },
+   "patterns": [
+    "jira",
+    "jira software",
+    "جيرا",
+    "джира"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "confluence",
+    "scrum",
+    "agile",
+    "project-management"
+   ],
+   "jobs": [
+    "Product owner",
+    "Scrum master",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "monday",
+   "label": {
+    "fr": "Monday.com",
+    "en": "Monday.com",
+    "ar": "Monday.com",
+    "ru": "Monday.com"
+   },
+   "patterns": [
+    "monday",
+    "monday com",
+    "مونداي",
+    "мондей"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "asana",
+    "trello",
+    "notion",
+    "project-management"
+   ],
+   "jobs": [
+    "Chef de projet digital",
+    "Marketing coordinator",
+    "Operations manager"
+   ]
+  },
+  {
+   "id": "notion",
+   "label": {
+    "fr": "Notion",
+    "en": "Notion",
+    "ar": "Notion",
+    "ru": "Notion"
+   },
+   "patterns": [
+    "notion",
+    "نوشن",
+    "ноушн"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "monday",
+    "trello",
+    "content-strategy",
+    "editorial-planning"
+   ],
+   "jobs": [
+    "Content manager",
+    "Marketing coordinator",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "slack",
+   "label": {
+    "fr": "Slack",
+    "en": "Slack",
+    "ar": "Slack",
+    "ru": "Slack"
+   },
+   "patterns": [
+    "slack",
+    "سلاك",
+    "слак"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "teams",
+    "zoom",
+    "project-management",
+    "remote-work"
+   ],
+   "jobs": [
+    "Chef de projet digital",
+    "Community manager",
+    "Marketing coordinator"
+   ]
+  },
+  {
+   "id": "teams",
+   "label": {
+    "fr": "Microsoft Teams",
+    "en": "Microsoft Teams",
+    "ar": "Microsoft Teams",
+    "ru": "Microsoft Teams"
+   },
+   "patterns": [
+    "microsoft teams",
+    "ms teams",
+    "teams",
+    "مايكروسوفت تيمز",
+    "майкрософт тимс"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "slack",
+    "zoom",
+    "sharepoint",
+    "project-management"
+   ],
+   "jobs": [
+    "Chef de projet digital",
+    "Responsable marketing",
+    "Marketing coordinator"
+   ]
+  },
+  {
+   "id": "bigquery",
+   "label": {
+    "fr": "BigQuery",
+    "en": "BigQuery",
+    "ar": "BigQuery",
+    "ru": "BigQuery"
+   },
+   "patterns": [
+    "bigquery",
+    "google bigquery",
+    "بيج كويري",
+    "бигквери"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "specialise",
+   "related": [
+    "sql",
+    "google-analytics",
+    "looker-studio",
+    "data-analysis"
+   ],
+   "jobs": [
+    "Data analyst marketing",
+    "Marketing data engineer",
+    "Analyste web"
+   ]
+  },
+  {
+   "id": "python-marketing",
+   "label": {
+    "fr": "Python pour le marketing",
+    "en": "Python for marketing",
+    "ar": "بايثون للتسويق",
+    "ru": "Python в маркетинге"
+   },
+   "patterns": [
+    "python",
+    "pandas",
+    "numpy",
+    "python marketing",
+    "بايثون",
+    "пайтон",
+    "питон"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "marketing",
+    "ai"
+   ],
+   "level": "specialise",
+   "related": [
+    "sql",
+    "data-analysis",
+    "google-analytics",
+    "machine-learning"
+   ],
+   "jobs": [
+    "Marketing data scientist",
+    "Data analyst marketing",
+    "Growth analyst"
+   ]
+  },
+  {
+   "id": "woocommerce",
+   "label": {
+    "fr": "WooCommerce",
+    "en": "WooCommerce",
+    "ar": "WooCommerce",
+    "ru": "WooCommerce"
+   },
+   "patterns": [
+    "woocommerce",
+    "woo commerce",
+    "ووكومرس",
+    "вукоммерс"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "wordpress",
+    "shopify",
+    "ecommerce",
+    "seo"
+   ],
+   "jobs": [
+    "E-commerce manager",
+    "Webmaster",
+    "Développeur WordPress"
+   ]
+  },
+  {
+   "id": "magento",
+   "label": {
+    "fr": "Adobe Commerce (Magento)",
+    "en": "Adobe Commerce (Magento)",
+    "ar": "Adobe Commerce (Magento)",
+    "ru": "Adobe Commerce (Magento)"
+   },
+   "patterns": [
+    "magento",
+    "adobe commerce",
+    "ماجنتو",
+    "мадженто"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "marketing"
+   ],
+   "level": "specialise",
+   "related": [
+    "shopify",
+    "ecommerce",
+    "prestashop"
+   ],
+   "jobs": [
+    "E-commerce manager",
+    "Chef de projet e-commerce",
+    "Développeur Magento"
+   ]
+  },
+  {
+   "id": "prestashop",
+   "label": {
+    "fr": "PrestaShop",
+    "en": "PrestaShop",
+    "ar": "PrestaShop",
+    "ru": "PrestaShop"
+   },
+   "patterns": [
+    "prestashop",
+    "بريستاشوب",
+    "престашоп"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "shopify",
+    "woocommerce",
+    "ecommerce"
+   ],
+   "jobs": [
+    "E-commerce manager",
+    "Webmaster",
+    "Chef de projet e-commerce"
+   ]
+  }
+ ]
+}

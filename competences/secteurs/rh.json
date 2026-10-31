@@ -1,0 +1,3342 @@
+{
+ "sector": "Ressources humaines et paie",
+ "key": "rh",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "workday",
+   "label": {
+    "fr": "Workday",
+    "en": "Workday",
+    "ar": "Workday",
+    "ru": "Workday"
+   },
+   "patterns": [
+    "workday",
+    "workday hcm",
+    "workday hr",
+    "workday financials"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "erp"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-successfactors",
+    "oracle-hcm",
+    "sirh",
+    "people-analytics"
+   ],
+   "jobs": [
+    "Responsable SIRH",
+    "Consultant Workday",
+    "HRIS Manager"
+   ]
+  },
+  {
+   "id": "sap-successfactors",
+   "label": {
+    "fr": "SAP SuccessFactors",
+    "en": "SAP SuccessFactors",
+    "ar": "SAP SuccessFactors",
+    "ru": "SAP SuccessFactors"
+   },
+   "patterns": [
+    "successfactors",
+    "sap sf",
+    "sap successfactors",
+    "sfsf",
+    "success factors"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "erp"
+   ],
+   "level": "frequent",
+   "related": [
+    "workday",
+    "oracle-hcm",
+    "sirh",
+    "sap-hr"
+   ],
+   "jobs": [
+    "Consultant SuccessFactors",
+    "Responsable SIRH",
+    "Chef de projet RH"
+   ]
+  },
+  {
+   "id": "oracle-hcm",
+   "label": {
+    "fr": "Oracle HCM Cloud",
+    "en": "Oracle HCM Cloud",
+    "ar": "Oracle HCM Cloud",
+    "ru": "Oracle HCM Cloud"
+   },
+   "patterns": [
+    "oracle hcm",
+    "oracle hcm cloud",
+    "oracle human capital",
+    "fusion hcm"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "erp"
+   ],
+   "level": "specialise",
+   "related": [
+    "workday",
+    "sap-successfactors",
+    "sirh"
+   ],
+   "jobs": [
+    "Consultant Oracle HCM",
+    "Architecte SIRH",
+    "Responsable SIRH"
+   ]
+  },
+  {
+   "id": "sap-hr",
+   "label": {
+    "fr": "SAP HR / SAP HCM",
+    "en": "SAP HR / SAP HCM",
+    "ar": "SAP HR",
+    "ru": "SAP HR"
+   },
+   "patterns": [
+    "sap hr",
+    "sap hcm",
+    "sap pa",
+    "sap om",
+    "sap personnel administration"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "erp"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-successfactors",
+    "sirh",
+    "paie"
+   ],
+   "jobs": [
+    "Consultant SAP HR",
+    "Responsable paie",
+    "Chef de projet SIRH"
+   ]
+  },
+  {
+   "id": "adp",
+   "label": {
+    "fr": "ADP",
+    "en": "ADP",
+    "ar": "ADP",
+    "ru": "ADP"
+   },
+   "patterns": [
+    "adp",
+    "adp payroll",
+    "adp workforce",
+    "adp globalview"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "paie",
+    "silae",
+    "cegid",
+    "sage-paie"
+   ],
+   "jobs": [
+    "Gestionnaire de paie",
+    "Responsable paie",
+    "Consultant ADP"
+   ]
+  },
+  {
+   "id": "payfit",
+   "label": {
+    "fr": "PayFit",
+    "en": "PayFit",
+    "ar": "PayFit",
+    "ru": "PayFit"
+   },
+   "patterns": [
+    "payfit",
+    "pay fit"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "paie",
+    "silae",
+    "cegid",
+    "dsn"
+   ],
+   "jobs": [
+    "Gestionnaire de paie",
+    "Responsable paie",
+    "Assistant RH"
+   ]
+  },
+  {
+   "id": "cegid",
+   "label": {
+    "fr": "Cegid",
+    "en": "Cegid",
+    "ar": "Cegid",
+    "ru": "Cegid"
+   },
+   "patterns": [
+    "cegid",
+    "cegid paie",
+    "cegid rh",
+    "cegid yuman"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "paie",
+    "silae",
+    "sage-paie",
+    "dsn"
+   ],
+   "jobs": [
+    "Gestionnaire de paie",
+    "Consultant Cegid",
+    "Responsable paie"
+   ]
+  },
+  {
+   "id": "silae",
+   "label": {
+    "fr": "Silae",
+    "en": "Silae",
+    "ar": "Silae",
+    "ru": "Silae"
+   },
+   "patterns": [
+    "silae",
+    "silae paie"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "paie",
+    "cegid",
+    "payfit",
+    "dsn"
+   ],
+   "jobs": [
+    "Gestionnaire de paie",
+    "Responsable paie",
+    "Consultant Silae"
+   ]
+  },
+  {
+   "id": "sage-paie",
+   "label": {
+    "fr": "Sage Paie",
+    "en": "Sage Payroll",
+    "ar": "Sage Paie",
+    "ru": "Sage Payroll"
+   },
+   "patterns": [
+    "sage paie",
+    "sage payroll",
+    "sage rh",
+    "sage xrt",
+    "sage 100 paie"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "paie",
+    "cegid",
+    "silae",
+    "dsn"
+   ],
+   "jobs": [
+    "Gestionnaire de paie",
+    "Responsable paie",
+    "Assistant paie"
+   ]
+  },
+  {
+   "id": "talentsoft",
+   "label": {
+    "fr": "TalentSoft (HiQ/Cegid)",
+    "en": "TalentSoft",
+    "ar": "TalentSoft",
+    "ru": "TalentSoft"
+   },
+   "patterns": [
+    "talentsoft",
+    "talent soft",
+    "cegid talent"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "lucca",
+    "gestion-carrieres",
+    "entretiens-annuels",
+    "plan-developpement-competences"
+   ],
+   "jobs": [
+    "Responsable développement RH",
+    "Chargé de formation",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "lucca",
+   "label": {
+    "fr": "Lucca",
+    "en": "Lucca",
+    "ar": "Lucca",
+    "ru": "Lucca"
+   },
+   "patterns": [
+    "lucca",
+    "figgo",
+    "cleemy",
+    "timmi",
+    "pagga"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "talentsoft",
+    "gestion-absences",
+    "conges-rtt",
+    "sirh"
+   ],
+   "jobs": [
+    "Responsable RH",
+    "Gestionnaire RH",
+    "Office Manager"
+   ]
+  },
+  {
+   "id": "bamboohr",
+   "label": {
+    "fr": "BambooHR",
+    "en": "BambooHR",
+    "ar": "BambooHR",
+    "ru": "BambooHR"
+   },
+   "patterns": [
+    "bamboohr",
+    "bamboo hr"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "hibob",
+    "personio",
+    "factorial",
+    "sirh"
+   ],
+   "jobs": [
+    "HR Manager",
+    "HR Operations",
+    "Responsable RH"
+   ]
+  },
+  {
+   "id": "hibob",
+   "label": {
+    "fr": "HiBob",
+    "en": "HiBob",
+    "ar": "HiBob",
+    "ru": "HiBob"
+   },
+   "patterns": [
+    "hibob",
+    "hi bob"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "bamboohr",
+    "personio",
+    "factorial",
+    "sirh"
+   ],
+   "jobs": [
+    "HR Manager",
+    "People Operations",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "factorial",
+   "label": {
+    "fr": "Factorial",
+    "en": "Factorial",
+    "ar": "Factorial",
+    "ru": "Factorial"
+   },
+   "patterns": [
+    "factorial",
+    "factorial hr"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "bamboohr",
+    "hibob",
+    "personio",
+    "sirh"
+   ],
+   "jobs": [
+    "Responsable RH PME",
+    "HR Manager",
+    "Office Manager"
+   ]
+  },
+  {
+   "id": "personio",
+   "label": {
+    "fr": "Personio",
+    "en": "Personio",
+    "ar": "Personio",
+    "ru": "Personio"
+   },
+   "patterns": [
+    "personio"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "bamboohr",
+    "hibob",
+    "factorial",
+    "sirh"
+   ],
+   "jobs": [
+    "HR Manager",
+    "People Operations Manager",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "rippling",
+   "label": {
+    "fr": "Rippling",
+    "en": "Rippling",
+    "ar": "Rippling",
+    "ru": "Rippling"
+   },
+   "patterns": [
+    "rippling"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "specialise",
+   "related": [
+    "bamboohr",
+    "hibob",
+    "onboarding",
+    "sirh"
+   ],
+   "jobs": [
+    "HR Operations Manager",
+    "People Ops",
+    "Head of HR"
+   ]
+  },
+  {
+   "id": "workable",
+   "label": {
+    "fr": "Workable",
+    "en": "Workable",
+    "ar": "Workable",
+    "ru": "Workable"
+   },
+   "patterns": [
+    "workable"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "greenhouse",
+    "lever",
+    "smartrecruiters",
+    "ats"
+   ],
+   "jobs": [
+    "Chargé de recrutement",
+    "Talent Acquisition Specialist",
+    "Recruiter"
+   ]
+  },
+  {
+   "id": "greenhouse",
+   "label": {
+    "fr": "Greenhouse",
+    "en": "Greenhouse",
+    "ar": "Greenhouse",
+    "ru": "Greenhouse"
+   },
+   "patterns": [
+    "greenhouse",
+    "greenhouse i/o",
+    "greenhouse io"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "workable",
+    "lever",
+    "smartrecruiters",
+    "ats"
+   ],
+   "jobs": [
+    "Talent Acquisition Manager",
+    "Recruiter",
+    "Head of TA"
+   ]
+  },
+  {
+   "id": "lever",
+   "label": {
+    "fr": "Lever",
+    "en": "Lever",
+    "ar": "Lever",
+    "ru": "Lever"
+   },
+   "patterns": [
+    "lever",
+    "lever hire"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "workable",
+    "greenhouse",
+    "smartrecruiters",
+    "ats"
+   ],
+   "jobs": [
+    "Talent Acquisition Specialist",
+    "Recruiter",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "smartrecruiters",
+   "label": {
+    "fr": "SmartRecruiters",
+    "en": "SmartRecruiters",
+    "ar": "SmartRecruiters",
+    "ru": "SmartRecruiters"
+   },
+   "patterns": [
+    "smartrecruiters",
+    "smart recruiters"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "workable",
+    "greenhouse",
+    "lever",
+    "ats"
+   ],
+   "jobs": [
+    "Responsable recrutement",
+    "Talent Acquisition Manager",
+    "Recruiter"
+   ]
+  },
+  {
+   "id": "linkedin-recruiter",
+   "label": {
+    "fr": "LinkedIn Recruiter",
+    "en": "LinkedIn Recruiter",
+    "ar": "LinkedIn Recruiter",
+    "ru": "LinkedIn Recruiter"
+   },
+   "patterns": [
+    "linkedin recruiter",
+    "linkedin talent",
+    "linkedin jobs"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "sourcing",
+    "chasse-tete",
+    "recrutement",
+    "ats"
+   ],
+   "jobs": [
+    "Chargé de recrutement",
+    "Talent Acquisition",
+    "Recruiter"
+   ]
+  },
+  {
+   "id": "welcome-to-the-jungle",
+   "label": {
+    "fr": "Welcome to the Jungle",
+    "en": "Welcome to the Jungle",
+    "ar": "Welcome to the Jungle",
+    "ru": "Welcome to the Jungle"
+   },
+   "patterns": [
+    "welcome to the jungle",
+    "wttj",
+    "welcometothejungle"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "marque-employeur",
+    "recrutement",
+    "hellowork"
+   ],
+   "jobs": [
+    "Chargé de recrutement",
+    "Responsable marque employeur",
+    "Talent Acquisition"
+   ]
+  },
+  {
+   "id": "hellowork",
+   "label": {
+    "fr": "HelloWork (RegionsJob)",
+    "en": "HelloWork",
+    "ar": "HelloWork",
+    "ru": "HelloWork"
+   },
+   "patterns": [
+    "hellowork",
+    "regionsjob",
+    "parisjob",
+    "hello work"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "recrutement",
+    "welcome-to-the-jungle",
+    "indeed"
+   ],
+   "jobs": [
+    "Chargé de recrutement",
+    "Responsable recrutement",
+    "Recruiter"
+   ]
+  },
+  {
+   "id": "indeed",
+   "label": {
+    "fr": "Indeed",
+    "en": "Indeed",
+    "ar": "Indeed",
+    "ru": "Indeed"
+   },
+   "patterns": [
+    "indeed"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "recrutement",
+    "hellowork",
+    "linkedin-recruiter"
+   ],
+   "jobs": [
+    "Chargé de recrutement",
+    "Recruiter",
+    "Talent Acquisition"
+   ]
+  },
+  {
+   "id": "apec",
+   "label": {
+    "fr": "Apec",
+    "en": "Apec",
+    "ar": "Apec",
+    "ru": "Apec"
+   },
+   "patterns": [
+    "apec",
+    "cadres apec"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "recrutement",
+    "hellowork",
+    "linkedin-recruiter"
+   ],
+   "jobs": [
+    "Chargé de recrutement cadres",
+    "Recruiter",
+    "Responsable recrutement"
+   ]
+  },
+  {
+   "id": "360learning",
+   "label": {
+    "fr": "360Learning",
+    "en": "360Learning",
+    "ar": "360Learning",
+    "ru": "360Learning"
+   },
+   "patterns": [
+    "360learning",
+    "360 learning"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "cornerstone",
+    "moodle",
+    "lms",
+    "formation-professionnelle"
+   ],
+   "jobs": [
+    "Responsable formation",
+    "Digital Learning Manager",
+    "Ingénieur pédagogique"
+   ]
+  },
+  {
+   "id": "cornerstone",
+   "label": {
+    "fr": "Cornerstone OnDemand",
+    "en": "Cornerstone OnDemand",
+    "ar": "Cornerstone OnDemand",
+    "ru": "Cornerstone OnDemand"
+   },
+   "patterns": [
+    "cornerstone",
+    "cornerstone ondemand",
+    "csod"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "education"
+   ],
+   "level": "specialise",
+   "related": [
+    "360learning",
+    "moodle",
+    "lms",
+    "formation-professionnelle"
+   ],
+   "jobs": [
+    "Responsable formation",
+    "Talent Management",
+    "LMS Administrator"
+   ]
+  },
+  {
+   "id": "moodle",
+   "label": {
+    "fr": "Moodle",
+    "en": "Moodle",
+    "ar": "Moodle",
+    "ru": "Moodle"
+   },
+   "patterns": [
+    "moodle"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "360learning",
+    "cornerstone",
+    "lms",
+    "formation-professionnelle"
+   ],
+   "jobs": [
+    "Ingénieur pédagogique",
+    "Digital Learning Manager",
+    "Responsable formation"
+   ]
+  },
+  {
+   "id": "qualtrics",
+   "label": {
+    "fr": "Qualtrics",
+    "en": "Qualtrics",
+    "ar": "Qualtrics",
+    "ru": "Qualtrics"
+   },
+   "patterns": [
+    "qualtrics",
+    "qualtrics xm"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "glint",
+    "qvt",
+    "people-analytics"
+   ],
+   "jobs": [
+    "People Analytics Manager",
+    "HR Data Analyst",
+    "Responsable QVT"
+   ]
+  },
+  {
+   "id": "glint",
+   "label": {
+    "fr": "Glint (LinkedIn)",
+    "en": "Glint",
+    "ar": "Glint",
+    "ru": "Glint"
+   },
+   "patterns": [
+    "glint",
+    "linkedin glint"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "qualtrics",
+    "qvt",
+    "people-analytics"
+   ],
+   "jobs": [
+    "People Analytics",
+    "HRBP",
+    "Responsable engagement"
+   ]
+  },
+  {
+   "id": "excel-rh",
+   "label": {
+    "fr": "Excel avancé / VBA RH",
+    "en": "Advanced Excel for HR",
+    "ar": "Excel المتقدم للموارد البشرية",
+    "ru": "Excel для HR"
+   },
+   "patterns": [
+    "excel",
+    "vba",
+    "tableau croise",
+    "tcd",
+    "power query",
+    "excel avance"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "power-bi-rh",
+    "reporting-rh",
+    "controle-gestion-sociale",
+    "analyse-donnees-rh"
+   ],
+   "jobs": [
+    "Gestionnaire paie",
+    "Contrôleur de gestion sociale",
+    "Assistant RH"
+   ]
+  },
+  {
+   "id": "power-bi-rh",
+   "label": {
+    "fr": "Power BI RH",
+    "en": "Power BI for HR",
+    "ar": "Power BI للموارد البشرية",
+    "ru": "Power BI для HR"
+   },
+   "patterns": [
+    "power bi",
+    "powerbi",
+    "dax"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "excel-rh",
+    "reporting-rh",
+    "people-analytics",
+    "analyse-donnees-rh"
+   ],
+   "jobs": [
+    "People Analyst",
+    "HR Data Analyst",
+    "Contrôleur de gestion sociale"
+   ]
+  },
+  {
+   "id": "paie",
+   "label": {
+    "fr": "Paie et administration du personnel",
+    "en": "Payroll & personnel administration",
+    "ar": "إدارة الرواتب",
+    "ru": "расчёт зарплат"
+   },
+   "patterns": [
+    "paie",
+    "payroll",
+    "bulletin de paie",
+    "gestion de la paie",
+    "администрация персонала",
+    "إعداد الرواتب",
+    "رواتب"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "dsn",
+    "cotisations-sociales",
+    "bulletins-salaire",
+    "urssaf"
+   ],
+   "jobs": [
+    "Gestionnaire de paie",
+    "Responsable paie",
+    "Assistant paie"
+   ]
+  },
+  {
+   "id": "dsn",
+   "label": {
+    "fr": "DSN (Déclaration Sociale Nominative)",
+    "en": "DSN reporting",
+    "ar": "تصريح DSN",
+    "ru": "отчётность DSN"
+   },
+   "patterns": [
+    "dsn",
+    "declaration sociale nominative",
+    "dsn mensuelle"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "paie",
+    "cotisations-sociales",
+    "urssaf",
+    "bulletins-salaire"
+   ],
+   "jobs": [
+    "Gestionnaire de paie",
+    "Responsable paie",
+    "Consultant paie"
+   ]
+  },
+  {
+   "id": "bulletins-salaire",
+   "label": {
+    "fr": "Édition des bulletins de salaire",
+    "en": "Payslip production",
+    "ar": "إعداد كشوف الرواتب",
+    "ru": "расчётные листки"
+   },
+   "patterns": [
+    "bulletin de salaire",
+    "bulletin de paie",
+    "fiche de paie",
+    "payslip",
+    "كشف راتب"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "paie",
+    "dsn",
+    "cotisations-sociales"
+   ],
+   "jobs": [
+    "Gestionnaire de paie",
+    "Assistant paie",
+    "Responsable paie"
+   ]
+  },
+  {
+   "id": "cotisations-sociales",
+   "label": {
+    "fr": "Cotisations sociales et charges",
+    "en": "Social contributions",
+    "ar": "الاشتراكات الاجتماعية",
+    "ru": "социальные взносы"
+   },
+   "patterns": [
+    "cotisations sociales",
+    "charges sociales",
+    "cotisations urssaf",
+    "соцвзносы",
+    "اشتراكات"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "paie",
+    "dsn",
+    "urssaf",
+    "droit-travail"
+   ],
+   "jobs": [
+    "Gestionnaire de paie",
+    "Responsable paie",
+    "Juriste droit social"
+   ]
+  },
+  {
+   "id": "urssaf",
+   "label": {
+    "fr": "Urssaf et organismes sociaux",
+    "en": "Urssaf & social bodies",
+    "ar": "Urssaf",
+    "ru": "Urssaf"
+   },
+   "patterns": [
+    "urssaf",
+    "caisse des conges",
+    "pro btp",
+    "pole emploi",
+    "france travail",
+    "retraite complementaire",
+    "agirc arrco"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "paie",
+    "dsn",
+    "cotisations-sociales",
+    "droit-travail"
+   ],
+   "jobs": [
+    "Gestionnaire de paie",
+    "Responsable paie",
+    "Assistant administration du personnel"
+   ]
+  },
+  {
+   "id": "administration-personnel",
+   "label": {
+    "fr": "Administration du personnel",
+    "en": "Personnel administration",
+    "ar": "إدارة شؤون الموظفين",
+    "ru": "кадровое делопроизводство"
+   },
+   "patterns": [
+    "administration du personnel",
+    "admin personnel",
+    "gestion administrative rh",
+    "кадровое делопроизводство",
+    "شؤون الموظفين"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "paie",
+    "gestion-absences",
+    "conges-rtt",
+    "droit-travail"
+   ],
+   "jobs": [
+    "Assistant RH",
+    "Gestionnaire RH",
+    "Chargé d'administration du personnel"
+   ]
+  },
+  {
+   "id": "gestion-absences",
+   "label": {
+    "fr": "Gestion des absences et temps",
+    "en": "Absence & time management",
+    "ar": "إدارة الغياب",
+    "ru": "учёт отсутствий"
+   },
+   "patterns": [
+    "gestion des absences",
+    "suivi des absences",
+    "maladie",
+    "arret de travail",
+    "accident de travail",
+    "учёт отпусков"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "conges-rtt",
+    "administration-personnel",
+    "paie",
+    "lucca"
+   ],
+   "jobs": [
+    "Assistant RH",
+    "Gestionnaire RH",
+    "Chargé d'administration du personnel"
+   ]
+  },
+  {
+   "id": "conges-rtt",
+   "label": {
+    "fr": "Congés payés et RTT",
+    "en": "Paid leave & RTT",
+    "ar": "الإجازات والـ RTT",
+    "ru": "отпуска и RTT"
+   },
+   "patterns": [
+    "conges payes",
+    "rtt",
+    "jours ferie",
+    "conges sans solde",
+    "отпуск",
+    "إجازات"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "gestion-absences",
+    "administration-personnel",
+    "droit-travail"
+   ],
+   "jobs": [
+    "Assistant RH",
+    "Gestionnaire RH",
+    "Office Manager"
+   ]
+  },
+  {
+   "id": "droit-travail",
+   "label": {
+    "fr": "Droit du travail",
+    "en": "Employment law",
+    "ar": "قانون العمل",
+    "ru": "трудовое право"
+   },
+   "patterns": [
+    "droit du travail",
+    "droit social",
+    "labor law",
+    "employment law",
+    "трудовое право",
+    "قانون العمل"
+   ],
+   "category": "norme",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "conventions-collectives",
+    "contentieux-prudhomaux",
+    "cse",
+    "relations-sociales"
+   ],
+   "jobs": [
+    "Juriste droit social",
+    "Responsable RH",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "conventions-collectives",
+   "label": {
+    "fr": "Conventions collectives (IDCC)",
+    "en": "Collective agreements",
+    "ar": "الاتفاقيات الجماعية",
+    "ru": "коллективные договоры"
+   },
+   "patterns": [
+    "convention collective",
+    "idcc",
+    "ccn",
+    "accord de branche",
+    "коллективный договор",
+    "اتفاقية جماعية"
+   ],
+   "category": "norme",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "droit-travail",
+    "remuneration",
+    "nao",
+    "relations-sociales"
+   ],
+   "jobs": [
+    "Juriste droit social",
+    "Responsable RH",
+    "Gestionnaire paie"
+   ]
+  },
+  {
+   "id": "recrutement",
+   "label": {
+    "fr": "Recrutement (full cycle)",
+    "en": "Full-cycle recruiting",
+    "ar": "التوظيف",
+    "ru": "подбор персонала"
+   },
+   "patterns": [
+    "recrutement",
+    "recruiting",
+    "full cycle",
+    "end to end recruitment",
+    "подбор персонала",
+    "рекрутинг",
+    "التوظيف"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "sourcing",
+    "chasse-tete",
+    "onboarding",
+    "ats"
+   ],
+   "jobs": [
+    "Chargé de recrutement",
+    "Talent Acquisition Specialist",
+    "Recruiter"
+   ]
+  },
+  {
+   "id": "sourcing",
+   "label": {
+    "fr": "Sourcing candidats",
+    "en": "Candidate sourcing",
+    "ar": "استقطاب المرشحين",
+    "ru": "сорсинг кандидатов"
+   },
+   "patterns": [
+    "sourcing",
+    "candidate sourcing",
+    "boolean search",
+    "recherche candidats",
+    "xray",
+    "сорсинг"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "recrutement",
+    "chasse-tete",
+    "linkedin-recruiter"
+   ],
+   "jobs": [
+    "Sourcer",
+    "Talent Acquisition Specialist",
+    "Chargé de recrutement"
+   ]
+  },
+  {
+   "id": "chasse-tete",
+   "label": {
+    "fr": "Chasse de tête / Executive Search",
+    "en": "Executive search / headhunting",
+    "ar": "البحث التنفيذي",
+    "ru": "executive search"
+   },
+   "patterns": [
+    "chasse de tete",
+    "executive search",
+    "headhunting",
+    "approche directe",
+    "direct approach",
+    "прямой поиск"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "recrutement",
+    "sourcing",
+    "assessment-center"
+   ],
+   "jobs": [
+    "Consultant en recrutement",
+    "Executive Search Consultant",
+    "Talent Acquisition Manager"
+   ]
+  },
+  {
+   "id": "onboarding",
+   "label": {
+    "fr": "Onboarding / Intégration",
+    "en": "Onboarding",
+    "ar": "التأهيل الوظيفي",
+    "ru": "онбординг"
+   },
+   "patterns": [
+    "onboarding",
+    "integration",
+    "parcours d integration",
+    "employee onboarding",
+    "онбординг",
+    "интеграция"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "recrutement",
+    "offboarding",
+    "marque-employeur",
+    "qvt"
+   ],
+   "jobs": [
+    "Chargé d'onboarding",
+    "HR Operations",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "offboarding",
+   "label": {
+    "fr": "Offboarding / Départ salarié",
+    "en": "Offboarding",
+    "ar": "إنهاء الخدمة",
+    "ru": "оффбординг"
+   },
+   "patterns": [
+    "offboarding",
+    "depart salarie",
+    "solde de tout compte",
+    "exit interview",
+    "licenciement",
+    "rupture conventionnelle"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "onboarding",
+    "administration-personnel",
+    "droit-travail",
+    "contentieux-prudhomaux"
+   ],
+   "jobs": [
+    "HRBP",
+    "Responsable RH",
+    "Juriste droit social"
+   ]
+  },
+  {
+   "id": "entretiens-annuels",
+   "label": {
+    "fr": "Entretiens annuels et professionnels",
+    "en": "Annual & professional reviews",
+    "ar": "التقييمات السنوية",
+    "ru": "ежегодная оценка"
+   },
+   "patterns": [
+    "entretien annuel",
+    "entretien professionnel",
+    "evaluation annuelle",
+    "annual review",
+    "performance review",
+    "оценка персонала"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "evaluation-360",
+    "performance-management",
+    "gestion-carrieres",
+    "talentsoft"
+   ],
+   "jobs": [
+    "HRBP",
+    "Responsable développement RH",
+    "Responsable RH"
+   ]
+  },
+  {
+   "id": "evaluation-360",
+   "label": {
+    "fr": "Évaluation 360°",
+    "en": "360° feedback",
+    "ar": "تقييم 360 درجة",
+    "ru": "оценка 360"
+   },
+   "patterns": [
+    "evaluation 360",
+    "360 feedback",
+    "feedback 360",
+    "оценка 360"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "entretiens-annuels",
+    "performance-management",
+    "assessment-center"
+   ],
+   "jobs": [
+    "Responsable développement RH",
+    "HRBP",
+    "Consultant RH"
+   ]
+  },
+  {
+   "id": "assessment-center",
+   "label": {
+    "fr": "Assessment center",
+    "en": "Assessment center",
+    "ar": "مركز التقييم",
+    "ru": "Assessment center"
+   },
+   "patterns": [
+    "assessment center",
+    "assessment centre",
+    "centre d evaluation",
+    "evaluation centre",
+    "центр оценки"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh"
+   ],
+   "level": "specialise",
+   "related": [
+    "chasse-tete",
+    "evaluation-360",
+    "gestion-carrieres",
+    "succession-planning"
+   ],
+   "jobs": [
+    "Consultant en évaluation",
+    "Talent Management",
+    "Psychologue du travail"
+   ]
+  },
+  {
+   "id": "gpec",
+   "label": {
+    "fr": "GPEC / GEPP",
+    "en": "Workforce planning (GPEC)",
+    "ar": "التخطيط الاستراتيجي للوظائف",
+    "ru": "GPEC"
+   },
+   "patterns": [
+    "gpec",
+    "gepp",
+    "gestion previsionnelle",
+    "workforce planning",
+    "planification emplois competences"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-carrieres",
+    "plan-developpement-competences",
+    "talent-management",
+    "mobilite-interne"
+   ],
+   "jobs": [
+    "Responsable développement RH",
+    "HRBP",
+    "Responsable GPEC"
+   ]
+  },
+  {
+   "id": "marque-employeur",
+   "label": {
+    "fr": "Marque employeur",
+    "en": "Employer branding",
+    "ar": "العلامة التجارية لصاحب العمل",
+    "ru": "HR-бренд"
+   },
+   "patterns": [
+    "marque employeur",
+    "employer branding",
+    "employer brand",
+    "hr brand",
+    "hr бренд",
+    "العلامةEmployer"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "recrutement",
+    "onboarding",
+    "qvt",
+    "welcome-to-the-jungle"
+   ],
+   "jobs": [
+    "Responsable marque employeur",
+    "Chargé de communication RH",
+    "Talent Acquisition Manager"
+   ]
+  },
+  {
+   "id": "qvt",
+   "label": {
+    "fr": "QVT / QVCT",
+    "en": "Quality of life at work",
+    "ar": "جودة الحياة في العمل",
+    "ru": "качество жизни на работе"
+   },
+   "patterns": [
+    "qvt",
+    "qvct",
+    "qualite de vie au travail",
+    "bien etre au travail",
+    "wellbeing",
+    "well being"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "rse",
+    "marque-employeur",
+    "relations-sociales",
+    "cse"
+   ],
+   "jobs": [
+    "Responsable QVT",
+    "HRBP",
+    "Responsable RSE"
+   ]
+  },
+  {
+   "id": "rse",
+   "label": {
+    "fr": "RSE (Responsabilité Sociétale)",
+    "en": "CSR",
+    "ar": "المسؤولية الاجتماعية",
+    "ru": "КСО"
+   },
+   "patterns": [
+    "rse",
+    "csr",
+    "responsabilite societa",
+    "diversite inclusion",
+    "dei",
+    "de i",
+    "инклюзия",
+    "تنوع وشمول"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "qvt",
+    "marque-employeur",
+    "index-egalite",
+    "bilan-social"
+   ],
+   "jobs": [
+    "Responsable RSE",
+    "Chargé de mission diversité",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "cse",
+   "label": {
+    "fr": "CSE (Comité Social et Économique)",
+    "en": "Works council (CSE)",
+    "ar": "اللجنة الاجتماعية",
+    "ru": "Соц-экономический комитет"
+   },
+   "patterns": [
+    "cse",
+    "comite social et economique",
+    "dp",
+    "delegue du personnel",
+    "ce",
+    "comite d entreprise"
+   ],
+   "category": "norme",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "relations-sociales",
+    "droit-travail",
+    "nao",
+    "bdes"
+   ],
+   "jobs": [
+    "Responsable relations sociales",
+    "Juriste droit social",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "relations-sociales",
+   "label": {
+    "fr": "Relations sociales et dialogue social",
+    "en": "Industrial relations",
+    "ar": "العلاقات الاجتماعية",
+    "ru": "социально-трудовые отношения"
+   },
+   "patterns": [
+    "relations sociales",
+    "dialogue social",
+    "industrial relations",
+    "syndicats",
+    "labor relations",
+    "профсоюзы"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "cse",
+    "nao",
+    "droit-travail",
+    "negociation-salariale"
+   ],
+   "jobs": [
+    "Responsable relations sociales",
+    "DRH",
+    "Juriste droit social"
+   ]
+  },
+  {
+   "id": "negociation-salariale",
+   "label": {
+    "fr": "Négociation salariale",
+    "en": "Salary negotiation",
+    "ar": "التفاوض على الرواتب",
+    "ru": "переговоры по зарплате"
+   },
+   "patterns": [
+    "negociation salariale",
+    "salary negotiation",
+    "negociation salaire",
+    "переговор"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "remuneration",
+    "nao",
+    "compensation-benefits",
+    "relations-sociales"
+   ],
+   "jobs": [
+    "HRBP",
+    "Responsable rémunération",
+    "DRH"
+   ]
+  },
+  {
+   "id": "nao",
+   "label": {
+    "fr": "NAO (Négociations Annuelles Obligatoires)",
+    "en": "Mandatory annual negotiations",
+    "ar": "المفاوضات السنوية الإلزامية",
+    "ru": "ежегодные обязательные переговоры"
+   },
+   "patterns": [
+    "nao",
+    "negociations annuelles obligatoires",
+    "negociation annuelle"
+   ],
+   "category": "norme",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "relations-sociales",
+    "cse",
+    "remuneration",
+    "conventions-collectives"
+   ],
+   "jobs": [
+    "Responsable relations sociales",
+    "DRH",
+    "Juriste droit social"
+   ]
+  },
+  {
+   "id": "remuneration",
+   "label": {
+    "fr": "Politique de rémunération",
+    "en": "Compensation policy",
+    "ar": "سياسة الأجور",
+    "ru": "политика вознаграждения"
+   },
+   "patterns": [
+    "remuneration",
+    "compensation",
+    "politique salariale",
+    "grille salariale",
+    "salary scale",
+    "политика оплаты"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "compensation-benefits",
+    "avantages-sociaux",
+    "masse-salariale",
+    "negociation-salariale"
+   ],
+   "jobs": [
+    "Responsable rémunération",
+    "Compensation & Benefits Manager",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "compensation-benefits",
+   "label": {
+    "fr": "Compensation & Benefits",
+    "en": "Compensation & Benefits",
+    "ar": "Compensation & Benefits",
+    "ru": "Compensation & Benefits"
+   },
+   "patterns": [
+    "compensation benefits",
+    "c b",
+    "c&b",
+    "comp and ben",
+    "total rewards"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "remuneration",
+    "avantages-sociaux",
+    "masse-salariale"
+   ],
+   "jobs": [
+    "Compensation & Benefits Manager",
+    "Responsable C&B",
+    "HRBP Senior"
+   ]
+  },
+  {
+   "id": "avantages-sociaux",
+   "label": {
+    "fr": "Avantages sociaux",
+    "en": "Employee benefits",
+    "ar": "المزايا الاجتماعية",
+    "ru": "социальный пакет"
+   },
+   "patterns": [
+    "avantages sociaux",
+    "avantages en nature",
+    "mutuelle",
+    "prevoyance",
+    "ticket restaurant",
+    "per",
+    "pee",
+    "соцпакет",
+    "مزايا"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "remuneration",
+    "compensation-benefits",
+    "cotisations-sociales"
+   ],
+   "jobs": [
+    "Compensation & Benefits Manager",
+    "Responsable RH",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "formation-professionnelle",
+   "label": {
+    "fr": "Formation professionnelle continue",
+    "en": "Vocational training",
+    "ar": "التكوين المهني",
+    "ru": "профессиональное обучение"
+   },
+   "patterns": [
+    "formation professionnelle",
+    "plan de formation",
+    "professional training",
+    "обучение персонала",
+    "تكوين مهني"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "plan-developpement-competences",
+    "cpf",
+    "opc",
+    "lms"
+   ],
+   "jobs": [
+    "Responsable formation",
+    "Chargé de formation",
+    "Ingénieur formation"
+   ]
+  },
+  {
+   "id": "plan-developpement-competences",
+   "label": {
+    "fr": "Plan de développement des compétences",
+    "en": "Skills development plan",
+    "ar": "خطة تطوير الكفاءات",
+    "ru": "план развития компетенций"
+   },
+   "patterns": [
+    "plan de developpement des competences",
+    "plan de formation",
+    "skills development",
+    "план развития"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "formation-professionnelle",
+    "gpec",
+    "gestion-carrieres",
+    "talentsoft"
+   ],
+   "jobs": [
+    "Responsable formation",
+    "Responsable développement RH",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "cpf",
+   "label": {
+    "fr": "CPF (Compte Personnel de Formation)",
+    "en": "CPF training account",
+    "ar": "حساب التدريب الشخصي",
+    "ru": "CPF"
+   },
+   "patterns": [
+    "cpf",
+    "compte personnel de formation",
+    "cpf transition"
+   ],
+   "category": "norme",
+   "topics": [
+    "rh",
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "formation-professionnelle",
+    "opc",
+    "plan-developpement-competences"
+   ],
+   "jobs": [
+    "Chargé de formation",
+    "Responsable formation",
+    "Assistant RH"
+   ]
+  },
+  {
+   "id": "opc",
+   "label": {
+    "fr": "OPCO / France Compétences",
+    "en": "OPCO / training bodies",
+    "ar": "OPCO",
+    "ru": "OPCO"
+   },
+   "patterns": [
+    "opco",
+    "opca",
+    "france competences",
+    "fne formation",
+    "akto",
+    "uniformation",
+    "atlas"
+   ],
+   "category": "norme",
+   "topics": [
+    "rh",
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "formation-professionnelle",
+    "cpf",
+    "plan-developpement-competences"
+   ],
+   "jobs": [
+    "Chargé de formation",
+    "Responsable formation",
+    "Consultant formation"
+   ]
+  },
+  {
+   "id": "controle-gestion-sociale",
+   "label": {
+    "fr": "Contrôle de gestion sociale",
+    "en": "HR controlling",
+    "ar": "الرقابة على التسيير الاجتماعي",
+    "ru": "HR-контроллинг"
+   },
+   "patterns": [
+    "controle de gestion sociale",
+    "hr controlling",
+    "social controlling",
+    "hr контроллинг"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "finance",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "reporting-rh",
+    "masse-salariale",
+    "budget-rh",
+    "kpi-rh"
+   ],
+   "jobs": [
+    "Contrôleur de gestion sociale",
+    "HR Analyst",
+    "Responsable reporting RH"
+   ]
+  },
+  {
+   "id": "reporting-rh",
+   "label": {
+    "fr": "Reporting RH / Tableaux de bord",
+    "en": "HR reporting & dashboards",
+    "ar": "تقارير الموارد البشرية",
+    "ru": "HR-отчётность"
+   },
+   "patterns": [
+    "reporting rh",
+    "tableau de bord rh",
+    "hr dashboard",
+    "hr reporting",
+    "hr отчётность",
+    "отчётность"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "kpi-rh",
+    "controle-gestion-sociale",
+    "power-bi-rh",
+    "bilan-social"
+   ],
+   "jobs": [
+    "HR Analyst",
+    "Contrôleur de gestion sociale",
+    "Responsable RH"
+   ]
+  },
+  {
+   "id": "kpi-rh",
+   "label": {
+    "fr": "KPI RH et indicateurs sociaux",
+    "en": "HR KPIs",
+    "ar": "مؤشرات الأداء للموارد البشرية",
+    "ru": "HR KPI"
+   },
+   "patterns": [
+    "kpi rh",
+    "indicateurs rh",
+    "hr kpi",
+    "hr metrics",
+    "taux de turnover",
+    "taux d absentéisme",
+    "kpi"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "reporting-rh",
+    "controle-gestion-sociale",
+    "people-analytics"
+   ],
+   "jobs": [
+    "HR Analyst",
+    "Contrôleur de gestion sociale",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "masse-salariale",
+   "label": {
+    "fr": "Pilotage de la masse salariale",
+    "en": "Payroll cost management",
+    "ar": "إدارة كتلة الأجور",
+    "ru": "управление ФОТ"
+   },
+   "patterns": [
+    "masse salariale",
+    "payroll cost",
+    "fot",
+    "фонд оплаты труда",
+    "كتلة الأجور"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "budget-rh",
+    "controle-gestion-sociale",
+    "remuneration",
+    "compensation-benefits"
+   ],
+   "jobs": [
+    "Contrôleur de gestion sociale",
+    "DRH",
+    "Responsable rémunération"
+   ]
+  },
+  {
+   "id": "budget-rh",
+   "label": {
+    "fr": "Budget RH et prévisions",
+    "en": "HR budgeting",
+    "ar": "ميزانية الموارد البشرية",
+    "ru": "бюджет HR"
+   },
+   "patterns": [
+    "budget rh",
+    "hr budget",
+    "previsions rh",
+    "budget formation",
+    "бюджет"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "masse-salariale",
+    "controle-gestion-sociale",
+    "reporting-rh"
+   ],
+   "jobs": [
+    "DRH",
+    "Contrôleur de gestion sociale",
+    "HRBP Senior"
+   ]
+  },
+  {
+   "id": "bilan-social",
+   "label": {
+    "fr": "Bilan social et BDESE",
+    "en": "Social report & BDESE",
+    "ar": "التقرير الاجتماعي",
+    "ru": "социальный отчёт"
+   },
+   "patterns": [
+    "bilan social",
+    "bdes",
+    "bde se",
+    "base de donnees economiques et sociales",
+    "социальный отчёт"
+   ],
+   "category": "norme",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "cse",
+    "reporting-rh",
+    "rse",
+    "index-egalite"
+   ],
+   "jobs": [
+    "Responsable relations sociales",
+    "Juriste droit social",
+    "DRH"
+   ]
+  },
+  {
+   "id": "index-egalite",
+   "label": {
+    "fr": "Index égalité professionnelle H/F",
+    "en": "Gender equality index",
+    "ar": "مؤشر المساواة المهنية",
+    "ru": "индекс гендерного равенства"
+   },
+   "patterns": [
+    "index egalite",
+    "index egalite professionnelle",
+    "ecart de remuneration",
+    "gender pay gap",
+    "gender equality"
+   ],
+   "category": "norme",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "rse",
+    "bilan-social",
+    "bdes",
+    "remuneration"
+   ],
+   "jobs": [
+    "Responsable RSE",
+    "HRBP",
+    "Juriste droit social"
+   ]
+  },
+  {
+   "id": "rgpd-rh",
+   "label": {
+    "fr": "RGPD appliqué aux RH",
+    "en": "GDPR for HR",
+    "ar": "حماية بيانات الموظفين",
+    "ru": "GDPR для HR"
+   },
+   "patterns": [
+    "rgpd rh",
+    "gdpr hr",
+    "donnees personnelles rh",
+    "protection donnees rh",
+    "cnil"
+   ],
+   "category": "norme",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "sirh",
+    "administration-personnel",
+    "droit-travail"
+   ],
+   "jobs": [
+    "DPO",
+    "Responsable SIRH",
+    "Juriste droit social"
+   ]
+  },
+  {
+   "id": "contentieux-prudhomaux",
+   "label": {
+    "fr": "Contentieux prud'homaux",
+    "en": "Employment litigation",
+    "ar": "النزاعات العمالية",
+    "ru": "трудовые споры"
+   },
+   "patterns": [
+    "prudhommes",
+    "prud hommes",
+    "contentieux prudhomaux",
+    "employment litigation",
+    "трудовой спор",
+    "نزاع عمالي"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "droit-travail",
+    "offboarding",
+    "relations-sociales"
+   ],
+   "jobs": [
+    "Juriste droit social",
+    "Responsable relations sociales",
+    "Avocat droit social"
+   ]
+  },
+  {
+   "id": "gestion-carrieres",
+   "label": {
+    "fr": "Gestion des carrières",
+    "en": "Career management",
+    "ar": "إدارة المسارات المهنية",
+    "ru": "управление карьерой"
+   },
+   "patterns": [
+    "gestion des carrieres",
+    "career management",
+    "career path",
+    "parcours professionnel",
+    "управление карьерой"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "gpec",
+    "mobilite-interne",
+    "succession-planning",
+    "talent-management"
+   ],
+   "jobs": [
+    "Responsable développement RH",
+    "Talent Manager",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "mobilite-interne",
+   "label": {
+    "fr": "Mobilité interne",
+    "en": "Internal mobility",
+    "ar": "الحراك الداخلي",
+    "ru": "внутренняя мобильность"
+   },
+   "patterns": [
+    "mobilite interne",
+    "internal mobility",
+    "job rotation",
+    "mutation interne"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-carrieres",
+    "gpec",
+    "talent-management",
+    "recrutement"
+   ],
+   "jobs": [
+    "Talent Manager",
+    "Responsable développement RH",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "succession-planning",
+   "label": {
+    "fr": "Plan de succession",
+    "en": "Succession planning",
+    "ar": "التخطيط للخلافة",
+    "ru": "кадровый резерв"
+   },
+   "patterns": [
+    "succession planning",
+    "plan de succession",
+    "pipeline de talents",
+    "high potentials",
+    "hi po",
+    "hipo",
+    "кадровый резерв"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh"
+   ],
+   "level": "specialise",
+   "related": [
+    "talent-management",
+    "gestion-carrieres",
+    "assessment-center",
+    "gpec"
+   ],
+   "jobs": [
+    "Talent Manager",
+    "Responsable développement RH",
+    "DRH"
+   ]
+  },
+  {
+   "id": "talent-management",
+   "label": {
+    "fr": "Talent management",
+    "en": "Talent management",
+    "ar": "إدارة المواهب",
+    "ru": "управление талантами"
+   },
+   "patterns": [
+    "talent management",
+    "gestion des talents",
+    "talent review",
+    "9 box",
+    "nine box",
+    "управление талантами"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-carrieres",
+    "succession-planning",
+    "gpec",
+    "evaluation-360"
+   ],
+   "jobs": [
+    "Talent Manager",
+    "Responsable développement RH",
+    "HRBP Senior"
+   ]
+  },
+  {
+   "id": "performance-management",
+   "label": {
+    "fr": "Gestion de la performance",
+    "en": "Performance management",
+    "ar": "إدارة الأداء",
+    "ru": "управление эффективностью"
+   },
+   "patterns": [
+    "performance management",
+    "gestion de la performance",
+    "okr",
+    "mb o",
+    "mbo",
+    "objectifs",
+    "управление эффективностью"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "entretiens-annuels",
+    "evaluation-360",
+    "kpi-rh",
+    "talent-management"
+   ],
+   "jobs": [
+    "HRBP",
+    "Responsable développement RH",
+    "DRH"
+   ]
+  },
+  {
+   "id": "hr-business-partner",
+   "label": {
+    "fr": "Posture HR Business Partner",
+    "en": "HR Business Partner",
+    "ar": "شريك أعمال الموارد البشرية",
+    "ru": "HR Business Partner"
+   },
+   "patterns": [
+    "hrbp",
+    "hr business partner",
+    "hrbp senior",
+    "business partner rh"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "relations-sociales",
+    "talent-management",
+    "conduite-changement",
+    "remuneration"
+   ],
+   "jobs": [
+    "HRBP",
+    "HRBP Senior",
+    "DRH adjoint"
+   ]
+  },
+  {
+   "id": "sirh",
+   "label": {
+    "fr": "SIRH (Système d'Information RH)",
+    "en": "HRIS",
+    "ar": "نظم معلومات الموارد البشرية",
+    "ru": "HRIS"
+   },
+   "patterns": [
+    "sirh",
+    "hris",
+    "hr information system",
+    "moa rh",
+    "amoa rh",
+    "chef de projet sirh"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "workday",
+    "sap-successfactors",
+    "oracle-hcm",
+    "rgpd-rh"
+   ],
+   "jobs": [
+    "Responsable SIRH",
+    "Chef de projet SIRH",
+    "MOA RH"
+   ]
+  },
+  {
+   "id": "ats",
+   "label": {
+    "fr": "ATS (Applicant Tracking System)",
+    "en": "ATS",
+    "ar": "نظام تتبع المرشحين",
+    "ru": "ATS"
+   },
+   "patterns": [
+    "ats",
+    "applicant tracking system",
+    "logiciel de recrutement",
+    "система подбора"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "workable",
+    "greenhouse",
+    "lever",
+    "smartrecruiters"
+   ],
+   "jobs": [
+    "Chargé de recrutement",
+    "Talent Acquisition Manager",
+    "Responsable recrutement"
+   ]
+  },
+  {
+   "id": "lms",
+   "label": {
+    "fr": "LMS (Learning Management System)",
+    "en": "LMS",
+    "ar": "نظام إدارة التعلم",
+    "ru": "LMS"
+   },
+   "patterns": [
+    "lms",
+    "learning management system",
+    "plateforme elearning",
+    "e learning"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "360learning",
+    "cornerstone",
+    "moodle",
+    "formation-professionnelle"
+   ],
+   "jobs": [
+    "Digital Learning Manager",
+    "Responsable formation",
+    "Ingénieur pédagogique"
+   ]
+  },
+  {
+   "id": "analyse-donnees-rh",
+   "label": {
+    "fr": "Analyse de données RH",
+    "en": "HR data analysis",
+    "ar": "تحليل بيانات الموارد البشرية",
+    "ru": "HR-аналитика"
+   },
+   "patterns": [
+    "analyse rh",
+    "hr data analysis",
+    "hr analytics",
+    "analyse donnees rh",
+    "hr аналитика"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "people-analytics",
+    "kpi-rh",
+    "reporting-rh",
+    "excel-rh"
+   ],
+   "jobs": [
+    "HR Analyst",
+    "People Analyst",
+    "Contrôleur de gestion sociale"
+   ]
+  },
+  {
+   "id": "people-analytics",
+   "label": {
+    "fr": "People Analytics",
+    "en": "People Analytics",
+    "ar": "تحليلات الموارد البشرية",
+    "ru": "People Analytics"
+   },
+   "patterns": [
+    "people analytics",
+    "workforce analytics",
+    "hr analytics avance",
+    "predictive hr"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh",
+    "data",
+    "ai"
+   ],
+   "level": "specialise",
+   "related": [
+    "analyse-donnees-rh",
+    "power-bi-rh",
+    "qualtrics",
+    "kpi-rh"
+   ],
+   "jobs": [
+    "People Analytics Manager",
+    "HR Data Scientist",
+    "HR Analyst Senior"
+   ]
+  },
+  {
+   "id": "conduite-changement",
+   "label": {
+    "fr": "Conduite du changement RH",
+    "en": "HR change management",
+    "ar": "إدارة التغيير",
+    "ru": "управление изменениями"
+   },
+   "patterns": [
+    "conduite du changement",
+    "change management",
+    "transformation rh",
+    "управление изменениями"
+   ],
+   "category": "transverse",
+   "topics": [
+    "rh",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "hr-business-partner",
+    "communication-rh",
+    "sirh",
+    "qvt"
+   ],
+   "jobs": [
+    "Chef de projet transformation RH",
+    "HRBP",
+    "Consultant RH"
+   ]
+  },
+  {
+   "id": "communication-rh",
+   "label": {
+    "fr": "Communication RH interne",
+    "en": "Internal HR communication",
+    "ar": "التواصل الداخلي للموارد البشرية",
+    "ru": "HR-коммуникации"
+   },
+   "patterns": [
+    "communication rh",
+    "communication interne",
+    "hr communication",
+    "intranet rh",
+    "newsletter rh"
+   ],
+   "category": "transverse",
+   "topics": [
+    "rh",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "marque-employeur",
+    "conduite-changement",
+    "qvt"
+   ],
+   "jobs": [
+    "Chargé de communication RH",
+    "Responsable marque employeur",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "confidentialite-rh",
+   "label": {
+    "fr": "Confidentialité et déontologie RH",
+    "en": "HR confidentiality & ethics",
+    "ar": "سرية الموارد البشرية",
+    "ru": "конфиденциальность HR"
+   },
+   "patterns": [
+    "confidentialite rh",
+    "deontologie rh",
+    "secret professionnel",
+    "hr ethics",
+    "конфиденциальность"
+   ],
+   "category": "transverse",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "rgpd-rh",
+    "droit-travail",
+    "administration-personnel"
+   ],
+   "jobs": [
+    "DRH",
+    "HRBP",
+    "Responsable RH"
+   ]
+  },
+  {
+   "id": "anglais-rh",
+   "label": {
+    "fr": "Anglais RH professionnel",
+    "en": "Professional HR English",
+    "ar": "اللغة الإنجليزية للموارد البشرية",
+    "ru": "английский для HR"
+   },
+   "patterns": [
+    "anglais courant",
+    "english fluent",
+    "bilingual english",
+    "anglais rh",
+    "английский"
+   ],
+   "category": "langue",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "hr-business-partner",
+    "recrutement",
+    "sirh"
+   ],
+   "jobs": [
+    "HRBP international",
+    "Talent Acquisition international",
+    "DRH groupe"
+   ]
+  },
+  {
+   "id": "droit-protection-sociale",
+   "label": {
+    "fr": "Droit de la protection sociale",
+    "en": "Social protection law",
+    "ar": "قانون الحماية الاجتماعية",
+    "ru": "право соцзащиты"
+   },
+   "patterns": [
+    "protection sociale",
+    "securite sociale",
+    "prestation sociales",
+    "assurance maladie",
+    "соцзащита"
+   ],
+   "category": "norme",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "droit-travail",
+    "cotisations-sociales",
+    "urssaf",
+    "avantages-sociaux"
+   ],
+   "jobs": [
+    "Juriste droit social",
+    "Responsable paie",
+    "Gestionnaire paie"
+   ]
+  },
+  {
+   "id": "audit-social",
+   "label": {
+    "fr": "Audit social",
+    "en": "HR audit",
+    "ar": "التدقيق الاجتماعي",
+    "ru": "HR-аудит"
+   },
+   "patterns": [
+    "audit social",
+    "hr audit",
+    "audit rh",
+    "due diligence sociale",
+    "audit compliance rh"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh",
+    "consulting",
+    "juridique"
+   ],
+   "level": "specialise",
+   "related": [
+    "droit-travail",
+    "controle-gestion-sociale",
+    "bilan-social"
+   ],
+   "jobs": [
+    "Auditeur social",
+    "Consultant RH",
+    "Juriste droit social senior"
+   ]
+  },
+  {
+   "id": "iso-30414",
+   "label": {
+    "fr": "ISO 30414 (reporting capital humain)",
+    "en": "ISO 30414 human capital reporting",
+    "ar": "ISO 30414",
+    "ru": "ISO 30414"
+   },
+   "patterns": [
+    "iso 30414",
+    "human capital reporting",
+    "reporting capital humain"
+   ],
+   "category": "norme",
+   "topics": [
+    "rh",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "bilan-social",
+    "rse",
+    "reporting-rh",
+    "kpi-rh"
+   ],
+   "jobs": [
+    "DRH",
+    "Responsable RSE",
+    "Consultant RH senior"
+   ]
+  },
+  {
+   "id": "psychologie-travail",
+   "label": {
+    "fr": "Psychologie du travail / RPS",
+    "en": "Occupational psychology / WRS",
+    "ar": "علم النفس المهني",
+    "ru": "психология труда"
+   },
+   "patterns": [
+    "psychologie du travail",
+    "rps",
+    "risques psychosociaux",
+    "burnout",
+    "souffrance au travail",
+    "психология труда"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "qvt",
+    "sante-travail",
+    "relations-sociales",
+    "cse"
+   ],
+   "jobs": [
+    "Psychologue du travail",
+    "Responsable QVT",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "sante-travail",
+   "label": {
+    "fr": "Santé au travail et médecine préventive",
+    "en": "Occupational health",
+    "ar": "الصحة المهنية",
+    "ru": "охрана труда"
+   },
+   "patterns": [
+    "sante au travail",
+    "medecine du travail",
+    "duerp",
+    "prevention sante",
+    "охрана труда",
+    "مهنیة الصحة"
+   ],
+   "category": "norme",
+   "topics": [
+    "rh",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "qvt",
+    "psychologie-travail",
+    "gestion-absences",
+    "droit-travail"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "HRBP",
+    "Responsable QVT"
+   ]
+  },
+  {
+   "id": "bilan-competences",
+   "label": {
+    "fr": "Bilan de compétences",
+    "en": "Skills assessment",
+    "ar": "تقييم الكفاءات",
+    "ru": "оценка компетенций"
+   },
+   "patterns": [
+    "bilan de competences",
+    "skills assessment",
+    "outplacement",
+    "reclassement"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-carrieres",
+    "gpec",
+    "plan-developpement-competences",
+    "mobilite-interne"
+   ],
+   "jobs": [
+    "Consultant bilan de compétences",
+    "Outplacement consultant",
+    "Psychologue du travail"
+   ]
+  },
+  {
+   "id": "gestion-temps-travail",
+   "label": {
+    "fr": "Gestion du temps de travail",
+    "en": "Working time management",
+    "ar": "إدارة وقت العمل",
+    "ru": "учёт рабочего времени"
+   },
+   "patterns": [
+    "temps de travail",
+    "horaires variables",
+    "forfait jours",
+    "forfait heures",
+    "annualisation",
+    "35 heures",
+    "учёт рабочего времени"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "gestion-absences",
+    "paie",
+    "conges-rtt",
+    "droit-travail"
+   ],
+   "jobs": [
+    "Gestionnaire RH",
+    "Responsable paie",
+    "Assistant administration du personnel"
+   ]
+  },
+  {
+   "id": "expatriation",
+   "label": {
+    "fr": "Mobilité internationale / Expatriation",
+    "en": "Global mobility / expatriation",
+    "ar": "إدارة التنقل الدولي",
+    "ru": "международная мобильность"
+   },
+   "patterns": [
+    "mobilite internationale",
+    "expatriation",
+    "impatriation",
+    "global mobility",
+    "detachement",
+    "международная мобильность"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "specialise",
+   "related": [
+    "droit-travail",
+    "administration-personnel",
+    "anglais-rh",
+    "compensation-benefits"
+   ],
+   "jobs": [
+    "Responsable mobilité internationale",
+    "Global Mobility Manager",
+    "HRBP international"
+   ]
+  },
+  {
+   "id": "recrutement-international",
+   "label": {
+    "fr": "Recrutement international",
+    "en": "International recruitment",
+    "ar": "التوظيف الدولي",
+    "ru": "международный подбор"
+   },
+   "patterns": [
+    "recrutement international",
+    "international hiring",
+    "global talent acquisition",
+    "visa sponsorship"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "recrutement",
+    "expatriation",
+    "anglais-rh",
+    "sourcing"
+   ],
+   "jobs": [
+    "International Recruiter",
+    "Talent Acquisition Manager",
+    "Global TA"
+   ]
+  },
+  {
+   "id": "participation-interessement",
+   "label": {
+    "fr": "Participation, intéressement et épargne salariale",
+    "en": "Profit sharing & employee savings",
+    "ar": "المشاركة في الأرباح",
+    "ru": "участие в прибыли"
+   },
+   "patterns": [
+    "participation",
+    "interessement",
+    "pargne salariale",
+    "pee",
+    "perco",
+    "per",
+    "abondement",
+    "profit sharing"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "avantages-sociaux",
+    "remuneration",
+    "compensation-benefits",
+    "paie"
+   ],
+   "jobs": [
+    "Responsable rémunération",
+    "Compensation & Benefits Manager",
+    "Gestionnaire paie"
+   ]
+  },
+  {
+   "id": "discrimination-non",
+   "label": {
+    "fr": "Non-discrimination et inclusion",
+    "en": "DEI / non-discrimination",
+    "ar": "عدم التمييز",
+    "ru": "недискриминация"
+   },
+   "patterns": [
+    "non discrimination",
+    "diversite",
+    "inclusion",
+    "handicap",
+    "mission handicap",
+    "recoth",
+    "de i",
+    "разнообразие"
+   ],
+   "category": "norme",
+   "topics": [
+    "rh",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "rse",
+    "index-egalite",
+    "qvt",
+    "marque-employeur"
+   ],
+   "jobs": [
+    "Responsable diversité",
+    "Chargé de mission handicap",
+    "Responsable RSE"
+   ]
+  },
+  {
+   "id": "formation-digitale",
+   "label": {
+    "fr": "Digital learning / e-learning",
+    "en": "Digital learning",
+    "ar": "التعلم الرقمي",
+    "ru": "digital learning"
+   },
+   "patterns": [
+    "digital learning",
+    "e learning",
+    "elearning",
+    "mooc",
+    "formation a distance",
+    "blended learning",
+    "microlearning"
+   ],
+   "category": "methode",
+   "topics": [
+    "rh",
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "lms",
+    "360learning",
+    "formation-professionnelle",
+    "moodle"
+   ],
+   "jobs": [
+    "Digital Learning Manager",
+    "Ingénieur pédagogique",
+    "Responsable formation"
+   ]
+  },
+  {
+   "id": "gestion-paie-internationale",
+   "label": {
+    "fr": "Paie internationale / Global payroll",
+    "en": "Global payroll",
+    "ar": "إدارة الرواتب الدولية",
+    "ru": "международный расчёт зарплат"
+   },
+   "patterns": [
+    "paie internationale",
+    "global payroll",
+    "multi country payroll",
+    "international payroll"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "paie",
+    "expatriation",
+    "adp",
+    "anglais-rh"
+   ],
+   "jobs": [
+    "Global Payroll Manager",
+    "Responsable paie internationale",
+    "HR Operations Manager"
+   ]
+  },
+  {
+   "id": "outils-collaboratifs",
+   "label": {
+    "fr": "Outils collaboratifs RH (Slack, Teams, Notion)",
+    "en": "Collaborative tools for HR",
+    "ar": "أدوات التعاون",
+    "ru": "инструменты коллаборации"
+   },
+   "patterns": [
+    "slack",
+    "microsoft teams",
+    "notion",
+    "trello",
+    "asana",
+    "monday",
+    "clickup"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "sirh",
+    "onboarding",
+    "communication-rh"
+   ],
+   "jobs": [
+    "HR Operations",
+    "Office Manager",
+    "HRBP"
+   ]
+  },
+  {
+   "id": "soft-skills-rh",
+   "label": {
+    "fr": "Soft skills RH (écoute, empathie, diplomatie)",
+    "en": "HR soft skills",
+    "ar": "المهارات السلوكية للموارد البشرية",
+    "ru": "soft skills HR"
+   },
+   "patterns": [
+    "ecoute active",
+    "empathie",
+    "diplomatie",
+    "intelligence emotionnelle",
+    "active listening",
+    "emotional intelligence"
+   ],
+   "category": "transverse",
+   "topics": [
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "hr-business-partner",
+    "relations-sociales",
+    "qvt"
+   ],
+   "jobs": [
+    "HRBP",
+    "Responsable RH",
+    "DRH"
+   ]
+  }
+ ]
+}

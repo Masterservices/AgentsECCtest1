@@ -1,0 +1,2598 @@
+{
+ "sector": "Progiciels de gestion intégrés (ERP) et systèmes d'information de gestion",
+ "key": "erp",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "sap-s4hana",
+   "label": {
+    "fr": "SAP S/4HANA",
+    "en": "SAP S/4HANA",
+    "ar": "SAP S/4HANA",
+    "ru": "SAP S/4HANA"
+   },
+   "patterns": [
+    "sap s4hana",
+    "s4hana",
+    "s/4 hana",
+    "suite s4",
+    "نظام s4hana",
+    "внедрен s4hana"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-ecc",
+    "sap-fico",
+    "sap-fiori",
+    "sap-activate",
+    "sap-hana"
+   ],
+   "jobs": [
+    "Consultant SAP S/4HANA",
+    "Architecte ERP",
+    "Chef de projet ERP"
+   ]
+  },
+  {
+   "id": "sap-ecc",
+   "label": {
+    "fr": "SAP ECC",
+    "en": "SAP ECC",
+    "ar": "SAP ECC",
+    "ru": "SAP ECC"
+   },
+   "patterns": [
+    "sap ecc",
+    "sap erp",
+    "ecc 6.0",
+    "sap r/3",
+    "نظام ecc",
+    "систем ecc"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-s4hana",
+    "sap-fico",
+    "sap-mm",
+    "sap-sd",
+    "sap-abap"
+   ],
+   "jobs": [
+    "Consultant SAP ERP",
+    "Responsable applicatif SAP",
+    "Chef de projet MOE"
+   ]
+  },
+  {
+   "id": "sap-fico",
+   "label": {
+    "fr": "SAP FI/CO",
+    "en": "SAP FI/CO",
+    "ar": "SAP FI/CO",
+    "ru": "SAP FI/CO"
+   },
+   "patterns": [
+    "sap fico",
+    "fico",
+    "financial accounting",
+    "controlling",
+    "محاسب مالي",
+    "финансов учет"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-ecc",
+    "sap-s4hana",
+    "financial-consolidation",
+    "sox-compliance",
+    "sap-bpc"
+   ],
+   "jobs": [
+    "Consultant SAP FI/CO",
+    "Responsable comptable ERP",
+    "Auditeur SI"
+   ]
+  },
+  {
+   "id": "sap-mm",
+   "label": {
+    "fr": "SAP MM",
+    "en": "SAP MM",
+    "ar": "SAP MM",
+    "ru": "SAP MM"
+   },
+   "patterns": [
+    "sap mm",
+    "materials management",
+    "gestion des articles",
+    "ادار المواد",
+    "управлен материалами"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-ecc",
+    "sap-sd",
+    "supply-chain-management",
+    "mrp",
+    "sap-ewm"
+   ],
+   "jobs": [
+    "Consultant SAP MM",
+    "Responsable Supply Chain",
+    "Acheteur ERP"
+   ]
+  },
+  {
+   "id": "sap-sd",
+   "label": {
+    "fr": "SAP SD",
+    "en": "SAP SD",
+    "ar": "SAP SD",
+    "ru": "SAP SD"
+   },
+   "patterns": [
+    "sap sd",
+    "sales and distribution",
+    "ventes et distribution",
+    "المبيعات والتوزيع",
+    "сбыт"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-mm",
+    "sap-fico",
+    "sap-ecc",
+    "sap-s4hana",
+    "edi"
+   ],
+   "jobs": [
+    "Consultant SAP SD",
+    "Responsable Administration des Ventes",
+    "Chef de projet CRM/ERP"
+   ]
+  },
+  {
+   "id": "sap-hcm",
+   "label": {
+    "fr": "SAP HCM",
+    "en": "SAP HCM",
+    "ar": "SAP HCM",
+    "ru": "SAP HCM"
+   },
+   "patterns": [
+    "sap hcm",
+    "human capital management",
+    "gestion du capital humain",
+    "ادار الموارد البشري",
+    "управлен персоналом"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-successfactors",
+    "workday",
+    "peoplesoft",
+    "sap-ecc",
+    "sap-fiori"
+   ],
+   "jobs": [
+    "Consultant SAP HCM",
+    "Responsable Paie et SIRH",
+    "Chef de projet RH"
+   ]
+  },
+  {
+   "id": "sap-abap",
+   "label": {
+    "fr": "ABAP",
+    "en": "ABAP",
+    "ar": "ABAP",
+    "ru": "ABAP"
+   },
+   "patterns": [
+    "abap",
+    "sap abap",
+    "abap oo",
+    "abap development",
+    "برمجة abap",
+    "разработк abap"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "data",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "sap-ecc",
+    "sap-s4hana",
+    "sap-basis",
+    "sap-fiori",
+    "sql"
+   ],
+   "jobs": [
+    "Développeur ABAP",
+    "Consultant technique SAP",
+    "Architecte technique ERP"
+   ]
+  },
+  {
+   "id": "sap-basis",
+   "label": {
+    "fr": "SAP Basis",
+    "en": "SAP Basis",
+    "ar": "SAP Basis",
+    "ru": "SAP Basis"
+   },
+   "patterns": [
+    "sap basis",
+    "basis administration",
+    "netweaver",
+    "ادار نظام sap",
+    "администрирован basis"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "sap-hana",
+    "sap-ecc",
+    "sap-s4hana",
+    "oracle-database",
+    "sap-abap"
+   ],
+   "jobs": [
+    "Administrateur SAP Basis",
+    "Ingénieur système SAP",
+    "Architecte infrastructure ERP"
+   ]
+  },
+  {
+   "id": "sap-bw",
+   "label": {
+    "fr": "SAP BW",
+    "en": "SAP BW",
+    "ar": "SAP BW",
+    "ru": "SAP BW"
+   },
+   "patterns": [
+    "sap bw",
+    "business warehouse",
+    "data warehousing",
+    "مستودع البيانات",
+    "хранилищ данных"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-analytics-cloud",
+    "sap-hana",
+    "talend-etl",
+    "sql",
+    "sap-bpc"
+   ],
+   "jobs": [
+    "Consultant SAP BW",
+    "Architecte Data",
+    "Ingénieur BI"
+   ]
+  },
+  {
+   "id": "sap-analytics-cloud",
+   "label": {
+    "fr": "SAP Analytics Cloud",
+    "en": "SAP Analytics Cloud",
+    "ar": "SAP Analytics Cloud",
+    "ru": "SAP Analytics Cloud"
+   },
+   "patterns": [
+    "sap analytics cloud",
+    "sac",
+    "sap sac",
+    "تحليلات سحابية",
+    "облачн аналитик sap"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-bw",
+    "power-bi",
+    "tableau-software",
+    "sap-bpc",
+    "sap-s4hana"
+   ],
+   "jobs": [
+    "Consultant BI",
+    "Data Analyst",
+    "Contrôleur de gestion"
+   ]
+  },
+  {
+   "id": "sap-fiori",
+   "label": {
+    "fr": "SAP Fiori",
+    "en": "SAP Fiori",
+    "ar": "SAP Fiori",
+    "ru": "SAP Fiori"
+   },
+   "patterns": [
+    "sap fiori",
+    "fiori",
+    "sap ui5",
+    "واجهات fiori",
+    "интерфейс fiori"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "web",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-s4hana",
+    "sap-abap",
+    "sap-ecc",
+    "sap-hcm",
+    "sap-basis"
+   ],
+   "jobs": [
+    "Développeur Fiori",
+    "UX Designer ERP",
+    "Consultant SAP Front-end"
+   ]
+  },
+  {
+   "id": "sap-activate",
+   "label": {
+    "fr": "SAP Activate",
+    "en": "SAP Activate",
+    "ar": "SAP Activate",
+    "ru": "SAP Activate"
+   },
+   "patterns": [
+    "sap activate",
+    "activate methodology",
+    "منهجية activate",
+    "методолог activate"
+   ],
+   "category": "methode",
+   "topics": [
+    "project",
+    "consulting",
+    "erp"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-s4hana",
+    "erp-implementation",
+    "agile-scrum",
+    "pmp",
+    "functional-specifications"
+   ],
+   "jobs": [
+    "Chef de projet ERP",
+    "Directeur de projet SAP",
+    "Consultant Intégration"
+   ]
+  },
+  {
+   "id": "sap-successfactors",
+   "label": {
+    "fr": "SAP SuccessFactors",
+    "en": "SAP SuccessFactors",
+    "ar": "SAP SuccessFactors",
+    "ru": "SAP SuccessFactors"
+   },
+   "patterns": [
+    "sap successfactors",
+    "successfactors",
+    "sf",
+    "نظام successfactors",
+    "систем successfactors"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-hcm",
+    "workday",
+    "peoplesoft",
+    "oracle-fusion-cloud",
+    "user-training"
+   ],
+   "jobs": [
+    "Consultant SIRH",
+    "Chef de projet SuccessFactors",
+    "Responsable RH Digital"
+   ]
+  },
+  {
+   "id": "sap-ariba",
+   "label": {
+    "fr": "SAP Ariba",
+    "en": "SAP Ariba",
+    "ar": "SAP Ariba",
+    "ru": "SAP Ariba"
+   },
+   "patterns": [
+    "sap ariba",
+    "ariba",
+    "ariba procurement",
+    "منصة ariba",
+    "платформ ariba"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "logistique",
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "coupa",
+    "supply-chain-management",
+    "sap-mm",
+    "oracle-ebs",
+    "edi"
+   ],
+   "jobs": [
+    "Consultant Achats",
+    "Chef de projet Procurement",
+    "Responsable Approvisionnements"
+   ]
+  },
+  {
+   "id": "sap-ewm",
+   "label": {
+    "fr": "SAP EWM",
+    "en": "SAP EWM",
+    "ar": "SAP EWM",
+    "ru": "SAP EWM"
+   },
+   "patterns": [
+    "sap ewm",
+    "extended warehouse management",
+    "gestion dentrepot",
+    "ادار المستودعات",
+    "складск учет"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "logistique"
+   ],
+   "level": "specialise",
+   "related": [
+    "sap-mm",
+    "supply-chain-management",
+    "sap-s4hana",
+    "mrp",
+    "ifs-applications"
+   ],
+   "jobs": [
+    "Consultant Logistique",
+    "Chef de projet Supply Chain",
+    "Responsable Entrepôt"
+   ]
+  },
+  {
+   "id": "sap-mdg",
+   "label": {
+    "fr": "SAP MDG",
+    "en": "SAP MDG",
+    "ar": "SAP MDG",
+    "ru": "SAP MDG"
+   },
+   "patterns": [
+    "sap mdg",
+    "master data governance",
+    "gouvernance des donnees",
+    "حوكم البيانات",
+    "управлен мастер данными"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "data",
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "master-data-management",
+    "sap-s4hana",
+    "sap-mm",
+    "sap-fico",
+    "data-migration"
+   ],
+   "jobs": [
+    "Data Steward",
+    "Architecte Master Data",
+    "Consultant MDG"
+   ]
+  },
+  {
+   "id": "oracle-ebs",
+   "label": {
+    "fr": "Oracle EBS",
+    "en": "Oracle EBS",
+    "ar": "Oracle EBS",
+    "ru": "Oracle EBS"
+   },
+   "patterns": [
+    "oracle ebs",
+    "e-business suite",
+    "تطبيقات أوراكل",
+    "приложен oracle"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "oracle-fusion-cloud",
+    "jd-edwards",
+    "peoplesoft",
+    "sql",
+    "oracle-database"
+   ],
+   "jobs": [
+    "Consultant Oracle EBS",
+    "Chef de projet Oracle",
+    "Architecte applicatif"
+   ]
+  },
+  {
+   "id": "oracle-fusion-cloud",
+   "label": {
+    "fr": "Oracle Fusion Cloud",
+    "en": "Oracle Fusion Cloud",
+    "ar": "Oracle Fusion Cloud",
+    "ru": "Oracle Fusion Cloud"
+   },
+   "patterns": [
+    "oracle fusion cloud",
+    "fusion cloud",
+    "oracle cloud erp",
+    "سحابة أوراكل",
+    "облачн oracle"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "oracle-ebs",
+    "oracle-netsuite",
+    "workday",
+    "peoplesoft",
+    "financial-consolidation"
+   ],
+   "jobs": [
+    "Consultant Oracle Cloud",
+    "Architecte Cloud ERP",
+    "Directeur Financier"
+   ]
+  },
+  {
+   "id": "oracle-netsuite",
+   "label": {
+    "fr": "Oracle NetSuite",
+    "en": "Oracle NetSuite",
+    "ar": "Oracle NetSuite",
+    "ru": "Oracle NetSuite"
+   },
+   "patterns": [
+    "oracle netsuite",
+    "netsuite",
+    "netsuite erp",
+    "نظام netsuite",
+    "систем netsuite"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "oracle-fusion-cloud",
+    "sage-x3",
+    "microsoft-dynamics-365",
+    "odoo",
+    "financial-consolidation"
+   ],
+   "jobs": [
+    "Consultant NetSuite",
+    "Chef de projet ERP PME",
+    "Responsable Administratif et Financier"
+   ]
+  },
+  {
+   "id": "jd-edwards",
+   "label": {
+    "fr": "JD Edwards",
+    "en": "JD Edwards",
+    "ar": "JD Edwards",
+    "ru": "JD Edwards"
+   },
+   "patterns": [
+    "jd edwards",
+    "jdedwards",
+    "jde",
+    "جيه دي إدواردز",
+    "jd edwards"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "industrie",
+    "logistique"
+   ],
+   "level": "specialise",
+   "related": [
+    "oracle-ebs",
+    "peoplesoft",
+    "oracle-database",
+    "infor-cloudsuite",
+    "erp-implementation"
+   ],
+   "jobs": [
+    "Consultant JD Edwards",
+    "Ingénieur ERP",
+    "Responsable SI Industriel"
+   ]
+  },
+  {
+   "id": "peoplesoft",
+   "label": {
+    "fr": "PeopleSoft",
+    "en": "PeopleSoft",
+    "ar": "PeopleSoft",
+    "ru": "PeopleSoft"
+   },
+   "patterns": [
+    "peoplesoft",
+    "people soft",
+    "بيبل سوفت",
+    "peoplesoft"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "rh",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "oracle-ebs",
+    "jd-edwards",
+    "oracle-fusion-cloud",
+    "workday",
+    "sap-hcm"
+   ],
+   "jobs": [
+    "Consultant PeopleSoft",
+    "Chef de projet SIRH",
+    "Responsable Paie"
+   ]
+  },
+  {
+   "id": "microsoft-dynamics-365",
+   "label": {
+    "fr": "Microsoft Dynamics 365",
+    "en": "Microsoft Dynamics 365",
+    "ar": "Microsoft Dynamics 365",
+    "ru": "Microsoft Dynamics 365"
+   },
+   "patterns": [
+    "microsoft dynamics 365",
+    "dynamics 365",
+    "d365",
+    "dynamics f&o",
+    "نظام dynamics",
+    "систем dynamics"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "dynamics-nav",
+    "dynamics-ax",
+    "power-bi",
+    "x++",
+    "sql"
+   ],
+   "jobs": [
+    "Consultant Dynamics 365",
+    "Chef de projet Microsoft",
+    "Architecte Solutions ERP"
+   ]
+  },
+  {
+   "id": "dynamics-nav",
+   "label": {
+    "fr": "Dynamics NAV",
+    "en": "Dynamics NAV",
+    "ar": "Dynamics NAV",
+    "ru": "Dynamics NAV"
+   },
+   "patterns": [
+    "dynamics nav",
+    "navision",
+    "microsoft nav",
+    "نافيجن",
+    "navision"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "microsoft-dynamics-365",
+    "sage-x3",
+    "odoo",
+    "sql",
+    "x++"
+   ],
+   "jobs": [
+    "Consultant NAV",
+    "Intégrateur ERP",
+    "Responsable Comptable"
+   ]
+  },
+  {
+   "id": "dynamics-ax",
+   "label": {
+    "fr": "Dynamics AX",
+    "en": "Dynamics AX",
+    "ar": "Dynamics AX",
+    "ru": "Dynamics AX"
+   },
+   "patterns": [
+    "dynamics ax",
+    "axapta",
+    "microsoft ax",
+    "أكسابتا",
+    "axapta"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "industrie",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "microsoft-dynamics-365",
+    "dynamics-nav",
+    "x++",
+    "infor-cloudsuite",
+    "epicor"
+   ],
+   "jobs": [
+    "Consultant AX",
+    "Développeur X++",
+    "Chef de projet ERP Industriel"
+   ]
+  },
+  {
+   "id": "sage-x3",
+   "label": {
+    "fr": "Sage X3",
+    "en": "Sage X3",
+    "ar": "Sage X3",
+    "ru": "Sage X3"
+   },
+   "patterns": [
+    "sage x3",
+    "sage x 3",
+    "اداري sage",
+    "sage x3"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "industrie",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "odoo",
+    "microsoft-dynamics-365",
+    "dynamics-nav",
+    "oracle-netsuite",
+    "erp-implementation"
+   ],
+   "jobs": [
+    "Consultant Sage X3",
+    "Chef de projet ERP",
+    "Directeur Administratif et Financier"
+   ]
+  },
+  {
+   "id": "odoo",
+   "label": {
+    "fr": "Odoo",
+    "en": "Odoo",
+    "ar": "Odoo",
+    "ru": "Odoo"
+   },
+   "patterns": [
+    "odoo",
+    "open erp",
+    "odoo erp",
+    "اودو",
+    "оду"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "sage-x3",
+    "oracle-netsuite",
+    "microsoft-dynamics-365",
+    "sql",
+    "api-integration"
+   ],
+   "jobs": [
+    "Consultant Odoo",
+    "Intégrateur ERP",
+    "Développeur Python ERP"
+   ]
+  },
+  {
+   "id": "workday",
+   "label": {
+    "fr": "Workday",
+    "en": "Workday",
+    "ar": "Workday",
+    "ru": "Workday"
+   },
+   "patterns": [
+    "workday",
+    "work day",
+    "وورك دي",
+    "воркдей"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "rh",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-successfactors",
+    "peoplesoft",
+    "oracle-fusion-cloud",
+    "financial-consolidation",
+    "user-training"
+   ],
+   "jobs": [
+    "Consultant Workday",
+    "Responsable SIRH",
+    "Chef de projet RH"
+   ]
+  },
+  {
+   "id": "infor-cloudsuite",
+   "label": {
+    "fr": "Infor CloudSuite",
+    "en": "Infor CloudSuite",
+    "ar": "Infor CloudSuite",
+    "ru": "Infor CloudSuite"
+   },
+   "patterns": [
+    "infor cloudsuite",
+    "infor ln",
+    "infor m3",
+    "إنفور",
+    "infor"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "industrie",
+    "logistique"
+   ],
+   "level": "specialise",
+   "related": [
+    "epicor",
+    "ifs-applications",
+    "jd-edwards",
+    "supply-chain-management",
+    "mrp"
+   ],
+   "jobs": [
+    "Consultant Infor",
+    "Chef de projet SI Industriel",
+    "Responsable Supply Chain"
+   ]
+  },
+  {
+   "id": "epicor",
+   "label": {
+    "fr": "Epicor",
+    "en": "Epicor",
+    "ar": "Epicor",
+    "ru": "Epicor"
+   },
+   "patterns": [
+    "epicor",
+    "epicor erp",
+    "إبيكور",
+    "эпикор"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "industrie",
+    "btp"
+   ],
+   "level": "specialise",
+   "related": [
+    "infor-cloudsuite",
+    "ifs-applications",
+    "sage-x3",
+    "microsoft-dynamics-365",
+    "mrp"
+   ],
+   "jobs": [
+    "Consultant Epicor",
+    "Responsable SI",
+    "Directeur de production"
+   ]
+  },
+  {
+   "id": "ifs-applications",
+   "label": {
+    "fr": "IFS Applications",
+    "en": "IFS Applications",
+    "ar": "IFS Applications",
+    "ru": "IFS Applications"
+   },
+   "patterns": [
+    "ifs applications",
+    "ifs erp",
+    "آي إف إس",
+    "ifs"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "industrie",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "infor-cloudsuite",
+    "epicor",
+    "sap-s4hana",
+    "supply-chain-management",
+    "erp-implementation"
+   ],
+   "jobs": [
+    "Consultant IFS",
+    "Chef de projet ERP",
+    "Responsable Maintenance (GMAO)"
+   ]
+  },
+  {
+   "id": "power-bi",
+   "label": {
+    "fr": "Power BI",
+    "en": "Power BI",
+    "ar": "Power BI",
+    "ru": "Power BI"
+   },
+   "patterns": [
+    "power bi",
+    "powerbi",
+    "dax",
+    "باور بي",
+    "повер би"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "tableau-software",
+    "qlik-sense",
+    "sap-analytics-cloud",
+    "sql",
+    "microsoft-dynamics-365"
+   ],
+   "jobs": [
+    "Consultant BI",
+    "Data Analyst",
+    "Contrôleur de gestion"
+   ]
+  },
+  {
+   "id": "tableau-software",
+   "label": {
+    "fr": "Tableau",
+    "en": "Tableau",
+    "ar": "Tableau",
+    "ru": "Tableau"
+   },
+   "patterns": [
+    "tableau",
+    "tableau software",
+    "tableau desktop",
+    "تابلو",
+    "табло"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "power-bi",
+    "qlik-sense",
+    "sap-analytics-cloud",
+    "sql",
+    "data-migration"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Consultant Dataviz",
+    "Business Analyst"
+   ]
+  },
+  {
+   "id": "qlik-sense",
+   "label": {
+    "fr": "Qlik Sense",
+    "en": "Qlik Sense",
+    "ar": "Qlik Sense",
+    "ru": "Qlik Sense"
+   },
+   "patterns": [
+    "qlik sense",
+    "qlikview",
+    "qlik",
+    "كليك",
+    "клик"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "power-bi",
+    "tableau-software",
+    "sql",
+    "sap-bw",
+    "informatica"
+   ],
+   "jobs": [
+    "Développeur Qlik",
+    "Consultant BI",
+    "Architecte Décisionnel"
+   ]
+  },
+  {
+   "id": "sap-bpc",
+   "label": {
+    "fr": "SAP BPC",
+    "en": "SAP BPC",
+    "ar": "SAP BPC",
+    "ru": "SAP BPC"
+   },
+   "patterns": [
+    "sap bpc",
+    "business planning and consolidation",
+    "تخطيط الأعمال",
+    "планирован"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "finance",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "sap-analytics-cloud",
+    "oracle-hyperion",
+    "ibm-tm1",
+    "sap-fico",
+    "financial-consolidation"
+   ],
+   "jobs": [
+    "Consultant EPM",
+    "Responsable Consolidation",
+    "Contrôleur de gestion Groupe"
+   ]
+  },
+  {
+   "id": "oracle-hyperion",
+   "label": {
+    "fr": "Oracle Hyperion",
+    "en": "Oracle Hyperion",
+    "ar": "Oracle Hyperion",
+    "ru": "Oracle Hyperion"
+   },
+   "patterns": [
+    "hyperion",
+    "oracle hyperion",
+    "hfm",
+    "هايبريون",
+    "гиперион"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance",
+    "data",
+    "erp"
+   ],
+   "level": "specialise",
+   "related": [
+    "sap-bpc",
+    "ibm-tm1",
+    "financial-consolidation",
+    "oracle-ebs",
+    "oracle-fusion-cloud"
+   ],
+   "jobs": [
+    "Consultant Hyperion",
+    "Directeur Financier",
+    "Responsable Reporting Groupe"
+   ]
+  },
+  {
+   "id": "ibm-tm1",
+   "label": {
+    "fr": "IBM TM1",
+    "en": "IBM TM1",
+    "ar": "IBM TM1",
+    "ru": "IBM TM1"
+   },
+   "patterns": [
+    "tm1",
+    "ibm tm1",
+    "planning analytics",
+    "تحليلات التخطيط",
+    "аналитик планирован"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "oracle-hyperion",
+    "sap-bpc",
+    "financial-consolidation",
+    "sql",
+    "oracle-database"
+   ],
+   "jobs": [
+    "Consultant EPM",
+    "Contrôleur Financier",
+    "Architecte BI"
+   ]
+  },
+  {
+   "id": "talend-etl",
+   "label": {
+    "fr": "Talend",
+    "en": "Talend",
+    "ar": "Talend",
+    "ru": "Talend"
+   },
+   "patterns": [
+    "talend",
+    "talend etl",
+    "talend open studio",
+    "تاليند",
+    "таленд"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "informatica",
+    "sap-bw",
+    "sql",
+    "data-migration",
+    "master-data-management"
+   ],
+   "jobs": [
+    "Ingénieur ETL",
+    "Data Engineer",
+    "Consultant Intégration de données"
+   ]
+  },
+  {
+   "id": "informatica",
+   "label": {
+    "fr": "Informatica",
+    "en": "Informatica",
+    "ar": "Informatica",
+    "ru": "Informatica"
+   },
+   "patterns": [
+    "informatica",
+    "informatica powercenter",
+    "idata",
+    "информатика",
+    "informatica"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "talend-etl",
+    "sql",
+    "data-migration",
+    "oracle-database",
+    "master-data-management"
+   ],
+   "jobs": [
+    "Architecte Data",
+    "Ingénieur Informatica",
+    "Consultant MDM"
+   ]
+  },
+  {
+   "id": "sql",
+   "label": {
+    "fr": "SQL",
+    "en": "SQL",
+    "ar": "SQL",
+    "ru": "SQL"
+   },
+   "patterns": [
+    "sql",
+    "t-sql",
+    "plsql",
+    "لغة sql",
+    "скл"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "oracle-database",
+    "sap-hana",
+    "power-bi",
+    "talend-etl",
+    "informatica"
+   ],
+   "jobs": [
+    "Développeur SQL",
+    "Administrateur de bases de données",
+    "Data Analyst"
+   ]
+  },
+  {
+   "id": "sap-hana",
+   "label": {
+    "fr": "SAP HANA",
+    "en": "SAP HANA",
+    "ar": "SAP HANA",
+    "ru": "SAP HANA"
+   },
+   "patterns": [
+    "sap hana",
+    "hana",
+    "hana db",
+    "هانا",
+    "хана"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "erp",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-s4hana",
+    "sap-basis",
+    "sql",
+    "sap-bw",
+    "oracle-database"
+   ],
+   "jobs": [
+    "Administrateur HANA",
+    "Architecte Base de Données",
+    "Consultant Technique SAP"
+   ]
+  },
+  {
+   "id": "oracle-database",
+   "label": {
+    "fr": "Oracle Database",
+    "en": "Oracle Database",
+    "ar": "Oracle Database",
+    "ru": "Oracle Database"
+   },
+   "patterns": [
+    "oracle database",
+    "oracle db",
+    "oracledb",
+    "قاعدة بيانات أوراكل",
+    "база данных oracle"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "sql",
+    "sap-hana",
+    "oracle-ebs",
+    "peoplesoft",
+    "informatica"
+   ],
+   "jobs": [
+    "DBA Oracle",
+    "Architecte SGBD",
+    "Ingénieur Système"
+   ]
+  },
+  {
+   "id": "itil",
+   "label": {
+    "fr": "ITIL",
+    "en": "ITIL",
+    "ar": "ITIL",
+    "ru": "ITIL"
+   },
+   "patterns": [
+    "itil",
+    "it infrastructure library",
+    "مكتبة البنية التحتية",
+    "itil"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "project",
+    "erp"
+   ],
+   "level": "frequent",
+   "related": [
+    "servicenow",
+    "cobit",
+    "togaf",
+    "jira",
+    "moe"
+   ],
+   "jobs": [
+    "Responsable d'exploitation",
+    "Chef de projet ITSM",
+    "Consultant Organisation SI"
+   ]
+  },
+  {
+   "id": "agile-scrum",
+   "label": {
+    "fr": "Agile / Scrum",
+    "en": "Agile Scrum",
+    "ar": "Agile Scrum",
+    "ru": "Agile Scrum"
+   },
+   "patterns": [
+    "agile",
+    "scrum",
+    "agile scrum",
+    "منهجية اجيل",
+    "аджайл",
+    "скрам"
+   ],
+   "category": "methode",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "jira",
+    "pmp",
+    "prince2",
+    "sap-activate",
+    "functional-specifications"
+   ],
+   "jobs": [
+    "Scrum Master",
+    "Product Owner",
+    "Chef de projet Agile"
+   ]
+  },
+  {
+   "id": "pmp",
+   "label": {
+    "fr": "PMP",
+    "en": "PMP",
+    "ar": "PMP",
+    "ru": "PMP"
+   },
+   "patterns": [
+    "pmp",
+    "project management professional",
+    "pmi",
+    "إدارة المشاريع",
+    "управлен проектами"
+   ],
+   "category": "norme",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "prince2",
+    "agile-scrum",
+    "erp-implementation",
+    "change-management",
+    "amoa"
+   ],
+   "jobs": [
+    "Directeur de projet",
+    "PMO",
+    "Chef de projet ERP"
+   ]
+  },
+  {
+   "id": "prince2",
+   "label": {
+    "fr": "PRINCE2",
+    "en": "PRINCE2",
+    "ar": "PRINCE2",
+    "ru": "PRINCE2"
+   },
+   "patterns": [
+    "prince2",
+    "prince 2",
+    "برينس 2",
+    "принс 2"
+   ],
+   "category": "methode",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "pmp",
+    "agile-scrum",
+    "erp-implementation",
+    "amoa",
+    "moe"
+   ],
+   "jobs": [
+    "Chef de projet SI",
+    "Directeur de programme",
+    "Consultant PMO"
+   ]
+  },
+  {
+   "id": "bpmn",
+   "label": {
+    "fr": "BPMN",
+    "en": "BPMN",
+    "ar": "BPMN",
+    "ru": "BPMN"
+   },
+   "patterns": [
+    "bpmn",
+    "business process model and notation",
+    "نمذجة العمليات",
+    "моделирован процессов"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "business",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "uml",
+    "merise",
+    "business-process-reengineering",
+    "functional-specifications",
+    "celonis"
+   ],
+   "jobs": [
+    "Business Analyst",
+    "Consultant Processus",
+    "Architecte d'entreprise"
+   ]
+  },
+  {
+   "id": "uml",
+   "label": {
+    "fr": "UML",
+    "en": "UML",
+    "ar": "UML",
+    "ru": "UML"
+   },
+   "patterns": [
+    "uml",
+    "unified modeling language",
+    "لغة النمذجة الموحدة",
+    "uml"
+   ],
+   "category": "methode",
+   "topics": [
+    "engineering",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "bpmn",
+    "merise",
+    "functional-specifications",
+    "amoa",
+    "togaf"
+   ],
+   "jobs": [
+    "Architecte SI",
+    "Analyste Fonctionnel",
+    "Consultant MOA"
+   ]
+  },
+  {
+   "id": "merise",
+   "label": {
+    "fr": "Merise",
+    "en": "Merise",
+    "ar": "Merise",
+    "ru": "Merise"
+   },
+   "patterns": [
+    "merise",
+    "methode merise",
+    "طريقة ميريز",
+    "мериз"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "uml",
+    "bpmn",
+    "sql",
+    "oracle-database",
+    "amoa"
+   ],
+   "jobs": [
+    "Analyste Données",
+    "Architecte Base de Données",
+    "Consultant SI"
+   ]
+  },
+  {
+   "id": "amoa",
+   "label": {
+    "fr": "Assistance à maîtrise d'ouvrage",
+    "en": "Business Analysis",
+    "ar": "تحليل الأعمال",
+    "ru": "Бизнес-анализ"
+   },
+   "patterns": [
+    "amoa",
+    "assistance a maitrise douvrage",
+    "business analysis",
+    "تحليل",
+    "бизнес анализ",
+    "аналит"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "project",
+    "erp"
+   ],
+   "level": "courant",
+   "related": [
+    "moe",
+    "functional-specifications",
+    "bpmn",
+    "erp-implementation",
+    "business-process-reengineering"
+   ],
+   "jobs": [
+    "Consultant AMOA",
+    "Business Analyst ERP",
+    "Chef de projet MOA"
+   ]
+  },
+  {
+   "id": "moe",
+   "label": {
+    "fr": "Maîtrise d'œuvre",
+    "en": "Project Delivery",
+    "ar": "إدارة تنفيذ المشروع",
+    "ru": "Управление реализацией"
+   },
+   "patterns": [
+    "moe",
+    "maitrise doeuvre",
+    "project delivery",
+    "تنفيذ",
+    "реализац"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "project",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "amoa",
+    "erp-implementation",
+    "itil",
+    "agile-scrum",
+    "functional-specifications"
+   ],
+   "jobs": [
+    "Chef de projet MOE",
+    "Responsable d'Intégration",
+    "Directeur Technique"
+   ]
+  },
+  {
+   "id": "erp-implementation",
+   "label": {
+    "fr": "Implémentation ERP",
+    "en": "ERP Implementation",
+    "ar": "تطبيق أنظمة تخطيط الموارد",
+    "ru": "Внедрение ERP"
+   },
+   "patterns": [
+    "implementation erp",
+    "erp rollout",
+    "deploy erp",
+    "внедрен erp",
+    "تطبيق erp"
+   ],
+   "category": "metier",
+   "topics": [
+    "erp",
+    "project",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "sap-activate",
+    "pmp",
+    "amoa",
+    "moe",
+    "data-migration"
+   ],
+   "jobs": [
+    "Directeur de projet ERP",
+    "Chef de projet MOE",
+    "Consultant Intégration"
+   ]
+  },
+  {
+   "id": "data-migration",
+   "label": {
+    "fr": "Migration de données",
+    "en": "Data Migration",
+    "ar": "ترحيل البيانات",
+    "ru": "Миграция данных"
+   },
+   "patterns": [
+    "migration de donnees",
+    "data migration",
+    "etl migration",
+    "миграц данных",
+    "هجر البيانات"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "erp",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "master-data-management",
+    "talend-etl",
+    "informatica",
+    "erp-implementation",
+    "sql"
+   ],
+   "jobs": [
+    "Consultant Data Migration",
+    "Ingénieur ETL",
+    "Architecte Données"
+   ]
+  },
+  {
+   "id": "change-management",
+   "label": {
+    "fr": "Conduite du changement",
+    "en": "Change Management",
+    "ar": "إدارة التغيير",
+    "ru": "Управление изменениями"
+   },
+   "patterns": [
+    "conduite du changement",
+    "change management",
+    "ادار التغيير",
+    "управлен изменениями"
+   ],
+   "category": "transverse",
+   "topics": [
+    "consulting",
+    "rh",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "user-training",
+    "business-process-reengineering",
+    "erp-implementation",
+    "pmp",
+    "erp-audit"
+   ],
+   "jobs": [
+    "Responsable Conduite du Changement",
+    "Consultant Organisation",
+    "Chef de projet Transformation"
+   ]
+  },
+  {
+   "id": "business-process-reengineering",
+   "label": {
+    "fr": "Réingénierie des processus",
+    "en": "Business Process Reengineering",
+    "ar": "إعادة هندسة العمليات",
+    "ru": "Реинжиниринг процессов"
+   },
+   "patterns": [
+    "bpr",
+    "business process reengineering",
+    "reingenierie des processus",
+    "реинжиниринг",
+    "اعاد هندس"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "business",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "bpmn",
+    "amoa",
+    "lean-six-sigma",
+    "celonis",
+    "change-management"
+   ],
+   "jobs": [
+    "Consultant Processus",
+    "Directeur de l'Organisation",
+    "Business Analyst"
+   ]
+  },
+  {
+   "id": "user-training",
+   "label": {
+    "fr": "Formation utilisateurs",
+    "en": "User Training",
+    "ar": "تدريب المستخدمين",
+    "ru": "Обучение пользователей"
+   },
+   "patterns": [
+    "formation utilisateurs",
+    "user training",
+    "end user training",
+    "تدر المستخدمين",
+    "обучен пользователей"
+   ],
+   "category": "transverse",
+   "topics": [
+    "education",
+    "consulting",
+    "erp"
+   ],
+   "level": "courant",
+   "related": [
+    "change-management",
+    "workday",
+    "sap-successfactors",
+    "erp-implementation",
+    "functional-specifications"
+   ],
+   "jobs": [
+    "Formateur ERP",
+    "Responsable Formation SI",
+    "Consultant Conduite du Changement"
+   ]
+  },
+  {
+   "id": "master-data-management",
+   "label": {
+    "fr": "Gestion des données de référence",
+    "en": "Master Data Management",
+    "ar": "إدارة البيانات الرئيسية",
+    "ru": "Управление мастер-данными"
+   },
+   "patterns": [
+    "mdm",
+    "master data management",
+    "gestion des donnees de reference",
+    "ادار البيانات",
+    "управлен мастер"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "quality",
+    "erp"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-mdg",
+    "data-migration",
+    "informatica",
+    "talend-etl",
+    "sox-compliance"
+   ],
+   "jobs": [
+    "Data Steward",
+    "Responsable Master Data",
+    "Architecte Données"
+   ]
+  },
+  {
+   "id": "iso-27001",
+   "label": {
+    "fr": "ISO 27001",
+    "en": "ISO 27001",
+    "ar": "ISO 27001",
+    "ru": "ISO 27001"
+   },
+   "patterns": [
+    "iso 27001",
+    "information security management",
+    "أمن المعلومات",
+    "информац безопасност"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "consulting",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "sox-compliance",
+    "gdpr",
+    "cobit",
+    "itil",
+    "erp-audit"
+   ],
+   "jobs": [
+    "RSSI",
+    "Auditeur SI",
+    "Consultant Cybersécurité"
+   ]
+  },
+  {
+   "id": "sox-compliance",
+   "label": {
+    "fr": "Conformité SOX",
+    "en": "SOX Compliance",
+    "ar": "الامتثال لقانون SOX",
+    "ru": "Соответствие SOX"
+   },
+   "patterns": [
+    "sox",
+    "sarbanes oxley",
+    "sox compliance",
+    "conformite sox",
+    "امتثال sox",
+    "соответств sox"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-27001",
+    "gdpr",
+    "sap-fico",
+    "financial-consolidation",
+    "erp-audit"
+   ],
+   "jobs": [
+    "Auditeur Financier",
+    "Contrôleur Interne",
+    "Directeur Financier"
+   ]
+  },
+  {
+   "id": "gdpr",
+   "label": {
+    "fr": "RGPD",
+    "en": "GDPR",
+    "ar": "اللائحة العامة لحماية البيانات",
+    "ru": "GDPR"
+   },
+   "patterns": [
+    "rgpd",
+    "gdpr",
+    "reglement general sur la protection des donnees",
+    "general data protection regulation",
+    "اللائحة العامة",
+    "защит данных"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-27001",
+    "sox-compliance",
+    "cobit",
+    "master-data-management",
+    "sap-mdg"
+   ],
+   "jobs": [
+    "DPO",
+    "Juriste NTIC",
+    "Consultant Conformité"
+   ]
+  },
+  {
+   "id": "lean-six-sigma",
+   "label": {
+    "fr": "Lean Six Sigma",
+    "en": "Lean Six Sigma",
+    "ar": "Lean Six Sigma",
+    "ru": "Бережливое производство"
+   },
+   "patterns": [
+    "lean six sigma",
+    "lss",
+    "green belt",
+    "black belt",
+    "six sigma",
+    "لين ستة سيجما",
+    "бережлив производ"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "engineering",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "business-process-reengineering",
+    "celonis",
+    "bpmn",
+    "supply-chain-management",
+    "mrp"
+   ],
+   "jobs": [
+    "Responsable Amélioration Continue",
+    "Black Belt",
+    "Directeur de Production"
+   ]
+  },
+  {
+   "id": "supply-chain-management",
+   "label": {
+    "fr": "Supply Chain Management",
+    "en": "Supply Chain Management",
+    "ar": "إدارة سلسلة التوريد",
+    "ru": "Управление цепями поставок"
+   },
+   "patterns": [
+    "supply chain management",
+    "scm",
+    "gestion de la chaine logistique",
+    "ادار سلسل التوريد",
+    "управлен цепями поставок"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "erp",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "mrp",
+    "sap-mm",
+    "sap-ewm",
+    "sap-ariba",
+    "infor-cloudsuite"
+   ],
+   "jobs": [
+    "Supply Chain Manager",
+    "Responsable Logistique",
+    "Consultant SCM"
+   ]
+  },
+  {
+   "id": "mrp",
+   "label": {
+    "fr": "Planification des besoins",
+    "en": "Material Requirements Planning",
+    "ar": "تخطيط الاحتياجات من المواد",
+    "ru": "Планирование потребностей"
+   },
+   "patterns": [
+    "mrp",
+    "material requirements planning",
+    "planification des besoins",
+    "تخطيط الاحتياجات",
+    "планирован потребност"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "industrie",
+    "erp"
+   ],
+   "level": "frequent",
+   "related": [
+    "supply-chain-management",
+    "sap-mm",
+    "sap-ewm",
+    "epicor",
+    "infor-cloudsuite"
+   ],
+   "jobs": [
+    "Responsable Approvisionnements",
+    "Planificateur de Production",
+    "Consultant ERP Industriel"
+   ]
+  },
+  {
+   "id": "financial-consolidation",
+   "label": {
+    "fr": "Consolidation financière",
+    "en": "Financial Consolidation",
+    "ar": "التوحيد المالي",
+    "ru": "Финансовая консолидация"
+   },
+   "patterns": [
+    "consolidation financiere",
+    "financial consolidation",
+    "group reporting",
+    "التوحيد المالي",
+    "финансов консолидац"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "erp",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-fico",
+    "oracle-hyperion",
+    "sap-bpc",
+    "ibm-tm1",
+    "sox-compliance"
+   ],
+   "jobs": [
+    "Directeur Financier",
+    "Responsable Consolidation",
+    "Consultant EPM"
+   ]
+  },
+  {
+   "id": "servicenow",
+   "label": {
+    "fr": "ServiceNow",
+    "en": "ServiceNow",
+    "ar": "ServiceNow",
+    "ru": "ServiceNow"
+   },
+   "patterns": [
+    "servicenow",
+    "service now",
+    "servicenow itsm",
+    "سيرفس ناو",
+    "сервиснау"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "consulting",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "itil",
+    "jira",
+    "cobit",
+    "moe",
+    "api-integration"
+   ],
+   "jobs": [
+    "Consultant ServiceNow",
+    "Responsable ITSM",
+    "Chef de projet Support"
+   ]
+  },
+  {
+   "id": "jira",
+   "label": {
+    "fr": "Jira",
+    "en": "Jira",
+    "ar": "Jira",
+    "ru": "Jira"
+   },
+   "patterns": [
+    "jira",
+    "atlassian jira",
+    "jira software",
+    "جيرا",
+    "джира"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "consulting",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "agile-scrum",
+    "servicenow",
+    "amoa",
+    "functional-specifications",
+    "itil"
+   ],
+   "jobs": [
+    "Scrum Master",
+    "Chef de projet MOA",
+    "Product Owner"
+   ]
+  },
+  {
+   "id": "coupa",
+   "label": {
+    "fr": "Coupa",
+    "en": "Coupa",
+    "ar": "Coupa",
+    "ru": "Coupa"
+   },
+   "patterns": [
+    "coupa",
+    "coupa procurement",
+    "كوبا",
+    "купа"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance",
+    "logistique",
+    "erp"
+   ],
+   "level": "specialise",
+   "related": [
+    "sap-ariba",
+    "oracle-fusion-cloud",
+    "supply-chain-management",
+    "edi",
+    "api-integration"
+   ],
+   "jobs": [
+    "Consultant Achats",
+    "Responsable Procurement",
+    "Chef de projet Sourcing"
+   ]
+  },
+  {
+   "id": "edi",
+   "label": {
+    "fr": "Échange de données informatisé",
+    "en": "Electronic Data Interchange",
+    "ar": "التبادل الإلكتروني للبيانات",
+    "ru": "Электронный обмен данными"
+   },
+   "patterns": [
+    "edi",
+    "echange de donnees informatise",
+    "electronic data interchange",
+    "التبادل الإلكتروني",
+    "электрон обмен"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "data",
+    "erp"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-sd",
+    "sap-ariba",
+    "coupa",
+    "api-integration",
+    "supply-chain-management"
+   ],
+   "jobs": [
+    "Ingénieur EDI",
+    "Consultant Supply Chain",
+    "Responsable Flux Logistiques"
+   ]
+  },
+  {
+   "id": "api-integration",
+   "label": {
+    "fr": "Intégration d'API",
+    "en": "API Integration",
+    "ar": "تكامل واجهات برمجة التطبيقات",
+    "ru": "Интеграция API"
+   },
+   "patterns": [
+    "integration api",
+    "api integration",
+    "rest api",
+    "تكامل api",
+    "интеграц api"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "data",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "edi",
+    "odoo",
+    "servicenow",
+    "informatica",
+    "x++"
+   ],
+   "jobs": [
+    "Développeur Intégration",
+    "Architecte API",
+    "Consultant Technique ERP"
+   ]
+  },
+  {
+   "id": "cobit",
+   "label": {
+    "fr": "COBIT",
+    "en": "COBIT",
+    "ar": "COBIT",
+    "ru": "COBIT"
+   },
+   "patterns": [
+    "cobit",
+    "control objectives for information",
+    "кобит",
+    "cobit"
+   ],
+   "category": "norme",
+   "topics": [
+    "consulting",
+    "juridique"
+   ],
+   "level": "specialise",
+   "related": [
+    "itil",
+    "togaf",
+    "iso-27001",
+    "erp-audit",
+    "sox-compliance"
+   ],
+   "jobs": [
+    "Auditeur IT",
+    "RSSI",
+    "Directeur des Systèmes d'Information"
+   ]
+  },
+  {
+   "id": "togaf",
+   "label": {
+    "fr": "TOGAF",
+    "en": "TOGAF",
+    "ar": "TOGAF",
+    "ru": "TOGAF"
+   },
+   "patterns": [
+    "togaf",
+    "the open group architecture framework",
+    "тогаф",
+    "togaf"
+   ],
+   "category": "norme",
+   "topics": [
+    "consulting",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "cobit",
+    "itil",
+    "uml",
+    "bpmn",
+    "moe"
+   ],
+   "jobs": [
+    "Architecte d'Entreprise",
+    "Urbaniste SI",
+    "Directeur Architecture"
+   ]
+  },
+  {
+   "id": "x++",
+   "label": {
+    "fr": "X++",
+    "en": "X++",
+    "ar": "X++",
+    "ru": "X++"
+   },
+   "patterns": [
+    "x++",
+    "morphx",
+    "dynamics x++",
+    "لغة x++",
+    "x++"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "erp"
+   ],
+   "level": "specialise",
+   "related": [
+    "microsoft-dynamics-365",
+    "dynamics-ax",
+    "dynamics-nav",
+    "sql",
+    "api-integration"
+   ],
+   "jobs": [
+    "Développeur Dynamics AX",
+    "Consultant Technique Microsoft",
+    "Ingénieur ERP"
+   ]
+  },
+  {
+   "id": "rpa-uipath",
+   "label": {
+    "fr": "UiPath",
+    "en": "UiPath",
+    "ar": "UiPath",
+    "ru": "UiPath"
+   },
+   "patterns": [
+    "uipath",
+    "robotic process automation",
+    "أتمتة العمليات",
+    "роботизирован автоматизац"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "celonis",
+    "business-process-reengineering",
+    "informatica",
+    "talend-etl",
+    "api-integration"
+   ],
+   "jobs": [
+    "Développeur RPA",
+    "Consultant Automatisation",
+    "Chef de projet Innovation"
+   ]
+  },
+  {
+   "id": "celonis",
+   "label": {
+    "fr": "Celonis",
+    "en": "Celonis",
+    "ar": "Celonis",
+    "ru": "Celonis"
+   },
+   "patterns": [
+    "celonis",
+    "process mining",
+    "تعدين العمليات",
+    "процесс майнинг"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "ai",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "bpmn",
+    "business-process-reengineering",
+    "rpa-uipath",
+    "sap-s4hana",
+    "lean-six-sigma"
+   ],
+   "jobs": [
+    "Data Scientist Processus",
+    "Consultant Process Mining",
+    "Analyste Performance"
+   ]
+  },
+  {
+   "id": "erp-audit",
+   "label": {
+    "fr": "Audit ERP",
+    "en": "ERP Audit",
+    "ar": "تدقيق أنظمة ERP",
+    "ru": "Аудит ERP"
+   },
+   "patterns": [
+    "audit erp",
+    "erp audit",
+    "it audit",
+    "تدقيق erp",
+    "аудит erp"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "juridique",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "sox-compliance",
+    "iso-27001",
+    "cobit",
+    "sap-fico",
+    "financial-consolidation"
+   ],
+   "jobs": [
+    "Auditeur SI",
+    "Contrôleur Interne",
+    "Consultant Risques IT"
+   ]
+  },
+  {
+   "id": "functional-specifications",
+   "label": {
+    "fr": "Spécifications fonctionnelles",
+    "en": "Functional Specifications",
+    "ar": "المواصفات الوظيفية",
+    "ru": "Функциональные требования"
+   },
+   "patterns": [
+    "specifications fonctionnelles",
+    "functional specifications",
+    "functional specs",
+    "المواصفات الوظيفية",
+    "функциональ требования"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "project",
+    "erp"
+   ],
+   "level": "courant",
+   "related": [
+    "amoa",
+    "moe",
+    "bpmn",
+    "uml",
+    "agile-scrum"
+   ],
+   "jobs": [
+    "Business Analyst",
+    "Consultant Fonctionnel",
+    "Chef de projet MOA"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3439 @@
+{
+ "sector": "Bâtiment et travaux publics (BTP)",
+ "key": "btp",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "autocad",
+   "label": {
+    "fr": "AutoCAD",
+    "en": "AutoCAD",
+    "ar": "AutoCAD",
+    "ru": "AutoCAD"
+   },
+   "patterns": [
+    "autocad",
+    "auto cad",
+    "autodesk autocad",
+    "dwg"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "revit",
+    "civil-3d",
+    "bim"
+   ],
+   "jobs": [
+    "Dessinateur projeteur",
+    "Technicien bureau d'etudes",
+    "Ingenieur structures"
+   ]
+  },
+  {
+   "id": "revit",
+   "label": {
+    "fr": "Revit",
+    "en": "Revit",
+    "ar": "Revit",
+    "ru": "Revit"
+   },
+   "patterns": [
+    "revit",
+    "autodesk revit",
+    "revit architecture",
+    "revit mep",
+    "revit structure",
+    "rvt"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "bim",
+    "autocad",
+    "navisworks",
+    "bim-360"
+   ],
+   "jobs": [
+    "BIM manager",
+    "Archi BIM",
+    "Dessinateur projeteur BIM"
+   ]
+  },
+  {
+   "id": "archicad",
+   "label": {
+    "fr": "ArchiCAD",
+    "en": "ArchiCAD",
+    "ar": "ArchiCAD",
+    "ru": "ArchiCAD"
+   },
+   "patterns": [
+    "archicad",
+    "archi cad",
+    "graphisoft"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "bim",
+    "revit",
+    "autocad"
+   ],
+   "jobs": [
+    "Archi BIM",
+    "Archi projeteur",
+    "Architecte"
+   ]
+  },
+  {
+   "id": "sketchup",
+   "label": {
+    "fr": "SketchUp",
+    "en": "SketchUp",
+    "ar": "SketchUp",
+    "ru": "SketchUp"
+   },
+   "patterns": [
+    "sketchup",
+    "sketch up",
+    "trimble sketchup"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "autocad",
+    "revit",
+    "artlantis"
+   ],
+   "jobs": [
+    "Archi projeteur",
+    "Dessinateur en batiment",
+    "Architecte d'interieur"
+   ]
+  },
+  {
+   "id": "tekla-structures",
+   "label": {
+    "fr": "Tekla Structures",
+    "en": "Tekla Structures",
+    "ar": "Tekla Structures",
+    "ru": "Tekla Structures"
+   },
+   "patterns": [
+    "tekla",
+    "tekla structures",
+    "tekla bim"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "revit",
+    "bim",
+    "calcul-structures"
+   ],
+   "jobs": [
+    "Dessinateur charpente metallique",
+    "Ingenieur structures",
+    "BIM manager"
+   ]
+  },
+  {
+   "id": "navisworks",
+   "label": {
+    "fr": "Navisworks",
+    "en": "Navisworks",
+    "ar": "Navisworks",
+    "ru": "Navisworks"
+   },
+   "patterns": [
+    "navisworks",
+    "naviswork",
+    "autodesk navisworks"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "revit",
+    "bim",
+    "bim-360"
+   ],
+   "jobs": [
+    "BIM coordinateur",
+    "BIM manager",
+    "Ingenieur synthese"
+   ]
+  },
+  {
+   "id": "bim-360",
+   "label": {
+    "fr": "Autodesk Construction Cloud",
+    "en": "Autodesk Construction Cloud",
+    "ar": "Autodesk Construction Cloud",
+    "ru": "Autodesk Construction Cloud"
+   },
+   "patterns": [
+    "bim 360",
+    "bim360",
+    "autodesk construction cloud",
+    "acc",
+    "autodesk build"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "revit",
+    "bim",
+    "navisworks",
+    "procore"
+   ],
+   "jobs": [
+    "BIM manager",
+    "Directeur de projets BTP",
+    "Coordinateur BIM"
+   ]
+  },
+  {
+   "id": "procore",
+   "label": {
+    "fr": "Procore",
+    "en": "Procore",
+    "ar": "Procore",
+    "ru": "Procore"
+   },
+   "patterns": [
+    "procore"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "bim-360",
+    "planradar",
+    "pilotage-chantier"
+   ],
+   "jobs": [
+    "Directeur de travaux",
+    "Conducteur de travaux",
+    "Project manager BTP"
+   ]
+  },
+  {
+   "id": "planradar",
+   "label": {
+    "fr": "PlanRadar",
+    "en": "PlanRadar",
+    "ar": "PlanRadar",
+    "ru": "PlanRadar"
+   },
+   "patterns": [
+    "planradar"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "procore",
+    "pilotage-chantier",
+    "reception-chantier"
+   ],
+   "jobs": [
+    "Conducteur de travaux",
+    "Chef de chantier",
+    "OPC"
+   ]
+  },
+  {
+   "id": "ms-project",
+   "label": {
+    "fr": "Microsoft Project",
+    "en": "Microsoft Project",
+    "ar": "Microsoft Project",
+    "ru": "Microsoft Project"
+   },
+   "patterns": [
+    "ms project",
+    "msproject",
+    "microsoft project",
+    "ms proj"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "primavera-p6",
+    "planification",
+    "pilotage-chantier"
+   ],
+   "jobs": [
+    "Planificateur",
+    "Conducteur de travaux",
+    "Chef de projet BTP"
+   ]
+  },
+  {
+   "id": "primavera-p6",
+   "label": {
+    "fr": "Primavera P6",
+    "en": "Primavera P6",
+    "ar": "Primavera P6",
+    "ru": "Primavera P6"
+   },
+   "patterns": [
+    "primavera",
+    "primavera p6",
+    "oracle primavera"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "ms-project",
+    "planification",
+    "pilotage-chantier"
+   ],
+   "jobs": [
+    "Planificateur",
+    "Ingenieur planning",
+    "Directeur de projets"
+   ]
+  },
+  {
+   "id": "civil-3d",
+   "label": {
+    "fr": "AutoCAD Civil 3D",
+    "en": "AutoCAD Civil 3D",
+    "ar": "AutoCAD Civil 3D",
+    "ru": "AutoCAD Civil 3D"
+   },
+   "patterns": [
+    "civil 3d",
+    "civil3d",
+    "autocad civil 3d"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "autocad",
+    "covadis",
+    "genie-civil"
+   ],
+   "jobs": [
+    "Ingenieur VRD",
+    "Projeteur infrastructures",
+    "Technicien topographe"
+   ]
+  },
+  {
+   "id": "covadis",
+   "label": {
+    "fr": "Covadis",
+    "en": "Covadis",
+    "ar": "Covadis",
+    "ru": "Covadis"
+   },
+   "patterns": [
+    "covadis"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "autocad",
+    "civil-3d",
+    "mensura"
+   ],
+   "jobs": [
+    "Ingenieur VRD",
+    "Projeteur voiries",
+    "Chef de projet infrastructures"
+   ]
+  },
+  {
+   "id": "mensura",
+   "label": {
+    "fr": "Mensura",
+    "en": "Mensura",
+    "ar": "Mensura",
+    "ru": "Mensura"
+   },
+   "patterns": [
+    "mensura",
+    "mensura genius"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "covadis",
+    "civil-3d",
+    "vrd"
+   ],
+   "jobs": [
+    "Ingenieur VRD",
+    "Projeteur voiries",
+    "Technicien bureau d'etudes"
+   ]
+  },
+  {
+   "id": "robot-structural-analysis",
+   "label": {
+    "fr": "Robot Structural Analysis",
+    "en": "Robot Structural Analysis",
+    "ar": "Robot Structural Analysis",
+    "ru": "Robot Structural Analysis"
+   },
+   "patterns": [
+    "robot",
+    "robot structural",
+    "rsa",
+    "autodesk robot"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "calcul-structures",
+    "etabs",
+    "eurocodes"
+   ],
+   "jobs": [
+    "Ingenieur structures",
+    "Ingenieur calcul",
+    "Chef de projet structures"
+   ]
+  },
+  {
+   "id": "etabs",
+   "label": {
+    "fr": "ETABS",
+    "en": "ETABS",
+    "ar": "ETABS",
+    "ru": "ETABS"
+   },
+   "patterns": [
+    "etabs",
+    "csi etabs"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "sap2000",
+    "robot-structural-analysis",
+    "calcul-structures"
+   ],
+   "jobs": [
+    "Ingenieur structures",
+    "Ingenieur genie civil",
+    "Ingenieur calcul"
+   ]
+  },
+  {
+   "id": "sap2000",
+   "label": {
+    "fr": "SAP2000",
+    "en": "SAP2000",
+    "ar": "SAP2000",
+    "ru": "SAP2000"
+   },
+   "patterns": [
+    "sap2000",
+    "csi sap"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "etabs",
+    "robot-structural-analysis",
+    "calcul-structures"
+   ],
+   "jobs": [
+    "Ingenieur structures",
+    "Ingenieur ouvrages d'art",
+    "Ingenieur calcul"
+   ]
+  },
+  {
+   "id": "dialux",
+   "label": {
+    "fr": "Dialux",
+    "en": "Dialux",
+    "ar": "Dialux",
+    "ru": "Dialux"
+   },
+   "patterns": [
+    "dialux",
+    "dialux evo"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "electricite-batiment",
+    "revit",
+    "cvc"
+   ],
+   "jobs": [
+    "Ingenieur eclairagiste",
+    "Bureaux d'etudes electricite",
+    "Projeteur CFO CFA"
+   ]
+  },
+  {
+   "id": "caneco-bt",
+   "label": {
+    "fr": "Caneco BT",
+    "en": "Caneco BT",
+    "ar": "Caneco BT",
+    "ru": "Caneco BT"
+   },
+   "patterns": [
+    "caneco",
+    "caneco bt",
+    "caneco bim"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "electricite-batiment",
+    "dialux",
+    "habilitation-electrique"
+   ],
+   "jobs": [
+    "Ingenieur electricite",
+    "Projeteur electricite",
+    "Charge d'affaires electricite"
+   ]
+  },
+  {
+   "id": "pleiades",
+   "label": {
+    "fr": "Pleiades",
+    "en": "Pleiades",
+    "ar": "Pleiades",
+    "ru": "Pleiades"
+   },
+   "patterns": [
+    "pleiades",
+    "izubox",
+    "pleiades std",
+    "comfie"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "re2020",
+    "hqe",
+    "isolation-thermique"
+   ],
+   "jobs": [
+    "Ingenieur thermique",
+    "Ingenieur energetique",
+    "Consultant HQE"
+   ]
+  },
+  {
+   "id": "artlantis",
+   "label": {
+    "fr": "Artlantis",
+    "en": "Artlantis",
+    "ar": "Artlantis",
+    "ru": "Artlantis"
+   },
+   "patterns": [
+    "artlantis"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "sketchup",
+    "archicad",
+    "lumion"
+   ],
+   "jobs": [
+    "Perspectiviste 3D",
+    "Archi projeteur",
+    "Visualiseur architectural"
+   ]
+  },
+  {
+   "id": "lumion",
+   "label": {
+    "fr": "Lumion",
+    "en": "Lumion",
+    "ar": "Lumion",
+    "ru": "Lumion"
+   },
+   "patterns": [
+    "lumion"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "sketchup",
+    "revit",
+    "twinmotion"
+   ],
+   "jobs": [
+    "Perspectiviste 3D",
+    "Visualiseur architectural",
+    "Archi projeteur"
+   ]
+  },
+  {
+   "id": "twinmotion",
+   "label": {
+    "fr": "Twinmotion",
+    "en": "Twinmotion",
+    "ar": "Twinmotion",
+    "ru": "Twinmotion"
+   },
+   "patterns": [
+    "twinmotion"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "revit",
+    "lumion",
+    "sketchup"
+   ],
+   "jobs": [
+    "Perspectiviste 3D",
+    "Visualiseur architectural",
+    "BIM manager"
+   ]
+  },
+  {
+   "id": "3ds-max",
+   "label": {
+    "fr": "3ds Max",
+    "en": "3ds Max",
+    "ar": "3ds Max",
+    "ru": "3ds Max"
+   },
+   "patterns": [
+    "3ds max",
+    "3dsmax",
+    "autodesk 3ds max"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "revit",
+    "sketchup",
+    "artlantis"
+   ],
+   "jobs": [
+    "Modeleur 3D",
+    "Perspectiviste",
+    "Visualiseur architectural"
+   ]
+  },
+  {
+   "id": "leica-cyclone",
+   "label": {
+    "fr": "Leica Cyclone",
+    "en": "Leica Cyclone",
+    "ar": "Leica Cyclone",
+    "ru": "Leica Cyclone"
+   },
+   "patterns": [
+    "cyclone",
+    "leica cyclone"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "topographie",
+    "faro-scene",
+    "bim"
+   ],
+   "jobs": [
+    "Geometre topographe",
+    "Technicien scan 3D",
+    "Ingenieur topographe"
+   ]
+  },
+  {
+   "id": "faro-scene",
+   "label": {
+    "fr": "FARO Scene",
+    "en": "FARO Scene",
+    "ar": "FARO Scene",
+    "ru": "FARO Scene"
+   },
+   "patterns": [
+    "faro scene",
+    "scene faro",
+    "faro"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "leica-cyclone",
+    "topographie",
+    "bim"
+   ],
+   "jobs": [
+    "Geometre topographe",
+    "Technicien scan 3D",
+    "Ingenieur topographe"
+   ]
+  },
+  {
+   "id": "pix4d",
+   "label": {
+    "fr": "Pix4D",
+    "en": "Pix4D",
+    "ar": "Pix4D",
+    "ru": "Pix4D"
+   },
+   "patterns": [
+    "pix4d",
+    "pix4dmapper"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "dronedeploy",
+    "topographie",
+    "terrassement"
+   ],
+   "jobs": [
+    "Pilote de drone",
+    "Geometre topographe",
+    "Technicien photogrammetrie"
+   ]
+  },
+  {
+   "id": "dronedeploy",
+   "label": {
+    "fr": "DroneDeploy",
+    "en": "DroneDeploy",
+    "ar": "DroneDeploy",
+    "ru": "DroneDeploy"
+   },
+   "patterns": [
+    "dronedeploy",
+    "drone deploy"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "pix4d",
+    "topographie",
+    "pilotage-chantier"
+   ],
+   "jobs": [
+    "Pilote de drone",
+    "Geometre topographe",
+    "Conducteur de travaux"
+   ]
+  },
+  {
+   "id": "onaya",
+   "label": {
+    "fr": "Onaya",
+    "en": "Onaya",
+    "ar": "Onaya",
+    "ru": "Onaya"
+   },
+   "patterns": [
+    "onaya",
+    "onaya gestion",
+    "aquitaine informatique"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "erp"
+   ],
+   "level": "frequent",
+   "related": [
+    "sage-batigest",
+    "suivi-budgetaire",
+    "appels-offres"
+   ],
+   "jobs": [
+    "Directeur de travaux",
+    "Chef d'entreprise BTP",
+    "Responsable administratif BTP"
+   ]
+  },
+  {
+   "id": "sage-batigest",
+   "label": {
+    "fr": "Sage Batigest",
+    "en": "Sage Batigest",
+    "ar": "Sage Batigest",
+    "ru": "Sage Batigest"
+   },
+   "patterns": [
+    "batigest",
+    "sage batigest",
+    "batigest connect"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "erp"
+   ],
+   "level": "frequent",
+   "related": [
+    "onaya",
+    "suivi-budgetaire",
+    "appels-offres"
+   ],
+   "jobs": [
+    "Conducteur de travaux",
+    "Metreur",
+    "Deviseur"
+   ]
+  },
+  {
+   "id": "allplan",
+   "label": {
+    "fr": "Allplan",
+    "en": "Allplan",
+    "ar": "Allplan",
+    "ru": "Allplan"
+   },
+   "patterns": [
+    "allplan",
+    "nemetschek allplan"
+   ],
+   "category": "outil",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "revit",
+    "bim",
+    "autocad"
+   ],
+   "jobs": [
+    "Dessinateur projeteur",
+    "BIM manager",
+    "Ingenieur structures"
+   ]
+  },
+  {
+   "id": "bim",
+   "label": {
+    "fr": "BIM",
+    "en": "BIM",
+    "ar": "نمذجة معلومات البناء",
+    "ru": "информационное моделирование зданий"
+   },
+   "patterns": [
+    "bim",
+    "building information modeling",
+    "building information modelling",
+    "bim management",
+    "maquette numerique"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "engineering",
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "revit",
+    "ifc",
+    "openbim",
+    "cobie"
+   ],
+   "jobs": [
+    "BIM manager",
+    "BIM coordinateur",
+    "BIM modeler"
+   ]
+  },
+  {
+   "id": "lean-construction",
+   "label": {
+    "fr": "Lean Construction",
+    "en": "Lean Construction",
+    "ar": "البناء الرشيق",
+    "ru": "бережливое строительство"
+   },
+   "patterns": [
+    "lean construction",
+    "lean building"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "last-planner",
+    "pilotage-chantier",
+    "planification"
+   ],
+   "jobs": [
+    "Directeur de travaux",
+    "Responsable amelioration continue",
+    "Chef de projet BTP"
+   ]
+  },
+  {
+   "id": "last-planner",
+   "label": {
+    "fr": "Last Planner System",
+    "en": "Last Planner System",
+    "ar": "نظام المخطط الأخير",
+    "ru": "система Last Planner"
+   },
+   "patterns": [
+    "last planner",
+    "lps",
+    "last planner system"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "project"
+   ],
+   "level": "specialise",
+   "related": [
+    "lean-construction",
+    "planification",
+    "pilotage-chantier"
+   ],
+   "jobs": [
+    "Planificateur",
+    "Directeur de travaux",
+    "OPC"
+   ]
+  },
+  {
+   "id": "vdc",
+   "label": {
+    "fr": "VDC",
+    "en": "VDC",
+    "ar": "التصميم والبناء الافتراضي",
+    "ru": "виртуальное проектирование и строительство"
+   },
+   "patterns": [
+    "vdc",
+    "virtual design and construction",
+    "vdc management"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "bim",
+    "lean-construction",
+    "navisworks"
+   ],
+   "jobs": [
+    "VDC manager",
+    "BIM manager",
+    "Coordinateur BIM"
+   ]
+  },
+  {
+   "id": "design-build",
+   "label": {
+    "fr": "Conception-realisation",
+    "en": "Design-Build",
+    "ar": "التصميم والبناء",
+    "ru": "проектирование-строительство"
+   },
+   "patterns": [
+    "design build",
+    "design-build",
+    "conception realisation",
+    "conception-realisation",
+    "contrat conception realisation"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "ipd",
+    "appels-offres",
+    "pilotage-chantier"
+   ],
+   "jobs": [
+    "Directeur de projets",
+    "Responsable conception realisation",
+    "Chef de projet BTP"
+   ]
+  },
+  {
+   "id": "ipd",
+   "label": {
+    "fr": "IPD",
+    "en": "IPD",
+    "ar": "التسليم المتكامل للمشروع",
+    "ru": "интегрированная реализация проекта"
+   },
+   "patterns": [
+    "ipd",
+    "integrated project delivery"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "project"
+   ],
+   "level": "specialise",
+   "related": [
+    "design-build",
+    "lean-construction",
+    "bim"
+   ],
+   "jobs": [
+    "Directeur de projets",
+    "Chef de projet BTP",
+    "Responsable MOE"
+   ]
+  },
+  {
+   "id": "calcul-structures",
+   "label": {
+    "fr": "Calcul de structures",
+    "en": "Structural analysis",
+    "ar": "تحليل إنشائي",
+    "ru": "расчёт конструкций"
+   },
+   "patterns": [
+    "calcul structure",
+    "calcul de structure",
+    "calcul structures",
+    "structural analysis",
+    "structural calculation",
+    "расчет конструкций",
+    "حساب انشائي"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "methode-elements-finis",
+    "eurocodes",
+    "robot-structural-analysis"
+   ],
+   "jobs": [
+    "Ingenieur structures",
+    "Ingenieur calcul",
+    "Chef de projet structures"
+   ]
+  },
+  {
+   "id": "methode-elements-finis",
+   "label": {
+    "fr": "Methode des elements finis",
+    "en": "Finite element method",
+    "ar": "طريقة العناصر المحدودة",
+    "ru": "метод конечных элементов"
+   },
+   "patterns": [
+    "elements finis",
+    "finite element",
+    "fem",
+    "fea",
+    "finite element analysis",
+    "метод конечных элементов",
+    "мкэ"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "calcul-structures",
+    "robot-structural-analysis",
+    "etabs"
+   ],
+   "jobs": [
+    "Ingenieur calcul",
+    "Ingenieur structures",
+    "Ingenieur R&D"
+   ]
+  },
+  {
+   "id": "metree",
+   "label": {
+    "fr": "Metre",
+    "en": "Quantity surveying",
+    "ar": "حصر الكميات",
+    "ru": "обмерные работы"
+   },
+   "patterns": [
+    "metre",
+    "metres",
+    "metrage",
+    "quantity surveying",
+    "qs",
+    "حصر كميات",
+    "сметы"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "dpgf",
+    "cctp",
+    "appels-offres"
+   ],
+   "jobs": [
+    "Metreur",
+    "Deviseur",
+    "Economiste de la construction"
+   ]
+  },
+  {
+   "id": "cctp",
+   "label": {
+    "fr": "CCTP",
+    "en": "Technical specifications",
+    "ar": "المواصفات الفنية",
+    "ru": "техническое задание"
+   },
+   "patterns": [
+    "cctp",
+    "cahier des clauses techniques particulieres",
+    "technical specifications"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "dpgf",
+    "ccap",
+    "appels-offres"
+   ],
+   "jobs": [
+    "Economiste de la construction",
+    "Ingenieur etudes de prix",
+    "Charge d'affaires BTP"
+   ]
+  },
+  {
+   "id": "dpgf",
+   "label": {
+    "fr": "DPGF",
+    "en": "Pricing schedule",
+    "ar": "جدول الأسعار",
+    "ru": "ведомость цен"
+   },
+   "patterns": [
+    "dpgf",
+    "decomposition du prix global et forfaitaire",
+    "bordereau des prix",
+    "bpu",
+    "dqe"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "cctp",
+    "metree",
+    "appels-offres"
+   ],
+   "jobs": [
+    "Economiste de la construction",
+    "Ingenieur etudes de prix",
+    "Metreur"
+   ]
+  },
+  {
+   "id": "ifc",
+   "label": {
+    "fr": "IFC",
+    "en": "IFC",
+    "ar": "IFC",
+    "ru": "IFC"
+   },
+   "patterns": [
+    "ifc",
+    "industry foundation classes",
+    "ifc 2x3",
+    "ifc4"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "bim",
+    "openbim",
+    "cobie"
+   ],
+   "jobs": [
+    "BIM manager",
+    "BIM coordinateur",
+    "BIM modeler"
+   ]
+  },
+  {
+   "id": "cobie",
+   "label": {
+    "fr": "COBie",
+    "en": "COBie",
+    "ar": "COBie",
+    "ru": "COBie"
+   },
+   "patterns": [
+    "cobie",
+    "construction operations building information exchange"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "bim",
+    "ifc",
+    "openbim"
+   ],
+   "jobs": [
+    "BIM manager",
+    "Facility manager",
+    "Responsable exploitation maintenance"
+   ]
+  },
+  {
+   "id": "openbim",
+   "label": {
+    "fr": "openBIM",
+    "en": "openBIM",
+    "ar": "openBIM",
+    "ru": "openBIM"
+   },
+   "patterns": [
+    "openbim",
+    "open bim",
+    "buildingsmart"
+   ],
+   "category": "methode",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "bim",
+    "ifc",
+    "cobie"
+   ],
+   "jobs": [
+    "BIM manager",
+    "BIM coordinateur",
+    "Archi BIM"
+   ]
+  },
+  {
+   "id": "eurocodes",
+   "label": {
+    "fr": "Eurocodes",
+    "en": "Eurocodes",
+    "ar": "اليوروكود",
+    "ru": "Еврокоды"
+   },
+   "patterns": [
+    "eurocode",
+    "eurocodes",
+    "eurocode 2",
+    "eurocode 3",
+    "eurocode 5",
+    "eurocode 7",
+    "eurocode 8",
+    "ec2",
+    "ec3"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "calcul-structures",
+    "beton-arme",
+    "dtu"
+   ],
+   "jobs": [
+    "Ingenieur structures",
+    "Ingenieur calcul",
+    "Chef de projet structures"
+   ]
+  },
+  {
+   "id": "dtu",
+   "label": {
+    "fr": "DTU",
+    "en": "DTU",
+    "ar": "DTU",
+    "ru": "DTU"
+   },
+   "patterns": [
+    "dtu",
+    "documents techniques unifies",
+    "normes dtu"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "eurocodes",
+    "qualibat",
+    "hse"
+   ],
+   "jobs": [
+    "Conducteur de travaux",
+    "Chef de chantier",
+    "Ingenieur qualite BTP"
+   ]
+  },
+  {
+   "id": "hqe",
+   "label": {
+    "fr": "HQE",
+    "en": "HQE",
+    "ar": "HQE",
+    "ru": "HQE"
+   },
+   "patterns": [
+    "hqe",
+    "haute qualite environnementale"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "breeam",
+    "leed",
+    "re2020"
+   ],
+   "jobs": [
+    "Consultant HQE",
+    "Ingenieur environnement",
+    "Responsable QSE BTP"
+   ]
+  },
+  {
+   "id": "breeam",
+   "label": {
+    "fr": "BREEAM",
+    "en": "BREEAM",
+    "ar": "BREEAM",
+    "ru": "BREEAM"
+   },
+   "patterns": [
+    "breeam",
+    "breeam in use",
+    "breeam nc"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "hqe",
+    "leed",
+    "well"
+   ],
+   "jobs": [
+    "Consultant environnement",
+    "Responsable HQE",
+    "Ingenieur durabilite"
+   ]
+  },
+  {
+   "id": "leed",
+   "label": {
+    "fr": "LEED",
+    "en": "LEED",
+    "ar": "LEED",
+    "ru": "LEED"
+   },
+   "patterns": [
+    "leed",
+    "leed ap",
+    "leed green associate"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "breeam",
+    "hqe",
+    "well"
+   ],
+   "jobs": [
+    "Consultant environnement",
+    "Responsable HQE",
+    "Ingenieur durabilite"
+   ]
+  },
+  {
+   "id": "well",
+   "label": {
+    "fr": "WELL",
+    "en": "WELL",
+    "ar": "WELL",
+    "ru": "WELL"
+   },
+   "patterns": [
+    "well",
+    "well building standard",
+    "well ap"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "leed",
+    "breeam",
+    "hqe"
+   ],
+   "jobs": [
+    "Consultant WELL",
+    "Responsable HQE",
+    "Ingenieur durabilite"
+   ]
+  },
+  {
+   "id": "re2020",
+   "label": {
+    "fr": "RE2020",
+    "en": "RE2020",
+    "ar": "RE2020",
+    "ru": "RE2020"
+   },
+   "patterns": [
+    "re2020",
+    "rt2012",
+    "reglementation environnementale 2020",
+    "reglementation thermique"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "hqe",
+    "bbc",
+    "isolation-thermique"
+   ],
+   "jobs": [
+    "Ingenieur thermique",
+    "Consultant energetique",
+    "Bureaux d'etudes fluides"
+   ]
+  },
+  {
+   "id": "bbc",
+   "label": {
+    "fr": "BBC",
+    "en": "Passivhaus",
+    "ar": "المباني منخفضة الاستهلاك",
+    "ru": "пассивный дом"
+   },
+   "patterns": [
+    "bbc",
+    "batiment basse consommation",
+    "passivhaus",
+    "passive house",
+    "effinergie"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "re2020",
+    "hqe",
+    "isolation-thermique"
+   ],
+   "jobs": [
+    "Ingenieur thermique",
+    "Consultant energetique",
+    "Architecte"
+   ]
+  },
+  {
+   "id": "qualibat",
+   "label": {
+    "fr": "QUALIBAT",
+    "en": "QUALIBAT",
+    "ar": "QUALIBAT",
+    "ru": "QUALIBAT"
+   },
+   "patterns": [
+    "qualibat"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "rge",
+    "dtu",
+    "hse"
+   ],
+   "jobs": [
+    "Responsable QSE",
+    "Chef d'entreprise BTP",
+    "Charge d'affaires BTP"
+   ]
+  },
+  {
+   "id": "rge",
+   "label": {
+    "fr": "RGE",
+    "en": "RGE",
+    "ar": "RGE",
+    "ru": "RGE"
+   },
+   "patterns": [
+    "rge",
+    "reconnu garant de l'environnement"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "qualibat",
+    "isolation-thermique",
+    "hqe"
+   ],
+   "jobs": [
+    "Chef d'entreprise BTP",
+    "Responsable technique",
+    "Charge d'affaires renovation"
+   ]
+  },
+  {
+   "id": "iso-9001",
+   "label": {
+    "fr": "ISO 9001",
+    "en": "ISO 9001",
+    "ar": "ISO 9001",
+    "ru": "ISO 9001"
+   },
+   "patterns": [
+    "iso 9001",
+    "iso9001",
+    "iso 9001 2015"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-14001",
+    "iso-45001",
+    "hse"
+   ],
+   "jobs": [
+    "Responsable QSE",
+    "Directeur QSE",
+    "Auditeur qualite"
+   ]
+  },
+  {
+   "id": "iso-14001",
+   "label": {
+    "fr": "ISO 14001",
+    "en": "ISO 14001",
+    "ar": "ISO 14001",
+    "ru": "ISO 14001"
+   },
+   "patterns": [
+    "iso 14001",
+    "iso14001"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-9001",
+    "iso-45001",
+    "hse"
+   ],
+   "jobs": [
+    "Responsable QSE",
+    "Responsable environnement",
+    "Directeur QSE"
+   ]
+  },
+  {
+   "id": "iso-45001",
+   "label": {
+    "fr": "ISO 45001",
+    "en": "ISO 45001",
+    "ar": "ISO 45001",
+    "ru": "ISO 45001"
+   },
+   "patterns": [
+    "iso 45001",
+    "iso45001",
+    "ohsas 18001"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-9001",
+    "iso-14001",
+    "hse"
+   ],
+   "jobs": [
+    "Responsable QSE",
+    "Coordinateur HSE",
+    "Preventeur"
+   ]
+  },
+  {
+   "id": "mase",
+   "label": {
+    "fr": "MASE",
+    "en": "MASE",
+    "ar": "MASE",
+    "ru": "MASE"
+   },
+   "patterns": [
+    "mase",
+    "manuel d'amelioration securite des entreprises",
+    "mase uic"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "hse",
+    "iso-45001",
+    "plan-prevention"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Coordinateur securite",
+    "Preventeur"
+   ]
+  },
+  {
+   "id": "amiante-ss4",
+   "label": {
+    "fr": "Formation amiante SS3/SS4",
+    "en": "Asbestos training",
+    "ar": "تدريب الأسبستوس",
+    "ru": "обучение по асбесту"
+   },
+   "patterns": [
+    "ss3",
+    "ss4",
+    "amiante ss3",
+    "amiante ss4",
+    "formation amiante",
+    "sous section 3",
+    "sous section 4"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "desamiantage",
+    "hse",
+    "diagnostic-batiment"
+   ],
+   "jobs": [
+    "Chef de chantier desamiantage",
+    "Coordinateur SPS",
+    "Technicien diagnostic"
+   ]
+  },
+  {
+   "id": "caces",
+   "label": {
+    "fr": "CACES",
+    "en": "CACES",
+    "ar": "CACES",
+    "ru": "CACES"
+   },
+   "patterns": [
+    "caces",
+    "caces r489",
+    "caces r486",
+    "caces grue",
+    "caces pemp",
+    "certificat aptitude conduite en securite"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "hse",
+    "levage",
+    "pilotage-chantier"
+   ],
+   "jobs": [
+    "Conducteur d'engins",
+    "Grutier",
+    "Chef de chantier"
+   ]
+  },
+  {
+   "id": "habilitation-electrique",
+   "label": {
+    "fr": "Habilitation electrique",
+    "en": "Electrical authorization",
+    "ar": "تأهيل كهربائي",
+    "ru": "допуск по электробезопасности"
+   },
+   "patterns": [
+    "habilitation electrique",
+    "h0b0",
+    "br",
+    "bc",
+    "b1v",
+    "b2v",
+    "nfc 18 510",
+    "допуск электробезопасность"
+   ],
+   "category": "norme",
+   "topics": [
+    "btp",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "electricite-batiment",
+    "hse",
+    "caneco-bt"
+   ],
+   "jobs": [
+    "Electricien",
+    "Technicien electricite",
+    "Chef de chantier electricite"
+   ]
+  },
+  {
+   "id": "beton-arme",
+   "label": {
+    "fr": "Beton arme",
+    "en": "Reinforced concrete",
+    "ar": "الخرسانة المسلحة",
+    "ru": "железобетон"
+   },
+   "patterns": [
+    "beton arme",
+    "beton arme",
+    "reinforced concrete",
+    "rc",
+    " железобетон",
+    "خرسانة مسلحة"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "coffrage",
+    "ferraillage",
+    "calcul-structures"
+   ],
+   "jobs": [
+    "Ingenieur beton arme",
+    "Chef de chantier gros oeuvre",
+    "Conducteur de travaux GO"
+   ]
+  },
+  {
+   "id": "coffrage",
+   "label": {
+    "fr": "Coffrage",
+    "en": "Formwork",
+    "ar": "شدات خشبية",
+    "ru": "опалубка"
+   },
+   "patterns": [
+    "coffrage",
+    "coffrage glissant",
+    "coffrage tunnel",
+    "formwork",
+    "опалубка",
+    "شدات"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "beton-arme",
+    "ferraillage",
+    "maconnerie"
+   ],
+   "jobs": [
+    "Coffreur bancheur",
+    "Chef de chantier GO",
+    "Ouvrier gros oeuvre"
+   ]
+  },
+  {
+   "id": "ferraillage",
+   "label": {
+    "fr": "Ferraillage",
+    "en": "Rebar work",
+    "ar": "تسليح الخرسانة",
+    "ru": "армирование"
+   },
+   "patterns": [
+    "ferraillage",
+    "armature",
+    "rebar",
+    "reinforcement",
+    "армирование",
+    "арматура",
+    "تسليح"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "beton-arme",
+    "coffrage",
+    "maconnerie"
+   ],
+   "jobs": [
+    "Ferrailleur",
+    "Chef de chantier GO",
+    "Coffreur bancheur"
+   ]
+  },
+  {
+   "id": "maconnerie",
+   "label": {
+    "fr": "Maconnerie",
+    "en": "Masonry",
+    "ar": "أعمال البناء",
+    "ru": "кладка"
+   },
+   "patterns": [
+    "maconnerie",
+    "macon",
+    "masonry",
+    "кладка",
+    "بناء"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "beton-arme",
+    "coffrage",
+    "renovation"
+   ],
+   "jobs": [
+    "Macon",
+    "Chef de chantier gros oeuvre",
+    "Maconnerie generale"
+   ]
+  },
+  {
+   "id": "charpente",
+   "label": {
+    "fr": "Charpente",
+    "en": "Carpentry structure",
+    "ar": "هيكل خشبي",
+    "ru": "стропильная система"
+   },
+   "patterns": [
+    "charpente",
+    "charpente bois",
+    "charpente metallique",
+    "carpentry",
+    "стропила",
+    "деревянные конструкции"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "couverture-zinguerie",
+    "menuiserie",
+    "beton-arme"
+   ],
+   "jobs": [
+    "Charpentier",
+    "Charpentier bois",
+    "Charpentier metallique"
+   ]
+  },
+  {
+   "id": "couverture-zinguerie",
+   "label": {
+    "fr": "Couverture-zinguerie",
+    "en": "Roofing and zinc work",
+    "ar": "أعمال التسقيف",
+    "ru": "кровельные работы"
+   },
+   "patterns": [
+    "couverture",
+    "zinguerie",
+    "couverture zinguerie",
+    "roofing",
+    "кровля",
+    "تسقيف"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "charpente",
+    "etancheite",
+    "isolation-thermique"
+   ],
+   "jobs": [
+    "Couvreur",
+    "Couvreur zingueur",
+    "Chef de chantier couverture"
+   ]
+  },
+  {
+   "id": "menuiserie",
+   "label": {
+    "fr": "Menuiserie",
+    "en": "Joinery",
+    "ar": "أعمال النجارة",
+    "ru": "столярные работы"
+   },
+   "patterns": [
+    "menuiserie",
+    "menuiserie bois",
+    "menuiserie alu",
+    "menuiserie pvc",
+    "joinery",
+    "نجارة",
+    "столярка"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "charpente",
+    "renovation",
+    "platrerie"
+   ],
+   "jobs": [
+    "Menuisier",
+    "Menuisier agenceur",
+    "Poseur menuiserie"
+   ]
+  },
+  {
+   "id": "plomberie",
+   "label": {
+    "fr": "Plomberie",
+    "en": "Plumbing",
+    "ar": "سباكة",
+    "ru": "сантехника"
+   },
+   "patterns": [
+    "plomberie",
+    "plombier",
+    "sanitaire",
+    "plumbing",
+    "сантехника",
+    "سباكة"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "cvc",
+    "electricite-batiment",
+    "assainissement"
+   ],
+   "jobs": [
+    "Plombier",
+    "Plombier chauffagiste",
+    "Chef de chantier fluides"
+   ]
+  },
+  {
+   "id": "electricite-batiment",
+   "label": {
+    "fr": "Electricite batiment",
+    "en": "Building electrical",
+    "ar": "كهرباء المباني",
+    "ru": "электромонтаж"
+   },
+   "patterns": [
+    "electricite batiment",
+    "electricite",
+    "electricien batiment",
+    "cfo",
+    "cfa",
+    "courants forts",
+    "courants faibles",
+    "электромонтаж",
+    "كهرباء"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "cvc",
+    "plomberie",
+    "habilitation-electrique"
+   ],
+   "jobs": [
+    "Electricien batiment",
+    "Chef de chantier electricite",
+    "Charge d'affaires electricite"
+   ]
+  },
+  {
+   "id": "cvc",
+   "label": {
+    "fr": "CVC",
+    "en": "HVAC",
+    "ar": "التدفئة والتهوية والتكييف",
+    "ru": "ОВиК"
+   },
+   "patterns": [
+    "cvc",
+    "chauffage ventilation climatisation",
+    "hvac",
+    "hvacr",
+    "овик",
+    "отопление вентиляция",
+    "تكييف"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "plomberie",
+    "electricite-batiment",
+    "re2020"
+   ],
+   "jobs": [
+    "Ingenieur CVC",
+    "Technicien CVC",
+    "Chef de projet fluides"
+   ]
+  },
+  {
+   "id": "carrelage",
+   "label": {
+    "fr": "Carrelage",
+    "en": "Tiling",
+    "ar": "أعمال البلاط",
+    "ru": "плиточные работы"
+   },
+   "patterns": [
+    "carrelage",
+    "carreleur",
+    "faience",
+    "tiling",
+    "плитка",
+    "بلاط"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "maconnerie",
+    "platrerie",
+    "renovation"
+   ],
+   "jobs": [
+    "Carreleur",
+    "Carreleur mosaique",
+    "Chef d'equipe second oeuvre"
+   ]
+  },
+  {
+   "id": "platrerie",
+   "label": {
+    "fr": "Platrerie",
+    "en": "Plastering and drywall",
+    "ar": "أعمال الجبس",
+    "ru": "штукатурные работы"
+   },
+   "patterns": [
+    "platrerie",
+    "platrier",
+    "placo",
+    "cloisons seches",
+    "drywall",
+    "plasterboard",
+    "гипсокартон",
+    "جبس"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "peinture-batiment",
+    "isolation-thermique",
+    "menuiserie"
+   ],
+   "jobs": [
+    "Platrier plaquiste",
+    "Chef d'equipe second oeuvre",
+    "Monteur cloisons"
+   ]
+  },
+  {
+   "id": "peinture-batiment",
+   "label": {
+    "fr": "Peinture batiment",
+    "en": "Building painting",
+    "ar": "أعمال الدهان",
+    "ru": "малярные работы"
+   },
+   "patterns": [
+    "peinture batiment",
+    "peintre batiment",
+    "ravalement",
+    "painting",
+    "малярные работы",
+    "دهان"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "platrerie",
+    "renovation",
+    "etancheite"
+   ],
+   "jobs": [
+    "Peintre batiment",
+    "Peintre en decoration",
+    "Chef d'equipe peinture"
+   ]
+  },
+  {
+   "id": "etancheite",
+   "label": {
+    "fr": "Etancheite",
+    "en": "Waterproofing",
+    "ar": "عزل مائي",
+    "ru": "гидроизоляция"
+   },
+   "patterns": [
+    "etancheite",
+    "etancheur",
+    "waterproofing",
+    "etancheite toiture",
+    "гидроизоляция",
+    "عزل"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "couverture-zinguerie",
+    "isolation-thermique",
+    "peinture-batiment"
+   ],
+   "jobs": [
+    "Etancheur",
+    "Chef de chantier etancheite",
+    "Couvreur etancheur"
+   ]
+  },
+  {
+   "id": "isolation-thermique",
+   "label": {
+    "fr": "Isolation thermique",
+    "en": "Thermal insulation",
+    "ar": "عزل حراري",
+    "ru": "теплоизоляция"
+   },
+   "patterns": [
+    "isolation thermique",
+    "ite",
+    "iti",
+    "isolation par l'exterieur",
+    "isolation par l'interieur",
+    "thermal insulation",
+    "теплоизоляция",
+    "عزل حراري"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "re2020",
+    "bbc",
+    "rge"
+   ],
+   "jobs": [
+    "Isolateur thermique",
+    "Chef de chantier ITE",
+    "Conseiller renovation energetique"
+   ]
+  },
+  {
+   "id": "terrassement",
+   "label": {
+    "fr": "Terrassement",
+    "en": "Earthworks",
+    "ar": "أعمال الحفر",
+    "ru": "земляные работы"
+   },
+   "patterns": [
+    "terrassement",
+    "terrassement general",
+    "earthworks",
+    "земляные работы",
+    "حفر"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "vrd",
+    "fondations",
+    "genie-civil"
+   ],
+   "jobs": [
+    "Chef de chantier terrassement",
+    "Conducteur d'engins",
+    "Chef d'equipe TP"
+   ]
+  },
+  {
+   "id": "vrd",
+   "label": {
+    "fr": "VRD",
+    "en": "Site services",
+    "ar": "شبكات البنية التحتية",
+    "ru": "наружные сети"
+   },
+   "patterns": [
+    "vrd",
+    "voirie et reseaux divers",
+    "voiries reseaux",
+    "site services",
+    "наружные сети",
+    "شبكات"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "terrassement",
+    "assainissement",
+    "genie-civil"
+   ],
+   "jobs": [
+    "Ingenieur VRD",
+    "Projeteur VRD",
+    "Chef de chantier VRD"
+   ]
+  },
+  {
+   "id": "fondations",
+   "label": {
+    "fr": "Fondations",
+    "en": "Foundations",
+    "ar": "الأساسات",
+    "ru": "фундаменты"
+   },
+   "patterns": [
+    "fondations",
+    "fondations superficielles",
+    "fondations profondes",
+    "foundations",
+    "фундамент",
+    "أساسات"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "pieux",
+    "soutenement",
+    "beton-arme"
+   ],
+   "jobs": [
+    "Ingenieur fondations",
+    "Chef de chantier fondations",
+    "Ingenieur geotechnique"
+   ]
+  },
+  {
+   "id": "pieux",
+   "label": {
+    "fr": "Pieux et fondations profondes",
+    "en": "Piling",
+    "ar": "أعمال الخوازيق",
+    "ru": "свайные работы"
+   },
+   "patterns": [
+    "pieux",
+    "pieux fores",
+    "micropieux",
+    "piling",
+    "fondations profondes",
+    "сваи",
+    "خوازيق"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "fondations",
+    "soutenement",
+    "genie-civil"
+   ],
+   "jobs": [
+    "Chef de chantier fondations",
+    "Ingenieur geotechnique",
+    "Foreur"
+   ]
+  },
+  {
+   "id": "soutenement",
+   "label": {
+    "fr": "Soutenement",
+    "en": "Shoring and retaining",
+    "ar": "أعمال السند",
+    "ru": "крепление котлованов"
+   },
+   "patterns": [
+    "soutenement",
+    "paroi moulee",
+    "palplanches",
+    "berlinoise",
+    "shoring",
+    "retaining wall",
+    "ограждение котлована",
+    "سند"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "fondations",
+    "pieux",
+    "terrassement"
+   ],
+   "jobs": [
+    "Ingenieur geotechnique",
+    "Chef de chantier soutenement",
+    "Ingenieur travaux speciaux"
+   ]
+  },
+  {
+   "id": "demolition",
+   "label": {
+    "fr": "Demolition",
+    "en": "Demolition",
+    "ar": "الهدم",
+    "ru": "снос"
+   },
+   "patterns": [
+    "demolition",
+    "curage",
+    "deconstruction",
+    "demolition",
+    "снос",
+    "демонтаж",
+    "هدم"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "desamiantage",
+    "terrassement",
+    "renovation"
+   ],
+   "jobs": [
+    "Chef de chantier demolition",
+    "Ouvrier demolition",
+    "Conducteur de travaux demolition"
+   ]
+  },
+  {
+   "id": "desamiantage",
+   "label": {
+    "fr": "Desamiantage",
+    "en": "Asbestos removal",
+    "ar": "إزالة الأسبستوس",
+    "ru": "демонтаж асбеста"
+   },
+   "patterns": [
+    "desamiantage",
+    "retrait amiante",
+    "asbestos removal",
+    "удаление асбеста",
+    "إزالة asbestos"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "amiante-ss4",
+    "demolition",
+    "diagnostic-batiment"
+   ],
+   "jobs": [
+    "Chef de chantier desamiantage",
+    "Technicien desamiantage",
+    "Responsable travaux amiante"
+   ]
+  },
+  {
+   "id": "topographie",
+   "label": {
+    "fr": "Topographie",
+    "en": "Surveying",
+    "ar": "المساحة",
+    "ru": "геодезия"
+   },
+   "patterns": [
+    "topographie",
+    "topographe",
+    "surveying",
+    "land survey",
+    "геодезия",
+    "مساحة"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "implantation",
+    "leica-cyclone",
+    "civil-3d"
+   ],
+   "jobs": [
+    "Geometre topographe",
+    "Ingenieur topographe",
+    "Technicien geometre"
+   ]
+  },
+  {
+   "id": "implantation",
+   "label": {
+    "fr": "Implantation de chantier",
+    "en": "Site layout",
+    "ar": "توقيع الأعمال",
+    "ru": "разбивка осей"
+   },
+   "patterns": [
+    "implantation",
+    "implantation chantier",
+    "mise en place",
+    "разбивка",
+    "توقيع"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "topographie",
+    "pilotage-chantier",
+    "terrassement"
+   ],
+   "jobs": [
+    "Geometre topographe",
+    "Chef de chantier",
+    "Conducteur de travaux"
+   ]
+  },
+  {
+   "id": "diagnostic-batiment",
+   "label": {
+    "fr": "Diagnostic immobilier",
+    "en": "Building survey",
+    "ar": "تشخيص العقار",
+    "ru": "техническое обследование зданий"
+   },
+   "patterns": [
+    "diagnostic immobilier",
+    "diagnostic batiment",
+    "ddt",
+    "diagnostic technique",
+    "обследование зданий",
+    "تشخيص"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "frequent",
+   "related": [
+    "pathologie-batiment",
+    "desamiantage",
+    "renovation"
+   ],
+   "jobs": [
+    "Diagnostiqueur immobilier",
+    "Technicien diagnostic",
+    "Expert batiment"
+   ]
+  },
+  {
+   "id": "pathologie-batiment",
+   "label": {
+    "fr": "Pathologie du batiment",
+    "en": "Building pathology",
+    "ar": "أمراض المباني",
+    "ru": "патологии зданий"
+   },
+   "patterns": [
+    "pathologie batiment",
+    "pathologie du batiment",
+    "expertise fissures",
+    "humidity",
+    "humidite",
+    "pathology",
+    "патологии зданий"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "diagnostic-batiment",
+    "renovation",
+    "beton-arme"
+   ],
+   "jobs": [
+    "Expert batiment",
+    "Ingenieur expert",
+    "Consultant pathologie"
+   ]
+  },
+  {
+   "id": "renovation",
+   "label": {
+    "fr": "Renovation",
+    "en": "Renovation",
+    "ar": "الترميم",
+    "ru": "реконструкция"
+   },
+   "patterns": [
+    "renovation",
+    "rehabilitation",
+    "rehab",
+    "retrofit",
+    "реконструкция",
+    "реновация",
+    "ترميم"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "isolation-thermique",
+    "maconnerie",
+    "menuiserie"
+   ],
+   "jobs": [
+    "Charge d'affaires renovation",
+    "Conducteur de travaux renovation",
+    "Chef de projet rehabilitation"
+   ]
+  },
+  {
+   "id": "genie-civil",
+   "label": {
+    "fr": "Genie civil",
+    "en": "Civil engineering",
+    "ar": "الهندسة المدنية",
+    "ru": "строительство"
+   },
+   "patterns": [
+    "genie civil",
+    "gc",
+    "civil engineering",
+    "строительство",
+    "هندسة مدنية"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "ouvrages-art",
+    "ponts-chaussees",
+    "beton-arme"
+   ],
+   "jobs": [
+    "Ingenieur genie civil",
+    "Chef de projet GC",
+    "Directeur de travaux GC"
+   ]
+  },
+  {
+   "id": "ponts-chaussees",
+   "label": {
+    "fr": "Ponts et chaussees",
+    "en": "Bridges and highways",
+    "ar": "الجسور والطرق",
+    "ru": "мосты и дороги"
+   },
+   "patterns": [
+    "ponts et chaussees",
+    "ponts chaussees",
+    "ouvrage d'art",
+    "highways",
+    "мосты",
+    "جسور"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "genie-civil",
+    "ouvrages-art",
+    "beton-arme"
+   ],
+   "jobs": [
+    "Ingenieur ponts et chaussees",
+    "Chef de projet ouvrages d'art",
+    "Ingenieur routes"
+   ]
+  },
+  {
+   "id": "ouvrages-art",
+   "label": {
+    "fr": "Ouvrages d'art",
+    "en": "Structural works",
+    "ar": "المنشآت الفنية",
+    "ru": "искусственные сооружения"
+   },
+   "patterns": [
+    "ouvrages d'art",
+    "ouvrage d'art",
+    "structural works",
+    "bridge engineering",
+    "искусственные сооружения",
+    "منشآت"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "ponts-chaussees",
+    "genie-civil",
+    "calcul-structures"
+   ],
+   "jobs": [
+    "Ingenieur ouvrages d'art",
+    "Chef de projet OA",
+    "Ingenieur structures"
+   ]
+  },
+  {
+   "id": "assainissement",
+   "label": {
+    "fr": "Assainissement",
+    "en": "Sanitation",
+    "ar": "الصرف الصحي",
+    "ru": "канализация"
+   },
+   "patterns": [
+    "assainissement",
+    "assainissement collectif",
+    "assainissement non collectif",
+    "anc",
+    "egouts",
+    "канализация",
+    "صرف صحي"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "vrd",
+    "plomberie",
+    "adduction-eau"
+   ],
+   "jobs": [
+    "Ingenieur assainissement",
+    "Chef de chantier reseaux",
+    "Technicien VRD"
+   ]
+  },
+  {
+   "id": "adduction-eau",
+   "label": {
+    "fr": "Adduction d'eau",
+    "en": "Water supply",
+    "ar": "شبكات المياه",
+    "ru": "водоснабжение"
+   },
+   "patterns": [
+    "adduction eau",
+    "adduction d'eau",
+    "aep",
+    "water supply",
+    "водоснабжение",
+    "aep"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "assainissement",
+    "vrd",
+    "plomberie"
+   ],
+   "jobs": [
+    "Ingenieur hydraulique",
+    "Chef de chantier reseaux",
+    "Technicien VRD"
+   ]
+  },
+  {
+   "id": "coordination-sps",
+   "label": {
+    "fr": "Coordination SPS",
+    "en": "Health and safety coordination",
+    "ar": "تنسيق السلامة",
+    "ru": "координация охраны труда"
+   },
+   "patterns": [
+    "coordination sps",
+    "coordinateur sps",
+    "securite protection sante",
+    "sps coordination",
+    "координация охраны труда"
+   ],
+   "category": "transverse",
+   "topics": [
+    "btp",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "hse",
+    "ppSPS",
+    "plan-prevention"
+   ],
+   "jobs": [
+    "Coordinateur SPS",
+    "Ingenieur HSE",
+    "Preventeur"
+   ]
+  },
+  {
+   "id": "opc",
+   "label": {
+    "fr": "OPC",
+    "en": "Project scheduling and coordination",
+    "ar": "تنسيق وجدولة المشاريع",
+    "ru": "координация работ"
+   },
+   "patterns": [
+    "opc",
+    "ordonnancement pilotage coordination",
+    "opc maitrise oeuvre"
+   ],
+   "category": "transverse",
+   "topics": [
+    "btp",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "pilotage-chantier",
+    "planification",
+    "ms-project"
+   ],
+   "jobs": [
+    "OPC",
+    "Coordinateur de travaux",
+    "Maitre d'oeuvre"
+   ]
+  },
+  {
+   "id": "pilotage-chantier",
+   "label": {
+    "fr": "Pilotage de chantier",
+    "en": "Site management",
+    "ar": "إدارة الموقع",
+    "ru": "управление стройплощадкой"
+   },
+   "patterns": [
+    "pilotage chantier",
+    "direction travaux",
+    "conduite de chantier",
+    "site management",
+    "site supervision",
+    "управление стройкой",
+    "إدارة موقع"
+   ],
+   "category": "transverse",
+   "topics": [
+    "btp",
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "planification",
+    "hse",
+    "sous-traitance"
+   ],
+   "jobs": [
+    "Conducteur de travaux",
+    "Chef de chantier",
+    "Directeur de travaux"
+   ]
+  },
+  {
+   "id": "planification",
+   "label": {
+    "fr": "Planification de chantier",
+    "en": "Construction scheduling",
+    "ar": "تخطيط المشروع",
+    "ru": "планирование строительства"
+   },
+   "patterns": [
+    "planification",
+    "planning chantier",
+    "gantt",
+    "ordonnancement",
+    "planning",
+    "планирование",
+    "تخطيط"
+   ],
+   "category": "transverse",
+   "topics": [
+    "btp",
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "ms-project",
+    "primavera-p6",
+    "pilotage-chantier"
+   ],
+   "jobs": [
+    "Planificateur",
+    "Ingenieur planning",
+    "Conducteur de travaux"
+   ]
+  },
+  {
+   "id": "suivi-budgetaire",
+   "label": {
+    "fr": "Suivi budgetaire de chantier",
+    "en": "Project cost control",
+    "ar": "متابعة الميزانية",
+    "ru": "контроль бюджета"
+   },
+   "patterns": [
+    "suivi budgetaire",
+    "controle budget",
+    "cost control",
+    "suivi financier chantier",
+    "контроль бюджета",
+    "متابعة مالية"
+   ],
+   "category": "transverse",
+   "topics": [
+    "btp",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "appels-offres",
+    "sous-traitance",
+    "pilotage-chantier"
+   ],
+   "jobs": [
+    "Conducteur de travaux",
+    "Directeur de travaux",
+    "Controleur de gestion BTP"
+   ]
+  },
+  {
+   "id": "appels-offres",
+   "label": {
+    "fr": "Reponse aux appels d'offres",
+    "en": "Tender management",
+    "ar": "إعداد العروض",
+    "ru": "тендеры"
+   },
+   "patterns": [
+    "appels d'offres",
+    "appel offres",
+    "reponse ao",
+    "tender",
+    "tendering",
+    "offre technique",
+    "offre financiere",
+    "тендер",
+    "مناقصة"
+   ],
+   "category": "transverse",
+   "topics": [
+    "btp",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "cctp",
+    "dpgf",
+    "suivi-budgetaire"
+   ],
+   "jobs": [
+    "Ingenieur etudes de prix",
+    "Charge d'affaires BTP",
+    "Responsable etudes de prix"
+   ]
+  },
+  {
+   "id": "hse",
+   "label": {
+    "fr": "HSE",
+    "en": "HSE",
+    "ar": "الصحة والسلامة والبيئة",
+    "ru": "ОТ, ПБ и ООС"
+   },
+   "patterns": [
+    "hse",
+    "qhse",
+    "qse",
+    "hygiene securite environnement",
+    "health safety environment",
+    "sante securite",
+    "охрана труда",
+    "hse"
+   ],
+   "category": "transverse",
+   "topics": [
+    "btp",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "coordination-sps",
+    "ppSPS",
+    "iso-45001"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Animateur securite",
+    "Coordinateur HSE"
+   ]
+  },
+  {
+   "id": "ppsps",
+   "label": {
+    "fr": "PPSPS",
+    "en": "PPSPS",
+    "ar": "PPSPS",
+    "ru": "ППР"
+   },
+   "patterns": [
+    "ppsps",
+    "plan particulier de securite et de protection de la sante",
+    "pps"
+   ],
+   "category": "transverse",
+   "topics": [
+    "btp",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "coordination-sps",
+    "plan-prevention",
+    "hse"
+   ],
+   "jobs": [
+    "Coordinateur SPS",
+    "Responsable HSE",
+    "Conducteur de travaux"
+   ]
+  },
+  {
+   "id": "plan-prevention",
+   "label": {
+    "fr": "Plan de prevention",
+    "en": "Prevention plan",
+    "ar": "خطة الوقاية",
+    "ru": "план производства работ"
+   },
+   "patterns": [
+    "plan de prevention",
+    "plan prevention",
+    "prevention plan",
+    "ppr",
+    "план производства работ"
+   ],
+   "category": "transverse",
+   "topics": [
+    "btp",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "ppsps",
+    "coordination-sps",
+    "hse"
+   ],
+   "jobs": [
+    "Coordinateur SPS",
+    "Responsable HSE",
+    "Preventeur"
+   ]
+  },
+  {
+   "id": "reception-chantier",
+   "label": {
+    "fr": "Reception de chantier",
+    "en": "Project handover",
+    "ar": "استلام الأعمال",
+    "ru": "сдача объекта"
+   },
+   "patterns": [
+    "reception chantier",
+    "reception travaux",
+    "pv de reception",
+    "levée de reserves",
+    "handover",
+    "сдача объекта",
+    "استلام"
+   ],
+   "category": "transverse",
+   "topics": [
+    "btp",
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "doe",
+    "pilotage-chantier",
+    "planradar"
+   ],
+   "jobs": [
+    "Conducteur de travaux",
+    "Directeur de travaux",
+    "Maitre d'oeuvre"
+   ]
+  },
+  {
+   "id": "doe",
+   "label": {
+    "fr": "DOE",
+    "en": "As-built documents",
+    "ar": "ملف الأشغال المنفذة",
+    "ru": "исполнительная документация"
+   },
+   "patterns": [
+    "doe",
+    "dossier des ouvrages executes",
+    "as built",
+    "as-built",
+    "diuo",
+    "исполнительная документация"
+   ],
+   "category": "transverse",
+   "topics": [
+    "btp",
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "reception-chantier",
+    "cobie",
+    "bim"
+   ],
+   "jobs": [
+    "Conducteur de travaux",
+    "Maitre d'oeuvre",
+    "Responsable DOE"
+   ]
+  },
+  {
+   "id": "garantie-decennale",
+   "label": {
+    "fr": "Assurance decennale",
+    "en": "Decennial liability insurance",
+    "ar": "التأمين العشري",
+    "ru": "десятилетняя гарантия"
+   },
+   "patterns": [
+    "decennale",
+    "garantie decennale",
+    "responsabilite decennale",
+    "assurance decennale",
+    "decennial",
+    "десятилетняя гарантия"
+   ],
+   "category": "transverse",
+   "topics": [
+    "btp",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "reception-chantier",
+    "sous-traitance",
+    "hse"
+   ],
+   "jobs": [
+    "Chef d'entreprise BTP",
+    "Responsable juridique BTP",
+    "Directeur de travaux"
+   ]
+  },
+  {
+   "id": "compte-prorata",
+   "label": {
+    "fr": "Compte prorata",
+    "en": "Pro rata account",
+    "ar": "حساب النسبة",
+    "ru": "счёт пропорциональных расходов"
+   },
+   "patterns": [
+    "compte prorata",
+    "prorata",
+    "ccag travaux"
+   ],
+   "category": "transverse",
+   "topics": [
+    "btp",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "sous-traitance",
+    "suivi-budgetaire",
+    "appels-offres"
+   ],
+   "jobs": [
+    "Conducteur de travaux",
+    "Directeur de travaux",
+    "Charge d'affaires BTP"
+   ]
+  },
+  {
+   "id": "sous-traitance",
+   "label": {
+    "fr": "Gestion de la sous-traitance",
+    "en": "Subcontractor management",
+    "ar": "إدارة المقاولين من الباطن",
+    "ru": "управление субподрядчиками"
+   },
+   "patterns": [
+    "sous traitance",
+    "sous-traitance",
+    "sous traitants",
+    "subcontracting",
+    "subcontractor",
+    "субподряд",
+    "مقاولات من الباطن"
+   ],
+   "category": "transverse",
+   "topics": [
+    "btp",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "pilotage-chantier",
+    "suivi-budgetaire",
+    "compte-prorata"
+   ],
+   "jobs": [
+    "Conducteur de travaux",
+    "Directeur de travaux",
+    "Responsable achats BTP"
+   ]
+  },
+  {
+   "id": "levage",
+   "label": {
+    "fr": "Levage et manutention",
+    "en": "Lifting and handling",
+    "ar": "أعمال الرفع",
+    "ru": "грузоподъёмные работы"
+   },
+   "patterns": [
+    "levage",
+    "grutage",
+    "manutention",
+    "grue",
+    "pont roulant",
+    "lifting",
+    "грузоподъемные работы",
+    "кран"
+   ],
+   "category": "metier",
+   "topics": [
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "caces",
+    "pilotage-chantier",
+    "hse"
+   ],
+   "jobs": [
+    "Grutier",
+    "Chef de chantier",
+    "Elingueur"
+   ]
+  }
+ ]
+}

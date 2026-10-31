@@ -1,0 +1,2233 @@
+{
+ "sector": "Éducation, enseignement et formation",
+ "key": "education",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "moodle",
+   "label": {
+    "fr": "Moodle",
+    "en": "Moodle",
+    "ar": "Moodle",
+    "ru": "Moodle"
+   },
+   "patterns": [
+    "moodle",
+    "мудл",
+    "moodle lms",
+    "plateforme moodle"
+   ],
+   "category": "outil",
+   "topics": [
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "canvas-lms",
+    "chamilo",
+    "scorm",
+    "conception-elearning"
+   ],
+   "jobs": [
+    "Ingénieur pédagogique",
+    "Administrateur LMS",
+    "Concepteur e-learning"
+   ]
+  },
+  {
+   "id": "canvas-lms",
+   "label": {
+    "fr": "Canvas LMS",
+    "en": "Canvas LMS",
+    "ar": "Canvas LMS",
+    "ru": "Canvas LMS"
+   },
+   "patterns": [
+    "canvas lms",
+    "canvas",
+    "instructure canvas",
+    "канвас лмс"
+   ],
+   "category": "outil",
+   "topics": [
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "moodle",
+    "blackboard-learn",
+    "scorm",
+    "lti"
+   ],
+   "jobs": [
+    "Administrateur LMS",
+    "Ingénieur pédagogique",
+    "Responsable digital learning"
+   ]
+  },
+  {
+   "id": "blackboard-learn",
+   "label": {
+    "fr": "Blackboard Learn",
+    "en": "Blackboard Learn",
+    "ar": "Blackboard Learn",
+    "ru": "Blackboard Learn"
+   },
+   "patterns": [
+    "blackboard",
+    "blackboard learn",
+    "bblearn",
+    "блэкборд"
+   ],
+   "category": "outil",
+   "topics": [
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "canvas-lms",
+    "moodle",
+    "lti",
+    "scorm"
+   ],
+   "jobs": [
+    "Administrateur LMS",
+    "Ingénieur pédagogique",
+    "Directeur des systèmes d'information"
+   ]
+  },
+  {
+   "id": "chamilo",
+   "label": {
+    "fr": "Chamilo",
+    "en": "Chamilo",
+    "ar": "Chamilo",
+    "ru": "Chamilo"
+   },
+   "patterns": [
+    "chamilo",
+    "chamilo lms",
+    "чамило"
+   ],
+   "category": "outil",
+   "topics": [
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "moodle",
+    "scorm",
+    "conception-elearning"
+   ],
+   "jobs": [
+    "Concepteur e-learning",
+    "Administrateur LMS",
+    "Formateur"
+   ]
+  },
+  {
+   "id": "articulate-storyline",
+   "label": {
+    "fr": "Articulate Storyline",
+    "en": "Articulate Storyline",
+    "ar": "Articulate Storyline",
+    "ru": "Articulate Storyline"
+   },
+   "patterns": [
+    "storyline",
+    "articulate storyline",
+    "articulate 360",
+    "сторлайн",
+    "articulate"
+   ],
+   "category": "outil",
+   "topics": [
+    "education",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "adobe-captivate",
+    "h5p",
+    "scorm",
+    "conception-elearning"
+   ],
+   "jobs": [
+    "Concepteur e-learning",
+    "Ingénieur pédagogique",
+    "Auteur multimédia"
+   ]
+  },
+  {
+   "id": "adobe-captivate",
+   "label": {
+    "fr": "Adobe Captivate",
+    "en": "Adobe Captivate",
+    "ar": "Adobe Captivate",
+    "ru": "Adobe Captivate"
+   },
+   "patterns": [
+    "captivate",
+    "adobe captivate",
+    "каптивейт"
+   ],
+   "category": "outil",
+   "topics": [
+    "education",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "articulate-storyline",
+    "scorm",
+    "conception-elearning",
+    "camtasia"
+   ],
+   "jobs": [
+    "Concepteur e-learning",
+    "Ingénieur pédagogique",
+    "Réalisateur multimédia"
+   ]
+  },
+  {
+   "id": "h5p",
+   "label": {
+    "fr": "H5P",
+    "en": "H5P",
+    "ar": "H5P",
+    "ru": "H5P"
+   },
+   "patterns": [
+    "h5p",
+    "html5 package",
+    "аш пять пэ",
+    "h5p interactif"
+   ],
+   "category": "outil",
+   "topics": [
+    "education",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "moodle",
+    "scorm",
+    "xapi",
+    "gamification-ludopedagogie"
+   ],
+   "jobs": [
+    "Concepteur e-learning",
+    "Ingénieur pédagogique",
+    "Formateur digital"
+   ]
+  },
+  {
+   "id": "camtasia",
+   "label": {
+    "fr": "Camtasia",
+    "en": "Camtasia",
+    "ar": "Camtasia",
+    "ru": "Camtasia"
+   },
+   "patterns": [
+    "camtasia",
+    "techsmith camtasia",
+    "камтазия",
+    "montage video formation"
+   ],
+   "category": "outil",
+   "topics": [
+    "education",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "obs-studio",
+    "conception-elearning",
+    "microlearning"
+   ],
+   "jobs": [
+    "Concepteur e-learning",
+    "Vidéaste pédagogique",
+    "Ingénieur pédagogique"
+   ]
+  },
+  {
+   "id": "vyond",
+   "label": {
+    "fr": "Vyond",
+    "en": "Vyond",
+    "ar": "Vyond",
+    "ru": "Vyond"
+   },
+   "patterns": [
+    "vyond",
+    "goanimate",
+    "вайонд",
+    "animation 2d formation"
+   ],
+   "category": "outil",
+   "topics": [
+    "education",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "powtoon",
+    "conception-elearning",
+    "gamification-ludopedagogie"
+   ],
+   "jobs": [
+    "Concepteur e-learning",
+    "Motion designer pédagogique",
+    "Ingénieur pédagogique"
+   ]
+  },
+  {
+   "id": "powtoon",
+   "label": {
+    "fr": "Powtoon",
+    "en": "Powtoon",
+    "ar": "Powtoon",
+    "ru": "Powtoon"
+   },
+   "patterns": [
+    "powtoon",
+    "паутун",
+    "video animee"
+   ],
+   "category": "outil",
+   "topics": [
+    "education",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "vyond",
+    "canva-education",
+    "conception-elearning"
+   ],
+   "jobs": [
+    "Concepteur e-learning",
+    "Formateur digital",
+    "Ingénieur pédagogique"
+   ]
+  },
+  {
+   "id": "genially",
+   "label": {
+    "fr": "Genially",
+    "en": "Genially",
+    "ar": "Genially",
+    "ru": "Genially"
+   },
+   "patterns": [
+    "genially",
+    "гениалли",
+    "presentation interactive"
+   ],
+   "category": "outil",
+   "topics": [
+    "education",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "canva-education",
+    "gamification-ludopedagogie",
+    "h5p"
+   ],
+   "jobs": [
+    "Formateur",
+    "Concepteur e-learning",
+    "Ingénieur pédagogique"
+   ]
+  },
+  {
+   "id": "wooclap",
+   "label": {
+    "fr": "Wooclap",
+    "en": "Wooclap",
+    "ar": "Wooclap",
+    "ru": "Wooclap"
+   },
+   "patterns": [
+    "wooclap",
+    "вуклап",
+    "sondage direct",
+    "interactive audience"
+   ],
+   "category": "outil",
+   "topics": [
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "kahoot",
+    "klaxoon",
+    "animation-formation"
+   ],
+   "jobs": [
+    "Formateur",
+    "Animateur de formation",
+    "Facilitateur"
+   ]
+  },
+  {
+   "id": "kahoot",
+   "label": {
+    "fr": "Kahoot!",
+    "en": "Kahoot!",
+    "ar": "Kahoot!",
+    "ru": "Kahoot!"
+   },
+   "patterns": [
+    "kahoot",
+    "кахут",
+    "quiz interactif"
+   ],
+   "category": "outil",
+   "topics": [
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "wooclap",
+    "gamification-ludopedagogie",
+    "quizlet"
+   ],
+   "jobs": [
+    "Formateur",
+    "Enseignant",
+    "Animateur pédagogique"
+   ]
+  },
+  {
+   "id": "klaxoon",
+   "label": {
+    "fr": "Klaxoon",
+    "en": "Klaxoon",
+    "ar": "Klaxoon",
+    "ru": "Klaxoon"
+   },
+   "patterns": [
+    "klaxoon",
+    "клаксун",
+    "brainstorming digital",
+    "board collaboratif"
+   ],
+   "category": "outil",
+   "topics": [
+    "education",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "wooclap",
+    "animation-formation",
+    "design-thinking-formation"
+   ],
+   "jobs": [
+    "Facilitateur",
+    "Formateur",
+    "Consultant en transformation"
+   ]
+  },
+  {
+   "id": "padlet",
+   "label": {
+    "fr": "Padlet",
+    "en": "Padlet",
+    "ar": "Padlet",
+    "ru": "Padlet"
+   },
+   "patterns": [
+    "padlet",
+    "падлет",
+    "mur collaboratif"
+   ],
+   "category": "outil",
+   "topics": [
+    "education",
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "klaxoon",
+    "animation-formation",
+    "pedagogie-active"
+   ],
+   "jobs": [
+    "Formateur",
+    "Enseignant",
+    "Coordinateur pédagogique"
+   ]
+  },
+  {
+   "id": "obs-studio",
+   "label": {
+    "fr": "OBS Studio",
+    "en": "OBS Studio",
+    "ar": "OBS Studio",
+    "ru": "OBS Studio"
+   },
+   "patterns": [
+    "obs",
+    "obs studio",
+    "open broadcaster",
+    "обс студио",
+    "streaming formation"
+   ],
+   "category": "outil",
+   "topics": [
+    "education",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "camtasia",
+    "zoom-education",
+    "microsoft-teams-education"
+   ],
+   "jobs": [
+    "Régisseur numérique",
+    "Formateur digital",
+    "Technicien audiovisuel"
+   ]
+  },
+  {
+   "id": "scorm",
+   "label": {
+    "fr": "SCORM",
+    "en": "SCORM",
+    "ar": "SCORM",
+    "ru": "SCORM"
+   },
+   "patterns": [
+    "scorm",
+    "sharable content object reference model",
+    "снорм",
+    "scorm 1.2",
+    "scorm 2004"
+   ],
+   "category": "norme",
+   "topics": [
+    "education",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "xapi",
+    "lti",
+    "aicc",
+    "conception-elearning"
+   ],
+   "jobs": [
+    "Concepteur e-learning",
+    "Ingénieur pédagogique",
+    "Administrateur LMS"
+   ]
+  },
+  {
+   "id": "xapi",
+   "label": {
+    "fr": "xAPI",
+    "en": "xAPI",
+    "ar": "xAPI",
+    "ru": "xAPI"
+   },
+   "patterns": [
+    "xapi",
+    "tin can",
+    "tin can api",
+    "experience api",
+    "экс апи",
+    "тин кэн"
+   ],
+   "category": "norme",
+   "topics": [
+    "education",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "scorm",
+    "lti",
+    "conception-elearning",
+    "h5p"
+   ],
+   "jobs": [
+    "Ingénieur pédagogique",
+    "Data scientist éducation",
+    "Administrateur LMS"
+   ]
+  },
+  {
+   "id": "lti",
+   "label": {
+    "fr": "LTI",
+    "en": "LTI",
+    "ar": "LTI",
+    "ru": "LTI"
+   },
+   "patterns": [
+    "lti",
+    "learning tools interoperability",
+    "ims lti",
+    "имс эл ти ай"
+   ],
+   "category": "norme",
+   "topics": [
+    "education",
+    "web"
+   ],
+   "level": "specialise",
+   "related": [
+    "scorm",
+    "xapi",
+    "canvas-lms",
+    "blackboard-learn"
+   ],
+   "jobs": [
+    "Administrateur LMS",
+    "Ingénieur pédagogique",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "aicc",
+   "label": {
+    "fr": "AICC",
+    "en": "AICC",
+    "ar": "AICC",
+    "ru": "AICC"
+   },
+   "patterns": [
+    "aicc",
+    "aviation industry cbt committee",
+    "аисс"
+   ],
+   "category": "norme",
+   "topics": [
+    "education"
+   ],
+   "level": "specialise",
+   "related": [
+    "scorm",
+    "xapi",
+    "conception-elearning"
+   ],
+   "jobs": [
+    "Concepteur e-learning",
+    "Ingénieur pédagogique",
+    "Administrateur LMS"
+   ]
+  },
+  {
+   "id": "ingenierie-pedagogique",
+   "label": {
+    "fr": "Ingénierie pédagogique",
+    "en": "Instructional design",
+    "ar": "التصميم التعليمي",
+    "ru": "Педагогический дизайн"
+   },
+   "patterns": [
+    "ingenierie pedagogique",
+    "instructional design",
+    "التصميم التعليمي",
+    "تصميم تعليمي",
+    "педагогическ дизайн",
+    "проектиров образоват",
+    "педагогич проектиров"
+   ],
+   "category": "metier",
+   "topics": [
+    "education",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "scenarisation-pedagogique",
+    "conception-elearning",
+    "taxonomie-bloom",
+    "andragogie"
+   ],
+   "jobs": [
+    "Ingénieur pédagogique",
+    "Concepteur e-learning",
+    "Instructional designer"
+   ]
+  },
+  {
+   "id": "ingenierie-de-formation",
+   "label": {
+    "fr": "Ingénierie de formation",
+    "en": "Training engineering",
+    "ar": "هندسة التكوين",
+    "ru": "Инженерия обучения"
+   },
+   "patterns": [
+    "ingenierie de formation",
+    "training engineering",
+    "هندسة التكوين",
+    "هندسة تدريب",
+    "инженер обучен",
+    "проектиров систем обучен"
+   ],
+   "category": "metier",
+   "topics": [
+    "education",
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "analyse-besoins-formation",
+    "gestion-projet-formation",
+    "plan-developpement-competences",
+    "modele-kirkpatrick"
+   ],
+   "jobs": [
+    "Responsable formation",
+    "Ingénieur de formation",
+    "Chef de projet formation"
+   ]
+  },
+  {
+   "id": "andragogie",
+   "label": {
+    "fr": "Andragogie",
+    "en": "Andragogy",
+    "ar": "تعليم الكبار",
+    "ru": "Андрагогика"
+   },
+   "patterns": [
+    "andragogie",
+    "andragogy",
+    "formation adulte",
+    "adult learning",
+    "التعليم للكبار",
+    "андрогог",
+    "обучен взросл"
+   ],
+   "category": "methode",
+   "topics": [
+    "education",
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "ingenierie-pedagogique",
+    "animation-formation",
+    "accompagnement-vae",
+    "bilan-competences"
+   ],
+   "jobs": [
+    "Formateur d'adultes",
+    "Consultant en formation",
+    "Ingénieur pédagogique"
+   ]
+  },
+  {
+   "id": "scenarisation-pedagogique",
+   "label": {
+    "fr": "Scénarisation pédagogique",
+    "en": "Learning scenario design",
+    "ar": "كتابة السيناريو التعليمي",
+    "ru": "Сценарирование обучения"
+   },
+   "patterns": [
+    "scenarisation pedagogique",
+    "scenario pedagogique",
+    "storyboarding",
+    "كتابة السيناريو التعليمي",
+    "сценар образоват",
+    "разработ сценар"
+   ],
+   "category": "methode",
+   "topics": [
+    "education",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "ingenierie-pedagogique",
+    "conception-elearning",
+    "taxonomie-bloom"
+   ],
+   "jobs": [
+    "Concepteur e-learning",
+    "Ingénieur pédagogique",
+    "Scénariste multimédia"
+   ]
+  },
+  {
+   "id": "pedagogie-active",
+   "label": {
+    "fr": "Pédagogie active",
+    "en": "Active learning",
+    "ar": "التعلم النشط",
+    "ru": "Активное обучение"
+   },
+   "patterns": [
+    "pedagogie active",
+    "active learning",
+    "التعلم النشط",
+    "активн обучен",
+    "обучен через деятельн"
+   ],
+   "category": "methode",
+   "topics": [
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "apprentissage-par-problemes",
+    "classe-inversee",
+    "socioconstructivisme",
+    "animation-formation"
+   ],
+   "jobs": [
+    "Formateur",
+    "Enseignant",
+    "Coordinateur pédagogique"
+   ]
+  },
+  {
+   "id": "classe-inversee",
+   "label": {
+    "fr": "Classe inversée",
+    "en": "Flipped classroom",
+    "ar": "الفصل المقلوب",
+    "ru": "Перевернутый класс"
+   },
+   "patterns": [
+    "classee inversee",
+    "classe inversee",
+    "flipped classroom",
+    "الفصل المقلوب",
+    "перевернут класс",
+    "инверсивн обучен"
+   ],
+   "category": "methode",
+   "topics": [
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "pedagogie-active",
+    "digital-learning",
+    "blended-learning"
+   ],
+   "jobs": [
+    "Enseignant",
+    "Formateur",
+    "Ingénieur pédagogique"
+   ]
+  },
+  {
+   "id": "gamification-ludopedagogie",
+   "label": {
+    "fr": "Ludopédagogie",
+    "en": "Gamification in learning",
+    "ar": "التلعيب التعليمي",
+    "ru": "Геймификация в обучении"
+   },
+   "patterns": [
+    "ludopedagogie",
+    "gamification",
+    "التلعيب",
+    "التلعيب التعليمي",
+    "геймификац",
+    "игров обучен",
+    "серьезн игр"
+   ],
+   "category": "methode",
+   "topics": [
+    "education",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "kahoot",
+    "h5p",
+    "genially",
+    "animation-formation"
+   ],
+   "jobs": [
+    "Concepteur e-learning",
+    "Formateur",
+    "Game designer pédagogique"
+   ]
+  },
+  {
+   "id": "microlearning",
+   "label": {
+    "fr": "Microlearning",
+    "en": "Microlearning",
+    "ar": "التعلم المصغر",
+    "ru": "Микрообучение"
+   },
+   "patterns": [
+    "microlearning",
+    "micro learning",
+    "capsule video",
+    "التعلم المصغر",
+    "ميكرو",
+    "микрообучен",
+    "коротк формат"
+   ],
+   "category": "methode",
+   "topics": [
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "digital-learning",
+    "conception-elearning",
+    "camtasia"
+   ],
+   "jobs": [
+    "Concepteur e-learning",
+    "Responsable digital learning",
+    "Ingénieur pédagogique"
+   ]
+  },
+  {
+   "id": "neuroeducation",
+   "label": {
+    "fr": "Neuroéducation",
+    "en": "Neuroeducation",
+    "ar": "علم الأعصاب التربوي",
+    "ru": "Нейропедагогика"
+   },
+   "patterns": [
+    "neuroeducation",
+    "neurosciences cognitives",
+    "علم الأعصاب التربوي",
+    "нейропедагог",
+    "когнитивн научн в образован"
+   ],
+   "category": "methode",
+   "topics": [
+    "education",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "pedagogie-active",
+    "evaluation-formative",
+    "besoins-educatifs-particuliers"
+   ],
+   "jobs": [
+    "Chercheur en éducation",
+    "Ingénieur pédagogique",
+    "Consultant en neurosciences"
+   ]
+  },
+  {
+   "id": "taxonomie-bloom",
+   "label": {
+    "fr": "Taxonomie de Bloom",
+    "en": "Bloom's taxonomy",
+    "ar": "تصنيف بلوم",
+    "ru": "Таксономия Блума"
+   },
+   "patterns": [
+    "taxonomie de bloom",
+    "taxonomie bloom",
+    "bloom taxonomy",
+    "تصنيف بلوم",
+    "هرم بلوم",
+    "таксоном блюм",
+    "цел обучен"
+   ],
+   "category": "methode",
+   "topics": [
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "ingenierie-pedagogique",
+    "scenarisation-pedagogique",
+    "evaluation-formative"
+   ],
+   "jobs": [
+    "Ingénieur pédagogique",
+    "Concepteur e-learning",
+    "Formateur"
+   ]
+  },
+  {
+   "id": "modele-kirkpatrick",
+   "label": {
+    "fr": "Modèle de Kirkpatrick",
+    "en": "Kirkpatrick model",
+    "ar": "نموذج كيركباتريك",
+    "ru": "Модель Киркпатрика"
+   },
+   "patterns": [
+    "modele kirkpatrick",
+    "kirkpatrick",
+    "evaluation a 4 niveaux",
+    "نموذج كيركباتريك",
+    "киркпатрик",
+    "оценк эффектив обучен"
+   ],
+   "category": "methode",
+   "topics": [
+    "education",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "roi-formation",
+    "ingenierie-de-formation",
+    "analyse-besoins-formation"
+   ],
+   "jobs": [
+    "Responsable formation",
+    "Consultant en formation",
+    "Ingénieur de formation"
+   ]
+  },
+  {
+   "id": "udl-conception-universelle",
+   "label": {
+    "fr": "Conception universelle de l'apprentissage",
+    "en": "Universal Design for Learning",
+    "ar": "التصميم الشامل للتعلم",
+    "ru": "Универсальный дизайн обучения"
+   },
+   "patterns": [
+    "conception universelle",
+    "udl",
+    "universal design for learning",
+    "التصميم الشامل للتعلم",
+    "универсальн дизайн обучен",
+    "удл"
+   ],
+   "category": "methode",
+   "topics": [
+    "education"
+   ],
+   "level": "specialise",
+   "related": [
+    "besoins-educatifs-particuliers",
+    "accessibilite-falc",
+    "differenciation-pedagogique"
+   ],
+   "jobs": [
+    "Enseignant spécialisé",
+    "Ingénieur pédagogique",
+    "Coordinateur inclusion"
+   ]
+  },
+  {
+   "id": "animation-formation",
+   "label": {
+    "fr": "Animation de formation",
+    "en": "Training facilitation",
+    "ar": "تيسير التدريب",
+    "ru": "Проведение тренингов"
+   },
+   "patterns": [
+    "animation de formation",
+    "facilitation",
+    "training facilitation",
+    "تيسير التدريب",
+    "проведен тренинг",
+    "фасилитац"
+   ],
+   "category": "metier",
+   "topics": [
+    "education",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "andragogie",
+    "gestion-de-classe",
+    "pedagogie-active",
+    "communication-non-violente"
+   ],
+   "jobs": [
+    "Formateur",
+    "Animateur de formation",
+    "Facilitateur"
+   ]
+  },
+  {
+   "id": "conception-elearning",
+   "label": {
+    "fr": "Conception e-learning",
+    "en": "E-learning development",
+    "ar": "تطوير التعلم الإلكتروني",
+    "ru": "Разработка электронного обучения"
+   },
+   "patterns": [
+    "conception elearning",
+    "elearning development",
+    "تطوير التعلم الإلكتروني",
+    "разработ электрон обучен",
+    "создан курсов"
+   ],
+   "category": "metier",
+   "topics": [
+    "education",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "articulate-storyline",
+    "scorm",
+    "ingenierie-pedagogique",
+    "digital-learning"
+   ],
+   "jobs": [
+    "Concepteur e-learning",
+    "Ingénieur pédagogique",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "tutorat-distance",
+   "label": {
+    "fr": "Tutorat à distance",
+    "en": "Online tutoring",
+    "ar": "التدريس عن بعد",
+    "ru": "Дистанционное тьюторство"
+   },
+   "patterns": [
+    "tutorat a distance",
+    "tutorat distanciel",
+    "online tutoring",
+    "التدريس عن بعد",
+    "дистанцион тьютор",
+    "сопровожден учащ"
+   ],
+   "category": "metier",
+   "topics": [
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "animation-formation",
+    "digital-learning",
+    "tbi-tactile"
+   ],
+   "jobs": [
+    "Tuteur à distance",
+    "Formateur",
+    "E-tuteur"
+   ]
+  },
+  {
+   "id": "evaluation-formative",
+   "label": {
+    "fr": "Évaluation formative",
+    "en": "Formative assessment",
+    "ar": "التقييم التكويني",
+    "ru": "Формирующее оценивание"
+   },
+   "patterns": [
+    "evaluation formative",
+    "formative assessment",
+    "التقييم التكويني",
+    "формирующ оценк",
+    "текущ контрол"
+   ],
+   "category": "methode",
+   "topics": [
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "evaluation-sommative",
+    "taxonomie-bloom",
+    "pedagogie-active"
+   ],
+   "jobs": [
+    "Enseignant",
+    "Formateur",
+    "Ingénieur pédagogique"
+   ]
+  },
+  {
+   "id": "evaluation-sommative",
+   "label": {
+    "fr": "Évaluation sommative",
+    "en": "Summative assessment",
+    "ar": "التقييم الختامي",
+    "ru": "Итоговое оценивание"
+   },
+   "patterns": [
+    "evaluation sommative",
+    "summative assessment",
+    "التقييم الختامي",
+    "итогов оценк",
+    "сертификац"
+   ],
+   "category": "methode",
+   "topics": [
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "evaluation-formative",
+    "taxonomie-bloom",
+    "rncp"
+   ],
+   "jobs": [
+    "Enseignant",
+    "Examinateur",
+    "Responsable pédagogique"
+   ]
+  },
+  {
+   "id": "analyse-besoins-formation",
+   "label": {
+    "fr": "Analyse des besoins en formation",
+    "en": "Training needs analysis",
+    "ar": "تحليل الاحتياجات التدريبية",
+    "ru": "Анализ потребностей в обучении"
+   },
+   "patterns": [
+    "analyse des besoins",
+    "analyse besoins formation",
+    "training needs analysis",
+    "tna",
+    "تحليل الاحتياجات التدريبية",
+    "анализ потребност обучен"
+   ],
+   "category": "metier",
+   "topics": [
+    "education",
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "ingenierie-de-formation",
+    "plan-developpement-competences",
+    "modele-kirkpatrick"
+   ],
+   "jobs": [
+    "Responsable formation",
+    "Ingénieur de formation",
+    "Consultant RH"
+   ]
+  },
+  {
+   "id": "bilan-competences",
+   "label": {
+    "fr": "Bilan de compétences",
+    "en": "Skills assessment",
+    "ar": "تقييم الكفاءات",
+    "ru": "Оценка компетенций"
+   },
+   "patterns": [
+    "bilan de competences",
+    "skills assessment",
+    "تقييم الكفاءات",
+    "оценк компетенц",
+    "диагностик навык"
+   ],
+   "category": "metier",
+   "topics": [
+    "education",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "accompagnement-vae",
+    "orientation-scolaire",
+    "coaching-pedagogique"
+   ],
+   "jobs": [
+    "Consultant en bilan de compétences",
+    "Psychologue du travail",
+    "Conseiller en insertion"
+   ]
+  },
+  {
+   "id": "accompagnement-vae",
+   "label": {
+    "fr": "Accompagnement VAE",
+    "en": "VAE support",
+    "ar": "مرافقة اكتساب الخبرة",
+    "ru": "Сопровождение ВАЕ"
+   },
+   "patterns": [
+    "accompagnement vae",
+    "validation des acquis de lexperience",
+    "validation des acquis",
+    "مرافقة اكتساب الخبرة",
+    "сопровожден валидац"
+   ],
+   "category": "metier",
+   "topics": [
+    "education",
+    "rh"
+   ],
+   "level": "specialise",
+   "related": [
+    "bilan-competences",
+    "rncp",
+    "andragogie"
+   ],
+   "jobs": [
+    "Accompagnateur VAE",
+    "Consultant en formation",
+    "Conseiller en évolution professionnelle"
+   ]
+  },
+  {
+   "id": "fle-francais-langue-etrangere",
+   "label": {
+    "fr": "Français langue étrangère",
+    "en": "French as a foreign language",
+    "ar": "الفرنسية لغة أجنبية",
+    "ru": "Французский как иностранный"
+   },
+   "patterns": [
+    "fle",
+    "francais langue etrangere",
+    "french as a foreign language",
+    "الفرنسية لغة أجنبية",
+    "французск как иностран"
+   ],
+   "category": "metier",
+   "topics": [
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "cecrl",
+    "alphabetisation",
+    "animation-formation"
+   ],
+   "jobs": [
+    "Professeur de FLE",
+    "Formateur linguistique",
+    "Enseignant de langues"
+   ]
+  },
+  {
+   "id": "cecrl",
+   "label": {
+    "fr": "CECRL",
+    "en": "CEFR",
+    "ar": "الإطار الأوروبي المرجعي",
+    "ru": "Общеевропейские компетенции"
+   },
+   "patterns": [
+    "cecrl",
+    "cefr",
+    "cadre europeen",
+    "المرجع الأوروبي المشترك",
+    "общеевропейск компетенц",
+    "уровни владен языком"
+   ],
+   "category": "norme",
+   "topics": [
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "fle-francais-langue-etrangere",
+    "evaluation-sommative"
+   ],
+   "jobs": [
+    "Professeur de langues",
+    "Concepteur de tests",
+    "Examinateur"
+   ]
+  },
+  {
+   "id": "qualiopi",
+   "label": {
+    "fr": "Certification Qualiopi",
+    "en": "Qualiopi certification",
+    "ar": "شهادة كيفالوبي",
+    "ru": "Сертификация Qualiopi"
+   },
+   "patterns": [
+    "qualiopi",
+    "certification qualiopi",
+    "referentiel qualiopi",
+    "квалиопи",
+    "качеств обучен франц"
+   ],
+   "category": "norme",
+   "topics": [
+    "education",
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "rncp",
+    "ingenierie-de-formation",
+    "roi-formation"
+   ],
+   "jobs": [
+    "Responsable qualité formation",
+    "Directeur d'organisme de formation",
+    "Consultant Qualiopi"
+   ]
+  },
+  {
+   "id": "rncp",
+   "label": {
+    "fr": "Titre RNCP",
+    "en": "RNCP certification",
+    "ar": "شهادة RNCP",
+    "ru": "Сертификация RNCP"
+   },
+   "patterns": [
+    "rncp",
+    "repertoire national des certifications professionnelles",
+    "titre rncp",
+    "рнсп",
+    "франц реестр сертификац"
+   ],
+   "category": "norme",
+   "topics": [
+    "education",
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "qualiopi",
+    "accompagnement-vae",
+    "evaluation-sommative"
+   ],
+   "jobs": [
+    "Responsable pédagogique",
+    "Directeur d'école",
+    "Ingénieur de certification"
+   ]
+  },
+  {
+   "id": "gestion-projet-formation",
+   "label": {
+    "fr": "Gestion de projet de formation",
+    "en": "Training project management",
+    "ar": "إدارة مشاريع التدريب",
+    "ru": "Управление проектами обучения"
+   },
+   "patterns": [
+    "gestion de projet formation",
+    "chef de projet formation",
+    "training project management",
+    "إدارة مشاريع التدريب",
+    "управлен проект обучен"
+   ],
+   "category": "metier",
+   "topics": [
+    "education",
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "ingenierie-de-formation",
+    "plan-developpement-competences",
+    "analyse-besoins-formation"
+   ],
+   "jobs": [
+    "Chef de projet formation",
+    "Responsable formation",
+    "Consultant en organisation"
+   ]
+  },
+  {
+   "id": "plan-developpement-competences",
+   "label": {
+    "fr": "Plan de développement des compétences",
+    "en": "Skills development plan",
+    "ar": "خطة تطوير الكفاءات",
+    "ru": "План развития компетенций"
+   },
+   "patterns": [
+    "plan de developpement des competences",
+    "plan de formation",
+    "skills development plan",
+    "خطة تطوير الكفاءات",
+    "план развит компетенц"
+   ],
+   "category": "metier",
+   "topics": [
+    "education",
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "analyse-besoins-formation",
+    "ingenierie-de-formation",
+    "gestion-projet-formation"
+   ],
+   "jobs": [
+    "Responsable formation",
+    "DRH",
+    "Gestionnaire de carrière"
+   ]
+  },
+  {
+   "id": "differenciation-pedagogique",
+   "label": {
+    "fr": "Différenciation pédagogique",
+    "en": "Differentiated instruction",
+    "ar": "التمايز البيداغوجي",
+    "ru": "Дифференцированное обучение"
+   },
+   "patterns": [
+    "differenciation pedagogique",
+    "differentiated instruction",
+    "التمايز البيداغوجي",
+    "дифференциров обучен",
+    "индивидуальн подход"
+   ],
+   "category": "methode",
+   "topics": [
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "besoins-educatifs-particuliers",
+    "pedagogie-active",
+    "udl-conception-universelle"
+   ],
+   "jobs": [
+    "Enseignant",
+    "Coordinateur pédagogique",
+    "Formateur"
+   ]
+  },
+  {
+   "id": "gestion-de-classe",
+   "label": {
+    "fr": "Gestion de classe",
+    "en": "Classroom management",
+    "ar": "إدارة الفصل",
+    "ru": "Управление классом"
+   },
+   "patterns": [
+    "gestion de classe",
+    "classroom management",
+    "إدارة الفصل",
+    "управлен классом",
+    "дисциплин в класс"
+   ],
+   "category": "metier",
+   "topics": [
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "animation-formation",
+    "communication-non-violente",
+    "mediation-scolaire"
+   ],
+   "jobs": [
+    "Enseignant",
+    "Professeur des écoles",
+    "CPE"
+   ]
+  },
+  {
+   "id": "besoins-educatifs-particuliers",
+   "label": {
+    "fr": "Besoins éducatifs particuliers",
+    "en": "Special educational needs",
+    "ar": "الاحتياجات التربوية الخاصة",
+    "ru": "Особые образовательные потребности"
+   },
+   "patterns": [
+    "besoins educatifs particuliers",
+    "bep",
+    "special educational needs",
+    "sen",
+    "الاحتياجات التربوية الخاصة",
+    "особ образоват потребност"
+   ],
+   "category": "metier",
+   "topics": [
+    "education",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "differenciation-pedagogique",
+    "udl-conception-universelle",
+    "mediation-scolaire"
+   ],
+   "jobs": [
+    "Enseignant spécialisé",
+    "AES",
+    "Coordinateur inclusion"
+   ]
+  },
+  {
+   "id": "orientation-scolaire",
+   "label": {
+    "fr": "Orientation scolaire",
+    "en": "Academic advising",
+    "ar": "التوجيه المدرسي",
+    "ru": "Профориентация"
+   },
+   "patterns": [
+    "orientation scolaire",
+    "orientation professionnelle",
+    "التوجيه المدرسي",
+    "профориентац",
+    "карьерн консультиров"
+   ],
+   "category": "metier",
+   "topics": [
+    "education",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "bilan-competences",
+    "coaching-pedagogique",
+    "mentorat"
+   ],
+   "jobs": [
+    "Conseiller d'orientation",
+    "Psychologue de l'éducation",
+    "Coach scolaire"
+   ]
+  },
+  {
+   "id": "mentorat",
+   "label": {
+    "fr": "Mentorat",
+    "en": "Mentoring",
+    "ar": "التوجيه والإرشاد",
+    "ru": "Наставничество"
+   },
+   "patterns": [
+    "mentorat",
+    "mentoring",
+    "التوجيه والإرشاد",
+    "наставничеств",
+    "тьюторств"
+   ],
+   "category": "metier",
+   "topics": [
+    "education",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "coaching-pedagogique",
+    "orientation-scolaire",
+    "tutorat-distance"
+   ],
+   "jobs": [
+    "Mentor",
+    "Tuteur",
+    "Coach professionnel"
+   ]
+  },
+  {
+   "id": "coaching-pedagogique",
+   "label": {
+    "fr": "Coaching pédagogique",
+    "en": "Educational coaching",
+    "ar": "التوجيه التربوي",
+    "ru": "Педагогический коучинг"
+   },
+   "patterns": [
+    "coaching pedagogique",
+    "educational coaching",
+    "التوجيه التربوي",
+    "педагогич коучинг",
+    "образоват коуч"
+   ],
+   "category": "metier",
+   "topics": [
+    "education",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "mentorat",
+    "orientation-scolaire",
+    "bilan-competences"
+   ],
+   "jobs": [
+    "Coach scolaire",
+    "Consultant en éducation",
+    "Formateur"
+   ]
+  },
+  {
+   "id": "mediation-scolaire",
+   "label": {
+    "fr": "Médiation scolaire",
+    "en": "School mediation",
+    "ar": "الوساطة المدرسية",
+    "ru": "Школьная медиация"
+   },
+   "patterns": [
+    "mediation scolaire",
+    "school mediation",
+    "الوساطة المدرسية",
+    "школьн медиатор",
+    "разрешен конфликт"
+   ],
+   "category": "metier",
+   "topics": [
+    "education",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "communication-non-violente",
+    "gestion-de-classe",
+    "besoins-educatifs-particuliers"
+   ],
+   "jobs": [
+    "Médiateur scolaire",
+    "CPE",
+    "Assistant d'éducation"
+   ]
+  },
+  {
+   "id": "alphabetisation",
+   "label": {
+    "fr": "Alphabétisation",
+    "en": "Literacy training",
+    "ar": "محو الأمية",
+    "ru": "Обучение грамоте"
+   },
+   "patterns": [
+    "alphabetisation",
+    "litteratie",
+    "محو الأمية",
+    "обучен грамот",
+    "ликвидац безграмотн"
+   ],
+   "category": "metier",
+   "topics": [
+    "education"
+   ],
+   "level": "specialise",
+   "related": [
+    "fle-francais-langue-etrangere",
+    "andragogie",
+    "animation-formation"
+   ],
+   "jobs": [
+    "Formateur en alphabétisation",
+    "Enseignant",
+    "Bénévole éducatif"
+   ]
+  },
+  {
+   "id": "communication-non-violente",
+   "label": {
+    "fr": "Communication non violente",
+    "en": "Nonviolent communication",
+    "ar": "التواصل اللاعنفي",
+    "ru": "Ненасильственное общение"
+   },
+   "patterns": [
+    "communication non violente",
+    "cnv",
+    "nonviolent communication",
+    "التواصل اللاعنفي",
+    "ненасильствен общен"
+   ],
+   "category": "transverse",
+   "topics": [
+    "education",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "mediation-scolaire",
+    "gestion-de-classe",
+    "animation-formation"
+   ],
+   "jobs": [
+    "Formateur",
+    "Enseignant",
+    "Médiateur"
+   ]
+  },
+  {
+   "id": "tbi-tactile",
+   "label": {
+    "fr": "Tableau blanc interactif",
+    "en": "Interactive whiteboard",
+    "ar": "السبورة التفاعلية",
+    "ru": "Интерактивная доска"
+   },
+   "patterns": [
+    "tbi",
+    "tableau blanc interactif",
+    "tableau numerique",
+    "tni",
+    "السبورة التفاعلية",
+    "интерактивн доск"
+   ],
+   "category": "outil",
+   "topics": [
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "smart-board",
+    "promethean",
+    "animation-formation"
+   ],
+   "jobs": [
+    "Enseignant",
+    "Formateur",
+    "Technicien pédagogique"
+   ]
+  },
+  {
+   "id": "smart-board",
+   "label": {
+    "fr": "SMART Board",
+    "en": "SMART Board",
+    "ar": "SMART Board",
+    "ru": "SMART Board"
+   },
+   "patterns": [
+    "smart board",
+    "smartboard",
+    "смарт борд",
+    "smart technologies"
+   ],
+   "category": "outil",
+   "topics": [
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "tbi-tactile",
+    "promethean",
+    "animation-formation"
+   ],
+   "jobs": [
+    "Enseignant",
+    "Formateur",
+    "Administrateur TI scolaire"
+   ]
+  },
+  {
+   "id": "promethean",
+   "label": {
+    "fr": "Promethean",
+    "en": "Promethean",
+    "ar": "Promethean",
+    "ru": "Promethean"
+   },
+   "patterns": [
+    "promethean",
+    "activboard",
+    "активборд",
+    "промезиан"
+   ],
+   "category": "outil",
+   "topics": [
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "tbi-tactile",
+    "smart-board",
+    "animation-formation"
+   ],
+   "jobs": [
+    "Enseignant",
+    "Formateur",
+    "Technicien pédagogique"
+   ]
+  },
+  {
+   "id": "zoom-education",
+   "label": {
+    "fr": "Zoom pour l'éducation",
+    "en": "Zoom for Education",
+    "ar": "Zoom للتعليم",
+    "ru": "Zoom для образования"
+   },
+   "patterns": [
+    "zoom education",
+    "zoom meetings",
+    "зум для образован",
+    "classe virtuelle zoom"
+   ],
+   "category": "outil",
+   "topics": [
+    "education",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "microsoft-teams-education",
+    "obs-studio",
+    "tutorat-distance"
+   ],
+   "jobs": [
+    "Formateur à distance",
+    "Enseignant",
+    "Technicien visioconférence"
+   ]
+  },
+  {
+   "id": "microsoft-teams-education",
+   "label": {
+    "fr": "Microsoft Teams Éducation",
+    "en": "Microsoft Teams for Education",
+    "ar": "Microsoft Teams للتعليم",
+    "ru": "Microsoft Teams для образования"
+   },
+   "patterns": [
+    "teams education",
+    "microsoft teams",
+    "тимс для образован",
+    "teams lms"
+   ],
+   "category": "outil",
+   "topics": [
+    "education",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "zoom-education",
+    "canvas-lms",
+    "tutorat-distance"
+   ],
+   "jobs": [
+    "Formateur à distance",
+    "Enseignant",
+    "Administrateur TI scolaire"
+   ]
+  },
+  {
+   "id": "canva-education",
+   "label": {
+    "fr": "Canva pour l'éducation",
+    "en": "Canva for Education",
+    "ar": "Canva للتعليم",
+    "ru": "Canva для образования"
+   },
+   "patterns": [
+    "canva education",
+    "canva",
+    "канва для образован",
+    "design graphique scolaire"
+   ],
+   "category": "outil",
+   "topics": [
+    "education",
+    "design"
+   ],
+   "level": "courant",
+   "related": [
+    "genially",
+    "powtoon",
+    "animation-formation"
+   ],
+   "jobs": [
+    "Enseignant",
+    "Formateur",
+    "Concepteur de supports"
+   ]
+  },
+  {
+   "id": "accessibilite-falc",
+   "label": {
+    "fr": "Accessibilité FALC",
+    "en": "Easy-to-read language",
+    "ar": "لغة سهلة القراءة",
+    "ru": "Ясный язык"
+   },
+   "patterns": [
+    "falc",
+    "facile a lire et a comprendre",
+    "easy to read",
+    "لغة سهلة",
+    "ясн язык",
+    "доступн контент"
+   ],
+   "category": "norme",
+   "topics": [
+    "education",
+    "web"
+   ],
+   "level": "specialise",
+   "related": [
+    "udl-conception-universelle",
+    "besoins-educatifs-particuliers",
+    "conception-elearning"
+   ],
+   "jobs": [
+    "Concepteur e-learning",
+    "Chargé d'accessibilité",
+    "Médiateur numérique"
+   ]
+  },
+  {
+   "id": "veille-pedagogique",
+   "label": {
+    "fr": "Veille pédagogique",
+    "en": "Educational watch",
+    "ar": "اليقظة التربوية",
+    "ru": "Педагогический мониторинг"
+   },
+   "patterns": [
+    "veille pedagogique",
+    "veille educative",
+    "curation de contenu",
+    "اليقظة التربوية",
+    "педагогич мониторинг",
+    "образоват тренд"
+   ],
+   "category": "transverse",
+   "topics": [
+    "education",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "neuroeducation",
+    "digital-learning",
+    "ingenierie-pedagogique"
+   ],
+   "jobs": [
+    "Ingénieur pédagogique",
+    "Consultant en éducation",
+    "Chercheur"
+   ]
+  },
+  {
+   "id": "apprentissage-par-problemes",
+   "label": {
+    "fr": "Apprentissage par problèmes",
+    "en": "Problem-based learning",
+    "ar": "التعلم القائم على حل المشكلات",
+    "ru": "Проблемное обучение"
+   },
+   "patterns": [
+    "apprentissage par problemes",
+    "app",
+    "problem based learning",
+    "pbl",
+    "التعلم القائم على حل المشكلات",
+    "проблемн обучен"
+   ],
+   "category": "methode",
+   "topics": [
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "pedagogie-active",
+    "socioconstructivisme",
+    "design-thinking-formation"
+   ],
+   "jobs": [
+    "Enseignant",
+    "Formateur",
+    "Coordinateur pédagogique"
+   ]
+  },
+  {
+   "id": "socioconstructivisme",
+   "label": {
+    "fr": "Socioconstructivisme",
+    "en": "Social constructivism",
+    "ar": "البنائية الاجتماعية",
+    "ru": "Социальный конструктивизм"
+   },
+   "patterns": [
+    "socioconstructivisme",
+    "constructivisme",
+    "social constructivism",
+    "البنائية الاجتماعية",
+    "социальн конструктивизм",
+    "выготск"
+   ],
+   "category": "methode",
+   "topics": [
+    "education"
+   ],
+   "level": "specialise",
+   "related": [
+    "pedagogie-active",
+    "apprentissage-par-problemes",
+    "classe-inversee"
+   ],
+   "jobs": [
+    "Enseignant",
+    "Chercheur en éducation",
+    "Ingénieur pédagogique"
+   ]
+  },
+  {
+   "id": "design-thinking-formation",
+   "label": {
+    "fr": "Design thinking en formation",
+    "en": "Design thinking in education",
+    "ar": "التفكير التصميمي في التعليم",
+    "ru": "Дизайн-мышление в обучении"
+   },
+   "patterns": [
+    "design thinking",
+    "التفكير التصميمي",
+    "дизайн мышлен",
+    "coconstruction formation"
+   ],
+   "category": "methode",
+   "topics": [
+    "education",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "ingenierie-pedagogique",
+    "klaxoon",
+    "apprentissage-par-problemes"
+   ],
+   "jobs": [
+    "Ingénieur pédagogique",
+    "Facilitateur",
+    "Consultant en innovation"
+   ]
+  },
+  {
+   "id": "roi-formation",
+   "label": {
+    "fr": "ROI de la formation",
+    "en": "Training ROI",
+    "ar": "العائد على الاستثمار في التدريب",
+    "ru": "ROI обучения"
+   },
+   "patterns": [
+    "roi formation",
+    "retour sur investissement formation",
+    "training roi",
+    "العائد على الاستثمار في التدريب",
+    "окупаемост обучен"
+   ],
+   "category": "methode",
+   "topics": [
+    "education",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "modele-kirkpatrick",
+    "ingenierie-de-formation",
+    "analyse-besoins-formation"
+   ],
+   "jobs": [
+    "Responsable formation",
+    "Directeur des ressources humaines",
+    "Contrôleur de gestion sociale"
+   ]
+  },
+  {
+   "id": "digital-learning",
+   "label": {
+    "fr": "Digital learning",
+    "en": "Digital learning",
+    "ar": "التعلم الرقمي",
+    "ru": "Цифровое обучение"
+   },
+   "patterns": [
+    "digital learning",
+    "apprentissage numerique",
+    "التعلم الرقمي",
+    "цифров обучен",
+    "онлайн обучен"
+   ],
+   "category": "methode",
+   "topics": [
+    "education",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "blended-learning",
+    "conception-elearning",
+    "microlearning"
+   ],
+   "jobs": [
+    "Responsable digital learning",
+    "Ingénieur pédagogique",
+    "Concepteur e-learning"
+   ]
+  },
+  {
+   "id": "blended-learning",
+   "label": {
+    "fr": "Blended learning",
+    "en": "Blended learning",
+    "ar": "التعلم المدمج",
+    "ru": "Смешанное обучение"
+   },
+   "patterns": [
+    "blended learning",
+    "formation mixte",
+    "التعلم المدمج",
+    "смешанн обучен",
+    "гибридн формат"
+   ],
+   "category": "methode",
+   "topics": [
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "digital-learning",
+    "presentiel-distanciel",
+    "classe-inversee"
+   ],
+   "jobs": [
+    "Responsable formation",
+    "Ingénieur pédagogique",
+    "Formateur"
+   ]
+  },
+  {
+   "id": "presentiel-distanciel",
+   "label": {
+    "fr": "Présentiel et distanciel",
+    "en": "In-person and remote training",
+    "ar": "التدريب الحضوري وعن بعد",
+    "ru": "Очное и дистанционное обучение"
+   },
+   "patterns": [
+    "presentiel",
+    "distanciel",
+    "formation a distance",
+    "التدريب عن بعد",
+    "дистанцион формат",
+    "очно заочн"
+   ],
+   "category": "methode",
+   "topics": [
+    "education"
+   ],
+   "level": "courant",
+   "related": [
+    "blended-learning",
+    "digital-learning",
+    "tutorat-distance"
+   ],
+   "jobs": [
+    "Formateur",
+    "Coordinateur pédagogique",
+    "Responsable formation"
+   ]
+  }
+ ]
+}

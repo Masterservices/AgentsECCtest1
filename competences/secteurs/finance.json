@@ -1,0 +1,2976 @@
+{
+ "sector": "Finance, comptabilité, audit et contrôle de gestion",
+ "key": "finance",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "sap-fi-co",
+   "label": {
+    "fr": "SAP FI/CO",
+    "en": "SAP FI/CO",
+    "ar": "SAP FI/CO",
+    "ru": "SAP FI/CO"
+   },
+   "patterns": [
+    "sap fi",
+    "sap co",
+    "sap fico",
+    "sap fi/co",
+    "sap s/4hana",
+    "sap finance",
+    "сап фи",
+    "ساب في"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "oracle-financials",
+    "sage-x3",
+    "microsoft-dynamics-365",
+    "consolidation",
+    "cloture-comptable"
+   ],
+   "jobs": [
+    "Comptable général",
+    "Consultant SAP FI",
+    "Responsable comptable"
+   ]
+  },
+  {
+   "id": "oracle-financials",
+   "label": {
+    "fr": "Oracle Financials",
+    "en": "Oracle Financials",
+    "ar": "Oracle Financials",
+    "ru": "Oracle Financials"
+   },
+   "patterns": [
+    "oracle financials",
+    "oracle ebs",
+    "oracle e-business suite",
+    "oracle fusion",
+    "oracle gl",
+    "оракл файненшлз"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-fi-co",
+    "netsuite",
+    "workday-financials",
+    "consolidation"
+   ],
+   "jobs": [
+    "Comptable général",
+    "Consultant ERP",
+    "Responsable financier"
+   ]
+  },
+  {
+   "id": "sage",
+   "label": {
+    "fr": "Sage",
+    "en": "Sage",
+    "ar": "Sage",
+    "ru": "Sage"
+   },
+   "patterns": [
+    "sage",
+    "sage 100",
+    "sage 50",
+    "sage line 50",
+    "sage comptabilité",
+    "сейдж"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "cegid",
+    "ebp",
+    "comptabilite-generale",
+    "tva"
+   ],
+   "jobs": [
+    "Comptable",
+    "Aide-comptable",
+    "Gestionnaire de paie"
+   ]
+  },
+  {
+   "id": "sage-x3",
+   "label": {
+    "fr": "Sage X3",
+    "en": "Sage X3",
+    "ar": "Sage X3",
+    "ru": "Sage X3"
+   },
+   "patterns": [
+    "sage x3",
+    "sage erp x3",
+    "adonix",
+    "сейдж икс 3"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-fi-co",
+    "microsoft-dynamics-365",
+    "comptabilite-analytique"
+   ],
+   "jobs": [
+    "Consultant ERP",
+    "Responsable comptable",
+    "Contrôleur de gestion"
+   ]
+  },
+  {
+   "id": "cegid",
+   "label": {
+    "fr": "Cegid",
+    "en": "Cegid",
+    "ar": "Cegid",
+    "ru": "Cegid"
+   },
+   "patterns": [
+    "cegid",
+    "cegid comptabilité",
+    "cegid finance",
+    "cegid retail",
+    "седжид"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "sage",
+    "ebp",
+    "comptabilite-generale",
+    "paie"
+   ],
+   "jobs": [
+    "Comptable",
+    "Gestionnaire de paie",
+    "Responsable comptable"
+   ]
+  },
+  {
+   "id": "quickbooks",
+   "label": {
+    "fr": "QuickBooks",
+    "en": "QuickBooks",
+    "ar": "QuickBooks",
+    "ru": "QuickBooks"
+   },
+   "patterns": [
+    "quickbooks",
+    "qb",
+    "intuit quickbooks",
+    "quickbooks online",
+    "квикбукс"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "xero",
+    "comptabilite-generale",
+    "tva"
+   ],
+   "jobs": [
+    "Comptable",
+    "Comptable freelance",
+    "Assistant comptable"
+   ]
+  },
+  {
+   "id": "xero",
+   "label": {
+    "fr": "Xero",
+    "en": "Xero",
+    "ar": "Xero",
+    "ru": "Xero"
+   },
+   "patterns": [
+    "xero",
+    "xero accounting",
+    "ксеро"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "quickbooks",
+    "comptabilite-generale",
+    "rapprochement-bancaire"
+   ],
+   "jobs": [
+    "Comptable",
+    "Bookkeeper",
+    "Expert-comptable"
+   ]
+  },
+  {
+   "id": "excel-avance",
+   "label": {
+    "fr": "Excel avancé",
+    "en": "Advanced Excel",
+    "ar": "Excel المتقدم",
+    "ru": "Продвинутый Excel"
+   },
+   "patterns": [
+    "excel avancé",
+    "excel avance",
+    "advanced excel",
+    "excel expert",
+    "tableaux croises dynamiques",
+    "tcd",
+    "pivot tables",
+    "эксель продвинутый",
+    "سويج جداول"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "excel-vba",
+    "power-bi",
+    "modelisation-financiere",
+    "analyse-financiere"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Analyste financier",
+    "Comptable"
+   ]
+  },
+  {
+   "id": "excel-vba",
+   "label": {
+    "fr": "Excel VBA",
+    "en": "Excel VBA",
+    "ar": "Excel VBA",
+    "ru": "Excel VBA"
+   },
+   "patterns": [
+    "vba",
+    "excel vba",
+    "macros excel",
+    "visual basic for applications",
+    "макросы excel",
+    "في بي ايه"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "excel-avance",
+    "modelisation-financiere",
+    "sql",
+    "power-bi"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Analyste financier",
+    "Auditeur"
+   ]
+  },
+  {
+   "id": "power-bi",
+   "label": {
+    "fr": "Power BI",
+    "en": "Power BI",
+    "ar": "Power BI",
+    "ru": "Power BI"
+   },
+   "patterns": [
+    "power bi",
+    "powerbi",
+    "microsoft power bi",
+    "dax",
+    "пауэр биай",
+    "باور بي آي"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "tableau-software",
+    "excel-avance",
+    "tableaux-de-bord",
+    "sql"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Analyste financier",
+    "Business analyst"
+   ]
+  },
+  {
+   "id": "tableau-software",
+   "label": {
+    "fr": "Tableau",
+    "en": "Tableau",
+    "ar": "Tableau",
+    "ru": "Tableau"
+   },
+   "patterns": [
+    "tableau",
+    "tableau software",
+    "tableau desktop",
+    "табло",
+    "تابلوه"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "power-bi",
+    "excel-avance",
+    "tableaux-de-bord"
+   ],
+   "jobs": [
+    "Analyste financier",
+    "Contrôleur de gestion",
+    "Data analyst"
+   ]
+  },
+  {
+   "id": "ibm-planning-analytics",
+   "label": {
+    "fr": "IBM Planning Analytics (TM1)",
+    "en": "IBM Planning Analytics",
+    "ar": "IBM Planning Analytics",
+    "ru": "IBM Planning Analytics"
+   },
+   "patterns": [
+    "tm1",
+    "ibm tm1",
+    "planning analytics",
+    "cognos tm1",
+    "ти эм 1",
+    "آي بي إم بلانينغ"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "anaplan",
+    "oracle-hyperion",
+    "budgetisation",
+    "forecasting"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Analyste FP&A",
+    "Responsable du contrôle de gestion"
+   ]
+  },
+  {
+   "id": "anaplan",
+   "label": {
+    "fr": "Anaplan",
+    "en": "Anaplan",
+    "ar": "Anaplan",
+    "ru": "Anaplan"
+   },
+   "patterns": [
+    "anaplan",
+    "анаплан",
+    "أنابلان"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "ibm-planning-analytics",
+    "oracle-hyperion",
+    "budgetisation",
+    "forecasting"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Analyste FP&A",
+    "Consultant EPM"
+   ]
+  },
+  {
+   "id": "oracle-hyperion",
+   "label": {
+    "fr": "Oracle Hyperion",
+    "en": "Oracle Hyperion",
+    "ar": "Oracle Hyperion",
+    "ru": "Oracle Hyperion"
+   },
+   "patterns": [
+    "hyperion",
+    "oracle hyperion",
+    "hfm",
+    "hyperion financial management",
+    "essbase",
+    "хайперион"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "anaplan",
+    "ibm-planning-analytics",
+    "consolidation",
+    "reporting-financier"
+   ],
+   "jobs": [
+    "Consolideur",
+    "Responsable consolidation",
+    "Consultant EPM"
+   ]
+  },
+  {
+   "id": "blackline",
+   "label": {
+    "fr": "BlackLine",
+    "en": "BlackLine",
+    "ar": "BlackLine",
+    "ru": "BlackLine"
+   },
+   "patterns": [
+    "blackline",
+    "black line",
+    "блэклайн",
+    "بلاك لاين"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "cloture-comptable",
+    "rapprochement-bancaire",
+    "consolidation"
+   ],
+   "jobs": [
+    "Comptable général",
+    "Responsable comptable",
+    "Auditeur"
+   ]
+  },
+  {
+   "id": "workday-financials",
+   "label": {
+    "fr": "Workday Financials",
+    "en": "Workday Financials",
+    "ar": "Workday Financials",
+    "ru": "Workday Financials"
+   },
+   "patterns": [
+    "workday",
+    "workday financials",
+    "workday finance",
+    "уоркдей",
+    "وورك دي"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "oracle-financials",
+    "netsuite",
+    "sap-fi-co"
+   ],
+   "jobs": [
+    "Consultant ERP",
+    "Responsable financier",
+    "Comptable général"
+   ]
+  },
+  {
+   "id": "netsuite",
+   "label": {
+    "fr": "NetSuite",
+    "en": "NetSuite",
+    "ar": "NetSuite",
+    "ru": "NetSuite"
+   },
+   "patterns": [
+    "netsuite",
+    "oracle netsuite",
+    "нетсьют",
+    "نت سويت"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "oracle-financials",
+    "workday-financials",
+    "microsoft-dynamics-365"
+   ],
+   "jobs": [
+    "Consultant ERP",
+    "Responsable comptable",
+    "DAF PME"
+   ]
+  },
+  {
+   "id": "microsoft-dynamics-365",
+   "label": {
+    "fr": "Microsoft Dynamics 365",
+    "en": "Microsoft Dynamics 365",
+    "ar": "Microsoft Dynamics 365",
+    "ru": "Microsoft Dynamics 365"
+   },
+   "patterns": [
+    "dynamics 365",
+    "d365",
+    "ms dynamics",
+    "dynamics ax",
+    "dynamics nav",
+    "dynamics gp",
+    "динамикс 365"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-fi-co",
+    "netsuite",
+    "sage-x3"
+   ],
+   "jobs": [
+    "Consultant ERP",
+    "Responsable comptable",
+    "DAF"
+   ]
+  },
+  {
+   "id": "odoo",
+   "label": {
+    "fr": "Odoo",
+    "en": "Odoo",
+    "ar": "Odoo",
+    "ru": "Odoo"
+   },
+   "patterns": [
+    "odoo",
+    "openerp",
+    "оду",
+    "أودو"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "sage",
+    "netsuite",
+    "comptabilite-generale"
+   ],
+   "jobs": [
+    "Comptable",
+    "Consultant ERP",
+    "DAF PME"
+   ]
+  },
+  {
+   "id": "bloomberg-terminal",
+   "label": {
+    "fr": "Bloomberg Terminal",
+    "en": "Bloomberg Terminal",
+    "ar": "Bloomberg Terminal",
+    "ru": "Bloomberg Terminal"
+   },
+   "patterns": [
+    "bloomberg",
+    "bloomberg terminal",
+    "bloomberg anywhere",
+    "блумберг",
+    "بلومبرغ"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "refinitiv-eikon",
+    "factset",
+    "sp-capital-iq",
+    "analyse-financiere"
+   ],
+   "jobs": [
+    "Analyste financier",
+    "Analyste M&A",
+    "Trader"
+   ]
+  },
+  {
+   "id": "refinitiv-eikon",
+   "label": {
+    "fr": "Refinitiv Eikon",
+    "en": "Refinitiv Eikon",
+    "ar": "Refinitiv Eikon",
+    "ru": "Refinitiv Eikon"
+   },
+   "patterns": [
+    "eikon",
+    "refinitiv",
+    "refinitiv eikon",
+    "lseg workspace",
+    "рефинитив",
+    "ريفينيتيف"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "bloomberg-terminal",
+    "factset",
+    "analyse-financiere"
+   ],
+   "jobs": [
+    "Analyste financier",
+    "Analyste marché",
+    "Gérant de portefeuille"
+   ]
+  },
+  {
+   "id": "factset",
+   "label": {
+    "fr": "FactSet",
+    "en": "FactSet",
+    "ar": "FactSet",
+    "ru": "FactSet"
+   },
+   "patterns": [
+    "factset",
+    "фактсет",
+    "فاكتسيت"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "bloomberg-terminal",
+    "sp-capital-iq",
+    "analyse-financiere"
+   ],
+   "jobs": [
+    "Analyste financier",
+    "Analyste M&A",
+    "Contrôleur de gestion"
+   ]
+  },
+  {
+   "id": "sp-capital-iq",
+   "label": {
+    "fr": "S&P Capital IQ",
+    "en": "S&P Capital IQ",
+    "ar": "S&P Capital IQ",
+    "ru": "S&P Capital IQ"
+   },
+   "patterns": [
+    "capital iq",
+    "s&p capital iq",
+    "cap iq",
+    "капитал ай кью",
+    "كابيتال آي كيو"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "bloomberg-terminal",
+    "factset",
+    "evaluation-entreprise",
+    "fusions-acquisitions"
+   ],
+   "jobs": [
+    "Analyste M&A",
+    "Analyste financier",
+    "Consultant en évaluation"
+   ]
+  },
+  {
+   "id": "sql",
+   "label": {
+    "fr": "SQL",
+    "en": "SQL",
+    "ar": "SQL",
+    "ru": "SQL"
+   },
+   "patterns": [
+    "sql",
+    "mysql",
+    "postgresql",
+    "tsql",
+    "plsql",
+    "скл",
+    "سيكويل"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "excel-avance",
+    "power-bi",
+    "python-finance",
+    "alteryx"
+   ],
+   "jobs": [
+    "Analyste financier",
+    "Contrôleur de gestion",
+    "Data analyst financier"
+   ]
+  },
+  {
+   "id": "python-finance",
+   "label": {
+    "fr": "Python (finance)",
+    "en": "Python for finance",
+    "ar": "Python للتمويل",
+    "ru": "Python для финансов"
+   },
+   "patterns": [
+    "python",
+    "pandas",
+    "numpy",
+    "питон",
+    "بايثون"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "finance",
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "sql",
+    "r-programming",
+    "alteryx",
+    "modelisation-financiere"
+   ],
+   "jobs": [
+    "Analyste quantitatif",
+    "Analyste financier",
+    "Data scientist finance"
+   ]
+  },
+  {
+   "id": "r-programming",
+   "label": {
+    "fr": "R",
+    "en": "R",
+    "ar": "R",
+    "ru": "R"
+   },
+   "patterns": [
+    "r programming",
+    "r studio",
+    "rstudio",
+    "rstats",
+    "язык r",
+    "لغة آر"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "python-finance",
+    "sql",
+    "analyse-financiere"
+   ],
+   "jobs": [
+    "Analyste quantitatif",
+    "Actuaire",
+    "Data scientist finance"
+   ]
+  },
+  {
+   "id": "alteryx",
+   "label": {
+    "fr": "Alteryx",
+    "en": "Alteryx",
+    "ar": "Alteryx",
+    "ru": "Alteryx"
+   },
+   "patterns": [
+    "alteryx",
+    "алтерикс",
+    "ألتركس"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "power-bi",
+    "sql",
+    "excel-avance"
+   ],
+   "jobs": [
+    "Analyste financier",
+    "Auditeur data",
+    "Contrôleur de gestion"
+   ]
+  },
+  {
+   "id": "kyriba",
+   "label": {
+    "fr": "Kyriba",
+    "en": "Kyriba",
+    "ar": "Kyriba",
+    "ru": "Kyriba"
+   },
+   "patterns": [
+    "kyriba",
+    "кириба",
+    "كيريبا"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "tresorerie",
+    "cash-management",
+    "gestion-bfr"
+   ],
+   "jobs": [
+    "Trésorier",
+    "Responsable trésorerie",
+    "DAF"
+   ]
+  },
+  {
+   "id": "ebp",
+   "label": {
+    "fr": "EBP",
+    "en": "EBP",
+    "ar": "EBP",
+    "ru": "EBP"
+   },
+   "patterns": [
+    "ebp",
+    "ebp comptabilité",
+    "ebp open line",
+    "е б п",
+    "إي بي بي"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "sage",
+    "cegid",
+    "comptabilite-generale"
+   ],
+   "jobs": [
+    "Comptable",
+    "Aide-comptable",
+    "Comptable cabinet"
+   ]
+  },
+  {
+   "id": "analyse-financiere",
+   "label": {
+    "fr": "Analyse financière",
+    "en": "Financial analysis",
+    "ar": "التحليل المالي",
+    "ru": "Финансовый анализ"
+   },
+   "patterns": [
+    "analyse financiere",
+    "financial analysis",
+    "ratio analysis",
+    "financial ratios",
+    "финансов анализ",
+    "التحليل المالي",
+    "analiz finansow"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "bilan-comptable",
+    "rentabilite-analyse",
+    "evaluation-entreprise",
+    "modelisation-financiere"
+   ],
+   "jobs": [
+    "Analyste financier",
+    "Contrôleur de gestion",
+    "Auditeur financier"
+   ]
+  },
+  {
+   "id": "consolidation",
+   "label": {
+    "fr": "Consolidation",
+    "en": "Financial consolidation",
+    "ar": "توحيد الحسابات",
+    "ru": "Консолидация отчетности"
+   },
+   "patterns": [
+    "consolidation",
+    "comptes consolides",
+    "consolidated accounts",
+    "консолидация",
+    "توحيد الحسابات",
+    "konsolidats"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "ifrs",
+    "oracle-hyperion",
+    "cloture-comptable",
+    "reporting-financier"
+   ],
+   "jobs": [
+    "Consolideur",
+    "Responsable consolidation",
+    "Directeur financier"
+   ]
+  },
+  {
+   "id": "budgetisation",
+   "label": {
+    "fr": "Élaboration budgétaire",
+    "en": "Budgeting",
+    "ar": "إعداد الميزانية",
+    "ru": "Бюджетирование"
+   },
+   "patterns": [
+    "budget",
+    "budgeting",
+    "elaboration budgetaire",
+    "processus budgetaire",
+    "annual budget",
+    "бюджетир",
+    "إعداد الميزانية"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "forecasting",
+    "controle-budgetaire",
+    "analyse-ecarts",
+    "anaplan"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Responsable du contrôle de gestion",
+    "DAF"
+   ]
+  },
+  {
+   "id": "forecasting",
+   "label": {
+    "fr": "Prévisions financières",
+    "en": "Financial forecasting",
+    "ar": "التوقعات المالية",
+    "ru": "Финансовое прогнозирование"
+   },
+   "patterns": [
+    "forecast",
+    "forecasting",
+    "rolling forecast",
+    "previsionnel",
+    "prevision",
+    "financial forecast",
+    "прогноз",
+    "توقعات"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "budgetisation",
+    "analyse-ecarts",
+    "anaplan",
+    "ibm-planning-analytics"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Analyste FP&A",
+    "Responsable du contrôle de gestion"
+   ]
+  },
+  {
+   "id": "cloture-comptable",
+   "label": {
+    "fr": "Clôture comptable",
+    "en": "Financial close",
+    "ar": "إغلاق الحسابات",
+    "ru": "Закрытие периода"
+   },
+   "patterns": [
+    "cloture",
+    "closing",
+    "month end close",
+    "year end close",
+    "fast close",
+    "hard close",
+    "закрытие периода",
+    "إغلاق"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "consolidation",
+    "rapprochement-bancaire",
+    "blackline",
+    "bilan-comptable"
+   ],
+   "jobs": [
+    "Comptable général",
+    "Responsable comptable",
+    "Chef comptable"
+   ]
+  },
+  {
+   "id": "reporting-financier",
+   "label": {
+    "fr": "Reporting financier",
+    "en": "Financial reporting",
+    "ar": "التقارير المالية",
+    "ru": "Финансовая отчетность"
+   },
+   "patterns": [
+    "reporting",
+    "financial reporting",
+    "reporting financier",
+    "etats financiers",
+    "financial statements",
+    "отчетност",
+    "تقارير مالية"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "consolidation",
+    "ifrs",
+    "tableaux-de-bord",
+    "bilan-comptable"
+   ],
+   "jobs": [
+    "Responsable comptable",
+    "Consolideur",
+    "Contrôleur de gestion"
+   ]
+  },
+  {
+   "id": "ifrs",
+   "label": {
+    "fr": "Normes IFRS",
+    "en": "IFRS standards",
+    "ar": "المعايير الدولية لإعداد التقارير المالية",
+    "ru": "МСФО"
+   },
+   "patterns": [
+    "ifrs",
+    "ias",
+    "international financial reporting standards",
+    "мсфо",
+    "معايير المحاسبة الدولية",
+    "ifrs 15",
+    "ifrs 9",
+    "ifrs 16"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "us-gaap",
+    "pcg",
+    "consolidation",
+    "reporting-financier"
+   ],
+   "jobs": [
+    "Consolideur",
+    "Responsable comptable",
+    "Auditeur financier"
+   ]
+  },
+  {
+   "id": "us-gaap",
+   "label": {
+    "fr": "US GAAP",
+    "en": "US GAAP",
+    "ar": "المعايير المحاسبية الأمريكية",
+    "ru": "US GAAP"
+   },
+   "patterns": [
+    "us gaap",
+    "gaap",
+    "generally accepted accounting principles",
+    "юс гаап",
+    "المعايير الأمريكية"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "ifrs",
+    "pcg",
+    "sox",
+    "consolidation"
+   ],
+   "jobs": [
+    "Comptable général",
+    "Auditeur",
+    "Responsable comptable"
+   ]
+  },
+  {
+   "id": "pcg",
+   "label": {
+    "fr": "Plan Comptable Général",
+    "en": "French GAAP",
+    "ar": "المخطط المحاسبي الفرنسي",
+    "ru": "Французский план счетов"
+   },
+   "patterns": [
+    "pcg",
+    "plan comptable",
+    "plan comptable general",
+    "normes francaises",
+    "french gaap",
+    "французский план счетов",
+    "المخطط المحاسبي"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "ifrs",
+    "comptabilite-generale",
+    "declarations-fiscales"
+   ],
+   "jobs": [
+    "Comptable",
+    "Expert-comptable",
+    "Chef comptable"
+   ]
+  },
+  {
+   "id": "audit-interne",
+   "label": {
+    "fr": "Audit interne",
+    "en": "Internal audit",
+    "ar": "التدقيق الداخلي",
+    "ru": "Внутренний аудит"
+   },
+   "patterns": [
+    "audit interne",
+    "internal audit",
+    "внутренн аудит",
+    "التدقيق الداخلي",
+    "internal auditor"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "controle-interne",
+    "coso",
+    "audit-externe",
+    "gestion-risques"
+   ],
+   "jobs": [
+    "Auditeur interne",
+    "Responsable audit interne",
+    "Inspecteur"
+   ]
+  },
+  {
+   "id": "audit-externe",
+   "label": {
+    "fr": "Audit externe",
+    "en": "External audit",
+    "ar": "التدقيق الخارجي",
+    "ru": "Внешний аудит"
+   },
+   "patterns": [
+    "audit externe",
+    "external audit",
+    "commissariat aux comptes",
+    "audit legal",
+    "внешн аудит",
+    "التدقيق الخارجي"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "audit-interne",
+    "isa-audit",
+    "ifrs",
+    "bilan-comptable"
+   ],
+   "jobs": [
+    "Auditeur externe",
+    "Commissaire aux comptes",
+    "Senior auditor"
+   ]
+  },
+  {
+   "id": "controle-interne",
+   "label": {
+    "fr": "Contrôle interne",
+    "en": "Internal control",
+    "ar": "الرقابة الداخلية",
+    "ru": "Внутренний контроль"
+   },
+   "patterns": [
+    "controle interne",
+    "internal control",
+    "внутренн контрол",
+    "الرقابة الداخلية",
+    "internal controls"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "coso",
+    "sox",
+    "audit-interne",
+    "gestion-risques"
+   ],
+   "jobs": [
+    "Responsable contrôle interne",
+    "Auditeur interne",
+    "Risk manager"
+   ]
+  },
+  {
+   "id": "coso",
+   "label": {
+    "fr": "Référentiel COSO",
+    "en": "COSO framework",
+    "ar": "إطار COSO",
+    "ru": "COSO"
+   },
+   "patterns": [
+    "coso",
+    "coso 2013",
+    "coso framework",
+    "coso ic",
+    "коссо",
+    "إطار كوسو"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "controle-interne",
+    "sox",
+    "audit-interne",
+    "gestion-risques"
+   ],
+   "jobs": [
+    "Responsable contrôle interne",
+    "Auditeur interne",
+    "Risk manager"
+   ]
+  },
+  {
+   "id": "sox",
+   "label": {
+    "fr": "Loi Sarbanes-Oxley (SOX)",
+    "en": "Sarbanes-Oxley (SOX)",
+    "ar": "قانون ساربينز-أوكسلي",
+    "ru": "Закон Сарбейнса-Оксли"
+   },
+   "patterns": [
+    "sox",
+    "sarbanes oxley",
+    "sarbanes-oxley",
+    "sox compliance",
+    "section 404",
+    "сарбейнс оксли",
+    "ساربينز أوكسلي"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance",
+    "juridique"
+   ],
+   "level": "specialise",
+   "related": [
+    "controle-interne",
+    "coso",
+    "audit-interne",
+    "us-gaap"
+   ],
+   "jobs": [
+    "Auditeur interne",
+    "Responsable contrôle interne",
+    "SOX manager"
+   ]
+  },
+  {
+   "id": "gestion-risques",
+   "label": {
+    "fr": "Gestion des risques",
+    "en": "Risk management",
+    "ar": "إدارة المخاطر",
+    "ru": "Управление рисками"
+   },
+   "patterns": [
+    "risk management",
+    "gestion des risques",
+    "risk assessment",
+    "cartographie risques",
+    "risk mapping",
+    "управлен рискам",
+    "إدارة المخاطر"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "controle-interne",
+    "coso",
+    "audit-interne",
+    "sox"
+   ],
+   "jobs": [
+    "Risk manager",
+    "Auditeur interne",
+    "Responsable contrôle interne"
+   ]
+  },
+  {
+   "id": "prix-transfert",
+   "label": {
+    "fr": "Prix de transfert",
+    "en": "Transfer pricing",
+    "ar": "أسعار التحويل",
+    "ru": "Трансфертное ценообразование"
+   },
+   "patterns": [
+    "transfer pricing",
+    "prix de transfert",
+    "tp documentation",
+    "трансфертн ценообраз",
+    "أسعار التحويل"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "juridique"
+   ],
+   "level": "specialise",
+   "related": [
+    "fiscalite",
+    "impot-societes",
+    "consolidation"
+   ],
+   "jobs": [
+    "Fiscaliste",
+    "Expert prix de transfert",
+    "Tax manager"
+   ]
+  },
+  {
+   "id": "fiscalite",
+   "label": {
+    "fr": "Fiscalité",
+    "en": "Taxation",
+    "ar": "الضرائب",
+    "ru": "Налогообложение"
+   },
+   "patterns": [
+    "fiscalite",
+    "taxation",
+    "tax",
+    "fiscal",
+    "налогообложен",
+    "الضرائب",
+    "tax compliance"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "tva",
+    "impot-societes",
+    "declarations-fiscales",
+    "prix-transfert"
+   ],
+   "jobs": [
+    "Fiscaliste",
+    "Tax manager",
+    "Comptable fiscaliste"
+   ]
+  },
+  {
+   "id": "tva",
+   "label": {
+    "fr": "TVA",
+    "en": "VAT",
+    "ar": "ضريبة القيمة المضافة",
+    "ru": "НДС"
+   },
+   "patterns": [
+    "tva",
+    "vat",
+    "value added tax",
+    "ндс",
+    "ضريبة القيمة المضافة",
+    "taxe sur la valeur ajoutee"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "fiscalite",
+    "declarations-fiscales",
+    "comptabilite-generale"
+   ],
+   "jobs": [
+    "Comptable",
+    "Comptable fiscaliste",
+    "Déclarant TVA"
+   ]
+  },
+  {
+   "id": "impot-societes",
+   "label": {
+    "fr": "Impôt sur les sociétés",
+    "en": "Corporate tax",
+    "ar": "ضريبة الشركات",
+    "ru": "Налог на прибыль"
+   },
+   "patterns": [
+    "is",
+    "impot societes",
+    "corporate tax",
+    "corporate income tax",
+    "cit",
+    "liasse fiscale",
+    "налог на прибыл",
+    "ضريبة الشركات"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "fiscalite",
+    "declarations-fiscales",
+    "tva",
+    "bilan-comptable"
+   ],
+   "jobs": [
+    "Fiscaliste",
+    "Comptable fiscaliste",
+    "Tax manager"
+   ]
+  },
+  {
+   "id": "paie",
+   "label": {
+    "fr": "Gestion de la paie",
+    "en": "Payroll",
+    "ar": "إدارة الرواتب",
+    "ru": "Расчет заработной платы"
+   },
+   "patterns": [
+    "paie",
+    "payroll",
+    "bulletin de paie",
+    "pay slip",
+    "зарплат",
+    "расчет зарплат",
+    "رواتب"
+   ],
+   "category": "metier",
+   "topics": [
+    "rh",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "cegid",
+    "sage",
+    "declarations-fiscales"
+   ],
+   "jobs": [
+    "Gestionnaire de paie",
+    "Comptable paie",
+    "Responsable paie"
+   ]
+  },
+  {
+   "id": "tresorerie",
+   "label": {
+    "fr": "Trésorerie",
+    "en": "Treasury",
+    "ar": "الخزينة",
+    "ru": "Казначейство"
+   },
+   "patterns": [
+    "tresorerie",
+    "treasury",
+    "казначейств",
+    "الخزينة",
+    "treasury management"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "cash-management",
+    "gestion-bfr",
+    "kyriba",
+    "rapprochement-bancaire"
+   ],
+   "jobs": [
+    "Trésorier",
+    "Responsable trésorerie",
+    "DAF"
+   ]
+  },
+  {
+   "id": "cash-management",
+   "label": {
+    "fr": "Cash management",
+    "en": "Cash management",
+    "ar": "إدارة النقدية",
+    "ru": "Cash management"
+   },
+   "patterns": [
+    "cash management",
+    "gestion de tresorerie",
+    "cash pooling",
+    "liquidite",
+    "управлен ликвидност",
+    "إدارة النقدية"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "tresorerie",
+    "gestion-bfr",
+    "kyriba",
+    "forecasting"
+   ],
+   "jobs": [
+    "Trésorier",
+    "Cash manager",
+    "Responsable trésorerie"
+   ]
+  },
+  {
+   "id": "fusions-acquisitions",
+   "label": {
+    "fr": "Fusions-acquisitions",
+    "en": "Mergers & Acquisitions",
+    "ar": "الاندماج والاستحواذ",
+    "ru": "Слияния и поглощения"
+   },
+   "patterns": [
+    "m&a",
+    "fusions acquisitions",
+    "mergers and acquisitions",
+    "mergers acquisitions",
+    "слияния поглощения",
+    "الاندماج والاستحواذ"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "due-diligence",
+    "evaluation-entreprise",
+    "modelisation-financiere",
+    "sp-capital-iq"
+   ],
+   "jobs": [
+    "Analyste M&A",
+    "Consultant M&A",
+    "Directeur financier"
+   ]
+  },
+  {
+   "id": "due-diligence",
+   "label": {
+    "fr": "Due diligence",
+    "en": "Due diligence",
+    "ar": "العناية الواجبة",
+    "ru": "Due diligence"
+   },
+   "patterns": [
+    "due diligence",
+    "vendor due diligence",
+    "financial due diligence",
+    "дю дилидженс",
+    "العناية الواجبة"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "fusions-acquisitions",
+    "evaluation-entreprise",
+    "audit-externe"
+   ],
+   "jobs": [
+    "Consultant M&A",
+    "Auditeur transaction",
+    "Analyste M&A"
+   ]
+  },
+  {
+   "id": "evaluation-entreprise",
+   "label": {
+    "fr": "Évaluation d'entreprise",
+    "en": "Business valuation",
+    "ar": "تقييم الشركات",
+    "ru": "Оценка бизнеса"
+   },
+   "patterns": [
+    "valuation",
+    "business valuation",
+    "evaluation",
+    "dcf",
+    "discounted cash flow",
+    "multiples",
+    "оценк бизне",
+    "تقييم الشركات"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "modelisation-financiere",
+    "fusions-acquisitions",
+    "analyse-financiere",
+    "sp-capital-iq"
+   ],
+   "jobs": [
+    "Analyste M&A",
+    "Consultant évaluation",
+    "Analyste financier"
+   ]
+  },
+  {
+   "id": "modelisation-financiere",
+   "label": {
+    "fr": "Modélisation financière",
+    "en": "Financial modeling",
+    "ar": "النمذجة المالية",
+    "ru": "Финансовое моделирование"
+   },
+   "patterns": [
+    "financial modeling",
+    "modelisation financiere",
+    "financial model",
+    "3 statement model",
+    "lm model",
+    "lbo model",
+    "финансов модел",
+    "النمذجة المالية"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "excel-avance",
+    "evaluation-entreprise",
+    "business-plan",
+    "fusions-acquisitions"
+   ],
+   "jobs": [
+    "Analyste financier",
+    "Analyste M&A",
+    "Consultant financier"
+   ]
+  },
+  {
+   "id": "business-plan",
+   "label": {
+    "fr": "Business plan",
+    "en": "Business plan",
+    "ar": "خطة عمل",
+    "ru": "Бизнес-план"
+   },
+   "patterns": [
+    "business plan",
+    "plan d affaires",
+    "plan de financement",
+    "бизнес план",
+    "خطة عمل"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "modelisation-financiere",
+    "forecasting",
+    "evaluation-entreprise"
+   ],
+   "jobs": [
+    "Analyste financier",
+    "Consultant financier",
+    "DAF"
+   ]
+  },
+  {
+   "id": "comptabilite-analytique",
+   "label": {
+    "fr": "Comptabilité analytique",
+    "en": "Management accounting",
+    "ar": "المحاسبة التحليلية",
+    "ru": "Управленческий учет"
+   },
+   "patterns": [
+    "comptabilite analytique",
+    "management accounting",
+    "cost accounting",
+    "analytic accounting",
+    "управленческ учет",
+    "المحاسبة التحليلية"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "comptabilite-generale",
+    "abc-costing",
+    "controle-budgetaire",
+    "analyse-ecarts"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Comptable analytique",
+    "Cost accountant"
+   ]
+  },
+  {
+   "id": "abc-costing",
+   "label": {
+    "fr": "Méthode ABC (Activity-Based Costing)",
+    "en": "Activity-Based Costing",
+    "ar": "التكلفة على أساس النشاط",
+    "ru": "Activity-Based Costing"
+   },
+   "patterns": [
+    "abc costing",
+    "activity based costing",
+    "abc method",
+    "methode abc",
+    "cost driver",
+    "абк костинг",
+    "التكلفة على أساس النشاط"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "comptabilite-analytique",
+    "analyse-ecarts",
+    "controle-budgetaire"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Cost accountant",
+    "Analyste coûts"
+   ]
+  },
+  {
+   "id": "kpi-financiers",
+   "label": {
+    "fr": "KPI financiers",
+    "en": "Financial KPIs",
+    "ar": "مؤشرات الأداء المالية",
+    "ru": "Финансовые KPI"
+   },
+   "patterns": [
+    "kpi",
+    "kpi financiers",
+    "financial kpis",
+    "indicateurs cles",
+    "ebitda",
+    "ebit",
+    "roe",
+    "roi",
+    "kpi финансов",
+    "مؤشرات الأداء"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "tableaux-de-bord",
+    "analyse-financiere",
+    "controle-budgetaire",
+    "power-bi"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Analyste financier",
+    "DAF"
+   ]
+  },
+  {
+   "id": "balanced-scorecard",
+   "label": {
+    "fr": "Tableau de bord prospectif",
+    "en": "Balanced Scorecard",
+    "ar": "بطاقة الأداء المتوازن",
+    "ru": "Сбалансированная система показателей"
+   },
+   "patterns": [
+    "balanced scorecard",
+    "bsc",
+    "tableau de bord prospectif",
+    "kaplan norton",
+    "ссс сбалансирован",
+    "بطاقة الأداء المتوازن"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "kpi-financiers",
+    "tableaux-de-bord",
+    "controle-budgetaire"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Directeur financier",
+    "Consultant stratégie"
+   ]
+  },
+  {
+   "id": "analyse-ecarts",
+   "label": {
+    "fr": "Analyse des écarts",
+    "en": "Variance analysis",
+    "ar": "تحليل الانحرافات",
+    "ru": "Анализ отклонений"
+   },
+   "patterns": [
+    "variance analysis",
+    "analyse des ecarts",
+    "analyse ecarts",
+    "budget vs actual",
+    "actual vs forecast",
+    "анализ отклонен",
+    "تحليل الانحرافات"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "controle-budgetaire",
+    "budgetisation",
+    "forecasting",
+    "comptabilite-analytique"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Analyste FP&A",
+    "Responsable du contrôle de gestion"
+   ]
+  },
+  {
+   "id": "isa-audit",
+   "label": {
+    "fr": "Normes ISA",
+    "en": "ISA standards",
+    "ar": "معايير التدقيق الدولية",
+    "ru": "МСА"
+   },
+   "patterns": [
+    "isa",
+    "international standards on auditing",
+    "normes isa",
+    "иса мса",
+    "معايير التدقيق الدولية"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance",
+    "juridique"
+   ],
+   "level": "specialise",
+   "related": [
+    "audit-externe",
+    "audit-interne",
+    "ifrs"
+   ],
+   "jobs": [
+    "Auditeur externe",
+    "Commissaire aux comptes",
+    "Senior auditor"
+   ]
+  },
+  {
+   "id": "dscg",
+   "label": {
+    "fr": "DSCG",
+    "en": "DSCG (French CPA diploma)",
+    "ar": "DSCG",
+    "ru": "DSCG"
+   },
+   "patterns": [
+    "dscg",
+    "diplome superieur de comptabilite et de gestion",
+    "дсж",
+    "شهادة المحاسبة العليا"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "dec",
+    "pcg",
+    "comptabilite-generale"
+   ],
+   "jobs": [
+    "Expert-comptable stagiaire",
+    "Chef comptable",
+    "Auditeur"
+   ]
+  },
+  {
+   "id": "dec",
+   "label": {
+    "fr": "DEC (Diplôme d'Expertise Comptable)",
+    "en": "French CPA (DEC)",
+    "ar": "دبلوم الخبرة المحاسبية",
+    "ru": "DEC"
+   },
+   "patterns": [
+    "dec",
+    "diplome d expertise comptable",
+    "expertise comptable",
+    "дека",
+    "دبلوم الخبرة المحاسبية"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "dscg",
+    "pcg",
+    "comptabilite-generale"
+   ],
+   "jobs": [
+    "Expert-comptable",
+    "Associé cabinet",
+    "Directeur financier"
+   ]
+  },
+  {
+   "id": "cfa",
+   "label": {
+    "fr": "CFA",
+    "en": "CFA",
+    "ar": "CFA",
+    "ru": "CFA"
+   },
+   "patterns": [
+    "cfa",
+    "chartered financial analyst",
+    "cfa institute",
+    "cfa charterholder",
+    "сифаей",
+    "سي إف إيه"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "analyse-financiere",
+    "evaluation-entreprise",
+    "modelisation-financiere"
+   ],
+   "jobs": [
+    "Analyste financier",
+    "Gérant de portefeuille",
+    "Analyste M&A"
+   ]
+  },
+  {
+   "id": "cpa",
+   "label": {
+    "fr": "CPA",
+    "en": "CPA",
+    "ar": "CPA",
+    "ru": "CPA"
+   },
+   "patterns": [
+    "cpa",
+    "certified public accountant",
+    "сипией",
+    "سي بي إيه"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "us-gaap",
+    "audit-externe",
+    "comptabilite-generale"
+   ],
+   "jobs": [
+    "Auditeur",
+    "Expert-comptable",
+    "Directeur financier"
+   ]
+  },
+  {
+   "id": "acca",
+   "label": {
+    "fr": "ACCA",
+    "en": "ACCA",
+    "ar": "ACCA",
+    "ru": "ACCA"
+   },
+   "patterns": [
+    "acca",
+    "association of chartered certified accountants",
+    "акка",
+    "أكا"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "ifrs",
+    "cpa",
+    "audit-externe"
+   ],
+   "jobs": [
+    "Auditeur",
+    "Comptable général",
+    "Directeur financier"
+   ]
+  },
+  {
+   "id": "cma",
+   "label": {
+    "fr": "CMA",
+    "en": "CMA",
+    "ar": "CMA",
+    "ru": "CMA"
+   },
+   "patterns": [
+    "cma",
+    "certified management accountant",
+    "симаей",
+    "سي إم إيه"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "comptabilite-analytique",
+    "controle-budgetaire",
+    "cpa"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Cost accountant",
+    "Directeur financier"
+   ]
+  },
+  {
+   "id": "cia-audit",
+   "label": {
+    "fr": "CIA (Certified Internal Auditor)",
+    "en": "CIA certification",
+    "ar": "CIA",
+    "ru": "CIA"
+   },
+   "patterns": [
+    "cia",
+    "certified internal auditor",
+    "сииэй",
+    "المراجع الداخلي المعتمد"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "audit-interne",
+    "controle-interne",
+    "coso"
+   ],
+   "jobs": [
+    "Auditeur interne",
+    "Responsable audit interne",
+    "Inspecteur"
+   ]
+  },
+  {
+   "id": "cisa",
+   "label": {
+    "fr": "CISA",
+    "en": "CISA",
+    "ar": "CISA",
+    "ru": "CISA"
+   },
+   "patterns": [
+    "cisa",
+    "certified information systems auditor",
+    "сиса",
+    "مدقق نظم المعلومات"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "audit-interne",
+    "controle-interne",
+    "alteryx"
+   ],
+   "jobs": [
+    "Auditeur IT",
+    "Auditeur systèmes",
+    "IT risk manager"
+   ]
+  },
+  {
+   "id": "comptabilite-generale",
+   "label": {
+    "fr": "Comptabilité générale",
+    "en": "General ledger accounting",
+    "ar": "المحاسبة العامة",
+    "ru": "Бухгалтерский учет"
+   },
+   "patterns": [
+    "comptabilite generale",
+    "general ledger",
+    "gl",
+    "general accounting",
+    "бухгалтерск учет",
+    "المحاسبة العامة"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "pcg",
+    "cloture-comptable",
+    "bilan-comptable",
+    "rapprochement-bancaire"
+   ],
+   "jobs": [
+    "Comptable général",
+    "Chef comptable",
+    "Comptable"
+   ]
+  },
+  {
+   "id": "comptabilite-fournisseurs",
+   "label": {
+    "fr": "Comptabilité fournisseurs",
+    "en": "Accounts payable",
+    "ar": "المحاسبة الدائنة",
+    "ru": "Учет кредиторской задолженности"
+   },
+   "patterns": [
+    "ap",
+    "accounts payable",
+    "comptabilite fournisseurs",
+    "fournisseurs",
+    "кредиторск задолженност",
+    "المحاسبة الدائنة"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "comptabilite-clients",
+    "comptabilite-generale",
+    "gestion-bfr"
+   ],
+   "jobs": [
+    "Comptable fournisseurs",
+    "Aide-comptable",
+    "Comptable"
+   ]
+  },
+  {
+   "id": "comptabilite-clients",
+   "label": {
+    "fr": "Comptabilité clients",
+    "en": "Accounts receivable",
+    "ar": "المحاسبة المدينة",
+    "ru": "Учет дебиторской задолженности"
+   },
+   "patterns": [
+    "ar",
+    "accounts receivable",
+    "comptabilite clients",
+    "clients",
+    "дебиторск задолженност",
+    "المحاسبة المدينة"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "comptabilite-fournisseurs",
+    "credit-management",
+    "recouvrement",
+    "gestion-bfr"
+   ],
+   "jobs": [
+    "Comptable clients",
+    "Credit manager",
+    "Comptable"
+   ]
+  },
+  {
+   "id": "rapprochement-bancaire",
+   "label": {
+    "fr": "Rapprochement bancaire",
+    "en": "Bank reconciliation",
+    "ar": "تسوية الحسابات البنكية",
+    "ru": "Сверка с банком"
+   },
+   "patterns": [
+    "rapprochement bancaire",
+    "bank reconciliation",
+    "bank rec",
+    "сверка банк",
+    "تسوية بنكية"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "tresorerie",
+    "comptabilite-generale",
+    "cloture-comptable",
+    "blackline"
+   ],
+   "jobs": [
+    "Comptable",
+    "Comptable trésorerie",
+    "Aide-comptable"
+   ]
+  },
+  {
+   "id": "declarations-fiscales",
+   "label": {
+    "fr": "Déclarations fiscales",
+    "en": "Tax returns",
+    "ar": "الإقرارات الضريبية",
+    "ru": "Налоговая отчетность"
+   },
+   "patterns": [
+    "declarations fiscales",
+    "tax returns",
+    "liasse fiscale",
+    "declaration tva",
+    "tax filing",
+    "налогов декларац",
+    "الإقرارات الضريبية"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "fiscalite",
+    "tva",
+    "impot-societes",
+    "pcg"
+   ],
+   "jobs": [
+    "Comptable fiscaliste",
+    "Fiscaliste",
+    "Comptable"
+   ]
+  },
+  {
+   "id": "bilan-comptable",
+   "label": {
+    "fr": "Bilan et compte de résultat",
+    "en": "Balance sheet and P&L",
+    "ar": "الميزانية العمومية + قائمة الدخل",
+    "ru": "Баланс и ОПУ"
+   },
+   "patterns": [
+    "bilan",
+    "balance sheet",
+    "compte de resultat",
+    "p&l",
+    "profit and loss",
+    "income statement",
+    "бухгалтерск баланс",
+    "الميزانية العمومية"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "comptabilite-generale",
+    "cloture-comptable",
+    "analyse-financiere",
+    "reporting-financier"
+   ],
+   "jobs": [
+    "Comptable général",
+    "Chef comptable",
+    "Expert-comptable"
+   ]
+  },
+  {
+   "id": "flux-tresorerie",
+   "label": {
+    "fr": "Tableau des flux de trésorerie",
+    "en": "Cash flow statement",
+    "ar": "قائمة التدفقات النقدية",
+    "ru": "Отчет о движении денежных средств"
+   },
+   "patterns": [
+    "cash flow",
+    "flux de tresorerie",
+    "cash flow statement",
+    "cf statement",
+    "free cash flow",
+    "fcf",
+    "отчет ддс",
+    "التدفقات النقدية"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "bilan-comptable",
+    "tresorerie",
+    "analyse-financiere",
+    "gestion-bfr"
+   ],
+   "jobs": [
+    "Analyste financier",
+    "Contrôleur de gestion",
+    "Directeur financier"
+   ]
+  },
+  {
+   "id": "controle-budgetaire",
+   "label": {
+    "fr": "Contrôle budgétaire",
+    "en": "Budgetary control",
+    "ar": "الرقابة على الميزانية",
+    "ru": "Бюджетный контроль"
+   },
+   "patterns": [
+    "controle budgetaire",
+    "budgetary control",
+    "budget control",
+    "бюджетн контрол",
+    "الرقابة على الميزانية"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "budgetisation",
+    "analyse-ecarts",
+    "forecasting",
+    "comptabilite-analytique"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Responsable du contrôle de gestion",
+    "Analyste FP&A"
+   ]
+  },
+  {
+   "id": "tableaux-de-bord",
+   "label": {
+    "fr": "Tableaux de bord",
+    "en": "Dashboards",
+    "ar": "لوحات القيادة",
+    "ru": "Дашборды"
+   },
+   "patterns": [
+    "tableau de bord",
+    "dashboard",
+    "dashboards",
+    "tableaux de bord",
+    "дашборд",
+    "لوحات القيادة"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "power-bi",
+    "tableau-software",
+    "kpi-financiers",
+    "reporting-financier"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Analyste financier",
+    "DAF"
+   ]
+  },
+  {
+   "id": "business-partnering",
+   "label": {
+    "fr": "Finance business partnering",
+    "en": "Finance business partnering",
+    "ar": "الشراكة المالية مع الأعمال",
+    "ru": "Финансовое бизнес-партнерство"
+   },
+   "patterns": [
+    "business partner",
+    "finance business partner",
+    "finance bp",
+    "fbp",
+    "business partnering",
+    "финансов бизнес партнер",
+    "شراكة مالية"
+   ],
+   "category": "transverse",
+   "topics": [
+    "finance",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "analyse-financiere",
+    "controle-budgetaire",
+    "kpi-financiers"
+   ],
+   "jobs": [
+    "Finance business partner",
+    "Contrôleur de gestion",
+    "DAF"
+   ]
+  },
+  {
+   "id": "gestion-bfr",
+   "label": {
+    "fr": "Gestion du BFR",
+    "en": "Working capital management",
+    "ar": "إدارة رأس المال العامل",
+    "ru": "Управление оборотным капиталом"
+   },
+   "patterns": [
+    "bfr",
+    "besoin en fonds de roulement",
+    "working capital",
+    "wcr",
+    "cash conversion cycle",
+    "оборотн капитал",
+    "رأس المال العامل"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "tresorerie",
+    "cash-management",
+    "credit-management",
+    "comptabilite-clients"
+   ],
+   "jobs": [
+    "Trésorier",
+    "DAF",
+    "Contrôleur de gestion"
+   ]
+  },
+  {
+   "id": "credit-management",
+   "label": {
+    "fr": "Credit management",
+    "en": "Credit management",
+    "ar": "إدارة الائتمان",
+    "ru": "Кредитный менеджмент"
+   },
+   "patterns": [
+    "credit management",
+    "credit manager",
+    "gestion du credit",
+    "кредитн менеджмент",
+    "إدارة الائتمان"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "recouvrement",
+    "comptabilite-clients",
+    "gestion-bfr"
+   ],
+   "jobs": [
+    "Credit manager",
+    "Responsable crédit",
+    "Comptable clients"
+   ]
+  },
+  {
+   "id": "recouvrement",
+   "label": {
+    "fr": "Recouvrement",
+    "en": "Collections",
+    "ar": "التحصيل",
+    "ru": "Взыскание задолженности"
+   },
+   "patterns": [
+    "recouvrement",
+    "collections",
+    "debt collection",
+    "dsO",
+    "days sales outstanding",
+    "взыскан",
+    "التحصيل"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "credit-management",
+    "comptabilite-clients",
+    "gestion-bfr"
+   ],
+   "jobs": [
+    "Chargé de recouvrement",
+    "Credit manager",
+    "Comptable clients"
+   ]
+  },
+  {
+   "id": "anglais-financier",
+   "label": {
+    "fr": "Anglais financier",
+    "en": "Financial English",
+    "ar": "الإنجليزية المالية",
+    "ru": "Финансовый английский"
+   },
+   "patterns": [
+    "financial english",
+    "anglais financier",
+    "anglais des affaires",
+    "business english",
+    "финансов английск",
+    "الإنجليزية المالية"
+   ],
+   "category": "langue",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "ifrs",
+    "us-gaap",
+    "reporting-financier"
+   ],
+   "jobs": [
+    "Directeur financier",
+    "Consolideur",
+    "Auditeur international"
+   ]
+  },
+  {
+   "id": "rentabilite-analyse",
+   "label": {
+    "fr": "Analyse de la rentabilité",
+    "en": "Profitability analysis",
+    "ar": "تحليل الربحية",
+    "ru": "Анализ рентабельности"
+   },
+   "patterns": [
+    "rentabilite",
+    "profitability",
+    "profitability analysis",
+    "marge",
+    "gross margin",
+    "rentabilit",
+    "تحليل الربحية"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "analyse-financiere",
+    "comptabilite-analytique",
+    "kpi-financiers"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Analyste financier",
+    "Cost accountant"
+   ]
+  },
+  {
+   "id": "controle-de-gestion",
+   "label": {
+    "fr": "Contrôle de gestion",
+    "en": "Management control",
+    "ar": "الرقابة الإدارية",
+    "ru": "Управленческий контроль"
+   },
+   "patterns": [
+    "controle de gestion",
+    "management control",
+    "fp&a",
+    "financial planning and analysis",
+    "управленческ контрол",
+    "الرقابة الإدارية"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "budgetisation",
+    "forecasting",
+    "analyse-ecarts",
+    "comptabilite-analytique"
+   ],
+   "jobs": [
+    "Contrôleur de gestion",
+    "Responsable du contrôle de gestion",
+    "Analyste FP&A"
+   ]
+  },
+  {
+   "id": "audit-financier",
+   "label": {
+    "fr": "Audit financier",
+    "en": "Financial audit",
+    "ar": "التدقيق المالي",
+    "ru": "Финансовый аудит"
+   },
+   "patterns": [
+    "audit financier",
+    "financial audit",
+    "statutory audit",
+    "финансов аудит",
+    "التدقيق المالي"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "audit-externe",
+    "audit-interne",
+    "ifrs",
+    "isa-audit"
+   ],
+   "jobs": [
+    "Auditeur financier",
+    "Senior auditor",
+    "Commissaire aux comptes"
+   ]
+  },
+  {
+   "id": "comptabilite-fiscale",
+   "label": {
+    "fr": "Comptabilité fiscale",
+    "en": "Tax accounting",
+    "ar": "المحاسبة الضريبية",
+    "ru": "Налоговый учет"
+   },
+   "patterns": [
+    "tax accounting",
+    "comptabilite fiscale",
+    "tax accounts",
+    "налогов учет",
+    "المحاسبة الضريبية"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "fiscalite",
+    "declarations-fiscales",
+    "impot-societes",
+    "tva"
+   ],
+   "jobs": [
+    "Comptable fiscaliste",
+    "Fiscaliste",
+    "Tax accountant"
+   ]
+  },
+  {
+   "id": "anti-blanchiment",
+   "label": {
+    "fr": "LCB-FT / AML",
+    "en": "AML / KYC",
+    "ar": "مكافحة غسيل الأموال",
+    "ru": "ПОД/ФТ"
+   },
+   "patterns": [
+    "aml",
+    "kyc",
+    "lcb ft",
+    "anti money laundering",
+    "anti blanchiment",
+    "под фт",
+    "مكافحة غسيل الأموال"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-risques",
+    "controle-interne",
+    "audit-interne"
+   ],
+   "jobs": [
+    "Compliance officer",
+    "Analyste KYC",
+    "Responsable conformité"
+   ]
+  },
+  {
+   "id": "erp",
+   "label": {
+    "fr": "ERP",
+    "en": "ERP",
+    "ar": "ERP",
+    "ru": "ERP"
+   },
+   "patterns": [
+    "erp",
+    "enterprise resource planning",
+    "progiciel de gestion",
+    "егп ирп",
+    "تخطيط موارد المؤسسة"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "sap-fi-co",
+    "oracle-financials",
+    "microsoft-dynamics-365",
+    "netsuite"
+   ],
+   "jobs": [
+    "Comptable général",
+    "Consultant ERP",
+    "DAF"
+   ]
+  }
+ ]
+}

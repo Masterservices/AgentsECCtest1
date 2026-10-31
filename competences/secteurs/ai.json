@@ -1,0 +1,3896 @@
+{
+ "sector": "Intelligence artificielle et machine learning",
+ "key": "ai",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "python",
+   "label": {
+    "fr": "Python",
+    "en": "Python",
+    "ar": "Python",
+    "ru": "Python"
+   },
+   "patterns": [
+    "python",
+    "python3",
+    "py"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "tensorflow",
+    "pytorch"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Ingénieur IA",
+    "Chercheur en IA"
+   ]
+  },
+  {
+   "id": "tensorflow",
+   "label": {
+    "fr": "TensorFlow",
+    "en": "TensorFlow",
+    "ar": "TensorFlow",
+    "ru": "TensorFlow"
+   },
+   "patterns": [
+    "tensorflow",
+    "tf",
+    "tensor flow"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "keras",
+    "python",
+    "deep-learning",
+    "pytorch",
+    "neural-networks"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "Ingénieur Deep Learning"
+   ]
+  },
+  {
+   "id": "pytorch",
+   "label": {
+    "fr": "PyTorch",
+    "en": "PyTorch",
+    "ar": "PyTorch",
+    "ru": "PyTorch"
+   },
+   "patterns": [
+    "pytorch",
+    "torch"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "python",
+    "deep-learning",
+    "tensorflow",
+    "neural-networks",
+    "hugging-face"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Research Scientist",
+    "Ingénieur IA"
+   ]
+  },
+  {
+   "id": "scikit-learn",
+   "label": {
+    "fr": "Scikit-learn",
+    "en": "Scikit-learn",
+    "ar": "Scikit-learn",
+    "ru": "Scikit-learn"
+   },
+   "patterns": [
+    "scikit-learn",
+    "sklearn",
+    "scikit learn"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "python",
+    "pandas",
+    "numpy",
+    "machine-learning",
+    "feature-engineering"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "keras",
+   "label": {
+    "fr": "Keras",
+    "en": "Keras",
+    "ar": "Keras",
+    "ru": "Keras"
+   },
+   "patterns": [
+    "keras"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "tensorflow",
+    "deep-learning",
+    "neural-networks",
+    "python"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "Ingénieur Deep Learning"
+   ]
+  },
+  {
+   "id": "jupyter",
+   "label": {
+    "fr": "Jupyter",
+    "en": "Jupyter",
+    "ar": "Jupyter",
+    "ru": "Jupyter"
+   },
+   "patterns": [
+    "jupyter",
+    "jupyter notebook",
+    "jupyterlab"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "python",
+    "pandas",
+    "data-visualization",
+    "numpy"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Analyste de données",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "mlflow",
+   "label": {
+    "fr": "MLflow",
+    "en": "MLflow",
+    "ar": "MLflow",
+    "ru": "MLflow"
+   },
+   "patterns": [
+    "mlflow"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "mlops",
+    "model-deployment",
+    "experiment-tracking",
+    "docker"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "MLOps Engineer",
+    "Data Engineer"
+   ]
+  },
+  {
+   "id": "weights-and-biases",
+   "label": {
+    "fr": "Weights & Biases",
+    "en": "Weights & Biases",
+    "ar": "Weights & Biases",
+    "ru": "Weights & Biases"
+   },
+   "patterns": [
+    "weights and biases",
+    "wandb",
+    "w&b"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "mlflow",
+    "experiment-tracking",
+    "mlops",
+    "model-deployment"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Research Scientist",
+    "MLOps Engineer"
+   ]
+  },
+  {
+   "id": "hugging-face",
+   "label": {
+    "fr": "Hugging Face",
+    "en": "Hugging Face",
+    "ar": "Hugging Face",
+    "ru": "Hugging Face"
+   },
+   "patterns": [
+    "hugging face",
+    "huggingface",
+    "hf",
+    "transformers"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "nlp",
+    "pytorch",
+    "transformers",
+    "bert",
+    "gpt"
+   ],
+   "jobs": [
+    "NLP Engineer",
+    "Machine Learning Engineer",
+    "Research Scientist"
+   ]
+  },
+  {
+   "id": "openai-api",
+   "label": {
+    "fr": "OpenAI API",
+    "en": "OpenAI API",
+    "ar": "OpenAI API",
+    "ru": "OpenAI API"
+   },
+   "patterns": [
+    "openai api",
+    "openai",
+    "chatgpt api",
+    "gpt api"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "gpt",
+    "llm",
+    "prompt-engineering",
+    "langchain",
+    "nlp"
+   ],
+   "jobs": [
+    "AI Engineer",
+    "Développeur IA",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "langchain",
+   "label": {
+    "fr": "LangChain",
+    "en": "LangChain",
+    "ar": "LangChain",
+    "ru": "LangChain"
+   },
+   "patterns": [
+    "langchain"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "llm",
+    "openai-api",
+    "rag",
+    "prompt-engineering",
+    "vector-databases"
+   ],
+   "jobs": [
+    "AI Engineer",
+    "Développeur IA",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "numpy",
+   "label": {
+    "fr": "NumPy",
+    "en": "NumPy",
+    "ar": "NumPy",
+    "ru": "NumPy"
+   },
+   "patterns": [
+    "numpy",
+    "np"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "python",
+    "pandas",
+    "scipy",
+    "data-manipulation"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "pandas",
+   "label": {
+    "fr": "Pandas",
+    "en": "Pandas",
+    "ar": "Pandas",
+    "ru": "Pandas"
+   },
+   "patterns": [
+    "pandas"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "python",
+    "numpy",
+    "data-manipulation",
+    "data-cleaning"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Analyste de données",
+    "Data Engineer"
+   ]
+  },
+  {
+   "id": "matplotlib",
+   "label": {
+    "fr": "Matplotlib",
+    "en": "Matplotlib",
+    "ar": "Matplotlib",
+    "ru": "Matplotlib"
+   },
+   "patterns": [
+    "matplotlib",
+    "plt"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "python",
+    "data-visualization",
+    "seaborn",
+    "plotly"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Analyste de données",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "seaborn",
+   "label": {
+    "fr": "Seaborn",
+    "en": "Seaborn",
+    "ar": "Seaborn",
+    "ru": "Seaborn"
+   },
+   "patterns": [
+    "seaborn",
+    "sns"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "matplotlib",
+    "data-visualization",
+    "python",
+    "pandas"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Analyste de données",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "plotly",
+   "label": {
+    "fr": "Plotly",
+    "en": "Plotly",
+    "ar": "Plotly",
+    "ru": "Plotly"
+   },
+   "patterns": [
+    "plotly"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "matplotlib",
+    "data-visualization",
+    "dash",
+    "python"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Analyste de données",
+    "Data Engineer"
+   ]
+  },
+  {
+   "id": "opencv",
+   "label": {
+    "fr": "OpenCV",
+    "en": "OpenCV",
+    "ar": "OpenCV",
+    "ru": "OpenCV"
+   },
+   "patterns": [
+    "opencv"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "computer-vision",
+    "image-processing",
+    "python",
+    "deep-learning"
+   ],
+   "jobs": [
+    "Computer Vision Engineer",
+    "Machine Learning Engineer",
+    "Ingénieur IA"
+   ]
+  },
+  {
+   "id": "aws-sagemaker",
+   "label": {
+    "fr": "AWS SageMaker",
+    "en": "AWS SageMaker",
+    "ar": "AWS SageMaker",
+    "ru": "AWS SageMaker"
+   },
+   "patterns": [
+    "aws sagemaker",
+    "sagemaker",
+    "amazon sagemaker"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "aws",
+    "cloud-computing",
+    "model-deployment",
+    "mlops"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Cloud Engineer",
+    "MLOps Engineer"
+   ]
+  },
+  {
+   "id": "google-cloud-ai",
+   "label": {
+    "fr": "Google Cloud AI",
+    "en": "Google Cloud AI",
+    "ar": "Google Cloud AI",
+    "ru": "Google Cloud AI"
+   },
+   "patterns": [
+    "google cloud ai",
+    "gcp ai",
+    "vertex ai",
+    "google ai platform"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-cloud",
+    "cloud-computing",
+    "model-deployment",
+    "tensorflow"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Cloud Engineer",
+    "Data Engineer"
+   ]
+  },
+  {
+   "id": "azure-ml",
+   "label": {
+    "fr": "Azure Machine Learning",
+    "en": "Azure Machine Learning",
+    "ar": "Azure Machine Learning",
+    "ru": "Azure Machine Learning"
+   },
+   "patterns": [
+    "azure ml",
+    "azure machine learning",
+    "azureml"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "azure",
+    "cloud-computing",
+    "model-deployment",
+    "mlops"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Cloud Engineer",
+    "MLOps Engineer"
+   ]
+  },
+  {
+   "id": "docker",
+   "label": {
+    "fr": "Docker",
+    "en": "Docker",
+    "ar": "Docker",
+    "ru": "Docker"
+   },
+   "patterns": [
+    "docker",
+    "containerization"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "kubernetes",
+    "mlops",
+    "model-deployment",
+    "devops"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "MLOps Engineer",
+    "DevOps Engineer"
+   ]
+  },
+  {
+   "id": "kubernetes",
+   "label": {
+    "fr": "Kubernetes",
+    "en": "Kubernetes",
+    "ar": "Kubernetes",
+    "ru": "Kubernetes"
+   },
+   "patterns": [
+    "kubernetes",
+    "k8s"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "docker",
+    "mlops",
+    "model-deployment",
+    "devops"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "MLOps Engineer",
+    "DevOps Engineer"
+   ]
+  },
+  {
+   "id": "apache-spark",
+   "label": {
+    "fr": "Apache Spark",
+    "en": "Apache Spark",
+    "ar": "Apache Spark",
+    "ru": "Apache Spark"
+   },
+   "patterns": [
+    "apache spark",
+    "spark",
+    "pyspark"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "big-data",
+    "data-engineering",
+    "python",
+    "hadoop"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Big Data Engineer",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "hadoop",
+   "label": {
+    "fr": "Hadoop",
+    "en": "Hadoop",
+    "ar": "Hadoop",
+    "ru": "Hadoop"
+   },
+   "patterns": [
+    "hadoop",
+    "hdfs",
+    "mapreduce"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "big-data",
+    "apache-spark",
+    "data-engineering"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Big Data Engineer",
+    "Data Architect"
+   ]
+  },
+  {
+   "id": "airflow",
+   "label": {
+    "fr": "Apache Airflow",
+    "en": "Apache Airflow",
+    "ar": "Apache Airflow",
+    "ru": "Apache Airflow"
+   },
+   "patterns": [
+    "airflow",
+    "apache airflow"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-pipelines",
+    "data-engineering",
+    "etl",
+    "mlops"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Machine Learning Engineer",
+    "MLOps Engineer"
+   ]
+  },
+  {
+   "id": "sql",
+   "label": {
+    "fr": "SQL",
+    "en": "SQL",
+    "ar": "SQL",
+    "ru": "SQL"
+   },
+   "patterns": [
+    "sql",
+    "structured query language"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "databases",
+    "data-manipulation",
+    "postgresql",
+    "mysql"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Data Engineer",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "postgresql",
+   "label": {
+    "fr": "PostgreSQL",
+    "en": "PostgreSQL",
+    "ar": "PostgreSQL",
+    "ru": "PostgreSQL"
+   },
+   "patterns": [
+    "postgresql",
+    "postgres"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "sql",
+    "databases",
+    "data-engineering"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Data Scientist",
+    "Backend Developer"
+   ]
+  },
+  {
+   "id": "mongodb",
+   "label": {
+    "fr": "MongoDB",
+    "en": "MongoDB",
+    "ar": "MongoDB",
+    "ru": "MongoDB"
+   },
+   "patterns": [
+    "mongodb",
+    "mongo"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "nosql",
+    "databases",
+    "data-engineering"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Backend Developer",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "elasticsearch",
+   "label": {
+    "fr": "Elasticsearch",
+    "en": "Elasticsearch",
+    "ar": "Elasticsearch",
+    "ru": "Elasticsearch"
+   },
+   "patterns": [
+    "elasticsearch",
+    "elastic"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "search-engines",
+    "nlp",
+    "data-engineering"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Search Engineer",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "vector-databases",
+   "label": {
+    "fr": "Bases de données vectorielles",
+    "en": "Vector databases",
+    "ar": "قواعد البيانات المتجهة",
+    "ru": "Векторные базы данных"
+   },
+   "patterns": [
+    "vector database",
+    "vector db",
+    "pinecone",
+    "weaviate",
+    "milvus",
+    "chromadb",
+    "qdrant",
+    "база векторов",
+    "قاعدة بيانات متجهة"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "llm",
+    "rag",
+    "embeddings",
+    "langchain"
+   ],
+   "jobs": [
+    "AI Engineer",
+    "Machine Learning Engineer",
+    "Data Engineer"
+   ]
+  },
+  {
+   "id": "git",
+   "label": {
+    "fr": "Git",
+    "en": "Git",
+    "ar": "Git",
+    "ru": "Git"
+   },
+   "patterns": [
+    "git",
+    "version control"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "github",
+    "gitlab",
+    "devops",
+    "collaboration"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "AI Engineer"
+   ]
+  },
+  {
+   "id": "github",
+   "label": {
+    "fr": "GitHub",
+    "en": "GitHub",
+    "ar": "GitHub",
+    "ru": "GitHub"
+   },
+   "patterns": [
+    "github"
+   ],
+   "category": "outil",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "git",
+    "collaboration",
+    "devops"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "AI Engineer"
+   ]
+  },
+  {
+   "id": "machine-learning",
+   "label": {
+    "fr": "Machine Learning",
+    "en": "Machine Learning",
+    "ar": "التعلم الآلي",
+    "ru": "Машинное обучение"
+   },
+   "patterns": [
+    "machine learning",
+    "ml",
+    "apprentissage automatique",
+    "machin learning",
+    "машинное обучение",
+    "machinelearning",
+    "التعلم الالي"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "deep-learning",
+    "supervised-learning",
+    "unsupervised-learning",
+    "feature-engineering",
+    "model-evaluation"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "Ingénieur IA",
+    "Research Scientist"
+   ]
+  },
+  {
+   "id": "deep-learning",
+   "label": {
+    "fr": "Deep Learning",
+    "en": "Deep Learning",
+    "ar": "التعلم العميق",
+    "ru": "Глубокое обучение"
+   },
+   "patterns": [
+    "deep learning",
+    "dl",
+    "apprentissage profond",
+    "глубокое обучение",
+    "deeplearning",
+    "التعلم العميق"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "neural-networks",
+    "machine-learning",
+    "tensorflow",
+    "pytorch",
+    "cnn",
+    "rnn"
+   ],
+   "jobs": [
+    "Deep Learning Engineer",
+    "Machine Learning Engineer",
+    "Research Scientist"
+   ]
+  },
+  {
+   "id": "neural-networks",
+   "label": {
+    "fr": "Réseaux de neurones",
+    "en": "Neural networks",
+    "ar": "الشبكات العصبية",
+    "ru": "Нейронные сети"
+   },
+   "patterns": [
+    "neural network",
+    "neural networks",
+    "ann",
+    "artificial neural network",
+    "reseau de neurones",
+    "нейронные сети",
+    "الشبكة العصبية"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "deep-learning",
+    "cnn",
+    "rnn",
+    "transformers",
+    "backpropagation"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Research Scientist",
+    "Deep Learning Engineer"
+   ]
+  },
+  {
+   "id": "cnn",
+   "label": {
+    "fr": "CNN (Réseaux de neurones convolutifs)",
+    "en": "CNN (Convolutional Neural Networks)",
+    "ar": "الشبكات العصبية الالتفافية",
+    "ru": "CNN (Свёрточные нейронные сети)"
+   },
+   "patterns": [
+    "cnn",
+    "convolutional neural network",
+    "convnet",
+    "сверточные нейронные сети",
+    "الشبكات الالتفافية"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "deep-learning",
+    "computer-vision",
+    "neural-networks",
+    "image-classification"
+   ],
+   "jobs": [
+    "Computer Vision Engineer",
+    "Machine Learning Engineer",
+    "Deep Learning Engineer"
+   ]
+  },
+  {
+   "id": "rnn",
+   "label": {
+    "fr": "RNN (Réseaux de neurones récurrents)",
+    "en": "RNN (Recurrent Neural Networks)",
+    "ar": "الشبكات العصبية المتكررة",
+    "ru": "RNN (Рекуррентные нейронные сети)"
+   },
+   "patterns": [
+    "rnn",
+    "recurrent neural network",
+    "lstm",
+    "gru",
+    "рекуррентные нейронные сети",
+    "الشبكات المتكررة"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "deep-learning",
+    "nlp",
+    "neural-networks",
+    "time-series"
+   ],
+   "jobs": [
+    "NLP Engineer",
+    "Machine Learning Engineer",
+    "Research Scientist"
+   ]
+  },
+  {
+   "id": "transformers",
+   "label": {
+    "fr": "Transformers",
+    "en": "Transformers",
+    "ar": "المحولات",
+    "ru": "Трансформеры"
+   },
+   "patterns": [
+    "transformer",
+    "transformers",
+    "attention mechanism",
+    "трансформеры",
+    "المحولات"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "nlp",
+    "bert",
+    "gpt",
+    "llm",
+    "deep-learning"
+   ],
+   "jobs": [
+    "NLP Engineer",
+    "Machine Learning Engineer",
+    "Research Scientist"
+   ]
+  },
+  {
+   "id": "nlp",
+   "label": {
+    "fr": "Traitement du langage naturel (NLP)",
+    "en": "Natural Language Processing (NLP)",
+    "ar": "معالجة اللغة الطبيعية",
+    "ru": "Обработка естественного языка"
+   },
+   "patterns": [
+    "nlp",
+    "natural language processing",
+    "traitement du langage naturel",
+    "tln",
+    "обработка естественного языка",
+    "معالجة اللغة الطبيعية"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "transformers",
+    "bert",
+    "gpt",
+    "text-classification",
+    "sentiment-analysis"
+   ],
+   "jobs": [
+    "NLP Engineer",
+    "Machine Learning Engineer",
+    "Data Scientist"
+   ]
+  },
+  {
+   "id": "computer-vision",
+   "label": {
+    "fr": "Vision par ordinateur",
+    "en": "Computer Vision",
+    "ar": "الرؤية الحاسوبية",
+    "ru": "Компьютерное зрение"
+   },
+   "patterns": [
+    "computer vision",
+    "cv",
+    "vision par ordinateur",
+    "компьютерное зрение",
+    "الرؤية الحاسوبية"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "cnn",
+    "image-processing",
+    "object-detection",
+    "image-classification",
+    "opencv"
+   ],
+   "jobs": [
+    "Computer Vision Engineer",
+    "Machine Learning Engineer",
+    "Deep Learning Engineer"
+   ]
+  },
+  {
+   "id": "reinforcement-learning",
+   "label": {
+    "fr": "Apprentissage par renforcement",
+    "en": "Reinforcement Learning",
+    "ar": "التعلم التعزيزي",
+    "ru": "Обучение с подкреплением"
+   },
+   "patterns": [
+    "reinforcement learning",
+    "rl",
+    "apprentissage par renforcement",
+    "обучение с подкреплением",
+    "التعلم التعزيزي"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "specialise",
+   "related": [
+    "machine-learning",
+    "q-learning",
+    "deep-learning",
+    "game-ai"
+   ],
+   "jobs": [
+    "Research Scientist",
+    "Machine Learning Engineer",
+    "AI Researcher"
+   ]
+  },
+  {
+   "id": "supervised-learning",
+   "label": {
+    "fr": "Apprentissage supervisé",
+    "en": "Supervised Learning",
+    "ar": "التعلم الخاضع للإشراف",
+    "ru": "Обучение с учителем"
+   },
+   "patterns": [
+    "supervised learning",
+    "apprentissage supervise",
+    "обучение с учителем",
+    "التعلم المشرف"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "machine-learning",
+    "classification",
+    "regression",
+    "model-evaluation"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "unsupervised-learning",
+   "label": {
+    "fr": "Apprentissage non supervisé",
+    "en": "Unsupervised Learning",
+    "ar": "التعلم غير الخاضع للإشراف",
+    "ru": "Обучение без учителя"
+   },
+   "patterns": [
+    "unsupervised learning",
+    "apprentissage non supervise",
+    "обучение без учителя",
+    "التعلم غير المشرف"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "machine-learning",
+    "clustering",
+    "dimensionality-reduction",
+    "anomaly-detection"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "transfer-learning",
+   "label": {
+    "fr": "Transfert d'apprentissage",
+    "en": "Transfer Learning",
+    "ar": "نقل التعلم",
+    "ru": "Перенос обучения"
+   },
+   "patterns": [
+    "transfer learning",
+    "transfert d'apprentissage",
+    "перенос обучения",
+    "نقل التعلم"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "deep-learning",
+    "pretrained-models",
+    "fine-tuning",
+    "bert"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Research Scientist",
+    "Deep Learning Engineer"
+   ]
+  },
+  {
+   "id": "llm",
+   "label": {
+    "fr": "Grands modèles de langage (LLM)",
+    "en": "Large Language Models (LLM)",
+    "ar": "نماذج اللغة الكبيرة",
+    "ru": "Большие языковые модели"
+   },
+   "patterns": [
+    "llm",
+    "large language model",
+    "grands modeles de langage",
+    "большие языковые модели",
+    "نماذج اللغة الكبيرة"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "gpt",
+    "bert",
+    "transformers",
+    "prompt-engineering",
+    "fine-tuning"
+   ],
+   "jobs": [
+    "AI Engineer",
+    "NLP Engineer",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "gpt",
+   "label": {
+    "fr": "GPT (Generative Pre-trained Transformer)",
+    "en": "GPT (Generative Pre-trained Transformer)",
+    "ar": "GPT",
+    "ru": "GPT"
+   },
+   "patterns": [
+    "gpt",
+    "gpt-3",
+    "gpt-4",
+    "chatgpt",
+    "generative pre-trained transformer"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "llm",
+    "transformers",
+    "openai-api",
+    "prompt-engineering",
+    "text-generation"
+   ],
+   "jobs": [
+    "AI Engineer",
+    "NLP Engineer",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "bert",
+   "label": {
+    "fr": "BERT (Bidirectional Encoder Representations from Transformers)",
+    "en": "BERT (Bidirectional Encoder Representations from Transformers)",
+    "ar": "BERT",
+    "ru": "BERT"
+   },
+   "patterns": [
+    "bert",
+    "bidirectional encoder representations"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "llm",
+    "transformers",
+    "nlp",
+    "transfer-learning",
+    "text-classification"
+   ],
+   "jobs": [
+    "NLP Engineer",
+    "Machine Learning Engineer",
+    "Research Scientist"
+   ]
+  },
+  {
+   "id": "gan",
+   "label": {
+    "fr": "GAN (Réseaux antagonistes génératifs)",
+    "en": "GAN (Generative Adversarial Networks)",
+    "ar": "الشبكات التوليدية التنافسية",
+    "ru": "GAN (Состязательные генеративные сети)"
+   },
+   "patterns": [
+    "gan",
+    "generative adversarial network",
+    "reseau antagoniste generatif",
+    "состязательные генеративные сети",
+    "الشبكات التوليدية"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "specialise",
+   "related": [
+    "deep-learning",
+    "image-generation",
+    "neural-networks",
+    "generative-ai"
+   ],
+   "jobs": [
+    "Research Scientist",
+    "Machine Learning Engineer",
+    "Deep Learning Engineer"
+   ]
+  },
+  {
+   "id": "feature-engineering",
+   "label": {
+    "fr": "Ingénierie des features",
+    "en": "Feature Engineering",
+    "ar": "هندسة الميزات",
+    "ru": "Конструирование признаков"
+   },
+   "patterns": [
+    "feature engineering",
+    "ingenierie des features",
+    "feature extraction",
+    "конструирование признаков",
+    "هندسة الميزات"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "data-preprocessing",
+    "machine-learning",
+    "data-manipulation",
+    "model-performance"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "data-preprocessing",
+   "label": {
+    "fr": "Prétraitement des données",
+    "en": "Data Preprocessing",
+    "ar": "معالجة البيانات المسبقة",
+    "ru": "Предобработка данных"
+   },
+   "patterns": [
+    "data preprocessing",
+    "pretraitement des donnees",
+    "data cleaning",
+    "предобработка данных",
+    "معالجة البيانات"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "data-manipulation",
+    "feature-engineering",
+    "pandas",
+    "data-quality"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Data Engineer",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "model-evaluation",
+   "label": {
+    "fr": "Évaluation de modèles",
+    "en": "Model Evaluation",
+    "ar": "تقييم النماذج",
+    "ru": "Оценка моделей"
+   },
+   "patterns": [
+    "model evaluation",
+    "evaluation de modeles",
+    "model validation",
+    "оценка моделей",
+    "تقييم النماذج"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "cross-validation",
+    "metrics",
+    "machine-learning",
+    "model-performance"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "Research Scientist"
+   ]
+  },
+  {
+   "id": "cross-validation",
+   "label": {
+    "fr": "Validation croisée",
+    "en": "Cross-validation",
+    "ar": "التحقق المتقاطع",
+    "ru": "Кросс-валидация"
+   },
+   "patterns": [
+    "cross-validation",
+    "cross validation",
+    "k-fold",
+    "validation croisee",
+    "кросс-валидация",
+    "التحقق المتقاطع"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "model-evaluation",
+    "machine-learning",
+    "hyperparameter-tuning"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "hyperparameter-tuning",
+   "label": {
+    "fr": "Optimisation des hyperparamètres",
+    "en": "Hyperparameter Tuning",
+    "ar": "ضبط المعلمات الفائقة",
+    "ru": "Настройка гиперпараметров"
+   },
+   "patterns": [
+    "hyperparameter tuning",
+    "hyperparameter optimization",
+    "optimisation des hyperparametres",
+    "grid search",
+    "random search",
+    "настройка гиперпараметров",
+    "ضبط المعلمات"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "model-evaluation",
+    "machine-learning",
+    "cross-validation",
+    "model-performance"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "Research Scientist"
+   ]
+  },
+  {
+   "id": "model-deployment",
+   "label": {
+    "fr": "Déploiement de modèles",
+    "en": "Model Deployment",
+    "ar": "نشر النماذج",
+    "ru": "Развертывание моделей"
+   },
+   "patterns": [
+    "model deployment",
+    "deploiement de modeles",
+    "model serving",
+    "развертывание моделей",
+    "نشر النماذج"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "mlops",
+    "docker",
+    "kubernetes",
+    "api-development",
+    "cloud-computing"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "MLOps Engineer",
+    "AI Engineer"
+   ]
+  },
+  {
+   "id": "mlops",
+   "label": {
+    "fr": "MLOps",
+    "en": "MLOps",
+    "ar": "MLOps",
+    "ru": "MLOps"
+   },
+   "patterns": [
+    "mlops",
+    "machine learning operations",
+    "ml operations"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "model-deployment",
+    "docker",
+    "kubernetes",
+    "mlflow",
+    "ci-cd"
+   ],
+   "jobs": [
+    "MLOps Engineer",
+    "Machine Learning Engineer",
+    "DevOps Engineer"
+   ]
+  },
+  {
+   "id": "rag",
+   "label": {
+    "fr": "RAG (Retrieval-Augmented Generation)",
+    "en": "RAG (Retrieval-Augmented Generation)",
+    "ar": "التوليد المعزز بالاسترجاع",
+    "ru": "RAG (Генерация с дополненным поиском)"
+   },
+   "patterns": [
+    "rag",
+    "retrieval augmented generation",
+    "retrieval-augmented generation",
+    "генерация с поиском",
+    "التوليد المعزز"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "llm",
+    "vector-databases",
+    "langchain",
+    "embeddings",
+    "openai-api"
+   ],
+   "jobs": [
+    "AI Engineer",
+    "NLP Engineer",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "prompt-engineering",
+   "label": {
+    "fr": "Ingénierie de prompts",
+    "en": "Prompt Engineering",
+    "ar": "هندسة المطالبات",
+    "ru": "Инженерия промптов"
+   },
+   "patterns": [
+    "prompt engineering",
+    "ingenierie de prompts",
+    "prompt design",
+    "инженерия промптов",
+    "هندسة المطالبات"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "llm",
+    "gpt",
+    "openai-api",
+    "langchain",
+    "chatbot"
+   ],
+   "jobs": [
+    "AI Engineer",
+    "Prompt Engineer",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "embeddings",
+   "label": {
+    "fr": "Embeddings",
+    "en": "Embeddings",
+    "ar": "التضمينات",
+    "ru": "Эмбеддинги"
+   },
+   "patterns": [
+    "embeddings",
+    "word embeddings",
+    "vector embeddings",
+    "эмбеддинги",
+    "التضمينات"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "nlp",
+    "vector-databases",
+    "llm",
+    "transformers",
+    "similarity-search"
+   ],
+   "jobs": [
+    "NLP Engineer",
+    "Machine Learning Engineer",
+    "AI Engineer"
+   ]
+  },
+  {
+   "id": "time-series",
+   "label": {
+    "fr": "Séries temporelles",
+    "en": "Time Series",
+    "ar": "السلاسل الزمنية",
+    "ru": "Временные ряды"
+   },
+   "patterns": [
+    "time series",
+    "series temporelles",
+    "temporal data",
+    "временные ряды",
+    "السلاسل الزمنية"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "forecasting",
+    "rnn",
+    "machine-learning",
+    "data-analysis"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "anomaly-detection",
+   "label": {
+    "fr": "Détection d'anomalies",
+    "en": "Anomaly Detection",
+    "ar": "كشف الشذوذ",
+    "ru": "Обнаружение аномалий"
+   },
+   "patterns": [
+    "anomaly detection",
+    "detection d'anomalies",
+    "outlier detection",
+    "обнаружение аномалий",
+    "كشف الشذوذ"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "unsupervised-learning",
+    "machine-learning",
+    "data-quality",
+    "fraud-detection"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "classification",
+   "label": {
+    "fr": "Classification",
+    "en": "Classification",
+    "ar": "التصنيف",
+    "ru": "Классификация"
+   },
+   "patterns": [
+    "classification",
+    "классификация",
+    "التصنيف"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "supervised-learning",
+    "machine-learning",
+    "logistic-regression",
+    "decision-trees"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "regression",
+   "label": {
+    "fr": "Régression",
+    "en": "Regression",
+    "ar": "الانحدار",
+    "ru": "Регрессия"
+   },
+   "patterns": [
+    "regression",
+    "linear regression",
+    "regression lineaire",
+    "регрессия",
+    "الانحدار"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "supervised-learning",
+    "machine-learning",
+    "prediction",
+    "forecasting"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "clustering",
+   "label": {
+    "fr": "Clustering",
+    "en": "Clustering",
+    "ar": "التجميع",
+    "ru": "Кластеризация"
+   },
+   "patterns": [
+    "clustering",
+    "k-means",
+    "kmeans",
+    "кластеризация",
+    "التجميع"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "unsupervised-learning",
+    "machine-learning",
+    "segmentation",
+    "data-analysis"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "data-augmentation",
+   "label": {
+    "fr": "Augmentation de données",
+    "en": "Data Augmentation",
+    "ar": "زيادة البيانات",
+    "ru": "Аугментация данных"
+   },
+   "patterns": [
+    "data augmentation",
+    "augmentation de donnees",
+    "аугментация данных",
+    "زيادة البيانات"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "deep-learning",
+    "computer-vision",
+    "training-data",
+    "model-performance"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Computer Vision Engineer",
+    "Data Scientist"
+   ]
+  },
+  {
+   "id": "a-b-testing",
+   "label": {
+    "fr": "Tests A/B",
+    "en": "A/B Testing",
+    "ar": "اختبار أ/ب",
+    "ru": "A/B тестирование"
+   },
+   "patterns": [
+    "a/b testing",
+    "ab testing",
+    "tests ab",
+    "a b testing",
+    "a/b тестирование",
+    "اختبار أ ب"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "model-evaluation",
+    "data-analysis",
+    "experimentation",
+    "metrics"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Product Analyst",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "responsible-ai",
+   "label": {
+    "fr": "IA responsable",
+    "en": "Responsible AI",
+    "ar": "الذكاء الاصطناعي المسؤول",
+    "ru": "Ответственный ИИ"
+   },
+   "patterns": [
+    "responsible ai",
+    "ia responsable",
+    "ethical ai",
+    "ai ethics",
+    "ответственный ии",
+    "الذكاء الاصطناعي الأخلاقي"
+   ],
+   "category": "norme",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "ai-governance",
+    "bias-detection",
+    "fairness",
+    "transparency"
+   ],
+   "jobs": [
+    "AI Ethics Specialist",
+    "Machine Learning Engineer",
+    "Data Scientist"
+   ]
+  },
+  {
+   "id": "ai-governance",
+   "label": {
+    "fr": "Gouvernance de l'IA",
+    "en": "AI Governance",
+    "ar": "حوكمة الذكاء الاصطناعي",
+    "ru": "Управление ИИ"
+   },
+   "patterns": [
+    "ai governance",
+    "gouvernance de l'ia",
+    "ai policy",
+    "управление ии",
+    "حوكمة الذكاء الاصطناعي"
+   ],
+   "category": "norme",
+   "topics": [
+    "ai",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "responsible-ai",
+    "compliance",
+    "ai-regulation",
+    "risk-management"
+   ],
+   "jobs": [
+    "AI Governance Specialist",
+    "AI Product Manager",
+    "Data Scientist"
+   ]
+  },
+  {
+   "id": "data-privacy",
+   "label": {
+    "fr": "Protection des données",
+    "en": "Data Privacy",
+    "ar": "خصوصية البيانات",
+    "ru": "Конфиденциальность данных"
+   },
+   "patterns": [
+    "data privacy",
+    "protection des donnees",
+    "gdpr",
+    "rgpd",
+    "конфиденциальность данных",
+    "خصوصية البيانات"
+   ],
+   "category": "norme",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "data-security",
+    "compliance",
+    "responsible-ai",
+    "anonymization"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Data Protection Officer"
+   ]
+  },
+  {
+   "id": "python-programming",
+   "label": {
+    "fr": "Programmation Python",
+    "en": "Python Programming",
+    "ar": "برمجة بايثون",
+    "ru": "Программирование на Python"
+   },
+   "patterns": [
+    "python programming",
+    "programmation python",
+    "python development",
+    "программирование на python",
+    "برمجة بايثون"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "python",
+    "software-development",
+    "data-science",
+    "machine-learning"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "AI Engineer"
+   ]
+  },
+  {
+   "id": "r-programming",
+   "label": {
+    "fr": "Programmation R",
+    "en": "R Programming",
+    "ar": "برمجة R",
+    "ru": "Программирование на R"
+   },
+   "patterns": [
+    "r programming",
+    "programmation r",
+    "r language",
+    "программирование на r",
+    "برمجة r"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "statistical-analysis",
+    "data-visualization",
+    "data-science"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Statisticien",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "statistical-analysis",
+   "label": {
+    "fr": "Analyse statistique",
+    "en": "Statistical Analysis",
+    "ar": "التحليل الإحصائي",
+    "ru": "Статистический анализ"
+   },
+   "patterns": [
+    "statistical analysis",
+    "analyse statistique",
+    "statistics",
+    "статистический анализ",
+    "التحليل الإحصائي"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "machine-learning",
+    "data-analysis",
+    "hypothesis-testing",
+    "r-programming"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Statisticien",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "data-engineering",
+   "label": {
+    "fr": "Ingénierie des données",
+    "en": "Data Engineering",
+    "ar": "هندسة البيانات",
+    "ru": "Инженерия данных"
+   },
+   "patterns": [
+    "data engineering",
+    "ingenierie des donnees",
+    "data pipeline",
+    "инженерия данных",
+    "هندسة البيانات"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "big-data",
+    "etl",
+    "apache-spark",
+    "sql",
+    "data-warehousing"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Big Data Engineer",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "big-data",
+   "label": {
+    "fr": "Big Data",
+    "en": "Big Data",
+    "ar": "البيانات الضخمة",
+    "ru": "Большие данные"
+   },
+   "patterns": [
+    "big data",
+    "donnees massives",
+    "большие данные",
+    "البيانات الضخمة"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "apache-spark",
+    "hadoop",
+    "data-engineering",
+    "distributed-computing"
+   ],
+   "jobs": [
+    "Big Data Engineer",
+    "Data Engineer",
+    "Data Architect"
+   ]
+  },
+  {
+   "id": "cloud-computing",
+   "label": {
+    "fr": "Cloud Computing",
+    "en": "Cloud Computing",
+    "ar": "الحوسبة السحابية",
+    "ru": "Облачные вычисления"
+   },
+   "patterns": [
+    "cloud computing",
+    "cloud",
+    "облачные вычисления",
+    "الحوسبة السحابية"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "aws",
+    "azure",
+    "google-cloud",
+    "model-deployment",
+    "scalability"
+   ],
+   "jobs": [
+    "Cloud Engineer",
+    "Machine Learning Engineer",
+    "DevOps Engineer"
+   ]
+  },
+  {
+   "id": "api-development",
+   "label": {
+    "fr": "Développement d'API",
+    "en": "API Development",
+    "ar": "تطوير واجهات برمجة التطبيقات",
+    "ru": "Разработка API"
+   },
+   "patterns": [
+    "api development",
+    "developpement d'api",
+    "rest api",
+    "api design",
+    "разработка api",
+    "تطوير api"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "model-deployment",
+    "flask",
+    "fastapi",
+    "software-development"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "AI Engineer",
+    "Backend Developer"
+   ]
+  },
+  {
+   "id": "experiment-tracking",
+   "label": {
+    "fr": "Suivi d'expériences",
+    "en": "Experiment Tracking",
+    "ar": "تتبع التجارب",
+    "ru": "Отслеживание экспериментов"
+   },
+   "patterns": [
+    "experiment tracking",
+    "suivi d'experiences",
+    "experiment management",
+    "отслеживание экспериментов",
+    "تتبع التجارب"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "mlflow",
+    "weights-and-biases",
+    "mlops",
+    "reproducibility"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Research Scientist",
+    "MLOps Engineer"
+   ]
+  },
+  {
+   "id": "model-monitoring",
+   "label": {
+    "fr": "Surveillance de modèles",
+    "en": "Model Monitoring",
+    "ar": "مراقبة النماذج",
+    "ru": "Мониторинг моделей"
+   },
+   "patterns": [
+    "model monitoring",
+    "surveillance de modeles",
+    "model observability",
+    "мониторинг моделей",
+    "مراقبة النماذج"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "mlops",
+    "model-deployment",
+    "data-drift",
+    "performance-tracking"
+   ],
+   "jobs": [
+    "MLOps Engineer",
+    "Machine Learning Engineer",
+    "Data Engineer"
+   ]
+  },
+  {
+   "id": "problem-solving",
+   "label": {
+    "fr": "Résolution de problèmes",
+    "en": "Problem Solving",
+    "ar": "حل المشكلات",
+    "ru": "Решение проблем"
+   },
+   "patterns": [
+    "problem solving",
+    "resolution de problemes",
+    "analytical thinking",
+    "решение проблем",
+    "حل المشكلات"
+   ],
+   "category": "transverse",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "critical-thinking",
+    "analytical-skills",
+    "creativity"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "AI Engineer"
+   ]
+  },
+  {
+   "id": "critical-thinking",
+   "label": {
+    "fr": "Esprit critique",
+    "en": "Critical Thinking",
+    "ar": "التفكير النقدي",
+    "ru": "Критическое мышление"
+   },
+   "patterns": [
+    "critical thinking",
+    "esprit critique",
+    "критическое мышление",
+    "التفكير النقدي"
+   ],
+   "category": "transverse",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "problem-solving",
+    "analytical-skills",
+    "decision-making"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Research Scientist",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "communication",
+   "label": {
+    "fr": "Communication",
+    "en": "Communication",
+    "ar": "التواصل",
+    "ru": "Коммуникация"
+   },
+   "patterns": [
+    "communication",
+    "коммуникация",
+    "التواصل"
+   ],
+   "category": "transverse",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "presentation-skills",
+    "teamwork",
+    "stakeholder-management"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "AI Product Manager"
+   ]
+  },
+  {
+   "id": "teamwork",
+   "label": {
+    "fr": "Travail d'équipe",
+    "en": "Teamwork",
+    "ar": "العمل الجماعي",
+    "ru": "Командная работа"
+   },
+   "patterns": [
+    "teamwork",
+    "travail d'equipe",
+    "collaboration",
+    "командная работа",
+    "العمل الجماعي"
+   ],
+   "category": "transverse",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "communication",
+    "collaboration",
+    "agile-methodology"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "AI Engineer"
+   ]
+  },
+  {
+   "id": "research",
+   "label": {
+    "fr": "Recherche",
+    "en": "Research",
+    "ar": "البحث",
+    "ru": "Исследования"
+   },
+   "patterns": [
+    "research",
+    "recherche",
+    "исследования",
+    "البحث"
+   ],
+   "category": "transverse",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "scientific-method",
+    "experimentation",
+    "literature-review"
+   ],
+   "jobs": [
+    "Research Scientist",
+    "AI Researcher",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "english",
+   "label": {
+    "fr": "Anglais",
+    "en": "English",
+    "ar": "الإنجليزية",
+    "ru": "Английский"
+   },
+   "patterns": [
+    "english",
+    "anglais",
+    "английский",
+    "الإنجليزية"
+   ],
+   "category": "langue",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "communication",
+    "technical-writing",
+    "international-collaboration"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Research Scientist",
+    "Data Scientist"
+   ]
+  },
+  {
+   "id": "agile-methodology",
+   "label": {
+    "fr": "Méthodologie Agile",
+    "en": "Agile Methodology",
+    "ar": "منهجية أجايل",
+    "ru": "Методология Agile"
+   },
+   "patterns": [
+    "agile",
+    "agile methodology",
+    "scrum",
+    "methodologie agile",
+    "методология agile",
+    "منهجية أجايل"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "scrum",
+    "project-management",
+    "teamwork",
+    "sprint-planning"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "AI Product Manager",
+    "Data Scientist"
+   ]
+  },
+  {
+   "id": "ci-cd",
+   "label": {
+    "fr": "CI/CD (Intégration et déploiement continus)",
+    "en": "CI/CD (Continuous Integration/Deployment)",
+    "ar": "التكامل والنشر المستمر",
+    "ru": "CI/CD (Непрерывная интеграция и развертывание)"
+   },
+   "patterns": [
+    "ci/cd",
+    "continuous integration",
+    "continuous deployment",
+    "integration continue",
+    "непрерывная интеграция",
+    "التكامل المستمر"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "mlops",
+    "devops",
+    "docker",
+    "automation"
+   ],
+   "jobs": [
+    "MLOps Engineer",
+    "Machine Learning Engineer",
+    "DevOps Engineer"
+   ]
+  },
+  {
+   "id": "version-control",
+   "label": {
+    "fr": "Contrôle de version",
+    "en": "Version Control",
+    "ar": "التحكم في الإصدارات",
+    "ru": "Контроль версий"
+   },
+   "patterns": [
+    "version control",
+    "controle de version",
+    "контроль версий",
+    "التحكم في الإصدارات"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "git",
+    "github",
+    "collaboration",
+    "code-management"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "AI Engineer"
+   ]
+  },
+  {
+   "id": "technical-writing",
+   "label": {
+    "fr": "Rédaction technique",
+    "en": "Technical Writing",
+    "ar": "الكتابة التقنية",
+    "ru": "Техническое письмо"
+   },
+   "patterns": [
+    "technical writing",
+    "redaction technique",
+    "documentation",
+    "техническое письмо",
+    "الكتابة التقنية"
+   ],
+   "category": "transverse",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "communication",
+    "documentation",
+    "research"
+   ],
+   "jobs": [
+    "Research Scientist",
+    "Machine Learning Engineer",
+    "Technical Writer"
+   ]
+  },
+  {
+   "id": "data-storytelling",
+   "label": {
+    "fr": "Data Storytelling",
+    "en": "Data Storytelling",
+    "ar": "سرد القصص بالبيانات",
+    "ru": "Сторителлинг на основе данных"
+   },
+   "patterns": [
+    "data storytelling",
+    "data visualization storytelling",
+    "сторителлинг данных",
+    "سرد القصص بالبيانات"
+   ],
+   "category": "transverse",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-visualization",
+    "communication",
+    "presentation-skills"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Business Intelligence Analyst",
+    "Data Analyst"
+   ]
+  },
+  {
+   "id": "scalability",
+   "label": {
+    "fr": "Scalabilité",
+    "en": "Scalability",
+    "ar": "القابلية للتوسع",
+    "ru": "Масштабируемость"
+   },
+   "patterns": [
+    "scalability",
+    "scalabilite",
+    "scalable systems",
+    "масштабируемость",
+    "القابلية للتوسع"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "cloud-computing",
+    "distributed-computing",
+    "system-design"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "MLOps Engineer",
+    "Cloud Engineer"
+   ]
+  },
+  {
+   "id": "distributed-computing",
+   "label": {
+    "fr": "Calcul distribué",
+    "en": "Distributed Computing",
+    "ar": "الحوسبة الموزعة",
+    "ru": "Распределенные вычисления"
+   },
+   "patterns": [
+    "distributed computing",
+    "calcul distribue",
+    "distributed systems",
+    "распределенные вычисления",
+    "الحوسبة الموزعة"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "big-data",
+    "apache-spark",
+    "scalability",
+    "parallel-processing"
+   ],
+   "jobs": [
+    "Big Data Engineer",
+    "Machine Learning Engineer",
+    "Data Engineer"
+   ]
+  },
+  {
+   "id": "gpu-computing",
+   "label": {
+    "fr": "Calcul GPU",
+    "en": "GPU Computing",
+    "ar": "الحوسبة بوحدة معالجة الرسومات",
+    "ru": "GPU-вычисления"
+   },
+   "patterns": [
+    "gpu computing",
+    "calcul gpu",
+    "cuda",
+    "gpu acceleration",
+    "gpu-вычисления",
+    "الحوسبة بوحدة معالجة الرسومات"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "deep-learning",
+    "tensorflow",
+    "pytorch",
+    "high-performance-computing"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Deep Learning Engineer",
+    "Research Scientist"
+   ]
+  },
+  {
+   "id": "model-optimization",
+   "label": {
+    "fr": "Optimisation de modèles",
+    "en": "Model Optimization",
+    "ar": "تحسين النماذج",
+    "ru": "Оптимизация моделей"
+   },
+   "patterns": [
+    "model optimization",
+    "optimisation de modeles",
+    "model compression",
+    "оптимизация моделей",
+    "تحسين النماذج"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "model-deployment",
+    "quantization",
+    "pruning",
+    "inference-optimization"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "MLOps Engineer",
+    "Deep Learning Engineer"
+   ]
+  },
+  {
+   "id": "edge-ai",
+   "label": {
+    "fr": "Edge AI",
+    "en": "Edge AI",
+    "ar": "الذكاء الاصطناعي الطرفي",
+    "ru": "Edge AI"
+   },
+   "patterns": [
+    "edge ai",
+    "edge computing",
+    "ai at the edge",
+    "edge intelligence",
+    "edge ai",
+    "الذكاء الاصطناعي الطرفي"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "model-optimization",
+    "iot",
+    "embedded-systems",
+    "edge-computing"
+   ],
+   "jobs": [
+    "Edge AI Engineer",
+    "Machine Learning Engineer",
+    "IoT Engineer"
+   ]
+  },
+  {
+   "id": "federated-learning",
+   "label": {
+    "fr": "Apprentissage fédéré",
+    "en": "Federated Learning",
+    "ar": "التعلم الموحد",
+    "ru": "Федеративное обучение"
+   },
+   "patterns": [
+    "federated learning",
+    "apprentissage federe",
+    "федеративное обучение",
+    "التعلم الموحد"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "specialise",
+   "related": [
+    "privacy-preserving-ml",
+    "distributed-computing",
+    "data-privacy"
+   ],
+   "jobs": [
+    "Research Scientist",
+    "Machine Learning Engineer",
+    "AI Researcher"
+   ]
+  },
+  {
+   "id": "explainable-ai",
+   "label": {
+    "fr": "IA explicable (XAI)",
+    "en": "Explainable AI (XAI)",
+    "ar": "الذكاء الاصطناعي القابل للتفسير",
+    "ru": "Объяснимый ИИ"
+   },
+   "patterns": [
+    "explainable ai",
+    "xai",
+    "ia explicable",
+    "interpretable ml",
+    "объяснимый ии",
+    "الذكاء الاصطناعي القابل للتفسير"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "responsible-ai",
+    "model-interpretability",
+    "shap",
+    "lime"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "AI Ethics Specialist"
+   ]
+  },
+  {
+   "id": "automl",
+   "label": {
+    "fr": "AutoML",
+    "en": "AutoML",
+    "ar": "التعلم الآلي التلقائي",
+    "ru": "AutoML"
+   },
+   "patterns": [
+    "automl",
+    "automated machine learning",
+    "apprentissage automatique automatise",
+    "автоматизированное машинное обучение",
+    "التعلم الآلي التلقائي"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "machine-learning",
+    "hyperparameter-tuning",
+    "model-selection"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "AI Engineer"
+   ]
+  },
+  {
+   "id": "data-labeling",
+   "label": {
+    "fr": "Étiquetage de données",
+    "en": "Data Labeling",
+    "ar": "تصنيف البيانات",
+    "ru": "Разметка данных"
+   },
+   "patterns": [
+    "data labeling",
+    "etiquetage de donnees",
+    "data annotation",
+    "разметка данных",
+    "تصنيف البيانات"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "training-data",
+    "supervised-learning",
+    "data-quality",
+    "annotation-tools"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Data Annotator"
+   ]
+  },
+  {
+   "id": "synthetic-data",
+   "label": {
+    "fr": "Données synthétiques",
+    "en": "Synthetic Data",
+    "ar": "البيانات الاصطناعية",
+    "ru": "Синтетические данные"
+   },
+   "patterns": [
+    "synthetic data",
+    "donnees synthetiques",
+    "synthetic data generation",
+    "синтетические данные",
+    "البيانات الاصطناعية"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "data-augmentation",
+    "gan",
+    "data-privacy",
+    "training-data"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Research Scientist"
+   ]
+  },
+  {
+   "id": "chatbot-development",
+   "label": {
+    "fr": "Développement de chatbots",
+    "en": "Chatbot Development",
+    "ar": "تطوير روبوتات المحادثة",
+    "ru": "Разработка чат-ботов"
+   },
+   "patterns": [
+    "chatbot development",
+    "developpement de chatbots",
+    "chatbot design",
+    "разработка чат-ботов",
+    "تطوير روبوتات المحادثة"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "nlp",
+    "llm",
+    "conversational-ai",
+    "dialogue-systems"
+   ],
+   "jobs": [
+    "AI Engineer",
+    "NLP Engineer",
+    "Chatbot Developer"
+   ]
+  },
+  {
+   "id": "recommendation-systems",
+   "label": {
+    "fr": "Systèmes de recommandation",
+    "en": "Recommendation Systems",
+    "ar": "أنظمة التوصية",
+    "ru": "Рекомендательные системы"
+   },
+   "patterns": [
+    "recommendation systems",
+    "systemes de recommandation",
+    "recommender systems",
+    "рекомендательные системы",
+    "أنظمة التوصية"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "collaborative-filtering",
+    "machine-learning",
+    "personalization",
+    "user-modeling"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Data Scientist",
+    "Recommendation Engineer"
+   ]
+  },
+  {
+   "id": "speech-recognition",
+   "label": {
+    "fr": "Reconnaissance vocale",
+    "en": "Speech Recognition",
+    "ar": "التعرف على الكلام",
+    "ru": "Распознавание речи"
+   },
+   "patterns": [
+    "speech recognition",
+    "reconnaissance vocale",
+    "asr",
+    "automatic speech recognition",
+    "распознавание речи",
+    "التعرف على الكلام"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "nlp",
+    "audio-processing",
+    "deep-learning",
+    "voice-ai"
+   ],
+   "jobs": [
+    "Speech Engineer",
+    "NLP Engineer",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "image-generation",
+   "label": {
+    "fr": "Génération d'images",
+    "en": "Image Generation",
+    "ar": "توليد الصور",
+    "ru": "Генерация изображений"
+   },
+   "patterns": [
+    "image generation",
+    "generation d'images",
+    "text-to-image",
+    "генерация изображений",
+    "توليد الصور"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "gan",
+    "diffusion-models",
+    "generative-ai",
+    "computer-vision"
+   ],
+   "jobs": [
+    "AI Engineer",
+    "Computer Vision Engineer",
+    "Research Scientist"
+   ]
+  },
+  {
+   "id": "object-detection",
+   "label": {
+    "fr": "Détection d'objets",
+    "en": "Object Detection",
+    "ar": "كشف الأجسام",
+    "ru": "Обнаружение объектов"
+   },
+   "patterns": [
+    "object detection",
+    "detection d'objets",
+    "обнаружение объектов",
+    "كشف الأجسام"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "computer-vision",
+    "cnn",
+    "yolo",
+    "image-segmentation"
+   ],
+   "jobs": [
+    "Computer Vision Engineer",
+    "Machine Learning Engineer",
+    "Deep Learning Engineer"
+   ]
+  },
+  {
+   "id": "sentiment-analysis",
+   "label": {
+    "fr": "Analyse de sentiments",
+    "en": "Sentiment Analysis",
+    "ar": "تحليل المشاعر",
+    "ru": "Анализ тональности"
+   },
+   "patterns": [
+    "sentiment analysis",
+    "analyse de sentiments",
+    "opinion mining",
+    "анализ тональности",
+    "تحليل المشاعر"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "nlp",
+    "text-classification",
+    "machine-learning",
+    "social-media-analysis"
+   ],
+   "jobs": [
+    "NLP Engineer",
+    "Data Scientist",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "text-generation",
+   "label": {
+    "fr": "Génération de texte",
+    "en": "Text Generation",
+    "ar": "توليد النصوص",
+    "ru": "Генерация текста"
+   },
+   "patterns": [
+    "text generation",
+    "generation de texte",
+    "natural language generation",
+    "генерация текста",
+    "توليد النصوص"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "nlp",
+    "llm",
+    "gpt",
+    "transformers"
+   ],
+   "jobs": [
+    "NLP Engineer",
+    "AI Engineer",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "machine-translation",
+   "label": {
+    "fr": "Traduction automatique",
+    "en": "Machine Translation",
+    "ar": "الترجمة الآلية",
+    "ru": "Машинный перевод"
+   },
+   "patterns": [
+    "machine translation",
+    "traduction automatique",
+    "neural machine translation",
+    "машинный перевод",
+    "الترجمة الآلية"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "nlp",
+    "transformers",
+    "seq2seq",
+    "multilingual-models"
+   ],
+   "jobs": [
+    "NLP Engineer",
+    "Machine Learning Engineer",
+    "Computational Linguist"
+   ]
+  },
+  {
+   "id": "robotics",
+   "label": {
+    "fr": "Robotique",
+    "en": "Robotics",
+    "ar": "الروبوتات",
+    "ru": "Робототехника"
+   },
+   "patterns": [
+    "robotics",
+    "robotique",
+    "робототехника",
+    "الروبوتات"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "reinforcement-learning",
+    "computer-vision",
+    "control-systems",
+    "autonomous-systems"
+   ],
+   "jobs": [
+    "Robotics Engineer",
+    "AI Engineer",
+    "Research Scientist"
+   ]
+  },
+  {
+   "id": "autonomous-systems",
+   "label": {
+    "fr": "Systèmes autonomes",
+    "en": "Autonomous Systems",
+    "ar": "الأنظمة المستقلة",
+    "ru": "Автономные системы"
+   },
+   "patterns": [
+    "autonomous systems",
+    "systemes autonomes",
+    "autonomous vehicles",
+    "автономные системы",
+    "الأنظمة المستقلة"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "robotics",
+    "computer-vision",
+    "reinforcement-learning",
+    "sensor-fusion"
+   ],
+   "jobs": [
+    "Autonomous Systems Engineer",
+    "AI Engineer",
+    "Research Scientist"
+   ]
+  },
+  {
+   "id": "knowledge-graphs",
+   "label": {
+    "fr": "Graphes de connaissances",
+    "en": "Knowledge Graphs",
+    "ar": "الرسوم البيانية المعرفية",
+    "ru": "Графы знаний"
+   },
+   "patterns": [
+    "knowledge graphs",
+    "graphes de connaissances",
+    "knowledge base",
+    "графы знаний",
+    "الرسوم البيانية المعرفية"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "nlp",
+    "semantic-web",
+    "graph-databases",
+    "ontology"
+   ],
+   "jobs": [
+    "Knowledge Engineer",
+    "NLP Engineer",
+    "Data Scientist"
+   ]
+  },
+  {
+   "id": "bayesian-methods",
+   "label": {
+    "fr": "Méthodes bayésiennes",
+    "en": "Bayesian Methods",
+    "ar": "الطرق البايزية",
+    "ru": "Байесовские методы"
+   },
+   "patterns": [
+    "bayesian methods",
+    "methodes bayesiennes",
+    "bayesian inference",
+    "байесовские методы",
+    "الطرق البايزية"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "specialise",
+   "related": [
+    "probabilistic-models",
+    "statistical-analysis",
+    "uncertainty-quantification"
+   ],
+   "jobs": [
+    "Research Scientist",
+    "Data Scientist",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "optimization-algorithms",
+   "label": {
+    "fr": "Algorithmes d'optimisation",
+    "en": "Optimization Algorithms",
+    "ar": "خوارزميات التحسين",
+    "ru": "Алгоритмы оптимизации"
+   },
+   "patterns": [
+    "optimization algorithms",
+    "algorithmes d'optimisation",
+    "gradient descent",
+    "алгоритмы оптимизации",
+    "خوارزميات التحسين"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "machine-learning",
+    "deep-learning",
+    "backpropagation",
+    "convex-optimization"
+   ],
+   "jobs": [
+    "Machine Learning Engineer",
+    "Research Scientist",
+    "Data Scientist"
+   ]
+  },
+  {
+   "id": "ensemble-methods",
+   "label": {
+    "fr": "Méthodes d'ensemble",
+    "en": "Ensemble Methods",
+    "ar": "طرق المجموعة",
+    "ru": "Ансамблевые методы"
+   },
+   "patterns": [
+    "ensemble methods",
+    "methodes d'ensemble",
+    "random forest",
+    "boosting",
+    "bagging",
+    "ансамблевые методы",
+    "طرق المجموعة"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "courant",
+   "related": [
+    "machine-learning",
+    "decision-trees",
+    "xgboost",
+    "model-performance"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "dimensionality-reduction",
+   "label": {
+    "fr": "Réduction de dimensionnalité",
+    "en": "Dimensionality Reduction",
+    "ar": "تقليل الأبعاد",
+    "ru": "Снижение размерности"
+   },
+   "patterns": [
+    "dimensionality reduction",
+    "reduction de dimensionnalite",
+    "pca",
+    "tsne",
+    "снижение размерности",
+    "تقليل الأبعاد"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "unsupervised-learning",
+    "feature-engineering",
+    "data-visualization"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "Machine Learning Engineer",
+    "Analyste de données"
+   ]
+  },
+  {
+   "id": "natural-language-understanding",
+   "label": {
+    "fr": "Compréhension du langage naturel",
+    "en": "Natural Language Understanding",
+    "ar": "فهم اللغة الطبيعية",
+    "ru": "Понимание естественного языка"
+   },
+   "patterns": [
+    "natural language understanding",
+    "nlu",
+    "comprehension du langage naturel",
+    "понимание естественного языка",
+    "فهم اللغة الطبيعية"
+   ],
+   "category": "methode",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "nlp",
+    "intent-recognition",
+    "entity-extraction",
+    "dialogue-systems"
+   ],
+   "jobs": [
+    "NLP Engineer",
+    "AI Engineer",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "computer-graphics",
+   "label": {
+    "fr": "Infographie",
+    "en": "Computer Graphics",
+    "ar": "الرسومات الحاسوبية",
+    "ru": "Компьютерная графика"
+   },
+   "patterns": [
+    "computer graphics",
+    "infographie",
+    "3d rendering",
+    "компьютерная графика",
+    "الرسومات الحاسوبية"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "design"
+   ],
+   "level": "specialise",
+   "related": [
+    "computer-vision",
+    "image-processing",
+    "3d-modeling",
+    "rendering"
+   ],
+   "jobs": [
+    "Graphics Engineer",
+    "Computer Vision Engineer",
+    "Game Developer"
+   ]
+  },
+  {
+   "id": "data-warehousing",
+   "label": {
+    "fr": "Entreposage de données",
+    "en": "Data Warehousing",
+    "ar": "تخزين البيانات",
+    "ru": "Хранилища данных"
+   },
+   "patterns": [
+    "data warehousing",
+    "entreposage de donnees",
+    "data warehouse",
+    "хранилища данных",
+    "تخزين البيانات"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-engineering",
+    "etl",
+    "sql",
+    "business-intelligence"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Data Architect",
+    "Business Intelligence Analyst"
+   ]
+  },
+  {
+   "id": "etl",
+   "label": {
+    "fr": "ETL (Extract, Transform, Load)",
+    "en": "ETL (Extract, Transform, Load)",
+    "ar": "استخراج وتحويل وتحميل البيانات",
+    "ru": "ETL (Извлечение, преобразование, загрузка)"
+   },
+   "patterns": [
+    "etl",
+    "extract transform load",
+    "extraction transformation chargement",
+    "извлечение преобразование загрузка",
+    "استخراج وتحويل وتحميل"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-engineering",
+    "data-pipelines",
+    "data-warehousing",
+    "apache-spark"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "ETL Developer",
+    "Big Data Engineer"
+   ]
+  },
+  {
+   "id": "data-quality",
+   "label": {
+    "fr": "Qualité des données",
+    "en": "Data Quality",
+    "ar": "جودة البيانات",
+    "ru": "Качество данных"
+   },
+   "patterns": [
+    "data quality",
+    "qualite des donnees",
+    "data validation",
+    "качество данных",
+    "جودة البيانات"
+   ],
+   "category": "metier",
+   "topics": [
+    "ai",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "data-cleaning",
+    "data-preprocessing",
+    "data-governance"
+   ],
+   "jobs": [
+    "Data Engineer",
+    "Data Scientist",
+    "Data Quality Analyst"
+   ]
+  },
+  {
+   "id": "project-management",
+   "label": {
+    "fr": "Gestion de projet",
+    "en": "Project Management",
+    "ar": "إدارة المشاريع",
+    "ru": "Управление проектами"
+   },
+   "patterns": [
+    "project management",
+    "gestion de projet",
+    "управление проектами",
+    "إدارة المشاريع"
+   ],
+   "category": "transverse",
+   "topics": [
+    "ai",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "agile-methodology",
+    "scrum",
+    "stakeholder-management",
+    "planning"
+   ],
+   "jobs": [
+    "AI Product Manager",
+    "Project Manager",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "stakeholder-management",
+   "label": {
+    "fr": "Gestion des parties prenantes",
+    "en": "Stakeholder Management",
+    "ar": "إدارة أصحاب المصلحة",
+    "ru": "Управление заинтересованными сторонами"
+   },
+   "patterns": [
+    "stakeholder management",
+    "gestion des parties prenantes",
+    "управление заинтересованными сторонами",
+    "إدارة أصحاب المصلحة"
+   ],
+   "category": "transverse",
+   "topics": [
+    "ai",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "communication",
+    "project-management",
+    "business-acumen"
+   ],
+   "jobs": [
+    "AI Product Manager",
+    "Data Scientist",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "business-acumen",
+   "label": {
+    "fr": "Sens des affaires",
+    "en": "Business Acumen",
+    "ar": "الفطنة التجارية",
+    "ru": "Деловое чутье"
+   },
+   "patterns": [
+    "business acumen",
+    "sens des affaires",
+    "business understanding",
+    "деловое чутье",
+    "الفطنة التجارية"
+   ],
+   "category": "transverse",
+   "topics": [
+    "ai",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "stakeholder-management",
+    "strategic-thinking",
+    "roi-analysis"
+   ],
+   "jobs": [
+    "AI Product Manager",
+    "Data Scientist",
+    "Machine Learning Engineer"
+   ]
+  },
+  {
+   "id": "presentation-skills",
+   "label": {
+    "fr": "Compétences en présentation",
+    "en": "Presentation Skills",
+    "ar": "مهارات العرض",
+    "ru": "Навыки презентации"
+   },
+   "patterns": [
+    "presentation skills",
+    "competences en presentation",
+    "public speaking",
+    "навыки презентации",
+    "مهارات العرض"
+   ],
+   "category": "transverse",
+   "topics": [
+    "ai"
+   ],
+   "level": "frequent",
+   "related": [
+    "communication",
+    "data-storytelling",
+    "stakeholder-management"
+   ],
+   "jobs": [
+    "Data Scientist",
+    "AI Product Manager",
+    "Research Scientist"
+   ]
+  }
+ ]
+}

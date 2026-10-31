@@ -1,0 +1,3145 @@
+{
+ "sector": "Référencement naturel et payant (SEO / SEA)",
+ "key": "seo",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "google-analytics",
+   "label": {
+    "fr": "Google Analytics",
+    "en": "Google Analytics",
+    "ar": "Google Analytics",
+    "ru": "Google Analytics"
+   },
+   "patterns": [
+    "google analytics",
+    "ga4",
+    "analytics 4",
+    "googleanalytics",
+    "аналитика гугл"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "seo",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "google-tag-manager",
+    "google-looker-studio",
+    "google-search-console",
+    "cro"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Traffic Manager",
+    "Data Analyst Web"
+   ]
+  },
+  {
+   "id": "google-search-console",
+   "label": {
+    "fr": "Google Search Console",
+    "en": "Google Search Console",
+    "ar": "Google Search Console",
+    "ru": "Google Search Console"
+   },
+   "patterns": [
+    "google search console",
+    "search console",
+    "gsc",
+    "webmaster tools google",
+    "searchconsole"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "google-analytics",
+    "technical-seo",
+    "xml-sitemap",
+    "robots-txt"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable SEO",
+    "Traffic Manager"
+   ]
+  },
+  {
+   "id": "google-ads",
+   "label": {
+    "fr": "Google Ads",
+    "en": "Google Ads",
+    "ar": "Google Ads",
+    "ru": "Google Ads"
+   },
+   "patterns": [
+    "google ads",
+    "adwords",
+    "google advertising",
+    "гугл адс",
+    "googleads"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "seo"
+   ],
+   "level": "courant",
+   "related": [
+    "google-analytics",
+    "sea-bidding",
+    "google-merchant-center",
+    "google-tag-manager"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Consultant SEA",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "google-tag-manager",
+   "label": {
+    "fr": "Google Tag Manager",
+    "en": "Google Tag Manager",
+    "ar": "Google Tag Manager",
+    "ru": "Google Tag Manager"
+   },
+   "patterns": [
+    "google tag manager",
+    "tag manager",
+    "gtm"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "seo",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-analytics",
+    "google-ads",
+    "cro",
+    "microsoft-clarity"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Consultant SEO",
+    "Web Analyst"
+   ]
+  },
+  {
+   "id": "google-looker-studio",
+   "label": {
+    "fr": "Looker Studio",
+    "en": "Looker Studio",
+    "ar": "Looker Studio",
+    "ru": "Looker Studio"
+   },
+   "patterns": [
+    "looker studio",
+    "google data studio",
+    "data studio",
+    "lookerstudio"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-analytics",
+    "google-search-console",
+    "reporting",
+    "data-visualization"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Data Analyst Web",
+    "Traffic Manager"
+   ]
+  },
+  {
+   "id": "semrush",
+   "label": {
+    "fr": "Semrush",
+    "en": "Semrush",
+    "ar": "Semrush",
+    "ru": "Semrush"
+   },
+   "patterns": [
+    "semrush",
+    "sem rush",
+    "семраш",
+    "семраш"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "ahrefs",
+    "keyword-research",
+    "competitor-analysis",
+    "seo-audit"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable SEO",
+    "Chef de projet SEO"
+   ]
+  },
+  {
+   "id": "ahrefs",
+   "label": {
+    "fr": "Ahrefs",
+    "en": "Ahrefs",
+    "ar": "Ahrefs",
+    "ru": "Ahrefs"
+   },
+   "patterns": [
+    "ahrefs",
+    "a hrefs",
+    "ахрефс"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "semrush",
+    "link-building",
+    "majestic",
+    "seo-audit"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Link Builder",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "majestic",
+   "label": {
+    "fr": "Majestic SEO",
+    "en": "Majestic",
+    "ar": "Majestic",
+    "ru": "Majestic"
+   },
+   "patterns": [
+    "majestic",
+    "majestic seo",
+    "trust flow",
+    "citation flow",
+    "маджестик"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "ahrefs",
+    "link-building",
+    "off-page-seo",
+    "semrush"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Link Builder",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "screaming-frog",
+   "label": {
+    "fr": "Screaming Frog",
+    "en": "Screaming Frog",
+    "ar": "Screaming Frog",
+    "ru": "Screaming Frog"
+   },
+   "patterns": [
+    "screaming frog",
+    "screamingfrog",
+    "frog seo",
+    "скриминг фрог"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo"
+   ],
+   "level": "courant",
+   "related": [
+    "technical-seo",
+    "seo-audit",
+    "oncrawl",
+    "botify"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable SEO",
+    "Auditeur SEO"
+   ]
+  },
+  {
+   "id": "oncrawl",
+   "label": {
+    "fr": "OnCrawl",
+    "en": "OnCrawl",
+    "ar": "OnCrawl",
+    "ru": "OnCrawl"
+   },
+   "patterns": [
+    "oncrawl",
+    "on crawl",
+    "онкрол"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "botify",
+    "screaming-frog",
+    "technical-seo",
+    "log-analysis"
+   ],
+   "jobs": [
+    "Consultant SEO technique",
+    "Responsable SEO",
+    "Data Analyst SEO"
+   ]
+  },
+  {
+   "id": "botify",
+   "label": {
+    "fr": "Botify",
+    "en": "Botify",
+    "ar": "Botify",
+    "ru": "Botify"
+   },
+   "patterns": [
+    "botify",
+    "ботифай"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "oncrawl",
+    "screaming-frog",
+    "technical-seo",
+    "log-analysis"
+   ],
+   "jobs": [
+    "Consultant SEO technique",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "moz",
+   "label": {
+    "fr": "Moz",
+    "en": "Moz",
+    "ar": "Moz",
+    "ru": "Moz"
+   },
+   "patterns": [
+    "moz",
+    "moz pro",
+    "domain authority",
+    "da moz",
+    "моз"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "ahrefs",
+    "semrush",
+    "link-building",
+    "seo-audit"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "seobserver",
+   "label": {
+    "fr": "SEObserver",
+    "en": "SEObserver",
+    "ar": "SEObserver",
+    "ru": "SEObserver"
+   },
+   "patterns": [
+    "seobserver",
+    "seo observer",
+    "сеобсервер"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "se-ranking",
+    "semrush",
+    "keyword-research",
+    "competitor-analysis"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "se-ranking",
+   "label": {
+    "fr": "SE Ranking",
+    "en": "SE Ranking",
+    "ar": "SE Ranking",
+    "ru": "SE Ranking"
+   },
+   "patterns": [
+    "se ranking",
+    "seranking",
+    "se-ranking",
+    "се ранкинг"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "seobserver",
+    "semrush",
+    "keyword-research"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Chargé de référencement"
+   ]
+  },
+  {
+   "id": "similarweb",
+   "label": {
+    "fr": "SimilarWeb",
+    "en": "SimilarWeb",
+    "ar": "SimilarWeb",
+    "ru": "SimilarWeb"
+   },
+   "patterns": [
+    "similarweb",
+    "similar web",
+    "саймиларвеб"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "semrush",
+    "competitor-analysis",
+    "web-analytics"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Data Analyst",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "microsoft-clarity",
+   "label": {
+    "fr": "Microsoft Clarity",
+    "en": "Microsoft Clarity",
+    "ar": "Microsoft Clarity",
+    "ru": "Microsoft Clarity"
+   },
+   "patterns": [
+    "microsoft clarity",
+    "clarity",
+    "ms clarity",
+    "кларити"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "hotjar",
+    "cro",
+    "google-tag-manager",
+    "google-analytics"
+   ],
+   "jobs": [
+    "Consultant CRO",
+    "Traffic Manager",
+    "UX Analyst"
+   ]
+  },
+  {
+   "id": "hotjar",
+   "label": {
+    "fr": "Hotjar",
+    "en": "Hotjar",
+    "ar": "Hotjar",
+    "ru": "Hotjar"
+   },
+   "patterns": [
+    "hotjar",
+    "hot jar",
+    "хотжар"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "microsoft-clarity",
+    "cro",
+    "a-b-testing",
+    "google-analytics"
+   ],
+   "jobs": [
+    "Consultant CRO",
+    "Traffic Manager",
+    "Product Manager"
+   ]
+  },
+  {
+   "id": "google-merchant-center",
+   "label": {
+    "fr": "Google Merchant Center",
+    "en": "Google Merchant Center",
+    "ar": "Google Merchant Center",
+    "ru": "Google Merchant Center"
+   },
+   "patterns": [
+    "merchant center",
+    "google merchant",
+    "gmc",
+    "мерчант центр"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-ads",
+    "shopping-campaigns",
+    "google-ads",
+    "e-commerce-seo"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Consultant SEA",
+    "E-commerce Manager"
+   ]
+  },
+  {
+   "id": "microsoft-advertising",
+   "label": {
+    "fr": "Microsoft Advertising",
+    "en": "Microsoft Advertising",
+    "ar": "Microsoft Advertising",
+    "ru": "Microsoft Advertising"
+   },
+   "patterns": [
+    "microsoft advertising",
+    "bing ads",
+    "bing advertising",
+    "майкрософт адс"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-ads",
+    "sea-bidding",
+    "bing-webmaster-tools"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Consultant SEA"
+   ]
+  },
+  {
+   "id": "meta-ads",
+   "label": {
+    "fr": "Meta Ads",
+    "en": "Meta Ads",
+    "ar": "Meta Ads",
+    "ru": "Meta Ads"
+   },
+   "patterns": [
+    "meta ads",
+    "facebook ads",
+    "fb ads",
+    "instagram ads",
+    "мета адс"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "tiktok-ads",
+    "linkedin-ads",
+    "google-ads",
+    "remarketing"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Social Media Manager",
+    "Consultant acquisition"
+   ]
+  },
+  {
+   "id": "tiktok-ads",
+   "label": {
+    "fr": "TikTok Ads",
+    "en": "TikTok Ads",
+    "ar": "TikTok Ads",
+    "ru": "TikTok Ads"
+   },
+   "patterns": [
+    "tiktok ads",
+    "tik tok ads",
+    "tiktak ads",
+    "тикток адс"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "meta-ads",
+    "google-ads",
+    "remarketing"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Social Media Ads Manager"
+   ]
+  },
+  {
+   "id": "linkedin-ads",
+   "label": {
+    "fr": "LinkedIn Ads",
+    "en": "LinkedIn Ads",
+    "ar": "LinkedIn Ads",
+    "ru": "LinkedIn Ads"
+   },
+   "patterns": [
+    "linkedin ads",
+    "linkedin campaign manager",
+    "линкедин адс"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "meta-ads",
+    "google-ads",
+    "b2b-marketing"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Consultant acquisition B2B"
+   ]
+  },
+  {
+   "id": "google-keyword-planner",
+   "label": {
+    "fr": "Google Keyword Planner",
+    "en": "Google Keyword Planner",
+    "ar": "Google Keyword Planner",
+    "ru": "Google Keyword Planner"
+   },
+   "patterns": [
+    "keyword planner",
+    "google keyword planner",
+    "planificateur de mots cles",
+    "кейворд планер"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "keyword-research",
+    "semrush",
+    "google-ads",
+    "answerthepublic"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Consultant SEA",
+    "Traffic Manager"
+   ]
+  },
+  {
+   "id": "answerthepublic",
+   "label": {
+    "fr": "AnswerThePublic",
+    "en": "AnswerThePublic",
+    "ar": "AnswerThePublic",
+    "ru": "AnswerThePublic"
+   },
+   "patterns": [
+    "answerthepublic",
+    "answer the public",
+    "answertthepublic"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "keyword-research",
+    "content-strategy",
+    "search-intent",
+    "semrush"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Content Manager",
+    "Rédacteur web"
+   ]
+  },
+  {
+   "id": "google-trends",
+   "label": {
+    "fr": "Google Trends",
+    "en": "Google Trends",
+    "ar": "Google Trends",
+    "ru": "Google Trends"
+   },
+   "patterns": [
+    "google trends",
+    "trends google",
+    "гугл трендс"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "marketing",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "keyword-research",
+    "competitor-analysis",
+    "content-strategy"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Content Manager",
+    "Data Analyst"
+   ]
+  },
+  {
+   "id": "gtmetrix",
+   "label": {
+    "fr": "GTmetrix",
+    "en": "GTmetrix",
+    "ar": "GTmetrix",
+    "ru": "GTmetrix"
+   },
+   "patterns": [
+    "gtmetrix",
+    "gt metrix",
+    "жтметрикc"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-pagespeed-insights",
+    "core-web-vitals",
+    "technical-seo"
+   ],
+   "jobs": [
+    "Consultant SEO technique",
+    "Développeur web",
+    "Auditeur SEO"
+   ]
+  },
+  {
+   "id": "google-pagespeed-insights",
+   "label": {
+    "fr": "PageSpeed Insights",
+    "en": "PageSpeed Insights",
+    "ar": "PageSpeed Insights",
+    "ru": "PageSpeed Insights"
+   },
+   "patterns": [
+    "pagespeed insights",
+    "pagespeed",
+    "psi google",
+    "google pagespeed",
+    "пейджспид"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "core-web-vitals",
+    "gtmetrix",
+    "technical-seo",
+    "mobile-first"
+   ],
+   "jobs": [
+    "Consultant SEO technique",
+    "Développeur web",
+    "Auditeur SEO"
+   ]
+  },
+  {
+   "id": "yoast-seo",
+   "label": {
+    "fr": "Yoast SEO",
+    "en": "Yoast SEO",
+    "ar": "Yoast SEO",
+    "ru": "Yoast SEO"
+   },
+   "patterns": [
+    "yoast",
+    "yoast seo",
+    "йост"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "rank-math",
+    "wordpress",
+    "on-page-seo"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Rédacteur web",
+    "Webmaster"
+   ]
+  },
+  {
+   "id": "rank-math",
+   "label": {
+    "fr": "Rank Math",
+    "en": "Rank Math",
+    "ar": "Rank Math",
+    "ru": "Rank Math"
+   },
+   "patterns": [
+    "rank math",
+    "rankmath",
+    "ранк мас"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "yoast-seo",
+    "wordpress",
+    "on-page-seo",
+    "schema-markup"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Webmaster",
+    "Rédacteur web"
+   ]
+  },
+  {
+   "id": "wordpress",
+   "label": {
+    "fr": "WordPress",
+    "en": "WordPress",
+    "ar": "WordPress",
+    "ru": "WordPress"
+   },
+   "patterns": [
+    "wordpress",
+    "wp",
+    "вордпресс"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "seo"
+   ],
+   "level": "courant",
+   "related": [
+    "yoast-seo",
+    "rank-math",
+    "shopify",
+    "on-page-seo"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Webmaster",
+    "Chef de projet web"
+   ]
+  },
+  {
+   "id": "shopify",
+   "label": {
+    "fr": "Shopify",
+    "en": "Shopify",
+    "ar": "Shopify",
+    "ru": "Shopify"
+   },
+   "patterns": [
+    "shopify",
+    "шопафи",
+    "shopifly"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "e-commerce-seo",
+    "magento",
+    "prestashop",
+    "google-merchant-center"
+   ],
+   "jobs": [
+    "Consultant SEO e-commerce",
+    "E-commerce Manager"
+   ]
+  },
+  {
+   "id": "prestashop",
+   "label": {
+    "fr": "PrestaShop",
+    "en": "PrestaShop",
+    "ar": "PrestaShop",
+    "ru": "PrestaShop"
+   },
+   "patterns": [
+    "prestashop",
+    "престашоп"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "e-commerce-seo",
+    "shopify",
+    "magento"
+   ],
+   "jobs": [
+    "Consultant SEO e-commerce",
+    "E-commerce Manager"
+   ]
+  },
+  {
+   "id": "magento",
+   "label": {
+    "fr": "Magento",
+    "en": "Magento",
+    "ar": "Magento",
+    "ru": "Magento"
+   },
+   "patterns": [
+    "magento",
+    "adobe commerce",
+    "мадженто"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "e-commerce-seo",
+    "shopify",
+    "prestashop"
+   ],
+   "jobs": [
+    "Consultant SEO e-commerce",
+    "Chef de projet e-commerce"
+   ]
+  },
+  {
+   "id": "google-my-business",
+   "label": {
+    "fr": "Google Business Profile",
+    "en": "Google Business Profile",
+    "ar": "Google Business Profile",
+    "ru": "Google Business Profile"
+   },
+   "patterns": [
+    "google business profile",
+    "google my business",
+    "gmb",
+    "gbp",
+    "google fiche etablissement"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "local-seo",
+    "google-search-console",
+    "google-ads"
+   ],
+   "jobs": [
+    "Consultant SEO local",
+    "Community Manager",
+    "Chargé de marketing digital"
+   ]
+  },
+  {
+   "id": "bing-webmaster-tools",
+   "label": {
+    "fr": "Bing Webmaster Tools",
+    "en": "Bing Webmaster Tools",
+    "ar": "Bing Webmaster Tools",
+    "ru": "Bing Webmaster Tools"
+   },
+   "patterns": [
+    "bing webmaster",
+    "bing webmaster tools",
+    "bwt"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-search-console",
+    "microsoft-advertising",
+    "technical-seo"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "keyword-research",
+   "label": {
+    "fr": "Recherche de mots-clés",
+    "en": "Keyword research",
+    "ar": "بحث الكلمات المفتاحية",
+    "ru": "Подбор ключевых слов"
+   },
+   "patterns": [
+    "keyword research",
+    "recherche de mots cles",
+    "recherche mots cles",
+    "подбор ключевых",
+    "keyword analysis",
+    "تحليل الكلمات المفتاحية",
+    "semantic core"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "semrush",
+    "ahrefs",
+    "search-intent",
+    "content-strategy",
+    "google-keyword-planner"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable SEO",
+    "Content Manager"
+   ]
+  },
+  {
+   "id": "seo-audit",
+   "label": {
+    "fr": "Audit SEO",
+    "en": "SEO audit",
+    "ar": "تدقيق السيو",
+    "ru": "SEO аудит"
+   },
+   "patterns": [
+    "seo audit",
+    "audit seo",
+    "audit de referencement",
+    "seo анализ",
+    "аудит сайта",
+    "technical audit"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo"
+   ],
+   "level": "courant",
+   "related": [
+    "technical-seo",
+    "screaming-frog",
+    "on-page-seo",
+    "competitor-analysis"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Auditeur SEO",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "technical-seo",
+   "label": {
+    "fr": "SEO technique",
+    "en": "Technical SEO",
+    "ar": "السيو التقني",
+    "ru": "Технический SEO"
+   },
+   "patterns": [
+    "technical seo",
+    "seo technique",
+    "seo technique",
+    "технический seo",
+    "tech seo"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "seo-audit",
+    "screaming-frog",
+    "core-web-vitals",
+    "xml-sitemap",
+    "robots-txt"
+   ],
+   "jobs": [
+    "Consultant SEO technique",
+    "Responsable SEO",
+    "Développeur SEO"
+   ]
+  },
+  {
+   "id": "on-page-seo",
+   "label": {
+    "fr": "SEO on-page",
+    "en": "On-page SEO",
+    "ar": "السيو الداخلي",
+    "ru": "Внутренний SEO"
+   },
+   "patterns": [
+    "on page seo",
+    "onpage seo",
+    "seo on page",
+    "seo interne",
+    "внутренняя оптимизация",
+    "on-site seo"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo"
+   ],
+   "level": "courant",
+   "related": [
+    "off-page-seo",
+    "technical-seo",
+    "schema-markup",
+    "content-strategy"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Rédacteur web",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "off-page-seo",
+   "label": {
+    "fr": "SEO off-page",
+    "en": "Off-page SEO",
+    "ar": "السيو الخارجي",
+    "ru": "Внешний SEO"
+   },
+   "patterns": [
+    "off page seo",
+    "offpage seo",
+    "seo off page",
+    "seo externe",
+    "внешняя оптимизация",
+    "off-site seo"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo"
+   ],
+   "level": "courant",
+   "related": [
+    "link-building",
+    "on-page-seo",
+    "netlinking",
+    "digital-pr"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Link Builder",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "link-building",
+   "label": {
+    "fr": "Netlinking",
+    "en": "Link building",
+    "ar": "بناء الروابط",
+    "ru": "Линкбилдинг"
+   },
+   "patterns": [
+    "link building",
+    "linkbuilding",
+    "netlinking",
+    "acquisition de liens",
+    "линкбилдинг",
+    "построение ссылок",
+    "backlinks strategy",
+    "بناء الروابط الخلفية"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo"
+   ],
+   "level": "courant",
+   "related": [
+    "off-page-seo",
+    "ahrefs",
+    "majestic",
+    "digital-pr"
+   ],
+   "jobs": [
+    "Link Builder",
+    "Consultant SEO",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "content-strategy",
+   "label": {
+    "fr": "Stratégie de contenu",
+    "en": "Content strategy",
+    "ar": "استراتيجية المحتوى",
+    "ru": "Контент-стратегия"
+   },
+   "patterns": [
+    "content strategy",
+    "strategie de contenu",
+    "strategie contenu",
+    "контент стратегия",
+    "استراتيجية المحتوى"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "seo"
+   ],
+   "level": "courant",
+   "related": [
+    "redaction-web",
+    "semantic-cocoon",
+    "topical-authority",
+    "keyword-research"
+   ],
+   "jobs": [
+    "Content Manager",
+    "Consultant SEO",
+    "Chef de projet éditorial"
+   ]
+  },
+  {
+   "id": "semantic-cocoon",
+   "label": {
+    "fr": "Cocon sémantique",
+    "en": "Semantic cocoon",
+    "ar": "شبكة دلالية",
+    "ru": "Семантическое гнездо"
+   },
+   "patterns": [
+    "cocon semantique",
+    "semantic cocoon",
+    "topic cluster",
+    "semantic silo",
+    "семантический кокон",
+    "кластеризация"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "topical-authority",
+    "content-strategy",
+    "internal-linking",
+    "keyword-research"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Content Manager",
+    "Architecte de l'information"
+   ]
+  },
+  {
+   "id": "topical-authority",
+   "label": {
+    "fr": "Autorité thématique",
+    "en": "Topical authority",
+    "ar": "السلطة المواضيعية",
+    "ru": "Тематический авторитет"
+   },
+   "patterns": [
+    "topical authority",
+    "autorite thematique",
+    "autorite semantique",
+    "тематический авторитет"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "semantic-cocoon",
+    "content-strategy",
+    "link-building",
+    "on-page-seo"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Content Manager",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "local-seo",
+   "label": {
+    "fr": "SEO local",
+    "en": "Local SEO",
+    "ar": "السيو المحلي",
+    "ru": "Локальный SEO"
+   },
+   "patterns": [
+    "local seo",
+    "seo local",
+    "referencement local",
+    "локальный seo",
+    "местный seo",
+    "السيو المحلي"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-my-business",
+    "international-seo",
+    "google-ads"
+   ],
+   "jobs": [
+    "Consultant SEO local",
+    "Chargé de marketing digital"
+   ]
+  },
+  {
+   "id": "international-seo",
+   "label": {
+    "fr": "SEO international",
+    "en": "International SEO",
+    "ar": "السيو الدولي",
+    "ru": "Международный SEO"
+   },
+   "patterns": [
+    "international seo",
+    "seo international",
+    "hreflang strategy",
+    "международный seo",
+    "السيو الدولي"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "hreflang",
+    "local-seo",
+    "technical-seo"
+   ],
+   "jobs": [
+    "Consultant SEO international",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "e-commerce-seo",
+   "label": {
+    "fr": "SEO e-commerce",
+    "en": "E-commerce SEO",
+    "ar": "سيو التجارة الإلكترونية",
+    "ru": "SEO для интернет-магазинов"
+   },
+   "patterns": [
+    "ecommerce seo",
+    "e-commerce seo",
+    "seo ecommerce",
+    "seo e commerce",
+    "seo для интернет магазина",
+    "سيو المتاجر"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "shopify",
+    "prestashop",
+    "magento",
+    "shopping-campaigns"
+   ],
+   "jobs": [
+    "Consultant SEO e-commerce",
+    "E-commerce Manager"
+   ]
+  },
+  {
+   "id": "sea-bidding",
+   "label": {
+    "fr": "Enchères SEA",
+    "en": "SEA bidding",
+    "ar": "مزادات SEA",
+    "ru": "Ставки в контекстной рекламе"
+   },
+   "patterns": [
+    "sea bidding",
+    "bid management",
+    "gestion des encheres",
+    "bid strategy",
+    "управление ставками",
+    "bidding"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "seo"
+   ],
+   "level": "courant",
+   "related": [
+    "google-ads",
+    "microsoft-advertising",
+    "roi-analysis",
+    "remarketing"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Consultant SEA",
+    "Media Buyer"
+   ]
+  },
+  {
+   "id": "remarketing",
+   "label": {
+    "fr": "Remarketing",
+    "en": "Remarketing",
+    "ar": "إعادة الاستهداف",
+    "ru": "Ремаркетинг"
+   },
+   "patterns": [
+    "remarketing",
+    "retargeting",
+    "re ciblage",
+    "ретаргетинг",
+    "ремаркетинг",
+    "اعادة الاستهداف"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-ads",
+    "meta-ads",
+    "display-advertising",
+    "sea-bidding"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Consultant SEA",
+    "Media Buyer"
+   ]
+  },
+  {
+   "id": "display-advertising",
+   "label": {
+    "fr": "Publicité display",
+    "en": "Display advertising",
+    "ar": "الإعلانات الصورية",
+    "ru": "Медийная реклама"
+   },
+   "patterns": [
+    "display advertising",
+    "display ads",
+    "publicite display",
+    "banniere publicitaire",
+    "медийная реклама",
+    "баннерная реклама"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-ads",
+    "remarketing",
+    "meta-ads",
+    "programmatic"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Media Planner",
+    "Consultant SEA"
+   ]
+  },
+  {
+   "id": "shopping-campaigns",
+   "label": {
+    "fr": "Campagnes Shopping",
+    "en": "Shopping campaigns",
+    "ar": "حملات التسوق",
+    "ru": "Торговые кампании"
+   },
+   "patterns": [
+    "shopping campaigns",
+    "google shopping",
+    "campagnes shopping",
+    "товарные кампании",
+    "google merchant ads"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-merchant-center",
+    "google-ads",
+    "e-commerce-seo"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Consultant SEA",
+    "E-commerce Manager"
+   ]
+  },
+  {
+   "id": "a-b-testing",
+   "label": {
+    "fr": "A/B testing",
+    "en": "A/B testing",
+    "ar": "اختبار A/B",
+    "ru": "A/B тестирование"
+   },
+   "patterns": [
+    "a/b testing",
+    "ab testing",
+    "ab test",
+    "a b testing",
+    "split testing",
+    "а/б тестирование"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "cro",
+    "hotjar",
+    "google-optimize",
+    "landing-page"
+   ],
+   "jobs": [
+    "Consultant CRO",
+    "Growth Hacker",
+    "Traffic Manager"
+   ]
+  },
+  {
+   "id": "cro",
+   "label": {
+    "fr": "Optimisation du taux de conversion",
+    "en": "Conversion Rate Optimization",
+    "ar": "تحسين معدل التحويل",
+    "ru": "Оптимизация конверсии"
+   },
+   "patterns": [
+    "cro",
+    "conversion rate optimization",
+    "optimisation taux conversion",
+    "optimisation de la conversion",
+    "оптимизация конверсии"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "a-b-testing",
+    "hotjar",
+    "microsoft-clarity",
+    "landing-page"
+   ],
+   "jobs": [
+    "Consultant CRO",
+    "Growth Hacker",
+    "Traffic Manager"
+   ]
+  },
+  {
+   "id": "competitor-analysis",
+   "label": {
+    "fr": "Analyse concurrentielle",
+    "en": "Competitor analysis",
+    "ar": "تحليل المنافسين",
+    "ru": "Анализ конкурентов"
+   },
+   "patterns": [
+    "competitor analysis",
+    "analyse concurrentielle",
+    "benchmark concurrentiel",
+    "competitive analysis",
+    "анализ конкурентов",
+    "تحليل المنافسين"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "seo"
+   ],
+   "level": "courant",
+   "related": [
+    "semrush",
+    "similarweb",
+    "ahrefs",
+    "seo-audit"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Chef de projet digital",
+    "Analyste marketing"
+   ]
+  },
+  {
+   "id": "search-intent",
+   "label": {
+    "fr": "Intention de recherche",
+    "en": "Search intent",
+    "ar": "نية البحث",
+    "ru": "Интент поиска"
+   },
+   "patterns": [
+    "search intent",
+    "intention de recherche",
+    "user intent",
+    "query intent",
+    "интент поиска",
+    "نية البحث"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "keyword-research",
+    "on-page-seo",
+    "content-strategy"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Content Manager",
+    "Rédacteur web"
+   ]
+  },
+  {
+   "id": "schema-markup",
+   "label": {
+    "fr": "Balisage Schema.org",
+    "en": "Schema markup",
+    "ar": "ترميز Schema",
+    "ru": "Разметка Schema"
+   },
+   "patterns": [
+    "schema markup",
+    "schema.org",
+    "structured data",
+    "donnees structurees",
+    "données structurées",
+    "структурированные данные",
+    "json-ld"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "on-page-seo",
+    "technical-seo",
+    "featured-snippets",
+    "rich-snippets"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Développeur web",
+    "Consultant SEO technique"
+   ]
+  },
+  {
+   "id": "hreflang",
+   "label": {
+    "fr": "Balise hreflang",
+    "en": "Hreflang tag",
+    "ar": "وسم hreflang",
+    "ru": "Тег hreflang"
+   },
+   "patterns": [
+    "hreflang",
+    "hreflang tag",
+    "hreflang attribute",
+    "хрефланг"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "international-seo",
+    "canonical",
+    "technical-seo"
+   ],
+   "jobs": [
+    "Consultant SEO technique",
+    "Consultant SEO international"
+   ]
+  },
+  {
+   "id": "canonical",
+   "label": {
+    "fr": "Balise canonical",
+    "en": "Canonical tag",
+    "ar": "وسم canonical",
+    "ru": "Тег canonical"
+   },
+   "patterns": [
+    "canonical",
+    "canonical tag",
+    "rel canonical",
+    "url canonique",
+    "канонический тег"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "hreflang",
+    "technical-seo",
+    "duplicate-content"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Consultant SEO technique",
+    "Développeur web"
+   ]
+  },
+  {
+   "id": "robots-txt",
+   "label": {
+    "fr": "Fichier robots.txt",
+    "en": "Robots.txt",
+    "ar": "ملف robots.txt",
+    "ru": "Файл robots.txt"
+   },
+   "patterns": [
+    "robots.txt",
+    "robots txt",
+    "robots file",
+    "файл robots"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "xml-sitemap",
+    "technical-seo",
+    "google-search-console"
+   ],
+   "jobs": [
+    "Consultant SEO technique",
+    "Développeur web",
+    "Webmaster"
+   ]
+  },
+  {
+   "id": "xml-sitemap",
+   "label": {
+    "fr": "Sitemap XML",
+    "en": "XML sitemap",
+    "ar": "خريطة موقع XML",
+    "ru": "Карта сайта XML"
+   },
+   "patterns": [
+    "xml sitemap",
+    "sitemap.xml",
+    "sitemap xml",
+    "plan de site",
+    "карта сайта"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "robots-txt",
+    "technical-seo",
+    "google-search-console"
+   ],
+   "jobs": [
+    "Consultant SEO technique",
+    "Webmaster",
+    "Développeur web"
+   ]
+  },
+  {
+   "id": "core-web-vitals",
+   "label": {
+    "fr": "Core Web Vitals",
+    "en": "Core Web Vitals",
+    "ar": "Core Web Vitals",
+    "ru": "Core Web Vitals"
+   },
+   "patterns": [
+    "core web vitals",
+    "cwv",
+    "lcp",
+    "fid",
+    "cls",
+    "inp",
+    "кор веб виталс"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "google-pagespeed-insights",
+    "gtmetrix",
+    "technical-seo",
+    "mobile-first"
+   ],
+   "jobs": [
+    "Consultant SEO technique",
+    "Développeur web",
+    "Auditeur SEO"
+   ]
+  },
+  {
+   "id": "mobile-first",
+   "label": {
+    "fr": "Mobile first indexing",
+    "en": "Mobile-first indexing",
+    "ar": "فهرسة الجوال أولاً",
+    "ru": "Mobile-first индексация"
+   },
+   "patterns": [
+    "mobile first",
+    "mobile-first",
+    "mobile first indexing",
+    "индексация mobile first",
+    "responsive seo"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "core-web-vitals",
+    "technical-seo",
+    "google-pagespeed-insights"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Consultant SEO technique",
+    "Développeur web"
+   ]
+  },
+  {
+   "id": "voice-search",
+   "label": {
+    "fr": "Recherche vocale",
+    "en": "Voice search",
+    "ar": "البحث الصوتي",
+    "ru": "Голосовой поиск"
+   },
+   "patterns": [
+    "voice search",
+    "recherche vocale",
+    "voice seo",
+    "голосовой поиск",
+    "البحث الصوتي"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "specialise",
+   "related": [
+    "featured-snippets",
+    "search-intent",
+    "local-seo"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Content Manager"
+   ]
+  },
+  {
+   "id": "featured-snippets",
+   "label": {
+    "fr": "Featured snippets",
+    "en": "Featured snippets",
+    "ar": "المقتطفات المميزة",
+    "ru": "Расширенные сниппеты"
+   },
+   "patterns": [
+    "featured snippets",
+    "position zero",
+    "featured snippet",
+    "расширенные сниппеты",
+    "нулевая позиция"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "schema-markup",
+    "on-page-seo",
+    "search-intent",
+    "voice-search"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Content Manager",
+    "Rédacteur web"
+   ]
+  },
+  {
+   "id": "log-analysis",
+   "label": {
+    "fr": "Analyse de logs",
+    "en": "Log analysis",
+    "ar": "تحليل السجلات",
+    "ru": "Анализ логов"
+   },
+   "patterns": [
+    "log analysis",
+    "analyse de logs",
+    "log seo",
+    "server logs",
+    "анализ логов",
+    "seo logs"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "oncrawl",
+    "botify",
+    "technical-seo",
+    "screaming-frog"
+   ],
+   "jobs": [
+    "Consultant SEO technique",
+    "Data Analyst SEO"
+   ]
+  },
+  {
+   "id": "web-analytics",
+   "label": {
+    "fr": "Web analytique",
+    "en": "Web analytics",
+    "ar": "تحليلات الويب",
+    "ru": "Веб-аналитика"
+   },
+   "patterns": [
+    "web analytics",
+    "web analytique",
+    "website analytics",
+    "веб аналитика",
+    "تحليلات الويب"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "google-analytics",
+    "data-analysis",
+    "reporting",
+    "kpi-definition"
+   ],
+   "jobs": [
+    "Web Analyst",
+    "Data Analyst Web",
+    "Traffic Manager"
+   ]
+  },
+  {
+   "id": "data-visualization",
+   "label": {
+    "fr": "Visualisation de données",
+    "en": "Data visualization",
+    "ar": "تصور البيانات",
+    "ru": "Визуализация данных"
+   },
+   "patterns": [
+    "data visualization",
+    "data viz",
+    "dataviz",
+    "visualisation de donnees",
+    "визуализация данных"
+   ],
+   "category": "methode",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-looker-studio",
+    "web-analytics",
+    "reporting",
+    "tableau"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Web Analyst",
+    "Consultant SEO"
+   ]
+  },
+  {
+   "id": "google-ads-certification",
+   "label": {
+    "fr": "Certification Google Ads",
+    "en": "Google Ads certification",
+    "ar": "شهادة Google Ads",
+    "ru": "Сертификация Google Ads"
+   },
+   "patterns": [
+    "google ads certification",
+    "certification google ads",
+    "google ads certified",
+    "google partner",
+    "сертификация google ads"
+   ],
+   "category": "norme",
+   "topics": [
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "google-ads",
+    "sea-bidding",
+    "google-analytics-certification"
+   ],
+   "jobs": [
+    "Consultant SEA",
+    "Traffic Manager",
+    "Media Buyer"
+   ]
+  },
+  {
+   "id": "google-analytics-certification",
+   "label": {
+    "fr": "Certification Google Analytics",
+    "en": "Google Analytics certification",
+    "ar": "شهادة Google Analytics",
+    "ru": "Сертификация Google Analytics"
+   },
+   "patterns": [
+    "google analytics certification",
+    "ga4 certification",
+    "certification ga4",
+    "сертификация аналитики"
+   ],
+   "category": "norme",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-analytics",
+    "google-ads-certification",
+    "web-analytics"
+   ],
+   "jobs": [
+    "Web Analyst",
+    "Data Analyst Web",
+    "Consultant SEO"
+   ]
+  },
+  {
+   "id": "rgpd",
+   "label": {
+    "fr": "RGPD",
+    "en": "GDPR",
+    "ar": "GDPR",
+    "ru": "GDPR"
+   },
+   "patterns": [
+    "rgpd",
+    "gdpr",
+    "reglement general protection donnees",
+    "general data protection",
+    "дсгво"
+   ],
+   "category": "norme",
+   "topics": [
+    "marketing",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "consent-mode",
+    "google-tag-manager",
+    "cookie-management"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Consultant SEO",
+    "DPO"
+   ]
+  },
+  {
+   "id": "consent-mode",
+   "label": {
+    "fr": "Consent Mode",
+    "en": "Consent Mode",
+    "ar": "Consent Mode",
+    "ru": "Consent Mode"
+   },
+   "patterns": [
+    "consent mode",
+    "consent mode v2",
+    "google consent",
+    "cookie consent",
+    "режим согласия"
+   ],
+   "category": "norme",
+   "topics": [
+    "marketing",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "rgpd",
+    "google-tag-manager",
+    "google-analytics",
+    "cmp"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Consultant SEO",
+    "Web Analyst"
+   ]
+  },
+  {
+   "id": "redaction-web",
+   "label": {
+    "fr": "Rédaction web",
+    "en": "Web writing",
+    "ar": "الكتابة للويب",
+    "ru": "Копирайтинг"
+   },
+   "patterns": [
+    "redaction web",
+    "web writing",
+    "redaction seo",
+    "seo writing",
+    "seo copywriting",
+    "копирайтинг",
+    "написание текстов",
+    "كتابة المحتوى"
+   ],
+   "category": "metier",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "copywriting",
+    "content-strategy",
+    "on-page-seo",
+    "search-intent"
+   ],
+   "jobs": [
+    "Rédacteur web",
+    "Content Manager",
+    "Consultant SEO"
+   ]
+  },
+  {
+   "id": "copywriting",
+   "label": {
+    "fr": "Copywriting",
+    "en": "Copywriting",
+    "ar": "كتابة الإعلانات",
+    "ru": "Копирайтинг"
+   },
+   "patterns": [
+    "copywriting",
+    "copy writer",
+    "redaction publicitaire",
+    "ad copy",
+    "копирайтинг",
+    "كتابة الاعلانات"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "redaction-web",
+    "sea-bidding",
+    "cro",
+    "landing-page"
+   ],
+   "jobs": [
+    "Copywriter",
+    "Traffic Manager",
+    "Content Manager"
+   ]
+  },
+  {
+   "id": "html-css",
+   "label": {
+    "fr": "HTML / CSS",
+    "en": "HTML / CSS",
+    "ar": "HTML / CSS",
+    "ru": "HTML / CSS"
+   },
+   "patterns": [
+    "html",
+    "css",
+    "html css",
+    "html5",
+    "css3",
+    "хтмл",
+    "цсс"
+   ],
+   "category": "metier",
+   "topics": [
+    "web",
+    "seo"
+   ],
+   "level": "courant",
+   "related": [
+    "technical-seo",
+    "javascript-seo",
+    "on-page-seo"
+   ],
+   "jobs": [
+    "Consultant SEO technique",
+    "Développeur web",
+    "Intégrateur web"
+   ]
+  },
+  {
+   "id": "javascript-seo",
+   "label": {
+    "fr": "JavaScript SEO",
+    "en": "JavaScript SEO",
+    "ar": "JavaScript SEO",
+    "ru": "JavaScript SEO"
+   },
+   "patterns": [
+    "javascript seo",
+    "js seo",
+    "js rendering",
+    "rendering seo",
+    "javascript rendering",
+    "джаваскрипт seo"
+   ],
+   "category": "metier",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "specialise",
+   "related": [
+    "technical-seo",
+    "html-css",
+    "screaming-frog"
+   ],
+   "jobs": [
+    "Consultant SEO technique",
+    "Développeur SEO"
+   ]
+  },
+  {
+   "id": "python-seo",
+   "label": {
+    "fr": "Python pour le SEO",
+    "en": "Python for SEO",
+    "ar": "Python للسيو",
+    "ru": "Python для SEO"
+   },
+   "patterns": [
+    "python seo",
+    "python for seo",
+    "python automation",
+    "питон seo",
+    "python scraping"
+   ],
+   "category": "metier",
+   "topics": [
+    "seo",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "data-analysis",
+    "sql",
+    "log-analysis",
+    "technical-seo"
+   ],
+   "jobs": [
+    "Data Analyst SEO",
+    "Consultant SEO technique"
+   ]
+  },
+  {
+   "id": "data-analysis",
+   "label": {
+    "fr": "Analyse de données",
+    "en": "Data analysis",
+    "ar": "تحليل البيانات",
+    "ru": "Анализ данных"
+   },
+   "patterns": [
+    "data analysis",
+    "analyse de donnees",
+    "analyse de données",
+    "data analytics",
+    "анализ данных",
+    "تحليل البيانات"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "web-analytics",
+    "sql",
+    "excel-google-sheets",
+    "google-looker-studio"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Web Analyst",
+    "Consultant SEO"
+   ]
+  },
+  {
+   "id": "sql",
+   "label": {
+    "fr": "SQL",
+    "en": "SQL",
+    "ar": "SQL",
+    "ru": "SQL"
+   },
+   "patterns": [
+    "sql",
+    "mysql",
+    "postgresql",
+    "bigquery",
+    "скюэль"
+   ],
+   "category": "metier",
+   "topics": [
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "data-analysis",
+    "python-seo",
+    "google-bigquery"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Data Analyst SEO",
+    "Web Analyst"
+   ]
+  },
+  {
+   "id": "regex",
+   "label": {
+    "fr": "Expressions régulières",
+    "en": "Regular expressions",
+    "ar": "التعابير النمطية",
+    "ru": "Регулярные выражения"
+   },
+   "patterns": [
+    "regex",
+    "regular expressions",
+    "regexp",
+    "expressions regulieres",
+    "регулярные выражения"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "google-analytics",
+    "screaming-frog",
+    "log-analysis",
+    "google-tag-manager"
+   ],
+   "jobs": [
+    "Web Analyst",
+    "Consultant SEO technique",
+    "Data Analyst"
+   ]
+  },
+  {
+   "id": "excel-google-sheets",
+   "label": {
+    "fr": "Excel / Google Sheets",
+    "en": "Excel / Google Sheets",
+    "ar": "Excel / Google Sheets",
+    "ru": "Excel / Google Sheets"
+   },
+   "patterns": [
+    "excel",
+    "google sheets",
+    "spreadsheet",
+    "tableur",
+    "гугл таблицы",
+    "эксель"
+   ],
+   "category": "outil",
+   "topics": [
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "data-analysis",
+    "google-looker-studio",
+    "reporting"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Traffic Manager",
+    "Data Analyst"
+   ]
+  },
+  {
+   "id": "api-integration",
+   "label": {
+    "fr": "Intégration d'API",
+    "en": "API integration",
+    "ar": "تكامل API",
+    "ru": "Интеграция API"
+   },
+   "patterns": [
+    "api",
+    "rest api",
+    "api integration",
+    "google ads api",
+    "интеграция api"
+   ],
+   "category": "metier",
+   "topics": [
+    "web",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "python-seo",
+    "google-ads",
+    "data-analysis"
+   ],
+   "jobs": [
+    "Développeur SEO",
+    "Data Analyst SEO"
+   ]
+  },
+  {
+   "id": "reporting",
+   "label": {
+    "fr": "Reporting SEO / SEA",
+    "en": "SEO / SEA reporting",
+    "ar": "تقارير السيو",
+    "ru": "Отчетность SEO / SEA"
+   },
+   "patterns": [
+    "reporting",
+    "seo reporting",
+    "sea reporting",
+    "tableau de bord seo",
+    "отчетность seo",
+    "تقارير الأداء"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "google-looker-studio",
+    "web-analytics",
+    "kpi-definition",
+    "google-analytics"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Traffic Manager",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "kpi-definition",
+   "label": {
+    "fr": "Définition de KPI",
+    "en": "KPI definition",
+    "ar": "تحديد مؤشرات الأداء",
+    "ru": "Определение KPI"
+   },
+   "patterns": [
+    "kpi",
+    "kpi definition",
+    "indicateurs de performance",
+    "key performance indicators",
+    "определение kpi",
+    "مؤشرات الأداء"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "reporting",
+    "web-analytics",
+    "roi-analysis",
+    "strategie-digitale"
+   ],
+   "jobs": [
+    "Responsable SEO",
+    "Traffic Manager",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "roi-analysis",
+   "label": {
+    "fr": "Analyse ROI",
+    "en": "ROI analysis",
+    "ar": "تحليل العائد على الاستثمار",
+    "ru": "Анализ ROI"
+   },
+   "patterns": [
+    "roi",
+    "roas",
+    "return on investment",
+    "retour sur investissement",
+    "анализ roi",
+    "roas analysis",
+    "العائد على الاستثمار"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "sea-bidding",
+    "google-ads",
+    "kpi-definition",
+    "web-analytics"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Consultant SEA",
+    "Responsable acquisition"
+   ]
+  },
+  {
+   "id": "veille-concurrentielle",
+   "label": {
+    "fr": "Veille SEO",
+    "en": "SEO monitoring",
+    "ar": "مراقبة السيو",
+    "ru": "SEO мониторинг"
+   },
+   "patterns": [
+    "veille seo",
+    "veille technologique",
+    "seo monitoring",
+    "competitive monitoring",
+    "seo veille",
+    "мониторинг seo"
+   ],
+   "category": "metier",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "competitor-analysis",
+    "semrush",
+    "similarweb",
+    "google-alerts"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable SEO",
+    "Veilleur stratégique"
+   ]
+  },
+  {
+   "id": "strategie-digitale",
+   "label": {
+    "fr": "Stratégie digitale",
+    "en": "Digital strategy",
+    "ar": "الاستراتيجية الرقمية",
+    "ru": "Цифровая стратегия"
+   },
+   "patterns": [
+    "strategie digitale",
+    "digital strategy",
+    "strategie web",
+    "strategie d'acquisition",
+    "цифровая стратегия",
+    "الاستراتيجية الرقمية"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "content-strategy",
+    "seo-audit",
+    "kpi-definition",
+    "competitor-analysis"
+   ],
+   "jobs": [
+    "Responsable SEO",
+    "Directeur digital",
+    "Chef de projet digital"
+   ]
+  },
+  {
+   "id": "gestion-de-projet",
+   "label": {
+    "fr": "Gestion de projet",
+    "en": "Project management",
+    "ar": "إدارة المشاريع",
+    "ru": "Управление проектами"
+   },
+   "patterns": [
+    "gestion de projet",
+    "project management",
+    "gestion projet seo",
+    "управление проектами",
+    "ادارة المشاريع"
+   ],
+   "category": "transverse",
+   "topics": [
+    "project",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "strategie-digitale",
+    "reporting",
+    "kpi-definition"
+   ],
+   "jobs": [
+    "Chef de projet SEO",
+    "Responsable SEO",
+    "Consultant SEO"
+   ]
+  },
+  {
+   "id": "landing-page",
+   "label": {
+    "fr": "Landing page",
+    "en": "Landing page",
+    "ar": "صفحة الهبوط",
+    "ru": "Лендинг"
+   },
+   "patterns": [
+    "landing page",
+    "page d'atterrissage",
+    "lp",
+    "лендинг",
+    "посадочная страница",
+    "صفحة الهبوط"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "cro",
+    "a-b-testing",
+    "sea-bidding",
+    "copywriting"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Consultant SEA",
+    "Growth Hacker"
+   ]
+  },
+  {
+   "id": "google-alerts",
+   "label": {
+    "fr": "Google Alerts",
+    "en": "Google Alerts",
+    "ar": "Google Alerts",
+    "ru": "Google Alerts"
+   },
+   "patterns": [
+    "google alerts",
+    "alerts google",
+    "гугл алертс"
+   ],
+   "category": "outil",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "veille-concurrentielle",
+    "digital-pr",
+    "link-building"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Link Builder",
+    "Chargé de RP"
+   ]
+  },
+  {
+   "id": "digital-pr",
+   "label": {
+    "fr": "Digital PR",
+    "en": "Digital PR",
+    "ar": "العلاقات العامة الرقمية",
+    "ru": "Digital PR"
+   },
+   "patterns": [
+    "digital pr",
+    "e-pr",
+    "rp digital",
+    "relations presse digitales",
+    "цировые pr",
+    "digital pr seo"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "link-building",
+    "off-page-seo",
+    "google-alerts"
+   ],
+   "jobs": [
+    "Link Builder",
+    "Consultant SEO",
+    "Chargé de RP digital"
+   ]
+  },
+  {
+   "id": "programmatic",
+   "label": {
+    "fr": "Programmatique",
+    "en": "Programmatic advertising",
+    "ar": "الإعلانات البرنامجية",
+    "ru": "Программатик"
+   },
+   "patterns": [
+    "programmatic",
+    "programmatique",
+    "programmatic buying",
+    "dsp",
+    "программатик"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing"
+   ],
+   "level": "specialise",
+   "related": [
+    "display-advertising",
+    "remarketing",
+    "meta-ads"
+   ],
+   "jobs": [
+    "Media Trader",
+    "Traffic Manager",
+    "Programmatic Manager"
+   ]
+  },
+  {
+   "id": "url-structure",
+   "label": {
+    "fr": "Architecture URL",
+    "en": "URL architecture",
+    "ar": "هيكل الروابط",
+    "ru": "Архитектура URL"
+   },
+   "patterns": [
+    "url structure",
+    "url architecture",
+    "architecture url",
+    "arborescence seo",
+    "структура url",
+    "архитектура сайта"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "technical-seo",
+    "semantic-cocoon",
+    "internal-linking",
+    "on-page-seo"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Consultant SEO technique",
+    "Architecte de l'information"
+   ]
+  },
+  {
+   "id": "internal-linking",
+   "label": {
+    "fr": "Maillage interne",
+    "en": "Internal linking",
+    "ar": "الروابط الداخلية",
+    "ru": "Внутренняя перелинковка"
+   },
+   "patterns": [
+    "internal linking",
+    "maillage interne",
+    "internal links",
+    "перелинковка",
+    "الروابط الداخلية"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo"
+   ],
+   "level": "courant",
+   "related": [
+    "semantic-cocoon",
+    "on-page-seo",
+    "url-structure",
+    "technical-seo"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Rédacteur web",
+    "Responsable SEO"
+   ]
+  },
+  {
+   "id": "duplicate-content",
+   "label": {
+    "fr": "Contenu dupliqué",
+    "en": "Duplicate content",
+    "ar": "المحتوى المكرر",
+    "ru": "Дублированный контент"
+   },
+   "patterns": [
+    "duplicate content",
+    "contenu duplique",
+    "duplicate",
+    "contenu dupliqué",
+    "дублированный контент"
+   ],
+   "category": "methode",
+   "topics": [
+    "seo"
+   ],
+   "level": "frequent",
+   "related": [
+    "canonical",
+    "technical-seo",
+    "seo-audit"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Consultant SEO technique"
+   ]
+  },
+  {
+   "id": "google-bigquery",
+   "label": {
+    "fr": "BigQuery",
+    "en": "BigQuery",
+    "ar": "BigQuery",
+    "ru": "BigQuery"
+   },
+   "patterns": [
+    "bigquery",
+    "google bigquery",
+    "big query",
+    "бигквери"
+   ],
+   "category": "outil",
+   "topics": [
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "sql",
+    "google-looker-studio",
+    "google-analytics",
+    "python-seo"
+   ],
+   "jobs": [
+    "Data Analyst",
+    "Data Analyst SEO",
+    "Data Engineer"
+   ]
+  },
+  {
+   "id": "b2b-marketing",
+   "label": {
+    "fr": "Marketing B2B",
+    "en": "B2B marketing",
+    "ar": "التسويق B2B",
+    "ru": "B2B маркетинг"
+   },
+   "patterns": [
+    "b2b marketing",
+    "marketing b2b",
+    "b2b seo",
+    "seo b2b",
+    "b2b маркетинг"
+   ],
+   "category": "methode",
+   "topics": [
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "linkedin-ads",
+    "content-strategy",
+    "strategie-digitale"
+   ],
+   "jobs": [
+    "Consultant SEO",
+    "Responsable marketing B2B",
+    "Content Manager"
+   ]
+  },
+  {
+   "id": "google-optimize",
+   "label": {
+    "fr": "Google Optimize",
+    "en": "Google Optimize",
+    "ar": "Google Optimize",
+    "ru": "Google Optimize"
+   },
+   "patterns": [
+    "google optimize",
+    "optimize 360",
+    "гугл оптимайз"
+   ],
+   "category": "outil",
+   "topics": [
+    "marketing",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "a-b-testing",
+    "cro",
+    "google-analytics",
+    "google-tag-manager"
+   ],
+   "jobs": [
+    "Consultant CRO",
+    "Growth Hacker",
+    "Web Analyst"
+   ]
+  },
+  {
+   "id": "cmp",
+   "label": {
+    "fr": "CMP (Consent Management Platform)",
+    "en": "CMP",
+    "ar": "CMP",
+    "ru": "CMP"
+   },
+   "patterns": [
+    "cmp",
+    "consent management platform",
+    "didomi",
+    "onetrust",
+    "cookiebot",
+    "куки баннер"
+   ],
+   "category": "outil",
+   "topics": [
+    "web",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "consent-mode",
+    "rgpd",
+    "google-tag-manager"
+   ],
+   "jobs": [
+    "Traffic Manager",
+    "Web Analyst",
+    "Consultant SEO"
+   ]
+  }
+ ]
+}

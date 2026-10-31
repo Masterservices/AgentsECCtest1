@@ -1,0 +1,2359 @@
+{
+ "sector": "Gestion de projet et pilotage (PMO)",
+ "key": "project",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "agile",
+   "label": {
+    "fr": "Méthode Agile",
+    "en": "Agile methodology",
+    "ar": "منهجية أجايل",
+    "ru": "Agile"
+   },
+   "patterns": [
+    "agile",
+    "agilite",
+    "гибк",
+    "agile framework",
+    "منهجية أجايل"
+   ],
+   "category": "methode",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "scrum",
+    "kanban",
+    "safe",
+    "agile-coaching"
+   ],
+   "jobs": [
+    "Chef de projet Agile",
+    "PMO",
+    "Directeur de projet"
+   ]
+  },
+  {
+   "id": "scrum",
+   "label": {
+    "fr": "Scrum",
+    "en": "Scrum",
+    "ar": "Scrum",
+    "ru": "Scrum"
+   },
+   "patterns": [
+    "scrum",
+    "скрам",
+    "скрам мастер",
+    "سكروم"
+   ],
+   "category": "methode",
+   "topics": [
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "agile",
+    "kanban",
+    "sprint-planning",
+    "jira"
+   ],
+   "jobs": [
+    "Scrum Master",
+    "Chef de projet IT",
+    "Product Owner"
+   ]
+  },
+  {
+   "id": "kanban",
+   "label": {
+    "fr": "Kanban",
+    "en": "Kanban",
+    "ar": "كانبان",
+    "ru": "Канбан"
+   },
+   "patterns": [
+    "kanban",
+    "канбан",
+    "كانبان"
+   ],
+   "category": "methode",
+   "topics": [
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "agile",
+    "trello",
+    "jira",
+    "lean-management"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "PMO",
+    "Agile Coach"
+   ]
+  },
+  {
+   "id": "waterfall",
+   "label": {
+    "fr": "Cycle en V",
+    "en": "Waterfall",
+    "ar": "النموذج الشلالي",
+    "ru": "Каскадная модель"
+   },
+   "patterns": [
+    "waterfall",
+    "cycle en v",
+    "cycle en ve",
+    "каскадн",
+    "waterfall model"
+   ],
+   "category": "methode",
+   "topics": [
+    "project",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "prince2",
+    "pmp",
+    "project-planning",
+    "gantt-chart"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Directeur de projet",
+    "Responsable PMO"
+   ]
+  },
+  {
+   "id": "prince2",
+   "label": {
+    "fr": "PRINCE2",
+    "en": "PRINCE2",
+    "ar": "PRINCE2",
+    "ru": "PRINCE2"
+   },
+   "patterns": [
+    "prince2",
+    "prince 2",
+    "prince2 foundation",
+    "prince2 practitioner"
+   ],
+   "category": "norme",
+   "topics": [
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "pmp",
+    "pmi",
+    "waterfall",
+    "project-planning"
+   ],
+   "jobs": [
+    "Directeur de projet",
+    "PMO",
+    "Chef de projet MOA"
+   ]
+  },
+  {
+   "id": "pmp",
+   "label": {
+    "fr": "Certification PMP",
+    "en": "PMP Certification",
+    "ar": "شهادة PMP",
+    "ru": "Сертификация PMP"
+   },
+   "patterns": [
+    "pmp",
+    "project management professional",
+    "pmi pmp"
+   ],
+   "category": "norme",
+   "topics": [
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "pmi",
+    "prince2",
+    "program-management",
+    "portfolio-management"
+   ],
+   "jobs": [
+    "Chef de projet senior",
+    "Directeur de programme",
+    "PMO"
+   ]
+  },
+  {
+   "id": "safe",
+   "label": {
+    "fr": "SAFe",
+    "en": "SAFe",
+    "ar": "SAFe",
+    "ru": "SAFe"
+   },
+   "patterns": [
+    "safe",
+    "scaled agile",
+    "safe agile",
+    "safe 5",
+    "safe 6"
+   ],
+   "category": "methode",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "agile",
+    "scrum",
+    "jira",
+    "confluence"
+   ],
+   "jobs": [
+    "Release Train Engineer",
+    "Agile Coach",
+    "PMO Agile"
+   ]
+  },
+  {
+   "id": "itil",
+   "label": {
+    "fr": "ITIL",
+    "en": "ITIL",
+    "ar": "ITIL",
+    "ru": "ITIL"
+   },
+   "patterns": [
+    "itil",
+    "information technology infrastructure library",
+    "итил",
+    "itil v4"
+   ],
+   "category": "norme",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "pmi",
+    "risk-management",
+    "continuous-improvement",
+    "service-level-agreement"
+   ],
+   "jobs": [
+    "Chef de projet IT",
+    "Responsable de production",
+    "Consultant ITSM"
+   ]
+  },
+  {
+   "id": "jira",
+   "label": {
+    "fr": "Jira",
+    "en": "Jira",
+    "ar": "Jira",
+    "ru": "Jira"
+   },
+   "patterns": [
+    "jira",
+    "atlassian jira",
+    "джайра",
+    "джира",
+    "jira software"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "confluence",
+    "scrum",
+    "agile",
+    "trello"
+   ],
+   "jobs": [
+    "Scrum Master",
+    "Product Owner",
+    "Chef de projet IT"
+   ]
+  },
+  {
+   "id": "confluence",
+   "label": {
+    "fr": "Confluence",
+    "en": "Confluence",
+    "ar": "Confluence",
+    "ru": "Confluence"
+   },
+   "patterns": [
+    "confluence",
+    "atlassian confluence",
+    "конфлуенс"
+   ],
+   "category": "outil",
+   "topics": [
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "jira",
+    "sharepoint",
+    "agile",
+    "notion"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Business Analyst",
+    "Scrum Master"
+   ]
+  },
+  {
+   "id": "ms-project",
+   "label": {
+    "fr": "MS Project",
+    "en": "MS Project",
+    "ar": "MS Project",
+    "ru": "MS Project"
+   },
+   "patterns": [
+    "ms project",
+    "microsoft project",
+    "ms projects",
+    "мс проджект"
+   ],
+   "category": "outil",
+   "topics": [
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "primavera-p6",
+    "gantt-chart",
+    "project-planning",
+    "smartsheet"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "PMO",
+    "Planificateur"
+   ]
+  },
+  {
+   "id": "asana",
+   "label": {
+    "fr": "Asana",
+    "en": "Asana",
+    "ar": "Asana",
+    "ru": "Asana"
+   },
+   "patterns": [
+    "asana",
+    "асана"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "trello",
+    "monday-com",
+    "clickup",
+    "notion"
+   ],
+   "jobs": [
+    "Chef de projet digital",
+    "Traffic manager",
+    "Project manager"
+   ]
+  },
+  {
+   "id": "trello",
+   "label": {
+    "fr": "Trello",
+    "en": "Trello",
+    "ar": "Trello",
+    "ru": "Trello"
+   },
+   "patterns": [
+    "trello",
+    "трелло"
+   ],
+   "category": "outil",
+   "topics": [
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "asana",
+    "kanban",
+    "monday-com",
+    "jira"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Scrum Master",
+    "Product Owner"
+   ]
+  },
+  {
+   "id": "monday-com",
+   "label": {
+    "fr": "Monday.com",
+    "en": "Monday.com",
+    "ar": "Monday.com",
+    "ru": "Monday.com"
+   },
+   "patterns": [
+    "monday.com",
+    "monday com",
+    "мондей"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "asana",
+    "trello",
+    "smartsheet",
+    "clickup"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Operations manager",
+    "PMO"
+   ]
+  },
+  {
+   "id": "smartsheet",
+   "label": {
+    "fr": "Smartsheet",
+    "en": "Smartsheet",
+    "ar": "Smartsheet",
+    "ru": "Smartsheet"
+   },
+   "patterns": [
+    "smartsheet",
+    "смартшит"
+   ],
+   "category": "outil",
+   "topics": [
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "monday-com",
+    "ms-project",
+    "asana",
+    "excel-advanced"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "PMO",
+    "Planificateur"
+   ]
+  },
+  {
+   "id": "clickup",
+   "label": {
+    "fr": "ClickUp",
+    "en": "ClickUp",
+    "ar": "ClickUp",
+    "ru": "ClickUp"
+   },
+   "patterns": [
+    "clickup",
+    "click up",
+    "клик ап"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "asana",
+    "monday-com",
+    "trello",
+    "notion"
+   ],
+   "jobs": [
+    "Chef de projet digital",
+    "Product Owner",
+    "Operations manager"
+   ]
+  },
+  {
+   "id": "planisware",
+   "label": {
+    "fr": "Planisware",
+    "en": "Planisware",
+    "ar": "Planisware",
+    "ru": "Planisware"
+   },
+   "patterns": [
+    "planisware",
+    "planisware enterprise",
+    "planisware oracle"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "primavera-p6",
+    "ms-project",
+    "portfolio-management",
+    "pmo-governance"
+   ],
+   "jobs": [
+    "Responsable PMO",
+    "Directeur de projet",
+    "Planificateur"
+   ]
+  },
+  {
+   "id": "primavera-p6",
+   "label": {
+    "fr": "Primavera P6",
+    "en": "Primavera P6",
+    "ar": "Primavera P6",
+    "ru": "Primavera P6"
+   },
+   "patterns": [
+    "primavera",
+    "primavera p6",
+    "oracle primavera",
+    "примавера"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "btp",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "ms-project",
+    "planisware",
+    "gantt-chart",
+    "critical-path"
+   ],
+   "jobs": [
+    "Planificateur",
+    "Chef de projet BTP",
+    "Ingénieur planning"
+   ]
+  },
+  {
+   "id": "risk-management",
+   "label": {
+    "fr": "Gestion des risques",
+    "en": "Risk management",
+    "ar": "إدارة المخاطر",
+    "ru": "Управление рисками"
+   },
+   "patterns": [
+    "risk management",
+    "gestion des risques",
+    "управлен риск",
+    "ادارة المخاطر",
+    "risk analysis",
+    "analyse de risque"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "consulting",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "risk-register",
+    "pmi",
+    "business-case",
+    "pmo-governance"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Risk manager",
+    "PMO"
+   ]
+  },
+  {
+   "id": "budget-management",
+   "label": {
+    "fr": "Gestion budgétaire",
+    "en": "Budget management",
+    "ar": "إدارة الميزانية",
+    "ru": "Управление бюджетом"
+   },
+   "patterns": [
+    "budget management",
+    "suivi budgetaire",
+    "budget tracking",
+    "управлен бюджет",
+    "ادارة الميزانية",
+    "suivi des couts"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "cost-control",
+    "business-case",
+    "ms-project",
+    "excel-advanced"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Contrôleur de gestion projet",
+    "PMO"
+   ]
+  },
+  {
+   "id": "project-planning",
+   "label": {
+    "fr": "Planification de projet",
+    "en": "Project planning",
+    "ar": "تخطيط المشاريع",
+    "ru": "Планирование проектов"
+   },
+   "patterns": [
+    "project planning",
+    "planification",
+    "планир",
+    "تخطيط المشاريع",
+    "scheduling",
+    "ordonnancement"
+   ],
+   "category": "metier",
+   "topics": [
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "gantt-chart",
+    "ms-project",
+    "wbs",
+    "critical-path"
+   ],
+   "jobs": [
+    "Planificateur",
+    "Chef de projet",
+    "Ingénieur planning"
+   ]
+  },
+  {
+   "id": "stakeholder-management",
+   "label": {
+    "fr": "Gestion des parties prenantes",
+    "en": "Stakeholder management",
+    "ar": "إدارة أصحاب المصلحة",
+    "ru": "Управление стейкхолдерами"
+   },
+   "patterns": [
+    "stakeholder management",
+    "gestion des parties prenantes",
+    "stakeholder engagement",
+    "стейкхолдер",
+    "ادارة أصحاب المصلحة"
+   ],
+   "category": "transverse",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "communication-plan",
+    "negotiation",
+    "raci-matrix",
+    "steering-committee"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Directeur de projet",
+    "Consultant en organisation"
+   ]
+  },
+  {
+   "id": "change-management",
+   "label": {
+    "fr": "Conduite du changement",
+    "en": "Change management",
+    "ar": "إدارة التغيير",
+    "ru": "Управление изменениями"
+   },
+   "patterns": [
+    "change management",
+    "gestion du changement",
+    "conduite du changement",
+    "управлен изменен",
+    "ادارة التغيير"
+   ],
+   "category": "transverse",
+   "topics": [
+    "project",
+    "consulting",
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "communication-plan",
+    "stakeholder-management",
+    "continuous-improvement",
+    "erp-implementation"
+   ],
+   "jobs": [
+    "Chef de projet changement",
+    "Consultant en organisation",
+    "Responsable PMO"
+   ]
+  },
+  {
+   "id": "kpi-reporting",
+   "label": {
+    "fr": "Reporting et KPI",
+    "en": "KPI reporting",
+    "ar": "تقارير مؤشرات الأداء",
+    "ru": "Отчетность по KPI"
+   },
+   "patterns": [
+    "kpi reporting",
+    "tableau de bord",
+    "reporting",
+    "kpi tracking",
+    "отчетност kpi",
+    "suivi des indicateurs"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "data",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "power-bi",
+    "excel-advanced",
+    "status-reporting",
+    "okr"
+   ],
+   "jobs": [
+    "PMO",
+    "Contrôleur de gestion projet",
+    "Chef de projet"
+   ]
+  },
+  {
+   "id": "roadmap",
+   "label": {
+    "fr": "Feuille de route",
+    "en": "Roadmap",
+    "ar": "خارطة الطريق",
+    "ru": "Дорожная карта"
+   },
+   "patterns": [
+    "roadmap",
+    "feuille de route",
+    "дорожн карт",
+    "خارطة الطريق",
+    "strategic roadmap"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "project-planning",
+    "portfolio-management",
+    "program-management",
+    "okr"
+   ],
+   "jobs": [
+    "Product Owner",
+    "Directeur de programme",
+    "Chef de projet"
+   ]
+  },
+  {
+   "id": "resource-allocation",
+   "label": {
+    "fr": "Allocation des ressources",
+    "en": "Resource allocation",
+    "ar": "تخصيص الموارد",
+    "ru": "Распределение ресурсов"
+   },
+   "patterns": [
+    "resource allocation",
+    "allocation des ressources",
+    "распределен ресурс",
+    "تخصيص الموارد",
+    "capacity planning"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "ms-project",
+    "planisware",
+    "project-planning",
+    "portfolio-management"
+   ],
+   "jobs": [
+    "Responsable PMO",
+    "Chef de projet",
+    "Resource manager"
+   ]
+  },
+  {
+   "id": "scope-management",
+   "label": {
+    "fr": "Gestion du périmètre",
+    "en": "Scope management",
+    "ar": "إدارة النطاق",
+    "ru": "Управление содержанием"
+   },
+   "patterns": [
+    "scope management",
+    "gestion du perimetre",
+    "управлен содержан",
+    "ادارة النطاق",
+    "scope creep"
+   ],
+   "category": "metier",
+   "topics": [
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "wbs",
+    "requirement-gathering",
+    "project-charter",
+    "change-management"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Business Analyst",
+    "Consultant AMOA"
+   ]
+  },
+  {
+   "id": "cost-control",
+   "label": {
+    "fr": "Maîtrise des coûts",
+    "en": "Cost control",
+    "ar": "التحكم في التكاليف",
+    "ru": "Контроль затрат"
+   },
+   "patterns": [
+    "cost control",
+    "maitrise des couts",
+    "контрол затрат",
+    "контрол стоимост",
+    "suivi des depenses"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "budget-management",
+    "earned-value-management",
+    "ms-project",
+    "excel-advanced"
+   ],
+   "jobs": [
+    "Contrôleur de gestion projet",
+    "Chef de projet",
+    "PMO"
+   ]
+  },
+  {
+   "id": "earned-value-management",
+   "label": {
+    "fr": "Méthode de la valeur acquise",
+    "en": "Earned value management",
+    "ar": "إدارة القيمة المكتسبة",
+    "ru": "Метод освоенного объема"
+   },
+   "patterns": [
+    "earned value",
+    "valeur acquise",
+    "освоен объем",
+    "earned value management",
+    "evm analysis"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "cost-control",
+    "budget-management",
+    "ms-project",
+    "kpi-reporting"
+   ],
+   "jobs": [
+    "Contrôleur de gestion projet",
+    "PMO",
+    "Planificateur"
+   ]
+  },
+  {
+   "id": "sprint-planning",
+   "label": {
+    "fr": "Sprint planning",
+    "en": "Sprint planning",
+    "ar": "تخطيط السبرينت",
+    "ru": "Планирование спринта"
+   },
+   "patterns": [
+    "sprint planning",
+    "planification de sprint",
+    "планир спринт",
+    "sprint ceremony"
+   ],
+   "category": "metier",
+   "topics": [
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "scrum",
+    "backlog-grooming",
+    "jira",
+    "user-story"
+   ],
+   "jobs": [
+    "Scrum Master",
+    "Product Owner",
+    "Chef de projet Agile"
+   ]
+  },
+  {
+   "id": "backlog-grooming",
+   "label": {
+    "fr": "Backlog refinement",
+    "en": "Backlog grooming",
+    "ar": "تنقيح Backlog",
+    "ru": "Груминг бэклога"
+   },
+   "patterns": [
+    "backlog grooming",
+    "backlog refinement",
+    "refinement",
+    "груминг",
+    "product backlog"
+   ],
+   "category": "metier",
+   "topics": [
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "sprint-planning",
+    "user-story",
+    "jira",
+    "scrum"
+   ],
+   "jobs": [
+    "Product Owner",
+    "Scrum Master",
+    "Business Analyst"
+   ]
+  },
+  {
+   "id": "user-story",
+   "label": {
+    "fr": "User story",
+    "en": "User story",
+    "ar": "قصة المستخدم",
+    "ru": "Пользовательская история"
+   },
+   "patterns": [
+    "user story",
+    "recit utilisateur",
+    "пользовател истор",
+    "قصة المستخدم",
+    "us"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "web"
+   ],
+   "level": "courant",
+   "related": [
+    "backlog-grooming",
+    "scrum",
+    "requirement-gathering",
+    "jira"
+   ],
+   "jobs": [
+    "Product Owner",
+    "Business Analyst",
+    "Consultant AMOA"
+   ]
+  },
+  {
+   "id": "lean-management",
+   "label": {
+    "fr": "Lean management",
+    "en": "Lean management",
+    "ar": "الإدارة الرشيقة",
+    "ru": "Бережливое производство"
+   },
+   "patterns": [
+    "lean management",
+    "lean",
+    "бережлив",
+    "لين",
+    "lean thinking"
+   ],
+   "category": "methode",
+   "topics": [
+    "project",
+    "industrie",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "six-sigma",
+    "continuous-improvement",
+    "kanban",
+    "value-stream-mapping"
+   ],
+   "jobs": [
+    "Lean manager",
+    "Consultant en organisation",
+    "Chef de projet industriel"
+   ]
+  },
+  {
+   "id": "six-sigma",
+   "label": {
+    "fr": "Six Sigma",
+    "en": "Six Sigma",
+    "ar": "Six Sigma",
+    "ru": "Шесть сигм"
+   },
+   "patterns": [
+    "six sigma",
+    "6 sigma",
+    "lean six sigma",
+    "шесть сигм",
+    "dmaic"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie",
+    "project"
+   ],
+   "level": "specialise",
+   "related": [
+    "lean-management",
+    "continuous-improvement",
+    "risk-management",
+    "kpi-reporting"
+   ],
+   "jobs": [
+    "Black belt",
+    "Green belt",
+    "Responsable qualité"
+   ]
+  },
+  {
+   "id": "pmi",
+   "label": {
+    "fr": "PMI",
+    "en": "PMI",
+    "ar": "PMI",
+    "ru": "PMI"
+   },
+   "patterns": [
+    "pmi",
+    "project management institute",
+    "институт управлен проект",
+    "pmbok"
+   ],
+   "category": "norme",
+   "topics": [
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "pmp",
+    "prince2",
+    "program-management",
+    "risk-management"
+   ],
+   "jobs": [
+    "Chef de projet senior",
+    "Directeur de programme",
+    "PMO"
+   ]
+  },
+  {
+   "id": "p3o",
+   "label": {
+    "fr": "P3O",
+    "en": "P3O",
+    "ar": "P3O",
+    "ru": "P3O"
+   },
+   "patterns": [
+    "p3o",
+    "portfolio programme project offices",
+    "портфел програм",
+    "p3o foundation"
+   ],
+   "category": "norme",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "pmo-governance",
+    "portfolio-management",
+    "program-management",
+    "msp"
+   ],
+   "jobs": [
+    "Responsable PMO",
+    "Directeur de PMO",
+    "Consultant PMO"
+   ]
+  },
+  {
+   "id": "msp",
+   "label": {
+    "fr": "MSP",
+    "en": "MSP",
+    "ar": "MSP",
+    "ru": "MSP"
+   },
+   "patterns": [
+    "managing successful programmes",
+    "msp programme",
+    "управлен програм",
+    "msp practitioner"
+   ],
+   "category": "norme",
+   "topics": [
+    "project"
+   ],
+   "level": "specialise",
+   "related": [
+    "p3o",
+    "program-management",
+    "portfolio-management",
+    "prince2"
+   ],
+   "jobs": [
+    "Directeur de programme",
+    "Responsable PMO",
+    "Program manager"
+   ]
+  },
+  {
+   "id": "pmo-governance",
+   "label": {
+    "fr": "Gouvernance PMO",
+    "en": "PMO governance",
+    "ar": "حوكمة PMO",
+    "ru": "Управление PMO"
+   },
+   "patterns": [
+    "pmo governance",
+    "gouvernance pmo",
+    "gouvernance de projet",
+    "управлен pmo",
+    "project governance"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "p3o",
+    "portfolio-management",
+    "steering-committee",
+    "pmi"
+   ],
+   "jobs": [
+    "Responsable PMO",
+    "Directeur de PMO",
+    "PMO"
+   ]
+  },
+  {
+   "id": "portfolio-management",
+   "label": {
+    "fr": "Gestion de portefeuille",
+    "en": "Portfolio management",
+    "ar": "إدارة المحافظ",
+    "ru": "Управление портфелем"
+   },
+   "patterns": [
+    "portfolio management",
+    "gestion de portefeuille",
+    "управлен портфел",
+    "ادارة المحافظ",
+    "project portfolio"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "program-management",
+    "p3o",
+    "roadmap",
+    "planisware"
+   ],
+   "jobs": [
+    "Directeur de PMO",
+    "Portfolio manager",
+    "Directeur de projet"
+   ]
+  },
+  {
+   "id": "program-management",
+   "label": {
+    "fr": "Gestion de programme",
+    "en": "Program management",
+    "ar": "إدارة البرامج",
+    "ru": "Управление программой"
+   },
+   "patterns": [
+    "program management",
+    "gestion de programme",
+    "управлен програм",
+    "ادارة البرامج",
+    "programme manager"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "portfolio-management",
+    "pmp",
+    "roadmap",
+    "msp"
+   ],
+   "jobs": [
+    "Directeur de programme",
+    "Program manager",
+    "Chef de projet senior"
+   ]
+  },
+  {
+   "id": "risk-register",
+   "label": {
+    "fr": "Registre des risques",
+    "en": "Risk register",
+    "ar": "سجل المخاطر",
+    "ru": "Реестр рисков"
+   },
+   "patterns": [
+    "risk register",
+    "registre des risques",
+    "реестр риск",
+    "سجل المخاطر",
+    "risk log"
+   ],
+   "category": "metier",
+   "topics": [
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "risk-management",
+    "ms-project",
+    "status-reporting",
+    "excel-advanced"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Risk manager",
+    "PMO"
+   ]
+  },
+  {
+   "id": "gantt-chart",
+   "label": {
+    "fr": "Diagramme de Gantt",
+    "en": "Gantt chart",
+    "ar": "مخطط جانت",
+    "ru": "Диаграмма Ганта"
+   },
+   "patterns": [
+    "gantt",
+    "diagramme de gantt",
+    "gant chart",
+    "диаграмм ганта",
+    "مخطط جانت"
+   ],
+   "category": "metier",
+   "topics": [
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "ms-project",
+    "project-planning",
+    "wbs",
+    "critical-path"
+   ],
+   "jobs": [
+    "Planificateur",
+    "Chef de projet",
+    "PMO"
+   ]
+  },
+  {
+   "id": "wbs",
+   "label": {
+    "fr": "WBS",
+    "en": "WBS",
+    "ar": "WBS",
+    "ru": "WBS"
+   },
+   "patterns": [
+    "wbs",
+    "work breakdown structure",
+    "structure de decoupage",
+    "иерархическ структур",
+    "organigramme des taches"
+   ],
+   "category": "metier",
+   "topics": [
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "gantt-chart",
+    "scope-management",
+    "project-planning",
+    "ms-project"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Planificateur",
+    "Consultant AMOA"
+   ]
+  },
+  {
+   "id": "critical-path",
+   "label": {
+    "fr": "Chemin critique",
+    "en": "Critical path",
+    "ar": "المسار الحرج",
+    "ru": "Критический путь"
+   },
+   "patterns": [
+    "critical path",
+    "methode du chemin critique",
+    "критическ путь",
+    "المسار الحرج",
+    "cpm"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "gantt-chart",
+    "project-planning",
+    "ms-project",
+    "primavera-p6"
+   ],
+   "jobs": [
+    "Planificateur",
+    "Ingénieur planning",
+    "Chef de projet BTP"
+   ]
+  },
+  {
+   "id": "agile-coaching",
+   "label": {
+    "fr": "Agile coaching",
+    "en": "Agile coaching",
+    "ar": "Agile coaching",
+    "ru": "Агил коучинг"
+   },
+   "patterns": [
+    "agile coaching",
+    "coach agile",
+    "agile coach",
+    "агил коуч",
+    "transformation agile"
+   ],
+   "category": "transverse",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "agile",
+    "scrum",
+    "facilitation",
+    "safe"
+   ],
+   "jobs": [
+    "Agile Coach",
+    "Scrum Master",
+    "Consultant en organisation"
+   ]
+  },
+  {
+   "id": "facilitation",
+   "label": {
+    "fr": "Facilitation",
+    "en": "Facilitation",
+    "ar": "تيسير",
+    "ru": "Фасилитация"
+   },
+   "patterns": [
+    "facilitation",
+    "animateur",
+    "фасилитац",
+    "تيسير",
+    "workshop facilitation"
+   ],
+   "category": "transverse",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "workshop-facilitation",
+    "design-thinking",
+    "negotiation",
+    "agile-coaching"
+   ],
+   "jobs": [
+    "Scrum Master",
+    "Agile Coach",
+    "Consultant en organisation"
+   ]
+  },
+  {
+   "id": "negotiation",
+   "label": {
+    "fr": "Négociation",
+    "en": "Negotiation",
+    "ar": "تفاوض",
+    "ru": "Переговоры"
+   },
+   "patterns": [
+    "negotiation",
+    "negociation",
+    "переговор",
+    "تفاوض",
+    "techniques de negociation"
+   ],
+   "category": "transverse",
+   "topics": [
+    "project",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "stakeholder-management",
+    "vendor-management",
+    "cross-functional-leadership",
+    "conflict-resolution"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Directeur de projet",
+    "Acheteur projet"
+   ]
+  },
+  {
+   "id": "cross-functional-leadership",
+   "label": {
+    "fr": "Leadership transversal",
+    "en": "Cross-functional leadership",
+    "ar": "القيادة متعددة الوظائف",
+    "ru": "Межфункциональное лидерство"
+   },
+   "patterns": [
+    "cross functional leadership",
+    "leadership transversal",
+    "межфункциональн лидерств",
+    "management transversal",
+    "leadership sans autorite"
+   ],
+   "category": "transverse",
+   "topics": [
+    "project",
+    "rh"
+   ],
+   "level": "courant",
+   "related": [
+    "stakeholder-management",
+    "agile-coaching",
+    "steering-committee",
+    "negotiation"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Directeur de programme",
+    "Product Owner"
+   ]
+  },
+  {
+   "id": "vendor-management",
+   "label": {
+    "fr": "Gestion des prestataires",
+    "en": "Vendor management",
+    "ar": "إدارة الموردين",
+    "ru": "Управление поставщиками"
+   },
+   "patterns": [
+    "vendor management",
+    "gestion des fournisseurs",
+    "управлен поставщик",
+    "ادارة الموردين",
+    "gestion des prestataires",
+    "supplier management"
+   ],
+   "category": "transverse",
+   "topics": [
+    "project",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "negotiation",
+    "business-case",
+    "cost-control",
+    "contract-management"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Acheteur projet",
+    "Responsable PMO"
+   ]
+  },
+  {
+   "id": "business-case",
+   "label": {
+    "fr": "Business case",
+    "en": "Business case",
+    "ar": "دراسة الجدوى",
+    "ru": "Обоснование бизнеса"
+   },
+   "patterns": [
+    "business case",
+    "dossier daffaire",
+    "обоснован бизне",
+    "دراسة الجدوى",
+    "analyse de rentabilite"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "finance",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "portfolio-management",
+    "benefits-realization",
+    "cost-control",
+    "risk-management"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Business Analyst",
+    "Directeur de projet"
+   ]
+  },
+  {
+   "id": "benefits-realization",
+   "label": {
+    "fr": "Réalisation des bénéfices",
+    "en": "Benefits realization",
+    "ar": "تحقيق الفوائد",
+    "ru": "Реализация выгод"
+   },
+   "patterns": [
+    "benefits realization",
+    "realisation des benefices",
+    "реализац выгод",
+    "تحقيق الفوائد",
+    "benefits tracking"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "business-case",
+    "portfolio-management",
+    "kpi-reporting",
+    "okr"
+   ],
+   "jobs": [
+    "Directeur de programme",
+    "Portfolio manager",
+    "PMO"
+   ]
+  },
+  {
+   "id": "requirement-gathering",
+   "label": {
+    "fr": "Recueil des besoins",
+    "en": "Requirement gathering",
+    "ar": "جمع المتطلبات",
+    "ru": "Сбор требований"
+   },
+   "patterns": [
+    "requirement gathering",
+    "recueil des besoins",
+    "сбор требован",
+    "جمع المتطلبات",
+    "expression de besoin",
+    "elicitation"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "user-story",
+    "workshop-facilitation",
+    "bpmn",
+    "scope-management"
+   ],
+   "jobs": [
+    "Business Analyst",
+    "Consultant AMOA",
+    "Product Owner"
+   ]
+  },
+  {
+   "id": "workshop-facilitation",
+   "label": {
+    "fr": "Animation d'atelier",
+    "en": "Workshop facilitation",
+    "ar": "تيسير ورش العمل",
+    "ru": "Проведение воркшопов"
+   },
+   "patterns": [
+    "workshop facilitation",
+    "animation datelier",
+    "проведен воркшоп",
+    "تيسير ورش العمل",
+    "atelier de travail"
+   ],
+   "category": "transverse",
+   "topics": [
+    "project",
+    "consulting",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "facilitation",
+    "design-thinking",
+    "requirement-gathering",
+    "miro"
+   ],
+   "jobs": [
+    "Consultant en organisation",
+    "Business Analyst",
+    "Agile Coach"
+   ]
+  },
+  {
+   "id": "design-thinking",
+   "label": {
+    "fr": "Design thinking",
+    "en": "Design thinking",
+    "ar": "التفكير التصميمي",
+    "ru": "Дизайн-мышление"
+   },
+   "patterns": [
+    "design thinking",
+    "pensee design",
+    "дизайн мышлен",
+    "التفكير التصميمي",
+    "ideation"
+   ],
+   "category": "methode",
+   "topics": [
+    "design",
+    "project",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "workshop-facilitation",
+    "agile",
+    "user-story",
+    "miro"
+   ],
+   "jobs": [
+    "UX Designer",
+    "Chef de projet innovation",
+    "Product Owner"
+   ]
+  },
+  {
+   "id": "raci-matrix",
+   "label": {
+    "fr": "Matrice RACI",
+    "en": "RACI matrix",
+    "ar": "مصفوفة RACI",
+    "ru": "Матрица RACI"
+   },
+   "patterns": [
+    "raci",
+    "matrice raci",
+    "raci matrix",
+    "матриц raci",
+    "responsable accountable"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "stakeholder-management",
+    "project-charter",
+    "communication-plan",
+    "pmo-governance"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "PMO",
+    "Consultant en organisation"
+   ]
+  },
+  {
+   "id": "communication-plan",
+   "label": {
+    "fr": "Plan de communication",
+    "en": "Communication plan",
+    "ar": "خطة الاتصال",
+    "ru": "План коммуникаций"
+   },
+   "patterns": [
+    "communication plan",
+    "plan de communication",
+    "план коммуникац",
+    "خطة الاتصال",
+    "strategie de communication"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "stakeholder-management",
+    "status-reporting",
+    "raci-matrix",
+    "change-management"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Responsable communication",
+    "PMO"
+   ]
+  },
+  {
+   "id": "status-reporting",
+   "label": {
+    "fr": "Rapport d'avancement",
+    "en": "Status reporting",
+    "ar": "تقرير الحالة",
+    "ru": "Отчет о статусе"
+   },
+   "patterns": [
+    "status reporting",
+    "rapport davancement",
+    "отчет о статус",
+    "تقرير الحالة",
+    "flash report",
+    "compte rendu"
+   ],
+   "category": "metier",
+   "topics": [
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "kpi-reporting",
+    "steering-committee",
+    "communication-plan",
+    "power-bi"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "PMO",
+    "Directeur de projet"
+   ]
+  },
+  {
+   "id": "steering-committee",
+   "label": {
+    "fr": "Comité de pilotage",
+    "en": "Steering committee",
+    "ar": "لجنة التوجيه",
+    "ru": "Управляющий комитет"
+   },
+   "patterns": [
+    "steering committee",
+    "comite de pilotage",
+    "copil",
+    "управлен комитет",
+    "لجنة التوجيه",
+    "comite de direction"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "status-reporting",
+    "pmo-governance",
+    "project-charter",
+    "stakeholder-management"
+   ],
+   "jobs": [
+    "Directeur de projet",
+    "Chef de projet",
+    "Responsable PMO"
+   ]
+  },
+  {
+   "id": "project-charter",
+   "label": {
+    "fr": "Charte de projet",
+    "en": "Project charter",
+    "ar": "ميثاق المشروع",
+    "ru": "Устав проекта"
+   },
+   "patterns": [
+    "project charter",
+    "charte de projet",
+    "устав проект",
+    "ميثاق المشروع",
+    "note de cadrage"
+   ],
+   "category": "metier",
+   "topics": [
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "scope-management",
+    "raci-matrix",
+    "steering-committee",
+    "business-case"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "Directeur de projet",
+    "PMO"
+   ]
+  },
+  {
+   "id": "lessons-learned",
+   "label": {
+    "fr": "Retour d'expérience",
+    "en": "Lessons learned",
+    "ar": "الدروس المستفادة",
+    "ru": "Извлеченные уроки"
+   },
+   "patterns": [
+    "lessons learned",
+    "bilan de projet",
+    "retour dexperience",
+    "извлечен урок",
+    "الدروس المستفادة",
+    "post mortem"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "continuous-improvement",
+    "status-reporting",
+    "agile",
+    "risk-management"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "PMO",
+    "Consultant en organisation"
+   ]
+  },
+  {
+   "id": "continuous-improvement",
+   "label": {
+    "fr": "Amélioration continue",
+    "en": "Continuous improvement",
+    "ar": "التحسين المستمر",
+    "ru": "Непрерывное улучшение"
+   },
+   "patterns": [
+    "continuous improvement",
+    "amelioration continue",
+    "kaizen",
+    "непрерывн улучшен",
+    "تحسين مستمر",
+    "pdca"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality",
+    "project",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "lean-management",
+    "six-sigma",
+    "lessons-learned",
+    "change-management"
+   ],
+   "jobs": [
+    "Responsable qualité",
+    "Lean manager",
+    "Consultant en organisation"
+   ]
+  },
+  {
+   "id": "okr",
+   "label": {
+    "fr": "OKR",
+    "en": "OKR",
+    "ar": "OKR",
+    "ru": "OKR"
+   },
+   "patterns": [
+    "okr",
+    "objectives and key results",
+    "okrs",
+    "цели и ключев",
+    "objectifs et resultats cles"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "business",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "kpi-reporting",
+    "roadmap",
+    "agile",
+    "benefits-realization"
+   ],
+   "jobs": [
+    "Product Owner",
+    "Directeur de projet",
+    "PMO Agile"
+   ]
+  },
+  {
+   "id": "power-bi",
+   "label": {
+    "fr": "Power BI",
+    "en": "Power BI",
+    "ar": "Power BI",
+    "ru": "Power BI"
+   },
+   "patterns": [
+    "power bi",
+    "powerbi",
+    "microsoft power bi",
+    "пауэр биай",
+    "dax"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "project",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "excel-advanced",
+    "kpi-reporting",
+    "sharepoint",
+    "sql"
+   ],
+   "jobs": [
+    "PMO",
+    "Contrôleur de gestion projet",
+    "Data Analyst"
+   ]
+  },
+  {
+   "id": "excel-advanced",
+   "label": {
+    "fr": "Excel avancé",
+    "en": "Advanced Excel",
+    "ar": "Excel متقدم",
+    "ru": "Продвинутый Excel"
+   },
+   "patterns": [
+    "excel avance",
+    "advanced excel",
+    "excel vba",
+    "продвинут excel",
+    "اكسل متقدم",
+    "tableaux croises dynamiques"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "finance",
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "power-bi",
+    "ms-project",
+    "kpi-reporting",
+    "budget-management"
+   ],
+   "jobs": [
+    "PMO",
+    "Contrôleur de gestion projet",
+    "Chef de projet"
+   ]
+  },
+  {
+   "id": "sharepoint",
+   "label": {
+    "fr": "SharePoint",
+    "en": "SharePoint",
+    "ar": "SharePoint",
+    "ru": "SharePoint"
+   },
+   "patterns": [
+    "sharepoint",
+    "microsoft sharepoint",
+    "шерпоинт",
+    "ged sharepoint"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "confluence",
+    "power-bi",
+    "excel-advanced",
+    "teams"
+   ],
+   "jobs": [
+    "Chef de projet",
+    "PMO",
+    "Document controller"
+   ]
+  },
+  {
+   "id": "miro",
+   "label": {
+    "fr": "Miro",
+    "en": "Miro",
+    "ar": "Miro",
+    "ru": "Miro"
+   },
+   "patterns": [
+    "miro",
+    "миро",
+    "miró",
+    "tableau blanc collaboratif"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "lucidchart",
+    "visio",
+    "design-thinking",
+    "workshop-facilitation"
+   ],
+   "jobs": [
+    "Scrum Master",
+    "Agile Coach",
+    "UX Designer"
+   ]
+  },
+  {
+   "id": "lucidchart",
+   "label": {
+    "fr": "Lucidchart",
+    "en": "Lucidchart",
+    "ar": "Lucidchart",
+    "ru": "Lucidchart"
+   },
+   "patterns": [
+    "lucidchart",
+    "lucid chart",
+    "люсидчарт",
+    "diagramme en ligne"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "visio",
+    "miro",
+    "bpmn",
+    "draw.io"
+   ],
+   "jobs": [
+    "Business Analyst",
+    "Consultant AMOA",
+    "Architecte fonctionnel"
+   ]
+  },
+  {
+   "id": "visio",
+   "label": {
+    "fr": "Visio",
+    "en": "Visio",
+    "ar": "Visio",
+    "ru": "Visio"
+   },
+   "patterns": [
+    "visio",
+    "microsoft visio",
+    "визио",
+    "ms visio"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "lucidchart",
+    "ms-project",
+    "bpmn",
+    "draw.io"
+   ],
+   "jobs": [
+    "Business Analyst",
+    "Consultant AMOA",
+    "Ingénieur processus"
+   ]
+  },
+  {
+   "id": "bpmn",
+   "label": {
+    "fr": "BPMN",
+    "en": "BPMN",
+    "ar": "BPMN",
+    "ru": "BPMN"
+   },
+   "patterns": [
+    "bpmn",
+    "business process model and notation",
+    "бпмн",
+    "modelisation des processus"
+   ],
+   "category": "methode",
+   "topics": [
+    "project",
+    "consulting",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "visio",
+    "lucidchart",
+    "requirement-gathering",
+    "lean-management"
+   ],
+   "jobs": [
+    "Business Analyst",
+    "Consultant en organisation",
+    "Ingénieur processus"
+   ]
+  },
+  {
+   "id": "uat",
+   "label": {
+    "fr": "UAT",
+    "en": "UAT",
+    "ar": "UAT",
+    "ru": "UAT"
+   },
+   "patterns": [
+    "uat",
+    "user acceptance testing",
+    "test dacceptation",
+    "приемочн тест",
+    "اختبار القبول",
+    "recette utilisateur"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "web",
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "release-management",
+    "requirement-gathering",
+    "agile",
+    "jira"
+   ],
+   "jobs": [
+    "Chef de projet MOA",
+    "Business Analyst",
+    "Consultant AMOA"
+   ]
+  },
+  {
+   "id": "release-management",
+   "label": {
+    "fr": "Gestion des releases",
+    "en": "Release management",
+    "ar": "إدارة الإصدارات",
+    "ru": "Управление релизами"
+   },
+   "patterns": [
+    "release management",
+    "gestion des mises en production",
+    "управлен релиз",
+    "ادارة الإصدارات",
+    "deploiement",
+    "mise en prod"
+   ],
+   "category": "metier",
+   "topics": [
+    "project",
+    "web"
+   ],
+   "level": "frequent",
+   "related": [
+    "uat",
+    "agile",
+    "jira",
+    "itil"
+   ],
+   "jobs": [
+    "Release manager",
+    "Chef de projet IT",
+    "Scrum Master"
+   ]
+  },
+  {
+   "id": "erp-implementation",
+   "label": {
+    "fr": "Implémentation ERP",
+    "en": "ERP implementation",
+    "ar": "تنفيذ ERP",
+    "ru": "Внедрение ERP"
+   },
+   "patterns": [
+    "erp implementation",
+    "implementation erp",
+    "внедрен erp",
+    "تنفيذ تخطيط موارد",
+    "deploiement erp",
+    "sap implementation"
+   ],
+   "category": "metier",
+   "topics": [
+    "erp",
+    "project",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "change-management",
+    "business-case",
+    "uat",
+    "requirement-gathering"
+   ],
+   "jobs": [
+    "Chef de projet ERP",
+    "Consultant fonctionnel",
+    "Directeur de projet SI"
+   ]
+  }
+ ]
+}

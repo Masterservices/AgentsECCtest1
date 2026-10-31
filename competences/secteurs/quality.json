@@ -1,0 +1,4172 @@
+{
+ "sector": "Qualité, hygiène, sécurité, environnement (QHSE)",
+ "key": "quality",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "iso-9001",
+   "label": {
+    "fr": "ISO 9001",
+    "en": "ISO 9001",
+    "ar": "ISO 9001",
+    "ru": "ISO 9001"
+   },
+   "patterns": [
+    "iso 9001",
+    "iso9001",
+    "9001",
+    "质量管理体系",
+    "سystème de management qualité"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-14001",
+    "iso-45001",
+    "audit-interne",
+    "revue-direction",
+    "gestion-non-conformites"
+   ],
+   "jobs": [
+    "Responsable QHSE",
+    "Responsable Qualité",
+    "Auditeur qualité",
+    "Chargé de mission QHSE"
+   ]
+  },
+  {
+   "id": "iso-14001",
+   "label": {
+    "fr": "ISO 14001",
+    "en": "ISO 14001",
+    "ar": "ISO 14001",
+    "ru": "ISO 14001"
+   },
+   "patterns": [
+    "iso 14001",
+    "iso14001",
+    "14001",
+    "environmental management",
+    "сistema экологического менеджмента"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-9001",
+    "iso-45001",
+    "analyse-environnementale",
+    "icpe",
+    "bilan-carbone"
+   ],
+   "jobs": [
+    "Responsable Environnement",
+    "Chargé environnement",
+    "Responsable QHSE",
+    "Consultant environnement"
+   ]
+  },
+  {
+   "id": "iso-45001",
+   "label": {
+    "fr": "ISO 45001",
+    "en": "ISO 45001",
+    "ar": "ISO 45001",
+    "ru": "ISO 45001"
+   },
+   "patterns": [
+    "iso 45001",
+    "iso45001",
+    "45001",
+    "ohsas 18001",
+    "ohsas18001",
+    "sante securite travail"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-9001",
+    "iso-14001",
+    "duerp",
+    "analyse-risques",
+    "mase"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Coordinateur sécurité",
+    "Préventeur",
+    "Chargé de prévention"
+   ]
+  },
+  {
+   "id": "iso-50001",
+   "label": {
+    "fr": "ISO 50001",
+    "en": "ISO 50001",
+    "ar": "ISO 50001",
+    "ru": "ISO 50001"
+   },
+   "patterns": [
+    "iso 50001",
+    "iso50001",
+    "50001",
+    "management energie",
+    "energy management"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-14001",
+    "bilan-carbone",
+    "analyse-environnementale"
+   ],
+   "jobs": [
+    "Responsable Energie",
+    "Energy manager",
+    "Responsable QHSE"
+   ]
+  },
+  {
+   "id": "iso-22000",
+   "label": {
+    "fr": "ISO 22000",
+    "en": "ISO 22000",
+    "ar": "ISO 22000",
+    "ru": "ISO 22000"
+   },
+   "patterns": [
+    "iso 22000",
+    "iso22000",
+    "22000",
+    "food safety management",
+    "securite alimentaire"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "haccp",
+    "ifs",
+    "brc",
+    "fssc-22000"
+   ],
+   "jobs": [
+    "Responsable Qualité agroalimentaire",
+    "Qualiticien alimentaire",
+    "Auditeur sécurité alimentaire"
+   ]
+  },
+  {
+   "id": "iso-13485",
+   "label": {
+    "fr": "ISO 13485",
+    "en": "ISO 13485",
+    "ar": "ISO 13485",
+    "ru": "ISO 13485"
+   },
+   "patterns": [
+    "iso 13485",
+    "iso13485",
+    "13485",
+    "medical devices",
+    "dispositifs medicaux"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "gmp",
+    "fda-21-cfr",
+    "mdsap",
+    "validation-procedes"
+   ],
+   "jobs": [
+    "Responsable Qualité dispositifs médicaux",
+    "Regulatory Affairs",
+    "Auditeur qualité santé"
+   ]
+  },
+  {
+   "id": "iatf-16949",
+   "label": {
+    "fr": "IATF 16949",
+    "en": "IATF 16949",
+    "ar": "IATF 16949",
+    "ru": "IATF 16949"
+   },
+   "patterns": [
+    "iatf 16949",
+    "iatf16949",
+    "16949",
+    "automotive quality",
+    "qualite automobile"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "amdec",
+    "ppap",
+    "apqp",
+    "vda-63"
+   ],
+   "jobs": [
+    "Responsable Qualité automobile",
+    "Qualiticien fournisseur auto",
+    "Auditeur IATF"
+   ]
+  },
+  {
+   "id": "as9100",
+   "label": {
+    "fr": "AS9100",
+    "en": "AS9100",
+    "ar": "AS9100",
+    "ru": "AS9100"
+   },
+   "patterns": [
+    "as9100",
+    "as 9100",
+    "9100",
+    "en9100",
+    "aerospace quality",
+    "qualite aeronautique"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "iso-9001",
+    "amdec",
+    "nadc",
+    "fas"
+   ],
+   "jobs": [
+    "Responsable Qualité aéronautique",
+    "Qualiticien aéronautique",
+    "Auditeur AS9100"
+   ]
+  },
+  {
+   "id": "mase",
+   "label": {
+    "fr": "MASE",
+    "en": "MASE",
+    "ar": "MASE",
+    "ru": "MASE"
+   },
+   "patterns": [
+    "mase",
+    "manuel amelioration securite entreprises",
+    "uic mase"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-45001",
+    "vca",
+    "securite-chantier",
+    "plan-prevention"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Coordinateur sécurité",
+    "Chargé de prévention"
+   ]
+  },
+  {
+   "id": "haccp",
+   "label": {
+    "fr": "HACCP",
+    "en": "HACCP",
+    "ar": "HACCP",
+    "ru": "ХАССП"
+   },
+   "patterns": [
+    "haccp",
+    "hazard analysis critical control point",
+    "хассп",
+    "تحليل المخاطر"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-22000",
+    "ifs",
+    "brc",
+    "plan-nettoyage"
+   ],
+   "jobs": [
+    "Responsable Qualité alimentaire",
+    "Technicien qualité alimentaire",
+    "Auditeur HACCP"
+   ]
+  },
+  {
+   "id": "lean-six-sigma",
+   "label": {
+    "fr": "Lean Six Sigma",
+    "en": "Lean Six Sigma",
+    "ar": "Lean Six Sigma",
+    "ru": "Lean Six Sigma"
+   },
+   "patterns": [
+    "lean six sigma",
+    "lss",
+    "six sigma",
+    "lean",
+    "dmaic",
+    "бережливое производство"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "green-belt",
+    "black-belt",
+    "5s",
+    "kaizen",
+    "vsm"
+   ],
+   "jobs": [
+    "Black Belt",
+    "Green Belt",
+    "Responsable amélioration continue",
+    "Consultant Lean"
+   ]
+  },
+  {
+   "id": "5s",
+   "label": {
+    "fr": "5S",
+    "en": "5S",
+    "ar": "5S",
+    "ru": "5S"
+   },
+   "patterns": [
+    "5s",
+    "five s",
+    "seiri seiton seiso seiketsu shitsuke"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-six-sigma",
+    "kaizen",
+    "visual-management",
+    "gemba-walk"
+   ],
+   "jobs": [
+    "Responsable amélioration continue",
+    "Chef d'atelier",
+    "Animateur Lean"
+   ]
+  },
+  {
+   "id": "kaizen",
+   "label": {
+    "fr": "Kaizen",
+    "en": "Kaizen",
+    "ar": "Kaizen",
+    "ru": "Кайдзен"
+   },
+   "patterns": [
+    "kaizen",
+    "amélioration continue",
+    "continuous improvement",
+    "кайдзен"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-six-sigma",
+    "5s",
+    "pdca",
+    "gemba-walk"
+   ],
+   "jobs": [
+    "Responsable amélioration continue",
+    "Lean Manager",
+    "Chargé d'amélioration continue"
+   ]
+  },
+  {
+   "id": "pdca",
+   "label": {
+    "fr": "PDCA",
+    "en": "PDCA",
+    "ar": "PDCA",
+    "ru": "PDCA"
+   },
+   "patterns": [
+    "pdca",
+    "plan do check act",
+    "roue deming",
+    "deming wheel"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "amelioration-continue",
+    "plan-action",
+    "gestion-non-conformites",
+    "8d"
+   ],
+   "jobs": [
+    "Responsable QHSE",
+    "Chargé qualité",
+    "Auditeur interne"
+   ]
+  },
+  {
+   "id": "amdec",
+   "label": {
+    "fr": "AMDEC",
+    "en": "FMEA",
+    "ar": "AMDEC",
+    "ru": "FMEA"
+   },
+   "patterns": [
+    "amdec",
+    "fmea",
+    "failure mode effects analysis",
+    "analyse modes defaillance",
+    "fmeda"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "analyse-risques",
+    "hazop",
+    "plan-surveillance",
+    "capa"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Responsable Qualité",
+    "Qualiticien projet"
+   ]
+  },
+  {
+   "id": "hazop",
+   "label": {
+    "fr": "HAZOP",
+    "en": "HAZOP",
+    "ar": "HAZOP",
+    "ru": "HAZOP"
+   },
+   "patterns": [
+    "hazop",
+    "hazard and operability",
+    "analyse risques procede"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "amdec",
+    "analyse-risques",
+    "hazid",
+    "sil"
+   ],
+   "jobs": [
+    "Ingénieur sécurité process",
+    "Ingénieur risques industriels",
+    "HAZOP leader"
+   ]
+  },
+  {
+   "id": "8d",
+   "label": {
+    "fr": "8D",
+    "en": "8D",
+    "ar": "8D",
+    "ru": "8D"
+   },
+   "patterns": [
+    "8d",
+    "eight disciplines",
+    "résolution problèmes 8d",
+    "8 disciplines"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "pdca",
+    "capa",
+    "root-cause-analysis",
+    "ishikawa"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Qualiticien client",
+    "Ingénieur qualité"
+   ]
+  },
+  {
+   "id": "5-pourquoi",
+   "label": {
+    "fr": "5 Pourquoi",
+    "en": "5 Whys",
+    "ar": "5 Pourquoi",
+    "ru": "5 Почему"
+   },
+   "patterns": [
+    "5 pourquoi",
+    "5 whys",
+    "five whys",
+    "5 почему",
+    "five why"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "root-cause-analysis",
+    "ishikawa",
+    "8d",
+    "capa"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Chargé qualité",
+    "Animateur qualité"
+   ]
+  },
+  {
+   "id": "ishikawa",
+   "label": {
+    "fr": "Ishikawa",
+    "en": "Ishikawa",
+    "ar": "Ishikawa",
+    "ru": "Исикава"
+   },
+   "patterns": [
+    "ishikawa",
+    "fishbone",
+    "diagramme causes effets",
+    "arete poisson",
+    "исикава"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "5-pourquoi",
+    "root-cause-analysis",
+    "8d",
+    "arbre-causes"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Chargé qualité",
+    "Auditeur interne"
+   ]
+  },
+  {
+   "id": "root-cause-analysis",
+   "label": {
+    "fr": "Root Cause Analysis",
+    "en": "Root Cause Analysis",
+    "ar": "Root Cause Analysis",
+    "ru": "Анализ первопричин"
+   },
+   "patterns": [
+    "rca",
+    "root cause analysis",
+    "analyse cause racine",
+    "анализ первопричин"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "8d",
+    "5-pourquoi",
+    "ishikawa",
+    "arbre-causes",
+    "capa"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Ingénieur qualité",
+    "Enquêteur HSE"
+   ]
+  },
+  {
+   "id": "smed",
+   "label": {
+    "fr": "SMED",
+    "en": "SMED",
+    "ar": "SMED",
+    "ru": "SMED"
+   },
+   "patterns": [
+    "smed",
+    "single minute exchange die",
+    "changement serie rapide"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "lean-six-sigma",
+    "5s",
+    "tpm",
+    "kaizen"
+   ],
+   "jobs": [
+    "Responsable amélioration continue",
+    "Lean Manager",
+    "Ingénieur méthodes"
+   ]
+  },
+  {
+   "id": "poka-yoke",
+   "label": {
+    "fr": "Poka-Yoke",
+    "en": "Poka-Yoke",
+    "ar": "Poka-Yoke",
+    "ru": "Poka-Yoke"
+   },
+   "patterns": [
+    "poka yoke",
+    "pokayoke",
+    "erreur zero",
+    "mistake proofing"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-six-sigma",
+    "5s",
+    "kaizen",
+    "detrompeur"
+   ],
+   "jobs": [
+    "Responsable amélioration continue",
+    "Ingénieur méthodes",
+    "Lean Manager"
+   ]
+  },
+  {
+   "id": "tpm",
+   "label": {
+    "fr": "TPM",
+    "en": "TPM",
+    "ar": "TPM",
+    "ru": "TPM"
+   },
+   "patterns": [
+    "tpm",
+    "total productive maintenance",
+    "maintenance productive totale"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "lean-six-sigma",
+    "5s",
+    "smed",
+    "gmao"
+   ],
+   "jobs": [
+    "Responsable maintenance",
+    "Lean Manager",
+    "Responsable amélioration continue"
+   ]
+  },
+  {
+   "id": "vsm",
+   "label": {
+    "fr": "Value Stream Mapping",
+    "en": "Value Stream Mapping",
+    "ar": "Value Stream Mapping",
+    "ru": "Value Stream Mapping"
+   },
+   "patterns": [
+    "vsm",
+    "value stream mapping",
+    "cartographie flux valeur",
+    "mapping flux"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-six-sigma",
+    "process-mapping",
+    "kaizen",
+    "gemba-walk"
+   ],
+   "jobs": [
+    "Lean Manager",
+    "Responsable amélioration continue",
+    "Consultant Lean"
+   ]
+  },
+  {
+   "id": "spc",
+   "label": {
+    "fr": "SPC",
+    "en": "SPC",
+    "ar": "SPC",
+    "ru": "SPC"
+   },
+   "patterns": [
+    "spc",
+    "statistical process control",
+    "msp",
+    "maitrise statistique procedes"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "minitab",
+    "capabilite",
+    "cartes-controle",
+    "msa"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Statisticien qualité",
+    "Technicien qualité"
+   ]
+  },
+  {
+   "id": "msa",
+   "label": {
+    "fr": "MSA",
+    "en": "MSA",
+    "ar": "MSA",
+    "ru": "MSA"
+   },
+   "patterns": [
+    "msa",
+    "measurement system analysis",
+    "analyse systeme mesure"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "spc",
+    "minitab",
+    "metrologie",
+    "etalonnage"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Métrologue",
+    "Responsable laboratoire"
+   ]
+  },
+  {
+   "id": "capabilite",
+   "label": {
+    "fr": "Capabilité",
+    "en": "Capability",
+    "ar": "Capability",
+    "ru": "Воспроизводимость"
+   },
+   "patterns": [
+    "capabilite",
+    "cpk",
+    "cp",
+    "ppk",
+    "capability study",
+    "воспроизводимость"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "spc",
+    "minitab",
+    "controle-statistique",
+    "cartes-controle"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Statisticien qualité",
+    "Technicien qualité"
+   ]
+  },
+  {
+   "id": "doe",
+   "label": {
+    "fr": "Plans d'expériences",
+    "en": "Design of Experiments",
+    "ar": "Design of Experiments",
+    "ru": "Планирование эксперимента"
+   },
+   "patterns": [
+    "doe",
+    "design of experiments",
+    "plans experiences",
+    "планирование эксперимента"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "minitab",
+    "jmp",
+    "spc",
+    "validation-procedes"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Chercheur R&D",
+    "Statisticien"
+   ]
+  },
+  {
+   "id": "audit-interne",
+   "label": {
+    "fr": "Audit interne",
+    "en": "Internal Audit",
+    "ar": "التدقيق الداخلي",
+    "ru": "Внутренний аудит"
+   },
+   "patterns": [
+    "audit interne",
+    "internal audit",
+    "auditeur interne",
+    "внутренний аудит"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-9001",
+    "iso-14001",
+    "iso-45001",
+    "lead-auditor",
+    "plan-audit"
+   ],
+   "jobs": [
+    "Auditeur interne",
+    "Responsable QHSE",
+    "Chargé qualité"
+   ]
+  },
+  {
+   "id": "lead-auditor",
+   "label": {
+    "fr": "Lead Auditor",
+    "en": "Lead Auditor",
+    "ar": "Lead Auditor",
+    "ru": "Lead Auditor"
+   },
+   "patterns": [
+    "lead auditor",
+    "irca",
+    "auditeur responsable",
+    "auditeur tierce partie"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "audit-interne",
+    "audit-fournisseur",
+    "iso-9001",
+    "iso-14001"
+   ],
+   "jobs": [
+    "Auditeur certifié",
+    "Lead Auditor",
+    "Auditeur IRCA"
+   ]
+  },
+  {
+   "id": "audit-fournisseur",
+   "label": {
+    "fr": "Audit fournisseur",
+    "en": "Supplier Audit",
+    "ar": "تدقيق الموردين",
+    "ru": "Аудит поставщиков"
+   },
+   "patterns": [
+    "audit fournisseur",
+    "supplier audit",
+    "audit sous traitant",
+    "аудит поставщиков"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "audit-interne",
+    "evaluation-fournisseurs",
+    "qualification-fournisseur"
+   ],
+   "jobs": [
+    "Auditeur fournisseur",
+    "Acheteur qualité",
+    "Responsable Qualité fournisseurs"
+   ]
+  },
+  {
+   "id": "duerp",
+   "label": {
+    "fr": "DUERP",
+    "en": "DUERP",
+    "ar": "DUERP",
+    "ru": "DUERP"
+   },
+   "patterns": [
+    "duerp",
+    "document unique",
+    "document unique evaluation risques professionnels",
+    "evaluation risques"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "analyse-risques",
+    "plan-prevention",
+    "iso-45001",
+    "eval-risques-pro"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Préventeur",
+    "Chargé de prévention",
+    "Coordinateur sécurité"
+   ]
+  },
+  {
+   "id": "analyse-risques",
+   "label": {
+    "fr": "Analyse des risques",
+    "en": "Risk Assessment",
+    "ar": "تقييم المخاطر",
+    "ru": "Оценка рисков"
+   },
+   "patterns": [
+    "analyse risques",
+    "risk assessment",
+    "évaluation risques",
+    "оценка рисков",
+    "risk analysis"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "duerp",
+    "amdec",
+    "hazop",
+    "plan-prevention"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Ingénieur risques",
+    "Préventeur",
+    "Responsable QHSE"
+   ]
+  },
+  {
+   "id": "plan-prevention",
+   "label": {
+    "fr": "Plan de prévention",
+    "en": "Prevention Plan",
+    "ar": "خطة الوقاية",
+    "ru": "План профилактики"
+   },
+   "patterns": [
+    "plan prevention",
+    "prevention plan",
+    "план профилактики"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "duerp",
+    "analyse-risques",
+    "permis-travail",
+    "entreprises-exterieures"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Coordinateur sécurité",
+    "Préventeur"
+   ]
+  },
+  {
+   "id": "capa",
+   "label": {
+    "fr": "CAPA",
+    "en": "CAPA",
+    "ar": "CAPA",
+    "ru": "CAPA"
+   },
+   "patterns": [
+    "capa",
+    "corrective preventive action",
+    "actions correctives preventives",
+    "actions correctives"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "gestion-non-conformites",
+    "8d",
+    "root-cause-analysis",
+    "plan-action"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Chargé qualité",
+    "Qualiticien"
+   ]
+  },
+  {
+   "id": "gestion-non-conformites",
+   "label": {
+    "fr": "Gestion des non-conformités",
+    "en": "Non-conformance Management",
+    "ar": "إدارة عدم المطابقة",
+    "ru": "Управление несоответствиями"
+   },
+   "patterns": [
+    "non conformite",
+    "non conformance",
+    "nc",
+    "gestion nc",
+    "управление несоответствиями"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "capa",
+    "8d",
+    "plan-action",
+    "deviation"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Chargé qualité",
+    "Technicien qualité"
+   ]
+  },
+  {
+   "id": "plan-action",
+   "label": {
+    "fr": "Plan d'action",
+    "en": "Action Plan",
+    "ar": "خطة العمل",
+    "ru": "План действий"
+   },
+   "patterns": [
+    "plan action",
+    "action plan",
+    "plan actions correctives",
+    "план действий"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "capa",
+    "gestion-non-conformites",
+    "pdca",
+    "suivi-indicateurs"
+   ],
+   "jobs": [
+    "Responsable QHSE",
+    "Chargé qualité",
+    "Coordinateur QHSE"
+   ]
+  },
+  {
+   "id": "gestion-documentaire",
+   "label": {
+    "fr": "Gestion documentaire",
+    "en": "Document Control",
+    "ar": "التحكم في الوثائق",
+    "ru": "Управление документацией"
+   },
+   "patterns": [
+    "gestion documentaire",
+    "document control",
+    "ged",
+    "electronic document",
+    "управление документацией"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "sharepoint",
+    "mastercontrol",
+    "trackwise",
+    "procedures"
+   ],
+   "jobs": [
+    "Documentaliste QHSE",
+    "Chargé qualité",
+    "Responsable Qualité"
+   ]
+  },
+  {
+   "id": "veille-reglementaire",
+   "label": {
+    "fr": "Veille réglementaire",
+    "en": "Regulatory Watch",
+    "ar": "المراقبة التنظيمية",
+    "ru": "Нормативный мониторинг"
+   },
+   "patterns": [
+    "veille reglementaire",
+    "regulatory watch",
+    "veille normative",
+    "нормативный мониторинг"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "icpe",
+    "reach",
+    "conformite-legale",
+    "normes"
+   ],
+   "jobs": [
+    "Responsable QHSE",
+    "Juriste HSE",
+    "Chargé environnement"
+   ]
+  },
+  {
+   "id": "taux-frequence",
+   "label": {
+    "fr": "Taux de fréquence",
+    "en": "Frequency Rate",
+    "ar": "معدل التكرار",
+    "ru": "Коэффициент частоты"
+   },
+   "patterns": [
+    "taux frequence",
+    "frequency rate",
+    "tf",
+    "taux accidents"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "taux-gravite",
+    "kpi-hse",
+    "suivi-indicateurs",
+    "accidents-travail"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Chargé HSE",
+    "Préventeur"
+   ]
+  },
+  {
+   "id": "taux-gravite",
+   "label": {
+    "fr": "Taux de gravité",
+    "en": "Severity Rate",
+    "ar": "معدل الخطورة",
+    "ru": "Коэффициент тяжести"
+   },
+   "patterns": [
+    "taux gravite",
+    "severity rate",
+    "tg"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "taux-frequence",
+    "kpi-hse",
+    "suivi-indicateurs",
+    "accidents-travail"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Chargé HSE",
+    "Préventeur"
+   ]
+  },
+  {
+   "id": "enquete-accident",
+   "label": {
+    "fr": "Enquête accident",
+    "en": "Accident Investigation",
+    "ar": "التحقيق في الحوادث",
+    "ru": "Расследование несчастных случаев"
+   },
+   "patterns": [
+    "enquete accident",
+    "accident investigation",
+    "investigation incident",
+    "расследование инцидентов"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "arbre-causes",
+    "root-cause-analysis",
+    "analyse-risques",
+    "capa"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Enquêteur HSE",
+    "Préventeur"
+   ]
+  },
+  {
+   "id": "arbre-causes",
+   "label": {
+    "fr": "Arbre des causes",
+    "en": "Cause Tree",
+    "ar": "شجرة الأسباب",
+    "ru": "Дерево причин"
+   },
+   "patterns": [
+    "arbre causes",
+    "cause tree",
+    "arbre evenements",
+    "дерево причин"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "enquete-accident",
+    "root-cause-analysis",
+    "ishikawa",
+    "5-pourquoi"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Préventeur",
+    "Enquêteur HSE"
+   ]
+  },
+  {
+   "id": "formation-securite",
+   "label": {
+    "fr": "Formation sécurité",
+    "en": "Safety Training",
+    "ar": "التدريب على السلامة",
+    "ru": "Обучение технике безопасности"
+   },
+   "patterns": [
+    "formation securite",
+    "safety training",
+    "accueil securite",
+    "обучение технике безопасности"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "sensibilisation-hse",
+    "causerie-securite",
+    "plan-formation"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Formateur HSE",
+    "Animateur sécurité"
+   ]
+  },
+  {
+   "id": "permis-travail",
+   "label": {
+    "fr": "Permis de travail",
+    "en": "Permit to Work",
+    "ar": "تصريح العمل",
+    "ru": "Наряд-допуск"
+   },
+   "patterns": [
+    "permis travail",
+    "permit to work",
+    "ptw",
+    "permis feu",
+    "наряд-допуск"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "loto",
+    "consignation",
+    "plan-prevention",
+    "entreprises-exterieures"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Coordinateur sécurité",
+    "Chargé de prévention"
+   ]
+  },
+  {
+   "id": "loto",
+   "label": {
+    "fr": "LOTO",
+    "en": "LOTO",
+    "ar": "LOTO",
+    "ru": "LOTO"
+   },
+   "patterns": [
+    "loto",
+    "lockout tagout",
+    "consignation",
+    "lock out tag out",
+    "блокировка"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "permis-travail",
+    "consignation",
+    "plan-prevention",
+    "securite-machines"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Coordinateur sécurité",
+    "Technicien maintenance"
+   ]
+  },
+  {
+   "id": "epi",
+   "label": {
+    "fr": "EPI",
+    "en": "PPE",
+    "ar": "معدات الحماية الشخصية",
+    "ru": "СИЗ"
+   },
+   "patterns": [
+    "epi",
+    "ppe",
+    "equipement protection individuelle",
+    "personal protective equipment",
+    "сиз"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "epc",
+    "analyse-risques",
+    "plan-prevention",
+    "fiches-donnees-securite"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Chargé HSE",
+    "Coordinateur sécurité"
+   ]
+  },
+  {
+   "id": "plan-urgence",
+   "label": {
+    "fr": "Plan d'urgence",
+    "en": "Emergency Plan",
+    "ar": "خطة الطوارئ",
+    "ru": "План действий в ЧС"
+   },
+   "patterns": [
+    "plan urgence",
+    "emergency plan",
+    "poi",
+    "ppi",
+    "план действий в чс",
+    "evacuation"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "exercice-evacuation",
+    "analyse-risques",
+    "seveso",
+    "gestion-crise"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Coordinateur sécurité",
+    "Chargé de prévention"
+   ]
+  },
+  {
+   "id": "bilan-carbone",
+   "label": {
+    "fr": "Bilan carbone",
+    "en": "Carbon Footprint",
+    "ar": "البصمة الكربونية",
+    "ru": "Углеродный след"
+   },
+   "patterns": [
+    "bilan carbone",
+    "carbon footprint",
+    "ghg protocol",
+    "углеродный след",
+    "ges"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "acv",
+    "iso-14001",
+    "analyse-environnementale",
+    "iso-50001"
+   ],
+   "jobs": [
+    "Chargé environnement",
+    "Responsable développement durable",
+    "Responsable QHSE"
+   ]
+  },
+  {
+   "id": "acv",
+   "label": {
+    "fr": "Analyse de cycle de vie",
+    "en": "Life Cycle Assessment",
+    "ar": "تقييم دورة الحياة",
+    "ru": "Оценка жизненного цикла"
+   },
+   "patterns": [
+    "acv",
+    "lca",
+    "life cycle assessment",
+    "analyse cycle vie",
+    "оценка жизненного цикла"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "bilan-carbone",
+    "analyse-environnementale",
+    "iso-14001",
+    "eco-conception"
+   ],
+   "jobs": [
+    "Ingénieur environnement",
+    "Chargé environnement",
+    "Consultant environnement"
+   ]
+  },
+  {
+   "id": "icpe",
+   "label": {
+    "fr": "ICPE",
+    "en": "ICPE",
+    "ar": "ICPE",
+    "ru": "ICPE"
+   },
+   "patterns": [
+    "icpe",
+    "installations classees",
+    "installations classées protection environnement"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "veille-reglementaire",
+    "etude-impact",
+    "analyse-environnementale",
+    "dreal"
+   ],
+   "jobs": [
+    "Responsable environnement",
+    "Chargé environnement",
+    "Juriste HSE"
+   ]
+  },
+  {
+   "id": "gmp",
+   "label": {
+    "fr": "BPF / GMP",
+    "en": "GMP",
+    "ar": "GMP",
+    "ru": "GMP"
+   },
+   "patterns": [
+    "gmp",
+    "bpf",
+    "good manufacturing practice",
+    "bonnes pratiques fabrication",
+    "надлежащая производственная практика"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-13485",
+    "fda-21-cfr",
+    "validation-procedes",
+    "qualifications"
+   ],
+   "jobs": [
+    "Responsable Qualité pharma",
+    "Assurance Qualité",
+    "Auditeur GMP"
+   ]
+  },
+  {
+   "id": "validation-procedes",
+   "label": {
+    "fr": "Validation des procédés",
+    "en": "Process Validation",
+    "ar": "التحقق من العمليات",
+    "ru": "Валидация процессов"
+   },
+   "patterns": [
+    "validation procedes",
+    "process validation",
+    "валидация процессов",
+    "validation methode"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "gmp",
+    "qualifications",
+    "change-control",
+    "fda-21-cfr"
+   ],
+   "jobs": [
+    "Ingénieur validation",
+    "Responsable validation",
+    "Qualiticien pharma"
+   ]
+  },
+  {
+   "id": "qualifications",
+   "label": {
+    "fr": "Qualifications IQ/OQ/PQ",
+    "en": "IQ/OQ/PQ",
+    "ar": "IQ/OQ/PQ",
+    "ru": "IQ/OQ/PQ"
+   },
+   "patterns": [
+    "iq oq pq",
+    "qualification installation",
+    "qualification operationnelle",
+    "qualification performance"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "validation-procedes",
+    "gmp",
+    "fda-21-cfr",
+    "change-control"
+   ],
+   "jobs": [
+    "Ingénieur validation",
+    "Responsable validation",
+    "Qualiticien pharma"
+   ]
+  },
+  {
+   "id": "change-control",
+   "label": {
+    "fr": "Change Control",
+    "en": "Change Control",
+    "ar": "Change Control",
+    "ru": "Контроль изменений"
+   },
+   "patterns": [
+    "change control",
+    "gestion changements",
+    "control changes",
+    "контроль изменений"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "capa",
+    "deviation",
+    "gestion-non-conformites",
+    "validation-procedes"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Chargé assurance qualité",
+    "Qualiticien"
+   ]
+  },
+  {
+   "id": "deviation",
+   "label": {
+    "fr": "Déviation",
+    "en": "Deviation",
+    "ar": "الانحراف",
+    "ru": "Отклонение"
+   },
+   "patterns": [
+    "deviation",
+    "ecart",
+    "departure",
+    "отклонение"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "capa",
+    "gestion-non-conformites",
+    "change-control",
+    "oos"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Chargé qualité",
+    "Qualiticien"
+   ]
+  },
+  {
+   "id": "oos",
+   "label": {
+    "fr": "OOS",
+    "en": "OOS",
+    "ar": "OOS",
+    "ru": "OOS"
+   },
+   "patterns": [
+    "oos",
+    "out of specification",
+    "hors specifications",
+    "resultat non conforme"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "deviation",
+    "capa",
+    "gestion-non-conformites",
+    "controle-qualite"
+   ],
+   "jobs": [
+    "Responsable laboratoire",
+    "Analyste qualité",
+    "Chargé qualité"
+   ]
+  },
+  {
+   "id": "ifs",
+   "label": {
+    "fr": "IFS",
+    "en": "IFS",
+    "ar": "IFS",
+    "ru": "IFS"
+   },
+   "patterns": [
+    "ifs",
+    "international food standard",
+    "ifs food"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "brc",
+    "fssc-22000",
+    "haccp",
+    "iso-22000"
+   ],
+   "jobs": [
+    "Responsable Qualité agroalimentaire",
+    "Auditeur IFS",
+    "Qualiticien alimentaire"
+   ]
+  },
+  {
+   "id": "brc",
+   "label": {
+    "fr": "BRC",
+    "en": "BRC",
+    "ar": "BRC",
+    "ru": "BRC"
+   },
+   "patterns": [
+    "brc",
+    "british retail consortium",
+    "brcgs"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "ifs",
+    "fssc-22000",
+    "haccp",
+    "iso-22000"
+   ],
+   "jobs": [
+    "Responsable Qualité agroalimentaire",
+    "Auditeur BRC",
+    "Qualiticien alimentaire"
+   ]
+  },
+  {
+   "id": "reach",
+   "label": {
+    "fr": "REACH",
+    "en": "REACH",
+    "ar": "REACH",
+    "ru": "REACH"
+   },
+   "patterns": [
+    "reach",
+    "enregistrement evaluation substances chimiques"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "rohs",
+    "clp",
+    "fiches-donnees-securite",
+    "veille-reglementaire"
+   ],
+   "jobs": [
+    "Responsable environnement",
+    "Chargé environnement",
+    "Juriste HSE"
+   ]
+  },
+  {
+   "id": "rohs",
+   "label": {
+    "fr": "RoHS",
+    "en": "RoHS",
+    "ar": "RoHS",
+    "ru": "RoHS"
+   },
+   "patterns": [
+    "rohs",
+    "restriction substances dangereuses",
+    "directive rohs"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "reach",
+    "clp",
+    "fiches-donnees-securite",
+    "veille-reglementaire"
+   ],
+   "jobs": [
+    "Responsable environnement",
+    "Chargé environnement",
+    "Acheteur"
+   ]
+  },
+  {
+   "id": "atex",
+   "label": {
+    "fr": "ATEX",
+    "en": "ATEX",
+    "ar": "ATEX",
+    "ru": "ATEX"
+   },
+   "patterns": [
+    "atex",
+    "atmospheres explosives",
+    "directive atex",
+    "explosive atmospheres"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "analyse-risques",
+    "securite-chantier",
+    "securite-incendie",
+    "plan-prevention"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Ingénieur sécurité",
+    "Coordinateur ATEX"
+   ]
+  },
+  {
+   "id": "seveso",
+   "label": {
+    "fr": "Seveso",
+    "en": "Seveso",
+    "ar": "Seveso",
+    "ru": "Seveso"
+   },
+   "patterns": [
+    "seveso",
+    "directive seveso",
+    "seveso 3",
+    "seveso iii"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "plan-urgence",
+    "etude-dangers",
+    "analyse-risques",
+    "icpe"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Ingénieur risques industriels",
+    "Responsable sécurité process"
+   ]
+  },
+  {
+   "id": "green-belt",
+   "label": {
+    "fr": "Green Belt Six Sigma",
+    "en": "Six Sigma Green Belt",
+    "ar": "Six Sigma Green Belt",
+    "ru": "Six Sigma Green Belt"
+   },
+   "patterns": [
+    "green belt",
+    "ssgb",
+    "lean green belt",
+    "ceinture verte"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "black-belt",
+    "lean-six-sigma",
+    "dmaic",
+    "yellow-belt"
+   ],
+   "jobs": [
+    "Green Belt",
+    "Chargé d'amélioration continue",
+    "Ingénieur qualité"
+   ]
+  },
+  {
+   "id": "black-belt",
+   "label": {
+    "fr": "Black Belt Six Sigma",
+    "en": "Six Sigma Black Belt",
+    "ar": "Six Sigma Black Belt",
+    "ru": "Six Sigma Black Belt"
+   },
+   "patterns": [
+    "black belt",
+    "ssbb",
+    "lean black belt",
+    "ceinture noire"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "green-belt",
+    "master-black-belt",
+    "lean-six-sigma",
+    "dmaic"
+   ],
+   "jobs": [
+    "Black Belt",
+    "Responsable amélioration continue",
+    "Consultant Lean"
+   ]
+  },
+  {
+   "id": "minitab",
+   "label": {
+    "fr": "Minitab",
+    "en": "Minitab",
+    "ar": "Minitab",
+    "ru": "Minitab"
+   },
+   "patterns": [
+    "minitab",
+    "minitab statistical"
+   ],
+   "category": "outil",
+   "topics": [
+    "quality",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "spc",
+    "capabilite",
+    "doe",
+    "msa",
+    "jmp"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Statisticien qualité",
+    "Black Belt"
+   ]
+  },
+  {
+   "id": "jmp",
+   "label": {
+    "fr": "JMP",
+    "en": "JMP",
+    "ar": "JMP",
+    "ru": "JMP"
+   },
+   "patterns": [
+    "jmp",
+    "jmp statistical"
+   ],
+   "category": "outil",
+   "topics": [
+    "quality",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "minitab",
+    "spc",
+    "doe",
+    "capabilite"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Statisticien qualité",
+    "Data analyst qualité"
+   ]
+  },
+  {
+   "id": "sap-qm",
+   "label": {
+    "fr": "SAP QM",
+    "en": "SAP QM",
+    "ar": "SAP QM",
+    "ru": "SAP QM"
+   },
+   "patterns": [
+    "sap qm",
+    "sap quality management",
+    "sap qm module"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-ehs",
+    "sap-pm",
+    "controle-qualite",
+    "traçabilite"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Chargé qualité",
+    "Key user SAP QM"
+   ]
+  },
+  {
+   "id": "sap-ehs",
+   "label": {
+    "fr": "SAP EHS",
+    "en": "SAP EHS",
+    "ar": "SAP EHS",
+    "ru": "SAP EHS"
+   },
+   "patterns": [
+    "sap ehs",
+    "sap environment health safety",
+    "sap ehsm"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-qm",
+    "sap-pm",
+    "hse-reporting",
+    "kpi-hse"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Chargé HSE",
+    "Key user SAP EHS"
+   ]
+  },
+  {
+   "id": "trackwise",
+   "label": {
+    "fr": "TrackWise",
+    "en": "TrackWise",
+    "ar": "TrackWise",
+    "ru": "TrackWise"
+   },
+   "patterns": [
+    "trackwise",
+    "trackwise digital",
+    "spartan bioscience"
+   ],
+   "category": "outil",
+   "topics": [
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "mastercontrol",
+    "veeva-vault",
+    "q-pulse",
+    "gestion-non-conformites"
+   ],
+   "jobs": [
+    "Responsable Qualité pharma",
+    "Chargé assurance qualité",
+    "Administrateur TrackWise"
+   ]
+  },
+  {
+   "id": "mastercontrol",
+   "label": {
+    "fr": "MasterControl",
+    "en": "MasterControl",
+    "ar": "MasterControl",
+    "ru": "MasterControl"
+   },
+   "patterns": [
+    "mastercontrol",
+    "master control qms"
+   ],
+   "category": "outil",
+   "topics": [
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "trackwise",
+    "veeva-vault",
+    "q-pulse",
+    "gestion-documentaire"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Chargé assurance qualité",
+    "Administrateur QMS"
+   ]
+  },
+  {
+   "id": "veeva-vault",
+   "label": {
+    "fr": "Veeva Vault",
+    "en": "Veeva Vault",
+    "ar": "Veeva Vault",
+    "ru": "Veeva Vault"
+   },
+   "patterns": [
+    "veeva vault",
+    "veeva",
+    "vault qms"
+   ],
+   "category": "outil",
+   "topics": [
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "mastercontrol",
+    "trackwise",
+    "gestion-documentaire",
+    "gmp"
+   ],
+   "jobs": [
+    "Responsable Qualité pharma",
+    "Chargé assurance qualité",
+    "Administrateur Veeva"
+   ]
+  },
+  {
+   "id": "enablon",
+   "label": {
+    "fr": "Enablon",
+    "en": "Enablon",
+    "ar": "Enablon",
+    "ru": "Enablon"
+   },
+   "patterns": [
+    "enablon",
+    "wolters kluwer enablon"
+   ],
+   "category": "outil",
+   "topics": [
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "cority",
+    "sphera",
+    "intelex",
+    "hse-reporting"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Chargé HSE",
+    "Administrateur EHS"
+   ]
+  },
+  {
+   "id": "intelex",
+   "label": {
+    "fr": "Intelex",
+    "en": "Intelex",
+    "ar": "Intelex",
+    "ru": "Intelex"
+   },
+   "patterns": [
+    "intelex",
+    "intelex ehs"
+   ],
+   "category": "outil",
+   "topics": [
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "enablon",
+    "cority",
+    "sphera",
+    "hse-reporting"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Chargé HSE",
+    "Administrateur EHS"
+   ]
+  },
+  {
+   "id": "q-pulse",
+   "label": {
+    "fr": "Q-Pulse",
+    "en": "Q-Pulse",
+    "ar": "Q-Pulse",
+    "ru": "Q-Pulse"
+   },
+   "patterns": [
+    "q pulse",
+    "qpulse",
+    "ideagen q pulse"
+   ],
+   "category": "outil",
+   "topics": [
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "mastercontrol",
+    "trackwise",
+    "gestion-documentaire",
+    "gestion-non-conformites"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Chargé qualité",
+    "Administrateur QMS"
+   ]
+  },
+  {
+   "id": "bluekango",
+   "label": {
+    "fr": "BlueKanGo",
+    "en": "BlueKanGo",
+    "ar": "BlueKanGo",
+    "ru": "BlueKanGo"
+   },
+   "patterns": [
+    "bluekango",
+    "blue kango"
+   ],
+   "category": "outil",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "tenor",
+    "pilote",
+    "gestion-non-conformites",
+    "gestion-documentaire"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Chargé qualité",
+    "Coordinateur QHSE"
+   ]
+  },
+  {
+   "id": "lims",
+   "label": {
+    "fr": "LIMS",
+    "en": "LIMS",
+    "ar": "LIMS",
+    "ru": "LIMS"
+   },
+   "patterns": [
+    "lims",
+    "laboratory information management",
+    "gestion laboratoire"
+   ],
+   "category": "outil",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "controle-qualite",
+    "oos",
+    "metrologie",
+    "etalonnage"
+   ],
+   "jobs": [
+    "Responsable laboratoire",
+    "Analyste qualité",
+    "Technicien laboratoire"
+   ]
+  },
+  {
+   "id": "gmao",
+   "label": {
+    "fr": "GMAO",
+    "en": "CMMS",
+    "ar": "نظام إدارة الصيانة",
+    "ru": "Система управления ТОиР"
+   },
+   "patterns": [
+    "gmao",
+    "cmms",
+    "gestion maintenance assistee",
+    "maintenance management"
+   ],
+   "category": "outil",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-pm",
+    "tpm",
+    "maintenance-preventive",
+    "plan-maintenance"
+   ],
+   "jobs": [
+    "Responsable maintenance",
+    "Technicien maintenance",
+    "Chef d'atelier"
+   ]
+  },
+  {
+   "id": "sharepoint",
+   "label": {
+    "fr": "SharePoint",
+    "en": "SharePoint",
+    "ar": "SharePoint",
+    "ru": "SharePoint"
+   },
+   "patterns": [
+    "sharepoint",
+    "microsoft sharepoint",
+    "ms sharepoint"
+   ],
+   "category": "outil",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-documentaire",
+    "power-bi",
+    "office-365",
+    "teams"
+   ],
+   "jobs": [
+    "Chargé QHSE",
+    "Coordinateur QHSE",
+    "Documentaliste"
+   ]
+  },
+  {
+   "id": "power-bi",
+   "label": {
+    "fr": "Power BI",
+    "en": "Power BI",
+    "ar": "Power BI",
+    "ru": "Power BI"
+   },
+   "patterns": [
+    "power bi",
+    "powerbi",
+    "microsoft power bi"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "excel-avance",
+    "suivi-indicateurs",
+    "kpi-hse",
+    "reporting-qhse"
+   ],
+   "jobs": [
+    "Responsable QHSE",
+    "Analyste QHSE",
+    "Data analyst qualité"
+   ]
+  },
+  {
+   "id": "excel-avance",
+   "label": {
+    "fr": "Excel avancé",
+    "en": "Advanced Excel",
+    "ar": "Excel المتقدم",
+    "ru": "Excel продвинутый"
+   },
+   "patterns": [
+    "excel avance",
+    "advanced excel",
+    "excel tcd",
+    "vba excel",
+    "tableaux croises"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "power-bi",
+    "suivi-indicateurs",
+    "spc",
+    "kpi-hse"
+   ],
+   "jobs": [
+    "Chargé QHSE",
+    "Technicien qualité",
+    "Coordinateur QHSE"
+   ]
+  },
+  {
+   "id": "visio",
+   "label": {
+    "fr": "Visio",
+    "en": "Visio",
+    "ar": "Visio",
+    "ru": "Visio"
+   },
+   "patterns": [
+    "visio",
+    "microsoft visio",
+    "ms visio"
+   ],
+   "category": "outil",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "process-mapping",
+    "vsm",
+    "logigramme",
+    "organigramme"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Chargé méthodes",
+    "Coordinateur QHSE"
+   ]
+  },
+  {
+   "id": "revue-direction",
+   "label": {
+    "fr": "Revue de direction",
+    "en": "Management Review",
+    "ar": "مراجعة الإدارة",
+    "ru": "Анализ со стороны руководства"
+   },
+   "patterns": [
+    "revue direction",
+    "management review",
+    "анализ со стороны руководства"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-9001",
+    "iso-14001",
+    "iso-45001",
+    "kpi-qhse"
+   ],
+   "jobs": [
+    "Responsable QHSE",
+    "Responsable Qualité",
+    "Directeur QHSE"
+   ]
+  },
+  {
+   "id": "kpi-qhse",
+   "label": {
+    "fr": "Indicateurs QHSE",
+    "en": "QHSE KPIs",
+    "ar": "مؤشرات QHSE",
+    "ru": "KPI QHSE"
+   },
+   "patterns": [
+    "kpi qhse",
+    "indicateurs qhse",
+    "tableau bord qhse",
+    "qhse dashboard"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "suivi-indicateurs",
+    "taux-frequence",
+    "taux-gravite",
+    "revue-direction"
+   ],
+   "jobs": [
+    "Responsable QHSE",
+    "Chargé QHSE",
+    "Coordinateur QHSE"
+   ]
+  },
+  {
+   "id": "controle-qualite",
+   "label": {
+    "fr": "Contrôle qualité",
+    "en": "Quality Control",
+    "ar": "مراقبة الجودة",
+    "ru": "Контроль качества"
+   },
+   "patterns": [
+    "controle qualite",
+    "quality control",
+    "qc",
+    "контроль качества",
+    "inspection qualite"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "assurance-qualite",
+    "plan-surveillance",
+    "metrologie",
+    "reception-marchandises"
+   ],
+   "jobs": [
+    "Contrôleur qualité",
+    "Technicien qualité",
+    "Inspecteur qualité"
+   ]
+  },
+  {
+   "id": "assurance-qualite",
+   "label": {
+    "fr": "Assurance qualité",
+    "en": "Quality Assurance",
+    "ar": "ضمان الجودة",
+    "ru": "Обеспечение качества"
+   },
+   "patterns": [
+    "assurance qualite",
+    "quality assurance",
+    "qa",
+    "обеспечение качества"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "controle-qualite",
+    "iso-9001",
+    "gestion-non-conformites",
+    "capa"
+   ],
+   "jobs": [
+    "Responsable Assurance Qualité",
+    "Chargé AQ",
+    "Qualiticien AQ"
+   ]
+  },
+  {
+   "id": "metrologie",
+   "label": {
+    "fr": "Métrologie",
+    "en": "Metrology",
+    "ar": "القياس",
+    "ru": "Метрология"
+   },
+   "patterns": [
+    "metrologie",
+    "metrology",
+    "метрология",
+    "instrument mesure"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "etalonnage",
+    "msa",
+    "controle-qualite",
+    "iso-17025"
+   ],
+   "jobs": [
+    "Métrologue",
+    "Technicien métrologie",
+    "Responsable laboratoire"
+   ]
+  },
+  {
+   "id": "etalonnage",
+   "label": {
+    "fr": "Étalonnage",
+    "en": "Calibration",
+    "ar": "المعايرة",
+    "ru": "Калибровка"
+   },
+   "patterns": [
+    "etalonnage",
+    "calibration",
+    "калибровка",
+    "verification instruments"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "metrologie",
+    "msa",
+    "controle-qualite",
+    "iso-17025"
+   ],
+   "jobs": [
+    "Métrologue",
+    "Technicien métrologie",
+    "Responsable laboratoire"
+   ]
+  },
+  {
+   "id": "process-mapping",
+   "label": {
+    "fr": "Cartographie des processus",
+    "en": "Process Mapping",
+    "ar": "رسم خرائط العمليات",
+    "ru": "Картирование процессов"
+   },
+   "patterns": [
+    "process mapping",
+    "cartographie processus",
+    "mapping processus",
+    "картирование процессов"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "vsm",
+    "visio",
+    "logigramme",
+    "iso-9001"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Chargé méthodes",
+    "Consultant organisation"
+   ]
+  },
+  {
+   "id": "reception-marchandises",
+   "label": {
+    "fr": "Contrôle réception",
+    "en": "Incoming Inspection",
+    "ar": "فحص الوارد",
+    "ru": "Входной контроль"
+   },
+   "patterns": [
+    "controle reception",
+    "incoming inspection",
+    "reception marchandises",
+    "входной контроль"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "controle-qualite",
+    "evaluation-fournisseurs",
+    "plan-surveillance",
+    "metrologie"
+   ],
+   "jobs": [
+    "Contrôleur qualité",
+    "Technicien qualité",
+    "Magasinier qualité"
+   ]
+  },
+  {
+   "id": "evaluation-fournisseurs",
+   "label": {
+    "fr": "Évaluation fournisseurs",
+    "en": "Supplier Evaluation",
+    "ar": "تقييم الموردين",
+    "ru": "Оценка поставщиков"
+   },
+   "patterns": [
+    "evaluation fournisseurs",
+    "supplier evaluation",
+    "audit fournisseur",
+    "оценка поставщиков"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "audit-fournisseur",
+    "qualification-fournisseur",
+    "reception-marchandises"
+   ],
+   "jobs": [
+    "Acheteur qualité",
+    "Responsable Qualité fournisseurs",
+    "Chargé qualité"
+   ]
+  },
+  {
+   "id": "tracabilite",
+   "label": {
+    "fr": "Traçabilité",
+    "en": "Traceability",
+    "ar": "التتبع",
+    "ru": "Прослеживаемость"
+   },
+   "patterns": [
+    "tracabilite",
+    "traceability",
+    "прослеживаемость",
+    "suivi lots"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "gestion-non-conformites",
+    "sap-qm",
+    "liberation-lot",
+    "controle-qualite"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Chargé qualité",
+    "Technicien qualité"
+   ]
+  },
+  {
+   "id": "liberation-lot",
+   "label": {
+    "fr": "Libération de lot",
+    "en": "Batch Release",
+    "ar": "إطلاق الدفعة",
+    "ru": "Выпуск серии"
+   },
+   "patterns": [
+    "liberation lot",
+    "batch release",
+    "release lot",
+    "выпуск серии"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "tracabilite",
+    "controle-qualite",
+    "oos",
+    "gmp"
+   ],
+   "jobs": [
+    "Responsable Qualité pharma",
+    "Chargé AQ",
+    "Qualiticien"
+   ]
+  },
+  {
+   "id": "fda-21-cfr",
+   "label": {
+    "fr": "FDA 21 CFR Part 11",
+    "en": "FDA 21 CFR Part 11",
+    "ar": "FDA 21 CFR Part 11",
+    "ru": "FDA 21 CFR Part 11"
+   },
+   "patterns": [
+    "fda 21 cfr",
+    "21 cfr part 11",
+    "fda part 11",
+    "electronic records"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "gmp",
+    "iso-13485",
+    "validation-procedes",
+    "veeva-vault"
+   ],
+   "jobs": [
+    "Responsable Qualité pharma",
+    "Regulatory Affairs",
+    "Qualiticien validation"
+   ]
+  },
+  {
+   "id": "gestion-dechets",
+   "label": {
+    "fr": "Gestion des déchets",
+    "en": "Waste Management",
+    "ar": "إدارة النفايات",
+    "ru": "Управление отходами"
+   },
+   "patterns": [
+    "gestion dechets",
+    "waste management",
+    "tri dechets",
+    "управление отходами"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "analyse-environnementale",
+    "iso-14001",
+    "icpe",
+    "bilan-carbone"
+   ],
+   "jobs": [
+    "Responsable environnement",
+    "Chargé environnement",
+    "Coordinateur HSE"
+   ]
+  },
+  {
+   "id": "analyse-environnementale",
+   "label": {
+    "fr": "Analyse environnementale",
+    "en": "Environmental Analysis",
+    "ar": "التحليل البيئي",
+    "ru": "Экологический анализ"
+   },
+   "patterns": [
+    "analyse environnementale",
+    "environmental analysis",
+    "evaluation environnementale"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-14001",
+    "bilan-carbone",
+    "acv",
+    "etude-impact"
+   ],
+   "jobs": [
+    "Responsable environnement",
+    "Chargé environnement",
+    "Ingénieur environnement"
+   ]
+  },
+  {
+   "id": "gestion-crise",
+   "label": {
+    "fr": "Gestion de crise",
+    "en": "Crisis Management",
+    "ar": "إدارة الأزمات",
+    "ru": "Управление кризисами"
+   },
+   "patterns": [
+    "gestion crise",
+    "crisis management",
+    "plan continuite",
+    "управление кризисами"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "plan-urgence",
+    "analyse-risques",
+    "seveso",
+    "communication-crise"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Directeur QHSE",
+    "Coordinateur sécurité"
+   ]
+  },
+  {
+   "id": "sensibilisation-hse",
+   "label": {
+    "fr": "Sensibilisation HSE",
+    "en": "HSE Awareness",
+    "ar": "التوعية بالصحة والسلامة",
+    "ru": "Информирование по ОТ и ПБ"
+   },
+   "patterns": [
+    "sensibilisation hse",
+    "hse awareness",
+    "toolbox talk",
+    "quart heure securite"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "formation-securite",
+    "causerie-securite",
+    "accueil-securite",
+    "culture-securite"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Animateur sécurité",
+    "Chargé de prévention"
+   ]
+  },
+  {
+   "id": "culture-securite",
+   "label": {
+    "fr": "Culture sécurité",
+    "en": "Safety Culture",
+    "ar": "ثقافة السلامة",
+    "ru": "Культура безопасности"
+   },
+   "patterns": [
+    "culture securite",
+    "safety culture",
+    "культура безопасности"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "sensibilisation-hse",
+    "formation-securite",
+    "leadership",
+    "engagement-direction"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Directeur QHSE",
+    "Coordinateur sécurité"
+   ]
+  },
+  {
+   "id": "gestion-changement",
+   "label": {
+    "fr": "Gestion du changement",
+    "en": "Change Management",
+    "ar": "إدارة التغيير",
+    "ru": "Управление изменениями"
+   },
+   "patterns": [
+    "gestion changement",
+    "change management",
+    "conduite changement",
+    "управление изменениями"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "communication",
+    "formation",
+    "leadership",
+    "pedagogie"
+   ],
+   "jobs": [
+    "Responsable QHSE",
+    "Consultant QHSE",
+    "Chef de projet QHSE"
+   ]
+  },
+  {
+   "id": "gestion-projet",
+   "label": {
+    "fr": "Gestion de projet",
+    "en": "Project Management",
+    "ar": "إدارة المشاريع",
+    "ru": "Управление проектами"
+   },
+   "patterns": [
+    "gestion projet",
+    "project management",
+    "chef projet",
+    "управление проектами"
+   ],
+   "category": "transverse",
+   "topics": [
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "plan-action",
+    "suivi-indicateurs",
+    "coordination",
+    "reporting"
+   ],
+   "jobs": [
+    "Chef de projet QHSE",
+    "Responsable QHSE",
+    "Coordinateur QHSE"
+   ]
+  },
+  {
+   "id": "anglais-technique",
+   "label": {
+    "fr": "Anglais technique",
+    "en": "Technical English",
+    "ar": "الإنجليزية التقنية",
+    "ru": "Технический английский"
+   },
+   "patterns": [
+    "anglais technique",
+    "technical english",
+    "english fluent",
+    "b2 english"
+   ],
+   "category": "langue",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "anglais-professionnel",
+    "communication-internationale",
+    "reporting-international"
+   ],
+   "jobs": [
+    "Responsable QHSE groupe",
+    "Auditeur international",
+    "Qualiticien export"
+   ]
+  },
+  {
+   "id": "nebosch",
+   "label": {
+    "fr": "NEBOSH",
+    "en": "NEBOSH",
+    "ar": "NEBOSH",
+    "ru": "NEBOSH"
+   },
+   "patterns": [
+    "nebosch",
+    "nebosch certificate",
+    "nebosch diploma"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "iosh",
+    "iso-45001",
+    "analyse-risques",
+    "csp"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Consultant HSE",
+    "Safety Manager"
+   ]
+  },
+  {
+   "id": "iosh",
+   "label": {
+    "fr": "IOSH",
+    "en": "IOSH",
+    "ar": "IOSH",
+    "ru": "IOSH"
+   },
+   "patterns": [
+    "iosh",
+    "iosh managing safely",
+    "iosh working safely"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "nebosch",
+    "iso-45001",
+    "formation-securite"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Chargé HSE",
+    "Coordinateur sécurité"
+   ]
+  },
+  {
+   "id": "vca",
+   "label": {
+    "fr": "VCA",
+    "en": "VCA",
+    "ar": "VCA",
+    "ru": "VCA"
+   },
+   "patterns": [
+    "vca",
+    "vca certification",
+    "safety certification contractors"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "mase",
+    "iso-45001",
+    "securite-chantier",
+    "entreprises-exterieures"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Coordinateur sécurité",
+    "Chef de chantier"
+   ]
+  },
+  {
+   "id": "communication",
+   "label": {
+    "fr": "Communication",
+    "en": "Communication",
+    "ar": "التواصل",
+    "ru": "Коммуникация"
+   },
+   "patterns": [
+    "communication",
+    "communication professionnelle",
+    "коммуникация"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "pedagogie",
+    "animation-reunions",
+    "formation-securite",
+    "negociation"
+   ],
+   "jobs": [
+    "Responsable QHSE",
+    "Animateur QHSE",
+    "Chargé QHSE"
+   ]
+  },
+  {
+   "id": "pedagogie",
+   "label": {
+    "fr": "Pédagogie",
+    "en": "Teaching Skills",
+    "ar": "المهارات التعليمية",
+    "ru": "Педагогические навыки"
+   },
+   "patterns": [
+    "pedagogie",
+    "pedagogical skills",
+    "formation animation",
+    "педагогические навыки"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality",
+    "education"
+   ],
+   "level": "frequent",
+   "related": [
+    "formation-securite",
+    "communication",
+    "sensibilisation-hse",
+    "animation-reunions"
+   ],
+   "jobs": [
+    "Formateur HSE",
+    "Animateur sécurité",
+    "Responsable formation QHSE"
+   ]
+  },
+  {
+   "id": "rigueur",
+   "label": {
+    "fr": "Rigueur",
+    "en": "Rigour",
+    "ar": "الدقة",
+    "ru": "Тщательность"
+   },
+   "patterns": [
+    "rigueur",
+    "meticulous",
+    "attention detail",
+    "тщательность",
+    "attention au detail"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "organisation",
+    "methode",
+    "fiabilite",
+    "conformite"
+   ],
+   "jobs": [
+    "Contrôleur qualité",
+    "Auditeur",
+    "Technicien qualité"
+   ]
+  },
+  {
+   "id": "leadership",
+   "label": {
+    "fr": "Leadership",
+    "en": "Leadership",
+    "ar": "القيادة",
+    "ru": "Лидерство"
+   },
+   "patterns": [
+    "leadership",
+    "management equipe",
+    "лидерство",
+    "federer"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-changement",
+    "communication",
+    "culture-securite",
+    "motivation"
+   ],
+   "jobs": [
+    "Responsable QHSE",
+    "Directeur QHSE",
+    "Manager QHSE"
+   ]
+  },
+  {
+   "id": "esprit-analyse",
+   "label": {
+    "fr": "Esprit d'analyse",
+    "en": "Analytical Skills",
+    "ar": "مهارات التحليل",
+    "ru": "Аналитическое мышление"
+   },
+   "patterns": [
+    "esprit analyse",
+    "analytical skills",
+    "synthese",
+    "аналитическое мышление"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "root-cause-analysis",
+    "rigueur",
+    "prise-decision",
+    "resolution-problemes"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Auditeur",
+    "Responsable QHSE"
+   ]
+  },
+  {
+   "id": "force-proposition",
+   "label": {
+    "fr": "Force de proposition",
+    "en": "Proactive",
+    "ar": "المبادرة",
+    "ru": "Инициативность"
+   },
+   "patterns": [
+    "force proposition",
+    "proactive",
+    "initiative",
+    "инициативность"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "amelioration-continue",
+    "innovation",
+    "autonomie",
+    "curiosite"
+   ],
+   "jobs": [
+    "Responsable QHSE",
+    "Chargé amélioration continue",
+    "Consultant QHSE"
+   ]
+  },
+  {
+   "id": "fssc-22000",
+   "label": {
+    "fr": "FSSC 22000",
+    "en": "FSSC 22000",
+    "ar": "FSSC 22000",
+    "ru": "FSSC 22000"
+   },
+   "patterns": [
+    "fssc 22000",
+    "fssc22000",
+    "food safety system certification"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality"
+   ],
+   "level": "specialise",
+   "related": [
+    "iso-22000",
+    "haccp",
+    "ifs",
+    "brc"
+   ],
+   "jobs": [
+    "Responsable Qualité alimentaire",
+    "Auditeur FSSC",
+    "Qualiticien agroalimentaire"
+   ]
+  },
+  {
+   "id": "vda-63",
+   "label": {
+    "fr": "VDA 6.3",
+    "en": "VDA 6.3",
+    "ar": "VDA 6.3",
+    "ru": "VDA 6.3"
+   },
+   "patterns": [
+    "vda 6.3",
+    "vda63",
+    "audit process automobile"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "iatf-16949",
+    "audit-fournisseur",
+    "amdec",
+    "ppap"
+   ],
+   "jobs": [
+    "Auditeur VDA",
+    "Responsable Qualité automobile",
+    "Qualiticien fournisseur"
+   ]
+  },
+  {
+   "id": "ppap",
+   "label": {
+    "fr": "PPAP",
+    "en": "PPAP",
+    "ar": "PPAP",
+    "ru": "PPAP"
+   },
+   "patterns": [
+    "ppap",
+    "production part approval process",
+    "approbation piece production"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "apqp",
+    "iatf-16949",
+    "amdec",
+    "vda-63"
+   ],
+   "jobs": [
+    "Qualiticien projet auto",
+    "Responsable Qualité automobile",
+    "Ingénieur qualité"
+   ]
+  },
+  {
+   "id": "apqp",
+   "label": {
+    "fr": "APQP",
+    "en": "APQP",
+    "ar": "APQP",
+    "ru": "APQP"
+   },
+   "patterns": [
+    "apqp",
+    "advanced product quality planning",
+    "planification qualite produit"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "ppap",
+    "iatf-16949",
+    "amdec",
+    "plan-surveillance"
+   ],
+   "jobs": [
+    "Qualiticien projet auto",
+    "Responsable Qualité automobile",
+    "Ingénieur qualité"
+   ]
+  },
+  {
+   "id": "gemba-walk",
+   "label": {
+    "fr": "Gemba Walk",
+    "en": "Gemba Walk",
+    "ar": "Gemba Walk",
+    "ru": "Гемба"
+   },
+   "patterns": [
+    "gemba walk",
+    "gemba",
+    "terrain",
+    "tour terrain",
+    "гемба"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-six-sigma",
+    "5s",
+    "kaizen",
+    "visual-management"
+   ],
+   "jobs": [
+    "Lean Manager",
+    "Responsable amélioration continue",
+    "Chef d'atelier"
+   ]
+  },
+  {
+   "id": "visual-management",
+   "label": {
+    "fr": "Management visuel",
+    "en": "Visual Management",
+    "ar": "الإدارة البصرية",
+    "ru": "Визуальное управление"
+   },
+   "patterns": [
+    "visual management",
+    "management visuel",
+    "affichage terrain",
+    "визуальное управление"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "5s",
+    "gemba-walk",
+    "andon",
+    "kaizen"
+   ],
+   "jobs": [
+    "Lean Manager",
+    "Responsable amélioration continue",
+    "Chef d'atelier"
+   ]
+  },
+  {
+   "id": "sipoc",
+   "label": {
+    "fr": "SIPOC",
+    "en": "SIPOC",
+    "ar": "SIPOC",
+    "ru": "SIPOC"
+   },
+   "patterns": [
+    "sipoc",
+    "supplier input process output customer"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "process-mapping",
+    "vsm",
+    "dmaic",
+    "lean-six-sigma"
+   ],
+   "jobs": [
+    "Black Belt",
+    "Green Belt",
+    "Chargé amélioration continue"
+   ]
+  },
+  {
+   "id": "andon",
+   "label": {
+    "fr": "Andon",
+    "en": "Andon",
+    "ar": "Andon",
+    "ru": "Андон"
+   },
+   "patterns": [
+    "andon",
+    "systeme andon",
+    "signal andon",
+    "андон"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "visual-management",
+    "5s",
+    "lean-six-sigma",
+    "jidoka"
+   ],
+   "jobs": [
+    "Lean Manager",
+    "Responsable amélioration continue",
+    "Chef d'atelier"
+   ]
+  },
+  {
+   "id": "jidoka",
+   "label": {
+    "fr": "Jidoka",
+    "en": "Jidoka",
+    "ar": "Jidoka",
+    "ru": "Дзидока"
+   },
+   "patterns": [
+    "jidoka",
+    "autonomation",
+    "джидока"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "andon",
+    "lean-six-sigma",
+    "poka-yoke",
+    "5s"
+   ],
+   "jobs": [
+    "Lean Manager",
+    "Responsable amélioration continue",
+    "Ingénieur méthodes"
+   ]
+  },
+  {
+   "id": "securite-incendie",
+   "label": {
+    "fr": "Sécurité incendie",
+    "en": "Fire Safety",
+    "ar": "السلامة من الحرائق",
+    "ru": "Пожарная безопасность"
+   },
+   "patterns": [
+    "securite incendie",
+    "fire safety",
+    "prevention incendie",
+    "пожарная безопасность"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "plan-urgence",
+    "exercice-evacuation",
+    "erp",
+    "analyse-risques"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Coordinateur sécurité",
+    "Agent de prévention"
+   ]
+  },
+  {
+   "id": "risque-chimique",
+   "label": {
+    "fr": "Risque chimique",
+    "en": "Chemical Risk",
+    "ar": "الخطر الكيميائي",
+    "ru": "Химический риск"
+   },
+   "patterns": [
+    "risque chimique",
+    "chemical risk",
+    "produits chimiques",
+    "химический риск"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "fiches-donnees-securite",
+    "reach",
+    "epi",
+    "analyse-risques"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Chargé HSE",
+    "Préventeur"
+   ]
+  },
+  {
+   "id": "fiches-donnees-securite",
+   "label": {
+    "fr": "FDS",
+    "en": "SDS",
+    "ar": "SDS",
+    "ru": "SDS"
+   },
+   "patterns": [
+    "fds",
+    "sds",
+    "fiche donnees securite",
+    "safety data sheet",
+    "паспорт безопасности"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "risque-chimique",
+    "reach",
+    "epi",
+    "clp"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Chargé HSE",
+    "Chargé environnement"
+   ]
+  },
+  {
+   "id": "ergonomie",
+   "label": {
+    "fr": "Ergonomie",
+    "en": "Ergonomics",
+    "ar": "بيئة العمل",
+    "ru": "Эргономика"
+   },
+   "patterns": [
+    "ergonomie",
+    "ergonomics",
+    "tms",
+    "troubles musculosquelettiques",
+    "эргономика"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "duerp",
+    "analyse-risques",
+    "prevention-sante",
+    "conditions-travail"
+   ],
+   "jobs": [
+    "Préventeur",
+    "Ergonome",
+    "Chargé de prévention"
+   ]
+  },
+  {
+   "id": "rps",
+   "label": {
+    "fr": "RPS",
+    "en": "Psychosocial Risks",
+    "ar": "المخاطر النفسية",
+    "ru": "Психосоциальные риски"
+   },
+   "patterns": [
+    "rps",
+    "risques psychosociaux",
+    "psychosocial risks",
+    "психосоциальные риски",
+    "stress travail"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "duerp",
+    "ergonomie",
+    "conditions-travail",
+    "qvt"
+   ],
+   "jobs": [
+    "Préventeur",
+    "Chargé de prévention",
+    "Responsable RH"
+   ]
+  },
+  {
+   "id": "qvt",
+   "label": {
+    "fr": "QVT",
+    "en": "QWL",
+    "ar": "جودة الحياة في العمل",
+    "ru": "Качество трудовой жизни"
+   },
+   "patterns": [
+    "qvt",
+    "qualite vie travail",
+    "quality work life",
+    "качество трудовой жизни"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "rps",
+    "ergonomie",
+    "conditions-travail",
+    "bien-etre-travail"
+   ],
+   "jobs": [
+    "Responsable QVT",
+    "Chargé de prévention",
+    "Responsable RH"
+   ]
+  },
+  {
+   "id": "habilitation-electrique",
+   "label": {
+    "fr": "Habilitation électrique",
+    "en": "Electrical Authorization",
+    "ar": "التأهيل الكهربائي",
+    "ru": "Допуск по электробезопасности"
+   },
+   "patterns": [
+    "habilitation electrique",
+    "electrical authorization",
+    "nfc 18-510",
+    "допуск по электробезопасности"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "securite-chantier",
+    "permis-travail",
+    "loto",
+    "analyse-risques"
+   ],
+   "jobs": [
+    "Électricien",
+    "Technicien maintenance",
+    "Coordinateur sécurité"
+   ]
+  },
+  {
+   "id": "caces",
+   "label": {
+    "fr": "CACES",
+    "en": "CACES",
+    "ar": "CACES",
+    "ru": "CACES"
+   },
+   "patterns": [
+    "caces",
+    "certificat aptitude conduite en securite",
+    "permis cariste"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "securite-chantier",
+    "permis-travail",
+    "analyse-risques",
+    "logistique"
+   ],
+   "jobs": [
+    "Cariste",
+    "Magasinier",
+    "Chef d'atelier"
+   ]
+  },
+  {
+   "id": "travail-hauteur",
+   "label": {
+    "fr": "Travail en hauteur",
+    "en": "Work at Height",
+    "ar": "العمل على ارتفاع",
+    "ru": "Работы на высоте"
+   },
+   "patterns": [
+    "travail hauteur",
+    "work at height",
+    "travaux hauteur",
+    "работы на высоте"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "permis-travail",
+    "epi",
+    "analyse-risques",
+    "securite-chantier"
+   ],
+   "jobs": [
+    "Coordinateur sécurité",
+    "Chef de chantier",
+    "Responsable HSE"
+   ]
+  },
+  {
+   "id": "espace-confine",
+   "label": {
+    "fr": "Espace confiné",
+    "en": "Confined Space",
+    "ar": "الأماكن المغلقة",
+    "ru": "Замкнутое пространство"
+   },
+   "patterns": [
+    "espace confine",
+    "confined space",
+    "замкнутое пространство",
+    "travaux espace confine"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "permis-travail",
+    "analyse-risques",
+    "epi",
+    "securite-chantier"
+   ],
+   "jobs": [
+    "Coordinateur sécurité",
+    "Responsable HSE",
+    "Technicien maintenance"
+   ]
+  },
+  {
+   "id": "coordination-activites",
+   "label": {
+    "fr": "Coordination activités",
+    "en": "Activity Coordination",
+    "ar": "تنسيق الأنشطة",
+    "ru": "Координация работ"
+   },
+   "patterns": [
+    "coordination activites",
+    "activity coordination",
+    "координация работ"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "plan-prevention",
+    "entreprises-exterieures",
+    "permis-travail",
+    "gestion-projet"
+   ],
+   "jobs": [
+    "Coordinateur sécurité",
+    "Responsable HSE",
+    "Chargé de prévention"
+   ]
+  },
+  {
+   "id": "entreprises-exterieures",
+   "label": {
+    "fr": "Entreprises extérieures",
+    "en": "External Contractors",
+    "ar": "المقاولون الخارجيون",
+    "ru": "Подрядные организации"
+   },
+   "patterns": [
+    "entreprises exterieures",
+    "external contractors",
+    "sous traitants",
+    "подрядные организации"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "plan-prevention",
+    "permis-travail",
+    "coordination-activites",
+    "mase"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Coordinateur sécurité",
+    "Chargé de prévention"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,3868 @@
+{
+ "sector": "Hôtellerie, restauration et tourisme",
+ "key": "hotellerie",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "opera-pms",
+   "label": {
+    "fr": "Opera PMS",
+    "en": "Opera PMS",
+    "ar": "Opera PMS",
+    "ru": "Opera PMS"
+   },
+   "patterns": [
+    "opera pms",
+    "oracle opera",
+    "opera cloud",
+    "opera property management",
+    "оракул опера",
+    "opera pms hotel"
+   ],
+   "category": "outil",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "mews",
+    "cloudbeds",
+    "reception-hotel",
+    "night-auditor",
+    "reservations"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Chef de réception",
+    "Directeur d'hébergement",
+    "First Chief"
+   ]
+  },
+  {
+   "id": "mews",
+   "label": {
+    "fr": "Mews",
+    "en": "Mews",
+    "ar": "Mews",
+    "ru": "Mews"
+   },
+   "patterns": [
+    "mews",
+    "mews pms",
+    "mews commander",
+    "mews operations",
+    "mews cloud"
+   ],
+   "category": "outil",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "opera-pms",
+    "cloudbeds",
+    "reception-hotel",
+    "channel-management"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Responsable hébergement",
+    "Front Office Manager"
+   ]
+  },
+  {
+   "id": "cloudbeds",
+   "label": {
+    "fr": "Cloudbeds",
+    "en": "Cloudbeds",
+    "ar": "Cloudbeds",
+    "ru": "Cloudbeds"
+   },
+   "patterns": [
+    "cloudbeds",
+    "cloudbeds pms",
+    "cloudbeds hospitality",
+    "myallocator",
+    "cloud beds"
+   ],
+   "category": "outil",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "mews",
+    "opera-pms",
+    "siteminder",
+    "channel-management"
+   ],
+   "jobs": [
+    "Responsable hébergement",
+    "Réceptionniste",
+    "Revenue Manager"
+   ]
+  },
+  {
+   "id": "amadeus-gds",
+   "label": {
+    "fr": "Amadeus GDS",
+    "en": "Amadeus GDS",
+    "ar": "Amadeus GDS",
+    "ru": "Amadeus GDS"
+   },
+   "patterns": [
+    "amadeus",
+    "amadeus gds",
+    "amadeus selling platform",
+    "amadeus pro",
+    "амадеус",
+    "gds amadeus"
+   ],
+   "category": "outil",
+   "topics": [
+    "travel"
+   ],
+   "level": "courant",
+   "related": [
+    "sabre-gds",
+    "travelport-gds",
+    "travel-agent",
+    "reservations"
+   ],
+   "jobs": [
+    "Agent de voyage",
+    "Agent de réservation",
+    "Consultant voyages",
+    "Billettiste"
+   ]
+  },
+  {
+   "id": "sabre-gds",
+   "label": {
+    "fr": "Sabre GDS",
+    "en": "Sabre GDS",
+    "ar": "Sabre GDS",
+    "ru": "Sabre GDS"
+   },
+   "patterns": [
+    "sabre",
+    "sabre gds",
+    "sabre red workspace",
+    "sabre travel",
+    "сабре",
+    "sabre red"
+   ],
+   "category": "outil",
+   "topics": [
+    "travel"
+   ],
+   "level": "frequent",
+   "related": [
+    "amadeus-gds",
+    "travelport-gds",
+    "travel-agent",
+    "reservations"
+   ],
+   "jobs": [
+    "Agent de voyage",
+    "Billettiste",
+    "Consultant voyages"
+   ]
+  },
+  {
+   "id": "travelport-gds",
+   "label": {
+    "fr": "Travelport GDS",
+    "en": "Travelport GDS",
+    "ar": "Travelport GDS",
+    "ru": "Travelport GDS"
+   },
+   "patterns": [
+    "travelport",
+    "galileo",
+    "worldspan",
+    "apollo gds",
+    "travelport smartpoint",
+    "тревелпорт"
+   ],
+   "category": "outil",
+   "topics": [
+    "travel"
+   ],
+   "level": "frequent",
+   "related": [
+    "amadeus-gds",
+    "sabre-gds",
+    "travel-agent",
+    "reservations"
+   ],
+   "jobs": [
+    "Agent de voyage",
+    "Billettiste",
+    "Forfaitiste"
+   ]
+  },
+  {
+   "id": "siteminder",
+   "label": {
+    "fr": "SiteMinder",
+    "en": "SiteMinder",
+    "ar": "SiteMinder",
+    "ru": "SiteMinder"
+   },
+   "patterns": [
+    "siteminder",
+    "site minder",
+    "siteminder channel manager",
+    "siteminder platform"
+   ],
+   "category": "outil",
+   "topics": [
+    "hotellerie",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "d-edge",
+    "channel-management",
+    "cloudbeds",
+    "booking-extranet"
+   ],
+   "jobs": [
+    "Revenue Manager",
+    "Responsable e-commerce",
+    "Digital Marketing Manager hôtelier"
+   ]
+  },
+  {
+   "id": "d-edge",
+   "label": {
+    "fr": "D-EDGE",
+    "en": "D-EDGE",
+    "ar": "D-EDGE",
+    "ru": "D-EDGE"
+   },
+   "patterns": [
+    "d-edge",
+    "dedge",
+    "d edge",
+    "d-edge channel manager",
+    "d-edge centralize",
+    "availpro"
+   ],
+   "category": "outil",
+   "topics": [
+    "hotellerie",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "siteminder",
+    "channel-management",
+    "booking-extranet",
+    "expedia-partner-central"
+   ],
+   "jobs": [
+    "Revenue Manager",
+    "E-commerce Manager",
+    "Directeur commercial hôtelier"
+   ]
+  },
+  {
+   "id": "ideas-rms",
+   "label": {
+    "fr": "IDeaS RMS",
+    "en": "IDeaS RMS",
+    "ar": "IDeaS RMS",
+    "ru": "IDeaS RMS"
+   },
+   "patterns": [
+    "ideas rms",
+    "ideas iqtg",
+    "ideas revenue",
+    "ideas g3 rms",
+    "sas ideas"
+   ],
+   "category": "outil",
+   "topics": [
+    "hotellerie",
+    "finance"
+   ],
+   "level": "specialise",
+   "related": [
+    "revenue-management",
+    "yield-management",
+    "channel-management",
+    "cloudbeds"
+   ],
+   "jobs": [
+    "Revenue Manager",
+    "Directeur Revenue Management",
+    "Yield Manager"
+   ]
+  },
+  {
+   "id": "micros-simphony",
+   "label": {
+    "fr": "Micros Simphony",
+    "en": "Micros Simphony",
+    "ar": "Micros Simphony",
+    "ru": "Micros Simphony"
+   },
+   "patterns": [
+    "micros simphony",
+    "simphony pos",
+    "oracle simphony",
+    "micros pos",
+    "майкрос симфони",
+    "symphony micros"
+   ],
+   "category": "outil",
+   "topics": [
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "lightspeed-pos",
+    "toast-pos",
+    "zelty",
+    "service-en-salle"
+   ],
+   "jobs": [
+    "Directeur de restaurant",
+    "Chef de rang",
+    "Maître d'hôtel",
+    "Responsable F&B"
+   ]
+  },
+  {
+   "id": "lightspeed-pos",
+   "label": {
+    "fr": "Lightspeed POS",
+    "en": "Lightspeed POS",
+    "ar": "Lightspeed POS",
+    "ru": "Lightspeed POS"
+   },
+   "patterns": [
+    "lightspeed",
+    "lightspeed pos",
+    "lightspeed restaurant",
+    "lightspeed kiosk",
+    "лайтспид"
+   ],
+   "category": "outil",
+   "topics": [
+    "food"
+   ],
+   "level": "frequent",
+   "related": [
+    "micros-simphony",
+    "toast-pos",
+    "zelty",
+    "l-addition"
+   ],
+   "jobs": [
+    "Directeur de restaurant",
+    "Gérant de restaurant",
+    "Responsable F&B"
+   ]
+  },
+  {
+   "id": "toast-pos",
+   "label": {
+    "fr": "Toast POS",
+    "en": "Toast POS",
+    "ar": "Toast POS",
+    "ru": "Toast POS"
+   },
+   "patterns": [
+    "toast pos",
+    "toast restaurant",
+    "toasttab",
+    "toast system"
+   ],
+   "category": "outil",
+   "topics": [
+    "food"
+   ],
+   "level": "frequent",
+   "related": [
+    "lightspeed-pos",
+    "micros-simphony",
+    "sumup",
+    "service-en-salle"
+   ],
+   "jobs": [
+    "Directeur de restaurant",
+    "Gérant de restaurant",
+    "Responsable de salle"
+   ]
+  },
+  {
+   "id": "sumup",
+   "label": {
+    "fr": "SumUp",
+    "en": "SumUp",
+    "ar": "SumUp",
+    "ru": "SumUp"
+   },
+   "patterns": [
+    "sumup",
+    "sum up",
+    "sumup pos",
+    "sumup payments",
+    "sumup solo"
+   ],
+   "category": "outil",
+   "topics": [
+    "food",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "zelty",
+    "l-addition",
+    "lightspeed-pos",
+    "service-en-salle"
+   ],
+   "jobs": [
+    "Serveur",
+    "Gérant de restaurant",
+    "Barman",
+    "Responsable de salle"
+   ]
+  },
+  {
+   "id": "zelty",
+   "label": {
+    "fr": "Zelty",
+    "en": "Zelty",
+    "ar": "Zelty",
+    "ru": "Zelty"
+   },
+   "patterns": [
+    "zelty",
+    "zelty pos",
+    "zelty caisse",
+    "zelty restaurant"
+   ],
+   "category": "outil",
+   "topics": [
+    "food"
+   ],
+   "level": "frequent",
+   "related": [
+    "sumup",
+    "l-addition",
+    "lightspeed-pos",
+    "thefork"
+   ],
+   "jobs": [
+    "Directeur de restaurant",
+    "Gérant de restauration",
+    "Responsable de salle"
+   ]
+  },
+  {
+   "id": "l-addition",
+   "label": {
+    "fr": "L'Addition",
+    "en": "L'Addition",
+    "ar": "L'Addition",
+    "ru": "L'Addition"
+   },
+   "patterns": [
+    "l addition",
+    "laddition",
+    "addition pos",
+    "caisse laddition",
+    "laddition restaurant"
+   ],
+   "category": "outil",
+   "topics": [
+    "food"
+   ],
+   "level": "frequent",
+   "related": [
+    "zelty",
+    "sumup",
+    "lightspeed-pos",
+    "thefork"
+   ],
+   "jobs": [
+    "Directeur de restaurant",
+    "Gérant",
+    "Responsable de salle"
+   ]
+  },
+  {
+   "id": "reviewpro",
+   "label": {
+    "fr": "ReviewPro",
+    "en": "ReviewPro",
+    "ar": "ReviewPro",
+    "ru": "ReviewPro"
+   },
+   "patterns": [
+    "reviewpro",
+    "review pro",
+    "shiji reviewpro",
+    "guest intelligence reviewpro",
+    "rivyu pro"
+   ],
+   "category": "outil",
+   "topics": [
+    "hotellerie",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "trustyou",
+    "revinate",
+    "e-reputation",
+    "guest-experience"
+   ],
+   "jobs": [
+    "Guest Relations Manager",
+    "Responsable e-réputation",
+    "Directeur hébergement"
+   ]
+  },
+  {
+   "id": "trustyou",
+   "label": {
+    "fr": "TrustYou",
+    "en": "TrustYou",
+    "ar": "TrustYou",
+    "ru": "TrustYou"
+   },
+   "patterns": [
+    "trustyou",
+    "trust you",
+    "trustyou analytics",
+    "trustyou guest feedback"
+   ],
+   "category": "outil",
+   "topics": [
+    "hotellerie",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "reviewpro",
+    "revinate",
+    "e-reputation",
+    "guest-experience"
+   ],
+   "jobs": [
+    "Guest Relations Manager",
+    "Responsable qualité hôtelière",
+    "Marketing Manager"
+   ]
+  },
+  {
+   "id": "revinate",
+   "label": {
+    "fr": "Revinate",
+    "en": "Revinate",
+    "ar": "Revinate",
+    "ru": "Revinate"
+   },
+   "patterns": [
+    "revinate",
+    "revinate marketing",
+    "revinate guest data",
+    "revinate crm"
+   ],
+   "category": "outil",
+   "topics": [
+    "hotellerie",
+    "marketing"
+   ],
+   "level": "specialise",
+   "related": [
+    "reviewpro",
+    "trustyou",
+    "e-reputation",
+    "channel-management"
+   ],
+   "jobs": [
+    "Directeur marketing hôtelier",
+    "CRM Manager",
+    "Digital Marketing Manager"
+   ]
+  },
+  {
+   "id": "opentable",
+   "label": {
+    "fr": "OpenTable",
+    "en": "OpenTable",
+    "ar": "OpenTable",
+    "ru": "OpenTable"
+   },
+   "patterns": [
+    "opentable",
+    "open table",
+    "opentable reservations",
+    "opentable restaurant"
+   ],
+   "category": "outil",
+   "topics": [
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "sevenrooms",
+    "thefork",
+    "zenchef",
+    "reservations"
+   ],
+   "jobs": [
+    "Maître d'hôtel",
+    "Responsable de salle",
+    "Hôtesse d'accueil",
+    "Chef de rang"
+   ]
+  },
+  {
+   "id": "sevenrooms",
+   "label": {
+    "fr": "SevenRooms",
+    "en": "SevenRooms",
+    "ar": "SevenRooms",
+    "ru": "SevenRooms"
+   },
+   "patterns": [
+    "sevenrooms",
+    "seven rooms",
+    "7rooms",
+    "sevenrooms crm",
+    "sevenrooms reservations"
+   ],
+   "category": "outil",
+   "topics": [
+    "food",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "opentable",
+    "thefork",
+    "zenchef",
+    "guest-relations"
+   ],
+   "jobs": [
+    "Maître d'hôtel",
+    "Responsable de salle",
+    "Restaurant Manager"
+   ]
+  },
+  {
+   "id": "thefork",
+   "label": {
+    "fr": "TheFork",
+    "en": "TheFork",
+    "ar": "TheFork",
+    "ru": "TheFork"
+   },
+   "patterns": [
+    "thefork",
+    "the fork",
+    "lafourchette",
+    "la fourchette",
+    "thefork manager"
+   ],
+   "category": "outil",
+   "topics": [
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "opentable",
+    "sevenrooms",
+    "zenchef",
+    "reservations"
+   ],
+   "jobs": [
+    "Maître d'hôtel",
+    "Responsable de salle",
+    "Directeur de restaurant"
+   ]
+  },
+  {
+   "id": "zenchef",
+   "label": {
+    "fr": "Zenchef",
+    "en": "Zenchef",
+    "ar": "Zenchef",
+    "ru": "Zenchef"
+   },
+   "patterns": [
+    "zenchef",
+    "zen chef",
+    "zenchefos",
+    "zenchef reservations"
+   ],
+   "category": "outil",
+   "topics": [
+    "food"
+   ],
+   "level": "frequent",
+   "related": [
+    "opentable",
+    "thefork",
+    "sevenrooms",
+    "reservations"
+   ],
+   "jobs": [
+    "Maître d'hôtel",
+    "Responsable de salle",
+    "Gérant de restaurant"
+   ]
+  },
+  {
+   "id": "skello",
+   "label": {
+    "fr": "Skello",
+    "en": "Skello",
+    "ar": "Skello",
+    "ru": "Skello"
+   },
+   "patterns": [
+    "skello",
+    "skello planning",
+    "skello scheduling",
+    "skello workforce"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "snapshift",
+    "hotschedules",
+    "travail-equipe",
+    "femme-de-chambre"
+   ],
+   "jobs": [
+    "Responsable RH",
+    "Directeur d'hôtel",
+    "Chef de réception",
+    "Gouvernant(e) général(e)"
+   ]
+  },
+  {
+   "id": "snapshift",
+   "label": {
+    "fr": "Snapshift",
+    "en": "Snapshift",
+    "ar": "Snapshift",
+    "ru": "Snapshift"
+   },
+   "patterns": [
+    "snapshift",
+    "snap shift",
+    "combo snapshift",
+    "snapshift planning"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "skello",
+    "hotschedules",
+    "travail-equipe",
+    "femme-de-chambre"
+   ],
+   "jobs": [
+    "Responsable RH",
+    "Directeur de restaurant",
+    "Gouvernant(e)"
+   ]
+  },
+  {
+   "id": "hotschedules",
+   "label": {
+    "fr": "HotSchedules",
+    "en": "HotSchedules",
+    "ar": "HotSchedules",
+    "ru": "HotSchedules"
+   },
+   "patterns": [
+    "hotschedules",
+    "hot schedules",
+    "hotapp",
+    "hotschedules labor"
+   ],
+   "category": "outil",
+   "topics": [
+    "rh",
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "skello",
+    "snapshift",
+    "travail-equipe",
+    "femme-de-chambre"
+   ],
+   "jobs": [
+    "Directeur d'hôtel",
+    "Responsable RH",
+    "Chef de réception"
+   ]
+  },
+  {
+   "id": "marketman",
+   "label": {
+    "fr": "MarketMan",
+    "en": "MarketMan",
+    "ar": "MarketMan",
+    "ru": "MarketMan"
+   },
+   "patterns": [
+    "marketman",
+    "market man",
+    "marketman inventory",
+    "marketman restaurant"
+   ],
+   "category": "outil",
+   "topics": [
+    "food",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "koust",
+    "food-cost",
+    "cost-control",
+    "chef-de-cuisine"
+   ],
+   "jobs": [
+    "Chef de cuisine",
+    "Directeur de restaurant",
+    "Économe",
+    "Responsable des achats"
+   ]
+  },
+  {
+   "id": "koust",
+   "label": {
+    "fr": "Koust",
+    "en": "Koust",
+    "ar": "Koust",
+    "ru": "Koust"
+   },
+   "patterns": [
+    "koust",
+    "koust app",
+    "koust gestion",
+    "koust stocks"
+   ],
+   "category": "outil",
+   "topics": [
+    "food",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "marketman",
+    "food-cost",
+    "cost-control",
+    "chef-de-cuisine"
+   ],
+   "jobs": [
+    "Chef de cuisine",
+    "Gérant de restaurant",
+    "Économe"
+   ]
+  },
+  {
+   "id": "booking-extranet",
+   "label": {
+    "fr": "Booking.com Extranet",
+    "en": "Booking.com Extranet",
+    "ar": "Booking.com Extranet",
+    "ru": "Booking.com Extranet"
+   },
+   "patterns": [
+    "booking extranet",
+    "booking partner",
+    "extranet booking",
+    "booking admin",
+    "букинг экстра"
+   ],
+   "category": "outil",
+   "topics": [
+    "hotellerie",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "expedia-partner-central",
+    "channel-management",
+    "reservations",
+    "e-reputation"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Revenue Manager",
+    "Responsable hébergement",
+    "Directeur d'hôtel"
+   ]
+  },
+  {
+   "id": "expedia-partner-central",
+   "label": {
+    "fr": "Expedia Partner Central",
+    "en": "Expedia Partner Central",
+    "ar": "Expedia Partner Central",
+    "ru": "Expedia Partner Central"
+   },
+   "patterns": [
+    "expedia partner central",
+    "epc expedia",
+    "expedia partner",
+    "expedia extranet"
+   ],
+   "category": "outil",
+   "topics": [
+    "hotellerie",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "booking-extranet",
+    "channel-management",
+    "reservations",
+    "e-reputation"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Revenue Manager",
+    "Responsable hébergement"
+   ]
+  },
+  {
+   "id": "haccp",
+   "label": {
+    "fr": "HACCP",
+    "en": "HACCP",
+    "ar": "HACCP",
+    "ru": "HACCP"
+   },
+   "patterns": [
+    "haccp",
+    "methode haccp",
+    "hazard analysis critical control",
+    "хассп",
+    "haccp alimentaire",
+    "normes haccp"
+   ],
+   "category": "methode",
+   "topics": [
+    "food",
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-22000",
+    "cost-control",
+    "chef-de-cuisine",
+    "commis-cuisine",
+    "garde-manger"
+   ],
+   "jobs": [
+    "Chef de cuisine",
+    "Commis de cuisine",
+    "Responsable qualité alimentaire",
+    "Cuisinier"
+   ]
+  },
+  {
+   "id": "revenue-management",
+   "label": {
+    "fr": "Revenue Management",
+    "en": "Revenue Management",
+    "ar": "إدارة الإيرادات",
+    "ru": "Revenue Management"
+   },
+   "patterns": [
+    "revenue management",
+    "revenue manager",
+    "ревеню менедж",
+    "управл доход",
+    "total revenue management",
+    "rm hotelier"
+   ],
+   "category": "methode",
+   "topics": [
+    "hotellerie",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "yield-management",
+    "ideas-rms",
+    "channel-management",
+    "cost-control"
+   ],
+   "jobs": [
+    "Revenue Manager",
+    "Directeur Revenue Management",
+    "Yield Manager",
+    "Directeur commercial hôtelier"
+   ]
+  },
+  {
+   "id": "yield-management",
+   "label": {
+    "fr": "Yield Management",
+    "en": "Yield Management",
+    "ar": "إدارة العائد",
+    "ru": "Yield Management"
+   },
+   "patterns": [
+    "yield management",
+    "yield manager",
+    "pricing dynamique",
+    "управл доходностью",
+    "тарифн динам"
+   ],
+   "category": "methode",
+   "topics": [
+    "hotellerie",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "revenue-management",
+    "ideas-rms",
+    "channel-management",
+    "cost-control"
+   ],
+   "jobs": [
+    "Yield Manager",
+    "Revenue Manager",
+    "Pricing Manager",
+    "Directeur commercial"
+   ]
+  },
+  {
+   "id": "menu-engineering",
+   "label": {
+    "fr": "Menu Engineering",
+    "en": "Menu Engineering",
+    "ar": "هندسة القائمة",
+    "ru": "Menu Engineering"
+   },
+   "patterns": [
+    "menu engineering",
+    "ingenierie menu",
+    "engineering menu",
+    "menu matrix",
+    "меню инжинир",
+    "анализ меню"
+   ],
+   "category": "methode",
+   "topics": [
+    "food",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "food-cost",
+    "cost-control",
+    "chef-de-cuisine",
+    "chef-de-partie"
+   ],
+   "jobs": [
+    "Chef de cuisine",
+    "Directeur de restaurant",
+    "F&B Manager",
+    "Consultant restauration"
+   ]
+  },
+  {
+   "id": "cost-control",
+   "label": {
+    "fr": "Cost Control",
+    "en": "Cost Control",
+    "ar": "ضبط التكاليف",
+    "ru": "Cost Control"
+   },
+   "patterns": [
+    "cost control",
+    "controle des couts",
+    "cost controller",
+    "контрол затрат",
+    "контрол себестоим"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance",
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "food-cost",
+    "menu-engineering",
+    "revenue-management",
+    "chef-de-cuisine"
+   ],
+   "jobs": [
+    "Cost Controller",
+    "Directeur financier hôtelier",
+    "Directeur de restaurant",
+    "F&B Manager"
+   ]
+  },
+  {
+   "id": "food-cost",
+   "label": {
+    "fr": "Food Cost",
+    "en": "Food Cost",
+    "ar": "تكلفة الطعام",
+    "ru": "Food Cost"
+   },
+   "patterns": [
+    "food cost",
+    "cout matiere",
+    "ratio matiere",
+    "food cost ratio",
+    "фуд кост",
+    "себестоим блюд"
+   ],
+   "category": "methode",
+   "topics": [
+    "food",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "cost-control",
+    "menu-engineering",
+    "chef-de-cuisine",
+    "marketman"
+   ],
+   "jobs": [
+    "Chef de cuisine",
+    "F&B Manager",
+    "Directeur de restaurant",
+    "Cost Controller"
+   ]
+  },
+  {
+   "id": "upselling",
+   "label": {
+    "fr": "Upselling",
+    "en": "Upselling",
+    "ar": "البيع الإضافي",
+    "ru": "Upselling"
+   },
+   "patterns": [
+    "upselling",
+    "up selling",
+    "vente additionnelle",
+    "montee en gamme",
+    "апсейл",
+    "upsell"
+   ],
+   "category": "methode",
+   "topics": [
+    "hotellerie",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "cross-selling",
+    "sens-commercial",
+    "guest-relations",
+    "reception-hotel"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Serveur",
+    "Barman",
+    "Commercial hôtelier"
+   ]
+  },
+  {
+   "id": "cross-selling",
+   "label": {
+    "fr": "Cross-selling",
+    "en": "Cross-selling",
+    "ar": "البيع المتقاطع",
+    "ru": "Cross-selling"
+   },
+   "patterns": [
+    "cross selling",
+    "cross sell",
+    "vente croisee",
+    "кросс селл",
+    "допродаж"
+   ],
+   "category": "methode",
+   "topics": [
+    "hotellerie",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "upselling",
+    "sens-commercial",
+    "guest-relations",
+    "reception-hotel"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Serveur",
+    "Concierge",
+    "Commercial hôtelier"
+   ]
+  },
+  {
+   "id": "service-francaise",
+   "label": {
+    "fr": "Service à la française",
+    "en": "French service",
+    "ar": "الخدمة على الطريقة الفرنسية",
+    "ru": "Французский сервис"
+   },
+   "patterns": [
+    "service francaise",
+    "service a la francaise",
+    "french service",
+    "французск обслужив",
+    "service cloche"
+   ],
+   "category": "methode",
+   "topics": [
+    "food"
+   ],
+   "level": "specialise",
+   "related": [
+    "service-en-salle",
+    "maitre-hotel",
+    "chef-de-rang",
+    "etiquette-protocole"
+   ],
+   "jobs": [
+    "Maître d'hôtel",
+    "Chef de rang",
+    "Serveur gastronomique",
+    "Butler"
+   ]
+  },
+  {
+   "id": "mixologie",
+   "label": {
+    "fr": "Mixologie",
+    "en": "Mixology",
+    "ar": "علم الخلط",
+    "ru": "Миксология"
+   },
+   "patterns": [
+    "mixologie",
+    "mixology",
+    "mixologue",
+    "cocktail creation",
+    "миксолог",
+    "миксологи"
+   ],
+   "category": "methode",
+   "topics": [
+    "food"
+   ],
+   "level": "frequent",
+   "related": [
+    "service-bar",
+    "oenologie",
+    "chef-de-cuisine",
+    "sens-commercial"
+   ],
+   "jobs": [
+    "Barman",
+    "Mixologue",
+    "Chef barman",
+    "Bar Manager"
+   ]
+  },
+  {
+   "id": "sommellerie",
+   "label": {
+    "fr": "Sommellerie",
+    "en": "Sommelier skills",
+    "ar": "خدمة النبيذ",
+    "ru": "Сомелье"
+   },
+   "patterns": [
+    "sommellerie",
+    "sommelier",
+    "wine service",
+    "wine pairing",
+    "сомелье",
+    "винн карт"
+   ],
+   "category": "methode",
+   "topics": [
+    "food"
+   ],
+   "level": "frequent",
+   "related": [
+    "oenologie",
+    "wset",
+    "service-en-salle",
+    "chef-de-rang"
+   ],
+   "jobs": [
+    "Sommelier",
+    "Chef sommelier",
+    "Chef de rang",
+    "Maître d'hôtel"
+   ]
+  },
+  {
+   "id": "oenologie",
+   "label": {
+    "fr": "Œnologie",
+    "en": "Oenology",
+    "ar": "علم النبيذ",
+    "ru": "Энология"
+   },
+   "patterns": [
+    "oenologie",
+    "enologie",
+    "wine knowledge",
+    "degustation vin",
+    "энолог",
+    "винн эксперт"
+   ],
+   "category": "methode",
+   "topics": [
+    "food"
+   ],
+   "level": "frequent",
+   "related": [
+    "sommellerie",
+    "wset",
+    "service-en-salle",
+    "mixologie"
+   ],
+   "jobs": [
+    "Sommelier",
+    "Chef sommelier",
+    "Caviste",
+    "Consultant en vins"
+   ]
+  },
+  {
+   "id": "lean-management",
+   "label": {
+    "fr": "Lean Management",
+    "en": "Lean Management",
+    "ar": "الإدارة الرشيقة",
+    "ru": "Lean Management"
+   },
+   "patterns": [
+    "lean management",
+    "lean",
+    "lean hospitality",
+    "lean hotel",
+    "лин менедж",
+    "бережлив"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "kaizen",
+    "five-s",
+    "iso-9001",
+    "housekeeping"
+   ],
+   "jobs": [
+    "Directeur d'hôtel",
+    "Responsable qualité",
+    "Operations Manager",
+    "Gouvernant(e) général(e)"
+   ]
+  },
+  {
+   "id": "kaizen",
+   "label": {
+    "fr": "Kaizen",
+    "en": "Kaizen",
+    "ar": "كايزن",
+    "ru": "Кайдзен"
+   },
+   "patterns": [
+    "kaizen",
+    "continuous improvement",
+    "amelioration continue",
+    "кайдзен",
+    "кайзен"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-management",
+    "five-s",
+    "iso-9001",
+    "housekeeping"
+   ],
+   "jobs": [
+    "Directeur d'hôtel",
+    "Responsable qualité",
+    "Operations Manager"
+   ]
+  },
+  {
+   "id": "five-s",
+   "label": {
+    "fr": "5S",
+    "en": "5S",
+    "ar": "5S",
+    "ru": "5S"
+   },
+   "patterns": [
+    "5s",
+    "methode 5s",
+    "five s",
+    "rangement 5s",
+    "5с метод"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-management",
+    "kaizen",
+    "housekeeping",
+    "iso-9001"
+   ],
+   "jobs": [
+    "Gouvernant(e) général(e)",
+    "Responsable qualité",
+    "Chef de cuisine"
+   ]
+  },
+  {
+   "id": "fifo-lifo",
+   "label": {
+    "fr": "FIFO / LIFO",
+    "en": "FIFO / LIFO",
+    "ar": "FIFO / LIFO",
+    "ru": "FIFO / LIFO"
+   },
+   "patterns": [
+    "fifo",
+    "lifo",
+    "first in first out",
+    "rotation stocks",
+    "фифо",
+    "лифо"
+   ],
+   "category": "methode",
+   "topics": [
+    "logistique",
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "par-stock",
+    "food-cost",
+    "garde-manger",
+    "chef-de-cuisine"
+   ],
+   "jobs": [
+    "Économe",
+    "Chef de cuisine",
+    "Commis de cuisine",
+    "Magasinier"
+   ]
+  },
+  {
+   "id": "par-stock",
+   "label": {
+    "fr": "Par Stock",
+    "en": "Par Stock",
+    "ar": "الحد الأدنى من المخزون",
+    "ru": "Par Stock"
+   },
+   "patterns": [
+    "par stock",
+    "par level",
+    "stock par",
+    "niveau par",
+    "пар сток",
+    "минимальн запас"
+   ],
+   "category": "methode",
+   "topics": [
+    "logistique",
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "fifo-lifo",
+    "housekeeping",
+    "femme-de-chambre",
+    "garde-manger"
+   ],
+   "jobs": [
+    "Gouvernant(e)",
+    "Économe",
+    "Femme de chambre",
+    "Chef de rang"
+   ]
+  },
+  {
+   "id": "sop",
+   "label": {
+    "fr": "SOP",
+    "en": "SOP",
+    "ar": "إجراءات التشغيل الموحدة",
+    "ru": "SOP"
+   },
+   "patterns": [
+    "sop",
+    "standard operating procedures",
+    "procedures operatoires standard",
+    "стандартн операционн процедур",
+    "стандарт обслужив"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-9001",
+    "lean-management",
+    "housekeeping",
+    "reception-hotel"
+   ],
+   "jobs": [
+    "Directeur d'hôtel",
+    "Responsable qualité",
+    "Gouvernant(e) général(e)",
+    "Chef de réception"
+   ]
+  },
+  {
+   "id": "iso-22000",
+   "label": {
+    "fr": "ISO 22000",
+    "en": "ISO 22000",
+    "ar": "ISO 22000",
+    "ru": "ISO 22000"
+   },
+   "patterns": [
+    "iso 22000",
+    "iso22000",
+    "securite alimentaire iso",
+    "исо 22000",
+    "безопасност пищев"
+   ],
+   "category": "norme",
+   "topics": [
+    "food",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "haccp",
+    "iso-9001",
+    "chef-de-cuisine",
+    "cost-control"
+   ],
+   "jobs": [
+    "Responsable qualité alimentaire",
+    "Chef de cuisine",
+    "Directeur de restaurant",
+    "Auditeur qualité"
+   ]
+  },
+  {
+   "id": "iso-9001",
+   "label": {
+    "fr": "ISO 9001",
+    "en": "ISO 9001",
+    "ar": "ISO 9001",
+    "ru": "ISO 9001"
+   },
+   "patterns": [
+    "iso 9001",
+    "iso9001",
+    "management qualite",
+    "qms iso",
+    "исо 9001",
+    "систем менедж качеств"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-22000",
+    "iso-14001",
+    "lean-management",
+    "sop"
+   ],
+   "jobs": [
+    "Responsable qualité",
+    "Directeur d'hôtel",
+    "Auditeur qualité",
+    "Operations Manager"
+   ]
+  },
+  {
+   "id": "iso-14001",
+   "label": {
+    "fr": "ISO 14001",
+    "en": "ISO 14001",
+    "ar": "ISO 14001",
+    "ru": "ISO 14001"
+   },
+   "patterns": [
+    "iso 14001",
+    "iso14001",
+    "management environnemental",
+    "ems iso",
+    "исо 14001",
+    "экологическ менедж"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-9001",
+    "green-key",
+    "earthcheck",
+    "green-globe"
+   ],
+   "jobs": [
+    "Responsable RSE",
+    "Responsable qualité",
+    "Directeur d'hôtel",
+    "Responsable développement durable"
+   ]
+  },
+  {
+   "id": "green-key",
+   "label": {
+    "fr": "Clef Verte",
+    "en": "Green Key",
+    "ar": "المفتاح الأخضر",
+    "ru": "Green Key"
+   },
+   "patterns": [
+    "clef verte",
+    "green key",
+    "label clef verte",
+    "ecolabel tourisme",
+    "грин ки",
+    "зелен ключ"
+   ],
+   "category": "norme",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "earthcheck",
+    "green-globe",
+    "travelife",
+    "iso-14001"
+   ],
+   "jobs": [
+    "Directeur d'hôtel",
+    "Responsable RSE",
+    "Responsable développement durable"
+   ]
+  },
+  {
+   "id": "earthcheck",
+   "label": {
+    "fr": "EarthCheck",
+    "en": "EarthCheck",
+    "ar": "EarthCheck",
+    "ru": "EarthCheck"
+   },
+   "patterns": [
+    "earthcheck",
+    "earth check",
+    "certification earthcheck",
+    "эртч ек"
+   ],
+   "category": "norme",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "specialise",
+   "related": [
+    "green-key",
+    "green-globe",
+    "travelife",
+    "iso-14001"
+   ],
+   "jobs": [
+    "Directeur d'hôtel",
+    "Responsable RSE",
+    "Sustainability Manager"
+   ]
+  },
+  {
+   "id": "green-globe",
+   "label": {
+    "fr": "Green Globe",
+    "en": "Green Globe",
+    "ar": "Green Globe",
+    "ru": "Green Globe"
+   },
+   "patterns": [
+    "green globe",
+    "greenglobe",
+    "certification green globe",
+    "грин глоуб"
+   ],
+   "category": "norme",
+   "topics": [
+    "hotellerie",
+    "travel"
+   ],
+   "level": "specialise",
+   "related": [
+    "green-key",
+    "earthcheck",
+    "travelife",
+    "iso-14001"
+   ],
+   "jobs": [
+    "Directeur d'hôtel",
+    "Responsable RSE",
+    "Directeur de resort"
+   ]
+  },
+  {
+   "id": "travelife",
+   "label": {
+    "fr": "Travelife",
+    "en": "Travelife",
+    "ar": "Travelife",
+    "ru": "Travelife"
+   },
+   "patterns": [
+    "travelife",
+    "travel life",
+    "certification travelife",
+    "sustainable tourism travelife",
+    "тревелайф"
+   ],
+   "category": "norme",
+   "topics": [
+    "travel"
+   ],
+   "level": "frequent",
+   "related": [
+    "green-globe",
+    "earthcheck",
+    "green-key",
+    "guide-touristique"
+   ],
+   "jobs": [
+    "Responsable tourisme durable",
+    "Tour-opérateur",
+    "Directeur d'agence de voyage"
+   ]
+  },
+  {
+   "id": "qualite-tourisme",
+   "label": {
+    "fr": "Qualité Tourisme",
+    "en": "Qualité Tourisme",
+    "ar": "Qualité Tourisme",
+    "ru": "Qualité Tourisme"
+   },
+   "patterns": [
+    "qualite tourisme",
+    "marque qualite tourisme",
+    "label qualite tourisme",
+    "qt france"
+   ],
+   "category": "norme",
+   "topics": [
+    "travel",
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "tourisme-handicap",
+    "maitre-restaurateur",
+    "guide-touristique",
+    "guest-experience"
+   ],
+   "jobs": [
+    "Directeur d'office de tourisme",
+    "Directeur d'hôtel",
+    "Responsable qualité"
+   ]
+  },
+  {
+   "id": "tourisme-handicap",
+   "label": {
+    "fr": "Tourisme & Handicap",
+    "en": "Tourism & Disability",
+    "ar": "السياحة والإعاقة",
+    "ru": "Туризм для инвалидов"
+   },
+   "patterns": [
+    "tourisme handicap",
+    "tourisme et handicap",
+    "label th",
+    "accessibilite tourisme",
+    "туризм инвалид",
+    "доступн туризм"
+   ],
+   "category": "norme",
+   "topics": [
+    "travel",
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "qualite-tourisme",
+    "guest-experience",
+    "reception-hotel",
+    "sens-du-service"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Directeur d'hôtel",
+    "Chargé d'accueil",
+    "Responsable accessibilité"
+   ]
+  },
+  {
+   "id": "maitre-restaurateur",
+   "label": {
+    "fr": "Maître Restaurateur",
+    "en": "Maître Restaurateur",
+    "ar": "Maître Restaurateur",
+    "ru": "Maître Restaurateur"
+   },
+   "patterns": [
+    "maitre restaurateur",
+    "maitre-restaurateur",
+    "titre maitre restaurateur",
+    "maitre restaur",
+    "метр ресторатор"
+   ],
+   "category": "norme",
+   "topics": [
+    "food"
+   ],
+   "level": "specialise",
+   "related": [
+    "fait-maison",
+    "guide-michelin",
+    "gault-millau",
+    "chef-de-cuisine"
+   ],
+   "jobs": [
+    "Chef de cuisine",
+    "Chef propriétaire",
+    "Directeur de restaurant"
+   ]
+  },
+  {
+   "id": "fait-maison",
+   "label": {
+    "fr": "Fait Maison",
+    "en": "Fait Maison",
+    "ar": "Fait Maison",
+    "ru": "Fait Maison"
+   },
+   "patterns": [
+    "fait maison",
+    "fait-maison",
+    "logo fait maison",
+    "mention fait maison",
+    "домашн приготов"
+   ],
+   "category": "norme",
+   "topics": [
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "maitre-restaurateur",
+    "chef-de-cuisine",
+    "cuisine-gastronomique",
+    "haccp"
+   ],
+   "jobs": [
+    "Chef de cuisine",
+    "Cuisinier",
+    "Chef propriétaire"
+   ]
+  },
+  {
+   "id": "label-rouge",
+   "label": {
+    "fr": "Label Rouge",
+    "en": "Label Rouge",
+    "ar": "Label Rouge",
+    "ru": "Label Rouge"
+   },
+   "patterns": [
+    "label rouge",
+    "label-rouge",
+    "produit label rouge",
+    "лэйбл руж",
+    "красн этикет"
+   ],
+   "category": "norme",
+   "topics": [
+    "food"
+   ],
+   "level": "frequent",
+   "related": [
+    "aop-aoc",
+    "bio-ab",
+    "chef-de-cuisine",
+    "fait-maison"
+   ],
+   "jobs": [
+    "Chef de cuisine",
+    "Acheteur restauration",
+    "Chef de partie"
+   ]
+  },
+  {
+   "id": "aop-aoc",
+   "label": {
+    "fr": "AOP / AOC",
+    "en": "PDO / AOC",
+    "ar": "AOP / AOC",
+    "ru": "AOP / AOC"
+   },
+   "patterns": [
+    "aop",
+    "aoc",
+    "appellation origine",
+    "igp",
+    "produit terroir",
+    "апелласьон",
+    "аоп аок"
+   ],
+   "category": "norme",
+   "topics": [
+    "food"
+   ],
+   "level": "frequent",
+   "related": [
+    "label-rouge",
+    "bio-ab",
+    "oenologie",
+    "chef-de-cuisine"
+   ],
+   "jobs": [
+    "Chef de cuisine",
+    "Sommelier",
+    "Acheteur restauration",
+    "Fromager"
+   ]
+  },
+  {
+   "id": "bio-ab",
+   "label": {
+    "fr": "Bio / AB",
+    "en": "Organic / AB",
+    "ar": "عضوي / AB",
+    "ru": "Органик / AB"
+   },
+   "patterns": [
+    "agriculture biologique",
+    "label ab",
+    "bio restauration",
+    "eurofeuille",
+    "органик",
+    "био продукт",
+    "biologique"
+   ],
+   "category": "norme",
+   "topics": [
+    "food"
+   ],
+   "level": "frequent",
+   "related": [
+    "label-rouge",
+    "aop-aoc",
+    "chef-de-cuisine",
+    "fait-maison"
+   ],
+   "jobs": [
+    "Chef de cuisine",
+    "Acheteur restauration",
+    "Responsable développement durable"
+   ]
+  },
+  {
+   "id": "wset",
+   "label": {
+    "fr": "WSET",
+    "en": "WSET",
+    "ar": "WSET",
+    "ru": "WSET"
+   },
+   "patterns": [
+    "wset",
+    "wine spirit education trust",
+    "wset level",
+    "wset certification",
+    "всет"
+   ],
+   "category": "norme",
+   "topics": [
+    "food"
+   ],
+   "level": "specialise",
+   "related": [
+    "sommellerie",
+    "oenologie",
+    "service-en-salle",
+    "chef-de-rang"
+   ],
+   "jobs": [
+    "Sommelier",
+    "Chef sommelier",
+    "Caviste",
+    "Consultant en vins"
+   ]
+  },
+  {
+   "id": "guide-michelin",
+   "label": {
+    "fr": "Guide Michelin",
+    "en": "Michelin Guide",
+    "ar": "دليل ميشلان",
+    "ru": "Гид Мишлен"
+   },
+   "patterns": [
+    "guide michelin",
+    "etoile michelin",
+    "michelin star",
+    "bib gourmand",
+    "мишленовск гид",
+    "звезд мишлен"
+   ],
+   "category": "norme",
+   "topics": [
+    "food"
+   ],
+   "level": "specialise",
+   "related": [
+    "gault-millau",
+    "chef-de-cuisine",
+    "cuisine-gastronomique",
+    "maitre-restaurateur"
+   ],
+   "jobs": [
+    "Chef de cuisine",
+    "Chef exécutif",
+    "Sous-chef",
+    "Directeur de restaurant"
+   ]
+  },
+  {
+   "id": "gault-millau",
+   "label": {
+    "fr": "Gault&Millau",
+    "en": "Gault&Millau",
+    "ar": "Gault&Millau",
+    "ru": "Gault&Millau"
+   },
+   "patterns": [
+    "gault millau",
+    "gault&millau",
+    "gault et millau",
+    "toque gault",
+    "го мийо"
+   ],
+   "category": "norme",
+   "topics": [
+    "food"
+   ],
+   "level": "specialise",
+   "related": [
+    "guide-michelin",
+    "chef-de-cuisine",
+    "cuisine-gastronomique",
+    "maitre-restaurateur"
+   ],
+   "jobs": [
+    "Chef de cuisine",
+    "Chef exécutif",
+    "Directeur de restaurant"
+   ]
+  },
+  {
+   "id": "reception-hotel",
+   "label": {
+    "fr": "Réception hôtelière",
+    "en": "Hotel reception",
+    "ar": "استقبال فندقي",
+    "ru": "Ресепшн"
+   },
+   "patterns": [
+    "reception hotel",
+    "front desk",
+    "front office",
+    "accueil hotelier",
+    "ресе пшн",
+    "стойк регистрац",
+    "прием гост"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "opera-pms",
+    "mews",
+    "guest-relations",
+    "night-auditor",
+    "conciergerie"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Chef de réception",
+    "First Chief",
+    "Agent d'accueil"
+   ]
+  },
+  {
+   "id": "conciergerie",
+   "label": {
+    "fr": "Conciergerie",
+    "en": "Concierge services",
+    "ar": "خدمة الكونسيرج",
+    "ru": "Консьерж-сервис"
+   },
+   "patterns": [
+    "conciergerie",
+    "concierge",
+    "conciergerie hotel",
+    "guest services",
+    "консьерж сервис",
+    "консьерж служб"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "clefs-d-or",
+    "reception-hotel",
+    "guest-relations",
+    "etiquette-protocole"
+   ],
+   "jobs": [
+    "Concierge",
+    "Chef concierge",
+    "Guest Relations Manager",
+    "Concierge d'hôtel"
+   ]
+  },
+  {
+   "id": "clefs-d-or",
+   "label": {
+    "fr": "Clefs d'Or",
+    "en": "Les Clefs d'Or",
+    "ar": "Les Clefs d'Or",
+    "ru": "Les Clefs d'Or"
+   },
+   "patterns": [
+    "clefs d or",
+    "clefs d'or",
+    "les clefs d or",
+    "golden keys concierge",
+    "золотые ключи",
+    "золот ключ"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "specialise",
+   "related": [
+    "conciergerie",
+    "guest-relations",
+    "etiquette-protocole",
+    "reception-hotel"
+   ],
+   "jobs": [
+    "Chef concierge",
+    "Concierge Clefs d'Or",
+    "Guest Relations Manager"
+   ]
+  },
+  {
+   "id": "housekeeping",
+   "label": {
+    "fr": "Housekeeping",
+    "en": "Housekeeping",
+    "ar": "التدبير الفندقي",
+    "ru": "Хаускипинг"
+   },
+   "patterns": [
+    "housekeeping",
+    "house keeper",
+    "etages",
+    "gouvernante",
+    "хаускип",
+    "служб номерн фонд",
+    "уборк номер"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "femme-de-chambre",
+    "par-stock",
+    "five-s",
+    "sop"
+   ],
+   "jobs": [
+    "Gouvernant(e)",
+    "Gouvernant(e) général(e)",
+    "Femme de chambre",
+    "Valet de chambre"
+   ]
+  },
+  {
+   "id": "room-service",
+   "label": {
+    "fr": "Room Service",
+    "en": "Room Service",
+    "ar": "خدمة الغرف",
+    "ru": "Рум-сервис"
+   },
+   "patterns": [
+    "room service",
+    "in room dining",
+    "service en chambre",
+    "рум сервис",
+    "обслуж в номер"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie",
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "service-en-salle",
+    "chef-de-rang",
+    "commis-cuisine",
+    "sens-du-service"
+   ],
+   "jobs": [
+    "Chef de rang",
+    "Serveur room service",
+    "Commis de salle",
+    "Chef de partie"
+   ]
+  },
+  {
+   "id": "service-en-salle",
+   "label": {
+    "fr": "Service en salle",
+    "en": "Restaurant service",
+    "ar": "خدمة الصالة",
+    "ru": "Обслуживание в зале"
+   },
+   "patterns": [
+    "service en salle",
+    "service restaurant",
+    "service a table",
+    "обслуж в зал",
+    "официант работ"
+   ],
+   "category": "metier",
+   "topics": [
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "chef-de-rang",
+    "maitre-hotel",
+    "service-francaise",
+    "micros-simphony"
+   ],
+   "jobs": [
+    "Serveur",
+    "Chef de rang",
+    "Commis de salle",
+    "Maître d'hôtel"
+   ]
+  },
+  {
+   "id": "service-bar",
+   "label": {
+    "fr": "Service au bar",
+    "en": "Bar service",
+    "ar": "خدمة البار",
+    "ru": "Обслуживание за баром"
+   },
+   "patterns": [
+    "service bar",
+    "bar service",
+    "travail bar",
+    "bartending",
+    "работ бармен",
+    "барн обслужив"
+   ],
+   "category": "metier",
+   "topics": [
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "mixologie",
+    "chef-de-rang",
+    "upselling",
+    "sens-du-service"
+   ],
+   "jobs": [
+    "Barman",
+    "Barmaid",
+    "Chef barman",
+    "Bar Manager"
+   ]
+  },
+  {
+   "id": "cuisine-gastronomique",
+   "label": {
+    "fr": "Cuisine gastronomique",
+    "en": "Gastronomic cuisine",
+    "ar": "المطبخ الذواقة",
+    "ru": "Высокая кухня"
+   },
+   "patterns": [
+    "cuisine gastronomique",
+    "gastronomie",
+    "haute cuisine",
+    "fine dining",
+    "гастрономич кухн",
+    "высок кухн"
+   ],
+   "category": "metier",
+   "topics": [
+    "food"
+   ],
+   "level": "specialise",
+   "related": [
+    "chef-de-cuisine",
+    "guide-michelin",
+    "gault-millau",
+    "patisserie"
+   ],
+   "jobs": [
+    "Chef de cuisine",
+    "Sous-chef",
+    "Chef de partie",
+    "Chef exécutif"
+   ]
+  },
+  {
+   "id": "patisserie",
+   "label": {
+    "fr": "Pâtisserie",
+    "en": "Pastry",
+    "ar": "صناعة الحلويات",
+    "ru": "Кондитерское дело"
+   },
+   "patterns": [
+    "patisserie",
+    "pastry",
+    "patissier",
+    "desserts",
+    "кондитер",
+    "кондитерск издели",
+    "десерт"
+   ],
+   "category": "metier",
+   "topics": [
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "chef-de-cuisine",
+    "boulangerie",
+    "cuisine-gastronomique",
+    "chef-de-partie"
+   ],
+   "jobs": [
+    "Pâtissier",
+    "Chef pâtissier",
+    "Commis pâtissier",
+    "Tourier"
+   ]
+  },
+  {
+   "id": "boulangerie",
+   "label": {
+    "fr": "Boulangerie",
+    "en": "Bakery",
+    "ar": "المخبوزات",
+    "ru": "Пекарское дело"
+   },
+   "patterns": [
+    "boulangerie",
+    "bakery",
+    "boulanger",
+    "pain artisanal",
+    "пекар",
+    "хлебопекарн",
+    "выпечк"
+   ],
+   "category": "metier",
+   "topics": [
+    "food"
+   ],
+   "level": "frequent",
+   "related": [
+    "patisserie",
+    "chef-de-cuisine",
+    "fait-maison",
+    "chef-de-partie"
+   ],
+   "jobs": [
+    "Boulanger",
+    "Chef boulanger",
+    "Pâtissier-boulanger"
+   ]
+  },
+  {
+   "id": "garde-manger",
+   "label": {
+    "fr": "Garde-manger",
+    "en": "Garde manger",
+    "ar": "مسؤول المخزن",
+    "ru": "Гард-манже"
+   },
+   "patterns": [
+    "garde manger",
+    "garde-manger",
+    "cold kitchen",
+    "preparations froides",
+    "гард манже",
+    "холодн цех"
+   ],
+   "category": "metier",
+   "topics": [
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "chef-de-partie",
+    "chef-de-cuisine",
+    "haccp",
+    "fifo-lifo"
+   ],
+   "jobs": [
+    "Chef garde-manger",
+    "Chef de partie",
+    "Commis de cuisine",
+    "Commis garde-manger"
+   ]
+  },
+  {
+   "id": "chef-de-partie",
+   "label": {
+    "fr": "Chef de partie",
+    "en": "Chef de partie",
+    "ar": "رئيس قسم المطبخ",
+    "ru": "Шеф де парте"
+   },
+   "patterns": [
+    "chef de partie",
+    "chef-de-partie",
+    "station chef",
+    "line cook",
+    "шеф де парт",
+    "начальник цех"
+   ],
+   "category": "metier",
+   "topics": [
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "sous-chef",
+    "chef-de-cuisine",
+    "commis-cuisine",
+    "garde-manger"
+   ],
+   "jobs": [
+    "Chef de partie",
+    "Cuisinier",
+    "Demi-chef de partie"
+   ]
+  },
+  {
+   "id": "sous-chef",
+   "label": {
+    "fr": "Sous-chef",
+    "en": "Sous-chef",
+    "ar": "مساعد الشيف",
+    "ru": "Су-шеф"
+   },
+   "patterns": [
+    "sous chef",
+    "sous-chef",
+    "junior sous chef",
+    "executive sous chef",
+    "су шеф",
+    "помощник шеф"
+   ],
+   "category": "metier",
+   "topics": [
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "chef-de-cuisine",
+    "chef-de-partie",
+    "cuisine-gastronomique",
+    "haccp"
+   ],
+   "jobs": [
+    "Sous-chef",
+    "Sous-chef exécutif",
+    "Junior sous-chef"
+   ]
+  },
+  {
+   "id": "chef-de-cuisine",
+   "label": {
+    "fr": "Chef de cuisine",
+    "en": "Head Chef",
+    "ar": "شيف المطبخ",
+    "ru": "Шеф-повар"
+   },
+   "patterns": [
+    "chef de cuisine",
+    "chef cuisine",
+    "head chef",
+    "executive chef",
+    "шеф повар",
+    "главн повар"
+   ],
+   "category": "metier",
+   "topics": [
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "sous-chef",
+    "chef-de-partie",
+    "haccp",
+    "food-cost",
+    "cuisine-gastronomique"
+   ],
+   "jobs": [
+    "Chef de cuisine",
+    "Chef exécutif",
+    "Executive Chef",
+    "Chef propriétaire"
+   ]
+  },
+  {
+   "id": "commis-cuisine",
+   "label": {
+    "fr": "Commis de cuisine",
+    "en": "Commis Chef",
+    "ar": "مساعدي المطبخ",
+    "ru": "Комми"
+   },
+   "patterns": [
+    "commis de cuisine",
+    "commis cuisine",
+    "commis chef",
+    "kitchen assistant",
+    "комми",
+    "помощник повар"
+   ],
+   "category": "metier",
+   "topics": [
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "chef-de-partie",
+    "chef-de-cuisine",
+    "haccp",
+    "garde-manger"
+   ],
+   "jobs": [
+    "Commis de cuisine",
+    "Commis pâtissier",
+    "Aide de cuisine"
+   ]
+  },
+  {
+   "id": "maitre-hotel",
+   "label": {
+    "fr": "Maître d'hôtel",
+    "en": "Maître d'",
+    "ar": "مدير الصالة",
+    "ru": "Метрдотель"
+   },
+   "patterns": [
+    "maitre d hotel",
+    "maitre d'hotel",
+    "maitre d",
+    "head waiter",
+    "метрдотел",
+    "менеджер зал"
+   ],
+   "category": "metier",
+   "topics": [
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "chef-de-rang",
+    "service-en-salle",
+    "service-francaise",
+    "opentable"
+   ],
+   "jobs": [
+    "Maître d'hôtel",
+    "Premier maître d'hôtel",
+    "Responsable de salle"
+   ]
+  },
+  {
+   "id": "chef-de-rang",
+   "label": {
+    "fr": "Chef de rang",
+    "en": "Chef de rang",
+    "ar": "رئيس النطاق",
+    "ru": "Шеф де ран"
+   },
+   "patterns": [
+    "chef de rang",
+    "chef-de-rang",
+    "station waiter",
+    "section waiter",
+    "шеф де ран",
+    "официант старш"
+   ],
+   "category": "metier",
+   "topics": [
+    "food"
+   ],
+   "level": "courant",
+   "related": [
+    "maitre-hotel",
+    "service-en-salle",
+    "commis-cuisine",
+    "sommellerie"
+   ],
+   "jobs": [
+    "Chef de rang",
+    "Demi-chef de rang",
+    "Serveur expérimenté"
+   ]
+  },
+  {
+   "id": "night-auditor",
+   "label": {
+    "fr": "Night Auditor",
+    "en": "Night Auditor",
+    "ar": "مراجع ليلي",
+    "ru": "Найт-аудитор"
+   },
+   "patterns": [
+    "night auditor",
+    "auditeur de nuit",
+    "night audit",
+    "receptionniste nuit",
+    "найт аудитор",
+    "ночной аудитор"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "reception-hotel",
+    "opera-pms",
+    "mews",
+    "guest-relations"
+   ],
+   "jobs": [
+    "Night Auditor",
+    "Réceptionniste de nuit",
+    "Auditeur de nuit"
+   ]
+  },
+  {
+   "id": "reservations",
+   "label": {
+    "fr": "Réservations",
+    "en": "Reservations",
+    "ar": "الحجوزات",
+    "ru": "Бронирование"
+   },
+   "patterns": [
+    "reservations",
+    "reservation agent",
+    "booking desk",
+    "centrale reservation",
+    "бронир",
+    "резервир"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie",
+    "travel"
+   ],
+   "level": "courant",
+   "related": [
+    "opera-pms",
+    "amadeus-gds",
+    "reception-hotel",
+    "opentable"
+   ],
+   "jobs": [
+    "Agent de réservation",
+    "Responsable réservations",
+    "Reservation Agent",
+    "Booking Agent"
+   ]
+  },
+  {
+   "id": "banquet",
+   "label": {
+    "fr": "Banquet",
+    "en": "Banquet",
+    "ar": "المآدب",
+    "ru": "Банкет"
+   },
+   "patterns": [
+    "banquet",
+    "banqueting",
+    "service banquet",
+    "event catering",
+    "банкет",
+    "банкетн обслуж"
+   ],
+   "category": "metier",
+   "topics": [
+    "food",
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "event-planner",
+    "maitre-hotel",
+    "chef-de-cuisine",
+    "service-en-salle"
+   ],
+   "jobs": [
+    "Chef de banquet",
+    "Maître d'hôtel banquet",
+    "Serveur banquet",
+    "Banquet Manager"
+   ]
+  },
+  {
+   "id": "event-planner",
+   "label": {
+    "fr": "Event Planner",
+    "en": "Event Planner",
+    "ar": "منظم الفعاليات",
+    "ru": "Ивент-менеджер"
+   },
+   "patterns": [
+    "event planner",
+    "evenementiel",
+    "event management",
+    "wedding planner",
+    "ивент менеджер",
+    "организатор мероприя"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "banquet",
+    "mice",
+    "guest-relations",
+    "sens-commercial"
+   ],
+   "jobs": [
+    "Event Planner",
+    "Wedding Planner",
+    "Responsable événements",
+    "Banquet Manager"
+   ]
+  },
+  {
+   "id": "spa-manager",
+   "label": {
+    "fr": "Spa Manager",
+    "en": "Spa Manager",
+    "ar": "مدير السبا",
+    "ru": "Спа-менеджер"
+   },
+   "patterns": [
+    "spa manager",
+    "directeur spa",
+    "spa management",
+    "wellness manager",
+    "спа менеджер",
+    "управл спа"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "spa-therapist",
+    "guest-experience",
+    "sens-du-service",
+    "leadership-hospitality"
+   ],
+   "jobs": [
+    "Spa Manager",
+    "Directeur de spa",
+    "Responsable spa",
+    "Wellness Manager"
+   ]
+  },
+  {
+   "id": "spa-therapist",
+   "label": {
+    "fr": "Spa Thérapeute",
+    "en": "Spa Therapist",
+    "ar": "معالج سبا",
+    "ru": "Спа-терапевт"
+   },
+   "patterns": [
+    "spa therapist",
+    "praticien spa",
+    "masseur",
+    "estheticienne spa",
+    "спа терапевт",
+    "спа специалист"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "spa-manager",
+    "guest-experience",
+    "sens-du-service"
+   ],
+   "jobs": [
+    "Spa Thérapeute",
+    "Praticien(ne) spa",
+    "Masseur/Masseuse",
+    "Esthéticien(ne)"
+   ]
+  },
+  {
+   "id": "guide-touristique",
+   "label": {
+    "fr": "Guide touristique",
+    "en": "Tour Guide",
+    "ar": "مرشد سياحي",
+    "ru": "Экскурсовод"
+   },
+   "patterns": [
+    "guide touristique",
+    "tour guide",
+    "guide conferencier",
+    "guided tours",
+    "экскурсовод",
+    "гид перевод",
+    "туристическ гид"
+   ],
+   "category": "metier",
+   "topics": [
+    "travel"
+   ],
+   "level": "courant",
+   "related": [
+    "travel-agent",
+    "mice",
+    "communication-interculturelle",
+    "travelife"
+   ],
+   "jobs": [
+    "Guide touristique",
+    "Guide conférencier",
+    "Guide interprète",
+    "Accompagnateur touristique"
+   ]
+  },
+  {
+   "id": "travel-agent",
+   "label": {
+    "fr": "Agent de voyage",
+    "en": "Travel Agent",
+    "ar": "وكيل سفر",
+    "ru": "Турагент"
+   },
+   "patterns": [
+    "travel agent",
+    "agent de voyage",
+    "conseiller voyage",
+    "travel consultant",
+    "турагент",
+    "агент путешеств"
+   ],
+   "category": "metier",
+   "topics": [
+    "travel"
+   ],
+   "level": "courant",
+   "related": [
+    "amadeus-gds",
+    "sabre-gds",
+    "travelport-gds",
+    "guide-touristique"
+   ],
+   "jobs": [
+    "Agent de voyage",
+    "Conseiller en voyages",
+    "Consultant voyages",
+    "Forfaitiste"
+   ]
+  },
+  {
+   "id": "mice",
+   "label": {
+    "fr": "MICE",
+    "en": "MICE",
+    "ar": "MICE",
+    "ru": "MICE"
+   },
+   "patterns": [
+    "mice",
+    "meetings incentives conferences exhibitions",
+    "tourisme affaires",
+    "business tourism",
+    "май сегмент",
+    "делов туризм"
+   ],
+   "category": "metier",
+   "topics": [
+    "travel",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "event-planner",
+    "banquet",
+    "travel-agent",
+    "sens-commercial"
+   ],
+   "jobs": [
+    "Responsable MICE",
+    "Chef de produit tourisme d'affaires",
+    "Event Manager",
+    "Sales Manager hôtelier"
+   ]
+  },
+  {
+   "id": "channel-management",
+   "label": {
+    "fr": "Channel Management",
+    "en": "Channel Management",
+    "ar": "إدارة القنوات",
+    "ru": "Channel Management"
+   },
+   "patterns": [
+    "channel management",
+    "channel manager",
+    "distribution hoteliere",
+    "ota management",
+    "управл канал продаж",
+    "дистрибуц"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "siteminder",
+    "d-edge",
+    "booking-extranet",
+    "expedia-partner-central"
+   ],
+   "jobs": [
+    "Channel Manager",
+    "Revenue Manager",
+    "E-commerce Manager",
+    "Directeur commercial"
+   ]
+  },
+  {
+   "id": "e-reputation",
+   "label": {
+    "fr": "E-réputation",
+    "en": "Online Reputation",
+    "ar": "السمعة الإلكترونية",
+    "ru": "Онлайн-репутация"
+   },
+   "patterns": [
+    "e reputation",
+    "online reputation",
+    "reputation en ligne",
+    "gestion avis",
+    "онлайн репут",
+    "управл отзыв"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "reviewpro",
+    "trustyou",
+    "revinate",
+    "guest-experience"
+   ],
+   "jobs": [
+    "E-réputation Manager",
+    "Community Manager hôtelier",
+    "Guest Relations Manager"
+   ]
+  },
+  {
+   "id": "guest-experience",
+   "label": {
+    "fr": "Expérience client",
+    "en": "Guest Experience",
+    "ar": "تجربة الضيف",
+    "ru": "Гостевой опыт"
+   },
+   "patterns": [
+    "guest experience",
+    "experience client",
+    "customer experience",
+    "parcours client",
+    "гостев опыт",
+    "клиентск опыт"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "guest-relations",
+    "e-reputation",
+    "sens-du-service",
+    "reviewpro"
+   ],
+   "jobs": [
+    "Guest Experience Manager",
+    "Directeur d'hôtel",
+    "Guest Relations Manager"
+   ]
+  },
+  {
+   "id": "guest-relations",
+   "label": {
+    "fr": "Guest Relations",
+    "en": "Guest Relations",
+    "ar": "علاقات النزلاء",
+    "ru": "Гест релейшнз"
+   },
+   "patterns": [
+    "guest relations",
+    "relations clients",
+    "guest relations manager",
+    "relations hotes",
+    "гест релейш",
+    "работ с гостям"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "conciergerie",
+    "reception-hotel",
+    "guest-experience",
+    "sens-du-service"
+   ],
+   "jobs": [
+    "Guest Relations Manager",
+    "Chargé(e) de clientèle",
+    "Responsable accueil"
+   ]
+  },
+  {
+   "id": "femme-de-chambre",
+   "label": {
+    "fr": "Femme de chambre",
+    "en": "Room Attendant",
+    "ar": "عاملات الغرف",
+    "ru": "Горничная"
+   },
+   "patterns": [
+    "femme de chambre",
+    "valet de chambre",
+    "room attendant",
+    "chambreuse",
+    "горничн",
+    "уборщиц номер"
+   ],
+   "category": "metier",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "housekeeping",
+    "par-stock",
+    "five-s",
+    "sop"
+   ],
+   "jobs": [
+    "Femme de chambre",
+    "Valet de chambre",
+    "Équipier d'étage",
+    "Room Attendant"
+   ]
+  },
+  {
+   "id": "sens-du-service",
+   "label": {
+    "fr": "Sens du service",
+    "en": "Service mindset",
+    "ar": "حس الخدمة",
+    "ru": "Клиентоориентированность"
+   },
+   "patterns": [
+    "sens du service",
+    "service mindset",
+    "hospitality mindset",
+    "customer oriented",
+    "клиентоориент",
+    "сервисн мышлен"
+   ],
+   "category": "transverse",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "guest-experience",
+    "anticipation-besoins",
+    "empathie-client",
+    "guest-relations"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Serveur",
+    "Concierge",
+    "Tout poste d'accueil"
+   ]
+  },
+  {
+   "id": "gestion-plaintes",
+   "label": {
+    "fr": "Gestion des plaintes",
+    "en": "Complaint handling",
+    "ar": "إدارة الشكاوى",
+    "ru": "Работа с жалобами"
+   },
+   "patterns": [
+    "gestion plaintes",
+    "complaint handling",
+    "reclamation client",
+    "traitement litige",
+    "работ с жалоб",
+    "обработ претенз"
+   ],
+   "category": "transverse",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "gestion-crise",
+    "guest-relations",
+    "empathie-client",
+    "communication-interculturelle"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Guest Relations Manager",
+    "Chef de réception",
+    "Directeur d'hôtel"
+   ]
+  },
+  {
+   "id": "gestion-crise",
+   "label": {
+    "fr": "Gestion de crise",
+    "en": "Crisis management",
+    "ar": "إدارة الأزمات",
+    "ru": "Антикризисное управление"
+   },
+   "patterns": [
+    "gestion de crise",
+    "crisis management",
+    "situation d urgence",
+    "plan d urgence",
+    "антикризисн",
+    "управл кризис"
+   ],
+   "category": "transverse",
+   "topics": [
+    "hotellerie",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-plaintes",
+    "gestion-stress",
+    "leadership-hospitality",
+    "travail-pression"
+   ],
+   "jobs": [
+    "Directeur d'hôtel",
+    "Responsable sécurité",
+    "Operations Manager",
+    "General Manager"
+   ]
+  },
+  {
+   "id": "travail-equipe",
+   "label": {
+    "fr": "Travail en équipe",
+    "en": "Teamwork",
+    "ar": "العمل الجماعي",
+    "ru": "Работа в команде"
+   },
+   "patterns": [
+    "travail en equipe",
+    "teamwork",
+    "team player",
+    "esprit d equipe",
+    "работ в команд",
+    "командн работ"
+   ],
+   "category": "transverse",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "travail-pression",
+    "communication-interculturelle",
+    "leadership-hospitality",
+    "sens-du-service"
+   ],
+   "jobs": [
+    "Tout poste du secteur",
+    "Serveur",
+    "Cuisinier",
+    "Réceptionniste"
+   ]
+  },
+  {
+   "id": "travail-pression",
+   "label": {
+    "fr": "Travail sous pression",
+    "en": "Working under pressure",
+    "ar": "العمل تحت الضغط",
+    "ru": "Работа в стрессовых условиях"
+   },
+   "patterns": [
+    "travail sous pression",
+    "working under pressure",
+    "resistance stress",
+    "gestion du rush",
+    "работ под давлен",
+    "стрессоустойч"
+   ],
+   "category": "transverse",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "gestion-stress",
+    "travail-equipe",
+    "flexibilite-horaire",
+    "sens-du-service"
+   ],
+   "jobs": [
+    "Tout poste du secteur",
+    "Cuisinier",
+    "Serveur",
+    "Réceptionniste"
+   ]
+  },
+  {
+   "id": "communication-interculturelle",
+   "label": {
+    "fr": "Communication interculturelle",
+    "en": "Cross-cultural communication",
+    "ar": "التواصل بين الثقافات",
+    "ru": "Межкультурная коммуникация"
+   },
+   "patterns": [
+    "communication interculturelle",
+    "cross cultural",
+    "intercultural communication",
+    "diversite culturelle",
+    "межкультурн общ",
+    "межнациональн"
+   ],
+   "category": "transverse",
+   "topics": [
+    "hotellerie",
+    "travel"
+   ],
+   "level": "courant",
+   "related": [
+    "sens-du-service",
+    "guest-relations",
+    "etiquette-protocole",
+    "empathie-client"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Concierge",
+    "Guest Relations Manager",
+    "Guide touristique"
+   ]
+  },
+  {
+   "id": "etiquette-protocole",
+   "label": {
+    "fr": "Étiquette et protocole",
+    "en": "Etiquette and protocol",
+    "ar": "البروتوكول وآداب السلوك",
+    "ru": "Этикет и протокол"
+   },
+   "patterns": [
+    "etiquette",
+    "protocole",
+    "savoir etre",
+    "etiquette hoteliere",
+    "этикет",
+    "протокол обслужив"
+   ],
+   "category": "transverse",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "conciergerie",
+    "clefs-d-or",
+    "service-francaise",
+    "presentation-soignee"
+   ],
+   "jobs": [
+    "Concierge",
+    "Butler",
+    "Maître d'hôtel",
+    "Chef concierge"
+   ]
+  },
+  {
+   "id": "anticipation-besoins",
+   "label": {
+    "fr": "Anticipation des besoins",
+    "en": "Anticipating guest needs",
+    "ar": "استباق احتياجات الضيوف",
+    "ru": "Предвосхищение потребностей"
+   },
+   "patterns": [
+    "anticipation besoins",
+    "anticipating needs",
+    "proactivite",
+    "prise initiative",
+    "предвосхищ потреб",
+    "проактивн"
+   ],
+   "category": "transverse",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "sens-du-service",
+    "guest-experience",
+    "empathie-client",
+    "guest-relations"
+   ],
+   "jobs": [
+    "Concierge",
+    "Réceptionniste",
+    "Butler",
+    "Guest Relations Manager"
+   ]
+  },
+  {
+   "id": "sens-commercial",
+   "label": {
+    "fr": "Sens commercial",
+    "en": "Sales skills",
+    "ar": "الحس التجاري",
+    "ru": "Коммерческое чутьё"
+   },
+   "patterns": [
+    "sens commercial",
+    "commercial skills",
+    "fiber commerciale",
+    "force de vente",
+    "коммерческ чут",
+    "продажн навык"
+   ],
+   "category": "transverse",
+   "topics": [
+    "hotellerie",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "upselling",
+    "cross-selling",
+    "event-planner",
+    "mice"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Commercial hôtelier",
+    "Serveur",
+    "Sales Manager"
+   ]
+  },
+  {
+   "id": "leadership-hospitality",
+   "label": {
+    "fr": "Leadership hôtelier",
+    "en": "Hospitality leadership",
+    "ar": "القيادة الفندقية",
+    "ru": "Лидерство в гостеприимстве"
+   },
+   "patterns": [
+    "leadership",
+    "management equipe",
+    "team leadership",
+    "encadrement",
+    "лидерств",
+    "управл персоналом"
+   ],
+   "category": "transverse",
+   "topics": [
+    "hotellerie",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-crise",
+    "travail-equipe",
+    "sens-du-service",
+    "sop"
+   ],
+   "jobs": [
+    "Directeur d'hôtel",
+    "Chef de réception",
+    "Chef de cuisine",
+    "Gouvernant(e) général(e)"
+   ]
+  },
+  {
+   "id": "gestion-stress",
+   "label": {
+    "fr": "Gestion du stress",
+    "en": "Stress management",
+    "ar": "إدارة التوتر",
+    "ru": "Управление стрессом"
+   },
+   "patterns": [
+    "gestion stress",
+    "stress management",
+    "maitrise de soi",
+    "sang froid",
+    "управл стресс",
+    "стрессоустойч"
+   ],
+   "category": "transverse",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "travail-pression",
+    "gestion-crise",
+    "travail-equipe",
+    "empathie-client"
+   ],
+   "jobs": [
+    "Tout poste du secteur",
+    "Réceptionniste",
+    "Cuisinier",
+    "Chef de rang"
+   ]
+  },
+  {
+   "id": "flexibilite-horaire",
+   "label": {
+    "fr": "Flexibilité horaire",
+    "en": "Schedule flexibility",
+    "ar": "المرونة في أوقات العمل",
+    "ru": "Гибкий график"
+   },
+   "patterns": [
+    "flexibilite horaire",
+    "horaires decalles",
+    "travail weekend",
+    "weekend work",
+    "гибк график",
+    "сменн работ"
+   ],
+   "category": "transverse",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "travail-pression",
+    "travail-equipe",
+    "night-auditor",
+    "sens-du-service"
+   ],
+   "jobs": [
+    "Tout poste du secteur",
+    "Réceptionniste",
+    "Serveur",
+    "Night Auditor"
+   ]
+  },
+  {
+   "id": "presentation-soignee",
+   "label": {
+    "fr": "Présentation soignée",
+    "en": "Grooming standards",
+    "ar": "المظهر اللائق",
+    "ru": "Опрятный внешний вид"
+   },
+   "patterns": [
+    "presentation soignee",
+    "grooming",
+    "bonne presentation",
+    "dress code",
+    "опрятн внешн",
+    "груминг"
+   ],
+   "category": "transverse",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "etiquette-protocole",
+    "sens-du-service",
+    "guest-relations",
+    "conciergerie"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Concierge",
+    "Serveur",
+    "Tout poste en contact client"
+   ]
+  },
+  {
+   "id": "empathie-client",
+   "label": {
+    "fr": "Empathie client",
+    "en": "Customer empathy",
+    "ar": "التعاطف مع العميل",
+    "ru": "Эмпатия к клиенту"
+   },
+   "patterns": [
+    "empathie",
+    "ecoute active",
+    "active listening",
+    "empathie client",
+    "эмпат",
+    "активн слушан"
+   ],
+   "category": "transverse",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "sens-du-service",
+    "gestion-plaintes",
+    "guest-relations",
+    "anticipation-besoins"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Guest Relations Manager",
+    "Concierge",
+    "Serveur"
+   ]
+  },
+  {
+   "id": "anglais",
+   "label": {
+    "fr": "Anglais",
+    "en": "English",
+    "ar": "الإنجليزية",
+    "ru": "Английский"
+   },
+   "patterns": [
+    "anglais",
+    "english",
+    "bilingual english",
+    "fluent english",
+    "английск",
+    "english speaking"
+   ],
+   "category": "langue",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "courant",
+   "related": [
+    "espagnol",
+    "allemand",
+    "communication-interculturelle",
+    "reception-hotel"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Concierge",
+    "Serveur",
+    "Tout poste du secteur"
+   ]
+  },
+  {
+   "id": "espagnol",
+   "label": {
+    "fr": "Espagnol",
+    "en": "Spanish",
+    "ar": "الإسبانية",
+    "ru": "Испанский"
+   },
+   "patterns": [
+    "espagnol",
+    "spanish",
+    "bilingue espagnol",
+    "habla espanol",
+    "испанск"
+   ],
+   "category": "langue",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "anglais",
+    "allemand",
+    "communication-interculturelle",
+    "reception-hotel"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Concierge",
+    "Serveur",
+    "Agent d'accueil"
+   ]
+  },
+  {
+   "id": "allemand",
+   "label": {
+    "fr": "Allemand",
+    "en": "German",
+    "ar": "الألمانية",
+    "ru": "Немецкий"
+   },
+   "patterns": [
+    "allemand",
+    "german",
+    "bilingue allemand",
+    "deutsch",
+    "немецк"
+   ],
+   "category": "langue",
+   "topics": [
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "anglais",
+    "espagnol",
+    "communication-interculturelle",
+    "reception-hotel"
+   ],
+   "jobs": [
+    "Réceptionniste",
+    "Concierge",
+    "Serveur",
+    "Agent de voyage"
+   ]
+  },
+  {
+   "id": "mandarin",
+   "label": {
+    "fr": "Mandarin",
+    "en": "Mandarin",
+    "ar": "الماندرين",
+    "ru": "Мандарин"
+   },
+   "patterns": [
+    "mandarin",
+    "chinois",
+    "mandarin chinese",
+    "putonghua",
+    "мандарин",
+    "китайск"
+   ],
+   "category": "langue",
+   "topics": [
+    "hotellerie",
+    "travel"
+   ],
+   "level": "specialise",
+   "related": [
+    "anglais",
+    "russe-langue",
+    "communication-interculturelle",
+    "conciergerie"
+   ],
+   "jobs": [
+    "Concierge",
+    "Guest Relations Manager",
+    "Réceptionniste de luxe",
+    "Sales Manager"
+   ]
+  },
+  {
+   "id": "arabe-langue",
+   "label": {
+    "fr": "Arabe",
+    "en": "Arabic",
+    "ar": "العربية",
+    "ru": "Арабский"
+   },
+   "patterns": [
+    "arabe",
+    "arabic",
+    "bilingue arabe",
+    "عربي",
+    "арабск язы"
+   ],
+   "category": "langue",
+   "topics": [
+    "hotellerie",
+    "travel"
+   ],
+   "level": "frequent",
+   "related": [
+    "anglais",
+    "russe-langue",
+    "communication-interculturelle",
+    "conciergerie"
+   ],
+   "jobs": [
+    "Concierge",
+    "Guest Relations Manager",
+    "Réceptionniste",
+    "Agent d'accueil"
+   ]
+  },
+  {
+   "id": "russe-langue",
+   "label": {
+    "fr": "Russe",
+    "en": "Russian",
+    "ar": "الروسية",
+    "ru": "Русский"
+   },
+   "patterns": [
+    "russe",
+    "russian",
+    "bilingue russe",
+    "русск язы",
+    "русскоязыч"
+   ],
+   "category": "langue",
+   "topics": [
+    "hotellerie",
+    "travel"
+   ],
+   "level": "frequent",
+   "related": [
+    "anglais",
+    "arabe-langue",
+    "communication-interculturelle",
+    "conciergerie"
+   ],
+   "jobs": [
+    "Concierge",
+    "Guest Relations Manager",
+    "Réceptionniste",
+    "Agent de voyage"
+   ]
+  }
+ ]
+}

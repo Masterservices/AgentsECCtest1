@@ -1,0 +1,2721 @@
+{
+ "sector": "Conseil en management et stratégie",
+ "key": "consulting",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "microsoft-powerpoint",
+   "label": {
+    "fr": "Microsoft PowerPoint",
+    "en": "Microsoft PowerPoint",
+    "ar": "Microsoft PowerPoint",
+    "ru": "Microsoft PowerPoint"
+   },
+   "patterns": [
+    "powerpoint",
+    "ppt",
+    "pptx",
+    "microsoft powerpoint",
+    "slide deck",
+    "بوربوينت"
+   ],
+   "category": "outil",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "think-cell",
+    "storytelling",
+    "executive-presentation"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant senior",
+    "Analyste conseil"
+   ]
+  },
+  {
+   "id": "microsoft-excel-avance",
+   "label": {
+    "fr": "Excel avancé",
+    "en": "Advanced Excel",
+    "ar": "إكسل متقدم",
+    "ru": "Продвинутый Excel"
+   },
+   "patterns": [
+    "excel avance",
+    "excel advanced",
+    "excel vba",
+    "tableaux croises dynamiques",
+    "pivot tables",
+    "vlookup",
+    "xlookup",
+    "macros excel",
+    "эксел"
+   ],
+   "category": "outil",
+   "topics": [
+    "consulting",
+    "finance",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "financial-modeling",
+    "power-bi",
+    "alteryx"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Analyste financier",
+    "Consultant en transformation"
+   ]
+  },
+  {
+   "id": "power-bi",
+   "label": {
+    "fr": "Power BI",
+    "en": "Power BI",
+    "ar": "Power BI",
+    "ru": "Power BI"
+   },
+   "patterns": [
+    "powerbi",
+    "power bi",
+    "dax",
+    "power query",
+    "باور بي آي"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "consulting",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "tableau-software",
+    "microsoft-excel-avance",
+    "sql"
+   ],
+   "jobs": [
+    "Consultant data",
+    "Business analyst",
+    "Consultant en transformation digitale"
+   ]
+  },
+  {
+   "id": "tableau-software",
+   "label": {
+    "fr": "Tableau",
+    "en": "Tableau",
+    "ar": "Tableau",
+    "ru": "Tableau"
+   },
+   "patterns": [
+    "tableau software",
+    "tableau desktop",
+    "tableau server",
+    "tableau online",
+    "табло"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "power-bi",
+    "sql",
+    "alteryx"
+   ],
+   "jobs": [
+    "Consultant data",
+    "Business analyst",
+    "Data strategist"
+   ]
+  },
+  {
+   "id": "alteryx",
+   "label": {
+    "fr": "Alteryx",
+    "en": "Alteryx",
+    "ar": "Alteryx",
+    "ru": "Alteryx"
+   },
+   "patterns": [
+    "alteryx designer",
+    "alteryx analytics",
+    "алтерикс"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "tableau-software",
+    "power-bi",
+    "python-data"
+   ],
+   "jobs": [
+    "Consultant data",
+    "Data analyst",
+    "Consultant en analytics"
+   ]
+  },
+  {
+   "id": "think-cell",
+   "label": {
+    "fr": "think-cell",
+    "en": "think-cell",
+    "ar": "think-cell",
+    "ru": "think-cell"
+   },
+   "patterns": [
+    "thinkcell",
+    "think cell",
+    "тинк селл"
+   ],
+   "category": "outil",
+   "topics": [
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "microsoft-powerpoint",
+    "microsoft-excel-avance",
+    "executive-presentation"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant MBB",
+    "Associate consultant"
+   ]
+  },
+  {
+   "id": "sap-erp",
+   "label": {
+    "fr": "SAP",
+    "en": "SAP",
+    "ar": "SAP",
+    "ru": "SAP"
+   },
+   "patterns": [
+    "sap s4hana",
+    "sap s/4",
+    "sap ecc",
+    "sap hana",
+    "sap fico",
+    "sap mm",
+    "сап"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "consulting",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "operational-excellence",
+    "process-mapping",
+    "digital-transformation"
+   ],
+   "jobs": [
+    "Consultant SAP",
+    "Consultant en transformation",
+    "Consultant SI"
+   ]
+  },
+  {
+   "id": "salesforce-crm",
+   "label": {
+    "fr": "Salesforce",
+    "en": "Salesforce",
+    "ar": "Salesforce",
+    "ru": "Salesforce"
+   },
+   "patterns": [
+    "salesforce crm",
+    "sfdc",
+    "sales cloud",
+    "service cloud",
+    "салесфорс"
+   ],
+   "category": "outil",
+   "topics": [
+    "consulting",
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "customer-experience",
+    "go-to-market",
+    "digital-transformation"
+   ],
+   "jobs": [
+    "Consultant CRM",
+    "Consultant commercial",
+    "Consultant en transformation"
+   ]
+  },
+  {
+   "id": "jira",
+   "label": {
+    "fr": "Jira",
+    "en": "Jira",
+    "ar": "Jira",
+    "ru": "Jira"
+   },
+   "patterns": [
+    "jira software",
+    "atlassian jira",
+    "джайра",
+    "джир"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "confluence",
+    "agile-scrum",
+    "project-management"
+   ],
+   "jobs": [
+    "Consultant en transformation",
+    "Project manager",
+    "Agile coach"
+   ]
+  },
+  {
+   "id": "confluence",
+   "label": {
+    "fr": "Confluence",
+    "en": "Confluence",
+    "ar": "Confluence",
+    "ru": "Confluence"
+   },
+   "patterns": [
+    "atlassian confluence",
+    "confluence wiki",
+    "конфлуенс"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "jira",
+    "agile-scrum",
+    "knowledge-management"
+   ],
+   "jobs": [
+    "Consultant en transformation",
+    "Project manager",
+    "Business analyst"
+   ]
+  },
+  {
+   "id": "miro-board",
+   "label": {
+    "fr": "Miro",
+    "en": "Miro",
+    "ar": "Miro",
+    "ru": "Miro"
+   },
+   "patterns": [
+    "miro board",
+    "miro online whiteboard",
+    "realtimeboard",
+    "миро"
+   ],
+   "category": "outil",
+   "topics": [
+    "consulting",
+    "project",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "facilitation",
+    "design-thinking",
+    "workshop-animation"
+   ],
+   "jobs": [
+    "Consultant en innovation",
+    "Facilitateur",
+    "UX strategist"
+   ]
+  },
+  {
+   "id": "lucidchart",
+   "label": {
+    "fr": "Lucidchart",
+    "en": "Lucidchart",
+    "ar": "Lucidchart",
+    "ru": "Lucidchart"
+   },
+   "patterns": [
+    "lucid chart",
+    "lucidchart diagrams",
+    "люсидчарт"
+   ],
+   "category": "outil",
+   "topics": [
+    "consulting",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "process-mapping",
+    "microsoft-visio",
+    "operating-model-design"
+   ],
+   "jobs": [
+    "Business analyst",
+    "Consultant en organisation",
+    "Consultant processus"
+   ]
+  },
+  {
+   "id": "capital-iq",
+   "label": {
+    "fr": "S&P Capital IQ",
+    "en": "S&P Capital IQ",
+    "ar": "S&P Capital IQ",
+    "ru": "S&P Capital IQ"
+   },
+   "patterns": [
+    "capital iq",
+    "s&p capital",
+    "cap iq",
+    "капитал ай кю"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "bloomberg-terminal",
+    "factset",
+    "valuation"
+   ],
+   "jobs": [
+    "Consultant M&A",
+    "Analyste financier",
+    "Consultant en stratégie financière"
+   ]
+  },
+  {
+   "id": "bloomberg-terminal",
+   "label": {
+    "fr": "Bloomberg Terminal",
+    "en": "Bloomberg Terminal",
+    "ar": "Bloomberg Terminal",
+    "ru": "Bloomberg Terminal"
+   },
+   "patterns": [
+    "bloomberg",
+    "bloomberg terminal",
+    "blp",
+    "блумберг"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "capital-iq",
+    "factset",
+    "valuation"
+   ],
+   "jobs": [
+    "Consultant M&A",
+    "Analyste financier",
+    "Consultant en stratégie financière"
+   ]
+  },
+  {
+   "id": "factset",
+   "label": {
+    "fr": "FactSet",
+    "en": "FactSet",
+    "ar": "FactSet",
+    "ru": "FactSet"
+   },
+   "patterns": [
+    "factset research",
+    "fact set",
+    "фактсет"
+   ],
+   "category": "outil",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "bloomberg-terminal",
+    "capital-iq",
+    "valuation"
+   ],
+   "jobs": [
+    "Consultant M&A",
+    "Analyste financier",
+    "Consultant en stratégie financière"
+   ]
+  },
+  {
+   "id": "qualtrics",
+   "label": {
+    "fr": "Qualtrics",
+    "en": "Qualtrics",
+    "ar": "Qualtrics",
+    "ru": "Qualtrics"
+   },
+   "patterns": [
+    "qualtrics xm",
+    "qualtrics survey",
+    "квалтрикс"
+   ],
+   "category": "outil",
+   "topics": [
+    "consulting",
+    "marketing",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "customer-experience",
+    "market-research",
+    "survey-monkey"
+   ],
+   "jobs": [
+    "Consultant en expérience client",
+    "Consultant marketing",
+    "Insights analyst"
+   ]
+  },
+  {
+   "id": "python-data",
+   "label": {
+    "fr": "Python (data)",
+    "en": "Python for data",
+    "ar": "بايثون للبيانات",
+    "ru": "Python для анализа данных"
+   },
+   "patterns": [
+    "python pandas",
+    "python numpy",
+    "python scipy",
+    "jupyter",
+    "пайтон",
+    "питон"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "ai",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "sql",
+    "alteryx",
+    "data-strategy"
+   ],
+   "jobs": [
+    "Consultant data",
+    "Data scientist",
+    "Consultant en analytics"
+   ]
+  },
+  {
+   "id": "sql",
+   "label": {
+    "fr": "SQL",
+    "en": "SQL",
+    "ar": "SQL",
+    "ru": "SQL"
+   },
+   "patterns": [
+    "sql server",
+    "mysql",
+    "postgresql",
+    "tsql",
+    "plsql",
+    "скюэль",
+    "эскюэль"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "python-data",
+    "power-bi",
+    "tableau-software"
+   ],
+   "jobs": [
+    "Consultant data",
+    "Business analyst",
+    "Data strategist"
+   ]
+  },
+  {
+   "id": "microsoft-teams",
+   "label": {
+    "fr": "Microsoft Teams",
+    "en": "Microsoft Teams",
+    "ar": "Microsoft Teams",
+    "ru": "Microsoft Teams"
+   },
+   "patterns": [
+    "ms teams",
+    "teams",
+    "тимс"
+   ],
+   "category": "outil",
+   "topics": [
+    "consulting",
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "sharepoint",
+    "microsoft-powerpoint",
+    "facilitation"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Project manager",
+    "Consultant en transformation"
+   ]
+  },
+  {
+   "id": "sharepoint",
+   "label": {
+    "fr": "SharePoint",
+    "en": "SharePoint",
+    "ar": "SharePoint",
+    "ru": "SharePoint"
+   },
+   "patterns": [
+    "microsoft sharepoint",
+    "sharepoint online",
+    "шерпоинт"
+   ],
+   "category": "outil",
+   "topics": [
+    "consulting",
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "microsoft-teams",
+    "microsoft-powerpoint",
+    "knowledge-management"
+   ],
+   "jobs": [
+    "Consultant en transformation",
+    "Knowledge manager",
+    "Consultant SI"
+   ]
+  },
+  {
+   "id": "mece",
+   "label": {
+    "fr": "MECE",
+    "en": "MECE",
+    "ar": "MECE",
+    "ru": "MECE"
+   },
+   "patterns": [
+    "mutually exclusive collectively exhaustive",
+    "principe mece",
+    "месе",
+    "мисе"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "hypothesis-driven",
+    "problem-solving",
+    "issue-tree"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant junior",
+    "Associate consultant"
+   ]
+  },
+  {
+   "id": "hypothesis-driven",
+   "label": {
+    "fr": "Approche hypothético-déductive",
+    "en": "Hypothesis-driven problem solving",
+    "ar": "المنهج القائم على الفرضيات",
+    "ru": "Гипотетико-дедуктивный подход"
+   },
+   "patterns": [
+    "hypothesis driven",
+    "approche hypothetique",
+    "issue tree",
+    "hypothesis tree",
+    "гипотез"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "mece",
+    "problem-solving",
+    "analytical-skills"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant junior",
+    "Associate consultant"
+   ]
+  },
+  {
+   "id": "design-thinking",
+   "label": {
+    "fr": "Design Thinking",
+    "en": "Design Thinking",
+    "ar": "التفكير التصميمي",
+    "ru": "Дизайн-мышление"
+   },
+   "patterns": [
+    "design thinking",
+    "IDEO method",
+    "human centered design",
+    "hcd",
+    "дизайн мышлени"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "design",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "customer-journey-mapping",
+    "jobs-to-be-done",
+    "innovation-strategy"
+   ],
+   "jobs": [
+    "Consultant en innovation",
+    "UX strategist",
+    "Consultant en transformation"
+   ]
+  },
+  {
+   "id": "lean-six-sigma",
+   "label": {
+    "fr": "Lean Six Sigma",
+    "en": "Lean Six Sigma",
+    "ar": "Lean Six Sigma",
+    "ru": "Lean Six Sigma"
+   },
+   "patterns": [
+    "lean six sigma",
+    "lss",
+    "six sigma",
+    "lean sigma",
+    "dmaic",
+    "green belt",
+    "black belt",
+    "лин шесть сигм"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "operational-excellence",
+    "process-mapping",
+    "root-cause-analysis"
+   ],
+   "jobs": [
+    "Consultant en excellence opérationnelle",
+    "Consultant en opérations",
+    "Black Belt"
+   ]
+  },
+  {
+   "id": "agile-scrum",
+   "label": {
+    "fr": "Agile / Scrum",
+    "en": "Agile / Scrum",
+    "ar": "أجايل / سكروم",
+    "ru": "Agile / Scrum"
+   },
+   "patterns": [
+    "scrum",
+    "agile methodology",
+    "sprint planning",
+    "product owner",
+    "scrum master",
+    "скрам",
+    "аджайл"
+   ],
+   "category": "methode",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "jira",
+    "project-management",
+    "kanban"
+   ],
+   "jobs": [
+    "Consultant en transformation",
+    "Agile coach",
+    "Product owner"
+   ]
+  },
+  {
+   "id": "okr",
+   "label": {
+    "fr": "OKR",
+    "en": "OKR",
+    "ar": "OKR",
+    "ru": "OKR"
+   },
+   "patterns": [
+    "objectives and key results",
+    "okrs",
+    "objectifs et resultats cles",
+    "окр"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "rh",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "balanced-scorecard",
+    "kpi-design",
+    "strategic-planning"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant RH",
+    "Chief of staff"
+   ]
+  },
+  {
+   "id": "balanced-scorecard",
+   "label": {
+    "fr": "Tableau de bord prospectif",
+    "en": "Balanced Scorecard",
+    "ar": "بطاقة الأداء المتوازن",
+    "ru": "Сбалансированная система показателей"
+   },
+   "patterns": [
+    "balanced scorecard",
+    "bsc",
+    "tableau de bord prospectif",
+    "kaplan norton",
+    "ссп",
+    "сбалансированн"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "okr",
+    "kpi-design",
+    "strategic-planning"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant en pilotage",
+    "Directeur stratégie"
+   ]
+  },
+  {
+   "id": "swot-analysis",
+   "label": {
+    "fr": "Analyse SWOT",
+    "en": "SWOT analysis",
+    "ar": "تحليل SWOT",
+    "ru": "SWOT-анализ"
+   },
+   "patterns": [
+    "swot",
+    "matrice swot",
+    "forces faiblesses opportunites menaces",
+    "свот"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "pestel",
+    "porter-five-forces",
+    "strategic-planning"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant junior",
+    "Business analyst"
+   ]
+  },
+  {
+   "id": "pestel",
+   "label": {
+    "fr": "Analyse PESTEL",
+    "en": "PESTEL analysis",
+    "ar": "تحليل PESTEL",
+    "ru": "PESTEL-анализ"
+   },
+   "patterns": [
+    "pestel",
+    "pest",
+    "pestle",
+    "analyse macro",
+    "пестел"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "swot-analysis",
+    "porter-five-forces",
+    "scenario-planning"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant junior",
+    "Business analyst"
+   ]
+  },
+  {
+   "id": "porter-five-forces",
+   "label": {
+    "fr": "5 forces de Porter",
+    "en": "Porter's Five Forces",
+    "ar": "قوى بورتر الخمس",
+    "ru": "Пять сил Портера"
+   },
+   "patterns": [
+    "porter",
+    "five forces",
+    "5 forces",
+    "cinq forces",
+    "портер"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "swot-analysis",
+    "pestel",
+    "competitive-intelligence"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant junior",
+    "Business analyst"
+   ]
+  },
+  {
+   "id": "business-model-canvas",
+   "label": {
+    "fr": "Business Model Canvas",
+    "en": "Business Model Canvas",
+    "ar": "نموذج كانفاس للأعمال",
+    "ru": "Business Model Canvas"
+   },
+   "patterns": [
+    "bmc",
+    "business model canvas",
+    "canvas Osterwalder",
+    "oste",
+    "канвас"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "value-proposition-canvas",
+    "business-plan",
+    "go-to-market"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant en innovation",
+    "Entrepreneur en résidence"
+   ]
+  },
+  {
+   "id": "value-chain-analysis",
+   "label": {
+    "fr": "Analyse de la chaîne de valeur",
+    "en": "Value chain analysis",
+    "ar": "تحليل سلسلة القيمة",
+    "ru": "Анализ цепочки создания стоимости"
+   },
+   "patterns": [
+    "value chain",
+    "chaine de valeur",
+    "porter value chain",
+    "цепочк ценност"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "operating-model-design",
+    "cost-reduction",
+    "operational-excellence"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant en opérations",
+    "Consultant organisation"
+   ]
+  },
+  {
+   "id": "stakeholder-mapping",
+   "label": {
+    "fr": "Cartographie des parties prenantes",
+    "en": "Stakeholder mapping",
+    "ar": "خريطة أصحاب المصلحة",
+    "ru": "Карта стейкхолдеров"
+   },
+   "patterns": [
+    "stakeholder map",
+    "matrice parties prenantes",
+    "power interest matrix",
+    "mendelow",
+    "стейкхолдер"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "stakeholder-management",
+    "change-management",
+    "facilitation"
+   ],
+   "jobs": [
+    "Consultant en transformation",
+    "Change manager",
+    "Project manager"
+   ]
+  },
+  {
+   "id": "adkar",
+   "label": {
+    "fr": "Modèle ADKAR",
+    "en": "ADKAR model",
+    "ar": "نموذج ADKAR",
+    "ru": "Модель ADKAR"
+   },
+   "patterns": [
+    "adkar",
+    "prosci",
+    "adkar model",
+    "адкар"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "rh"
+   ],
+   "level": "specialise",
+   "related": [
+    "change-management",
+    "stakeholder-mapping",
+    "org-design"
+   ],
+   "jobs": [
+    "Consultant en conduite du changement",
+    "Change manager",
+    "Consultant RH"
+   ]
+  },
+  {
+   "id": "root-cause-analysis",
+   "label": {
+    "fr": "Analyse des causes racines",
+    "en": "Root cause analysis",
+    "ar": "تحليل الأسباب الجذرية",
+    "ru": "Анализ первопричин"
+   },
+   "patterns": [
+    "rca",
+    "root cause",
+    "analyse cause racine",
+    "причинн анализ"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "fishbone-diagram",
+    "five-whys",
+    "lean-six-sigma"
+   ],
+   "jobs": [
+    "Consultant en opérations",
+    "Consultant en excellence opérationnelle",
+    "Quality manager"
+   ]
+  },
+  {
+   "id": "process-mapping",
+   "label": {
+    "fr": "Cartographie des processus",
+    "en": "Process mapping",
+    "ar": "رسم خرائط العمليات",
+    "ru": "Картирование процессов"
+   },
+   "patterns": [
+    "process map",
+    "as is to be",
+    "as-is to-be",
+    "bpmn",
+    "flowchart",
+    "картирован"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "operating-model-design",
+    "lean-six-sigma",
+    "lucidchart"
+   ],
+   "jobs": [
+    "Consultant processus",
+    "Business analyst",
+    "Consultant en organisation"
+   ]
+  },
+  {
+   "id": "benchmarking",
+   "label": {
+    "fr": "Benchmarking",
+    "en": "Benchmarking",
+    "ar": "المقارنة المعيارية",
+    "ru": "Бенчмаркинг"
+   },
+   "patterns": [
+    "benchmark",
+    "best practices",
+    "analyse comparative",
+    "бенчмарк"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "competitive-intelligence",
+    "market-research",
+    "operational-excellence"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant senior",
+    "Business analyst"
+   ]
+  },
+  {
+   "id": "scenario-planning",
+   "label": {
+    "fr": "Planification par scénarios",
+    "en": "Scenario planning",
+    "ar": "التخطيط بالسيناريوهات",
+    "ru": "Сценарное планирование"
+   },
+   "patterns": [
+    "scenario planning",
+    "scenarios strategiques",
+    "scenario analysis",
+    "сценарн планирован"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "strategic-planning",
+    "pestel",
+    "risk-management"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Directeur stratégie",
+    "Strategic planner"
+   ]
+  },
+  {
+   "id": "blue-ocean-strategy",
+   "label": {
+    "fr": "Stratégie Océan Bleu",
+    "en": "Blue Ocean Strategy",
+    "ar": "استراتيجية المحيط الأزرق",
+    "ru": "Стратегия голубого океана"
+   },
+   "patterns": [
+    "blue ocean",
+    "ocean bleu",
+    "value innovation",
+    "голуб океан"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "business",
+    "marketing"
+   ],
+   "level": "specialise",
+   "related": [
+    "business-model-canvas",
+    "innovation-strategy",
+    "go-to-market"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant en innovation",
+    "Directeur stratégie"
+   ]
+  },
+  {
+   "id": "customer-journey-mapping",
+   "label": {
+    "fr": "Cartographie du parcours client",
+    "en": "Customer journey mapping",
+    "ar": "خريطة رحلة العميل",
+    "ru": "Карта клиентского пути"
+   },
+   "patterns": [
+    "customer journey",
+    "parcours client",
+    "cj map",
+    "cjm",
+    "client journey",
+    "клиентск путь"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "customer-experience",
+    "design-thinking",
+    "persona"
+   ],
+   "jobs": [
+    "Consultant en expérience client",
+    "Consultant marketing",
+    "CX strategist"
+   ]
+  },
+  {
+   "id": "design-sprint",
+   "label": {
+    "fr": "Design Sprint",
+    "en": "Design Sprint",
+    "ar": "Design Sprint",
+    "ru": "Дизайн-спринт"
+   },
+   "patterns": [
+    "design sprint",
+    "google sprint",
+    "sprint gv",
+    "дизайн спринт"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "design",
+    "marketing"
+   ],
+   "level": "specialise",
+   "related": [
+    "design-thinking",
+    "facilitation",
+    "workshop-animation"
+   ],
+   "jobs": [
+    "Consultant en innovation",
+    "Sprint master",
+    "UX strategist"
+   ]
+  },
+  {
+   "id": "pmp",
+   "label": {
+    "fr": "PMP",
+    "en": "PMP",
+    "ar": "PMP",
+    "ru": "PMP"
+   },
+   "patterns": [
+    "project management professional",
+    "pmi pmp",
+    "certification pmp",
+    "пмп"
+   ],
+   "category": "norme",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "pmbok",
+    "prince2",
+    "project-management"
+   ],
+   "jobs": [
+    "Project manager",
+    "Directeur de projet",
+    "PMO"
+   ]
+  },
+  {
+   "id": "prince2",
+   "label": {
+    "fr": "PRINCE2",
+    "en": "PRINCE2",
+    "ar": "PRINCE2",
+    "ru": "PRINCE2"
+   },
+   "patterns": [
+    "prince 2",
+    "prince2 foundation",
+    "prince2 practitioner",
+    "принс2"
+   ],
+   "category": "norme",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "pmp",
+    "pmbok",
+    "project-management"
+   ],
+   "jobs": [
+    "Project manager",
+    "Directeur de projet",
+    "PMO"
+   ]
+  },
+  {
+   "id": "pmbok",
+   "label": {
+    "fr": "PMBOK",
+    "en": "PMBOK",
+    "ar": "PMBOK",
+    "ru": "PMBOK"
+   },
+   "patterns": [
+    "pmbok guide",
+    "pmi standard",
+    "body of knowledge",
+    "пмбок"
+   ],
+   "category": "norme",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "pmp",
+    "prince2",
+    "project-management"
+   ],
+   "jobs": [
+    "Project manager",
+    "PMO",
+    "Directeur de projet"
+   ]
+  },
+  {
+   "id": "iso-9001",
+   "label": {
+    "fr": "ISO 9001",
+    "en": "ISO 9001",
+    "ar": "ISO 9001",
+    "ru": "ISO 9001"
+   },
+   "patterns": [
+    "iso9001",
+    "iso 9001 qms",
+    "systeme de management qualite",
+    "исо 9001"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-27001",
+    "operational-excellence",
+    "process-mapping"
+   ],
+   "jobs": [
+    "Consultant qualité",
+    "Responsable qualité",
+    "Consultant en opérations"
+   ]
+  },
+  {
+   "id": "iso-27001",
+   "label": {
+    "fr": "ISO 27001",
+    "en": "ISO 27001",
+    "ar": "ISO 27001",
+    "ru": "ISO 27001"
+   },
+   "patterns": [
+    "iso27001",
+    "iso 27001 isms",
+    "securite information",
+    "исо 27001"
+   ],
+   "category": "norme",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-9001",
+    "risk-management",
+    "rgpd"
+   ],
+   "jobs": [
+    "Consultant cybersécurité",
+    "CISO",
+    "Consultant en gouvernance"
+   ]
+  },
+  {
+   "id": "coso",
+   "label": {
+    "fr": "Référentiel COSO",
+    "en": "COSO framework",
+    "ar": "إطار COSO",
+    "ru": "COSO"
+   },
+   "patterns": [
+    "coso",
+    "coso ic",
+    "coso erm",
+    "internal control",
+    "контрол"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "risk-management",
+    "ifrs",
+    "internal-audit"
+   ],
+   "jobs": [
+    "Consultant en audit",
+    "Consultant en risk management",
+    "Auditeur interne"
+   ]
+  },
+  {
+   "id": "ifrs",
+   "label": {
+    "fr": "Normes IFRS",
+    "en": "IFRS standards",
+    "ar": "معايير IFRS",
+    "ru": "МСФО"
+   },
+   "patterns": [
+    "ifrs",
+    "international financial reporting",
+    "msfo",
+    "мфсо"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "us-gaap",
+    "financial-modeling",
+    "valuation"
+   ],
+   "jobs": [
+    "Consultant financier",
+    "Consultant M&A",
+    "CFO advisor"
+   ]
+  },
+  {
+   "id": "rgpd",
+   "label": {
+    "fr": "RGPD",
+    "en": "GDPR",
+    "ar": "GDPR",
+    "ru": "GDPR"
+   },
+   "patterns": [
+    "rgpd",
+    "gdpr",
+    "reglement general protection donnees",
+    "general data protection",
+    "джипиар"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-27001",
+    "data-strategy",
+    "risk-management"
+   ],
+   "jobs": [
+    "DPO",
+    "Consultant en conformité",
+    "Consultant data"
+   ]
+  },
+  {
+   "id": "itil-v4",
+   "label": {
+    "fr": "ITIL",
+    "en": "ITIL",
+    "ar": "ITIL",
+    "ru": "ITIL"
+   },
+   "patterns": [
+    "itil v4",
+    "itil 4",
+    "itil foundation",
+    "service management",
+    "итил"
+   ],
+   "category": "norme",
+   "topics": [
+    "consulting",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "togaf",
+    "digital-transformation",
+    "project-management"
+   ],
+   "jobs": [
+    "Consultant SI",
+    "IT service manager",
+    "Consultant en transformation IT"
+   ]
+  },
+  {
+   "id": "togaf",
+   "label": {
+    "fr": "TOGAF",
+    "en": "TOGAF",
+    "ar": "TOGAF",
+    "ru": "TOGAF"
+   },
+   "patterns": [
+    "togaf 9",
+    "togaf 10",
+    "the open group",
+    "architecture entreprise",
+    "тогаф"
+   ],
+   "category": "norme",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "itil-v4",
+    "digital-transformation",
+    "operating-model-design"
+   ],
+   "jobs": [
+    "Enterprise architect",
+    "Consultant SI",
+    "Architecte d'entreprise"
+   ]
+  },
+  {
+   "id": "cfa",
+   "label": {
+    "fr": "CFA",
+    "en": "CFA",
+    "ar": "CFA",
+    "ru": "CFA"
+   },
+   "patterns": [
+    "chartered financial analyst",
+    "cfa institute",
+    "cfa level",
+    "цфа"
+   ],
+   "category": "norme",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "valuation",
+    "financial-modeling",
+    "m-and-a"
+   ],
+   "jobs": [
+    "Consultant M&A",
+    "Consultant financier",
+    "Analyste financier"
+   ]
+  },
+  {
+   "id": "due-diligence",
+   "label": {
+    "fr": "Due diligence",
+    "en": "Due diligence",
+    "ar": "العناية الواجبة",
+    "ru": "Due diligence"
+   },
+   "patterns": [
+    "due diligence",
+    "dd",
+    "diligence raisonnable",
+    "vendor due diligence",
+    "vdd",
+    "дью дилидженс"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "m-and-a",
+    "valuation",
+    "financial-modeling"
+   ],
+   "jobs": [
+    "Consultant M&A",
+    "Consultant en stratégie financière",
+    "Transaction services"
+   ]
+  },
+  {
+   "id": "business-plan",
+   "label": {
+    "fr": "Business plan",
+    "en": "Business plan",
+    "ar": "خطة عمل",
+    "ru": "Бизнес-план"
+   },
+   "patterns": [
+    "business plan",
+    "plan daffaires",
+    "plan strategique",
+    "бизнес план"
+   ],
+   "category": "metier",
+   "topics": [
+    "business",
+    "consulting",
+    "finance"
+   ],
+   "level": "courant",
+   "related": [
+    "financial-modeling",
+    "strategic-planning",
+    "market-research"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant en création d'entreprise",
+    "Business developer"
+   ]
+  },
+  {
+   "id": "financial-modeling",
+   "label": {
+    "fr": "Modélisation financière",
+    "en": "Financial modeling",
+    "ar": "النمذجة المالية",
+    "ru": "Финансовое моделирование"
+   },
+   "patterns": [
+    "financial model",
+    "modele financier",
+    "3 statement model",
+    "dcf model",
+    "lbo model",
+    "финансов модел"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "microsoft-excel-avance",
+    "valuation",
+    "due-diligence"
+   ],
+   "jobs": [
+    "Consultant M&A",
+    "Consultant financier",
+    "Analyste financier"
+   ]
+  },
+  {
+   "id": "m-and-a",
+   "label": {
+    "fr": "Fusions-acquisitions",
+    "en": "Mergers & Acquisitions",
+    "ar": "عمليات الاندماج والاستحواذ",
+    "ru": "Слияния и поглощения"
+   },
+   "patterns": [
+    "m&a",
+    "m and a",
+    "mergers acquisitions",
+    "fusions acquisitions",
+    "слияни поглощен"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "due-diligence",
+    "post-merger-integration",
+    "valuation"
+   ],
+   "jobs": [
+    "Consultant M&A",
+    "Consultant en stratégie financière",
+    "Transaction advisor"
+   ]
+  },
+  {
+   "id": "valuation",
+   "label": {
+    "fr": "Valorisation d'entreprise",
+    "en": "Business valuation",
+    "ar": "تقييم الشركات",
+    "ru": "Оценка бизнеса"
+   },
+   "patterns": [
+    "valuation",
+    "dcf",
+    "multiples",
+    "comparable companies",
+    "оценк бизнес"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "financial-modeling",
+    "m-and-a",
+    "due-diligence"
+   ],
+   "jobs": [
+    "Consultant M&A",
+    "Consultant financier",
+    "Analyste financier"
+   ]
+  },
+  {
+   "id": "market-research",
+   "label": {
+    "fr": "Études de marché",
+    "en": "Market research",
+    "ar": "أبحاث السوق",
+    "ru": "Исследование рынка"
+   },
+   "patterns": [
+    "market research",
+    "etude de marche",
+    "market sizing",
+    "tam sam som",
+    "исследовани рынк"
+   ],
+   "category": "metier",
+   "topics": [
+    "marketing",
+    "consulting",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "competitive-intelligence",
+    "go-to-market",
+    "market-sizing"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Market analyst",
+    "Consultant marketing"
+   ]
+  },
+  {
+   "id": "competitive-intelligence",
+   "label": {
+    "fr": "Veille concurrentielle",
+    "en": "Competitive intelligence",
+    "ar": "الاستخبارات التنافسية",
+    "ru": "Конкурентная разведка"
+   },
+   "patterns": [
+    "competitive intelligence",
+    "veille concurrentielle",
+    "market intelligence",
+    "competitor analysis",
+    "конкурентн разведк"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "market-research",
+    "porter-five-forces",
+    "benchmarking"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Veilleur stratégique",
+    "Market analyst"
+   ]
+  },
+  {
+   "id": "pricing-strategy",
+   "label": {
+    "fr": "Stratégie de prix",
+    "en": "Pricing strategy",
+    "ar": "استراتيجية التسعير",
+    "ru": "Ценовая стратегия"
+   },
+   "patterns": [
+    "pricing",
+    "price strategy",
+    "strategie tarifaire",
+    "revenue management",
+    "ценообразован"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "marketing",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "go-to-market",
+    "revenue-growth",
+    "market-research"
+   ],
+   "jobs": [
+    "Consultant pricing",
+    "Consultant marketing",
+    "Pricing manager"
+   ]
+  },
+  {
+   "id": "go-to-market",
+   "label": {
+    "fr": "Stratégie go-to-market",
+    "en": "Go-to-market strategy",
+    "ar": "استراتيجية دخول السوق",
+    "ru": "Go-to-market стратегия"
+   },
+   "patterns": [
+    "gtm",
+    "go to market",
+    "gtm strategy",
+    "lancement",
+    "go to market plan",
+    "гуту маркет"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "marketing",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "pricing-strategy",
+    "market-research",
+    "business-model-canvas"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant marketing",
+    "GTM manager"
+   ]
+  },
+  {
+   "id": "post-merger-integration",
+   "label": {
+    "fr": "Intégration post-acquisition",
+    "en": "Post-merger integration",
+    "ar": "التكامل بعد الاندماج",
+    "ru": "Пост-мерджер интеграция"
+   },
+   "patterns": [
+    "pmi",
+    "post merger integration",
+    "post acquisition",
+    "integration plan",
+    "интеграци посл"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "finance",
+    "rh"
+   ],
+   "level": "specialise",
+   "related": [
+    "m-and-a",
+    "due-diligence",
+    "change-management"
+   ],
+   "jobs": [
+    "Consultant M&A",
+    "PMI manager",
+    "Consultant en intégration"
+   ]
+  },
+  {
+   "id": "restructuring",
+   "label": {
+    "fr": "Restructuration",
+    "en": "Restructuring",
+    "ar": "إعادة الهيكلة",
+    "ru": "Реструктуризация"
+   },
+   "patterns": [
+    "restructuring",
+    "turnaround",
+    "restructuration",
+    "реструктуризац"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "cost-reduction",
+    "operational-excellence",
+    "financial-modeling"
+   ],
+   "jobs": [
+    "Consultant en restructuration",
+    "Consultant financier",
+    "Turnaround manager"
+   ]
+  },
+  {
+   "id": "operational-excellence",
+   "label": {
+    "fr": "Excellence opérationnelle",
+    "en": "Operational excellence",
+    "ar": "التميز التشغيلي",
+    "ru": "Операционное совершенство"
+   },
+   "patterns": [
+    "opex",
+    "operational excellence",
+    "excellence operationnelle",
+    "операционн совершен"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "industrie",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-six-sigma",
+    "process-mapping",
+    "cost-reduction"
+   ],
+   "jobs": [
+    "Consultant en excellence opérationnelle",
+    "OpEx manager",
+    "Consultant en opérations"
+   ]
+  },
+  {
+   "id": "digital-transformation",
+   "label": {
+    "fr": "Transformation digitale",
+    "en": "Digital transformation",
+    "ar": "التحول الرقمي",
+    "ru": "Цифровая трансформация"
+   },
+   "patterns": [
+    "digital transformation",
+    "transformation digitale",
+    "dx",
+    "digital strategy",
+    "цифров трансформ"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "data-strategy",
+    "change-management",
+    "operating-model-design"
+   ],
+   "jobs": [
+    "Consultant en transformation digitale",
+    "Chief digital officer",
+    "Digital strategist"
+   ]
+  },
+  {
+   "id": "operating-model-design",
+   "label": {
+    "fr": "Conception du modèle opérationnel",
+    "en": "Operating model design",
+    "ar": "تصميم النموذج التشغيلي",
+    "ru": "Дизайн операционной модели"
+   },
+   "patterns": [
+    "operating model",
+    "target operating model",
+    "tom",
+    "modele operationnel",
+    "операционн модел"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "org-design",
+    "process-mapping",
+    "value-chain-analysis"
+   ],
+   "jobs": [
+    "Consultant en organisation",
+    "Consultant en transformation",
+    "Operating model lead"
+   ]
+  },
+  {
+   "id": "org-design",
+   "label": {
+    "fr": "Design organisationnel",
+    "en": "Organization design",
+    "ar": "التصميم التنظيمي",
+    "ru": "Организационный дизайн"
+   },
+   "patterns": [
+    "org design",
+    "organisation design",
+    "design organisationnel",
+    "org chart",
+    "организационн дизай"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "operating-model-design",
+    "change-management",
+    "stakeholder-mapping"
+   ],
+   "jobs": [
+    "Consultant en organisation",
+    "Consultant RH",
+    "OD specialist"
+   ]
+  },
+  {
+   "id": "cost-reduction",
+   "label": {
+    "fr": "Réduction des coûts",
+    "en": "Cost reduction",
+    "ar": "خفض التكاليف",
+    "ru": "Сокращение затрат"
+   },
+   "patterns": [
+    "cost reduction",
+    "cost cutting",
+    "reduction couts",
+    "cost optimization",
+    "сокращени затрат"
+   ],
+   "category": "metier",
+   "topics": [
+    "finance",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "operational-excellence",
+    "restructuring",
+    "financial-modeling"
+   ],
+   "jobs": [
+    "Consultant en performance",
+    "Consultant financier",
+    "Cost manager"
+   ]
+  },
+  {
+   "id": "strategic-planning",
+   "label": {
+    "fr": "Planification stratégique",
+    "en": "Strategic planning",
+    "ar": "التخطيط الاستراتيجي",
+    "ru": "Стратегическое планирование"
+   },
+   "patterns": [
+    "strategic plan",
+    "plan strategique",
+    "strategic roadmap",
+    "plan a 3 ans",
+    "стратегическ планирован"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "scenario-planning",
+    "balanced-scorecard",
+    "okr"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Directeur stratégie",
+    "Strategic planner"
+   ]
+  },
+  {
+   "id": "portfolio-strategy",
+   "label": {
+    "fr": "Stratégie de portefeuille",
+    "en": "Portfolio strategy",
+    "ar": "استراتيجية المحفظة",
+    "ru": "Портфельная стратегия"
+   },
+   "patterns": [
+    "portfolio strategy",
+    "strategie portefeuille",
+    "bcg matrix",
+    "growth share matrix",
+    "портфельн стратеги"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "specialise",
+   "related": [
+    "strategic-planning",
+    "m-and-a",
+    "value-chain-analysis"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Directeur stratégie",
+    "Corporate strategist"
+   ]
+  },
+  {
+   "id": "customer-experience",
+   "label": {
+    "fr": "Expérience client",
+    "en": "Customer experience",
+    "ar": "تجربة العميل",
+    "ru": "Клиентский опыт"
+   },
+   "patterns": [
+    "cx",
+    "customer experience",
+    "experience client",
+    "nps",
+    "customer satisfaction",
+    "клиентск опы"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "customer-journey-mapping",
+    "qualtrics",
+    "salesforce-crm"
+   ],
+   "jobs": [
+    "Consultant en expérience client",
+    "CX manager",
+    "Consultant marketing"
+   ]
+  },
+  {
+   "id": "data-strategy",
+   "label": {
+    "fr": "Stratégie data",
+    "en": "Data strategy",
+    "ar": "استراتيجية البيانات",
+    "ru": "Data-стратегия"
+   },
+   "patterns": [
+    "data strategy",
+    "strategie data",
+    "data roadmap",
+    "data governance",
+    "дата стратеги"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "consulting",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "digital-transformation",
+    "python-data",
+    "sql"
+   ],
+   "jobs": [
+    "Consultant data",
+    "Chief data officer",
+    "Data strategist"
+   ]
+  },
+  {
+   "id": "risk-management",
+   "label": {
+    "fr": "Gestion des risques",
+    "en": "Risk management",
+    "ar": "إدارة المخاطر",
+    "ru": "Управление рисками"
+   },
+   "patterns": [
+    "risk management",
+    "gestion risques",
+    "risk assessment",
+    "erm",
+    "управлени риск"
+   ],
+   "category": "metier",
+   "topics": [
+    "consulting",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "coso",
+    "iso-27001",
+    "scenario-planning"
+   ],
+   "jobs": [
+    "Consultant en risk management",
+    "Risk manager",
+    "Consultant en conformité"
+   ]
+  },
+  {
+   "id": "problem-solving",
+   "label": {
+    "fr": "Résolution de problèmes",
+    "en": "Problem solving",
+    "ar": "حل المشكلات",
+    "ru": "Решение проблем"
+   },
+   "patterns": [
+    "problem solving",
+    "resolution de problemes",
+    "structured problem solving",
+    "решени проблем"
+   ],
+   "category": "transverse",
+   "topics": [
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "mece",
+    "hypothesis-driven",
+    "analytical-skills"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant junior",
+    "Associate consultant"
+   ]
+  },
+  {
+   "id": "storytelling",
+   "label": {
+    "fr": "Storytelling",
+    "en": "Storytelling",
+    "ar": "سرد القصص",
+    "ru": "Сторителлинг"
+   },
+   "patterns": [
+    "storytelling",
+    "data storytelling",
+    "recit strategique",
+    "business narrative",
+    "сторителлинг"
+   ],
+   "category": "transverse",
+   "topics": [
+    "consulting",
+    "marketing"
+   ],
+   "level": "courant",
+   "related": [
+    "microsoft-powerpoint",
+    "executive-presentation",
+    "think-cell"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Consultant senior",
+    "Communications strategist"
+   ]
+  },
+  {
+   "id": "facilitation",
+   "label": {
+    "fr": "Facilitation",
+    "en": "Facilitation",
+    "ar": "تيسير Workshops",
+    "ru": "Фасилитация"
+   },
+   "patterns": [
+    "facilitation",
+    "workshop facilitation",
+    "facilitateur",
+    "facilitator",
+    "фасилитац"
+   ],
+   "category": "transverse",
+   "topics": [
+    "consulting",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "workshop-animation",
+    "miro-board",
+    "design-thinking"
+   ],
+   "jobs": [
+    "Consultant en transformation",
+    "Facilitateur",
+    "Consultant en innovation"
+   ]
+  },
+  {
+   "id": "executive-presentation",
+   "label": {
+    "fr": "Présentation à des dirigeants",
+    "en": "Executive presentation",
+    "ar": "العروض التنفيذية",
+    "ru": "Презентации для топ-менеджмента"
+   },
+   "patterns": [
+    "executive presentation",
+    "c-level presentation",
+    "board presentation",
+    "comex",
+    "топ менеджмент"
+   ],
+   "category": "transverse",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "storytelling",
+    "microsoft-powerpoint",
+    "think-cell"
+   ],
+   "jobs": [
+    "Consultant senior",
+    "Engagement manager",
+    "Partner"
+   ]
+  },
+  {
+   "id": "negotiation",
+   "label": {
+    "fr": "Négociation",
+    "en": "Negotiation",
+    "ar": "التفاوض",
+    "ru": "Переговоры"
+   },
+   "patterns": [
+    "negotiation",
+    "negociation",
+    "deal negotiation",
+    "переговор"
+   ],
+   "category": "transverse",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "stakeholder-management",
+    "business-development",
+    "m-and-a"
+   ],
+   "jobs": [
+    "Consultant senior",
+    "Business developer",
+    "Partner"
+   ]
+  },
+  {
+   "id": "business-development",
+   "label": {
+    "fr": "Développement commercial",
+    "en": "Business development",
+    "ar": "تطوير الأعمال",
+    "ru": "Развитие бизнеса"
+   },
+   "patterns": [
+    "business development",
+    "biz dev",
+    "bizdev",
+    "prospection",
+    "developpement commercial",
+    "бизнес развит"
+   ],
+   "category": "transverse",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "negotiation",
+    "client-relationship",
+    "salesforce-crm"
+   ],
+   "jobs": [
+    "Business developer",
+    "Partner",
+    "Directeur commercial"
+   ]
+  },
+  {
+   "id": "project-management",
+   "label": {
+    "fr": "Gestion de projet",
+    "en": "Project management",
+    "ar": "إدارة المشاريع",
+    "ru": "Управление проектами"
+   },
+   "patterns": [
+    "project management",
+    "gestion de projet",
+    "project manager",
+    "chef de projet",
+    "управлени проект"
+   ],
+   "category": "transverse",
+   "topics": [
+    "project",
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "pmp",
+    "prince2",
+    "agile-scrum"
+   ],
+   "jobs": [
+    "Project manager",
+    "Chef de projet",
+    "Engagement manager"
+   ]
+  },
+  {
+   "id": "analytical-skills",
+   "label": {
+    "fr": "Esprit d'analyse",
+    "en": "Analytical skills",
+    "ar": "المهارات التحليلية",
+    "ru": "Аналитические навыки"
+   },
+   "patterns": [
+    "analytical skills",
+    "esprit analytique",
+    "analyse critique",
+    "analytical thinking",
+    "аналитическ навык"
+   ],
+   "category": "transverse",
+   "topics": [
+    "consulting"
+   ],
+   "level": "courant",
+   "related": [
+    "problem-solving",
+    "hypothesis-driven",
+    "critical-thinking"
+   ],
+   "jobs": [
+    "Consultant en stratégie",
+    "Analyste conseil",
+    "Consultant junior"
+   ]
+  },
+  {
+   "id": "workshop-animation",
+   "label": {
+    "fr": "Animation d'ateliers",
+    "en": "Workshop facilitation",
+    "ar": "تيسير ورش العمل",
+    "ru": "Проведение воркшопов"
+   },
+   "patterns": [
+    "workshop animation",
+    "atelier collaboratif",
+    "animation atelier",
+    "co-design",
+    "воркшоп"
+   ],
+   "category": "transverse",
+   "topics": [
+    "consulting",
+    "design"
+   ],
+   "level": "frequent",
+   "related": [
+    "facilitation",
+    "miro-board",
+    "design-thinking"
+   ],
+   "jobs": [
+    "Consultant en innovation",
+    "Facilitateur",
+    "Consultant en transformation"
+   ]
+  },
+  {
+   "id": "stakeholder-management",
+   "label": {
+    "fr": "Gestion des parties prenantes",
+    "en": "Stakeholder management",
+    "ar": "إدارة أصحاب المصلحة",
+    "ru": "Управление стейкхолдерами"
+   },
+   "patterns": [
+    "stakeholder management",
+    "gestion parties prenantes",
+    "stakeholder engagement",
+    "стейкхолдер менеджмент"
+   ],
+   "category": "transverse",
+   "topics": [
+    "consulting",
+    "project"
+   ],
+   "level": "courant",
+   "related": [
+    "stakeholder-mapping",
+    "negotiation",
+    "change-management"
+   ],
+   "jobs": [
+    "Consultant senior",
+    "Engagement manager",
+    "Project manager"
+   ]
+  },
+  {
+   "id": "change-management",
+   "label": {
+    "fr": "Conduite du changement",
+    "en": "Change management",
+    "ar": "إدارة التغيير",
+    "ru": "Управление изменениями"
+   },
+   "patterns": [
+    "change management",
+    "conduite du changement",
+    "change leadership",
+    "управлени изменен"
+   ],
+   "category": "methode",
+   "topics": [
+    "consulting",
+    "rh"
+   ],
+   "level": "frequent",
+   "related": [
+    "adkar",
+    "stakeholder-management",
+    "digital-transformation"
+   ],
+   "jobs": [
+    "Consultant en conduite du changement",
+    "Change manager",
+    "Consultant RH"
+   ]
+  },
+  {
+   "id": "client-relationship",
+   "label": {
+    "fr": "Relation client",
+    "en": "Client relationship management",
+    "ar": "إدارة علاقات العملاء",
+    "ru": "Управление клиентскими отношениями"
+   },
+   "patterns": [
+    "client relationship",
+    "relation client",
+    "account management",
+    "client facing",
+    "клиентск отношен"
+   ],
+   "category": "transverse",
+   "topics": [
+    "consulting",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "business-development",
+    "negotiation",
+    "executive-presentation"
+   ],
+   "jobs": [
+    "Engagement manager",
+    "Partner",
+    "Directeur de mission"
+   ]
+  }
+ ]
+}

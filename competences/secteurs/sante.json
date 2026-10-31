@@ -1,0 +1,2304 @@
+{
+ "sector": "Santé, soins et secteur médical",
+ "key": "sante",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "epic-ehr",
+   "label": {
+    "fr": "Epic EHR",
+    "en": "Epic EHR",
+    "ar": "Epic EHR",
+    "ru": "Epic EHR"
+   },
+   "patterns": [
+    "epic ehr",
+    "epic",
+    "epic systems",
+    "эпик",
+    "электронный архив epic"
+   ],
+   "category": "outil",
+   "topics": [
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "cerner",
+    "dxcare",
+    "dossier-patient-informatise"
+   ],
+   "jobs": [
+    "Médecin hospitalier",
+    "Infirmier coordonnateur",
+    "Directeur des systèmes d'information de santé"
+   ]
+  },
+  {
+   "id": "cerner",
+   "label": {
+    "fr": "Cerner",
+    "en": "Cerner",
+    "ar": "Cerner",
+    "ru": "Cerner"
+   },
+   "patterns": [
+    "cerner",
+    "cerner powerchart",
+    "oracle cerner",
+    "cerner millennium"
+   ],
+   "category": "outil",
+   "topics": [
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "epic-ehr",
+    "meditech",
+    "dossier-patient-informatise"
+   ],
+   "jobs": [
+    "Médecin hospitalier",
+    "Infirmier",
+    "Chef de projet SIH"
+   ]
+  },
+  {
+   "id": "dxcare",
+   "label": {
+    "fr": "DXCare",
+    "en": "DXCare",
+    "ar": "DXCare",
+    "ru": "DXCare"
+   },
+   "patterns": [
+    "dxcare",
+    "dxcare dediqualis",
+    "dediqualis"
+   ],
+   "category": "outil",
+   "topics": [
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "netsoins",
+    "dossier-patient-informatise",
+    "crossway"
+   ],
+   "jobs": [
+    "Cadre de santé",
+    "Infirmier",
+    "Directeur des soins"
+   ]
+  },
+  {
+   "id": "netsoins",
+   "label": {
+    "fr": "NetSoins",
+    "en": "NetSoins",
+    "ar": "NetSoins",
+    "ru": "NetSoins"
+   },
+   "patterns": [
+    "netsoins",
+    "mainscope netsoins"
+   ],
+   "category": "outil",
+   "topics": [
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "dxcare",
+    "crossway",
+    "dossier-patient-informatise"
+   ],
+   "jobs": [
+    "Infirmier",
+    "Cadre de santé",
+    "Secrétaire médical"
+   ]
+  },
+  {
+   "id": "doctolib-pro",
+   "label": {
+    "fr": "Doctolib Pro",
+    "en": "Doctolib Pro",
+    "ar": "Doctolib Pro",
+    "ru": "Doctolib Pro"
+   },
+   "patterns": [
+    "doctolib pro",
+    "doctolib",
+    "doctolib medecin"
+   ],
+   "category": "outil",
+   "topics": [
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "teleconsultation",
+    "relation-patient",
+    "gestion-des-lits"
+   ],
+   "jobs": [
+    "Médecin généraliste",
+    "Secrétaire médical",
+    "Assistant dentaire"
+   ]
+  },
+  {
+   "id": "meditech",
+   "label": {
+    "fr": "MEDITECH",
+    "en": "MEDITECH",
+    "ar": "MEDITECH",
+    "ru": "MEDITECH"
+   },
+   "patterns": [
+    "meditech",
+    "meditech ehr",
+    "meditech expanse"
+   ],
+   "category": "outil",
+   "topics": [
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "epic-ehr",
+    "cerner",
+    "dossier-patient-informatise"
+   ],
+   "jobs": [
+    "Infirmier",
+    "Médecin",
+    "Directeur des systèmes d'information"
+   ]
+  },
+  {
+   "id": "crossway",
+   "label": {
+    "fr": "CrossWay",
+    "en": "CrossWay",
+    "ar": "CrossWay",
+    "ru": "CrossWay"
+   },
+   "patterns": [
+    "crossway",
+    "crossway clinic",
+    "maincare crossway"
+   ],
+   "category": "outil",
+   "topics": [
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "dxcare",
+    "netsoins",
+    "dossier-patient-informatise"
+   ],
+   "jobs": [
+    "Médecin",
+    "Infirmier",
+    "Cadre de santé"
+   ]
+  },
+  {
+   "id": "hipaa",
+   "label": {
+    "fr": "HIPAA",
+    "en": "HIPAA",
+    "ar": "HIPAA",
+    "ru": "HIPAA"
+   },
+   "patterns": [
+    "hipaa",
+    "health insurance portability and accountability act",
+    "хипаа"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "rgpd-sante",
+    "gestion-des-risques",
+    "tracabilite-patient"
+   ],
+   "jobs": [
+    "Délégué à la protection des données",
+    "Juriste en droit de la santé",
+    "Responsable conformité"
+   ]
+  },
+  {
+   "id": "iso-15189",
+   "label": {
+    "fr": "ISO 15189",
+    "en": "ISO 15189",
+    "ar": "ISO 15189",
+    "ru": "ISO 15189"
+   },
+   "patterns": [
+    "iso 15189",
+    "iso15189",
+    "исо 15189",
+    "аккредитация 15189"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "biologie-medicale",
+    "qualitologie-sante",
+    "gestion-des-risques"
+   ],
+   "jobs": [
+    "Biologiste médical",
+    "Responsable qualité laboratoire",
+    "Technicien de laboratoire"
+   ]
+  },
+  {
+   "id": "certification-has",
+   "label": {
+    "fr": "Certification HAS",
+    "en": "HAS Certification",
+    "ar": "اعتماد HAS",
+    "ru": "Сертификация HAS"
+   },
+   "patterns": [
+    "certification has",
+    "haute autorite de sante",
+    "визит has"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "gestion-des-risques",
+    "qualitologie-sante",
+    "jci-accreditation"
+   ],
+   "jobs": [
+    "Directeur d'hôpital",
+    "Responsable qualité et gestion des risques",
+    "Cadre de santé"
+   ]
+  },
+  {
+   "id": "jci-accreditation",
+   "label": {
+    "fr": "Accréditation JCI",
+    "en": "JCI Accreditation",
+    "ar": "اعتماد JCI",
+    "ru": "Аккредитация JCI"
+   },
+   "patterns": [
+    "jci",
+    "joint commission international",
+    "jci accreditation",
+    "jci аккредитация"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "certification-has",
+    "gestion-des-risques",
+    "qualitologie-sante"
+   ],
+   "jobs": [
+    "Directeur de clinique",
+    "Responsable qualité",
+    "Médecin chef de service"
+   ]
+  },
+  {
+   "id": "bpf-gmp",
+   "label": {
+    "fr": "BPF / GMP",
+    "en": "GMP",
+    "ar": "ممارسات التصنيع الجيدة",
+    "ru": "GMP"
+   },
+   "patterns": [
+    "bpf",
+    "gmp",
+    "bonnes pratiques de fabrication",
+    "good manufacturing practice",
+    "gxp",
+    "надлежащая производственная практика",
+    "gmp стандарт"
+   ],
+   "category": "norme",
+   "topics": [
+    "pharma",
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "bpc-gcp",
+    "pharmacovigilance",
+    "essai-clinique"
+   ],
+   "jobs": [
+    "Pharmacien responsable",
+    "Auditeur qualité pharma",
+    "Directeur de production pharmaceutique"
+   ]
+  },
+  {
+   "id": "bpc-gcp",
+   "label": {
+    "fr": "BPC / GCP",
+    "en": "GCP",
+    "ar": "الممارسة السريرية الجيدة",
+    "ru": "GCP"
+   },
+   "patterns": [
+    "bpc",
+    "gcp",
+    "bonnes pratiques cliniques",
+    "good clinical practice",
+    "ich gcp",
+    "надлежащая клиническая практика"
+   ],
+   "category": "norme",
+   "topics": [
+    "pharma",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "bpf-gmp",
+    "essai-clinique",
+    "pharmacovigilance"
+   ],
+   "jobs": [
+    "Attaché de recherche clinique",
+    "Pharmacien",
+    "Investigateur clinique"
+   ]
+  },
+  {
+   "id": "rgpd-sante",
+   "label": {
+    "fr": "RGPD Santé",
+    "en": "GDPR Health Data",
+    "ar": "حماية البيانات الصحية",
+    "ru": "GDPR здоровье"
+   },
+   "patterns": [
+    "rgpd sante",
+    "rgpd donnees de sante",
+    "hds",
+    "hebergeur de donnees de sante",
+    "gdpr health",
+    "rgpd medical"
+   ],
+   "category": "norme",
+   "topics": [
+    "juridique",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "hipaa",
+    "gestion-des-risques",
+    "dossier-patient-informatise"
+   ],
+   "jobs": [
+    "DPO santé",
+    "Juriste droit médical",
+    "Responsable SIH"
+   ]
+  },
+  {
+   "id": "triage",
+   "label": {
+    "fr": "Triage",
+    "en": "Triage",
+    "ar": "الفرز",
+    "ru": "Сортировка"
+   },
+   "patterns": [
+    "triage",
+    "triage infirmier",
+    "ioa",
+    "infirmier organisateur de laccueil",
+    "triage hospitalier",
+    "сортировка пациентов",
+    "триаж"
+   ],
+   "category": "methode",
+   "topics": [
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "reanimation-cardiopulmonaire",
+    "protocole-soap",
+    "equipe-pluridisciplinaire"
+   ],
+   "jobs": [
+    "Infirmier d'accueil",
+    "Infirmier urgentiste",
+    "Médecin urgentiste"
+   ]
+  },
+  {
+   "id": "methode-sbar",
+   "label": {
+    "fr": "Méthode SBAR",
+    "en": "SBAR",
+    "ar": "منهجية SBAR",
+    "ru": "SBAR"
+   },
+   "patterns": [
+    "sbar",
+    "situation background assessment recommendation",
+    "метод sbar",
+    "сабар"
+   ],
+   "category": "methode",
+   "topics": [
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "protocole-soap",
+    "equipe-pluridisciplinaire",
+    "gestion-des-risques"
+   ],
+   "jobs": [
+    "Infirmier",
+    "Cadre de santé",
+    "Médecin"
+   ]
+  },
+  {
+   "id": "protocole-soap",
+   "label": {
+    "fr": "Protocole SOAP",
+    "en": "SOAP note",
+    "ar": "بروتوكول SOAP",
+    "ru": "Протокол SOAP"
+   },
+   "patterns": [
+    "soap",
+    "subjective objective assessment plan",
+    "soap note",
+    "метод soap",
+    "соап"
+   ],
+   "category": "methode",
+   "topics": [
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "methode-sbar",
+    "dossier-patient-informatise",
+    "lecture-ecg"
+   ],
+   "jobs": [
+    "Médecin",
+    "Infirmier praticien",
+    "Sage-femme"
+   ]
+  },
+  {
+   "id": "haccp",
+   "label": {
+    "fr": "HACCP",
+    "en": "HACCP",
+    "ar": "نظام الهاسب",
+    "ru": "ХАССП"
+   },
+   "patterns": [
+    "haccp",
+    "hazard analysis critical control point",
+    "хассп",
+    "аспп"
+   ],
+   "category": "norme",
+   "topics": [
+    "sante",
+    "hotellerie"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-dasri",
+    "circuit-du-medicament",
+    "gestion-des-risques"
+   ],
+   "jobs": [
+    "Diététicien",
+    "Responsable restauration hospitalière",
+    "Cadre de santé"
+   ]
+  },
+  {
+   "id": "prelevement-sanguin",
+   "label": {
+    "fr": "Prélèvement sanguin",
+    "en": "Blood draw",
+    "ar": "سحب الدم",
+    "ru": "Забор крови"
+   },
+   "patterns": [
+    "prelevement sanguin",
+    "prise de sang",
+    "ponction veineuse",
+    "флеботомия",
+    "забор крови",
+    "взятие крови"
+   ],
+   "category": "metier",
+   "topics": [
+    "sante",
+    "soins"
+   ],
+   "level": "courant",
+   "related": [
+    "pose-voie-veineuse",
+    "biologie-medicale",
+    "soins-de-nursing"
+   ],
+   "jobs": [
+    "Infirmier",
+    "Prélèveur",
+    "Technicien de laboratoire"
+   ]
+  },
+  {
+   "id": "pose-voie-veineuse",
+   "label": {
+    "fr": "Pose de voie veineuse",
+    "en": "IV insertion",
+    "ar": "تركيب القنية الوريدية",
+    "ru": "Установка венозного катетера"
+   },
+   "patterns": [
+    "pose de voie veineuse",
+    "pose de perfusion",
+    "catheterisme veineux",
+    "voie veineuse peripherique",
+    "вв катетер",
+    "установка катетера"
+   ],
+   "category": "metier",
+   "topics": [
+    "soins"
+   ],
+   "level": "courant",
+   "related": [
+    "prelevement-sanguin",
+    "chimiotherapie",
+    "hemodialyse"
+   ],
+   "jobs": [
+    "Infirmier",
+    "Infirmier anesthésiste",
+    "Médecin urgentiste"
+   ]
+  },
+  {
+   "id": "soins-de-nursing",
+   "label": {
+    "fr": "Nursing",
+    "en": "Nursing care",
+    "ar": "التمريض الأساسي",
+    "ru": "Основной уход"
+   },
+   "patterns": [
+    "nursing",
+    "soins de confort",
+    "hygiene du patient",
+    "nursing de base",
+    "базовый уход",
+    "гигиена пациента"
+   ],
+   "category": "metier",
+   "topics": [
+    "soins"
+   ],
+   "level": "courant",
+   "related": [
+    "prelevement-sanguin",
+    "geriatrie",
+    "relation-patient"
+   ],
+   "jobs": [
+    "Aide-soignant",
+    "Infirmier",
+    "Auxiliaire de puériculture"
+   ]
+  },
+  {
+   "id": "reanimation-cardiopulmonaire",
+   "label": {
+    "fr": "Réanimation cardiopulmonaire",
+    "en": "CPR",
+    "ar": "الإنعاش القلبي الرئوي",
+    "ru": "СЛР"
+   },
+   "patterns": [
+    "rcp",
+    "cpr",
+    "reanimation cardiopulmonaire",
+    "arrete cardiaque",
+    "slr",
+    "сердечно легочная реанимация"
+   ],
+   "category": "metier",
+   "topics": [
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "triage",
+    "secourisme-afgsu",
+    "lecture-ecg"
+   ],
+   "jobs": [
+    "Infirmier urgentiste",
+    "Médecin SMUR",
+    "Ambulancier"
+   ]
+  },
+  {
+   "id": "lecture-ecg",
+   "label": {
+    "fr": "Lecture ECG",
+    "en": "ECG interpretation",
+    "ar": "تخطيط كهربية القلب",
+    "ru": "Расшифровка ЭКГ"
+   },
+   "patterns": [
+    "lecture ecg",
+    "electrocardiogramme",
+    "interpretation ecg",
+    "экг",
+    "расшифровка экг",
+    "ekg"
+   ],
+   "category": "metier",
+   "topics": [
+    "medical"
+   ],
+   "level": "courant",
+   "related": [
+    "reanimation-cardiopulmonaire",
+    "protocole-soap",
+    "imagerie-medicale"
+   ],
+   "jobs": [
+    "Infirmier cardiologie",
+    "Médecin urgentiste",
+    "Cardiologue"
+   ]
+  },
+  {
+   "id": "sterilisation-medical",
+   "label": {
+    "fr": "Stérilisation médicale",
+    "en": "Medical sterilization",
+    "ar": "التعقيم الطبي",
+    "ru": "Медицинская стерилизация"
+   },
+   "patterns": [
+    "sterilisation",
+    "sterilisation centrale",
+    "autoclave",
+    "circuit de sterilisation",
+    "стерилизация",
+    "автоклавирование"
+   ],
+   "category": "metier",
+   "topics": [
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "bloc-operatoire",
+    "gestion-dasri",
+    "gestion-des-risques"
+   ],
+   "jobs": [
+    "Agent de stérilisation",
+    "Infirmier de bloc",
+    "Cadre de santé"
+   ]
+  },
+  {
+   "id": "gestion-dasri",
+   "label": {
+    "fr": "Gestion des DASRI",
+    "en": "Medical waste management",
+    "ar": "إدارة النفايات الطبية",
+    "ru": "Утилизация медотходов"
+   },
+   "patterns": [
+    "dasri",
+    "dechets dactivites de soins a risques infectieux",
+    "gestion des dechets medicaux",
+    "медотходы",
+    "утилизация отходов"
+   ],
+   "category": "metier",
+   "topics": [
+    "sante",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "sterilisation-medical",
+    "haccp",
+    "radioprotection"
+   ],
+   "jobs": [
+    "Agent des services hospitaliers",
+    "Cadre de santé",
+    "Responsable hygiène"
+   ]
+  },
+  {
+   "id": "education-therapeutique",
+   "label": {
+    "fr": "Éducation thérapeutique",
+    "en": "Therapeutic patient education",
+    "ar": "التثقيف العلاجي",
+    "ru": "Терапевтическое обучение"
+   },
+   "patterns": [
+    "etp",
+    "education therapeutique du patient",
+    "education du patient",
+    "терапевтическое обучение",
+    "школа пациента"
+   ],
+   "category": "metier",
+   "topics": [
+    "soins"
+   ],
+   "level": "frequent",
+   "related": [
+    "relation-patient",
+    "conseil-dietetique",
+    "soins-palliatifs"
+   ],
+   "jobs": [
+    "Infirmier",
+    "Diététicien",
+    "Médecin spécialiste"
+   ]
+  },
+  {
+   "id": "teleconsultation",
+   "label": {
+    "fr": "Téléconsultation",
+    "en": "Telemedicine",
+    "ar": "الاستشارات الطبية عن بعد",
+    "ru": "Телемедицина"
+   },
+   "patterns": [
+    "teleconsultation",
+    "telemedecine",
+    "tele-expertise",
+    "телемедицина",
+    "удаленный прием"
+   ],
+   "category": "metier",
+   "topics": [
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "doctolib-pro",
+    "relation-patient",
+    "dossier-patient-informatise"
+   ],
+   "jobs": [
+    "Médecin généraliste",
+    "Infirmier de pratique avancée",
+    "Psychiatre"
+   ]
+  },
+  {
+   "id": "pharmacovigilance",
+   "label": {
+    "fr": "Pharmacovigilance",
+    "en": "Pharmacovigilance",
+    "ar": "اليقظة الدوائية",
+    "ru": "Фармаконадзор"
+   },
+   "patterns": [
+    "pharmacovigilance",
+    "effet indesirable",
+    "notification ei",
+    "фармаконадзор",
+    "нежелательные явления"
+   ],
+   "category": "metier",
+   "topics": [
+    "pharma"
+   ],
+   "level": "frequent",
+   "related": [
+    "bpc-gcp",
+    "essai-clinique",
+    "circuit-du-medicament"
+   ],
+   "jobs": [
+    "Pharmacovigilant",
+    "Pharmacien",
+    "Médecin évaluateur"
+   ]
+  },
+  {
+   "id": "essai-clinique",
+   "label": {
+    "fr": "Essai clinique",
+    "en": "Clinical trial",
+    "ar": "التجربة السريرية",
+    "ru": "Клиническое исследование"
+   },
+   "patterns": [
+    "essai clinique",
+    "recherche clinique",
+    "investigation clinique",
+    "клиническое исследование",
+    "rct"
+   ],
+   "category": "metier",
+   "topics": [
+    "pharma"
+   ],
+   "level": "frequent",
+   "related": [
+    "bpc-gcp",
+    "pharmacovigilance",
+    "biostatistiques"
+   ],
+   "jobs": [
+    "Attaché de recherche clinique",
+    "Investigateur",
+    "Data manager clinique"
+   ]
+  },
+  {
+   "id": "biologie-medicale",
+   "label": {
+    "fr": "Biologie médicale",
+    "en": "Medical biology",
+    "ar": "علم الأحياء الطبي",
+    "ru": "Лабораторная диагностика"
+   },
+   "patterns": [
+    "biologie medicale",
+    "analyses medicales",
+    "laboratoire de biologie",
+    "лабораторная диагностика",
+    "бакпосев"
+   ],
+   "category": "metier",
+   "topics": [
+    "biologie"
+   ],
+   "level": "courant",
+   "related": [
+    "prelevement-sanguin",
+    "iso-15189",
+    "biostatistiques"
+   ],
+   "jobs": [
+    "Biologiste médical",
+    "Technicien de laboratoire",
+    "Prélèveur"
+   ]
+  },
+  {
+   "id": "imagerie-medicale",
+   "label": {
+    "fr": "Imagerie médicale",
+    "en": "Medical imaging",
+    "ar": "التصوير الطبي",
+    "ru": "Медицинская визуализация"
+   },
+   "patterns": [
+    "imagerie medicale",
+    "radiologie",
+    "manipulation radio",
+    "лучевая диагностика",
+    "рентгенология"
+   ],
+   "category": "metier",
+   "topics": [
+    "medical"
+   ],
+   "level": "courant",
+   "related": [
+    "manipulation-irm",
+    "manipulation-scanner",
+    "pacs-imagerie"
+   ],
+   "jobs": [
+    "Radiologue",
+    "Manipulateur radio",
+    "Médecin nucléaire"
+   ]
+  },
+  {
+   "id": "manipulation-irm",
+   "label": {
+    "fr": "Manipulation IRM",
+    "en": "MRI scanning",
+    "ar": "التصوير بالرنين المغناطيسي",
+    "ru": "МРТ"
+   },
+   "patterns": [
+    "irm",
+    "imagerie par resonance magnetique",
+    "manipulation irm",
+    "мрт",
+    "магнитно-резонансная томография"
+   ],
+   "category": "metier",
+   "topics": [
+    "medical"
+   ],
+   "level": "specialise",
+   "related": [
+    "imagerie-medicale",
+    "manipulation-scanner",
+    "pacs-imagerie"
+   ],
+   "jobs": [
+    "Manipulateur IRM",
+    "Radiologue",
+    "Technicien en imagerie"
+   ]
+  },
+  {
+   "id": "manipulation-scanner",
+   "label": {
+    "fr": "Manipulation Scanner",
+    "en": "CT scanning",
+    "ar": "التصوير المقطعي",
+    "ru": "КТ"
+   },
+   "patterns": [
+    "scanner",
+    "tomodensitometrie",
+    "manipulation scanner",
+    "скт",
+    "компьютерная томография"
+   ],
+   "category": "metier",
+   "topics": [
+    "medical"
+   ],
+   "level": "specialise",
+   "related": [
+    "imagerie-medicale",
+    "manipulation-irm",
+    "pacs-imagerie"
+   ],
+   "jobs": [
+    "Manipulateur scanner",
+    "Radiologue",
+    "Technicien en imagerie"
+   ]
+  },
+  {
+   "id": "echographie",
+   "label": {
+    "fr": "Échographie",
+    "en": "Ultrasound",
+    "ar": "التصوير بالموجات فوق الصوتية",
+    "ru": "УЗИ"
+   },
+   "patterns": [
+    "echographie",
+    "ultrasons",
+    "echo",
+    "узи",
+    "ультразвуковое исследование"
+   ],
+   "category": "metier",
+   "topics": [
+    "medical"
+   ],
+   "level": "frequent",
+   "related": [
+    "imagerie-medicale",
+    "obstetrique",
+    "pacs-imagerie"
+   ],
+   "jobs": [
+    "Échographiste",
+    "Radiologue",
+    "Sage-femme"
+   ]
+  },
+  {
+   "id": "anesthesie",
+   "label": {
+    "fr": "Anesthésie",
+    "en": "Anesthesia",
+    "ar": "التخدير",
+    "ru": "Анестезиология"
+   },
+   "patterns": [
+    "anesthesie",
+    "anesthesiologie",
+    "bloc operatoire",
+    "анестезиология",
+    "наркоз",
+    "анестезия"
+   ],
+   "category": "metier",
+   "topics": [
+    "medical"
+   ],
+   "level": "specialise",
+   "related": [
+    "bloc-operatoire",
+    "pose-voie-veineuse",
+    "reanimation-cardiopulmonaire"
+   ],
+   "jobs": [
+    "Médecin anesthésiste-réanimateur",
+    "Infirmier anesthésiste",
+    "Technicien de bloc"
+   ]
+  },
+  {
+   "id": "bloc-operatoire",
+   "label": {
+    "fr": "Bloc opératoire",
+    "en": "Operating room",
+    "ar": "غرفة العمليات",
+    "ru": "Операционный блок"
+   },
+   "patterns": [
+    "bloc operatoire",
+    "ibode",
+    "instrumentation chirurgicale",
+    "операционный блок",
+    "операционная сестра"
+   ],
+   "category": "metier",
+   "topics": [
+    "medical"
+   ],
+   "level": "frequent",
+   "related": [
+    "anesthesie",
+    "sterilisation-medical",
+    "soins-de-nursing"
+   ],
+   "jobs": [
+    "IBODE",
+    "Infirmier de bloc",
+    "Chirurgien"
+   ]
+  },
+  {
+   "id": "hemodialyse",
+   "label": {
+    "fr": "Hémodialyse",
+    "en": "Hemodialysis",
+    "ar": "غسيل الكلى",
+    "ru": "Гемодиализ"
+   },
+   "patterns": [
+    "hemodialyse",
+    "dialyse",
+    "nephrologie",
+    "epuration extrarenale",
+    "гемодиализ",
+    "диализ"
+   ],
+   "category": "metier",
+   "topics": [
+    "soins"
+   ],
+   "level": "specialise",
+   "related": [
+    "pose-voie-veineuse",
+    "prelevement-sanguin",
+    "soins-de-nursing"
+   ],
+   "jobs": [
+    "Infirmier de dialyse",
+    "Néphrologue",
+    "Technicien de dialyse"
+   ]
+  },
+  {
+   "id": "chimiotherapie",
+   "label": {
+    "fr": "Chimiothérapie",
+    "en": "Chemotherapy",
+    "ar": "العلاج الكيميائي",
+    "ru": "Химиотерапия"
+   },
+   "patterns": [
+    "chimiotherapie",
+    "administration chimio",
+    "oncologie",
+    "химиотерапия",
+    "цитостатики"
+   ],
+   "category": "metier",
+   "topics": [
+    "soins"
+   ],
+   "level": "specialise",
+   "related": [
+    "pose-voie-veineuse",
+    "pharmacovigilance",
+    "soins-palliatifs"
+   ],
+   "jobs": [
+    "Infirmier en oncologie",
+    "Oncologue",
+    "Pharmacien hospitalier"
+   ]
+  },
+  {
+   "id": "radioprotection",
+   "label": {
+    "fr": "Radioprotection",
+    "en": "Radiation protection",
+    "ar": "الوقاية الإشعاعية",
+    "ru": "Радиационная защита"
+   },
+   "patterns": [
+    "radioprotection",
+    "personne competente en radioprotection",
+    "radioprotection medicale",
+    "радиационная безопасность",
+    "защита от излучения"
+   ],
+   "category": "norme",
+   "topics": [
+    "medical",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "imagerie-medicale",
+    "manipulation-scanner",
+    "gestion-des-risques"
+   ],
+   "jobs": [
+    "Personne compétente en radioprotection",
+    "Radiologue",
+    "Manipulateur radio"
+   ]
+  },
+  {
+   "id": "secourisme-afgsu",
+   "label": {
+    "fr": "AFGSU",
+    "en": "First aid certification",
+    "ar": "شهادة الإسعافات الأولية",
+    "ru": "АФГСУ"
+   },
+   "patterns": [
+    "afgsu",
+    "attestation de formation aux gestes et soins durgence",
+    "afgsu 1",
+    "afgsu 2",
+    "афгсу",
+    "первая помощь"
+   ],
+   "category": "norme",
+   "topics": [
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "reanimation-cardiopulmonaire",
+    "triage",
+    "gestion-des-risques"
+   ],
+   "jobs": [
+    "Infirmier",
+    "Aide-soignant",
+    "Secrétaire médical"
+   ]
+  },
+  {
+   "id": "gestion-des-risques",
+   "label": {
+    "fr": "Gestion des risques",
+    "en": "Risk management",
+    "ar": "إدارة المخاطر",
+    "ru": "Управление рисками"
+   },
+   "patterns": [
+    "gestion des risques",
+    "analyse des risques",
+    "cartographie des risques",
+    "управление рисками",
+    "риск-менеджмент"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "certification-has",
+    "qualitologie-sante",
+    "radioprotection"
+   ],
+   "jobs": [
+    "Responsable qualité et gestion des risques",
+    "Directeur d'hôpital",
+    "Cadre de santé"
+   ]
+  },
+  {
+   "id": "qualitologie-sante",
+   "label": {
+    "fr": "Qualité en santé",
+    "en": "Healthcare quality",
+    "ar": "جودة الرعاية الصحية",
+    "ru": "Качество в здравоохранении"
+   },
+   "patterns": [
+    "qualitologie",
+    "qualite en sante",
+    "amelioration continue",
+    "demarche qualite",
+    "качество медпомощи",
+    "непрерывное улучшение"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-des-risques",
+    "certification-has",
+    "iso-15189"
+   ],
+   "jobs": [
+    "Responsable qualité",
+    "Coordonnateur des risques",
+    "Ingénieur qualité"
+   ]
+  },
+  {
+   "id": "tracabilite-patient",
+   "label": {
+    "fr": "Traçabilité patient",
+    "en": "Patient traceability",
+    "ar": "تتبع المريض",
+    "ru": "Прослеживаемость"
+   },
+   "patterns": [
+    "tracabilite patient",
+    "tracabilite des soins",
+    "identitovigilance",
+    "трассируемость",
+    "идентификация пациента"
+   ],
+   "category": "transverse",
+   "topics": [
+    "sante",
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "dossier-patient-informatise",
+    "gestion-des-risques",
+    "hipaa"
+   ],
+   "jobs": [
+    "Cadre de santé",
+    "Infirmier",
+    "Responsable SIH"
+   ]
+  },
+  {
+   "id": "relation-patient",
+   "label": {
+    "fr": "Relation patient",
+    "en": "Patient relations",
+    "ar": "التواصل مع المريض",
+    "ru": "Взаимодействие с пациентом"
+   },
+   "patterns": [
+    "relation patient",
+    "accueil patient",
+    "communication therapeutique",
+    "эмпатия",
+    "общение с пациентом",
+    "patient centered care"
+   ],
+   "category": "transverse",
+   "topics": [
+    "soins"
+   ],
+   "level": "courant",
+   "related": [
+    "education-therapeutique",
+    "teleconsultation",
+    "soins-palliatifs"
+   ],
+   "jobs": [
+    "Infirmier",
+    "Secrétaire médical",
+    "Médecin"
+   ]
+  },
+  {
+   "id": "equipe-pluridisciplinaire",
+   "label": {
+    "fr": "Équipe pluridisciplinaire",
+    "en": "Multidisciplinary team",
+    "ar": "فريق متعدد التخصصات",
+    "ru": "Мультидисциплинарная команда"
+   },
+   "patterns": [
+    "equipe pluridisciplinaire",
+    "travail en equipe",
+    "staff pluridisciplinaire",
+    "мультидисциплинарная команда",
+    "междисциплинарный подход"
+   ],
+   "category": "transverse",
+   "topics": [
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "methode-sbar",
+    "triage",
+    "relation-patient"
+   ],
+   "jobs": [
+    "Médecin",
+    "Infirmier",
+    "Assistant social"
+   ]
+  },
+  {
+   "id": "anglais-medical",
+   "label": {
+    "fr": "Anglais médical",
+    "en": "Medical English",
+    "ar": "الإنجليزية الطبية",
+    "ru": "Медицинский английский"
+   },
+   "patterns": [
+    "anglais medical",
+    "medical english",
+    "anglais scientifique",
+    "медицинский английский",
+    "english for medicine"
+   ],
+   "category": "langue",
+   "topics": [
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "redaction-scientifique",
+    "essai-clinique",
+    "teleconsultation"
+   ],
+   "jobs": [
+    "Médecin chercheur",
+    "Attaché de recherche clinique",
+    "Pharmacien"
+   ]
+  },
+  {
+   "id": "dossier-patient-informatise",
+   "label": {
+    "fr": "Dossier Patient Informatisé",
+    "en": "Electronic Health Record",
+    "ar": "السجل الصحي الإلكتروني",
+    "ru": "ЭМК"
+   },
+   "patterns": [
+    "dpi",
+    "dossier patient informatise",
+    "ehr",
+    "emr",
+    "electronic health record",
+    "эмк",
+    "электронная медицинская карта"
+   ],
+   "category": "outil",
+   "topics": [
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "dxcare",
+    "netsoins",
+    "tracabilite-patient"
+   ],
+   "jobs": [
+    "Infirmier",
+    "Médecin",
+    "Cadre de santé"
+   ]
+  },
+  {
+   "id": "pacs-imagerie",
+   "label": {
+    "fr": "PACS",
+    "en": "PACS",
+    "ar": "نظام أرشفة الصور",
+    "ru": "PACS"
+   },
+   "patterns": [
+    "pacs",
+    "picture archiving and communication system",
+    "pacs imagerie",
+    "pacs-рис",
+    "архив изображений"
+   ],
+   "category": "outil",
+   "topics": [
+    "medical"
+   ],
+   "level": "frequent",
+   "related": [
+    "ris-radiologie",
+    "imagerie-medicale",
+    "manipulation-irm"
+   ],
+   "jobs": [
+    "Radiologue",
+    "Manipulateur radio",
+    "Ingénieur biomédical"
+   ]
+  },
+  {
+   "id": "ris-radiologie",
+   "label": {
+    "fr": "RIS",
+    "en": "RIS",
+    "ar": "نظام معلومات الأشعة",
+    "ru": "RIS"
+   },
+   "patterns": [
+    "ris",
+    "radiology information system",
+    "ris radiologie",
+    "ris-система",
+    "радиологическая информационная система"
+   ],
+   "category": "outil",
+   "topics": [
+    "medical"
+   ],
+   "level": "frequent",
+   "related": [
+    "pacs-imagerie",
+    "imagerie-medicale",
+    "dicom"
+   ],
+   "jobs": [
+    "Radiologue",
+    "Secrétaire en radiologie",
+    "Ingénieur SIH"
+   ]
+  },
+  {
+   "id": "hl7-fhir",
+   "label": {
+    "fr": "HL7 FHIR",
+    "en": "HL7 FHIR",
+    "ar": "HL7 FHIR",
+    "ru": "HL7 FHIR"
+   },
+   "patterns": [
+    "hl7",
+    "fhir",
+    "fast healthcare interoperability resources",
+    "hl7 v2",
+    "fhir standard"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "dicom",
+    "dossier-patient-informatise",
+    "epic-ehr"
+   ],
+   "jobs": [
+    "Ingénieur biomédical",
+    "Data scientist santé",
+    "Chef de projet SIH"
+   ]
+  },
+  {
+   "id": "dicom",
+   "label": {
+    "fr": "DICOM",
+    "en": "DICOM",
+    "ar": "DICOM",
+    "ru": "DICOM"
+   },
+   "patterns": [
+    "dicom",
+    "digital imaging and communications in medicine",
+    "dicom standard",
+    "стандарт dicom"
+   ],
+   "category": "norme",
+   "topics": [
+    "medical",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "pacs-imagerie",
+    "ris-radiologie",
+    "imagerie-medicale"
+   ],
+   "jobs": [
+    "Ingénieur biomédical",
+    "Radiologue",
+    "Technicien PACS"
+   ]
+  },
+  {
+   "id": "nomenclature-cim10",
+   "label": {
+    "fr": "CIM-10",
+    "en": "ICD-10",
+    "ar": "التصنيف الدولي للأمراض",
+    "ru": "МКБ-10"
+   },
+   "patterns": [
+    "cim10",
+    "cim 10",
+    "icd10",
+    "icd 10",
+    "classification internationale des maladies",
+    "мкб 10",
+    "мкб-10"
+   ],
+   "category": "norme",
+   "topics": [
+    "sante",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "codage-ccam",
+    "tarification-a-lactivite",
+    "dossier-patient-informatise"
+   ],
+   "jobs": [
+    "Médecin DIM",
+    "Technicien TIM",
+    "Coder médical"
+   ]
+  },
+  {
+   "id": "codage-ccam",
+   "label": {
+    "fr": "CCAM",
+    "en": "CCAM coding",
+    "ar": "تصنيف CCAM",
+    "ru": "CCAM"
+   },
+   "patterns": [
+    "ccam",
+    "classification commune des actes medicaux",
+    "codage des actes",
+    "ccam codage"
+   ],
+   "category": "norme",
+   "topics": [
+    "sante",
+    "finance"
+   ],
+   "level": "frequent",
+   "related": [
+    "nomenclature-cim10",
+    "tarification-a-lactivite",
+    "biostatistiques"
+   ],
+   "jobs": [
+    "Médecin DIM",
+    "Technicien TIM",
+    "Responsable facturation"
+   ]
+  },
+  {
+   "id": "tarification-a-lactivite",
+   "label": {
+    "fr": "T2A",
+    "en": "Activity-based costing",
+    "ar": "التسعير حسب النشاط",
+    "ru": "T2A"
+   },
+   "patterns": [
+    "t2a",
+    "tarification a lactivite",
+    "financement hospitalier",
+    "pmsi",
+    "programme de medicalisation des systemes dinformation",
+    "pmsi t2a"
+   ],
+   "category": "methode",
+   "topics": [
+    "finance",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "nomenclature-cim10",
+    "codage-ccam",
+    "gestion-des-lits"
+   ],
+   "jobs": [
+    "Directeur financier hôpital",
+    "Médecin DIM",
+    "Contrôleur de gestion santé"
+   ]
+  },
+  {
+   "id": "gestion-des-lits",
+   "label": {
+    "fr": "Gestion des lits",
+    "en": "Bed management",
+    "ar": "إدارة الأسرة",
+    "ru": "Управление коечным фондом"
+   },
+   "patterns": [
+    "gestion des lits",
+    "bed management",
+    "admission des patients",
+    "flux patients",
+    "коечный фонд",
+    "госпитализация"
+   ],
+   "category": "methode",
+   "topics": [
+    "logistique",
+    "sante"
+   ],
+   "level": "courant",
+   "related": [
+    "triage",
+    "dossier-patient-informatise",
+    "equipe-pluridisciplinaire"
+   ],
+   "jobs": [
+    "Gestionnaire de lits",
+    "Cadre de santé",
+    "Directeur des admissions"
+   ]
+  },
+  {
+   "id": "circuit-du-medicament",
+   "label": {
+    "fr": "Circuit du médicament",
+    "en": "Medication management",
+    "ar": "دورة الدواء",
+    "ru": "Лекарственный оборот"
+   },
+   "patterns": [
+    "circuit du medicament",
+    "dispensation",
+    "administration medicamenteuse",
+    "iatrogenie",
+    "лекарственный оборот",
+    "медикаментозная безопасность"
+   ],
+   "category": "methode",
+   "topics": [
+    "pharma",
+    "soins"
+   ],
+   "level": "courant",
+   "related": [
+    "pharmacovigilance",
+    "preparation-magistrale",
+    "tracabilite-patient"
+   ],
+   "jobs": [
+    "Pharmacien hospitalier",
+    "Infirmier",
+    "Préparateur en pharmacie"
+   ]
+  },
+  {
+   "id": "preparation-magistrale",
+   "label": {
+    "fr": "Préparation magistrale",
+    "en": "Compounding",
+    "ar": "التحضير الصيدلاني",
+    "ru": "Изготовление лекарств"
+   },
+   "patterns": [
+    "preparation magistrale",
+    "preparation hospitaliere",
+    "fabrication pharmaceutique",
+    "экстемпоральная рецептура",
+    "изготовление в аптеке"
+   ],
+   "category": "metier",
+   "topics": [
+    "pharma"
+   ],
+   "level": "specialise",
+   "related": [
+    "circuit-du-medicament",
+    "bpf-gmp",
+    "dispensation-pharmaceutique"
+   ],
+   "jobs": [
+    "Pharmacien",
+    "Préparateur en pharmacie",
+    "Technicien de laboratoire"
+   ]
+  },
+  {
+   "id": "dispensation-pharmaceutique",
+   "label": {
+    "fr": "Dispensation pharmaceutique",
+    "en": "Pharmaceutical dispensing",
+    "ar": "صرف الأدوية",
+    "ru": "Отпуск лекарств"
+   },
+   "patterns": [
+    "dispensation",
+    "analyse pharmaceutique",
+    "validation dordonnance",
+    "отпуск лекарств",
+    "фармацевтическое консультирование"
+   ],
+   "category": "metier",
+   "topics": [
+    "pharma"
+   ],
+   "level": "courant",
+   "related": [
+    "circuit-du-medicament",
+    "pharmacovigilance",
+    "preparation-magistrale"
+   ],
+   "jobs": [
+    "Pharmacien d'officine",
+    "Pharmacien hospitalier",
+    "Préparateur en pharmacie"
+   ]
+  },
+  {
+   "id": "conseil-dietetique",
+   "label": {
+    "fr": "Conseil diététique",
+    "en": "Dietary counseling",
+    "ar": "الاستشارة الغذائية",
+    "ru": "Диетология"
+   },
+   "patterns": [
+    "conseil dietetique",
+    "dietetique",
+    "nutrition clinique",
+    "dieteticien",
+    "диетология",
+    "нутрициология"
+   ],
+   "category": "metier",
+   "topics": [
+    "soins"
+   ],
+   "level": "frequent",
+   "related": [
+    "education-therapeutique",
+    "haccp",
+    "relation-patient"
+   ],
+   "jobs": [
+    "Diététicien",
+    "Nutritionniste",
+    "Infirmier"
+   ]
+  },
+  {
+   "id": "kinesitherapie",
+   "label": {
+    "fr": "Kinésithérapie",
+    "en": "Physiotherapy",
+    "ar": "العلاج الطبيعي",
+    "ru": "Кинезитерапия"
+   },
+   "patterns": [
+    "kinesitherapie",
+    "reeducation",
+    "masseur kinesitherapeute",
+    "физиотерапия",
+    "лфк",
+    "реабилитация"
+   ],
+   "category": "metier",
+   "topics": [
+    "soins"
+   ],
+   "level": "courant",
+   "related": [
+    "ergotherapie",
+    "geriatrie",
+    "soins-de-nursing"
+   ],
+   "jobs": [
+    "Masseur-kinésithérapeute",
+    "Rééducateur",
+    "Ostéopathe"
+   ]
+  },
+  {
+   "id": "ergotherapie",
+   "label": {
+    "fr": "Ergothérapie",
+    "en": "Occupational therapy",
+    "ar": "العلاج الوظيفي",
+    "ru": "Эрготерапия"
+   },
+   "patterns": [
+    "ergotherapie",
+    "ergotherapeute",
+    "autonomie du patient",
+    "адаптация среды",
+    "эрготерапия",
+    "трудотерапия"
+   ],
+   "category": "metier",
+   "topics": [
+    "soins"
+   ],
+   "level": "frequent",
+   "related": [
+    "kinesitherapie",
+    "geriatrie",
+    "psychiatrie"
+   ],
+   "jobs": [
+    "Ergothérapeute",
+    "Rééducateur",
+    "Infirmier de réadaptation"
+   ]
+  },
+  {
+   "id": "orthophonie",
+   "label": {
+    "fr": "Orthophonie",
+    "en": "Speech therapy",
+    "ar": "علاج النطق",
+    "ru": "Логопедия"
+   },
+   "patterns": [
+    "orthophonie",
+    "troubles du langage",
+    "reeducation de la deglutition",
+    "логопедия",
+    "коррекция речи"
+   ],
+   "category": "metier",
+   "topics": [
+    "soins"
+   ],
+   "level": "frequent",
+   "related": [
+    "pediatrie",
+    "geriatrie",
+    "soins-de-nursing"
+   ],
+   "jobs": [
+    "Orthophoniste",
+    "Rééducateur",
+    "Pédopsychiatre"
+   ]
+  },
+  {
+   "id": "soins-palliatifs",
+   "label": {
+    "fr": "Soins palliatifs",
+    "en": "Palliative care",
+    "ar": "الرعاية التلطيفية",
+    "ru": "Паллиативная помощь"
+   },
+   "patterns": [
+    "soins palliatifs",
+    "fin de vie",
+    "accompagnement terminal",
+    "паллиативная помощь",
+    "хоспис"
+   ],
+   "category": "metier",
+   "topics": [
+    "soins"
+   ],
+   "level": "frequent",
+   "related": [
+    "relation-patient",
+    "geriatrie",
+    "chimiotherapie"
+   ],
+   "jobs": [
+    "Infirmier en soins palliatifs",
+    "Médecin",
+    "Psychologue clinicien"
+   ]
+  },
+  {
+   "id": "geriatrie",
+   "label": {
+    "fr": "Gériatrie",
+    "en": "Geriatrics",
+    "ar": "طب المسنين",
+    "ru": "Гериатрия"
+   },
+   "patterns": [
+    "geriatrie",
+    "personne agee",
+    "dependance",
+    "ehpad",
+    "гериатрия",
+    "геронтология",
+    "уход за пожилыми"
+   ],
+   "category": "metier",
+   "topics": [
+    "soins"
+   ],
+   "level": "courant",
+   "related": [
+    "soins-de-nursing",
+    "kinesitherapie",
+    "soins-palliatifs"
+   ],
+   "jobs": [
+    "Gériatre",
+    "Infirmier en EHPAD",
+    "Aide-soignant"
+   ]
+  },
+  {
+   "id": "pediatrie",
+   "label": {
+    "fr": "Pédiatrie",
+    "en": "Pediatrics",
+    "ar": "طب الأطفال",
+    "ru": "Педиатрия"
+   },
+   "patterns": [
+    "pediatrie",
+    "nourrisson",
+    "enfant",
+    "педиатрия",
+    "неонатология"
+   ],
+   "category": "metier",
+   "topics": [
+    "soins"
+   ],
+   "level": "courant",
+   "related": [
+    "obstetrique",
+    "orthophonie",
+    "soins-de-nursing"
+   ],
+   "jobs": [
+    "Pédiatre",
+    "Puéricultrice",
+    "Auxiliaire de puériculture"
+   ]
+  },
+  {
+   "id": "obstetrique",
+   "label": {
+    "fr": "Obstétrique",
+    "en": "Obstetrics",
+    "ar": "التوليد",
+    "ru": "Акушерство"
+   },
+   "patterns": [
+    "obstetrique",
+    "accouchement",
+    "suivi de grossesse",
+    "акушерство",
+    "родоразрешение"
+   ],
+   "category": "metier",
+   "topics": [
+    "soins"
+   ],
+   "level": "courant",
+   "related": [
+    "pediatrie",
+    "echographie",
+    "relation-patient"
+   ],
+   "jobs": [
+    "Sage-femme",
+    "Gynécologue-obstétricien",
+    "Auxiliaire de puériculture"
+   ]
+  },
+  {
+   "id": "psychiatrie",
+   "label": {
+    "fr": "Psychiatrie",
+    "en": "Psychiatry",
+    "ar": "الطب النفسي",
+    "ru": "Психиатрия"
+   },
+   "patterns": [
+    "psychiatrie",
+    "sante mentale",
+    "troubles psychiques",
+    "психиатрия",
+    "психическое здоровье"
+   ],
+   "category": "metier",
+   "topics": [
+    "soins"
+   ],
+   "level": "courant",
+   "related": [
+    "ergotherapie",
+    "relation-patient",
+    "equipe-pluridisciplinaire"
+   ],
+   "jobs": [
+    "Psychiatre",
+    "Infirmier psychiatrique",
+    "Psychologue"
+   ]
+  },
+  {
+   "id": "sante-publique",
+   "label": {
+    "fr": "Santé publique",
+    "en": "Public health",
+    "ar": "الصحة العامة",
+    "ru": "Общественное здоровье"
+   },
+   "patterns": [
+    "sante publique",
+    "epidemiologie",
+    "prevention",
+    "профилактика",
+    "общественное здоровье",
+    "эпидемиология"
+   ],
+   "category": "metier",
+   "topics": [
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "epidemiologie",
+    "biostatistiques",
+    "education-therapeutique"
+   ],
+   "jobs": [
+    "Médecin de santé publique",
+    "Épidémiologiste",
+    "Chargé de prévention"
+   ]
+  },
+  {
+   "id": "epidemiologie",
+   "label": {
+    "fr": "Épidémiologie",
+    "en": "Epidemiology",
+    "ar": "علم الأوبئة",
+    "ru": "Эпидемиология"
+   },
+   "patterns": [
+    "epidemiologie",
+    "veille sanitaire",
+    "etude epidemiologique",
+    "эпидемиология",
+    "эпиднадзор"
+   ],
+   "category": "metier",
+   "topics": [
+    "sante",
+    "data"
+   ],
+   "level": "specialise",
+   "related": [
+    "sante-publique",
+    "biostatistiques",
+    "r-language"
+   ],
+   "jobs": [
+    "Épidémiologiste",
+    "Biostatisticien",
+    "Médecin de santé publique"
+   ]
+  },
+  {
+   "id": "biostatistiques",
+   "label": {
+    "fr": "Biostatistiques",
+    "en": "Biostatistics",
+    "ar": "الإحصاء الحيوي",
+    "ru": "Биостатистика"
+   },
+   "patterns": [
+    "biostatistiques",
+    "analyse de survie",
+    "statistiques medicales",
+    "биостатистика",
+    "медицинская статистика"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "sas-software",
+    "r-language",
+    "epidemiologie"
+   ],
+   "jobs": [
+    "Biostatisticien",
+    "Data scientist santé",
+    "Épidémiologiste"
+   ]
+  },
+  {
+   "id": "sas-software",
+   "label": {
+    "fr": "SAS",
+    "en": "SAS",
+    "ar": "SAS",
+    "ru": "SAS"
+   },
+   "patterns": [
+    "sas",
+    "sas enterprise guide",
+    "sas programming",
+    "base sas",
+    "сас",
+    "статистический анализ"
+   ],
+   "category": "outil",
+   "topics": [
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "r-language",
+    "biostatistiques",
+    "epidemiologie"
+   ],
+   "jobs": [
+    "Biostatisticien",
+    "Data analyst",
+    "Épidémiologiste"
+   ]
+  },
+  {
+   "id": "r-language",
+   "label": {
+    "fr": "R",
+    "en": "R",
+    "ar": "R",
+    "ru": "R"
+   },
+   "patterns": [
+    "r language",
+    "r studio",
+    "r programming",
+    "language r",
+    "ggplot2",
+    "язык r",
+    "rstat"
+   ],
+   "category": "outil",
+   "topics": [
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "sas-software",
+    "biostatistiques",
+    "epidemiologie"
+   ],
+   "jobs": [
+    "Biostatisticien",
+    "Data scientist",
+    "Chercheur en biologie"
+   ]
+  },
+  {
+   "id": "redaction-scientifique",
+   "label": {
+    "fr": "Rédaction scientifique",
+    "en": "Scientific writing",
+    "ar": "الكتابة العلمية",
+    "ru": "Научное писательство"
+   },
+   "patterns": [
+    "redaction scientifique",
+    "publication medicale",
+    "article scientifique",
+    "написание статей",
+    "научная публикация"
+   ],
+   "category": "transverse",
+   "topics": [
+    "medical"
+   ],
+   "level": "frequent",
+   "related": [
+    "anglais-medical",
+    "essai-clinique",
+    "biostatistiques"
+   ],
+   "jobs": [
+    "Médecin chercheur",
+    "Rédacteur médical",
+    "Pharmacien"
+   ]
+  }
+ ]
+}

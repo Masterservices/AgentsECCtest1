@@ -1,0 +1,2198 @@
+{
+ "sector": "Logistique, supply chain, transport et achats",
+ "key": "logistique",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "sap-erp",
+   "label": {
+    "fr": "SAP ERP",
+    "en": "SAP ERP",
+    "ar": "SAP ERP",
+    "ru": "SAP ERP"
+   },
+   "patterns": [
+    "sap erp",
+    "sap r3",
+    "s/4hana",
+    "s4hana",
+    "sap ecc"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "sap-mm",
+    "sap-ewm",
+    "sap-ariba"
+   ],
+   "jobs": [
+    "Responsable Supply Chain",
+    "Directeur des Achats",
+    "Consultant SAP"
+   ]
+  },
+  {
+   "id": "sap-ewm",
+   "label": {
+    "fr": "SAP EWM",
+    "en": "SAP EWM",
+    "ar": "SAP EWM",
+    "ru": "SAP EWM"
+   },
+   "patterns": [
+    "sap ewm",
+    "extended warehouse management",
+    "entrepot sap",
+    "sap logistique d'execution"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "logistique"
+   ],
+   "level": "specialise",
+   "related": [
+    "sap-erp",
+    "manhattan-wms",
+    "wms-warehouse"
+   ],
+   "jobs": [
+    "Responsable Entrepôt",
+    "Chef de projet WMS",
+    "Consultant SAP EWM"
+   ]
+  },
+  {
+   "id": "sap-mm",
+   "label": {
+    "fr": "SAP MM",
+    "en": "SAP MM",
+    "ar": "SAP MM",
+    "ru": "SAP MM"
+   },
+   "patterns": [
+    "sap mm",
+    "materials management",
+    "sap materiaux",
+    "sap mm module",
+    "gestion articles sap"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-erp",
+    "sap-ewm",
+    "approvisionnement"
+   ],
+   "jobs": [
+    "Acheteur",
+    "Gestionnaire de stocks",
+    "Consultant SAP MM"
+   ]
+  },
+  {
+   "id": "oracle-scm",
+   "label": {
+    "fr": "Oracle SCM",
+    "en": "Oracle SCM Cloud",
+    "ar": "Oracle SCM",
+    "ru": "Oracle SCM"
+   },
+   "patterns": [
+    "oracle scm",
+    "oracle supply chain",
+    "oracle scm cloud",
+    "oracle logistics"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-erp",
+    "kinaxis",
+    "blue-yonder"
+   ],
+   "jobs": [
+    "Directeur Supply Chain",
+    "Planificateur de production",
+    "Consultant Oracle"
+   ]
+  },
+  {
+   "id": "manhattan-wms",
+   "label": {
+    "fr": "Manhattan WMS",
+    "en": "Manhattan Active WM",
+    "ar": "Manhattan WMS",
+    "ru": "Manhattan WMS"
+   },
+   "patterns": [
+    "manhattan wms",
+    "manhattan active",
+    "manhattan associates",
+    "mactive"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "logistique"
+   ],
+   "level": "specialise",
+   "related": [
+    "sap-ewm",
+    "wms-warehouse",
+    "blue-yonder"
+   ],
+   "jobs": [
+    "Responsable Logistique",
+    "Chef de projet WMS",
+    "Directeur d'entrepôt"
+   ]
+  },
+  {
+   "id": "blue-yonder",
+   "label": {
+    "fr": "Blue Yonder",
+    "en": "Blue Yonder",
+    "ar": "Blue Yonder",
+    "ru": "Blue Yonder"
+   },
+   "patterns": [
+    "blue yonder",
+    "jda software",
+    "jda",
+    "by supply chain"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "data",
+    "logistique"
+   ],
+   "level": "specialise",
+   "related": [
+    "manhattan-wms",
+    "kinaxis",
+    "planification-demande"
+   ],
+   "jobs": [
+    "Demand Planner",
+    "Supply Chain Manager",
+    "Consultant Blue Yonder"
+   ]
+  },
+  {
+   "id": "kinaxis",
+   "label": {
+    "fr": "Kinaxis RapidResponse",
+    "en": "Kinaxis RapidResponse",
+    "ar": "Kinaxis",
+    "ru": "Kinaxis"
+   },
+   "patterns": [
+    "kinaxis",
+    "rapidresponse",
+    "kinaxis rapid",
+    "kinaxis planning"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "data",
+    "logistique"
+   ],
+   "level": "specialise",
+   "related": [
+    "blue-yonder",
+    "planification-demande",
+    "oracle-scm"
+   ],
+   "jobs": [
+    "Demand Planner",
+    "Supply Chain Analyst",
+    "Planificateur"
+   ]
+  },
+  {
+   "id": "coupa",
+   "label": {
+    "fr": "Coupa",
+    "en": "Coupa",
+    "ar": "Coupa",
+    "ru": "Coupa"
+   },
+   "patterns": [
+    "coupa",
+    "coupa software",
+    "coupa procurement",
+    "bsm coupa"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-ariba",
+    "procurement",
+    "spend-analysis"
+   ],
+   "jobs": [
+    "Responsable Achats",
+    "Acheteur IT",
+    "Consultant Coupa"
+   ]
+  },
+  {
+   "id": "sap-ariba",
+   "label": {
+    "fr": "SAP Ariba",
+    "en": "SAP Ariba",
+    "ar": "SAP Ariba",
+    "ru": "SAP Ariba"
+   },
+   "patterns": [
+    "sap ariba",
+    "ariba",
+    "ariba network",
+    "ariba sourcing"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "coupa",
+    "procurement",
+    "appels-offres"
+   ],
+   "jobs": [
+    "Responsable Achats",
+    "Acheteur",
+    "Consultant Ariba"
+   ]
+  },
+  {
+   "id": "tms-transport",
+   "label": {
+    "fr": "TMS (Transport Management System)",
+    "en": "TMS (Transportation Management System)",
+    "ar": "نظام إدارة النقل",
+    "ru": "TMS (Система управления перевозками)"
+   },
+   "patterns": [
+    "tms",
+    "transport management system",
+    "tms transport",
+    "logiciel tms"
+   ],
+   "category": "outil",
+   "topics": [
+    "logistique",
+    "transport"
+   ],
+   "level": "courant",
+   "related": [
+    "optimisation-tournees",
+    "gestion-flotte",
+    "freight-forwarding"
+   ],
+   "jobs": [
+    "Responsable Transport",
+    "Affréteur",
+    "Dispatcher"
+   ]
+  },
+  {
+   "id": "wms-warehouse",
+   "label": {
+    "fr": "WMS (Warehouse Management System)",
+    "en": "WMS (Warehouse Management System)",
+    "ar": "نظام إدارة المستودعات",
+    "ru": "WMS (Система управления складом)"
+   },
+   "patterns": [
+    "wms",
+    "warehouse management system",
+    "logiciel wms",
+    "wms entrepot"
+   ],
+   "category": "outil",
+   "topics": [
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "manhattan-wms",
+    "sap-ewm",
+    "gestion-entrepot"
+   ],
+   "jobs": [
+    "Responsable Entrepôt",
+    "Chef d'équipe logistique",
+    "Magasinier"
+   ]
+  },
+  {
+   "id": "power-bi",
+   "label": {
+    "fr": "Power BI",
+    "en": "Power BI",
+    "ar": "Power BI",
+    "ru": "Power BI"
+   },
+   "patterns": [
+    "power bi",
+    "powerbi",
+    "ms power bi",
+    "dax"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "excel-avance",
+    "analyse-donnees",
+    "kpi-logistique"
+   ],
+   "jobs": [
+    "Supply Chain Analyst",
+    "Contrôleur de gestion logistique",
+    "Data Analyst"
+   ]
+  },
+  {
+   "id": "excel-avance",
+   "label": {
+    "fr": "Excel avancé",
+    "en": "Advanced Excel",
+    "ar": "إكسل متقدم",
+    "ru": "Продвинутый Excel"
+   },
+   "patterns": [
+    "excel avance",
+    "vba excel",
+    "macros excel",
+    "tableaux croises dynamiques",
+    "tcd excel"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "power-bi",
+    "analyse-donnees",
+    "kpi-logistique"
+   ],
+   "jobs": [
+    "Supply Chain Analyst",
+    "Gestionnaire de stocks",
+    "Approvisionneur"
+   ]
+  },
+  {
+   "id": "odoo",
+   "label": {
+    "fr": "Odoo",
+    "en": "Odoo",
+    "ar": "Odoo",
+    "ru": "Odoo"
+   },
+   "patterns": [
+    "odoo",
+    "openerp",
+    "odoo inventory",
+    "odoo erp"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-erp",
+    "wms-warehouse",
+    "netsuite"
+   ],
+   "jobs": [
+    "Responsable Logistique PME",
+    "Intégrateur Odoo",
+    "Gestionnaire de stocks"
+   ]
+  },
+  {
+   "id": "netsuite",
+   "label": {
+    "fr": "NetSuite",
+    "en": "NetSuite",
+    "ar": "NetSuite",
+    "ru": "NetSuite"
+   },
+   "patterns": [
+    "netsuite",
+    "oracle netsuite",
+    "netsuite erp",
+    "netsuite scm"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-erp",
+    "odoo",
+    "oracle-scm"
+   ],
+   "jobs": [
+    "Responsable Supply Chain",
+    "Consultant NetSuite",
+    "Directeur des opérations"
+   ]
+  },
+  {
+   "id": "lean-management",
+   "label": {
+    "fr": "Lean Management",
+    "en": "Lean Management",
+    "ar": "الإدارة الرشيقة",
+    "ru": "Бережливое производство"
+   },
+   "patterns": [
+    "lean management",
+    "lean",
+    "lean logistics",
+    "lean supply chain"
+   ],
+   "category": "methode",
+   "topics": [
+    "logistique",
+    "quality",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "six-sigma",
+    "kaizen",
+    "5s"
+   ],
+   "jobs": [
+    "Responsable Amélioration Continue",
+    "Supply Chain Manager",
+    "Directeur Logistique"
+   ]
+  },
+  {
+   "id": "six-sigma",
+   "label": {
+    "fr": "Six Sigma",
+    "en": "Six Sigma",
+    "ar": "سيجما 6",
+    "ru": "Шесть сигм"
+   },
+   "patterns": [
+    "six sigma",
+    "6 sigma",
+    "lean six sigma",
+    "dmaic",
+    "green belt",
+    "black belt"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "logistique",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-management",
+    "kaizen",
+    "kpi-logistique"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Black Belt",
+    "Continuous Improvement Manager"
+   ]
+  },
+  {
+   "id": "kaizen",
+   "label": {
+    "fr": "Kaizen",
+    "en": "Kaizen",
+    "ar": "كايزن",
+    "ru": "Кайдзен"
+   },
+   "patterns": [
+    "kaizen",
+    "amelioration continue",
+    "continuous improvement",
+    "chantier kaizen"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "logistique",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-management",
+    "5s",
+    "six-sigma"
+   ],
+   "jobs": [
+    "Responsable Amélioration Continue",
+    "Chef de projet industriel",
+    "Lean Manager"
+   ]
+  },
+  {
+   "id": "5s",
+   "label": {
+    "fr": "5S",
+    "en": "5S",
+    "ar": "5S",
+    "ru": "5S"
+   },
+   "patterns": [
+    "5s",
+    "methode 5s",
+    "5 s",
+    "seiri seiton"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "lean-management",
+    "kaizen",
+    "gestion-entrepot"
+   ],
+   "jobs": [
+    "Chef d'équipe logistique",
+    "Responsable Entrepôt",
+    "Lean Manager"
+   ]
+  },
+  {
+   "id": "kanban",
+   "label": {
+    "fr": "Kanban",
+    "en": "Kanban",
+    "ar": "كانبان",
+    "ru": "Канбан"
+   },
+   "patterns": [
+    "kanban",
+    "flux tire",
+    "pull system",
+    "tableau kanban"
+   ],
+   "category": "methode",
+   "topics": [
+    "logistique",
+    "industrie",
+    "project"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-management",
+    "just-in-time",
+    "mrp"
+   ],
+   "jobs": [
+    "Planificateur de production",
+    "Responsable Logistique",
+    "Supply Chain Coordinator"
+   ]
+  },
+  {
+   "id": "just-in-time",
+   "label": {
+    "fr": "Juste-à-temps",
+    "en": "Just-in-Time",
+    "ar": "الإنتاج في الوقت المحدد",
+    "ru": "Точно в срок"
+   },
+   "patterns": [
+    "juste a temps",
+    "just in time",
+    "jit",
+    "flux tendu"
+   ],
+   "category": "methode",
+   "topics": [
+    "logistique",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-management",
+    "kanban",
+    "mrp"
+   ],
+   "jobs": [
+    "Responsable Approvisionnement",
+    "Planificateur",
+    "Supply Chain Manager"
+   ]
+  },
+  {
+   "id": "mrp",
+   "label": {
+    "fr": "MRP (Calcul des besoins nets)",
+    "en": "MRP (Material Requirements Planning)",
+    "ar": "تخطيط احتياجات المواد",
+    "ru": "MRP (Планирование потребности в материалах)"
+   },
+   "patterns": [
+    "mrp",
+    "mrp 2",
+    "mrpii",
+    "material requirements planning",
+    "calcul besoins nets",
+    "cbn"
+   ],
+   "category": "methode",
+   "topics": [
+    "logistique",
+    "industrie",
+    "erp"
+   ],
+   "level": "courant",
+   "related": [
+    "planification-demande",
+    "just-in-time",
+    "sap-mm"
+   ],
+   "jobs": [
+    "Approvisionneur",
+    "Planificateur de production",
+    "Gestionnaire de stocks"
+   ]
+  },
+  {
+   "id": "ddmrp",
+   "label": {
+    "fr": "DDMRP",
+    "en": "DDMRP",
+    "ar": "DDMRP",
+    "ru": "DDMRP"
+   },
+   "patterns": [
+    "ddmrp",
+    "demand driven mrp",
+    "chaine de demande",
+    "demand driven"
+   ],
+   "category": "methode",
+   "topics": [
+    "logistique"
+   ],
+   "level": "specialise",
+   "related": [
+    "mrp",
+    "planification-demande",
+    "scor-model"
+   ],
+   "jobs": [
+    "Supply Chain Manager",
+    "Directeur Supply Chain",
+    "Consultant DDMRP"
+   ]
+  },
+  {
+   "id": "scor-model",
+   "label": {
+    "fr": "Modèle SCOR",
+    "en": "SCOR Model",
+    "ar": "نموذج SCOR",
+    "ru": "Модель SCOR"
+   },
+   "patterns": [
+    "scor",
+    "scor model",
+    "supply chain operations reference",
+    "ascm scor"
+   ],
+   "category": "methode",
+   "topics": [
+    "logistique",
+    "consulting"
+   ],
+   "level": "specialise",
+   "related": [
+    "kpi-logistique",
+    "supply-chain-management",
+    "apics-cscp"
+   ],
+   "jobs": [
+    "Directeur Supply Chain",
+    "Consultant Supply Chain",
+    "Supply Chain Analyst"
+   ]
+  },
+  {
+   "id": "apics-cpim",
+   "label": {
+    "fr": "Certification APICS CPIM",
+    "en": "APICS CPIM",
+    "ar": "شهادة APICS CPIM",
+    "ru": "Сертификация APICS CPIM"
+   },
+   "patterns": [
+    "apics cpim",
+    "cpim",
+    "certified in production and inventory management",
+    "ascm cpim"
+   ],
+   "category": "norme",
+   "topics": [
+    "logistique",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "apics-cscp",
+    "mrp",
+    "planification-demande"
+   ],
+   "jobs": [
+    "Planificateur de production",
+    "Supply Chain Manager",
+    "Directeur des opérations"
+   ]
+  },
+  {
+   "id": "apics-cscp",
+   "label": {
+    "fr": "Certification APICS CSCP",
+    "en": "APICS CSCP",
+    "ar": "شهادة APICS CSCP",
+    "ru": "Сертификация APICS CSCP"
+   },
+   "patterns": [
+    "apics cscp",
+    "cscp",
+    "certified supply chain professional",
+    "ascm cscp"
+   ],
+   "category": "norme",
+   "topics": [
+    "logistique"
+   ],
+   "level": "specialise",
+   "related": [
+    "apics-cpim",
+    "scor-model",
+    "supply-chain-management"
+   ],
+   "jobs": [
+    "Directeur Supply Chain",
+    "Consultant Supply Chain",
+    "Supply Chain Manager"
+   ]
+  },
+  {
+   "id": "iso-9001",
+   "label": {
+    "fr": "ISO 9001",
+    "en": "ISO 9001",
+    "ar": "آيزو 9001",
+    "ru": "ISO 9001"
+   },
+   "patterns": [
+    "iso 9001",
+    "certification qualite",
+    "qms",
+    "systeme management qualite"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-14001",
+    "six-sigma",
+    "haccp"
+   ],
+   "jobs": [
+    "Responsable Qualité",
+    "Directeur Logistique",
+    "Auditeur Qualité"
+   ]
+  },
+  {
+   "id": "iso-14001",
+   "label": {
+    "fr": "ISO 14001",
+    "en": "ISO 14001",
+    "ar": "آيزو 14001",
+    "ru": "ISO 14001"
+   },
+   "patterns": [
+    "iso 14001",
+    "management environnemental",
+    "ems",
+    "certification environnement"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "logistique",
+    "rse"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-9001",
+    "rse-durabilite",
+    "haccp"
+   ],
+   "jobs": [
+    "Responsable QHSE",
+    "Directeur Supply Chain",
+    "Responsable RSE"
+   ]
+  },
+  {
+   "id": "oea-aeo",
+   "label": {
+    "fr": "OEA (Opérateur Économique Agréé)",
+    "en": "AEO (Authorized Economic Operator)",
+    "ar": "AEO",
+    "ru": "УЭО (Уполномоченный экономический оператор)"
+   },
+   "patterns": [
+    "oea",
+    "aeo",
+    "operateur economique agree",
+    "authorized economic operator"
+   ],
+   "category": "norme",
+   "topics": [
+    "logistique",
+    "juridique"
+   ],
+   "level": "specialise",
+   "related": [
+    "douane-customs",
+    "trade-compliance",
+    "c-tpat"
+   ],
+   "jobs": [
+    "Responsable Douane",
+    "Declarant en douane",
+    "Directeur Supply Chain"
+   ]
+  },
+  {
+   "id": "adr-transport",
+   "label": {
+    "fr": "ADR (Marchandises dangereuses)",
+    "en": "ADR (Dangerous Goods)",
+    "ar": "اتفاقية ADR",
+    "ru": "ДОПОГ"
+   },
+   "patterns": [
+    "adr",
+    "dopog",
+    "matieres dangereuses",
+    "dangerous goods",
+    "transport adr"
+   ],
+   "category": "norme",
+   "topics": [
+    "logistique",
+    "transport"
+   ],
+   "level": "specialise",
+   "related": [
+    "imdg-code",
+    "iata-regulations",
+    "freight-forwarding"
+   ],
+   "jobs": [
+    "Responsable Transport",
+    "Conseiller sécurité transport",
+    "Affréteur"
+   ]
+  },
+  {
+   "id": "iata-regulations",
+   "label": {
+    "fr": "Réglementation IATA",
+    "en": "IATA Regulations",
+    "ar": "لوائح IATA",
+    "ru": "Правила IATA"
+   },
+   "patterns": [
+    "iata",
+    "iata dgr",
+    "transport aerien",
+    "air freight regulations"
+   ],
+   "category": "norme",
+   "topics": [
+    "logistique",
+    "transport"
+   ],
+   "level": "specialise",
+   "related": [
+    "adr-transport",
+    "imdg-code",
+    "freight-forwarding"
+   ],
+   "jobs": [
+    "Freight Forwarder",
+    "Responsable Transport Aérien",
+    "Agent de fret aérien"
+   ]
+  },
+  {
+   "id": "imdg-code",
+   "label": {
+    "fr": "Code IMDG",
+    "en": "IMDG Code",
+    "ar": "IMDG Code",
+    "ru": "МК МПОГ"
+   },
+   "patterns": [
+    "imdg",
+    "imdg code",
+    "maritime dangerous goods",
+    "fret maritime dangereux"
+   ],
+   "category": "norme",
+   "topics": [
+    "logistique",
+    "transport"
+   ],
+   "level": "specialise",
+   "related": [
+    "adr-transport",
+    "iata-regulations",
+    "freight-forwarding"
+   ],
+   "jobs": [
+    "Responsable Transport Maritime",
+    "Freight Forwarder",
+    "Declarant en douane"
+   ]
+  },
+  {
+   "id": "haccp",
+   "label": {
+    "fr": "HACCP",
+    "en": "HACCP",
+    "ar": "نظام الهاسب",
+    "ru": "ХАССП"
+   },
+   "patterns": [
+    "haccp",
+    "securite alimentaire",
+    "food safety",
+    "analyse dangers"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "logistique",
+    "sante"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-9001",
+    "iso-14001",
+    "gestion-entrepot"
+   ],
+   "jobs": [
+    "Responsable Qualité Logistique",
+    "Responsable Entrepôt agroalimentaire",
+    "Directeur QHSE"
+   ]
+  },
+  {
+   "id": "incoterms",
+   "label": {
+    "fr": "Incoterms",
+    "en": "Incoterms",
+    "ar": "الإنكوترمز",
+    "ru": "Инкотермс"
+   },
+   "patterns": [
+    "incoterms",
+    "incoterms 2020",
+    "exw",
+    "fob",
+    "cif",
+    "dap",
+    "ddp"
+   ],
+   "category": "norme",
+   "topics": [
+    "logistique",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "douane-customs",
+    "freight-forwarding",
+    "trade-compliance"
+   ],
+   "jobs": [
+    "Assistant Import-Export",
+    "Responsable Transport",
+    "Acheteur International"
+   ]
+  },
+  {
+   "id": "c-tpat",
+   "label": {
+    "fr": "C-TPAT",
+    "en": "C-TPAT",
+    "ar": "C-TPAT",
+    "ru": "C-TPAT"
+   },
+   "patterns": [
+    "c-tpat",
+    "ctpat",
+    "customs trade partnership against terrorism",
+    "securite chaine approvisionnement"
+   ],
+   "category": "norme",
+   "topics": [
+    "logistique",
+    "juridique"
+   ],
+   "level": "specialise",
+   "related": [
+    "oea-aeo",
+    "trade-compliance",
+    "douane-customs"
+   ],
+   "jobs": [
+    "Responsable Douane",
+    "Supply Chain Security Manager",
+    "Directeur Logistique"
+   ]
+  },
+  {
+   "id": "gestion-des-stocks",
+   "label": {
+    "fr": "Gestion des stocks",
+    "en": "Inventory Management",
+    "ar": "إدارة المخزون",
+    "ru": "Управление запасами"
+   },
+   "patterns": [
+    "gestion stocks",
+    "inventory management",
+    "controle stocks",
+    "gestionnaire de stocks"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "inventaire",
+    "mrp",
+    "sap-mm"
+   ],
+   "jobs": [
+    "Gestionnaire de stocks",
+    "Magasinier",
+    "Responsable Logistique"
+   ]
+  },
+  {
+   "id": "inventaire",
+   "label": {
+    "fr": "Inventaire",
+    "en": "Inventory Count",
+    "ar": "الجرد",
+    "ru": "Инвентаризация"
+   },
+   "patterns": [
+    "inventaire",
+    "inventory count",
+    "cycle counting",
+    "inventaire tournant",
+    "ecart inventaire"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "gestion-des-stocks",
+    "wms-warehouse",
+    "sap-ewm"
+   ],
+   "jobs": [
+    "Gestionnaire de stocks",
+    "Chef d'équipe logistique",
+    "Magasinier"
+   ]
+  },
+  {
+   "id": "approvisionnement",
+   "label": {
+    "fr": "Approvisionnement",
+    "en": "Procurement / Purchasing",
+    "ar": "المشتريات",
+    "ru": "Снабжение"
+   },
+   "patterns": [
+    "approvisionnement",
+    "purchasing",
+    "procurement",
+    "achats",
+    "approvisionneur"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "business"
+   ],
+   "level": "courant",
+   "related": [
+    "sourcing",
+    "negociation-fournisseurs",
+    "mrp"
+   ],
+   "jobs": [
+    "Approvisionneur",
+    "Acheteur",
+    "Responsable Approvisionnement"
+   ]
+  },
+  {
+   "id": "sourcing",
+   "label": {
+    "fr": "Sourcing",
+    "en": "Sourcing",
+    "ar": "البحث عن الموردين",
+    "ru": "Сорсинг"
+   },
+   "patterns": [
+    "sourcing",
+    "recherche fournisseurs",
+    "e-sourcing",
+    "global sourcing"
+   ],
+   "category": "metier",
+   "topics": [
+    "business",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "approvisionnement",
+    "negociation-fournisseurs",
+    "contrats-cadres"
+   ],
+   "jobs": [
+    "Acheteur",
+    "Responsable Sourcing",
+    "Category Manager"
+   ]
+  },
+  {
+   "id": "negociation-fournisseurs",
+   "label": {
+    "fr": "Négociation fournisseurs",
+    "en": "Supplier Negotiation",
+    "ar": "التفاوض مع الموردين",
+    "ru": "Переговоры с поставщиками"
+   },
+   "patterns": [
+    "negociation fournisseurs",
+    "supplier negotiation",
+    "negociation achats",
+    "negociation contrats"
+   ],
+   "category": "metier",
+   "topics": [
+    "business",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "sourcing",
+    "approvisionnement",
+    "contrats-cadres"
+   ],
+   "jobs": [
+    "Acheteur",
+    "Responsable Achats",
+    "Directeur des Achats"
+   ]
+  },
+  {
+   "id": "planification-demande",
+   "label": {
+    "fr": "Planification de la demande",
+    "en": "Demand Planning",
+    "ar": "تخطيط الطلب",
+    "ru": "Планирование спроса"
+   },
+   "patterns": [
+    "planification demande",
+    "demand planning",
+    "prevision demande",
+    "previsionniste"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "prevision-ventes",
+    "mrp",
+    "blue-yonder"
+   ],
+   "jobs": [
+    "Demand Planner",
+    "Prévisionniste des ventes",
+    "Supply Chain Planner"
+   ]
+  },
+  {
+   "id": "prevision-ventes",
+   "label": {
+    "fr": "Prévision des ventes",
+    "en": "Sales Forecasting",
+    "ar": "التنبؤ بالمبيعات",
+    "ru": "Прогнозирование продаж"
+   },
+   "patterns": [
+    "prevision ventes",
+    "sales forecasting",
+    "forecast",
+    "previsions commerciales"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "data",
+    "marketing"
+   ],
+   "level": "frequent",
+   "related": [
+    "planification-demande",
+    "analyse-donnees",
+    "excel-avance"
+   ],
+   "jobs": [
+    "Demand Planner",
+    "Analyste Supply Chain",
+    "Prévisionniste"
+   ]
+  },
+  {
+   "id": "freight-forwarding",
+   "label": {
+    "fr": "Transit international",
+    "en": "Freight Forwarding",
+    "ar": "الشحن والتخليص",
+    "ru": "Экспедирование"
+   },
+   "patterns": [
+    "freight forwarding",
+    "transitaire",
+    "transit international",
+    "commissionnaire transport"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "transport"
+   ],
+   "level": "frequent",
+   "related": [
+    "dedouanement",
+    "incoterms",
+    "iata-regulations"
+   ],
+   "jobs": [
+    "Transitaire",
+    "Freight Forwarder",
+    "Responsable Import-Export"
+   ]
+  },
+  {
+   "id": "dedouanement",
+   "label": {
+    "fr": "Dédouanement",
+    "en": "Customs Clearance",
+    "ar": "التخليص الجمركي",
+    "ru": "Таможенное оформление"
+   },
+   "patterns": [
+    "dedouanement",
+    "customs clearance",
+    "declaration douane",
+    "liasse douaniere"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "douane-customs",
+    "incoterms",
+    "freight-forwarding"
+   ],
+   "jobs": [
+    "Declarant en douane",
+    "Assistant Import-Export",
+    "Responsable Douane"
+   ]
+  },
+  {
+   "id": "optimisation-tournees",
+   "label": {
+    "fr": "Optimisation de tournées",
+    "en": "Route Optimization",
+    "ar": "تحسين المسارات",
+    "ru": "Оптимизация маршрутов"
+   },
+   "patterns": [
+    "optimisation tournees",
+    "route optimization",
+    "plan de transport",
+    "optimisation transport"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "tms-transport",
+    "gestion-flotte",
+    "last-mile-delivery"
+   ],
+   "jobs": [
+    "Responsable Transport",
+    "Dispatcher",
+    "Planificateur transport"
+   ]
+  },
+  {
+   "id": "cross-docking",
+   "label": {
+    "fr": "Cross-docking",
+    "en": "Cross-docking",
+    "ar": "العبور المباشر",
+    "ru": "Кросс-докинг"
+   },
+   "patterns": [
+    "cross docking",
+    "crossdock",
+    "transit direct",
+    "flux croise"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-entrepot",
+    "last-mile-delivery",
+    "wms-warehouse"
+   ],
+   "jobs": [
+    "Responsable Entrepôt",
+    "Chef d'équipe logistique",
+    "Directeur Logistique"
+   ]
+  },
+  {
+   "id": "picking-packing",
+   "label": {
+    "fr": "Préparation de commandes (Picking/Packing)",
+    "en": "Picking and Packing",
+    "ar": "الانتقاء والتعبئة",
+    "ru": "Комплектация и упаковка"
+   },
+   "patterns": [
+    "picking",
+    "packing",
+    "preparation commandes",
+    "order picking",
+    "picking packing"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "gestion-entrepot",
+    "wms-warehouse",
+    "inventaire"
+   ],
+   "jobs": [
+    "Préparateur de commandes",
+    "Magasinier",
+    "Chef d'équipe logistique"
+   ]
+  },
+  {
+   "id": "gestion-entrepot",
+   "label": {
+    "fr": "Gestion d'entrepôt",
+    "en": "Warehouse Management",
+    "ar": "إدارة المستودعات",
+    "ru": "Управление складом"
+   },
+   "patterns": [
+    "gestion entrepot",
+    "warehouse management",
+    "exploitation entrepot",
+    "directeur entrepot"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "wms-warehouse",
+    "5s",
+    "picking-packing"
+   ],
+   "jobs": [
+    "Responsable Entrepôt",
+    "Directeur de site logistique",
+    "Chef d'équipe logistique"
+   ]
+  },
+  {
+   "id": "last-mile-delivery",
+   "label": {
+    "fr": "Livraison du dernier kilomètre",
+    "en": "Last-Mile Delivery",
+    "ar": "توصيل الميل الأخير",
+    "ru": "Доставка последней мили"
+   },
+   "patterns": [
+    "dernier kilometre",
+    "last mile",
+    "last mile delivery",
+    "livraison urbaine"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "transport"
+   ],
+   "level": "frequent",
+   "related": [
+    "optimisation-tournees",
+    "tms-transport",
+    "cross-docking"
+   ],
+   "jobs": [
+    "Responsable Transport",
+    "Dispatcheur",
+    "Responsable Exploitation"
+   ]
+  },
+  {
+   "id": "reverse-logistics",
+   "label": {
+    "fr": "Logistique inverse (Retours)",
+    "en": "Reverse Logistics",
+    "ar": "اللوجستيات العكسية",
+    "ru": "Обратная логистика"
+   },
+   "patterns": [
+    "logistique inverse",
+    "reverse logistics",
+    "gestion retours",
+    "returns management"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-entrepot",
+    "wms-warehouse",
+    "kpi-logistique"
+   ],
+   "jobs": [
+    "Responsable Service Client Logistique",
+    "Responsable Entrepôt",
+    "Supply Chain Coordinator"
+   ]
+  },
+  {
+   "id": "appels-offres",
+   "label": {
+    "fr": "Appels d'offres",
+    "en": "RFP / Tendering",
+    "ar": "المناقصات",
+    "ru": "Тендеры"
+   },
+   "patterns": [
+    "appels offres",
+    "rfp",
+    "rfq",
+    "rfi",
+    "tendering",
+    "consultation fournisseurs"
+   ],
+   "category": "metier",
+   "topics": [
+    "business",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "contrats-cadres",
+    "negociation-fournisseurs",
+    "sourcing"
+   ],
+   "jobs": [
+    "Acheteur",
+    "Responsable Achats",
+    "Ingénieur Achats"
+   ]
+  },
+  {
+   "id": "contrats-cadres",
+   "label": {
+    "fr": "Contrats cadres",
+    "en": "Framework Agreements",
+    "ar": "الاتفاقيات الإطارية",
+    "ru": "Рамочные договоры"
+   },
+   "patterns": [
+    "contrats cadres",
+    "framework agreement",
+    "contrat fournisseur",
+    "negociation contractuelle"
+   ],
+   "category": "metier",
+   "topics": [
+    "business",
+    "juridique"
+   ],
+   "level": "frequent",
+   "related": [
+    "appels-offres",
+    "negociation-fournisseurs",
+    "trade-compliance"
+   ],
+   "jobs": [
+    "Acheteur",
+    "Juriste Achats",
+    "Responsable Achats"
+   ]
+  },
+  {
+   "id": "analyse-donnees",
+   "label": {
+    "fr": "Analyse de données",
+    "en": "Data Analysis",
+    "ar": "تحليل البيانات",
+    "ru": "Анализ данных"
+   },
+   "patterns": [
+    "analyse donnees",
+    "data analysis",
+    "data analytics",
+    "analyse logistique"
+   ],
+   "category": "transverse",
+   "topics": [
+    "data",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "power-bi",
+    "excel-avance",
+    "kpi-logistique"
+   ],
+   "jobs": [
+    "Supply Chain Analyst",
+    "Data Analyst Logistique",
+    "Contrôleur de gestion"
+   ]
+  },
+  {
+   "id": "gestion-risques",
+   "label": {
+    "fr": "Gestion des risques",
+    "en": "Risk Management",
+    "ar": "إدارة المخاطر",
+    "ru": "Управление рисками"
+   },
+   "patterns": [
+    "gestion risques",
+    "risk management",
+    "mitigation risques",
+    "analyse risques"
+   ],
+   "category": "transverse",
+   "topics": [
+    "logistique",
+    "consulting"
+   ],
+   "level": "frequent",
+   "related": [
+    "supply-chain-management",
+    "trade-compliance",
+    "iso-9001"
+   ],
+   "jobs": [
+    "Supply Chain Manager",
+    "Directeur des Achats",
+    "Risk Manager Supply Chain"
+   ]
+  },
+  {
+   "id": "rse-durabilite",
+   "label": {
+    "fr": "RSE et Durabilité",
+    "en": "CSR and Sustainability",
+    "ar": "الاستدامة والمسؤولية الاجتماعية",
+    "ru": "КСО и устойчивое развитие"
+   },
+   "patterns": [
+    "rse",
+    "csr",
+    "durabilite",
+    "sustainability",
+    "logistique verte",
+    "green supply chain"
+   ],
+   "category": "transverse",
+   "topics": [
+    "logistique",
+    "rse"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-14001",
+    "cout-logistique",
+    "supply-chain-management"
+   ],
+   "jobs": [
+    "Responsable RSE",
+    "Directeur Supply Chain",
+    "Acheteur Responsable"
+   ]
+  },
+  {
+   "id": "trade-compliance",
+   "label": {
+    "fr": "Conformité douanière et commerciale",
+    "en": "Trade Compliance",
+    "ar": "الامتثال التجاري",
+    "ru": "Торговый комплаенс"
+   },
+   "patterns": [
+    "trade compliance",
+    "conformite douaniere",
+    "export control",
+    "conformite export"
+   ],
+   "category": "transverse",
+   "topics": [
+    "juridique",
+    "logistique"
+   ],
+   "level": "specialise",
+   "related": [
+    "douane-customs",
+    "oea-aeo",
+    "incoterms"
+   ],
+   "jobs": [
+    "Responsable Douane",
+    "Trade Compliance Manager",
+    "Directeur Juridique Import-Export"
+   ]
+  },
+  {
+   "id": "kpi-logistique",
+   "label": {
+    "fr": "KPI Logistiques",
+    "en": "Logistics KPIs",
+    "ar": "مؤشرات الأداء اللوجستية",
+    "ru": "KPI логистики"
+   },
+   "patterns": [
+    "kpi logistique",
+    "indicateurs logistiques",
+    "otd",
+    "order fulfillment",
+    "taux service"
+   ],
+   "category": "transverse",
+   "topics": [
+    "logistique",
+    "data"
+   ],
+   "level": "courant",
+   "related": [
+    "power-bi",
+    "analyse-donnees",
+    "scor-model"
+   ],
+   "jobs": [
+    "Supply Chain Analyst",
+    "Responsable Logistique",
+    "Contrôleur de gestion logistique"
+   ]
+  },
+  {
+   "id": "cout-logistique",
+   "label": {
+    "fr": "Coûts logistiques",
+    "en": "Logistics Costs",
+    "ar": "التكاليف اللوجستية",
+    "ru": "Логистические затраты"
+   },
+   "patterns": [
+    "cout logistique",
+    "logistics costs",
+    "cost to serve",
+    "reduction couts"
+   ],
+   "category": "transverse",
+   "topics": [
+    "finance",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "kpi-logistique",
+    "analyse-donnees",
+    "spend-analysis"
+   ],
+   "jobs": [
+    "Contrôleur de gestion logistique",
+    "Directeur Logistique",
+    "Supply Chain Manager"
+   ]
+  },
+  {
+   "id": "gestion-flotte",
+   "label": {
+    "fr": "Gestion de flotte",
+    "en": "Fleet Management",
+    "ar": "إدارة الأسطول",
+    "ru": "Управление автопарком"
+   },
+   "patterns": [
+    "gestion flotte",
+    "fleet management",
+    "suivi vehicules",
+    "telematique"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "transport"
+   ],
+   "level": "frequent",
+   "related": [
+    "tms-transport",
+    "optimisation-tournees",
+    "adr-transport"
+   ],
+   "jobs": [
+    "Responsable Parc Auto",
+    "Gestionnaire de flotte",
+    "Responsable Transport"
+   ]
+  },
+  {
+   "id": "douane-customs",
+   "label": {
+    "fr": "Réglementation douanière",
+    "en": "Customs Regulations",
+    "ar": "القوانين الجمركية",
+    "ru": "Таможенное регулирование"
+   },
+   "patterns": [
+    "douane",
+    "customs",
+    "nomenclature douaniere",
+    "hs code",
+    "tarif douanier"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "juridique"
+   ],
+   "level": "courant",
+   "related": [
+    "dedouanement",
+    "incoterms",
+    "trade-compliance"
+   ],
+   "jobs": [
+    "Declarant en douane",
+    "Responsable Import-Export",
+    "Assistant Douane"
+   ]
+  },
+  {
+   "id": "supply-chain-management",
+   "label": {
+    "fr": "Supply Chain Management",
+    "en": "Supply Chain Management",
+    "ar": "إدارة سلسلة التوريد",
+    "ru": "Управление цепями поставок"
+   },
+   "patterns": [
+    "supply chain management",
+    "scm",
+    "gestion chaine logistique",
+    "pilotage supply chain"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "planification-demande",
+    "scor-model",
+    "apics-cscp"
+   ],
+   "jobs": [
+    "Directeur Supply Chain",
+    "Supply Chain Manager",
+    "Responsable Logistique"
+   ]
+  },
+  {
+   "id": "procurement",
+   "label": {
+    "fr": "Achats (Procurement)",
+    "en": "Procurement",
+    "ar": "المشتريات",
+    "ru": "Закупки"
+   },
+   "patterns": [
+    "procurement",
+    "direction achats",
+    "strategie achats",
+    "global procurement"
+   ],
+   "category": "metier",
+   "topics": [
+    "business",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "sourcing",
+    "category-management",
+    "spend-analysis"
+   ],
+   "jobs": [
+    "Directeur des Achats",
+    "Responsable Achats",
+    "Procurement Manager"
+   ]
+  },
+  {
+   "id": "category-management",
+   "label": {
+    "fr": "Category Management",
+    "en": "Category Management",
+    "ar": "إدارة الفئات",
+    "ru": "Категорийный менеджмент"
+   },
+   "patterns": [
+    "category management",
+    "gestion categories",
+    "acheteur categorie",
+    "category manager"
+   ],
+   "category": "metier",
+   "topics": [
+    "business",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "sourcing",
+    "procurement",
+    "negociation-fournisseurs"
+   ],
+   "jobs": [
+    "Category Manager",
+    "Acheteur Famille",
+    "Responsable Achats"
+   ]
+  },
+  {
+   "id": "spend-analysis",
+   "label": {
+    "fr": "Analyse des dépenses",
+    "en": "Spend Analysis",
+    "ar": "تحليل الإنفاق",
+    "ru": "Анализ расходов"
+   },
+   "patterns": [
+    "spend analysis",
+    "analyse depenses",
+    "analyse achats",
+    "spend data"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "business"
+   ],
+   "level": "frequent",
+   "related": [
+    "procurement",
+    "power-bi",
+    "cout-logistique"
+   ],
+   "jobs": [
+    "Acheteur Analyste",
+    "Contrôleur de gestion achats",
+    "Category Manager"
+   ]
+  },
+  {
+   "id": "supplier-relationship",
+   "label": {
+    "fr": "SRM (Supplier Relationship Management)",
+    "en": "SRM",
+    "ar": "إدارة علاقات الموردين",
+    "ru": "Управление отношениями с поставщиками"
+   },
+   "patterns": [
+    "srm",
+    "supplier relationship management",
+    "evaluation fournisseurs",
+    "kpi fournisseurs"
+   ],
+   "category": "methode",
+   "topics": [
+    "business",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "procurement",
+    "category-management",
+    "negociation-fournisseurs"
+   ],
+   "jobs": [
+    "Supplier Quality Engineer",
+    "Responsable Achats",
+    "Acheteur Senior"
+   ]
+  },
+  {
+   "id": "erp-integration",
+   "label": {
+    "fr": "Intégration ERP",
+    "en": "ERP Integration",
+    "ar": "تكامل أنظمة ERP",
+    "ru": "Интеграция ERP"
+   },
+   "patterns": [
+    "integration erp",
+    "migration erp",
+    "implementation erp",
+    "deploiement erp"
+   ],
+   "category": "transverse",
+   "topics": [
+    "erp",
+    "project"
+   ],
+   "level": "specialise",
+   "related": [
+    "sap-erp",
+    "oracle-scm",
+    "netsuite"
+   ],
+   "jobs": [
+    "Chef de projet ERP",
+    "Consultant MOA",
+    "Directeur des Systèmes d'Information"
+   ]
+  },
+  {
+   "id": "production-planning",
+   "label": {
+    "fr": "Planification de production",
+    "en": "Production Planning",
+    "ar": "تخطيط الإنتاج",
+    "ru": "Планирование производства"
+   },
+   "patterns": [
+    "planification production",
+    "production planning",
+    "ordonnancement",
+    "planification industrielle"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "mrp",
+    "apics-cpim",
+    "kanban"
+   ],
+   "jobs": [
+    "Planificateur de production",
+    "Ordonnanceur",
+    "Responsable Planification"
+   ]
+  },
+  {
+   "id": "inventory-optimization",
+   "label": {
+    "fr": "Optimisation des stocks",
+    "en": "Inventory Optimization",
+    "ar": "تحسين المخزون",
+    "ru": "Оптимизация запасов"
+   },
+   "patterns": [
+    "optimisation stocks",
+    "inventory optimization",
+    "reduction stocks",
+    "stock de securite"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-des-stocks",
+    "ddmrp",
+    "mrp"
+   ],
+   "jobs": [
+    "Supply Chain Analyst",
+    "Responsable Approvisionnement",
+    "Gestionnaire de stocks"
+   ]
+  },
+  {
+   "id": "warehouse-automation",
+   "label": {
+    "fr": "Automatisation d'entrepôt",
+    "en": "Warehouse Automation",
+    "ar": "أتمتة المستودعات",
+    "ru": "Автоматизация склада"
+   },
+   "patterns": [
+    "automatisation entrepot",
+    "warehouse automation",
+    "robotique logistique",
+    "agv",
+    "convoyeurs"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "wms-warehouse",
+    "gestion-entrepot",
+    "manhattan-wms"
+   ],
+   "jobs": [
+    "Directeur de site logistique",
+    "Ingénieur méthodes logistiques",
+    "Chef de projet automation"
+   ]
+  },
+  {
+   "id": "chaine-du-froid",
+   "label": {
+    "fr": "Chaîne du froid",
+    "en": "Cold Chain",
+    "ar": "سلسلة التبريد",
+    "ru": "Холодовая цепь"
+   },
+   "patterns": [
+    "chaine du froid",
+    "cold chain",
+    "transport frigorifique",
+    "logistique frais"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "sante"
+   ],
+   "level": "specialise",
+   "related": [
+    "haccp",
+    "adr-transport",
+    "tms-transport"
+   ],
+   "jobs": [
+    "Responsable Transport",
+    "Directeur Logistique Pharma",
+    "Responsable Entrepôt"
+   ]
+  }
+ ]
+}

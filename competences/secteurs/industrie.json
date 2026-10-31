@@ -1,0 +1,2485 @@
+{
+ "sector": "Production industrielle, maintenance et méthodes",
+ "key": "industrie",
+ "model": "qwen-3.7-max-thinking",
+ "skills": [
+  {
+   "id": "sap-pm",
+   "label": {
+    "fr": "SAP PM",
+    "en": "SAP PM",
+    "ar": "SAP PM",
+    "ru": "SAP PM"
+   },
+   "patterns": [
+    "sap pm",
+    "sap plant maintenance",
+    "sap-pm",
+    "صيانة sap",
+    "модуль sap pm"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "sap-pp",
+    "ibm-maximo",
+    "gmao",
+    "erp"
+   ],
+   "jobs": [
+    "Responsable maintenance",
+    "Gestionnaire GMAO",
+    "Consultant SAP PM"
+   ]
+  },
+  {
+   "id": "sap-pp",
+   "label": {
+    "fr": "SAP PP",
+    "en": "SAP PP",
+    "ar": "SAP PP",
+    "ru": "SAP PP"
+   },
+   "patterns": [
+    "sap pp",
+    "sap production planning",
+    "sap-pp",
+    "تخطيط الإنتاج sap",
+    "модуль sap pp"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "sap-pm",
+    "gestion-de-production",
+    "ordonnancement",
+    "erp"
+   ],
+   "jobs": [
+    "Responsable production",
+    "Planificateur de production",
+    "Consultant SAP PP"
+   ]
+  },
+  {
+   "id": "ibm-maximo",
+   "label": {
+    "fr": "IBM Maximo",
+    "en": "IBM Maximo",
+    "ar": "IBM Maximo",
+    "ru": "IBM Maximo"
+   },
+   "patterns": [
+    "ibm maximo",
+    "maximo",
+    "ماكسيمو",
+    "максимо"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "sap-pm",
+    "carl-source",
+    "gmao",
+    "maintenance-preventive"
+   ],
+   "jobs": [
+    "Responsable maintenance",
+    "Gestionnaire GMAO",
+    "Fiabiliste"
+   ]
+  },
+  {
+   "id": "carl-source",
+   "label": {
+    "fr": "Carl Source",
+    "en": "Carl Source",
+    "ar": "Carl Source",
+    "ru": "Carl Source"
+   },
+   "patterns": [
+    "carl source",
+    "carl-source",
+    "كارل سورس",
+    "карл сорс"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "ibm-maximo",
+    "sap-pm",
+    "gmao",
+    "maintenance-preventive"
+   ],
+   "jobs": [
+    "Responsable maintenance",
+    "Gestionnaire GMAO",
+    "Technicien méthodes"
+   ]
+  },
+  {
+   "id": "solidworks",
+   "label": {
+    "fr": "SolidWorks",
+    "en": "SolidWorks",
+    "ar": "SolidWorks",
+    "ru": "SolidWorks"
+   },
+   "patterns": [
+    "solidworks",
+    "solid works",
+    "سوليدووركس",
+    "солидворкс"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "cao",
+    "autocad",
+    "catia",
+    "fao"
+   ],
+   "jobs": [
+    "Dessinateur industriel",
+    "Ingénieur méthodes",
+    "Concepteur mécanique"
+   ]
+  },
+  {
+   "id": "autocad",
+   "label": {
+    "fr": "AutoCAD",
+    "en": "AutoCAD",
+    "ar": "AutoCAD",
+    "ru": "AutoCAD"
+   },
+   "patterns": [
+    "autocad",
+    "auto cad",
+    "أوتوكاد",
+    "автокад"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "industrie",
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "solidworks",
+    "cao",
+    "catia",
+    "mecanique-industrielle"
+   ],
+   "jobs": [
+    "Dessinateur industriel",
+    "Technicien bureau d'études",
+    "Concepteur mécanique"
+   ]
+  },
+  {
+   "id": "catia",
+   "label": {
+    "fr": "CATIA",
+    "en": "CATIA",
+    "ar": "CATIA",
+    "ru": "CATIA"
+   },
+   "patterns": [
+    "catia",
+    "catia v5",
+    "catia v6",
+    "كاتيا",
+    "катиа"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "solidworks",
+    "cao",
+    "fao",
+    "industrialisation"
+   ],
+   "jobs": [
+    "Ingénieur conception",
+    "Dessinateur projeteur",
+    "Ingénieur méthodes"
+   ]
+  },
+  {
+   "id": "ms-project",
+   "label": {
+    "fr": "MS Project",
+    "en": "MS Project",
+    "ar": "MS Project",
+    "ru": "MS Project"
+   },
+   "patterns": [
+    "ms project",
+    "microsoft project",
+    "msproject",
+    "مايكروسوفت بروجكت",
+    "эм эс проджект"
+   ],
+   "category": "outil",
+   "topics": [
+    "project",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-de-projet-industriel",
+    "power-bi",
+    "ordonnancement",
+    "industrialisation"
+   ],
+   "jobs": [
+    "Chef de projet industriel",
+    "Responsable méthodes",
+    "Planificateur de production"
+   ]
+  },
+  {
+   "id": "power-bi",
+   "label": {
+    "fr": "Power BI",
+    "en": "Power BI",
+    "ar": "Power BI",
+    "ru": "Power BI"
+   },
+   "patterns": [
+    "power bi",
+    "powerbi",
+    "باور بي آي",
+    "пауэр би"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "ms-project",
+    "gestion-de-production",
+    "amelioration-continue",
+    "erp"
+   ],
+   "jobs": [
+    "Contrôleur de gestion industriel",
+    "Responsable amélioration continue",
+    "Data analyst industriel"
+   ]
+  },
+  {
+   "id": "siemens-tia-portal",
+   "label": {
+    "fr": "Siemens TIA Portal",
+    "en": "Siemens TIA Portal",
+    "ar": "Siemens TIA Portal",
+    "ru": "Siemens TIA Portal"
+   },
+   "patterns": [
+    "tia portal",
+    "siemens tia",
+    "totally integrated automation",
+    "博途",
+    "тиа портал"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "automatisme",
+    "schneider-electric",
+    "rockwell-automation",
+    "controle-commande"
+   ],
+   "jobs": [
+    "Automaticien",
+    "Ingénieur automatisme",
+    "Technicien de maintenance"
+   ]
+  },
+  {
+   "id": "fanuc",
+   "label": {
+    "fr": "Fanuc",
+    "en": "Fanuc",
+    "ar": "Fanuc",
+    "ru": "Fanuc"
+   },
+   "patterns": [
+    "fanuc",
+    "فانوك",
+    "фанук"
+   ],
+   "category": "outil",
+   "topics": [
+    "industrie",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "kuka",
+    "abb-robotics",
+    "robotique-industrielle",
+    "commande-numerique"
+   ],
+   "jobs": [
+    "Roboticien",
+    "Programmeur robot",
+    "Technicien en automatisme"
+   ]
+  },
+  {
+   "id": "kuka",
+   "label": {
+    "fr": "KUKA",
+    "en": "KUKA",
+    "ar": "KUKA",
+    "ru": "KUKA"
+   },
+   "patterns": [
+    "kuka",
+    "kuka roboter",
+    "كوكا",
+    "кука"
+   ],
+   "category": "outil",
+   "topics": [
+    "industrie",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "fanuc",
+    "abb-robotics",
+    "robotique-industrielle",
+    "automatisme"
+   ],
+   "jobs": [
+    "Roboticien",
+    "Programmeur robot",
+    "Ingénieur robotique"
+   ]
+  },
+  {
+   "id": "abb-robotics",
+   "label": {
+    "fr": "ABB Robotics",
+    "en": "ABB Robotics",
+    "ar": "ABB Robotics",
+    "ru": "ABB Robotics"
+   },
+   "patterns": [
+    "abb robotics",
+    "abb robot",
+    "إيه بي بي",
+    "абб робототехника"
+   ],
+   "category": "outil",
+   "topics": [
+    "industrie",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "fanuc",
+    "kuka",
+    "robotique-industrielle",
+    "automatisme"
+   ],
+   "jobs": [
+    "Roboticien",
+    "Programmeur robot",
+    "Ingénieur robotique"
+   ]
+  },
+  {
+   "id": "schneider-electric",
+   "label": {
+    "fr": "Schneider Electric",
+    "en": "Schneider Electric",
+    "ar": "Schneider Electric",
+    "ru": "Schneider Electric"
+   },
+   "patterns": [
+    "schneider",
+    "schneider electric",
+    "telemecanique",
+    "modicon",
+    "шнайдер",
+    "شنايدر"
+   ],
+   "category": "outil",
+   "topics": [
+    "industrie",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "siemens-tia-portal",
+    "rockwell-automation",
+    "automatisme",
+    "electrotechnique"
+   ],
+   "jobs": [
+    "Automaticien",
+    "Électricien industriel",
+    "Technicien de maintenance"
+   ]
+  },
+  {
+   "id": "rockwell-automation",
+   "label": {
+    "fr": "Rockwell Automation",
+    "en": "Rockwell Automation",
+    "ar": "Rockwell Automation",
+    "ru": "Rockwell Automation"
+   },
+   "patterns": [
+    "rockwell",
+    "allen bradley",
+    "rockwell automation",
+    "روكويل",
+    "роквелл"
+   ],
+   "category": "outil",
+   "topics": [
+    "industrie",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "siemens-tia-portal",
+    "schneider-electric",
+    "automatisme",
+    "controle-commande"
+   ],
+   "jobs": [
+    "Automaticien",
+    "Ingénieur contrôle-commande",
+    "Technicien en automatisme"
+   ]
+  },
+  {
+   "id": "lean-manufacturing",
+   "label": {
+    "fr": "Lean Manufacturing",
+    "en": "Lean Manufacturing",
+    "ar": "Lean Manufacturing",
+    "ru": "Lean Manufacturing"
+   },
+   "patterns": [
+    "lean manufacturing",
+    "lean",
+    "production allégée",
+    "التصنيع الرشيق",
+    "бережлив"
+   ],
+   "category": "methode",
+   "topics": [
+    "industrie",
+    "quality"
+   ],
+   "level": "courant",
+   "related": [
+    "six-sigma",
+    "5s",
+    "kaizen",
+    "vsm",
+    "amelioration-continue"
+   ],
+   "jobs": [
+    "Responsable amélioration continue",
+    "Ingénieur méthodes",
+    "Lean manager"
+   ]
+  },
+  {
+   "id": "six-sigma",
+   "label": {
+    "fr": "Six Sigma",
+    "en": "Six Sigma",
+    "ar": "Six Sigma",
+    "ru": "Six Sigma"
+   },
+   "patterns": [
+    "six sigma",
+    "6 sigma",
+    "seis sigma",
+    "ستة سيجما",
+    "шесть сигм",
+    "сигм"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-manufacturing",
+    "dmaic",
+    "lean-six-sigma",
+    "resolution-de-problemes",
+    "amdec"
+   ],
+   "jobs": [
+    "Black Belt",
+    "Green Belt",
+    "Responsable qualité",
+    "Ingénieur amélioration continue"
+   ]
+  },
+  {
+   "id": "5s",
+   "label": {
+    "fr": "5S",
+    "en": "5S",
+    "ar": "5S",
+    "ru": "5S"
+   },
+   "patterns": [
+    "5s",
+    "methode 5s",
+    "المنهجية الخماسية",
+    "система 5s"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "lean-manufacturing",
+    "kaizen",
+    "hse",
+    "tpm",
+    "amelioration-continue"
+   ],
+   "jobs": [
+    "Responsable amélioration continue",
+    "Chef d'équipe production",
+    "Ingénieur méthodes"
+   ]
+  },
+  {
+   "id": "tpm",
+   "label": {
+    "fr": "TPM",
+    "en": "TPM",
+    "ar": "TPM",
+    "ru": "TPM"
+   },
+   "patterns": [
+    "tpm",
+    "total productive maintenance",
+    "maintenance productive totale",
+    "الصيانة الإنتاجية الشاملة",
+    "всеобщ"
+   ],
+   "category": "methode",
+   "topics": [
+    "industrie",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "maintenance-preventive",
+    "5s",
+    "lean-manufacturing",
+    "fiabilisation",
+    "amelioration-continue"
+   ],
+   "jobs": [
+    "Responsable maintenance",
+    "Ingénieur méthodes maintenance",
+    "Fiabiliste"
+   ]
+  },
+  {
+   "id": "amdec",
+   "label": {
+    "fr": "AMDEC",
+    "en": "FMEA",
+    "ar": "AMDEC",
+    "ru": "FMEA"
+   },
+   "patterns": [
+    "amdec",
+    "fmea",
+    "failure mode and effects analysis",
+    "analyse des modes de defaillance",
+    "تحليل أنماط الفشل",
+    "фмеа",
+    "анализ видов"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "six-sigma",
+    "resolution-de-problemes",
+    "ishikawa",
+    "8d",
+    "industrialisation"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Ingénieur méthodes",
+    "Responsable industrialisation"
+   ]
+  },
+  {
+   "id": "smed",
+   "label": {
+    "fr": "SMED",
+    "en": "SMED",
+    "ar": "SMED",
+    "ru": "SMED"
+   },
+   "patterns": [
+    "smed",
+    "single minute exchange of die",
+    "changement de serie",
+    "التبديل السريع",
+    "смен"
+   ],
+   "category": "methode",
+   "topics": [
+    "industrie",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-manufacturing",
+    "kaizen",
+    "ordonnancement",
+    "gestion-de-production",
+    "amelioration-continue"
+   ],
+   "jobs": [
+    "Ingénieur méthodes",
+    "Responsable production",
+    "Lean manager"
+   ]
+  },
+  {
+   "id": "kanban",
+   "label": {
+    "fr": "Kanban",
+    "en": "Kanban",
+    "ar": "Kanban",
+    "ru": "Kanban"
+   },
+   "patterns": [
+    "kanban",
+    "كامبان",
+    "канбан"
+   ],
+   "category": "methode",
+   "topics": [
+    "logistique",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "lean-manufacturing",
+    "gestion-des-stocks",
+    "supply-chain",
+    "ordonnancement",
+    "gestion-de-production"
+   ],
+   "jobs": [
+    "Responsable production",
+    "Planificateur de production",
+    "Gestionnaire de flux"
+   ]
+  },
+  {
+   "id": "kaizen",
+   "label": {
+    "fr": "Kaizen",
+    "en": "Kaizen",
+    "ar": "Kaizen",
+    "ru": "Kaizen"
+   },
+   "patterns": [
+    "kaizen",
+    "amelioration continue",
+    "كايزن",
+    "кайдзен"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "lean-manufacturing",
+    "5s",
+    "pdca",
+    "amelioration-continue",
+    "resolution-de-problemes"
+   ],
+   "jobs": [
+    "Responsable amélioration continue",
+    "Ingénieur méthodes",
+    "Animateur qualité"
+   ]
+  },
+  {
+   "id": "vsm",
+   "label": {
+    "fr": "VSM",
+    "en": "VSM",
+    "ar": "VSM",
+    "ru": "VSM"
+   },
+   "patterns": [
+    "vsm",
+    "value stream mapping",
+    "cartographie des flux",
+    "خريطة تدفق القيمة",
+    "картиров"
+   ],
+   "category": "methode",
+   "topics": [
+    "industrie",
+    "quality"
+   ],
+   "level": "frequent",
+   "related": [
+    "lean-manufacturing",
+    "kanban",
+    "smed",
+    "amelioration-continue",
+    "gestion-de-production"
+   ],
+   "jobs": [
+    "Lean manager",
+    "Ingénieur méthodes",
+    "Responsable amélioration continue"
+   ]
+  },
+  {
+   "id": "dmaic",
+   "label": {
+    "fr": "DMAIC",
+    "en": "DMAIC",
+    "ar": "DMAIC",
+    "ru": "DMAIC"
+   },
+   "patterns": [
+    "dmaic",
+    "define measure analyze improve control",
+    "ديمايك",
+    "дмаик"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "six-sigma",
+    "lean-six-sigma",
+    "resolution-de-problemes",
+    "pdca",
+    "ishikawa"
+   ],
+   "jobs": [
+    "Black Belt",
+    "Green Belt",
+    "Ingénieur qualité",
+    "Responsable amélioration continue"
+   ]
+  },
+  {
+   "id": "8d",
+   "label": {
+    "fr": "8D",
+    "en": "8D",
+    "ar": "8D",
+    "ru": "8D"
+   },
+   "patterns": [
+    "8d",
+    "huit d",
+    "eight disciplines",
+    "المشاكل الثمانية",
+    "восемь дисциплин"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "resolution-de-problemes",
+    "amdec",
+    "ishikawa",
+    "pdca",
+    "six-sigma"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Responsable qualité",
+    "Technicien qualité"
+   ]
+  },
+  {
+   "id": "pdca",
+   "label": {
+    "fr": "PDCA",
+    "en": "PDCA",
+    "ar": "PDCA",
+    "ru": "PDCA"
+   },
+   "patterns": [
+    "pdca",
+    "plan do check act",
+    "roue de deming",
+    "deming",
+    "بي دي سي إيه"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "kaizen",
+    "amelioration-continue",
+    "8d",
+    "resolution-de-problemes",
+    "iso-9001"
+   ],
+   "jobs": [
+    "Responsable amélioration continue",
+    "Ingénieur qualité",
+    "Animateur qualité"
+   ]
+  },
+  {
+   "id": "ishikawa",
+   "label": {
+    "fr": "Ishikawa",
+    "en": "Ishikawa",
+    "ar": "Ishikawa",
+    "ru": "Ishikawa"
+   },
+   "patterns": [
+    "ishikawa",
+    "diagramme de cause a effet",
+    "fishbone",
+    "arete de poisson",
+    "إيشيكاوا",
+    "исикав"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "8d",
+    "resolution-de-problemes",
+    "amdec",
+    "dmaic",
+    "pdca"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Responsable qualité",
+    "Technicien qualité"
+   ]
+  },
+  {
+   "id": "iso-9001",
+   "label": {
+    "fr": "ISO 9001",
+    "en": "ISO 9001",
+    "ar": "ISO 9001",
+    "ru": "ISO 9001"
+   },
+   "patterns": [
+    "iso 9001",
+    "iso9001",
+    "أيزو 9001",
+    "исо 9001"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-14001",
+    "iso-45001",
+    "pdca",
+    "amelioration-continue",
+    "hse"
+   ],
+   "jobs": [
+    "Responsable qualité",
+    "Auditeur qualité",
+    "Ingénieur qualité"
+   ]
+  },
+  {
+   "id": "iso-14001",
+   "label": {
+    "fr": "ISO 14001",
+    "en": "ISO 14001",
+    "ar": "ISO 14001",
+    "ru": "ISO 14001"
+   },
+   "patterns": [
+    "iso 14001",
+    "iso14001",
+    "أيزو 14001",
+    "исо 14001"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-9001",
+    "iso-45001",
+    "hse",
+    "efficience-energetique"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Ingénieur environnement",
+    "Responsable QHSE"
+   ]
+  },
+  {
+   "id": "iso-45001",
+   "label": {
+    "fr": "ISO 45001",
+    "en": "ISO 45001",
+    "ar": "ISO 45001",
+    "ru": "ISO 45001"
+   },
+   "patterns": [
+    "iso 45001",
+    "iso45001",
+    "ohsas 18001",
+    "أيزو 45001",
+    "исо 45001"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-9001",
+    "iso-14001",
+    "hse",
+    "mase"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Ingénieur sécurité",
+    "Responsable QHSE"
+   ]
+  },
+  {
+   "id": "iatf-16949",
+   "label": {
+    "fr": "IATF 16949",
+    "en": "IATF 16949",
+    "ar": "IATF 16949",
+    "ru": "IATF 16949"
+   },
+   "patterns": [
+    "iatf 16949",
+    "iatf16949",
+    "iso ts 16949",
+    "أيزو تي إس",
+    "iatf"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "iso-9001",
+    "amdec",
+    "six-sigma",
+    "resolution-de-problemes"
+   ],
+   "jobs": [
+    "Responsable qualité automobile",
+    "Ingénieur qualité fournisseur",
+    "Auditeur IATF"
+   ]
+  },
+  {
+   "id": "mase",
+   "label": {
+    "fr": "MASE",
+    "en": "MASE",
+    "ar": "MASE",
+    "ru": "MASE"
+   },
+   "patterns": [
+    "mase",
+    "manuel d'amelioration securite des entreprises",
+    "ماسي",
+    "мазе"
+   ],
+   "category": "norme",
+   "topics": [
+    "quality",
+    "industrie",
+    "btp"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-45001",
+    "hse",
+    "habilitation-electrique",
+    "caces"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Coordonnateur SPS",
+    "Chef d'équipe maintenance"
+   ]
+  },
+  {
+   "id": "atex",
+   "label": {
+    "fr": "ATEX",
+    "en": "ATEX",
+    "ar": "ATEX",
+    "ru": "ATEX"
+   },
+   "patterns": [
+    "atex",
+    "atmospheres explosives",
+    "explosive atmospheres",
+    "أجواء قابلة للانفجار",
+    "взрывоопас"
+   ],
+   "category": "norme",
+   "topics": [
+    "industrie",
+    "engineering"
+   ],
+   "level": "specialise",
+   "related": [
+    "hse",
+    "habilitation-electrique",
+    "electrotechnique",
+    "iso-45001"
+   ],
+   "jobs": [
+    "Ingénieur sécurité",
+    "Électricien industriel",
+    "Responsable maintenance"
+   ]
+  },
+  {
+   "id": "usinage",
+   "label": {
+    "fr": "Usinage",
+    "en": "Machining",
+    "ar": "Usinage",
+    "ru": "Usinage"
+   },
+   "patterns": [
+    "usinage",
+    "machining",
+    "تشغيل المعادن",
+    "обработк",
+    "станок"
+   ],
+   "category": "metier",
+   "topics": [
+    "industrie",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "commande-numerique",
+    "fao",
+    "mecanique-industrielle",
+    "metrologie",
+    "chaudronnerie"
+   ],
+   "jobs": [
+    "Opérateur régleur",
+    "Fraiseur",
+    "Tourneur",
+    "Usineur"
+   ]
+  },
+  {
+   "id": "soudure",
+   "label": {
+    "fr": "Soudure",
+    "en": "Welding",
+    "ar": "Soudure",
+    "ru": "Soudure"
+   },
+   "patterns": [
+    "soudure",
+    "soudage",
+    "welding",
+    "لحام",
+    "сварк"
+   ],
+   "category": "metier",
+   "topics": [
+    "industrie",
+    "btp"
+   ],
+   "level": "courant",
+   "related": [
+    "chaudronnerie",
+    "controle-non-destructif",
+    "mecanique-industrielle",
+    "usinage"
+   ],
+   "jobs": [
+    "Soudeur",
+    "Chaudronnier",
+    "Tuyauteur"
+   ]
+  },
+  {
+   "id": "controle-non-destructif",
+   "label": {
+    "fr": "Contrôle Non Destructif",
+    "en": "Non-Destructive Testing",
+    "ar": "Contrôle Non Destructif",
+    "ru": "Contrôle Non Destructif"
+   },
+   "patterns": [
+    "cnd",
+    "ndt",
+    "non destructive testing",
+    "controle non destructif",
+    "الفحص غير الإتلافي",
+    "дефектоскоп",
+    "ндт"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "soudure",
+    "metrologie",
+    "chaudronnerie",
+    "mecanique-industrielle",
+    "iso-9001"
+   ],
+   "jobs": [
+    "Contrôleur CND",
+    "Inspecteur qualité",
+    "Technicien en radiologie industrielle"
+   ]
+  },
+  {
+   "id": "automatisme",
+   "label": {
+    "fr": "Automatisme",
+    "en": "Automation",
+    "ar": "Automatisme",
+    "ru": "Automatisme"
+   },
+   "patterns": [
+    "automatisme",
+    "automation",
+    "أتمتة",
+    "автоматизац",
+    "плс"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "siemens-tia-portal",
+    "schneider-electric",
+    "rockwell-automation",
+    "controle-commande",
+    "electrotechnique"
+   ],
+   "jobs": [
+    "Automaticien",
+    "Ingénieur automatisme",
+    "Technicien de maintenance"
+   ]
+  },
+  {
+   "id": "robotique-industrielle",
+   "label": {
+    "fr": "Robotique industrielle",
+    "en": "Industrial Robotics",
+    "ar": "Robotique industrielle",
+    "ru": "Robotique industrielle"
+   },
+   "patterns": [
+    "robotique",
+    "robotics",
+    "robot industriel",
+    "الروبوتات الصناعية",
+    "робот"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "fanuc",
+    "kuka",
+    "abb-robotics",
+    "automatisme",
+    "commande-numerique"
+   ],
+   "jobs": [
+    "Roboticien",
+    "Programmeur robot",
+    "Ingénieur robotique"
+   ]
+  },
+  {
+   "id": "hydraulique",
+   "label": {
+    "fr": "Hydraulique",
+    "en": "Hydraulics",
+    "ar": "Hydraulique",
+    "ru": "Hydraulique"
+   },
+   "patterns": [
+    "hydraulique",
+    "hydraulics",
+    "هيدروليك",
+    "гидравлик"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "pneumatique",
+    "mecanique-industrielle",
+    "maintenance-preventive",
+    "maintenance-corrective"
+   ],
+   "jobs": [
+    "Technicien de maintenance",
+    "Hydraulicien",
+    "Mécanicien industriel"
+   ]
+  },
+  {
+   "id": "pneumatique",
+   "label": {
+    "fr": "Pneumatique",
+    "en": "Pneumatics",
+    "ar": "Pneumatique",
+    "ru": "Pneumatique"
+   },
+   "patterns": [
+    "pneumatique",
+    "pneumatics",
+    "نيوماتيك",
+    "пневматик"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "hydraulique",
+    "automatisme",
+    "mecanique-industrielle",
+    "maintenance-preventive"
+   ],
+   "jobs": [
+    "Technicien de maintenance",
+    "Mécanicien industriel",
+    "Automaticien"
+   ]
+  },
+  {
+   "id": "electrotechnique",
+   "label": {
+    "fr": "Électrotechnique",
+    "en": "Electrotechnology",
+    "ar": "Électrotechnique",
+    "ru": "Électrotechnique"
+   },
+   "patterns": [
+    "electrotechnique",
+    "électrotechnique",
+    "electrotechnology",
+    "كهرباء صناعية",
+    "электротехник"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "automatisme",
+    "habilitation-electrique",
+    "maintenance-corrective",
+    "schneider-electric"
+   ],
+   "jobs": [
+    "Électricien industriel",
+    "Technicien de maintenance",
+    "Électrotechnicien"
+   ]
+  },
+  {
+   "id": "mecanique-industrielle",
+   "label": {
+    "fr": "Mécanique industrielle",
+    "en": "Industrial Mechanics",
+    "ar": "Mécanique industrielle",
+    "ru": "Mécanique industrielle"
+   },
+   "patterns": [
+    "mecanique industrielle",
+    "mécanique industrielle",
+    "industrial mechanics",
+    "ميكانيكا صناعية",
+    "механик"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "usinage",
+    "hydraulique",
+    "pneumatique",
+    "maintenance-corrective",
+    "chaudronnerie"
+   ],
+   "jobs": [
+    "Mécanicien industriel",
+    "Technicien de maintenance",
+    "Monteur assembleur"
+   ]
+  },
+  {
+   "id": "chaudronnerie",
+   "label": {
+    "fr": "Chaudronnerie",
+    "en": "Boilermaking",
+    "ar": "Chaudronnerie",
+    "ru": "Chaudronnerie"
+   },
+   "patterns": [
+    "chaudronnerie",
+    "boilermaking",
+    "sheet metal",
+    "تصنيع المعادن",
+    "котельн",
+    "листов"
+   ],
+   "category": "metier",
+   "topics": [
+    "industrie",
+    "btp"
+   ],
+   "level": "frequent",
+   "related": [
+    "soudure",
+    "usinage",
+    "mecanique-industrielle",
+    "controle-non-destructif"
+   ],
+   "jobs": [
+    "Chaudronnier",
+    "Tuyauteur",
+    "Soudeur"
+   ]
+  },
+  {
+   "id": "fao",
+   "label": {
+    "fr": "FAO",
+    "en": "CAM",
+    "ar": "FAO",
+    "ru": "FAO"
+   },
+   "patterns": [
+    "fao",
+    "cam",
+    "fabrication assistee par ordinateur",
+    "computer aided manufacturing",
+    "التصنيع بمساعدة الحاسوب",
+    "кам"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "cao",
+    "commande-numerique",
+    "usinage",
+    "solidworks",
+    "catia"
+   ],
+   "jobs": [
+    "Programmeur FAO",
+    "Ingénieur méthodes",
+    "Opérateur régleur"
+   ]
+  },
+  {
+   "id": "commande-numerique",
+   "label": {
+    "fr": "Commande numérique",
+    "en": "CNC",
+    "ar": "Commande numérique",
+    "ru": "Commande numérique"
+   },
+   "patterns": [
+    "cnc",
+    "commande numerique",
+    "computer numerical control",
+    "التحكم الرقمي",
+    "чпу"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "usinage",
+    "fao",
+    "robotique-industrielle",
+    "mecanique-industrielle"
+   ],
+   "jobs": [
+    "Opérateur régleur CN",
+    "Programmeur CN",
+    "Tourneur fraiseur"
+   ]
+  },
+  {
+   "id": "maintenance-preventive",
+   "label": {
+    "fr": "Maintenance préventive",
+    "en": "Preventive Maintenance",
+    "ar": "Maintenance préventive",
+    "ru": "Maintenance préventive"
+   },
+   "patterns": [
+    "maintenance preventive",
+    "preventive maintenance",
+    "الصيانة الوقائية",
+    "профилактическ"
+   ],
+   "category": "metier",
+   "topics": [
+    "industrie",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "maintenance-predictive",
+    "maintenance-corrective",
+    "gmao",
+    "tpm",
+    "fiabilisation"
+   ],
+   "jobs": [
+    "Technicien de maintenance",
+    "Responsable maintenance",
+    "Planificateur maintenance"
+   ]
+  },
+  {
+   "id": "maintenance-predictive",
+   "label": {
+    "fr": "Maintenance prédictive",
+    "en": "Predictive Maintenance",
+    "ar": "Maintenance prédictive",
+    "ru": "Maintenance prédictive"
+   },
+   "patterns": [
+    "maintenance predictive",
+    "predictive maintenance",
+    "condition based maintenance",
+    "الصيانة التنبؤية",
+    "предиктивн"
+   ],
+   "category": "metier",
+   "topics": [
+    "industrie",
+    "data"
+   ],
+   "level": "frequent",
+   "related": [
+    "maintenance-preventive",
+    "capteurs-iot",
+    "fiabilisation",
+    "gmao",
+    "power-bi"
+   ],
+   "jobs": [
+    "Fiabiliste",
+    "Ingénieur maintenance",
+    "Data scientist industriel"
+   ]
+  },
+  {
+   "id": "gmao",
+   "label": {
+    "fr": "GMAO",
+    "en": "CMMS",
+    "ar": "GMAO",
+    "ru": "GMAO"
+   },
+   "patterns": [
+    "gmao",
+    "cmms",
+    "gestion de maintenance assistee par ordinateur",
+    "إدارة الصيانة بمساعدة الحاسوب",
+    "еам"
+   ],
+   "category": "metier",
+   "topics": [
+    "industrie",
+    "erp"
+   ],
+   "level": "courant",
+   "related": [
+    "sap-pm",
+    "ibm-maximo",
+    "carl-source",
+    "maintenance-preventive",
+    "erp"
+   ],
+   "jobs": [
+    "Gestionnaire GMAO",
+    "Responsable maintenance",
+    "Technicien méthodes"
+   ]
+  },
+  {
+   "id": "ordonnancement",
+   "label": {
+    "fr": "Ordonnancement",
+    "en": "Scheduling",
+    "ar": "Ordonnancement",
+    "ru": "Ordonnancement"
+   },
+   "patterns": [
+    "ordonnancement",
+    "scheduling",
+    "planning de production",
+    "تخطيط الإنتاج",
+    "планиров"
+   ],
+   "category": "metier",
+   "topics": [
+    "logistique",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "gestion-de-production",
+    "kanban",
+    "sap-pp",
+    "ms-project",
+    "smed"
+   ],
+   "jobs": [
+    "Ordonnanceur",
+    "Planificateur de production",
+    "Responsable production"
+   ]
+  },
+  {
+   "id": "industrialisation",
+   "label": {
+    "fr": "Industrialisation",
+    "en": "Industrialization",
+    "ar": "Industrialisation",
+    "ru": "Industrialisation"
+   },
+   "patterns": [
+    "industrialisation",
+    "industrialization",
+    "npi",
+    "new product introduction",
+    "التصنيع",
+    "индустриализац",
+    "освоени"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "methodes-industrielles",
+    "cao",
+    "fao",
+    "amdec",
+    "gestion-de-projet-industriel"
+   ],
+   "jobs": [
+    "Ingénieur industrialisation",
+    "Responsable méthodes",
+    "Chef de projet industriel"
+   ]
+  },
+  {
+   "id": "metrologie",
+   "label": {
+    "fr": "Métrologie",
+    "en": "Metrology",
+    "ar": "Métrologie",
+    "ru": "Métrologie"
+   },
+   "patterns": [
+    "metrologie",
+    "métrologie",
+    "metrology",
+    "القياس والمعايرة",
+    "метролог"
+   ],
+   "category": "metier",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "controle-non-destructif",
+    "iso-9001",
+    "usinage",
+    "resolution-de-problemes"
+   ],
+   "jobs": [
+    "Métrologue",
+    "Technicien qualité",
+    "Ingénieur qualité"
+   ]
+  },
+  {
+   "id": "gestion-de-production",
+   "label": {
+    "fr": "Gestion de production",
+    "en": "Production Management",
+    "ar": "Gestion de production",
+    "ru": "Gestion de production"
+   },
+   "patterns": [
+    "gestion de production",
+    "production management",
+    "إدارة الإنتاج",
+    "управлен производств"
+   ],
+   "category": "metier",
+   "topics": [
+    "industrie",
+    "logistique"
+   ],
+   "level": "courant",
+   "related": [
+    "sap-pp",
+    "ordonnancement",
+    "lean-manufacturing",
+    "kanban",
+    "supply-chain"
+   ],
+   "jobs": [
+    "Responsable production",
+    "Chef d'atelier",
+    "Directeur de production"
+   ]
+  },
+  {
+   "id": "hse",
+   "label": {
+    "fr": "HSE",
+    "en": "HSE",
+    "ar": "HSE",
+    "ru": "HSE"
+   },
+   "patterns": [
+    "hse",
+    "qhse",
+    "hygiene securite environnement",
+    "health safety environment",
+    "الصحة والسلامة والبيئة",
+    "охс"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "iso-14001",
+    "iso-45001",
+    "mase",
+    "habilitation-electrique",
+    "caces"
+   ],
+   "jobs": [
+    "Responsable HSE",
+    "Animateur sécurité",
+    "Ingénieur QHSE"
+   ]
+  },
+  {
+   "id": "amelioration-continue",
+   "label": {
+    "fr": "Amélioration continue",
+    "en": "Continuous Improvement",
+    "ar": "Amélioration continue",
+    "ru": "Amélioration continue"
+   },
+   "patterns": [
+    "amelioration continue",
+    "amélioration continue",
+    "continuous improvement",
+    "التحسين المستمر",
+    "непрерывн улучшен"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "lean-manufacturing",
+    "kaizen",
+    "pdca",
+    "six-sigma",
+    "5s"
+   ],
+   "jobs": [
+    "Responsable amélioration continue",
+    "Ingénieur méthodes",
+    "Lean manager"
+   ]
+  },
+  {
+   "id": "resolution-de-problemes",
+   "label": {
+    "fr": "Résolution de problèmes",
+    "en": "Problem Solving",
+    "ar": "Résolution de problèmes",
+    "ru": "Résolution de problèmes"
+   },
+   "patterns": [
+    "resolution de problemes",
+    "résolution de problèmes",
+    "problem solving",
+    "troubleshooting",
+    "حل المشكلات",
+    "решен проблем"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "8d",
+    "ishikawa",
+    "dmaic",
+    "amdec",
+    "pdca"
+   ],
+   "jobs": [
+    "Ingénieur qualité",
+    "Technicien de maintenance",
+    "Ingénieur méthodes"
+   ]
+  },
+  {
+   "id": "supply-chain",
+   "label": {
+    "fr": "Supply Chain",
+    "en": "Supply Chain",
+    "ar": "Supply Chain",
+    "ru": "Supply Chain"
+   },
+   "patterns": [
+    "supply chain",
+    "chaine logistique",
+    "سلسلة التوريد",
+    "цеп поставок"
+   ],
+   "category": "transverse",
+   "topics": [
+    "logistique",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "gestion-des-stocks",
+    "achats-industriels",
+    "kanban",
+    "gestion-de-production",
+    "erp"
+   ],
+   "jobs": [
+    "Responsable supply chain",
+    "Approvisionneur",
+    "Planificateur"
+   ]
+  },
+  {
+   "id": "achats-industriels",
+   "label": {
+    "fr": "Achats industriels",
+    "en": "Industrial Procurement",
+    "ar": "Achats industriels",
+    "ru": "Achats industriels"
+   },
+   "patterns": [
+    "achats industriels",
+    "industrial procurement",
+    "purchasing",
+    "المشتريات الصناعية",
+    "закупк"
+   ],
+   "category": "transverse",
+   "topics": [
+    "logistique",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "supply-chain",
+    "erp",
+    "gestion-des-stocks",
+    "gestion-de-production"
+   ],
+   "jobs": [
+    "Acheteur industriel",
+    "Responsable approvisionnement",
+    "Buyer"
+   ]
+  },
+  {
+   "id": "gestion-de-projet-industriel",
+   "label": {
+    "fr": "Gestion de projet industriel",
+    "en": "Industrial Project Management",
+    "ar": "Gestion de projet industriel",
+    "ru": "Gestion de projet industriel"
+   },
+   "patterns": [
+    "gestion de projet",
+    "project management",
+    "إدارة المشاريع الصناعية",
+    "управлен проект"
+   ],
+   "category": "transverse",
+   "topics": [
+    "project",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "ms-project",
+    "industrialisation",
+    "supply-chain",
+    "hse"
+   ],
+   "jobs": [
+    "Chef de projet industriel",
+    "Ingénieur projet",
+    "Directeur de projet"
+   ]
+  },
+  {
+   "id": "cao",
+   "label": {
+    "fr": "CAO",
+    "en": "CAD",
+    "ar": "CAO",
+    "ru": "CAO"
+   },
+   "patterns": [
+    "cao",
+    "cad",
+    "conception assistee par ordinateur",
+    "computer aided design",
+    "التصميم بمساعدة الحاسوب",
+    "кад",
+    "сапр"
+   ],
+   "category": "outil",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "solidworks",
+    "autocad",
+    "catia",
+    "fao",
+    "mecanique-industrielle"
+   ],
+   "jobs": [
+    "Dessinateur industriel",
+    "Ingénieur conception",
+    "Concepteur mécanique"
+   ]
+  },
+  {
+   "id": "jumeau-numerique",
+   "label": {
+    "fr": "Jumeau numérique",
+    "en": "Digital Twin",
+    "ar": "Jumeau numérique",
+    "ru": "Jumeau numérique"
+   },
+   "patterns": [
+    "jumeau numerique",
+    "digital twin",
+    "التوأم الرقمي",
+    "цифров двойник"
+   ],
+   "category": "metier",
+   "topics": [
+    "data",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "capteurs-iot",
+    "maintenance-predictive",
+    "power-bi",
+    "automatisme"
+   ],
+   "jobs": [
+    "Ingénieur digitalisation",
+    "Data scientist industriel",
+    "Ingénieur simulation"
+   ]
+  },
+  {
+   "id": "fabrication-additive",
+   "label": {
+    "fr": "Fabrication additive",
+    "en": "Additive Manufacturing",
+    "ar": "Fabrication additive",
+    "ru": "Fabrication additive"
+   },
+   "patterns": [
+    "fabrication additive",
+    "additive manufacturing",
+    "impression 3d",
+    "3d printing",
+    "التصنيع التجميعي",
+    "аддитивн"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "cao",
+    "industrialisation",
+    "methodes-industrielles",
+    "fao"
+   ],
+   "jobs": [
+    "Ingénieur fabrication additive",
+    "Technicien impression 3D",
+    "Ingénieur R&D"
+   ]
+  },
+  {
+   "id": "efficience-energetique",
+   "label": {
+    "fr": "Efficience énergétique",
+    "en": "Energy Efficiency",
+    "ar": "Efficience énergétique",
+    "ru": "Efficience énergétique"
+   },
+   "patterns": [
+    "efficacite energetique",
+    "energy efficiency",
+    "iso 50001",
+    "كفاءة الطاقة",
+    "энергоэффективн"
+   ],
+   "category": "transverse",
+   "topics": [
+    "industrie",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-14001",
+    "hse",
+    "maintenance-preventive",
+    "capteurs-iot"
+   ],
+   "jobs": [
+    "Ingénieur énergie",
+    "Responsable HSE",
+    "Responsable maintenance"
+   ]
+  },
+  {
+   "id": "habilitation-electrique",
+   "label": {
+    "fr": "Habilitation électrique",
+    "en": "Electrical Authorization",
+    "ar": "Habilitation électrique",
+    "ru": "Habilitation électrique"
+   },
+   "patterns": [
+    "habilitation electrique",
+    "electrical authorization",
+    "nf c 18-510",
+    "الترخيص الكهربائي",
+    "электробезопасност"
+   ],
+   "category": "norme",
+   "topics": [
+    "industrie",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "electrotechnique",
+    "hse",
+    "mase",
+    "atex"
+   ],
+   "jobs": [
+    "Électricien industriel",
+    "Technicien de maintenance",
+    "Automaticien"
+   ]
+  },
+  {
+   "id": "caces",
+   "label": {
+    "fr": "CACES",
+    "en": "CACES",
+    "ar": "CACES",
+    "ru": "CACES"
+   },
+   "patterns": [
+    "caces",
+    "certificat d'aptitude a la conduite en securite",
+    "شهادة أهلية القيادة",
+    "удостоверени"
+   ],
+   "category": "norme",
+   "topics": [
+    "logistique",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "hse",
+    "mase",
+    "gestion-des-stocks",
+    "supply-chain"
+   ],
+   "jobs": [
+    "Cariste",
+    "Magasinier",
+    "Technicien de maintenance"
+   ]
+  },
+  {
+   "id": "controle-commande",
+   "label": {
+    "fr": "Contrôle-commande",
+    "en": "Control and Instrumentation",
+    "ar": "Contrôle-commande",
+    "ru": "Contrôle-commande"
+   },
+   "patterns": [
+    "controle-commande",
+    "control and instrumentation",
+    "التحكم والآلات",
+    "кипиа",
+    "кип"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "automatisme",
+    "siemens-tia-portal",
+    "rockwell-automation",
+    "capteurs-iot",
+    "electrotechnique"
+   ],
+   "jobs": [
+    "Ingénieur contrôle-commande",
+    "Technicien instrumentation",
+    "Automaticien"
+   ]
+  },
+  {
+   "id": "lean-six-sigma",
+   "label": {
+    "fr": "Lean Six Sigma",
+    "en": "Lean Six Sigma",
+    "ar": "Lean Six Sigma",
+    "ru": "Lean Six Sigma"
+   },
+   "patterns": [
+    "lean six sigma",
+    "lss",
+    "lean 6 sigma",
+    "لين ستة سيجما",
+    "лин ше"
+   ],
+   "category": "methode",
+   "topics": [
+    "quality",
+    "industrie"
+   ],
+   "level": "frequent",
+   "related": [
+    "six-sigma",
+    "lean-manufacturing",
+    "dmaic",
+    "amelioration-continue",
+    "resolution-de-problemes"
+   ],
+   "jobs": [
+    "Black Belt",
+    "Green Belt",
+    "Responsable amélioration continue",
+    "Ingénieur qualité"
+   ]
+  },
+  {
+   "id": "tracabilite",
+   "label": {
+    "fr": "Traçabilité",
+    "en": "Traceability",
+    "ar": "Traçabilité",
+    "ru": "Traçabilité"
+   },
+   "patterns": [
+    "tracabilite",
+    "traçabilité",
+    "traceability",
+    "التتبع",
+    "прослеживаемост"
+   ],
+   "category": "transverse",
+   "topics": [
+    "quality",
+    "logistique"
+   ],
+   "level": "frequent",
+   "related": [
+    "iso-9001",
+    "gestion-des-stocks",
+    "erp",
+    "controle-non-destructif"
+   ],
+   "jobs": [
+    "Responsable qualité",
+    "Magasinier",
+    "Technicien qualité"
+   ]
+  },
+  {
+   "id": "gestion-des-stocks",
+   "label": {
+    "fr": "Gestion des stocks",
+    "en": "Inventory Management",
+    "ar": "Gestion des stocks",
+    "ru": "Gestion des stocks"
+   },
+   "patterns": [
+    "gestion des stocks",
+    "inventory management",
+    "إدارة المخزون",
+    "управлен запас"
+   ],
+   "category": "transverse",
+   "topics": [
+    "logistique",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "supply-chain",
+    "kanban",
+    "caces",
+    "erp",
+    "achats-industriels"
+   ],
+   "jobs": [
+    "Magasinier",
+    "Gestionnaire de stocks",
+    "Responsable approvisionnement"
+   ]
+  },
+  {
+   "id": "maintenance-corrective",
+   "label": {
+    "fr": "Maintenance corrective",
+    "en": "Corrective Maintenance",
+    "ar": "Maintenance corrective",
+    "ru": "Maintenance corrective"
+   },
+   "patterns": [
+    "maintenance corrective",
+    "corrective maintenance",
+    "depannage",
+    "الصيانة العلاجية",
+    "аварийн"
+   ],
+   "category": "metier",
+   "topics": [
+    "industrie",
+    "engineering"
+   ],
+   "level": "courant",
+   "related": [
+    "maintenance-preventive",
+    "maintenance-predictive",
+    "gmao",
+    "resolution-de-problemes",
+    "fiabilisation"
+   ],
+   "jobs": [
+    "Technicien de maintenance",
+    "Dépanneur",
+    "Électricien industriel"
+   ]
+  },
+  {
+   "id": "fiabilisation",
+   "label": {
+    "fr": "Fiabilisation",
+    "en": "Reliability Engineering",
+    "ar": "Fiabilisation",
+    "ru": "Fiabilisation"
+   },
+   "patterns": [
+    "fiabilisation",
+    "reliability",
+    "fiabilite des equipements",
+    "موثوقية",
+    "надежност"
+   ],
+   "category": "metier",
+   "topics": [
+    "industrie",
+    "engineering"
+   ],
+   "level": "frequent",
+   "related": [
+    "maintenance-predictive",
+    "maintenance-preventive",
+    "tpm",
+    "amdec",
+    "gmao"
+   ],
+   "jobs": [
+    "Fiabiliste",
+    "Ingénieur maintenance",
+    "Responsable méthodes maintenance"
+   ]
+  },
+  {
+   "id": "capteurs-iot",
+   "label": {
+    "fr": "Capteurs IoT",
+    "en": "IoT Sensors",
+    "ar": "Capteurs IoT",
+    "ru": "Capteurs IoT"
+   },
+   "patterns": [
+    "iot",
+    "internet of things",
+    "capteurs connectes",
+    "إنترنت الأشياء",
+    "интернет вещей",
+    "датчик"
+   ],
+   "category": "outil",
+   "topics": [
+    "data",
+    "industrie"
+   ],
+   "level": "specialise",
+   "related": [
+    "maintenance-predictive",
+    "jumeau-numerique",
+    "controle-commande",
+    "automatisme"
+   ],
+   "jobs": [
+    "Ingénieur IoT",
+    "Data scientist industriel",
+    "Technicien instrumentation"
+   ]
+  },
+  {
+   "id": "erp",
+   "label": {
+    "fr": "ERP",
+    "en": "ERP",
+    "ar": "ERP",
+    "ru": "ERP"
+   },
+   "patterns": [
+    "erp",
+    "progiciel de gestion integre",
+    "enterprise resource planning",
+    "تخطيط موارد المؤسسة",
+    "ерп"
+   ],
+   "category": "outil",
+   "topics": [
+    "erp",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "sap-pm",
+    "sap-pp",
+    "gmao",
+    "supply-chain",
+    "gestion-de-production"
+   ],
+   "jobs": [
+    "Responsable production",
+    "Gestionnaire GMAO",
+    "Approvisionneur"
+   ]
+  },
+  {
+   "id": "methodes-industrielles",
+   "label": {
+    "fr": "Méthodes industrielles",
+    "en": "Industrial Engineering",
+    "ar": "Méthodes industrielles",
+    "ru": "Méthodes industrielles"
+   },
+   "patterns": [
+    "methodes industrielles",
+    "méthodes industrielles",
+    "industrial engineering",
+    "bureau des methodes",
+    "الهندسة الصناعية",
+    "инженерн"
+   ],
+   "category": "metier",
+   "topics": [
+    "engineering",
+    "industrie"
+   ],
+   "level": "courant",
+   "related": [
+    "industrialisation",
+    "lean-manufacturing",
+    "cao",
+    "fao",
+    "amelioration-continue"
+   ],
+   "jobs": [
+    "Ingénieur méthodes",
+    "Technicien méthodes",
+    "Responsable méthodes"
+   ]
+  }
+ ]
+}
