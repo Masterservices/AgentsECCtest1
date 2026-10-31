@@ -1,0 +1,855 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 20,
+ "niveau": "A2",
+ "id": "ru-pour-francais-A2-20",
+ "titre": {
+  "cible": "Сравне́ние и сте́пени. Како́й ты друг?",
+  "natif": "Comparaison et degrés. Quel ami es-tu ?"
+ },
+ "objectifs": [
+  "Comparer des personnes, des lieux et des objets avec le comparatif (-ее, более/менее)",
+  "Former et employer le superlatif (самый, -айший/-ейший)",
+  "Exprimer une préférence avec больше, чем / меньше, чем",
+  "Utiliser les adverbes comparatifs лучше, хуже, больше, меньше",
+  "Raconter une anecdote au passé en contexte amical"
+ ],
+ "scene": {
+  "lieu": "Datcha de la famille de Masha, jardin avec pommiers, terrasse en bois",
+  "moment": "Samedi après-midi, début octobre, lumière dorée d'automne",
+  "decor_3d": "Jardin russe typique avec pommiers chargés de fruits, planches de potager (грядки), une petite banya en bois au fond, terrasse couverte avec table en bois, samovar en cuivre fumant, chaises en osier, bocaux de conserves (варенье, огурцы) alignés sur une étagère, ciel d'automne avec feuilles jaunes qui tombent.",
+  "objets": [
+   "samovar en cuivre",
+   "table en bois rustique",
+   "tasses à thé avec soucoupes",
+   "pot de варенье (confiture)",
+   "pommes rouges dans un panier",
+   "bocaux de conserves",
+   "chaises en osier",
+   "bûches près du poêle"
+  ],
+  "personnages": [
+   "thomas",
+   "masha",
+   "dima"
+  ],
+  "figurants": [
+   {
+    "id": "babushka",
+    "nom": "Бабушка Зина (grand-mère de Masha)",
+    "apparence": "Femme de 75 ans, tablier fleuri, foulard sur la tête, souriante, portant un plateau de piroжки",
+    "voix": "femme âgée, douce et chaleureuse"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "masha",
+   "texte": "То́ма, добро́ пожа́ловать на на́шу да́чу! ЗдесЬ ти́ше и споко́йнее, чем в Москве́.",
+   "traduction": "Thomas, bienvenue dans notre datcha ! Ici c'est plus calme et plus tranquille qu'à Moscou.",
+   "geste": "Masha ouvre les bras pour montrer le jardin, sourit à Thomas"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Спаси́бо, Ма́ша! Возду́х здесь гора́здо чи́ще, чем в го́роде. А пирожки́ у твое́й ба́бушки са́мые вку́сные!",
+   "traduction": "Merci, Masha ! L'air ici est beaucoup plus pur qu'en ville. Et les pirojki de ta grand-mère sont les plus délicieux !",
+   "geste": "Thomas inspire profondément, prend un pirojok et le porte à sa bouche"
+  },
+  {
+   "perso": "dima",
+   "texte": "Приве́т, друзья́! Я опозда́л, потому́ что авто́бус е́хал до́льше, чем обыч́но. Но я привёз хлеб и чай.",
+   "traduction": "Salut les amis ! Je suis en retard parce que le bus a roulé plus longtemps que d'habitude. Mais j'ai apporté du pain et du thé.",
+   "geste": "Dima arrive en courant, pose un sac en papier sur la table, essoufflé"
+  },
+  {
+   "perso": "masha",
+   "texte": "Ди́ма, ты всегда́ опаздываешь! То́ма пунктуа́льнее тебя́.",
+   "traduction": "Dima, tu es toujours en retard ! Thomas est plus ponctuel que toi.",
+   "geste": "Masha lève les yeux au ciel en souriant, montre Thomas du doigt"
+  },
+  {
+   "perso": "dima",
+   "texte": "За́то я веселе́е! По́мнишь, как мы прошлым ле́томходи́ли в лес за гриба́ми? Я нашёл са́мый большо́й гриб!",
+   "traduction": "Par contre je suis plus joyeux ! Tu te souviens comment l'été dernier on est allés aux champignons ? J'ai trouvé le plus gros champignon !",
+   "geste": "Dima mime la taille d'un énorme champignon avec ses mains, fier"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Да, но мой гриб был кра́сивее! А пото́м ты упа́л в реку́ — э́то бы́ло сме́шнее всего́.",
+   "traduction": "Oui, mais mon champignon était plus beau ! Et ensuite tu es tombé dans la rivière — c'était le plus drôle de tout.",
+   "geste": "Thomas rit, mime quelqu'un qui tombe à l'eau"
+  },
+  {
+   "perso": "masha",
+   "texte": "Мальчи́ки, хва́тит! Дава́йте пить чай. Чай из самовара́ вкусне́е, чем из ча́йника.",
+   "traduction": "Les garçons, ça suffit ! Buvons le thé. Le thé du samovar est meilleur que celui de la théière.",
+   "geste": "Masha verse le thé du samovar dans les tasses"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Ма́ша, а что ты лю́бишь бо́льше: жи́ть в Москве́ и́ли на да́че?",
+   "traduction": "Masha, qu'est-ce que tu préfères : vivre à Moscou ou à la datcha ?",
+   "geste": "Thomas prend sa tasse, regarde Masha avec curiosité"
+  },
+  {
+   "perso": "masha",
+   "texte": "В Москве́ интере́снее: музе́и, кафе́, друзья́. Но на да́че лу́чше отдыха́ть. Здесь приро́да краси́вее.",
+   "traduction": "À Moscou c'est plus intéressant : musées, cafés, amis. Mais à la datcha on se repose mieux. Ici la nature est plus belle.",
+   "geste": "Masha montre le jardin d'un geste large"
+  },
+  {
+   "perso": "dima",
+   "texte": "А я ду́маю, что зима́ на да́че — са́мое тру́дное вре́мя. Холодне́е, чем в кварти́ре, и скучне́е.",
+   "traduction": "Moi je pense que l'hiver à la datcha c'est la période la plus difficile. Plus froid qu'en appartement, et plus ennuyeux.",
+   "geste": "Dima frissonne, se frotte les bras"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Но за́то ле́том здесь са́мые вку́сные я́блоки! Я никогда́ не ел я́блок вкусне́е.",
+   "traduction": "Mais par contre en été, les pommes ici sont les plus délicieuses ! Je n'ai jamais mangé de pommes meilleures.",
+   "geste": "Thomas croque dans une pomme, sourit"
+  },
+  {
+   "perso": "babushka",
+   "texte": "Де́ти, хо́тите варе́нье? Э́то варенье из ви́шни — лу́чшее в на́шем саду́!",
+   "traduction": "Les enfants, vous voulez de la confiture ? Cette confiture de cerise est la meilleure de notre jardin !",
+   "geste": "Babushka Zina arrive avec un pot de confiture, le pose sur la table"
+  },
+  {
+   "perso": "dima",
+   "texte": "Спаси́бо, ба́бушка Зи́на! Вы са́мая до́брая и гостеприи́мная!",
+   "traduction": "Merci, babouchka Zina ! Vous êtes la plus gentille et la plus hospitalière !",
+   "geste": "Dima se lève, fait un petit salut respectueux"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Я согла́сен. Ру́сская да́ча — э́то са́мое ую́тное ме́сто в ми́ре.",
+   "traduction": "Je suis d'accord. La datcha russe, c'est l'endroit le plus chaleureux du monde.",
+   "geste": "Thomas lève sa tasse en signe de toast"
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "да́ча",
+   "prononciation": "DAcha",
+   "nature": "nom f.",
+   "traduction": "datcha, maison de campagne",
+   "exemple": "Мы живём на да́че ле́том.",
+   "exemple_traduction": "Nous vivons à la datcha en été."
+  },
+  {
+   "mot": "самовар",
+   "prononciation": "samoVAR",
+   "nature": "nom m.",
+   "traduction": "samovar",
+   "exemple": "Чай из самовара́ о́чень вку́сный.",
+   "exemple_traduction": "Le thé du samovar est très bon."
+  },
+  {
+   "mot": "о́город",
+   "prononciation": "Ogorod",
+   "nature": "nom m.",
+   "traduction": "potager",
+   "exemple": "У ба́бушки большо́й о́город.",
+   "exemple_traduction": "Grand-mère a un grand potager."
+  },
+  {
+   "mot": "варе́нье",
+   "prononciation": "vaRENye",
+   "nature": "nom n.",
+   "traduction": "confiture (de fruits entiers)",
+   "exemple": "Я люблю́ варе́нье из мали́ны.",
+   "exemple_traduction": "J'aime la confiture de framboise."
+  },
+  {
+   "mot": "приро́да",
+   "prononciation": "priROda",
+   "nature": "nom f.",
+   "traduction": "nature",
+   "exemple": "Ру́сская приро́да о́чень краси́вая.",
+   "exemple_traduction": "La nature russe est très belle."
+  },
+  {
+   "mot": "чи́стый",
+   "prononciation": "TCHIStyï",
+   "nature": "adj.",
+   "traduction": "pur, propre",
+   "exemple": "В лесу́ чи́стый во́здух.",
+   "exemple_traduction": "Dans la forêt l'air est pur."
+  },
+  {
+   "mot": "споко́йный",
+   "prononciation": "spaKOÏnyï",
+   "nature": "adj.",
+   "traduction": "calme, tranquille",
+   "exemple": "На да́че споко́йнее, чем в го́роде.",
+   "exemple_traduction": "À la datcha c'est plus calme qu'en ville."
+  },
+  {
+   "mot": "пунктуа́льный",
+   "prononciation": "pounkTOUalnyï",
+   "nature": "adj.",
+   "traduction": "ponctuel",
+   "exemple": "То́ма пунктуа́льнее Ди́мы.",
+   "exemple_traduction": "Thomas est plus ponctuel que Dima."
+  },
+  {
+   "mot": "лу́чший",
+   "prononciation": "LOUtchchiï",
+   "nature": "adj. (superlatif)",
+   "traduction": "le meilleur",
+   "exemple": "Э́то лу́чший чай!",
+   "exemple_traduction": "C'est le meilleur thé !"
+  },
+  {
+   "mot": "ху́дший",
+   "prononciation": "KHOUDchiï",
+   "nature": "adj. (superlatif)",
+   "traduction": "le pire",
+   "exemple": "Э́то ху́дшая пого́да.",
+   "exemple_traduction": "C'est le pire temps."
+  },
+  {
+   "mot": "бо́льше",
+   "prononciation": "BOLché",
+   "nature": "adv. compar.",
+   "traduction": "plus (quantité/préférence)",
+   "exemple": "Я люблю́ чай бо́льше, чем ко́фе.",
+   "exemple_traduction": "J'aime le thé plus que le café."
+  },
+  {
+   "mot": "ме́ньше",
+   "prononciation": "MENché",
+   "nature": "adv. compar.",
+   "traduction": "moins",
+   "exemple": "Зимо́й ме́ньше со́лнца.",
+   "exemple_traduction": "En hiver il y a moins de soleil."
+  },
+  {
+   "mot": "лу́чше",
+   "prononciation": "LOUtché",
+   "nature": "adv. compar.",
+   "traduction": "mieux, meilleur",
+   "exemple": "Здесь лу́чше, чем в Москве́.",
+   "exemple_traduction": "Ici c'est mieux qu'à Moscou."
+  },
+  {
+   "mot": "ху́же",
+   "prononciation": "KHOUjé",
+   "nature": "adv. compar.",
+   "traduction": "pire, plus mal",
+   "exemple": "Мой ру́сский ху́же, чем твой.",
+   "exemple_traduction": "Mon russe est pire que le tien."
+  },
+  {
+   "mot": "ста́рый",
+   "prononciation": "STOÏryï",
+   "nature": "adj.",
+   "traduction": "vieux, ancien",
+   "exemple": "Э́то ста́рый дом.",
+   "exemple_traduction": "C'est une vieille maison."
+  },
+  {
+   "mot": "ую́тный",
+   "prononciation": "ouYOUTnyï",
+   "nature": "adj.",
+   "traduction": "chaleureux, douillet",
+   "exemple": "Да́ча о́чень ую́тная.",
+   "exemple_traduction": "La datcha est très chaleureuse."
+  },
+  {
+   "mot": "гостеприи́мный",
+   "prononciation": "gostepriIMnyï",
+   "nature": "adj.",
+   "traduction": "hospitalier",
+   "exemple": "Ру́сские лю́ди гостеприи́мные.",
+   "exemple_traduction": "Les Russes sont hospitaliers."
+  },
+  {
+   "mot": "сравни́ть",
+   "prononciation": "sravNIT",
+   "nature": "verbe perf.",
+   "traduction": "comparer",
+   "exemple": "Дава́йte сравним два го́рода.",
+   "exemple_traduction": "Comparons deux villes."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Le comparatif : formes en -ее / plus+adjectif",
+   "explication": "Pour comparer deux éléments, le russe utilise deux formes principales. La forme synthétique ajoute le suffixe -ее (ou -е après chuintante) à la racine de l'adjectif : краси́вый → краси́вее (plus beau), чи́стый → чи́ще (plus pur, alternance ст→щ). Cette forme est invariable : elle ne s'accorde ni en genre ni en nombre. La forme analytique utilise les adverbes бо́лее (plus) ou ме́нее (moins) devant l'adjectif, qui conserve alors ses terminaisons : бо́лее интере́сный (plus intéressant). Le second terme de la comparaison est introduit par чем + nominatif (То́ма пунктуа́льнее, чем Ди́ма) ou par le génitif seul (То́ма пунктуа́льнее Ди́мы). Les adverbes irréguliers à mémoriser : лу́чше (mieux), ху́же (pire), бо́льше (plus), ме́ньше (moins).",
+   "tableau": [
+    [
+     "Adjectif",
+     "Comparatif"
+    ],
+    [
+     "краси́вый (beau)",
+     "краси́вее"
+    ],
+    [
+     "чи́стый (pur)",
+     "чи́ще"
+    ],
+    [
+     "ти́хий (calme)",
+     "ти́ше"
+    ],
+    [
+     "хоро́ший (bon)",
+     "лу́чше"
+    ],
+    [
+     "плохо́й (mauvais)",
+     "ху́же"
+    ],
+    [
+     "большо́й (grand)",
+     "бо́льше"
+    ],
+    [
+     "ма́ленький (petit)",
+     "ме́ньше"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Москва́ бо́льше Пари́жа.",
+     "natif": "Moscou est plus grande que Paris."
+    },
+    {
+     "cible": "Чай вкусне́е, чем ко́фе.",
+     "natif": "Le thé est meilleur que le café."
+    },
+    {
+     "cible": "Э́то бо́лее интере́сная кни́га.",
+     "natif": "C'est un livre plus intéressant."
+    }
+   ]
+  },
+  {
+   "titre": "Le superlatif : самый et suffixes -айший/-ейший",
+   "explication": "Le superlatif exprime le degré le plus élevé. La forme la plus courante au niveau A2 est analytique : on place l'adjectif са́мый (qui s'accorde en genre, nombre et cas) devant l'adjectif qualificatif : са́мый краси́вый го́род (la plus belle ville), са́мая интере́сная кни́га, са́мое ую́тное ме́сто. Il existe aussi une forme synthétique avec les suffixes -а́йший / -я́йший ou -е́йший ajoutés à la racine : краси́вейший, интересне́йший, но elle appartient plutôt au registre écrit. Attention aux irréguliers : лу́чший (le meilleur), ху́дший (le pire), ста́рший (l'aîné), мла́дший (le cadet). Pour renforcer, on utilise les adverbes о́чень, са́мый, гора́здо (beaucoup plus) : гора́здо краси́вее (beaucoup plus beau).",
+   "tableau": [
+    [
+     "Adjectif",
+     "Superlatif"
+    ],
+    [
+     "краси́вый",
+     "са́мый краси́вый / красиве́йший"
+    ],
+    [
+     "интере́сный",
+     "са́мый интере́сный"
+    ],
+    [
+     "хоро́ший",
+     "лу́чший"
+    ],
+    [
+     "плохо́й",
+     "ху́дший"
+    ],
+    [
+     "большо́й",
+     "наибо́льший / са́мый большо́й"
+    ],
+    [
+     "ста́рый",
+     "ста́рший (aîné)"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Э́то са́мый краси́вый го́род.",
+     "natif": "C'est la plus belle ville."
+    },
+    {
+     "cible": "Москва́ — са́мый большо́й го́род Росси́и.",
+     "natif": "Moscou est la plus grande ville de Russie."
+    },
+    {
+     "cible": "Ба́бушка — лу́чший по́вар.",
+     "natif": "Grand-mère est la meilleure cuisinière."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Le son [х] russe : une fricative vélaire sourde",
+  "explication": "Le [х] russe se prononce à l'arrière de la bouche, comme si vous vouliez faire de la buée sur une vitre, mais avec plus de friction. Il est intermédiaire entre le 'h' aspiré anglais (hat) et la 'j' espagnole (jamás). En français, ce son n'existe pas : ne le remplacez pas par [k] ni par un [r] raclé. Devant les voyelles и, е, я, il s'adoucit légèrement (хи́трый). Devant а, о, у, il est plus dur (хлеб, хорошо́). Astuce : dites 'k' puis soufflez sans bloquer l'air.",
+  "exemples": [
+   "хорошо́ (kha-ra-SO) — bien",
+   "хлеб (KHLÈP) — pain",
+   "ходи́ть (kha-DIT') — aller à pied",
+   "хорово́д (kha-ra-VOD) — ronde traditionnelle",
+   "ти́хий (TI-khiï) — calme",
+   "муха́ (mou-KHA) — mouche"
+  ]
+ },
+ "culture": {
+  "titre": "La да́ча : bien plus qu'une maison de campagne",
+  "texte": "La datcha est une institution russe née au XVIIIe siècle (du verbe дать, « donner » : terres offertes par le tsar). Sous l'URSS, chaque famille urbaine recevait un petit terrain (6 соток, soit 600 m²) pour cultiver légumes et fruits. Aujourd'hui encore, la datcha rythme la vie des Russes : de mai à octobre, les villes se vident le week-end. On y cultive карто́шка (pommes de terre), огурцы́ (concombres), помидо́ры (tomates), et on prépare des dizaines de bocaux de варе́нье et de соленья (conserves au vinaigre) pour l'hiver. La ба́ня (sauna russe) est le cœur des rituels : on s'y fouette avec des ве́ники (fagots de bouleau) avant de plonger dans la neige ou l'eau froide. Le samovar, théière-chaudière venue de Toula au XVIIIe siècle, symbolise l'hospitalité : on y fait infuser le thé très fort (заварка), qu'on allonge d'eau chaude. Aller à la datcha, c'est retrouver ses racines, sa famille et la terre."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez la forme correcte du comparatif.",
+   "items": [
+    {
+     "question": "Этот дом (краси́вый) _____, чем тот.",
+     "choix": [
+      "красивее",
+      "красиве́йший",
+      "са́мый краси́вый",
+      "бо́лее краси́вый"
+     ],
+     "reponse": "красивее"
+    },
+    {
+     "question": "Чай _____, чем ко́фе.",
+     "choix": [
+      "хоро́ший",
+      "лу́чше",
+      "лу́чший",
+      "бо́лее"
+     ],
+     "reponse": "лу́чше"
+    },
+    {
+     "question": "Зимо́й на да́че _____, чем в го́роде.",
+     "choix": [
+      "холоднее",
+      "холодний",
+      "са́мый хо́лодный",
+      "бо́лее"
+     ],
+     "reponse": "холоднее"
+    },
+    {
+     "question": "Москва́ _____ Пари́жа.",
+     "choix": [
+      "большая",
+      "бо́льше",
+      "са́мый большо́й",
+      "бо́лее"
+     ],
+     "reponse": "бо́льше"
+    },
+    {
+     "question": "Мой ру́сский _____, чем твой.",
+     "choix": [
+      "плохо́й",
+      "ху́же",
+      "ху́дший",
+      "ме́нее"
+     ],
+     "reponse": "ху́же"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez avec la forme appropriée (comparatif ou superlatif).",
+   "items": [
+    {
+     "question": "Э́то _____ (краси́вый, superlatif) го́род в ми́ре.",
+     "reponse": "са́мый краси́вый"
+    },
+    {
+     "question": "На да́че возду́х _____ (чи́стый, comparatif), чем в Москве́.",
+     "reponse": "чи́ще"
+    },
+    {
+     "question": "Ба́бушка — _____ (хоро́ший, superlatif) по́вар.",
+     "reponse": "лу́чший"
+    },
+    {
+     "question": "Я люблю́ лето́ _____ (бо́льше), чем зи́му.",
+     "reponse": "бо́льше"
+    },
+    {
+     "question": "Э́та зада́ча _____ (тру́дный, comparatif), чем предыду́щая.",
+     "reponse": "трудне́е"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez l'adjectif à son comparatif irrégulier.",
+   "items": [
+    {
+     "question": "хоро́ший",
+     "reponse": "лу́чше"
+    },
+    {
+     "question": "плохо́й",
+     "reponse": "ху́же"
+    },
+    {
+     "question": "большо́й",
+     "reponse": "бо́льше"
+    },
+    {
+     "question": "ма́ленький",
+     "reponse": "ме́ньше"
+    },
+    {
+     "question": "чи́стый",
+     "reponse": "чи́ще"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez les mots dans l'ordre pour former une phrase correcte.",
+   "items": [
+    {
+     "question": "са́мый / го́род / Росси́и / Москва́ / — / большо́й",
+     "reponse": "Москва́ — са́мый большо́й го́род Росси́и."
+    },
+    {
+     "question": "интере́снее / в / чем / на / да́че / Москве́",
+     "reponse": "В Москве́ интере́снее, чем на да́че."
+    },
+    {
+     "question": "ба́бушкины / са́мые / пирожки́ / вку́сные",
+     "reponse": "Ба́бушкины пирожки́ са́мые вку́сные."
+    },
+    {
+     "question": "чем / лу́чше / ко́фе / чай",
+     "reponse": "Чай лу́чше, чем ко́фе."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez les phrases en russe.",
+   "items": [
+    {
+     "question": "Paris est plus petit que Moscou.",
+     "reponse": "Пари́ж ме́ньше, чем Москва́."
+    },
+    {
+     "question": "C'est le livre le plus intéressant.",
+     "reponse": "Э́то са́мая интере́сная кни́га."
+    },
+    {
+     "question": "À la datcha, on se repose mieux qu'en ville.",
+     "reponse": "На да́че лу́чше отдыха́ть, чем в го́роде."
+    },
+    {
+     "question": "Ma grand-mère est la plus gentille.",
+     "reponse": "Моя́ ба́бушка са́мая до́брая."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez la phrase et choisissez ce que dit Masha.",
+   "items": [
+    {
+     "question": "Masha compare Moscou et la datcha.",
+     "choix": [
+      "В Москве́ интере́снее, но на да́че споко́йнее.",
+      "В Москве́ споко́йнее, но на да́че интере́снее.",
+      "Москва́ и да́ча одина́ковые."
+     ],
+     "reponse": "В Москве́ интере́снее, но на да́че споко́йнее."
+    },
+    {
+     "question": "Masha parle du thé.",
+     "choix": [
+      "Чай из ча́йника лу́чше.",
+      "Чай из самовара́ вкусне́е, чем из ча́йника.",
+      "Я не люблю́ чай."
+     ],
+     "reponse": "Чай из самовара́ вкусне́е, чем из ча́йника."
+    },
+    {
+     "question": "Masha parle de la nature.",
+     "choix": [
+      "Приро́да в го́роде краси́вее.",
+      "Здесь приро́да краси́вее, чем в го́роде.",
+      "Приро́да везде́ одина́ковая."
+     ],
+     "reponse": "Здесь приро́да краси́вее, чем в го́роде."
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Leçon 20 : Сравне́ние и сте́пени. Како́й ты друг ? Aujourd'hui, direction la datcha de la famille de Masha pour un week-end d'automne. Vous apprendrez à comparer des personnes, des lieux et des objets, et à exprimer vos préférences.",
+   "ecran": "Plan large du jardin de la datcha, pommiers, samovar fumant sur la terrasse. Titre de la leçon qui apparaît.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Écoutez le dialogue. Thomas arrive à la datcha, Masha l'accueille, et Dima les rejoint avec quelques anecdotes du passé.",
+   "ecran": "Les trois personnages se tiennent près de la table. Le samovar fume doucement.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "То́ма, добро́ пожа́ловать на на́шу да́чу! ЗдесЬ ти́ше и споко́йнее, чем в Москве́.",
+   "ecran": "Masha ouvre les bras, Thomas sourit.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v04",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Спаси́бо, Ма́ша! Возду́х здесь гора́здо чи́ще, чем в го́роде. А пирожки́ у твое́й ба́бушки са́мые вку́сные!",
+   "ecran": "Thomas prend un pirojok et le goûte.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Приве́т, друзья́! Я опозда́л, потому́ что авто́бус е́хал до́льше, чем обыч́но.",
+   "ecran": "Dima arrive en courant avec un sac.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Ди́ма, ты всегда́ опаздываешь! То́ма пунктуа́льнее тебя́.",
+   "ecran": "Masha lève les yeux au ciel, amusée.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "За́то я веселе́е! По́мнишь, как мы ходи́ли в лес за гриба́ми?",
+   "ecran": "Dima mime un énorme champignon.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Да, но мой гриб был кра́сивее! А пото́м ты упа́л в реку́.",
+   "ecran": "Thomas rit, mime la chute.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Мальчи́ки, хва́тит! Чай из самовара́ вкусне́е, чем из ча́йника.",
+   "ecran": "Masha verse le thé.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "babushka",
+   "langue": "ru",
+   "texte": "Де́ти, хо́тите варе́нье? Э́то варенье из ви́шни — лу́чшее в на́шем саду́!",
+   "ecran": "Babushka Zina apporte un pot de confiture.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Ру́сская да́ча — э́то са́мое ую́тное ме́сто в ми́ре.",
+   "ecran": "Thomas lève sa tasse.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Maintenant, répétons le vocabulaire clé de la datcha. Écoutez et répétez chaque mot.",
+   "ecran": "Liste de vocabulaire qui apparaît, objets 3D s'illuminent tour à tour.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "да́ча, самовар, о́город, варе́нье, приро́да",
+   "ecran": "Les cinq objets s'animent.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la grammaire. En russe, pour comparer, on ajoute souvent le suffixe -ее à l'adjectif. Par exemple, краси́вый devient краси́вее, plus beau.",
+   "ecran": "Tableau du comparatif qui se construit mot à mot.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v15",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Attention aux alternances de consonnes : чи́стый donne чи́ще, ти́хий donne ти́ше. Et quatre irréguliers à connaître par cœur : лу́чше, ху́же, бо́льше, ме́ньше.",
+   "ecran": "Zoom sur les quatre irréguliers, chacun illustré par une icône.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v16",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Le second terme de la comparaison s'introduit par чем suivi du nominatif, ou par le génitif seul. Москва́ бо́льше Пари́жа = Москва́ бо́льше, чем Пари́ж.",
+   "ecran": "Deux phrases équivalentes côte à côte.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v17",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Pour le superlatif, le plus simple : са́мый + adjectif. Са́мый s'accorde comme un adjectif normal : са́мый, са́мая, са́мое, са́мые.",
+   "ecran": "Tableau d'accord de са́мый.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Faites maintenant l'exercice 1 : un QCM sur les formes du comparatif.",
+   "ecran": "Premier exercice affiché.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 2 : complétez les phrases avec la forme correcte, comparatif ou superlatif.",
+   "ecran": "Exercice à trous.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 3 : associez chaque adjectif à son comparatif irrégulier.",
+   "ecran": "Deux colonnes à relier.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 4 : remettez les mots dans l'ordre pour former des phrases correctes.",
+   "ecran": "Mots mélangés à réordonner.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 5 : traduisez ces quatre phrases en russe.",
+   "ecran": "Phrases françaises à traduire.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 6 : écoutez Masha et choisissez ce qu'elle dit.",
+   "ecran": "Bouton d'écoute et trois choix.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Point prononciation : le son [х]. Il se prononce à l'arrière de la bouche, entre le 'h' anglais et la 'j' espagnole. Jamais comme un [k].",
+   "ecran": "Schéma de la bouche, animation du flux d'air.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "хорошо́, хлеб, ходи́ть, хорово́д, ти́хий, муха́",
+   "ecran": "Les mots apparaissent un par un.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Culture : la datcha n'est pas qu'une maison de campagne. C'est un mode de vie hérité de l'époque soviétique, avec son potager, sa banya et ses conserves pour l'hiver.",
+   "ecran": "Images 3D de bocaux, banya, samovar.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Chaque week-end d'été, des millions de Moscovites prennent le train ou la voiture pour rejoindre leur дача. On y cultive, on y fait des conserves, on s'y retrouve en famille.",
+   "ecran": "Scène animée : famille qui cueille des pommes.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Le samovar, venu de Toula au XVIIIe siècle, est le symbole de l'hospitalité. On y fait un thé très fort, la зава́рка, qu'on allonge d'eau chaude.",
+   "ecran": "Zoom sur le samovar, animation de la préparation du thé.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Récapitulons. Aujourd'hui, vous avez appris le comparatif en -ее, les irréguliers лу́чше, ху́же, бо́льше, ме́ньше, et le superlatif avec са́мый.",
+   "ecran": "Fiche récapitulative animée.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Vous savez maintenant comparer des personnes et des lieux, et exprimer vos préférences. Bravo !",
+   "ecran": "Thomas, Masha et Dima lèvent leur tasse en direction de l'apprenant.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v31",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Молоде́ц! До сле́дующего уро́ка!",
+   "ecran": "Masha fait signe de la main.",
+   "interaction": "repeter"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Краси́вее, чи́ще, ти́ше — comparatif en -ее.",
+   "natif": "Plus beau, plus pur, plus calme — comparatif en -ее."
+  },
+  {
+   "cible": "Лу́чше, ху́же, бо́льше, ме́ньше — comparatifs irréguliers.",
+   "natif": "Mieux, pire, plus, moins — comparatifs irréguliers."
+  },
+  {
+   "cible": "Са́мый краси́вый го́род — superlatif avec са́мый.",
+   "natif": "La plus belle ville — superlatif avec са́мый."
+  },
+  {
+   "cible": "Чай лу́чше, чем ко́фе. — préférence avec чем.",
+   "natif": "Le thé est meilleur que le café. — préférence avec чем."
+  },
+  {
+   "cible": "Да́ча — са́мое ую́тное ме́сто.",
+   "natif": "La datcha — l'endroit le plus chaleureux."
+  }
+ ],
+ "controle": []
+}

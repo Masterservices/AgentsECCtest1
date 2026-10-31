@@ -1,0 +1,886 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 28,
+ "niveau": "B1",
+ "id": "ru-pour-francais-B1-28",
+ "titre": {
+  "cible": "Прича́стия. Описа́ние и дета́ли",
+  "natif": "Les participes. Description et détails"
+ },
+ "objectifs": [
+  "Décrire une œuvre d'art avec des participes actifs et passifs",
+  "Transformer une proposition relative en participe et inversement",
+  "Accorder correctement le participe en genre, nombre et cas",
+  "Rédiger un texte descriptif structuré sur une exposition",
+  "Exprimer une opinion nuancée sur une œuvre en utilisant un vocabulaire esthétique"
+ ],
+ "scene": {
+  "lieu": "Galerie Tretiakov, Moscou",
+  "moment": "Après-midi d'automne, lumière douce filtrant par les verrières",
+  "decor_3d": "Salle classique de la Galerie Tretiakov : murs vert sombre, moulures dorées, parquet en chêne. Trois grands tableaux accrochés (un portrait, une scène historique, un paysage). Banc en bois au centre. Éclairage directionnel sur les toiles.",
+  "objets": [
+   "Tableau 'Les Cosaques zaporogues' (Répine)",
+   "Tableau 'La Matinée de la garde streltsie' (Sourikov)",
+   "Paysage de Chichkine",
+   "Carnet de notes de Thomas",
+   "Smartphone de Thomas",
+   "Banc en bois",
+   "Cartel descriptif sous chaque tableau",
+   "Plan de l'exposition"
+  ],
+  "personnages": [
+   "thomas",
+   "masha"
+  ],
+  "figurants": [
+   {
+    "id": "gardien",
+    "nom": "Gardien de salle",
+    "apparence": "Femme d'une cinquantaine d'années en uniforme bleu marine, badge au revers, cheveux courts gris, regard bienveillant",
+    "voix": "femme mature, timbre calme et posé"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "thomas",
+   "texte": "Ма́ша, я пи́шу статью́ для университе́тского бло́га. Мне ну́жны точны́е описа́ния карти́н.",
+   "traduction": "Masha, j'écris un article pour le blog de l'université. J'ai besoin de descriptions précises des tableaux.",
+   "geste": "Thomas tape sur son smartphone, sourcils froncés, l'air concentré."
+  },
+  {
+   "perso": "masha",
+   "texte": "Отли́чно! Дава́й начнём с Репина. Пе́ред на́ми карти́на, напи́санная вели́ким худо́жником.",
+   "traduction": "Super ! Commençons par Répine. Devant nous, un tableau peint par un grand artiste.",
+   "geste": "Masha désigne le tableau des Cosaques zaporogues d'un geste ample."
+  },
+  {
+   "perso": "thomas",
+   "texte": "То есть «карти́на, кото́рую написа́л Ре́пин»? А короче́ — «карти́на, напи́санная Ре́пиным»?",
+   "traduction": "C'est-à-dire « le tableau qu'a peint Répine » ? Et plus court : « le tableau peint par Répine » ?",
+   "geste": "Thomas note dans son carnet en répétant la formule."
+  },
+  {
+   "perso": "masha",
+   "texte": "Име́нно! А вот казаки́, сидя́щие за столо́м, пи́шут отве́т султа́ну.",
+   "traduction": "Exactement ! Et voici les cosaques, assis autour de la table, qui écrivent une réponse au sultan.",
+   "geste": "Masha pointe les personnages riants du tableau."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Поня́л: «сидя́щие» — от «сиде́ть», настоя́щее вре́мя, акти́вное прича́стие.",
+   "traduction": "Compris : « assis » vient de « être assis », présent, participe actif.",
+   "geste": "Thomas montre son carnet à Masha avec fierté."
+  },
+  {
+   "perso": "gardien",
+   "texte": "Извини́те, пожа́луйста, не сто́йте сли́шком бли́зко к полотну́.",
+   "traduction": "Excusez-moi, s'il vous plaît, ne vous tenez pas trop près de la toile.",
+   "geste": "La gardienne s'approche avec un sourire poli et un geste de la main."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Конéчно, простите́! А э́тот пейза́ж, созда́нный Ши́шкиным, поража́ет дета́лями.",
+   "traduction": "Bien sûr, pardonnez-nous ! Et ce paysage, créé par Chichkine, frappe par ses détails.",
+   "geste": "Thomas recule d'un pas et se tourne vers le paysage."
+  },
+  {
+   "perso": "masha",
+   "texte": "Ви́дишь медве́дей, гуля́ющих по́ лесу? Э́то его́ знамени́тая карти́на.",
+   "traduction": "Tu vois les ours qui se promènent dans la forêt ? C'est son tableau célèbre.",
+   "geste": "Masha chuchote en pointant les oursons."
+  },
+  {
+   "perso": "thomas",
+   "texte": "«Гуля́ющих» — в роди́тельном падеже́, пото́му что «ви́дишь кого́?» Верно́?",
+   "traduction": "« Qui se promènent » au génitif, parce que « tu vois qui ? » Correct ?",
+   "geste": "Thomas lève un doigt, cherchant la validation."
+  },
+  {
+   "perso": "masha",
+   "texte": "Бра́во! Прича́стие согла́суется с существи́тельным в ро́де, числе́ и падеже́.",
+   "traduction": "Bravo ! Le participe s'accorde avec le nom en genre, nombre et cas.",
+   "geste": "Masha applaudit doucement."
+  },
+  {
+   "perso": "thomas",
+   "texte": "А вот карти́на Су́рикова. Стрельцы́, осуждённые на казнь, проща́ются с родны́ми.",
+   "traduction": "Et voici le tableau de Sourikov. Les streltsi, condamnés à mort, font leurs adieux à leurs proches.",
+   "geste": "Thomas s'approche du tableau de Sourikov, l'air grave."
+  },
+  {
+   "perso": "masha",
+   "texte": "«Осуждённые» — э́то страдате́льное прича́стие проше́дшего вре́мени. Отличи́чная рабо́та!",
+   "traduction": "« Condamnés » est un participe passif passé. Excellent travail !",
+   "traduction_context": "",
+   "geste": "Masha hoche la tête, impressionnée."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Э́та сце́на, вы́зывающая си́льные э́моции, оста́нется в па́мяти надолго́.",
+   "traduction": "Cette scène, qui provoque de fortes émotions, restera longtemps dans la mémoire.",
+   "geste": "Thomas ferme les yeux un instant, puis rouvre son carnet."
+  },
+  {
+   "perso": "masha",
+   "texte": "Ты научи́лся ду́мать как иску́ствовед! Статья́ бу́дет прекра́сной.",
+   "traduction": "Tu as appris à penser comme un critique d'art ! L'article sera magnifique.",
+   "geste": "Masha pose amicalement la main sur l'épaule de Thomas."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Спаси́бо! Третьяко́вская галере́я — ме́сто, вдохновля́ющее ка́ждого худо́жника.",
+   "traduction": "Merci ! La galerie Tretiakov est un lieu qui inspire chaque artiste.",
+   "geste": "Thomas range son carnet et regarde une dernière fois la salle."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "карти́на",
+   "prononciation": "karTI-na",
+   "nature": "nom f.",
+   "traduction": "tableau",
+   "exemple": "Э́та карти́на написа́на в девятна́дцатом ве́ке.",
+   "exemple_traduction": "Ce tableau a été peint au XIXe siècle."
+  },
+  {
+   "mot": "худо́жник",
+   "prononciation": "khuDO-zhnik",
+   "nature": "nom m.",
+   "traduction": "artiste, peintre",
+   "exemple": "Ре́пин — вели́кий ру́сский худо́жник.",
+   "exemple_traduction": "Répine est un grand artiste russe."
+  },
+  {
+   "mot": "полотно́",
+   "prononciation": "pa-latNO",
+   "nature": "nom n.",
+   "traduction": "toile (support)",
+   "example": "",
+   "exemple": "Не тро́гайте полотно́ рука́ми.",
+   "exemple_traduction": "Ne touchez pas la toile avec les mains."
+  },
+  {
+   "mot": "пейза́ж",
+   "prononciation": "pey-ZHAZH",
+   "nature": "nom m.",
+   "traduction": "paysage",
+   "exemple": "Ши́шкин — ма́стер лесно́го пейза́жа.",
+   "exemple_traduction": "Chichkine est le maître du paysage forestier."
+  },
+  {
+   "mot": "портре́т",
+   "prononciation": "par-TRET",
+   "nature": "nom m.",
+   "traduction": "portrait",
+   "exemple": "На портрéте изображён мецена́т.",
+   "exemple_traduction": "Sur le portrait est représenté le mécène."
+  },
+  {
+   "mot": "шеде́вр",
+   "prononciation": "she-DEVR",
+   "nature": "nom m.",
+   "traduction": "chef-d'œuvre",
+   "exemple": "«Бурлаки́ на Во́лге» — настоя́щий шеде́вр.",
+   "exemple_traduction": "« Les Haleurs de la Volga » est un vrai chef-d'œuvre."
+  },
+  {
+   "mot": "вы́ставка",
+   "prononciation": "VY-staf-ka",
+   "nature": "nom f.",
+   "traduction": "exposition",
+   "exemple": "Но́вая вы́ставка откры́лась в галере́е.",
+   "exemple_traduction": "Une nouvelle exposition a ouvert dans la galerie."
+  },
+  {
+   "mot": "галере́я",
+   "prononciation": "ga-leRE-ya",
+   "nature": "nom f.",
+   "traduction": "galerie",
+   "exemple": "Третьяко́вская галере́я нахо́дится в Москве́.",
+   "exemple_traduction": "La galerie Tretiakov se trouve à Moscou."
+  },
+  {
+   "mot": "изобража́ть",
+   "prononciation": "i-bra-ZHAT'",
+   "nature": "verbe imperf.",
+   "traduction": "représenter, dépeindre",
+   "exemple": "Карти́на изобража́ет кресть́янскую жи́знь.",
+   "exemple_traduction": "Le tableau représente la vie paysanne."
+  },
+  {
+   "mot": "восхища́ться",
+   "prononciation": "vas-khi-SHCHA-tsa",
+   "nature": "verbe imperf.",
+   "traduction": "admirer",
+   "exemple": "Я восхища́юсь реа́лизмом Ре́пина.",
+   "exemple_traduction": "J'admire le réalisme de Répine."
+  },
+  {
+   "mot": "впечатле́ние",
+   "prononciation": "vpe-chat-LE-ni-ye",
+   "nature": "nom n.",
+   "traduction": "impression",
+   "exemple": "Э́та карти́на произво́дит си́льное впечатле́ние.",
+   "exemple_traduction": "Ce tableau produit une forte impression."
+  },
+  {
+   "mot": "вырази́тельный",
+   "prononciation": "vy-ra-ZI-tel'-nyy",
+   "nature": "adj.",
+   "traduction": "expressif",
+   "exemple": "У Су́рикова о́чень вырази́тельные лица́.",
+   "exemple_traduction": "Sourikov a des visages très expressifs."
+  },
+  {
+   "mot": "реа́лизм",
+   "prononciation": "re-a-LIZM",
+   "nature": "nom m.",
+   "traduction": "réalisme",
+   "exemple": "Пере́движники рабо́тали в сти́ле реа́лизма.",
+   "exemple_traduction": "Les Ambulants travaillaient dans le style du réalisme."
+  },
+  {
+   "mot": "мецена́т",
+   "prononciation": "me-tse-NAT",
+   "nature": "nom m.",
+   "traduction": "mécène",
+   "exemple": "Па́вел Третьяко́в был извéстным мецена́том.",
+   "exemple_traduction": "Pavel Tretiakov était un mécène célèbre."
+  },
+  {
+   "mot": "сюже́т",
+   "prononciation": "syu-ZHET",
+   "nature": "nom m.",
+   "traduction": "sujet, intrigue",
+   "exemple": "Сюже́т карти́ны взя́т из исто́рии.",
+   "exemple_traduction": "Le sujet du tableau est tiré de l'histoire."
+  },
+  {
+   "mot": "кисть",
+   "prononciation": "kist'",
+   "nature": "nom f.",
+   "traduction": "pinceau",
+   "exemple": "У худо́жника в руке́ то́нкая кисть.",
+   "exemple_traduction": "L'artiste a un pinceau fin dans la main."
+  },
+  {
+   "mot": "созида́ть",
+   "prononciation": "sa-zi-DAT'",
+   "nature": "verbe imperf.",
+   "traduction": "créer (élevé)",
+   "exemple": "Худо́жник созида́ет но́вый мир.",
+   "exemple_traduction": "L'artiste crée un monde nouveau."
+  },
+  {
+   "mot": "вдохновля́ть",
+   "prononciation": "vdakh-nav-LYAT'",
+   "nature": "verbe imperf.",
+   "traduction": "inspirer",
+   "exemple": "Приро́да вдохновля́ла Ши́шкина.",
+   "exemple_traduction": "La nature inspirait Chichkine."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Les participes actifs (présent et passé)",
+   "explication": "Le participe actif décrit le sujet qui accomplit lui-même l'action. Au présent, il se forme sur le radical du pluriel de la 3e personne avec les suffixes -ущ-/-ющ- (1re conjugaison) ou -ащ-/-ящ- (2e conjugaison), suivis des désinences adjectivales. Au passé, on prend le radical du passé masculin et on ajoute -вш- (après voyelle) ou -ш- (après consonne). Le participe actif s'accorde en genre, nombre et cas avec le nom qu'il qualifie, exactement comme un adjectif. Il remplace élégamment une proposition relative avec « который + verbe actif ».",
+   "tableau": [
+    [
+     "Temps",
+     "1re conjugaison (чита́ть)",
+     "2e conjugaison (смотре́ть)"
+    ],
+    [
+     "Présent",
+     "чита́ющий",
+     "смотря́щий"
+    ],
+    [
+     "Passé",
+     "чита́вший",
+     "смотре́вший"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Студе́нт, чита́ющий кни́гу, сиди́т в библиоте́ке.",
+     "natif": "L'étudiant qui lit un livre est assis à la bibliothèque."
+    },
+    {
+     "cible": "Худо́жник, созда́вший шеде́вр, жил в XIX ве́ке.",
+     "natif": "L'artiste qui a créé ce chef-d'œuvre vivait au XIXe siècle."
+    },
+    {
+     "cible": "Казаки́, сидя́щие за столо́м, смею́тся.",
+     "natif": "Les cosaques, assis à table, rient."
+    }
+   ]
+  },
+  {
+   "titre": "Les participes passifs (présent et passé)",
+   "explication": "Le participe passif qualifie un nom qui subit l'action. Le participe passé passif, très fréquent dans les descriptions d'œuvres, se forme sur le radical du passé avec les suffixes -нн-, -енн-, -т- (ex. напи́санный, созда́нный, осуждённый). Il s'emploie surtout avec les verbes perfectifs et correspond au français « peint par », « créé par ». Le participe présent passif (-ем-/-ом-/-им-) est plus rare et soutenu. La transformation d'une relative « картина, которую написал Репин » en « картина, написанная Репиным » allège la phrase et élève le registre : indispensable pour un article critique.",
+   "tableau": [
+    [
+     "Verbe",
+     "Participe passé passif",
+     "Sens"
+    ],
+    [
+     "написа́ть",
+     "напи́санный",
+     "écrit, peint"
+    ],
+    [
+     "созда́ть",
+     "со́зданный",
+     "créé"
+    ],
+    [
+     "осуди́ть",
+     "осуждённый",
+     "condamné"
+    ],
+    [
+     "вдохнови́ть",
+     "вдохновлённый",
+     "inspiré"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Карти́на, напи́санная Ре́пиным, висит в Третьяко́вке.",
+     "natif": "Le tableau peint par Répine est accroché à la Tretiakov."
+    },
+    {
+     "cible": "Стрельцы́, осуждённые на казнь, проща́ются с семьёй.",
+     "natif": "Les streltsi, condamnés à mort, font leurs adieux à leur famille."
+    },
+    {
+     "cible": "Галере́я, основа́нная мецена́том, ста́ла музе́ем.",
+     "natif": "La galerie fondée par le mécène est devenue un musée."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Les suffixes des participes et le [щ] long mou",
+  "explication": "Dans les participes présents actifs, l'accent tombe souvent sur la syllabe qui précède le suffixe, mais le suffixe lui-même peut porter l'accent dans certaines formes courtes : -УЩий, -ЮЩий, -АЩий, -ЯЩий. Au passé, le suffixe -ВШий est fréquemment accentué sur la voyelle précédente. Le son [щ] des participes en -ащ-/-ящ- est toujours long, mou et sonore : il se prononce comme un « ch » français prolongé avec la langue collée au palais. Ne le confondez pas avec [ш] dur ! Entraînez-vous en allongeant la consonne : гуля́[щщ]их, сидя́[щщ]ие.",
+  "exemples": [
+   "чита́ющий [tchi-TA-you-chi]",
+   "смотря́щий [sma-TRYA-chi]",
+   "сидя́щий [si-DYA-chi]",
+   "созда́вший [soz-DAF-chiy]",
+   "напи́санный [na-PI-sa-niy]"
+  ]
+ },
+ "culture": {
+  "titre": "La galerie Tretiakov, trésor de l'art russe",
+  "texte": "Fondée en 1856 par le marchand moscovite Pavel Tretiakov (1832-1898), la galerie Tretiakov est née d'une passion personnelle pour l'art national. Tretiakov, mécène discret et exigeant, acheta systématiquement les toiles des peintres réalistes — les « Ambulants » (Передвижники) — qui refusaient l'académisme pour représenter la vie du peuple. Il légua sa collection à la ville de Moscou en 1892. Aujourd'hui, la galerie abrite plus de 180 000 œuvres, des icônes médiévales aux toiles de Répine, Sourikov, Chichkine et Levitan. Dans l'éducation russe, une visite à la Tretiakov est un rite de passage : chaque écolier y apprend à lire l'histoire nationale à travers les tableaux."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez la forme correcte du participe pour compléter la phrase.",
+   "items": [
+    {
+     "question": "Студе́нт, _____ кни́гу, сиди́т в чи́тальном за́ле. (чита́ть, présent actif)",
+     "choix": [
+      "чита́ющий",
+      "чита́вший",
+      "чи́танный",
+      "чита́емый"
+     ],
+     "reponse": "чита́ющий"
+    },
+    {
+     "question": "Карти́на, _____ Ре́пиным, висит в Третьяко́вке. (написа́ть, passé passif)",
+     "choix": [
+      "пи́шущая",
+      "написа́вшая",
+      "напи́санная",
+      "пи́санная"
+     ],
+     "reponse": "напи́санная"
+    },
+    {
+     "question": "Худо́жник, _____ э́тот пейза́ж, люби́л лес. (созда́ть, passé actif)",
+     "choix": [
+      "создаю́щий",
+      "создава́емый",
+      "созда́вший",
+      "со́зданный"
+     ],
+     "reponse": "созда́вший"
+    },
+    {
+     "question": "Казаки́, _____ за столо́м, смею́тся. (сиде́ть, présent actif)",
+     "choix": [
+      "сиде́вшие",
+      "сидя́щие",
+      "си́дящие",
+      "сидéнные"
+     ],
+     "reponse": "сидя́щие"
+    },
+    {
+     "question": "Сце́на, _____ си́льные э́моции, запомина́ется. (вызыва́ть, présent actif)",
+     "choix": [
+      "вы́звавшая",
+      "вы́званная",
+      "вызыва́ющая",
+      "вызва́емая"
+     ],
+     "reponse": "вызыва́ющая"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez les phrases avec le participe approprié à partir du verbe entre parenthèses.",
+   "items": [
+    {
+     "question": "Мецена́т, _____ галере́ю, был бога́тым купцо́м. (основа́ть, passé actif)",
+     "reponse": "основа́вший"
+    },
+    {
+     "question": "Портре́т, _____ худо́жником, поража́ет реа́лизмом. (написа́ть, passé passif)",
+     "reponse": "напи́санный"
+    },
+    {
+     "question": "Зри́тели, _____ на карти́ну, молча́т. (смотре́ть, présent actif)",
+     "reponse": "смотря́щие"
+    },
+    {
+     "question": "Сюже́т, _____ из исто́рии, интере́сен. (взять, passé passif)",
+     "reponse": "взя́тый"
+    },
+    {
+     "question": "Пейза́ж, _____ меня́ с де́тства, висит в музе́е. (вдохновля́ть, présent actif)",
+     "reponse": "вдохновля́ющий"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez chaque participe à son verbe d'origine.",
+   "items": [
+    {
+     "question": "чита́ющий",
+     "reponse": "чита́ть"
+    },
+    {
+     "question": "созда́вший",
+     "reponse": "созда́ть"
+    },
+    {
+     "question": "напи́санный",
+     "reponse": "написа́ть"
+    },
+    {
+     "question": "смотря́щий",
+     "reponse": "смотре́ть"
+    },
+    {
+     "question": "осуждённый",
+     "reponse": "осуди́ть"
+    },
+    {
+     "question": "вдохновля́ющий",
+     "reponse": "вдохновля́ть"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez les mots dans l'ordre pour former une phrase correcte.",
+   "items": [
+    {
+     "question": "написа́нная / в / карти́на / висит / Ре́пиным / галере́е",
+     "reponse": "Карти́на, напи́санная Ре́пиным, висит в галере́е."
+    },
+    {
+     "question": "сидя́щие / смею́тся / казаки́ / за столо́м / гро́мко",
+     "reponse": "Казаки́, сидя́щие за столо́м, гро́мко смею́тся."
+    },
+    {
+     "question": "со́зданный / поража́ет / пейза́ж / Ши́шкиным / дета́лями",
+     "reponse": "Пейза́ж, со́зданный Ши́шкиным, поража́ет дета́лями."
+    },
+    {
+     "question": "осуждённые / проща́ются / стрельцы́ / с / родны́ми / на казнь",
+     "reponse": "Стрельцы́, осуждённые на казнь, проща́ются с родны́ми."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez les phrases françaises en russe en utilisant un participe.",
+   "items": [
+    {
+     "question": "Le tableau peint par Répine est un chef-d'œuvre.",
+     "reponse": "Карти́на, напи́санная Ре́пиным, — шеде́вр."
+    },
+    {
+     "question": "L'artiste qui a créé ce paysage aimait la nature.",
+     "reponse": "Худо́жник, созда́вший э́тот пейза́ж, люби́л приро́ду."
+    },
+    {
+     "question": "Les visiteurs admirant l'exposition restent longtemps.",
+     "reponse": "Посети́тели, восхища́ющиеся вы́ставкой, остаю́тся до́лго."
+    },
+    {
+     "question": "La galerie fondée par le mécène est célèbre.",
+     "reponse": "Галере́я, основа́нная мецена́том, знамени́та."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez la description et choisissez le participe que vous entendez.",
+   "items": [
+    {
+     "question": "«Картина, _____ Репиным, висит в зале.»",
+     "choix": [
+      "напи́санная",
+      "пи́шущая",
+      "написа́вшая"
+     ],
+     "reponse": "напи́санная"
+    },
+    {
+     "question": "«Казаки, _____ за столом, громко смеются.»",
+     "choix": [
+      "сиде́вшие",
+      "сидя́щие",
+      "сиженные"
+     ],
+     "reponse": "сидя́щие"
+    },
+    {
+     "question": "«Художник, _____ этот пейзаж, любил лес.»",
+     "choix": [
+      "созда́вший",
+      "со́зданный",
+      "создаю́щий"
+     ],
+     "reponse": "созда́вший"
+    },
+    {
+     "question": "«Сцена, _____ сильные эмоции, запоминается.»",
+     "choix": [
+      "вы́званная",
+      "вызыва́ющая",
+      "вы́звавшая"
+     ],
+     "reponse": "вызыва́ющая"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bienvenue dans la leçon vingt-huit ! Aujourd'hui, nous entrons à la galerie Tretiakov avec Thomas et Masha. Objectif : maîtriser les participes russes pour décrire une œuvre d'art avec précision.",
+   "ecran": "Plan large de la façade de la galerie Tretiakov, puis fondu sur la salle aux murs verts.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Thomas prépare un article pour le blog de l'université. Il a besoin de tournures descriptives élaborées. Écoutez le dialogue, puis observez les participes employés.",
+   "ecran": "Thomas et Masha apparaissent dans la salle, Thomas tient son smartphone.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Ма́ша, я пи́шу статью́ для университе́тского бло́га. Мне ну́жны точны́е описа́ния карти́н.",
+   "ecran": "Thomas tape sur son smartphone, sourcils froncés.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v04",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Отли́чно! Дава́й начнём с Репина. Пе́ред на́ми карти́на, напи́санная вели́ким худо́жником.",
+   "ecran": "Masha désigne le tableau des Cosaques zaporogues.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "То есть «карти́на, кото́рую написа́л Ре́пин»? А короче́ — «карти́на, напи́санная Ре́пиным»?",
+   "ecran": "Thomas note dans son carnet.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Име́нно! А вот казаки́, сидя́щие за столо́м, пи́шут отве́т султа́ну.",
+   "ecran": "Masha pointe les personnages riants.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Поня́л: «сидя́щие» — от «сиде́ть», настоя́щее вре́мя, акти́вное прича́стие.",
+   "ecran": "Thomas montre son carnet.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "gardien",
+   "langue": "ru",
+   "texte": "Извини́те, пожа́луйста, не сто́йте сли́шком бли́зко к полотну́.",
+   "ecran": "La gardienne s'approche avec un sourire.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Конéчно, простите́! А э́тот пейза́ж, созда́нный Ши́шкиным, поража́ет дета́лями.",
+   "ecran": "Thomas recule et se tourne vers le paysage.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Ви́дишь медве́дей, гуля́ющих по́ лесу? Э́то его́ знамени́тая карти́на.",
+   "ecran": "Masha pointe les oursons.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "«Гуля́ющих» — в роди́тельном падеже́, пото́му что «ви́дишь кого́?» Верно́?",
+   "ecran": "Thomas lève un doigt.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Бра́во! Прича́стие согла́суется с существи́тельным в ро́де, числе́ и падеже́.",
+   "ecran": "Masha applaudit doucement.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "А вот карти́на Су́рикова. Стрельцы́, осуждённые на казнь, проща́ются с родны́ми.",
+   "ecran": "Thomas s'approche du tableau de Sourikov.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "«Осуждённые» — э́то страдате́льное прича́стие проше́дшего вре́мени. Отличи́чная рабо́та!",
+   "ecran": "Masha hoche la tête.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Э́та сце́на, вы́зывающая си́льные э́моции, оста́нется в па́мяти надолго́.",
+   "ecran": "Thomas ferme les yeux un instant.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Ты научи́лся ду́мать как иску́ствовед! Статья́ бу́дет прекра́сной.",
+   "ecran": "Masha pose la main sur l'épaule de Thomas.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Спаси́бо! Третьяко́вская галере́я — ме́сто, вдохновля́ющее ка́ждого худо́жника.",
+   "ecran": "Thomas range son carnet.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Avant d'aller plus loin, répétons le vocabulaire essentiel de la leçon. Écoutez et répétez chaque mot.",
+   "ecran": "Mur de mots clés qui apparaissent un par un.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la grammaire. Le russe possède quatre types de participes. Commençons par les actifs.",
+   "ecran": "Tableau des participes actifs avec exemples colorés.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Le participe actif présent se forme sur le radical du pluriel de la 3e personne : -ущ-/-ющ- pour la première conjugaison, -ащ-/-ящ- pour la seconde. Exemple : чита́ть → чита́ющий, смотре́ть → смотря́щий.",
+   "ecran": "Animation montrant la dérivation depuis la forme « они читают ».",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Le participe actif passé utilise le radical du passé masculin plus -вш- : чита́вший, созда́вший. Il remplace « который + verbe au passé ».",
+   "ecran": "Comparaison visuelle : « художник, который создал » → « художник, создавший ».",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Voyons maintenant les participes passifs, très utiles pour décrire une œuvre. Le passé passif se forme avec -нн-, -енн-, -т- : напи́санный, со́зданный, осуждённый.",
+   "ecran": "Tableau des participes passifs avec illustrations de tableaux.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Retenez bien : le participe s'accorde toujours en genre, nombre et cas avec le nom qu'il qualifie. C'est un adjectif à part entière.",
+   "ecran": "Exemples accordés : карти́на напи́санная, пейза́ж со́зданный, казаки́ сидя́щие.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Astuce de style : transformer une relative en participe allège la phrase et élève le registre. Parfait pour un article de blog culturel !",
+   "ecran": "Avant / après : phrase longue → phrase concise avec participe.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Côté prononciation, attention au [щ] long et mou dans les participes en -ащ-/-ящ-. Allongez-le : сидя́[щщ]ий, гуля́[щщ]их.",
+   "ecran": "Gros plan sur la bouche d'un personnage qui prononce le [щ].",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Découvrons maintenant la culture : la galerie Tretiakov, fondée par le mécène Pavel Tretiakov, est le temple de l'art réaliste russe.",
+   "ecran": "Portrait de Pavel Tretiakov, puis défilé de toiles célèbres.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons aux exercices. Six activités variées vous attendent pour consolider les participes.",
+   "ecran": "Icônes des six types d'exercices qui s'allument.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice un : QCM. Choisissez la forme correcte du participe.",
+   "ecran": "Interface QCM, première question affichée.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice deux : texte à trous. Conjuguez le verbe au participe demandé.",
+   "ecran": "Phrases avec espaces vides à remplir.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice trois : association. Reliez chaque participe à son verbe d'origine.",
+   "ecran": "Deux colonnes à relier par glisser-déposer.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice quatre : remise en ordre. Reconstituez les phrases descriptives.",
+   "ecran": "Mots mélangés à remettre en ordre.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice cinq : traduction. Passez du français au russe en utilisant un participe.",
+   "ecran": "Zone de saisie libre avec phrases françaises.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice six : écoute. Identifiez le participe prononcé dans la description.",
+   "ecran": "Bouton de lecture audio et trois choix.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo ! Vous savez maintenant décrire une œuvre avec des participes. Récapitulons les points clés.",
+   "ecran": "Retour dans la galerie, Thomas ferme son carnet avec satisfaction.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "À la prochaine leçon, nous explorerons les gérondifs pour enrichir encore vos descriptions. До ско́рой встре́чи!",
+   "ecran": "Fondu au noir sur la façade de la galerie Tretiakov.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Le participe actif présent (-ущ-/-ющ-, -ащ-/-ящ-) décrit une action en cours accomplie par le sujet.",
+   "natif": "Действительное причастие настоящего времени описывает текущее действие субъекта."
+  },
+  {
+   "cible": "Le participe actif passé (-вш-/-ш-) remplace une relative au passé.",
+   "natif": "Действительное причастие прошедшего времени заменяет придаточное предложение."
+  },
+  {
+   "cible": "Le participe passif passé (-нн-, -енн-, -т-) exprime une action subie : « peint par », « créé par ».",
+   "natif": "Страдательное причастие прошедшего времени выражает действие, испытанное предметом."
+  },
+  {
+   "cible": "Le participe s'accorde en genre, nombre et cas avec le nom qu'il qualifie.",
+   "natif": "Причастие согласуется с существительным в роде, числе и падеже."
+  },
+  {
+   "cible": "Transformer une relative en participe allège la phrase et élève le registre.",
+   "natif": "Замена придаточного предложения причастием делает фразу лаконичнее и книжнее."
+  }
+ ],
+ "controle": []
+}

@@ -1,0 +1,893 @@
+{
+ "cours": "fr-pour-russes",
+ "num": 29,
+ "niveau": "B1",
+ "id": "fr-pour-russes-B1-29",
+ "titre": {
+  "cible": "Mission à Marseille",
+  "natif": "Командировка в Марсель"
+ },
+ "objectifs": [
+  "Организовывать деловую поездку и обсуждать её этапы",
+  "Понимать региональный акцент юга Франции",
+  "Представлять проект партнёрам на французском языке",
+  "Использовать futur antérieur и subjonctif passé в речи",
+  "Выражать уступку с помощью bien que и même si"
+ ],
+ "scene": {
+  "lieu": "Vieux-Port de Marseille, quai des Belges, avec vue sur les calanques et le marché aux poissons",
+  "moment": "Matinée ensoleillée de printemps, 10h30",
+  "decor_3d": "Quai pavé du Vieux-Port avec bateaux de pêche colorés amarrés, étals du marché aux poissons sous bâches blanches, fort Saint-Jean en arrière-plan, collines des calanques au loin sous un ciel bleu méditerranéen, mouettes volant au-dessus de l'eau",
+  "objets": [
+   "valise à roulettes noire",
+   "mallette en cuir marron",
+   "tablettes numériques",
+   "dossier de projet bleu",
+   "gobelets de café en carton",
+   "plans de Marseille plastifiés",
+   "caisses de poissons sur glace",
+   "panneau indicateur 'Quai du Port'"
+  ],
+  "personnages": [
+   "anna",
+   "julien"
+  ],
+  "figurants": [
+   {
+    "id": "fabre",
+    "nom": "M. Fabre",
+    "apparence": "Homme de 55 ans, cheveux gris courts, chemise blanche à manches retroussées, pantalon beige, lunettes rectangulaires, allure chaleureuse typique du Midi",
+    "voix": "grave, chaleureuse, avec accent chantant du Sud"
+   },
+   {
+    "id": "serveur",
+    "nom": "Le serveur du café",
+    "apparence": "Jeune homme de 28 ans, tablier noir, chemise blanche, cheveux bruns gominés, sourire facile",
+    "voix": "jeune, dynamique, accent marseillais marqué"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "julien",
+   "texte": "Anna, nous sommes enfin arrivés au Vieux-Port ! Quand nous aurons déposé nos bagages à l'hôtel, nous pourrons rencontrer M. Fabre.",
+   "traduction": "Анна, мы наконец добрались до Старого порта! Когда мы оставим багаж в отеле, сможем встретиться с господином Фабром.",
+   "geste": "Julien pose sa mallette et montre le port du doigt en souriant"
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, je suis contente que tu aies réservé un hôtel près d'ici. Même si le trajet en TGV était long, je suis ravie de découvrir Marseille.",
+   "traduction": "Да, я рада, что ты забронировал отель рядом. Хотя поездка на TGV была долгой, я в восторге от знакомства с Марселем.",
+   "geste": "Anna ajuste la bandoulière de son sac et regarde autour d'elle avec curiosité"
+  },
+  {
+   "perso": "julien",
+   "texte": "Il faut que nous ayons terminé la présentation avant 14 heures. As-tu bien révisé les chiffres du partenariat ?",
+   "traduction": "Нам нужно закончить презентацию до 14 часов. Ты хорошо повторила цифры по партнёрству?",
+   "geste": "Julien ouvre son dossier bleu et vérifie des documents"
+  },
+  {
+   "perso": "anna",
+   "texte": "Bien que j'aie travaillé tard hier soir, tout est prêt. J'ai même préparé des slides en français et en anglais.",
+   "traduction": "Хотя я работала допоздна вчера вечером, всё готово. Я даже подготовила слайды на французском и английском.",
+   "geste": "Anna sort sa tablette et montre l'écran à Julien"
+  },
+  {
+   "perso": "fabre",
+   "texte": "Bonjour ! Vous devez être Julien et Anna. Bienvenue à Marseille, les enfants ! Ici, on prend le temps de vivre, peuchère.",
+   "traduction": "Здравствуйте! Вы, должно быть, Жюльен и Анна. Добро пожаловать в Марсель, ребята! Здесь мы не торопимся жить, бедняжки.",
+   "geste": "M. Fabre s'approche, tend la main avec un grand sourire et fait la bise à Anna"
+  },
+  {
+   "perso": "anna",
+   "texte": "Bonjour monsieur Fabre ! Je suis très heureuse que vous ayez accepté de nous rencontrer si vite.",
+   "traduction": "Здравствуйте, господин Фабр! Я очень рада, что вы согласились встретиться с нами так быстро.",
+   "geste": "Anna serre la main de M. Fabre et sourit poliment"
+  },
+  {
+   "perso": "fabre",
+   "texte": "Écoutez, avant la réunion, je veux que vous ayez goûté nos navettes et notre pastis. C'est obligatoire, fan de chichoune !",
+   "traduction": "Послушайте, до встречи я хочу, чтобы вы попробовали наши наветты и пастис. Это обязательно, чёрт возьми!",
+   "geste": "M. Fabre fait un geste enthousiaste vers un café voisin"
+  },
+  {
+   "perso": "julien",
+   "texte": "Même si nous sommes pressés, nous acceptons avec plaisir. Quand nous aurons fini, nous irons à votre bureau.",
+   "traduction": "Хотя мы торопимся, мы с удовольствием принимаем. Когда закончим, поедем в ваш офис.",
+   "geste": "Julien hoche la tête et consulte sa montre discrètement"
+  },
+  {
+   "perso": "serveur",
+   "texte": "Alors, qu'est-ce que je vous sers ? Deux cafés et des navettes, comme d'habitude, monsieur Fabre ?",
+   "traduction": "Итак, что вам подать? Два кофе и наветты, как обычно, господин Фабр?",
+   "geste": "Le serveur s'approche avec un bloc-notes et un stylo"
+  },
+  {
+   "perso": "anna",
+   "texte": "Je voudrais un café, s'il vous plaît. Julien, tu crois que M. Fabre aura signé le contrat avant ce soir ?",
+   "traduction": "Мне кофе, пожалуйста. Жюльен, ты думаешь, господин Фабр подпишет контракт до вечера?",
+   "geste": "Anna s'assoit à la terrasse et regarde Julien avec espoir"
+  },
+  {
+   "perso": "julien",
+   "texte": "J'espère que oui. Il faut que nous soyons convaincants. Bien que le marché soit difficile, notre projet est solide.",
+   "traduction": "Надеюсь, что да. Нам нужно быть убедительными. Хотя рынок сложный, наш проект надёжный.",
+   "geste": "Julien pose sa tablette sur la table et montre un graphique"
+  },
+  {
+   "perso": "fabre",
+   "texte": "Ne vous inquiétez pas ! Dès que j'aurai lu votre dossier, je vous donnerai ma réponse. Ici, on fait les choses sérieusement, sans se presser.",
+   "traduction": "Не волнуйтесь! Как только я прочту ваше досье, дам вам ответ. Здесь мы делаем дела серьёзно, не торопясь.",
+   "geste": "M. Fabre rit et tape amicalement sur l'épaule de Julien"
+  },
+  {
+   "perso": "anna",
+   "texte": "Parfait. Je suis soulagée que vous ayez compris nos objectifs. À tout à l'heure, monsieur Fabre !",
+   "traduction": "Отлично. Мне легче от того, что вы поняли наши цели. До скорой встречи, господин Фабр!",
+   "geste": "Anna lève son gobelet de café en signe de toast"
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "un déplacement professionnel",
+   "prononciation": "[de.plas.mɑ̃ pʁɔ.fɛ.sjɔ.nɛl]",
+   "nature": "nom m.",
+   "translation": "деловая поездка, командировка",
+   "exemple": "Anna part en déplacement professionnel à Marseille.",
+   "exemple_traduction": "Анна едет в деловую поездку в Марсель."
+  },
+  {
+   "mot": "un partenariat",
+   "prononciation": "[paʁ.tə.na.ʁja]",
+   "nature": "nom m.",
+   "translation": "партнёрство",
+   "exemple": "Nous avons signé un partenariat avec une entreprise locale.",
+   "exemple_traduction": "Мы подписали партнёрство с местной компанией."
+  },
+  {
+   "mot": "une réunion",
+   "prononciation": "[ʁe.y.njɔ̃]",
+   "nature": "nom f.",
+   "translation": "совещание, встреча",
+   "exemple": "La réunion commence à quatorze heures.",
+   "exemple_traduction": "Совещание начинается в четырнадцать часов."
+  },
+  {
+   "mot": "un contrat",
+   "prononciation": "[kɔ̃.tʁa]",
+   "nature": "nom m.",
+   "translation": "контракт, договор",
+   "exemple": "Le client a signé le contrat ce matin.",
+   "exemple_traduction": "Клиент подписал контракт сегодня утром."
+  },
+  {
+   "mot": "réserver",
+   "prononciation": "[ʁe.zɛʁ.ve]",
+   "nature": "verbe",
+   "translation": "бронировать",
+   "exemple": "J'ai réservé une chambre d'hôtel.",
+   "exemple_traduction": "Я забронировал номер в отеле."
+  },
+  {
+   "mot": "présenter un projet",
+   "prononciation": "[pʁe.zɑ̃.te œ̃ pʁɔ.ʒɛ]",
+   "nature": "expression verbale",
+   "translation": "представить проект",
+   "exemple": "Nous devons présenter notre projet aux partenaires.",
+   "exemple_traduction": "Мы должны представить наш проект партнёрам."
+  },
+  {
+   "mot": "une région",
+   "prononciation": "[ʁe.ʒjɔ̃]",
+   "nature": "nom f.",
+   "translation": "регион, область",
+   "exemple": "La Provence est une belle région du Sud.",
+   "exemple_traduction": "Прованс — красивый регион на юге."
+  },
+  {
+   "mot": "un accent régional",
+   "prononciation": "[ak.sɑ̃ ʁe.ʒjɔ.nal]",
+   "nature": "nom m.",
+   "translation": "региональный акцент",
+   "exemple": "J'aime l'accent régional de Marseille.",
+   "exemple_traduction": "Мне нравится региональный акцент Марселя."
+  },
+  {
+   "mot": "un partenaire",
+   "prononciation": "[paʁ.tə.nɛʁ]",
+   "nature": "nom m.",
+   "translation": "партнёр",
+   "exemple": "M. Fabre est notre partenaire à Marseille.",
+   "exemple_traduction": "Господин Фабр — наш партнёр в Марселе."
+  },
+  {
+   "mot": "un dossier",
+   "prononciation": "[dɔ.sje]",
+   "nature": "nom m.",
+   "translation": "досье, папка с документами",
+   "exemple": "J'ai préparé le dossier de présentation.",
+   "exemple_traduction": "Я подготовил папку для презентации."
+  },
+  {
+   "mot": "convaincant(e)",
+   "prononciation": "[kɔ̃.vɛ̃.kɑ̃, kɔ̃.vɛ̃.kɑ̃t]",
+   "nature": "adjectif",
+   "translation": "убедительный",
+   "exemple": "Son argument était très convaincant.",
+   "exemple_traduction": "Его аргумент был очень убедительным."
+  },
+  {
+   "mot": "signer",
+   "prononciation": "[si.ɲe]",
+   "nature": "verbe",
+   "translation": "подписывать",
+   "exemple": "Nous allons signer l'accord demain.",
+   "exemple_traduction": "Мы подпишем соглашение завтра."
+  },
+  {
+   "mot": "un objectif",
+   "prononciation": "[ɔb.ʒɛk.tif]",
+   "nature": "nom m.",
+   "translation": "цель",
+   "exemple": "Quel est votre objectif principal ?",
+   "exemple_traduction": "Какова ваша главная цель?"
+  },
+  {
+   "mot": "une navette",
+   "prononciation": "[na.vɛt]",
+   "nature": "nom f.",
+   "translation": "наветта (марсельское печенье)",
+   "exemple": "Les navettes sont des biscuits typiques de Marseille.",
+   "exemple_traduction": "Наветты — типичное марсельское печенье."
+  },
+  {
+   "mot": "un TGV",
+   "prononciation": "[te.ʒe.ve]",
+   "nature": "nom m.",
+   "translation": "скоростной поезд TGV",
+   "exemple": "Nous avons pris le TGV Paris-Marseille.",
+   "exemple_traduction": "Мы сели на TGV Париж-Марсель."
+  },
+  {
+   "mot": "solide",
+   "prononciation": "[sɔ.lid]",
+   "nature": "adjectif",
+   "translation": "надёжный, прочный",
+   "exemple": "Notre projet est solide et bien préparé.",
+   "exemple_traduction": "Наш проект надёжный и хорошо подготовлен."
+  },
+  {
+   "mot": "pressé(e)",
+   "prononciation": "[pʁe.se]",
+   "nature": "adjectif",
+   "translation": "спешащий, торопящийся",
+   "exemple": "Nous sommes pressés, la réunion commence bientôt.",
+   "exemple_traduction": "Мы торопимся, встреча скоро начнётся."
+  },
+  {
+   "mot": "soula g é(e)",
+   "prononciation": "[su.la.ʒe]",
+   "nature": "adjectif",
+   "translation": "испытывающий облегчение",
+   "exemple": "Je suis soulagée que tout soit prêt.",
+   "exemple_traduction": "Мне стало легче, что всё готово."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Futur antérieur (будущее предшествующее)",
+   "explication": "Futur antérieur выражает действие, которое завершится до другого действия в будущем. Образуется с помощью вспомогательного глагола avoir или être в futur simple + participe passé основного глагола. Часто используется с союзами quand, lorsque, dès que, après que, une fois que. В русском языке соответствует совершенному виду будущего времени с оттенком завершённости: «когда я сделаю», «как только мы приедем». Обратите внимание: futur antérieur подчёркивает результат, а не процесс.",
+   "tableau": [
+    [
+     "Pronom",
+     "Avoir (auxiliaire)"
+    ],
+    [
+     "j'",
+     "aurai"
+    ],
+    [
+     "tu",
+     "auras"
+    ],
+    [
+     "il/elle",
+     "aura"
+    ],
+    [
+     "nous",
+     "aurons"
+    ],
+    [
+     "vous",
+     "aurez"
+    ],
+    [
+     "ils/elles",
+     "auront"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Quand nous aurons déposé nos bagages, nous irons au bureau.",
+     "natif": "Когда мы оставим багаж, пойдём в офис."
+    },
+    {
+     "cible": "Dès que j'aurai lu le dossier, je te donnerai ma réponse.",
+     "natif": "Как только я прочту досье, дам тебе ответ."
+    },
+    {
+     "cible": "Une fois qu'elle aura signé, le contrat sera valable.",
+     "natif": "Как только она подпишет, контракт будет действительным."
+    }
+   ]
+  },
+  {
+   "titre": "Subjonctif passé et concession (прошедшее время сослагательного наклонения и уступка)",
+   "explication": "Subjonctif passé выражает действие, которое предположительно уже произошло или произойдёт до момента речи. Образуется: subjonctif présent вспомогательного глагола (avoir/être) + participe passé. Используется после выражений чувства, сомнения, желания, когда действие относится к прошлому. Уступка выражается конструкциями: bien que + subjonctif («хотя»), même si + indicatif («даже если»). Запомните: bien que требует subjonctif, а même si — indicatif. Это частая ошибка у русскоязычных.",
+   "tableau": [
+    [
+     "Expression",
+     "Mode suivant"
+    ],
+    [
+     "bien que",
+     "subjonctif"
+    ],
+    [
+     "quoique",
+     "subjonctif"
+    ],
+    [
+     "même si",
+     "indicatif"
+    ],
+    [
+     "bien que j'aie fait",
+     "subjonctif passé"
+    ],
+    [
+     "même si j'ai fait",
+     "indicatif (passé composé)"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Bien que j'aie travaillé tard, tout est prêt.",
+     "natif": "Хотя я работал допоздна, всё готово."
+    },
+    {
+     "cible": "Je suis content que tu aies réservé l'hôtel.",
+     "natif": "Я рад, что ты забронировал отель."
+    },
+    {
+     "cible": "Même si nous sommes pressés, nous acceptons.",
+     "natif": "Даже если мы торопимся, мы соглашаемся."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Акцент юга Франции (l'accent du Midi)",
+  "explication": "Акцент юга Франции, особенно Марселя, отличается мелодичностью и сохранением произношения немых 'e' в конце слов: «table» звучит как [tablə], а не [tabl]. Согласные произносятся чётко, назальные гласные менее выражены, чем в парижском акценте. Характерные слова-маркеры: peuchère [pø.ʃɛʁ] (бедняжка), fan de chichoune (восклицание), bouillabaisse [bu.ja.bɛs]. Интонация восходящая и певучая. При общении с южанами не пытайтесь имитировать акцент — говорите нейтрально, но будьте готовы понять их произношение.",
+  "exemples": [
+   "une table [ynə tablə] (вместо [yn tabl])",
+   "peuchère [pø.ʃɛʁ] — бедняжка",
+   "bouillabaisse [bu.ja.bɛs] — буйабес",
+   "Marseille se prononce [maʁ.sɛj] avec un 'l' mouillé"
+  ]
+ },
+ "culture": {
+  "titre": "Марсель и языковое разнообразие Франции",
+  "texte": "Марсель — старейший город Франции, основанный греками около 600 года до н.э. Это портовый город, где исторически смешивались культуры: итальянская, армянская, арабская, коморская. Такое разнообразие отражается в языке: помимо французского, здесь слышен провансальский (окситанский) диалект и множество заимствований. Марсельский говор богат экспрессивными выражениями: «peuchère», «cagade» (ошибка), «fada» (сумасшедший). Сегодня Марсель — символ мультикультурализма Франции и её регионального разнообразия. Деловая культура здесь более неформальная, чем в Париже: рукопожатие, шутки, совместная трапеза важны для установления доверия."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Выберите правильную форму futur antérieur",
+   "items": [
+    {
+     "question": "Quand nous ___ (finir) la réunion, nous déjeunerons.",
+     "choix": [
+      "aurons fini",
+      "avons fini",
+      "finirons",
+      "aurions fini"
+     ],
+     "reponse": "aurons fini"
+    },
+    {
+     "question": "Dès qu'elle ___ (partir), tu pourras entrer.",
+     "choix": [
+      "sera partie",
+      "est partie",
+      "partira",
+      "aurait parti"
+     ],
+     "reponse": "sera partie"
+    },
+    {
+     "question": "Une fois que vous ___ (lire) le contrat, signez-le.",
+     "choix": [
+      "aurez lu",
+      "avez lu",
+      "lirez",
+      "auriez lu"
+     ],
+     "reponse": "aurez lu"
+    },
+    {
+     "question": "Après qu'ils ___ (arriver), nous commencerons.",
+     "choix": [
+      "seront arrivés",
+      "sont arrivés",
+      "arriveront",
+      "étaient arrivés"
+     ],
+     "reponse": "seront arrivés"
+    },
+    {
+     "question": "Quand tu ___ (faire) tes valises, nous partirons.",
+     "choix": [
+      "auras fait",
+      "as fait",
+      "feras",
+      "aurais fait"
+     ],
+     "reponse": "auras fait"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Вставьте bien que или même si в зависимости от конструкции",
+   "items": [
+    {
+     "question": "___ il pleuve, nous sortirons.",
+     "reponse": "Bien qu'"
+    },
+    {
+     "question": "___ nous sommes fatigués, nous continuons.",
+     "reponse": "Même si"
+    },
+    {
+     "question": "___ j'aie peu d'expérience, je veux ce poste.",
+     "reponse": "Bien que"
+    },
+    {
+     "question": "___ le projet est difficile, nous allons réussir.",
+     "reponse": "Même si"
+    },
+    {
+     "question": "___ tu aies raison, je ne suis pas d'accord.",
+     "reponse": "Bien que"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Соедините начало и конец фразы, используя futur antérieur",
+   "items": [
+    {
+     "question": "Quand j'aurai terminé mes études",
+     "reponse": "je chercherai un emploi"
+    },
+    {
+     "question": "Dès que nous serons arrivés à Marseille",
+     "reponse": "nous irons à l'hôtel"
+    },
+    {
+     "question": "Une fois qu'elle aura signé le contrat",
+     "reponse": "le projet commencera"
+    },
+    {
+     "question": "Après que tu auras lu le rapport",
+     "reponse": "tu me donneras ton avis"
+    },
+    {
+     "question": "Lorsqu'ils auront fini la présentation",
+     "reponse": "ils répondront aux questions"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Расставьте слова в правильном порядке, чтобы получить фразу в subjonctif passé",
+   "items": [
+    {
+     "question": "Je / que / suis / aies / content / tu / réservé / l'hôtel / .",
+     "reponse": "Je suis content que tu aies réservé l'hôtel."
+    },
+    {
+     "question": "Bien / travaillé / j' / aie / que / tard / hier / .",
+     "reponse": "Bien que j'aie travaillé tard hier."
+    },
+    {
+     "question": "Il / que / faut / nous / ayons / fini / avant / midi / .",
+     "reponse": "Il faut que nous ayons fini avant midi."
+    },
+    {
+     "question": "Je / soulagée / que / suis / vous / ayez / compris / .",
+     "reponse": "Je suis soulagée que vous ayez compris."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Переведите на французский язык, используя futur antérieur и subjonctif passé",
+   "items": [
+    {
+     "question": "Когда мы подпишем контракт, мы отпразднуем.",
+     "reponse": "Quand nous aurons signé le contrat, nous fêterons."
+    },
+    {
+     "question": "Хотя я и работал допоздна, проект готов.",
+     "reponse": "Bien que j'aie travaillé tard, le projet est prêt."
+    },
+    {
+     "question": "Я рад, что ты подготовил презентацию.",
+     "reponse": "Je suis content que tu aies préparé la présentation."
+    },
+    {
+     "question": "Даже если мы торопимся, мы остаёмся.",
+     "reponse": "Même si nous sommes pressés, nous restons."
+    },
+    {
+     "question": "Как только она приедет, мы начнём.",
+     "reponse": "Dès qu'elle sera arrivée, nous commencerons."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Прослушайте фразу и выберите правильный вариант (субтитры выключены)",
+   "items": [
+    {
+     "question": "Que dit Julien à propos de la présentation ?",
+     "choix": [
+      "Il faut que nous ayons terminé avant 14 heures.",
+      "Il faut que nous terminons avant 14 heures.",
+      "Il faut que nous aurons terminé avant 14 heures."
+     ],
+     "reponse": "Il faut que nous ayons terminé avant 14 heures."
+    },
+    {
+     "question": "Que dit M. Fabre à propos du contrat ?",
+     "choix": [
+      "Dès que j'aurai lu votre dossier, je vous donnerai ma réponse.",
+      "Dès que je lirai votre dossier, je vous donne ma réponse.",
+      "Dès que j'ai lu votre dossier, je vous donnerai ma réponse."
+     ],
+     "reponse": "Dès que j'aurai lu votre dossier, je vous donnerai ma réponse."
+    },
+    {
+     "question": "Comment Anna parle-t-elle du trajet ?",
+     "choix": [
+      "Même si le trajet en TGV était long, je suis ravie.",
+      "Bien que le trajet en TGV était long, je suis ravie.",
+      "Même si le trajet en TGV soit long, je suis ravie."
+     ],
+     "reponse": "Même si le trajet en TGV était long, je suis ravie."
+    },
+    {
+     "question": "Que répond Julien sur le marché ?",
+     "choix": [
+      "Bien que le marché soit difficile, notre projet est solide.",
+      "Bien que le marché est difficile, notre projet est solide.",
+      "Même si le marché soit difficile, notre projet est solide."
+     ],
+     "reponse": "Bien que le marché soit difficile, notre projet est solide."
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Bonjour et bienvenue dans la leçon 29 ! Aujourd'hui, Anna et Julien partent en mission à Marseille. Nous allons apprendre à organiser un déplacement professionnel, à présenter un projet et à comprendre l'accent du Sud.",
+   "ecran": "Vue aérienne du Vieux-Port de Marseille, zoom sur le quai des Belges",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Обратите внимание на декорацию: мы на Старом порту Марселя, видны Каланки и рыбный рынок. Анна и Жюльен только что приехали из Парижа на TGV.",
+   "ecran": "Панорама порта с катерами, чайки летают над водой",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Послушайте диалог. Обратите внимание на futur antérieur и конструкции уступки bien que и même si.",
+   "ecran": "Julien et Anna marchent sur le quai avec leurs bagages",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "julien",
+   "langue": "fr",
+   "texte": "Anna, nous sommes enfin arrivés au Vieux-Port ! Quand nous aurons déposé nos bagages à l'hôtel, nous pourrons rencontrer M. Fabre.",
+   "ecran": "Julien pose sa mallette et montre le port du doigt",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Заметьте futur antérieur: «quand nous aurons déposé» — действие завершится до того, как они встретятся с партнёром.",
+   "ecran": "Surlignage de 'quand nous aurons déposé' en jaune",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v06",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, je suis contente que tu aies réservé un hôtel près d'ici. Même si le trajet en TGV était long, je suis ravie de découvrir Marseille.",
+   "ecran": "Anna ajuste son sac et regarde autour",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Здесь subjonctif passé: «que tu aies réservé» — после выражения чувства. И уступка с indicatif: «même si le trajet était long».",
+   "ecran": "Deux encadrés grammaticaux apparaissent",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v08",
+   "voix": "julien",
+   "langue": "fr",
+   "texte": "Il faut que nous ayons terminé la présentation avant 14 heures. As-tu bien révisé les chiffres du partenariat ?",
+   "ecran": "Julien ouvre son dossier bleu",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Bien que j'aie travaillé tard hier soir, tout est prêt. J'ai même préparé des slides en français et en anglais.",
+   "ecran": "Anna montre sa tablette",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Уступка с subjonctif passé: «bien que j'aie travaillé» — хотя я работала. Запомните: bien que требует subjonctif!",
+   "ecran": "Encadré : bien que + subjonctif",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v11",
+   "voix": "fabre",
+   "langue": "fr",
+   "texte": "Bonjour ! Vous devez être Julien et Anna. Bienvenue à Marseille, les enfants ! Ici, on prend le temps de vivre, peuchère.",
+   "ecran": "M. Fabre s'approche avec un grand sourire",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Слышите акцент? «Peuchère» — типичное марсельское слово, означающее «бедняжка» или выражающее сочувствие.",
+   "ecran": "Bulle de dialogue avec 'peuchère' et traduction",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v13",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Bonjour monsieur Fabre ! Je suis très heureuse que vous ayez accepté de nous rencontrer si vite.",
+   "ecran": "Anna serre la main de M. Fabre",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "fabre",
+   "langue": "fr",
+   "texte": "Écoutez, avant la réunion, je veux que vous ayez goûté nos navettes et notre pastis. C'est obligatoire, fan de chichoune !",
+   "ecran": "M. Fabre montre un café voisin",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Ещё одно местное выражение: «fan de chichoune» — безобидное восклицание. Navettes — марсельское печенье в форме лодочки.",
+   "ecran": "Image de navettes et explication culturelle",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v16",
+   "voix": "julien",
+   "langue": "fr",
+   "texte": "Même si nous sommes pressés, nous acceptons avec plaisir. Quand nous aurons fini, nous irons à votre bureau.",
+   "ecran": "Julien hoche la tête et consulte sa montre",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "serveur",
+   "langue": "fr",
+   "texte": "Alors, qu'est-ce que je vous sers ? Deux cafés et des navettes, comme d'habitude, monsieur Fabre ?",
+   "ecran": "Le serveur s'approche avec un bloc-notes",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Je voudrais un café, s'il vous plaît. Julien, tu crois que M. Fabre aura signé le contrat avant ce soir ?",
+   "ecran": "Anna s'assoit à la terrasse",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "julien",
+   "langue": "fr",
+   "texte": "J'espère que oui. Il faut que nous soyons convaincants. Bien que le marché soit difficile, notre projet est solide.",
+   "ecran": "Julien montre un graphique sur sa tablette",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "fabre",
+   "langue": "fr",
+   "texte": "Ne vous inquiétez pas ! Dès que j'aurai lu votre dossier, je vous donnerai ma réponse. Ici, on fait les choses sérieusement, sans se presser.",
+   "ecran": "M. Fabre rit et tape sur l'épaule de Julien",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Снова futur antérieur: «dès que j'aurai lu» — как только я прочту. И важный культурный аспект: на юге дела ведутся не спеша, но серьёзно.",
+   "ecran": "Encadré culturel sur la mentalité du Sud",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v22",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Parfait. Je suis soulagée que vous ayez compris nos objectifs. À tout à l'heure, monsieur Fabre !",
+   "ecran": "Anna lève son gobelet de café",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отлично! Теперь повторим ключевые слова. Повторяйте за диктором вслух.",
+   "ecran": "Liste de vocabulaire avec prononciation API",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "un déplacement professionnel",
+   "ecran": "Mot affiché avec transcription [de.plas.mɑ̃ pʁɔ.fɛ.sjɔ.nɛl]",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "un partenariat, un contrat, une réunion",
+   "ecran": "Trois mots avec images",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "réserver, présenter un projet, signer",
+   "ecran": "Verbes avec icônes d'action",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Переходим к грамматике. Futur antérieur образуется так: avoir/être в futur simple + participe passé.",
+   "ecran": "Tableau de conjugaison du futur antérieur",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Он используется после quand, lorsque, dès que, après que, une fois que — когда действие завершится до другого действия в будущем.",
+   "ecran": "Exemples avec connecteurs temporels",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Subjonctif passé: subjonctif présent вспомогательного + participe passé. Используется после выражений чувства и воли, когда действие относится к прошлому.",
+   "ecran": "Tableau du subjonctif passé",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Запомните важное различие: bien que + subjonctif, а même si + indicatif. Это частая ошибка!",
+   "ecran": "Comparaison bien que / même si avec exemples",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь выполните шесть упражнений. Начните с теста на futur antérieur.",
+   "ecran": "Interface des exercices, premier exercice sélectionné",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "В упражнении 2 нужно выбрать между bien que и même si. Внимательно смотрите на форму глагола!",
+   "ecran": "Exercice à trous",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "В упражнении 5 переведите фразы, используя futur antérieur и subjonctif passé.",
+   "ecran": "Exercice de traduction",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Последнее упражнение — аудирование. Слушайте внимательно акцент M. Fabre и выбирайте правильный вариант.",
+   "ecran": "Exercice d'écoute avec bouton play",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Bravo ! Вы научились организовывать командировку, использовать futur antérieur и понимать акцент юга. До встречи на следующем уроке, где Анна будет вести переговоры!",
+   "ecran": "Écran de félicitations avec vue du Vieux-Port au coucher du soleil",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Le futur antérieur exprime une action achevée avant une autre action future.",
+   "natif": "Futur antérieur выражает действие, завершённое до другого будущего действия."
+  },
+  {
+   "cible": "Bien que est suivi du subjonctif, même si est suivi de l'indicatif.",
+   "natif": "После bien que употребляется subjonctif, после même si — indicatif."
+  },
+  {
+   "cible": "Le subjonctif passé s'utilise après les expressions de sentiment au passé.",
+   "natif": "Subjonctif passé используется после выражений чувства, относящихся к прошлому."
+  },
+  {
+   "cible": "L'accent du Midi prononce les 'e' muets et a une intonation chantante.",
+   "natif": "Акцент юга произносит немое 'e' и имеет певучую интонацию."
+  },
+  {
+   "cible": "À Marseille, les relations professionnelles sont chaleureuses et informelles.",
+   "natif": "В Марселе деловые отношения тёплые и неформальные."
+  },
+  {
+   "cible": "Organiser un déplacement demande de réserver, préparer et présenter.",
+   "natif": "Организация поездки требует бронирования, подготовки и презентации."
+  }
+ ],
+ "controle": []
+}

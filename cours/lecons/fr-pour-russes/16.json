@@ -1,0 +1,951 @@
+{
+ "cours": "fr-pour-russes",
+ "num": 16,
+ "niveau": "A2",
+ "id": "fr-pour-russes-A2-16",
+ "titre": {
+  "cible": "Chez le médecin",
+  "natif": "У врача"
+ },
+ "objectifs": [
+  "Описывать симптомы и самочувствие на французском языке",
+  "Понимать назначения врача и читать рецепт (ордонанс)",
+  "Записываться на приём и задавать вопросы о здоровье",
+  "Использовать местоимения КОИ lui/leur и возвратные глаголы в passé composé",
+  "Выражать причину с помощью parce que и car"
+ ],
+ "scene": {
+  "lieu": "Cabinet médical, salle d'attente et bureau du docteur",
+  "moment": "Mardi matin, 9h15",
+  "decor_3d": "Salle d'attente lumineuse aux murs pastel : chaises en plastique bleu alignées, table basse avec magazines, posters sur la vaccination et l'hygiène des mains. Un comptoir d'accueil avec un écran d'ordinateur. Une porte mène au bureau du médecin : bureau en bois clair, stéthoscope, tensiomètre, ordinateur, diplôme encadré au mur, lumière douce par une fenêtre à stores.",
+  "objets": [
+   "chaises de salle d'attente",
+   "affiches santé (vaccination, lavage des mains)",
+   "comptoir d'accueil",
+   "bureau du médecin",
+   "stéthoscope",
+   "tensiomètre",
+   "bloc d'ordonnances",
+   "Carte Vitale (carte verte)",
+   "thermomètre",
+   "boîte de mouchoirs",
+   "verre d'eau",
+   "ordinateur du médecin"
+  ],
+  "personnages": [
+   "anna"
+  ],
+  "figurants": [
+   {
+    "id": "docmartin",
+    "nom": "Dr. Martin",
+    "apparence": "Homme de 50 ans, cheveux gris courts, lunettes rondes, blouse blanche sur chemise bleue, stéthoscope autour du cou, expression bienveillante",
+    "voix": "Baryton chaleureux, débit posé, accent parisien standard"
+   },
+   {
+    "id": "secretaire",
+    "nom": "Mme Dupont (secrétaire)",
+    "apparence": "Femme de 45 ans, cheveux châtain en chignon, blouse verte, assise derrière le comptoir, sourire professionnel",
+    "voix": "Voix féminine claire, articulation nette, ton accueillant"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "secretaire",
+   "texte": "Bonjour, mademoiselle. Vous avez un rendez-vous ?",
+   "traduction": "Доброе утро, мадемуазель. У вас запись на приём?",
+   "geste": "La secrétaire lève les yeux de son écran, sourit et tend la main vers Anna."
+  },
+  {
+   "perso": "anna",
+   "texte": "Bonjour. Oui, j'ai rendez-vous avec le docteur Martin. Je m'appelle Anna Sokolova. Je ne me sens pas bien parce que j'ai mal à la gorge et j'ai de la fièvre.",
+   "traduction": "Добрый день. Да, у меня запись к доктору Мартену. Меня зовут Анна Соколова. Я плохо себя чувствую, потому что у меня болит горло и есть температура.",
+   "geste": "Anna s'approche du comptoir, pose sa main sur sa gorge et fronce légèrement les sourcils."
+  },
+  {
+   "perso": "secretaire",
+   "texte": "Très bien. Vous pouvez vous asseoir dans la salle d'attente. Le docteur va vous appeler.",
+   "traduction": "Очень хорошо. Вы можете сесть в зале ожидания. Доктор вас позовёт.",
+   "geste": "La secrétaire désigne les chaises d'un geste de la main puis tape sur son clavier."
+  },
+  {
+   "perso": "docmartin",
+   "texte": "Mademoiselle Sokolova ? Entrez, je vous en prie. Alors, qu'est-ce qui ne va pas ?",
+   "traduction": "Мадемуазель Соколова? Войдите, пожалуйста. Итак, что случилось?",
+   "geste": "Le docteur ouvre la porte de son bureau, fait un geste d'invitation et s'assoit derrière son bureau."
+  },
+  {
+   "perso": "anna",
+   "texte": "Docteur, je me suis couchée tard cette semaine et je me suis levée très tôt. J'ai mal à la tête, je tousse et j'ai mal à la gorge.",
+   "traduction": "Доктор, я ложилась поздно на этой неделе и вставала очень рано. У меня болит голова, я кашляю и у меня болит горло.",
+   "geste": "Anna s'assoit face au médecin, touche sa tempe puis sa gorge, l'air fatigué."
+  },
+  {
+   "perso": "docmartin",
+   "texte": "Je comprends. Vous vous êtes reposée ce week-end ?",
+   "traduction": "Понимаю. Вы отдыхали в эти выходные?",
+   "geste": "Le docteur se penche en avant, prend son stéthoscope et regarde Anna avec attention."
+  },
+  {
+   "perso": "anna",
+   "texte": "Non, pas vraiment, car j'ai eu beaucoup de travail à l'université. Je ne me suis pas arrêtée une seule journée.",
+   "traduction": "Нет, не очень, потому что у меня было много работы в университете. Я не останавливалась ни на один день.",
+   "geste": "Anna secoue la tête et hausse les épaules avec un petit sourire désolé."
+  },
+  {
+   "perso": "docmartin",
+   "texte": "Ouvrez la bouche, s'il vous plaît. Je vais regarder votre gorge… Oui, c'est une petite angine. Ce n'est pas grave, mais il faut vous reposer.",
+   "traduction": "Откройте рот, пожалуйста. Я посмотрю ваше горло… Да, это небольшая ангина. Ничего серьёзного, но нужно отдохнуть.",
+   "geste": "Le docteur prend une petite lampe, examine la gorge d'Anna, puis hoche la tête et écrit sur son bloc."
+  },
+  {
+   "perso": "anna",
+   "texte": "Qu'est-ce que je dois faire, docteur ?",
+   "traduction": "Что мне нужно делать, доктор?",
+   "geste": "Anna se redresse sur sa chaise, joint les mains sur ses genoux, regard inquiet."
+  },
+  {
+   "perso": "docmartin",
+   "texte": "Je vais vous donner une ordonnance. Vous allez prendre ces comprimés trois fois par jour pendant cinq jours. Je vous conseille aussi de boire beaucoup d'eau et de rester au lit deux jours.",
+   "traduction": "Я выпишу вам рецепт. Вы будете принимать эти таблетки три раза в день в течение пяти дней. Также советую вам пить много воды и оставаться в постели два дня.",
+   "geste": "Le docteur écrit sur l'ordonnance, la détache du bloc et la tend à Anna."
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci beaucoup. Est-ce que je peux lui demander un certificat médical pour mon université ?",
+   "traduction": "Спасибо большое. Могу ли я попросить его выписать справку для университета?",
+   "geste": "Anna prend l'ordonnance, la plie et la glisse dans son sac, puis lève la main timidement."
+  },
+  {
+   "perso": "docmartin",
+   "texte": "Bien sûr, je vais le faire tout de suite. Vous avez votre Carte Vitale ?",
+   "traduction": "Конечно, я сделаю это прямо сейчас. У вас есть Carte Vitale?",
+   "geste": "Le docteur sourit, se tourne vers son ordinateur et tape quelques mots."
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, la voilà. Sophie m'a aidée à l'obtenir le mois dernier.",
+   "traduction": "Да, вот она. Софи помогла мне её получить в прошлом месяце.",
+   "geste": "Anna fouille dans son sac, sort une petite carte verte et la tend au docteur."
+  },
+  {
+   "perso": "docmartin",
+   "texte": "Parfait. Si vous ne vous sentez pas mieux dans trois jours, appelez le secrétariat et nous allons vous donner un nouveau rendez-vous. Reposez-vous bien, mademoiselle.",
+   "traduction": "Отлично. Если через три дня вам не станет лучше, позвоните в регистратуру, и мы запишем вас на новый приём. Хорошо отдыхайте, мадемуазель.",
+   "geste": "Le docteur se lève, serre la main d'Anna et raccompagne vers la porte avec un geste bienveillant."
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci, docteur. Au revoir !",
+   "traduction": "Спасибо, доктор. До свидания!",
+   "geste": "Anna se lève, sourit, range ses affaires dans son sac et sort par la porte."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "le médecin",
+   "prononciation": "[lə medsɛ̃]",
+   "nature": "nom m.",
+   "traduction": "врач, доктор",
+   "exemple": "Je vais chez le médecin demain.",
+   "exemple_traduction": "Завтра я иду к врачу."
+  },
+  {
+   "mot": "la gorge",
+   "prononciation": "[la ɡɔʁʒ]",
+   "nature": "nom f.",
+   "traduction": "горло",
+   "exemple": "J'ai mal à la gorge depuis hier.",
+   "exemple_traduction": "У меня болит горло со вчерашнего дня."
+  },
+  {
+   "mot": "la fièvre",
+   "prononciation": "[la fjɛvʁ]",
+   "nature": "nom f.",
+   "traduction": "температура, лихорадка",
+   "exemple": "Elle a de la fièvre, elle doit rester au lit.",
+   "exemple_traduction": "У неё температура, ей нужно оставаться в постели."
+  },
+  {
+   "mot": "tousser",
+   "prononciation": "[tuse]",
+   "nature": "verbe",
+   "traduction": "кашлять",
+   "exemple": "Je tousse beaucoup cette nuit.",
+   "exemple_traduction": "Я много кашляю этой ночью."
+  },
+  {
+   "mot": "le rhume",
+   "prononciation": "[lə ʁym]",
+   "nature": "nom m.",
+   "traduction": "простуда, насморк",
+   "exemple": "Il a attrapé un rhume en automne.",
+   "exemple_traduction": "Он простудился осенью."
+  },
+  {
+   "mot": "une ordonnance",
+   "prononciation": "[yn ɔʁdɔnɑ̃s]",
+   "nature": "nom f.",
+   "traduction": "рецепт (медицинский)",
+   "exemple": "Le docteur m'a donné une ordonnance pour la pharmacie.",
+   "exemple_traduction": "Доктор дал мне рецепт для аптеки."
+  },
+  {
+   "mot": "un comprimé",
+   "prononciation": "[œ̃ kɔ̃pʁime]",
+   "nature": "nom m.",
+   "traduction": "таблетка",
+   "exemple": "Prenez un comprimé le matin et un le soir.",
+   "exemple_traduction": "Принимайте одну таблетку утром и одну вечером."
+  },
+  {
+   "mot": "un médicament",
+   "prononciation": "[œ̃ medikamɑ̃]",
+   "nature": "nom m.",
+   "traduction": "лекарство",
+   "exemple": "Ce médicament est très efficace contre la toux.",
+   "exemple_traduction": "Это лекарство очень эффективно от кашля."
+  },
+  {
+   "mot": "se reposer",
+   "prononciation": "[sə ʁəpoze]",
+   "nature": "verbe pronominal",
+   "traduction": "отдыхать",
+   "exemple": "Tu dois te reposer ce week-end.",
+   "exemple_traduction": "Ты должен отдохнуть в эти выходные."
+  },
+  {
+   "mot": "guérir",
+   "prononciation": "[ɡeʁiʁ]",
+   "nature": "verbe",
+   "traduction": "выздоравливать, лечить",
+   "exemple": "Elle va guérir dans quelques jours.",
+   "exemple_traduction": "Она выздоровеет через несколько дней."
+  },
+  {
+   "mot": "la salle d'attente",
+   "prononciation": "[la sal datɑ̃t]",
+   "nature": "nom f.",
+   "traduction": "зал ожидания",
+   "exemple": "Il y a beaucoup de monde dans la salle d'attente.",
+   "exemple_traduction": "В зале ожидания много людей."
+  },
+  {
+   "mot": "un rendez-vous",
+   "prononciation": "[œ̃ ʁɑ̃devu]",
+   "nature": "nom m.",
+   "traduction": "приём, запись (к врачу)",
+   "exemple": "J'ai un rendez-vous chez le dentiste à 14 heures.",
+   "exemple_traduction": "У меня приём у стоматолога в 14 часов."
+  },
+  {
+   "mot": "la Carte Vitale",
+   "prononciation": "[la kaʁt vital]",
+   "nature": "nom f.",
+   "traduction": "Carte Vitale (карта медстрахования)",
+   "exemple": "N'oubliez pas votre Carte Vitale chez le médecin.",
+   "exemple_traduction": "Не забудьте вашу Carte Vitale у врача."
+  },
+  {
+   "mot": "le stéthoscope",
+   "prononciation": "[lə stetɔskɔp]",
+   "nature": "nom m.",
+   "traduction": "стетоскоп",
+   "exemple": "Le médecin écoute mon cœur avec un stéthoscope.",
+   "exemple_traduction": "Врач слушает моё сердце стетоскопом."
+  },
+  {
+   "mot": "avoir mal à",
+   "prononciation": "[avwaʁ mal a]",
+   "nature": "expression verbale",
+   "traduction": "болеть (о части тела)",
+   "exemple": "J'ai mal à la tête et aux pieds.",
+   "exemple_traduction": "У меня болит голова и ноги."
+  },
+  {
+   "mot": "le corps",
+   "prononciation": "[lə kɔʁ]",
+   "nature": "nom m.",
+   "traduction": "тело",
+   "exemple": "Le sport est bon pour le corps.",
+   "exemple_traduction": "Спорт полезен для тела."
+  },
+  {
+   "mot": "se coucher",
+   "prononciation": "[sə kuʃe]",
+   "nature": "verbe pronominal",
+   "traduction": "ложиться спать",
+   "exemple": "Je me suis couchée très tard hier soir.",
+   "exemple_traduction": "Я легла спать очень поздно вчера вечером."
+  },
+  {
+   "mot": "se lever",
+   "prononciation": "[sə ləve]",
+   "nature": "verbe pronominal",
+   "traduction": "вставать, подниматься",
+   "exemple": "Il s'est levé à six heures ce matin.",
+   "exemple_traduction": "Он встал в шесть часов сегодня утром."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Местоимения косвенного дополнения lui / leur и выражение причины (parce que, car)",
+   "explication": "Местоимения КОИ (косвенного дополнения) заменяют существительное, отвечающее на вопрос «кому?». Форма lui используется для единственного числа (ему/ей), а leur — для множественного (им). В отличие от местоимений COD (le, la, les), которые вы уже знаете, КОИ ставится перед глаголом и заменяет существительное с предлогом à. Например: Je parle à mon ami → Je lui parle. Je téléphone à mes parents → Je leur téléphone. Обратите внимание: местоимение ставится перед глаголом, а в passé composé — перед вспомогательным: Je lui ai parlé. Выражение причины: parce que отвечает на вопрос pourquoi? и вводит придаточное предложение (обычно после главного). Car — более формальный синоним, ставится между двумя самостоятельными предложениями: Je reste à la maison car je suis malade.",
+   "tableau": [
+    [
+     "Лицо",
+     "КОИ (ед.ч.)",
+     "КОИ (мн.ч.)",
+     "Пример"
+    ],
+    [
+     "3-е лицо",
+     "lui (ему/ей)",
+     "leur (им)",
+     "Je lui donne l'ordonnance. / Je leur téléphone."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Je lui ai demandé un certificat médical.",
+     "natif": "Я попросил(а) у него/неё медицинскую справку."
+    },
+    {
+     "cible": "Le médecin leur a donné des conseils.",
+     "natif": "Врач дал им советы."
+    },
+    {
+     "cible": "Je reste au lit parce que j'ai de la fièvre.",
+     "natif": "Я остаюсь в постели, потому что у меня температура."
+    },
+    {
+     "cible": "Elle ne travaille pas aujourd'hui, car elle est malade.",
+     "natif": "Она не работает сегодня, так как она больна."
+    }
+   ]
+  },
+  {
+   "titre": "Возвратные глаголы в passé composé",
+   "explication": "Вы уже знаете возвратные глаголы в настоящем времени (se lever, se coucher, s'asseoir). В passé composé они ВСЕГДА спрягаются с être, а не с avoir. Возвратное местоимение (me, te, se, nous, vous, se) ставится перед être. Причастие согласуется с подлежащим в роде и числе: elle s'est levée, ils se sont couchés. Отрицание: Je ne me suis pas reposé(e). Вопрос: Est-ce que tu t'es levée tôt ? Это правило отличается от обычных глаголов, которые вы изучили в уроке 15 (passé composé с avoir). Запомните: возвратный глагол = être в passé composé. В диалоге Анна говорит: Je me suis couchée tard, je me suis levée très tôt — обратите внимание на согласование: Анна — женщина, поэтому -ée.",
+   "tableau": [
+    [
+     "Лицо",
+     "Форма",
+     "Пример"
+    ],
+    [
+     "je",
+     "me suis + participe",
+     "Je me suis reposé(e)."
+    ],
+    [
+     "tu",
+     "t'es + participe",
+     "Tu t'es levé(e) tôt."
+    ],
+    [
+     "il / elle",
+     "s'est + participe",
+     "Elle s'est couchée à minuit."
+    ],
+    [
+     "nous",
+     "nous sommes + participe",
+     "Nous nous sommes reposés."
+    ],
+    [
+     "vous",
+     "vous êtes + participe",
+     "Vous vous êtes assemblé(e)s."
+    ],
+    [
+     "ils / elles",
+     "se sont + participe",
+     "Ils se sont réveillés à 7h."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Je me suis couchée à minuit hier.",
+     "natif": "Я легла спать в полночь вчера."
+    },
+    {
+     "cible": "Elle s'est levée à six heures ce matin.",
+     "natif": "Она встала в шесть часов сегодня утром."
+    },
+    {
+     "cible": "Nous nous sommes reposés tout le week-end.",
+     "natif": "Мы отдыхали все выходные."
+    },
+    {
+     "cible": "Est-ce que tu t'es sentie mieux ?",
+     "natif": "Тебе стало лучше?"
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Les sons [s] et [z] — различение звуков [s] и [z]",
+  "explication": "Во французском языке звуки [s] и [z] различают слова: буква «s» между двумя гласными читается как [z] (poison [pwazɔ̃] — яд), а удвоенная «ss» или одиночная «s» в начале/конце слова — как [s] (poisson [pwasɔ̃] — рыба). Это очень важно: une erreur peut changer le sens ! Буква «c» перед e, i, y даёт [s] (médecin [medsɛ̃]). Буква «z» всегда [z] (douze [duz]). Тренируйтесь различать эти пары слов на слух.",
+  "exemples": [
+   "poisson [pwasɔ̃] (рыба) ≠ poison [pwazɔ̃] (яд)",
+   "médecin [medsɛ̃] — son [s] : c + e",
+   "douze [duz] — son [z]",
+   "maladie [maladi] — son [z] : s entre voyelles (в разговорном произношении часто [maladi])",
+   "cuisine [kɥizin] — son [z] : s entre voyelles",
+   "salle d'attente [sal datɑ̃t] — son [s] : s initial et final"
+  ]
+ },
+ "culture": {
+  "titre": "Система здравоохранения Франции и Carte Vitale",
+  "texte": "Во Франции система здравоохранения основана на обязательном медицинском страховании. Каждый житель получает Carte Vitale — зелёную электронную карту, которая заменяет бумажные документы у врача и в аптеке. На приёме вы предъявляете карту, и часть расходов (обычно 70 %) возмещается государством автоматически. Остальное покрывает дополнительная страховка (mutuelle). Записаться к врачу можно по телефону или через сайт Doctolib. У каждого пациента есть «врач общей практики» (médecin traitant), которого он выбирает сам. Без направления от него визит к специалисту возмещается хуже. Студенты-иностранцы оформляют Carte Vitale через университет или сайт ameli.fr."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Выберите правильный ответ. Выберите местоимение КОИ, которое заменяет выделенное существительное.",
+   "items": [
+    {
+     "question": "Je parle à mon médecin. → Je ___ parle.",
+     "choix": [
+      "le",
+      "lui",
+      "la",
+      "leur"
+     ],
+     "reponse": "lui"
+    },
+    {
+     "question": "Elle téléphone à ses parents. → Elle ___ téléphone.",
+     "choix": [
+      "les",
+      "lui",
+      "leur",
+      "la"
+     ],
+     "reponse": "leur"
+    },
+    {
+     "question": "Le docteur donne une ordonnance à Anna. → Le docteur ___ donne une ordonnance.",
+     "choix": [
+      "la",
+      "lui",
+      "leur",
+      "le"
+     ],
+     "reponse": "lui"
+    },
+    {
+     "question": "Je montre ma Carte Vitale aux infirmières. → Je ___ montre ma Carte Vitale.",
+     "choix": [
+      "leur",
+      "lui",
+      "les",
+      "la"
+     ],
+     "reponse": "leur"
+    },
+    {
+     "question": "Tu écris un mail au médecin. → Tu ___ écris un mail.",
+     "choix": [
+      "le",
+      "lui",
+      "la",
+      "leur"
+     ],
+     "reponse": "lui"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Заполните пропуски правильной формой возвратного глагола в passé composé. Не забудьте согласование причастия!",
+   "items": [
+    {
+     "question": "Anna ___ (se coucher) à minuit hier soir.",
+     "choix": [],
+     "reponse": "s'est couchée"
+    },
+    {
+     "question": "Nous ___ (se lever) à sept heures ce matin.",
+     "choix": [],
+     "reponse": "nous sommes levés"
+    },
+    {
+     "question": "Ils ___ (se reposer) tout le week-end.",
+     "choix": [],
+     "reponse": "se sont reposés"
+    },
+    {
+     "question": "Elle ne ___ pas (se sentir) bien aujourd'hui.",
+     "choix": [],
+     "reponse": "s'est sentie"
+    },
+    {
+     "question": "Tu ___ (s'asseoir) dans la salle d'attente.",
+     "choix": [],
+     "reponse": "t'es assis(e)"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Соедините слово с его переводом на русский язык.",
+   "items": [
+    {
+     "question": "une ordonnance",
+     "choix": [],
+     "reponse": "рецепт (медицинский)"
+    },
+    {
+     "question": "la salle d'attente",
+     "choix": [],
+     "reponse": "зал ожидания"
+    },
+    {
+     "question": "un comprimé",
+     "choix": [],
+     "reponse": "таблетка"
+    },
+    {
+     "question": "la fièvre",
+     "choix": [],
+     "reponse": "температура (лихорадка)"
+    },
+    {
+     "question": "se reposer",
+     "choix": [],
+     "reponse": "отдыхать"
+    },
+    {
+     "question": "la Carte Vitale",
+     "choix": [],
+     "reponse": "карта медицинского страхования"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Расставьте слова в правильном порядке, чтобы получились грамматически верные предложения.",
+   "items": [
+    {
+     "question": "mal / j' / à / ai / la / gorge",
+     "choix": [],
+     "reponse": "J'ai mal à la gorge."
+    },
+    {
+     "question": "lui / ai / je / demandé / un / certificat",
+     "choix": [],
+     "reponse": "Je lui ai demandé un certificat."
+    },
+    {
+     "question": "couchée / je / me / suis / tard",
+     "choix": [],
+     "reponse": "Je me suis couchée tard."
+    },
+    {
+     "question": "parce / reste / je / au / que / lit / j'ai / de / la / fièvre",
+     "choix": [],
+     "reponse": "Je reste au lit parce que j'ai de la fièvre."
+    },
+    {
+     "question": "rendez-vous / un / prendre / vous / devez",
+     "choix": [],
+     "reponse": "Vous devez prendre un rendez-vous."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Переведите предложения с русского на французский, используя структуру урока.",
+   "items": [
+    {
+     "question": "У меня болит голова, потому что я мало спал(а).",
+     "choix": [],
+     "reponse": "J'ai mal à la tête parce que j'ai peu dormi."
+    },
+    {
+     "question": "Врач выписал ему рецепт.",
+     "choix": [],
+     "reponse": "Le médecin lui a donné une ordonnance."
+    },
+    {
+     "question": "Она легла спать в десять часов.",
+     "choix": [],
+     "reponse": "Elle s'est couchée à dix heures."
+    },
+    {
+     "question": "Они не отдыхали, так как работали много.",
+     "choix": [],
+     "reponse": "Ils ne se sont pas reposés car ils ont beaucoup travaillé."
+    },
+    {
+     "question": "Вы можете записаться на приём к врачу?",
+     "choix": [],
+     "reponse": "Pouvez-vous prendre un rendez-vous chez le médecin ?"
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Прослушайте аудио и выберите правильный вариант ответа.",
+   "items": [
+    {
+     "question": "🔊 « J'ai mal à la gorge et je tousse depuis deux jours. » — Quel est le problème ?",
+     "choix": [
+      "Elle a mal aux pieds.",
+      "Elle a mal à la gorge et elle tousse.",
+      "Elle a mal à la tête."
+     ],
+     "reponse": "Elle a mal à la gorge et elle tousse."
+    },
+    {
+     "question": "🔊 « Prenez un comprimé trois fois par jour pendant cinq jours. » — Combien de comprimés par jour ?",
+     "choix": [
+      "Un par jour",
+      "Deux par jour",
+      "Trois par jour"
+     ],
+     "reponse": "Trois par jour"
+    },
+    {
+     "question": "🔊 « Elle s'est levée à six heures parce qu'elle avait un rendez-vous. » — Pourquoi s'est-elle levée tôt ?",
+     "choix": [
+      "Parce qu'elle avait un rendez-vous.",
+      "Parce qu'elle ne pouvait pas dormir.",
+      "Parce qu'elle travaillait."
+     ],
+     "reponse": "Parce qu'elle avait un rendez-vous."
+    },
+    {
+     "question": "🔊 « N'oubliez pas votre Carte Vitale, s'il vous plaît. » — Qu'est-ce qu'il ne faut pas oublier ?",
+     "choix": [
+      "L'ordonnance",
+      "La Carte Vitale",
+      "Le stéthoscope"
+     ],
+     "reponse": "La Carte Vitale"
+    },
+    {
+     "question": "🔊 « Le docteur lui a dit de se reposer deux jours. » — Combien de jours de repos ?",
+     "choix": [
+      "Un jour",
+      "Deux jours",
+      "Trois jours"
+     ],
+     "reponse": "Deux jours"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Добро пожаловать на шестнадцатый урок курса «Французский для русскоговорящих»! Сегодня мы отправимся в кабинет врача. Анна немного приболела, и ей нужна помощь. Вы научитесь описывать симптомы, понимать рецепт и записываться на приём.",
+   "ecran": "La scène WebGL s'ouvre sur une salle d'attente médicale lumineuse. La caméra fait un panoramique lent : chaises bleues, affiches de santé, comptoir d'accueil. Le titre de la leçon apparaît en 3D.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Цели урока: описывать симптомы, понимать назначения врача, использовать местоимения lui и leur, спрягать возвратные глаголы в passé composé и выражать причину. Начнём!",
+   "ecran": "Les objectifs apparaissent un par un en texte 3D flottant au-dessus de la salle d'attente. Icônes : stéthoscope, ordonnance, pilule.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Анна входит в поликлинику. Она чувствует себя неважно: болит горло, есть температура. Послушайте диалог и обратите внимание на новые слова.",
+   "ecran": "Anna entre dans le cabinet médical en 3D, l'air fatigué, un foulard autour du cou. Elle s'approche du comptoir où la secrétaire l'accueille.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "secretaire",
+   "langue": "fr",
+   "texte": "Bonjour, mademoiselle. Vous avez un rendez-vous ?",
+   "ecran": "Gros plan sur la secrétaire derrière son comptoir. Elle sourit et regarde Anna. Sous-titres français et russe apparaissent.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Bonjour. Oui, j'ai rendez-vous avec le docteur Martin. Je m'appelle Anna Sokolova. Je ne me sens pas bien parce que j'ai mal à la gorge et j'ai de la fièvre.",
+   "ecran": "Anna répond à la secrétaire, main sur la gorge. Le mot 'parce que' s'illumine en surbrillance dans le sous-titre. Mots-clés 'mal à la gorge' et 'fièvre' flottent en 3D.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "secretaire",
+   "langue": "fr",
+   "texte": "Très bien. Vous pouvez vous asseoir dans la salle d'attente. Le docteur va vous appeler.",
+   "ecran": "La secrétaire désigne les chaises. Anna s'assoit. La caméra montre la salle d'attente avec les affiches santé.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Анна ждёт. Проходит несколько минут, и доктор Мартен приглашает её в кабинет. Обратите внимание: «Je me suis couchée tard» — это возвратный глагол в passé composé.",
+   "ecran": "Transition : la porte du bureau s'ouvre. Le Dr. Martin apparaît dans l'encadrement. Anna se lève et entre dans le bureau.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v08",
+   "voix": "docmartin",
+   "langue": "fr",
+   "texte": "Mademoiselle Sokolova ? Entrez, je vous en prie. Alors, qu'est-ce qui ne va pas ?",
+   "ecran": "Le Dr. Martin ouvre la porte, fait un geste d'invitation. Anna entre. Le bureau médical est visible : stéthoscope, ordinateur, diplôme.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Docteur, je me suis couchée tard cette semaine et je me suis levée très tôt. J'ai mal à la tête, je tousse et j'ai mal à la gorge.",
+   "ecran": "Anna s'assoit. Les expressions 'je me suis couchée' et 'je me suis levée' s'affichent en 3D avec flèches vers 'se coucher' et 'se lever'. Anna touche sa tempe puis sa gorge.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "docmartin",
+   "langue": "fr",
+   "texte": "Je comprends. Vous vous êtes reposée ce week-end ?",
+   "ecran": "Le docteur se penche, prend son stéthoscope. Question en passé composé pronominal affichée.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Non, pas vraiment, car j'ai eu beaucoup de travail à l'université. Je ne me suis pas arrêtée une seule journée.",
+   "ecran": "Anna secoue la tête. Le mot 'car' s'illumine. Icône de livres et d'ordinateur apparaît pour illustrer le travail universitaire.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "docmartin",
+   "langue": "fr",
+   "texte": "Ouvrez la bouche, s'il vous plaît. Je vais regarder votre gorge… Oui, c'est une petite angine. Ce n'est pas grave, mais il faut vous reposer.",
+   "ecran": "Le docteur examine la gorge d'Anna avec une petite lampe. Zoom 3D sur la gorge. Puis il écrit sur son bloc d'ordonnances.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Qu'est-ce que je dois faire, docteur ?",
+   "ecran": "Anna se redresse, mains jointes. Expression inquiète. Le point d'interrogation apparaît en 3D.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "docmartin",
+   "langue": "fr",
+   "texte": "Je vais vous donner une ordonnance. Vous allez prendre ces comprimés trois fois par jour pendant cinq jours. Je vous conseille aussi de boire beaucoup d'eau et de rester au lit deux jours.",
+   "ecran": "Le docteur écrit sur l'ordonnance. Des comprimés 3D et un verre d'eau apparaissent. Texte de la posologie s'affiche.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci beaucoup. Est-ce que je peux lui demander un certificat médical pour mon université ?",
+   "ecran": "Anna prend l'ordonnance, la plie. Le pronom 'lui' s'illumine dans le sous-titre avec une flèche vers le docteur.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "docmartin",
+   "langue": "fr",
+   "texte": "Bien sûr, je vais le faire tout de suite. Vous avez votre Carte Vitale ?",
+   "ecran": "Le docteur sourit, se tourne vers l'ordinateur. Une Carte Vitale 3D (verte) apparaît en rotation.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, la voilà. Sophie m'a aidée à l'obtenir le mois dernier.",
+   "ecran": "Anna sort la Carte Vitale verte de son sac. Petit hologramme de Sophie apparaît brièvement en souvenir.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "docmartin",
+   "langue": "fr",
+   "texte": "Parfait. Si vous ne vous sentez pas mieux dans trois jours, appelez le secrétariat et nous allons vous donner un nouveau rendez-vous. Reposez-vous bien, mademoiselle.",
+   "ecran": "Le docteur se lève, serre la main d'Anna. Il l'accompagne vers la porte avec un geste bienveillant.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci, docteur. Au revoir !",
+   "ecran": "Anna sourit, range ses affaires et sort. La porte se referme. Fondu vers la section vocabulaire.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отлично! Диалог завершён. Теперь повторим ключевые слова. Слушайте и повторяйте вслух. Обратите внимание на произношение.",
+   "ecran": "Fond neutre. Les mots de vocabulaire apparaissent un par un en 3D avec leur transcription phonétique. Icônes associées : gorge, thermomètre, pilule.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Le médecin. La gorge. La fièvre. Tousser. Le rhume. Une ordonnance. Un comprimé. Un médicament.",
+   "ecran": "Chaque mot apparaît avec son icône 3D : stéthoscope pour médecin, gorge rouge, thermomètre, nuage de toux, nez qui coule, papier d'ordonnance, pilule, boîte de médicaments.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Se reposer. Guérir. La salle d'attente. Un rendez-vous. La Carte Vitale. Le stéthoscope. Avoir mal à. Le corps. Se coucher. Se lever.",
+   "ecran": "Suite des mots avec icônes : lit pour se reposer, soleil pour guérir, chaises pour salle d'attente, calendrier pour rendez-vous, carte verte, stéthoscope, bonhomme douloureux, silhouette corps, lune pour se coucher, soleil pour se lever.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Перейдём к грамматике. Первое: местоимения косвенного дополнения lui и leur. Они заменяют существительное с предлогом «à» и отвечают на вопрос «кому?».",
+   "ecran": "Tableau grammatical 3D apparaît. Deux colonnes : lui (ед.ч.) и leur (мн.ч.). Flèches montrant le remplacement : 'à mon médecin' → 'lui', 'à mes parents' → 'leur'.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Пример: «Je parle à mon ami» превращается в «Je lui parle». «Je téléphone à mes parents» — «Je leur téléphone». В passé composé местоимение стоит перед être или avoir: «Je lui ai parlé». Также запомните выражение причины: parce que ставится после главного предложения, а car соединяет два самостоятельных.",
+   "ecran": "Exemples animés en 3D : la phrase se transforme, 'à mon ami' disparaît et 'lui' apparaît à sa place. Puis 'parce que' et 'car' s'affichent avec des flèches de connexion.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Второй пункт грамматики: возвратные глаголы в passé composé. Помните: они ВСЕГДА спрягаются с être! «Je me suis couchée», «Elle s'est levée». Причастие согласуется с подлежащим. Отрицание: «Je ne me suis pas reposée».",
+   "ecran": "Tableau de conjugaison 3D : je me suis, tu t'es, il/elle s'est, nous nous sommes, vous vous êtes, ils/elles se sont. Exemples animés avec accord : couché → couchée (ajout du 'e').",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь произношение. Сегодня различаем звуки [s] и [z]. Запомните: одна «s» между гласными — это [z], а удвоенная «ss» или «s» в начале слова — это [s]. Классическая пара: poisson — рыба, poison — яд. Будьте внимательны!",
+   "ecran": "Deux poissons 3D nagent (poisson [s]) puis une fiole de poison apparaît (poison [z]). Les lettres 'ss' et 's' s'illuminent. Animation des ondes sonores.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Немного о культуре. Во Франции у каждого жителя есть Carte Vitale — зелёная карта медицинского страхования. Вы предъявляете её врачу, и система автоматически возмещает часть расходов. Без неё визит обойдётся дороже. Студенты-иностранцы оформляют её через университет.",
+   "ecran": "Une Carte Vitale 3D tourne lentement. Schéma animé : patient → médecin → carte → remboursement. Logo ameli.fr apparaît.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Переходим к упражнениям. Первое задание: выберите правильное местоимение КОИ. Нажмите на правильный вариант.",
+   "ecran": "L'écran se transforme en interface d'exercice. QCM avec boutons cliquables. Chronomètre optionnel en haut à droite.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Второе задание: заполните пропуски формой возвратного глагола в passé composé. Напишите ответ в поле.",
+   "ecran": "Phrases à trous apparaissent avec des champs de saisie. Clavier virtuel disponible. Exemple montré avant de commencer.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Третье задание: соедините французское слово с русским переводом. Перетащите элементы.",
+   "ecran": "Deux colonnes 3D : mots français à gauche, traductions russes à droite. Lignes de connexion à tracer par glisser-déposer.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Четвёртое задание: расставьте слова в правильном порядке. Перетащите слова на свои места.",
+   "ecran": "Mots mélangés en bulles 3D. Zones vides en dessous. L'apprenant glisse chaque mot dans l'ordre correct.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Пятое задание: переведите предложения с русского на французский. Напишите ваш перевод в поле.",
+   "ecran": "Phrases russes affichées avec champ de saisie en dessous. Bouton 'Vérifier' disponible après la saisie.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Шестое задание: прослушайте аудио и выберите правильный ответ. Нажмите на кнопку воспроизведения.",
+   "ecran": "Icône de haut-parleur avec onde sonore. Trois boutons de réponse sous chaque question. Lecture audio possible deux fois.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отличная работа! Давайте подведём итоги. Сегодня вы научились описывать симптомы: «J'ai mal à la gorge», «Je tousse», «J'ai de la fièvre». Вы узнали, как выглядит рецепт — une ordonnance, и как записаться на приём — prendre un rendez-vous. Грамматика: местоимения lui и leur, возвратные глаголы в passé composé, выражение причины с parce que и car.",
+   "ecran": "Récapitulatif animé : les mots-clés de la leçon flottent en 3D. Schéma résumant les 3 points de grammaire. Anna sourit et fait un signe de la main.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "В следующем уроке мы пойдём в аптеку! Анна будет покупать лекарства по рецепту. До встречи на платформе Russtudy. Репозе ву бьен! Отдыхайте хорошо!",
+   "ecran": "Aperçu du prochain décor : une pharmacie avec croix verte. Anna marche dans la rue. Fondu au noir. Logo Russtudy. Fin de la leçon 16.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "J'ai mal à la gorge et j'ai de la fièvre.",
+   "natif": "У меня болит горло и есть температура."
+  },
+  {
+   "cible": "Je me suis couchée tard et je me suis levée très tôt.",
+   "natif": "Я легла поздно и встала очень рано."
+  },
+  {
+   "cible": "Le médecin lui a donné une ordonnance.",
+   "natif": "Врач выписал ему/ей рецепт."
+  },
+  {
+   "cible": "Je reste au lit parce que je suis malade.",
+   "natif": "Я остаюсь в постели, потому что я больна."
+  },
+  {
+   "cible": "Vous devez prendre un rendez-vous chez le médecin.",
+   "natif": "Вы должны записаться на приём к врачу."
+  },
+  {
+   "cible": "N'oubliez pas votre Carte Vitale !",
+   "natif": "Не забудьте вашу Carte Vitale!"
+  }
+ ],
+ "controle": []
+}

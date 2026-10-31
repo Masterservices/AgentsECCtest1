@@ -1,0 +1,713 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 18,
+ "niveau": "A2",
+ "id": "ru-pour-francais-A2-18",
+ "titre": {
+  "cible": "Глаго́лы движе́ния: ходи́ть и е́здить",
+  "natif": "Verbes de mouvement : ходить et ездить"
+ },
+ "objectifs": [
+  "Exprimer un mouvement multidirectionnel ou habituel (ходить, ездить).",
+  "Parler de voyages passés avec les verbes de mouvement.",
+  "Distinguer « aller une fois » (идти/ехать) et « aller souvent » (ходить/ездить).",
+  "Acheter un billet de train et utiliser le vocabulaire du voyage.",
+  "Utiliser les prépositions de mouvement по, через, мимо avec les cas appropriés."
+ ],
+ "scene": {
+  "lieu": "Gare Kazanski, Moscou",
+  "moment": "Matinée",
+  "decor_3d": "Intérieur du hall principal de la gare Kazanski. Architecture stalinienne avec des arches, un grand panneau des départs électronique affichant des villes russes, des bancs en bois, et un guichet avec une vitre.",
+  "objets": [
+   "Panneau des départs",
+   "Guichet",
+   "Billet de train",
+   "Valise",
+   "Porte-verre en métal (подстака́нник)"
+  ],
+  "personnages": [
+   "thomas",
+   "masha"
+  ],
+  "figurants": [
+   {
+    "id": "kassir",
+    "nom": "Caissière",
+    "apparence": "Femme d'âge mûr en uniforme bleu des chemins de fer russes (RZD), assise derrière le guichet.",
+    "voix": "Femme, timbre calme et professionnel"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "thomas",
+   "texte": "Ма́ша, мы на Каза́нском вокза́ле. Я хочу́ купи́ть биле́т в Санкт-Петербу́рг.",
+   "traduction": "Masha, nous sommes à la gare Kazanski. Je veux acheter un billet pour Saint-Pétersbourg.",
+   "geste": "Thomas regarde le grand panneau des départs et pointe le guichet."
+  },
+  {
+   "perso": "masha",
+   "texte": "Ты е́дешь туда́ сейча́с, оди́н раз?",
+   "traduction": "Tu y vas maintenant, une seule fois ?",
+   "geste": "Masha sourit et lève un doigt pour insister sur 'une fois'."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Да, я е́ду в Петербу́рг на не́делю. А ты часто́ е́здишь в Петербу́рг?",
+   "traduction": "Oui, je vais à Saint-Pétersbourg pour une semaine. Et toi, tu vas souvent à Saint-Pétersbourg ?",
+   "geste": "Thomas hoche la tête et regarde Masha."
+  },
+  {
+   "perso": "masha",
+   "texte": "Да, я е́зжу туда́ ка́ждый ме́сяц. Там живу́т мои́ роди́тели.",
+   "traduction": "Oui, j'y vais chaque mois. Mes parents y habitent.",
+   "geste": "Masha compte sur ses doigts puis pointe vers le nord."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Понима́ю. «Е́ду» — э́то оди́н раз, а «е́зжу» — э́то регуля́рно.",
+   "traduction": "Je comprends. 'Еду' c'est une fois, et 'езжу' c'est régulièrement.",
+   "geste": "Thomas fait un geste de la main pour montrer la répétition."
+  },
+  {
+   "perso": "masha",
+   "texte": "Ве́рно! А в про́шлом году́ ты е́здил в Евро́пу?",
+   "traduction": "Exact ! Et l'année dernière, tu es allé en Europe ?",
+   "geste": "Masha acquiesce avec enthousiasme."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Да, я е́здил в Пари́ж. А ты ходи́ла в музе́й на э́той неде́ле?",
+   "traduction": "Oui, je suis allé à Paris. Et toi, tu es allée au musée cette semaine ?",
+   "geste": "Thomas sort son téléphone pour montrer une photo."
+  },
+  {
+   "perso": "masha",
+   "texte": "Да, я ходи́ла в Третьяко́вскую галере́ю. Я гуля́ла по па́рку.",
+   "traduction": "Oui, je suis allée à la galerie Tretiakov. Je me suis promenée dans le parc.",
+   "geste": "Masha mime la marche."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Смотри́ на табло́! По́езд но́мер два идёт в Петербу́рг.",
+   "traduction": "Regarde le tableau ! Le train numéro deux va à Saint-Pétersbourg.",
+   "geste": "Thomas pointe l'écran des départs."
+  },
+  {
+   "perso": "masha",
+   "texte": "Отли́чно. Пойдём в ка́ссу. Нам на́до купи́ть биле́т на плацка́рт.",
+   "traduction": "Super. Allons à la caisse. Il nous faut acheter un billet en wagon ouvert.",
+   "geste": "Masha prend son sac et se dirige vers le guichet."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "вокза́л",
+   "prononciation": "vokZAL",
+   "nature": "nom m.",
+   "traduction": "gare",
+   "exemple": "Мы на вокза́ле.",
+   "exemple_traduction": "Nous sommes à la gare."
+  },
+  {
+   "mot": "биле́т",
+   "prononciation": "biLYET",
+   "nature": "nom m.",
+   "traduction": "billet",
+   "exemple": "Я хочу́ купи́ть биле́т.",
+   "exemple_traduction": "Je veux acheter un billet."
+  },
+  {
+   "mot": "по́езд",
+   "prononciation": "POyezd",
+   "nature": "nom m.",
+   "traduction": "train",
+   "exemple": "По́езд идёт в Москву́.",
+   "exemple_traduction": "Le train va à Moscou."
+  },
+  {
+   "mot": "плацка́рт",
+   "prononciation": "platsKART",
+   "nature": "nom m.",
+   "traduction": "wagon ouvert (3e classe)",
+   "exemple": "Мы ку́пим биле́т на плацка́рт.",
+   "exemple_traduction": "Nous achèterons un billet en wagon ouvert."
+  },
+  {
+   "mot": "проводни́к",
+   "prononciation": "provoDNIK",
+   "nature": "nom m.",
+   "traduction": "contrôleur",
+   "exemple": "Проводни́к даёт чай.",
+   "exemple_traduction": "Le contrôleur donne du thé."
+  },
+  {
+   "mot": "подстака́нник",
+   "prononciation": "podstaKANNik",
+   "nature": "nom m.",
+   "traduction": "porte-verre en métal",
+   "exemple": "Чай в подстака́ннике.",
+   "exemple_traduction": "Le thé dans un porte-verre."
+  },
+  {
+   "mot": "е́здить",
+   "prononciation": "YEZdit'",
+   "nature": "verbe",
+   "traduction": "aller (en véhicule, régulièrement)",
+   "exemple": "Я е́зжу на рабо́ту.",
+   "exemple_traduction": "Je vais au travail (en véhicule, hab.)."
+  },
+  {
+   "mot": "ходи́ть",
+   "prononciation": "khoDIT'",
+   "nature": "verbe",
+   "traduction": "aller (à pied, régulièrement)",
+   "exemple": "Я хожу́ в парк.",
+   "exemple_traduction": "Je vais au parc (à pied, hab.)."
+  },
+  {
+   "mot": "е́хать",
+   "prononciation": "YE-khat'",
+   "nature": "verbe",
+   "traduction": "aller (en véhicule, une fois)",
+   "exemple": "Я е́ду до́мой.",
+   "exemple_traduction": "Je rentre à la maison (en véhicule)."
+  },
+  {
+   "mot": "идти́",
+   "prononciation": "idTI",
+   "nature": "verbe",
+   "traduction": "aller (à pied, une fois)",
+   "exemple": "Я иду́ в шко́лу.",
+   "exemple_traduction": "Je vais à l'école (à pied)."
+  },
+  {
+   "mot": "мимо́",
+   "prononciation": "miMO",
+   "nature": "préposition",
+   "traduction": "devant, en passant",
+   "exemple": "По́езд идёт мимо́ ста́нции.",
+   "exemple_traduction": "Le train passe devant la gare."
+  },
+  {
+   "mot": "че́рез",
+   "prononciation": "CHErez",
+   "nature": "préposition",
+   "traduction": "à travers",
+   "exemple": "Мы е́дем че́рез лес.",
+   "exemple_traduction": "Nous voyageons à travers la forêt."
+  },
+  {
+   "mot": "по",
+   "prononciation": "po",
+   "nature": "préposition",
+   "traduction": "le long de, sur",
+   "exemple": "Я иду́ по у́лице.",
+   "exemple_traduction": "Je marche dans la rue."
+  },
+  {
+   "mot": "ка́сса",
+   "prononciation": "KASsa",
+   "nature": "nom f.",
+   "traduction": "caisse, guichet",
+   "exemple": "Биле́ты в ка́ссе.",
+   "exemple_traduction": "Les billets sont à la caisse."
+  },
+  {
+   "mot": "табло́",
+   "prononciation": "tabLO",
+   "nature": "nom n.",
+   "traduction": "panneau d'affichage",
+   "exemple": "Смотри́ на табло́.",
+   "exemple_traduction": "Regarde le panneau."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Verbes de mouvement : unidirectionnels vs multidirectionnels",
+   "explication": "En russe, les verbes de mouvement se divisent en deux catégories. Les verbes unidirectionnels (идти́, е́хать) décrivent un mouvement précis, dans une seule direction, à un moment donné (j'y vais maintenant). Les verbes multidirectionnels (ходи́ть, е́здить) expriment un mouvement habituel, répété, ou un aller-retour (j'y vais souvent, j'y vais tous les jours). Au passé, cette distinction existe aussi : я шёл / я е́хал (j'étais en train d'aller) contre я ходи́л / я е́здил (j'y suis allé et revenu, ou j'y allais régulièrement).",
+   "tableau": [
+    [
+     "Unidirectionnel (une fois)",
+     "Multidirectionnel (habituel/répété)"
+    ],
+    [
+     "идти́ (à pied)",
+     "ходи́ть (à pied)"
+    ],
+    [
+     "е́хать (en transport)",
+     "е́здить (en transport)"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Я е́ду в Москву́.",
+     "natif": "Je vais à Moscou (maintenant, en train)."
+    },
+    {
+     "cible": "Я е́зжу в Москву́ ка́ждый ме́сяц.",
+     "natif": "Je vais à Moscou chaque mois."
+    }
+   ]
+  },
+  {
+   "titre": "Prépositions de mouvement : по, через, мимо",
+   "explication": "Pour décrire le trajet, on utilise des prépositions spécifiques avec l'accusatif ou d'autres cas. « Че́рез » (+ accusatif) signifie « à travers » ou « dans » (через лес, через час). « Мимо́ » (+ génitif) indique le passage devant un lieu sans s'y arrêter (мимо вокзала). « По » (+ datif) exprime le déplacement sur une surface ou le long de quelque chose (по улице, по парку). Ces prépositions enrichissent la description de vos voyages en Russie.",
+   "tableau": [
+    [
+     "Préposition",
+     "Cas",
+     "Sens"
+    ],
+    [
+     "че́рез",
+     "Accusatif",
+     "à travers, dans (temps)"
+    ],
+    [
+     "мимо́",
+     "Génitif",
+     "devant, en passant"
+    ],
+    [
+     "по",
+     "Datif",
+     "le long de, sur"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "По́езд е́дет че́рез лес.",
+     "natif": "Le train traverse la forêt."
+    },
+    {
+     "cible": "Я иду́ по па́рку.",
+     "natif": "Je marche dans le parc."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "La voyelle [ы] en contexte",
+  "explication": "La voyelle russe [ы] n'existe pas en français. Pour la prononcer, commencez par prononcer un [i] français, puis reculez la langue vers le fond de la bouche tout en gardant les lèvres non arrondies et légèrement étirées. C'est un son guttural et profond. Attention à ne pas le confondre avec [и]. Dans les verbes de mouvement comme ходи́ть ou е́здить, ainsi que dans идти́, le [ы] est essentiel pour la compréhension.",
+  "exemples": [
+   "ходи́ть (khoDIT')",
+   "е́здить (YEZdit')",
+   "идти́ (idTI)",
+   "мы (my)",
+   "сыр (syr)"
+  ]
+ },
+ "culture": {
+  "titre": "Le train russe : une institution",
+  "texte": "En Russie, le train est bien plus qu'un moyen de transport : c'est un espace social et culturel. Les longs trajets à travers les paysages infinis de la taïga se font souvent en « плацка́рт » (wagon ouvert de 3e classe), où les voyageurs partagent leurs repas et leurs histoires. Le « проводни́к » (contrôleur) veille sur le wagon et distribue le thé brûlant servi dans un « подстака́нник », l'emblématique porte-verre en métal. Voyager en train, c'est découvrir l'âme russe au rythme des rails."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez la bonne forme du verbe de mouvement.",
+   "items": [
+    {
+     "question": "Я (иду́ / хожу́) в университе́т ка́ждый день.",
+     "choix": [
+      "иду́",
+      "хожу́"
+     ],
+     "reponse": "хожу́"
+    },
+    {
+     "question": "Сего́дня мы (е́дем / е́здим) в Санкт-Петербу́рг.",
+     "choix": [
+      "е́дем",
+      "е́здим"
+     ],
+     "reponse": "е́дем"
+    },
+    {
+     "question": "В про́шлом году́ я (е́здил / е́хал) в Пари́ж.",
+     "choix": [
+      "е́здил",
+      "е́хал"
+     ],
+     "reponse": "е́здил"
+    },
+    {
+     "question": "Мой друг часто́ (идёт / хо́дит) в музе́й.",
+     "choix": [
+      "идёт",
+      "хо́дит"
+     ],
+     "reponse": "хо́дит"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez avec la préposition correcte (по, через, мимо).",
+   "items": [
+    {
+     "question": "По́езд е́дет ___ лес.",
+     "reponse": "че́рез"
+    },
+    {
+     "question": "Я гуля́ю ___ па́рку.",
+     "reponse": "по"
+    },
+    {
+     "question": "Авто́бус прое́хал ___ вокза́л.",
+     "reponse": "мимо́"
+    },
+    {
+     "question": "Мы идём ___ у́лице.",
+     "reponse": "по"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez le verbe à sa description.",
+   "items": [
+    {
+     "question": "идти́",
+     "reponse": "aller à pied (une fois)"
+    },
+    {
+     "question": "ходи́ть",
+     "reponse": "aller à pied (régulièrement)"
+    },
+    {
+     "question": "е́хать",
+     "reponse": "aller en transport (une fois)"
+    },
+    {
+     "question": "е́здить",
+     "reponse": "aller en transport (régulièrement)"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez les mots dans l'ordre pour former une phrase correcte.",
+   "items": [
+    {
+     "question": "в / е́зжу / ка́ждый / я / Москву́ / ме́сяц",
+     "reponse": "Я е́зжу в Москву́ ка́ждый ме́сяц."
+    },
+    {
+     "question": "по / гуля́ла / па́рку / она́",
+     "reponse": "Она́ гуля́ла по па́рку."
+    },
+    {
+     "question": "че́рез / по́езд / е́дет / лес",
+     "reponse": "По́езд е́дет че́рез лес."
+    },
+    {
+     "question": "на / мы / табло́ / смо́трим",
+     "reponse": "Мы смо́трим на табло́."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez les phrases en russe.",
+   "items": [
+    {
+     "question": "Je vais à la caisse (maintenant, à pied).",
+     "reponse": "Я иду́ в ка́ссу."
+    },
+    {
+     "question": "Il voyage en train chaque année.",
+     "reponse": "Он е́здит на по́езде ка́ждый год."
+    },
+    {
+     "question": "Le train passe devant la gare.",
+     "reponse": "По́езд идёт мимо́ вокза́ла."
+    },
+    {
+     "question": "J'ai acheté un billet.",
+     "reponse": "Я купи́л биле́т."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez et choisissez la phrase correcte.",
+   "items": [
+    {
+     "question": "Audio: Я е́зжу в Пари́ж ка́ждый год.",
+     "choix": [
+      "Je vais à Paris chaque année.",
+      "Je vais à Paris maintenant."
+     ],
+     "reponse": "Je vais à Paris chaque année."
+    },
+    {
+     "question": "Audio: Мы гуля́ем по па́рку.",
+     "choix": [
+      "Nous traversons le parc.",
+      "Nous nous promenons dans le parc."
+     ],
+     "reponse": "Nous nous promenons dans le parc."
+    },
+    {
+     "question": "Audio: По́езд е́дет че́рез лес.",
+     "choix": [
+      "Le train traverse la forêt.",
+      "Le train passe devant la forêt."
+     ],
+     "reponse": "Le train traverse la forêt."
+    },
+    {
+     "question": "Audio: Я купи́л биле́т на плацка́рт.",
+     "choix": [
+      "J'ai acheté un billet en wagon ouvert.",
+      "J'ai acheté un billet en première classe."
+     ],
+     "reponse": "J'ai acheté un billet en wagon ouvert."
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bienvenue dans la leçon 18 ! Aujourd'hui, nous sommes à la gare Kazanski de Moscou avec Thomas et Masha.",
+   "ecran": "Le hall de la gare Kazanski apparaît en 3D avec son architecture imposante.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Thomas veut acheter un billet pour Saint-Pétersbourg. Masha va lui expliquer la différence entre aller quelque part une fois, et y aller régulièrement.",
+   "ecran": "Thomas et Masha marchent vers le panneau des départs.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Ма́ша, мы на Каза́нском вокза́ле. Я хочу́ купи́ть биле́т в Санкт-Петербу́рг.",
+   "ecran": "Thomas regarde le panneau et pointe le guichet.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v04",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Ты е́дешь туда́ сейча́с, оди́н раз?",
+   "ecran": "Masha sourit et lève un doigt.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Да, я е́ду в Петербу́рг на не́делю. А ты часто́ е́здишь в Петербу́рг?",
+   "ecran": "Thomas hoche la tête.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Да, я е́зжу туда́ ка́ждый ме́сяц. Там живу́т мои́ роди́тели.",
+   "ecran": "Masha compte sur ses doigts.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Notez bien : « е́ду » décrit un voyage ponctuel, tandis que « е́зжу » exprime la répétition.",
+   "ecran": "Zoom sur les mots « е́ду » et « е́зжу » qui s'illuminent.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v08",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Понима́ю. «Е́ду» — э́то оди́н раз, а «е́зжу» — э́то регуля́рно.",
+   "ecran": "Thomas fait un geste de la main pour montrer la répétition.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Ве́рно! А в про́шлом году́ ты е́здил в Евро́пу?",
+   "ecran": "Masha acquiesce avec enthousiasme.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Да, я е́здил в Пари́ж. А ты ходи́ла в музе́й на э́той неде́ле?",
+   "ecran": "Thomas sort son téléphone.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Да, я ходи́ла в Третьяко́вскую галере́ю. Я гуля́ла по па́рку.",
+   "ecran": "Masha mime la marche.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Смотри́ на табло́! По́езд но́мер два идёт в Петербу́рг.",
+   "ecran": "Thomas pointe l'écran des départs.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Отли́чно. Пойдём в ка́ссу. Нам на́до купи́ть биле́т на плацка́рт.",
+   "ecran": "Masha prend son sac et se dirige vers le guichet.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Répétons maintenant le vocabulaire du voyage. Écoutez et répétez.",
+   "ecran": "Affichage des mots de vocabulaire avec leur translittération.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v15",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "вокза́л... биле́т... по́езд... плацка́рт...",
+   "ecran": "Les objets 3D correspondants apparaissent successivement.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la grammaire. Les verbes unidirectionnels comme идти́ et е́хать décrivent un mouvement précis, dans une seule direction.",
+   "ecran": "Animation d'un bonhomme marchant d'un point A à un point B.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v17",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Les verbes multidirectionnels comme ходи́ть et е́здить expriment un mouvement habituel, répété, ou un aller-retour.",
+   "ecran": "Animation du bonhomme faisant des allers-retours entre A et B.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Pour décrire le trajet, utilisez че́rez avec l'accusatif pour « à travers », мимо́ avec le génitif pour « devant », et по avec le datif pour « le long de ».",
+   "ecran": "Schéma des prépositions avec un train traversant une forêt et passant devant une gare.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Prononciation : la voyelle [ы]. Reculez la langue vers le fond de la bouche, lèvres non arrondies. Écoutez : ходи́ть, е́здить, идти́.",
+   "ecran": "Gros plan sur une bouche 3D prononçant le son [ы].",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Un peu de culture ! En Russie, le voyage en train est une institution. On y partage son repas en плацка́рт et on boit du thé dans un подстака́нник, le fameux porte-verre en métal.",
+   "ecran": "Modèle 3D d'un intérieur de wagon плацка́рт avec un подстака́нник sur la table.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "C'est l'heure des exercices ! Commencez par le QCM : choisissez la bonne forme du verbe de mouvement.",
+   "ecran": "Interface de l'exercice QCM.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice suivant : complétez les phrases avec la préposition correcte : по, через ou мимо.",
+   "ecran": "Interface de l'exercice à trous.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Associez maintenant chaque verbe à sa description. Attention à la différence entre ponctuel et habituel !",
+   "ecran": "Interface de l'exercice d'association.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Remettez les mots dans l'ordre pour former des phrases correctes.",
+   "ecran": "Interface de l'exercice de remise en ordre.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Traduisez ces phrases en russe. N'oubliez pas les accents toniques !",
+   "ecran": "Interface de l'exercice de traduction.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Dernier exercice : écoutez bien les phrases et choisissez la bonne traduction en français.",
+   "ecran": "Interface de l'exercice d'écoute.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo ! Vous maîtrisez maintenant les verbes de mouvement multidirectionnels et le vocabulaire du train russe. À bientôt pour la prochaine leçon !",
+   "ecran": "Thomas et Masha montent dans le train, le paysage défile.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Идти́ и е́хать описыва́ют однократное движе́ние.",
+   "natif": "Идти et е́хать décrivent un mouvement ponctuel."
+  },
+  {
+   "cible": "Ходи́ть и е́здить выража́ют привы́чное движе́ние.",
+   "natif": "Ходи́ть et е́здить expriment un mouvement habituel."
+  },
+  {
+   "cible": "Предло́г че́рез тре́бует вини́тельного падежа́.",
+   "natif": "La préposition че́rez demande l'accusatif."
+  },
+  {
+   "cible": "Предло́г мимо́ тре́бует роди́тельного падежа́.",
+   "natif": "La préposition мимо́ demande le génitif."
+  },
+  {
+   "cible": "Предло́г по тре́бует да́тельного падежа́.",
+   "natif": "La préposition по demande le datif."
+  }
+ ],
+ "controle": []
+}

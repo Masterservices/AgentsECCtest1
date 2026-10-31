@@ -1,0 +1,720 @@
+{
+ "cours": "fr-pour-russes",
+ "num": 30,
+ "niveau": "B1",
+ "id": "fr-pour-russes-B1-30",
+ "titre": {
+  "cible": "L'entretien décisif",
+  "natif": "Решающее собеседование"
+ },
+ "objectifs": [
+  "Аргументировать свою мотивацию и защищать точку зрения",
+  "Строить гипотезы о прошлом и выражать сожаление",
+  "Различать сослагательное и изъявительное наклонения после глаголов мнения",
+  "Использовать эмфатические конструкции для выделения информации"
+ ],
+ "scene": {
+  "lieu": "Bureau du DRH avec vue sur la Défense",
+  "moment": "Matinée",
+  "decor_3d": "Un bureau moderne et lumineux au 15ème étage. Grande baie vitrée montrant les gratte-ciels de la Défense. Un grand bureau en verre, deux fauteuils confortables, des plantes vertes.",
+  "objets": [
+   "bureau en verre",
+   "fauteuil",
+   "baie vitrée",
+   "dossier de candidature",
+   "tasse de café"
+  ],
+  "personnages": [
+   "anna"
+  ],
+  "figurants": [
+   {
+    "id": "drh_masson",
+    "nom": "M. Masson",
+    "apparence": "Homme de 50 ans, costume gris, cheveux poivre et sel, lunettes",
+    "voix": "grave et posée"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "drh_masson",
+   "texte": "Bonjour Anna. Asseyez-vous. C'est vous qui avez réalisé l'étude de marché le mois dernier ?",
+   "traduction": "Здравствуйте, Анна. Садитесь. Это вы провели исследование рынка в прошлом месяце?",
+   "geste": "Sourit et pointe le fauteuil."
+  },
+  {
+   "perso": "anna",
+   "texte": "Bonjour Monsieur. Oui, c'est moi qui l'ai faite. J'en suis très fière.",
+   "traduction": "Здравствуйте, месье. Да, это я его провела. Я очень этим горжусь.",
+   "geste": "S'assoit et sourit avec assurance."
+  },
+  {
+   "perso": "drh_masson",
+   "texte": "Très bien. Pourquoi voulez-vous ce CDI ? Qu'est-ce qui vous motive ?",
+   "traduction": "Очень хорошо. Почему вы хотите этот бессрочный контракт? Что вас мотивирует?",
+   "geste": "Regarde le dossier et lève les yeux."
+  },
+  {
+   "perso": "anna",
+   "texte": "J'adore l'ambiance de l'équipe. Je pense que c'est le meilleur endroit pour évoluer.",
+   "traduction": "Мне очень нравится атмосфера в команде. Я думаю, что это лучшее место для развития.",
+   "geste": "Ouvre les mains, regard passionné."
+  },
+  {
+   "perso": "drh_masson",
+   "texte": "Et si vous n'aviez pas fait ce stage, que feriez-vous aujourd'hui ?",
+   "traduction": "А если бы вы не прошли эту стажировку, что бы вы делали сегодня?",
+   "geste": "Penche la tête, air réfléchi."
+  },
+  {
+   "perso": "anna",
+   "texte": "Si je n'avais pas fait ce stage, je n'aurais jamais découvert ce secteur.",
+   "traduction": "Если бы я не прошла эту стажировку, я бы никогда не открыла для себя эту сферу.",
+   "geste": "Hoche la tête, ton sincère."
+  },
+  {
+   "perso": "drh_masson",
+   "texte": "Intéressant. Mais je ne pense pas que vous ayez assez d'expérience en management.",
+   "traduction": "Интересно. Но я не думаю, что у вас достаточно опыта в управлении.",
+   "geste": "Fronce légèrement les sourcils."
+  },
+  {
+   "perso": "anna",
+   "texte": "Je comprends. Pourtant, c'est Julien qui m'a formée, et j'ai géré trois projets.",
+   "traduction": "Я понимаю. Тем не менее, именно Жюльен меня обучал, и я вела три проекта.",
+   "geste": "Garde le contact visuel, ton calme."
+  },
+  {
+   "perso": "drh_masson",
+   "texte": "C'est vrai. Je crois que vous êtes capable d'apprendre vite.",
+   "traduction": "Это правда. Я считаю, что вы способны быстро учиться.",
+   "geste": "Sourit et hoche la tête."
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci. J'aurais aimé avoir plus de temps pour le dernier projet, mais j'ai fait de mon mieux.",
+   "traduction": "Спасибо. Я бы хотела, чтобы у меня было больше времени на последний проект, но я сделала всё возможное.",
+   "geste": "Sourire modeste, mains jointes."
+  },
+  {
+   "perso": "drh_masson",
+   "texte": "Nous cherchons quelqu'un d'autonome et rigoureux.",
+   "traduction": "Мы ищем кого-то самостоятельного и пунктуального (тщательного).",
+   "geste": "Pose le stylo, regard direct."
+  },
+  {
+   "perso": "anna",
+   "texte": "Absolument. C'est cette autonomie que je souhaite développer ici.",
+   "traduction": "Абсолютно. Именно эту самостоятельность я и хочу развивать здесь.",
+   "geste": "Se redresse, air déterminé."
+  },
+  {
+   "perso": "drh_masson",
+   "texte": "Très bien. Nous vous donnerons une réponse vendredi.",
+   "traduction": "Очень хорошо. Мы дадим вам ответ в пятницу.",
+   "geste": "Ferme le dossier, se lève."
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci beaucoup, Monsieur Masson. Bonne journée.",
+   "traduction": "Большое спасибо, месье Массон. Хорошего дня.",
+   "geste": "Se lève et serre la main."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "un entretien",
+   "prononciation": "[ɑ̃tʁətjɛ̃]",
+   "nature": "nom m.",
+   "traduction": "собеседование",
+   "exemple": "J'ai un entretien d'embauche demain.",
+   "exemple_traduction": "Завтра у меня собеседование при приеме на работу."
+  },
+  {
+   "mot": "un CDI",
+   "prononciation": "[se.de.i]",
+   "nature": "nom m.",
+   "traduction": "бессрочный трудовой договор",
+   "exemple": "Elle a enfin signé un CDI.",
+   "exemple_traduction": "Она наконец подписала бессрочный контракт."
+  },
+  {
+   "mot": "la motivation",
+   "prononciation": "[mɔtivasjɔ̃]",
+   "nature": "nom f.",
+   "traduction": "мотивация",
+   "exemple": "Votre motivation est votre plus grand atout.",
+   "exemple_traduction": "Ваша мотивация — ваш самый большой козырь."
+  },
+  {
+   "mot": "évoluer",
+   "prononciation": "[evɔlɥe]",
+   "nature": "verbe",
+   "traduction": "развиваться, продвигаться",
+   "exemple": "Je cherche un poste pour évoluer.",
+   "exemple_traduction": "Я ищу должность для карьерного роста."
+  },
+  {
+   "mot": "un secteur",
+   "prononciation": "[sɛktœʁ]",
+   "nature": "nom m.",
+   "traduction": "сфера, сектор",
+   "exemple": "C'est un secteur très dynamique.",
+   "exemple_traduction": "Это очень динамичная сфера."
+  },
+  {
+   "mot": "le management",
+   "prononciation": "[manadʒmənt]",
+   "nature": "nom m.",
+   "traduction": "управление, менеджмент",
+   "exemple": "Il a de l'expérience en management.",
+   "exemple_traduction": "У него есть опыт в управлении."
+  },
+  {
+   "mot": "assumer",
+   "prononciation": "[asyme]",
+   "nature": "verbe",
+   "traduction": "брать на себя (ответственность)",
+   "exemple": "Je peux assumer ces responsabilités.",
+   "exemple_traduction": "Я могу взять на себя эти обязанности."
+  },
+  {
+   "mot": "une responsabilité",
+   "prononciation": "[ʁɛspɔ̃sabilite]",
+   "nature": "nom f.",
+   "traduction": "ответственность",
+   "exemple": "C'est une grande responsabilité.",
+   "exemple_traduction": "Это большая ответственность."
+  },
+  {
+   "mot": "autonome",
+   "prononciation": "[otɔnɔm]",
+   "nature": "adj.",
+   "traduction": "самостоятельный, автономный",
+   "exemple": "Elle est très autonome dans son travail.",
+   "exemple_traduction": "Она очень самостоятельна в своей работе."
+  },
+  {
+   "mot": "rigoureux",
+   "prononciation": "[ʁiguʁø]",
+   "nature": "adj.",
+   "traduction": "тщательный, строгий",
+   "exemple": "Il faut être rigoureux.",
+   "exemple_traduction": "Нужно быть тщательным."
+  },
+  {
+   "mot": "embaucher",
+   "prononciation": "[ɑ̃boʃe]",
+   "nature": "verbe",
+   "traduction": "нанимать на работу",
+   "exemple": "L'entreprise va embaucher trois personnes.",
+   "exemple_traduction": "Компания наймет трех человек."
+  },
+  {
+   "mot": "la carrière",
+   "prononciation": "[kaʁjɛʁ]",
+   "nature": "nom f.",
+   "traduction": "карьера",
+   "exemple": "Je veux construire ma carrière ici.",
+   "exemple_traduction": "Я хочу строить свою карьеру здесь."
+  },
+  {
+   "mot": "l'ambition",
+   "prononciation": "[ɑ̃bisjɔ̃]",
+   "nature": "nom f.",
+   "traduction": "амбиция, стремление",
+   "exemple": "Elle a de grandes ambitions.",
+   "exemple_traduction": "У нее большие амбиции."
+  },
+  {
+   "mot": "les valeurs",
+   "prononciation": "[valœʁ]",
+   "nature": "nom f. pl.",
+   "traduction": "ценности",
+   "exemple": "Je partage les valeurs de l'entreprise.",
+   "exemple_traduction": "Я разделяю ценности компании."
+  },
+  {
+   "mot": "un atout",
+   "prononciation": "[atu]",
+   "nature": "nom m.",
+   "traduction": "козырь, преимущество",
+   "exemple": "Le bilinguisme est un atout majeur.",
+   "exemple_traduction": "Двуязычие — это важное преимущество."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Le conditionnel passé (Сослагательное наклонение прошедшего времени)",
+   "explication": "Conditionnel passé используется для выражения сожаления, упрека или нереального предположения в прошлом. Оно образуется с помощью вспомогательных глаголов avoir или être в conditionnel présent и причастия прошедшего времени (participe passé) основного глагола. Часто используется в придаточных предложениях с si + plus-que-parfait (если бы в прошлом).",
+   "tableau": [
+    [
+     "J'aurais aimé",
+     "Я бы хотел (сожаление)"
+    ],
+    [
+     "Tu serais allé(e)",
+     "Ты бы пошел (гипотеза)"
+    ],
+    [
+     "Si j'avais su, j'aurais agi.",
+     "Если бы я знал, я бы действовал."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Si je n'avais pas fait ce stage, je n'aurais jamais découvert ce secteur.",
+     "natif": "Если бы я не прошла эту стажировку, я бы никогда не открыла для себя эту сферу."
+    },
+    {
+     "cible": "J'aurais aimé avoir plus de temps pour le dernier projet.",
+     "natif": "Я бы хотела, чтобы у меня было больше времени на последний проект."
+    }
+   ]
+  },
+  {
+   "titre": "Subjonctif vs Indicatif après les verbes d'opinion et la mise en relief",
+   "explication": "Глаголы мнения (penser, croire, trouver) требуют изъявительного наклонения (indicatif) в утвердительной форме, так как выражают уверенность. Однако в отрицательной или вопросительной форме они требуют сослагательного наклонения (subjonctif), выражая сомнение. Эмфатические конструкции (Mise en relief) с 'C'est... qui/que' используются для выделения главного члена предложения. 'Qui' выделяет подлежащее, 'que' — дополнение.",
+   "tableau": [
+    [
+     "Je pense qu'il est prêt. (Indicatif)",
+     "Я думаю, он готов."
+    ],
+    [
+     "Je ne pense pas qu'il soit prêt. (Subjonctif)",
+     "Я не думаю, что он готов."
+    ],
+    [
+     "C'est moi qui ai fait ce projet.",
+     "Именно я сделал этот проект."
+    ],
+    [
+     "C'est ce poste que je veux.",
+     "Именно эту должность я хочу."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Je ne pense pas que vous ayez assez d'expérience.",
+     "natif": "Я не думаю, что у вас достаточно опыта."
+    },
+    {
+     "cible": "C'est cette autonomie que je souhaite développer.",
+     "natif": "Именно эту самостоятельность я хочу развивать."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Assurance et fluidité à l'oral (Уверенность и беглость речи)",
+  "explication": "Для успешного собеседования важно звучать уверенно. Используйте нисходящую интонацию в конце утвердительных предложений, чтобы показать уверенность в своих словах. Делайте короткие паузы перед важными словами (например, перед 'c'est moi qui...') и используйте слова-связки (pourtant, absolument) для плавности речи.",
+  "exemples": [
+   "Je pense que ↘ c'est le meilleur endroit pour évoluer.",
+   "Absolument. ↗ C'est cette autonomie ↘ que je souhaite développer ici."
+  ]
+ },
+ "culture": {
+  "titre": "Le CDI et le droit du travail français",
+  "texte": "Во Франции CDI (Contrat à Durée Indéterminée) — это бессрочный трудовой договор, который считается «золотым стандартом» и обеспечивает максимальную защиту работника. Трудовое право (Code du travail) строго регламентирует условия: минимальная оплата, 5 недель оплачиваемого отпуска, защита от необоснованного увольнения. Из-за высокой социальной защиты работодатели очень тщательно отбирают кандидатов на CDI, проводя несколько этапов собеседований. Получение CDI часто необходимо для аренды жилья или оформления ипотеки, что делает его важной социальной и экономической целью для молодых специалистов."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez la bonne forme verbale (indicatif ou subjonctif).",
+   "items": [
+    {
+     "question": "Je ne pense pas qu'il (est / soit) prêt pour ce poste.",
+     "choix": [
+      "est",
+      "soit"
+     ],
+     "reponse": "soit"
+    },
+    {
+     "question": "Je crois qu'elle (peut / puisse) réussir.",
+     "choix": [
+      "peut",
+      "puisse"
+     ],
+     "reponse": "peut"
+    },
+    {
+     "question": "C'est moi qui (ai / a) géré ce projet.",
+     "choix": [
+      "ai",
+      "a"
+     ],
+     "reponse": "ai"
+    },
+    {
+     "question": "Si j'avais su, j' (aurais / aurai) accepté l'offre.",
+     "choix": [
+      "aurais",
+      "aurai"
+     ],
+     "reponse": "aurais"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez avec 'C'est', 'qui' ou 'que' pour la mise en relief.",
+   "items": [
+    {
+     "question": "... Julien ... m'a aidée.",
+     "reponse": "C'est, qui"
+    },
+    {
+     "question": "... ce poste ... je veux.",
+     "reponse": "C'est, que"
+    },
+    {
+     "question": "... vous ... avez signé le contrat.",
+     "reponse": "C'est, qui"
+    },
+    {
+     "question": "... cette entreprise ... j'adore.",
+     "reponse": "C'est, que"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Reliez le début de la phrase à sa fin logique.",
+   "items": [
+    {
+     "question": "Si tu m'avais écouté,",
+     "reponse": "tu aurais réussi."
+    },
+    {
+     "question": "J'aurais aimé",
+     "reponse": "partir plus tôt."
+    },
+    {
+     "question": "Je ne crois pas",
+     "reponse": "qu'il sache la vérité."
+    },
+    {
+     "question": "Je pense",
+     "reponse": "qu'il est honnête."
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez les mots dans l'ordre pour former une phrase correcte.",
+   "items": [
+    {
+     "question": "CDI / un / obtenir / je / veux",
+     "reponse": "je veux obtenir un CDI"
+    },
+    {
+     "question": "expérience / l' / j'aurais / aimé / avoir",
+     "reponse": "j'aurais aimé avoir l'expérience"
+    },
+    {
+     "question": "moi / qui / c'est / ai / fait",
+     "reponse": "c'est moi qui ai fait"
+    },
+    {
+     "question": "pense / je / que / compétent / il / est",
+     "reponse": "je pense qu'il est compétent"
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez les phrases en français.",
+   "items": [
+    {
+     "question": "Если бы я знал, я бы пришел.",
+     "reponse": "Si j'avais su, je serais venu."
+    },
+    {
+     "question": "Я не думаю, что он прав.",
+     "reponse": "Je ne pense pas qu'il ait raison."
+    },
+    {
+     "question": "Именно я сделал этот проект.",
+     "reponse": "C'est moi qui ai fait ce projet."
+    },
+    {
+     "question": "Я бы хотел иметь больше опыта.",
+     "reponse": "J'aurais aimé avoir plus d'expérience."
+    }
+   ]
+  },
+  {
+   "type": "oral",
+   "consigne": "Répondez à haute voix aux questions du recruteur comme Anna.",
+   "items": [
+    {
+     "question": "Pourquoi voulez-vous ce poste ?",
+     "reponse": "Parce que c'est le meilleur endroit pour évoluer."
+    },
+    {
+     "question": "Avez-vous de l'expérience ?",
+     "reponse": "Oui, c'est moi qui ai géré le dernier projet."
+    },
+    {
+     "question": "Que feriez-vous si vous n'étiez pas embauchée ?",
+     "reponse": "Si je n'avais pas ce poste, je chercherais ailleurs."
+    },
+    {
+     "question": "Pensez-vous être autonome ?",
+     "reponse": "Je crois que je suis très autonome."
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Добро пожаловать на 30-й урок! Сегодня Анна проходит решающее собеседование на получение бессрочного контракта.",
+   "ecran": "Vue extérieure de la tour de la Défense, zoom sur le bureau du DRH.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Наши цели: научиться аргументировать мотивацию, выражать сожаления о прошлом и правильно использовать наклонения после глаголов мнения.",
+   "ecran": "Affichage des objectifs pédagogiques à l'écran.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "drh_masson",
+   "langue": "fr",
+   "texte": "Bonjour Anna. Asseyez-vous. C'est vous qui avez réalisé l'étude de marché le mois dernier ?",
+   "ecran": "M. Masson accueille Anna dans son bureau.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v04",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Bonjour Monsieur. Oui, c'est moi qui l'ai faite. J'en suis très fière.",
+   "ecran": "Anna s'assoit avec assurance.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "drh_masson",
+   "langue": "fr",
+   "texte": "Très bien. Pourquoi voulez-vous ce CDI ? Qu'est-ce qui vous motive ?",
+   "ecran": "M. Masson ouvre le dossier de candidature.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "J'adore l'ambiance de l'équipe. Je pense que c'est le meilleur endroit pour évoluer.",
+   "ecran": "Anna parle avec enthousiasme.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "drh_masson",
+   "langue": "fr",
+   "texte": "Et si vous n'aviez pas fait ce stage, que feriez-vous aujourd'hui ?",
+   "ecran": "M. Masson pose une question hypothétique.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Si je n'avais pas fait ce stage, je n'aurais jamais découvert ce secteur.",
+   "ecran": "Anna répond avec sincérité.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "drh_masson",
+   "langue": "fr",
+   "texte": "Intéressant. Mais je ne pense pas que vous ayez assez d'expérience en management.",
+   "ecran": "M. Masson émet un doute.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Je comprends. Pourtant, c'est Julien qui m'a formée, et j'ai géré trois projets.",
+   "ecran": "Anna défend son point de vue calmement.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "drh_masson",
+   "langue": "fr",
+   "texte": "C'est vrai. Je crois que vous êtes capable d'apprendre vite.",
+   "ecran": "M. Masson approuve.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci. J'aurais aimé avoir plus de temps pour le dernier projet, mais j'ai fait de mon mieux.",
+   "ecran": "Anna montre son honnêteté.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "drh_masson",
+   "langue": "fr",
+   "texte": "Nous cherchons quelqu'un d'autonome et rigoureux.",
+   "ecran": "M. Masson précise les attentes.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Absolument. C'est cette autonomie que je souhaite développer ici.",
+   "ecran": "Anna conclut avec détermination.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "drh_masson",
+   "langue": "fr",
+   "texte": "Très bien. Nous vous donnerons une réponse vendredi.",
+   "ecran": "M. Masson ferme le dossier.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci beaucoup, Monsieur Masson. Bonne journée.",
+   "ecran": "Anna serre la main du DRH.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отличная работа! Теперь давайте изучим новую лексику, связанную с карьерой и собеседованием. Повторяйте за диктором.",
+   "ecran": "Affichage des mots de vocabulaire avec icônes 3D.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Перейдем к грамматике. Conditionnel passé используется для нереальных гипотез в прошлом и сожалений. Обратите внимание на конструкцию с 'si'.",
+   "ecran": "Tableau de grammaire : Conditionnel passé.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Запомните: глаголы мнения требуют субжонктива в отрицании, но индикатива в утверждении. А конструкция 'C'est... qui/que' помогает выделить главное.",
+   "ecran": "Tableau de grammaire : Subjonctif vs Indicatif et Mise en relief.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Для уверенной речи используйте нисходящую интонацию в конце фразы и делайте паузы перед важными словами.",
+   "ecran": "Ondes sonores montrant l'intonation descendante.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Немного культуры: CDI во Франции — это символ стабильности, дающий доступ к ипотеке и сильную защиту трудовым кодексом.",
+   "ecran": "Infographie sur le CDI et le Code du travail.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 1. Выберите правильную форму глагола.",
+   "ecran": "Interface QCM.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 2. Заполните пропуски словами C'est, qui или que.",
+   "ecran": "Interface texte à trous.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 3. Соедините начало и конец предложения.",
+   "ecran": "Interface d'association par glisser-déposer.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 4. Составьте предложения из слов в правильном порядке.",
+   "ecran": "Mots mélangés à remettre en ordre.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 5. Переведите предложения на французский язык.",
+   "ecran": "Phrases en russe à traduire.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 6. Ответьте устно на вопросы рекрутера, как это сделала Анна.",
+   "ecran": "Simulation orale avec micro virtuel.",
+   "interaction": "parler"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Поздравляю! Урок завершен. Вы отлично справились с сложными грамматическими конструкциями. До встречи на следующем уроке!",
+   "ecran": "Écran de félicitations avec confettis 3D.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Le conditionnel passé exprime un regret ou une hypothèse irréelle.",
+   "natif": "Сослагательное наклонение прошедшего времени выражает сожаление или нереальную гипотезу."
+  },
+  {
+   "cible": "Les verbes d'opinion négatifs sont suivis du subjonctif.",
+   "natif": "После отрицательных глаголов мнения используется сослагательное наклонение."
+  },
+  {
+   "cible": "La mise en relief (c'est... qui/que) souligne une information.",
+   "natif": "Эмфатическая конструкция (c'est... qui/que) выделяет информацию."
+  },
+  {
+   "cible": "Le CDI offre une grande sécurité de l'emploi en France.",
+   "natif": "Бессрочный контракт (CDI) обеспечивает высокую защиту труда во Франции."
+  },
+  {
+   "cible": "L'intonation descendante montre l'assurance à l'oral.",
+   "natif": "Нисходящая интонация демонстрирует уверенность в устной речи."
+  }
+ ],
+ "controle": []
+}

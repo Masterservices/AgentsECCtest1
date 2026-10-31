@@ -1,0 +1,804 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 17,
+ "niveau": "A2",
+ "id": "ru-pour-francais-A2-17",
+ "titre": {
+  "cible": "Глаго́лы движе́ния: идти́ и е́хать",
+  "natif": "Verbes de mouvement : идти et ехать"
+ },
+ "objectifs": [
+  "Décrire un déplacement à pied ou en véhicule.",
+  "Demander et indiquer un itinéraire.",
+  "Distinguer l'accusatif de direction du prépositionnel de lieu.",
+  "Utiliser les prépositions de direction avec les cas appropriés."
+ ],
+ "scene": {
+  "lieu": "Station de métro Novokouznetskaïa, puis rue de Moscou",
+  "moment": "Matinée",
+  "decor_3d": "Quai de métro animé avec colonnes en marbre blanc et éclairage chaleureux, puis transition vers une rue moscovite enneigée avec des bâtiments historiques.",
+  "objets": [
+   "plan du métro 3D",
+   "téléphone portable",
+   "écharpe",
+   "sac à dos"
+  ],
+  "personnages": [
+   "thomas",
+   "dima"
+  ],
+  "figurants": [
+   {
+    "id": "passant",
+    "nom": "Passant",
+    "apparence": "Homme en manteau d'hiver et chapka",
+    "voix": "masculine grave"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "dima",
+   "texte": "То́мас, ты уже́ на Новокузне́цкой?",
+   "traduction": "Thomas, tu es déjà à Novokouznetskaïa ?",
+   "geste": "Dima regarde son téléphone et lève la tête vers Thomas."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Да, я на ста́нции. Мне ну́жно на встре́чу. Как дое́хать до кафе́?",
+   "traduction": "Oui, je suis à la station. J'ai besoin d'aller à un rendez-vous. Comment aller jusqu'au café ?",
+   "geste": "Thomas ajuste son écharpe et montre son sac à dos."
+  },
+  {
+   "perso": "dima",
+   "texte": "Э́то далеко́. Ты е́дешь на ме́тро?",
+   "traduction": "C'est loin. Tu y vas en métro ?",
+   "geste": "Dima pointe le plan du métro sur le mur."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Да, я е́ду на ме́тро. А где выходи́ть?",
+   "traduction": "Oui, je vais en métro. Et où sortir ?",
+   "geste": "Thomas regarde le plan avec attention."
+  },
+  {
+   "perso": "dima",
+   "texte": "Ты е́дешь до ста́нции Тверска́я. Пото́м ты идёшь по у́лице.",
+   "traduction": "Tu vas jusqu'à la station Tverskaïa. Ensuite tu marches dans la rue.",
+   "geste": "Dima trace l'itinéraire avec son doigt sur l'écran 3D."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Я иду́ пешко́м? Ско́лько мину́т?",
+   "traduction": "Je marche à pied ? Combien de minutes ?",
+   "geste": "Thomas mime la marche avec ses doigts."
+  },
+  {
+   "perso": "dima",
+   "texte": "Да, ты идёшь пешко́м до у́лицы. Э́то де́сять мину́т.",
+   "traduction": "Oui, tu marches à pied jusqu'à la rue. C'est dix minutes.",
+   "geste": "Dima montre dix doigts en souriant."
+  },
+  {
+   "perso": "thomas",
+   "texte": "А пото́м? Мне ну́жно в кафе́.",
+   "traduction": "Et après ? J'ai besoin d'aller au café.",
+   "geste": "Thomas hausse les épaules, l'air interrogateur."
+  },
+  {
+   "perso": "dima",
+   "texte": "Ты идёшь пря́мо, пото́м напра́во. Кафе́ там.",
+   "traduction": "Tu vas tout droit, puis à droite. Le café est là-bas.",
+   "geste": "Dima fait des gestes de la main pour indiquer la direction."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Поня́л! Я е́ду на ме́тро, а пото́м иду́ пешко́м.",
+   "traduction": "Compris ! Je vais en métro, puis je marche à pied.",
+   "geste": "Thomas hoche la tête et range son téléphone."
+  },
+  {
+   "perso": "dima",
+   "texte": "Точно́! Осторо́жно, две́ри закрыва́ются!",
+   "traduction": "Exactement ! Attention, les portes se ferment !",
+   "geste": "Dima rit et montre le wagon qui arrive."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "идти́",
+   "prononciation": "idTI",
+   "nature": "verbe",
+   "traduction": "aller (à pied, unidirectionnel)",
+   "exemple": "Я иду́ в парк.",
+   "exemple_traduction": "Je vais au parc (à pied)."
+  },
+  {
+   "mot": "е́хать",
+   "prononciation": "YE-khat'",
+   "nature": "verbe",
+   "traduction": "aller (en véhicule, unidirectionnel)",
+   "exemple": "Мы е́дем на авто́бусе.",
+   "exemple_traduction": "Nous allons en bus."
+  },
+  {
+   "mot": "метро́",
+   "prononciation": "metRO",
+   "nature": "nom n. indécl.",
+   "traduction": "métro",
+   "exemple": "Я е́ду на метро́.",
+   "exemple_traduction": "Je vais en métro."
+  },
+  {
+   "mot": "авто́бус",
+   "prononciation": "afTO-bus",
+   "nature": "nom m.",
+   "traduction": "bus",
+   "exemple": "Авто́бус е́дет до це́нтра.",
+   "exemple_traduction": "Le bus va jusqu'au centre."
+  },
+  {
+   "mot": "трамва́й",
+   "prononciation": "tramVAI",
+   "nature": "nom m.",
+   "traduction": "tramway",
+   "exemple": "Трамва́й идёт по у́лице.",
+   "exemple_traduction": "Le tramway circule dans la rue."
+  },
+  {
+   "mot": "пое́зд",
+   "prononciation": "PO-yezd",
+   "nature": "nom m.",
+   "traduction": "train",
+   "exemple": "Пое́зд е́дет в Петербу́рг.",
+   "exemple_traduction": "Le train va à Saint-Pétersbourg."
+  },
+  {
+   "mot": "пешко́м",
+   "prononciation": "peshKOM",
+   "nature": "adverbe",
+   "traduction": "à pied",
+   "exemple": "Я иду́ домо́й пешко́м.",
+   "exemple_traduction": "Je rentre chez moi à pied."
+  },
+  {
+   "mot": "до + génitif",
+   "prononciation": "do",
+   "nature": "préposition",
+   "traduction": "jusqu'à",
+   "exemple": "Дойди́ до угла́.",
+   "exemple_traduction": "Va jusqu'au coin."
+  },
+  {
+   "mot": "к + datif",
+   "prononciation": "k",
+   "nature": "préposition",
+   "traduction": "vers (qqn/qqch)",
+   "exemple": "Я иду́ к врачу́.",
+   "exemple_traduction": "Je vais chez le médecin."
+  },
+  {
+   "mot": "по + datif",
+   "prononciation": "po",
+   "nature": "préposition",
+   "traduction": "le long de / sur",
+   "exemple": "Иди́ по у́лице.",
+   "exemple_traduction": "Marche dans la rue."
+  },
+  {
+   "mot": "из + génitif",
+   "prononciation": "iz",
+   "nature": "préposition",
+   "traduction": "de (sortie d'un lieu clos)",
+   "exemple": "Я выхожу́ из метро́.",
+   "exemple_traduction": "Je sors du métro."
+  },
+  {
+   "mot": "с + génitif",
+   "prononciation": "s",
+   "nature": "préposition",
+   "traduction": "de (sortie d'une surface)",
+   "exemple": "Я еду́ с вокза́ла.",
+   "exemple_traduction": "Je viens de la gare."
+  },
+  {
+   "mot": "от + génitif",
+   "prononciation": "ot",
+   "nature": "préposition",
+   "traduction": "depuis (point de départ)",
+   "exemple": "От дома́ до рабо́ты далеко́.",
+   "exemple_traduction": "C'est loin de la maison au travail."
+  },
+  {
+   "mot": "напра́во",
+   "prononciation": "naPRA-vo",
+   "nature": "adverbe",
+   "traduction": "à droite",
+   "exemple": "Поверни́ напра́во.",
+   "exemple_traduction": "Tourne à droite."
+  },
+  {
+   "mot": "нале́во",
+   "prononciation": "naLE-vo",
+   "nature": "adverbe",
+   "traduction": "à gauche",
+   "exemple": "Иди́ нале́во.",
+   "exemple_traduction": "Va à gauche."
+  },
+  {
+   "mot": "пря́мо",
+   "prononciation": "PRIA-mo",
+   "nature": "adverbe",
+   "traduction": "tout droit",
+   "exemple": "Иди́ пря́мо пять мину́т.",
+   "exemple_traduction": "Va tout droit pendant cinq minutes."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Verbes unidirectionnels идти et ехать",
+   "explication": "En russe, on distingue strictement le mouvement dirigé vers un but précis (unidirectionnel) du mouvement général ou répété (multidirectionnel). À ce stade A2, nous nous concentrons sur les verbes unidirectionnels : идти (aller à pied) et ехать (aller en transport). Ils décrivent une action concrète se déroulant maintenant ou prévue avec une destination claire. Attention aux cas : après ces verbes, la destination s'exprime par l'accusatif avec в/на (в парк, на работу), mais le point d'arrivée limite utilise до + génitif (до станции). Le moyen de transport se met à l'instrumental sans préposition (ехать метро́м) ou avec на + prépositionnel (на метро́). Ne confondez pas Я иду в парк (direction, accusatif) et Я в парке (localisation statique, prépositionnel). Ces verbes ne s'utilisent jamais pour décrire une habitude sans destination précise.",
+   "tableau": [
+    [
+     "Infinitif",
+     "Présent (я/ты/он)"
+    ],
+    [
+     "идти́ (à pied)",
+     "иду́ / идёшь / идёт"
+    ],
+    [
+     "е́хать (en véhicule)",
+     "е́ду / е́дешь / е́дет"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Я иду́ в университе́т.",
+     "natif": "Je vais à l'université (à pied, maintenant)."
+    },
+    {
+     "cible": "Она́ е́дет на рабо́ту на авто́бусе.",
+     "natif": "Elle va au travail en bus."
+    }
+   ]
+  },
+  {
+   "titre": "Prépositions de direction et cas",
+   "explication": "Le choix de la préposition dépend du type de lieu et du sens du déplacement. В + accusatif indique l'entrée dans un espace clos (в дом, в метро), tandis que на + accusatif marque le mouvement vers une surface ou un événement (на улицу, на встречу). Pour indiquer une limite (« jusqu'à »), utilisez toujours до + génitif (до парка, до Тверской). К + datif exprime le mouvement vers une personne ou un repère (к другу, к вокзалу). По + datif décrit le trajet le long d'un axe (по улице, по проспекту). Les prépositions de provenance sont également essentielles : из + génitif (sortie d'un lieu clos : из метро), с + génitif (descente d'une surface : с горы), от + génitif (éloignement d'un point : от дома). Retenez que chaque préposition exige un cas spécifique ; l'erreur de cas change le sens ou rend la phrase incorrecte.",
+   "tableau": [
+    [
+     "Direction",
+     "Provenance"
+    ],
+    [
+     "в + Acc. (dans)",
+     "из + Gén. (de)"
+    ],
+    [
+     "на + Acc. (sur/à)",
+     "с + Gén. (de)"
+    ],
+    [
+     "к + Dat. (vers)",
+     "от + Gén. (depuis)"
+    ],
+    [
+     "до + Gén. (jusqu'à)",
+     "по + Dat. (le long de)"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Как дое́хать до Це́нтра?",
+     "natif": "Comment aller jusqu'au Centre ?"
+    },
+    {
+     "cible": "Я иду́ от метро́ к теа́тру.",
+     "natif": "Je vais du métro vers le théâtre."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Le [р] russe roulé alvéolaire",
+  "explication": "Contrairement au [ʁ] français uvulaire (gratté dans la gorge), le [р] russe est produit par la vibration rapide de la pointe de la langue contre les alvéoles dentaires supérieures. C'est un son clair, énergique et toujours roulé, même brièvement. Ne le remplacez jamais par un R français. Entraînez-vous en exagérant la vibration au début, puis réduisez l'intensité pour un son naturel. Ce [р] apparaît dans des mots clés comme метро, парк, рынок, утро. Une mauvaise prononciation peut créer des confusions (ex. рот « bouche » vs род « genre »).",
+  "examples": [
+   "ры́нок [RY-nok]",
+   "метро́ [met-RO]",
+   "парк [park]",
+   "у́тро [US-tro]"
+  ]
+ },
+ "culture": {
+  "titre": "Le métro moscovite : palais souterrain et rituel quotidien",
+  "texte": "Inauguré en 1935, le métro de Moscou transporte quotidiennement près de 14 millions de passagers, ce qui en fait l'un des plus fréquentés au monde. Bien plus qu'un simple réseau de transport, il incarne une vision artistique et politique : ses stations centrales, comme Novokouznetskaïa ou Komsomolskaïa, sont conçues comme des « palais du peuple », ornées de marbre, mosaïques, vitraux et lustres monumentaux. Chaque station raconte une page de l'histoire russe. L'annonce emblématique « Осторожно, двери закрываются » rythme les trajets des Moscovites. Aujourd'hui, le métro reste un lieu de vie intense où se côtoient étudiants, travailleurs et touristes, tous pressés mais respectueux du silence et de l'ordre. Pour Thomas, s'y déplacer, c'est plonger dans l'âme collective de Moscou."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez la forme correcte du verbe de mouvement.",
+   "items": [
+    {
+     "question": "Я ___ в библиотеку пешком.",
+     "choix": [
+      "еду",
+      "иду",
+      "хожу"
+     ],
+     "reponse": "иду"
+    },
+    {
+     "question": "Мы ___ на такси в аэропорт.",
+     "choix": [
+      "идём",
+      "едем",
+      "ходим"
+     ],
+     "reponse": "едем"
+    },
+    {
+     "question": "Она ___ домой после работы.",
+     "choix": [
+      "едет",
+      "ходит",
+      "идёт"
+     ],
+     "reponse": "идёт"
+    },
+    {
+     "question": "Ты ___ на метро до центра?",
+     "choix": [
+      "идёшь",
+      "ездишь",
+      "едешь"
+     ],
+     "reponse": "едешь"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez chaque préposition de direction au cas qu'elle exige.",
+   "items": [
+    {
+     "question": "в (direction)",
+     "reponse": "Accusatif"
+    },
+    {
+     "question": "до",
+     "reponse": "Génitif"
+    },
+    {
+     "question": "к",
+     "reponse": "Datif"
+    },
+    {
+     "question": "по (mouvement)",
+     "reponse": "Datif"
+    },
+    {
+     "question": "из",
+     "reponse": "Génitif"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez avec la préposition de direction appropriée (в, на, до, к, по).",
+   "items": [
+    {
+     "question": "Я иду ___ университет.",
+     "reponse": "в"
+    },
+    {
+     "question": "Как доехать ___ вокзала?",
+     "reponse": "до"
+    },
+    {
+     "question": "Она едет ___ работу.",
+     "reponse": "на"
+    },
+    {
+     "question": "Иди ___ этой улице прямо.",
+     "reponse": "по"
+    },
+    {
+     "question": "Я иду ___ врачу.",
+     "reponse": "к"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez les mots dans l'ordre pour former une phrase correcte.",
+   "items": [
+    {
+     "question": "метро / я / на / еду / работу / на",
+     "reponse": "Я еду на работу на метро."
+    },
+    {
+     "question": "идёшь / ты / куда / ?",
+     "reponse": "Куда ты идёшь?"
+    },
+    {
+     "question": "до / пешком / идти / минут / десять",
+     "reponse": "Идти пешком десять минут."
+    },
+    {
+     "question": "прямо / потом / иди / направо",
+     "reponse": "Иди прямо, потом направо."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez en russe en utilisant идти ou ехать avec la bonne préposition.",
+   "items": [
+    {
+     "question": "Je vais au parc à pied.",
+     "reponse": "Я иду в парк пешком."
+    },
+    {
+     "question": "Nous allons jusqu'à la station en métro.",
+     "reponse": "Мы едем до станции на метро."
+    },
+    {
+     "question": "Tu vas vers la gare ?",
+     "reponse": "Ты идёшь к вокзалу?"
+    },
+    {
+     "question": "Elle va au travail en bus.",
+     "reponse": "Она едет на работу на автобусе."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez et choisissez le moyen de transport mentionné.",
+   "items": [
+    {
+     "question": "[Audio: 'Я еду на трамвае до музея.']",
+     "choix": [
+      "автобус",
+      "трамвай",
+      "метро"
+     ],
+     "reponse": "трамвай"
+    },
+    {
+     "question": "[Audio: 'Он идёт пешком к университету.']",
+     "choix": [
+      "пешком",
+      "на такси",
+      "на машине"
+     ],
+     "reponse": "пешком"
+    },
+    {
+     "question": "[Audio: 'Мы едем на поезде в Казань.']",
+     "choix": [
+      "самолёт",
+      "поезд",
+      "автобус"
+     ],
+     "reponse": "поезд"
+    },
+    {
+     "question": "[Audio: 'Она едет на метро до Тверской.']",
+     "choix": [
+      "трамвай",
+      "метро",
+      "такси"
+     ],
+     "reponse": "метро"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bienvenue dans la leçon 17 ! Aujourd'hui, nous abordons les verbes de mouvement unidirectionnels идти et ехать.",
+   "ecran": "Titre de la leçon affiché avec animation d'un piéton et d'un métro.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Vous apprendrez à décrire un déplacement à pied ou en véhicule, demander un itinéraire et distinguer direction et localisation.",
+   "ecran": "Liste des objectifs apparaissant progressivement.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "La scène se déroule à la station Novokouznetskaïa. Thomas doit rejoindre un café et demande conseil à Dima.",
+   "ecran": "Vue 3D du quai de métro avec colonnes en marbre.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "То́мас, ты уже́ на Новокузне́цкой?",
+   "ecran": "Dima regarde son téléphone, puis lève les yeux vers Thomas.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Да, я на ста́нции. Мне ну́жно на встре́чу. Как дое́хать до кафе́?",
+   "ecran": "Thomas ajuste son écharpe, sac à dos visible.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Э́то далеко́. Ты е́дешь на ме́тро?",
+   "ecran": "Dima pointe le plan mural du métro.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Да, я е́ду на ме́тро. А где выходи́ть?",
+   "ecran": "Thomas observe attentivement le plan 3D.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Ты е́дешь до ста́нции Тверска́я. Пото́м ты идёшь по у́лице.",
+   "ecran": "Doigt de Dima trace l'itinéraire sur l'écran interactif.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Я иду́ пешко́м? Ско́лько мину́т?",
+   "ecran": "Thomas mime la marche avec deux doigts.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Да, ты идёшь пешко́м до у́лицы. Э́то де́сять мину́т.",
+   "ecran": "Dima sourit et montre dix doigts.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "А пото́м? Мне ну́жно в кафе́.",
+   "ecran": "Thomas hausse les épaules, expression interrogative.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Ты идёшь пря́мо, пото́м напра́во. Кафе́ там.",
+   "ecran": "Gestes directionnels de la main de Dima.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Поня́л! Я е́ду на ме́тро, а пото́м иду́ пешко́м.",
+   "ecran": "Thomas hoche la tête et range son téléphone.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Точно́! Осторо́жно, две́ри закрыва́ются!",
+   "ecran": "Dima rit alors que le wagon approche.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Répétons maintenant le vocabulaire clé. Écoutez et répétez après chaque mot.",
+   "ecran": "Cartes de vocabulaire apparaissant une par une.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v16",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "идти́",
+   "ecran": "Mot écrit avec accent + icône piéton.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "е́хать",
+   "ecran": "Mot écrit avec accent + icône véhicule.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "метро́",
+   "ecran": "Mot + photo stylisée de station.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "пешко́м",
+   "ecran": "Mot + silhouette marchant.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la grammaire. En russe, идти et ехать décrivent un mouvement unique vers une destination précise.",
+   "ecran": "Schéma animé : flèche droite (unidirectionnel) vs boucle (multidirectionnel barré).",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Attention au cas ! La destination utilise l'accusatif avec в ou на, mais до exige le génitif.",
+   "ecran": "Tableau comparatif coloré : в + Acc. vs до + Gén.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Ne confondez pas Я иду в парк (direction) et Я в парке (lieu statique). Le cas change tout !",
+   "ecran": "Deux bulles côte à côte avec codes couleur différents.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Les prépositions de direction ont chacune leur cas : к + datif, по + datif, из/с/от + génitif.",
+   "ecran": "Roue des prépositions interactive.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Point prononciation : le [р] russe est roulé avec la pointe de la langue, jamais gratté dans la gorge.",
+   "ecran": "Animation coupe sagittale montrant la position de la langue.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "ры́нок, метро́, парк, у́тро",
+   "ecran": "Mots affichés avec indicateur de vibration.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Culture : le métro moscovite est un musée souterrain. 14 millions de passagers y transitent chaque jour.",
+   "ecran": "Diaporama de stations-palais avec musique douce.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "L'annonce « Осторожно, двери закрываются » fait partie du paysage sonore quotidien des Moscovites.",
+   "ecran": "Extrait audio réel + sous-titres.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Place aux exercices ! Commencez par le QCM sur les formes verbales.",
+   "ecran": "Interface d'exercice QCM chargée.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Excellent ! Maintenant, associez chaque préposition à son cas.",
+   "ecran": "Exercice d'association glisser-déposer.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Très bien. Complétez maintenant les phrases avec la bonne préposition.",
+   "ecran": "Champs vides à remplir.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo ! Remettez les mots dans l'ordre pour reconstruire les phrases.",
+   "ecran": "Mots mélangés à ordonner par glissement.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Presque fini ! Traduisez ces quatre phrases en russe.",
+   "ecran": "Zone de texte libre avec validation automatique.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Dernier exercice : écoutez et identifiez le moyen de transport.",
+   "ecran": "Bouton lecture audio + choix multiples.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Félicitations ! Vous savez maintenant décrire un déplacement ponctuel en russe.",
+   "ecran": "Badge de réussite animé.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Récapitulons : идти pour la marche, ехать pour le transport, attention aux cas après les prépositions de direction.",
+   "ecran": "Infographie résumé de la leçon.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Идти décrit un déplacement à pied vers une destination précise.",
+   "natif": "Идти обозначает пешее движение к конкретной цели."
+  },
+  {
+   "cible": "Ехать s'utilise pour tout déplacement en véhicule unidirectionnel.",
+   "natif": "Ехать используется для однонаправленного движения на транспорте."
+  },
+  {
+   "cible": "La destination utilise l'accusatif (в/на), mais до exige le génitif.",
+   "natif": "Цель движения требует винительного падежа (в/на), но до — родительного."
+  },
+  {
+   "cible": "К + datif indique le mouvement vers une personne ou un repère.",
+   "natif": "К + дательный падеж обозначает движение к лицу или ориентиру."
+  },
+  {
+   "cible": "Le [р] russe est toujours roulé avec la pointe de la langue.",
+   "natif": "Русский [р] всегда произносится кончиком языка."
+  }
+ ],
+ "controle": []
+}

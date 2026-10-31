@@ -1,0 +1,830 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 25,
+ "niveau": "B1",
+ "id": "ru-pour-francais-B1-25",
+ "titre": {
+  "cible": "При́ставки движе́ния: по-, при-, у-",
+  "natif": "Préfixes de mouvement : по-, при-, у-"
+ },
+ "objectifs": [
+  "Exprimer le début d'un déplacement avec по- (пое́хать, пойти́)",
+  "Exprimer l'arrivée avec при- (прие́хать, прийти́)",
+  "Exprimer le départ ou l'éloignement avec у- (уе́хать, уйти́)",
+  "Distinguer le mouvement en véhicule et à pied",
+  "Raconter un trajet complet (départ → trajet → arrivée)"
+ ],
+ "scene": {
+  "lieu": "Gare routière de Moscou (Моско́вский автовокза́л)",
+  "moment": "Dimanche matin, début novembre, il fait froid et gris",
+  "decor_3d": "Grand hall de gare routière soviétique rénové : haut plafond, panneaux d'affichage électroniques avec les destinations en cyrillique (Новосиби́рск, Казань, Омск), bancs en bois, grandes baies vitrées donnant sur les quais où stationnent des autocars verts et blancs. Au sol, carrelage clair. Éclairage fluorescent. Quelques voyageurs avec valises et sacs à dos.",
+  "objets": [
+   "autocar vert à destination de Novossibirsk",
+   "sac à dos de randonnée de Dima",
+   "valise de Thomas",
+   "tableau d'affichage électronique",
+   "banc en bois",
+   "gobelet de café fumant",
+   "billet papier"
+  ],
+  "personnages": [
+   "thomas",
+   "dima"
+  ],
+  "figurants": [
+   {
+    "id": "chauffeur",
+    "nom": "Chauffeur de l'autocar",
+    "apparence": "Homme d'une cinquantaine d'années, uniforme bleu marine, casquette, moustache, carrure robuste",
+    "voix": "grave et posée, timbre fatigué"
+   },
+   {
+    "id": "annonce",
+    "nom": "Voix d'annonce de la gare",
+    "apparence": "Haut-parleur au plafond",
+    "voix": "féminine, métallique, officielle"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "dima",
+   "texte": "Ну вот, То́мас, я уезжа́ю. Авто́бус ско́ро отъезжа́ет.",
+   "traduction": "Eh voilà, Thomas, je pars. Le bus va bientôt partir.",
+   "geste": "Dima ajuste la bretelle de son sac à dos et regarde le tableau d'affichage."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Далеко́ ты е́дешь! До Новосиби́рска почти́ четы́ре ты́сячи киломе́тров.",
+   "traduction": "Tu vas loin ! Jusqu'à Novossibirsk, c'est presque quatre mille kilomètres.",
+   "geste": "Thomas montre la carte sur son téléphone d'un air impressionné."
+  },
+  {
+   "perso": "dima",
+   "texte": "Да, Сибирь — э́то далеко́. Я прие́ду туда́ то́лько че́рез три дня.",
+   "traduction": "Oui, la Sibérie, c'est loin. Je n'arriverai là-bas que dans trois jours.",
+   "geste": "Dima soupire en regardant son billet."
+  },
+  {
+   "perso": "thomas",
+   "texte": "А кто тебя́ встре́тит? Ты прие́дешь на вокза́л и что?",
+   "traduction": "Et qui va t'accueillir ? Tu arriveras à la gare et ensuite ?",
+   "geste": "Thomas fronce les sourcils, inquiet."
+  },
+  {
+   "perso": "dima",
+   "texte": "Мой друг Серёжа подойдёт к авто́бусу. Он там живёт.",
+   "traduction": "Mon ami Seriоja viendra jusqu'au bus. Il habite là-bas.",
+   "geste": "Dima sourit et range son billet dans sa poche."
+  },
+  {
+   "perso": "annonce",
+   "texte": "Внима́ние! Авто́бус Москва́ — Новосби́рск отправля́ется с пя́той платфо́рмы.",
+   "traduction": "Attention ! L'autocar Moscou — Novossibirsk part du quai numéro cinq.",
+   "geste": "La voix résonne dans le hall, les voyageurs se lèvent."
+  },
+  {
+   "perso": "dima",
+   "texte": "Ну всё, мне пора́. Я пошёл к авто́бусу.",
+   "traduction": "Bon, c'est mon heure. Je vais vers le bus.",
+   "geste": "Dima prend son sac et fait un pas vers la sortie."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Подожди́! Дава́й я тебя́ провожу́ до платфо́рмы.",
+   "traduction": "Attends ! Laisse-moi t'accompagner jusqu'au quai.",
+   "geste": "Thomas attrape sa valise et emboîte le pas à Dima."
+  },
+  {
+   "perso": "chauffeur",
+   "texte": "Пассажи́ры, занима́йте ме́ста! Мы ско́ро пое́дем.",
+   "traduction": "Passagers, prenez vos places ! Nous allons bientôt partir.",
+   "geste": "Le chauffeur fait signe aux voyageurs de monter."
+  },
+  {
+   "perso": "dima",
+   "texte": "Спаси́бо, что пришёл, То́мас. Мне бы́ло прия́тно.",
+   "traduction": "Merci d'être venu, Thomas. Ça m'a fait plaisir.",
+   "geste": "Dima serre Thomas dans ses bras sur le quai."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Счастли́вой доро́ги! Пиши́, когда́ прие́дешь.",
+   "traduction": "Bon voyage ! Écris-moi quand tu arriveras.",
+   "geste": "Thomas fait un geste de la main."
+  },
+  {
+   "perso": "dima",
+   "texte": "Коне́чно! Ну всё, авто́бус уезжа́ет. Пока́!",
+   "traduction": "Bien sûr ! Bon, le bus part. Salut !",
+   "geste": "Dima monte dans l'autocar et fait signe par la fenêtre."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Пока́! Я пошёл домо́й.",
+   "traduction": "Salut ! Moi, je rentre à la maison.",
+   "geste": "Thomas reste seul sur le quai et regarde l'autocar s'éloigner."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "уезжа́ть / уе́хать",
+   "prononciation": "uYEZ-zhat' / uYE-khat'",
+   "nature": "verbe imperfectif / perfectif",
+   "traduction": "partir (en véhicule), quitter un lieu",
+   "exemple": "Дима́ уезжа́ет в Сиби́рь.",
+   "exemple_traduction": "Dima part en Sibérie."
+  },
+  {
+   "mot": "приезжа́ть / прие́хать",
+   "prononciation": "pri-yeZHZHAT' / priYE-khat'",
+   "nature": "verbe imperfectif / perfectif",
+   "traduction": "arriver (en véhicule)",
+   "exemple": "Когда́ ты прие́дешь в Москву́?",
+   "exemple_traduction": "Quand arriveras-tu à Moscou ?"
+  },
+  {
+   "mot": "пое́хать",
+   "prononciation": "paYE-khat'",
+   "nature": "verbe perfectif (inchoatif)",
+   "traduction": "se mettre en route (en véhicule), partir",
+   "exemple": "Мы пое́дем завтра у́тром.",
+   "exemple_traduction": "Nous partirons demain matin."
+  },
+  {
+   "mot": "уходи́ть / уйти́",
+   "prononciation": "u-khaDIT' / uyTI",
+   "nature": "verbe imperfectif / perfectif",
+   "traduction": "partir (à pied), s'en aller",
+   "exemple": "Я ушёл из до́ма в семь часо́в.",
+   "exemple_traduction": "Je suis parti de chez moi à sept heures."
+  },
+  {
+   "mot": "приходи́ть / прийти́",
+   "prononciation": "pri-khaDIT' / priyTI",
+   "nature": "verbe imperfectif / perfectif",
+   "traduction": "arriver (à pied), venir",
+   "exemple": "Он пришёл на рабо́ту по́здно.",
+   "exemple_traduction": "Il est arrivé au travail en retard."
+  },
+  {
+   "mot": "пойти́",
+   "prononciation": "payTI",
+   "nature": "verbe perfectif (inchoatif)",
+   "traduction": "se mettre en marche (à pied)",
+   "exemple": "Мы пойдём в парк.",
+   "exemple_traduction": "Nous allons nous mettre en route pour le parc."
+  },
+  {
+   "mot": "автовокза́л",
+   "prononciation": "af-ta-vag-ZAL",
+   "nature": "nom masculin",
+   "traduction": "gare routière",
+   "exemple": "Мы встре́тились на автовокза́ле.",
+   "exemple_traduction": "Nous nous sommes retrouvés à la gare routière."
+  },
+  {
+   "mot": "платфо́рма",
+   "prononciation": "plat-FOR-ma",
+   "nature": "nom féminin",
+   "traduction": "quai (de gare)",
+   "exemple": "Авто́бус стои́т на пя́той платфо́рме.",
+   "exemple_traduction": "Le bus est au quai numéro cinq."
+  },
+  {
+   "mot": "провожать / проводи́ть",
+   "prononciation": "pra-vaZHAT' / pra-vaDIT'",
+   "nature": "verbe imperfectif / perfectif",
+   "traduction": "accompagner (quelqu'un qui part), reconduire",
+   "exemple": "Я провожу́ тебя́ до ста́нции.",
+   "exemple_traduction": "Je t'accompagne jusqu'à la station."
+  },
+  {
+   "mot": "встре́тить / встреча́ть",
+   "prononciation": "VSTRYE-tit' / fstrye-CHAT'",
+   "nature": "verbe perfectif / imperfectif",
+   "traduction": "accueillir, venir chercher (qqn qui arrive)",
+   "exemple": "Ма́ма встре́тит меня́ на вокза́ле.",
+   "exemple_traduction": "Maman viendra me chercher à la gare."
+  },
+  {
+   "mot": "расстоя́ние",
+   "prononciation": "ras-sta-YA-ni-ye",
+   "nature": "nom neutre",
+   "traduction": "distance",
+   "exemple": "Расстоя́ние от Москвы́ до Пе́тербурга — 700 киломе́тров.",
+   "exemple_traduction": "La distance de Moscou à Saint-Pétersbourg est de 700 km."
+  },
+  {
+   "mot": "биле́т",
+   "prononciation": "bi-LYET",
+   "nature": "nom masculin",
+   "traduction": "billet, ticket",
+   "exemple": "У меня́ есть биле́т на авто́бус.",
+   "exemple_traduction": "J'ai un billet de bus."
+  },
+  {
+   "mot": "бага́ж",
+   "prononciation": "ba-GAZH",
+   "nature": "nom masculin",
+   "traduction": "bagages",
+   "exemple": "Твой бага́ж уже́ в авто́бусе.",
+   "exemple_traduction": "Tes bagages sont déjà dans le bus."
+  },
+  {
+   "mot": "отъезжа́ть / отъе́хать",
+   "prononciation": "at-ye-ZHZHAT' / at-YE-khat'",
+   "nature": "verbe imperfectif / perfectif",
+   "traduction": "démarrer, s'éloigner (en véhicule)",
+   "exemple": "По́езд отъезжа́ет от платфо́рмы.",
+   "exemple_traduction": "Le train s'éloigne du quai."
+  },
+  {
+   "mot": "подойти́ / подходи́ть",
+   "prononciation": "pad-ayTI / pad-khaDIT'",
+   "nature": "verbe perfectif / imperfectif",
+   "traduction": "s'approcher, venir vers",
+   "exemple": "Подойди́ ко мне, пожа́луйста.",
+   "exemple_traduction": "Approche-toi de moi, s'il te plaît."
+  },
+  {
+   "mot": "Счастли́вой доро́ги!",
+   "prononciation": "SCHAS-tli-vay da-RO-gi",
+   "nature": "expression figée",
+   "traduction": "Bon voyage ! (litt. « route heureuse »)",
+   "exemple": "— Уезжа́ю! — Счастли́вой доро́ги!",
+   "exemple_traduction": "— Je pars ! — Bon voyage !"
+  },
+  {
+   "mot": "проводи́ть",
+   "prononciation": "pra-vaDIT'",
+   "nature": "verbe perfectif",
+   "traduction": "raccompagner, faire ses adieux (à un voyageur)",
+   "exemple": "Дава́й провожу́ тебя́.",
+   "exemple_traduction": "Laisse-moi te raccompagner."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Les trois préfixes de mouvement : по-, при-, у-",
+   "explication": "En russe, les verbes de mouvement unidirectionnels (идти́, е́хать) reçoivent des préfixes qui précisent la phase du trajet. Le préfixe по- marque le début du mouvement (inchoatif) : пое́хать, пойти́ = « se mettre en route ». Ces verbes n'ont pas de forme imperfective correspondante. Le préfixе при- indique l'arrivée, l'approche du but : прие́хать, прийти́ = « arriver (à destination) ». Le préfixе у- exprime l'éloignement, le départ du lieu d'origine : уе́хать, уйти́ = « partir, s'en aller ». Ces verbes préfixés sont perfectifs ; leur pendant imperfectif se forme avec des infixes ou des alternances (уезжа́ть, приезжа́ть, уходи́ть, прихо́дить). On distingue aussi le moyen : е́хать, е́здить, по-, при-, у- concernent un déplacement en véhicule ; идти́, ходи́ть et leurs dérivés concernent la marche à pied. Pour raconter un trajet complet, on enchaîne : уе́хать (quitter A) → е́хать (trajet) → прие́хать (arriver à B).",
+   "tableau": [
+    [
+     "Préfixe",
+     "Sens",
+     "En véhicule",
+     "À pied"
+    ],
+    [
+     "по-",
+     "début du mouvement",
+     "пое́хать",
+     "пойти́"
+    ],
+    [
+     "при-",
+     "arrivée au but",
+     "прие́хать / приезжа́ть",
+     "прийти́ / прихо́дить"
+    ],
+    [
+     "у-",
+     "éloignement, départ",
+     "уе́хать / уезжа́ть",
+     "уйти́ / уходи́ть"
+    ],
+    [
+     "от-",
+     "s'éloigner de",
+     "отъе́хать / отъезжа́ть",
+     "отойти́ / отходи́ть"
+    ],
+    [
+     "под-",
+     "s'approcher de",
+     "подъе́хать / подъезжа́ть",
+     "подойти́ / подходи́ть"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Дима́ уе́хал в Сиби́рь на авто́бусе.",
+     "natif": "Dima est parti en Sibérie en bus."
+    },
+    {
+     "cible": "Он прие́дет в Новосби́рск че́рез три дня.",
+     "natif": "Il arrivera à Novossibirsk dans trois jours."
+    },
+    {
+     "cible": "Мы поšli до́мой по́сле проща́ния.",
+     "natif": "Nous nous sommes mis en route vers la maison après les adieux."
+    },
+    {
+     "cible": "Серёжа подойдёт к авто́бусу и встре́тит Ди́му.",
+     "natif": "Serioja s'approchera du bus et accueillera Dima."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "L'accent tonique dans les verbes préfixés reste sur le radical",
+  "explication": "En russe, l'ajout d'un préfixe ne déplace généralement pas l'accent tonique : il reste sur la syllabe accentuée du verbe de base. Ainsi, dans прие́хать, уе́хать, пое́хать, l'accent tombe sur la première syllabe du radical « -е́х- », et non sur le préfixe. De même : прийти́ (accent sur « -ти́ »), уходи́ть (accent sur « -ди́ »). Les préfixes sont atones. Ne dites jamais *ПРИехать ou *Уехать : prononcez toujours pri-YE-khat', u-YE-khat'. Cette règle vaut aussi pour les dérivés : отъе́хать, подъе́хать, зае́хать.",
+  "exemples": [
+   "пое́хать = pa-YE-khat' (et non *PO-yekhat')",
+   "прие́хать = pri-YE-khat'",
+   "уе́хать = u-YE-khat'",
+   "уйти́ = uy-TI",
+   "прийти́ = priy-TI",
+   "отъезжа́ть = at-ye-zh-ZHAT'"
+  ]
+ },
+ "culture": {
+  "titre": "Les adieux russes : проводи́ть и Счастли́вой доро́ги!",
+  "texte": "En Russie, les adieux à un voyageur sont un vrai rituel appelé прово́ды. À la gare, toute la famille ou les amis accompagnent le partant jusqu'au quai, portent ses bagages et restent jusqu'au départ. Avant de franchir le seuil de la maison, on s'assoit une minute en silence (присе́сть на доро́жку) pour conjurer le mauvais sort. Au moment du départ, on dit Счастли́вой доро́ги ! (« bonne route ! ») et on reste sur le quai à faire signe de la main jusqu'à ce que le train ou le bus disparaisse à l'horizon. Les Russes considèrent comme impoli de quitter le quai trop vite : il faut « conduire du regard » le voyageur jusqu'au bout. Les distances immenses du pays (Moscou — Vladivostok : 9 000 km, six jours en train) expliquent cette culture des longs voyages et des adieux solennels."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez le verbe préfixé qui convient au contexte.",
+   "items": [
+    {
+     "question": "Завтра́ мы ___ в Пе́тербург на по́езде.",
+     "choix": [
+      "пойдём",
+      "пое́дем",
+      "прие́дем",
+      "уйдём"
+     ],
+     "reponse": "пое́дем"
+    },
+    {
+     "question": "Мой брат ___ из Пари́жа вчера́ ве́чером.",
+     "choix": [
+      "прие́хал",
+      "уе́хал",
+      "пошёл",
+      "пое́хал"
+     ],
+     "reponse": "прие́хал"
+    },
+    {
+     "question": "Она́ ___ из офи́са в шесть часо́в.",
+     "choix": [
+      "ушла́",
+      "пришла́",
+      "пошла́",
+      "пое́хала"
+     ],
+     "reponse": "ушла́"
+    },
+    {
+     "question": "Авто́бус уже́ ___ от остано́вки.",
+     "choix": [
+      "отъе́хал",
+      "прие́хал",
+      "пое́хал",
+      "ушёл"
+     ],
+     "reponse": "отъе́хал"
+    },
+    {
+     "question": "Я ___ к тебе́, когда́ освобожу́сь.",
+     "choix": [
+      "подойду́",
+      "приду́",
+      "уйду́",
+      "пое́ду"
+     ],
+     "reponse": "приду́"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez chaque préfixe à son sens principal.",
+   "items": [
+    {
+     "question": "по-",
+     "reponse": "début du mouvement"
+    },
+    {
+     "question": "при-",
+     "reponse": "arrivée au but"
+    },
+    {
+     "question": "у-",
+     "reponse": "éloignement, départ"
+    },
+    {
+     "question": "от-",
+     "reponse": "s'éloigner de"
+    },
+    {
+     "question": "под-",
+     "reponse": "s'approcher de"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez avec le préfixe correct (по-, при-, у-, от-, под-).",
+   "items": [
+    {
+     "question": "По́езд ___е́хал от вокза́ла.",
+     "reponse": "отъ"
+    },
+    {
+     "question": "Мы ___шли́ в парк и гуля́ли там.",
+     "reponse": "по"
+    },
+    {
+     "question": "Когда́ ты ___е́дешь в Москву́?",
+     "reponse": "при"
+    },
+    {
+     "question": "Ма́шина ___е́хала к подъе́зду.",
+     "reponse": "подъ"
+    },
+    {
+     "question": "Сосе́ди ___е́хали из горо́да.",
+     "reponse": "у"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez dans l'ordre chronologique les étapes du voyage de Dima.",
+   "items": [
+    {
+     "question": "Дима́ уе́хал из Москвы́.",
+     "reponse": "1"
+    },
+    {
+     "question": "Авто́бус е́хал три дня.",
+     "reponse": "2"
+    },
+    {
+     "question": "Дима́ прие́хал в Новосби́рск.",
+     "reponse": "3"
+    },
+    {
+     "question": "Серёжа подошёл к авто́бусу.",
+     "reponse": "4"
+    },
+    {
+     "question": "Они́ вме́сте ушли́ домо́й.",
+     "reponse": "5"
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez les phrases en russe (à l'écrit, avec les accents).",
+   "items": [
+    {
+     "question": "Je pars demain en Sibérie.",
+     "reponse": "Я уе́ду завтра в Сиби́рь."
+    },
+    {
+     "question": "À quelle heure arrives-tu ?",
+     "reponse": "Во ско́лько ты прие́дешь?"
+    },
+    {
+     "question": "Nous allons nous mettre en route à pied.",
+     "reponse": "Мы пойдём."
+    },
+    {
+     "question": "Le bus est déjà parti du quai.",
+     "reponse": "Авто́бус уже́ отъе́хал от платфо́рмы."
+    },
+    {
+     "question": "Bon voyage !",
+     "reponse": "Счастли́вой доро́ги!"
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez et choisissez le verbe entendu.",
+   "items": [
+    {
+     "question": "« Мой друг ___ ко мне вчера́. »",
+     "choix": [
+      "прие́хал",
+      "уе́хал",
+      "пое́хал",
+      "отъе́хал"
+     ],
+     "reponse": "прие́хал"
+    },
+    {
+     "question": "« Мы ско́ро ___ домо́й. »",
+     "choix": [
+      "пойдём",
+      "придём",
+      "уйдём",
+      "отойдём"
+     ],
+     "reponse": "пойдём"
+    },
+    {
+     "question": "« Она́ ___ с рабо́ты ра́но. »",
+     "choix": [
+      "ушла́",
+      "пришла́",
+      "пошла́",
+      "подошла́"
+     ],
+     "reponse": "ушла́"
+    },
+    {
+     "question": "« Такси́ ___ к подьезду. »",
+     "choix": [
+      "подъе́хало",
+      "отъе́хало",
+      "пое́хало",
+      "уе́хало"
+     ],
+     "reponse": "подъе́хало"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Leçon 25 : При́ставки движе́ния — les préfixes de mouvement по-, при- et у-. Aujourd'hui, direction la gare routière de Moscou.",
+   "ecran": "Logo Russtudy puis fondu sur le hall de la gare routière de Moscou, matin brumeux.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Dima part en Sibérie pour voir sa famille. Thomas l'accompagne jusqu'au quai. Écoutez leur conversation.",
+   "ecran": "Thomas et Dima debout dans le hall, sacs au pied, tableau d'affichage derrière eux.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Ну вот, То́мас, я уезжа́ю. Авто́бус ско́ро отъезжа́ет.",
+   "ecran": "Dima ajuste son sac à dos et regarde le tableau.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v04",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Далеко́ ты е́дешь! До Новосиби́рска почти́ четы́ре ты́сячи киломе́тров.",
+   "ecran": "Thomas montre son téléphone avec la carte de la Russie.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Да, Сибирь — э́то далеко́. Я прие́ду туда́ то́лько че́рез три дня.",
+   "ecran": "Dima soupire en regardant son billet.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "А кто тебя́ встре́тит? Ты прие́дешь на вокза́л и что?",
+   "ecran": "Thomas fronce les sourcils.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Мой друг Серёжа подойдёт к авто́бусу. Он там живёт.",
+   "ecran": "Dima range son billet dans sa poche.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "annonce",
+   "langue": "ru",
+   "texte": "Внима́ние! Авто́бус Москва́ — Новосби́рск отправля́ется с пя́той платфо́рмы.",
+   "ecran": "Haut-parleur, voyageurs qui se lèvent des bancs.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Ну всё, мне пора́. Я пошёл к авто́бусу.",
+   "ecran": "Dima prend son sac et marche vers la sortie.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Подожди́! Дава́й я тебя́ провожу́ до платфо́рмы.",
+   "ecran": "Thomas prend sa valise et suit Dima.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "chauffeur",
+   "langue": "ru",
+   "texte": "Пассажи́ры, занима́йте ме́ста! Мы ско́ро пое́дем.",
+   "ecran": "Chauffeur devant la porte de l'autocar, fait signe de monter.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Спаси́бо, что пришёл, То́мас. Мне бы́ло прия́тно.",
+   "ecran": "Dima serre Thomas dans ses bras sur le quai.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Счастли́вой доро́ги! Пиши́, когда́ прие́дешь.",
+   "ecran": "Thomas fait un geste d'adieu.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Коне́чно! Ну всё, авто́бус уезжа́ет. Пока́!",
+   "ecran": "Dima monte et fait signe par la fenêtre.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Пока́! Я пошёл домо́й.",
+   "ecran": "Thomas, seul sur le quai, regarde l'autocar s'éloigner.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Maintenant, répétons le vocabulaire clé de la leçon. Observez les accents toniques.",
+   "ecran": "Liste du vocabulaire qui défile, un mot à la fois.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la grammaire. En russe, trois préfixes structurent un trajet : по- pour commencer, у- pour partir, при- pour arriver.",
+   "ecran": "Tableau animé : по-, при-, у- avec flèches de trajectoire.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "пое́хать et пойти́ signifient « se mettre en route ». Ce sont des perfectifs inchoatifs : ils n'ont pas de correspondant imperfectif.",
+   "ecran": "Schéma : personnage immobile → flèche qui démarre.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "уе́хать et уйти́ expriment le départ, l'éloignement du point de départ. Leur imperfectif : уезжа́ть, уходи́ть.",
+   "ecran": "Schéma : personnage qui quitte un point A.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "прие́хать et прийти́ expriment l'arrivée au but. Leur imperfectif : приезжа́ть, прихо́дить.",
+   "ecran": "Schéma : personnage qui atteint un point B.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Attention : е́хать et ses dérivés concernent un véhicule ; идти́ et ses dérivés concernent la marche à pied. Dima уе́хал en bus ; Thomas пошёл à pied.",
+   "ecran": "Deux colonnes : véhicule / à pied, avec icônes.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Côté prononciation, retenez une règle d'or : l'accent tonique reste sur le radical. On dit pri-YE-khat', u-YE-khat', pa-YE-khat'. Le préfixe n'est jamais accentué.",
+   "ecran": "Mots écrits en gros avec accent aigu visible, syllabe accentuée en rouge.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Avant les exercices, un mot de culture : en Russie, on ne laisse pas partir un voyageur sans l'accompagner jusqu'au quai. On dit Счастли́вой доро́ги ! et on reste jusqu'à la disparition du véhicule.",
+   "ecran": "Illustration : famille russe sur un quai de gare, main levée.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 1 : QCM. Choisissez le bon verbe préfixé.",
+   "ecran": "Interface QCM, première question affichée.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 2 : associez chaque préfixe à son sens.",
+   "ecran": "Interface association : colonne de gauche préfixes, colonne de droite sens.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 3 : complétez les phrases avec le bon préfixe.",
+   "ecran": "Phrases à trous, curseur dans le champ.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 4 : remettez dans l'ordre chronologique le voyage de Dima.",
+   "ecran": "5 phrases à glisser-déposer dans l'ordre.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 5 : traduisez en russe. Attention aux accents toniques !",
+   "ecran": "Phrases françaises, zone de saisie en cyrillique.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 6 : écoute. Repérez le verbe préfixé dans la phrase orale.",
+   "ecran": "Bouton haut-parleur et 4 choix.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo ! Vous maîtrisez maintenant les trois phases du mouvement en russe. Récapitulons.",
+   "ecran": "Écran de félicitations, puis affichage du résumé.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Dans la prochaine leçon, nous verrons les préfixes за-, вы-, про- pour exprimer le passage, l'entrée et la sortie. До встре́чи!",
+   "ecran": "Aperçu de la leçon 26, logo Russtudy.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "по- marque le début du mouvement : пое́хать, пойти́.",
+   "natif": "по- marks the beginning of movement."
+  },
+  {
+   "cible": "у- exprime l'éloignement : уе́хать, уйти́.",
+   "natif": "у- expresses departure, moving away."
+  },
+  {
+   "cible": "при- indique l'arrivée : прие́хать, прийти́.",
+   "natif": "при- indicates arrival."
+  },
+  {
+   "cible": "En véhicule : е́хать ; à pied : идти́.",
+   "natif": "By vehicle: е́хать; on foot: идти́."
+  },
+  {
+   "cible": "L'accent tonique reste sur le radical : прие́хать, уе́хать, пое́хать.",
+   "natif": "Stress stays on the stem in prefixed verbs."
+  },
+  {
+   "cible": "Pour souhaiter bon voyage : Счастли́вой доро́ги!",
+   "natif": "To wish a good trip: Счастли́вой доро́ги!"
+  }
+ ],
+ "controle": []
+}

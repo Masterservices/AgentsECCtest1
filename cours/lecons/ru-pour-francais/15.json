@@ -1,0 +1,851 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 15,
+ "niveau": "A2",
+ "id": "ru-pour-francais-A2-15",
+ "titre": {
+  "cible": "Роди́тельный паде́ж: мно́го, ма́ло, нет",
+  "natif": "Le génitif : beaucoup, peu, absence"
+ },
+ "objectifs": [
+  "Exprimer une quantité indéfinie (много, мало, несколько) avec le génitif.",
+  "Exprimer l'absence totale avec la construction нет + génitif.",
+  "Faire une liste de courses et demander des quantités (emballages, poids).",
+  "Former et prononcer le génitif pluriel des noms courants."
+ ],
+ "scene": {
+  "lieu": "Supermarché Perekriostok",
+  "moment": "Fin d'après-midi",
+  "decor_3d": "Un supermarché russe moderne et bien éclairé. Des rayons remplis de produits colorés, des affiches promotionnelles en cyrillique. Thomas pousse un chariot de courses en tenant son téléphone portable à l'oreille. En arrière-plan, on aperçoit des caisses et des clients.",
+  "objets": [
+   "chariot de courses",
+   "téléphone portable",
+   "bouteilles de vin",
+   "morceau de fromage",
+   "brique de crème",
+   "paquet de beurre",
+   "tomates",
+   "pommes",
+   "pain noir"
+  ],
+  "personnages": [
+   "thomas"
+  ],
+  "figurants": [
+   {
+    "id": "cashier",
+    "nom": "Caissière",
+    "apparence": "Femme d'une trentaine d'années en uniforme rouge et blanc du supermarché Perekriostok, assise à sa caisse en arrière-plan.",
+    "voix": "Féminine, neutre et professionnelle"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "thomas",
+   "texte": "Ни́на Ива́новна, вы меня́ слы́шите? Я в суперма́ркете.",
+   "traduction": "Nina Ivanovna, vous m'entendez ? Je suis au supermarché.",
+   "geste": "Thomas pousse son chariot d'une main et tient son téléphone de l'autre, l'air un peu perdu dans les rayons."
+  },
+  {
+   "perso": "nina",
+   "texte": "Да, То́ма, слы́шу. Ты покупа́ешь продукты́ для францу́зского у́жина?",
+   "traduction": "Oui, Toma, je t'entends. Tu achètes les courses pour le dîner français ?",
+   "geste": "Voix de Nina au téléphone, ton chaleureux et amusé."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Да. Мне ну́жно мно́го сы́ра и не́сколько буты́лок вина́.",
+   "traduction": "Oui. J'ai besoin de beaucoup de fromage et de quelques bouteilles de vin.",
+   "geste": "Thomas s'arrête devant le rayon fromages et regarde les étiquettes."
+  },
+  {
+   "perso": "nina",
+   "texte": "Ой, францу́зская ку́хня! У нас нет настоя́щего сы́ра, но есть хоро́ший.",
+   "traduction": "Oh, la cuisine française ! Nous n'avons pas de vrai fromage (camembert), mais il y en a du bon.",
+   "geste": "Voix de Nina, elle rit doucement au téléphone."
+  },
+  {
+   "perso": "thomas",
+   "texte": "А сли́вки есть? Для со́уса.",
+   "traduction": "Et il y a de la crème ? Pour la sauce.",
+   "geste": "Thomas tourne la tête vers le rayon des produits laitiers."
+  },
+  {
+   "perso": "nina",
+   "texte": "Сли́вки есть. Купи́ литр сли́вок и па́чку ма́сла.",
+   "traduction": "Il y a de la crème. Achète un litre de crème et un paquet de beurre.",
+   "geste": "Voix de Nina, ton pratique et maternel."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Поня́л. А где о́вощи? Мне ну́жно килогра́мм помидо́ров и мно́го ябло́к.",
+   "traduction": "Compris. Et où sont les légumes ? J'ai besoin d'un kilo de tomates et de beaucoup de pommes.",
+   "geste": "Thomas note sur sa liste avec son doigt sur l'écran du téléphone."
+  },
+  {
+   "perso": "nina",
+   "texte": "О́вощи и фрукты́ спра́ва. То́ма, а хле́б ты купи́л?",
+   "traduction": "Les légumes et les fruits sont à droite. Toma, et tu as acheté du pain ?",
+   "geste": "Voix de Nina, elle lui donne des indications."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Нет, у нас нет баге́та. Я купи́л обы́чный хлеб.",
+   "traduction": "Non, nous n'avons pas de baguette. J'ai acheté du pain ordinaire.",
+   "geste": "Thomas montre une miche de pain noir dans son chariot."
+  },
+  {
+   "perso": "nina",
+   "texte": "Обы́чный хлеб с сы́ром? Ну хорошо́, э́то то́же вку́сно.",
+   "traduction": "Du pain ordinaire avec du fromage ? Bon d'accord, c'est bon aussi.",
+   "geste": "Voix de Nina, indulgente."
+  },
+  {
+   "perso": "thomas",
+   "texte": "И ещё мне ну́жно не́сколько яи́ц.",
+   "traduction": "Et il me faut encore quelques œufs.",
+   "geste": "Thomas avance vers le rayon suivant."
+  },
+  {
+   "perso": "nina",
+   "texte": "Яйца́ в сле́дующем ряду́. У тебя́ ма́ло вре́мени, у́жин ско́ро!",
+   "traduction": "Les œufs sont dans l'allée suivante. Tu as peu de temps, le dîner est bientôt !",
+   "geste": "Voix de Nina, un peu pressante."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Спасибо́, Ни́на! До встре́чи!",
+   "traduction": "Merci, Nina ! À tout à l'heure !",
+   "geste": "Thomas sourit, range son téléphone dans sa poche et pousse le chariot."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "суперма́ркет",
+   "prononciation": "su-per-mar-KET",
+   "nature": "nom m.",
+   "traduction": "supermarché",
+   "exemple": "Я в суперма́ркете.",
+   "exemple_traduction": "Je suis au supermarché."
+  },
+  {
+   "mot": "продукты́",
+   "prononciation": "pro-duk-TY",
+   "nature": "nom pl.",
+   "traduction": "courses, aliments",
+   "exemple": "Ты покупа́ешь продукты́?",
+   "exemple_traduction": "Tu achètes les courses ?"
+  },
+  {
+   "mot": "у́жин",
+   "prononciation": "U-zhin",
+   "nature": "nom m.",
+   "traduction": "dîner",
+   "exemple": "У́жин ско́ро!",
+   "exemple_traduction": "Le dîner est bientôt !"
+  },
+  {
+   "mot": "мно́го",
+   "prononciation": "MNO-go",
+   "nature": "adv.",
+   "traduction": "beaucoup",
+   "exemple": "Мне ну́жно мно́го сы́ра.",
+   "exemple_traduction": "J'ai besoin de beaucoup de fromage."
+  },
+  {
+   "mot": "ма́ло",
+   "prononciation": "MA-lo",
+   "nature": "adv.",
+   "traduction": "peu",
+   "exemple": "У тебя́ ма́ло вре́мени.",
+   "exemple_traduction": "Tu as peu de temps."
+  },
+  {
+   "mot": "не́сколько",
+   "prononciation": "NES-kol-ko",
+   "nature": "adv.",
+   "traduction": "quelques, un peu de",
+   "exemple": "Не́сколько буты́лок вина́.",
+   "exemple_traduction": "Quelques bouteilles de vin."
+  },
+  {
+   "mot": "сы́р",
+   "prononciation": "SYR",
+   "nature": "nom m.",
+   "traduction": "fromage",
+   "exemple": "У нас нет сы́ра.",
+   "exemple_traduction": "Nous n'avons pas de fromage."
+  },
+  {
+   "mot": "сли́вки",
+   "prononciation": "SLIV-ki",
+   "nature": "nom pl.",
+   "traduction": "crème (liquide)",
+   "exemple": "Купи́ литр сли́вок.",
+   "exemple_traduction": "Achète un litre de crème."
+  },
+  {
+   "mot": "ма́сло",
+   "prononciation": "MAS-lo",
+   "nature": "nom n.",
+   "traduction": "beurre",
+   "exemple": "Па́чка ма́сла.",
+   "exemple_traduction": "Un paquet de beurre."
+  },
+  {
+   "mot": "буты́лка",
+   "prononciation": "bu-TYL-ka",
+   "nature": "nom f.",
+   "traduction": "bouteille",
+   "exemple": "Буты́лка воды́.",
+   "exemple_traduction": "Une bouteille d'eau."
+  },
+  {
+   "mot": "кусо́к",
+   "prononciation": "ku-SOK",
+   "nature": "nom m.",
+   "traduction": "morceau",
+   "exemple": "Кусо́к хле́ба.",
+   "exemple_traduction": "Un morceau de pain."
+  },
+  {
+   "mot": "литр",
+   "prononciation": "LITR",
+   "nature": "nom m.",
+   "traduction": "litre",
+   "exemple": "Литр молока́.",
+   "exemple_traduction": "Un litre de lait."
+  },
+  {
+   "mot": "килогра́мм",
+   "prononciation": "ki-lo-GRAMM",
+   "nature": "nom m.",
+   "traduction": "kilogramme",
+   "exemple": "Килогра́мм помидо́ров.",
+   "exemple_traduction": "Un kilo de tomates."
+  },
+  {
+   "mot": "о́вощи",
+   "prononciation": "O-vo-shchi",
+   "nature": "nom pl.",
+   "traduction": "légumes",
+   "exemple": "Где о́вощи?",
+   "exemple_traduction": "Où sont les légumes ?"
+  },
+  {
+   "mot": "фрукты́",
+   "prononciation": "fruk-TY",
+   "nature": "nom pl.",
+   "traduction": "fruits",
+   "exemple": "Фрукты́ спра́ва.",
+   "exemple_traduction": "Les fruits sont à droite."
+  },
+  {
+   "mot": "ябло́ко",
+   "prononciation": "YA-blo-ko",
+   "nature": "nom n.",
+   "traduction": "pomme",
+   "exemple": "Мно́го ябло́к.",
+   "exemple_traduction": "Beaucoup de pommes."
+  },
+  {
+   "mot": "помидо́р",
+   "prononciation": "po-mi-DOR",
+   "nature": "nom m.",
+   "traduction": "tomate",
+   "exemple": "Килогра́мм помидо́ров.",
+   "exemple_traduction": "Un kilo de tomates."
+  },
+  {
+   "mot": "яйцо́",
+   "prononciation": "yay-TSO",
+   "nature": "nom n.",
+   "traduction": "œuf",
+   "exemple": "Не́сколько яи́ц.",
+   "exemple_traduction": "Quelques œufs."
+  },
+  {
+   "mot": "баге́т",
+   "prononciation": "ba-GÉT",
+   "nature": "nom m.",
+   "traduction": "baguette (pain)",
+   "exemple": "У нас нет баге́та.",
+   "exemple_traduction": "Nous n'avons pas de baguette."
+  },
+  {
+   "mot": "па́чка",
+   "prononciation": "PACH-ka",
+   "nature": "nom f.",
+   "traduction": "paquet",
+   "exemple": "Па́чка ма́сла.",
+   "exemple_traduction": "Un paquet de beurre."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Le génitif de quantité et de négation",
+   "explication": "En russe, pour exprimer une quantité indéfinie (beaucoup, peu, quelques) ou l'absence totale, on utilise le génitif. Après les adverbes мно́го (beaucoup), ма́ло (peu), не́сколько (quelques) et ско́лько (combien), le nom se met toujours au génitif. De même, pour dire « il n'y a pas de... », on utilise la négation нет suivie du génitif. Attention, contrairement au français, le mot « de » ne se traduit pas, c'est la terminaison du mot russe qui porte le sens. Par exemple : мно́го сы́ра (beaucoup de fromage), нет молока́ (il n'y a pas de lait).",
+   "tableau": [
+    [
+     "Mot / Expression",
+     "Cas du nom qui suit"
+    ],
+    [
+     "мно́го / ма́ло",
+     "Génitif"
+    ],
+    [
+     "не́сколько / ско́лько",
+     "Génitif"
+    ],
+    [
+     "нет (absence)",
+     "Génitif"
+    ],
+    [
+     "килогра́мм / литр",
+     "Génitif"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "У меня́ мно́го ябло́к.",
+     "natif": "J'ai beaucoup de pommes."
+    },
+    {
+     "cible": "В магази́не нет баге́та.",
+     "natif": "Il n'y a pas de baguette au magasin."
+    }
+   ]
+  },
+  {
+   "titre": "Le génitif pluriel des noms",
+   "explication": "Le génitif pluriel s'utilise après les nombres 5 et plus, ainsi qu'après les adverbes de quantité. Les terminaisons dépendent du genre et de la finale du mot au nominatif. Les noms masculins prennent généralement -ов/-ев (помидо́ров). Les noms féminins en -а/-я perdent leur terminaison (зéro final : ябло́к, буты́лок). Les noms en -ь au masculin prennent -ей, et au féminin -ей ou -ь. C'est un cas où l'accent tonique et les groupes consonantiques demandent de la pratique, car il n'y a pas de voyelle d'appui à la fin !",
+   "tableau": [
+    [
+     "Genre / Terminaison Nominatif",
+     "Terminaison Génitif Pluriel",
+     "Exemple"
+    ],
+    [
+     "Masculin (consonne)",
+     "-ов / -ев",
+     "помидо́р → помидо́ров"
+    ],
+    [
+     "Féminin (-а / -я)",
+     "-∅ (zéro)",
+     "я́блоко → ябло́к"
+    ],
+    [
+     "Féminin / Masc. (-ь)",
+     "-ей",
+     "буты́лка → буты́лок (exception), тетра́дь → тетра́дей"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Купи́ не́сколько буты́лок вина́.",
+     "natif": "Achète quelques bouteilles de vin."
+    },
+    {
+     "cible": "Мне ну́жно килогра́мм помидо́ров.",
+     "natif": "J'ai besoin d'un kilo de tomates."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Groupes consonantiques et le « zéro » final au génitif pluriel",
+  "explication": "Au génitif pluriel, de nombreux mots féminins et neutres perdent leur voyelle finale (terminaison zéro). Cela crée des groupes de consonnes à la fin du mot. L'erreur classique des francophones est d'ajouter une voyelle d'appui (comme un 'e' muet) pour faciliter la prononciation. Il faut s'entraîner à bloquer la prononciation nettement sur la dernière consonne, sans la faire suivre d'un son vocalique. De plus, l'accent tonique peut se déplacer, modifiant la sonorité du mot.",
+  "exemples": [
+   "я́блок (YA-blok) - pas de 'e' à la fin",
+   "о́кон (O-kon) - pas de 'o' supplémentaire",
+   "сту́льев (STU-lyev) - groupe consonantique final"
+  ]
+ },
+ "culture": {
+  "titre": "Cuisiner « à la française » en Russie",
+  "texte": "Préparer un dîner français à Moscou peut être un véritable défi amusant ! Si le beurre, la crème liquide et le vin sont faciles à trouver dans n'importe quel supermarché comme « Perekriostok », dénicher un vrai camembert ou une baguette traditionnelle relève parfois de la quête. Les Russes adorent la cuisine française, mais ils l'adaptent souvent avec humour : le fromage se marie très bien avec le pain noir (чёрный хлеб), et la crème sure (сметана) remplace parfois la crème liquide. Nina observe avec tendresse et amusement les efforts de Thomas pour recréer les saveurs de son pays."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez la forme correcte au génitif pour compléter la phrase.",
+   "items": [
+    {
+     "question": "У меня́ мно́го ...",
+     "choix": [
+      "я́блок",
+      "ябло́ки",
+      "ябло́ка"
+     ],
+     "reponse": "я́блок"
+    },
+    {
+     "question": "В магази́не нет ...",
+     "choix": [
+      "помидо́ры",
+      "помидо́ров",
+      "помидо́ра"
+     ],
+     "reponse": "помидо́ров"
+    },
+    {
+     "question": "Купи́ не́сколько ...",
+     "choix": [
+      "баге́ты",
+      "баге́та",
+      "баге́тов"
+     ],
+     "reponse": "баге́тов"
+    },
+    {
+     "question": "У нас ма́ло ...",
+     "choix": [
+      "сли́вки",
+      "сли́вок",
+      "сли́вков"
+     ],
+     "reponse": "сли́вок"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez les phrases avec le mot entre parenthèses au génitif (singulier ou pluriel selon le contexte).",
+   "items": [
+    {
+     "question": "Мне ну́жно мно́го _____ (я́блоко).",
+     "reponse": "я́блок"
+    },
+    {
+     "question": "У нас нет _____ (баге́т).",
+     "reponse": "баге́та"
+    },
+    {
+     "question": "Дай мне не́сколько _____ (буты́лка) воды́.",
+     "reponse": "буты́лок"
+    },
+    {
+     "question": "У нас ма́ло _____ (вре́мя).",
+     "reponse": "вре́мени"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez le mot au nominatif (à gauche) avec sa forme correcte au génitif pluriel (à droite).",
+   "items": [
+    {
+     "question": "ябло́ко",
+     "reponse": "я́блок"
+    },
+    {
+     "question": "буты́лка",
+     "reponse": "буты́лок"
+    },
+    {
+     "question": "помидо́р",
+     "reponse": "помидо́ров"
+    },
+    {
+     "question": "окно́",
+     "reponse": "о́кон"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez les mots dans l'ordre pour former une phrase correcte.",
+   "items": [
+    {
+     "question": "мно́го / у / меня́ / ябло́к",
+     "reponse": "У меня́ мно́го ябло́к."
+    },
+    {
+     "question": "нет / в / сы́ра / магази́не",
+     "reponse": "В магази́не нет сы́ра."
+    },
+    {
+     "question": "па́чку / ма́сла / Купи́",
+     "reponse": "Купи́ па́чку ма́сла."
+    },
+    {
+     "question": "не́сколько / мне / ну́жно / яи́ц",
+     "reponse": "Мне ну́жно не́сколько яи́ц."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez les phrases suivantes en russe.",
+   "items": [
+    {
+     "question": "J'ai beaucoup de fromage.",
+     "reponse": "У меня́ мно́го сы́ра."
+    },
+    {
+     "question": "Il n'y a pas de beurre.",
+     "reponse": "У нас нет ма́сла."
+    },
+    {
+     "question": "Achète quelques bouteilles de vin.",
+     "reponse": "Купи́ не́сколько буты́лок вина́."
+    },
+    {
+     "question": "Nous avons peu de temps.",
+     "reponse": "У нас ма́ло вре́мени."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez l'audio (simulé) et choisissez la bonne réponse.",
+   "items": [
+    {
+     "question": "Audio: 'Мне ну́жно килогра́мм помидо́ров.' - Que veut acheter la personne ?",
+     "choix": [
+      "Des tomates",
+      "Des pommes",
+      "Du fromage"
+     ],
+     "reponse": "Des tomates"
+    },
+    {
+     "question": "Audio: 'У нас нет баге́та.' - Qu'est-ce qui manque ?",
+     "choix": [
+      "Du pain noir",
+      "Une baguette",
+      "Du beurre"
+     ],
+     "reponse": "Une baguette"
+    },
+    {
+     "question": "Audio: 'Купи́ литр сли́вок.' - Quelle quantité de crème faut-il ?",
+     "choix": [
+      "Un paquet",
+      "Un litre",
+      "Un kilo"
+     ],
+     "reponse": "Un litre"
+    },
+    {
+     "question": "Audio: 'Я купи́л обы́чный хлеб.' - Quel pain a-t-il acheté ?",
+     "choix": [
+      "Une baguette",
+      "Du pain blanc",
+      "Du pain ordinaire"
+     ],
+     "reponse": "Du pain ordinaire"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bienvenue dans la leçon 15 ! Aujourd'hui, nous allons faire les courses au supermarché.",
+   "ecran": "Logo de la leçon avec le titre en russe et en français.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Thomas prépare un dîner français pour ses amis russes. Il appelle Nina pour avoir de l'aide dans les rayons.",
+   "ecran": "Thomas entre dans le supermarché Perekriostok et sort son téléphone.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Nous allons apprendre à exprimer des quantités, l'absence de quelque chose, et former le génitif pluriel. Écoutez bien le dialogue.",
+   "ecran": "Icônes représentant les objectifs de la leçon.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Ни́на Ива́новна, вы меня́ слы́шите? Я в суперма́ркете.",
+   "ecran": "Thomas pousse son chariot et tient son téléphone.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Да, То́ма, слы́шу. Ты покупа́ешь продукты́ для францу́зского у́жина?",
+   "ecran": "Gros plan sur Thomas qui sourit en entendant Nina.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Да. Мне ну́жно мно́го сы́ра и не́сколько буты́лок вина́.",
+   "ecran": "Thomas s'arrête devant le rayon fromages.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Ой, францу́зская ку́хня! У нас нет настоя́щего сы́ра, но есть хоро́ший.",
+   "ecran": "Animation de bulle de pensée avec un camembert barré.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "А сли́вки есть? Для со́уса.",
+   "ecran": "Thomas regarde les produits laitiers.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Сли́вки есть. Купи́ литр сли́вок и па́чку ма́сла.",
+   "ecran": "Mise en évidence 3D d'un litre de crème et d'un paquet de beurre.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Поня́л. А где о́вощи? Мне ну́жно килогра́мм помидо́ров и мно́го ябло́к.",
+   "ecran": "Thomas note sur sa liste.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "О́вощи и фрукты́ спра́ва. То́ма, а хле́б ты купи́л?",
+   "ecran": "Flèche 3D pointant vers la droite du rayon.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Нет, у нас нет баге́та. Я купи́л обы́чный хлеб.",
+   "ecran": "Thomas montre le pain noir dans son chariot.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Обы́чный хлеб с сы́ром? Ну хорошо́, э́то то́же вку́сно.",
+   "ecran": "Nina rit doucement (onde sonore visuelle).",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "И ещё мне ну́жно не́сколько яи́ц.",
+   "ecran": "Thomas avance vers le rayon suivant.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Яйца́ в сле́дующем ряду́. У тебя́ ма́ло вре́мени, у́жин ско́ро!",
+   "ecran": "Une horloge 3D apparaît pour montrer le temps qui presse.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Спасибо́, Ни́на! До встре́чи!",
+   "ecran": "Thomas range son téléphone et pousse le chariot.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Répétons maintenant le vocabulaire essentiel des courses et des quantités.",
+   "ecran": "Affichage des mots de vocabulaire avec images 3D.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "суперма́ркет, продукты́, мно́го, ма́ло, не́сколько.",
+   "ecran": "Les mots défilent avec leur translittération.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "сы́р, сли́вки, ма́сло, буты́лка, килогра́мм.",
+   "ecran": "Suite du vocabulaire avec les objets 3D correspondants.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la grammaire. Pour exprimer une quantité indéfinie ou l'absence, on utilise le génitif.",
+   "ecran": "Tableau grammatical : много, мало, несколько, нет + Génitif.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Par exemple, 'много сыра' signifie 'beaucoup de fromage'. Le mot 'de' ne se traduit pas, c'est la terminaison qui change.",
+   "ecran": "Animation montrant le mot 'сыр' se transformer en 'сыра'.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Pour l'absence, on utilise 'нет' suivi du génitif. 'Нет багета' : il n'y a pas de baguette.",
+   "ecran": "Exemple mis en surbrillance : нет багета.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Au génitif pluriel, les terminaisons sont -ов/-ев pour le masculin, et souvent le 'zéro' (rien) pour le féminin.",
+   "ecran": "Tableau des terminaisons du génitif pluriel.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Ainsi, 'яблоко' devient 'яблок', et 'помидор' devient 'помидоров'.",
+   "ecran": "Exemples animés : яблоко -> яблок, помидор -> помидоров.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Attention à la prononciation ! Le 'zéro' final ne doit pas être prononcé comme un 'e' muet.",
+   "ecran": "Icône de microphone et d'oreille.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "я́блок. о́кон.",
+   "ecran": "Gros plan sur la bouche d'un avatar 3D prononçant les mots nettement.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bloquez bien votre prononciation sur la dernière consonne. Écoutez et répétez.",
+   "ecran": "Barre de progression pour l'enregistrement vocal.",
+   "interaction": "parler"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Parfait ! Maintenant, testons vos connaissances avec quelques exercices.",
+   "ecran": "Transition vers la section exercices.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 1 : Choisissez la bonne forme au génitif pour compléter la phrase.",
+   "ecran": "Affichage du QCM.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 2 : Complétez les trous avec le mot au génitif.",
+   "ecran": "Affichage de l'exercice à trous.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 3 : Associez le nominatif à son génitif pluriel.",
+   "ecran": "Affichage de l'exercice d'association.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 4 : Remettez les mots dans l'ordre.",
+   "ecran": "Affichage de l'exercice de remise en ordre.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 5 : Traduisez ces phrases en russe.",
+   "ecran": "Affichage de l'exercice de traduction.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 6 : Compréhension orale. Écoutez et choisissez la bonne réponse.",
+   "ecran": "Affichage de l'exercice d'écoute avec bouton play.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo ! Vous savez maintenant faire vos courses et exprimer les quantités en russe. À la prochaine leçon !",
+   "ecran": "Écran de fin avec félicitations et bouton 'Leçon suivante'.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Мне ну́жно мно́го сы́ра.",
+   "natif": "J'ai besoin de beaucoup de fromage."
+  },
+  {
+   "cible": "У нас нет баге́та.",
+   "natif": "Nous n'avons pas de baguette."
+  },
+  {
+   "cible": "Купи́ не́сколько буты́лок вина́.",
+   "natif": "Achète quelques bouteilles de vin."
+  },
+  {
+   "cible": "У тебя́ ма́ло вре́мени.",
+   "natif": "Tu as peu de temps."
+  },
+  {
+   "cible": "Килогра́мм помидо́ров и мно́го ябло́к.",
+   "natif": "Un kilo de tomates et beaucoup de pommes."
+  }
+ ],
+ "controle": []
+}

@@ -1,0 +1,898 @@
+{
+ "cours": "fr-pour-russes",
+ "num": 18,
+ "niveau": "A2",
+ "id": "fr-pour-russes-A2-18",
+ "titre": {
+  "cible": "Direction Lyon !",
+  "natif": "Направляемся в Лион!"
+ },
+ "objectifs": [
+  "Забронировать жильё и обсудить поездку на французском языке",
+  "Спросить дорогу в городе и понять указания прохожего",
+  "Сделать заказ в традиционном лионском ресторане (бушоне)",
+  "Использовать относительные местоимения qui / que / où",
+  "Употреблять будущее время (futur simple) и условное наклонение вежливости"
+ ],
+ "scene": {
+  "lieu": "TGV Paris–Lyon, puis Vieux Lyon et bouchon lyonnais",
+  "moment": "Samedi matin, vers 10h, puis midi",
+  "decor_3d": "Intérieur moderne d'un TGV avec sièges en tissu bleu, tablette rabattable et large fenêtre panoramique laissant défiler les collines verdoyantes et les vignobles de Bourgogne sous un ciel lumineux. Transition vers une ruelle pavée du Vieux Lyon bordée d'immeubles Renaissance aux façades ocre et rose, avec une porte en bois sculpté ouvrant sur une traboule voûtée. Enfin, salle chaleureuse d'un bouchon lyonnais traditionnel : nappes à carreaux rouges et blancs, murs ornés de vieilles affiches, comptoir en zinc et suspension en laiton.",
+  "objets": [
+   "billet de train TGV",
+   "smartphone avec carte",
+   "carte papier de Lyon",
+   "menu ardoise du bouchon",
+   "assiette de quenelles",
+   "saucisson chaud en brioche",
+   "verre de Beaujolais",
+   "panneau rue Juiverie"
+  ],
+  "personnages": [
+   "anna",
+   "lucas"
+  ],
+  "figurants": [
+   {
+    "id": "serveur",
+    "nom": "Philippe",
+    "apparence": "Homme de 50 ans, corpulent et jovial, chemise blanche, long tablier noir traditionnel, moustache fournie, sourire chaleureux",
+    "voix": "grave, chaleureuse, accent lyonnais léger"
+   },
+   {
+    "id": "passant",
+    "nom": "Monsieur Girard",
+    "apparence": "Homme de 65 ans, élégant, béret noir, manteau beige, écharpe bordeaux, canne en bois",
+    "voix": "posée, bienveillante, diction claire"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "lucas",
+   "texte": "Regarde, Anna ! Les vignobles de Bourgogne qui défilent derrière la fenêtre, c'est magnifique !",
+   "traduction": "Смотри, Анна! Виноградники Бургундии, которые мелькают за окном, — это великолепно!",
+   "geste": "Lucas se penche vers la fenêtre et pointe du doigt le paysage qui défile"
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, j'adore ce paysage ! Tu as réservé la chambre d'hôtes à Lyon ?",
+   "traduction": "Да, мне очень нравится этот пейзаж! Ты забронировал гостевую комнату в Лионе?",
+   "geste": "Anna sourit, pose son livre et regarde Lucas avec curiosité"
+  },
+  {
+   "perso": "lucas",
+   "texte": "Oui, j'ai choisi une petite maison qui est dans le Vieux Lyon. Le propriétaire que j'ai eu au téléphone était très sympa.",
+   "traduction": "Да, я выбрал небольшой дом, который находится в Старом Лионе. Хозяин, с которым я говорил по телефону, был очень приятным.",
+   "geste": "Lucas montre son smartphone avec la confirmation de réservation"
+  },
+  {
+   "perso": "anna",
+   "texte": "Super ! Et le bouchon lyonnais où tu voulais déjeuner, il est loin ?",
+   "traduction": "Отлично! А лионский бушон, где ты хотел пообедать, далеко?",
+   "geste": "Anna ouvre la carte papier de Lyon sur la tablette"
+  },
+  {
+   "perso": "lucas",
+   "texte": "Non, il est dans le quartier où il y a beaucoup de traboules. Dans une heure, nous arriverons à Lyon !",
+   "traduction": "Нет, он в квартале, где много трабулей. Через час мы приедем в Лион!",
+   "geste": "Lucas pointe un point sur la carte avec son doigt"
+  },
+  {
+   "perso": "anna",
+   "texte": "Oh, je suis contente ! Je visiterai la cathédrale Saint-Jean cet après-midi.",
+   "traduction": "Ох, я так рада! Сегодня днём я осмотрю собор Сен-Жан.",
+   "geste": "Anna joint les mains avec enthousiasme"
+  },
+  {
+   "perso": "anna",
+   "texte": "Excusez-moi, monsieur, pourriez-vous nous indiquer la rue Juiverie, s'il vous plaît ?",
+   "traduction": "Извините, месье, не могли бы вы показать нам улицу Жюиври, пожалуйста?",
+   "geste": "Anna, dans la rue, s'adresse poliment à un passant en tenant la carte"
+  },
+  {
+   "perso": "passant",
+   "texte": "Bien sûr ! Allez tout droit, puis tournez à gauche. C'est la rue où vous verrez une porte en bois sculpté.",
+   "traduction": "Конечно! Идите прямо, затем поверните налево. Это улица, где вы увидите резную деревянную дверь.",
+   "geste": "Le passant pointe du doigt la direction, puis mime une porte"
+  },
+  {
+   "perso": "lucas",
+   "texte": "Merci beaucoup, monsieur ! Nous ne nous perdrons pas cette fois.",
+   "traduction": "Большое спасибо, месье! В этот раз мы не заблудимся.",
+   "geste": "Lucas s'incline légèrement en signe de remerciement"
+  },
+  {
+   "perso": "serveur",
+   "texte": "Bonjour et bienvenue ! Qu'est-ce que vous désirez aujourd'hui ?",
+   "traduction": "Здравствуйте и добро пожаловать! Что вы желаете сегодня?",
+   "geste": "Le serveur s'approche de la table avec un carnet et un stylo"
+  },
+  {
+   "perso": "lucas",
+   "texte": "Nous voudrions les quenelles de brochet et le saucisson chaud, s'il vous plaît.",
+   "traduction": "Мы хотели бы кнели из щуки и горячую колбасу, пожалуйста.",
+   "geste": "Lucas ferme le menu et le tend au serveur"
+  },
+  {
+   "perso": "anna",
+   "texte": "Et moi, je prendrai une salade lyonnaise. Pourrais-je avoir aussi un verre de Beaujolais ?",
+   "traduction": "А я возьму лионский салат. Можно мне также бокал Божоле?",
+   "geste": "Anna pose la main sur son menu en souriant"
+  },
+  {
+   "perso": "serveur",
+   "texte": "Excellent choix ! Vous ne regretterez pas, c'est délicieux. J'apporte ça tout de suite.",
+   "traduction": "Отличный выбор! Вы не пожалеете, это очень вкусно. Сейчас принесу.",
+   "geste": "Le serveur note la commande et s'éloigne vers la cuisine"
+  },
+  {
+   "perso": "anna",
+   "texte": "Mmm, c'est vraiment bon ! Ce week-end à Lyon, je m'en souviendrai longtemps !",
+   "traduction": "Ммм, действительно вкусно! Эти выходные в Лионе я буду долго помнить!",
+   "geste": "Anna goûte les quenelles et ferme les yeux de plaisir"
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "un hébergement",
+   "prononciation": "[e.bɛʁ.ʒə.mɑ̃]",
+   "nature": "nom m.",
+   "translation": "жильё, размещение",
+   "exemple": "Nous cherchons un hébergement pour le week-end.",
+   "exemple_traduction": "Мы ищем жильё на выходные."
+  },
+  {
+   "mot": "réserver",
+   "prononciation": "[ʁe.zɛʁ.ve]",
+   "nature": "verbe",
+   "translation": "бронировать",
+   "exemple": "Je voudrais réserver une chambre.",
+   "exemple_traduction": "Я хотел бы забронировать номер."
+  },
+  {
+   "mot": "une chambre d'hôtes",
+   "prononciation": "[ʃɑ̃.bʁə.dot]",
+   "nature": "nom f.",
+   "translation": "гостевая комната (B&B)",
+   "exemple": "La chambre d'hôtes est très confortable.",
+   "exemple_traduction": "Гостевая комната очень удобная."
+  },
+  {
+   "mot": "un bouchon",
+   "prononciation": "[bu.ʃɔ̃]",
+   "nature": "nom m.",
+   "translation": "традиционный лионский ресторан",
+   "exemple": "Nous mangeons dans un bouchon ce soir.",
+   "exemple_traduction": "Сегодня вечером мы едим в бушоне."
+  },
+  {
+   "mot": "une quenelle",
+   "prononciation": "[kə.nɛl]",
+   "nature": "nom f.",
+   "translation": "кнель (клецка из щуки)",
+   "exemple": "Les quenelles de brochet sont délicieuses.",
+   "exemple_traduction": "Кнели из щуки очень вкусные."
+  },
+  {
+   "mot": "un saucisson chaud",
+   "prononciation": "[so.si.sɔ̃.ʃo]",
+   "nature": "nom m.",
+   "translation": "горячая колбаса (блюдо)",
+   "exemple": "Le saucisson chaud est servi avec des pommes de terre.",
+   "exemple_traduction": "Горячую колбасу подают с картофелем."
+  },
+  {
+   "mot": "une traboule",
+   "prononciation": "[tʁa.bul]",
+   "nature": "nom f.",
+   "translation": "трабуль (крытый лионский проход)",
+   "exemple": "Les traboules sont typiques du Vieux Lyon.",
+   "exemple_traduction": "Трабули типичны для Старого Лиона."
+  },
+  {
+   "mot": "demander son chemin",
+   "prononciation": "[də.mɑ̃.de.sɔ̃.ʃə.mɛ̃]",
+   "nature": "expression",
+   "translation": "спросить дорогу",
+   "exemple": "Je vais demander mon chemin à un passant.",
+   "exemple_traduction": "Я спрошу дорогу у прохожего."
+  },
+  {
+   "mot": "se perdre",
+   "prononciation": "[sə.pɛʁdʁ]",
+   "nature": "verbe pronominal",
+   "translation": "заблудиться",
+   "exemple": "Nous nous sommes perdus dans le quartier.",
+   "exemple_traduction": "Мы заблудились в квартале."
+  },
+  {
+   "mot": "tout droit",
+   "prononciation": "[tu.dʁwa]",
+   "nature": "adverbe",
+   "translation": "прямо",
+   "exemple": "Allez tout droit pendant cinq minutes.",
+   "exemple_traduction": "Идите прямо пять минут."
+  },
+  {
+   "mot": "tourner",
+   "prononciation": "[tuʁ.ne]",
+   "nature": "verbe",
+   "translation": "поворачивать",
+   "exemple": "Tournez à gauche après la boulangerie.",
+   "exemple_traduction": "Поверните налево после булочной."
+  },
+  {
+   "mot": "le quartier",
+   "prononciation": "[kaʁ.tje]",
+   "nature": "nom m.",
+   "translation": "квартал, район",
+   "exemple": "Le Vieux Lyon est un quartier historique.",
+   "exemple_traduction": "Старый Лион — это исторический район."
+  },
+  {
+   "mot": "la gastronomie",
+   "prononciation": "[gas.tʁɔ.nɔ.mi]",
+   "nature": "nom f.",
+   "translation": "гастрономия",
+   "exemple": "La gastronomie lyonnaise est célèbre.",
+   "exemple_traduction": "Лионская гастрономия знаменита."
+  },
+  {
+   "mot": "commander",
+   "prononciation": "[kɔ.mɑ̃.de]",
+   "nature": "verbe",
+   "translation": "заказывать",
+   "exemple": "Nous allons commander une spécialité régionale.",
+   "exemple_traduction": "Мы закажем региональное фирменное блюдо."
+  },
+  {
+   "mot": "une spécialité",
+   "prononciation": "[spe.sja.li.te]",
+   "nature": "nom f.",
+   "translation": "фирменное блюдо, специалитет",
+   "exemple": "Les quenelles sont une spécialité lyonnaise.",
+   "exemple_traduction": "Кнели — это лионский специалитет."
+  },
+  {
+   "mot": "délicieux / délicieuse",
+   "prononciation": "[de.li.sjø / de.li.sjøz]",
+   "nature": "adjectif",
+   "translation": "очень вкусный",
+   "exemple": "Ce plat est vraiment délicieux.",
+   "exemple_traduction": "Это блюдо действительно очень вкусное."
+  },
+  {
+   "mot": "l'addition (f.)",
+   "prononciation": "[a.di.sjɔ̃]",
+   "nature": "nom f.",
+   "translation": "счёт (в ресторане)",
+   "exemple": "L'addition, s'il vous plaît !",
+   "exemple_traduction": "Счёт, пожалуйста!"
+  },
+  {
+   "mot": "un paysage",
+   "prononciation": "[pe.i.zaʒ]",
+   "nature": "nom m.",
+   "translation": "пейзаж, вид",
+   "exemple": "Le paysage de la Bourgogne est magnifique.",
+   "exemple_traduction": "Пейзаж Бургундии великолепен."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Относительные местоимения qui / que / où",
+   "explication": "Относительные местоимения связывают две части сложного предложения и позволяют избежать повторов. Местоимение qui заменяет подлежащее (субъект действия) и стоит перед глаголом: «C'est la maison qui est dans le Vieux Lyon» (которая находится). Местоимение que (перед гласной qu') заменяет прямое дополнение (COD) и стоит перед подлежащим: «Le propriétaire que j'ai eu au téléphone» (с которым я говорил — буквально «которого я имел»). Местоимение où обозначает место или время и переводится «где, куда, в котором»: «Le quartier où il y a des traboules» (квартал, где есть трабули). Выбор местоимения зависит только от грамматической роли слова в придаточной части, а не от его рода или числа. Запомните формулу: qui + глагол, que + подлежащее + глагол, où + подлежащее + глагол.",
+   "tableau": [
+    [
+     "Местоимение",
+     "Функция",
+     "Пример"
+    ],
+    [
+     "qui",
+     "подлежащее",
+     "La femme qui parle est ma mère."
+    ],
+    [
+     "que / qu'",
+     "прямое дополнение (COD)",
+     "Le livre que je lis est passionnant."
+    ],
+    [
+     "où",
+     "место или время",
+     "La ville où j'habite est grande."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Les vignobles qui défilent sont magnifiques.",
+     "natif": "Виноградники, которые мелькают, великолепны."
+    },
+    {
+     "cible": "Le bouchon que tu as choisi est excellent.",
+     "natif": "Бушон, который ты выбрал, отличный."
+    },
+    {
+     "cible": "Voilà la rue où nous mangerons.",
+     "natif": "Вот улица, где мы поедим."
+    }
+   ]
+  },
+  {
+   "titre": "Futur simple (введение) и условное наклонение вежливости",
+   "explication": "Futur simple выражает действие в будущем, чаще отдалённом или запланированном. Он образуется от инфинитива (для 3-й группы — от специальной основы) с окончаниями: -ai, -as, -a, -ons, -ez, -ont. Пример: visiter → je visiterai, tu visiteras, il visitera, nous visiterons, vous visiterez, ils visiteront. Глаголы être (ser-), avoir (aur-), aller (ir-), faire (fer-), pouvoir (pourr-), vouloir (voudr-), voir (verr-), venir (viendr-) имеют неправильные основы, но те же окончания. Conditionnel de politesse (условное наклонение вежливости) образуется от той же основы, что futur simple, но с окончаниями imparfait (-ais, -ais, -ait, -ions, -iez, -aient). Он используется для вежливых просьб: «Je voudrais un café», «Pourriez-vous m'aider?». Это мягче, чем présent: «Je veux» звучит требовательно, «Je voudrais» — вежливо.",
+   "tableau": [
+    [
+     "Лицо",
+     "Futur simple (visiter)",
+     "Conditionnel (vouloir)"
+    ],
+    [
+     "je",
+     "visiterai",
+     "voudrais"
+    ],
+    [
+     "tu",
+     "visiteras",
+     "voudrais"
+    ],
+    [
+     "il / elle",
+     "visitera",
+     "voudrait"
+    ],
+    [
+     "nous",
+     "visiterons",
+     "voudrions"
+    ],
+    [
+     "vous",
+     "visiterez",
+     "voudriez"
+    ],
+    [
+     "ils / elles",
+     "visiteront",
+     "voudraient"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Demain, nous arriverons à Lyon à midi.",
+     "natif": "Завтра мы приедем в Лион в полдень."
+    },
+    {
+     "cible": "Je prendrai une salade lyonnaise.",
+     "natif": "Я возьму лионский салат."
+    },
+    {
+     "cible": "Pourriez-vous nous indiquer la rue Juiverie ?",
+     "natif": "Не могли бы вы показать нам улицу Жюиври?"
+    },
+    {
+     "cible": "Je voudrais un verre de Beaujolais, s'il vous plaît.",
+     "natif": "Я хотел бы бокал Божоле, пожалуйста."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Интонация восклицательных предложений",
+  "explication": "Восклицательные предложения во французском языке произносятся с повышением тона к концу фразы, затем с небольшим падением. Эмоция (радость, удивление, восторг) передаётся удлинением ударного гласного и более высоким регистром голоса. Например: «C'est magnifique !» — тон поднимается на -fique и слегка падает на финальном согласном. Восклицания «Oh !», «Mmm !», «Super !» требуют особого эмоционального подъёма. Тренируйтесь, растягивая последний ударный слог.",
+  "exemples": [
+   "C'est magnifique !",
+   "Oh, je suis contente !",
+   "Mmm, c'est vraiment bon !",
+   "Super !",
+   "Excellent choix !"
+  ]
+ },
+ "culture": {
+  "titre": "Лион — столица мировой гастрономии",
+  "texte": "Лион, расположенный между реками Роной и Соной, получил неофициальный титул «столицы мировой гастрономии» благодаря знаменитому критику Курнонски в 1935 году. Город славится своими традиционными ресторанами — бушонами (bouchons), где подают сытные блюда: кнели из щуки (quenelles de brochet), горячую колбасу в булочке бриошь (saucisson brioché), лионский салат с салом (salade lyonnaise) и сыры, особенно сен-марселен. Знаменитые лионские мамы (mères lyonnaises), такие как мать Бражье, заложили основы высокой домашней кухни в начале XX века. Неотъемлемая часть Старого Лиона — трабули (traboules), крытые проходы между домами, которые в XV–XIX веках использовали шёлковые ткачи (каню), чтобы переносить ткани, не намочив их под дождём. Сегодня Лион внесён в список всемирного наследия ЮНЕСКО."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Выберите правильное относительное местоимение: qui, que или où.",
+   "items": [
+    {
+     "question": "La chambre d'hôtes _____ j'ai réservée est dans le Vieux Lyon.",
+     "choix": [
+      "qui",
+      "que",
+      "où"
+     ],
+     "reponse": "que"
+    },
+    {
+     "question": "Le serveur _____ nous a accueillis est très sympathique.",
+     "choix": [
+      "qui",
+      "que",
+      "où"
+     ],
+     "reponse": "qui"
+    },
+    {
+     "question": "Le bouchon _____ nous mangeons est célèbre.",
+     "choix": [
+      "qui",
+      "que",
+      "où"
+     ],
+     "reponse": "où"
+    },
+    {
+     "question": "Les vignobles _____ défilent sont magnifiques.",
+     "choix": [
+      "qui",
+      "que",
+      "où"
+     ],
+     "reponse": "qui"
+    },
+    {
+     "question": "La spécialité _____ je préfère, c'est la quenelle.",
+     "choix": [
+      "qui",
+      "que",
+      "où"
+     ],
+     "reponse": "que"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Поставьте глагол в futur simple.",
+   "items": [
+    {
+     "question": "Demain, nous _____ (arriver) à Lyon à midi.",
+     "reponse": "arriverons"
+    },
+    {
+     "question": "Je _____ (visiter) la cathédrale Saint-Jean.",
+     "reponse": "visiterai"
+    },
+    {
+     "question": "Tu _____ (choisir) un bon restaurant.",
+     "reponse": "choisiras"
+    },
+    {
+     "question": "Ils _____ (être) contents du voyage.",
+     "reponse": "seront"
+    },
+    {
+     "question": "Vous _____ (avoir) une belle chambre.",
+     "reponse": "aurez"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Соедините французское слово с его русским переводом.",
+   "items": [
+    {
+     "question": "un bouchon",
+     "reponse": "традиционный лионский ресторан"
+    },
+    {
+     "question": "une traboule",
+     "reponse": "крытый лионский проход"
+    },
+    {
+     "question": "une quenelle",
+     "reponse": "кнель (клецка из щуки)"
+    },
+    {
+     "question": "tout droit",
+     "reponse": "прямо"
+    },
+    {
+     "question": "commander",
+     "reponse": "заказывать"
+    },
+    {
+     "question": "l'addition",
+     "reponse": "счёт в ресторане"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Расставьте слова в правильном порядке, чтобы получить предложение.",
+   "items": [
+    {
+     "question": "voudrais / je / de / Beaujolais / un / verre",
+     "reponse": "Je voudrais un verre de Beaujolais."
+    },
+    {
+     "question": "droit / allez / puis / tournez / tout / gauche / à",
+     "reponse": "Allez tout droit puis tournez à gauche."
+    },
+    {
+     "question": "visiterai / cathédrale / la / je / demain",
+     "reponse": "Je visiterai la cathédrale demain."
+    },
+    {
+     "question": "où / mangeons / nous / le / bouchon / c'est",
+     "reponse": "C'est le bouchon où nous mangeons."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Переведите фразы на французский, используя conditionnel de politesse.",
+   "items": [
+    {
+     "question": "Я хотел бы меню, пожалуйста.",
+     "reponse": "Je voudrais le menu, s'il vous plaît."
+    },
+    {
+     "question": "Не могли бы вы нам помочь?",
+     "reponse": "Pourriez-vous nous aider ?"
+    },
+    {
+     "question": "Мы хотели бы столик на двоих.",
+     "reponse": "Nous voudrions une table pour deux."
+    },
+    {
+     "question": "Я хотел бы бокал воды.",
+     "reponse": "Je voudrais un verre d'eau."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Прослушайте фразы и выберите правильный вариант ответа.",
+   "items": [
+    {
+     "question": "Qu'est-ce qu'Anna et Lucas vont visiter ?",
+     "choix": [
+      "la cathédrale Saint-Jean",
+      "la tour Eiffel",
+      "le musée des Confluences"
+     ],
+     "reponse": "la cathédrale Saint-Jean"
+    },
+    {
+     "question": "Qu'est-ce que Lucas a réservé ?",
+     "choix": [
+      "un hôtel moderne",
+      "une chambre d'hôtes",
+      "un appartement"
+     ],
+     "reponse": "une chambre d'hôtes"
+    },
+    {
+     "question": "Qu'est-ce qu'Anna va commander ?",
+     "choix": [
+      "des quenelles",
+      "une salade lyonnaise",
+      "un saucisson chaud"
+     ],
+     "reponse": "une salade lyonnaise"
+    },
+    {
+     "question": "Que doit-on faire après être allé tout droit ?",
+     "choix": [
+      "tourner à droite",
+      "tourner à gauche",
+      "continuer"
+     ],
+     "reponse": "tourner à gauche"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Добро пожаловать на восемнадцатый урок курса! Сегодня Анна и Лукас отправляются в путешествие — мы едем в Лион!",
+   "ecran": "Заставка: карта Франции с анимированным маршрутом Париж–Лион и поездом TGV",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Цели урока: бронировать жильё, спрашивать дорогу, делать заказ в ресторане. Грамматика: относительные местоимения qui, que, où, futur simple и условное наклонение вежливости.",
+   "ecran": "Список целей урока появляется на экране с иконками",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Мы в скоростном поезде TGV, который мчит нас через Бургундию. Слушайте диалог и следите за жестами героев.",
+   "ecran": "3D-сцена: интерьер TGV, Анна и Лукас у окна, за окном мелькают виноградники",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "Regarde, Anna ! Les vignobles de Bourgogne qui défilent derrière la fenêtre, c'est magnifique !",
+   "ecran": "Лукас указывает на виноградники за окном",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, j'adore ce paysage ! Tu as réservé la chambre d'hôtes à Lyon ?",
+   "ecran": "Анна откладывает книгу и смотрит на Лукаса",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "Oui, j'ai choisi une petite maison qui est dans le Vieux Lyon. Le propriétaire que j'ai eu au téléphone était très sympa.",
+   "ecran": "Лукас показывает экран смартфона с подтверждением брони",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Обратите внимание на три относительных местоимения: qui (виноградники, которые мелькают; дом, который находится), que (хозяин, которого я имел — то есть с которым говорил).",
+   "ecran": "Подсвечиваются слова qui и que в субтитрах",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v08",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Super ! Et le bouchon lyonnais où tu voulais déjeuner, il est loin ?",
+   "ecran": "Анна разворачивает карту Лиона на столике",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "Non, il est dans le quartier où il y a beaucoup de traboules. Dans une heure, nous arriverons à Lyon !",
+   "ecran": "Лукас показывает точку на карте",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Местоимение où обозначает место: «quartier où il y a des traboules» — квартал, где есть трабули. И обратите внимание на futur simple: «nous arriverons» — мы приедем.",
+   "ecran": "Анимация: слово où подсвечивается, затем появляется форма arriverons",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v11",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oh, je suis contente ! Je visiterai la cathédrale Saint-Jean cet après-midi.",
+   "ecran": "Анна радостно складывает руки",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Поезд прибыл. Мы в Старом Лионе. Анна спрашивает дорогу у прохожего. Обратите внимание на условное наклонение вежливости: «pourriez-vous».",
+   "ecran": "Смена сцены: улица в Старом Лионе, Анна с картой обращается к месьё Жирару",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v13",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Excusez-moi, monsieur, pourriez-vous nous indiquer la rue Juiverie, s'il vous plaît ?",
+   "ecran": "Анна вежливо обращается к прохожему",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "passant",
+   "langue": "fr",
+   "texte": "Bien sûr ! Allez tout droit, puis tournez à gauche. C'est la rue où vous verrez une porte en bois sculpté.",
+   "ecran": "Прохожий указывает направление рукой",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "Merci beaucoup, monsieur ! Nous ne nous perdrons pas cette fois.",
+   "ecran": "Лукас кланяется в знак благодарности",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь мы в традиционном лионском бушоне. Слушайте, как Анна и Лукас делают заказ.",
+   "ecran": "Смена сцены: интерьер бушона, официант Филипп подходит к столику",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v17",
+   "voix": "serveur",
+   "langue": "fr",
+   "texte": "Bonjour et bienvenue ! Qu'est-ce que vous désirez aujourd'hui ?",
+   "ecran": "Официант с блокнотом подходит к столу",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "Nous voudrions les quenelles de brochet et le saucisson chaud, s'il vous plaît.",
+   "ecran": "Лукас закрывает меню и отдаёт официанту",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Et moi, je prendrai une salade lyonnaise. Pourrais-je avoir aussi un verre de Beaujolais ?",
+   "ecran": "Анна с улыбкой кладёт руку на меню",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Здесь futur simple: «je prendrai» — я возьму. И conditionnel de politesse: «pourrais-je» — можно ли мне, «nous voudrions» — мы хотели бы.",
+   "ecran": "Таблица: futur simple vs conditionnel с примерами из диалога",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "serveur",
+   "langue": "fr",
+   "texte": "Excellent choix ! Vous ne regretterez pas, c'est délicieux. J'apporte ça tout de suite.",
+   "ecran": "Официант записывает заказ и уходит на кухню",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v22",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Mmm, c'est vraiment bon ! Ce week-end à Lyon, je m'en souviendrai longtemps !",
+   "ecran": "Анна пробует кнели и закрывает глаза от удовольствия",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь потренируемся произносить восклицания с правильной интонацией. Повторяйте за диктором, растягивая ударный слог.",
+   "ecran": "Волновая диаграмма интонации восклицательных фраз",
+   "interaction": "parler"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "C'est magnifique !",
+   "ecran": "Фраза появляется с выделением ударного слога -fi-",
+   "interaction": "parler"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Oh, je suis contente !",
+   "ecran": "Фраза с интонационной кривой",
+   "interaction": "parler"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Mmm, c'est vraiment bon !",
+   "ecran": "Фраза с выделением bon",
+   "interaction": "parler"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отлично! Теперь изучим новые слова. Повторяйте за диктором и запоминайте произношение.",
+   "ecran": "Список ключевых слов урока с карточками",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь переходим к упражнениям. Начнём с относительных местоимений qui, que, où. Выберите правильный вариант.",
+   "ecran": "Упражнение 1: QCM",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 2: поставьте глагол в futur simple. Впишите правильную форму.",
+   "ecran": "Упражнение 2: пропуски",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 3: соедините французские слова с русскими переводами.",
+   "ecran": "Упражнение 3: association",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 4: расставьте слова в правильном порядке.",
+   "ecran": "Упражнение 4: порядок слов",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 5: переведите фразы, используя conditionnel de politesse.",
+   "ecran": "Упражнение 5: перевод",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 6: аудирование. Прослушайте вопросы и выберите ответ.",
+   "ecran": "Упражнение 6: écoute",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Культурный блок: Лион — столица мировой гастрономии, город бушонов, трабулей и знаменитых лионских мам.",
+   "ecran": "Фото Лиона: набережные, трабули, блюда бушонов",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Подведём итоги. В этом уроке мы научились бронировать жильё, спрашивать дорогу и делать заказ в ресторане, используя qui, que, où, futur simple и conditionnel de politesse. До встречи на следующем уроке!",
+   "ecran": "Итоговая заставка с ключевыми фразами урока",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Les pronoms relatifs qui, que et où relient deux parties d'une phrase.",
+   "natif": "Относительные местоимения qui, que и où связывают две части предложения."
+  },
+  {
+   "cible": "Le futur simple exprime une action future avec les terminaisons -ai, -as, -a, -ons, -ez, -ont.",
+   "natif": "Futur simple выражает будущее действие с окончаниями -ai, -as, -a, -ons, -ez, -ont."
+  },
+  {
+   "cible": "Le conditionnel de politesse (je voudrais, pourriez-vous) rend les demandes plus douces.",
+   "natif": "Условное наклонение вежливости (je voudrais, pourriez-vous) делает просьбы мягче."
+  },
+  {
+   "cible": "Lyon est la capitale de la gastronomie avec ses bouchons et ses traboules.",
+   "natif": "Лион — столица гастрономии со своими бушонами и трабулями."
+  },
+  {
+   "cible": "Pour demander son chemin, on utilise : tout droit, tourner à gauche / à droite.",
+   "natif": "Чтобы спросить дорогу, используем: tout droit, tourner à gauche / à droite."
+  }
+ ],
+ "controle": []
+}

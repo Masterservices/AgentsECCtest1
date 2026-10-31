@@ -1,0 +1,961 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 26,
+ "niveau": "B1",
+ "id": "ru-pour-francais-B1-26",
+ "titre": {
+  "cible": "При́ставки движе́ния: вы́-, пере́-, про́-",
+  "natif": "Préfixes de mouvement : вы-, пере-, про-"
+ },
+ "objectifs": [
+  "Exprimer la sortie d'un espace clos (выехать, выйти)",
+  "Décrire une traversée ou un changement de lieu (переехать, перейти)",
+  "Indiquer un passage devant ou à travers un lieu (проехать, пройти)",
+  "Donner un itinéraire détaillé en combinant plusieurs préfixes",
+  "Décrire un trajet en voiture, à pied ou en métro au passé et au futur"
+ ],
+ "scene": {
+  "lieu": "Stationnement souterrain de l'université MGU, puis rues de Moscou",
+  "moment": "Samedi après-midi, début novembre, lumière d'automne",
+  "decor_3d": "Parking universitaire en béton avec marquage au sol jaune, piliers gris, rampes de sortie inclinées, barrière automatique. À l'extérieur : avenue bordée de bouleaux aux feuilles dorées, buildings stalinien en arrière-plan, panneaux de signalisation en cyrillique, ciel nuageux.",
+  "objets": [
+   "voiture noire berline",
+   "barrière de parking",
+   "panneau « Вы́езд »",
+   "GPS sur tableau de bord",
+   "volant",
+   "ceinture de sécurité",
+   "clés de voiture",
+   "plan de Moscou"
+  ],
+  "personnages": [
+   "dima",
+   "thomas"
+  ],
+  "figurants": [
+   {
+    "id": "guard",
+    "nom": "Gardien du parking",
+    "apparence": "Homme 60 ans, uniforme bleu marine, casquette, moustache grise",
+    "voix": "grave et lente"
+   },
+   {
+    "id": "driver",
+    "nom": "Automobiliste",
+    "apparence": "Femme 40 ans, manteau beige, au volant d'une voiture rouge",
+    "voix": "neutre feminine"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "dima",
+   "texte": "То́мас, смотри́! Вот моя́ но́вая маши́на. Сади́сь!",
+   "traduction": "Thomas, regarde ! Voici ma nouvelle voiture. Monte !",
+   "geste": "Dima montre fièrement sa voiture et ouvre la portière passager"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Краси́вая! А куда́ мы пое́дем?",
+   "traduction": "Jolie ! Et où allons-nous aller ?",
+   "geste": "Thomas admire la voiture et s'assoit en attachant sa ceinture"
+  },
+  {
+   "perso": "dima",
+   "texte": "Снача́ла мы вы́едем из па́ркинга, пото́м перее́дем че́рез мост и прое́дем ми́мо университе́та.",
+   "traduction": "D'abord nous sortirons du parking, puis nous traverserons le pont et passerons devant l'université.",
+   "geste": "Dima démarre le moteur et pointe l'itinéraire sur le GPS"
+  },
+  {
+   "perso": "guard",
+   "texte": "До́брый день! Вы выезжа́ете? Осторо́жно, шлагбау́м!",
+   "traduction": "Bonjour ! Vous sortez ? Attention, la barrière !",
+   "geste": "Le gardien lève la barrière et fait signe de passer"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Ого́, кака́я большо́я про́бка! Мы дол́го бу́дем е́хать?",
+   "traduction": "Oh là là, quel gros embouteillage ! On va rouler longtemps ?",
+   "geste": "Thomas regarde par la fenêtre, surpris par la file de voitures"
+  },
+  {
+   "perso": "dima",
+   "texte": "Да, в Москве́ всегда́ про́бки. На́до объе́хать центр по Садо́вому кольцу́.",
+   "traduction": "Oui, à Moscou il y a toujours des bouchons. Il faut contourner le centre par l'anneau des Jardins.",
+   "geste": "Dima tourne le volant et change de voie"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Смотри́, мы уже́ перее́хали че́рез Москву́-реку́!",
+   "traduction": "Regarde, on a déjà traversé la Moskova !",
+   "geste": "Thomas pointe le fleuve par la vitre"
+  },
+  {
+   "perso": "dima",
+   "texte": "Сейча́с мы прое́дем ми́мо Кра́сной пло́щади и дое́дем до Арба́та.",
+   "traduction": "Maintenant on va passer devant la Place Rouge et arriver jusqu'à l'Arbat.",
+   "geste": "Dima ralentit pour montrer les monuments"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Вчера́ я вы́шел из метро́ « Арба́тская » и перешёл че́рез у́лицу.",
+   "traduction": "Hier je suis sorti du métro « Arbatskaïa » et j'ai traversé la rue.",
+   "geste": "Thomas mime la sortie du métro avec la main"
+  },
+  {
+   "perso": "dima",
+   "texte": "А я вчера́ зашёл в кафе́ « Му́-Му́ » и встре́тил Ма́шу.",
+   "traduction": "Et moi hier je suis entré dans le café « Mou-Mou » et j'ai rencontré Masha.",
+   "geste": "Dima sourit en se rappelant la rencontre"
+  },
+  {
+   "perso": "driver",
+   "texte": "Извини́те, вы не зна́ете, как въе́хать на Тверску́ю?",
+   "traduction": "Excusez-moi, vous savez comment entrer sur la Tverskaïa ?",
+   "geste": "L'automobiliste baisse sa vitre et demande le chemin"
+  },
+  {
+   "perso": "dima",
+   "texte": "Поверни́те напра́во, перее́дьте че́рез проспе́кт и вы подъе́дете к Тверско́й.",
+   "traduction": "Tournez à droite, traversez l'avenue et vous arriverez à la Tverskaïa.",
+   "geste": "Dima indique la direction avec la main"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Ты отли́чно води́шь! Ско́лько мы ещё прое́дем?",
+   "traduction": "Tu conduis super bien ! On va encore rouler combien ?",
+   "geste": "Thomas regarde le GPS avec admiration"
+  },
+  {
+   "perso": "dima",
+   "texte": "Ещё мину́т два́дцать. Мы прие́дем к шести́ часа́м.",
+   "traduction": "Encore vingt minutes. On arrivera vers six heures.",
+   "geste": "Dima regarde sa montre et accélère légèrement"
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "вы́ехать",
+   "prononciation": "VYyekhat'",
+   "nature": "verbe perfectif",
+   "traduction": "sortir (en véhicule)",
+   "exemple": "Мы вы́едем из па́ркинга.",
+   "exemple_traduction": "Nous sortirons du parking."
+  },
+  {
+   "mot": "перее́хать",
+   "prononciation": "pereYEkhat'",
+   "nature": "verbe perfectif",
+   "traduction": "traverser (en véhicule), déménager",
+   "exemple": "Мы перее́хали че́рез мост.",
+   "exemple_traduction": "Nous avons traversé le pont."
+  },
+  {
+   "mot": "прое́хать",
+   "prononciation": "proYEkhat'",
+   "nature": "verbe perfectif",
+   "traduction": "parcourir, passer (en véhicule)",
+   "exemple": "Мы прое́хали ми́мо музе́я.",
+   "exemple_traduction": "Nous sommes passés devant le musée."
+  },
+  {
+   "mot": "выезжа́ть",
+   "prononciation": "vyeizZHAT'",
+   "nature": "verbe imperfectif",
+   "traduction": "sortir (en véhicule, processus)",
+   "exemple": "Мы выезжа́ем из двора́.",
+   "exemple_traduction": "Nous sortons de la cour."
+  },
+  {
+   "mot": "переезжа́ть",
+   "prononciation": "pereyezzhAT'",
+   "nature": "verbe imperfectif",
+   "traduction": "traverser, déménager (processus)",
+   "exemple": "Они́ переезжа́ют в но́вый дом.",
+   "exemple_traduction": "Ils déménagent dans une nouvelle maison."
+  },
+  {
+   "mot": "проезжа́ть",
+   "prononciation": "proyezzhAT'",
+   "nature": "verbe imperfectif",
+   "traduction": "passer devant, parcourir (processus)",
+   "exemple": "Мы проезжа́ем че́рез лес.",
+   "exemple_traduction": "Nous traversons la forêt."
+  },
+  {
+   "mot": "объе́хать",
+   "prononciation": "obYEkhat'",
+   "nature": "verbe perfectif",
+   "traduction": "contourner (en véhicule)",
+   "exemple": "На́до объе́хать центр.",
+   "exemple_traduction": "Il faut contourner le centre."
+  },
+  {
+   "mot": "въе́хать",
+   "prononciation": "vYEkhat'",
+   "nature": "verbe perfectif",
+   "traduction": "entrer (en véhicule)",
+   "exemple": "Мы въе́хали в гара́ж.",
+   "exemple_traduction": "Nous sommes entrés dans le garage."
+  },
+  {
+   "mot": "подъе́хать",
+   "prononciation": "podYEkhat'",
+   "nature": "verbe perfectif",
+   "traduction": "s'approcher (en véhicule)",
+   "exemple": "Подъе́зжай к дому́!",
+   "exemple_traduction": "Approche-toi de la maison !"
+  },
+  {
+   "mot": "дое́хать",
+   "prononciation": "doYEkhat'",
+   "nature": "verbe perfectif",
+   "traduction": "arriver (en véhicule), atteindre",
+   "exemple": "Мы дое́хали до ста́нции.",
+   "exemple_traduction": "Nous sommes arrivés jusqu'à la gare."
+  },
+  {
+   "mot": "прое́здить",
+   "prononciation": "proYEzdit'",
+   "nature": "verbe perfectif",
+   "traduction": "rouler pendant (durée)",
+   "exemple": "Он прое́здил два часа́.",
+   "exemple_traduction": "Il a roulé pendant deux heures."
+  },
+  {
+   "mot": "про́бка",
+   "prononciation": "PROBka",
+   "nature": "nom f.",
+   "traduction": "embouteillage, bouchon",
+   "exemple": "В Москве́ больша́я про́бка.",
+   "exemple_traduction": "Il y a un gros embouteillage à Moscou."
+  },
+  {
+   "mot": "шлагбау́м",
+   "prononciation": "shlagBAUM",
+   "nature": "nom m.",
+   "traduction": "barrière (de parking)",
+   "exemple": "Шлагбау́м откры́т.",
+   "exemple_traduction": "La barrière est ouverte."
+  },
+  {
+   "mot": "проспе́кт",
+   "prononciation": "prosPEKT",
+   "nature": "nom m.",
+   "traduction": "avenue, grande artère",
+   "exemple": "Ле́нинский проспе́кт о́чень дли́нный.",
+   "exemple_traduction": "L'avenue Lénine est très longue."
+  },
+  {
+   "mot": "кольцо́",
+   "prononciation": "kol'TSO",
+   "nature": "nom n.",
+   "traduction": "anneau, périphérique",
+   "exemple": "Садо́вое кольцо́.",
+   "exemple_traduction": "L'anneau des Jardins."
+  },
+  {
+   "mot": "па́рковка",
+   "prononciation": "PARKofka",
+   "nature": "nom f.",
+   "traduction": "parking, stationnement",
+   "exemple": "Па́рковка здесь платна́я.",
+   "exemple_traduction": "Le stationnement est payant ici."
+  },
+  {
+   "mot": "води́ть",
+   "prononciation": "voDIT'",
+   "nature": "verbe imperfectif",
+   "traduction": "conduire (véhicule)",
+   "exemple": "Он хорошо́ во́дит маши́ну.",
+   "exemple_traduction": "Il conduit bien la voiture."
+  },
+  {
+   "mot": "GPS / нави́гатор",
+   "prononciation": "naviGAtor",
+   "nature": "nom m.",
+   "traduction": "GPS, navigateur",
+   "exemple": "Включи́ нави́гатор!",
+   "exemple_traduction": "Allume le GPS !"
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Les préfixes de mouvement вы-, пере-, про- avec les verbes unidirectionnels",
+   "explication": "En russe, les préfixes s'ajoutent aux verbes de mouvement unidirectionnels (идти́, е́хать) pour préciser la direction ou la nature du déplacement. Ils transforment le verbe imperfectif en verbe perfectif. Le préfixe вы- indique la sortie d'un espace clos (вы́йти из ко́мнаты « sortir de la chambre », вы́ехать из гаража́ « sortir du garage »). Il se construit généralement avec из + génitif. Le préfixe пере- exprime la traversée d'un obstacle ou le passage d'un point à un autre (перейти́ че́рез у́лицу « traverser la rue », перее́хать че́рез мост « traverser le pont »). Il s'utilise avec через + accusatif. Il peut aussi signifier un déménagement ou un transfert (перее́хать в но́вый го́род). Le préfixe про- a plusieurs sens : passage devant un lieu sans s'arrêter (пройти́ ми́мо музе́я « passer devant le musée »), parcours d'une distance (прое́хать де́сять киломе́тров « parcourir dix kilomètres »), ou traversée d'un espace (пройти́ че́рез лес « traverser la forêt »). Il se combine avec мимо + génitif, через + accusatif, ou un accusatif de distance. À l'imperfectif, on utilise les formes dérivées avec -а-/-я- : выезжа́ть, переезжа́ть, проезжа́ть. Attention à la consonne géminée [жж] ou [зж] à la prononciation.",
+   "tableau": [
+    [
+     "Préfixe",
+     "Sens principal",
+     "Construction typique",
+     "Exemple perfectif",
+     "Exemple imperfectif"
+    ],
+    [
+     "вы-",
+     "sortie d'un espace",
+     "из + génitif",
+     "вы́ехать из па́ркинга",
+     "выезжа́ть"
+    ],
+    [
+     "пере-",
+     "traversée, transfert",
+     "через + accusatif",
+     "перее́хать че́рез мост",
+     "переезжа́ть"
+    ],
+    [
+     "про-",
+     "passage devant, parcours",
+     "мимо + gén., через + acc., acc. distance",
+     "прое́хать ми́мо пло́щади",
+     "проезжа́ть"
+    ],
+    [
+     "объ-",
+     "contournement",
+     "autour, sans пр.",
+     "объе́хать центр",
+     "объезжа́ть"
+    ],
+    [
+     "въ-",
+     "entrée (véhicule)",
+     "в + accusatif",
+     "въе́хать в гара́ж",
+     "въезжа́ть"
+    ],
+    [
+     "подъ-",
+     "approche (véhicule)",
+     "к + datif",
+     "подъе́хать к до́му",
+     "подъезжа́ть"
+    ],
+    [
+     "до-",
+     "atteindre un but",
+     "до + génitif",
+     "дое́хать до ста́нции",
+     "доезжа́ть"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Мы вы́шли из университе́та и сели в маши́ну.",
+     "natif": "Nous sommes sortis de l'université et montés en voiture."
+    },
+    {
+     "cible": "Он перешёл че́рез у́лицу и зашёл в кафе́.",
+     "natif": "Il a traversé la rue et est entré dans un café."
+    },
+    {
+     "cible": "Авто́бус прое́хал ми́мо наше́й остано́вки.",
+     "natif": "Le bus est passé devant notre arrêt."
+    },
+    {
+     "cible": "Вчера́ мы прое́хали сто киломе́тров.",
+     "natif": "Hier nous avons parcouru cent kilomètres."
+    }
+   ]
+  },
+  {
+   "titre": "Combinaison préfixe + préposition + cas",
+   "explication": "Chaque préfixe de mouvement appelle une ou plusieurs prépositions spécifiques qui régissent un cas précis. Cette combinaison forme un bloc syntaxique qu'il faut apprendre ensemble. Après вы- on utilise presque toujours из + génitif pour marquer la sortie : вы́йти из до́ма, вы́ехать из гаража́. Après пере- on emploie через + accusatif pour la traversée d'un espace : перейти́ че́рез доро́гу, перее́хать че́рез реку́. Après про- on peut utiliser мимо + génitif (passage devant : пройти́ ми́мо па́рка), через + accusatif (traversée : пройти́ че́рез лес), ou un accusatif de distance sans préposition (прое́хать два́дцать киломе́тров). Les préfixes въ-, подъ-, до- suivent la logique des prépositions de direction déjà vues en leçon 17 : въ- + в + accusatif (въе́хать в двор), подъ- + к + datif (подъе́хать к вокза́лу), до- + до + génitif (дое́хать до це́нтра). Réemploi des préfixes по-, при-, у- de la leçon 25 : по- marque le début d'un mouvement (пое́хать « partir en véhicule »), при- l'arrivée ou l'approche (прие́хать « arriver »), у- l'éloignement (уе́хать « partir loin »). Dans un récit au passé, on alterne les perfectifs préfixés pour les actions ponctuelles et les imperfectifs pour le décor.",
+   "tableau": [
+    [
+     "Préfixe",
+     "Préposition + cas",
+     "Exemple"
+    ],
+    [
+     "вы-",
+     "из + génitif",
+     "вы́йти из ко́мнаты"
+    ],
+    [
+     "пере-",
+     "через + accusatif",
+     "перейти́ че́рез пло́щадь"
+    ],
+    [
+     "про-",
+     "мимо + génitif",
+     "пройти́ ми́мо теа́тра"
+    ],
+    [
+     "про-",
+     "через + accusatif",
+     "пройти́ че́рез парк"
+    ],
+    [
+     "про-",
+     "accusatif (distance)",
+     "прое́хать киломе́тр"
+    ],
+    [
+     "въ-",
+     "в + accusatif",
+     "въе́хать в тоннель"
+    ],
+    [
+     "подъ-",
+     "к + datif",
+     "подъе́хать к подъе́зду"
+    ],
+    [
+     "до-",
+     "до + génitif",
+     "дойти́ до шко́лы"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Мы вы́шли из метро́ и перешли́ че́чер у́лицу.",
+     "natif": "Nous sommes sortis du métro et avons traversé la rue."
+    },
+    {
+     "cible": "Он подъе́хал к вокза́лу и зашёл в магази́н.",
+     "natif": "Il s'est approché de la gare et est entré dans le magasin."
+    },
+    {
+     "cible": "Авто́бус дое́хал до конечной, и мы вы́шли.",
+     "natif": "Le bus est arrivé au terminus et nous sommes descendus."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Le [й] semi-vocalique et les groupes consonantiques complexes avec préfixes",
+  "explication": "Les préfixes вы-, пере-, про-, объ-, подъ-, въ- comportent souvent la semi-voyelle [й] (comme le y de « yoga ») qui se combine avec la consonne suivante. Dans перее́хать [п'ир'ийэ́хат'], on entend clairement le [й] entre les deux syllabes. Dans объе́хать [абйэ́хат'], le [й] suit le [б]. Dans подъе́зд [падйэ́ст], il suit le [д]. Entraînez-vous à bien détacher ces sons : le [й] est bref et glisse vers la voyelle suivante. Attention aussi aux consonnes géminées [жж] dans переезжа́ть, проезжа́ть, объезжа́ть : il faut allonger le son [ж] comme un bourdonnement continu. Ne confondez pas перее́хать (traverser) et переезжа́ть (traverser/déménager, imperfectif) : la gémination change le sens aspectuel. Écoutez et répétez les paires minimales.",
+  "exemples": [
+   "перейти́ [п'ир'ийт'и́] — перее́хать [п'ир'ийэ́хат']",
+   "подъе́зд [падйэ́ст] — объе́зд [абйэ́ст]",
+   "въе́хать [вйэ́хат'] — вы́ехать [вы́йэхат']",
+   "переезжа́ть [п'ир'ийижжа́т'] — проезжа́ть [прайижжа́т']"
+  ]
+ },
+ "culture": {
+  "titre": "La voiture en Russie : пробки, distances et GPS",
+  "texte": "À Moscou, la voiture est à la fois une nécessité et une épreuve. Les fameux embouteillages, appelés про́бки (littéralement « bouchons »), font partie du quotidien : aux heures de pointe, il faut compter deux à trois heures pour traverser la ville. Les Moscovites ne mesurent plus les distances en kilomètres, mais en temps : « До рабо́ты час на маши́не » (« Une heure de voiture jusqu'au travail »). Le GPS (нави́гатор) est indispensable, surtout pour éviter les bouchons grâce à l'application Yandex.Карты. Le Садо́вое кольцо́ (Anneau des Jardins), le ТТК (Troisième anneau de transport) et le МКАД (Périphérique de Moscou) structurent la circulation. Les Russes aiment beaucoup leur voiture, souvent signe de statut social, et les conversations sur les про́бки sont un sujet incontournable dans les dîners."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez le verbe préfixé correct pour compléter la phrase.",
+   "items": [
+    {
+     "question": "Мы ___ из гаража́ и пое́хали в центр.",
+     "choix": [
+      "вы́ехали",
+      "перее́хали",
+      "прое́хали",
+      "въе́хали"
+     ],
+     "reponse": "вы́ехали"
+    },
+    {
+     "question": "Он ___ че́зер доро́гу на зелёный свет.",
+     "choix": [
+      "вы́шел",
+      "перешёл",
+      "прошёл",
+      "зашёл"
+     ],
+     "reponse": "перешёл"
+    },
+    {
+     "question": "Авто́бус ___ ми́мо наше́й остано́вки.",
+     "choix": [
+      "вы́ехал",
+      "перее́хал",
+      "прое́хал",
+      "въе́хал"
+     ],
+     "reponse": "прое́хал"
+    },
+    {
+     "question": "На́до ___ центр, там про́бка.",
+     "choix": [
+      "объе́хать",
+      "перее́хать",
+      "прое́хать",
+      "вы́ехать"
+     ],
+     "reponse": "объе́хать"
+    },
+    {
+     "question": "Мы ___ к дому и вы́шли из маши́ны.",
+     "choix": [
+      "вы́ехали",
+      "подъе́хали",
+      "перее́хали",
+      "прое́хали"
+     ],
+     "reponse": "подъе́хали"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez avec le préfixe manquant : вы-, пере-, про-, об-, въ-, под-, до-.",
+   "items": [
+    {
+     "question": "Мы ___е́хали из па́ркинга на у́лицу.",
+     "reponse": "вы"
+    },
+    {
+     "question": "Он ___шёл че́рез у́лицу к магази́ну.",
+     "reponse": "пере"
+    },
+    {
+     "question": "Авто́бус ___е́хал ми́мо шко́лы.",
+     "reponse": "про"
+    },
+    {
+     "question": "На́до ___е́хать центр по Садо́вому кольцу́.",
+     "reponse": "об"
+    },
+    {
+     "question": "Такси́ ___е́хало к подъе́зду.",
+     "reponse": "под"
+    },
+    {
+     "question": "Мы ___е́хали до ста́нции метро́.",
+     "reponse": "до"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez le verbe préfixé à sa traduction française.",
+   "items": [
+    {
+     "question": "вы́йти из ко́мнаты",
+     "reponse": "sortir de la chambre"
+    },
+    {
+     "question": "перейти́ че́рез пло́щадь",
+     "reponse": "traverser la place"
+    },
+    {
+     "question": "прое́хать ми́мо музе́я",
+     "reponse": "passer devant le musée"
+    },
+    {
+     "question": "объе́хать центр",
+     "reponse": "contourner le centre"
+    },
+    {
+     "question": "въе́хать в гара́ж",
+     "reponse": "entrer dans le garage"
+    },
+    {
+     "question": "подъе́хать к вокза́лу",
+     "reponse": "s'approcher de la gare"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez dans l'ordre les étapes de l'itinéraire de Dima.",
+   "items": [
+    {
+     "question": "1. Пото́м мы перее́хали че́рез мост.",
+     "reponse": "2"
+    },
+    {
+     "question": "2. Снача́ла мы вы́ехали из па́ркинга.",
+     "reponse": "1"
+    },
+    {
+     "question": "3. Нако́нец мы дое́хали до Арба́та.",
+     "reponse": "4"
+    },
+    {
+     "question": "4. Мы прое́хали ми́мо Кра́сной пло́щади.",
+     "reponse": "3"
+    },
+    {
+     "question": "5. В конце́ мы подъе́хали к до́му Ма́ши.",
+     "reponse": "5"
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez les phrases en russe en utilisant les préfixes de mouvement.",
+   "items": [
+    {
+     "question": "Nous sommes sortis du métro.",
+     "reponse": "Мы вы́шли из метро́."
+    },
+    {
+     "question": "Il a traversé la rue.",
+     "reponse": "Он перешёл че́рез у́лицу."
+    },
+    {
+     "question": "Nous avons passé devant le théâtre.",
+     "reponse": "Мы прое́хали ми́мо теа́тра."
+    },
+    {
+     "question": "Il faut contourner le centre.",
+     "reponse": "На́до объе́хать центр."
+    },
+    {
+     "question": "La voiture s'est approchée de la maison.",
+     "reponse": "Маши́на подъе́хала к до́му."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez la description de l'itinéraire et choisissez le bon préfixe entendu.",
+   "items": [
+    {
+     "question": "« Мы _____ из па́ркинга и пое́хали в центр. »",
+     "choix": [
+      "вы́ехали",
+      "перее́хали",
+      "прое́хали"
+     ],
+     "reponse": "вы́ехали"
+    },
+    {
+     "question": "« Пото́м мы _____ че́рез Москву́-реку́. »",
+     "choix": [
+      "вы́ехали",
+      "перее́хали",
+      "объе́хали"
+     ],
+     "reponse": "перее́хали"
+    },
+    {
+     "question": "« Мы _____ ми́мо университе́та. »",
+     "choix": [
+      "прое́хали",
+      "въе́хали",
+      "подъе́хали"
+     ],
+     "reponse": "прое́хали"
+    },
+    {
+     "question": "« На́до _____ центр по Садо́вому кольцу́. »",
+     "choix": [
+      "объе́хать",
+      "перее́хать",
+      "прое́хать"
+     ],
+     "reponse": "объе́хать"
+    },
+    {
+     "question": "« Мы _____ к до́му Ма́ши. »",
+     "choix": [
+      "вы́ехали",
+      "подъе́хали",
+      "перее́хали"
+     ],
+     "reponse": "подъе́хали"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bienvenue dans la leçon 26 du cours Russtudy ! Aujourd'hui, Dima fait découvrir Moscou à Thomas depuis sa nouvelle voiture. Nous allons apprendre à décrire précisément un itinéraire grâce aux préfixes вы-, пере- et про-.",
+   "ecran": "Titre de la leçon affiché sur le parking, Dima et Thomas près de la voiture",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Objectifs de la leçon : exprimer la sortie, la traversée, le passage devant un lieu, donner un itinéraire détaillé et décrire un trajet en voiture, à pied ou en métro.",
+   "ecran": "Liste des objectifs qui apparaissent un par un",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Écoutez maintenant le dialogue complet. Observez bien les verbes avec préfixes que Dima et Thomas utilisent pour décrire leur trajet.",
+   "ecran": "Les deux personnages montent en voiture, le moteur démarre",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "То́мас, смотри́! Вот моя́ но́вая маши́на. Сади́сь!",
+   "ecran": "Dima montre fièrement sa voiture noire",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Краси́вая! А куда́ мы пое́дем?",
+   "ecran": "Thomas s'installe côté passager",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Снача́ла мы вы́едем из па́ркинга, пото́м перее́дем че́рез мост и прое́дем ми́мо университе́та.",
+   "ecran": "Dima démarre, le GPS affiche l'itinéraire avec trois étapes",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "guard",
+   "langue": "ru",
+   "texte": "До́брый день! Вы выезжа́ете? Осторо́жно, шлагбау́м!",
+   "ecran": "Le gardien lève la barrière",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Ого́, кака́я большо́я про́бка! Мы дол́го бу́дем е́хать?",
+   "ecran": "Vue de l'embouteillage devant la voiture",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Да, в Москве́ всегда́ про́бки. На́до объе́хать центр по Садо́вому кольцу́.",
+   "ecran": "La voiture change de voie, panneau Садовое кольцо",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Смотри́, мы уже́ перее́хали че́рез Москву́-реку́!",
+   "ecran": "Le pont sur la Moskova, vue sur l'eau",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Сейча́с мы прое́дем ми́мо Кра́сной пло́щади и дое́дем до Арба́та.",
+   "ecran": "La Place Rouge apparaît à droite, le Kremlin en fond",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Вчера́ я вы́шел из метро́ « Арба́тская » и перешёл че́рез у́лицу.",
+   "ecran": "Bulle de pensée de Thomas montrant sa sortie du métro la veille",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "А я вчера́ зашёл в кафе́ « Му́-Му́ » и встре́тил Ма́шу.",
+   "ecran": "Bulle de pensée de Dima : le café et Masha",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "driver",
+   "langue": "ru",
+   "texte": "Извини́те, вы не зна́ете, как въе́хать на Тверску́ю?",
+   "ecran": "L'automobiliste baisse sa vitre à côté",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Поверни́те напра́во, перее́дьте че́рез проспе́кт и вы подъе́дете к Тверско́й.",
+   "ecran": "Dima indique la direction",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Ты отли́чно води́шь! Ско́лько мы ещё прое́дем?",
+   "ecran": "Thomas regarde le GPS",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Ещё мину́т два́дцать. Мы прие́дем к шести́ часа́м.",
+   "ecran": "La voiture continue sa route, le soleil baisse",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Maintenant, répétons le vocabulaire clé. Écoutez et répétez chaque mot avec sa prononciation.",
+   "ecran": "Liste du vocabulaire avec translittération",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la grammaire. Les préfixes вы-, пере- et про- se combinent avec les verbes de mouvement unidirectionnels идти et ехать pour préciser le type de déplacement.",
+   "ecran": "Tableau grammatical animé : verbe de base + préfixe",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Le préfixe вы- exprime la sortie d'un espace clos. On l'utilise avec из + génitif. Exemple : вы́ехать из па́ркинга — sortir du parking.",
+   "ecran": "Animation : voiture sortant d'un garage avec flèche",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Le préfixe пере- exprime la traversée. On l'utilise avec через + accusatif. Exemple : перее́хать че́рез мост — traverser le pont.",
+   "ecran": "Animation : voiture traversant un pont",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Le préfixe про- indique le passage devant un lieu ou le parcours d'une distance. On utilise мимо + génitif, через + accusatif ou un accusatif seul. Exemple : прое́хать ми́мо музе́я — passer devant le musée.",
+   "ecran": "Animation : voiture passant devant un bâtiment",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Attention à la prononciation : le [й] semi-vocalique apparaît dans перее́хать, подъе́зд, объе́зд. Il faut bien le détacher.",
+   "ecran": "Gros plan sur la bouche avec phonétique",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Notez aussi les consonnes géminées dans переезжа́ть, проезжа́ть : on allonge le son [ж].",
+   "ecran": "Animation onde sonore allongée",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Culture : à Moscou, on parle beaucoup des про́бки, les embouteillages. Les distances se mesurent en heures, pas en kilomètres.",
+   "ecran": "Vue aérienne de Moscou avec embouteillages rouges sur la carte",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons aux exercices. Premier exercice : QCM, choisissez le bon verbe préfixé.",
+   "ecran": "Affichage du premier QCM",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 2 : complétez avec le préfixe manquant.",
+   "ecran": "Phrases à trous",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 3 : associez chaque verbe à sa traduction.",
+   "ecran": "Deux colonnes à relier",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 4 : remettez dans l'ordre les étapes de l'itinéraire.",
+   "ecran": "Cinq phrases à ordonner",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 5 : traduisez ces phrases en russe.",
+   "ecran": "Phrases en français, champ de saisie",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 6 : exercice d'écoute. Écoutez et choisissez le bon préfixe.",
+   "ecran": "Bouton audio et choix multiples",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo ! Vous maîtrisez maintenant les préfixes вы-, пере- et про- avec les verbes de mouvement.",
+   "ecran": "Écran de félicitations avec Dima et Thomas qui arrivent",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Récapitulons : вы- pour la sortie avec из + génitif, пере- pour la traversée avec через + accusatif, про- pour le passage devant avec мимо + génitif ou un parcours.",
+   "ecran": "Tableau récapitulatif final",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "À la prochaine leçon, nous approfondirons d'autres préfixes de mouvement pour décrire encore plus finement vos déplacements en Russie. До встречи!",
+   "ecran": "Dima et Thomas font signe au revoir, fondu au noir",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Le préfixe вы- exprime la sortie d'un espace avec из + génitif : вы́ехать из па́ркинга.",
+   "natif": "При́ставка вы- выража́ет вы́ход из простра́нства с из + роди́тельный паде́ж."
+  },
+  {
+   "cible": "Le préfixe пере- indique la traversée avec через + accusatif : перее́хать че́рез мост.",
+   "natif": "При́ставка пере- ука́зывает на пересече́ние с через + вини́тельный паде́ж."
+  },
+  {
+   "cible": "Le préfixe про- marque le passage devant avec мимо + génitif : прое́хать ми́мо музе́я.",
+   "natif": "При́ставка про- обознача́ет прое́зд ми́мо с мимо + роди́тельный паде́ж."
+  },
+  {
+   "cible": "Les formes imperfectives sont выезжа́ть, переезжа́ть, проезжа́ть avec consonnes géminées.",
+   "natif": "Формы несоверше́нного ви́да — выезжа́ть, переезжа́ть, проезжа́ть с удво́енными согласными."
+  },
+  {
+   "cible": "À Moscou, les distances se mesurent en heures à cause des про́бки (embouteillages).",
+   "natif": "В Москве́ расстоя́ния измеря́ют в часа́х из-за про́бок."
+  }
+ ],
+ "controle": []
+}

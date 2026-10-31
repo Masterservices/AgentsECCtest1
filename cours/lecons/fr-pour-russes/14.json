@@ -1,0 +1,939 @@
+{
+ "cours": "fr-pour-russes",
+ "num": 14,
+ "niveau": "A2",
+ "id": "fr-pour-russes-A2-14",
+ "titre": {
+  "cible": "Les courses de la semaine",
+  "natif": "Покупки на неделю"
+ },
+ "objectifs": [
+  "Сравнивать товары по цене, качеству и свежести, используя конструкции comparatif и superlatif",
+  "Задавать вопрос продавцу в отделе магазина и понимать ответ",
+  "Выражать обоснованное предпочтение с помощью указательных местоимений celui / celle / ceux",
+  "Использовать местоимения-дополнения COD (le, la, les) для замены уже названных продуктов",
+  "Освоить лексику по теме «продукты, упаковка, цены, акции»"
+ ],
+ "scene": {
+  "lieu": "Supermarché Monoprix, quartier résidentiel, Paris",
+  "moment": "Samedi matin, 10 h 15",
+  "decor_3d": "Intérieur lumineux d'un Monoprix : sol en carrelage gris clair, néons blancs au plafond, allées larges avec étagères métalliques remplies de produits colorés. À gauche, le rayon fruits et légumes avec des cagettes en bois (tomates rouges, courgettes vertes, pommes). Au centre, le rayon crèmerie-fromagerie avec vitrine réfrigérée. Au fond à droite, trois caisses automatiques avec écrans tactiles bleus. Un grand panneau jaune « PROMOTION » est suspendu au-dessus du rayon fromages. Les personnages poussent un caddie métallique.",
+  "objets": [
+   "caddie métallique avec sac en toile",
+   "liste de courses sur papier quadrillé",
+   "cagette de tomates grappes avec étiquette prix",
+   "cagette de tomates bio avec logo AB vert",
+   "panneau jaune PROMOTION -20 %",
+   "vitrine réfrigérée à fromages (camembert, comté, chèvre)",
+   "pack de 4 yaourts nature",
+   "caisse automatique avec écran tactile et scanner",
+   "étiquettes de prix en rouge et blanc",
+   "emballages : boîte en carton, sachet plastique, bocal en verre"
+  ],
+  "personnages": [
+   "anna",
+   "sophie"
+  ],
+  "figurants": [
+   {
+    "id": "employe",
+    "nom": "Marc Delcourt",
+    "apparence": "Homme de 45 ans, taille moyenne, cheveux bruns courts, polo vert Monoprix avec badge, tablier gris, chaussures noires antidérapantes, sourire accueillant",
+    "voix": "Baryton chaleureux, débit modéré, accent parisien léger"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "sophie",
+   "texte": "Anna, tu as la liste des courses ? On doit tout acheter aujourd'hui !",
+   "traduction": "Анна, у тебя список покупок? Мы должны всё купить сегодня!",
+   "geste": "Sophie se tourne vers Anna en tapotant le caddie du doigt, sourcil levé, air pressé mais souriant"
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, je l'ai ! Regarde : des légumes, du fromage, du pain et des yaourts. On commence par les tomates ?",
+   "traduction": "Да, он у меня! Смотри: овощи, сыр, хлеб и йогурты. Начнём с помидоров?",
+   "geste": "Anna déplie une feuille de papier quadrillé et la montre à Sophie en pointant les lignes du doigt"
+  },
+  {
+   "perso": "sophie",
+   "texte": "Regarde ces tomates. Elles sont moins chères que celles du marché : deux euros le kilo !",
+   "traduction": "Посмотри на эти помидоры. Они дешевле, чем те, что на рынке: два евро за кило!",
+   "geste": "Sophie montre la cagette de tomates classiques, puis écarte les mains pour indiquer le prix bas"
+  },
+  {
+   "perso": "anna",
+   "texte": "D'accord, mais celles-ci sont bio ? Je préfère celles-là, les bio. Elles sont plus fraîches que les autres.",
+   "traduction": "Ладно, но эти — био? Я предпочитаю те, био. Они свежее, чем остальные.",
+   "geste": "Anna prend une tomate bio dans la cagette voisine, la tourne dans sa main et la compare visuellement avec l'autre"
+  },
+  {
+   "perso": "sophie",
+   "texte": "Tu as raison. Et en plus, il y a une promotion : trois kilos pour cinq euros. On les prend ?",
+   "traduction": "Ты права. И к тому же акция: три кило за пять евро. Берём?",
+   "geste": "Sophie pointe le panneau jaune PROMOTION du doigt puis fait un geste d'approbation avec le pouce levé"
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, je les mets dans le panier ! Bon, maintenant le fromage. Où est le rayon fromage ?",
+   "traduction": "Да, я кладу их в корзину! Так, теперь сыр. Где отдел сыров?",
+   "geste": "Anna dépose les tomates dans le caddie, puis regarde autour d'elle en tournant la tête à gauche et à droite"
+  },
+  {
+   "perso": "anna",
+   "texte": "Excusez-moi, monsieur, où est le rayon fromage, s'il vous plaît ?",
+   "traduction": "Извините, месье, где отдел сыров, пожалуйста?",
+   "geste": "Anna s'approche de l'employé, sourit poliment et fait un petit geste de la main pour attirer son attention"
+  },
+  {
+   "perso": "employe",
+   "texte": "C'est au fond à gauche, mademoiselle. Le camembert est en promotion cette semaine, moins vingt pour cent !",
+   "traduction": "Это в глубине налево, мадемуазель. Камамбер на этой неделе по акции, минус двадцать процентов!",
+   "geste": "Marc tend le bras vers le fond du magasin, puis montre le panneau jaune au-dessus de la vitrine réfrigérée"
+  },
+  {
+   "perso": "sophie",
+   "texte": "Merci ! Tiens, regarde : tu veux celui-ci ou celui-là ? Le camembert ou le chèvre ?",
+   "traduction": "Спасибо! Смотри, вот: ты хочешь этот или тот? Камамбер или козий?",
+   "geste": "Sophie pointe deux fromages dans la vitrine, l'un à gauche, l'autre à droite, en alternant l'index"
+  },
+  {
+   "perso": "anna",
+   "texte": "Je prends celui-là, le chèvre. Il est meilleur que celui-ci et il est moins cher. Tu le mets dans le caddie ?",
+   "traduction": "Я беру тот, козий. Он лучше, чем этот, и дешевле. Ты положишь его в тележку?",
+   "geste": "Anna désigne le chèvre à droite, puis fait un geste pour que Sophie le prenne et le place dans le caddie"
+  },
+  {
+   "perso": "sophie",
+   "texte": "Voilà, je le mets ! Et ceux-là, les yaourts nature, on les prend aussi ?",
+   "traduction": "Вот, кладу! И те, натуральные йогурты, мы их тоже берём?",
+   "geste": "Sophie dépose le chèvre dans le caddie, puis montre un pack de yaourts sur l'étagère en face"
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, je les veux. Ceux-là sont les plus naturels du rayon, sans sucre ajouté. C'est important pour moi.",
+   "traduction": "Да, я их хочу. Те — самые натуральные в отделе, без добавленного сахара. Для меня это важно.",
+   "geste": "Anna prend le pack de yaourts, lit l'étiquette au dos et hoche la tête avec satisfaction"
+  },
+  {
+   "perso": "sophie",
+   "texte": "Parfait ! On a tout ? On passe à la caisse automatique ?",
+   "traduction": "Отлично! У нас всё? Идём на автоматическую кассу?",
+   "geste": "Sophie vérifie la liste en cochant mentalement, puis pointe les caisses automatiques au fond à droite"
+  },
+  {
+   "perso": "anna",
+   "texte": "D'accord. C'est plus rapide que la caisse normale, et on peut payer par carte.",
+   "traduction": "Хорошо. Это быстрее, чем обычная касса, и можно оплатить картой.",
+   "geste": "Anna pousse le caddie vers les caisses automatiques en faisant un geste rapide de la main pour mimer la vitesse"
+  },
+  {
+   "perso": "sophie",
+   "texte": "Et voilà ! Quinze euros cinquante pour toute la semaine. C'est le supermarché le plus pratique du quartier !",
+   "traduction": "И вот! Пятнадцать евро пятьдесят за всю неделю. Это самый удобный супермаркет в квартале!",
+   "geste": "Sophie montre l'écran de la caisse qui affiche le total, puis ouvre les bras avec un grand sourire victorieux"
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, et la prochaine fois, j'y vais toute seule ! Je commence à bien connaître les rayons.",
+   "traduction": "Да, и в следующий раз я пойду одна! Я начинаю хорошо знать отделы.",
+   "geste": "Anna range les courses dans le sac en toile, redresse les épaules avec fierté et fait un clin d'œil à Sophie"
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "les courses",
+   "prononciation": "[le kuʁs]",
+   "nature": "nom f. pl.",
+   "traduction": "покупки (продуктовые)",
+   "exemple": "Je fais les courses le samedi matin.",
+   "exemple_traduction": "Я делаю покупки в субботу утром."
+  },
+  {
+   "mot": "la liste",
+   "prononciation": "[la list]",
+   "nature": "nom f.",
+   "traduction": "список",
+   "exemple": "J'ai oublié la liste à la maison !",
+   "exemple_traduction": "Я забыл(а) список дома!"
+  },
+  {
+   "mot": "le rayon",
+   "prononciation": "[lə ʁɛjɔ̃]",
+   "nature": "nom m.",
+   "traduction": "отдел (в магазине)",
+   "exemple": "Le rayon fromage est au fond à gauche.",
+   "exemple_traduction": "Отдел сыров находится в глубине слева."
+  },
+  {
+   "mot": "le prix",
+   "prononciation": "[lə pʁi]",
+   "nature": "nom m.",
+   "traduction": "цена",
+   "exemple": "Le prix de ce camembert est trois euros.",
+   "exemple_traduction": "Цена этого камамбера — три евро."
+  },
+  {
+   "mot": "la promotion",
+   "prononciation": "[la pʁɔmɔsjɔ̃]",
+   "nature": "nom f.",
+   "traduction": "акция, скидка",
+   "exemple": "Il y a une promotion sur les yaourts cette semaine.",
+   "exemple_traduction": "На этой неделе акция на йогурты."
+  },
+  {
+   "mot": "le panier",
+   "prononciation": "[lə panje]",
+   "nature": "nom m.",
+   "traduction": "корзина (для покупок)",
+   "exemple": "Je mets les tomates dans le panier.",
+   "exemple_traduction": "Я кладу помидоры в корзину."
+  },
+  {
+   "mot": "la caisse",
+   "prononciation": "[la kɛs]",
+   "nature": "nom f.",
+   "traduction": "касса",
+   "exemple": "On passe à la caisse automatique.",
+   "exemple_traduction": "Мы идём на автоматическую кассу."
+  },
+  {
+   "mot": "bio (biologique)",
+   "prononciation": "[bjo] / [bjɔlɔʒik]",
+   "nature": "adj.",
+   "traduction": "органический, био",
+   "exemple": "Ces légumes sont bio et sans pesticides.",
+   "exemple_traduction": "Эти овощи — био и без пестицидов."
+  },
+  {
+   "mot": "l'emballage",
+   "prononciation": "[lɑ̃balaʒ]",
+   "nature": "nom m.",
+   "traduction": "упаковка",
+   "exemple": "L'emballage est en carton recyclable.",
+   "exemple_traduction": "Упаковка из перерабатываемого картона."
+  },
+  {
+   "mot": "le kilo",
+   "prononciation": "[lə kilo]",
+   "nature": "nom m.",
+   "traduction": "килограмм",
+   "exemple": "Deux euros le kilo, c'est une bonne affaire.",
+   "exemple_traduction": "Два евро за кило — это выгодно."
+  },
+  {
+   "mot": "frais / fraîche",
+   "prononciation": "[fʁɛ] / [fʁɛʃ]",
+   "nature": "adj.",
+   "traduction": "свежий / свежая",
+   "exemple": "Ces tomates sont plus fraîches que les autres.",
+   "exemple_traduction": "Эти помидоры свежее остальных."
+  },
+  {
+   "mot": "le produit",
+   "prononciation": "[lə pʁɔdɥi]",
+   "nature": "nom m.",
+   "traduction": "продукт, товар",
+   "exemple": "Ce produit est en promotion aujourd'hui.",
+   "exemple_traduction": "Этот продукт сегодня по акции."
+  },
+  {
+   "mot": "comparer",
+   "prononciation": "[kɔ̃paʁe]",
+   "nature": "verbe (1er gr.)",
+   "traduction": "сравнивать",
+   "exemple": "Je compare les prix avant d'acheter.",
+   "exemple_traduction": "Я сравниваю цены перед покупкой."
+  },
+  {
+   "mot": "la réduction",
+   "prononciation": "[la ʁedyksjɔ̃]",
+   "nature": "nom f.",
+   "traduction": "скидка",
+   "exemple": "Il y a une réduction de vingt pour cent.",
+   "exemple_traduction": "Скидка двадцать процентов."
+  },
+  {
+   "mot": "la conserve",
+   "prononciation": "[la kɔ̃sɛʁv]",
+   "nature": "nom f.",
+   "traduction": "консервы",
+   "exemple": "Je n'achète pas de conserves, je préfère le frais.",
+   "exemple_traduction": "Я не покупаю консервы, предпочитаю свежее."
+  },
+  {
+   "mot": "le yaourt",
+   "prononciation": "[lə ja.uʁt]",
+   "nature": "nom m.",
+   "traduction": "йогурт",
+   "exemple": "Je prends quatre yaourts nature.",
+   "exemple_traduction": "Я беру четыре натуральных йогурта."
+  },
+  {
+   "mot": "sans sucre ajouté",
+   "prononciation": "[sɑ̃ sykʁ aʒute]",
+   "nature": "loc. adj.",
+   "traduction": "без добавленного сахара",
+   "exemple": "Ces yaourts sont sans sucre ajouté.",
+   "exemple_traduction": "Эти йогурты без добавленного сахара."
+  },
+  {
+   "mot": "la grande surface",
+   "prononciation": "[la ɡʁɑ̃d syʁfas]",
+   "nature": "nom f.",
+   "traduction": "крупный магазин, супермаркет",
+   "exemple": "Monoprix est une grande surface en centre-ville.",
+   "exemple_traduction": "Monoprix — это крупный магазин в центре города."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Сравнительная и превосходная степени (Comparatif et superlatif)",
+   "explication": "Во французском языке для сравнения двух предметов или лиц используется конструкция «более / менее / такой же… чем». Для прилагательных и наречий схема следующая: plus + прилагательное + que (более… чем), moins + прилагательное + que (менее… чем), aussi + прилагательное + que (такой же… как). Обратите внимание: прилагательное согласуется с существительным, которое оно определяет. Превосходная степень образуется с помощью определённого артикля перед plus или moins: le / la / les + plus / moins + прилагательное. Например: «C'est le supermarché le plus pratique du quartier» — «Это самый удобный магазин в квартале». Если сравнение касается глагола, используйте plus / moins / autant + que без прилагательного: «Je mange plus que toi». Запомните неправильные формы: bon → meilleur(e)(s), bien → mieux, mauvais → pire. В диалоге Анна говорит: «Elles sont plus fraîches que les autres» — сравнение свежести, и «le supermarché le plus pratique» — превосходная степень.",
+   "tableau": [
+    [
+     "Тип",
+     "Конструкция",
+     "Пример"
+    ],
+    [
+     "Превосходство (более)",
+     "plus + adj. + que",
+     "plus frais / fraîche que"
+    ],
+    [
+     "Превосходство (менее)",
+     "moins + adj. + que",
+     "moins cher / chère que"
+    ],
+    [
+     "Равенство",
+     "aussi + adj. + que",
+     "aussi bon / bonne que"
+    ],
+    [
+     "Superlatif (самый)",
+     "le / la / les + plus / moins + adj.",
+     "le plus pratique, la moins chère"
+    ],
+    [
+     "Неправильные формы",
+     "bon → meilleur, bien → mieux",
+     "Il est meilleur que celui-ci"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Ces tomates sont moins chères que celles du marché.",
+     "natif": "Эти помидоры дешевле, чем те, что на рынке."
+    },
+    {
+     "cible": "Le chèvre est meilleur que le camembert.",
+     "natif": "Козий сыр лучше, чем камамбер."
+    },
+    {
+     "cible": "C'est le supermarché le plus pratique du quartier.",
+     "natif": "Это самый удобный супермаркет в квартале."
+    },
+    {
+     "cible": "Ceux-là sont les plus naturels du rayon.",
+     "natif": "Те — самые натуральные в отделе."
+    }
+   ]
+  },
+  {
+   "titre": "Указательные местоимения celui / celle / ceux / celles и местоимения-дополнения COD (закрепление)",
+   "explication": "Указательные местоимения заменяют существительное, чтобы не повторять его. Формы: celui (м. р. ед. ч.), celle (ж. р. ед. ч.), ceux (м. р. мн. ч.), celles (ж. р. мн. ч.). Они часто сопровождаются суффиксами -ci (этот, ближе) или -là (тот, дальше): celui-ci / celui-là, celle-ci / celle-là, ceux-ci / ceux-là, celles-ci / celles-là. Также они могут сочетаться с qui, que, dont: «celui qui est en promotion». В диалоге Анна говорит: «Je préfère celles-là, les bio» — заменяя слово «tomates». Местоимения COD le / la / les, изученные в уроке 13, продолжают использоваться для замены прямых дополнений: «Tu le mets dans le caddie?» — le заменяет «le chèvre», «je les mets dans le panier» — les заменяет «les tomates». Помните порядок: подлежащее + COD + глагол: «Je les prends», «Tu le mets».",
+   "tableau": [
+    [
+     "Форма",
+     "Род / число",
+     "Пример с -ci / -là",
+     "Пример с COD"
+    ],
+    [
+     "celui",
+     "м. р., ед. ч.",
+     "celui-ci, celui-là",
+     "Tu le prends ? (le camembert)"
+    ],
+    [
+     "celle",
+     "ж. р., ед. ч.",
+     "celle-ci, celle-là",
+     "Je la mets dans le sac. (la tomate)"
+    ],
+    [
+     "ceux",
+     "м. р., мн. ч.",
+     "ceux-ci, ceux-là",
+     "Je les veux. (les yaourts)"
+    ],
+    [
+     "celles",
+     "ж. р., мн. ч.",
+     "celles-ci, celles-là",
+     "Je les mets. (les tomates)"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Tu veux celui-ci ou celui-là ?",
+     "natif": "Ты хочешь этот или тот?"
+    },
+    {
+     "cible": "Je préfère celles-là, les bio.",
+     "natif": "Я предпочитаю те, био."
+    },
+    {
+     "cible": "Tu le mets dans le caddie ?",
+     "natif": "Ты положишь его в тележку?"
+    },
+    {
+     "cible": "Je les veux, ceux-là, les yaourts nature.",
+     "natif": "Я хочу их, те, натуральные йогурты."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Двойные и одинарные согласные во французском языке",
+  "explication": "Во французском языке удвоенные согласные на письме (pp, tt, rr, nn, ll, mm) в подавляющем большинстве случаев произносятся как один звук. Это принципиальное отличие от русского языка, где двойные согласные произносятся длительно. Например: «pomme» [pɔm] — не [pɔmmə], «courgette» [kuʁʒɛt] — не [kuʁʒɛttə], «tomate» [tɔmat]. Однако буква «r» в сочетании «rr» всегда даёт один звук [ʁ]: «courir» [kuʁiʁ]. Сочетание «ll» после «i» может читаться как [j]: «fille» [fij]. Для русскоязычных учащихся важно не «удлинять» согласный звук, а произносить его кратко и чётко, как одинарный. Тренируйтесь на парах слов, где написание различается, но произношение сходно.",
+  "exemples": [
+   "pomme [pɔm] ≠ [pɔmmə] — одна [m]",
+   "courgette [kuʁʒɛt] — одна [t] на конце не произносится",
+   "tomate [tɔmat] — одна [m], конечная [e] не произносится",
+   "fromage [fʁɔmaʒ] — одна [m]",
+   "addition [adisjɔ̃] — одна [d], несмотря на удвоение на письме",
+   "naturel [natyʁɛl] vs naturelle [natyʁɛl] — произношение одинаковое"
+  ]
+ },
+ "culture": {
+  "titre": "Большие магазины и био-продукты во Франции",
+  "texte": "Во Франции культура покупок в супермаркетах очень развита. Основные сети — Carrefour, Monoprix, Franprix, Lidl и Intermarché. Monoprix расположен в центрах городов и отличается удобным расположением отделов. Французы делают крупные закупки раз в неделю (часто в субботу), а среди недели докупают свежий хлеб и молочные продукты. С 2000-х годов резко вырос спрос на продукцию bio (органическую): на неё приходится около 12 % рынка продуктов. Логотип «AB» (Agriculture Biologique) и европейский «Eurofeuille» (зелёный листок) гарантируют отсутствие пестицидов и ГМО. Автоматические кассы (caisses automatiques) появились во всех крупных сетях и особенно популярны среди молодёжи. Многие французы сравнивают цены через приложения вроде «QuelPrix» перед походом в магазин."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Выберите правильный вариант, чтобы закончить предложение.",
+   "items": [
+    {
+     "question": "Ces tomates sont ___ chères que celles du marché.",
+     "choix": [
+      "plus",
+      "moins",
+      "aussi",
+      "très"
+     ],
+     "reponse": "moins"
+    },
+    {
+     "question": "Le chèvre est ___ que le camembert.",
+     "choix": [
+      "meilleur",
+      "plus bon",
+      "mieux",
+      "le meilleur"
+     ],
+     "reponse": "meilleur"
+    },
+    {
+     "question": "C'est le supermarché ___ pratique du quartier.",
+     "choix": [
+      "le plus",
+      "plus",
+      "le moins que",
+      "aussi"
+     ],
+     "reponse": "le plus"
+    },
+    {
+     "question": "Ces yaourts sont ___ naturels que les autres.",
+     "choix": [
+      "plus",
+      "le plus",
+      "meilleur",
+      "aussi bien"
+     ],
+     "reponse": "plus"
+    },
+    {
+     "question": "La caisse automatique est ___ rapide ___ la caisse normale.",
+     "choix": [
+      "plus / que",
+      "plus / de",
+      "le plus / que",
+      "aussi / de"
+     ],
+     "reponse": "plus / que"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Заполните пропуски местоимениями celui, celle, ceux или celles (с -ci или -là).",
+   "items": [
+    {
+     "question": "Tu veux ___ -ci ou ___ -là ? (le fromage)",
+     "choix": [],
+     "reponse": "celui / celui"
+    },
+    {
+     "question": "Je préfère ___ -là, les bio. (les tomates)",
+     "choix": [],
+     "reponse": "celles"
+    },
+    {
+     "question": "Regarde ___ -ci, les yaourts nature ! (les yaourts)",
+     "choix": [],
+     "reponse": "ceux"
+    },
+    {
+     "question": "___ qui sont en promotion, ce sont ___ -là. (les fromages)",
+     "choix": [],
+     "reponse": "Ceux / ceux"
+    },
+    {
+     "question": "Je ne veux pas cette pomme, je préfère ___ -ci. (la pomme)",
+     "choix": [],
+     "reponse": "celle"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Соедините французское слово с его русским переводом.",
+   "items": [
+    {
+     "question": "la caisse automatique",
+     "reponse": "автоматическая касса"
+    },
+    {
+     "question": "l'emballage",
+     "reponse": "упаковка"
+    },
+    {
+     "question": "la réduction",
+     "reponse": "скидка"
+    },
+    {
+     "question": "bio (biologique)",
+     "reponse": "органический"
+    },
+    {
+     "question": "le rayon",
+     "reponse": "отдел (в магазине)"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Расставьте слова в правильном порядке, чтобы составить предложение.",
+   "items": [
+    {
+     "question": "sont / Ces / moins / tomates / chères / .",
+     "reponse": "Ces tomates sont moins chères."
+    },
+    {
+     "question": "le / C'est / plus / supermarché / pratique / .",
+     "reponse": "C'est le supermarché le plus pratique."
+    },
+    {
+     "question": "les / Je / mets / dans / panier / .",
+     "reponse": "Je les mets dans le panier."
+    },
+    {
+     "question": "Tu / celui-ci / veux / ou / celui-là / ?",
+     "reponse": "Tu veux celui-ci ou celui-là ?"
+    },
+    {
+     "question": "yaourts / Les / naturels / sont / plus / .",
+     "reponse": "Les yaourts sont plus naturels."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Переведите предложения на французский язык.",
+   "items": [
+    {
+     "question": "Эти яблоки дороже, чем те.",
+     "reponse": "Ces pommes sont plus chères que celles-là."
+    },
+    {
+     "question": "Я предпочитаю этот сыр.",
+     "reponse": "Je préfère celui-ci."
+    },
+    {
+     "question": "Ты их кладёшь в тележку?",
+     "reponse": "Tu les mets dans le caddie ?"
+    },
+    {
+     "question": "Это самый свежий продукт.",
+     "reponse": "C'est le produit le plus frais."
+    },
+    {
+     "question": "Где отдел сыров?",
+     "reponse": "Où est le rayon fromage ?"
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Прослушайте фразу и выберите правильный вариант написания (обратите внимание на двойные и одинарные согласные).",
+   "items": [
+    {
+     "question": "[pɔm]",
+     "choix": [
+      "pome",
+      "pomme",
+      "paume"
+     ],
+     "reponse": "pomme"
+    },
+    {
+     "question": "[kuʁʒɛt]",
+     "choix": [
+      "courgette",
+      "courgete",
+      "courjette"
+     ],
+     "reponse": "courgette"
+    },
+    {
+     "question": "[fʁɔmaʒ]",
+     "choix": [
+      "frommage",
+      "fromaje",
+      "fromage"
+     ],
+     "reponse": "fromage"
+    },
+    {
+     "question": "[adisjɔ̃]",
+     "choix": [
+      "addition",
+      "adition",
+      "addision"
+     ],
+     "reponse": "addition"
+    },
+    {
+     "question": "[natyʁɛl]",
+     "choix": [
+      "naturelle",
+      "naturèle",
+      "natturelle"
+     ],
+     "reponse": "naturelle"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Добро пожаловать на платформу Russtudy! Сегодня четырнадцатый урок курса «Французский для русскоговорящих», уровень A2. Тема урока — «Покупки на неделю».",
+   "ecran": "Логотип Russtudy плавно исчезает, уступая место 3D-фасаду супермаркета Monoprix с зелёной вывеской. Утро, солнечный свет отражается от витрин.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "В этом уроке мы научимся сравнивать товары, спрашивать информацию у продавца в отделе магазина и выражать свои предпочтения, объясняя причину.",
+   "ecran": "На экране по очереди появляются три иконки: весы (сравнение), знак вопроса (вопрос продавцу) и палец вверх (предпочтение).",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Грамматика урока: сравнительная и превосходная степени прилагательных, продолжение работы с прямыми дополнениями COD и указательные местоимения celui, celle, ceux, celles.",
+   "ecran": "Анимированный текст с грамматическими терминами появляется над полками супермаркета.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Écoutons le dialogue. Anna et Sophie font les courses au supermarché Monoprix.",
+   "ecran": "Камера пролетает через автоматические двери внутрь магазина. Анна и Софи стоят у входа, рядом с ними металлическая тележка (caddie).",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v05",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Anna, tu as la liste des courses ? On doit tout acheter aujourd'hui !",
+   "ecran": "Софи поворачивается к Анне, нетерпеливо постукивая пальцем по краю тележки. Её бровь приподнята, но она улыбается.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v06",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, je l'ai ! Regarde : des légumes, du fromage, du pain et des yaourts. On commence par les tomates ?",
+   "ecran": "Анна разворачивает листок в клетку, показывает его Софи и ведёт пальцем по строчкам списка.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v07",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Regarde ces tomates. Elles sont moins chères que celles du marché : deux euros le kilo !",
+   "ecran": "Софи указывает на деревянный ящик с обычными помидорами, затем разводит руки в стороны, показывая низкую цену.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v08",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "D'accord, mais celles-ci sont bio ? Je préfère celles-là, les bio. Elles sont plus fraîches que les autres.",
+   "ecran": "Анна берёт помидор из соседнего ящика с логотипом «AB», крутит его в руке и визуально сравнивает с обычным.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v09",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Tu as raison. Et en plus, il y a une promotion : trois kilos pour cinq euros. On les prend ?",
+   "ecran": "Софи указывает пальцем на жёлтый ценник «PROMOTION» над ящиком, затем поднимает большой палец вверх.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v10",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, je les mets dans le panier ! Bon, maintenant le fromage. Où est le rayon fromage ?",
+   "ecran": "Анна кладёт помидоры в тележку, затем оглядывается по сторонам, поворачивая голову влево и вправо.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v11",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Excusez-moi, monsieur, où est le rayon fromage, s'il vous plaît ?",
+   "ecran": "Анна подходит к сотруднику Марку в зелёном поло, вежливо улыбается и делает лёгкий жест рукой, чтобы привлечь его внимание.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v12",
+   "voix": "employe",
+   "langue": "fr",
+   "texte": "C'est au fond à gauche, mademoiselle. Le camembert est en promotion cette semaine, moins vingt pour cent !",
+   "ecran": "Марк вытягивает руку в сторону глубины зала налево, затем указывает на жёлтую табличку над холодильной витриной с сырами.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v13",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Merci ! Tiens, regarde : tu veux celui-ci ou celui-là ? Le camembert ou le chèvre ?",
+   "ecran": "Софи стоит перед витриной и поочерёдно указывает указательным пальцем то на камамбер слева, то на козий сыр справа.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v14",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Je prends celui-là, le chèvre. Il est meilleur que celui-ci et il est moins cher. Tu le mets dans le caddie ?",
+   "ecran": "Анна указывает на козий сыр, затем жестом просит Софи взять его и положить в тележку.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v15",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Voilà, je le mets ! Et ceux-là, les yaourts nature, on les prend aussi ?",
+   "ecran": "Софи кладёт упаковку сыра в тележку, затем указывает на стеллаж напротив, где стоят упаковки натурального йогурта.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v16",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, je les veux. Ceux-là sont les plus naturels du rayon, sans sucre ajouté. C'est important pour moi.",
+   "ecran": "Анна берёт упаковку йогуртов, читает этикетку на обратной стороне и удовлетворённо кивает головой.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v17",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Parfait ! On a tout ? On passe à la caisse automatique ?",
+   "ecran": "Софи мысленно ставит галочки в списке и указывает рукой на синие экраны автоматических касс в правом дальнем углу.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v18",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "D'accord. C'est plus rapide que la caisse normale, et on peut payer par carte.",
+   "ecran": "Анна толкает тележку в сторону касс, делая быстрый взмах рукой, имитируя скорость.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v19",
+   "voix": "sophie",
+   "langue": "fr",
+   "texte": "Et voilà ! Quinze euros cinquante pour toute la semaine. C'est le supermarché le plus pratique du quartier !",
+   "ecran": "Софи показывает на экран кассы, где высветилась сумма, а затем победно разводит руки в стороны с широкой улыбкой.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v20",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, et la prochaine fois, j'y vais toute seule ! Je commence à bien connaître les rayons.",
+   "ecran": "Анна складывает продукты в тканевую сумку, гордо выпрямляет спину и подмигивает Софи.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отлично! А теперь давайте разберём новые слова. Повторяйте за диктором.",
+   "ecran": "Камера фокусируется на тележке, из которой по одному «выпрыгивают» 3D-объекты товаров с подписями.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "les courses... la liste... le rayon... le prix... la promotion...",
+   "ecran": "Слова появляются на экране одно за другим вместе с транскрипцией API в квадратных скобках.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "le panier... la caisse... bio... l'emballage... le kilo...",
+   "ecran": "Продолжение появления слов с транскрипцией и иконками товаров.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Перейдём к грамматике. Чтобы сравнить два предмета во французском языке, мы используем конструкцию: plus или moins, плюс прилагательное, плюс que. Например: plus frais que — свежее, чем. Для превосходной степени добавляем артикль: le plus pratique — самый удобный.",
+   "ecran": "Анимация весов: на одной чаше помидоры био, на другой обычные. Появляется формула: plus + adj + que.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Запомните исключения: хороший — bon, лучше — meilleur. Не говорите «plus bon»! Также мы повторяем местоимения прямого дополнения COD: le, la, les. Они ставятся перед глаголом: Je les mets — Я их кладу.",
+   "ecran": "Формула с перечёркнутым «plus bon» и стрелка, показывающая позицию COD перед глаголом.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Чтобы не повторять существительное, используйте указательные местоимения: celui (для мужского рода), celle (для женского), ceux (мн.ч. муж.), celles (мн.ч. жен.). Добавляйте -ci для близких предметов и -là для далёких.",
+   "ecran": "3D-стеллаж: рука указывает на ближний сыр (celui-ci) и дальний (celui-là).",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Обратите внимание на произношение. Во французском языке двойные согласные на письме читаются как одна! Слово «pomme» читается [pɔm], а не [pɔmm]. Не растягивайте звук, произносите его кратко.",
+   "ecran": "Крупный план карточки со словом «pomme». Две буквы 'm' сливаются в одну с характерным звуковым эффектом.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Немного о культуре. Французы часто делают большие закупки раз в неделю в крупных супермаркетах, таких как Monoprix или Carrefour. Продукция с маркировкой «bio» очень популярна. Ищите зелёный логотип AB!",
+   "ecran": "Панорама торгового зала, камера приближается к логотипу Agriculture Biologique на упаковке.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "А сейчас время практики! Выполните первое упражнение. Выберите правильный вариант сравнительной или превосходной степени.",
+   "ecran": "Интерфейс упражнения QCM появляется поверх слегка размытого фона супермаркета.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение два. Заполните пропуски подходящими указательными местоимениями celui, celle, ceux или celles.",
+   "ecran": "Экран меняется на интерфейс заполнения пропусков (trous).",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение три. Соедините французские слова с их переводом на русский язык.",
+   "ecran": "Экран с двумя колонками для перетаскивания элементов (association).",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение четыре. Расставьте слова в правильном порядке, чтобы получить верное предложение.",
+   "ecran": "Рассыпанные слова-блоки, которые нужно перетащить в строку ответа (ordre).",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение пять. Переведите предложения с русского на французский язык.",
+   "ecran": "Поле ввода текста для перевода (traduction).",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "И последнее упражнение на аудирование. Послушайте слово и выберите правильное написание, обращая внимание на двойные согласные.",
+   "ecran": "Иконка наушников и кнопка воспроизведения звука, ниже варианты ответов (ecoute).",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Поздравляем! Вы успешно завершили урок 14. Теперь вы умеете делать покупки на французском, сравнивать цены и использовать указательные местоимения. До встречи на следующем уроке платформы Russtudy!",
+   "ecran": "Анна и Софи выходят из дверей Monoprix с полными сумками, машут рукой в камеру. Логотип Russtudy возвращается на экран.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Pour comparer, on utilise plus/moins/aussi + adjectif + que.",
+   "natif": "Для сравнения используется plus/moins/aussi + прилагательное + que."
+  },
+  {
+   "cible": "Le superlatif se forme avec le/la/les + plus/moins + adjectif.",
+   "natif": "Превосходная степень образуется с помощью le/la/les + plus/moins + прилагательное."
+  },
+  {
+   "cible": "Les pronoms démonstratifs sont celui, celle, ceux, celles, souvent suivis de -ci ou -là.",
+   "natif": "Указательные местоимения — это celui, celle, ceux, celles, часто с суффиксами -ci или -là."
+  },
+  {
+   "cible": "Les pronoms COD le, la, les remplacent un nom déjà mentionné et se placent avant le verbe.",
+   "natif": "Местоимения COD le, la, les заменяют уже названное существительное и ставятся перед глаголом."
+  },
+  {
+   "cible": "En français, les consonnes doubles écrites se prononcent comme une seule consonne.",
+   "natif": "Во французском языке удвоенные написанные согласные произносятся как одна."
+  }
+ ],
+ "controle": []
+}
