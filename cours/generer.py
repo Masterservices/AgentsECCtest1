@@ -217,13 +217,42 @@ def faire_programme(cle):
     return f"{cle} : programme {len(d.get('lecons', []))} leçons, défauts {err}"
 
 
+CLES_A = ("titre", "objectifs", "scene", "dialogue", "vocabulaire", "grammaire", "prononciation", "culture", "resume")
+
+
+def lecon_en_deux(c, prog, n, dossier):
+    """Repli quand la réponse complète est coupée en route : partie A (contenu), puis partie B (exercices et voix off)
+    rédigée avec la partie A en contexte. Chaque réponse fait la moitié de la longueur."""
+    base = prompt_lecon(c, prog, n)
+    pa = base + ("\n\nIMPORTANT : réponds avec la PARTIE A seulement — un JSON contenant uniquement les clés "
+                 + ", ".join(CLES_A) + ".")
+    a, err = demander(pa, f"{n + 1:02d}A", dossier, lambda d: [f"champ {k} manquant" for k in CLES_A if not d.get(k)])
+    if a is None or err:
+        return None, ["partie A incomplète"]
+    a = {k: a[k] for k in CLES_A}
+    pb = base + ("\n\nLa PARTIE A de cette leçon est déjà rédigée :\n" + json.dumps(a, ensure_ascii=False) +
+                 "\n\nIMPORTANT : réponds avec la PARTIE B seulement — un JSON contenant uniquement les clés exercices et voix_off, "
+                 "cohérentes avec la partie A (la voix off reprend le dialogue de la partie A, une réplique par segment).")
+    total = controle_lecon(c, prog)
+    b, _ = demander(pb, f"{n + 1:02d}B", dossier, lambda d: total({**a, **d}))
+    if b is None:
+        return None, ["partie B absente"]
+    d = {**a, "exercices": b.get("exercices"), "voix_off": b.get("voix_off")}
+    return d, total(d)
+
+
 def faire_lecon(cle, prog, n):
     c = COURS[cle]
     dossier = ICI / "lecons" / cle
     sortie = dossier / f"{n + 1:02d}.json"
     if sortie.exists() and not json.loads(sortie.read_text(encoding="utf-8")).get("controle"):
         return f"{cle} {n + 1:02d} : déjà faite"
-    d, err = demander(prompt_lecon(c, prog, n), f"{n + 1:02d}", dossier, controle_lecon(c, prog))
+    d, err = (None, ["mode deux parties"]) if os.environ.get("DEUX") else \
+        demander(prompt_lecon(c, prog, n), f"{n + 1:02d}", dossier, controle_lecon(c, prog))
+    if d is None or any("manquant" in e for e in err):
+        d2, err2 = lecon_en_deux(c, prog, n, dossier)
+        if d2 is not None and (d is None or len(err2) <= len(err)):
+            d, err = d2, err2
     if d is None:
         return f"{cle} {n + 1:02d} : ÉCHEC"
     l = prog["lecons"][n]
@@ -240,6 +269,7 @@ if __name__ == "__main__":
             taches = [ex.submit(faire_programme, k) for k in choix]
         else:
             progs = {k: json.loads((ICI / "programme" / f"{k}.json").read_text(encoding="utf-8")) for k in choix}
-            taches = [ex.submit(faire_lecon, k, progs[k], n) for n in range(36) for k in choix]
+            nums = {int(v) for v in os.environ.get("NUMS", "").split(",") if v.strip()}  # ex. NUMS=3,7 : seulement ces leçons
+            taches = [ex.submit(faire_lecon, k, progs[k], n) for n in range(36) for k in choix if not nums or n + 1 in nums]
         for t in taches:
             print(t.result(), flush=True)
