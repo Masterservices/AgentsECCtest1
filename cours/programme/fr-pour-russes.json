@@ -1,0 +1,802 @@
+{
+ "personnages": [
+  {
+   "id": "anna",
+   "nom": "Anna Sokolova",
+   "age": 22,
+   "role": "Protagoniste, étudiante russe arrivant en France pour un master, puis jeune professionnelle",
+   "apparence": "Jeune femme élancée 1m70, longs cheveux châtains ondulés, yeux verts, teint clair, style casual chic (manteau beige, écharpe, jeans, bottines). Expressive, sourire facile.",
+   "voix": "Jeune femme, timbre clair et chaleureux, léger accent russe adouci progressant au fil des leçons, débit modéré"
+  },
+  {
+   "id": "lucas",
+   "nom": "Lucas Moreau",
+   "age": 23,
+   "role": "Étudiant français en littérature, premier ami d'Anna, deviendra son compagnon",
+   "apparence": "Jeune homme 1m82, cheveux bruns courts en bataille, barbe de trois jours, yeux noisette, lunettes rondes, pull en laine, jean délavé, sac en bandoulière en toile.",
+   "voix": "Jeune homme, timbre posé et grave, débit naturel parisien avec liaisons soignées"
+  },
+  {
+   "id": "sophie",
+   "nom": "Sophie Dubois",
+   "age": 24,
+   "role": "Colocataire française d'Anna, étudiante en architecture, dynamique et organisatrice",
+   "apparence": "Jeune femme 1m65, cheveux courts roux, taches de rousseur, yeux bleus, style bohème coloré, salopette en jean, baskets blanches, foulard.",
+   "voix": "Jeune femme, timbre enjoué et vif, débit rapide, rires fréquents"
+  },
+  {
+   "id": "marine",
+   "nom": "Marine Lefèvre",
+   "age": 68,
+   "role": "Voisine retraitée d'Anna, ancienne professeure de lettres, bienveillante et cultivée",
+   "apparence": "Femme élégante 1m62, cheveux argentés coiffés en chignon, yeux gris perçants, cardigan en cachemire, collier de perles, lunettes à monture dorée.",
+   "voix": "Femme âgée, timbre doux et distingué, débit lent et articulé, français soutenu"
+  },
+  {
+   "id": "julien",
+   "nom": "Julien Bernard",
+   "age": 35,
+   "role": "Chef de projet dans l'entreprise où Anna effectue son stage puis est embauchée, mentor professionnel",
+   "apparence": "Homme 1m85, cheveux poivre et sel courts, carrure athlétique, costume bleu marine sans cravate, chemise blanche, montre classique, regard attentif.",
+   "voix": "Homme mature, timbre assuré et chaleureux, débit professionnel mesuré"
+  },
+  {
+   "id": "claire",
+   "nom": "Claire Rousseau",
+   "age": 40,
+   "role": "Tutrice universitaire d'Anna, professeure de FLE, guide bienveillante",
+   "apparence": "Femme 1m68, cheveux bruns mi-longs attachés, visage souriant, tailleur-pantalon noir, chemisier blanc, sac à main en cuir, tablette à la main.",
+   "voix": "Femme, timbre pédagogique clair, débit articulé et patient, intonation encourageante"
+  }
+ ],
+ "lecons": [
+  {
+   "num": 1,
+   "niveau": "A1",
+   "titre": "Bienvenue à Paris !",
+   "titre_trad": "Добро пожаловать в Париж!",
+   "lieu": "Terminal 2E de l'aéroport Charles-de-Gaulle, hall des arrivées avec panneaux lumineux et flux de voyageurs",
+   "situation": "Anna sort de l'avion, récupère sa valise et demande son chemin à un agent d'accueil.",
+   "communication": [
+    "Se présenter brièvement",
+    "Saluer selon le moment de la journée",
+    "Demander un lieu dans l'aéroport"
+   ],
+   "grammaire": [
+    "Pronoms sujets je/tu/vous",
+    "Verbes être et s'appeler au présent",
+    "Formules de politesse"
+   ],
+   "vocabulaire": "Aéroport, bagages, documents, salutations",
+   "prononciation": "Alphabet français, voyelles nasales [ɑ̃], [ɛ̃], [ɔ̃], [œ̃]",
+   "culture": "La bise et la poignée de main en France"
+  },
+  {
+   "num": 2,
+   "niveau": "A1",
+   "titre": "En route vers la ville",
+   "titre_trad": "В путь к городу",
+   "lieu": "File d'attente des taxis devant l'aéroport, puis intérieur d'un taxi parisien traversant le périphérique",
+   "situation": "Anna monte dans un taxi et indique son adresse au chauffeur.",
+   "communication": [
+    "Donner une adresse",
+    "Demander le prix et la durée",
+    "Remercier"
+   ],
+   "grammaire": [
+    "Articles définis le/la/les",
+    "Prépositions de lieu à, en, chez",
+    "Adjectifs numéraux 1-20"
+   ],
+   "vocabulaire": "Transports, ville, directions, monnaie",
+   "prononciation": "Différence u / ou (rue / route), exercices contrastifs",
+   "culture": "Les taxis parisiens et le pourboire"
+  },
+  {
+   "num": 3,
+   "niveau": "A1",
+   "titre": "Ma nouvelle chambre",
+   "titre_trad": "Моя новая комната",
+   "lieu": "Chambre d'étudiante en résidence universitaire au Quartier Latin, petite mais lumineuse avec vue sur cour",
+   "situation": "Anna découvre sa chambre, appelle sa mère en Russie et décrit les lieux.",
+   "communication": [
+    "Décrire un lieu",
+    "Exprimer la possession",
+    "Parler au téléphone"
+   ],
+   "grammaire": [
+    "Articles indéfinis un/une/des",
+    "Adjectifs possessifs mon/ma/mes",
+    "Verbe avoir au présent"
+   ],
+   "vocabulaire": "Meubles, objets de la chambre, couleurs",
+   "prononciation": "Le e muet en fin de mot et en milieu de mot",
+   "culture": "Les résidences universitaires du CROUS"
+  },
+  {
+   "num": 4,
+   "niveau": "A1",
+   "titre": "Un café, s'il vous plaît",
+   "titre_trad": "Кофе, пожалуйста",
+   "lieu": "Terrasse d'un café parisien typique avec banquette en moleskine rouge et zinc",
+   "situation": "Anna commande son premier café et rencontre Lucas qui lit à la table voisine.",
+   "communication": [
+    "Commander au café",
+    "Demander l'addition",
+    "Engager une conversation simple"
+   ],
+   "grammaire": [
+    "Verbes en -er au présent (1er groupe)",
+    "Articles partitifs du/de la/des",
+    "Négation ne... pas"
+   ],
+   "vocabulaire": "Boissons, petite restauration, expressions de politesse au café",
+   "prononciation": "Accent final de groupe rythmique (accentuation fixe)",
+   "culture": "Le rituel du café en terrasse à Paris"
+  },
+  {
+   "num": 5,
+   "niveau": "A1",
+   "titre": "À la boulangerie",
+   "titre_trad": "В булочной",
+   "lieu": "Boulangerie artisanale de quartier avec vitrine dorée et odeur de pain chaud",
+   "situation": "Anna achète son petit-déjeuner et apprend à interagir avec la boulangère.",
+   "communication": [
+    "Demander un produit",
+    "Exprimer une quantité",
+    "Payer"
+   ],
+   "grammaire": [
+    "Articles partitifs (approfondissement)",
+    "Verbes vouloir, pouvoir, devoir",
+    "Adjectifs démonstratifs ce/cette/ces"
+   ],
+   "vocabulaire": "Pains, viennoiseries, pâtisseries, monnaie",
+   "prononciation": "Liaisons obligatoires (les amis, des ours)",
+   "culture": "La baguette traditionnelle et le classement des boulangeries"
+  },
+  {
+   "num": 6,
+   "niveau": "A1",
+   "titre": "Premier jour à l'université",
+   "titre_trad": "Первый день в университете",
+   "lieu": "Hall d'entrée de la Sorbonne, amphithéâtre Richelieu en bois sombre",
+   "situation": "Anna s'inscrit administrativement et rencontre sa tutrice Claire.",
+   "communication": [
+    "Remplir un formulaire",
+    "Demander des informations",
+    "Se présenter à un professeur"
+   ],
+   "grammaire": [
+    "Verbes du 2e groupe (finir, choisir)",
+    "Questions avec est-ce que et qu'est-ce que",
+    "Prépositions de temps"
+   ],
+   "vocabulaire": "Université, études, matières, horaires",
+   "prononciation": "Enchaînements vocaliques (il a, tu as)",
+   "culture": "Le système universitaire français (LMD)"
+  },
+  {
+   "num": 7,
+   "niveau": "A1",
+   "titre": "Au marché du dimanche",
+   "titre_trad": "На воскресном рынке",
+   "lieu": "Marché en plein air rue Mouffetard, étals colorés de fruits, fromages et fleurs",
+   "situation": "Anna fait ses courses avec Lucas qui lui fait découvrir les produits français.",
+   "communication": [
+    "Demander le prix",
+    "Exprimer ses goûts",
+    "Comparer"
+   ],
+   "grammaire": [
+    "Adjectifs qualificatifs (accord en genre et nombre)",
+    "Verbes aimer, adorer, détester",
+    "Adverbes de quantité"
+   ],
+   "vocabulaire": "Fruits, légumes, fromages, poids et mesures",
+   "prononciation": "Liaisons interdites (et, après consonne nasale)",
+   "culture": "Le marché dominical et les fromages AOP"
+  },
+  {
+   "num": 8,
+   "niveau": "A1",
+   "titre": "Silence, on étudie !",
+   "titre_trad": "Тише, мы учимся!",
+   "lieu": "Salle de lecture de la Bibliothèque Sainte-Geneviève, grands lustres et tables en chêne",
+   "situation": "Anna travaille avec Sophie et demande de l'aide à la bibliothécaire.",
+   "communication": [
+    "Demander un document",
+    "Emprunter un livre",
+    "Parler à voix basse"
+   ],
+   "grammaire": [
+    "Verbes pronominaux au présent (se lever, s'asseoir)",
+    "Heures et durées",
+    "Adverbes de fréquence"
+   ],
+   "vocabulaire": "Livres, études, informatique, bibliothèque",
+   "prononciation": "Les consonnes finales muettes (s, t, x, d)",
+   "culture": "Les grandes bibliothèques parisiennes"
+  },
+  {
+   "num": 9,
+   "niveau": "A1",
+   "titre": "À la cantine",
+   "titre_trad": "В столовой",
+   "lieu": "Restaurant universitaire avec plateau self-service et grandes baies vitrées",
+   "situation": "Anna déjeune avec Lucas et Sophie et découvre les habitudes alimentaires étudiantes.",
+   "communication": [
+    "Choisir un plat",
+    "Exprimer la faim et la soif",
+    "Parler de ses habitudes"
+   ],
+   "grammaire": [
+    "Verbe prendre",
+    "Articles partitifs à la forme négative",
+    "Adverbes beaucoup, peu, trop"
+   ],
+   "vocabulaire": "Repas, plats, couverts, saveurs",
+   "prononciation": "Le son [y] français vs [u] (du, tu, tout)",
+   "culture": "Le repas à la française et le RU étudiant"
+  },
+  {
+   "num": 10,
+   "niveau": "A1",
+   "titre": "Une voisine sympathique",
+   "titre_trad": "Симпатичная соседка",
+   "lieu": "Banc du Jardin du Luxembourg sous les marronniers, fontaine Médicis en arrière-plan",
+   "situation": "Anna rencontre Marine, sa voisine, qui lui propose de l'aider en français.",
+   "communication": [
+    "Parler de sa famille",
+    "Décrire une personne",
+    "Proposer et accepter une invitation"
+   ],
+   "grammaire": [
+    "Adjectifs possessifs ton/ta/tes, son/sa/ses",
+    "Verbes de description (être, avoir, porter)",
+    "Il y a / c'est"
+   ],
+   "vocabulaire": "Famille, âge, apparence physique, caractère",
+   "prononciation": "Intonation des phrases déclaratives et interrogatives",
+   "culture": "Les relations de voisinage en France"
+  },
+  {
+   "num": 11,
+   "niveau": "A1",
+   "titre": "Week-end à Chartres",
+   "titre_trad": "Выходные в Шартре",
+   "lieu": "Gare Montparnasse puis cathédrale de Chartres et ses vitraux bleus",
+   "situation": "Anna achète un billet de train et visite Chartres avec Lucas.",
+   "communication": [
+    "Acheter un billet",
+    "Demander un horaire",
+    "Décrire un monument"
+   ],
+   "grammaire": [
+    "Verbe aller + préposition (à, au, aux, en)",
+    "Futur proche (aller + infinitif)",
+    "Nombres 20-100"
+   ],
+   "vocabulaire": "Train, gare, tourisme, monuments",
+   "prononciation": "Liaisons facultatives (pas encore, très aimable)",
+   "culture": "Le TGV et les cathédrales gothiques"
+  },
+  {
+   "num": 12,
+   "niveau": "A1",
+   "titre": "Bilan A1 : la fête d'anniversaire",
+   "titre_trad": "Итоги A1: день рождения",
+   "lieu": "Salon décoré de l'appartement de Sophie, guirlandes et buffet",
+   "situation": "Anna fête ses 23 ans avec tous ses amis français, elle offre et reçoit des cadeaux.",
+   "communication": [
+    "Bilan communicatif A1 : se présenter, raconter, décrire, commander, remercier",
+    "Offrir et recevoir",
+    "Souhaiter"
+   ],
+   "grammaire": [
+    "Révision spirale : présent, articles, pronoms possessifs, questions, futur proche"
+   ],
+   "vocabulaire": "Fête, cadeaux, émotions, souhaits",
+   "prononciation": "Révision globale : nasales, liaisons, e muet, u/ou",
+   "culture": "Les anniversaires et les cadeaux en France"
+  },
+  {
+   "num": 13,
+   "niveau": "A2",
+   "titre": "Nouvelle colocation",
+   "titre_trad": "Новое совместное проживание",
+   "lieu": "Grand appartement haussmannien du 11e arrondissement avec moulures et parquet",
+   "situation": "Anna emménage avec Sophie et organise la vie commune.",
+   "communication": [
+    "Parler des tâches ménagères",
+    "Négocier un règlement",
+    "Exprimer l'obligation"
+   ],
+   "grammaire": [
+    "Verbes modaux (devoir, pouvoir, vouloir) approfondis",
+    "Pronoms COD le/la/les",
+    "Impératif"
+   ],
+   "vocabulaire": "Logement, tâches ménagères, vie quotidienne",
+   "prononciation": "Le son [ʁ] français (r parisien) et ses positions",
+   "culture": "La colocation étudiante en France"
+  },
+  {
+   "num": 14,
+   "niveau": "A2",
+   "titre": "Les courses de la semaine",
+   "titre_trad": "Покупки на неделю",
+   "lieu": "Supermarché Monoprix avec rayons organisés et caisses automatiques",
+   "situation": "Anna fait les courses avec une liste et compare les produits.",
+   "communication": [
+    "Comparer des produits",
+    "Demander un renseignement en rayon",
+    "Exprimer une préférence justifiée"
+   ],
+   "grammaire": [
+    "Comparatif et superlatif",
+    "Pronoms COD (suite)",
+    "Pronoms démonstratifs celui/celle/ceux"
+   ],
+   "vocabulaire": "Alimentation, emballages, prix, promotions",
+   "prononciation": "Consonnes doubles et consonnes simples",
+   "culture": "Les grandes surfaces et le bio en France"
+  },
+  {
+   "num": 15,
+   "niveau": "A2",
+   "titre": "Soirée cinéma",
+   "titre_trad": "Вечер в кино",
+   "lieu": "Cinéma Le Champo, salle art déco du Quartier Latin",
+   "situation": "Anna va voir un film français avec Lucas et en discute après.",
+   "communication": [
+    "Raconter une histoire simple",
+    "Exprimer son opinion",
+    "Décrire une émotion"
+   ],
+   "grammaire": [
+    "Passé composé avec avoir",
+    "Accord du participe passé avec avoir (règle de base)",
+    "Adverbes en -ment"
+   ],
+   "vocabulaire": "Cinéma, genres de films, émotions, critique",
+   "prononciation": "Le [ə] central et son élision",
+   "culture": "Le cinéma français et les festivals"
+  },
+  {
+   "num": 16,
+   "niveau": "A2",
+   "titre": "Chez le médecin",
+   "titre_trad": "У врача",
+   "lieu": "Cabinet médical avec salle d'attente, posters santé et bureau du docteur",
+   "situation": "Anna, un peu malade, consulte un médecin généraliste.",
+   "communication": [
+    "Décrire des symptômes",
+    "Comprendre une ordonnance",
+    "Demander un rendez-vous"
+   ],
+   "grammaire": [
+    "Pronoms COI lui/leur",
+    "Verbes pronominaux au passé composé",
+    "Expression de la cause (parce que, car)"
+   ],
+   "vocabulaire": "Corps humain, maladies, médicaments, santé",
+   "prononciation": "Les sons [s] et [z] (poisson, poison)",
+   "culture": "Le système de santé français et la Carte Vitale"
+  },
+  {
+   "num": 17,
+   "niveau": "A2",
+   "titre": "Au musée d'Orsay",
+   "titre_trad": "В музее Орсе",
+   "lieu": "Grande nef du musée d'Orsay sous l'horloge, tableaux impressionnistes",
+   "situation": "Anna visite le musée avec Marine qui lui fait découvrir les impressionnistes.",
+   "communication": [
+    "Décrire une œuvre d'art",
+    "Situer dans l'espace et le temps",
+    "Exprimer une impression"
+   ],
+   "grammaire": [
+    "Imparfait (formation et emplois descriptifs)",
+    "Alternance passé composé / imparfait (introduction)",
+    "Prépositions de lieu complexes"
+   ],
+   "vocabulaire": "Arts, peinture, couleurs, mouvements artistiques",
+   "prononciation": "Les semi-voyelles [j], [w], [ɥ]",
+   "culture": "L'impressionnisme et les musées parisiens"
+  },
+  {
+   "num": 18,
+   "niveau": "A2",
+   "titre": "Direction Lyon !",
+   "titre_trad": "Направляемся в Лион!",
+   "lieu": "TGV traversant la Bourgogne, puis Vieux Lyon et ses traboules",
+   "situation": "Anna et Lucas partent en week-end à Lyon en train.",
+   "communication": [
+    "Réserver un hébergement",
+    "Demander son chemin en ville",
+    "Commander au restaurant régional"
+   ],
+   "grammaire": [
+    "Pronoms relatifs qui/que/où",
+    "Futur simple (introduction)",
+    "Conditionnel de politesse"
+   ],
+   "vocabulaire": "Tourisme, hébergement, gastronomie lyonnaise",
+   "prononciation": "Intonation des phrases exclamatives",
+   "culture": "Lyon, capitale de la gastronomie"
+  },
+  {
+   "num": 19,
+   "niveau": "A2",
+   "titre": "Raconter son voyage",
+   "titre_trad": "Рассказать о поездке",
+   "lieu": "Salon de l'appartement, album photo sur la table, thé chaud",
+   "situation": "Anna raconte son week-end à Sophie et Claire avec photos à l'appui.",
+   "communication": [
+    "Raconter un événement passé structuré",
+    "Ordonner chronologiquement",
+    "Répondre à des questions"
+   ],
+   "grammaire": [
+    "Passé composé vs imparfait (narration vs description)",
+    "Connecteurs temporels (d'abord, ensuite, puis, enfin)",
+    "Pronoms COD/COI combinés"
+   ],
+   "vocabulaire": "Voyage, souvenirs, chronologie",
+   "prononciation": "Rythme et groupes de sens",
+   "culture": "Les récits de voyage à la française"
+  },
+  {
+   "num": 20,
+   "niveau": "A2",
+   "titre": "Lettre à ma famille",
+   "titre_trad": "Письмо моей семье",
+   "lieu": "Bureau d'Anna avec lampe, ordinateur et photos de Russie épinglées au mur",
+   "situation": "Anna écrit un long mail à ses parents pour raconter sa vie en France.",
+   "communication": [
+    "Écrire un message personnel structuré",
+    "Exprimer des sentiments",
+    "Décrire des changements"
+   ],
+   "grammaire": [
+    "Verbes de sentiment + indicatif",
+    "Pronom en (quantité, lieu, complément)",
+    "Expression du temps qui passe (depuis, il y a, pendant)"
+   ],
+   "vocabulaire": "Correspondance, sentiments, vie quotidienne",
+   "prononciation": "Le pronom en et ses liaisons",
+   "culture": "Écriture numérique et cartes postales"
+  },
+  {
+   "num": 21,
+   "niveau": "A2",
+   "titre": "Chercher un stage",
+   "titre_trad": "Поиск стажировки",
+   "lieu": "Bureau du service carrières de l'université, affiches d'offres et ordinateurs",
+   "situation": "Anna rencontre Claire pour préparer sa recherche de stage.",
+   "communication": [
+    "Lire une offre d'emploi",
+    "Parler de ses compétences",
+    "Rédiger une lettre de motivation simple"
+   ],
+   "grammaire": [
+    "Pronom y (lieu, complément introduit par à)",
+    "Verbes + à / de + infinitif",
+    "Expression du but (pour, afin de)"
+   ],
+   "vocabulaire": "Emploi, compétences, formations, CV",
+   "prononciation": "Le pronom y et ses contextes",
+   "culture": "Le stage obligatoire dans les masters français"
+  },
+  {
+   "num": 22,
+   "niveau": "A2",
+   "titre": "Entretien d'embauche",
+   "titre_trad": "Собеседование",
+   "lieu": "Salle de réunion vitrée d'une agence de communication, table ovale",
+   "situation": "Anna passe un entretien de stage avec Julien.",
+   "communication": [
+    "Se présenter professionnellement",
+    "Parler de ses projets",
+    "Poser des questions"
+   ],
+   "grammaire": [
+    "Futur simple (emplois)",
+    "Expression de la condition (si + présent)",
+    "Formules de politesse professionnelles"
+   ],
+   "vocabulaire": "Monde professionnel, qualités, projets",
+   "prononciation": "Registre soutenu vs registre familier",
+   "culture": "Le code vestimentaire et la ponctualité en entreprise"
+  },
+  {
+   "num": 23,
+   "niveau": "A2",
+   "titre": "Soirée étudiante",
+   "titre_trad": "Студенческая вечеринка",
+   "lieu": "Bar étudiant animé du 5e arrondissement, musique et lumières colorées",
+   "situation": "Anna fête la fin des examens avec Lucas, Sophie et des amis.",
+   "communication": [
+    "Inviter et répondre à une invitation",
+    "Exprimer la joie, la fatigue",
+    "Parler de projets futurs"
+   ],
+   "grammaire": [
+    "Révision passé composé/imparfait",
+    "Pronoms en et y combinés",
+    "Gérondif (en + participe présent)"
+   ],
+   "vocabulaire": "Fête, musique, émotions, projets",
+   "prononciation": "Langage familier étudiant et verlan (intro)",
+   "culture": "Les soirées étudiantes et l'apéro"
+  },
+  {
+   "num": 24,
+   "niveau": "A2",
+   "titre": "Bilan A2 : fête de fin d'année",
+   "titre_trad": "Итоги A2: новогодний праздник",
+   "lieu": "Appartement décoré pour le réveillon du Nouvel An, table festive",
+   "situation": "Anna organise le réveillon avec ses amis français et russes en visio.",
+   "communication": [
+    "Bilan A2 : raconter au passé, décrire, comparer, inviter, argumenter simplement",
+    "Féliciter et souhaiter"
+   ],
+   "grammaire": [
+    "Révision spirale : temps du passé, pronoms COD/COI/en/y, futur, comparatif"
+   ],
+   "vocabulaire": "Fêtes, traditions, vœux, gastronomie",
+   "prononciation": "Révision : rythmes, intonation, liaisons avancées",
+   "culture": "Le réveillon du 31 décembre en France"
+  },
+  {
+   "num": 25,
+   "niveau": "B1",
+   "titre": "Premier jour de stage",
+   "titre_trad": "Первый день стажировки",
+   "lieu": "Open space moderne d'une agence de communication, baies vitrées sur Paris",
+   "situation": "Anna commence son stage chez Julien et rencontre l'équipe.",
+   "communication": [
+    "Se présenter en contexte professionnel",
+    "Comprendre une organisation",
+    "Demander des consignes"
+   ],
+   "grammaire": [
+    "Discours rapporté au présent",
+    "Pronoms relatifs composés (lequel, auquel, duquel)",
+    "Expression de la conséquence"
+   ],
+   "vocabulaire": "Entreprise, métiers, organisation, bureaux",
+   "prononciation": "Registre professionnel et débit maîtrisé",
+   "culture": "La culture d'entreprise française"
+  },
+  {
+   "num": 26,
+   "niveau": "B1",
+   "titre": "Réunion d'équipe",
+   "titre_trad": "Командное собрание",
+   "lieu": "Salle de réunion avec tableau blanc interactif et visioconférence",
+   "situation": "Anna participe à sa première réunion et doit présenter une idée.",
+   "communication": [
+    "Donner son opinion argumentée",
+    "Approuver et contredire poliment",
+    "Prendre la parole en réunion"
+   ],
+   "grammaire": [
+    "Subjonctif présent (formation et verbes déclencheurs : il faut que, je veux que)",
+    "Connecteurs logiques (cependant, en revanche, par conséquent)"
+   ],
+   "vocabulaire": "Argumentation, réunion, projet, marketing",
+   "prononciation": "Prosodie de l'argumentation (accent d'insistance)",
+   "culture": "Les codes de la réunion en France"
+  },
+  {
+   "num": 27,
+   "niveau": "B1",
+   "titre": "Déjeuner d'affaires",
+   "titre_trad": "Деловой обед",
+   "lieu": "Brasserie parisienne classique avec banquettes en cuir et miroirs",
+   "situation": "Julien invite Anna à déjeuner avec un client pour un projet.",
+   "communication": [
+    "Parler de son parcours",
+    "Négocier poliment",
+    "Comprendre des sous-entendus"
+   ],
+   "grammaire": [
+    "Conditionnel présent (conseil, hypothèse, politesse)",
+    "Hypothèse sur le présent (si + imparfait)",
+    "Verbes de parole variés"
+   ],
+   "vocabulaire": "Négociation, gastronomie d'affaires, parcours professionnel",
+   "prononciation": "Registre soutenu et formules figées",
+   "culture": "Le déjeuner d'affaires et ses codes"
+  },
+  {
+   "num": 28,
+   "niveau": "B1",
+   "titre": "Conférence professionnelle",
+   "titre_trad": "Профессиональная конференция",
+   "lieu": "Centre de conférences de la Défense, amphithéâtre moderne",
+   "situation": "Anna assiste à une conférence sur le marketing digital et pose des questions.",
+   "communication": [
+    "Comprendre un exposé",
+    "Prendre des notes",
+    "Poser des questions pertinentes"
+   ],
+   "grammaire": [
+    "Subjonctif après expressions de sentiment et de volonté",
+    "Discours rapporté au passé",
+    "Gérondif et participe présent (valeurs)"
+   ],
+   "vocabulaire": "Conférence, numérique, innovation, prise de notes",
+   "prononciation": "Écoute active et reformulation",
+   "culture": "Les colloques et salons professionnels français"
+  },
+  {
+   "num": 29,
+   "niveau": "B1",
+   "titre": "Mission à Marseille",
+   "titre_trad": "Командировка в Марсель",
+   "lieu": "Vieux-Port de Marseille, calanques en arrière-plan, marché aux poissons",
+   "situation": "Anna part en déplacement professionnel à Marseille avec Julien.",
+   "communication": [
+    "Organiser un déplacement",
+    "S'adapter à un accent régional",
+    "Présenter un projet à des partenaires"
+   ],
+   "grammaire": [
+    "Futur antérieur",
+    "Subjonctif passé",
+    "Expression de la concession (bien que, même si)"
+   ],
+   "vocabulaire": "Déplacement professionnel, régions, partenariats",
+   "prononciation": "Accents régionaux du Sud (intro)",
+   "culture": "Marseille et la diversité linguistique française"
+  },
+  {
+   "num": 30,
+   "niveau": "B1",
+   "titre": "L'entretien décisif",
+   "titre_trad": "Решающее собеседование",
+   "lieu": "Bureau du DRH avec vue sur la Défense",
+   "situation": "Anna passe un entretien d'embauche pour un CDI à la fin de son stage.",
+   "communication": [
+    "Argumenter sur ses motivations",
+    "Projeter dans l'avenir",
+    "Défendre son point de vue"
+   ],
+   "grammaire": [
+    "Conditionnel passé (regret, hypothèse irréelle)",
+    "Subjonctif vs indicatif après verbes d'opinion",
+    "Mise en relief (c'est... qui/que)"
+   ],
+   "vocabulaire": "Carrière, ambitions, valeurs professionnelles",
+   "prononciation": "Assurance et fluidité à l'oral",
+   "culture": "Le CDI et le droit du travail français (notions)"
+  },
+  {
+   "num": 31,
+   "niveau": "B1",
+   "titre": "Mon premier appartement",
+   "titre_trad": "Моя первая квартира",
+   "lieu": "Appartement vide du 18e arrondissement avec parquet ancien et grande fenêtre",
+   "situation": "Anna signe son bail et emménage avec l'aide de Lucas et Sophie.",
+   "communication": [
+    "Comprendre un contrat",
+    "Donner des instructions",
+    "Exprimer des projets d'aménagement"
+   ],
+   "grammaire": [
+    "Voix passive",
+    "Subjonctif après conjonctions (pour que, avant que, bien que)",
+    "Expression de la nécessité (il faut que, il est nécessaire que)"
+   ],
+   "vocabulaire": "Immobilier, contrat, aménagement, déménagement",
+   "prononciation": "Lecture à voix haute d'un texte administratif",
+   "culture": "La location en France : bail, caution, garanties"
+  },
+  {
+   "num": 32,
+   "niveau": "B1",
+   "titre": "Dîner en famille",
+   "titre_trad": "Ужин в семье",
+   "lieu": "Maison de campagne des parents de Lucas en Normandie, salle à manger rustique",
+   "situation": "Anna est invitée pour la première fois chez les parents de Lucas.",
+   "communication": [
+    "S'adapter à un contexte familial",
+    "Raconter des anecdotes",
+    "Participer à une conversation à plusieurs"
+   ],
+   "grammaire": [
+    "Subjonctif dans les relatives (recherche d'antécédent incertain)",
+    "Discours rapporté mixte",
+    "Nuances de l'expression de la cause"
+   ],
+   "vocabulaire": "Famille, traditions, anecdotes, gastronomie normande",
+   "prononciation": "Fluidité dans les échanges rapides",
+   "culture": "Le repas de famille dominical et ses codes"
+  },
+  {
+   "num": 33,
+   "niveau": "B1",
+   "titre": "Projet d'avenir",
+   "titre_trad": "Проект будущего",
+   "lieu": "Café calme où Anna travaille sur son ordinateur avec Julien",
+   "situation": "Anna et Julien discutent de l'évolution de carrière et de formations continues.",
+   "communication": [
+    "Exprimer des souhaits et des doutes",
+    "Conseiller",
+    "Envisager plusieurs scénarios"
+   ],
+   "grammaire": [
+    "Hypothèses sur le passé (si + plus-que-parfait)",
+    "Expression de l'opinion : je pense que + indicatif / je ne pense pas que + subjonctif",
+    "Alternance modale complète"
+   ],
+   "vocabulaire": "Projet professionnel, formation, évolution, regrets",
+   "prononciation": "Maîtrise des registres",
+   "culture": "La formation continue et le CPF en France"
+  },
+  {
+   "num": 34,
+   "niveau": "B1",
+   "titre": "Vacances en Bretagne",
+   "titre_trad": "Отпуск в Бретани",
+   "lieu": "Côte de granit rose, phare, crêperie bretonne traditionnelle",
+   "situation": "Anna part en vacances avec Lucas et découvre la Bretagne.",
+   "communication": [
+    "Décrire un paysage",
+    "Exprimer l'émerveillement",
+    "Parler de traditions locales"
+   ],
+   "grammaire": [
+    "Révision des temps du récit (passé composé, imparfait, plus-que-parfait)",
+    "Expression de la comparaison élaborée",
+    "Subjonctif dans les subordonnées de but"
+   ],
+   "vocabulaire": "Nature, paysages, traditions, gastronomie bretonne",
+   "prononciation": "Expressivité et nuances émotionnelles",
+   "culture": "La Bretagne, identité et langues régionales"
+  },
+  {
+   "num": 35,
+   "niveau": "B1",
+   "titre": "Nouveaux horizons",
+   "titre_trad": "Новые горизонты",
+   "lieu": "Toit-terrasse de l'immeuble d'Anna au coucher du soleil, vue sur Paris",
+   "situation": "Anna fait le bilan de ses deux années en France avec Lucas et Sophie.",
+   "communication": [
+    "Faire un bilan personnel",
+    "Exprimer la gratitude",
+    "Formuler des projets à long terme"
+   ],
+   "grammaire": [
+    "Révision spirale complète : tous les temps, subjonctif, conditionnel, discours rapporté",
+    "Mise en relief et emphase"
+   ],
+   "vocabulaire": "Bilan, émotions, gratitude, avenir",
+   "prononciation": "Discours continu de 2 minutes",
+   "culture": "Le parcours d'intégration en France"
+  },
+  {
+   "num": 36,
+   "niveau": "B1",
+   "titre": "Bilan B1 : la crémaillère",
+   "titre_trad": "Итоги B1: новоселье",
+   "lieu": "Appartement d'Anna entièrement aménagé, tous les personnages réunis, musique et buffet",
+   "situation": "Anna fête sa crémaillère avec tous ses amis et raconte son parcours en français devant ses proches.",
+   "communication": [
+    "Bilan B1 complet : argumenter, raconter, nuancer, exprimer sentiments et hypothèses, discourir en continu",
+    "Porter un toast",
+    "Remercier longuement"
+   ],
+   "grammaire": [
+    "Révision spirale finale : subjonctif, conditionnel passé, discours rapporté, voix passive, relatives complexes"
+   ],
+   "vocabulaire": "Fête, bilan de vie, amitié, projets",
+   "prononciation": "Discours public, aisance globale, intonation expressive",
+   "culture": "La crémaillère et les traditions festives françaises"
+  }
+ ],
+ "controle": []
+}
