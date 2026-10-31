@@ -102,6 +102,7 @@ def tableau(lignes, largeurs, entete=True):
 
 
 def lecon(L, noms, m, W):
+    noms = {**noms, **{f["id"]: f.get("nom") or f["id"] for f in L["scene"].get("figurants") or [] if isinstance(f, dict) and f.get("id")}}
     fl = [Paragraph(f"{m['lecon']} {L['num']} · {L['niveau']} — {x(L['titre']['cible'])}", ST["h1"]),
           Paragraph(x(L["titre"]["natif"]), ST["h1b"]),
           Paragraph(f"<b>{m['obj']} :</b> " + " · ".join(x(o) for o in L["objectifs"]), ST["corps"])]

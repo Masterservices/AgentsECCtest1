@@ -130,13 +130,14 @@ RÈGLES
 - Niveau {l['niveau']} strict : n'emploie dans le dialogue que des structures vues ou introduites ici.
 - Le dialogue est naturel, vivant, fait avancer l'histoire, et met en scène les points de grammaire et le vocabulaire de la leçon.
 - Le cours deviendra une leçon WebGL : décris le décor, les objets 3D et un geste par réplique ; la voix off guide l'apprenant pas à pas.
+- Les personnages secondaires (serveur, agent, médecin…) sont déclarés dans scene.figurants et peuvent parler dans le dialogue.
 - Voix off : le narrateur parle en {c['natif']} (environ {part_cible} de {c['cible']} à ce niveau), les personnages parlent en {c['cible']}. Couvre dans l'ordre : accueil et objectifs, dialogue complet (une réplique par segment), vocabulaire à répéter, explication de grammaire, consignes des exercices, conclusion.
 - Exercices : exactement 6, de types différents parmi qcm, trous, association, ordre, traduction, ecoute, oral ; 4 à 6 items chacun, réponse pour chaque item.
 
 FORMAT — réponds UNIQUEMENT avec un JSON valide :
 {{"titre": {{"cible": "...", "natif": "..."}},
  "objectifs": ["3 à 5 objectifs en {c['natif']}"],
- "scene": {{"lieu": "...", "moment": "...", "decor_3d": "description visuelle précise du décor en français", "objets": ["objets 3D utiles"], "personnages": ["ids présents"]}},
+ "scene": {{"lieu": "...", "moment": "...", "decor_3d": "description visuelle précise du décor en français", "objets": ["objets 3D utiles"], "personnages": ["ids présents"], "figurants": [{{"id": "ascii court", "nom": "...", "apparence": "description visuelle pour modèle 3D", "voix": "timbre pour la synthèse vocale"}}]}},
  "dialogue": [{{"perso": "id", "texte": "réplique en {c['cible']}", "traduction": "en {c['natif']}", "geste": "animation en français"}}],
  "vocabulaire": [{{"mot": "...", "prononciation": "...", "nature": "nom m. / verbe / adj. …", "traduction": "...", "exemple": "phrase en {c['cible']}", "exemple_traduction": "..."}}],
  "grammaire": [{{"titre": "en {c['natif']}", "explication": "120 à 250 mots en {c['natif']}", "tableau": [["en-tête", "..."], ["...", "..."]], "exemples": [{{"cible": "...", "natif": "..."}}]}}],
@@ -175,8 +176,8 @@ def controle_lecon(c, prog):
             err.append("exercices : 6 exercices avec une réponse par item attendus")
         if not 18 <= len(VO) <= 40:
             err.append(f"voix off : {len(VO)} segments")
-        if any(r.get("perso") not in ids for r in D):
-            err.append("dialogue : personnage inconnu")
+        if not any(r.get("perso") in ids for r in D):
+            err.append("dialogue : aucun personnage récurrent")
         texte_cible = " ".join(r.get("texte", "") for r in D)
         texte_natif = " ".join(g.get("explication", "") for g in d["grammaire"]) + " " + d["culture"].get("texte", "")
         p_cible, p_natif = part(texte_cible, CYR), part(texte_natif, CYR)
@@ -191,6 +192,18 @@ def controle_lecon(c, prog):
             err.append("voix off : narrateur et personnages attendus")
         return err
     return ctrl
+
+
+def completer_figurants(d, prog):
+    """Déclare dans scene.figurants tout personnage du dialogue qui n'est ni récurrent ni déjà déclaré (utile au WebGL)."""
+    scene = d.setdefault("scene", {}) if isinstance(d.get("scene"), dict) else {}
+    figs = [f for f in scene.get("figurants") or [] if isinstance(f, dict)]
+    connus = {p["id"] for p in prog["personnages"]} | {f.get("id") for f in figs}
+    for r in d.get("dialogue", []):
+        if r.get("perso") not in connus:
+            figs.append({"id": r.get("perso"), "nom": str(r.get("perso", "")).replace("_", " ").capitalize()})
+            connus.add(r.get("perso"))
+    scene["figurants"] = figs
 
 
 def faire_programme(cle):
@@ -215,6 +228,7 @@ def faire_lecon(cle, prog, n):
         return f"{cle} {n + 1:02d} : ÉCHEC"
     l = prog["lecons"][n]
     meta = {"cours": cle, "num": n + 1, "niveau": l["niveau"], "id": f"{cle}-{l['niveau']}-{n + 1:02d}"}
+    completer_figurants(d, prog)
     sortie.write_text(json.dumps({**meta, **d, "controle": err}, ensure_ascii=False, indent=1), encoding="utf-8")
     return f"{cle} {n + 1:02d} : {'OK' if not err else err}"
 

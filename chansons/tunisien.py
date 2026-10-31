@@ -20,7 +20,9 @@ MODELES = ["qwen-3.7-max-thinking", "qwen-3.8-max-thinking", "qwen-3.7-max-think
 # Mots typiques du Maroc ou de l'Algérie, à exclure de la derja tunisienne
 INTERDITS = ["بزاف", "دابا", "بغيت", "نبغي", "ديال", "ديالي", "واش", "كيراك", "مزيان", "شحال", "هادي", "هاديك", "بصح", "دروك", "ماشي"]
 TUNISIENS = ["برشا", "نحب", "شنوة", "توة", "توّة", "باهي", "موش", "فمّا", "فما", "يزّي", "يزي", "علاش", "وقتاش", "كيفاش", "إنتي",
-             "انتي", "نعرفش", "ماعادش", "زادة", "زادا", "هوني", "ياسر", "شبيك", "ملّا", "يعيشك", "نمشي"]
+             "انتي", "نعرفش", "ماعادش", "زادة", "زادا", "هوني", "ياسر", "شبيك", "ملّا", "يعيشك", "نمشي", "باش", "أما", "اما", "كي",
+             "زعمة", "ياخي", "برّا", "ديما", "توا", "حاجة", "فيسع", "قدّاش", "نحبّك", "نحبك", "عليّ", "معاك", "بحذايا"]
+NEGATION = re.compile(r"ما\s*[\u0600-\u06ff]+ش\b|[\u0600-\u06ff]+ش\s")  # ما…ش, négation typique
 IPA = re.compile("[ʃʒħʕχɣθðəɛɪʊːˈʔ]")
 TAG = re.compile(r"^\[[^\]]+\]$")
 CHAMPS = ("titre", "titre_fr", "style", "paroles", "paroles_chant", "paroles_api", "controle")
@@ -63,7 +65,7 @@ def controle(c, origine):
     mots = set(re.findall(r"[؀-ۿ]+", " ".join(p)))
     if mots & set(INTERDITS):
         err.append("mots non tunisiens : " + ", ".join(sorted(mots & set(INTERDITS))))
-    if len(mots & set(TUNISIENS)) < 2:
+    if len(mots & set(TUNISIENS)) + min(len(NEGATION.findall(" ".join(p))), 2) < 3:
         err.append("peu de marqueurs tunisiens")
     if len(IPA.findall(" ".join(api))) < 10:
         err.append("transcription API trop pauvre")

@@ -1,0 +1,917 @@
+{
+ "personnages": [
+  {
+   "id": "thomas",
+   "nom": "Thomas Berthier",
+   "age": 22,
+   "role": "Protagoniste. Étudiant français en relations internationales qui part à Moscou pour un échange universitaire, puis y décroche un premier emploi dans une agence culturelle franco-russe.",
+   "apparence": "Jeune homme mince, 1,78 m, cheveux châtains courts légèrement ébouriffés, yeux verts, petites lunettes rondes. Porte un jean, un pull marine et une écharpe rouge (cadeau de sa mère) dans les leçons A1 ; chemise et veste cintrée en B1. Animation expressive : sourcils levés quand il ne comprend pas, grand sourire quand il réussit.",
+   "voix": "Timbre clair, légèrement nasal, jeune homme de 22-25 ans. Débit moyen, hésitant en A1 (pauses, auto-corrections), plus fluide en B1. Accent français perceptible sur le russe au début, s'estompe progressivement."
+  },
+  {
+   "id": "masha",
+   "nom": "Maria « Masha » Volkova",
+   "age": 21,
+   "role": "Étudiante russe en linguistique à la même université que Thomas. Devient sa première amie et tutrice linguistique. Curieuse de la culture française, elle corrige Thomas avec humour.",
+   "apparence": "Jeune femme de taille moyenne, 1,65 m, longs cheveux blonds souvent en tresse ou queue-de-cheval, yeux bleus gris, taches de rousseur. Style décontracté : jeans, pulls oversize colorés, baskets. En B1, tenue plus soignée (jupe, blouse). Grande gestuelle quand elle explique.",
+   "voix": "Timbre chaud et légèrement grave pour une jeune femme, 20-22 ans. Débit rapide et enthousiaste, rit facilement. Articulation très claire quand elle corrige Thomas, plus naturelle dans les dialogues entre amis."
+  },
+  {
+   "id": "dima",
+   "nom": "Dmitri « Dima » Kozlov",
+   "age": 24,
+   "role": "Étudiant en ingénierie, ami de Masha. Blagueur, sportif, un peu maladroit. Il entraîne Thomas dans des situations quotidiennes (marché, transports, sport) et devient son colocataire en A2.",
+   "apparence": "Grand et costaud, 1,85 m, cheveux bruns coupés court, mâchoire carrée, yeux noisette. Porte souvent un sweat à capuche, un sac à dos usé, des baskets de sport. Barbe naissante en B1. Sourire en coin permanent.",
+   "voix": "Timbre grave et chaleureux, 24-26 ans. Débit posé, ponctué de rires graves. Parle un russe familier avec des interjections (ну, слушай, короче). Voix de « grand frère » bienveillant."
+  },
+  {
+   "id": "olga",
+   "nom": "Olga Petrovna Smirnova",
+   "age": 56,
+   "role": "Professeure de russe langue étrangère à l'université. Mentor exigeante mais maternelle de Thomas. Elle structure les apprentissages grammaticaux et culturels. Apparaît surtout en A1-A2, puis en invitée en B1.",
+   "apparence": "Femme élégante, 1,68 m, cheveux gris argentés en chignon bas, yeux gris perçants derrière des lunettes rectangulaires. Tailleur sombre, foulard de soie coloré, broche. Posture droite, gestes mesurés. Sourire rare mais lumineux.",
+   "voix": "Timbre posé, légèrement rauque, femme mature de 55-60 ans. Débit lent et très articulé, intonation montante pour les questions, descendante et ferme pour les corrections. Autorité bienveillante."
+  },
+  {
+   "id": "nina",
+   "nom": "Nina Ivanovna Belova",
+   "age": 72,
+   "role": "Propriétaire de l'appartement que Thomas loue à Moscou. Retraitée, ancienne institutrice. Nourrit Thomas, lui raconte la vie soviétique, le traite comme son petit-fils. Source de culture et de vocabulaire domestique.",
+   "apparence": "Petite femme ronde, 1,55 m, cheveux blancs courts bouclés, joues roses, yeux bleus malicieux. Robe à fleurs sous un tablier, chaussons en feutre, châle tricoté sur les épaules. Mains toujours occupées (pâte, tricot, thé).",
+   "voix": "Timbre aigu et chantant, femme âgée de 70-75 ans. Débit rapide, ponctué de « ой », « ну-ка », « голубчик ». Intonation très expressive, monte dans les aigus quand elle s'inquiète ou s'indigne. Rire cristallin."
+  },
+  {
+   "id": "alexei",
+   "nom": "Alexeï Nikolaïevitch Gromov",
+   "age": 33,
+   "role": "Collègue puis ami de Thomas à l'agence culturelle franco-russe « Мост » (Le Pont) en B1. Professionnel, un peu formel au début, il initie Thomas au registre soutenu et au monde du travail russe.",
+   "apparence": "Homme de taille moyenne, 1,80 m, cheveux noirs gominés en arrière, yeux sombres, barbe taillée de trois jours. Costume ajusté gris ou bleu marine, chemise sans cravate, montre élégante. Posture assurée, poignée de main ferme.",
+   "voix": "Timbre baryton, posé, homme de 30-35 ans. Débit régulier, vocabulaire soutenu. Léger accent moscovite. Ton professionnel qui se réchauffe au fil des leçons B1. Utilise des tournures idiomatiques."
+  }
+ ],
+ "lecons": [
+  {
+   "num": 1,
+   "niveau": "A1",
+   "titre": "Знакомство с алфавитом. Привет!",
+   "titre_trad": "Découverte de l'alphabet. Bonjour !",
+   "lieu": "Aéroport Cheremetievo, hall des arrivées, panneaux cyrilliques lumineux",
+   "situation": "Thomas atterrit à Moscou, déchiffre les premiers panneaux et salue Masha qui l'attend avec une pancarte.",
+   "communication": [
+    "Saluer et prendre congé (привет, здравствуйте, до свидания)",
+    "Se présenter sommairement (Меня зовут…)",
+    "Reconnaître et lire 12 lettres cyrilliques transparentes (А, К, М, О, Т, Д, Н, Е) et 12 lettres « faux-amis » (В, Н, Р, С, У, Х, В, Р)"
+   ],
+   "grammaire": [
+    "Absence d'article : comparaison explicite avec le français",
+    "Structure de base sujet + verbe sans article (Это Москва.)",
+    "Pronoms personnels sujet (я, ты, он, она)"
+   ],
+   "vocabulaire": "Salutations, aéroport, premiers mots de survie (выход, багаж, паспорт, таможня)",
+   "prononciation": "Alphabet cyrillique partie 1 (А à К). Lettres identiques au français mais son différent : В = /v/, Н = /n/, Р = /r/ roulé, С = /s/, У = /u/. Le « faux ami » visuel.",
+   "culture": "L'accueil à la russe : pas de sourire automatique, mais hospitalité profonde. Le samovar comme symbole d'accueil chez Nina."
+  },
+  {
+   "num": 2,
+   "niveau": "A1",
+   "titre": "Алфавит. Как тебя зовут?",
+   "titre_trad": "L'alphabet. Comment tu t'appelles ?",
+   "lieu": "Taxi traversant Moscou de nuit, vue sur les lumières de la ville",
+   "situation": "Thomas et Masha discutent dans le taxi ; il apprend à épeler son nom et demande le sien au chauffeur.",
+   "communication": [
+    "Demander et dire son nom, son âge, sa nationalité",
+    "Épeler un mot lettre par lettre",
+    "Demander « Comment dit-on… ? » (Как сказать…?)"
+   ],
+   "grammaire": [
+    "Verbe звать au présent (Меня зовут…)",
+    "Absence du verbe être au présent : Я студент (et non *Я есть студент)",
+    "Nationalités et adjectifs accordés (француз / француженка)"
+   ],
+   "vocabulaire": "Identité, nationalités, chiffres 1-10, moyens de transport",
+   "prononciation": "Alphabet cyrillique partie 2 (Л à Т). Le Ы (son inexistant en français : position de la langue). Le Ь (signe mou) et Ъ (signe dur) : fonction séparative, pas de son propre.",
+   "culture": "Le taxi à Moscou : Yandex Go, la conversation avec le chauffeur, les distances immenses de la ville."
+  },
+  {
+   "num": 3,
+   "niveau": "A1",
+   "titre": "Алфавит. Добро пожаловать!",
+   "titre_trad": "L'alphabet. Bienvenue !",
+   "lieu": "Appartement de Nina Ivanovna, cuisine chaleureuse avec napperons et icônes",
+   "situation": "Nina accueille Thomas avec du thé et des pirojki ; il lit ses premières phrases complètes en cyrillique.",
+   "communication": [
+    "Lire un court texte en cyrillique (panneau, étiquette, message)",
+    "Remercier et exprimer la politesse (спасибо, пожалуйста, извините)",
+    "Comprendre des consignes simples (Садитесь! Ешьте! Пейте чай!)"
+   ],
+   "grammaire": [
+    "Impératif de base (2-3 verbes courants)",
+    "Démonstratifs это / тот / этот",
+    "Première approche du genre : mots masculins/féminins/neutres (стол, книга, окно)"
+   ],
+   "vocabulaire": "Maison, cuisine, aliments simples (чай, хлеб, суп), formules de politesse",
+   "prononciation": "Alphabet cyrillique partie 3 (У à Я). Le Ё toujours accentué. Les voyelles iotisées (Я, Ю, Е, Ё) en début de mot ou après voyelle. Révision complète de l'alphabet en chanson.",
+   "culture": "L'hospitalité russe : on ne refuse pas la nourriture offerte. Les pirojki, le thé avec le samovar. La cuisine comme cœur du foyer."
+  },
+  {
+   "num": 4,
+   "niveau": "A1",
+   "titre": "Кто это? Именительный падеж",
+   "titre_trad": "Qui est-ce ? Le nominatif",
+   "lieu": "Amphithéâtre de l'université MGU, premier jour de cours",
+   "situation": "Olga Petrovna fait l'appel ; Thomas se présente à la classe et identifie les autres étudiants.",
+   "communication": [
+    "Identifier et présenter des personnes (Это…, Он…, Она…)",
+    "Décrire sommairement quelqu'un (молодой, высокий, весёлый)",
+    "Demander qui est quelqu'un (Кто это? Кто она?)"
+   ],
+   "grammaire": [
+    "Nominatif : forme de base du nom et de l'adjectif",
+    "Genre des noms : terminaisons masculin (cons.), féminin (-а/-я), neutre (-о/-е)",
+    "Accord adjectif-nom en genre et nombre",
+    "Rappel : pas de verbe être (Она студентка.)"
+   ],
+   "vocabulaire": "Université, personnes, adjectifs de description physique et de caractère (15-20 mots)",
+   "prononciation": "Accent tonique mobile : introduction du concept. En français l'accent est fixe (dernière syllabe), en russe il déplace. Exercices de repérage sur les prénoms (Маша, Дима, Ольга).",
+   "culture": "Le premier septembre en Russie (День знаний) : les fleurs pour le professeur, la tenue formelle, le discours solennel."
+  },
+  {
+   "num": 5,
+   "niveau": "A1",
+   "titre": "Где ты? Предложный падеж",
+   "titre_trad": "Où es-tu ? Le prépositionnel",
+   "lieu": "Campus universitaire : bibliothèque, cantine, jardin, salles de cours",
+   "situation": "Thomas cherche ses salles de cours et appelle Masha pour lui demander où elle est.",
+   "communication": [
+    "Localiser quelqu'un ou quelque chose (Где ты? Я в библиотеке.)",
+    "Parler de sa ville, de son quartier (Я живу в Москве.)",
+    "Indiquer un lieu avec в / на + prépositionnel"
+   ],
+   "grammaire": [
+    "Prépositionnel singulier : -е (стол → в столе), -и после ж/ш/ч/щ/ц",
+    "Prépositions в (внутри) et на (surface/événement) : contraste avec « à » et « dans » français",
+    "Verbes statiques de localisation (быть, жить, работать, учиться)",
+    "Réemploi du nominatif pour le sujet"
+   ],
+   "vocabulaire": "Lieux de la ville et de l'université (20 mots), prépositions de lieu",
+   "prononciation": "Réduction vocalique : о non accentué → [a], е non accentué → [и]. Comparaison avec le français où toutes les voyelles sont prononcées. Exemple : Москва [м а ск в а], хорошо [х а р а ш о].",
+   "culture": "Le campus russe : le « общага » (résidence universitaire), la столовая (cantine), la bibliothèque comme lieu social."
+  },
+  {
+   "num": 6,
+   "niveau": "A1",
+   "titre": "Что ты делаешь? Винительный падеж",
+   "titre_trad": "Que fais-tu ? L'accusatif",
+   "lieu": "Chambre de Thomas chez Nina, soir : il écrit un e-mail à sa mère en France",
+   "situation": "Thomas raconte sa journée à sa mère ; Nina entre et lui propose de l'aide pour ranger sa chambre.",
+   "communication": [
+    "Exprimer une action sur un objet (Я читаю книгу. Я пью чай.)",
+    "Décrire ses activités quotidiennes",
+    "Demander ce que quelqu'un fait (Что ты делаешь?)"
+   ],
+   "grammaire": [
+    "Accusatif des noms inanimés masculins et neutres = nominatif",
+    "Accusatif des noms féminins : -у/-ю",
+    "Accusatif des adjectifs (accord)",
+    "Conjugaison au présent : 1re conjugation (-ать, -ять) et 2e conjugation (-ить, -еть)",
+    "Réemploi : nominatif (sujet) + prépositionnel (lieu)"
+   ],
+   "vocabulaire": "Actions quotidiennes (читать, писать, пить, есть, смотреть, слушать, делать), objets de la chambre",
+   "prononciation": "Consonnes dures et molles : introduction. Le signe mou Ь adoucit la consonne. Paires : т/ть, д/дь, н/нь, л/ль. Exercice : мат/мать, нос/нёс. Analogie avec le français « ni » pour le son mouillé.",
+   "culture": "Écrire à sa famille : le décalage horaire avec la France, les appels vidéo, la nostalgie. Nina apporte du thé sans qu'on le demande."
+  },
+  {
+   "num": 7,
+   "niveau": "A1",
+   "titre": "У меня есть… Родительный падеж",
+   "titre_trad": "J'ai… Le génitif",
+   "lieu": "Marché Danilovski, étals de fruits, légumes et fromages",
+   "situation": "Thomas fait ses premières courses avec Dima ; il demande des quantités et exprime la possession.",
+   "communication": [
+    "Exprimer la possession (У меня есть книга.)",
+    "Exprimer l'absence (У меня нет времени.)",
+    "Demander une quantité (Сколько это стоит? Кило яблок, пожалуйста.)",
+    "Négation simple (нет + génitif)"
+   ],
+   "grammaire": [
+    "Génitif singulier : -а/-я (masc./neutre), -ы/-и (féminin)",
+    "Construction У + génitif + есть/нет (possession/absence)",
+    "Négation : нет + génitif (contraire du français « je n'ai pas de »)",
+    "Génitif après les nombres (2, 3, 4 → gén. sing. ; 5+ → gén. pluriel)",
+    "Réemploi : nominatif, accusatif, prépositionnel"
+   ],
+   "vocabulaire": "Aliments, fruits, légumes, prix, monnaie (рубль, копейка), quantités",
+   "prononciation": "Le son [ц] (ц, цы) inexistant en français. Différence entre [ш] et [щ] : щ est plus long et mou. Virelangue avec ces consonnes.",
+   "culture": "Le marché russe (рынок) : on goûte avant d'acheter, on négocie, la babouchka vend ses propres légumes. Les poids et mesures russes."
+  },
+  {
+   "num": 8,
+   "niveau": "A1",
+   "titre": "Кому ты звонишь? Дательный падеж",
+   "titre_trad": "À qui téléphones-tu ? Le datif",
+   "lieu": "Café du coin près de l'université, Thomas téléphone à sa mère, Masha l'observe",
+   "situation": "Thomas appelle sa famille en France ; Masha lui explique à qui elle écrit et à qui elle donne ses cadeaux.",
+   "communication": [
+    "Indiquer le destinataire (Я звоню маме. Я пишу другу.)",
+    "Offrir, donner, montrer quelque chose à quelqu'un",
+    "Exprimer un sentiment impersonnel (Мне холодно. Мне нравится.)"
+   ],
+   "grammaire": [
+    "Datif singulier : -у/-ю (masc./neutre), -е/-и (féminin)",
+    "Verbes à régime datif (звонить, помогать, дарить, давать, показывать)",
+    "Construction impersonnelle : Мне + adjectif/verbe (Мне весело. Мне нравится.)",
+    "Réemploi : nominatif, accusatif, génitif, prépositionnel"
+   ],
+   "vocabulaire": "Famille (мама, папа, брат, сестра, бабушка, дедушка), communication (звонить, писать, отправлять)",
+   "prononciation": "Groupes consonantiques : le russe tolère 3-4 consonnes consécutives (встреча, здравствуйте). Stratégies pour les francophones : ne pas insérer de voyelle d'appui.",
+   "culture": "La famille en Russie : les grands-parents très présents, les appels quotidiens, l'importance du prénom patronymique (Olga Petrovna = Olga fille de Piotr)."
+  },
+  {
+   "num": 9,
+   "niveau": "A1",
+   "titre": "С кем ты идёшь? Творительный падеж",
+   "titre_trad": "Avec qui marches-tu ? L'instrumental",
+   "lieu": "Parc Gorki, allée bordée de bouleaux, premier samedi d'automne",
+   "situation": "Thomas se promène avec Masha et Dima ; ils parlent de leurs hobbies et de ce qu'ils font avec leurs amis.",
+   "communication": [
+    "Exprimer l'accompagnement (Я гуляю с Машей. Мы идём с Димой.)",
+    "Exprimer le moyen (Я пишу ручкой. Я ем вилкой.)",
+    "Exprimer la profession (Он работает инженером.)",
+    "Décrire une scène (Что ты видишь?)"
+   ],
+   "grammaire": [
+    "Instrumental singulier : -ом/-ем (masc./neutre), -ой/-ей (féminin)",
+    "Préposition с + instrumental (avec)",
+    "Verbe быть au passé et futur (réintroduction : был, буду)",
+    "Réemploi des cinq cas précédents dans des phrases complètes"
+   ],
+   "vocabulaire": "Loisirs, activités de plein air, instruments, météo automnale",
+   "prononciation": "Intonation russe : IK-1 (neutre), IK-2 (insistance), IK-3 (question oui/non). Comparaison avec l'intonation montante française. Le russe monte sur le mot accentué, pas en fin de phrase.",
+   "culture": "Le parc russe en automne : les bouleaux dorés, les bancs pour discuter, le thé dans un thermos. La promenade (прогулка) comme rituel social."
+  },
+  {
+   "num": 10,
+   "niveau": "A1",
+   "titre": "Мой день. Настоящее время",
+   "titre_trad": "Ma journée. Le présent",
+   "lieu": "Appartement de Nina, du réveil au coucher : cuisine, salle de bain, bureau",
+   "situation": "Thomas décrit sa journée type à Olga Petrovna lors d'un tutorat ; Nina interrompt pour proposer le petit-déjeuner.",
+   "communication": [
+    "Raconter sa journée heure par heure",
+    "Dire l'heure (Который час? Сейчас девять часов.)",
+    "Exprimer la fréquence (всегда, часто, иногда, никогда)",
+    "Comparer avec les habitudes françaises"
+   ],
+   "grammaire": [
+    "Conjugaison complète au présent (les deux conjugaisons)",
+    "Absence d'article : « Je lis un livre » = Я читаю книгу (pas de « un »)",
+    "Absence de verbe être : rappel systématique",
+    "Adverbes de fréquence et leur placement",
+    "Réemploi : tous les cas, la possession, la localisation"
+   ],
+   "vocabulaire": "Routine quotidienne, heures, moments de la journée, repas",
+   "prononciation": "Assimilation des consonnes sourdes/sonores : в → ф, д → т, б → п, з → с, г → к en fin de mot ou devant sourde. Ex. : хлеб [хл'эп], друг [друк]. Le français ne connaît pas ce phénomène.",
+   "culture": "La journée russe : petit-déjeuner copieux (каша, бутерброды), le déjeuner entre 13h et 14h, le dîner tardif. Le thé à toute heure."
+  },
+  {
+   "num": 11,
+   "niveau": "A1",
+   "titre": "В городе. Повторение",
+   "titre_trad": "En ville. Révision",
+   "lieu": "Rues de Moscou : métro, Place Rouge, magasins, arrêt de bus",
+   "situation": "Thomas guide un ami français en visite ; il utilise tout ce qu'il a appris pour expliquer la ville.",
+   "communication": [
+    "Demander et donner des directions (Где находится…? Идите прямо, потом налево.)",
+    "Décrire un lieu (Это красивый парк. Там есть фонтан.)",
+    "Acheter un billet, un objet (Сколько стоит? Я хочу купить…)",
+    "Mobiliser les six cas dans un discours suivi"
+   ],
+   "grammaire": [
+    "Révision des six cas au singulier",
+    "Prépositions spatiales : в, на, у, к, из, от, до, по",
+    "Nombres 1-100",
+    "Réemploi : présent, possession, localisation, description"
+   ],
+   "vocabulaire": "Ville, transports, directions, magasins, monuments",
+   "prononciation": "Révision globale : accent tonique, réduction vocalique, consonnes dures/molles, assimilation. Exercice de lecture à voix haute d'un panneau de métro.",
+   "culture": "Le métro de Moscou : palais souterrains, escalators interminables, silence des passagers. La Place Rouge et ses mythes."
+  },
+  {
+   "num": 12,
+   "niveau": "A1",
+   "titre": "Экзамен А1. Мой первый месяц в России",
+   "titre_trad": "Bilan A1. Mon premier mois en Russie",
+   "lieu": "Salle d'examen de l'université, puis fête dans la cuisine de Nina",
+   "situation": "Thomas passe son premier test de russe avec Olga Petrovna, puis célèbre avec Masha, Dima et Nina autour d'un gâteau.",
+   "communication": [
+    "Se présenter et présenter les autres (5 min de monologue)",
+    "Comprendre un message vocal simple (répondeur de Nina)",
+    "Écrire un SMS court (invitation, remerciement)",
+    "Dialogue : se repérer en ville, acheter, inviter",
+    "Mobiliser les six cas, le présent, le vocabulaire A1"
+   ],
+   "grammaire": [
+    "Évaluation : six cas au singulier",
+    "Présent des deux conjugaisons",
+    "Absence d'article et de verbe être",
+    "Négation avec нет + génitif",
+    "Prépositions de lieu et de direction"
+   ],
+   "vocabulaire": "Révision globale A1 : identité, famille, université, ville, nourriture, loisirs",
+   "prononciation": "Évaluation : lecture d'un texte court, prononciation des lettres difficiles (ы, щ, ц), intonation IK-1/IK-3",
+   "culture": "La fête russe : le тост (toast), le gâteau maison de Nina, les chansons. Dire « Молодец! » pour féliciter."
+  },
+  {
+   "num": 13,
+   "niveau": "A2",
+   "titre": "Что ты делал вчера? Прошедшее время",
+   "titre_trad": "Qu'as-tu fait hier ? Le passé",
+   "lieu": "Chambre de Thomas, matin : il raconte sa soirée de la veille à Masha par message vocal",
+   "situation": "Thomas raconte à Masha sa soirée avec Dima : cinéma, dîner, retour en métro. Introduction de l'aspect à travers le récit.",
+   "communication": [
+    "Raconter des événements passés",
+    "Demander ce que quelqu'un a fait (Что ты делал вчера?)",
+    "Exprimer une succession d'actions et une durée",
+    "Réagir à un récit (Ого! Как интересно!)"
+   ],
+   "grammaire": [
+    "Passé : radical + -л/-ла/-ло/-ли (accord en genre et nombre)",
+    "Introduction de l'aspect imperfectif : action en cours, répétée, sans résultat",
+    "Premiers verbes perfectifs : сделал, прочитал (action achevée)",
+    "Réemploi : tous les cas au singulier, présent"
+   ],
+   "vocabulaire": "Activités du soir, cinéma, restaurant, émotions et réactions",
+   "prononciation": "Le [л] russe dur vs le [l] français. Le [л'] mou (ль). Exercice : был, стол, молоко. Attention à ne pas vocaliser le л comme en français.",
+   "culture": "Le cinéma en Russie : les films soviétiques cultes, les popcorns salés/sucrés, la sortie au cinéma comme rituel."
+  },
+  {
+   "num": 14,
+   "niveau": "A2",
+   "titre": "Что ты будешь делать? Будущее время. Виды глагола",
+   "titre_trad": "Que feras-tu ? Le futur. Les aspects du verbe",
+   "lieu": "Café universitaire, Masha et Thomas planifient le week-end sur un calendrier",
+   "situation": "Masha et Thomas organisent leur week-end : projets, intentions, promesses. Dima propose une excursion.",
+   "communication": [
+    "Parler de projets futurs (Я буду учиться. Я прочитаю книгу.)",
+    "Faire une promesse, une prédiction",
+    "Distinguer « je vais faire » (processus) et « je ferai » (résultat)",
+    "Proposer et accepter/refuser une activité"
+   ],
+   "grammaire": [
+    "Futur imperfectif : быть + infinitif (буду делать)",
+    "Futur perfectif : forme conjuguée du verbe perfectif (сделаю)",
+    "Paires aspectuelles courantes (делать/сделать, читать/прочитать, писать/написать)",
+    "Réemploi : passé, présent, tous les cas"
+   ],
+   "vocabulaire": "Projets, week-end, météo future, invitations, sports",
+   "prononciation": "Accent tonique mobile au futur : буду́, бу́дешь, бу́дет… Le déplacement de l'accent change la prononciation. Comparaison avec le français où l'accent est toujours final.",
+   "culture": "Planifier en Russie : la datcha le week-end, le banya (sauna), l'invitation spontanée chez des amis."
+  },
+  {
+   "num": 15,
+   "niveau": "A2",
+   "titre": "Родительный падеж: много, мало, нет",
+   "titre_trad": "Le génitif : beaucoup, peu, absence",
+   "lieu": "Supermarché Perekriostok, rayons remplis, Thomas fait les courses pour une fête",
+   "situation": "Thomas prépare un dîner français pour ses amis russes ; il fait la liste des courses avec Nina au téléphone.",
+   "communication": [
+    "Exprimer une quantité indéfinie (много, мало, несколько + gén.)",
+    "Exprimer l'absence totale (У нас нет молока.)",
+    "Faire une liste de courses, demander des quantités",
+    "Exprimer la matière (стакан воды, кусок хлеба)"
+   ],
+   "grammaire": [
+    "Génitif pluriel : -ов/-ев, -ей, -∅ (zéro), -ей",
+    "Génitif partitif (quantité, matière)",
+    "Génitif après много, мало, несколько, сколько",
+    "Génitif de négation (pas de → нет + gén.)",
+    "Réemploi : accusatif (objet direct), datif (destinataire)"
+   ],
+   "vocabulaire": "Courses, aliments, quantités, emballages, cuisine",
+   "prononciation": "Génitif pluriel : groupes consonantiques complexes (яблок, окон, стульев). Le зéro final. Entraînement à ne pas ajouter de voyelle d'appui.",
+   "culture": "Cuisiner « à la française » en Russie : trouver du beurre, de la crème, du fromage. Le regard amusé de Nina sur la cuisine française."
+  },
+  {
+   "num": 16,
+   "niveau": "A2",
+   "titre": "Дательный падеж: чувства и советы",
+   "titre_trad": "Le datif : sentiments et conseils",
+   "lieu": "Parc Tsaritsyno, banc au bord d'un étang, automne doré",
+   "situation": "Thomas se confie à Masha : il a le mal du pays. Elle le console et lui donne des conseils.",
+   "communication": [
+    "Exprimer un état émotionnel impersonnel (Мне грустно. Мне страшно. Ей весело.)",
+    "Donner un conseil (Тебе надо отдохнуть. Тебе стоит позвонить маме.)",
+    "Exprimer un jugement (Мне кажется, что…)",
+    "Consoler, encourager"
+   ],
+   "grammaire": [
+    "Datif + infinitif : constructions impersonnelles (надо, нужно, можно, нельзя, стоит)",
+    "Datif du destinataire de sentiments (Мне нравится / не нравится)",
+    "Datif pluriel : -ам/-ям, -ям",
+    "Verbes à régime datif approfondis (скучать по + дат., помогать + дат.)",
+    "Réemploi : tous les cas, aspects au passé et futur"
+   ],
+   "vocabulaire": "Émotions, sentiments, conseils, mal du pays, amitié",
+   "prononciation": "Le [ж] russe vs le [ʒ] français : plus dur, jamais mouillé. Le [ш] toujours dur. Exercice : жизнь, журнал, муж. Attention à ne pas adoucir ces consonnes.",
+   "culture": "Le mal du pays (тоска) : mot russe intraduisible. La consolation à la russe : on écoute, on propose du thé, on invite à marcher."
+  },
+  {
+   "num": 17,
+   "niveau": "A2",
+   "titre": "Глаголы движения: идти и ехать",
+   "titre_trad": "Verbes de mouvement : идти et ехать",
+   "lieu": "Station de métro Novokouznetskaïa, quai animé, puis rue de Moscou",
+   "situation": "Thomas demande son chemin à Dima pour aller à un rendez-vous ; il doit choisir entre marcher et prendre le métro.",
+   "communication": [
+    "Décrire un déplacement à pied ou en véhicule (Я иду в университет. Я еду на метро.)",
+    "Demander un itinéraire (Как дойти до…? Как доехать до…?)",
+    "Indiquer la direction et le moyen de transport",
+    "Distinguer un déplacement ponctuel (aller) d'un mouvement général"
+   ],
+   "grammaire": [
+    "Verbes de mouvement unidirectionnels : идти / ехать",
+    "Prépositions de direction : в, на, к, из, с, от, до, по + cas",
+    "Accusatif de direction (иду в парк) vs prépositionnel de lieu (я в парке)",
+    "Réemploi : prépositionnel (lieu), accusatif (direction), instrumental (moyen)"
+   ],
+   "vocabulaire": "Transports (метро, автобус, трамвай, поезд), directions, points de repère",
+   "prononciation": "Le [р] russe : roulé alvéolaire, très différent du [ʁ] français uvulaire. Exercice : рынок, метро, парк, утро. Ne pas « gratter » le r à la française.",
+   "culture": "Le métro moscovite : 14 millions de passagers/jour, les stations-palais, l'annonce « Осторожно, двери закрываются »."
+  },
+  {
+   "num": 18,
+   "niveau": "A2",
+   "titre": "Глаголы движения: ходить и ездить",
+   "titre_trad": "Verbes de mouvement : ходить et ездить",
+   "lieu": "Gare Kazanski, panneau des départs, Thomas achète un billet pour Saint-Pétersbourg",
+   "situation": "Masha explique à Thomas la différence entre « aller une fois » et « aller régulièrement » ; ils préparent un voyage.",
+   "communication": [
+    "Exprimer un mouvement multidirectionnel ou habituel (Я хожу в университет каждый день.)",
+    "Parler de voyages passés (Я ездил в Париж.)",
+    "Distinguer « aller une fois » vs « aller souvent »",
+    "Acheter un billet, réserver"
+   ],
+   "grammaire": [
+    "Verbes de mouvement multidirectionnels : ходить / ездить",
+    "Contraste идти/ходить, ехать/ездить (ponctuel vs habituel/répété)",
+    "Passé des verbes de mouvement (Я ходил. Я ездил.)",
+    "Prépositions по, через, мимо + cas",
+    "Réemploi : futur, aspects, prépositionnel et accusatif de direction"
+   ],
+   "vocabulaire": "Voyage, gare, train, billets, villes russes",
+   "prononciation": "La voyelle [ы] en contexte : ходить, ездить, идти. Position de la langue reculée, lèvres non arrondies. Exercice de discrimination и/ы : пить/быть, митинг/мытый.",
+   "culture": "Le train russe : le плацкарт (wagon ouvert), le проводник (contrôleur), le thé dans un porte-verre en métal, les paysages infinis."
+  },
+  {
+   "num": 19,
+   "niveau": "A2",
+   "titre": "Творительный падеж: кем ты хочешь быть?",
+   "titre_trad": "L'instrumental : qui veux-tu devenir ?",
+   "lieu": "Bureau d'orientation professionnelle de l'université, posters de métiers aux murs",
+   "situation": "Olga Petrovna organise un atelier « métiers » ; Thomas parle de son avenir professionnel avec Alexei, invité comme intervenant.",
+   "communication": [
+    "Parler de sa profession et de ses ambitions (Я хочу стать переводчиком.)",
+    "Décrire les outils et moyens (Я работаю на компьютере.)",
+    "Exprimer la manière (Он говорит громким голосом.)",
+    "Complimenter (Ты хорошо говоришь по-русски!)"
+   ],
+   "grammaire": [
+    "Instrumental approfondi : manière, moyen, accompagnement",
+    "Instrumental après стать, работать, быть (attribut)",
+    "Instrumental pluriel : -ами/-ями",
+    "Comparatif simple : -ее, более/менее + adjectif",
+    "Réemploi : datif (консультация мне), génitif (у меня нет опыта)"
+   ],
+   "vocabulaire": "Métiers, compétences, outils de travail, qualités professionnelles",
+   "prononciation": "L'intonation exclamative et admirative (IK-2 renforcé). Le russe exprime l'enthousiasme par l'accent tonique, pas par des mots supplémentaires. Exercice : Как хорошо! Молодец! Отлично!",
+   "culture": "Le monde du travail russe : l'importance du diplôme, le patronyme au bureau, la hiérarchie. Le concept de « карьера » vs « призвание »."
+  },
+  {
+   "num": 20,
+   "niveau": "A2",
+   "titre": "Сравнение и степени. Какой ты друг?",
+   "titre_trad": "Comparaison et degrés. Quel ami es-tu ?",
+   "lieu": "Datcha de la famille de Masha, jardin avec pommiers, samovar sur la terrasse",
+   "situation": "Week-end à la datcha : Thomas compare la vie à la campagne et en ville ; Dima et lui rivalisent d'anecdotes.",
+   "communication": [
+    "Comparer des personnes, des lieux, des objets (Москва больше Парижа.)",
+    "Exprimer le superlatif (Это самый красивый город.)",
+    "Exprimer une préférence (Я люблю чай больше, чем кофе.)",
+    "Raconter une anecdote au passé"
+   ],
+   "grammaire": [
+    "Comparatif : -ее/-е, более/менее + adjectif",
+    "Superlatif : самый + adjectif, -айший/-ейший",
+    "Comparatif avec чем + nominatif ou génitif",
+    "Adverbes comparatifs (лучше, хуже, больше, меньше)",
+    "Réemploi : tous les cas, aspects, verbes de mouvement"
+   ],
+   "vocabulaire": "Nature, campagne, datcha, saisons, comparaisons",
+   "prononciation": "Le [х] russe : fricative vélaire, entre le [h] anglais et le [x] espagnol. Pas de [h] en français. Exercice : хорошо, хлеб, ходить, хоровод. Ne pas le confondre avec [k].",
+   "culture": "La datcha : potager, banya, conserves pour l'hiver, le samovar. Un mode de vie ancré dans la culture russe depuis l'époque soviétique."
+  },
+  {
+   "num": 21,
+   "niveau": "A2",
+   "titre": "Повелительное и условное наклонение",
+   "titre_trad": "Impératif et conditionnel",
+   "lieu": "Cuisine de Nina : Thomas apprend à faire des blinis, Nina donne ses instructions",
+   "situation": "Nina dicte sa recette de blinis à Thomas ; il demande ce qu'il ferait s'il avait plus de temps.",
+   "communication": [
+    "Donner des instructions et des conseils (Возьми муку! Не спеши! Попробуй!)",
+    "Exprimer une hypothèse (Если бы у меня было время, я бы поехал в Суздаль.)",
+    "Politesse à l'impératif (Скажите, пожалуйста… Не могли бы вы…?)",
+    "Suivre une recette étape par étape"
+   ],
+   "grammaire": [
+    "Impératif : radical + -и/-йте, -и/-ьте (делай/делайте)",
+    "Impératif irréguliers (дай, встань, садись)",
+    "Conditionnel : бы + passé (Я бы хотел…)",
+    "Si + présent → futur (réel) / Si + passé → conditionnel (irréel)",
+    "Réemploi : accusatif (objet), génitif (quantité), datif (destinataire)"
+   ],
+   "vocabulaire": "Cuisine, recettes, ustensiles, ingrédients, hypothèses",
+   "prononciation": "L'impératif et l'intonation : ordre ferme (IK-2, ton descendant) vs demande polie (IK-3, ton montant). Le mot бы se place après le verbe. Rythme de la phrase conditionnelle.",
+   "culture": "Les blinis et la Масленица (semaine grasse). Cuisiner avec une babouchka : les mesures « à l'œil » (на глаз), les secrets de famille."
+  },
+  {
+   "num": 22,
+   "niveau": "A2",
+   "titre": "Сложные предложения. Союзы",
+   "titre_trad": "Phrases complexes. Les conjonctions",
+   "lieu": "Bibliothèque Lénine, grande salle de lecture, Thomas prépare un exposé",
+   "situation": "Thomas prépare un exposé sur la France pour le cours d'Olga Petrovna ; Masha l'aide à structurer ses idées.",
+   "communication": [
+    "Exprimer la cause (потому что, так как)",
+    "Exprimer la conséquence (поэтому, так что)",
+    "Exprimer l'opposition (но, однако, хотя)",
+    "Exprimer le but (чтобы + passé)",
+    "Relater un propos indirect simple (Он сказал, что…)"
+   ],
+   "grammaire": [
+    "Conjonctions de coordination : и, а, но, или, однако",
+    "Conjonctions de subordination : что, чтобы, потому что, когда, если, хотя",
+    "чтобы + verbe au passé (subjonctif russe)",
+    "Discours rapporté simple : Он сказал, что + proposition",
+    "Réemploi : tous les cas, tous les temps, aspects"
+   ],
+   "vocabulaire": "Université, exposé, arguments, connecteurs logiques, géographie de la France",
+   "prononciation": "Le rythme de la phrase complexe russe : pauses courtes avant les conjonctions, intonation descendante en fin de subordonnée. Comparaison avec le français qui utilise davantage les liaisons.",
+   "culture": "La bibliothèque russe : silence absolu, la « читальный зал », les fiches de bibliothèque à l'ancienne. Le rapport des Russes à la littérature."
+  },
+  {
+   "num": 23,
+   "niveau": "A2",
+   "titre": "Путешествие. Повторение А2",
+   "titre_trad": "Voyage. Révision A2",
+   "lieu": "Gare de Saint-Pétersbourg, puis rues de la ville, musée de l'Ermitage",
+   "situation": "Thomas, Masha et Dima passent un week-end à Saint-Pétersbourg ; ils visitent, se perdent, se retrouvent.",
+   "communication": [
+    "Raconter un voyage au passé (aspects, verbes de mouvement)",
+    "Décrire un monument, un tableau",
+    "Demander des informations touristiques",
+    "Exprimer des impressions et des comparaisons",
+    "Mobiliser tous les acquis A2 dans un récit suivi"
+   ],
+   "grammaire": [
+    "Révision : aspects au passé, futur",
+    "Verbes de mouvement unidirectionnels et multidirectionnels",
+    "Six cas au singulier et pluriel (introduction du pluriel)",
+    "Comparatif, superlatif, conditionnel, impératif",
+    "Phrases complexes"
+   ],
+   "vocabulaire": "Voyage, tourisme, art, musée, impressions, météo",
+   "prononciation": "Révision globale A2 : tous les points abordés. Lecture expressive d'un poème court de Pouchkine (rythme, accent, intonation).",
+   "culture": "Saint-Pétersbourg : la « Venise du Nord », les nuits blanches, l'Ermitage. Le mythe de Pierre le Grand. La rivalité amicale Moscou/Pétersbourg."
+  },
+  {
+   "num": 24,
+   "niveau": "A2",
+   "titre": "Экзамен А2. Год в России",
+   "titre_trad": "Bilan A2. Un an en Russie",
+   "lieu": "Salle d'examen, puis restaurant géorgien pour fêter",
+   "situation": "Thomas passe l'examen A2 ; le soir, ses amis organisent une fête surprise dans un restaurant géorgien.",
+   "communication": [
+    "Monologue : raconter une année en Russie (5-7 min)",
+    "Compréhension orale : message téléphonique de Nina, annonce de gare",
+    "Production écrite : e-mail à un ami français (100-120 mots)",
+    "Dialogue : résoudre un problème (objet perdu, changement de plan)",
+    "Mobiliser tous les acquis A1+A2"
+   ],
+   "grammaire": [
+    "Évaluation : six cas singulier et pluriel",
+    "Aspects imperfectif/perfectif aux trois temps",
+    "Verbes de motion (идти/ходить, ехать/ездить)",
+    "Conditionnel, impératif, phrases complexes",
+    "Comparatif, superlatif"
+   ],
+   "vocabulaire": "Révision globale A1+A2 : tous les champs lexicaux",
+   "prononciation": "Évaluation : lecture, monologue, interaction. Attention portée à l'accent tonique, la réduction vocalique, les consonnes dures/molles, l'intonation.",
+   "culture": "Le toast russe : lever son verre, dire quelques mots, regarder dans les yeux. La cuisine géorgienne comme « cuisine de fête » en Russie. Le mot « С днём рождения! »"
+  },
+  {
+   "num": 25,
+   "niveau": "B1",
+   "titre": "Приставки движения: по-, при-, у-",
+   "titre_trad": "Préfixes de mouvement : по-, при-, у-",
+   "lieu": "Gare routière de Moscou, Thomas accompagne Dima qui part en voyage",
+   "situation": "Dima part en Sibérie ; Thomas l'accompagne. Ils parlent des départs, des arrivées et des déplacements.",
+   "communication": [
+    "Exprimer le début d'un mouvement (поехать, пойти)",
+    "Exprimer l'arrivée (приехать, прийти)",
+    "Exprimer le départ définitif (уехать, уйти)",
+    "Raconter un trajet complet de bout en bout",
+    "Nuancer : partir en véhicule vs à pied"
+   ],
+   "grammaire": [
+    "Préfixes по- (inchoatif : commencer à se déplacer)",
+    "Préfixe при- (arrivée, approche)",
+    "Préfixe у- (éloignement, départ)",
+    "Aspects des verbes préfixés : préfixé perfectif / dépréfixé imperfectif",
+    "Réemploi : tous les cas, aspects, temps"
+   ],
+   "vocabulaire": "Voyage, départ, arrivée, gare, émotions liées au départ",
+   "prononciation": "Les préfixes et l'accent : l'accent tonique reste sur le radical (приЕхать, уЕхать, поЕхать). Ne pas accentuer le préfixe. Rythme du mot préfixé.",
+   "culture": "La gare russe : les adieux sur le quai, le « счастливой дороги ! », le geste de la main jusqu'à disparition du train. Les distances russes."
+  },
+  {
+   "num": 26,
+   "niveau": "B1",
+   "titre": "Приставки движения: вы-, пере-, про-",
+   "titre_trad": "Préfixes de mouvement : вы-, пере-, про-",
+   "lieu": "Stationnement de l'université, Dima montre sa nouvelle voiture à Thomas",
+   "situation": "Dima fait visiter Moscou en voiture à Thomas ; ils traversent la ville, sortent du parking, passent devant les monuments.",
+   "communication": [
+    "Exprimer la sortie d'un espace (выйти, выехать)",
+    "Exprimer la traversée (перейти, переехать)",
+    "Exprimer le passage devant/à travers (пройти, проехать)",
+    "Donner un itinéraire détaillé avec plusieurs étapes",
+    "Décrire un trajet en voiture, à pied, en métro"
+   ],
+   "grammaire": [
+    "Préfixe вы- (sortie)",
+    "Préfixe пере- (traversée, changement de lieu)",
+    "Préfixe про- (passage, parcours)",
+    "Combinaison préfixe + préposition + cas",
+    "Réemploi : по-, при-, у- (leçon 25), tous les cas"
+   ],
+   "vocabulaire": "Conduite, itinéraire, ville, monuments, directions",
+   "prononciation": "Consonnes géminées et groupes complexes avec préfixes : перейти [п'ир'ийт'и], переехать [п'ир'ийэхат']. Le [й] semi-vocalique, inexistant en français. Entraînement : подъезд, объезд.",
+   "culture": "La voiture en Russie : les embouteillages de Moscou, la « пробка », le GPS, les distances en heures plutôt qu'en kilomètres."
+  },
+  {
+   "num": 27,
+   "niveau": "B1",
+   "titre": "Приставки движения: до-, за-, на-, об-, под-",
+   "titre_trad": "Préfixes de mouvement : до-, за-, на-, об-, под-",
+   "lieu": "Quartier de l'Arbat, Thomas fait des courses et des rendez-vous multiples",
+   "situation": "Thomas organise une journée chargée : passer chez Nina, aller au magasin, faire le tour du quartier, s'approcher d'un guichet.",
+   "communication": [
+    "Exprimer l'atteinte d'un point (дойти до, доехать до)",
+    "Exprimer un détour, un passage rapide (зайти, заехать)",
+    "Exprimer l'accumulation de déplacements (набегаться, наездиться)",
+    "Exprimer le contournement (обойти, объехать)",
+    "Exprimer l'approche (подойти, подъехать)"
+   ],
+   "grammaire": [
+    "Préfixe до- (atteindre un point)",
+    "Préfixe за- (détour, passage bref)",
+    "Préfixe на- (accumulation, suffisance)",
+    "Préfixe об- (contournement)",
+    "Préfixe под- (approche)",
+    "Réemploi : tous les préfixes précédents, aspects, temps"
+   ],
+   "vocabulaire": "Déplacements urbains, courses, rendez-vous, quartier",
+   "prononciation": "Enchaînement préfixe-radical : le [в] et [з] s'assimilent (подойти [п а д а й т'и]). Le [о] non accentué dans les préfixes se réduit en [а]. Fluidité du discours.",
+   "culture": "L'Arbat : rue piétonne, artistes de rue, souvenirs, l'histoire littéraire (Boulgakov, Pouchkine). Flâner à la russe."
+  },
+  {
+   "num": 28,
+   "niveau": "B1",
+   "titre": "Причастия. Описание и детали",
+   "titre_trad": "Les participes. Description et détails",
+   "lieu": "Galerie Tretiakov, Thomas décrit des tableaux pour un blog culturel",
+   "situation": "Thomas rédige un article pour le blog de l'université sur une exposition ; il utilise des tournures descriptives élaborées.",
+   "communication": [
+    "Décrire avec précision (картина, написанная Репиным)",
+    "Qualifier une action en cours (студент, читающий книгу)",
+    "Transformer une relative en participe",
+    "Écrire un texte descriptif structuré",
+    "Exprimer une opinion nuancée sur une œuvre"
+   ],
+   "grammaire": [
+    "Participe présent actif : -ущ/-ющ, -ащ/-ящ",
+    "Participe passé actif : -вш-, -ш-",
+    "Participe passé passif : -нн-, -т-, -енн-",
+    "Accord du participe en genre, nombre, cas",
+    "Transformation relative → participe et inversement",
+    "Réemploi : aspects, tous les cas, phrases complexes"
+   ],
+   "vocabulaire": "Art, peinture, description, émotions esthétiques, critique",
+   "prononciation": "Les suffixes de participes et leur accent : -УЩий, -ЯЩий, -ВШий. Le [щ] long et mou. Exercice de lecture de descriptions d'œuvres.",
+   "culture": "La galerie Tretiakov : le mécène Pavel Tretiakov, l'art réaliste russe (Répine, Sourikov), la place de l'art dans l'éducation russe."
+  },
+  {
+   "num": 29,
+   "niveau": "B1",
+   "titre": "Деепричастия. Одновременность и последовательность",
+   "titre_trad": "Les gérondifs. Simultanéité et succession",
+   "lieu": "Bureau de l'agence culturelle « Мост », premier jour de stage de Thomas",
+   "situation": "Thomas observe Alexei travailler : il fait plusieurs choses à la fois. Il décrit ses actions simultanées et successives.",
+   "communication": [
+    "Exprimer deux actions simultanées (Он говорит, улыбаясь.)",
+    "Exprimer une action antérieure (Прочитав письмо, он позвонил.)",
+    "Raconter une suite d'actions de manière fluide",
+    "Décrire un environnement de travail",
+    "Comprendre des instructions professionnelles"
+   ],
+   "grammaire": [
+    "Gérondif imperfectif : -а/-я (делая, читая)",
+    "Gérondif perfectif : -в, -вши (сделав, прочитав)",
+    "Sujet identique obligatoire pour le gérondif et le verbe principal",
+    "Place du gérondif dans la phrase",
+    "Réemploi : participes (leçon 28), aspects, préfixes de mouvement"
+   ],
+   "vocabulaire": "Bureau, travail, tâches professionnelles, simultanéité",
+   "prononciation": "Le gérondif et la pause : légère pause après le gérondif avant le verbe principal. Intonation narrative (IK-1 allongée). Fluidité du discours soutenu.",
+   "culture": "Le premier jour de travail en Russie : le « знакомство с коллективом », le thé commun, la hiérarchie feutrée. L'agence culturelle comme pont entre deux mondes."
+  },
+  {
+   "num": 30,
+   "niveau": "B1",
+   "titre": "Страдательный залог. Пассивные конструкции",
+   "titre_trad": "La voix passive. Constructions passives",
+   "lieu": "Salle de conférence de l'agence, réunion d'équipe sur un projet d'exposition",
+   "situation": "Alexei présente un projet : Thomas écoute, prend des notes, puis reformule en utilisant des tournures passives.",
+   "communication": [
+    "Décrire un processus sans agent précis (Выставка будет открыта в мае.)",
+    "Rapporter une décision collective (Было решено…)",
+    "Décrire un état résultant (Дверь закрыта. Письмо написано.)",
+    "Transformer actif → passif et inversement",
+    "Comprendre un compte rendu de réunion"
+   ],
+   "grammaire": [
+    "Passif avec être + participe passé passif (книга прочитана)",
+    "Passif au présent : forme en -ся (строится, обсуждается)",
+    "Constructions impersonnelles passives (Было решено, Стало известно)",
+    "Passif au futur (будет сделано)",
+    "Réemploi : participes, gérondifs, aspects, tous les cas"
+   ],
+   "vocabulaire": "Réunion, projet, organisation, décisions, échéances",
+   "prononciation": "Le [ц] et le [ч] en contexte formel : обсуждается, решается. Le -ся/-сь final. Intonation formelle de réunion (IK-1, débit régulier, pauses marquées).",
+   "culture": "La réunion de travail russe : le « планёрка », le rôle du chef, le compte rendu écrit, le thé servi pendant la réunion. Le vouvoiement professionnel."
+  },
+  {
+   "num": 31,
+   "niveau": "B1",
+   "titre": "Косвенная речь. Передача информации",
+   "titre_trad": "Le discours rapporté. Transmettre une information",
+   "lieu": "Café en face de l'agence, Thomas téléphone à Nina et rapporte la conversation à Masha",
+   "situation": "Thomas transmet des messages entre Nina, Olga Petrovna et Alexei ; il reformule les paroles de chacun.",
+   "communication": [
+    "Rapporter des paroles au discours indirect (Он сказал, что придёт завтра.)",
+    "Rapporter une question (Она спросила, где я живу.)",
+    "Rapporter un ordre, une demande (Он попросил, чтобы я пришёл.)",
+    "Exprimer l'incertitude sur une information (Говорят, что…)",
+    "Nuancer : prétendre, affirmer, supposer"
+   ],
+   "grammaire": [
+    "Discours indirect : changement de pronoms et de temps",
+    "Rapporter une question : ли / вопросительное слово",
+    "Rapporter un ordre : чтобы + passé",
+    "Verbes introducteurs : сказать, спросить, попросить, ответить, объяснить",
+    "Concordance des temps en russe (différence avec le français)",
+    "Réemploi : subordonnées, aspects, cas, conditionnel"
+   ],
+   "vocabulaire": "Communication, téléphone, messages, transmission d'information",
+   "prononciation": "L'intonation du discours rapporté : ton neutre (IK-1) pour rapporter, ton expressif pour la citation directe. Le mot ли se place après le mot interrogatif.",
+   "culture": "Le téléphone en Russie : on ne dit pas « allô » mais « алло » ou « слушаю ». La babouchka qui appelle pour « juste demander si tu as mangé ». Les commérages bienveillants."
+  },
+  {
+   "num": 32,
+   "niveau": "B1",
+   "titre": "Сложные конструкции. Который, чей, где",
+   "titre_trad": "Structures complexes. Который, чей, где",
+   "lieu": "Bureau de Thomas à l'agence, il prépare une présentation sur un festival culturel",
+   "situation": "Thomas rédige un rapport détaillé avec des relatives complexes ; Alexei relit et corrige.",
+   "communication": [
+    "Construire des phrases relatives élaborées (Фестиваль, который проходит в Москве…)",
+    "Exprimer la possession relative (Коллега, чей проект мы обсуждаем…)",
+    "Construire des subordonnées de lieu, temps, cause",
+    "Structurer un argumentaire écrit",
+    "Nuancer avec des incises"
+   ],
+   "grammaire": [
+    "Pronom relatif который (accord en genre/nombre, cas selon sa fonction)",
+    "Pronom relatif чей (dont)",
+    "Subordonnées de lieu (где, куда, откуда), temps (когда, пока), cause (потому что)",
+    "Subordonnées concessives (хотя, несмотря на то что)",
+    "Réemploi : participes, gérondifs, passif, discours rapporté"
+   ],
+   "vocabulaire": "Rapport, présentation, festival, culture, argumentation",
+   "prononciation": "Le rythme des phrases longues : respiration, pauses avant les relatives, accent tonique sur le mot-clé. Ne pas « avaler » les terminaisons de который/которая/которые.",
+   "culture": "La culture du rapport écrit en Russie : le « отчёт », la formalité administrative, les tampons et signatures. L'héritage soviétique dans la bureaucratie."
+  },
+  {
+   "num": 33,
+   "niveau": "B1",
+   "titre": "Деловой русский. Официальный стиль",
+   "titre_trad": "Le russe professionnel. Le registre soutenu",
+   "lieu": "Salle de réunion de l'agence « Мост », négociation avec des partenaires français",
+   "situation": "Thomas sert d'interprète lors d'une réunion franco-russe ; il navigue entre registre formel et informel.",
+   "communication": [
+    "Utiliser le registre soutenu à l'oral et à l'écrit",
+    "Rédiger un e-mail professionnel (Уважаемый… С уважением…)",
+    "Mener une négociation simple (Мы предлагаем… Мы согласны…)",
+    "Adapter son registre selon l'interlocuteur (ты/вы)",
+    "Comprendre un contrat ou un courrier administratif simple"
+   ],
+   "grammaire": [
+    "Formules de politesse formelles (Будьте добры, Не могли бы вы…)",
+    "Conditionnel de politesse (Я бы хотел…)",
+    "Nominalisations (вместо глагола: проведение, решение, рассмотрение)",
+    "Passif et tournures impersonnelles dans le registre administratif",
+    "Réemploi : tous les acquis B1, cas, aspects, préfixes"
+   ],
+   "vocabulaire": "Monde professionnel, contrat, négociation, e-mail formel, hiérarchie",
+   "prononciation": "Le registre soutenu : débit plus lent, articulation très claire, pas de réduction excessive. Le [о] reste [о] en position accentuée même dans le discours formel. Intonation posée et respectueuse.",
+   "culture": "Le vouvoiement (вы) en contexte professionnel. Le nom + patronyme obligatoire. La poignée de main. Le « деловой этикет » russe : ponctualité relative, importance du relationnel."
+  },
+  {
+   "num": 34,
+   "niveau": "B1",
+   "titre": "Фразеологизмы и идиомы. Живой русский",
+   "titre_trad": "Expressions idiomatiques et figées. Le russe vivant",
+   "lieu": "Café littéraire sur Tverskaïa, soirée entre amis : Thomas, Masha, Dima, Alexei",
+   "situation": "Les quatre amis jouent à un jeu d'expressions idiomatiques ; Thomas découvre les images cachées du russe.",
+   "communication": [
+    "Comprendre et utiliser 15-20 expressions idiomatiques courantes",
+    "Saisir l'humour et l'ironie russes",
+    "Reconnaître les citations littéraires courantes",
+    "Adapter son langage au contexte (familier vs neutre)",
+    "Raconter une anecdote avec des expressions imagées"
+   ],
+   "grammaire": [
+    "Expressions figées et leur syntaxe propre",
+    "Registre familier : diminutifs, suffixes expressifs (-ик, -очка, -ушка)",
+    "Particules expressives (ну, же, ведь, ли)",
+    "Exclamations et interjections (Ой!, Ну ты даёшь!, Вот это да!)",
+    "Réemploi : tous les registres, tous les acquis B1"
+   ],
+   "vocabulaire": "Idiomatismes, humour, argot léger, diminutifs, interjections",
+   "prononciation": "L'expressivité russe : intonation très variée (IK-1 à IK-7), allongement de voyelles pour l'emphase (Ну-у-у!), montée dans l'aigu pour l'indignation. Le rythme émotionnel du russe parlé.",
+   "culture": "Les expressions issues de la littérature (Griboïedov, Pouchkine, Ilf et Pétrov). Le proverbe russe comme sagesse populaire. L'humour absurde russe. Le rôle du toast."
+  },
+  {
+   "num": 35,
+   "niveau": "B1",
+   "titre": "Повторение Б1. Мой русский путь",
+   "titre_trad": "Révision B1. Mon parcours en russe",
+   "lieu": "Parc Gorki en hiver, patinoire, Thomas filme une vidéo-rétrospective de ses trois ans en Russie",
+   "situation": "Thomas prépare une vidéo pour la chaîne YouTube de l'agence ; il retrace son parcours depuis son arrivée à l'aéroport.",
+   "communication": [
+    "Faire un récit rétrospectif complet (du passé au futur)",
+    "Utiliser tous les registres dans un même discours",
+    "Exprimer la gratitude, le bilan, les projets",
+    "Mobiliser l'ensemble des structures B1",
+    "Préparer l'examen final par des simulations"
+   ],
+   "grammaire": [
+    "Révision globale : six cas singulier/pluriel",
+    "Aspects et préfixes verbaux (y compris mouvement)",
+    "Participes, gérondifs, passif",
+    "Discours rapporté, subordonnées complexes",
+    "Registres de langue (familier, neutre, soutenu)"
+   ],
+   "vocabulaire": "Rétrospective, bilan, gratitude, projets, tous les champs lexicaux du cours",
+   "prononciation": "Révision globale : alphabet, réduction, accent mobile, consonnes dures/molles, assimilation, intonation. Lecture expressive d'un texte de Tchekhov.",
+   "culture": "Le bilan de trois ans : ce que Thomas a compris de la Russie. Le concept de « душа » (âme) russe. La nostalgie anticipée. Les adieux et les nouveaux départs."
+  },
+  {
+   "num": 36,
+   "niveau": "B1",
+   "titre": "Экзамен Б1. Новая жизнь на русском языке",
+   "titre_trad": "Bilan B1. Une nouvelle vie en langue russe",
+   "lieu": "Salle de conférence de l'université (examen), puis toit-terrasse avec vue sur Moscou au coucher du soleil",
+   "situation": "Thomas passe son examen B1 devant Olga Petrovna, puis retrouve tous ses amis sur un toit pour célébrer et regarder Moscou s'illuminer.",
+   "communication": [
+    "Monologue argumenté (7-10 min) : bilan personnel, professionnel, projets",
+    "Compréhension orale : extrait de journal télévisé, conversation professionnelle",
+    "Production écrite : lettre formelle + texte d'opinion (200-250 mots)",
+    "Interaction : débat, négociation, médiation linguistique",
+    "Mobilisation complète des acquis A1, A2, B1"
+   ],
+   "grammaire": [
+    "Évaluation globale : morphologie des six cas (singulier et pluriel)",
+    "Aspects, préfixes de mouvement, conjugaison complète",
+    "Participes, gérondifs, voix passive",
+    "Syntaxe complexe : relatives, subordonnées, discours rapporté",
+    "Registres et adaptation communicative"
+   ],
+   "vocabulaire": "Révision globale A1+A2+B1 : tous les champs lexicaux, tous les registres",
+   "prononciation": "Évaluation finale : monologue, lecture, interaction. Fluidité, accent tonique, intonation naturelle, prononciation des consonnes difficiles. Objectif : être compris sans effort par un natif.",
+   "culture": "La fête des retrouvailles : le toit de Moscou, la vue sur les « сталинские высотки », le champagne sovietskoïe, les toasts. Thomas n'est plus un étranger : il est chez lui. Le mot « дом » (maison) a changé de sens."
+  }
+ ],
+ "controle": []
+}
