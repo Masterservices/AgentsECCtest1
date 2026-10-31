@@ -1,0 +1,902 @@
+{
+ "cours": "fr-pour-russes",
+ "num": 1,
+ "niveau": "A1",
+ "id": "fr-pour-russes-A1-01",
+ "titre": {
+  "cible": "Bienvenue à Paris !",
+  "natif": "Добро пожаловать в Париж!"
+ },
+ "objectifs": [
+  "Поздороваться по-французски в зависимости от времени суток (bonjour, bonsoir, salut)",
+  "Кратко представить себя: назвать имя, национальность и статус с помощью глаголов s'appeler и être",
+  "Вежливо спросить, где находится нужное место в аэропорту (Où est… ? s'il vous plaît)",
+  "Распознавать и произносить носовые гласные [ɑ̃], [ɛ̃], [ɔ̃], [œ̃]",
+  "Узнать французские правила приветствия: la bise и la poignée de main"
+ ],
+ "scene": {
+  "lieu": "Terminal 2E de l'aéroport Charles-de-Gaulle, hall des arrivées",
+  "moment": "Matin, vers 10 h 30",
+  "decor_3d": "Vaste hall moderne aux plafonds voûtés en verre et acier. Lumière naturelle zénithale. Panneaux lumineux LED bleus indiquant « Arrivées », « Sortie », « Taxis », « Douane ». Tapis roulant à bagages au second plan avec des valises colorées. Sol en carrelage gris clair légèrement réfléchissant. Quelques voyageurs déambulent avec chariots. Comptoir d'accueil en bois clair avec un agent en uniforme bleu marine. Drapeaux français et européens en arrière-plan. Plantes vertes en pots le long des parois vitrées.",
+  "objets": [
+   "Valise rouge à roulettes d'Anna",
+   "Passeport russe bordeaux",
+   "Billet d'avion / carte d'embarquement",
+   "Panneau lumineux « ARRIVÉES / SORTIE → »",
+   "Comptoir d'accueil avec plan de l'aéroport",
+   "Chariot à bagages",
+   "Badge d'agent d'accueil",
+   "Tapis roulant à bagages"
+  ],
+  "personnages": [
+   "anna",
+   "agent"
+  ],
+  "figurants": [
+   {
+    "id": "agent",
+    "nom": "Agent"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "anna",
+   "texte": "Ça y est… Je suis à Paris !",
+   "traduction": "Ну вот… Я в Париже!",
+   "geste": "Anna s'arrête au milieu du hall, lève les yeux vers la verrière, respire profondément et sourit. Sa valise rouge est à côté d'elle."
+  },
+  {
+   "perso": "anna",
+   "texte": "Excusez-moi, bonjour !",
+   "traduction": "Извините, здравствуйте!",
+   "geste": "Anna s'approche du comptoir d'accueil, fait un petit signe de la main et incline légèrement la tête."
+  },
+  {
+   "perso": "agent",
+   "texte": "Bonjour, mademoiselle ! Je peux vous aider ?",
+   "traduction": "Здравствуйте, мадемуазель! Я могу вам помочь?",
+   "geste": "L'agent se lève, sourit chaleureusement et ouvre les mains en signe de disponibilité."
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, s'il vous plaît. Je m'appelle Anna Sokolova. Je suis russe. Je suis étudiante.",
+   "traduction": "Да, пожалуйста. Меня зовут Анна Соколова. Я русская. Я студентка.",
+   "geste": "Anna pose la main sur sa poitrine en se présentant, puis montre son passeport ouvert."
+  },
+  {
+   "perso": "agent",
+   "texte": "Enchanté, Anna ! Moi, je m'appelle Pierre. Vous êtes au Terminal 2E, à l'aéroport Charles-de-Gaulle.",
+   "traduction": "Очень приятно, Анна! Меня зовут Пьер. Вы в Терминале 2E, в аэропорту имени Шарля де Голля.",
+   "geste": "Pierre tend la main pour une poignée de main, puis désigne le panneau lumineux au-dessus d'eux."
+  },
+  {
+   "perso": "anna",
+   "texte": "Enchantée ! Où est la sortie, s'il vous plaît ?",
+   "traduction": "Очень приятно! Где выход, пожалуйста?",
+   "geste": "Anna serre la main de Pierre, puis regarde autour d'elle avec une expression légèrement perdue."
+  },
+  {
+   "perso": "agent",
+   "texte": "La sortie est à droite, après le hall des arrivées.",
+   "traduction": "Выход направо, после зала прибытия.",
+   "geste": "Pierre pointe la direction avec son bras droit tendu vers la droite du hall."
+  },
+  {
+   "perso": "anna",
+   "texte": "Et où sont les taxis ?",
+   "traduction": "А где такси?",
+   "geste": "Anna tourne la tête dans la direction indiquée, puis se retourne vers Pierre avec une question supplémentaire."
+  },
+  {
+   "perso": "agent",
+   "texte": "Les taxis sont devant le terminal. C'est à gauche, après la douane.",
+   "traduction": "Такси находятся перед терминалом. Это налево, после таможни.",
+   "geste": "Pierre montre d'abord devant lui, puis pointe la gauche. Il mime le geste de passer un contrôle."
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci beaucoup, Pierre !",
+   "traduction": "Большое спасибо, Пьер!",
+   "geste": "Anna joint les mains devant elle en signe de gratitude et sourit largement."
+  },
+  {
+   "perso": "agent",
+   "texte": "De rien ! Bienvenue à Paris, Anna !",
+   "traduction": "Не за что! Добро пожаловать в Париж, Анна!",
+   "geste": "Pierre écarte les bras comme pour embrasser tout le hall, souriant avec enthousiasme."
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci ! Au revoir !",
+   "traduction": "Спасибо! До свидания!",
+   "geste": "Anna fait un petit signe de la main, attrape la poignée de sa valise et se dirige vers la droite."
+  },
+  {
+   "perso": "agent",
+   "texte": "Au revoir et bon séjour !",
+   "traduction": "До свидания и приятного пребывания!",
+   "geste": "Pierre fait un signe de la main en retour et se rassied derrière son comptoir."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "l'aéroport",
+   "prononciation": "[aeʁɔpɔʁ]",
+   "nature": "nom m.",
+   "traduction": "аэропорт",
+   "exemple": "Je suis à l'aéroport Charles-de-Gaulle.",
+   "exemple_traduction": "Я в аэропорту имени Шарля де Голля."
+  },
+  {
+   "mot": "le terminal",
+   "prononciation": "[tɛʁminal]",
+   "nature": "nom m.",
+   "traduction": "терминал",
+   "exemple": "Vous êtes au Terminal 2E.",
+   "exemple_traduction": "Вы в Терминале 2E."
+  },
+  {
+   "mot": "la sortie",
+   "prononciation": "[sɔʁti]",
+   "nature": "nom f.",
+   "traduction": "выход",
+   "exemple": "Où est la sortie, s'il vous plaît ?",
+   "exemple_traduction": "Где выход, пожалуйста?"
+  },
+  {
+   "mot": "le bagage",
+   "prononciation": "[baɡaʒ]",
+   "nature": "nom m.",
+   "traduction": "багаж",
+   "exemple": "Les bagages sont sur le tapis roulant.",
+   "exemple_traduction": "Багаж находится на багажной ленте."
+  },
+  {
+   "mot": "la valise",
+   "prononciation": "[valiz]",
+   "nature": "nom f.",
+   "traduction": "чемодан",
+   "exemple": "Ma valise est rouge.",
+   "exemple_traduction": "Мой чемодан красный."
+  },
+  {
+   "mot": "le passeport",
+   "prononciation": "[paspɔʁ]",
+   "nature": "nom m.",
+   "traduction": "паспорт",
+   "exemple": "Voici mon passeport.",
+   "exemple_traduction": "Вот мой паспорт."
+  },
+  {
+   "mot": "le billet",
+   "prononciation": "[bijɛ]",
+   "nature": "nom m.",
+   "traduction": "билет",
+   "exemple": "J'ai mon billet d'avion.",
+   "exemple_traduction": "У меня есть мой авиабилет."
+  },
+  {
+   "mot": "l'avion",
+   "prononciation": "[avjɔ̃]",
+   "nature": "nom m.",
+   "traduction": "самолёт",
+   "exemple": "L'avion arrive à dix heures.",
+   "exemple_traduction": "Самолёт прибывает в десять часов."
+  },
+  {
+   "mot": "la douane",
+   "prononciation": "[dwan]",
+   "nature": "nom f.",
+   "traduction": "таможня",
+   "exemple": "La douane est à gauche.",
+   "exemple_traduction": "Таможня налево."
+  },
+  {
+   "mot": "les arrivées",
+   "prononciation": "[lezaʁive]",
+   "nature": "nom f. pl.",
+   "traduction": "прибытие (зал прибытия)",
+   "exemple": "Le hall des arrivées est grand.",
+   "exemple_traduction": "Зал прибытия большой."
+  },
+  {
+   "mot": "le taxi",
+   "prononciation": "[taksi]",
+   "nature": "nom m.",
+   "traduction": "такси",
+   "exemple": "Les taxis sont devant le terminal.",
+   "exemple_traduction": "Такси находятся перед терминалом."
+  },
+  {
+   "mot": "le panneau",
+   "prononciation": "[pano]",
+   "nature": "nom m.",
+   "traduction": "табло, указатель",
+   "exemple": "Regardez le panneau lumineux.",
+   "exemple_traduction": "Посмотрите на светящееся табло."
+  },
+  {
+   "mot": "bonjour",
+   "prononciation": "[bɔ̃ʒuʁ]",
+   "nature": "interj.",
+   "traduction": "здравствуйте, добрый день",
+   "exemple": "Bonjour, mademoiselle !",
+   "exemple_traduction": "Здравствуйте, мадемуазель!"
+  },
+  {
+   "mot": "bonsoir",
+   "prononciation": "[bɔ̃swaʁ]",
+   "nature": "interj.",
+   "traduction": "добрый вечер",
+   "exemple": "Bonsoir, monsieur !",
+   "exemple_traduction": "Добрый вечер, месье!"
+  },
+  {
+   "mot": "merci",
+   "prononciation": "[mɛʁsi]",
+   "nature": "interj.",
+   "traduction": "спасибо",
+   "exemple": "Merci beaucoup !",
+   "exemple_traduction": "Большое спасибо!"
+  },
+  {
+   "mot": "s'il vous plaît",
+   "prononciation": "[sil vu plɛ]",
+   "nature": "loc. interj.",
+   "traduction": "пожалуйста (вежливая форма)",
+   "exemple": "Un café, s'il vous plaît.",
+   "exemple_traduction": "Кофе, пожалуйста."
+  },
+  {
+   "mot": "enchanté(e)",
+   "prononciation": "[ɑ̃ʃɑ̃te]",
+   "nature": "adj. / interj.",
+   "traduction": "очень приятно (при знакомстве)",
+   "exemple": "Enchanté, Anna !",
+   "exemple_traduction": "Очень приятно, Анна!"
+  },
+  {
+   "mot": "bienvenue",
+   "prononciation": "[bjɛ̃vny]",
+   "nature": "interj. / nom f.",
+   "traduction": "добро пожаловать",
+   "exemple": "Bienvenue à Paris !",
+   "exemple_traduction": "Добро пожаловать в Париж!"
+  },
+  {
+   "mot": "au revoir",
+   "prononciation": "[o ʁəvwaʁ]",
+   "nature": "interj.",
+   "traduction": "до свидания",
+   "exemple": "Au revoir et bonne journée !",
+   "exemple_traduction": "До свидания и хорошего дня!"
+  },
+  {
+   "mot": "l'étudiant / l'étudiante",
+   "prononciation": "[etydjɑ̃] / [etydjɑ̃t]",
+   "nature": "nom m. / f.",
+   "traduction": "студент / студентка",
+   "exemple": "Je suis étudiante.",
+   "exemple_traduction": "Я студентка."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Местоимения-подлежащие je / tu / vous и глагол être в настоящем времени",
+   "explication": "Во французском языке, как и в русском, у каждого лица есть своё местоимение: я — je, ты — tu, вы/Вы — vous. В отличие от русского, местоимение-подлежащее во французском обязательно: нельзя сказать просто «студентка», нужно сказать «Je suis étudiante». Глагол être (быть) — самый важный глагол французского языка. Он спрягается по лицам: je suis, tu es, vous êtes. В этой форме «вы» (vous) используется и как вежливое обращение к одному человеку (как русское «Вы»), и как множественное число. Обратите внимание: во французском нет слова «есть» в значении «являться» — глагол être уже несёт это значение. Поэтому «Я русская» = «Je suis russe», буквально «Я есть русская». Глагол быть используется для описания национальности, профессии, местоположения и состояния. Запомните три формы: je suis (я есть), tu es (ты есть), vous êtes (Вы есть / вы есть).",
+   "tableau": [
+    [
+     "Местоимение",
+     "Глагол être",
+     "Пример",
+     "Перевод"
+    ],
+    [
+     "je (я)",
+     "suis",
+     "Je suis russe.",
+     "Я русская."
+    ],
+    [
+     "tu (ты)",
+     "es",
+     "Tu es étudiant.",
+     "Ты студент."
+    ],
+    [
+     "vous (Вы/вы)",
+     "êtes",
+     "Vous êtes au Terminal 2E.",
+     "Вы в Терминале 2E."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Je suis à Paris.",
+     "natif": "Я в Париже."
+    },
+    {
+     "cible": "Tu es étudiante ?",
+     "natif": "Ты студентка?"
+    },
+    {
+     "cible": "Vous êtes à l'aéroport.",
+     "natif": "Вы в аэропорту."
+    }
+   ]
+  },
+  {
+   "titre": "Глагол s'appeler (называться) и формулы вежливости",
+   "explication": "Чтобы назвать своё имя по-французски, используется возвратный глагол s'appeler (буквально «называть себя»). Спряжение: je m'appelle, tu t'appelles, vous vous appelez. Обратите внимание на возвратную частицу (me, te, se), которая ставится перед глаголом. В разговорной речи это эквивалент русского «Меня зовут…» или «Я — …». Наряду с представлением важно знать формулы вежливости: s'il vous plaît (пожалуйста, вежливая форма), merci (спасибо), excusez-moi (извините), de rien (не за что). Эти выражения обязательны в любом общении во Франции: без них вас сочтут невежливым. Также при знакомстве говорят Enchanté (если говорит мужчина) или Enchantée (если говорит женщина) — «Очень приятно». Эти слова не изменяются по числу, только по роду говорящего.",
+   "tableau": [
+    [
+     "Местоимение",
+     "Глагол s'appeler",
+     "Пример",
+     "Перевод"
+    ],
+    [
+     "je",
+     "m'appelle",
+     "Je m'appelle Anna.",
+     "Меня зовут Анна."
+    ],
+    [
+     "tu",
+     "t'appelles",
+     "Tu t'appelles comment ?",
+     "Как тебя зовут?"
+    ],
+    [
+     "vous",
+     "vous appelez",
+     "Vous vous appelez comment ?",
+     "Как Вас зовут?"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Je m'appelle Anna Sokolova.",
+     "natif": "Меня зовут Анна Соколова."
+    },
+    {
+     "cible": "Comment vous appelez-vous ?",
+     "natif": "Как Вас зовут?"
+    },
+    {
+     "cible": "Enchantée ! Merci beaucoup !",
+     "natif": "Очень приятно! Большое спасибо!"
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Носовые гласные [ɑ̃], [ɛ̃], [ɔ̃], [œ̃] и французский алфавит",
+  "explication": "Во французском языке четыре носовые гласные. Они образуются, когда после гласной стоит буква n или m, за которыми следует согласная или конец слова. Воздух проходит одновременно через рот и нос. [ɔ̃] — как в bonjour, avion, terminal (буквы on, om). [ɑ̃] — как в enchanté, étudiant, ans (буквы an, am, en, em). [ɛ̃] — как dans bienvenue, plein, train (буквы in, im, ain, ein). [œ̃] — как в brun, parfum (буквы un, um) — в современном парижском произношении часто сливается с [ɛ̃]. Важно: если после n/m стоит гласная, носового звука НЕТ (например, bonne = [bɔn], а не носовое). Французский алфавит содержит 26 букв. Обратите внимание на буквы, которые звучат иначе, чем в русском: e = [ə], g = [ʒe], j = [ʒi], h = [aʃ] (всегда немая), w = [dubləve], y = [igʁɛk].",
+  "exemples": [
+   "[bɔ̃ʒuʁ] — bonjour (носовое [ɔ̃])",
+   "[ɑ̃ʃɑ̃te] — enchanté (носовое [ɑ̃] дважды)",
+   "[bjɛ̃vny] — bienvenue (носовое [ɛ̃])",
+   "[avjɔ̃] — avion (носовое [ɔ̃])",
+   "[etydjɑ̃t] — étudiante (носовое [ɑ̃])",
+   "[pano] — panneau (НЕ носовое: nn + voyelle)"
+  ]
+ },
+ "culture": {
+  "titre": "La bise и la poignée de main: как здороваются во Франции",
+  "texte": "Во Франции приветствие — важный ритуал. При первой встрече с незнакомым человеком или в официальной обстановке (как в аэропорту, на собеседовании, в университете) принято пожимать руку — la poignée de main. Рукопожатие короткое, одно-два движения, с лёгким зрительным контактом. Среди друзей и близких люди целуют друг друга в щёки — это называется la bise. В Париже обычно делают два поцелуя (по одному в каждую щёку), но в некоторых регионах их три или четыре. Важно: la bise — это не настоящий поцелуй, а лишь лёгкое касание щеками со звуком. На уроке, в офисе или в аэропорту достаточно рукопожатия и слова «Bonjour». Обращение «madame», «monsieur», «mademoiselle» добавляется к приветствию как знак уважения. Никогда не начинайте разговор без приветствия — во Франции это считается грубостью."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Выберите правильный вариант ответа.",
+   "items": [
+    {
+     "question": "Comment dit-on «Меня зовут Анна» ?",
+     "choix": [
+      "Je suis Anna.",
+      "Je m'appelle Anna.",
+      "Tu es Anna.",
+      "Vous êtes Anna."
+     ],
+     "reponse": "Je m'appelle Anna."
+    },
+    {
+     "question": "Quelle formule utilise-t-on le soir ?",
+     "choix": [
+      "Bonjour",
+      "Bonsoir",
+      "Au revoir",
+      "Merci"
+     ],
+     "reponse": "Bonsoir"
+    },
+    {
+     "question": "«Вы в аэропорту» = ?",
+     "choix": [
+      "Tu es à l'aéroport.",
+      "Je suis à l'aéroport.",
+      "Vous êtes à l'aéroport.",
+      "Vous êtes au taxi."
+     ],
+     "reponse": "Vous êtes à l'aéroport."
+    },
+    {
+     "question": "Que dit-on quand on rencontre quelqu'un pour la première fois ?",
+     "choix": [
+      "Au revoir !",
+      "De rien !",
+      "Enchanté !",
+      "Bon séjour !"
+     ],
+     "reponse": "Enchanté !"
+    },
+    {
+     "question": "Comment répond-on à « Merci beaucoup » ?",
+     "choix": [
+      "S'il vous plaît",
+      "De rien",
+      "Excusez-moi",
+      "Enchanté"
+     ],
+     "reponse": "De rien"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Заполните пропуски подходящим словом из рамки: suis, m'appelle, êtes, s'il, merci, sortie.",
+   "items": [
+    {
+     "question": "Je ___ russe.",
+     "choix": [],
+     "reponse": "suis"
+    },
+    {
+     "question": "Je ___ Anna Sokolova.",
+     "choix": [],
+     "reponse": "m'appelle"
+    },
+    {
+     "question": "Vous ___ au Terminal 2E.",
+     "choix": [],
+     "reponse": "êtes"
+    },
+    {
+     "question": "Où est la ___, ___ vous plaît ?",
+     "choix": [],
+     "reponse": "sortie, s'il"
+    },
+    {
+     "question": "___ beaucoup, Pierre !",
+     "choix": [],
+     "reponse": "Merci"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Соедините французское слово с его русским переводом.",
+   "items": [
+    {
+     "question": "l'aéroport",
+     "choix": [],
+     "reponse": "аэропорт"
+    },
+    {
+     "question": "la valise",
+     "choix": [],
+     "reponse": "чемодан"
+    },
+    {
+     "question": "le passeport",
+     "choix": [],
+     "reponse": "паспорт"
+    },
+    {
+     "question": "la sortie",
+     "choix": [],
+     "reponse": "выход"
+    },
+    {
+     "question": "la douane",
+     "choix": [],
+     "reponse": "таможня"
+    },
+    {
+     "question": "le panneau",
+     "choix": [],
+     "reponse": "табло / указатель"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Расставьте слова в правильном порядке, чтобы получилось предложение.",
+   "items": [
+    {
+     "question": "suis / Je / étudiante",
+     "choix": [],
+     "reponse": "Je suis étudiante."
+    },
+    {
+     "question": "m'appelle / Je / Anna",
+     "choix": [],
+     "reponse": "Je m'appelle Anna."
+    },
+    {
+     "question": "la / Où / est / sortie / ?",
+     "choix": [],
+     "reponse": "Où est la sortie ?"
+    },
+    {
+     "question": "Paris / à / Bienvenue / !",
+     "choix": [],
+     "reponse": "Bienvenue à Paris !"
+    },
+    {
+     "question": "vous / plaît / s'il / Merci / ,",
+     "choix": [],
+     "reponse": "Merci, s'il vous plaît."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Переведите на французский язык.",
+   "items": [
+    {
+     "question": "Здравствуйте! Меня зовут Анна.",
+     "choix": [],
+     "reponse": "Bonjour ! Je m'appelle Anna."
+    },
+    {
+     "question": "Я русская. Я студентка.",
+     "choix": [],
+     "reponse": "Je suis russe. Je suis étudiante."
+    },
+    {
+     "question": "Где выход, пожалуйста?",
+     "choix": [],
+     "reponse": "Où est la sortie, s'il vous plaît ?"
+    },
+    {
+     "question": "Большое спасибо! До свидания!",
+     "choix": [],
+     "reponse": "Merci beaucoup ! Au revoir !"
+    },
+    {
+     "question": "Вы в аэропорту.",
+     "choix": [],
+     "reponse": "Vous êtes à l'aéroport."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Прослушайте аудиозапись и выберите то, что вы слышите.",
+   "items": [
+    {
+     "question": "🔊 [bɔ̃ʒuʁ]",
+     "choix": [
+      "bonjour",
+      "bonsoir",
+      "bienvenue",
+      "bagage"
+     ],
+     "reponse": "bonjour"
+    },
+    {
+     "question": "🔊 [ʒə mapɛl ana]",
+     "choix": [
+      "Je m'appelle Anna.",
+      "Je suis à Anna.",
+      "Tu t'appelles Anna.",
+      "Vous êtes Anna."
+     ],
+     "reponse": "Je m'appelle Anna."
+    },
+    {
+     "question": "🔊 [u ɛ la sɔʁti sil vu plɛ]",
+     "choix": [
+      "Où est la sortie, s'il vous plaît ?",
+      "Où est le taxi, s'il vous plaît ?",
+      "Où est la douane, s'il vous plaît ?",
+      "Où est la valise, s'il vous plaît ?"
+     ],
+     "reponse": "Où est la sortie, s'il vous plaît ?"
+    },
+    {
+     "question": "🔊 [vjɛ̃vny a paʁi]",
+     "choix": [
+      "Bienvenue à Paris !",
+      "Bienvenue à Lyon !",
+      "Bon voyage à Paris !",
+      "Au revoir à Paris !"
+     ],
+     "reponse": "Bienvenue à Paris !"
+    },
+    {
+     "question": "🔊 [mɛʁsi boku]",
+     "choix": [
+      "Merci beaucoup.",
+      "Merci, bonjour.",
+      "Merci, au revoir.",
+      "S'il vous plaît."
+     ],
+     "reponse": "Merci beaucoup."
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Здравствуйте и добро пожаловать на курс «Французский для русскоязычных»! Меня зовут ваш виртуальный гид, и я буду рядом на каждом уроке. Сегодня — наш самый первый урок. Мы окажемся в аэропорту Шарля де Голля вместе с Анной — студенткой из России, которая прилетела в Париж. Готовы? Тогда вперёд!",
+   "ecran": "Заставка платформы Russtudy с логотипом курса. Затем камера плавно опускается с неба на панораму аэропорта имени Шарля де Голля, залитого утренним солнцем. Появляется надпись: «Урок 1. Bienvenue à Paris !»",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "В этом уроке вы научитесь: здороваться по-французски, называть своё имя и национальность, вежливо спрашивать дорогу в аэропорту. Мы также разберём носовые гласные и узнаем, как французы приветствуют друг друга. Начнём с диалога!",
+   "ecran": "Появляются иконки целей урока: рукопожатие, речевой пузырь с именем, указатель «Sortie», нотка произношения, Эйфелева башня. Затем камера «влетает» в здание Терминала 2E.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Ça y est… Je suis à Paris !",
+   "ecran": "Anna sort du flux de voyageurs avec sa valise rouge. Elle s'arrête, lève les yeux vers la verrière lumineuse. Le panneau « ARRIVÉES » clignote au-dessus d'elle. Gros plan sur son visage émerveillé.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Excusez-moi, bonjour !",
+   "ecran": "Anna aperçoit le comptoir d'accueil et s'en approche. Elle fait un petit signe de la main à l'agent. Sous-titres français et russes apparaissent en bas de l'écran.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v05",
+   "voix": "agent",
+   "langue": "fr",
+   "texte": "Bonjour, mademoiselle ! Je peux vous aider ?",
+   "ecran": "L'agent Pierre se lève derrière son comptoir en bois clair. Il sourit et ouvre les mains. Son badge « ACCUEIL » est visible. Gros plan sur son geste d'invitation.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v06",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, s'il vous plaît. Je m'appelle Anna Sokolova. Je suis russe. Je suis étudiante.",
+   "ecran": "Anna pose la main sur sa poitrine. Elle montre son passeport russe bordeaux. Les mots « Je m'appelle », « Je suis russe », « Je suis étudiante » s'affichent en surbrillance à l'écran.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v07",
+   "voix": "agent",
+   "langue": "fr",
+   "texte": "Enchanté, Anna ! Moi, je m'appelle Pierre. Vous êtes au Terminal 2E, à l'aéroport Charles-de-Gaulle.",
+   "ecran": "Pierre tend la main pour une poignée de main. Il désigne ensuite le panneau lumineux « TERMINAL 2E » au-dessus d'eux. Animation : une étiquette « Terminal 2E » apparaît en 3D.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v08",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Enchantée ! Où est la sortie, s'il vous plaît ?",
+   "ecran": "Anna serre la main de Pierre. Elle tourne la tête à droite et à gauche, l'air légèrement perdue. Le mot « la sortie » s'affiche en surbrillance.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v09",
+   "voix": "agent",
+   "langue": "fr",
+   "texte": "La sortie est à droite, après le hall des arrivées.",
+   "ecran": "Pierre pointe la direction avec son bras droit. Une flèche 3D verte apparaît au sol et mène vers la droite. Le panneau « SORTIE → » s'illumine.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v10",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Et où sont les taxis ?",
+   "ecran": "Anna regarde dans la direction indiquée puis se retourne vers Pierre. Une icône de taxi apparaît en point d'interrogation au-dessus de sa tête.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v11",
+   "voix": "agent",
+   "langue": "fr",
+   "texte": "Les taxis sont devant le terminal. C'est à gauche, après la douane.",
+   "ecran": "Pierre montre devant lui puis pointe la gauche. Une mini-carte 3D de l'aéroport apparaît avec le trajet vers les taxis surligné en jaune. Le mot « la douane » est mis en évidence.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v12",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci beaucoup, Pierre !",
+   "ecran": "Anna joint les mains devant elle et sourit largement. Les mots « Merci beaucoup » flottent en l'air avec une animation de petites étoiles.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v13",
+   "voix": "agent",
+   "langue": "fr",
+   "texte": "De rien ! Bienvenue à Paris, Anna !",
+   "ecran": "Pierre écarte les bras avec enthousiasme. Derrière lui, une image de la tour Eiffel apparaît brièvement en hologramme. Le texte « Bienvenue à Paris ! » s'affiche en lettres dorées.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v14",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci ! Au revoir !",
+   "ecran": "Anna fait un signe de la main, attrape la poignée de sa valise rouge et se dirige vers la droite, suivant la flèche verte au sol.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v15",
+   "voix": "agent",
+   "langue": "fr",
+   "texte": "Au revoir et bon séjour !",
+   "ecran": "Pierre fait un signe de la main en retour. Anna s'éloigne vers la sortie lumineuse. Fondu doux. Le dialogue se termine.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v16",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отличный диалог! А теперь давайте повторим ключевые слова. Слушайте и повторяйте вслух. Не стесняйтесь — произношение тренируется только практикой!",
+   "ecran": "Экран переключается в режим «Словарь». Появляется карточка со словом « l'aéroport », транскрипцией [aeʁɔpɔʁ] и картинкой аэропорта.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Повторяйте за диктором: bonjour, bonsoir, merci, s'il vous plaît, enchanté, bienvenue, au revoir. Обращайте внимание на носовые гласные — они выделены цветом.",
+   "ecran": "Карточки слов прокручиваются одна за другой. Носовые гласные в транскрипции подсвечены оранжевым. Иконка динамика пульсирует, приглашая повторить.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь слова из аэропорта: l'aéroport, le terminal, la sortie, le bagage, la valise, le passeport, le billet, l'avion, la douane, les arrivées, le taxi, le panneau. Отлично!",
+   "ecran": "3D-объекты появляются по очереди: чемодан, паспорт, билет, самолёт, указатель. Каждый объект подписан французским словом и транскрипцией.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Перейдём к грамматике. Первое: местоимения и глагол être. Во французском нельзя опустить подлежащее. Я — je, ты — tu, Вы или вы — vous. Глагол être значит «быть, являться»: je suis, tu es, vous êtes. Запомните: «Я студентка» — это всегда «Je suis étudiante», с местоимением.",
+   "ecran": "Появляется таблица спряжения глагола être. Три колонки подсвечиваются по очереди: je suis / tu es / vous êtes. Анна-персонаж указывает на таблицу.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Второе: глагол s'appeler — «называться». Я называюсь — je m'appelle. Ты называешься — tu t'appelles. Вы называетесь — vous vous appelez. А ещё запомните волшебные слова вежливости: s'il vous plaît, merci, de rien, excusez-moi. Без них во Франции никуда!",
+   "ecran": "Анимация: речевые пузыри с формулами вежливости вылетают из персонажей. Таблица s'appeler появляется рядом. Подсказка: «-e» для мужского рода, «-ée» для женского.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь — произношение. Французские носовые гласные — это то, чего нет в русском. Четыре звука: [ɔ̃] как в «bonjour», [ɑ̃] как в «enchanté», [ɛ̃] как в «bienvenue», [œ̃] как в «brun». Воздух идёт и через рот, и через нос. Попробуйте: б-о-н-ж-у-р. Чувствуете вибрацию в носу?",
+   "ecran": "Схема речевого аппарата в разрезе показывает поток воздуха через нос и рот. Четыре носовые гласные отображаются с цветными волнами. Кнопка «Повторить» мигает.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Немного о культуре. Во Франции при первой встрече жмут руку — la poignée de main. А среди друзей и близких — целуют в щёки, это la bise. В Париже обычно два поцелуя. Но в аэропорту, на работе, в университете — только рукопожатие и слово «Bonjour». Никогда не начинайте разговор без приветствия!",
+   "ecran": "Анимация: два силуэта пожимают руки, затем два друга делают la bise. Иконки: рукопожатие, два поцелуя. Текст: «В аэропорту → рукопожатие + Bonjour».",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "А теперь — практика! Шесть упражнений помогут закрепить материал. Первое задание: тест с выбором ответа. Выберите правильный вариант из четырёх предложенных.",
+   "ecran": "Появляется интерфейс упражнения QCM. Первый вопрос: «Comment dit-on «Меня зовут Анна»?» Четыре кнопки-варианта.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Второе задание: заполните пропуски. Впишите нужное слово в предложение. Слова для выбора даны в рамке над упражнением.",
+   "ecran": "Интерфейс упражнения «Пропуски». Появляется предложение «Je ___ russe.» с пустым полем. Рамка со словами: suis, m'appelle, êtes, s'il, merci, sortie.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Третье задание: соедините французское слово с русским переводом. Перетащите элемент левой колонки к соответствующему элементу правой.",
+   "ecran": "Две колонки: слева французские слова (l'aéroport, la valise, le passeport…), справа русские переводы вперемешку. Линии соединения анимируются при правильном ответе.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Четвёртое задание: расставьте слова в правильном порядке. Перетащите слова, чтобы получилось грамматически верное предложение.",
+   "ecran": "Слова-карточки разбросаны: «suis», «Je», «étudiante». При перетаскивании они выстраиваются в строку. Кнопка «Проверить» активируется.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Пятое задание: перевод. Переведите русские предложения на французский. Пишите в поле ответа. Не забудьте про местоимение перед глаголом!",
+   "ecran": "Появляется предложение на русском: «Здравствуйте! Меня зовут Анна.» Ниже — пустое текстовое поле для ввода на французском.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Шестое задание: аудирование. Нажмите на значок динамика, послушайте и выберите то, что вы слышите. Можно прослушать дважды.",
+   "ecran": "Большая кнопка-динамик пульсирует. После нажатия — звуковая волна. Ниже четыре варианта ответа. Кнопка «Повторить 🔊» доступна.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отличная работа! Давайте подведём итоги. Сегодня вы узнали, как сказать «здравствуйте» и «до свидания», как представиться: «Je m'appelle…», «Je suis…». Вы научились спрашивать: «Où est la sortie, s'il vous plaît ?» и узнали про рукопожатие и la bise.",
+   "ecran": "Экран-резюме: ключевые фразы урока появляются одна за другой в виде карточек. Анна машет рукой на фоне Эйфелевой башни.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "На следующем уроке Анна доберётся до Парижа и познакомится со своей соседкой Софи. Вы научитесь считать от одного до двадцати и говорить, где вы находитесь. До встречи! Au revoir et à bientôt!",
+   "ecran": "Анимация: Анна выходит из аэропорта, садится в такси. Машина уезжает в сторону Парижа. На горизонте — силуэт Эйфелевой башни. Надпись: «Урок 2. Скоро!» Заставка Русстади.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Bonjour ! Je m'appelle Anna Sokolova.",
+   "natif": "Здравствуйте! Меня зовут Анна Соколова."
+  },
+  {
+   "cible": "Je suis russe. Je suis étudiante.",
+   "natif": "Я русская. Я студентка."
+  },
+  {
+   "cible": "Où est la sortie, s'il vous plaît ?",
+   "natif": "Где выход, пожалуйста?"
+  },
+  {
+   "cible": "Vous êtes au Terminal 2E, à l'aéroport Charles-de-Gaulle.",
+   "natif": "Вы в Терминале 2E, в аэропорту имени Шарля де Голля."
+  },
+  {
+   "cible": "Merci beaucoup ! Au revoir !",
+   "natif": "Большое спасибо! До свидания!"
+  },
+  {
+   "cible": "Bienvenue à Paris !",
+   "natif": "Добро пожаловать в Париж!"
+  }
+ ],
+ "controle": []
+}
