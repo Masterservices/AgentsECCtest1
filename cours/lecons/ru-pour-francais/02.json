@@ -1,0 +1,841 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 2,
+ "niveau": "A1",
+ "id": "ru-pour-francais-A1-02",
+ "titre": {
+  "cible": "Алфави́т. Как тебя́ зову́т?",
+  "natif": "L'alphabet. Comment tu t'appelles ?"
+ },
+ "objectifs": [
+  "Demander et dire son nom, son âge et sa nationalité en russe",
+  "Épeler un mot lettre par lettre en cyrillique",
+  "Utiliser la structure «Как сказа́ть… по-ру́сски?» pour demander une traduction",
+  "Reconnaître et prononcer les lettres Л à Т, ainsi que Ы, Ь et Ъ",
+  "Compter de 1 à 10 et identifier les principaux moyens de transport"
+ ],
+ "scene": {
+  "lieu": "Intérieur d'un taxi traversant Moscou de nuit",
+  "moment": "Nuit, vers 22h, lumières de la ville qui défilent",
+  "decor_3d": "Habitacle d'une berline sombre type Hyundai Solaris. Banquette arrière en cuir noir, tableau de bord éclairé en bleu. À travers les vitres, on voit défiler les néons de la Nouvelle Arbat, les tours dorées du Kremlin au loin et les phares des voitures. Plafonnier tamisé, compteur lumineux sur le tableau de bord.",
+  "objets": [
+   "smartphone avec appli Yandex Go",
+   "compteur de taxi lumineux",
+   "volant et tableau de bord",
+   "rétroviseur intérieur",
+   "sac à dos de Thomas",
+   "bouteille d'eau"
+  ],
+  "personnages": [
+   "thomas",
+   "masha"
+  ],
+  "figurants": [
+   {
+    "id": "sergey",
+    "nom": "Sergueï, le chauffeur",
+    "apparence": "Homme de 43 ans, crâne dégarni, petite moustache, polo noir, regard bienveillant dans le rétroviseur",
+    "voix": "homme grave, timbre chaleureux et posé, léger accent moscovite"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "masha",
+   "texte": "Смотри́, Тома́! Э́то Москва́! Красиво́, да?",
+   "traduction": "Regarde, Thomas ! C'est Moscou ! C'est beau, non ?",
+   "geste": "Masha pointe la vitre du doigt, sourire émerveillé"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Да, о́чень красиво́! Маша, как сказа́ть «taxi» по-ру́сски?",
+   "traduction": "Oui, très beau ! Masha, comment dit-on « taxi » en russe ?",
+   "geste": "Thomas regarde la ville, puis se tourne vers Masha"
+  },
+  {
+   "perso": "masha",
+   "texte": "Такси́. Э́то такси́. А «авто́бус» — э́то авто́бус.",
+   "traduction": "Taxi. C'est un taxi. Et « bus », c'est autobus.",
+   "geste": "Masha montre le compteur du taxi, puis mime un grand véhicule"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Извини́те! А как вас зову́т?",
+   "traduction": "Excusez-moi ! Et comment vous appelez-vous ?",
+   "geste": "Thomas se penche vers le rétroviseur pour parler au chauffeur"
+  },
+  {
+   "perso": "sergey",
+   "texte": "Меня́ зову́т Серге́й. А тебя́ как зову́т?",
+   "traduction": "Je m'appelle Sergueï. Et toi, comment tu t'appelles ?",
+   "geste": "Le chauffeur regarde Thomas dans le rétroviseur en souriant"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Меня́ зову́т Тома́. Т-О-М-А. Я францу́з.",
+   "traduction": "Je m'appelle Thomas. T-O-M-A. Je suis français.",
+   "geste": "Thomas compte les lettres sur ses doigts"
+  },
+  {
+   "perso": "sergey",
+   "texte": "О! Францу́з! Ты студе́нт?",
+   "traduction": "Oh ! Un Français ! Tu es étudiant ?",
+   "geste": "Le chauffeur hausse les sourcils, surpris et content"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Да, я студе́нт. Мне два́дцать два.",
+   "traduction": "Oui, je suis étudiant. J'ai vingt-deux ans.",
+   "geste": "Thomas hoche la tête et montre deux doigts"
+  },
+  {
+   "perso": "masha",
+   "texte": "А я студе́нтка. Мне два́дцать оди́н. Я ру́сская.",
+   "traduction": "Et moi, je suis étudiante. J'ai vingt et un ans. Je suis russe.",
+   "geste": "Masha pose la main sur sa poitrine"
+  },
+  {
+   "perso": "sergey",
+   "texte": "А мне со́рок три. Я ру́сский. Добро́ пожа́ловать в Москву́!",
+   "traduction": "Et moi, j'ai quarante-trois ans. Je suis russe. Bienvenue à Moscou !",
+   "geste": "Le chauffeur fait un geste d'accueil de la main droite"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Спаси́бо! Маша, как сказа́ть «métro» по-ру́сски?",
+   "traduction": "Merci ! Masha, comment dit-on « métro » en russe ?",
+   "geste": "Thomas sort son téléphone pour noter"
+  },
+  {
+   "perso": "masha",
+   "texte": "Метро́. А «train» — по́езд.",
+   "traduction": "Metro. Et « train », c'est poezd.",
+   "geste": "Masha mime un train qui avance avec la main"
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "меня́ зову́т",
+   "prononciation": "meNYA zaVOUT",
+   "nature": "expression",
+   "traduction": "je m'appelle (litt. on m'appelle)",
+   "exemple": "Меня́ зову́т Тома́.",
+   "exemple_traduction": "Je m'appelle Thomas."
+  },
+  {
+   "mot": "тебя́",
+   "prononciation": "teBYA",
+   "nature": "pronom personnel (accusatif de ты)",
+   "traduction": "toi, te",
+   "exemple": "Как тебя́ зову́т?",
+   "exemple_traduction": "Comment tu t'appelles ?"
+  },
+  {
+   "mot": "вас",
+   "prononciation": "VAS",
+   "nature": "pronom personnel (accusatif de вы)",
+   "traduction": "vous",
+   "exemple": "Как вас зову́т?",
+   "exemple_traduction": "Comment vous appelez-vous ?"
+  },
+  {
+   "mot": "францу́з",
+   "prononciation": "franTSOUZ",
+   "nature": "nom m.",
+   "traduction": "Français (homme)",
+   "exemple": "Я францу́з.",
+   "exemple_traduction": "Je suis français."
+  },
+  {
+   "mot": "францу́женка",
+   "prononciation": "franTSOUjenka",
+   "nature": "nom f.",
+   "traduction": "Française (femme)",
+   "exemple": "Маша — не францу́женка.",
+   "exemple_traduction": "Masha n'est pas française."
+  },
+  {
+   "mot": "ру́сский",
+   "prononciation": "ROUSki",
+   "nature": "adj. / nom m.",
+   "traduction": "russe ; un Russe",
+   "exemple": "Я ру́сский.",
+   "exemple_traduction": "Je suis russe (homme)."
+  },
+  {
+   "mot": "ру́сская",
+   "prononciation": "ROUSkaya",
+   "nature": "nom f.",
+   "traduction": "une Russe",
+   "exemple": "Я ру́сская.",
+   "exemple_traduction": "Je suis russe (femme)."
+  },
+  {
+   "mot": "студе́нт",
+   "prononciation": "stouDYENT",
+   "nature": "nom m.",
+   "traduction": "étudiant",
+   "exemple": "Тома́ — студе́нт.",
+   "exemple_traduction": "Thomas est étudiant."
+  },
+  {
+   "mot": "студе́нтка",
+   "prononciation": "stouDYENTka",
+   "nature": "nom f.",
+   "traduction": "étudiante",
+   "exemple": "Маша — студе́нтка.",
+   "exemple_traduction": "Masha est étudiante."
+  },
+  {
+   "mot": "такси́",
+   "prononciation": "takSI",
+   "nature": "nom n. invariable",
+   "traduction": "taxi",
+   "exemple": "Э́то такси́.",
+   "exemple_traduction": "C'est un taxi."
+  },
+  {
+   "mot": "авто́бус",
+   "prononciation": "afTObous",
+   "nature": "nom m.",
+   "traduction": "bus",
+   "exemple": "Где авто́бус?",
+   "exemple_traduction": "Où est le bus ?"
+  },
+  {
+   "mot": "метро́",
+   "prononciation": "metRO",
+   "nature": "nom n. invariable",
+   "traduction": "métro",
+   "exemple": "Э́то метро́.",
+   "exemple_traduction": "C'est le métro."
+  },
+  {
+   "mot": "по́езд",
+   "prononciation": "POyezt",
+   "nature": "nom m.",
+   "traduction": "train",
+   "exemple": "По́езд тут.",
+   "exemple_traduction": "Le train est là."
+  },
+  {
+   "mot": "оди́н",
+   "prononciation": "aDIN",
+   "nature": "nombre",
+   "traduction": "un (1)",
+   "exemple": "Оди́н, два, три.",
+   "exemple_traduction": "Un, deux, trois."
+  },
+  {
+   "mot": "два",
+   "prononciation": "DVA",
+   "nature": "nombre",
+   "traduction": "deux (2)",
+   "exemple": "Мне два́дцать два.",
+   "exemple_traduction": "J'ai vingt-deux ans."
+  },
+  {
+   "mot": "три",
+   "prononciation": "TRI",
+   "nature": "nombre",
+   "traduction": "trois (3)",
+   "exemple": "Три такси́.",
+   "exemple_traduction": "Trois taxis."
+  },
+  {
+   "mot": "четы́ре",
+   "prononciation": "tchieTYrie",
+   "nature": "nombre",
+   "traduction": "quatre (4)",
+   "exemple": "Четы́ре студе́нта.",
+   "exemple_traduction": "Quatre étudiants."
+  },
+  {
+   "mot": "пять",
+   "prononciation": "PYAT",
+   "nature": "nombre",
+   "traduction": "cinq (5)",
+   "exemple": "Пять авто́бусов.",
+   "exemple_traduction": "Cinq bus."
+  },
+  {
+   "mot": "как сказа́ть",
+   "prononciation": "KAK skaZAT",
+   "nature": "expression",
+   "traduction": "comment dit-on",
+   "exemple": "Как сказа́ть «taxi» по-ру́сски?",
+   "exemple_traduction": "Comment dit-on « taxi » en russe ?"
+  },
+  {
+   "mot": "по-ру́сски",
+   "prononciation": "paROUSki",
+   "nature": "adverbe",
+   "traduction": "en russe",
+   "exemple": "Говори́те по-ру́сски?",
+   "exemple_traduction": "Vous parlez russe ?"
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Le verbe звать (appeler) au présent — la construction «Меня́ зову́т…»",
+   "explication": "En russe, pour dire « Je m'appelle… », on utilise littéralement « On m'appelle… ». Le verbe звать (appeler) se conjugue à la 3e personne du pluriel : зову́т. Le pronom personnel à l'accusatif indique la personne concernée : меня́ (moi), тебя́ (toi), вас (vous, poli ou pluriel). Le nom propre qui suit reste au nominatif. Cette structure est figée et très courante. Notez bien que le sujet grammatical est le nom qui suit (c'est lui qui « appelle »), d'où l'accord au pluriel si nécessaire. Pour demander le nom de quelqu'un, on utilise «Как тебя́ зову́т?» (familier) ou «Как вас зову́т?» (poli ou pluriel).",
+   "tableau": [
+    [
+     "Personne",
+     "Forme"
+    ],
+    [
+     "меня́ зову́т",
+     "je m'appelle"
+    ],
+    [
+     "тебя́ зову́т",
+     "tu t'appelles"
+    ],
+    [
+     "вас зову́т",
+     "vous vous appelez"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Меня́ зову́т Тома́.",
+     "natif": "Je m'appelle Thomas."
+    },
+    {
+     "cible": "Как вас зову́т?",
+     "natif": "Comment vous appelez-vous ?"
+    },
+    {
+     "cible": "Его́ зову́т Серге́й.",
+     "natif": "Il s'appelle Sergueï."
+    }
+   ]
+  },
+  {
+   "titre": "Absence du verbe être au présent et accord des nationalités",
+   "explication": "Au présent, le russe n'utilise pas de verbe être. Là où le français dit « Je suis étudiant », le russe dit simplement « Я студе́нт ». Le verbe être (есть) existe, mais il est omis au présent dans les phrases attributives courantes. On juxtapose simplement le sujet et l'attribut. Attention à l'accord en genre : les nationalités et professions ont une forme masculine et une forme féminine. Un homme dira «Я францу́з» et «Я студе́нт», une femme dira «Я францу́женка» et «Я студе́нтка». L'adjectif de nationalité (ру́сский, францу́зский) s'accorde aussi avec le sujet. Retenez : pas d'article, pas de verbe être au présent, mais un accord strict en genre.",
+   "tableau": [
+    [
+     "Masculin",
+     "Féminin"
+    ],
+    [
+     "францу́з",
+     "францу́женка"
+    ],
+    [
+     "ру́сский",
+     "ру́сская"
+    ],
+    [
+     "студе́нт",
+     "студе́нтка"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Я студе́нт. Я францу́з.",
+     "natif": "Je suis étudiant. Je suis français."
+    },
+    {
+     "cible": "Маша — студе́нтка. Она́ ру́сская.",
+     "natif": "Masha est étudiante. Elle est russe."
+    },
+    {
+     "cible": "Э́то авто́бус.",
+     "natif": "C'est un bus."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Alphabet cyrillique partie 2 : Л à Т, et les signes Ы, Ь, Ъ",
+  "explication": "L (Л л) se prononce [l] comme dans « lait ». М (М м) = [m]. Н (Н н) = [n] (attention, ressemble à un H latin mais sonne comme notre N). О (О о) = [o] tonique, réduit à [a] en position non accentuée (ex. Москва́ se prononce «MaskVA»). П (П п) = [p]. Р (Р р) = [r] roulé (ressemble à un P latin !). С (С с) = [s] (jamais [z], ressemble à un C latin). Т (Т т) = [t]. Le Ы n'existe pas en français : placez la langue comme pour dire [i], puis reculez-la légèrement vers le fond de la bouche, lèvres étirées. Son proche du « u » de « lune » mais plus sombre. Le Ь (signe mou) n'a pas de son propre : il adoucit la consonne qui précède (Ть = [t'] palatalisé). Le Ъ (signe dur) est séparatif : il marque une micro-pause entre un préfixe consonantique et une voyelle (объе́кт).",
+  "exemples": [
+   "Л: лампа, Тома́",
+   "М: Москва́, мама",
+   "Н: Нина, нет",
+   "О: окно́, молоко́",
+   "П: Пари́ж, по́езд",
+   "Р: Россия, ру́сский",
+   "С: Серге́й, студе́нт",
+   "Т: такси́, три",
+   "Ы: сыр, вы, мы",
+   "Ь: мать, пять, шесть",
+   "Ъ: объе́кт, подъе́зд"
+  ]
+ },
+ "culture": {
+  "titre": "Le taxi à Moscou : Yandex Go et les distances moscovites",
+  "texte": "À Moscou, on ne hèle presque plus les taxis dans la rue. L'application Yandex Go (anciennement Yandex Taxi) domine le marché : commande en 2 minutes, prix fixe affiché, paiement sans contact. Les courses sont bon marché comparées à Paris, mais les distances sont immenses — Moscou s'étend sur plus de 2 500 km², soit 25 fois Paris intra-muros. Un trajet « court » peut durer 40 minutes. Les chauffeurs bavardent volontiers, surtout la nuit. Engager la conversation est une excellente occasion de pratiquer : demander «Как вас зову́т?» est perçu comme poli et chaleureux. Beaucoup de chauffeurs viennent des anciennes républiques soviétiques ; certains parlent russe avec un accent, d'autres apprennent encore la langue, comme Thomas."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez la bonne réponse pour compléter la phrase.",
+   "items": [
+    {
+     "question": "Меня́ _____ Тома́.",
+     "choix": [
+      "зову́т",
+      "зовёшь",
+      "зову́"
+     ],
+     "reponse": "зову́т"
+    },
+    {
+     "question": "Как _____ зову́т? (poli)",
+     "choix": [
+      "тебя́",
+      "вас",
+      "меня́"
+     ],
+     "reponse": "вас"
+    },
+    {
+     "question": "Маша — _____.",
+     "choix": [
+      "студе́нт",
+      "студе́нтка",
+      "студенты"
+     ],
+     "reponse": "студе́нтка"
+    },
+    {
+     "question": "Я _____. (une femme parle)",
+     "choix": [
+      "францу́з",
+      "францу́женка",
+      "французы"
+     ],
+     "reponse": "францу́женка"
+    },
+    {
+     "question": "Как сказа́ть «bus» по-ру́сски?",
+     "choix": [
+      "метро́",
+      "по́езд",
+      "авто́бус"
+     ],
+     "reponse": "авто́бус"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez les phrases avec le mot manquant.",
+   "items": [
+    {
+     "question": "Меня́ _____ Маша.",
+     "reponse": "зовут"
+    },
+    {
+     "question": "Я _____ . (homme français)",
+     "reponse": "француз"
+    },
+    {
+     "question": "Тома́ — _____ .",
+     "reponse": "студент"
+    },
+    {
+     "question": "Как тебя́ _____ ?",
+     "reponse": "зовут"
+    },
+    {
+     "question": "Э́то _____ . (taxi)",
+     "reponse": "такси"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez chaque mot russe à sa traduction française.",
+   "items": [
+    {
+     "question": "такси́",
+     "reponse": "taxi"
+    },
+    {
+     "question": "метро́",
+     "reponse": "métro"
+    },
+    {
+     "question": "авто́бус",
+     "reponse": "bus"
+    },
+    {
+     "question": "по́езд",
+     "reponse": "train"
+    },
+    {
+     "question": "студе́нтка",
+     "reponse": "étudiante"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez les mots dans l'ordre pour former une phrase correcte.",
+   "items": [
+    {
+     "question": "зову́т / Тома́ / Меня́",
+     "reponse": "Меня́ зову́т Тома́"
+    },
+    {
+     "question": "ру́сская / Я",
+     "reponse": "Я ру́сская"
+    },
+    {
+     "question": "студе́нт / Тома́",
+     "reponse": "Тома́ студе́нт"
+    },
+    {
+     "question": "по-ру́сски / сказа́ть / Как",
+     "reponse": "Как сказа́ть по-ру́сски"
+    },
+    {
+     "question": "зову́т / тебя́ / Как",
+     "reponse": "Как тебя́ зову́т"
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez les phrases suivantes en russe (écrivez votre réponse).",
+   "items": [
+    {
+     "question": "Je m'appelle Thomas.",
+     "reponse": "Меня зовут Тома."
+    },
+    {
+     "question": "Je suis français.",
+     "reponse": "Я француз."
+    },
+    {
+     "question": "Comment vous appelez-vous ?",
+     "reponse": "Как вас зовут?"
+    },
+    {
+     "question": "Je suis étudiant.",
+     "reponse": "Я студент."
+    },
+    {
+     "question": "Comment dit-on « taxi » en russe ?",
+     "reponse": "Как сказать «taxi» по-русски?"
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez et choisissez la bonne transcription.",
+   "items": [
+    {
+     "question": "Audio : [Меня́ зову́т Серге́й.]",
+     "choix": [
+      "Меня́ зову́т Серге́й.",
+      "Меня́ зову́т Тома́.",
+      "Тебя́ зову́т Серге́й."
+     ],
+     "reponse": "Меня́ зову́т Серге́й."
+    },
+    {
+     "question": "Audio : [Я студе́нтка.]",
+     "choix": [
+      "Я студе́нт.",
+      "Я студе́нтка.",
+      "Ты студе́нтка."
+     ],
+     "reponse": "Я студе́нтка."
+    },
+    {
+     "question": "Audio : [Мне два́дцать оди́н.]",
+     "choix": [
+      "Мне два́дцать два.",
+      "Мне два́дцать оди́н.",
+      "Мне три́дцать оди́н."
+     ],
+     "reponse": "Мне два́дцать оди́н."
+    },
+    {
+     "question": "Audio : [Э́то метро́.]",
+     "choix": [
+      "Э́то такси́.",
+      "Э́то авто́бус.",
+      "Э́то метро́."
+     ],
+     "reponse": "Э́то метро́."
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bienvenue dans la leçon 2 de Russtudy ! Ce soir, Thomas et Masha traversent Moscou en taxi. Objectifs : dire son nom, son âge, sa nationalité, épeler, et demander « comment dit-on… ? ».",
+   "ecran": "Vue aérienne nocturne de Moscou, zoom sur un taxi jaune qui roule sur la Nouvelle Arbat",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Écoutez le dialogue une première fois, puis suivez les répliques.",
+   "ecran": "Intérieur du taxi, les trois personnages en place",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Смотри́, Тома́! Э́то Москва́! Красиво́, да?",
+   "ecran": "Masha pointe la vitre illuminée",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v04",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Да, о́чень красиво́! Маша, как сказа́ть «taxi» по-ру́сски?",
+   "ecran": "Thomas admire la ville puis se tourne vers Masha",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Такси́. Э́то такси́. А «авто́бус» — э́то авто́бус.",
+   "ecran": "Gros plan sur le compteur puis sur un bus qui passe",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Извини́те! А как вас зову́т?",
+   "ecran": "Thomas se penche vers le rétroviseur",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "sergey",
+   "langue": "ru",
+   "texte": "Меня́ зову́т Серге́й. А тебя́ как зову́т?",
+   "ecran": "Sergueï sourit dans le rétroviseur",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Remarquez : «Меня́ зову́т…» signifie littéralement « On m'appelle… ». C'est la forme standard pour se présenter.",
+   "ecran": "Bulle grammaticale animée au-dessus de Sergueï",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v09",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Меня́ зову́т Тома́. Т-О-М-А. Я францу́з.",
+   "ecran": "Thomas compte les lettres sur ses doigts, les lettres cyrilliques s'affichent",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "sergey",
+   "langue": "ru",
+   "texte": "О! Францу́з! Ты студе́нт?",
+   "ecran": "Sergueï hausse les sourcils",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Да, я студе́нт. Мне два́дцать два.",
+   "ecran": "Le chiffre 22 s'affiche en cyrillique",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "А я студе́нтка. Мне два́дцать оди́н. Я ру́сская.",
+   "ecran": "Masha pose la main sur sa poitrine",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "sergey",
+   "langue": "ru",
+   "texte": "А мне со́рок три. Я ру́сский. Добро́ пожа́ловать в Москву́!",
+   "ecran": "Le taxi passe devant le Kremlin illuminé",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Спаси́бо! Маша, как сказа́ть «métro» по-ру́сски?",
+   "ecran": "Thomas sort son téléphone",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Метро́. А «train» — по́езд.",
+   "ecran": "Masha mime un train, icônes transport flottantes",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Répétons maintenant le vocabulaire clé. Écoutez et répétez chaque mot.",
+   "ecran": "Cartes-mots 3D qui apparaissent une à une",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la grammaire. En russe, on dit littéralement « On m'appelle Thomas » : Меня́ зову́т Тома́.",
+   "ecran": "Tableau animé de la conjugaison de звать",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Deuxième point : au présent, il n'y a pas de verbe être. « Я студе́нт » suffit. Et attention à l'accord masculin/féminin des nationalités.",
+   "ecran": "Comparaison Я студе́нт / Я студе́нтка",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Prononciation : découvrons les lettres de Л à Т, puis les signes Ы, Ь et Ъ.",
+   "ecran": "Alphabet 3D qui s'illumine lettre par lettre",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Le Ы n'existe pas en français. Astuce : dites [i], puis reculez la langue. Essayez avec «сыр».",
+   "ecran": "Schéma 3D de la bouche, coupe sagittale",
+   "interaction": "parler"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Côté culture : à Moscou, on utilise l'application Yandex Go. Les chauffeurs aiment bavarder — une chance pour pratiquer !",
+   "ecran": "Écran de smartphone affichant Yandex Go, carte de Moscou",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "À vous ! Exercice 1 : QCM. Choisissez la bonne réponse.",
+   "ecran": "Interface QCM, première question affichée",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 2 : complétez les phrases avec le mot manquant.",
+   "ecran": "Champ de saisie clavier cyrillique activé",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 3 : associez chaque mot russe à sa traduction.",
+   "ecran": "Deux colonnes à relier par glisser-déposer",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 4 : remettez les mots dans l'ordre.",
+   "ecran": "Mots en désordre à réorganiser",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 5 : traduisez les phrases en russe.",
+   "ecran": "Phrase française affichée, zone de saisie",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 6 : écoute. Choisissez la transcription correcte.",
+   "ecran": "Bouton lecture audio, trois propositions",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo ! Vous savez maintenant vous présenter, épeler et demander une traduction. Dans la leçon 3, Thomas arrive chez Nina Ivanovna, sa logeuse.",
+   "ecran": "Écran de félicitations, aperçu de la leçon suivante",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Récapitulons les phrases clés à retenir.",
+   "ecran": "Carnet de voyage 3D qui s'ouvre",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "До свида́ния ! À bientôt sur Russtudy.",
+   "ecran": "Taxi s'éloigne dans les lumières de Moscou",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Меня́ зову́т Тома́.",
+   "natif": "Je m'appelle Thomas."
+  },
+  {
+   "cible": "Как вас зову́т?",
+   "natif": "Comment vous appelez-vous ?"
+  },
+  {
+   "cible": "Я францу́з. Я студе́нт.",
+   "natif": "Je suis français. Je suis étudiant."
+  },
+  {
+   "cible": "Мне два́дцать два.",
+   "natif": "J'ai vingt-deux ans."
+  },
+  {
+   "cible": "Как сказа́ть «taxi» по-ру́сски?",
+   "natif": "Comment dit-on « taxi » en russe ?"
+  },
+  {
+   "cible": "Э́то такси́, авто́бус, метро́, по́езд.",
+   "natif": "C'est un taxi, un bus, le métro, un train."
+  }
+ ],
+ "controle": []
+}

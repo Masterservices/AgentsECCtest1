@@ -1,0 +1,942 @@
+{
+ "cours": "fr-pour-russes",
+ "num": 6,
+ "niveau": "A1",
+ "id": "fr-pour-russes-A1-06",
+ "titre": {
+  "cible": "Premier jour à l'université",
+  "natif": "Первый день в университете"
+ },
+ "objectifs": [
+  "Заполнить административную форму и запросить информацию об обучении",
+  "Представиться преподавателю и задать вопросы с помощью est-ce que / qu'est-ce que",
+  "Спрягать глаголы 2-й группы (finir, choisir) в настоящем времени",
+  "Использовать предлоги времени для обозначения расписания занятий",
+  "Познакомиться с системой LMD во французских университетах"
+ ],
+ "scene": {
+  "lieu": "Hall d'entrée de la Sorbonne, puis amphithéâtre Richelieu",
+  "moment": "Matin de septembre, lumière dorée",
+  "decor_3d": "Vaste hall haussmannien aux murs de pierre claire, colonnes corinthiennes, sol en damier noir et blanc. Un grand comptoir en bois sombre avec le panneau « Service des inscriptions ». Derrière, une porte mène à l'amphithéâtre Richelieu : gradins en bois de chêne foncé, estrade, tableau vert, lustres en bronze. Des affiches annoncent la rentrée. Lumière chaude filtrée par de hautes fenêtres.",
+  "objets": [
+   "comptoir d'accueil en bois",
+   "formulaire d'inscription papier",
+   "stylo bleu",
+   "badge étudiant",
+   "emploi du temps imprimé",
+   "panneau « Amphithéâtre Richelieu »",
+   "gradins en bois sombre",
+   "estrade du professeur",
+   "sac à dos d'Anna",
+   "chemise cartonnée de Claire"
+  ],
+  "personnages": [
+   "anna",
+   "claire"
+  ],
+  "figurants": [
+   {
+    "id": "agent_sorbonne",
+    "nom": "Mme Petit",
+    "apparence": "Femme de 50 ans, cheveux châtains en chignon, lunettes rondes, tailleur bleu marine, badge « Administration » sur la poitrine, assise derrière le comptoir",
+    "voix": "Féminine, médium, articulée et administrative, léger accent parisien"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "anna",
+   "texte": "Bonjour, madame. Je m'appelle Anna Sokolova. Je voudrais m'inscrire à l'université, s'il vous plaît.",
+   "traduction": "Здравствуйте, мадам. Меня зовут Анна Соколова. Я хотела бы записаться в университет, пожалуйста.",
+   "geste": "Anna s'avance vers le comptoir, pose son sac à dos au sol et tend son passeport avec un sourire timide."
+  },
+  {
+   "perso": "agent_sorbonne",
+   "texte": "Bonjour ! Vous êtes en master, c'est ça ? Est-ce que vous avez votre formulaire ?",
+   "traduction": "Здравствуйте! Вы в магистратуре, верно? У вас есть ваша анкета?",
+   "geste": "Mme Petit lève les yeux de son écran, sourit et pointe du doigt le formulaire sur le comptoir."
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, je suis en master. Voilà le formulaire. Qu'est-ce que je dois écrire ici ?",
+   "traduction": "Да, я в магистратуре. Вот анкета. Что я должна написать здесь?",
+   "geste": "Anna montre une case vide du formulaire, penche la tête avec une expression interrogative."
+  },
+  {
+   "perso": "agent_sorbonne",
+   "texte": "Ici, vous écrivez votre filière et votre matière principale. Vous choisissez aussi votre horaire de cours.",
+   "traduction": "Здесь вы пишете вашу специальность и основной предмет. Вы также выбираете расписание занятий.",
+   "geste": "Mme Petit tape du doigt sur les cases du formulaire, puis fait glisser un stylo vers Anna."
+  },
+  {
+   "perso": "anna",
+   "texte": "D'accord, je finis le formulaire maintenant. Est-ce que l'amphithéâtre Richelieu est loin ?",
+   "traduction": "Хорошо, я сейчас заполню анкету. Аудитория Ришелье далеко?",
+   "geste": "Anna prend le stylo, remplit les cases en écriture appliquée, puis lève les yeux."
+  },
+  {
+   "perso": "agent_sorbonne",
+   "texte": "Non, c'est au premier étage. Le cours commence à neuf heures. Vous avez dix minutes.",
+   "traduction": "Нет, она на первом этаже. Занятие начинается в девять часов. У вас десять минут.",
+   "geste": "Mme Petit pointe le plafond du doigt, montre sa montre, puis tend le badge étudiant à Anna."
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci beaucoup, madame ! Au revoir.",
+   "traduction": "Большое спасибо, мадам! До свидания.",
+   "geste": "Anna prend le badge, le fixe sur sa veste, fait un petit signe de la main et se dirige vers la porte."
+  },
+  {
+   "perso": "claire",
+   "texte": "Bonjour ! Vous êtes Anna Sokolova ? Je suis Claire Rousseau, votre tutrice. Bienvenue à la Sorbonne !",
+   "traduction": "Здравствуйте! Вы Анна Соколова? Я Клэр Руссо, ваш куратор. Добро пожаловать в Сорбонну!",
+   "geste": "Claire attend près de la porte de l'amphithéâtre, tend la main avec un grand sourire chaleureux, chemise cartonnée sous le bras."
+  },
+  {
+   "perso": "anna",
+   "texte": "Bonjour, madame Rousseau ! Je suis très contente. Est-ce que vous parlez un peu russe ?",
+   "traduction": "Здравствуйте, мадам Руссо! Я очень рада. Вы немного говорите по-русски?",
+   "geste": "Anna serre la main de Claire, rougit légèrement, serre son sac contre elle."
+  },
+  {
+   "perso": "claire",
+   "texte": "Un petit peu ! Mais ici, on finit les phrases en français, d'accord ? Qu'est-ce que vous étudiez exactement ?",
+   "traduction": "Чуть-чуть! Но здесь мы заканчиваем фразы на французском, хорошо? Что именно вы изучаете?",
+   "geste": "Claire rit doucement, fait un geste d'encouragement de la main, puis ouvre sa chemise cartonnée."
+  },
+  {
+   "perso": "anna",
+   "texte": "J'étudie la littérature française et la linguistique. Je choisis le séminaire du lundi et du jeudi.",
+   "traduction": "Я изучаю французскую литературу и лингвистику. Я выбираю семинар по понедельникам и четвергам.",
+   "geste": "Anna compte sur ses doigts les matières, puis pointe les jours sur l'emploi du temps affiché au mur."
+  },
+  {
+   "perso": "claire",
+   "texte": "Très bien ! Le séminaire est de quatorze heures à seize heures. En décembre, vous finissez le premier semestre.",
+   "traduction": "Очень хорошо! Семинар проходит с четырнадцати до шестнадцати часов. В декабре вы заканчиваете первый семестр.",
+   "geste": "Claire montre l'emploi du temps du doigt, puis fait un geste circulaire englobant l'amphithéâtre."
+  },
+  {
+   "perso": "anna",
+   "texte": "Qu'est-ce que je dois faire cette semaine ?",
+   "traduction": "Что я должна сделать на этой неделе?",
+   "geste": "Anna sort un petit carnet de son sac, prête à noter, regarde Claire avec attention."
+  },
+  {
+   "perso": "claire",
+   "texte": "Cette semaine, vous choisissez vos matières optionnelles et vous finissez votre inscription en ligne. On se retrouve vendredi à dix heures, d'accord ?",
+   "traduction": "На этой неделе вы выбираете факультативные предметы и завершаете регистрацию онлайн. Встречаемся в пятницу в десять часов, хорошо?",
+   "geste": "Claire écrit « vendredi 10h » sur un post-it, le colle sur le carnet d'Anna, puis lui tapote l'épaule avec bienveillance."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "l'université",
+   "prononciation": "[ynivɛʁsite]",
+   "nature": "nom f.",
+   "traduction": "университет",
+   "exemple": "Je m'inscris à l'université.",
+   "exemple_traduction": "Я записываюсь в университет."
+  },
+  {
+   "mot": "les études",
+   "prononciation": "[etyd]",
+   "nature": "nom f. pl.",
+   "traduction": "учёба, занятия",
+   "exemple": "Mes études sont intéressantes.",
+   "exemple_traduction": "Моя учёба интересная."
+  },
+  {
+   "mot": "la matière",
+   "prononciation": "[matjɛʁ]",
+   "nature": "nom f.",
+   "traduction": "предмет (учебный)",
+   "exemple": "La linguistique est ma matière préférée.",
+   "exemple_traduction": "Лингвистика — мой любимый предмет."
+  },
+  {
+   "mot": "l'horaire",
+   "prononciation": "[ɔʁɛʁ]",
+   "nature": "nom m.",
+   "traduction": "расписание, время",
+   "exemple": "Quel est l'horaire du cours ?",
+   "exemple_traduction": "Какое расписание у занятия?"
+  },
+  {
+   "mot": "le formulaire",
+   "prononciation": "[fɔʁmylɛʁ]",
+   "nature": "nom m.",
+   "traduction": "анкета, формуляр",
+   "exemple": "Je remplis le formulaire.",
+   "exemple_traduction": "Я заполняю анкету."
+  },
+  {
+   "mot": "s'inscrire",
+   "prononciation": "[sɛ̃skʁiʁ]",
+   "nature": "verbe (pronominal)",
+   "traduction": "записаться, зарегистрироваться",
+   "exemple": "Anna s'inscrit à la Sorbonne.",
+   "exemple_traduction": "Анна записывается в Сорбонну."
+  },
+  {
+   "mot": "l'amphithéâtre",
+   "prononciation": "[ɑ̃fiteatʁ]",
+   "nature": "nom m.",
+   "traduction": "амфитеатр, лекционный зал",
+   "exemple": "L'amphithéâtre Richelieu est grand.",
+   "exemple_traduction": "Амфитеатр Ришелье большой."
+  },
+  {
+   "mot": "la tutrice / le tuteur",
+   "prononciation": "[tytʁis] / [tytœʁ]",
+   "nature": "nom f. / m.",
+   "traduction": "куратор, наставник",
+   "exemple": "Claire est ma tutrice.",
+   "exemple_traduction": "Клэр — мой куратор."
+  },
+  {
+   "mot": "le master",
+   "prononciation": "[mastɛʁ]",
+   "nature": "nom m.",
+   "traduction": "магистратура",
+   "exemple": "Je suis en master de linguistique.",
+   "exemple_traduction": "Я в магистратуре по лингвистике."
+  },
+  {
+   "mot": "la licence",
+   "prononciation": "[lisɑ̃s]",
+   "nature": "nom f.",
+   "traduction": "бакалавриат",
+   "exemple": "La licence dure trois ans.",
+   "exemple_traduction": "Бакалавриат длится три года."
+  },
+  {
+   "mot": "le semestre",
+   "prononciation": "[səmɛstʁ]",
+   "nature": "nom m.",
+   "traduction": "семестр",
+   "exemple": "Le premier semestre finit en décembre.",
+   "exemple_traduction": "Первый семестр заканчивается в декабре."
+  },
+  {
+   "mot": "choisir",
+   "prononciation": "[ʃwaziʁ]",
+   "nature": "verbe (2e groupe)",
+   "traduction": "выбирать",
+   "exemple": "Je choisis le séminaire du lundi.",
+   "exemple_traduction": "Я выбираю семинар по понедельникам."
+  },
+  {
+   "mot": "finir",
+   "prononciation": "[finiʁ]",
+   "nature": "verbe (2e groupe)",
+   "traduction": "заканчивать",
+   "exemple": "Nous finissons le cours à seize heures.",
+   "exemple_traduction": "Мы заканчиваем занятие в шестнадцать часов."
+  },
+  {
+   "mot": "l'inscription",
+   "prononciation": "[ɛ̃skʁipsjɔ̃]",
+   "nature": "nom f.",
+   "traduction": "запись, регистрация",
+   "exemple": "L'inscription est en ligne.",
+   "exemple_traduction": "Регистрация онлайн."
+  },
+  {
+   "mot": "la filière",
+   "prononciation": "[filjɛʁ]",
+   "nature": "nom f.",
+   "traduction": "специальность, направление",
+   "exemple": "Ma filière, c'est la littérature.",
+   "exemple_traduction": "Моя специальность — литература."
+  },
+  {
+   "mot": "l'emploi du temps",
+   "prononciation": "[ɑ̃plwa dy tɑ̃]",
+   "nature": "nom m.",
+   "traduction": "расписание занятий",
+   "exemple": "Je regarde mon emploi du temps.",
+   "exemple_traduction": "Я смотрю своё расписание занятий."
+  },
+  {
+   "mot": "le cours",
+   "prononciation": "[kuʁ]",
+   "nature": "nom m.",
+   "traduction": "занятие, курс",
+   "exemple": "Le cours commence à neuf heures.",
+   "exemple_traduction": "Занятие начинается в девять часов."
+  },
+  {
+   "mot": "le séminaire",
+   "prononciation": "[seminɛʁ]",
+   "nature": "nom m.",
+   "traduction": "семинар",
+   "exemple": "Le séminaire est le lundi et le jeudi.",
+   "exemple_traduction": "Семинар по понедельникам и четвергам."
+  },
+  {
+   "mot": "le bâtiment",
+   "prononciation": "[batimɑ̃]",
+   "nature": "nom m.",
+   "traduction": "здание, корпус",
+   "exemple": "Le bâtiment principal est ancien.",
+   "exemple_traduction": "Главное здание старинное."
+  },
+  {
+   "mot": "le professeur",
+   "prononciation": "[pʁɔfɛsœʁ]",
+   "nature": "nom m.",
+   "traduction": "преподаватель, профессор",
+   "exemple": "Le professeur parle lentement.",
+   "exemple_traduction": "Преподаватель говорит медленно."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Глаголы 2-й группы: finir, choisir",
+   "explication": "Во французском языке глаголы 2-й группы оканчиваются на -ir и в настоящем времени имеют характерный суффикс -iss- во множественном числе. К этой группе относятся глаголы finir (заканчивать), choisir (выбирать), remplir (заполнять), réussir (успешно сдавать). Спряжение строится по единой модели: основа + окончания -is, -is, -it, -issons, -issez, -issent. Обратите внимание: в единственном числе суффикс -iss- отсутствует, а во множественном — обязательно присутствует. Это главное отличие от глаголов 3-й группы на -ir (partir, dormir), которые не имеют -iss-. Глаголы 2-й группы очень регулярны: выучив одну модель, вы можете спрягать сотни глаголов. В диалоге Анна говорит: «Je finis le formulaire» и «Je choisis le séminaire», а Клэр: «vous finissez le premier semestre».",
+   "tableau": [
+    [
+     "Pronom",
+     "finir",
+     "choisir",
+     "remplir"
+    ],
+    [
+     "je",
+     "finis",
+     "choisis",
+     "remplis"
+    ],
+    [
+     "tu",
+     "finis",
+     "choisis",
+     "remplis"
+    ],
+    [
+     "il / elle / on",
+     "finit",
+     "choisit",
+     "remplit"
+    ],
+    [
+     "nous",
+     "finissons",
+     "choisissons",
+     "remplissons"
+    ],
+    [
+     "vous",
+     "finissez",
+     "choisissez",
+     "remplissez"
+    ],
+    [
+     "ils / elles",
+     "finissent",
+     "choisissent",
+     "remplissent"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Je finis mes études en juin.",
+     "natif": "Я заканчиваю учёбу в июне."
+    },
+    {
+     "cible": "Tu choisis ta matière préférée.",
+     "natif": "Ты выбираешь свой любимый предмет."
+    },
+    {
+     "cible": "Nous remplissons le formulaire.",
+     "natif": "Мы заполняем анкету."
+    },
+    {
+     "cible": "Est-ce que vous finissez à seize heures ?",
+     "natif": "Вы заканчиваете в шестнадцать часов?"
+    }
+   ]
+  },
+  {
+   "titre": "Вопросы с est-ce que / qu'est-ce que и предлоги времени",
+   "explication": "Для создания вопроса в разговорном французском используется конструкция est-ce que + утвердительное предложение: «Est-ce que vous avez votre formulaire?» (У вас есть анкета?). Для вопроса «что?» используется qu'est-ce que + утвердительное предложение: «Qu'est-ce que je dois écrire?» (Что я должна написать?). Обратите внимание: в речи qu'est-ce que произносится слитно [kɛskə]. Предлоги времени помогают говорить о расписании: à + час (à neuf heures — в девять часов); de… à… (de quatorze heures à seize heures — с 14 до 16); en + месяц/сезон (en décembre — в декабре); le + день недели (le lundi — по понедельникам); cette + période (cette semaine — на этой неделе). Эти предлоги позволяют точно указать, когда начинается и заканчивается занятие.",
+   "tableau": [
+    [
+     "Тип вопроса / Предлог",
+     "Формула",
+     "Пример"
+    ],
+    [
+     "Закрытый вопрос",
+     "Est-ce que + Sujet + Verbe",
+     "Est-ce que vous êtes en master ?"
+    ],
+    [
+     "Вопрос «что?»",
+     "Qu'est-ce que + Sujet + Verbe",
+     "Qu'est-ce que vous étudiez ?"
+    ],
+    [
+     "Время (час)",
+     "à + heure",
+     "Le cours commence à neuf heures."
+    ],
+    [
+     "Период",
+     "de… à…",
+     "De quatorze heures à seize heures."
+    ],
+    [
+     "Месяц / сезон",
+     "en + mois/saison",
+     "En décembre, le semestre finit."
+    ],
+    [
+     "День недели (регулярно)",
+     "le + jour",
+     "Le séminaire est le lundi."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Est-ce que l'amphithéâtre est loin ?",
+     "natif": "Амфитеатр далеко?"
+    },
+    {
+     "cible": "Qu'est-ce que je dois faire cette semaine ?",
+     "natif": "Что я должна сделать на этой неделе?"
+    },
+    {
+     "cible": "Le cours est le jeudi à quatorze heures.",
+     "natif": "Занятие по четвергам в четырнадцать часов."
+    },
+    {
+     "cible": "En janvier, je commence le deuxième semestre.",
+     "natif": "В январе я начинаю второй семестр."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Стык гласных (enchaînement vocalique): il a, tu as, elle a",
+  "explication": "Когда слово заканчивается на гласный звук, а следующее начинается на гласный, во французском языке они произносятся слитно, без паузы и без твёрдого приступа (без «глоттального удара», характерного для русского). Это называется enchaînement vocalique. Например: il a произносится как единый блок [ila], а не [il‿a] с паузой. Аналогично: tu as → [tya], elle a → [ɛla], on a → [ɔ̃na]. Важно не вставлять согласный между гласными (не говорить «ил-ха» или «ты-ас»). Потренируйтесь произносить пары слитно, как одно слово, с единым ударением на последнем слоге группы.",
+  "exemples": [
+   "il a → [ila] (у него есть)",
+   "tu as → [tya] (у тебя есть)",
+   "elle a → [ɛla] (у неё есть)",
+   "on a → [ɔ̃na] (у нас есть)",
+   "Anna a → [anna] (у Анны есть)",
+   "il étudie → [iletudi] (он изучает)"
+  ]
+ },
+ "culture": {
+  "titre": "Система LMD во французских университетах",
+  "texte": "С 2002 года французские университеты работают по системе LMD (Licence – Master – Doctorat), гармонизированной с Болонским процессом. Licence (бакалавриат) длится 3 года (6 семестров, 180 кредитов ECTS), Master (магистратура) — 2 года (4 семестра, 120 кредитов), Doctorat (докторантура) — 3 года. Учебный год делится на два семестра: осенний (сентябрь–декабрь) и весенний (январь–май). Каждый студент получает куратора (tuteur/tutrice), который помогает с выбором предметов и адаптацией. Анна поступила сразу в Master, что возможно при наличии диплома бакалавра, признанного во Франции. Занятия проходят в виде cours magistraux (лекции в амфитеатрах) и travaux dirigés / séminaires (семинары в малых группах)."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Выберите правильный ответ на вопрос.",
+   "items": [
+    {
+     "question": "Comment s'appelle la tutrice d'Anna ?",
+     "choix": [
+      "Sophie Dubois",
+      "Claire Rousseau",
+      "Marine Lefèvre",
+      "Mme Petit"
+     ],
+     "reponse": "Claire Rousseau"
+    },
+    {
+     "question": "Qu'est-ce qu'Anna étudie ?",
+     "choix": [
+      "L'architecture et le design",
+      "La littérature française et la linguistique",
+      "Le droit et l'économie",
+      "La médecine"
+     ],
+     "reponse": "La littérature française et la linguistique"
+    },
+    {
+     "question": "À quelle heure commence le cours ?",
+     "choix": [
+      "À huit heures",
+      "À neuf heures",
+      "À dix heures",
+      "À quatorze heures"
+     ],
+     "reponse": "À neuf heures"
+    },
+    {
+     "question": "Quand finit le premier semestre ?",
+     "choix": [
+      "En janvier",
+      "En juin",
+      "En décembre",
+      "En septembre"
+     ],
+     "reponse": "En décembre"
+    },
+    {
+     "question": "Où se retrouve Claire et Anna ?",
+     "choix": [
+      "Le mardi à onze heures",
+      "Le vendredi à dix heures",
+      "Le lundi à quatorze heures",
+      "Le jeudi à neuf heures"
+     ],
+     "reponse": "Le vendredi à dix heures"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Вставьте глагол в правильной форме (finir / choisir / remplir).",
+   "items": [
+    {
+     "question": "Je _____ le formulaire maintenant.",
+     "reponse": "remplis"
+    },
+    {
+     "question": "Tu _____ ta matière préférée.",
+     "reponse": "choisis"
+    },
+    {
+     "question": "Nous _____ le cours à seize heures.",
+     "reponse": "finissons"
+    },
+    {
+     "question": "Est-ce que vous _____ le séminaire du lundi ?",
+     "reponse": "choisissez"
+    },
+    {
+     "question": "Elles _____ leurs études en juin.",
+     "reponse": "finissent"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Соедините французское слово с русским переводом.",
+   "items": [
+    {
+     "question": "l'amphithéâtre",
+     "reponse": "амфитеатр, лекционный зал"
+    },
+    {
+     "question": "l'emploi du temps",
+     "reponse": "расписание занятий"
+    },
+    {
+     "question": "la filière",
+     "reponse": "специальность, направление"
+    },
+    {
+     "question": "le semestre",
+     "reponse": "семестр"
+    },
+    {
+     "question": "la tutrice",
+     "reponse": "куратор (женщина)"
+    },
+    {
+     "question": "le formulaire",
+     "reponse": "анкета, формуляр"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Расставьте слова в правильном порядке, чтобы получилось предложение.",
+   "items": [
+    {
+     "question": "le / Anna / formulaire / finit",
+     "reponse": "Anna finit le formulaire."
+    },
+    {
+     "question": "choisis / je / séminaire / le / lundi / du",
+     "reponse": "Je choisis le séminaire du lundi."
+    },
+    {
+     "question": "à / commence / heures / le / neuf / cours",
+     "reponse": "Le cours commence à neuf heures."
+    },
+    {
+     "question": "en / finit / semestre / décembre / le",
+     "reponse": "Le semestre finit en décembre."
+    },
+    {
+     "question": "qu'est-ce / étudiez / que / vous / ?",
+     "reponse": "Qu'est-ce que vous étudiez ?"
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Переведите с русского на французский.",
+   "items": [
+    {
+     "question": "Я записываюсь в университет.",
+     "reponse": "Je m'inscris à l'université."
+    },
+    {
+     "question": "Вы выбираете расписание занятий?",
+     "reponse": "Est-ce que vous choisissez l'horaire des cours ?"
+    },
+    {
+     "question": "Что я должна написать здесь?",
+     "reponse": "Qu'est-ce que je dois écrire ici ?"
+    },
+    {
+     "question": "Семинар по четвергам в четырнадцать часов.",
+     "reponse": "Le séminaire est le jeudi à quatorze heures."
+    },
+    {
+     "question": "Мы заканчиваем первый семестр в декабре.",
+     "reponse": "Nous finissons le premier semestre en décembre."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Прослушайте запись и выберите правильный вариант.",
+   "items": [
+    {
+     "question": "🔊 « Le cours commence à neuf heures. » — Когда начинается занятие?",
+     "choix": [
+      "В восемь часов",
+      "В девять часов",
+      "В десять часов",
+      "В четырнадцать часов"
+     ],
+     "reponse": "В девять часов"
+    },
+    {
+     "question": "🔊 « Je choisis le séminaire du lundi et du jeudi. » — Какие дни выбирает Анна?",
+     "choix": [
+      "Вторник и среду",
+      "Понедельник и четверг",
+      "Пятницу и субботу",
+      "Понедельник и пятницу"
+     ],
+     "reponse": "Понедельник и четверг"
+    },
+    {
+     "question": "🔊 « Vous finissez votre inscription en ligne. » — Что нужно закончить?",
+     "choix": [
+      "Экзамен",
+      "Регистрацию онлайн",
+      "Домашнее задание",
+      "Курсовую работу"
+     ],
+     "reponse": "Регистрацию онлайн"
+    },
+    {
+     "question": "🔊 « On se retrouve vendredi à dix heures. » — Когда встреча?",
+     "choix": [
+      "В четверг в десять",
+      "В пятницу в десять",
+      "В пятницу в двенадцать",
+      "В субботу в десять"
+     ],
+     "reponse": "В пятницу в десять"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Здравствуйте! Добро пожаловать на шестой урок курса «Французский для русскоязычных». Сегодня Анна приезжает в Сорбонну — один из старейших университетов Европы. Ей предстоит заполнить документы и познакомиться со своим куратором.",
+   "ecran": "Камера плавно подлетает к фасаду Сорбонны, золотой осенний свет, листья падают. Появляется название урока на французском и русском.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "В этом уроке вы научитесь: заполнять формуляр, задавать вопросы с помощью est-ce que и qu'est-ce que, спрягать глаголы 2-й группы и говорить о расписании. Вперёд!",
+   "ecran": "На экране появляются иконки целей урока: формуляр, вопросительный знак, таблица спряжения, часы. Затем камера ныряет внутрь здания.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Bonjour, madame. Je m'appelle Anna Sokolova. Je voudrais m'inscrire à l'université, s'il vous plaît.",
+   "ecran": "Анна подходит к стойке регистрации, кладёт рюкзак на пол и протягивает паспорт. Камера показывает крупным планом табличку «Service des inscriptions».",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v04",
+   "voix": "agent_sorbonne",
+   "langue": "fr",
+   "texte": "Bonjour ! Vous êtes en master, c'est ça ? Est-ce que vous avez votre formulaire ?",
+   "ecran": "Мадам Пети поднимает глаза от экрана, улыбается и указывает на формуляр на стойке. На экране подсвечивается конструкция «Est-ce que».",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, je suis en master. Voilà le formulaire. Qu'est-ce que je dois écrire ici ?",
+   "ecran": "Анна показывает пустую графу в формуляре, наклоняет голову. На экране подсвечивается «Qu'est-ce que».",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "agent_sorbonne",
+   "langue": "fr",
+   "texte": "Ici, vous écrivez votre filière et votre matière principale. Vous choisissez aussi votre horaire de cours.",
+   "ecran": "Мадам Пети стучит пальцем по графам формуляра, придвигает ручку Анне. Всплывают слова: filière, matière, horaire.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "D'accord, je finis le formulaire maintenant. Est-ce que l'amphithéâtre Richelieu est loin ?",
+   "ecran": "Анна берёт ручку, аккуратно заполняет графы, затем поднимает глаза. Камера показывает указатель «Amphithéâtre Richelieu → 1er étage».",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "agent_sorbonne",
+   "langue": "fr",
+   "texte": "Non, c'est au premier étage. Le cours commence à neuf heures. Vous avez dix minutes.",
+   "ecran": "Мадам Пети показывает на потолок, затем на часы, протягивает студенческий бейдж. На экране появляются часы: 09:00.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci beaucoup, madame ! Au revoir.",
+   "ecran": "Анна прикрепляет бейдж на куртку, машет рукой и направляется к двери. Камера следует за ней.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "claire",
+   "langue": "fr",
+   "texte": "Bonjour ! Vous êtes Anna Sokolova ? Je suis Claire Rousseau, votre tutrice. Bienvenue à la Sorbonne !",
+   "ecran": "Клэр ждёт у двери амфитеатра с папкой под мышкой, широко улыбается и протягивает руку. Тёплый свет из окон амфитеатра.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Bonjour, madame Rousseau ! Je suis très contente. Est-ce que vous parlez un peu russe ?",
+   "ecran": "Анна пожимает руку Клэр, слегка краснеет, прижимает сумку к себе. На экране появляется конструкция «Est-ce que».",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "claire",
+   "langue": "fr",
+   "texte": "Un petit peu ! Mais ici, on finit les phrases en français, d'accord ? Qu'est-ce que vous étudiez exactement ?",
+   "ecran": "Клэр мягко смеётся, делает ободряющий жест рукой, открывает папку. Подсвечиваются глагол «finir» и «Qu'est-ce que».",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "J'étudie la littérature française et la linguistique. Je choisis le séminaire du lundi et du jeudi.",
+   "ecran": "Анна загибает пальцы, перечисляя предметы, затем указывает на расписание на стене. Появляются слова: lundi, jeudi.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "claire",
+   "langue": "fr",
+   "texte": "Très bien ! Le séminaire est de quatorze heures à seize heures. En décembre, vous finissez le premier semestre.",
+   "ecran": "Клэр показывает на расписание, делает круговой жест, обводя амфитеатр. На экране появляется таймлайн: сентябрь → декабрь.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Qu'est-ce que je dois faire cette semaine ?",
+   "ecran": "Анна достаёт блокнот из сумки, готова записывать, внимательно смотрит на Клэр.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "claire",
+   "langue": "fr",
+   "texte": "Cette semaine, vous choisissez vos matières optionnelles et vous finissez votre inscription en ligne. On se retrouve vendredi à dix heures, d'accord ?",
+   "ecran": "Клэр пишет «vendredi 10h» на стикере, клеит на блокнот Анны, хлопает её по плечу. Камера отъезжает, показывая весь амфитеатр.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отлично! Диалог завершён. Теперь повторим ключевые слова. Слушайте и повторяйте вслух. Обратите внимание на произношение.",
+   "ecran": "На экране появляются карточки со словами. Первая карточка: «l'université [ynivɛʁsite]» с иконкой здания Сорбонны.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "l'université — университет. les études — учёба. la matière — предмет. l'horaire — расписание. le formulaire — анкета. s'inscrire — записаться. l'amphithéâtre — амфитеатр. la tutrice — куратор. le master — магистратура. choisir — выбирать. finir — заканчивать. Повторите каждое слово дважды.",
+   "ecran": "Карточки сменяются одна за другой с транскрипцией и картинкой. Кнопка «Повторить» мигает.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Перейдём к грамматике. Первое: глаголы второй группы. Они оканчиваются на -ir и имеют суффикс -исс- во множественном числе. Посмотрите на таблицу спряжения глагола finir.",
+   "ecran": "Появляется таблица спряжения finir в 3D: шесть строк вращаются как карточки. Подсвечивается суффикс -iss- во множественном числе.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Je finis, tu finis, il finit — без суффикса. Но: nous finissons, vous finissez, ils finissent — с суффиксом -исс-. То же самое с choisir: je choisis, nous choisissons. Запомните эту модель — она подходит для сотен глаголов.",
+   "ecran": "Анимация: единственное число без -iss- (серый), множественное с -iss- (золотой). Глагол choisir появляется рядом.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Второе: вопросы. Для закрытого вопроса используйте est-ce que перед предложением: Est-ce que vous êtes en master? Для вопроса «что?» — qu'est-ce que: Qu'est-ce que vous étudiez? И предлоги времени: à neuf heures, de quatorze à seize heures, en décembre, le lundi.",
+   "ecran": "На экране появляются формулы вопросов как 3D-блоки, затем предлоги времени на циферблате часов. Стрелки часов двигаются.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь произношение. Сегодня мы тренируем стык гласных — enchaînement vocalique. Когда слово кончается на гласный и следующее начинается на гласный, мы произносим их слитно: il a — [ila], tu as — [tya], elle a — [ɛla]. Без паузы, без придыхания!",
+   "ecran": "Два 3D-пузыря со словами «il» и «a» плавно сливаются в один пузырь «ila». Звуковая волна показывает плавный переход.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Повторите за мной: il a — [ila]. tu as — [tya]. elle a — [ɛla]. on a — [ɔ̃na]. Très bien! Помните: во французском нет «глоттального удара» между гласными, звук течёт плавно.",
+   "ecran": "Каждый пример появляется крупным шрифтом с фонетической транскрипцией, затем кнопка микрофона для записи.",
+   "interaction": "parler"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Немного культуры. Французские университеты работают по системе LMD: Licence — три года, Master — два года, Doctorat — три года. Год делится на два семестра. У каждого студента есть куратор — tuteur или tutrice. Лекции читаются в амфитеатрах, а семинары проходят в малых группах.",
+   "ecran": "3D-пирамида LMD: три уровня (Licence, Master, Doctorat) с подписями. Рядом иконки: амфитеатр, семинар, куратор.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Переходим к упражнениям. Упражнение первое: тест с выбором ответа. Прочитайте вопрос и выберите один правильный вариант из четырёх предложенных.",
+   "ecran": "На экране появляется интерфейс теста, первый вопрос, четыре кнопки вариантов. Таймер не установлен.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение второе: заполните пропуски. Вставьте глагол finir, choisir или remplir в правильной форме. Обратите внимание на подлежащее!",
+   "ecran": "Пять предложений с пустыми полями для ввода. Рядом подсказка: три глагола в инфинитиве.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение третье: соедините пары. Слева французское слово, справа — русский перевод. Перетащите мышкой или коснитесь экрана.",
+   "ecran": "Две колонки 3D-карточек. Левая: французские слова. Правая: русские переводы. Линии соединяют пары при правильном ответе.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение четвёртое: расставьте слова в правильном порядке. Перетащите слова, чтобы получилось грамматически верное предложение.",
+   "ecran": "Слова-пазлы разбросаны на экране. При перетаскивании они складываются в строку. Кнопка «Проверить».",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение пятое: перевод. Переведите предложения с русского на французский. Используйте изученные конструкции: est-ce que, qu'est-ce que, глаголы второй группы, предлоги времени.",
+   "ecran": "Русское предложение сверху, пустое поле для ввода французского перевода. Кнопка «Подсказка» с лексикой.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение шестое: аудирование. Прослушайте запись и выберите правильный вариант. Нажмите на значок динамика, чтобы услышать фразу.",
+   "ecran": "Иконка динамика, после нажатия — звуковая волна. Ниже четыре варианта ответа кнопками.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Подведём итоги урока. Сегодня Анна заполнила формуляр, познакомилась с куратором Клэр и узнала своё расписание. Вы научились спрягать глаголы второй группы, задавать вопросы и говорить о времени занятий.",
+   "ecran": "Монтаж ключевых моментов урока: формуляр, рукопожатие Анны и Клэр, расписание на стене. Тёплый свет амфитеатра.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Запомните ключевые фразы урока. Повторите их вслух: Je m'inscris à l'université. Est-ce que vous avez votre formulaire ? Qu'est-ce que je dois écrire ? Je choisis le séminaire du lundi. Le cours commence à neuf heures. En décembre, je finis le semestre.",
+   "ecran": "Фразы появляются одна за другой на фоне Сорбонны. Кнопка микрофона для записи произношения.",
+   "interaction": "parler"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отличная работа! В следующем уроке Анна пойдёт на свою первую лекцию и познакомится с Лукасом. À bientôt ! До скорого!",
+   "ecran": "Анна машет рукой, камера отъезжает от Сорбонны, осенние листья кружатся. Появляется превью следующего урока. Затемнение.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Je m'inscris à l'université et je remplis le formulaire.",
+   "natif": "Я записываюсь в университет и заполняю анкету."
+  },
+  {
+   "cible": "Est-ce que vous avez votre formulaire ?",
+   "natif": "У вас есть ваша анкета?"
+  },
+  {
+   "cible": "Qu'est-ce que je dois écrire ici ?",
+   "natif": "Что я должна написать здесь?"
+  },
+  {
+   "cible": "Je choisis le séminaire du lundi et du jeudi.",
+   "natif": "Я выбираю семинар по понедельникам и четвергам."
+  },
+  {
+   "cible": "Le cours commence à neuf heures et finit à seize heures.",
+   "natif": "Занятие начинается в девять часов и заканчивается в шестнадцать."
+  },
+  {
+   "cible": "En décembre, nous finissons le premier semestre.",
+   "natif": "В декабре мы заканчиваем первый семестр."
+  }
+ ],
+ "controle": []
+}

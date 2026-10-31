@@ -1,0 +1,848 @@
+{
+ "cours": "fr-pour-russes",
+ "num": 5,
+ "niveau": "A1",
+ "id": "fr-pour-russes-A1-05",
+ "titre": {
+  "cible": "À la boulangerie",
+  "natif": "В булочной"
+ },
+ "objectifs": [
+  "Научиться заказывать хлеб и выпечку в булочной",
+  "Использовать неопределённые артикли du/de la/des для обозначения количества",
+  "Применять модальные глаголы vouloir, pouvoir, devoir",
+  "Использовать указательные прилагательные ce/cette/ces",
+  "Освоить лексику хлебобулочных изделий и расчёта"
+ ],
+ "scene": {
+  "lieu": "Boulangerie artisanale de quartier",
+  "moment": "Matin, 8h30",
+  "decor_3d": "Intérieur chaleureux d'une boulangerie artisanale avec vitrine en verre dorée présentant pains, viennoiseries et pâtisseries. Comptoir en bois clair, murs en pierre apparente, éclairage chaud. Odeur de pain chaud suggérée par vapeur légère au-dessus des produits.",
+  "objets": [
+   "vitrine à pains",
+   "baguettes traditionnelles",
+   "croissants",
+   "pains au chocolat",
+   "tartes aux fruits",
+   "caisse enregistreuse",
+   "terminal de paiement",
+   "pièces et billets",
+   "sac en papier"
+  ],
+  "personnages": [
+   "anna"
+  ],
+  "figurants": [
+   {
+    "id": "boulangere",
+    "nom": "Madame Petit",
+    "apparence": "Femme de 50 ans, cheveux bruns courts, tablier blanc avec logo de la boulangerie, sourire chaleureux",
+    "voix": "Femme mature, timbre doux et accueillant, débit modéré"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "boulangere",
+   "texte": "Bonjour mademoiselle ! Qu'est-ce que je vous sers ?",
+   "traduction": "Здравствуйте, мадемуазель! Что вам подать?",
+   "geste": "Sourire et geste d'accueil avec la main"
+  },
+  {
+   "perso": "anna",
+   "texte": "Bonjour madame ! Je voudrais une baguette traditionnelle, s'il vous plaît.",
+   "traduction": "Здравствуйте, мадам! Я бы хотела традиционный багет, пожалуйста.",
+   "geste": "Sourire et pointer vers les baguettes"
+  },
+  {
+   "perso": "boulangere",
+   "texte": "Bien sûr ! Vous voulez aussi des viennoiseries ? Nous avons des croissants et des pains au chocolat.",
+   "traduction": "Конечно! Хотите также венскую выпечку? У нас есть круассаны и шоколадные булочки.",
+   "geste": "Désigner la vitrine des viennoiseries"
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, je voudrais deux croissants et ce pain au chocolat.",
+   "traduction": "Да, я бы хотела два круассана и эту шоколадную булочку.",
+   "geste": "Montrer deux doigts puis pointer un pain au chocolat"
+  },
+  {
+   "perso": "boulangere",
+   "texte": "Très bon choix ! Vous devez essayer aussi notre tarte aux pommes. Elle est délicieuse !",
+   "traduction": "Отличный выбор! Вы должны попробовать также наш яблочный пирог. Он восхитительный!",
+   "geste": "Sortir une tarte et la présenter"
+  },
+  {
+   "perso": "anna",
+   "texte": "Mmm, elle a l'air bonne ! Je peux prendre une part ?",
+   "traduction": "Ммм, выглядит вкусно! Можно взять кусочек?",
+   "geste": "Regarder la tarte avec intérêt"
+  },
+  {
+   "perso": "boulangere",
+   "texte": "Bien sûr ! Voilà : une baguette, deux croissants, un pain au chocolat et une part de tarte. Ça fait 7 euros 50.",
+   "traduction": "Конечно! Итак: один багет, два круассана, одна шоколадная булочка и кусок пирога. Это 7 евро 50.",
+   "geste": "Préparer les produits dans un sac et montrer le total"
+  },
+  {
+   "perso": "anna",
+   "texte": "Je vous donne 10 euros.",
+   "traduction": "Я даю вам 10 евро.",
+   "geste": "Tendre un billet de 10 euros"
+  },
+  {
+   "perso": "boulangere",
+   "texte": "Merci ! Je vous rends 2 euros 50. Voilà votre monnaie et votre ticket.",
+   "traduction": "Спасибо! Даю вам сдачу 2 евро 50. Вот ваша сдача и чек.",
+   "geste": "Rendre la monnaie et le ticket de caisse"
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci beaucoup, madame ! Bonne journée !",
+   "traduction": "Большое спасибо, мадам! Хорошего дня!",
+   "geste": "Prendre le sac et sourire"
+  },
+  {
+   "perso": "boulangere",
+   "texte": "Merci à vous ! À bientôt !",
+   "traduction": "Спасибо вам! До скорого!",
+   "geste": "Faire signe de la main"
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "boulangerie",
+   "prononciation": "[bulɑ̃ʒʁi]",
+   "nature": "nom f.",
+   "traduction": "булочная",
+   "exemple": "Je vais à la boulangerie.",
+   "exemple_traduction": "Я иду в булочную."
+  },
+  {
+   "mot": "baguette",
+   "prononciation": "[baɡɛt]",
+   "nature": "nom f.",
+   "traduction": "багет",
+   "exemple": "Une baguette traditionnelle, s'il vous plaît.",
+   "exemple_traduction": "Один традиционный багет, пожалуйста."
+  },
+  {
+   "mot": "croissant",
+   "prononciation": "[kʁwasɑ̃]",
+   "nature": "nom m.",
+   "traduction": "круассан",
+   "exemple": "Je mange un croissant au petit-déjeuner.",
+   "exemple_traduction": "Я ем круассан на завтрак."
+  },
+  {
+   "mot": "pain au chocolat",
+   "prononciation": "[pɛ̃ o ʃɔkɔla]",
+   "nature": "nom m.",
+   "traduction": "шоколадная булочка",
+   "exemple": "Le pain au chocolat est délicieux.",
+   "exemple_traduction": "Шоколадная булочка восхитительна."
+  },
+  {
+   "mot": "viennoiserie",
+   "prononciation": "[vjɛnwazʁi]",
+   "nature": "nom f.",
+   "traduction": "венская выпечка",
+   "exemple": "J'adore les viennoiseries.",
+   "exemple_traduction": "Я обожаю венскую выпечку."
+  },
+  {
+   "mot": "pâtisserie",
+   "prononciation": "[patisʁi]",
+   "nature": "nom f.",
+   "traduction": "кондитерское изделие",
+   "exemple": "Cette pâtisserie est belle.",
+   "exemple_traduction": "Это кондитерское изделие красивое."
+  },
+  {
+   "mot": "tarte",
+   "prononciation": "[taʁt]",
+   "nature": "nom f.",
+   "traduction": "пирог, тарт",
+   "exemple": "Une tarte aux pommes.",
+   "exemple_traduction": "Яблочный пирог."
+  },
+  {
+   "mot": "part",
+   "prononciation": "[paʁ]",
+   "nature": "nom f.",
+   "traduction": "кусок, порция",
+   "exemple": "Une part de gâteau.",
+   "exemple_traduction": "Кусок торта."
+  },
+  {
+   "mot": "vouloir",
+   "prononciation": "[vulwaʁ]",
+   "nature": "verbe",
+   "traduction": "хотеть",
+   "exemple": "Je voudrais un café.",
+   "exemple_traduction": "Я бы хотел кофе."
+  },
+  {
+   "mot": "pouvoir",
+   "prononciation": "[puvwaʁ]",
+   "nature": "verbe",
+   "traduction": "мочь",
+   "exemple": "Je peux entrer ?",
+   "exemple_traduction": "Можно войти?"
+  },
+  {
+   "mot": "devoir",
+   "prononciation": "[dəvwaʁ]",
+   "nature": "verbe",
+   "traduction": "долженствовать",
+   "exemple": "Tu dois étudier.",
+   "exemple_traduction": "Ты должен учиться."
+  },
+  {
+   "mot": "monnaie",
+   "prononciation": "[mɔnɛ]",
+   "nature": "nom f.",
+   "traduction": "сдача, мелочь",
+   "exemple": "Voilà votre monnaie.",
+   "exemple_traduction": "Вот ваша сдача."
+  },
+  {
+   "mot": "billet",
+   "prononciation": "[bijɛ]",
+   "nature": "nom m.",
+   "traduction": "купюра, банкнота",
+   "exemple": "Un billet de 20 euros.",
+   "exemple_traduction": "Купюра 20 евро."
+  },
+  {
+   "mot": "pièce",
+   "prononciation": "[pjɛs]",
+   "nature": "nom f.",
+   "traduction": "монета",
+   "exemple": "Une pièce de 1 euro.",
+   "exemple_traduction": "Монета 1 евро."
+  },
+  {
+   "mot": "ticket de caisse",
+   "prononciation": "[tikɛ də kɛs]",
+   "nature": "nom m.",
+   "traduction": "кассовый чек",
+   "exemple": "Gardez le ticket de caisse.",
+   "exemple_traduction": "Сохраните кассовый чек."
+  },
+  {
+   "mot": "vitrine",
+   "prononciation": "[vitʁin]",
+   "nature": "nom f.",
+   "traduction": "витрина",
+   "exemple": "La vitrine est belle.",
+   "exemple_traduction": "Витрина красивая."
+  },
+  {
+   "mot": "artisanal",
+   "prononciation": "[aʁtizanal]",
+   "nature": "adj.",
+   "traduction": "ремесленный, ручной работы",
+   "exemple": "Un pain artisanal.",
+   "exemple_traduction": "Хлеб ручной работы."
+  },
+  {
+   "mot": "traditionnel",
+   "prononciation": "[tʁadisjɔnɛl]",
+   "nature": "adj.",
+   "traduction": "традиционный",
+   "exemple": "Une baguette traditionnelle.",
+   "exemple_traduction": "Традиционный багет."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Неопределённые артикли du/de la/des для обозначения количества",
+   "explication": "Неопределённые артикли du, de la, des используются для обозначения неопределённого количества неисчисляемых предметов или продуктов. Du используется перед мужским родом единственного числа, de la — перед женским родом единственного числа, des — перед множественным числом обоих родов. Эти артикли отвечают на вопрос 'сколько?' и переводятся как 'немного', 'некоторое количество' или не переводятся. Они отличаются от определённых артиклей le/la/les, которые указывают на конкретный предмет, и от неопределённых un/une/des, которые обозначают один или несколько исчисляемых предметов.",
+   "tableau": [
+    [
+     "Род и число",
+     "Артикль",
+     "Пример"
+    ],
+    [
+     "Мужской род ед.ч.",
+     "du",
+     "du pain (хлеб)"
+    ],
+    [
+     "Женский род ед.ч.",
+     "de la",
+     "de la confiture (варенье)"
+    ],
+    [
+     "Множественное число",
+     "des",
+     "des croissants (круассаны)"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Je voudrais du fromage.",
+     "natif": "Я бы хотел сыра."
+    },
+    {
+     "cible": "Elle achète de la farine.",
+     "natif": "Она покупает муку."
+    },
+    {
+     "cible": "Nous mangeons des fruits.",
+     "natif": "Мы едим фрукты."
+    }
+   ]
+  },
+  {
+   "titre": "Указательные прилагательные ce/cette/ces",
+   "explication": "Указательные прилагательные ce, cette, ces используются для указания на конкретный предмет или лицо. Они согласуются с существительным в роде и числе. Ce используется перед мужским родом единственного числа, начинающимся с согласной. Cet используется перед мужским родом единственного числа, начинающимся с гласной или немой h. Cette используется перед женским родом единственного числа. Ces используется перед множественным числом обоих родов. Эти прилагательные переводятся как 'этот', 'эта', 'эти' и помогают выделить конкретный предмет из группы.",
+   "tableau": [
+    [
+     "Род и число",
+     "Прилагательное",
+     "Пример"
+    ],
+    [
+     "Мужской род ед.ч. (согласная)",
+     "ce",
+     "ce pain (этот хлеб)"
+    ],
+    [
+     "Мужской род ед.ч. (гласная/h)",
+     "cet",
+     "cet homme (этот мужчина)"
+    ],
+    [
+     "Женский род ед.ч.",
+     "cette",
+     "cette tarte (этот пирог)"
+    ],
+    [
+     "Множественное число",
+     "ces",
+     "ces viennoiseries (эта выпечка)"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Je veux ce croissant.",
+     "natif": "Я хочу этот круассан."
+    },
+    {
+     "cible": "Cette boulangerie est excellente.",
+     "natif": "Эта булочная превосходна."
+    },
+    {
+     "cible": "Ces gâteaux sont beaux.",
+     "natif": "Эти пирожные красивые."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Обязательные связывания (liaisons obligatoires)",
+  "explication": "Во французском языке некоторые согласные на конце слова произносятся, если следующее слово начинается с гласной или немой h. Обязательные связывания происходят между артиклем и существительным (les amis [le.za.mi], des ours [de.zuʁ]), между местоимением и глаголом (vous avez [vu.za.ve]), между прилагательным и существительным (petit ami [pə.ti.ta.mi]). Связывание делает речь более плавной и естественной.",
+  "exemples": [
+   "les amis [le.za.mi]",
+   "des ours [de.zuʁ]",
+   "vous avez [vu.za.ve]",
+   "cet homme [sɛ.tɔm]",
+   "deux euros [dø.zø.ʁo]"
+  ]
+ },
+ "culture": {
+  "titre": "Традиционный багет и рейтинг булочных",
+  "texte": "Багет — символ французской культуры. Настоящий 'baguette de tradition française' готовится только из муки, воды, соли и дрожжей, без добавок. С 1993 года его состав регулируется законом. Каждый год в Париже проводится конкурс на лучший багет, победитель получает право поставлять хлеб в Елисейский дворец. Французы очень серьёзно относятся к выбору булочной. Существуют рейтинги и гиды лучших булочных по городам. Хорошая булочная — это artisanale (ремесленная), где хлеб пекут на месте, а не промышленная, где используют замороженное тесто. Французы покупают хлеб ежедневно, часто утром и вечером, и никогда не режут багет ножом — только ломают руками."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Выберите правильный неопределённый артикль",
+   "items": [
+    {
+     "question": "Je voudrais _____ pain.",
+     "choix": [
+      "du",
+      "de la",
+      "des"
+     ],
+     "reponse": "du"
+    },
+    {
+     "question": "Elle achète _____ farine.",
+     "choix": [
+      "du",
+      "de la",
+      "des"
+     ],
+     "reponse": "de la"
+    },
+    {
+     "question": "Nous mangeons _____ croissants.",
+     "choix": [
+      "du",
+      "de la",
+      "des"
+     ],
+     "reponse": "des"
+    },
+    {
+     "question": "Tu veux _____ fromage ?",
+     "choix": [
+      "du",
+      "de la",
+      "des"
+     ],
+     "reponse": "du"
+    },
+    {
+     "question": "J'aime _____ viennoiseries.",
+     "choix": [
+      "du",
+      "de la",
+      "des"
+     ],
+     "reponse": "des"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Заполните пропуски указательными прилагательными ce/cet/cette/ces",
+   "items": [
+    {
+     "question": "_____ boulangerie est excellente.",
+     "reponse": "Cette"
+    },
+    {
+     "question": "Je veux _____ croissant.",
+     "reponse": "ce"
+    },
+    {
+     "question": "_____ homme est le boulanger.",
+     "reponse": "Cet"
+    },
+    {
+     "question": "_____ gâteaux sont délicieux.",
+     "reponse": "Ces"
+    },
+    {
+     "question": "_____ tarte aux pommes est belle.",
+     "reponse": "Cette"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Соедините слово с его переводом",
+   "items": [
+    {
+     "question": "baguette",
+     "reponse": "багет"
+    },
+    {
+     "question": "croissant",
+     "reponse": "круассан"
+    },
+    {
+     "question": "monnaie",
+     "reponse": "сдача"
+    },
+    {
+     "question": "billet",
+     "reponse": "купюра"
+    },
+    {
+     "question": "pièce",
+     "reponse": "монета"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Расставьте слова в правильном порядке",
+   "items": [
+    {
+     "question": "voudrais / une / Je / baguette",
+     "reponse": "Je voudrais une baguette"
+    },
+    {
+     "question": "croissants / deux / Elle / achète",
+     "reponse": "Elle achète deux croissants"
+    },
+    {
+     "question": "est / Cette / délicieuse / tarte",
+     "reponse": "Cette tarte est délicieuse"
+    },
+    {
+     "question": "donne / Je / euros / 10 / vous",
+     "reponse": "Je vous donne 10 euros"
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Переведите на французский язык",
+   "items": [
+    {
+     "question": "Я бы хотел два круассана.",
+     "reponse": "Je voudrais deux croissants."
+    },
+    {
+     "question": "Эта булочная хорошая.",
+     "reponse": "Cette boulangerie est bonne."
+    },
+    {
+     "question": "Я могу взять кусок пирога?",
+     "reponse": "Je peux prendre une part de tarte ?"
+    },
+    {
+     "question": "Вот ваша сдача.",
+     "reponse": "Voilà votre monnaie."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Прослушайте и выберите правильный ответ",
+   "items": [
+    {
+     "question": "Что заказывает Анна?",
+     "choix": [
+      "Une baguette et un croissant",
+      "Une baguette, deux croissants et un pain au chocolat",
+      "Deux baguettes"
+     ],
+     "reponse": "Une baguette, deux croissants et un pain au chocolat"
+    },
+    {
+     "question": "Сколько стоит заказ?",
+     "choix": [
+      "5 euros",
+      "7 euros 50",
+      "10 euros"
+     ],
+     "reponse": "7 euros 50"
+    },
+    {
+     "question": "Сколько Анна даёт?",
+     "choix": [
+      "7 euros 50",
+      "10 euros",
+      "20 euros"
+     ],
+     "reponse": "10 euros"
+    },
+    {
+     "question": "Какая сдача?",
+     "choix": [
+      "2 euros",
+      "2 euros 50",
+      "3 euros"
+     ],
+     "reponse": "2 euros 50"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Добро пожаловать на пятый урок! Сегодня мы идём в булочную с Анной.",
+   "ecran": "Анна идёт по улице к булочной с золотой витриной",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Цели урока: научиться заказывать хлеб и выпечку, использовать неопределённые артикли для количества, применять модальные глаголы vouloir, pouvoir, devoir и указательные прилагательные.",
+   "ecran": "Список целей урока на экране",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Анна заходит в булочную. Обратите внимание на приветствие.",
+   "ecran": "Анна входит в булочную, boulangère улыбается",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "boulangere",
+   "langue": "fr",
+   "texte": "Bonjour mademoiselle ! Qu'est-ce que je vous sers ?",
+   "ecran": "Boulangère приветствует Анну",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Boulangère спрашивает: 'Что вам подать?' Теперь Анна отвечает, используя глагол vouloir в условном наклонении для вежливости.",
+   "ecran": "Анна подходит к витрине",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v06",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Bonjour madame ! Je voudrais une baguette traditionnelle, s'il vous plaît.",
+   "ecran": "Анна указывает на багеты",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отлично! 'Je voudrais' — это вежливая форма 'я бы хотела'. Теперь boulangère предлагает выпечку.",
+   "ecran": "Boulangère показывает витрину с выпечкой",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v08",
+   "voix": "boulangere",
+   "langue": "fr",
+   "texte": "Bien sûr ! Vous voulez aussi des viennoiseries ? Nous avons des croissants et des pains au chocolat.",
+   "ecran": "Boulangère указывает на круассаны и шоколадные булочки",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Обратите внимание на 'des viennoiseries', 'des croissants' — это неопределённые артикли множественного числа. Анна делает заказ, используя указательное прилагательное 'ce'.",
+   "ecran": "Анна смотрит на витрину",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v10",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, je voudrais deux croissants et ce pain au chocolat.",
+   "ecran": "Анна показывает два пальца и указывает на конкретную булочку",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "'Ce pain au chocolat' — 'эта шоколадная булочка'. Указательное прилагательное 'ce' выделяет конкретный предмет. Boulangère рекомендует пирог, используя глагол devoir.",
+   "ecran": "Boulangère достаёт яблочный пирог",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v12",
+   "voix": "boulangere",
+   "langue": "fr",
+   "texte": "Très bon choix ! Vous devez essayer aussi notre tarte aux pommes. Elle est délicieuse !",
+   "ecran": "Boulangère представляет пирог",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "'Vous devez essayer' — 'Вы должны попробовать'. Глагол devoir выражает обязанность или настоятельную рекомендацию. Анна спрашивает разрешения, используя pouvoir.",
+   "ecran": "Анна с интересом смотрит на пирог",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v14",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Mmm, elle a l'air bonne ! Je peux prendre une part ?",
+   "ecran": "Анна кивает",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "'Je peux' — 'я могу', 'мне можно'. Глагол pouvoir выражает возможность или разрешение. Теперь boulangère считает общую сумму.",
+   "ecran": "Boulangère складывает продукты в пакет",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v16",
+   "voix": "boulangere",
+   "langue": "fr",
+   "texte": "Bien sûr ! Voilà : une baguette, deux croissants, un pain au chocolat et une part de tarte. Ça fait 7 euros 50.",
+   "ecran": "Boulangère показывает продукты и называет сумму",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "'Ça fait 7 euros 50' — 'Это 7 евро 50'. Анна платит купюрой.",
+   "ecran": "Анна достаёт деньги",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v18",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Je vous donne 10 euros.",
+   "ecran": "Анна протягивает купюру 10 евро",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Boulangère даёт сдачу и чек.",
+   "ecran": "Boulangere считает сдачу",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v20",
+   "voix": "boulangere",
+   "langue": "fr",
+   "texte": "Merci ! Je vous rends 2 euros 50. Voilà votre monnaie et votre ticket.",
+   "ecran": "Boulangère отдаёт сдачу и чек",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "'Monnaie' — это сдача, 'ticket de caisse' — кассовый чек. Анна прощается.",
+   "ecran": "Анна берёт пакет",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v22",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci beaucoup, madame ! Bonne journée !",
+   "ecran": "Анна улыбается и берёт пакет",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v23",
+   "voix": "boulangere",
+   "langue": "fr",
+   "texte": "Merci à vous ! À bientôt !",
+   "ecran": "Boulangère машет рукой",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отлично! Теперь повторим новые слова. Повторяйте за диктором.",
+   "ecran": "Список новых слов с транскрипцией",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "boulangerie [bulɑ̃ʒʁi]",
+   "ecran": "Слово boulangerie с транскрипцией",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "baguette [baɡɛt]",
+   "ecran": "Слово baguette с транскрипцией",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "croissant [kʁwasɑ̃]",
+   "ecran": "Слово croissant с транскрипцией",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь изучим грамматику. Неопределённые артикли du, de la, des используются для обозначения неопределённого количества.",
+   "ecran": "Грамматическая таблица неопределённых артиклей",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Du — перед мужским родом: du pain. De la — перед женским: de la confiture. Des — перед множественным числом: des croissants.",
+   "ecran": "Примеры использования артиклей",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Указательные прилагательные ce, cet, cette, ces выделяют конкретный предмет. Ce pain — этот хлеб. Cette tarte — этот пирог.",
+   "ecran": "Таблица указательных прилагательных",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Обратите внимание на обязательные связывания: les amis [le.za.mi], des ours [de.zuʁ].",
+   "ecran": "Примеры связываний с транскрипцией",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь выполним упражнения. Начнём с выбора правильного артикля.",
+   "ecran": "Переход к упражнениям",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отличная работа! Вы научились заказывать в булочной и использовать новые грамматические структуры.",
+   "ecran": "Анна выходит из булочной с пакетом",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "До следующего урока! À bientôt !",
+   "ecran": "Анна идёт по улице, закат солнца",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Pour commander à la boulangerie, utilisez 'Je voudrais' suivi du produit.",
+   "natif": "Чтобы заказать в булочной, используйте 'Я бы хотел' с названием продукта."
+  },
+  {
+   "cible": "Les articles partitifs du/de la/des expriment une quantité indéterminée.",
+   "natif": "Неопределённые артикли du/de la/des выражают неопределённое количество."
+  },
+  {
+   "cible": "Les adjectifs démonstratifs ce/cette/ces désignent un objet précis.",
+   "natif": "Указательные прилагательные ce/cette/ces обозначают конкретный предмет."
+  },
+  {
+   "cible": "Les verbes vouloir, pouvoir, devoir sont essentiels pour interagir poliment.",
+   "natif": "Глаголы vouloir, pouvoir, devoir необходимы для вежливого общения."
+  },
+  {
+   "cible": "La baguette traditionnelle est un symbole de la culture française.",
+   "natif": "Традиционный багет — символ французской культуры."
+  }
+ ],
+ "controle": []
+}

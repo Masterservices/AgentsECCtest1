@@ -1,0 +1,820 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 5,
+ "niveau": "A1",
+ "id": "ru-pour-francais-A1-05",
+ "titre": {
+  "cible": "Где ты? Предло́жный паде́ж",
+  "natif": "Où es-tu ? Le prépositionnel"
+ },
+ "objectifs": [
+  "Localiser quelqu'un ou quelque chose (Где ты? Я в библиоте́ке.)",
+  "Parler de sa ville et de son quartier (Я живу́ в Москве́.)",
+  "Indiquer un lieu avec les prépositions в et на + prépositionnel"
+ ],
+ "scene": {
+  "lieu": "Campus universitaire de Moscou",
+  "moment": "Matinée d'automne, premier jour de cours",
+  "decor_3d": "Un campus universitaire russe avec des bâtiments en briques rouges, des arbres aux feuilles jaunes, des bancs et des panneaux indicateurs en cyrillique.",
+  "objets": [
+   "smartphone",
+   "plan du campus",
+   "banc",
+   "arbre",
+   "panneau"
+  ],
+  "personnages": [
+   "thomas",
+   "masha",
+   "dima"
+  ],
+  "figurants": [
+   {
+    "id": "student1",
+    "nom": "Étudiant",
+    "apparence": "Jeune homme avec un sac à dos et un manteau d'automne",
+    "voix": "masculine jeune"
+   },
+   {
+    "id": "guard",
+    "nom": "Gardien",
+    "apparence": "Homme d'âge mûr en uniforme bleu à l'entrée du bâtiment",
+    "voix": "masculine grave"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "thomas",
+   "texte": "Приве́т, Ма́ша! Где ты?",
+   "traduction": "Salut, Masha ! Où es-tu ?",
+   "geste": "Thomas regarde autour de lui, perdu, et tient son téléphone."
+  },
+  {
+   "perso": "masha",
+   "texte": "Приве́т, То́ма! Я в библиоте́ке. А ты?",
+   "traduction": "Salut, Thomas ! Je suis à la bibliothèque. Et toi ?",
+   "geste": "Masha est assise à une table avec des livres, elle sourit en parlant."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Я в саду́. Где аудито́рия?",
+   "traduction": "Je suis dans le jardin. Où est la salle de cours ?",
+   "geste": "Thomas montre le parc autour de lui d'un geste circulaire."
+  },
+  {
+   "perso": "masha",
+   "texte": "Аудито́рия на факульте́те.",
+   "traduction": "La salle de cours est à la faculté.",
+   "geste": "Masha pointe du doigt un bâtiment au loin."
+  },
+  {
+   "perso": "thomas",
+   "texte": "А где столо́вая?",
+   "traduction": "Et où est la cantine ?",
+   "geste": "Thomas frotte son ventre avec un sourire."
+  },
+  {
+   "perso": "masha",
+   "texte": "Столо́вая в ко́рпусе.",
+   "traduction": "La cantine est dans le bâtiment principal.",
+   "geste": "Masha hausse les épaules avec un air amusé."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Понима́ю. А Дима́? Где он?",
+   "traduction": "Je comprends. Et Dima ? Où est-il ?",
+   "geste": "Thomas regarde sa montre."
+  },
+  {
+   "perso": "masha",
+   "texte": "Дима́ в обща́ге.",
+   "traduction": "Dima est à la résidence universitaire.",
+   "geste": "Masha rit doucement et secoue la tête."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Хорошо́. Я иду́ на факульте́т.",
+   "traduction": "D'accord. Je vais à la faculté.",
+   "geste": "Thomas commence à marcher d'un pas décidé."
+  },
+  {
+   "perso": "masha",
+   "texte": "Дава́й! Я в библиоте́ке. Пока́!",
+   "traduction": "Allez ! Je suis à la bibliothèque. Salut !",
+   "geste": "Masha fait un signe de la main et raccroche."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "библиоте́ка",
+   "prononciation": "biblioteKA",
+   "nature": "nom f.",
+   "traduction": "bibliothèque",
+   "exemple": "Я в библиоте́ке.",
+   "exemple_traduction": "Je suis à la bibliothèque."
+  },
+  {
+   "mot": "аудито́рия",
+   "prononciation": "audiTOriya",
+   "nature": "nom f.",
+   "traduction": "salle de cours",
+   "exemple": "Аудито́рия на факульте́те.",
+   "exemple_traduction": "La salle de cours est à la faculté."
+  },
+  {
+   "mot": "факультете",
+   "prononciation": "fakuL'TET",
+   "nature": "nom m.",
+   "traduction": "faculté",
+   "exemple": "Я на факульте́те.",
+   "exemple_traduction": "Je suis à la faculté."
+  },
+  {
+   "mot": "ко́рпус",
+   "prononciation": "KORpus",
+   "nature": "nom m.",
+   "traduction": "bâtiment",
+   "exemple": "Столо́вая в ко́рпусе.",
+   "exemple_traduction": "La cantine est dans le bâtiment."
+  },
+  {
+   "mot": "столо́вая",
+   "prononciation": "stoLOvaya",
+   "nature": "nom f.",
+   "traduction": "cantine",
+   "exemple": "Где столо́вая?",
+   "exemple_traduction": "Où est la cantine ?"
+  },
+  {
+   "mot": "обща́га",
+   "prononciation": "obSHCHaga",
+   "nature": "nom f.",
+   "traduction": "résidence universitaire",
+   "exemple": "Дима́ в обща́ге.",
+   "exemple_traduction": "Dima est à la résidence universitaire."
+  },
+  {
+   "mot": "сад",
+   "prononciation": "sad",
+   "nature": "nom m.",
+   "traduction": "jardin",
+   "exemple": "Я в саду́.",
+   "exemple_traduction": "Je suis dans le jardin."
+  },
+  {
+   "mot": "парк",
+   "prononciation": "park",
+   "nature": "nom m.",
+   "traduction": "parc",
+   "exemple": "Мы в па́рке.",
+   "exemple_traduction": "Nous sommes dans le parc."
+  },
+  {
+   "mot": "музе́й",
+   "prononciation": "muZEY",
+   "nature": "nom m.",
+   "traduction": "musée",
+   "exemple": "Музе́й в це́нтре.",
+   "exemple_traduction": "Le musée est dans le centre."
+  },
+  {
+   "mot": "теа́тр",
+   "prononciation": "teATR",
+   "nature": "nom m.",
+   "traduction": "théâtre",
+   "exemple": "Я в теа́тре.",
+   "exemple_traduction": "Je suis au théâtre."
+  },
+  {
+   "mot": "университе́т",
+   "prononciation": "univerSIteT",
+   "nature": "nom m.",
+   "traduction": "université",
+   "exemple": "Я в университе́те.",
+   "exemple_traduction": "Je suis à l'université."
+  },
+  {
+   "mot": "у́лица",
+   "prononciation": "Ulitsa",
+   "nature": "nom f.",
+   "traduction": "rue",
+   "exemple": "Я на у́лице.",
+   "exemple_traduction": "Je suis dans la rue."
+  },
+  {
+   "mot": "го́род",
+   "prononciation": "Gorod",
+   "nature": "nom m.",
+   "traduction": "ville",
+   "exemple": "Я живу́ в го́роде.",
+   "exemple_traduction": "J'habite en ville."
+  },
+  {
+   "mot": "райо́н",
+   "prononciation": "raYON",
+   "nature": "nom m.",
+   "traduction": "quartier",
+   "exemple": "Я живу́ в но́вом райо́не.",
+   "exemple_traduction": "J'habite dans un nouveau quartier."
+  },
+  {
+   "mot": "пло́щадь",
+   "prononciation": "PLOshchad'",
+   "nature": "nom f.",
+   "traduction": "place",
+   "exemple": "Я на пло́щади.",
+   "exemple_traduction": "Je suis sur la place."
+  },
+  {
+   "mot": "жить",
+   "prononciation": "zhit'",
+   "nature": "verbe",
+   "traduction": "habiter, vivre",
+   "exemple": "Где ты живёшь?",
+   "exemple_traduction": "Où habites-tu ?"
+  },
+  {
+   "mot": "рабо́тать",
+   "prononciation": "raBOtat'",
+   "nature": "verbe",
+   "traduction": "travailler",
+   "exemple": "Я рабо́таю в па́рке.",
+   "exemple_traduction": "Je travaille dans le parc."
+  },
+  {
+   "mot": "учи́ться",
+   "prononciation": "uCHIT'sya",
+   "nature": "verbe",
+   "traduction": "étudier",
+   "exemple": "Я учу́сь в университе́те.",
+   "exemple_traduction": "J'étudie à l'université."
+  },
+  {
+   "mot": "в",
+   "prononciation": "v",
+   "nature": "préposition",
+   "traduction": "dans, à (intérieur)",
+   "exemple": "Я в саду́.",
+   "exemple_traduction": "Je suis dans le jardin."
+  },
+  {
+   "mot": "на",
+   "prononciation": "na",
+   "nature": "préposition",
+   "traduction": "sur, à (surface/lieu ouvert)",
+   "exemple": "Я на у́лице.",
+   "exemple_traduction": "Je suis dans la rue."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Le prépositionnel singulier (Lieu)",
+   "explication": "Le prépositionnel est le cas utilisé pour indiquer le lieu où l'on se trouve (répondre à la question \"Где?\"). Au singulier, la grande majorité des noms masculins, féminins et neutres prennent la terminaison -е (стол → в столе, книга → в книге, окно → в окне). Cependant, pour les noms féminins se terminant par -ь ou les noms dont le radical se termine par les chuintantes (ж, ш, ч, щ) ou par ц, la terminaison est -и (площадь → на площади). C'est un cas qui s'emploie toujours avec une préposition, jamais seul.",
+   "tableau": [
+    [
+     "Genre / Terminaison",
+     "Nominatif",
+     "Prépositionnel (в/на)"
+    ],
+    [
+     "Masculin (consonne)",
+     "стол, парк",
+     "в столе́, в па́рке"
+    ],
+    [
+     "Féminin (-а / -я)",
+     "кни́га, аудито́рия",
+     "в кни́ге, в аудито́рии"
+    ],
+    [
+     "Neutre (-о / -е)",
+     "окно́, музе́й",
+     "в окне́, в музе́е"
+    ],
+    [
+     "Féminin (-ь) / Chuintantes",
+     "пло́щадь",
+     "на пло́щади"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Я в библиоте́ке.",
+     "natif": "Je suis à la bibliothèque."
+    },
+    {
+     "cible": "Мы на пло́щади.",
+     "natif": "Nous sommes sur la place."
+    }
+   ]
+  },
+  {
+   "titre": "Les prépositions в et на",
+   "explication": "Pour dire \"à\" ou \"dans\" en russe, on utilise principalement в et на suivies du prépositionnel. В s'utilise pour un espace clos, un bâtiment ou un contenant (в библиотеке, в корпусе, в саду). На s'utilise pour une surface, un espace ouvert, un événement ou certaines institutions conceptuelles (на улице, на площади, на факультете). Contrairement au français où l'on dit \"à la fac\" ou \"dans la rue\", le russe distingue strictement l'intérieur/contenant (в) de la surface/extérieur (на). Notez que le choix dépend souvent de l'usage et doit être mémorisé avec le nom.",
+   "tableau": [
+    [
+     "Préposition",
+     "Usage principal",
+     "Exemples"
+    ],
+    [
+     "в",
+     "Intérieur, bâtiment, contenant",
+     "в университе́те, в ко́рпусе, в па́рке"
+    ],
+    [
+     "на",
+     "Surface, espace ouvert, événement",
+     "на у́лице, на пло́щади, на факульте́те"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Дима́ в обща́ге.",
+     "natif": "Dima est à la résidence universitaire."
+    },
+    {
+     "cible": "То́ма на факульте́те.",
+     "natif": "Thomas est à la faculté."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Réduction vocalique : о et е non accentués",
+  "explication": "En russe, seules les voyelles accentuées sont prononcées pleinement. Les voyelles non accentuées subissent une réduction. Le « о » non accentué se prononce comme un [a] bref (ou [ə] selon la position). Le « е » non accentué se prononce comme un [и]. Contrairement au français où l'on articule presque toutes les syllabes, le russe 'avale' les sons non accentués, ce qui donne son rythme caractéristique à la langue.",
+  "exemples": [
+   "Москва́ [м а ск в а] (maSKVA)",
+   "хорошо́ [х а р а ш о] (khaRAsho)",
+   "университе́т [у н и в э р с и т е т] (univerSIteT)"
+  ]
+ },
+ "culture": {
+  "titre": "Le campus russe : общага et столовая",
+  "texte": "Le campus universitaire russe est un véritable microcosme. La résidence universitaire, familièrement appelée « обща́га » (obSHCHaga), est le cœur de la vie étudiante : on y partage des chambres, on y cuisine et on y crée des liens forts. La « столо́вая » (cantine) n'est pas seulement un lieu pour manger, c'est un espace social où les étudiants se retrouvent entre les cours pour discuter et échanger des nouvelles. Quant à la bibliothèque, elle reste un lieu d'étude sérieux, mais aussi un point de rencontre incontournable, surtout en période d'examens. Ces espaces forgent l'identité et la solidarité étudiantes en Russie."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez la forme correcte au prépositionnel.",
+   "items": [
+    {
+     "question": "Я в (библиотека).",
+     "choix": [
+      "библиоте́ке",
+      "библиоте́ку",
+      "библиоте́ка"
+     ],
+     "reponse": "библиоте́ке"
+    },
+    {
+     "question": "Мы на (площадь).",
+     "choix": [
+      "пло́щади",
+      "пло́щадь",
+      "пло́щадью"
+     ],
+     "reponse": "пло́щади"
+    },
+    {
+     "question": "Дима в (корпус).",
+     "choix": [
+      "ко́рпус",
+      "ко́рпусе",
+      "ко́рпуса"
+     ],
+     "reponse": "ко́рпусе"
+    },
+    {
+     "question": "Аудитория на (факультет).",
+     "choix": [
+      "факультете",
+      "факульте́т",
+      "факульте́ту"
+     ],
+     "reponse": "факультете"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez avec в ou на.",
+   "items": [
+    {
+     "question": "Я живу́ ___ Москве́.",
+     "reponse": "в"
+    },
+    {
+     "question": "Мы гуля́ем ___ па́рке.",
+     "reponse": "в"
+    },
+    {
+     "question": "Студе́нты ___ у́лице.",
+     "reponse": "на"
+    },
+    {
+     "question": "Я учу́сь ___ университе́те.",
+     "reponse": "в"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez le lieu à sa caractéristique principale.",
+   "items": [
+    {
+     "question": "обща́га",
+     "reponse": "résidence universitaire"
+    },
+    {
+     "question": "столо́вая",
+     "reponse": "cantine"
+    },
+    {
+     "question": "аудито́рия",
+     "reponse": "salle de cours"
+    },
+    {
+     "question": "факультете",
+     "reponse": "département / faculté"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez les mots dans l'ordre pour former une phrase.",
+   "items": [
+    {
+     "question": "в / Я / библиоте́ке",
+     "reponse": "Я в библиоте́ке."
+    },
+    {
+     "question": "на / Дима́ / у́лице",
+     "reponse": "Дима́ на у́лице."
+    },
+    {
+     "question": "ко́рпусе / в / Столо́вая",
+     "reponse": "Столо́вая в ко́рпусе."
+    },
+    {
+     "question": "факультете / на / Аудито́рия",
+     "reponse": "Аудито́рия на факульте́те."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez la phrase en russe.",
+   "items": [
+    {
+     "question": "Je suis à la bibliothèque.",
+     "reponse": "Я в библиоте́ке."
+    },
+    {
+     "question": "Où est Dima ?",
+     "reponse": "Где Дима́?"
+    },
+    {
+     "question": "La cantine est dans le bâtiment.",
+     "reponse": "Столо́вая в ко́рпусе."
+    },
+    {
+     "question": "Je suis dans le jardin.",
+     "reponse": "Я в саду́."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez et choisissez le lieu mentionné.",
+   "items": [
+    {
+     "question": "Я в саду́.",
+     "choix": [
+      "сад",
+      "парк",
+      "музе́й"
+     ],
+     "reponse": "сад"
+    },
+    {
+     "question": "Мы на пло́щади.",
+     "choix": [
+      "пло́щадь",
+      "у́лица",
+      "теа́тр"
+     ],
+     "reponse": "пло́щадь"
+    },
+    {
+     "question": "Она́ в обща́ге.",
+     "choix": [
+      "обща́га",
+      "столо́вая",
+      "ко́рпус"
+     ],
+     "reponse": "обща́га"
+    },
+    {
+     "question": "Он на факульте́те.",
+     "choix": [
+      "факультете",
+      "университе́т",
+      "аудито́рия"
+     ],
+     "reponse": "факультете"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bienvenue dans la leçon 5 ! Aujourd'hui, Thomas est perdu sur le campus.",
+   "ecran": "Écran titre avec le campus en 3D.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Nous allons apprendre à localiser quelqu'un et à utiliser le prépositionnel.",
+   "ecran": "Affichage des objectifs.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Écoutez le dialogue entre Thomas et Masha.",
+   "ecran": "Thomas avec son téléphone.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Приве́т, Ма́ша! Где ты?",
+   "ecran": "Thomas parle au téléphone.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Приве́т, То́ма! Я в библиоте́ке. А ты?",
+   "ecran": "Masha à la bibliothèque.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Я в саду́. Где аудито́рия?",
+   "ecran": "Thomas dans le parc.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Аудито́рия на факульте́те.",
+   "ecran": "Masha pointe le bâtiment.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "А где столо́вая?",
+   "ecran": "Thomas frotte son ventre.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Столо́вая в ко́рпусе.",
+   "ecran": "Masha sourit.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Понима́ю. А Дима́? Где он?",
+   "ecran": "Thomas regarde sa montre.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Дима́ в обща́ге.",
+   "ecran": "Masha rit.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Хорошо́. Я иду́ на факульте́т.",
+   "ecran": "Thomas marche.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Дава́й! Я в библиоте́ке. Пока́!",
+   "ecran": "Masha raccroche.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Répétez maintenant le vocabulaire des lieux.",
+   "ecran": "Liste de mots 3D.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v15",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "библиоте́ка",
+   "ecran": "Mot 3D qui apparaît.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "аудито́рия",
+   "ecran": "Mot 3D.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "столо́вая",
+   "ecran": "Mot 3D.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "обща́га",
+   "ecran": "Mot 3D.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la grammaire : le prépositionnel.",
+   "ecran": "Tableau grammatical.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "On ajoute -е à la plupart des mots, et -и après les chuintantes.",
+   "ecran": "Animation du tableau.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Attention au choix de la préposition : в pour l'intérieur, на pour la surface.",
+   "ecran": "Icônes в et на.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Écoutez bien la prononciation : les voyelles non accentuées sont réduites.",
+   "ecran": "Onde sonore.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Москва́",
+   "ecran": "Texte Москва́.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "хорошо́",
+   "ecran": "Texte хорошо́.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Découvrez la culture du campus russe.",
+   "ecran": "Images de l'obshchaga.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "C'est l'heure des exercices ! Commencez par le QCM.",
+   "ecran": "Interface QCM.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Complétez maintenant avec в ou на.",
+   "ecran": "Interface trous.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Associez les lieux à leur définition.",
+   "ecran": "Interface association.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Remettez les mots dans l'ordre.",
+   "ecran": "Interface ordre.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Traduisez ces phrases en russe.",
+   "ecran": "Interface traduction.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Enfin, écoutez et choisissez le bon lieu.",
+   "ecran": "Interface écoute.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo ! Vous savez maintenant vous repérer sur le campus.",
+   "ecran": "Écran de félicitations.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "À bientôt pour la prochaine leçon !",
+   "ecran": "Fondu au noir.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Где ты? Я в библиоте́ке.",
+   "natif": "Où es-tu ? Je suis à la bibliothèque."
+  },
+  {
+   "cible": "Аудито́рия на факульте́те.",
+   "natif": "La salle de cours est à la faculté."
+  },
+  {
+   "cible": "Столо́вая в ко́рпусе.",
+   "natif": "La cantine est dans le bâtiment."
+  },
+  {
+   "cible": "Дима́ в обща́ге.",
+   "natif": "Dima est à la résidence universitaire."
+  },
+  {
+   "cible": "Я живу́ в Москве́.",
+   "natif": "J'habite à Moscou."
+  }
+ ],
+ "controle": []
+}

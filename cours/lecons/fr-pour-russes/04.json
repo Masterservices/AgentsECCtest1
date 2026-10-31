@@ -1,0 +1,889 @@
+{
+ "cours": "fr-pour-russes",
+ "num": 4,
+ "niveau": "A1",
+ "id": "fr-pour-russes-A1-04",
+ "titre": {
+  "cible": "Un café, s'il vous plaît",
+  "natif": "Кофе, пожалуйста"
+ },
+ "objectifs": [
+  "Научиться делать заказ в кафе и просить счет",
+  "Освоить глаголы первой группы (-er) в настоящем времени",
+  "Понять и использовать частичные артикли (du, de la, des)",
+  "Познакомиться с культурой парижских кафе"
+ ],
+ "scene": {
+  "lieu": "Terrasse d'un café parisien",
+  "moment": "Matin, vers 10h",
+  "decor_3d": "Terrasse de café parisien typique avec une banquette en moleskine rouge, des tables rondes en marbre, un comptoir en zinc en arrière-plan, des plantes vertes et une vue sur une rue pavée.",
+  "objets": [
+   "tasse à café",
+   "livre",
+   "menu",
+   "addition",
+   "croissant",
+   "stylo"
+  ],
+  "personnages": [
+   "anna",
+   "lucas"
+  ],
+  "figurants": [
+   {
+    "id": "garcon",
+    "nom": "Marc",
+    "apparence": "Serveur de café parisien, chemise blanche, tablier noir long, torchon sur l'épaule.",
+    "voix": "homme jeune, dynamique et poli"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "garcon",
+   "texte": "Bonjour, mademoiselle. Vous désirez ?",
+   "traduction": "Здравствуйте, мадемуазель. Что желаете?",
+   "geste": "Le serveur s'approche avec un carnet."
+  },
+  {
+   "perso": "anna",
+   "texte": "Bonjour. Un café et un croissant, s'il vous plaît.",
+   "traduction": "Здравствуйте. Кофе и круассан, пожалуйста.",
+   "geste": "Anna ferme le menu et sourit."
+  },
+  {
+   "perso": "garcon",
+   "texte": "Vous prenez du lait avec le café ?",
+   "traduction": "Вы берете молоко к кофе?",
+   "geste": "Le serveur note la commande."
+  },
+  {
+   "perso": "anna",
+   "texte": "Non, je ne prends pas de lait. J'aime le café noir.",
+   "traduction": "Нет, я не беру молоко. Я люблю черный кофе.",
+   "geste": "Anna secoue la tête."
+  },
+  {
+   "perso": "garcon",
+   "texte": "Très bien.",
+   "traduction": "Очень хорошо.",
+   "geste": "Le serveur hoche la tête et s'éloigne."
+  },
+  {
+   "perso": "lucas",
+   "texte": "Pardon, mademoiselle. Vous êtes russe ? J'adore votre accent.",
+   "traduction": "Извините, мадемуазель. Вы русская? Мне очень нравится ваш акцент.",
+   "geste": "Lucas pose son livre et se tourne vers Anna."
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, je m'appelle Anna. J'étudie à Paris. Et vous ?",
+   "traduction": "Да, меня зовут Анна. Я учусь в Париже. А вы?",
+   "geste": "Anna regarde Lucas avec intérêt."
+  },
+  {
+   "perso": "lucas",
+   "texte": "Je m'appelle Lucas. J'étudie la littérature. Je lis beaucoup ici.",
+   "traduction": "Меня зовут Лукас. Я изучаю литературу. Я много читаю здесь.",
+   "geste": "Lucas montre son livre."
+  },
+  {
+   "perso": "anna",
+   "texte": "Vous lisez quel livre ?",
+   "traduction": "Какую книгу вы читаете?",
+   "geste": "Anna pointe le livre du doigt."
+  },
+  {
+   "perso": "lucas",
+   "texte": "Je lis un roman de Victor Hugo. Vous aimez la littérature française ?",
+   "traduction": "Я читаю роман Виктора Гюго. Вам нравится французская литература?",
+   "geste": "Lucas montre la couverture du livre."
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, j'adore la littérature ! Mais je ne parle pas très bien français.",
+   "traduction": "Да, я обожаю литературу! Но я не очень хорошо говорю по-французски.",
+   "geste": "Anna sourit timidement."
+  },
+  {
+   "perso": "lucas",
+   "texte": "Ce n'est pas grave. On peut parler ensemble.",
+   "traduction": "Это не страшно. Мы можем говорить вместе.",
+   "geste": "Lucas sourit de manière encourageante."
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci ! Garçon, l'addition, s'il vous plaît !",
+   "traduction": "Спасибо! Официант, счет, пожалуйста!",
+   "geste": "Anna fait un signe de la main au serveur."
+  },
+  {
+   "perso": "garcon",
+   "texte": "Voilà, mademoiselle. Ça fait quatre euros cinquante.",
+   "traduction": "Вот, мадемуазель. С вас четыре евро пятьдесят.",
+   "geste": "Le serveur pose l'addition sur la table."
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci, au revoir !",
+   "traduction": "Спасибо, до свидания!",
+   "geste": "Anna prend son sac et se lève."
+  },
+  {
+   "perso": "lucas",
+   "texte": "À bientôt, Anna !",
+   "traduction": "До скорого, Анна!",
+   "geste": "Lucas fait un petit signe de la main."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "un café",
+   "prononciation": "[kafe]",
+   "nature": "nom m.",
+   "traduction": "кофе",
+   "exemple": "Je bois un café.",
+   "exemple_traduction": "Я пью кофе."
+  },
+  {
+   "mot": "un croissant",
+   "prononciation": "[kʁwasɑ̃]",
+   "nature": "nom m.",
+   "traduction": "круассан",
+   "exemple": "Je mange un croissant.",
+   "exemple_traduction": "Я ем круассан."
+  },
+  {
+   "mot": "le lait",
+   "prononciation": "[lɛ]",
+   "nature": "nom m.",
+   "traduction": "молоко",
+   "exemple": "Je prends du lait.",
+   "exemple_traduction": "Я беру молоко."
+  },
+  {
+   "mot": "le sucre",
+   "prononciation": "[sykʁ]",
+   "nature": "nom m.",
+   "traduction": "сахар",
+   "exemple": "Vous voulez du sucre ?",
+   "exemple_traduction": "Вы хотите сахар?"
+  },
+  {
+   "mot": "l'addition",
+   "prononciation": "[adisjɔ̃]",
+   "nature": "nom f.",
+   "traduction": "счет",
+   "exemple": "L'addition, s'il vous plaît.",
+   "exemple_traduction": "Счет, пожалуйста."
+  },
+  {
+   "mot": "commander",
+   "prononciation": "[kɔmɑ̃de]",
+   "nature": "verbe",
+   "traduction": "заказывать",
+   "exemple": "Je commande un thé.",
+   "exemple_traduction": "Я заказываю чай."
+  },
+  {
+   "mot": "payer",
+   "prononciation": "[peje]",
+   "nature": "verbe",
+   "traduction": "платить",
+   "exemple": "Je paie l'addition.",
+   "exemple_traduction": "Я оплачиваю счет."
+  },
+  {
+   "mot": "du",
+   "prononciation": "[dy]",
+   "nature": "art. part.",
+   "traduction": "частичный артикль (м.р.)",
+   "exemple": "Je veux du pain.",
+   "exemple_traduction": "Я хочу хлеба."
+  },
+  {
+   "mot": "de la",
+   "prononciation": "[dəla]",
+   "nature": "art. part.",
+   "traduction": "частичный артикль (ж.р.)",
+   "exemple": "Je bois de la limonade.",
+   "exemple_traduction": "Я пью лимонад."
+  },
+  {
+   "mot": "des",
+   "prononciation": "[de]",
+   "nature": "art. part.",
+   "traduction": "частичный артикль (мн.ч.)",
+   "exemple": "Je mange des frites.",
+   "exemple_traduction": "Я ем картошку фри."
+  },
+  {
+   "mot": "un verre",
+   "prononciation": "[vɛʁ]",
+   "nature": "nom m.",
+   "traduction": "стакан",
+   "exemple": "Un verre d'eau, s'il vous plaît.",
+   "exemple_traduction": "Стакан воды, пожалуйста."
+  },
+  {
+   "mot": "une tasse",
+   "prononciation": "[tas]",
+   "nature": "nom f.",
+   "traduction": "чашка",
+   "exemple": "Une tasse de thé.",
+   "exemple_traduction": "Чашка чая."
+  },
+  {
+   "mot": "le menu",
+   "prononciation": "[məny]",
+   "nature": "nom m.",
+   "traduction": "меню",
+   "exemple": "Je regarde le menu.",
+   "exemple_traduction": "Я смотрю меню."
+  },
+  {
+   "mot": "un thé",
+   "prononciation": "[te]",
+   "nature": "nom m.",
+   "traduction": "чай",
+   "exemple": "Je commande un thé.",
+   "exemple_traduction": "Я заказываю чай."
+  },
+  {
+   "mot": "s'il vous plaît",
+   "prononciation": "[silvuplɛ]",
+   "nature": "expr.",
+   "traduction": "пожалуйста",
+   "exemple": "Un café, s'il vous plaît.",
+   "exemple_traduction": "Кофе, пожалуйста."
+  },
+  {
+   "mot": "le serveur",
+   "prononciation": "[sɛʁvœʁ]",
+   "nature": "nom m.",
+   "traduction": "официант",
+   "exemple": "Le serveur arrive.",
+   "exemple_traduction": "Официант подходит."
+  },
+  {
+   "mot": "la terrasse",
+   "prononciation": "[tɛʁas]",
+   "nature": "nom f.",
+   "traduction": "терраса",
+   "exemple": "Je suis à la terrasse.",
+   "exemple_traduction": "Я на террасе."
+  },
+  {
+   "mot": "manger",
+   "prononciation": "[mɑ̃ʒe]",
+   "nature": "verbe",
+   "traduction": "есть, кушать",
+   "exemple": "Je mange un croissant.",
+   "exemple_traduction": "Я ем круассан."
+  },
+  {
+   "mot": "goûter",
+   "prononciation": "[gute]",
+   "nature": "verbe",
+   "traduction": "пробовать (на вкус)",
+   "exemple": "Je goûte le café.",
+   "exemple_traduction": "Я пробую кофе."
+  },
+  {
+   "mot": "délicieux",
+   "prononciation": "[delisjø]",
+   "nature": "adj. m.",
+   "traduction": "вкусный, восхитительный",
+   "exemple": "Le café est délicieux.",
+   "exemple_traduction": "Кофе восхитительный."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Глаголы 1-й группы на -er в настоящем времени и отрицание ne... pas",
+   "explication": "Глаголы первой группы (инфинитив на -er, например, parler, aimer, commander) образуют настоящее время путем отбрасывания окончания -er и добавления личных окончаний: -e, -es, -e, -ons, -ez, -ent. Для образования отрицания частица ne ставится перед глаголом, а pas — после него. Если глагол начинается с гласной, ne сокращается до n'.",
+   "tableau": [
+    [
+     "Pronom",
+     "Terminaison",
+     "Exemple (parler)",
+     "Négation"
+    ],
+    [
+     "je",
+     "-e",
+     "je parle",
+     "je ne parle pas"
+    ],
+    [
+     "tu",
+     "-es",
+     "tu parles",
+     "tu ne parles pas"
+    ],
+    [
+     "il/elle/on",
+     "-e",
+     "il parle",
+     "il ne parle pas"
+    ],
+    [
+     "nous",
+     "-ons",
+     "nous parlons",
+     "nous ne parlons pas"
+    ],
+    [
+     "vous",
+     "-ez",
+     "vous parlez",
+     "vous ne parlez pas"
+    ],
+    [
+     "ils/elles",
+     "-ent",
+     "ils parlent",
+     "ils ne parlent pas"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "J'adore le café, mais je ne commande pas de thé.",
+     "natif": "Я обожаю кофе, но не заказываю чай."
+    }
+   ]
+  },
+  {
+   "titre": "Частичные артикли du, de la, des и их изменение при отрицании",
+   "explication": "Частичные артикли используются с неисчисляемыми существительными (напитки, еда, абстрактные понятия), чтобы указать на неопределенное количество. Du (м.р.), de la (ж.р.), des (мн.ч.). Важное правило: в отрицательных предложениях (с ne... pas) все частичные (и неопределенные) артикли заменяются на предлог de (или d' перед гласной). Исключение — глагол être.",
+   "tableau": [
+    [
+     "Affirmation",
+     "Négation",
+     "Exemple"
+    ],
+    [
+     "du (masculin)",
+     "de",
+     "Je prends du lait. -> Je ne prends pas de lait."
+    ],
+    [
+     "de la (féminin)",
+     "de",
+     "Je bois de la limonade. -> Je ne bois pas de limonade."
+    ],
+    [
+     "des (pluriel)",
+     "de",
+     "Je mange des croissants. -> Je ne mange pas de croissants."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Tu veux du sucre ? Non, je ne veux pas de sucre.",
+     "natif": "Ты хочешь сахар? Нет, я не хочу сахар."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Accent final de groupe rythmique (Ударение в ритмической группе)",
+  "explication": "Во французском языке ударение не фиксировано на одном и том же слоге слова, как в русском. Оно всегда падает на последний произносимый слог ритмической группы (смыслового отрезка фразы). Например, в предложении 'Je bois un café' ударение падает на последний слог слова 'café' [fe]. Если фраза длиннее, ударение смещается на конец всей группы: 'Je bois un café / sur la terrasse' (ударение на [ras]). Это придает французской речи ее характерную плавность и равномерность.",
+  "exemples": [
+   "Un café, s'il vous plaît. [plɛ]",
+   "Je ne prends pas de lait. [lɛ]",
+   "J'adore la littérature française. [sɛz]"
+  ]
+ },
+ "culture": {
+  "titre": "Le rituel du café en terrasse à Paris",
+  "texte": "В Париже кафе — это не просто место, где пьют кофе, а настоящий социальный институт и часть культурного кода. Террасы парижских кафе устроены особым образом: стулья и столики часто развернуты лицом к улице, а не друг к другу. Это создает эффект «театра», где прохожие становятся актерами, а посетители — зрителями. Парижане могут сидеть за чашкой эспрессо (который здесь часто называют просто «un café») часами, читая книгу, обсуждая новости или просто наблюдая за жизнью города. Официанты в традиционных парижских бистро, с их длинными белыми фартуками и стремительной походкой, — такие же символы города, как Эйфелева башня. Знание базовых фраз для заказа и умение наслаждаться моментом — ключ к пониманию парижского образа жизни."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Выберите правильную форму глагола в настоящем времени",
+   "items": [
+    {
+     "question": "Je (commander) un café.",
+     "choix": [
+      "commande",
+      "commandes",
+      "commandons"
+     ],
+     "reponse": "commande"
+    },
+    {
+     "question": "Nous (aimer) la terrasse.",
+     "choix": [
+      "aime",
+      "aimons",
+      "aimez"
+     ],
+     "reponse": "aimons"
+    },
+    {
+     "question": "Vous (regarder) le menu ?",
+     "choix": [
+      "regarde",
+      "regardons",
+      "regardez"
+     ],
+     "reponse": "regardez"
+    },
+    {
+     "question": "Ils (parler) français.",
+     "choix": [
+      "parle",
+      "parlons",
+      "parlent"
+     ],
+     "reponse": "parlent"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Вставьте частичный артикль (du, de la, des) или предлог de при отрицании",
+   "items": [
+    {
+     "question": "Je veux ___ lait.",
+     "reponse": "du"
+    },
+    {
+     "question": "Elle ne mange pas ___ croissant.",
+     "reponse": "de"
+    },
+    {
+     "question": "Nous prenons ___ limonade.",
+     "reponse": "de la"
+    },
+    {
+     "question": "Tu ne bois pas ___ thé.",
+     "reponse": "de"
+    },
+    {
+     "question": "Ils commandent ___ frites.",
+     "reponse": "des"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Соотнесите французское слово и его перевод",
+   "items": [
+    {
+     "question": "l'addition",
+     "reponse": "счет"
+    },
+    {
+     "question": "le serveur",
+     "reponse": "официант"
+    },
+    {
+     "question": "un verre",
+     "reponse": "стакан"
+    },
+    {
+     "question": "la terrasse",
+     "reponse": "терраса"
+    },
+    {
+     "question": "goûter",
+     "reponse": "пробовать"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Составьте предложение из слов, расставив их в правильном порядке",
+   "items": [
+    {
+     "question": "café / Un / s'il / vous / plaît / ,",
+     "reponse": "Un café, s'il vous plaît."
+    },
+    {
+     "question": "pas / ne / lait / Je / de / prends / .",
+     "reponse": "Je ne prends pas de lait."
+    },
+    {
+     "question": "française / J' / la / adore / littérature / .",
+     "reponse": "J'adore la littérature française."
+    },
+    {
+     "question": "fait / euros / Ça / quatre / .",
+     "reponse": "Ça fait quatre euros."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Переведите фразу на французский язык",
+   "items": [
+    {
+     "question": "Я люблю черный кофе.",
+     "reponse": "J'aime le café noir."
+    },
+    {
+     "question": "Счет, пожалуйста.",
+     "reponse": "L'addition, s'il vous plaît."
+    },
+    {
+     "question": "Я не говорю по-французски.",
+     "reponse": "Je ne parle pas français."
+    },
+    {
+     "question": "Мы заказываем круассаны.",
+     "reponse": "Nous commandons des croissants."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Выберите слово, которое вы слышите",
+   "items": [
+    {
+     "question": "[kʁwasɑ̃]",
+     "choix": [
+      "croissant",
+      "caisse",
+      "classe"
+     ],
+     "reponse": "croissant"
+    },
+    {
+     "question": "[tɛʁas]",
+     "choix": [
+      "tasse",
+      "terrasse",
+      "table"
+     ],
+     "reponse": "terrasse"
+    },
+    {
+     "question": "[adisjɔ̃]",
+     "choix": [
+      "attention",
+      "addition",
+      "action"
+     ],
+     "reponse": "addition"
+    },
+    {
+     "question": "[sɛʁvœʁ]",
+     "choix": [
+      "serveur",
+      "sucre",
+      "sel"
+     ],
+     "reponse": "serveur"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Привет! Добро пожаловать на четвертый урок курса «Французский для русскоговорящих».",
+   "ecran": "Титульный экран с названием урока",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Сегодня мы отправимся на террасу парижского кафе. Вы научитесь делать заказ, просить счет и познакомитесь с интересным человеком.",
+   "ecran": "Анимация появления целей урока",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Écoutez le dialogue.",
+   "ecran": "Камера наезжает на террасу кафе",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "garcon",
+   "langue": "fr",
+   "texte": "Bonjour, mademoiselle. Vous désirez ?",
+   "ecran": "Официант подходит к столику Анны",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v05",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Bonjour. Un café et un croissant, s'il vous plaît.",
+   "ecran": "Анна закрывает меню и улыбается",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "garcon",
+   "langue": "fr",
+   "texte": "Vous prenez du lait avec le café ?",
+   "ecran": "Официант записывает заказ",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v07",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Non, je ne prends pas de lait. J'aime le café noir.",
+   "ecran": "Анна качает головой",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "garcon",
+   "langue": "fr",
+   "texte": "Très bien.",
+   "ecran": "Официант кивает и уходит",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v09",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "Pardon, mademoiselle. Vous êtes russe ? J'adore votre accent.",
+   "ecran": "Лукас откладывает книгу и поворачивается к Анне",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v10",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, je m'appelle Anna. J'étudie à Paris. Et vous ?",
+   "ecran": "Анна с интересом смотрит на Лукаса",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "Je m'appelle Lucas. J'étudie la littérature. Je lis beaucoup ici.",
+   "ecran": "Лукас показывает свою книгу",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v12",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Vous lisez quel livre ?",
+   "ecran": "Анна указывает на книгу",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "Je lis un roman de Victor Hugo. Vous aimez la littérature française ?",
+   "ecran": "Лукас показывает обложку книги",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v14",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, j'adore la littérature ! Mais je ne parle pas très bien français.",
+   "ecran": "Анна смущенно улыбается",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "Ce n'est pas grave. On peut parler ensemble.",
+   "ecran": "Лукас ободряюще улыбается",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v16",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci ! Garçon, l'addition, s'il vous plaît !",
+   "ecran": "Анна машет рукой официанту",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "garcon",
+   "langue": "fr",
+   "texte": "Voilà, mademoiselle. Ça fait quatre euros cinquante.",
+   "ecran": "Официант кладет счет на стол",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v18",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci, au revoir !",
+   "ecran": "Анна берет сумку и встает",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v19",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "À bientôt, Anna !",
+   "ecran": "Лукас машет рукой",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отличная работа! А теперь давайте повторим новые слова и выражения.",
+   "ecran": "Список словарных слов на экране",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Повторяйте за диктором: un café, un croissant, l'addition, le serveur...",
+   "ecran": "Слова появляются по одному с транскрипцией",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь перейдем к грамматике. Мы разберем глаголы первой группы на -er и частичные артикли.",
+   "ecran": "Экран с заголовком Грамматика",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Глаголы на -er, такие как parler или aimer, получают окончания -e, -es, -e, -ons, -ez, -ent.",
+   "ecran": "Таблица спряжения глагола parler",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Для отрицания используем ne... pas вокруг глагола. А частичные артикли du, de la, des при отрицании превращаются в de.",
+   "ecran": "Примеры с выделением отрицания и артиклей",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Обратите внимание на произношение: ударение всегда падает на последний слог ритмической группы.",
+   "ecran": "Анимация звуковой волны с выделением последнего слога",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "А в рубрике «Культура» вы узнаете, почему парижане так любят сидеть на террасах кафе.",
+   "ecran": "Текст и фото парижского кафе",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Пора практиковаться! Выполните шесть упражнений для закрепления материала.",
+   "ecran": "Меню упражнений",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 1: Выберите правильную форму глагола.",
+   "ecran": "Интерфейс теста с 4 вопросами",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 2: Вставьте частичный артикль или предлог de.",
+   "ecran": "Поля для ввода текста",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 3: Соотнесите слова и их перевод.",
+   "ecran": "Экран с парами для соединения",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 4: Составьте предложения из слов.",
+   "ecran": "Слова-пазлы для перетаскивания",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 5: Переведите фразы на французский.",
+   "ecran": "Поля для написания перевода",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 6: Выберите слово, которое вы слышите.",
+   "ecran": "Кнопка воспроизведения аудио и варианты ответов",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Поздравляю! Вы отлично справились с уроком. Вы теперь умеете заказывать кофе по-французски!",
+   "ecran": "Анимация конфетти и медали за урок",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "До встречи на следующем уроке! À bientôt !",
+   "ecran": "Заставка конца урока",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Un café, s'il vous plaît.",
+   "natif": "Кофе, пожалуйста."
+  },
+  {
+   "cible": "Je ne prends pas de lait.",
+   "natif": "Я не беру (не пью) молоко."
+  },
+  {
+   "cible": "L'addition, s'il vous plaît !",
+   "natif": "Счет, пожалуйста!"
+  },
+  {
+   "cible": "J'adore la littérature française.",
+   "natif": "Я обожаю французскую литературу."
+  },
+  {
+   "cible": "Ça fait quatre euros.",
+   "natif": "С вас четыре евро."
+  }
+ ],
+ "controle": []
+}

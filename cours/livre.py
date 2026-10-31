@@ -25,7 +25,7 @@ ICI = Path(__file__).resolve().parent
 F = "/usr/share/fonts/truetype/dejavu/"
 pdfmetrics.registerFont(TTFont("DV", F + "DejaVuSans.ttf"))
 pdfmetrics.registerFont(TTFont("DVB", F + "DejaVuSans-Bold.ttf"))
-pdfmetrics.registerFont(TTFont("DVI", F + "DejaVuSans-Oblique.ttf"))
+pdfmetrics.registerFont(TTFont("DVI", "/usr/share/fonts/truetype/freefont/FreeSansOblique.ttf"))
 pdfmetrics.registerFontFamily("DV", normal="DV", bold="DVB", italic="DVI", boldItalic="DVB")
 ENCRE, GRIS, ACCENT, FOND = colors.HexColor("#1d2430"), colors.HexColor("#5b6472"), colors.HexColor("#1f4e8c"), colors.HexColor("#eef3fa")
 ST = {

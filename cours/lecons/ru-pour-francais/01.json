@@ -1,0 +1,948 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 1,
+ "niveau": "A1",
+ "id": "ru-pour-francais-A1-01",
+ "titre": {
+  "cible": "Знако́мство с алфави́том. Приве́т!",
+  "natif": "Découverte de l'alphabet. Bonjour !"
+ },
+ "objectifs": [
+  "Saluer et prendre congé en russe (приве́т, здра́вствуйте, до свида́ния)",
+  "Se présenter sommairement : Меня́ зову́т…",
+  "Reconnaître et lire 8 lettres cyrilliques transparentes (А, К, М, О, Т, Д, Е, Н) et 6 lettres « faux-amis » (В, Н, Р, С, У, Х)",
+  "Comprendre l'absence d'article et la structure Sujet + Verbe (Э́то Москва́.)",
+  "Utiliser les pronoms personnels sujets : я, ты, он, она́"
+ ],
+ "scene": {
+  "lieu": "Aéroport Cheremetievo (Шереме́тьево), hall des arrivées, Moscou",
+  "moment": "Fin d'après-midi, lumière dorée d'automne filtrant par les grandes baies vitrées",
+  "decor_3d": "Vaste hall moderne aux sols en marbre poli reflétant les néons. Au-dessus des portes coulissantes, de grands panneaux lumineux en cyrillique clignotent en bleu et blanc : « ПРИЛЁТ », « ВЫХОД », « БАГАЖ ». Sur la gauche, un tapis roulant à bagages tourne lentement. Sur la droite, une zone d'attente avec des barrières métalliques où quelques personnes tiennent des pancartes. Au fond, un comptoir « ТАМОЖНЯ » avec un agent en uniforme. L'ambiance est animée : voyageurs avec valises, annonces sonores. Un grand samovar décoratif trône près d'un café, clin d'œil culturel.",
+  "objets": [
+   "Panneau lumineux « ПРИЛЁТ » (Arrivées)",
+   "Panneau lumineux « ВЫХОД » (Sortie)",
+   "Panneau lumineux « БАГАЖ » (Bagages)",
+   "Pancarte en carton où est écrit « ТОМАС »",
+   "Valise à roulettes bleue (Thomas)",
+   "Passeport français rouge bordeaux",
+   "Tapis roulant à bagages",
+   "Samovar décoratif en cuivre (café du hall)",
+   "Barrières métalliques zone d'attente",
+   "Comptoir taможня avec guichet"
+  ],
+  "personnages": [
+   "thomas",
+   "masha"
+  ],
+  "figurants": [
+   {
+    "id": "agent",
+    "nom": "Agent de douane",
+    "apparence": "Homme d'une quarantaine d'années, uniforme bleu marine avec épaulettes, casquette à visière, visage neutre et professionnel",
+    "voix": "Baryton grave, ton formel et sec, débit lent"
+   },
+   {
+    "id": "babushka",
+    "nom": "Voyageuse âgée",
+    "apparence": "Femme d'environ 70 ans, foulard fleuri sur la tête, manteau long, petit chariot à bagages",
+    "voix": "Voix aiguë et chaleureuse, légèrement chevrotante"
+   },
+   {
+    "id": "narrateur",
+    "nom": "Narrateur"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "narrateur",
+   "texte": "Томас прилета́ет в Москву́. Аэропо́рт Шереме́тьево.",
+   "traduction": "Thomas atterrit à Moscou. Aéroport Cheremetievo.",
+   "geste": "La caméra survole le hall, s'arrête sur Thomas qui tire sa valise bleue, regardant autour de lui avec curiosité"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Э́то… э́то Москва́? Приве́т, Москва́!",
+   "traduction": "C'est… c'est Moscou ? Bonjour, Moscou !",
+   "geste": "Thomas s'arrête, lève les yeux vers le panneau ПРИЛЁТ, sourit timidement et murmure pour lui-même"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Вы́ход… Бага́ж… Я чита́ю!",
+   "traduction": "Sortie… Bagages… Je lis !",
+   "geste": "Thomas pointe du doigt les panneaux lumineux, déchiffre lentement en articulant chaque lettre, poing levé de fierté"
+  },
+  {
+   "perso": "agent",
+   "texte": "Па́спорт, пожа́луйста. Тамо́жня.",
+   "traduction": "Passeport, s'il vous plaît. Douane.",
+   "geste": "L'agent tend la main paume ouverte, visage impassible, index pointant le comptoir ТАМОЖНЯ"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Па́спорт. Вот.",
+   "traduction": "Passeport. Voilà.",
+   "geste": "Thomas fouille sa veste, sort le passeport bordeaux et le tend avec un sourire nerveux"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Где… э-э… вы́ход?",
+   "traduction": "Où est… euh… la sortie ?",
+   "geste": "Thomas regarde autour de lui, hésitant, fait un geste vague de la main en cherchant une direction"
+  },
+  {
+   "perso": "masha",
+   "texte": "Приве́т! Ты Томас?",
+   "traduction": "Salut ! Tu es Thomas ?",
+   "geste": "Masha surgit derrière la barrière, agite une pancarte « ТОМАС », grand sourire, fait un pas en avant"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Да! Приве́т! Я Томас.",
+   "traduction": "Oui ! Salut ! Je suis Thomas.",
+   "geste": "Thomas se retourne, soulagé, pointe son propre torse du pouce, sourit largement"
+  },
+  {
+   "perso": "masha",
+   "texte": "Здра́вствуйте! Меня́ зову́т Ма́ша. Я студе́нтка.",
+   "traduction": "Bonjour ! Je m'appelle Masha. Je suis étudiante.",
+   "geste": "Masha range la pancarte sous son bras, tend la main pour une poignée, se tient droite et souriante"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Здра́вствуйте, Ма́ша! Меня́ зову́т Тома́. Я студе́нт.",
+   "traduction": "Bonjour, Masha ! Je m'appelle Thomas. Je suis étudiant.",
+   "geste": "Thomas serre la main de Masha, se redresse, essaie de prononcer « студент » avec application"
+  },
+  {
+   "perso": "masha",
+   "texte": "Очень хорошо́! Э́то Москва́. Ты в Росси́и!",
+   "traduction": "Très bien ! C'est Moscou. Tu es en Russie !",
+   "geste": "Masha fait un grand geste circulaire du bras pour englober le hall, puis pointe le sol avec enthousiasme"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Спаси́бо, Ма́ша!",
+   "traduction": "Merci, Masha !",
+   "geste": "Thomas pose la main sur son cœur, incline légèrement la tête en signe de gratitude"
+  },
+  {
+   "perso": "masha",
+   "texte": "Пойдём! Бага́ж там.",
+   "traduction": "Allons-y ! Les bagages sont là-bas.",
+   "geste": "Masha fait signe de la suivre, pointe le tapis roulant à bagages, se met en marche"
+  },
+  {
+   "perso": "thomas",
+   "texte": "Хорошо́! До свида́ния, аэропо́рт!",
+   "traduction": "D'accord ! Au revoir, aéroport !",
+   "geste": "Thomas attrape sa valise, fait un petit salut de la main au panneau ПРИЛЁТ, emboîte le pas à Masha en riant"
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "приве́т",
+   "prononciation": "priVET",
+   "nature": "interjection (informel)",
+   "traduction": "salut",
+   "exemple": "Приве́т, Ма́ша!",
+   "exemple_traduction": "Salut, Masha !"
+  },
+  {
+   "mot": "здра́вствуйте",
+   "prononciation": "ZDRAsvuytye",
+   "nature": "interjection (formel)",
+   "traduction": "bonjour",
+   "exemple": "Здра́вствуйте! Меня́ зову́т Тома́.",
+   "exemple_traduction": "Bonjour ! Je m'appelle Thomas."
+  },
+  {
+   "mot": "до свида́ния",
+   "prononciation": "da sviDAniya",
+   "nature": "interjection",
+   "traduction": "au revoir",
+   "exemple": "До свида́ния, аэропо́рт!",
+   "exemple_traduction": "Au revoir, aéroport !"
+  },
+  {
+   "mot": "меня́ зову́т",
+   "prononciation": "meNYA zaVUT",
+   "nature": "expression figée",
+   "traduction": "je m'appelle (litt. : on m'appelle)",
+   "exemple": "Меня́ зову́т Ма́ша.",
+   "exemple_traduction": "Je m'appelle Masha."
+  },
+  {
+   "mot": "э́то",
+   "prononciation": "Eta",
+   "nature": "pronom démonstratif",
+   "traduction": "c'est / ceci",
+   "exemple": "Э́то Москва́.",
+   "exemple_traduction": "C'est Moscou."
+  },
+  {
+   "mot": "я",
+   "prononciation": "ya",
+   "nature": "pronom personnel (1re pers. sg.)",
+   "traduction": "je",
+   "exemple": "Я студе́нт.",
+   "exemple_traduction": "Je suis étudiant."
+  },
+  {
+   "mot": "ты",
+   "prononciation": "ty",
+   "nature": "pronom personnel (2e pers. sg., informel)",
+   "traduction": "tu",
+   "exemple": "Ты Томас?",
+   "exemple_traduction": "Tu es Thomas ?"
+  },
+  {
+   "mot": "он",
+   "prononciation": "on",
+   "nature": "pronom personnel (3e pers. sg. masc.)",
+   "traduction": "il",
+   "exemple": "Он студе́нт.",
+   "exemple_traduction": "Il est étudiant."
+  },
+  {
+   "mot": "она́",
+   "prononciation": "aNA",
+   "nature": "pronom personnel (3e pers. sg. fém.)",
+   "traduction": "elle",
+   "exemple": "Она́ студе́нтка.",
+   "exemple_traduction": "Elle est étudiante."
+  },
+  {
+   "mot": "вы́ход",
+   "prononciation": "VYkhad",
+   "nature": "nom m.",
+   "traduction": "sortie",
+   "exemple": "Где вы́ход?",
+   "exemple_traduction": "Où est la sortie ?"
+  },
+  {
+   "mot": "бага́ж",
+   "prononciation": "baGAZH",
+   "nature": "nom m.",
+   "traduction": "bagages",
+   "exemple": "Бага́ж там.",
+   "exemple_traduction": "Les bagages sont là-bas."
+  },
+  {
+   "mot": "па́спорт",
+   "prononciation": "PASpart",
+   "nature": "nom m.",
+   "traduction": "passeport",
+   "exemple": "Па́спорт, пожа́луйста.",
+   "exemple_traduction": "Passeport, s'il vous plaît."
+  },
+  {
+   "mot": "тамо́жня",
+   "prononciation": "taMOZHnya",
+   "nature": "nom f.",
+   "traduction": "douane",
+   "exemple": "Э́то тамо́жня.",
+   "exemple_traduction": "C'est la douane."
+  },
+  {
+   "mot": "аэропо́рт",
+   "prononciation": "aerapORT",
+   "nature": "nom m.",
+   "traduction": "aéroport",
+   "exemple": "Аэропо́рт Шереме́тьево.",
+   "exemple_traduction": "L'aéroport Cheremetievo."
+  },
+  {
+   "mot": "Москва́",
+   "prononciation": "masKVA",
+   "nature": "nom propre f.",
+   "traduction": "Moscou",
+   "exemple": "Э́то Москва́.",
+   "exemple_traduction": "C'est Moscou."
+  },
+  {
+   "mot": "студе́нт",
+   "prononciation": "stuDENT",
+   "nature": "nom m.",
+   "traduction": "étudiant",
+   "exemple": "Я студе́нт.",
+   "exemple_traduction": "Je suis étudiant."
+  },
+  {
+   "mot": "студе́нтка",
+   "prononciation": "stuDENTka",
+   "nature": "nom f.",
+   "traduction": "étudiante",
+   "exemple": "Я студе́нтка.",
+   "exemple_traduction": "Je suis étudiante."
+  },
+  {
+   "mot": "спаси́бо",
+   "prononciation": "spaSIba",
+   "nature": "interjection",
+   "traduction": "merci",
+   "exemple": "Спаси́бо, Ма́ша!",
+   "exemple_traduction": "Merci, Masha !"
+  },
+  {
+   "mot": "да",
+   "prononciation": "da",
+   "nature": "particule affirmative",
+   "traduction": "oui",
+   "exemple": "Да! Я Томас.",
+   "exemple_traduction": "Oui ! Je suis Thomas."
+  },
+  {
+   "mot": "хорошо́",
+   "prononciation": "kharaSHO",
+   "nature": "adverbe / interjection",
+   "traduction": "bien / d'accord",
+   "exemple": "Очень хорошо́!",
+   "exemple_traduction": "Très bien !"
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "L'absence d'article et la structure « Э́то + nom »",
+   "explication": "En français, on dit « C'est Moscou », « C'est la douane », « C'est un aéroport ». Les articles (le, la, un, une) sont omniprésents. En russe, il n'existe aucun article : ni défini, ni indéfini. On dit simplement « Москва », « тамо́жня », « аэропо́рт », sans aucun petit mot devant. Pour désigner ou présenter quelque chose, on utilise le pronom démonstratif « э́то » (c'est / ceci) suivi directement du nom, sans verbe « être » au présent. La structure est donc : Э́то + nom. Exemple : Э́то Москва́ (C'est Moscou), Э́то бага́ж (Ce sont les bagages). Le verbe « être » (быть) est omis au présent : « Я студе́нт » = « Je suis étudiant », sans mot pour « suis ». C'est la grande simplification par rapport au français : pas d'article, pas de verbe être au présent. Cette structure sera votre outil principal pour identifier et présenter tout au long du niveau A1.",
+   "tableau": [
+    [
+     "Français",
+     "Russe",
+     "Littéral"
+    ],
+    [
+     "C'est Moscou.",
+     "Э́то Москва́.",
+     "Ceci Moscou."
+    ],
+    [
+     "C'est la douane.",
+     "Э́то тамо́жня.",
+     "Ceci douane."
+    ],
+    [
+     "Je suis étudiant.",
+     "Я студе́нт.",
+     "Je étudiant."
+    ],
+    [
+     "C'est l'aéroport.",
+     "Э́то аэропо́рт.",
+     "Ceci aéroport."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Э́то вы́ход.",
+     "natif": "C'est la sortie."
+    },
+    {
+     "cible": "Э́то па́спорт.",
+     "natif": "C'est le passeport."
+    },
+    {
+     "cible": "Я Тома́.",
+     "natif": "Je suis Thomas."
+    },
+    {
+     "cible": "Она́ Ма́ша.",
+     "natif": "Elle est Masha."
+    }
+   ]
+  },
+  {
+   "titre": "Les pronoms personnels sujets : я, ты, он, она́",
+   "explication": "Le russe possède six pronoms personnels, mais au niveau A1, nous introduisons les quatre premiers. « Я » (je) est invariable. « Ты » (tu) s'emploie avec les amis, la famille, les personnes du même âge ; c'est le registre informel. Pour un inconnu, un supérieur ou dans un contexte formel, on utilise « вы » (vous), que nous verrons plus tard. « Он » (il) et « она́ » (elle) correspondent à la 3e personne. Attention : en russe, le pronom sujet est souvent omis quand le contexte est clair, car la terminaison du verbe ou la situation suffit. Cependant, pour insister ou pour clarifier, on l'exprime : « Он студе́нт » (Il est étudiant). Notez que « она́ » prend un accent sur le а final, ce qui le distingue de « он ». À ce stade, retenez simplement ces quatre formes et leur équivalent français ; la conjugaison viendra progressivement.",
+   "tableau": [
+    [
+     "Pronome russe",
+     "Prononciation",
+     "Équivalent français",
+     "Registre"
+    ],
+    [
+     "я",
+     "/ya/",
+     "je",
+     "—"
+    ],
+    [
+     "ты",
+     "/ty/",
+     "tu",
+     "informel"
+    ],
+    [
+     "он",
+     "/on/",
+     "il",
+     "—"
+    ],
+    [
+     "она́",
+     "/aNA/",
+     "elle",
+     "—"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Я Томас.",
+     "natif": "Je suis Thomas."
+    },
+    {
+     "cible": "Ты Ма́ша?",
+     "natif": "Tu es Masha ?"
+    },
+    {
+     "cible": "Он студе́нт.",
+     "natif": "Il est étudiant."
+    },
+    {
+     "cible": "Она́ студе́нтка.",
+     "natif": "Elle est étudiante."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "L'alphabet cyrillique (partie 1 : А à К) et les « faux-amis » visuels",
+  "explication": "L'alphabet cyrillique compte 33 lettres. Dans cette première leçon, nous découvrons les lettres de А à К. Certaines sont « transparentes » : elles ressemblent à des lettres latines et se prononcent de façon similaire — А /a/, К /k/, М /m/, О /o/, Т /t/, Д /d/, Е /je/. D'autres sont des « faux-amis » visuels : elles ressemblent à des lettres latines mais se prononcent différemment. В ressemble à un B mais se prononce /v/. Н ressemble à un H mais se prononce /n/. Р ressemble à un P mais se prononce /r/ roulé. С ressemble à un C mais se prononce /s/. У ressemble à un Y mais se prononce /u/ (comme « ou » français). Х n'a pas d'équivalent direct en français : c'est un /kh/ guttural, comme dans l'allemand « Bach ». Entraînez-vous à lire les panneaux de l'aéroport : ПРИЛЁТ (прилёт = arrivée), ВЫХОД (sortie), БАГАЖ (bagages). Ne vous fiez pas à votre première impression latine !",
+  "exemples": [
+   "А а — /a/ comme dans « avion » → АЭРОПО́РТ",
+   "В в — /v/ (faux ami, ressemble à B) → ВЫ́ХОД",
+   "Д д — /d/ comme dans « douane » → ДО",
+   "Е е — /je/ comme dans « yes » → Э́ТО",
+   "К к — /k/ comme dans « kiosque » → БАГА́Ж (non, ici К absent) → К",
+   "М м — /m/ comme dans « maman » → МОСКВА́",
+   "Н н — /n/ (faux ami, ressemble à H) → ТАМО́ЖНЯ",
+   "О о — /o/ comme dans « or » → О́ЧЕНЬ",
+   "Р р — /r/ roulé (faux ami, ressemble à P) → РОССИ́Я",
+   "С с — /s/ (faux ami, ressemble à C) → СПАСИ́БО",
+   "Т т — /t/ comme dans « table » → ТАМО́ЖНЯ",
+   "У у — /u/ comme « ou » français (faux ami, ressemble à Y) → СТУДЕНТ"
+  ]
+ },
+ "culture": {
+  "titre": "L'accueil à la russe : froideur apparente, chaleur réelle",
+  "texte": "Quand Thomas arrive à Cheremetievo, il est frappé par les visages sérieux autour de lui. L'agent de douane ne sourit pas. Masha elle-même commence par un « Здра́вствуйте » formel avant de passer au « приве́т » amical. En Russie, le sourire n'est pas automatique ni social : il se mérite, il se donne à ceux qu'on connaît. Un Russe qui ne sourit pas n'est pas impoli — il est simplement sincère. Mais une fois la glace brisée, l'hospitalité est immense. Chez Nina, la propriétaire de Thomas, un samovar trônera toujours sur la table de la cuisine : symbole ancestral de l'accueil, il signifie « tu es chez toi, assieds-toi, bois un thé ». La chaleur russe se révèle dans la durée, pas dans les premières secondes. Thomas l'apprendra vite : derrière la réserve, il y a un cœur grand ouvert."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Quelle lettre cyrillique se prononce /v/ et ressemble à un B latin ?",
+   "items": [
+    {
+     "question": "Quelle lettre cyrillique se prononce /v/ ?",
+     "choix": [
+      "Б",
+      "В",
+      "У",
+      "Н"
+     ],
+     "reponse": "В"
+    },
+    {
+     "question": "Quelle lettre cyrillique se prononce /n/ ?",
+     "choix": [
+      "Н",
+      "И",
+      "М",
+      "П"
+     ],
+     "reponse": "Н"
+    },
+    {
+     "question": "Quelle lettre cyrillique se prononce /r/ roulé ?",
+     "choix": [
+      "Я",
+      "Р",
+      "Г",
+      "Т"
+     ],
+     "reponse": "Р"
+    },
+    {
+     "question": "Quelle lettre cyrillique se prononce /u/ (comme « ou ») ?",
+     "choix": [
+      "У",
+      "Ю",
+      "О",
+      "А"
+     ],
+     "reponse": "У"
+    },
+    {
+     "question": "Quelle lettre cyrillique se prononce /s/ ?",
+     "choix": [
+      "С",
+      "З",
+      "Ш",
+      "Щ"
+     ],
+     "reponse": "С"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez les phrases avec le mot approprié : приве́т / здра́вствуйте / меня́ зову́т / э́то / до свида́ния.",
+   "items": [
+    {
+     "question": "___, Ма́ша! (informel, entre amis)",
+     "reponse": "Приве́т"
+    },
+    {
+     "question": "___! Меня́ зову́т Тома́. (formel)",
+     "reponse": "Здра́вствуйте"
+    },
+    {
+     "question": "Меня́ ___ Ма́ша.",
+     "reponse": "зову́т"
+    },
+    {
+     "question": "___ Москва́. (présentation d'un lieu)",
+     "reponse": "Э́то"
+    },
+    {
+     "question": "___, аэропо́рт! (prendre congé)",
+     "reponse": "До свида́ния"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez chaque lettre cyrillique à sa prononciation correcte.",
+   "items": [
+    {
+     "question": "В",
+     "reponse": "/v/"
+    },
+    {
+     "question": "Н",
+     "reponse": "/n/"
+    },
+    {
+     "question": "Р",
+     "reponse": "/r/ roulé"
+    },
+    {
+     "question": "С",
+     "reponse": "/s/"
+    },
+    {
+     "question": "У",
+     "reponse": "/u/ (ou)"
+    },
+    {
+     "question": "Х",
+     "reponse": "/kh/ guttural"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez les répliques du dialogue dans l'ordre chronologique (1 à 5).",
+   "items": [
+    {
+     "question": "Меня́ зову́т Ма́ша. Я студе́нтка.",
+     "reponse": "3"
+    },
+    {
+     "question": "Приве́т! Ты Томас?",
+     "reponse": "2"
+    },
+    {
+     "question": "Здра́вствуйте, Ма́ша! Меня́ зову́т Тома́.",
+     "reponse": "4"
+    },
+    {
+     "question": "Э́то Москва́? Приве́т, Москва́!",
+     "reponse": "1"
+    },
+    {
+     "question": "До свида́ния, аэропо́рт!",
+     "reponse": "5"
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez en russe les phrases suivantes (structures vues dans la leçon).",
+   "items": [
+    {
+     "question": "C'est Moscou.",
+     "reponse": "Э́то Москва́."
+    },
+    {
+     "question": "Je suis étudiant.",
+     "reponse": "Я студе́нт."
+    },
+    {
+     "question": "Salut ! Tu es Masha ?",
+     "reponse": "Приве́т! Ты Ма́ша?"
+    },
+    {
+     "question": "C'est la sortie.",
+     "reponse": "Э́то вы́ход."
+    },
+    {
+     "question": "Elle est étudiante.",
+     "reponse": "Она́ студе́нтка."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez l'enregistrement et choisissez la phrase que vous entendez.",
+   "items": [
+    {
+     "question": "🔊 [audio : « Меня́ зову́т Ма́ша. »]",
+     "choix": [
+      "Меня́ зову́т Ма́ша.",
+      "Меня́ зову́т Тома́.",
+      "Я Ма́ша.",
+      "Э́то Ма́ша."
+     ],
+     "reponse": "Меня́ зову́т Ма́ша."
+    },
+    {
+     "question": "🔊 [audio : « Э́то аэропо́рт. »]",
+     "choix": [
+      "Э́то аэропо́рт.",
+      "Э́то бага́ж.",
+      "Э́то вы́ход.",
+      "Э́то Москва́."
+     ],
+     "reponse": "Э́то аэропо́рт."
+    },
+    {
+     "question": "🔊 [audio : « Здра́вствуйте! »]",
+     "choix": [
+      "Приве́т!",
+      "Здра́вствуйте!",
+      "До свида́ния!",
+      "Спаси́бо!"
+     ],
+     "reponse": "Здра́вствуйте!"
+    },
+    {
+     "question": "🔊 [audio : « Я студе́нт. »]",
+     "choix": [
+      "Я студе́нтка.",
+      "Он студе́нт.",
+      "Я студе́нт.",
+      "Ты студе́нт."
+     ],
+     "reponse": "Я студе́нт."
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bienvenue dans la leçon un du cours « Le russe pour francophones » sur Russtudy ! Aujourd'hui, vous allez poser le pied à Moscou pour la première fois. Objectif : saluer, vous présenter, et déchiffrer vos premières lettres cyrilliques. Prêt ? C'est parti !",
+   "ecran": "Écran-titre animé : le logo Russtudy apparaît, puis fondu vers une vue aérienne de l'aéroport Cheremetievo sous la lumière dorée. Le titre de la leçon s'affiche en cyrillique et en français.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Nous sommes au hall des arrivées de l'aéroport Cheremetievo. Thomas, vingt-deux ans, étudiant français, vient d'atterrir. Il ne parle pas encore russe, mais il va découvrir que certaines lettres cyrilliques sont de vieilles amies… et d'autres, de parfaits faux-amis.",
+   "ecran": "La caméra WebGL descend du plafond vitré vers le sol en marbre. On aperçoit Thomas de dos, tirant sa valise bleue. Les panneaux lumineux ПРИЛЁТ, ВЫХОД, БАГАЖ clignotent.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Э́то… э́то Москва́? Приве́т, Москва́!",
+   "ecran": "Gros plan sur le visage de Thomas qui lève les yeux vers le panneau ПРИЛЁТ. Ses lèvres bougent, il sourit timidement. Le panneau lumineux s'illumine.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v04",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Thomas vient de dire « C'est Moscou ? Bonjour, Moscou ! ». Il a utilisé « э́то » pour dire « c'est » et « приве́т » pour « salut ». Notez : pas d'article, pas de verbe « être ». Juste le mot, directement.",
+   "ecran": "Les mots Э́ТО et МОСКВА́ s'affichent en surimpression à côté du panneau, avec leur traduction française. Un encadré grammatical apparaît brièvement.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v05",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Вы́ход… Бага́ж… Я чита́ю!",
+   "ecran": "Thomas pointe successivement les panneaux ВЫХОД et БАГАЖ. Les lettres s'illuminent une à une. Il lève le poing, fier.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo, Thomas ! Il vient de lire « sortie » et « bagages ». Vous avez remarqué ? В = /v/, Н = /n/, Г… non, ici c'est А = /a/. Les lettres transparentes l'aident. Mais attention aux faux-amis qu'on va étudier juste après.",
+   "ecran": "Les lettres В, Ы, Х, О, Д, Б, А, Г, Ж s'affichent en grand avec leur équivalent phonétique. Un code couleur : vert = transparent, rouge = faux-ami.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v07",
+   "voix": "agent",
+   "langue": "ru",
+   "texte": "Па́спорт, пожа́луйста. Тамо́жня.",
+   "ecran": "L'agent de douane en uniforme bleu tend la main, visage neutre. Le mot ПА́СПОРТ apparaît en surimpression. Derrière lui, le comptoir ТАМОЖНЯ.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Па́спорт. Вот.",
+   "ecran": "Thomas sort son passeport bordeaux de sa veste et le tend. Gros plan sur le passeport puis sur le visage de l'agent qui le prend.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v09",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Где… э-э… вы́ход?",
+   "ecran": "Thomas regarde à gauche, à droite, fait un geste vague. Le panneau ВЫХОД clignote au loin. Il hésite, cherche.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Приве́т! Ты Томас?",
+   "ecran": "Masha surgit derrière la barrière métallique, pancarte « ТОМАС » à la main. Grand sourire, elle fait un pas vers Thomas. Lumière chaude sur son visage.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Да! Приве́т! Я Томас.",
+   "ecran": "Thomas se retourne, soulagé. Il pointe son torse du pouce. Les mots ДА, ПРИВЕТ, Я ТОМАС s'affichent en surimpression.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Здра́вствуйте! Меня́ зову́т Ма́ша. Я студе́нтка.",
+   "ecran": "Masha range la pancarte, tend la main. Posture droite, sourire. Les mots ЗДРАВСТВУЙТЕ, МЕНЯ ЗОВУТ, СТУДЕНТКА apparaissent.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Здра́вствуйте, Ма́ша! Меня́ зову́т Тома́. Я студе́нт.",
+   "ecran": "Thomas serre la main de Masha, se redresse. Il articule « студент » avec application. Masha hoche la tête, encourageante.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Очень хорошо́! Э́то Москва́. Ты в Росси́и!",
+   "ecran": "Masha fait un grand geste circulaire englobant le hall. Puis elle pointe le sol. Thomas regarde autour de lui, émerveillé.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Спаси́бо, Ма́ша!",
+   "ecran": "Thomas pose la main sur son cœur, incline la tête. Masha sourit. Le mot СПАСИБO brille à l'écran.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Пойдём! Бага́ж там.",
+   "ecran": "Masha fait signe de la suivre, pointe le tapis roulant. Elle se met en marche. Thomas attrape sa valise.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Хорошо́! До свида́ния, аэропо́рт!",
+   "ecran": "Thomas fait un petit salut de la main au panneau ПРИЛЁТ, rit, et emboîte le pas à Masha. La caméra recule, montrant le hall qui s'éloigne.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Très bien ! Vous venez d'assister à la première rencontre entre Thomas et Masha. Passons maintenant au vocabulaire. Répétez chaque mot après le signal sonore. Attention à l'accent tonique, marqué par la syllabe en majuscules.",
+   "ecran": "Fond neutre. Les mots de vocabulaire défilent un par un en gros caractères cyrilliques, avec la translittération et la traduction. Un haut-parleur animé pulse à chaque mot.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Приве́т. Здра́вствуйте. До свида́ния. Меня́ зову́т. Э́то. Я. Ты. Он. Она́.",
+   "ecran": "Chaque mot apparaît en grand, la syllabe accentuée en rouge. Un bouton « répéter » permet à l'apprenant de réécouter.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Вы́ход. Бага́ж. Па́спорт. Тамо́жня. Аэропо́рт. Москва́. Студе́нт. Студе́нтка. Спаси́бо. Да. Хорошо́.",
+   "ecran": "Suite du défilé de vocabulaire. Les mots liés à l'aéroport sont illustrés par de petites icônes 3D (porte de sortie, valise, tampon de passeport).",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la grammaire. Premier point essentiel : en russe, il n'y a PAS d'article. Ni « le », ni « la », ni « un », ni « une ». On dit simplement « Москва », pas « la Москва ». Et pour présenter, on utilise « э́то » suivi du nom, sans verbe être. « Э́то Москва́ » = « C'est Moscou ». Simple, non ?",
+   "ecran": "Écran divisé : à gauche, la phrase française avec les articles surlignés en rouge ; à droite, la phrase russe sans article. Les articles français disparaissent en animation. La structure ЭТО + NOM s'affiche en encadré.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Deuxième point : les pronoms personnels. Я = je, ты = tu, он = il, она́ = elle. « Ты » est informel, pour les amis. Avec un inconnu ou un supérieur, on utilisera « вы » (vous), qu'on verra bientôt. Pour l'instant, retenez ces quatre formes.",
+   "ecran": "Quatre silhouettes 3D apparaissent : une pour chaque pronom. Я pointe vers soi, ты pointe vers l'interlocuteur, он et она́ désignent des personnages tiers. Tableau récapitulatif animé.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Prononciation. Ouvrez grand vos yeux et vos oreilles. Voici les lettres de А à К. Les transparentes : А se lit /a/, К se lit /k/, М se lit /m/, О se lit /o/, Т se lit /t/, Д se lit /d/, Е se lit /je/. Facile, non ? Mais voici les pièges, les faux-amis visuels.",
+   "ecran": "Les lettres А К М О Т Д Е défilent en vert. Puis un panneau « ATTENTION » clignote. Les lettres В Н Р С У Х apparaissent en rouge avec leur vraie prononciation.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "В ressemble à un B, mais se prononce /v/. Н ressemble à un H, mais c'est /n/. Р ressemble à un P, mais c'est un /r/ roulé. С ressemble à un C, mais c'est /s/. У ressemble à un Y, mais c'est /u/ comme dans « ou ». Et Х, c'est un /kh/ guttural. Répétez avec moi : Вэ, Эн, Эр, Эс, У, Ха.",
+   "ecran": "Chaque faux-ami apparaît en grand à côté de la lettre latine qu'il imite, avec une flèche et la prononciation correcte. Animation de la bouche pour le /r/ roulé.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Un mot de culture. En Russie, on ne sourit pas automatiquement à un inconnu. L'agent de douane n'était pas impoli, il était simplement… russe. La vraie chaleur se révèle dans la durée. Chez Nina, la propriétaire de Thomas, un samovar trône toujours sur la table. C'est le symbole de l'accueil : « Assieds-toi, tu es chez toi. » Thomas le découvrira bientôt.",
+   "ecran": "Transition vers une image chaleureuse : un samovar en cuivre fumant sur une table en bois, des tasses, une nappe brodée. La voix de Nina murmure en fond. Puis retour au hall.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons aux exercices ! Six activités pour vérifier ce que vous avez appris. Prenez votre temps. Vous pouvez répéter chaque exercice autant de fois que nécessaire.",
+   "ecran": "Écran de transition : les six types d'exercices apparaissent en icônes (QCM, trous, association, ordre, traduction, écoute). Le premier exercice se met en surbrillance.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice un : QCM. Identifiez la bonne lettre cyrillique pour chaque son. Cliquez sur la réponse correcte.",
+   "ecran": "Interface QCM : question en haut, quatre boutons de réponse. Les lettres cyrilliques sont affichées en grand. Un compteur de score apparaît.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice deux : texte à trous. Complétez chaque phrase avec le mot qui convient. Écrivez votre réponse dans le champ prévu.",
+   "ecran": "Phrases avec des cases vides. Un champ de saisie clignote. Les mots proposés sont dans une banque de mots en bas de l'écran.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice trois : association. Reliez chaque lettre cyrillique à sa prononciation. Glissez-déposez ou cliquez pour associer.",
+   "ecran": "Deux colonnes : à gauche les lettres cyrilliques, à droite les sons. Des lignes se tracent entre les paires quand l'apprenant clique.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice quatre : remise en ordre. Replacez les répliques du dialogue dans l'ordre chronologique. Numérotez de un à cinq.",
+   "ecran": "Cinq bulles de dialogue désordonnées. L'apprenant les glisse pour les réordonner. Un numéro apparaît sur chaque bulle.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice cinq : traduction. Traduisez ces phrases françaises en russe. Utilisez les structures de la leçon : э́то + nom, я + nom, приве́т, ты.",
+   "ecran": "Phrases françaises à gauche, champ de saisie cyrillique à droite. Un clavier virtuel cyrillique est disponible.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice six : écoute. Écoutez l'enregistrement et sélectionnez la phrase que vous entendez. Vous pouvez réécouter autant de fois que vous voulez.",
+   "ecran": "Un bouton audio avec une onde sonore animée. Quatre choix de réponse en dessous. Le bouton « réécouter » est bien visible.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo ! Vous avez terminé la leçon un. Récapitulons : vous savez dire приве́т, здра́вствуйте, до свида́ния. Vous savez vous présenter avec « Меня́ зову́т… ». Vous avez lu vos premiers mots en cyrillique : вы́ход, бага́ж, па́спорт. Et vous connaissez les huit premiers pronoms et la structure « Э́то + nom ».",
+   "ecran": "Écran récapitulatif animé : les mots clés apparaissent un par un avec leur traduction. Confettis discrets. Thomas et Masha font un signe de la main.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v34",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Молоде́ц, Тома́! До свида́ния! До сле́дующего уро́ка!",
+   "ecran": "Masha sourit à la caméra, fait un petit salut de la main. Thomas à côté d'elle lève le pouce. Fondu vers le logo Russtudy.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Dans la prochaine leçon, Thomas et Masha prendront le taxi vers l'université. Vous apprendrez à dire où vous allez, à compter de un à dix, et à utiliser le verbe « être » au passé. À très bientôt sur Russtudy ! До свида́ния !",
+   "ecran": "Aperçu teaser : un taxi jaune dans les rues de Moscou, des chiffres 1 à 10 qui défilent. Le titre de la leçon 2 apparaît. Fondu au noir.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Приве́т! Меня́ зову́т Тома́.",
+   "natif": "Salut ! Je m'appelle Thomas."
+  },
+  {
+   "cible": "Здра́вствуйте! Я студе́нт.",
+   "natif": "Bonjour ! Je suis étudiant."
+  },
+  {
+   "cible": "Э́то Москва́. Э́то аэропо́рт.",
+   "natif": "C'est Moscou. C'est l'aéroport."
+  },
+  {
+   "cible": "Вы́ход там. Бага́ж там.",
+   "natif": "La sortie est là-bas. Les bagages sont là-bas."
+  },
+  {
+   "cible": "До свида́ния! Спаси́бо!",
+   "natif": "Au revoir ! Merci !"
+  }
+ ],
+ "controle": []
+}

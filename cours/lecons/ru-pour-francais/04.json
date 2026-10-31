@@ -1,0 +1,903 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 4,
+ "niveau": "A1",
+ "id": "ru-pour-francais-A1-04",
+ "titre": {
+  "cible": "Кто э́то? Имени́тельный паде́ж",
+  "natif": "Qui est-ce ? Le nominatif"
+ },
+ "objectifs": [
+  "Identifier et présenter des personnes avec Это…, Он…, Она…",
+  "Décrire sommairement quelqu'un à l'aide d'adjectifs au nominatif (молодой, высокий, весёлый)",
+  "Demander qui est quelqu'un : Кто это? Кто она?",
+  "Reconnaître le genre des noms (masc. consonne, fém. -а/-я, neutre -о/-е) et accorder l'adjectif",
+  "Produire des phrases sans verbe « être » au présent (Она студентка.)"
+ ],
+ "scene": {
+  "lieu": "Amphithéâtre de l'université MGU, Moscou",
+  "moment": "Matin du 1er septembre, premier jour de cours",
+  "decor_3d": "Grand amphithéâtre en bois clair avec gradins incurvés, tableau vert à craie, bureau du professeur en estrade. Par les hautes fenêtres, lumière dorée de septembre. Bouquets de fleurs sur le bureau. Les étudiants sont assis en rangs, certains tiennent des fleurs. Ambiance solennelle et chaleureuse.",
+  "objets": [
+   "bureau en bois du professeur",
+   "tableau vert avec «1 сентября – День знаний» écrit à la craie",
+   "registres d'appel (журнал)",
+   "bouquets de fleurs sur le bureau",
+   "sacs à dos des étudiants",
+   "badges nominatifs sur les tables"
+  ],
+  "personnages": [
+   "thomas",
+   "masha",
+   "dima",
+   "olga"
+  ],
+  "figurants": [
+   {
+    "id": "stud1",
+    "nom": "Анна",
+    "apparence": "Jeune femme rousse, 20 ans, pull beige, jupe plissée, tient un bouquet de dahlias",
+    "voix": "féminine jeune, douce"
+   },
+   {
+    "id": "stud2",
+    "nom": "Сергей",
+    "apparence": "Jeune homme brun, 23 ans, chemise blanche, cravate, lunettes rondes",
+    "voix": "masculine jeune, posée"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "olga",
+   "texte": "Здра́вствуйте, студе́нты! Добро́ пожа́ловать в университе́т!",
+   "traduction": "Bonjour, les étudiants ! Bienvenue à l'université !",
+   "geste": "Olga écarte les bras en signe de bienvenue, sourit largement, puis pose ses mains sur le bureau."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Здра́вствуйте!",
+   "traduction": "Bonjour !",
+   "geste": "Thomas se lève légèrement de son siège, fait un petit signe de la main, un peu intimidé."
+  },
+  {
+   "perso": "olga",
+   "texte": "Меня́ зову́т О́льга Петро́вна. Я преподава́тель. А кто э́то?",
+   "traduction": "Je m'appelle Olga Petrovna. Je suis professeure. Et qui est-ce ?",
+   "geste": "Olga se désigne du doigt, puis pointe Thomas du regard en levant un sourcil interrogateur."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Э́то я! Меня́ зову́т То́мас. Я францу́з. Я но́вый студе́нт.",
+   "traduction": "C'est moi ! Je m'appelle Thomas. Je suis français. Je suis un nouvel étudiant.",
+   "geste": "Thomas se lève, pose la main sur sa poitrine en disant « это я », puis se rassoit."
+  },
+  {
+   "perso": "olga",
+   "texte": "О́чень хорошо́, То́мас! А кто э́то?",
+   "traduction": "Très bien, Thomas ! Et qui est-ce ?",
+   "geste": "Olga hoche la tête avec approbation, puis désigne Masha assise deux rangs plus loin."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Э́то Ма́ша. Она́ студе́нтка. Она́ ру́сская.",
+   "traduction": "C'est Masha. Elle est étudiante. Elle est russe.",
+   "geste": "Thomas se tourne vers Masha, la montre de la main ouverte, puis regarde Olga."
+  },
+  {
+   "perso": "masha",
+   "texte": "Приве́т, То́мас! Да, я Ма́ша. Я весёлая!",
+   "traduction": "Salut, Thomas ! Oui, je suis Masha. Je suis joyeuse !",
+   "geste": "Masha fait un grand signe de la main, rit, et pointe son propre visage avec fierté."
+  },
+  {
+   "perso": "olga",
+   "texte": "А кто тот высо́кий молодо́й челове́к?",
+   "traduction": "Et qui est cet homme grand et jeune ?",
+   "geste": "Olga plisse les yeux et pointe le fond de la salle où Dima est assis, jambes croisées."
+  },
+  {
+   "perso": "dima",
+   "texte": "Э́то я! Меня́ зову́т Ди́ма. Я студе́нт. Я высо́кий и весёлый!",
+   "traduction": "C'est moi ! Je m'appelle Dima. Je suis étudiant. Je suis grand et joyeux !",
+   "geste": "Dima se lève d'un bond, se tape la poitrine, puis écarte les bras pour montrer sa taille."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Ди́ма, ты но́вый студе́нт?",
+   "traduction": "Dima, tu es un nouvel étudiant ?",
+   "geste": "Thomas se retourne vers Dima, penche la tête sur le côté avec curiosité."
+  },
+  {
+   "perso": "dima",
+   "texte": "Нет! Я не но́вый студе́нт!",
+   "traduction": "Non ! Je ne suis pas un nouvel étudiant !",
+   "geste": "Dima agite l'index de gauche à droite en riant, puis se rassied lourdement."
+  },
+  {
+   "perso": "olga",
+   "texte": "Хорошо́! Э́то гру́ппа. Э́то пе́рвый курс.",
+   "traduction": "Bien ! C'est le groupe. C'est la première année.",
+   "geste": "Olga balaye la salle du geste, puis lève un doigt pour signifier « premier »."
+  },
+  {
+   "perso": "masha",
+   "texte": "То́мас, кто э́то?",
+   "traduction": "Thomas, qui est-ce ?",
+   "geste": "Masha chuchote à Thomas en désignant discrètement Olga du menton."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Э́то О́льга Петро́вна. Она́ преподава́тель. Она́ у́мная и хоро́шая.",
+   "traduction": "C'est Olga Petrovna. Elle est professeure. Elle est intelligente et bonne.",
+   "geste": "Thomas murmure en retour, sourit, puis se tourne vers Olga avec respect."
+  },
+  {
+   "perso": "olga",
+   "texte": "Спа́сибо, То́мас! Молоде́ц!",
+   "traduction": "Merci, Thomas ! Bravo !",
+   "geste": "Olga entend, sourit chaleureusement, fait un petit applaudissement et lève le pouce."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "университе́т",
+   "prononciation": "u-ni-ver-si-TET",
+   "nature": "nom m.",
+   "traduction": "université",
+   "exemple": "Э́то университе́т.",
+   "exemple_traduction": "C'est l'université."
+  },
+  {
+   "mot": "студе́нт",
+   "prononciation": "stu-DENT",
+   "nature": "nom m.",
+   "traduction": "étudiant",
+   "exemple": "Я студе́нт.",
+   "exemple_traduction": "Je suis étudiant."
+  },
+  {
+   "mot": "студе́нтка",
+   "prononciation": "stu-DENT-ka",
+   "nature": "nom f.",
+   "traduction": "étudiante",
+   "exemple": "Она́ студе́нтка.",
+   "exemple_traduction": "Elle est étudiante."
+  },
+  {
+   "mot": "преподава́тель",
+   "prononciation": "pri-po-da-VA-tel'",
+   "nature": "nom m.",
+   "traduction": "professeur, enseignant",
+   "exemple": "О́льга Петро́вна — преподава́тель.",
+   "exemple_traduction": "Olga Petrovna est professeure."
+  },
+  {
+   "mot": "гру́ппа",
+   "prononciation": "GRUP-pa",
+   "nature": "nom f.",
+   "traduction": "groupe (classe)",
+   "exemple": "Э́то гру́ппа.",
+   "exemple_traduction": "C'est le groupe."
+  },
+  {
+   "mot": "курс",
+   "prononciation": "kurs",
+   "nature": "nom m.",
+   "traduction": "année (universitaire), cours",
+   "exemple": "Э́то пе́рвый курс.",
+   "exemple_traduction": "C'est la première année."
+  },
+  {
+   "mot": "челове́к",
+   "prononciation": "che-lo-VEK",
+   "nature": "nom m.",
+   "traduction": "personne, être humain",
+   "exemple": "Кто тот челове́к?",
+   "exemple_traduction": "Qui est cette personne ?"
+  },
+  {
+   "mot": "молодо́й",
+   "prononciation": "mo-lo-DOY",
+   "nature": "adj.",
+   "traduction": "jeune",
+   "exemple": "Он молодо́й студе́нт.",
+   "exemple_traduction": "C'est un jeune étudiant."
+  },
+  {
+   "mot": "высо́кий",
+   "prononciation": "vy-SO-kiy",
+   "nature": "adj.",
+   "traduction": "grand (taille)",
+   "exemple": "Ди́ма высо́кий.",
+   "exemple_traduction": "Dima est grand."
+  },
+  {
+   "mot": "весёлый",
+   "prononciation": "ve-SYO-lyy",
+   "nature": "adj.",
+   "traduction": "joyeux, gai",
+   "exemple": "Ма́ша весёлая.",
+   "exemple_traduction": "Masha est joyeuse."
+  },
+  {
+   "mot": "у́мный",
+   "prononciation": "UM-nyy",
+   "nature": "adj.",
+   "traduction": "intelligent",
+   "exemple": "Она́ у́мная.",
+   "exemple_traduction": "Elle est intelligente."
+  },
+  {
+   "mot": "хоро́ший",
+   "prononciation": "ho-RO-shiy",
+   "nature": "adj.",
+   "traduction": "bon, gentil",
+   "exemple": "Он хоро́ший челове́к.",
+   "exemple_traduction": "C'est une bonne personne."
+  },
+  {
+   "mot": "краси́вый",
+   "prononciation": "kra-SI-vyy",
+   "nature": "adj.",
+   "traduction": "beau, joli",
+   "exemple": "Э́то краси́вый университе́т.",
+   "exemple_traduction": "C'est une belle université."
+  },
+  {
+   "mot": "но́вый",
+   "prononciation": "NO-vyy",
+   "nature": "adj.",
+   "traduction": "nouveau",
+   "exemple": "Я но́вый студе́нт.",
+   "exemple_traduction": "Je suis un nouvel étudiant."
+  },
+  {
+   "mot": "пе́рвый",
+   "prononciation": "PER-vyy",
+   "nature": "adj. ordinal",
+   "traduction": "premier",
+   "exemple": "Э́то пе́рвый курс.",
+   "exemple_traduction": "C'est la première année."
+  },
+  {
+   "mot": "иностране́ц",
+   "prononciation": "i-no-stran-ETS",
+   "nature": "nom m.",
+   "traduction": "étranger",
+   "exemple": "То́мас — иностране́ц.",
+   "exemple_traduction": "Thomas est un étranger."
+  },
+  {
+   "mot": "факульте́т",
+   "prononciation": "fa-kul'-TET",
+   "nature": "nom m.",
+   "traduction": "faculté",
+   "exemple": "Э́то факульте́т.",
+   "exemple_traduction": "C'est la faculté."
+  },
+  {
+   "mot": "аудито́рия",
+   "prononciation": "au-di-TO-ri-ya",
+   "nature": "nom f.",
+   "traduction": "salle de cours, amphithéâtre",
+   "exemple": "Э́то аудито́рия.",
+   "exemple_traduction": "C'est une salle de cours."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Le nominatif : forme de base et genre des noms",
+   "explication": "En russe, le nominatif (именительный падеж) est la forme « de dictionnaire » du nom : c'est celle que vous trouvez dans un dictionnaire et celle du sujet de la phrase. Pas de déclinaison à apprendre pour l'instant — vous utilisez simplement le mot tel quel. Le genre se reconnaît à la terminaison : les noms masculins se terminent par une consonne (студе́нт, курс, челове́к) ; les noms féminins par -а ou -я (студе́нтка, гру́ппа, аудито́рия) ; les noms neutres par -о ou -е (окно́, мо́ре). Rappel important déjà vu en L2 : il n'y a PAS de verbe « être » au présent. On dit Она́ студе́нтка (et non *Она есть студентка), tout comme Я студе́нт. Le nom ou l'adjectif attribut se place directement après le pronom ou le sujet. Pour poser la question « Qui est-ce ? », on dit Кто э́то? et on répond Э́то + nom.",
+   "tableau": [
+    [
+     "Genre",
+     "Terminaison",
+     "Exemples"
+    ],
+    [
+     "Masculin",
+     "consonne",
+     "студе́нт, курс, челове́к, университе́т"
+    ],
+    [
+     "Féminin",
+     "-а / -я",
+     "студе́нтка, гру́ппа, аудито́рия"
+    ],
+    [
+     "Neutre",
+     "-о / -е",
+     "окно́, мо́ре, зада́ние"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Э́то студе́нт. Он францу́з.",
+     "natif": "C'est un étudiant. Il est français."
+    },
+    {
+     "cible": "Э́то студе́нтка. Она́ ру́сская.",
+     "natif": "C'est une étudiante. Elle est russe."
+    },
+    {
+     "cible": "Э́то окно́. Оно́ большо́е.",
+     "natif": "C'est une fenêtre. Elle est grande."
+    },
+    {
+     "cible": "Кто э́то? — Э́то преподава́тель.",
+     "natif": "Qui est-ce ? — C'est un professeur."
+    }
+   ]
+  },
+  {
+   "titre": "Accord de l'adjectif en genre et en nombre",
+   "explication": "L'adjectif russe s'accorde en genre et en nombre avec le nom qu'il qualifie. Au nominatif singulier : masculin → -ый / -ий (молодо́й, высо́кий, у́мный) ; féminin → -ая / -яя (молода́я, высо́кая, у́мная) ; neutre → -ое / -ее (молодо́е, высо́кое, у́мное). Au pluriel, tous les genres prennent -ые / -ие (молоды́е, высо́кие, у́мные). L'adjectif se place normalement AVANT le nom : высо́кий студе́нт, у́мная студе́нтка. Mais il peut aussi être attribut après le pronom sans verbe être : Она́ весёлая. (= Elle est joyeuse.) C'est exactement la même logique qu'en L2 avec Я студент : pas de verbe, le mot attribut suffit. Attention : en français on dit « Elle EST joyeuse » ; en russe on dit simplement Она́ весёлая — le verbe être est absent.",
+   "tableau": [
+    [
+     "",
+     "Masculin",
+     "Féminin",
+     "Neutre",
+     "Pluriel"
+    ],
+    [
+     "Terminaison",
+     "-ый / -ий",
+     "-ая / -яя",
+     "-ое / -ее",
+     "-ые / -ие"
+    ],
+    [
+     "Exemple : моло́дой",
+     "молодо́й",
+     "молода́я",
+     "молодо́е",
+     "молоды́е"
+    ],
+    [
+     "Exemple : высо́кий",
+     "высо́кий",
+     "высо́кая",
+     "высо́кое",
+     "высо́кие"
+    ],
+    [
+     "Exemple : весёлый",
+     "весёлый",
+     "весёлая",
+     "весёлое",
+     "весёлые"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Он молодо́й и высо́кий.",
+     "natif": "Il est jeune et grand."
+    },
+    {
+     "cible": "Она́ молода́я и краси́вая.",
+     "natif": "Elle est jeune et belle."
+    },
+    {
+     "cible": "Они́ весёлые студе́нты.",
+     "natif": "Ce sont des étudiants joyeux."
+    },
+    {
+     "cible": "Э́то но́вая аудито́рия.",
+     "natif": "C'est une nouvelle salle de cours."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "L'accent tonique mobile en russe",
+  "explication": "En français, l'accent tonique est fixe : il tombe toujours sur la dernière syllabe du groupe rythmique (bonJOUR, univerSIté). En russe, l'accent tonique est LIBRE et MOBILE : il peut se placer sur n'importe quelle syllabe du mot et peut même changer selon la forme grammaticale. Par exemple, dans les prénoms : Ма́ша (accent sur la 1re syllabe), Ди́ма (accent sur la 1re), О́льга (accent sur la 1re), mais Петро́вна (accent sur la 2e). Il n'existe pas de règle universelle : il faut mémoriser la place de l'accent avec chaque mot. Dans ce cours, l'accent est toujours marqué (´). Astuce : quand vous apprenez un mot nouveau, répétez-le en exagérant la syllabe accentuée, comme si vous chantiez cette syllabe un peu plus longtemps.",
+  "exemples": [
+   "Ма́ша — Ди́ма — О́льга (accent sur la 1re syllabe)",
+   "Петро́вна — Ива́новна (accent sur la 2e syllabe)",
+   "студе́нт — преподава́тель — университе́т (accent sur la dernière syllabe)",
+   "весёлый — молода́я — высо́кий (accent sur des syllabes différentes)"
+  ]
+ },
+ "culture": {
+  "titre": "Le 1er septembre : День знаний (La Fête de la Connaissance)",
+  "texte": "En Russie, la rentrée scolaire et universitaire a toujours lieu le 1er septembre, appelé День знаний (la Journée du Savoir). C'est un jour de fête, pas un jour ordinaire : les étudiants et écoliers viennent en tenue formelle (chemise blanche, costume ou jupe sombre) et offrent des fleurs à leurs professeurs — souvent des bouquets d'asters, de dahlias ou de roses. La journée commence par une « линейка » (cérémonie solennelle) avec discours du directeur, hymne et applaudissements. Les étudiants de première année sont particulièrement mis à l'honneur. L'ambiance est à la fois solennelle et joyeuse : on se photographie, on rencontre ses camarades, on découvre le campus. Pour Thomas, c'est un premier choc culturel : en France, la rentrée est discrète ; en Russie, c'est une vraie célébration collective."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez la bonne réponse pour compléter chaque phrase.",
+   "items": [
+    {
+     "question": "___ студентка.",
+     "choix": [
+      "Он",
+      "Она",
+      "Э́то"
+     ],
+     "reponse": "Она"
+    },
+    {
+     "question": "Дима ___.",
+     "choix": [
+      "высо́кая",
+      "высо́кий",
+      "высо́кое"
+     ],
+     "reponse": "высо́кий"
+    },
+    {
+     "question": "Э́то ___ университе́т.",
+     "choix": [
+      "краси́вая",
+      "краси́вое",
+      "краси́вый"
+     ],
+     "reponse": "краси́вый"
+    },
+    {
+     "question": "Кто ___?",
+     "choix": [
+      "э́та",
+      "э́то",
+      "э́тот"
+     ],
+     "reponse": "э́то"
+    },
+    {
+     "question": "О́льга Петро́вна — ___.",
+     "choix": [
+      "студе́нтка",
+      "преподава́тель",
+      "иностране́ц"
+     ],
+     "reponse": "преподава́тель"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez les phrases avec le mot qui convient : студе́нт / молода́я / весёлый / но́вая / пе́рвый.",
+   "items": [
+    {
+     "question": "То́мас — ___ студе́нт.",
+     "reponse": "но́вый"
+    },
+    {
+     "question": "Ма́ша — ___ студе́нтка.",
+     "reponse": "молода́я"
+    },
+    {
+     "question": "Ди́ма высо́кий и ___.",
+     "reponse": "весёлый"
+    },
+    {
+     "question": "Э́то ___ аудито́рия.",
+     "reponse": "но́вая"
+    },
+    {
+     "question": "Э́то ___ курс.",
+     "reponse": "пе́рвый"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez chaque nom à l'adjectif accordé correctement au nominatif.",
+   "items": [
+    {
+     "question": "студе́нт",
+     "reponse": "молодо́й"
+    },
+    {
+     "question": "студе́нтка",
+     "reponse": "молода́я"
+    },
+    {
+     "question": "челове́к",
+     "reponse": "хоро́ший"
+    },
+    {
+     "question": "аудито́рия",
+     "reponse": "краси́вая"
+    },
+    {
+     "question": "окно́",
+     "reponse": "большо́е"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez les mots dans l'ordre pour former une phrase correcte.",
+   "items": [
+    {
+     "question": "студе́нтка / Она́ / молода́я",
+     "reponse": "Она́ молода́я студе́нтка."
+    },
+    {
+     "question": "высо́кий / тот / челове́к / молодо́й",
+     "reponse": "Тот челове́к высо́кий и молодо́й."
+    },
+    {
+     "question": "э́то / Кто ?",
+     "reponse": "Кто э́то?"
+    },
+    {
+     "question": "преподава́тель / О́льга Петро́вна / хоро́ший",
+     "reponse": "О́льга Петро́вна — хоро́ший преподава́тель."
+    },
+    {
+     "question": "весёлые / студе́нты / Э́то",
+     "reponse": "Э́то весёлые студе́нты."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez en russe. N'oubliez pas : pas de verbe « être » !",
+   "items": [
+    {
+     "question": "C'est Thomas. Il est français.",
+     "reponse": "Э́то То́мас. Он францу́з."
+    },
+    {
+     "question": "Qui est-ce ? — C'est une étudiante.",
+     "reponse": "Кто э́то? — Э́то студе́нтка."
+    },
+    {
+     "question": "Elle est joyeuse et intelligente.",
+     "reponse": "Она́ весёлая и у́мная."
+    },
+    {
+     "question": "C'est un nouveau professeur.",
+     "reponse": "Э́то но́вый преподава́тель."
+    },
+    {
+     "question": "Il est grand et jeune.",
+     "reponse": "Он высо́кий и молодо́й."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez l'audio et choisissez la bonne transcription de ce que vous entendez.",
+   "items": [
+    {
+     "question": "Audio 1 : une voix dit « Э́то Ма́ша. Она́ студе́нтка. »",
+     "choix": [
+      "Э́то Ма́ша. Она́ студе́нтка.",
+      "Э́то Ма́ша. Он студе́нт.",
+      "Э́то Ма́ша. Она́ преподава́тель."
+     ],
+     "reponse": "Э́то Ма́ша. Она́ студе́нтка."
+    },
+    {
+     "question": "Audio 2 : une voix dit « Ди́ма высо́кий и весёлый. »",
+     "choix": [
+      "Ди́ма высо́кий и весёлый.",
+      "Ди́ма молодо́й и у́мный.",
+      "Ди́ма но́вый студе́нт."
+     ],
+     "reponse": "Ди́ма высо́кий и весёлый."
+    },
+    {
+     "question": "Audio 3 : une voix dit « Кто э́то? — Э́то преподава́тель. »",
+     "choix": [
+      "Кто э́то? — Э́то студе́нт.",
+      "Кто э́то? — Э́то преподава́тель.",
+      "Кто она́? — Э́то студе́нтка."
+     ],
+     "reponse": "Кто э́то? — Э́то преподава́тель."
+    },
+    {
+     "question": "Audio 4 : une voix dit « Э́то пе́рвый курс. Э́то гру́ппа. »",
+     "choix": [
+      "Э́то пе́рвый курс. Э́то гру́ппа.",
+      "Э́то второ́й курс. Э́то гру́ппа.",
+      "Э́то пе́рвый курс. Э́то аудито́рия."
+     ],
+     "reponse": "Э́то пе́рвый курс. Э́то гру́ппа."
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bienvenue dans la leçon quatre ! Aujourd'hui, direction Moscou : c'est le premier septembre, jour de rentrée à l'université MGU. Thomas entre dans l'amphithéâtre pour son tout premier cours de russe.",
+   "ecran": "Vue extérieure du bâtiment principal de la MGU sous un ciel doré de septembre, puis travelling vers l'entrée. Fondu vers l'intérieur de l'amphithéâtre.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Objectifs de cette leçon : apprendre à identifier et présenter des personnes avec « Это… », « Он… », « Она… » ; décrire quelqu'un avec des adjectifs au nominatif ; et poser la question « Кто это? ». Vous allez aussi découvrir le nominatif et l'accord des adjectifs en genre.",
+   "ecran": "Les objectifs s'affichent en texte animé à côté de l'amphithéâtre. Les mots clés Это, Он, Она, Кто это? apparaissent en surbrillance.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Écoutez attentivement le dialogue. Olga Petrovna, la professeure, fait l'appel. Thomas va se présenter et identifier ses camarades.",
+   "ecran": "L'amphithéâtre apparaît en entier. Les personnages sont assis. Olga se tient debout près du bureau. Un sous-titre français apparaît en bas.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "olga",
+   "langue": "ru",
+   "texte": "Здра́вствуйте, студе́нты! Добро́ пожа́ловать в университе́т!",
+   "ecran": "Olga écarte les bras, sourit. La caméra fait un plan large sur l'amphithéâtre rempli.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Здра́вствуйте!",
+   "ecran": "Gros plan sur Thomas qui se lève à moitié, un peu gêné, et fait un signe de la main.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "olga",
+   "langue": "ru",
+   "texte": "Меня́ зову́т О́льга Петро́вна. Я преподава́тель. А кто э́то?",
+   "ecran": "Olga se désigne, puis pointe Thomas du regard. Le texte « Меня зовут… / Я преподаватель » s'affiche en bulle.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Э́то я! Меня́ зову́т То́мас. Я францу́з. Я но́вый студе́нт.",
+   "ecran": "Thomas se lève, main sur la poitrine. Les mots « Э́то я / францу́з / но́вый студе́нт » apparaissent en surbrillance.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "olga",
+   "langue": "ru",
+   "texte": "О́чень хорошо́, То́мас! А кто э́то?",
+   "ecran": "Olga hoche la tête, puis désigne Masha dans les gradins. Un projecteur lumineux doux éclaire Masha.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Э́то Ма́ша. Она́ студе́нтка. Она́ ру́сская.",
+   "ecran": "Thomas montre Masha de la main. Le mot « студе́нтка » s'affiche en grand avec sa terminaison -ка en couleur.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "Приве́т, То́мас! Да, я Ма́ша. Я весёлая!",
+   "ecran": "Masha fait un grand signe, rit. Le mot « весёлая » apparaît avec un petit soleil animé.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "olga",
+   "langue": "ru",
+   "texte": "А кто тот высо́кий молодо́й челове́к?",
+   "ecran": "Olga plisse les yeux et pointe le fond de la salle. La caméra suit son doigt jusqu'à Dima.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Э́то я! Меня́ зову́т Ди́ма. Я студе́нт. Я высо́кий и весёлый!",
+   "ecran": "Dima se lève d'un bond, se tape la poitrine, écarte les bras. Les adjectifs « высо́кий » et « весёлый » s'affichent.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Ди́ма, ты но́вый студе́нт?",
+   "ecran": "Thomas se retourne vers Dima, penche la tête, curieux.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "dima",
+   "langue": "ru",
+   "texte": "Нет! Я не но́вый студе́нт!",
+   "ecran": "Dima agite l'index en riant, puis se rassied lourdement. Petit effet comique sur le banc qui grince.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "olga",
+   "langue": "ru",
+   "texte": "Хорошо́! Э́то гру́ппа. Э́то пе́рвый курс.",
+   "ecran": "Olga balaye la salle du geste. Un cercle lumineux entoure le groupe. Le chiffre « 1 » apparaît pour « пе́рвый ».",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "masha",
+   "langue": "ru",
+   "texte": "То́мас, кто э́то?",
+   "ecran": "Masha chuchote à Thomas en désignant Olga du menton, avec un sourire complice.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Э́то О́льга Петро́вна. Она́ преподава́тель. Она́ у́мная и хоро́шая.",
+   "ecran": "Thomas murmure, sourit. Les adjectifs « у́мная » et « хоро́шая » s'affichent avec l'accord féminin -ая en couleur.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "olga",
+   "langue": "ru",
+   "texte": "Спа́сибо, То́мас! Молоде́ц!",
+   "ecran": "Olga sourit chaleureusement, applaudit deux fois et lève le pouce. Confettis discrets.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Très bien ! Vous avez entendu le dialogue complet. Passons maintenant au vocabulaire. Répétez chaque mot après le signal. Observez la place de l'accent tonique, marqué par l'accent aigu.",
+   "ecran": "Le décor se fige. Un panneau « Vocabulaire » apparaît. Les 18 mots défilent un par un avec leur accent marqué.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Университе́т. Студе́нт. Студе́нтка. Преподава́тель. Гру́ппа. Курс.",
+   "ecran": "Chaque mot apparaît en grand à l'écran avec sa translittération et une icône correspondante (bâtiment, étudiant, professeur…).",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Челове́к. Молодо́й. Высо́кий. Весёлый. У́мный. Хоро́ший.",
+   "ecran": "Suite des mots avec silhouettes animées : un personnage grand, un personnage souriant, une ampoule pour « умный ».",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Краси́вый. Но́вый. Пе́рвый. Иностране́ц. Факульте́т. Аудито́рия.",
+   "ecran": "Derniers mots avec images : un bâtiment neuf, un drapeau étranger, une salle de classe.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la grammaire. Premier point : le nominatif. C'est la forme de base du nom, celle du dictionnaire. Le genre se reconnaît à la terminaison : consonne pour le masculin, -а ou -я pour le féminin, -о ou -е pour le neutre. Et rappelez-vous : pas de verbe « être » ! Она студентка, et non « она есть студентка ».",
+   "ecran": "Tableau animé avec trois colonnes (Masc / Fém / Neutre). Les terminaisons s'allument. Un « быть » barré d'une croix rouge apparaît.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Deuxième point : l'accord de l'adjectif. L'adjectif prend la même terminaison que le nom : -ый pour le masculin, -ая pour le féminin, -ое pour le neutre, -ые pour le pluriel. Молодой студент, молодая студентка, молодые студенты. Observez le tableau.",
+   "ecran": "Tableau d'accord animé. Les terminaisons -ый, -ая, -ое, -ées s'affichent en couleur. Exemples défilent avec images.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Un mot sur la prononciation : en russe, l'accent tonique est mobile. Il peut tomber sur n'importe quelle syllabe. Écoutez : Ма́ша — accent sur la première. Петро́вна — accent sur la deuxième. Университе́т — accent sur la dernière. Répétez en exagérant la syllabe accentuée.",
+   "ecran": "Les prénoms apparaissent avec la syllabe accentuée en rouge et agrandie. Un curseur audio montre la position de l'accent.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Petit détour culturel : le premier septembre en Russie, c'est le День знаний, la Fête de la Connaissance. Les étudiants offrent des fleurs aux professeurs, s'habillent en tenue formelle, et assistent à un discours solennel. C'est très différent d'une rentrée française !",
+   "ecran": "Illustration animée : des étudiants avec des bouquets, une cérémonie en plein air, des ballons. Texte « 1 сентября — День знаний ».",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "C'est l'heure des exercices ! Exercice un : un QCM. Choisissez la bonne réponse parmi les trois propositions. Cliquez sur votre choix.",
+   "ecran": "Écran d'exercice avec la question 1 du QCM. Trois boutons de choix.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice deux : complétez les trous. Tapez le mot qui manque dans la case vide. Vous avez le choix entre cinq mots proposés.",
+   "ecran": "Phrase à trou avec un champ de saisie. Les cinq mots proposés sont affichés dans un encadré.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice trois : association. Reliez chaque nom à l'adjectif correctement accordé. Glissez-déposez pour former les paires.",
+   "ecran": "Deux colonnes : noms à gauche, adjectifs à droite. L'apprenant relie par glisser-déposer.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice quatre : remise en ordre. Replacez les mots dans le bon ordre pour reconstruire la phrase. Glissez les blocs de mots.",
+   "ecran": "Mots mélangés en blocs 3D. L'apprenant les réorganise sur une ligne.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice cinq : traduction. Traduisez chaque phrase française en russe. Écrivez votre réponse dans le champ prévu. N'oubliez pas : pas de verbe « être » !",
+   "ecran": "Phrase française en haut, champ de saisie en bas. Clavier cyrillique virtuel disponible.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice six : écoute. Écoutez l'enregistrement et choisissez la phrase que vous entendez. Appuyez sur le bouton lecture pour réécouter si nécessaire.",
+   "ecran": "Bouton de lecture audio avec icône haut-parleur. Trois choix de transcription en dessous.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo, vous avez terminé la leçon quatre ! Récapitulons : vous savez maintenant demander « Кто это? », présenter quelqu'un avec « Это… », et décrire une personne avec des adjectifs accordés. Et surtout : pas de verbe être ! Она студентка, tout simplement.",
+   "ecran": "Les personnages du dialogue se regroupent et font un signe de la main. Les phrases clés défilent en résumé.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Dans la prochaine leçon, nous irons à la cafétéria de l'université. Thomas commandera son premier repas en russe. Vous apprendrez l'accusatif et le verbe хотеть. До встречи !",
+   "ecran": "Aperçu teaser : la cafétéria de la MGU, un plateau-repas, un menu en russe. Fondu au noir avec « Leçon 5 ».",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Кто э́то? — Э́то Ма́ша. Она́ студе́нтка.",
+   "natif": "Qui est-ce ? — C'est Masha. Elle est étudiante."
+  },
+  {
+   "cible": "Я но́вый студе́нт. Я францу́з.",
+   "natif": "Je suis un nouvel étudiant. Je suis français."
+  },
+  {
+   "cible": "Он высо́кий и весёлый. Она́ у́мная и хоро́шая.",
+   "natif": "Il est grand et joyeux. Elle est intelligente et gentille."
+  },
+  {
+   "cible": "Э́то гру́ппа. Э́то пе́рвый курс.",
+   "natif": "C'est le groupe. C'est la première année."
+  },
+  {
+   "cible": "Она́ преподава́тель. Она́ не студе́нтка.",
+   "natif": "Elle est professeure. Elle n'est pas étudiante."
+  }
+ ],
+ "controle": []
+}

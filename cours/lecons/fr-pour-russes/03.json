@@ -1,0 +1,944 @@
+{
+ "cours": "fr-pour-russes",
+ "num": 3,
+ "niveau": "A1",
+ "id": "fr-pour-russes-A1-03",
+ "titre": {
+  "cible": "Ma nouvelle chambre",
+  "natif": "Моя новая комната"
+ },
+ "objectifs": [
+  "Описывать жилое пространство: называть мебель, предметы и цвета комнаты",
+  "Выражать принадлежность с помощью притяжательных прилагательных mon / ma / mes",
+  "Использовать неопределённые артикли un / une / des для обозначения новых предметов",
+  "Спрягать глагол avoir в настоящем времени для описания наличия предметов",
+  "Вести простой телефонный разговор: приветствие, описание, прощание"
+ ],
+ "scene": {
+  "lieu": "Chambre d'étudiante, résidence universitaire du CROUS, Quartier Latin, Paris",
+  "moment": "Début d'après-midi, début septembre, lumière dorée de fin d'été",
+  "decor_3d": "Petite chambre de 12 m² sous les toits, murs blancs, parquet clair. Une grande fenêtre à droite laisse entrer la lumière et donne sur une cour arborée. À gauche, un lit simple avec une couverture bleue ; au centre, un bureau en bois avec une chaise ; contre le mur du fond, une armoire blanche et une étagère à trois niveaux. Un petit tapis gris est posé près du lit. Sur le bureau, une lampe et quelques livres. Au-dessus du lit, une affiche de la Tour Eiffel. La porte d'entrée est entrouverte.",
+  "objets": [
+   "un lit simple avec couverture bleue et oreiller blanc",
+   "un bureau en bois clair",
+   "une chaise de bureau",
+   "une armoire blanche à deux portes",
+   "une étagère murale à trois niveaux",
+   "une lampe de bureau articulée",
+   "un tapis gris rectangulaire",
+   "des rideaux bleus",
+   "une fenêtre à deux battants avec vue sur cour",
+   "une porte en bois avec poignée métallique",
+   "un téléphone portable (pour l'appel)",
+   "une valise rouge ouverte près de la porte",
+   "une affiche de la Tour Eiffel au mur",
+   "une prise électrique au mur"
+  ],
+  "personnages": [
+   "anna"
+  ],
+  "figurants": [
+   {
+    "id": "olga",
+    "nom": "Olga Sokolova",
+    "apparence": "Femme de 50 ans, cheveux châtains mi-longs, lunettes fines, pull vert, visage doux et souriant (visible uniquement sur l'écran du téléphone)",
+    "voix": "Femme mature, timbre chaud et légèrement inquiet, accent russe léger en français"
+   },
+   {
+    "id": "sophie_v",
+    "nom": "Sophie Dubois",
+    "apparence": "Jeune femme de 24 ans, cheveux roux courts en bataille, salopette en jean, t-shirt jaune, sourire énergique (apparaît 3 secondes à la porte)",
+    "voix": "Jeune femme dynamique, débit rapide, ton enjoué"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "anna",
+   "texte": "Voilà ! C'est ma chambre ! Elle est petite, mais elle est très lumineuse.",
+   "traduction": "Вот! Это моя комната! Она маленькая, но очень светлая.",
+   "geste": "Anna ouvre la porte, entre avec sa valise, regarde autour d'elle avec un grand sourire, bras écartés."
+  },
+  {
+   "perso": "anna",
+   "texte": "Il y a un lit, un bureau, une chaise… et une grande fenêtre ! J'adore la vue sur la cour.",
+   "traduction": "Здесь есть кровать, письменный стол, стул… и большое окно! Мне очень нравится вид на двор.",
+   "geste": "Anna pointe du doigt chaque meuble en les nommant, puis s'approche de la fenêtre et regarde dehors."
+  },
+  {
+   "perso": "sophie_v",
+   "texte": "Salut ! Tu es Anna ? Moi, c'est Sophie, ta voisine de chambre. Bienvenue !",
+   "traduction": "Привет! Ты Анна? Я Софи, твоя соседка по комнате. Добро пожаловать!",
+   "geste": "Sophie passe la tête par la porte entrouverte, fait un petit signe de la main, sourit largement."
+  },
+  {
+   "perso": "anna",
+   "texte": "Bonjour Sophie ! Merci ! Je suis très contente. La chambre est jolie.",
+   "traduction": "Привет, Софи! Спасибо! Я очень рада. Комната красивая.",
+   "geste": "Anna se retourne, sourit à Sophie et fait un petit signe de tête reconnaissant."
+  },
+  {
+   "perso": "anna",
+   "texte": "Allô ? Maman ? C'est moi, Anna ! Je suis à Paris, dans ma chambre !",
+   "traduction": "Алло? Мама? Это я, Анна! Я в Париже, в своей комнате!",
+   "geste": "Anna prend son téléphone, compose un numéro, porte l'appareil à son oreille, ton enthousiaste."
+  },
+  {
+   "perso": "olga",
+   "texte": "Anna ! Ma chérie ! Comment ça va ? Tu es bien installée ?",
+   "traduction": "Анна! Дорогая моя! Как дела? Ты хорошо устроилась?",
+   "geste": "Sur l'écran du téléphone, Olga apparaît en visio, ajuste ses lunettes, sourire inquiet et tendre."
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, ça va ! Maman, j'ai une petite chambre au cinquième étage. Elle est très claire.",
+   "traduction": "Да, всё хорошо! Мама, у меня маленькая комната на пятом этаже. Она очень светлая.",
+   "geste": "Anna fait un tour sur elle-même pour montrer la chambre à la caméra du téléphone."
+  },
+  {
+   "perso": "olga",
+   "texte": "Et tu as quoi dans ta chambre ? Il y a une armoire pour tes vêtements ?",
+   "traduction": "А что у тебя в комнате? Есть шкаф для одежды?",
+   "geste": "Olga se penche vers l'écran, plisse les yeux pour mieux voir, ton pratique de mère."
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui ! J'ai une grande armoire blanche. J'ai aussi un bureau, une étagère et une lampe.",
+   "traduction": "Да! У меня большой белый шкаф. Ещё у меня есть письменный стол, полка и лампа.",
+   "geste": "Anna ouvre la porte de l'armoire, montre l'étagère du doigt, allume et éteint la lampe."
+  },
+  {
+   "perso": "olga",
+   "texte": "C'est bien. Et le lit ? Tu as un bon lit ?",
+   "traduction": "Хорошо. А кровать? У тебя хорошая кровать?",
+   "geste": "Olga croise les doigts, expression maternelle soucieuse."
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, j'ai un lit avec un oreiller et une couverture bleue. Et il y a des rideaux bleus aussi !",
+   "traduction": "Да, у меня кровать с подушкой и синим одеялом. И ещё есть синие шторы!",
+   "geste": "Anna s'assoit sur le lit, tapote l'oreiller, puis tire légèrement le rideau."
+  },
+  {
+   "perso": "olga",
+   "texte": "Très joli, ma fille. Et ta voisine, elle est sympathique ?",
+   "traduction": "Очень красиво, доченька. А соседка, она приятная?",
+   "geste": "Olga sourit, penche la tête sur le côté, ton curieux."
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui ! Elle s'appelle Sophie. Elle est étudiante en architecture. Elle est très sympa.",
+   "traduction": "Да! Её зовут Софи. Она студентка-архитектор. Она очень приятная.",
+   "geste": "Anna hoche la tête avec enthousiasme, pouce levé."
+  },
+  {
+   "perso": "olga",
+   "texte": "Je suis contente pour toi, Anna. C'est ta nouvelle vie à Paris ! Bon courage, ma chérie.",
+   "traduction": "Я рада за тебя, Анна. Это твоя новая жизнь в Париже! Удачи, дорогая.",
+   "geste": "Olga envoie un baiser à la caméra, yeux légèrement humides, sourire fier."
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci, Maman. Je t'aime. Au revoir !",
+   "traduction": "Спасибо, мама. Я тебя люблю. До свидания!",
+   "geste": "Anna envoie un baiser au téléphone, raccroche, puis regarde sa chambre avec un sourire satisfait."
+  },
+  {
+   "perso": "anna",
+   "texte": "C'est petit, mais c'est chez moi maintenant.",
+   "traduction": "Здесь тесно, но теперь это мой дом.",
+   "geste": "Anna s'assoit sur le lit, regarde par la fenêtre, lumière dorée sur son visage, sourire paisible."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "un lit",
+   "prononciation": "[ɛ̃ li]",
+   "nature": "nom m.",
+   "traduction": "кровать",
+   "exemple": "Il y a un lit dans ma chambre.",
+   "exemple_traduction": "В моей комнате есть кровать."
+  },
+  {
+   "mot": "un bureau",
+   "prononciation": "[ɛ̃ byʁo]",
+   "nature": "nom m.",
+   "traduction": "письменный стол",
+   "exemple": "Mon bureau est près de la fenêtre.",
+   "exemple_traduction": "Мой письменный стол стоит у окна."
+  },
+  {
+   "mot": "une chaise",
+   "prononciation": "[yn ʃɛz]",
+   "nature": "nom f.",
+   "traduction": "стул",
+   "exemple": "J'ai une chaise pour mon bureau.",
+   "exemple_traduction": "У меня есть стул для моего письменного стола."
+  },
+  {
+   "mot": "une armoire",
+   "prononciation": "[yn aʁmwaʁ]",
+   "nature": "nom f.",
+   "traduction": "шкаф (для одежды)",
+   "exemple": "L'armoire est grande et blanche.",
+   "exemple_traduction": "Шкаф большой и белый."
+  },
+  {
+   "mot": "une étagère",
+   "prononciation": "[yn etaʒɛʁ]",
+   "nature": "nom f.",
+   "traduction": "полка, стеллаж",
+   "exemple": "Il y a des livres sur l'étagère.",
+   "exemple_traduction": "На полке есть книги."
+  },
+  {
+   "mot": "une lampe",
+   "prononciation": "[yn lɑ̃p]",
+   "nature": "nom f.",
+   "traduction": "лампа",
+   "exemple": "J'ai une lampe sur mon bureau.",
+   "exemple_traduction": "У меня на столе есть лампа."
+  },
+  {
+   "mot": "un oreiller",
+   "prononciation": "[ɛ̃ ɔʁɛje]",
+   "nature": "nom m.",
+   "traduction": "подушка",
+   "exemple": "L'oreiller est blanc et doux.",
+   "exemple_traduction": "Подушка белая и мягкая."
+  },
+  {
+   "mot": "une couverture",
+   "prononciation": "[yn kuvɛʁtyʁ]",
+   "nature": "nom f.",
+   "traduction": "одеяло",
+   "exemple": "Ma couverture est bleue.",
+   "exemple_traduction": "Моё одеяло синее."
+  },
+  {
+   "mot": "un rideau",
+   "prononciation": "[ɛ̃ ʁido]",
+   "nature": "nom m.",
+   "traduction": "штора, занавеска",
+   "exemple": "Il y a des rideaux bleus à la fenêtre.",
+   "exemple_traduction": "На окне синие шторы."
+  },
+  {
+   "mot": "une fenêtre",
+   "prononciation": "[yn fənɛtʁ]",
+   "nature": "nom f.",
+   "traduction": "окно",
+   "exemple": "La fenêtre est grande et lumineuse.",
+   "exemple_traduction": "Окно большое и светлое."
+  },
+  {
+   "mot": "un mur",
+   "prononciation": "[ɛ̃ myʁ]",
+   "nature": "nom m.",
+   "traduction": "стена",
+   "exemple": "Le mur est blanc.",
+   "exemple_traduction": "Стена белая."
+  },
+  {
+   "mot": "une porte",
+   "prononciation": "[yn pɔʁt]",
+   "nature": "nom f.",
+   "traduction": "дверь",
+   "exemple": "La porte de ma chambre est en bois.",
+   "exemple_traduction": "Дверь моей комнаты деревянная."
+  },
+  {
+   "mot": "un tapis",
+   "prononciation": "[ɛ̃ tapi]",
+   "nature": "nom m.",
+   "traduction": "коврик",
+   "exemple": "Il y a un petit tapis gris dans ma chambre.",
+   "exemple_traduction": "В моей комнате есть маленький серый коврик."
+  },
+  {
+   "mot": "petit / petite",
+   "prononciation": "[pəti] / [pətit]",
+   "nature": "adj.",
+   "traduction": "маленький / маленькая",
+   "exemple": "Ma chambre est petite mais jolie.",
+   "exemple_traduction": "Моя комната маленькая, но красивая."
+  },
+  {
+   "mot": "grand / grande",
+   "prononciation": "[ɡʁɑ̃] / [ɡʁɑ̃d]",
+   "nature": "adj.",
+   "traduction": "большой / большая",
+   "exemple": "J'ai une grande fenêtre.",
+   "exemple_traduction": "У меня большое окно."
+  },
+  {
+   "mot": "blanc / blanche",
+   "prononciation": "[blɑ̃] / [blɑ̃ʃ]",
+   "nature": "adj.",
+   "traduction": "белый / белая",
+   "exemple": "L'armoire est blanche.",
+   "exemple_traduction": "Шкаф белый."
+  },
+  {
+   "mot": "bleu / bleue",
+   "prononciation": "[blø] / [blø]",
+   "nature": "adj.",
+   "traduction": "синий / синяя",
+   "exemple": "Ma couverture est bleue.",
+   "exemple_traduction": "Моё одеяло синее."
+  },
+  {
+   "mot": "clair / claire",
+   "prononciation": "[klɛʁ]",
+   "nature": "adj.",
+   "traduction": "светлый / светлая",
+   "exemple": "La chambre est très claire.",
+   "exemple_traduction": "Комната очень светлая."
+  },
+  {
+   "mot": "lumineux / lumineuse",
+   "prononciation": "[lyminø] / [lyminøz]",
+   "nature": "adj.",
+   "traduction": "светлый, залитый светом",
+   "exemple": "Ma chambre est petite mais lumineuse.",
+   "exemple_traduction": "Моя комната маленькая, но залитая светом."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Неопределённые артикли un / une / des и притяжательные прилагательные mon / ma / mes",
+   "explication": "Во французском языке перед существительным почти всегда стоит артикль или определитель. Неопределённые артикли (un, une, des) используются, когда мы называем предмет впервые или не указываем на конкретный объект: un lit (какая-то кровать), une chaise (какой-то стул), des rideaux (какие-то шторы). Форма зависит от рода и числа: un — мужской род единственного числа, une — женский род единственного числа, des — множественное число обоих родов. Притяжательные прилагательные (mon, ma, mes) указывают на принадлежность говорящему: mon лит (моя кровать — м.р.), ma chambre (моя комната — ж.р.), mes livres (мои книги — мн.ч.). Обратите внимание: перед существительным женского рода, начинающимся с гласной или немого h, используется mon вместо ma для благозвучия: mon armoire (а не *ma armoire). Артикль и притяжательное прилагательное не употребляются одновременно: мы говорим либо un lit, либо mon lit, но не *un mon lit.",
+   "tableau": [
+    [
+     "",
+     "м.р. ед.ч.",
+     "ж.р. ед.ч.",
+     "мн.ч."
+    ],
+    [
+     "Неопределённый артикль",
+     "un (un lit)",
+     "une (une chaise)",
+     "des (des rideaux)"
+    ],
+    [
+     "Притяжательное (1-е лицо)",
+     "mon (mon bureau)",
+     "ma (ma chambre)",
+     "mes (mes livres)"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Il y a un lit et une armoire dans ma chambre.",
+     "natif": "В моей комнате есть кровать и шкаф."
+    },
+    {
+     "cible": "J'ai des rideaux bleus à la fenêtre.",
+     "natif": "У меня на окне синие шторы."
+    },
+    {
+     "cible": "Mon bureau est petit mais ma fenêtre est grande.",
+     "natif": "Мой письменный стол маленький, но моё окно большое."
+    },
+    {
+     "cible": "J'ai une étagère et des livres sur mon étagère.",
+     "natif": "У меня есть полка и книги на моей полке."
+    }
+   ]
+  },
+  {
+   "titre": "Глагол avoir (иметь) в настоящем времени",
+   "explication": "Глагол avoir (иметь, у кого-то есть) — один из важнейших глаголов французского языка. В этой лекции он используется для описания того, что находится в комнате: J'ai un lit (У меня есть кровать). Спряжение avoir в présent: j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont. Обратите внимание на произношение: в формах j'ai, tu as, il a конечные буквы не произносятся; в формах nous avons, vous avez слышны [z]-связки перед гласной. Конструкция Il y a (имеется, есть) используется для описания наличия предметов в пространстве и не изменяется по лицам: Il y a un bureau (Здесь есть стол), Il y a des chaises (Здесь есть стулья). Отрицание строится с ne…pas: Je n'ai pas de tapis (У меня нет ковра), но на уровне A1 достаточно запомнить утвердительную форму.",
+   "tableau": [
+    [
+     "Лицо",
+     "avoir (настоящее время)",
+     "Пример"
+    ],
+    [
+     "je",
+     "j'ai",
+     "J'ai un lit."
+    ],
+    [
+     "tu",
+     "tu as",
+     "Tu as une chambre ?"
+    ],
+    [
+     "il / elle",
+     "il/elle a",
+     "Elle a une armoire."
+    ],
+    [
+     "nous",
+     "nous avons",
+     "Nous avons des livres."
+    ],
+    [
+     "vous",
+     "vous avez",
+     "Vous avez un bureau ?"
+    ],
+    [
+     "ils / elles",
+     "ils/elles ont",
+     "Ils ont une fenêtre."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "J'ai une petite chambre au cinquième étage.",
+     "natif": "У меня маленькая комната на пятом этаже."
+    },
+    {
+     "cible": "Tu as une armoire pour tes vêtements ?",
+     "natif": "У тебя есть шкаф для одежды?"
+    },
+    {
+     "cible": "Il y a un lit, un bureau et une chaise.",
+     "natif": "Здесь есть кровать, письменный стол и стул."
+    },
+    {
+     "cible": "Elle a des rideaux bleus.",
+     "natif": "У неё синие шторы."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Немое «e» (le e muet) в конце и в середине слова",
+  "explication": "Во французском языке буква «e» в конце слова часто не произносится — это так называемое «немое e» (e muet / e caduc). Например: chambre [ʃɑ̃bʁ] (не *[ʃɑ̃bʁə]), fenêtre [fənɛtʁ], une [yn]. Однако в середине слова «e» может произноситься как краткий звук [ə]: fenêtre [fənɛtʁ], étagère [etaʒɛʁ]. Правила: 1) В конце слова «e» после согласной не произносится: une porte [yn pɔʁt], une lampe [yn lɑ̃p]. 2) В середине слова «e» между двумя согласными произносится как [ə]: fenêtre [fə.nɛtʁ]. 3) В конце слова после гласной или другой гласной «e» не произносится: une chaise [yn ʃɛz]. На уровне A1 важно привыкнуть не произносить конечное «e» и не «съедать» внутреннее [ə]. Тренируйтесь произносить слова целиком, обращая внимание на ритм.",
+  "exemples": [
+   "chambre → [ʃɑ̃bʁ] (e final muet)",
+   "fenêtre → [fənɛtʁ] (e interne [ə] + e final muet)",
+   "une porte → [yn pɔʁt] (e final muet)",
+   "étagère → [etaʒɛʁ] (e final muet)",
+   "petite → [pətit] (e interne [ə] + e final muet)",
+   "couverture → [kuvɛʁtyʁ] (e final muet)",
+   "lampe → [lɑ̃p] (e final muet)"
+  ]
+ },
+ "culture": {
+  "titre": "Резиденции CROUS: студенческое жильё во Франции",
+  "texte": "CROUS (Centre Régional des Œuvres Universitaires et Scolaires) — это государственная организация, которая предоставляет жильё французским и иностранным студентам. Комнаты в резиденциях CROUS обычно небольшие (от 9 до 14 м²), но меблированы: кровать, стол, стул, шкаф, полки. Стоимость аренды значительно ниже рыночной — от 200 до 500 евро в месяц в Париже. Резиденции расположены рядом с университетами; в Латинском квартале, где живёт Анна, они соседствуют с Сорбонной и Пантеоном. На каждом этаже есть общая кухня и душевые. Для иностранных студентов заявка подаётся через платформу «Études en France». Анна живёт в типичной комнате CROUS: маленькой, но светлой, с видом на тихий внутренний двор."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Выберите правильный вариант ответа.",
+   "items": [
+    {
+     "question": "Il y a ___ lit dans ma chambre.",
+     "choix": [
+      "un",
+      "une",
+      "des"
+     ],
+     "reponse": "un"
+    },
+    {
+     "question": "J'ai ___ armoire blanche.",
+     "choix": [
+      "un",
+      "une",
+      "des"
+     ],
+     "reponse": "une"
+    },
+    {
+     "question": "Il y a ___ rideaux bleus à la fenêtre.",
+     "choix": [
+      "un",
+      "une",
+      "des"
+     ],
+     "reponse": "des"
+    },
+    {
+     "question": "___ chambre est petite mais lumineuse.",
+     "choix": [
+      "Mon",
+      "Ma",
+      "Mes"
+     ],
+     "reponse": "Ma"
+    },
+    {
+     "question": "___ bureau est près de la fenêtre.",
+     "choix": [
+      "Mon",
+      "Ma",
+      "Mes"
+     ],
+     "reponse": "Mon"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Заполните пропуски словами: un / une / des / mon / ma / mes / j'ai / il y a.",
+   "items": [
+    {
+     "question": "Dans ma chambre, ___ un lit et ___ bureau.",
+     "reponse": "il y a ; un"
+    },
+    {
+     "question": "___ couverture est bleue et ___ oreiller est blanc.",
+     "reponse": "Ma ; mon"
+    },
+    {
+     "question": "J'ai ___ étagère avec ___ livres.",
+     "reponse": "une ; des"
+    },
+    {
+     "question": "___ rideaux sont bleus.",
+     "reponse": "Mes"
+    },
+    {
+     "question": "Tu as ___ lampe sur ___ bureau ?",
+     "reponse": "une ; ton"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Соедините французское слово с русским переводом.",
+   "items": [
+    {
+     "question": "un lit",
+     "reponse": "кровать"
+    },
+    {
+     "question": "une armoire",
+     "reponse": "шкаф"
+    },
+    {
+     "question": "une étagère",
+     "reponse": "полка"
+    },
+    {
+     "question": "un bureau",
+     "reponse": "письменный стол"
+    },
+    {
+     "question": "une couverture",
+     "reponse": "одеяло"
+    },
+    {
+     "question": "un tapis",
+     "reponse": "коврик"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Расставьте слова в правильном порядке, чтобы получилось предложение.",
+   "items": [
+    {
+     "question": "chambre / ma / est / petite",
+     "reponse": "Ma chambre est petite."
+    },
+    {
+     "question": "un / il / lit / y / a",
+     "reponse": "Il y a un lit."
+    },
+    {
+     "question": "j' / bleue / une / ai / couverture",
+     "reponse": "J'ai une couverture bleue."
+    },
+    {
+     "question": "des / il / rideaux / y / a",
+     "reponse": "Il y a des rideaux."
+    },
+    {
+     "question": "mon / est / blanc / mur",
+     "reponse": "Mon mur est blanc."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Переведите с русского на французский.",
+   "items": [
+    {
+     "question": "У меня есть кровать и шкаф.",
+     "reponse": "J'ai un lit et une armoire."
+    },
+    {
+     "question": "Моя комната маленькая, но светлая.",
+     "reponse": "Ma chambre est petite mais lumineuse."
+    },
+    {
+     "question": "Здесь есть письменный стол и стул.",
+     "reponse": "Il y a un bureau et une chaise."
+    },
+    {
+     "question": "У меня синие шторы.",
+     "reponse": "J'ai des rideaux bleus."
+    },
+    {
+     "question": "Моя лампа на моём письменном столе.",
+     "reponse": "Ma lampe est sur mon bureau."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Прослушайте аудио и выберите правильный ответ.",
+   "items": [
+    {
+     "question": "« J'ai une grande armoire blanche. » — Что у Анны?",
+     "choix": [
+      "Un lit blanc",
+      "Une armoire blanche",
+      "Un bureau blanc"
+     ],
+     "reponse": "Une armoire blanche"
+    },
+    {
+     "question": "« Il y a des rideaux bleus à la fenêtre. » — Какого цвета шторы?",
+     "choix": [
+      "blancs",
+      "bleus",
+      "gris"
+     ],
+     "reponse": "bleus"
+    },
+    {
+     "question": "« Ma chambre est petite mais très claire. » — Какая комната?",
+     "choix": [
+      "grande et sombre",
+      "petite et claire",
+      "petite et sombre"
+     ],
+     "reponse": "petite et claire"
+    },
+    {
+     "question": "« J'ai un oreiller et une couverture sur mon lit. » — Что на кровати?",
+     "choix": [
+      "un tapis et une lampe",
+      "un oreiller et une couverture",
+      "un bureau et une chaise"
+     ],
+     "reponse": "un oreiller et une couverture"
+    },
+    {
+     "question": "« Il y a une étagère avec des livres. » — Что на полке?",
+     "choix": [
+      "des vêtements",
+      "des livres",
+      "des rideaux"
+     ],
+     "reponse": "des livres"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Добро пожаловать на третий урок курса «Французский для русскоязычных»! Сегодня Анна входит в свою новую комнату в студенческой резиденции. Вы научитесь описывать помещение, называть мебель и цвета, говорить о принадлежности и вести простой телефонный разговор.",
+   "ecran": "Заставка урока: вид на здание резиденции CROUS в Латинском квартале, камера медленно приближается к окну на пятом этаже. Появляется название урока на французском и русском.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Цели урока: описывать комнату и мебель, использовать артикли un, une, des и притяжательные прилагательные mon, ma, mes, спрягать глагол avoir, говорить по телефону. Начнём!",
+   "ecran": "На экране появляются иконки целей урока: кровать (описание), рука с ключом (принадлежность), телефон (разговор). Анимация галочек.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Анна только что получила ключ от комнаты. Она открывает дверь и входит. Посмотрите, как она осматривается.",
+   "ecran": "Камера из коридора: Анна вставляет ключ в замок, дверь открывается, видна светлая комната. Анна входит с красной чемоданом.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Voilà ! C'est ma chambre ! Elle est petite, mais elle est très lumineuse.",
+   "ecran": "Anna au centre de la pièce, bras écartés, sourire. La lumière entre par la fenêtre. Sous-titres français et russe en bas de l'écran.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Обратите внимание: «ma chambre» — моя комната. Притяжательное прилагательное «ma» стоит перед существительным женского рода. А теперь Анна перечисляет мебель.",
+   "ecran": "Камера следует за пальцем Анны: кровать → стол → стул → окно. Каждый предмет подсвечивается при назывании.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v06",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Il y a un lit, un bureau, une chaise… et une grande fenêtre ! J'adore la vue sur la cour.",
+   "ecran": "Anna pointe chaque meuble. Gros plan sur la fenêtre avec vue sur la cour arborée. Sous-titres affichés.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Конструкция «Il y a» означает «имеется, есть». Она не изменяется: «Il y a un lit», «Il y a des chaises». Запомните эту фразу — она вам очень пригодится.",
+   "ecran": "Всплывающая плашка с надписью «Il y a = есть, имеется» и двумя примерами. Анимация появления предметов в комнате.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v08",
+   "voix": "sophie_v",
+   "langue": "fr",
+   "texte": "Salut ! Tu es Anna ? Moi, c'est Sophie, ta voisine de chambre. Bienvenue !",
+   "ecran": "Sophie passe la tête par la porte, sourit, fait un signe de la main. Lumière du couloir derrière elle.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Bonjour Sophie ! Merci ! Je suis très contente. La chambre est jolie.",
+   "ecran": "Anna se retourne vers la porte, sourit à Sophie, fait un signe de tête.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Софи — соседка Анны по комнате. Вы познакомитесь с ней ближе в следующих уроках. А сейчас Анна звонит маме в Россию.",
+   "ecran": "Sophie disparaît. Anna prend son téléphone portable sur le bureau, compose un numéro, le porte à son oreille.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v11",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Allô ? Maman ? C'est moi, Anna ! Je suis à Paris, dans ma chambre !",
+   "ecran": "Gros plan sur Anna au téléphone, visage joyeux. L'écran du téléphone montre «Appel vidéo – Maman».",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "olga",
+   "langue": "fr",
+   "texte": "Anna ! Ma chérie ! Comment ça va ? Tu es bien installée ?",
+   "ecran": "Écran du téléphone en visio : Olga ajuste ses lunettes, sourire tendre et inquiet. Arrière-plan : cuisine russe.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, ça va ! Maman, j'ai une petite chambre au cinquième étage. Elle est très claire.",
+   "ecran": "Anna fait un tour sur elle-même, montrant la chambre à la caméra. La lumière dorée illumine la pièce.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Обратите внимание: «j'ai» — это сокращение «je ai», у меня есть. Глагол «avoir» — иметь. Вы услышите его ещё много раз в этом разговоре.",
+   "ecran": "Плашка: «j'ai = у меня есть (je + avoir)». Анимация: предметы появляются вокруг Анны.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v15",
+   "voix": "olga",
+   "langue": "fr",
+   "texte": "Et tu as quoi dans ta chambre ? Il y a une armoire pour tes vêtements ?",
+   "ecran": "Olga se penche vers l'écran, plisse les yeux. Ton pratique et maternel.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui ! J'ai une grande armoire blanche. J'ai aussi un bureau, une étagère et une lampe.",
+   "ecran": "Anna ouvre l'armoire, montre l'étagère du doigt, allume et éteint la lampe. Chaque objet est mis en surbrillance.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "olga",
+   "langue": "fr",
+   "texte": "C'est bien. Et le lit ? Tu as un bon lit ?",
+   "ecran": "Olga croise les doigts, expression soucieuse de mère. Gros plan sur son visage.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, j'ai un lit avec un oreiller et une couverture bleue. Et il y a des rideaux bleus aussi !",
+   "ecran": "Anna s'assoit sur le lit, tapote l'oreiller, tire le rideau bleu. Gros plan sur les textiles.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "olga",
+   "langue": "fr",
+   "texte": "Très joli, ma fille. Et ta voisine, elle est sympathique ?",
+   "ecran": "Olga sourit, penche la tête, ton curieux.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui ! Elle s'appelle Sophie. Elle est étudiante en architecture. Elle est très sympa.",
+   "ecran": "Anna hoche la tête avec enthousiasme, pouce levé. Flash-back de 2 secondes sur Sophie à la porte.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v21",
+   "voix": "olga",
+   "langue": "fr",
+   "texte": "Je suis contente pour toi, Anna. C'est ta nouvelle vie à Paris ! Bon courage, ma chérie.",
+   "ecran": "Olga envoie un baiser à la caméra, yeux légèrement humides, sourire fier.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v22",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci, Maman. Je t'aime. Au revoir !",
+   "ecran": "Anna envoie un baiser, raccroche, regarde sa chambre avec un sourire satisfait.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v23",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "C'est petit, mais c'est chez moi maintenant.",
+   "ecran": "Anna s'assoit sur le lit, regarde par la fenêtre. Lumière dorée du soir. Fondu lent.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отлично! Вы прослушали весь диалог. Теперь давайте повторим ключевые слова. Повторяйте за диктором вслух. Нажмите на кнопку, чтобы услышать слово ещё раз.",
+   "ecran": "Экран переходит в режим «Словарь». Появляется 3D-модель комнаты, предметы подсвечиваются по очереди.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Un lit. Un bureau. Une chaise. Une armoire. Une étagère. Une lampe. Un oreiller. Une couverture. Un rideau. Une fenêtre. Un mur. Une porte. Un tapis.",
+   "ecran": "Chaque mot apparaît en texte à côté de l'objet 3D correspondant qui se met en surbrillance. Transcription API sous chaque mot.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь перейдём к грамматике. Сегодня мы изучаем три важных элемента: неопределённые артикли, притяжательные прилагательные и глагол «иметь».",
+   "ecran": "Экран делится на три части: артикли (иконка «1»), притяжательные (иконка рука+ключ), avoir (иконка глагола). Анимация перехода к первой части.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Неопределённые артикли: un — для мужского рода, une — для женского, des — для множественного числа. Мы ставим их перед существительным, когда называем предмет впервые. Например: un lit, une chaise, des rideaux. Притяжательные прилагательные: mon, ma, mes — мой, моя, мои. Они заменяют артикль. Нельзя сказать «un mon lit». Только «mon lit».",
+   "ecran": "Таблица с тремя столбцами (м.р., ж.р., мн.ч.) и двумя строками (un/une/des и mon/ma/mes). Примеры появляются с анимацией. Красный крест на «*un mon lit».",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Глагол avoir — иметь. Спряжение: j'ai, tu as, il a, nous avons, vous avez, ils ont. Конструкция «il y a» означает «есть, имеется» и не меняется. Повторите вслух: J'ai une chambre. Il y a un lit.",
+   "ecran": "Таблица спряжения avoir. Рядом — анимированная комната, где предметы появляются при произнесении «il y a». Кнопка «Повторить».",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь поговорим о произношении. Буква «e» в конце слова часто не читается: chambre, fenêtre, porte. Но в середине слова она может звучать как короткий «э»: фэнэтр. Послушайте и повторите.",
+   "ecran": "Слова появляются крупным шрифтом. Немое «e» зачёркивается. Внутреннее [ə] подсвечивается жёлтым. Кнопка воспроизведения аудио.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Немного культуры. Резиденции CROUS — это государственное студенческое жильё во Франции. Комнаты маленькие, но меблированные и дешёвые. Анна живёт в типичной комнате CROUS в Латинском квартале Парижа.",
+   "ecran": "Фотографии и 3D-модель типичной резиденции CROUS: фасад здания, коридор, общая кухня. Логотип CROUS. Текст на русском.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Переходим к упражнениям. Первое задание: выберите правильный артикль или притяжательное прилагательное. Нажмите на вариант ответа.",
+   "ecran": "Экран упражнения QCM. Пять вопросов появляются по очереди. Кнопки выбора подсвечиваются при наведении.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Второе задание: заполните пропуски. Впишите нужное слово в пустое поле.",
+   "ecran": "Экран упражнения «Пропуски». Пять предложений с пустыми полями. Виртуальная клавиатура внизу.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Третье задание: соедините французские слова с русским переводом. Перетащите элемент вправо к нужному переводу.",
+   "ecran": "Экран упражнения «Соответствие». Левая колонка — французские слова, правая — русские. Линии соединяют пары.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Четвёртое задание: расставьте слова в правильном порядке. Перетаскивайте слова, чтобы составить предложение.",
+   "ecran": "Экран упражнения «Порядок слов». Слова-карточки перемешаны. Пользователь перетаскивает их в строку.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Пятое задание: переведите предложения с русского на французский. Напишите ответ в поле. Шестое задание: прослушайте аудио и выберите правильный вариант. Не забудьте проверить свои ответы! Молодцы, вы отлично поработали. На следующем уроке Анна познакомится с кампусом и пойдёт на первую лекцию. До встречи!",
+   "ecran": "Быстрый показ экранов упражнений 5 и 6. Затем финальная заставка: Анна машет рукой из окна своей комнаты. Надпись «À bientôt ! До встречи!». Конец урока.",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "C'est ma chambre. Elle est petite mais lumineuse.",
+   "natif": "Это моя комната. Она маленькая, но светлая."
+  },
+  {
+   "cible": "Il y a un lit, un bureau, une chaise et une grande fenêtre.",
+   "natif": "Здесь есть кровать, письменный стол, стул и большое окно."
+  },
+  {
+   "cible": "J'ai une armoire blanche et des rideaux bleus.",
+   "natif": "У меня белый шкаф и синие шторы."
+  },
+  {
+   "cible": "Mon oreiller est blanc et ma couverture est bleue.",
+   "natif": "Моя подушка белая, а моё одеяло синее."
+  },
+  {
+   "cible": "C'est petit, mais c'est chez moi maintenant.",
+   "natif": "Здесь тесно, но теперь это мой дом."
+  }
+ ],
+ "controle": []
+}

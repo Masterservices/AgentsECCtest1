@@ -1,0 +1,993 @@
+{
+ "cours": "fr-pour-russes",
+ "num": 2,
+ "niveau": "A1",
+ "id": "fr-pour-russes-A1-02",
+ "titre": {
+  "cible": "En route vers la ville",
+  "natif": "В путь к городу"
+ },
+ "objectifs": [
+  "Donner une adresse en français (rue, numéro, arrondissement)",
+  "Demander la durée du trajet et le prix de la course",
+  "Utiliser les articles définis le, la, les et les prépositions à, en, chez",
+  "Compter et comprendre les nombres de 1 à 20",
+  "Remercier et donner un pourboire au chauffeur"
+ ],
+ "scene": {
+  "lieu": "File d'attente des taxis devant l'aéroport Charles-de-Gaulle, puis intérieur d'un taxi parisien traversant le périphérique",
+  "moment": "Fin d'après-midi, lumière dorée d'automne",
+  "decor_3d": "Extérieur : trottoir de l'aéroport avec marquage au sol « Taxis », rangée de taxis noirs avec le lumineux « TAXI PARISIEN » sur le toit, panneaux de signalisation bleus, valises alignées. Intérieur : habitacle du taxi avec tableau de bord, compteur digital rouge, siège en cuir noir, fenêtre laissant voir le périphérique avec voitures et panneaux « Paris Centre ».",
+  "objets": [
+   "taxi noir parisien",
+   "valise rouge d'Anna",
+   "sac à dos",
+   "compteur de taxi digital",
+   "pièces et billets euros",
+   "panneau directionnel",
+   "lumineux taxi sur le toit"
+  ],
+  "personnages": [
+   "anna"
+  ],
+  "figurants": [
+   {
+    "id": "chauffeur",
+    "nom": "M. Diallo",
+    "apparence": "Homme d'une cinquantaine d'années, peau mate, cheveux gris courts, chemise blanche, gilet noir, badge professionnel sur la poitrine",
+    "voix": "grave, chaleureuse, débit posé avec léger accent parisien"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "anna",
+   "texte": "Bonjour, monsieur. Vous êtes libre ?",
+   "traduction": "Здравствуйте, месье. Вы свободны?",
+   "geste": "Anna s'approche du taxi, sourit et fait un petit signe de la main"
+  },
+  {
+   "perso": "chauffeur",
+   "texte": "Bonjour, mademoiselle. Oui, je suis libre. Montez, je vous en prie.",
+   "traduction": "Здравствуйте, мадемуазель. Да, я свободен. Садитесь, пожалуйста.",
+   "geste": "Le chauffeur ouvre la portière arrière et fait un geste d'invitation"
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci. Je vais au 14, rue des Écoles, dans le 5e arrondissement.",
+   "traduction": "Спасибо. Я еду на улицу Эколь, дом 14, в пятом округе.",
+   "geste": "Anna montre une adresse sur son téléphone"
+  },
+  {
+   "perso": "chauffeur",
+   "texte": "Très bien, la rue des Écoles. C'est dans le centre de Paris.",
+   "traduction": "Очень хорошо, улица Эколь. Это в центре Парижа.",
+   "geste": "Le chauffeur démarre et ajuste son rétroviseur"
+  },
+  {
+   "perso": "anna",
+   "texte": "Le trajet est long ? Combien de temps, s'il vous plaît ?",
+   "traduction": "Долгий путь? Сколько времени, пожалуйста?",
+   "geste": "Anna regarde par la fenêtre, curieuse"
+  },
+  {
+   "perso": "chauffeur",
+   "texte": "En taxi, c'est quarante minutes, environ. Et le prix, c'est trente euros.",
+   "traduction": "На такси это примерно сорок минут. И цена — тридцать евро.",
+   "geste": "Le chauffeur pointe le compteur du doigt"
+  },
+  {
+   "perso": "anna",
+   "texte": "D'accord. Et le pourboire, c'est combien ?",
+   "traduction": "Хорошо. А чаевые — сколько?",
+   "geste": "Anna sort son portefeuille"
+  },
+  {
+   "perso": "chauffeur",
+   "texte": "Le pourboire n'est pas obligatoire. Un euro ou deux euros, c'est bien.",
+   "traduction": "Чаевые не обязательны. Одно или два евро — хорошо.",
+   "geste": "Le chauffeur sourit dans le rétroviseur"
+  },
+  {
+   "perso": "anna",
+   "texte": "C'est la première fois à Paris. La ville est belle !",
+   "traduction": "Я в Париже впервые. Город красивый!",
+   "geste": "Anna regarde les immeubles par la fenêtre, émerveillée"
+  },
+  {
+   "perso": "chauffeur",
+   "texte": "Bienvenue à Paris, mademoiselle ! Vous êtes étudiante ?",
+   "traduction": "Добро пожаловать в Париж, мадемуазель! Вы студентка?",
+   "geste": "Le chauffeur tourne légèrement la tête"
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, je suis étudiante. Je suis chez une amie, Sophie.",
+   "traduction": "Да, я студентка. Я еду к подруге, Софи.",
+   "geste": "Anna hoche la tête avec enthousiasme"
+  },
+  {
+   "perso": "chauffeur",
+   "texte": "Nous arrivons. C'est le 14, rue des Écoles.",
+   "traduction": "Мы приехали. Это дом 14, улица Эколь.",
+   "geste": "Le chauffeur arrête le taxi devant un immeuble haussmannien"
+  },
+  {
+   "perso": "anna",
+   "texte": "Voilà trente euros, et deux euros pour le pourboire.",
+   "traduction": "Вот тридцать евро и два евро на чаевые.",
+   "geste": "Anna tend les billets au chauffeur"
+  },
+  {
+   "perso": "chauffeur",
+   "texte": "Merci beaucoup, mademoiselle. Bonne journée !",
+   "traduction": "Большое спасибо, мадемуазель. Хорошего дня!",
+   "geste": "Le chauffeur prend les billets et sourit"
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci à vous. Au revoir, monsieur !",
+   "traduction": "Спасибо вам. До свидания, месье!",
+   "geste": "Anna sort du taxi avec sa valise et fait un signe d'au revoir"
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "le taxi",
+   "prononciation": "[lə tak.si]",
+   "nature": "nom m.",
+   "traduction": "такси",
+   "exemple": "Le taxi est noir.",
+   "exemple_traduction": "Такси чёрное."
+  },
+  {
+   "mot": "la rue",
+   "prononciation": "[la ʁy]",
+   "nature": "nom f.",
+   "traduction": "улица",
+   "exemple": "J'habite rue des Écoles.",
+   "exemple_traduction": "Я живу на улице Эколь."
+  },
+  {
+   "mot": "la ville",
+   "prononciation": "[la vil]",
+   "nature": "nom f.",
+   "traduction": "город",
+   "exemple": "Paris est une grande ville.",
+   "exemple_traduction": "Париж — большой город."
+  },
+  {
+   "mot": "l'aéroport",
+   "prononciation": "[la.e.ʁɔ.pɔʁ]",
+   "nature": "nom m.",
+   "traduction": "аэропорт",
+   "exemple": "Je suis à l'aéroport.",
+   "exemple_traduction": "Я в аэропорту."
+  },
+  {
+   "mot": "le prix",
+   "prononciation": "[lə pʁi]",
+   "nature": "nom m.",
+   "traduction": "цена",
+   "exemple": "Le prix est de trente euros.",
+   "exemple_traduction": "Цена — тридцать евро."
+  },
+  {
+   "mot": "la durée",
+   "prononciation": "[la dy.ʁe]",
+   "nature": "nom f.",
+   "traduction": "продолжительность",
+   "exemple": "La durée du trajet est de quarante minutes.",
+   "exemple_traduction": "Продолжительность поездки — сорок минут."
+  },
+  {
+   "mot": "le pourboire",
+   "prononciation": "[lə puʁ.bwaʁ]",
+   "nature": "nom m.",
+   "traduction": "чаевые",
+   "exemple": "Je donne un pourboire au chauffeur.",
+   "exemple_traduction": "Я даю чаевые водителю."
+  },
+  {
+   "mot": "l'euro",
+   "prononciation": "[lø.ʁo]",
+   "nature": "nom m.",
+   "traduction": "евро",
+   "exemple": "La course coûte vingt euros.",
+   "exemple_traduction": "Поездка стоит двадцать евро."
+  },
+  {
+   "mot": "le trajet",
+   "prononciation": "[lə tʁa.ʒɛ]",
+   "nature": "nom m.",
+   "traduction": "путь, поездка",
+   "exemple": "Le trajet est long.",
+   "exemple_traduction": "Путь долгий."
+  },
+  {
+   "mot": "l'adresse",
+   "prononciation": "[la.dʁɛs]",
+   "nature": "nom f.",
+   "traduction": "адрес",
+   "exemple": "Quelle est votre adresse ?",
+   "exemple_traduction": "Какой у вас адрес?"
+  },
+  {
+   "mot": "l'arrondissement",
+   "prononciation": "[la.ʁɔ̃.dis.mɑ̃]",
+   "nature": "nom m.",
+   "traduction": "округ (в Париже)",
+   "exemple": "J'habite dans le 5e arrondissement.",
+   "exemple_traduction": "Я живу в пятом округе."
+  },
+  {
+   "mot": "le chauffeur",
+   "prononciation": "[lə ʃo.fœʁ]",
+   "nature": "nom m.",
+   "traduction": "водитель",
+   "exemple": "Le chauffeur est aimable.",
+   "exemple_traduction": "Водитель вежливый."
+  },
+  {
+   "mot": "la minute",
+   "prononciation": "[la mi.nyt]",
+   "nature": "nom f.",
+   "traduction": "минута",
+   "exemple": "Le trajet dure quarante minutes.",
+   "exemple_traduction": "Поездка длится сорок минут."
+  },
+  {
+   "mot": "libre",
+   "prononciation": "[libʁ]",
+   "nature": "adj.",
+   "traduction": "свободный",
+   "exemple": "Le taxi est libre.",
+   "exemple_traduction": "Такси свободно."
+  },
+  {
+   "mot": "long / longue",
+   "prononciation": "[lɔ̃] / [lɔ̃ɡ]",
+   "nature": "adj.",
+   "traduction": "долгий, длинный",
+   "exemple": "Le trajet est long.",
+   "exemple_traduction": "Путь долгий."
+  },
+  {
+   "mot": "beau / belle",
+   "prononciation": "[bo] / [bɛl]",
+   "nature": "adj.",
+   "traduction": "красивый",
+   "exemple": "La ville est belle.",
+   "exemple_traduction": "Город красивый."
+  },
+  {
+   "mot": "aller",
+   "prononciation": "[a.le]",
+   "nature": "verbe",
+   "traduction": "идти, ехать",
+   "exemple": "Je vais à Paris.",
+   "exemple_traduction": "Я еду в Париж."
+  },
+  {
+   "mot": "arriver",
+   "prononciation": "[a.ʁi.ve]",
+   "nature": "verbe",
+   "traduction": "прибывать, приезжать",
+   "exemple": "Nous arrivons à Paris.",
+   "exemple_traduction": "Мы приезжаем в Париж."
+  },
+  {
+   "mot": "monter",
+   "prononciation": "[mɔ̃.te]",
+   "nature": "verbe",
+   "traduction": "садиться (в транспорт), подниматься",
+   "exemple": "Montez dans le taxi.",
+   "exemple_traduction": "Садитесь в такси."
+  },
+  {
+   "mot": "donner",
+   "prononciation": "[dɔ.ne]",
+   "nature": "verbe",
+   "traduction": "давать",
+   "exemple": "Je donne deux euros.",
+   "exemple_traduction": "Я даю два евро."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Определённые артикли le, la, les",
+   "explication": "Во французском языке перед существительным почти всегда стоит артикль. Определённый артикль используется, когда речь идёт о конкретном, известном собеседникам предмете, или о понятии в целом. Форма артикля зависит от рода и числа существительного. Мужской род единственного числа — le (le taxi, le prix). Женский род единственного числа — la (la rue, la ville). Множественное число для обоих родов — les (les taxis, les rues, les euros). Если существительное начинается с гласной или немого h, артикли le и la сокращаются до l' : l'aéroport, l'adresse, l'euro. Это называется «элизия». Запомните: артикль — это маленький спутник существительного, он показывает его род и число. Учите каждое новое слово сразу с артиклем!",
+   "tableau": [
+    [
+     "Род и число",
+     "Артикль",
+     "Пример"
+    ],
+    [
+     "м. р., ед. ч.",
+     "le",
+     "le taxi, le prix"
+    ],
+    [
+     "ж. р., ед. ч.",
+     "la",
+     "la rue, la ville"
+    ],
+    [
+     "ед. ч. перед гласной",
+     "l'",
+     "l'aéroport, l'euro"
+    ],
+    [
+     "мн. ч.",
+     "les",
+     "les taxis, les euros"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Le taxi est libre.",
+     "natif": "Такси свободно."
+    },
+    {
+     "cible": "La ville est belle.",
+     "natif": "Город красивый."
+    },
+    {
+     "cible": "L'aéroport est grand.",
+     "natif": "Аэропорт большой."
+    },
+    {
+     "cible": "Les euros sont dans le portefeuille.",
+     "natif": "Евро в кошельке."
+    }
+   ]
+  },
+  {
+   "titre": "Предлоги места à, en, chez и числительные 1-20",
+   "explication": "Предлог à означает направление или местонахождение и употребляется с городами, учреждениями, точными адресами : à Paris, à l'aéroport, au 14 rue des Écoles (à + le = au). Предлог en используется с названиями стран женского рода и с видами транспорта (в значении «на/в») : en France, en taxi, en avion. Предлог chez означает «у кого-либо, к кому-либо, дома у» и употребляется только с людьми или профессиями : chez Sophie, chez le médecin, chez moi. Числительные от 1 до 20 нужно выучить наизусть. Обратите внимание на произношение: 5 = cinq [sɛ̃k], 6 = six [sis], 10 = dix [dis], но перед согласной x не читается: six minutes [si mi.nyt]. Числительные 17, 18, 19 образуются от dix: dix-sept, dix-huit, dix-neuf. Ordinal «5-й» — cinquième (5e).",
+   "tableau": [
+    [
+     "Число",
+     "Французский",
+     "Число",
+     "Французский"
+    ],
+    [
+     "1",
+     "un",
+     "11",
+     "onze"
+    ],
+    [
+     "2",
+     "deux",
+     "12",
+     "douze"
+    ],
+    [
+     "3",
+     "trois",
+     "13",
+     "treize"
+    ],
+    [
+     "4",
+     "quatre",
+     "14",
+     "quatorze"
+    ],
+    [
+     "5",
+     "cinq",
+     "15",
+     "quinze"
+    ],
+    [
+     "6",
+     "six",
+     "16",
+     "seize"
+    ],
+    [
+     "7",
+     "sept",
+     "17",
+     "dix-sept"
+    ],
+    [
+     "8",
+     "huit",
+     "18",
+     "dix-huit"
+    ],
+    [
+     "9",
+     "neuf",
+     "19",
+     "dix-neuf"
+    ],
+    [
+     "10",
+     "dix",
+     "20",
+     "vingt"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Je vais à Paris.",
+     "natif": "Я еду в Париж."
+    },
+    {
+     "cible": "Je vais en taxi.",
+     "natif": "Я еду на такси."
+    },
+    {
+     "cible": "Je suis chez Sophie.",
+     "natif": "Я у Софи."
+    },
+    {
+     "cible": "Le prix est de vingt euros.",
+     "natif": "Цена — двадцать евро."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Различие звуков [y] и [u] (u / ou)",
+  "explication": "Французский звук [y] (буква u) не существует в русском языке. Чтобы его произнести, сложите губы трубочкой, как для [у], но язык держите как для [и]. Звук [u] (буквосочетание ou) — это обычный русский [у]. Минимальные пары для тренировки: rue [ʁy] (улица) — route [ʁut] (дорога); tu [ty] (ты) — tout [tu] (всё); du [dy] (из) — doux [du] (мягкий); une [yn] (одна) — houe [u] (мотыга). Совет: сначала скажите долгое [и], затем, не двигая языком, округлите губы — получится [y].",
+  "exemples": [
+   "rue [ʁy] ≠ route [ʁut]",
+   "tu [ty] ≠ tout [tu]",
+   "du [dy] ≠ doux [du]",
+   "lune [lyn] ≠ loupe [lup]",
+   "mur [myʁ] ≠ mourir [mu.ʁiʁ]"
+  ]
+ },
+ "culture": {
+  "titre": "Парижские такси и чаевые",
+  "texte": "Парижские такси легко узнать по чёрному цвету и светящемуся знаку « TAXI PARISIEN » на крыше. Если знак горит зелёным — такси свободно, красным — занято. Такси можно взять на стоянке (aéroport, gare), остановить на улице или вызвать по телефону. В Париже существует 20 округов (arrondissements), которые расположены по спирали от центра: 1er — в самом сердце города, 5e — Латинский квартал, где учится Анна. Чаевые (pourboire) во Франции не обязательны: обслуживание включено в счёт. Но в такси принято оставлять 1-2 евро или округлять сумму в знак благодарности. Это жест вежливости, а не обязанность."
+ },
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Выберите правильный определённый артикль.",
+   "items": [
+    {
+     "question": "___ taxi est noir.",
+     "choix": [
+      "le",
+      "la",
+      "les",
+      "l'"
+     ],
+     "reponse": "le"
+    },
+    {
+     "question": "___ ville est belle.",
+     "choix": [
+      "le",
+      "la",
+      "les",
+      "l'"
+     ],
+     "reponse": "la"
+    },
+    {
+     "question": "___ aéroport est grand.",
+     "choix": [
+      "le",
+      "la",
+      "les",
+      "l'"
+     ],
+     "reponse": "l'"
+    },
+    {
+     "question": "___ euros sont sur la table.",
+     "choix": [
+      "le",
+      "la",
+      "les",
+      "l'"
+     ],
+     "reponse": "les"
+    },
+    {
+     "question": "___ adresse est longue.",
+     "choix": [
+      "le",
+      "la",
+      "les",
+      "l'"
+     ],
+     "reponse": "l'"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Вставьте подходящий предлог: à, au, en, chez.",
+   "items": [
+    {
+     "question": "Je vais ___ Paris.",
+     "reponse": "à"
+    },
+    {
+     "question": "Je vais ___ 14 rue des Écoles.",
+     "reponse": "au"
+    },
+    {
+     "question": "Je voyage ___ taxi.",
+     "reponse": "en"
+    },
+    {
+     "question": "Je suis ___ Sophie.",
+     "reponse": "chez"
+    },
+    {
+     "question": "Anna arrive ___ France.",
+     "reponse": "en"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Соедините числительное (цифра) и его французское написание.",
+   "items": [
+    {
+     "question": "5",
+     "reponse": "cinq"
+    },
+    {
+     "question": "12",
+     "reponse": "douze"
+    },
+    {
+     "question": "14",
+     "reponse": "quatorze"
+    },
+    {
+     "question": "17",
+     "reponse": "dix-sept"
+    },
+    {
+     "question": "20",
+     "reponse": "vingt"
+    },
+    {
+     "question": "8",
+     "reponse": "huit"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Расставьте слова в правильном порядке, чтобы получить предложение.",
+   "items": [
+    {
+     "question": "taxi / Le / libre. / est",
+     "reponse": "Le taxi est libre."
+    },
+    {
+     "question": "rue / J'habite / des / Écoles.",
+     "reponse": "J'habite rue des Écoles."
+    },
+    {
+     "question": "est / La / belle. / ville",
+     "reponse": "La ville est belle."
+    },
+    {
+     "question": "euros. / prix / Le / trente / est",
+     "reponse": "Le prix est trente euros."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Переведите фразу на французский язык (устно или письменно).",
+   "items": [
+    {
+     "question": "Я еду в Париж.",
+     "reponse": "Je vais à Paris."
+    },
+    {
+     "question": "Такси свободно.",
+     "reponse": "Le taxi est libre."
+    },
+    {
+     "question": "Я у Софи.",
+     "reponse": "Je suis chez Sophie."
+    },
+    {
+     "question": "Цена — двадцать евро.",
+     "reponse": "Le prix est vingt euros."
+    },
+    {
+     "question": "Город красивый.",
+     "reponse": "La ville est belle."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Прослушайте фразу и выберите правильный вариант.",
+   "items": [
+    {
+     "question": "Je vais au quatorze, rue des Écoles.",
+     "choix": [
+      "12",
+      "14",
+      "40",
+      "24"
+     ],
+     "reponse": "14"
+    },
+    {
+     "question": "Le prix est trente euros.",
+     "choix": [
+      "13 €",
+      "30 €",
+      "50 €",
+      "3 €"
+     ],
+     "reponse": "30 €"
+    },
+    {
+     "question": "Le trajet dure quarante minutes.",
+     "choix": [
+      "14 минут",
+      "40 минут",
+      "4 минуты",
+      "24 минуты"
+     ],
+     "reponse": "40 минут"
+    },
+    {
+     "question": "Je donne deux euros de pourboire.",
+     "choix": [
+      "1 €",
+      "2 €",
+      "12 €",
+      "20 €"
+     ],
+     "reponse": "2 €"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Привет! Это второй урок курса «Le français pour russophones». Сегодня Анна прилетела в Париж и берёт такси.",
+   "ecran": "Аэропорт Шарль-де-Голль, панорама, приземляющийся самолёт",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Цели урока: дать адрес, спросить цену и длительность поездки, поблагодарить. Мы изучим артикли le, la, les, предлоги à, en, chez и числа от 1 до 20.",
+   "ecran": "Список целей урока на экране",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Слушайте диалог внимательно. Вы услышите Анну и таксиста месье Диалло.",
+   "ecran": "Анна с чемоданом подходит к стоянке такси",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Повторяйте реплики за героями вслух.",
+   "ecran": "Крупный план Анны у такси",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Bonjour, monsieur. Vous êtes libre ?",
+   "ecran": "Анна обращается к водителю",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "chauffeur",
+   "langue": "fr",
+   "texte": "Bonjour, mademoiselle. Oui, je suis libre. Montez, je vous en prie.",
+   "ecran": "Водитель открывает дверь",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Обратите внимание: Anna donne l'adresse avec le numéro, la rue et l'arrondissement.",
+   "ecran": "Анна показывает телефон с адресом",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v08",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci. Je vais au 14, rue des Écoles, dans le 5e arrondissement.",
+   "ecran": "Анна садится в такси",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "chauffeur",
+   "langue": "fr",
+   "texte": "Très bien, la rue des Écoles. C'est dans le centre de Paris.",
+   "ecran": "Такси трогается, вид на дорогу",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Le trajet est long ? Combien de temps, s'il vous plaît ?",
+   "ecran": "Анна смотрит в окно",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "chauffeur",
+   "langue": "fr",
+   "texte": "En taxi, c'est quarante minutes, environ. Et le prix, c'est trente euros.",
+   "ecran": "Крупный план счётчика такси",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь поговорим о чаевых. Анна спрашивает, сколько оставить.",
+   "ecran": "Анна достаёт кошелёк",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v13",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "D'accord. Et le pourboire, c'est combien ?",
+   "ecran": "Анна с кошельком в руках",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "chauffeur",
+   "langue": "fr",
+   "texte": "Le pourboire n'est pas obligatoire. Un euro ou deux euros, c'est bien.",
+   "ecran": "Водитель улыбается в зеркало",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "C'est la première fois à Paris. La ville est belle !",
+   "ecran": "Вид Парижа через окно такси",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "chauffeur",
+   "langue": "fr",
+   "texte": "Bienvenue à Paris, mademoiselle ! Vous êtes étudiante ?",
+   "ecran": "Водитель в профиль",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, je suis étudiante. Je suis chez une amie, Sophie.",
+   "ecran": "Анна кивает",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "chauffeur",
+   "langue": "fr",
+   "texte": "Nous arrivons. C'est le 14, rue des Écoles.",
+   "ecran": "Такси останавливается у дома",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Voilà trente euros, et deux euros pour le pourboire.",
+   "ecran": "Анна передаёт деньги",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "chauffeur",
+   "langue": "fr",
+   "texte": "Merci beaucoup, mademoiselle. Bonne journée !",
+   "ecran": "Водитель благодарит",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v21",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci à vous. Au revoir, monsieur !",
+   "ecran": "Анна выходит с чемоданом",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отлично! А теперь повторим новые слова. Слушайте и повторяйте.",
+   "ecran": "Список слов с картинками",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Le taxi. La rue. La ville. L'aéroport. Le prix. Le pourboire.",
+   "ecran": "Карточки слов поочерёдно",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Переходим к грамматике. Определённые артикли le, la, les.",
+   "ecran": "Таблица артиклей",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Le — для мужского рода, la — для женского, les — для множественного числа. Перед гласной le и la превращаются в l'.",
+   "ecran": "Примеры: le taxi, la rue, l'aéroport, les euros",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Теперь предлоги места. À — направление, en — транспорт или страна женского рода, chez — у кого-то.",
+   "ecran": "Схема предлогов с иконками",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "И числа от 1 до 20. Повторяйте за мной.",
+   "ecran": "Числа 1-20 крупно",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix.",
+   "ecran": "Числа 1-10 подсвечиваются",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Onze, douze, treize, quatorze, quinze, seize, dix-sept, dix-huit, dix-neuf, vingt.",
+   "ecran": "Числа 11-20 подсвечиваются",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Обратите внимание на произношение: звуки [y] и [u]. Rue [ʁy] — улица, route [ʁut] — дорога.",
+   "ecran": "Две карточки со словами rue и route",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "А теперь шесть упражнений. Начнём!",
+   "ecran": "Заставка «Exercices»",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 1: выберите правильный артикль.",
+   "ecran": "Интерфейс QCM",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 2: вставьте предлог à, au, en или chez.",
+   "ecran": "Поля для ввода",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 3: соедините число и его название.",
+   "ecran": "Линии для соединения",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 4: расставьте слова в правильном порядке.",
+   "ecran": "Перетаскиваемые слова",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v36",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 5: переведите фразу на французский.",
+   "ecran": "Поле для перевода",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v37",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение 6: прослушайте и выберите правильный ответ.",
+   "ecran": "Аудиоплеер и варианты",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v38",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отличная работа! Сегодня вы научились давать адрес, спрашивать цену и оставлять чаевые. До встречи в следующем уроке, где Анна встретит свою соседку мадам Марин!",
+   "ecran": "Анна машет рукой у двери дома",
+   "interaction": "aucune"
+  }
+ ],
+ "resume": [
+  {
+   "cible": "Aujourd'hui, Anna prend un taxi à l'aéroport.",
+   "natif": "Сегодня Анна берёт такси в аэропорту."
+  },
+  {
+   "cible": "Elle donne son adresse au chauffeur.",
+   "natif": "Она даёт свой адрес водителю."
+  },
+  {
+   "cible": "Le prix de la course est trente euros.",
+   "natif": "Цена поездки — тридцать евро."
+  },
+  {
+   "cible": "Le pourboire n'est pas obligatoire en France.",
+   "natif": "Чаевые во Франции не обязательны."
+  },
+  {
+   "cible": "Anna arrive chez son amie Sophie, rue des Écoles.",
+   "natif": "Анна приезжает к подруге Софи на улицу Эколь."
+  },
+  {
+   "cible": "Nous avons appris les articles le, la, les et les nombres de 1 à 20.",
+   "natif": "Мы выучили артикли le, la, les и числа от 1 до 20."
+  }
+ ],
+ "controle": []
+}
