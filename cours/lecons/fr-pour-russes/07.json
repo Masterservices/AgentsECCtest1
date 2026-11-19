@@ -1,0 +1,834 @@
+{
+ "cours": "fr-pour-russes",
+ "num": 7,
+ "niveau": "A1",
+ "id": "fr-pour-russes-A1-07",
+ "titre": {
+  "cible": "Au marché du dimanche",
+  "natif": "На воскресном рынке"
+ },
+ "objectifs": [
+  "Научиться спрашивать цену и обсуждать стоимость товаров на рынке",
+  "Выражать свои вкусовые предпочтения с помощью глаголов aimer, adorer, détester",
+  "Использовать прилагательные для описания и сравнения продуктов (согласование в роде и числе)",
+  "Употреблять наречия количества (beaucoup de, un peu de, trop de, assez de) при покупках",
+  "Познакомиться с культурой французского воскресного рынка и сырами AOP"
+ ],
+ "scene": {
+  "lieu": "Marché en plein air, rue Mouffetard, Paris 5e",
+  "moment": "Dimanche matin, 9 h 30, soleil doux d'automne",
+  "decor_3d": "Rue piétonne pavée bordée d'étals colorés sous des bâches rayées rouge et blanc. À gauche, un étal de fruits et légumes : cagettes en bois empilées avec des pommes rouges, des poires jaunes, des grappes de raisin violet, des salades vertes. Au centre, un étal de fromages sous une cloche en verre : meules de brie, roues de comté, petits chèvres. À droite, un étal de fleurs : bouquets de tournesols et de roses. Au fond, la façade en pierre d'un immeuble haussmannien, des guirlandes de fanions tricolores. Lumière dorée rasante, quelques feuilles mortes au sol. Panneaux en ardoise avec les prix écrits à la craie.",
+  "objets": [
+   "cagette en bois avec pommes rouges",
+   "cagette de poires jaunes",
+   "grappes de raisin noir",
+   "salade verte en vrac",
+   "meule de brie sur planche en bois",
+   "roue de comté coupée en parts",
+   "petits fromages de chèvre sur paille",
+   "panier en osier d'Anna",
+   "balance ancienne en métal",
+   "ardoise avec prix à la craie",
+   "bouquet de tournesols",
+   "pièces et billets dans un porte-monnaie"
+  ],
+  "personnages": [
+   "anna",
+   "lucas"
+  ],
+  "figurants": [
+   {
+    "id": "marchande",
+    "nom": "Colette",
+    "apparence": "Femme de 55 ans, ronde et souriante, tablier bleu à fleurs sur une robe grise, cheveux châtains courts attachés en chignon, joues rosies, lunettes rondes perchées sur le nez",
+    "voix": "Voix féminine chaleureuse, légèrement rauque, accent parisien populaire, débit moyen"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "lucas",
+   "texte": "Anna, bienvenue rue Mouffetard ! C'est mon marché préféré du dimanche. Regarde tous ces étals !",
+   "traduction": "Анна, добро пожаловать на улицу Муфтар! Это мой любимый воскресный рынок. Посмотри на все эти прилавки!",
+   "geste": "Lucas écarte les bras largement, balayant la rue du regard, souriant"
+  },
+  {
+   "perso": "anna",
+   "texte": "C'est magnifique ! Il y a des fruits, des légumes, des fleurs… Tout est très coloré !",
+   "traduction": "Это великолепно! Тут фрукты, овощи, цветы… Всё очень яркое!",
+   "geste": "Anna tourne la tête de gauche à droite, yeux écarquillés, mains jointes devant la poitrine"
+  },
+  {
+   "perso": "marchande",
+   "texte": "Bonjour ! Vous voulez goûter ? Ces pommes sont délicieuses et très sucrées.",
+   "traduction": "Здравствуйте! Хотите попробовать? Эти яблоки восхитительные и очень сладкие.",
+   "geste": "Colette tend une pomme rouge coupée en quartiers sur un petit plateau en bois"
+  },
+  {
+   "perso": "anna",
+   "texte": "Merci beaucoup ! Mmm, c'est vrai, elles sont très bonnes. Combien coûte un kilo ?",
+   "traduction": "Спасибо большое! Ммм, правда, они очень вкусные. Сколько стоит килограмм?",
+   "geste": "Anna goûte un quartier de pomme, ferme les yeux de plaisir, puis pointe l'ardoise du doigt"
+  },
+  {
+   "perso": "marchande",
+   "texte": "Trois euros cinquante le kilo. Elles sont fraîches, cueillies ce matin !",
+   "traduction": "Три евро пятьдесят за килограмм. Они свежие, собраны сегодня утром!",
+   "geste": "Colette montre l'ardoise, puis mime le geste de cueillir une pomme"
+  },
+  {
+   "perso": "lucas",
+   "texte": "J'adore ces pommes ! Mais je préfère les poires, elles sont plus juteuses. Et toi, tu aimes ?",
+   "traduction": "Я обожаю эти яблоки! Но я предпочитаю груши, они более сочные. А ты, тебе нравятся?",
+   "geste": "Lucas croque dans une pomme, pointe les poires de l'autre main, se tourne vers Anna"
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, j'aime beaucoup les poires aussi. Mais je déteste le raisin trop acide. Celui-ci est mûr ?",
+   "traduction": "Да, мне тоже очень нравятся груши. Но я терпеть не могу слишком кислый виноград. Этот спелый?",
+   "geste": "Anna fait une petite grimace en pensant au raisin acide, puis désigne une grappe"
+  },
+  {
+   "perso": "lucas",
+   "texte": "Oui, il est très mûr. Viens, je veux te montrer les fromages. C'est la meilleure partie !",
+   "traduction": "Да, он очень спелый. Пойдём, я хочу показать тебе сыры. Это лучшая часть!",
+   "geste": "Lucas prend Anna doucement par le coude et la guide vers l'étal de fromages"
+  },
+  {
+   "perso": "anna",
+   "texte": "Oh là là ! Il y a tellement de fromages ! C'est quoi, ce gros fromage jaune ?",
+   "traduction": "Ого! Тут столько сыров! Что это за большой жёлтый сыр?",
+   "geste": "Anna se penche au-dessus de la vitrine, pointe une roue de comté"
+  },
+  {
+   "perso": "lucas",
+   "texte": "C'est du comté, un fromage AOP. Ça veut dire qu'il est fabriqué dans une région précise, avec des règles strictes. Il est délicieux !",
+   "traduction": "Это комте, сыр категории AOP. Это значит, что он производится в определённом регионе по строгим правилам. Он восхитительный!",
+   "geste": "Lucas prend un morceau de comté, le montre fièrement, fait un geste circulaire pour « région »"
+  },
+  {
+   "perso": "anna",
+   "texte": "Je peux goûter ? … Mmm, j'adore ! Il est meilleur que le brie, je trouve. Un peu plus de sel, beaucoup de saveur.",
+   "traduction": "Можно попробовать? … Ммм, обожаю! Он вкуснее, чем бри, мне кажется. Чуть больше соли, много вкуса.",
+   "geste": "Anna goûte, ferme les yeux, hoche la tête avec enthousiasme, fait un geste de la main « un peu » puis « beaucoup »"
+  },
+  {
+   "perso": "lucas",
+   "texte": "Tu as raison ! Allez, on achète un peu de comté, beaucoup de pommes et assez de poires pour la semaine ?",
+   "traduction": "Ты права! Ну что, купим немного комте, много яблок и достаточно груш на неделю?",
+   "geste": "Lucas ouvre son sac en toile, compte sur ses doigts les achats, sourit"
+  },
+  {
+   "perso": "anna",
+   "texte": "Oui, parfait ! Et un peu de fromage de chèvre aussi, s'il vous plaît. Ce marché est vraiment formidable !",
+   "traduction": "Да, отлично! И немного козьего сыра тоже, пожалуйста. Этот рынок просто замечательный!",
+   "geste": "Anna acquiesce vivement, ajoute un petit chèvre dans le panier, ouvre les bras de satisfaction"
+  },
+  {
+   "perso": "marchande",
+   "texte": "Très bon choix, les jeunes ! Ça fait douze euros. Bonne journée !",
+   "traduction": "Отличный выбор, молодые люди! Это двенадцать евро. Хорошего дня!",
+   "geste": "Colette emballe les produits dans du papier, tape sur sa caisse, fait un grand sourire"
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "le marché",
+   "prononciation": "[maʁʃe]",
+   "nature": "nom m.",
+   "traduction": "рынок",
+   "exemple": "Je vais au marché le dimanche.",
+   "exemple_traduction": "Я хожу на рынок по воскресеньям."
+  },
+  {
+   "mot": "la pomme",
+   "prononciation": "[pɔm]",
+   "nature": "nom f.",
+   "traduction": "яблоко",
+   "exemple": "Ces pommes sont très sucrées.",
+   "exemple_traduction": "Эти яблоки очень сладкие."
+  },
+  {
+   "mot": "la poire",
+   "prononciation": "[pwaʁ]",
+   "nature": "nom f.",
+   "traduction": "груша",
+   "exemple": "Les poires sont plus juteuses que les pommes.",
+   "exemple_traduction": "Груши более сочные, чем яблоки."
+  },
+  {
+   "mot": "le raisin",
+   "prononciation": "[ʁɛzɛ̃]",
+   "nature": "nom m.",
+   "traduction": "виноград",
+   "exemple": "Ce raisin est mûr et sucré.",
+   "exemple_traduction": "Этот виноград спелый и сладкий."
+  },
+  {
+   "mot": "le légume",
+   "prononciation": "[legym]",
+   "nature": "nom m.",
+   "traduction": "овощ",
+   "exemple": "Il y a beaucoup de légumes frais au marché.",
+   "exemple_traduction": "На рынке много свежих овощей."
+  },
+  {
+   "mot": "le fromage",
+   "prononciation": "[fʁɔmaʒ]",
+   "nature": "nom m.",
+   "traduction": "сыр",
+   "exemple": "J'adore le fromage français.",
+   "exemple_traduction": "Я обожаю французский сыр."
+  },
+  {
+   "mot": "le chèvre",
+   "prononciation": "[ʃɛvʁ]",
+   "nature": "nom m.",
+   "traduction": "козий сыр",
+   "exemple": "Le chèvre est un peu acide.",
+   "exemple_traduction": "Козий сыр немного кисловатый."
+  },
+  {
+   "mot": "le kilo",
+   "prononciation": "[kilo]",
+   "nature": "nom m.",
+   "traduction": "килограмм",
+   "exemple": "Un kilo de pommes, s'il vous plaît.",
+   "exemple_traduction": "Килограмм яблок, пожалуйста."
+  },
+  {
+   "mot": "le prix",
+   "prononciation": "[pʁi]",
+   "nature": "nom m.",
+   "traduction": "цена",
+   "exemple": "Quel est le prix de ce fromage ?",
+   "exemple_traduction": "Какая цена у этого сыра?"
+  },
+  {
+   "mot": "cher / chère",
+   "prononciation": "[ʃɛʁ]",
+   "nature": "adj.",
+   "traduction": "дорогой / дорогая",
+   "exemple": "Ces fleurs ne sont pas chères.",
+   "exemple_traduction": "Эти цветы недорогие."
+  },
+  {
+   "mot": "frais / fraîche",
+   "prononciation": "[fʁɛ] / [fʁɛʃ]",
+   "nature": "adj.",
+   "traduction": "свежий / свежая",
+   "exemple": "Les légumes sont très frais.",
+   "exemple_traduction": "Овощи очень свежие."
+  },
+  {
+   "mot": "mûr / mûre",
+   "prononciation": "[myʁ]",
+   "nature": "adj.",
+   "traduction": "спелый / спелая",
+   "exemple": "Cette poire est bien mûre.",
+   "exemple_traduction": "Эта груша хорошо спелая."
+  },
+  {
+   "mot": "sucré / sucrée",
+   "prononciation": "[sykʁe]",
+   "nature": "adj.",
+   "traduction": "сладкий / сладкая",
+   "exemple": "J'aime les fruits sucrés.",
+   "exemple_traduction": "Я люблю сладкие фрукты."
+  },
+  {
+   "mot": "acide",
+   "prononciation": "[asid]",
+   "nature": "adj.",
+   "traduction": "кислый / кислая",
+   "exemple": "Je déteste le raisin trop acide.",
+   "exemple_traduction": "Я терпеть не могу слишком кислый виноград."
+  },
+  {
+   "mot": "juteux / juteuse",
+   "prononciation": "[ʒytø] / [ʒytøz]",
+   "nature": "adj.",
+   "traduction": "сочный / сочная",
+   "exemple": "Les poires sont très juteuses.",
+   "exemple_traduction": "Груши очень сочные."
+  },
+  {
+   "mot": "délicieux / délicieuse",
+   "prononciation": "[delisjø] / [delisjøz]",
+   "nature": "adj.",
+   "traduction": "восхитительный / восхитительная",
+   "exemple": "Ce comté est délicieux.",
+   "exemple_traduction": "Этот комте восхитительный."
+  },
+  {
+   "mot": "goûter",
+   "prononciation": "[gute]",
+   "nature": "verbe",
+   "traduction": "пробовать (на вкус)",
+   "exemple": "Vous voulez goûter ce fromage ?",
+   "exemple_traduction": "Хотите попробовать этот сыр?"
+  },
+  {
+   "mot": "beaucoup de",
+   "prononciation": "[boku də]",
+   "nature": "adv. de quantité",
+   "traduction": "много",
+   "exemple": "Il y a beaucoup de fromages ici.",
+   "exemple_traduction": "Здесь много сыров."
+  },
+  {
+   "mot": "un peu de",
+   "prononciation": "[œ̃ pø də]",
+   "nature": "adv. de quantité",
+   "traduction": "немного",
+   "exemple": "Je voudrais un peu de chèvre.",
+   "exemple_traduction": "Я хотела бы немного козьего сыра."
+  },
+  {
+   "mot": "trop de",
+   "prononciation": "[tʁo də]",
+   "nature": "adv. de quantité",
+   "traduction": "слишком много",
+   "exemple": "Il y a trop de sel dans ce plat.",
+   "exemple_traduction": "В этом блюде слишком много соли."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Прилагательные: согласование в роде и числе",
+   "explication": "Во французском языке прилагательное всегда согласуется с существительным, которое оно определяет, в роде (мужской/женский) и числе (единственное/множественное). Это главное отличие от русского языка, где согласование интуитивно понятно, но здесь нужно запомнить формы. Базовая форма прилагательного — мужской род единственного числа. Для женского рода обычно добавляется -e: sucré → sucrée, frais → fraîche, mûr → mûre. Для множественного числа добавляется -s: sucrés, sucrées. Если прилагательное уже заканчивается на -e, форма женского рода совпадает с мужской: acide, délicieux → délicieuse (исключение). Обратите внимание на произношение: добавление -e в женском роде часто «открывает» последнюю согласную: frais [fʁɛ] → fraîche [fʁɛʃ], juteux [ʒytø] → juteuse [ʒytøz]. Прилагательное ставится после существительного в большинстве случаев (un fromage délicieux, des pommes sucrées), но некоторые короткие прилагательные стоят перед существительным (un bon fromage, un petit chèvre).",
+   "tableau": [
+    [
+     "",
+     "Masc. sing.",
+     "Fém. sing.",
+     "Masc. plur.",
+     "Fém. plur."
+    ],
+    [
+     "sucré",
+     "sucré",
+     "sucrée",
+     "sucrés",
+     "sucrées"
+    ],
+    [
+     "frais",
+     "frais",
+     "fraîche",
+     "frais",
+     "fraîches"
+    ],
+    [
+     "mûr",
+     "mûr",
+     "mûre",
+     "mûrs",
+     "mûres"
+    ],
+    [
+     "juteux",
+     "juteux",
+     "juteuse",
+     "juteux",
+     "juteuses"
+    ],
+    [
+     "délicieux",
+     "délicieux",
+     "délicieuse",
+     "délicieux",
+     "délicieuses"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Cette pomme est très sucrée.",
+     "natif": "Это яблоко очень сладкое."
+    },
+    {
+     "cible": "Ces poires sont juteuses.",
+     "natif": "Эти груши сочные."
+    },
+    {
+     "cible": "Le comté est délicieux.",
+     "natif": "Комте восхитительный."
+    },
+    {
+     "cible": "Ces fleurs sont fraîches.",
+     "natif": "Эти цветы свежие."
+    }
+   ]
+  },
+  {
+   "titre": "Глаголы aimer, adorer, détester и наречия количества",
+   "explication": "Глаголы aimer (любить, нравиться), adorer (обожать) и détester (терпеть не могу, ненавидеть) спрягаются как обычные глаголы первой группы на -er (см. Урок 4). После них существительное употребляется с определённым артиклем: J'aime les pommes. Tu adores le fromage. Je déteste le raisin acide. Для выражения степени предпочтения используются наречия: un peu (немного), beaucoup (много), trop (слишком), assez (достаточно). Важно: наречия количества требуют предлога de перед существительным: beaucoup de fruits, un peu de fromage, trop de sel, assez de poires. Артикль при этом не ставится. Сравнение на этом уровне формируется конструкцией plus + прилагательное + que: Le comté est meilleur que le brie. meilleur — особая форма сравнения от bon. Запомните: после наречий количества de сохраняется перед гласной (beaucoup d'amis), но артикль не появляется.",
+   "tableau": [
+    [
+     "Наречие",
+     "Пример",
+     "Перевод"
+    ],
+    [
+     "beaucoup de",
+     "beaucoup de pommes",
+     "много яблок"
+    ],
+    [
+     "un peu de",
+     "un peu de chèvre",
+     "немного козьего сыра"
+    ],
+    [
+     "trop de",
+     "trop de sel",
+     "слишком много соли"
+    ],
+    [
+     "assez de",
+     "assez de poires",
+     "достаточно груш"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "J'adore les pommes, mais je déteste le raisin trop acide.",
+     "natif": "Я обожаю яблоки, но терпеть не могу слишком кислый виноград."
+    },
+    {
+     "cible": "Il y a beaucoup de fromages au marché.",
+     "natif": "На рынке много сыров."
+    },
+    {
+     "cible": "Je voudrais un peu de comté, s'il vous plaît.",
+     "natif": "Я хотела бы немного комте, пожалуйста."
+    },
+    {
+     "cible": "Tu aimes assez les légumes ?",
+     "natif": "Тебе достаточно нравятся овощи?"
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Запрещённые связывания (liaisons interdites): после союза «et» и после носового согласного",
+  "explication": "Во французском языке существуют строгие правила связывания (liaison), но есть случаи, когда связывание КАТЕГОРИЧЕСКИ запрещено. 1) После союза et (и): никогда не произносите [t] между словами. Правильно: un fromage et un vin → [fʁɔmaʒ e vɛ̃], НЕ [fʁɔmaʒ e.t‿ɛ̃ vɛ̃]. 2) После носового согласного [̃] (в словах, оканчивающихся на -an, -en, -on, -in, -un): связывание не делается. Правильно: un bon fromage → [bɔ̃ fʁɔmaʒ], НЕ [bɔ̃.n‿fʁɔmaʒ]. Однако помните: перед гласной в слове, начинающемся с гласного звука, носовой может «открыться» в некоторых устойчивых выражениях, но на уровне A1 просто избегайте связывания после носовых. Тренируйтесь на примерах ниже, произнося каждое слово отдельно без «мостика».",
+  "exemples": [
+   "un fromage et un vin → [fʁɔmaʒ e vɛ̃] (НЕ [e.t‿ɛ̃])",
+   "des pommes et des poires → [pɔm e pwaʁ] (НЕ [pɔm.z‿e])",
+   "un bon melon → [bɔ̃ məlɔ̃] (НЕ [bɔ̃.n‿məlɔ̃])",
+   "un excellent fromage et un bon vin → [fʁɔmaʒ e bɔ̃ vɛ̃]"
+  ]
+ },
+ "culture": {
+  "titre": "Воскресный рынок и сыры AOP",
+  "texte": "Воскресный рынок — настоящая традиция французской жизни. Утром в воскресенье улицы перекрывают для машин, и появляются прилавки с фермерскими продуктами. Парижане приходят сюда не только за покупками, но и за общением: болтают с продавцами, пробуют сыр, выбирают спелые фрукты. Улица Муфтар в 5-м округе — один из старейших рынков Парижа, работающий с Средних веков. Отдельная гордость Франции — сыры с маркировкой AOP (Appellation d'Origine Protégée). Это означает, что сыр произведён в строго определённом регионе по традиционной технологии. Например, комте делают только в регионе Юра и Франш-Конте из молока коров местной породы. Во Франции более 40 видов сыров с маркировкой AOP — от камамбера до рокфора. Попробовать их на рынке — значит прикоснуться к живому наследию страны."
+ },
+ "resume": [
+  {
+   "cible": "Combien coûte un kilo de pommes ?",
+   "natif": "Сколько стоит килограмм яблок?"
+  },
+  {
+   "cible": "J'adore ce fromage, il est délicieux !",
+   "natif": "Я обожаю этот сыр, он восхитительный!"
+  },
+  {
+   "cible": "Les poires sont plus juteuses que les pommes.",
+   "natif": "Груши более сочные, чем яблоки."
+  },
+  {
+   "cible": "Je voudrais un peu de chèvre et beaucoup de pommes.",
+   "natif": "Я хотела бы немного козьего сыра и много яблок."
+  },
+  {
+   "cible": "Ces fruits sont frais et sucrés.",
+   "natif": "Эти фрукты свежие и сладкие."
+  }
+ ],
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Выберите правильную форму прилагательного.",
+   "items": [
+    {
+     "question": "Ces pommes sont très ___.",
+     "choix": [
+      "sucré",
+      "sucrée",
+      "sucrées"
+     ],
+     "reponse": "sucrées"
+    },
+    {
+     "question": "Ce fromage est ___.",
+     "choix": [
+      "délicieux",
+      "délicieuse",
+      "délicieuses"
+     ],
+     "reponse": "délicieux"
+    },
+    {
+     "question": "Les poires sont ___.",
+     "choix": [
+      "juteux",
+      "juteuse",
+      "juteuses"
+     ],
+     "reponse": "juteuses"
+    },
+    {
+     "question": "Cette salade est ___.",
+     "choix": [
+      "frais",
+      "fraîche",
+      "fraîches"
+     ],
+     "reponse": "fraîche"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Вставьте нужное наречие количества: beaucoup de, un peu de, trop de, assez de.",
+   "items": [
+    {
+     "question": "Je voudrais ___ chèvre, s'il vous plaît.",
+     "reponse": "un peu de"
+    },
+    {
+     "question": "Il y a ___ fromages AOP en France.",
+     "reponse": "beaucoup de"
+    },
+    {
+     "question": "Il y a ___ sel dans ce plat.",
+     "reponse": "trop de"
+    },
+    {
+     "question": "J'ai ___ poires pour la semaine.",
+     "reponse": "assez de"
+    },
+    {
+     "question": "Tu veux ___ raisin ?",
+     "reponse": "un peu de"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Соедините слово и его перевод.",
+   "items": [
+    {
+     "question": "le marché",
+     "reponse": "рынок"
+    },
+    {
+     "question": "le chèvre",
+     "reponse": "козий сыр"
+    },
+    {
+     "question": "juteux",
+     "reponse": "сочный"
+    },
+    {
+     "question": "goûter",
+     "reponse": "пробовать"
+    },
+    {
+     "question": "mûr",
+     "reponse": "спелый"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Составьте предложение из слов.",
+   "items": [
+    {
+     "question": "sont / Les / sucrées / pommes / très",
+     "reponse": "Les pommes sont très sucrées."
+    },
+    {
+     "question": "de / voudrais / un peu / Je / comté",
+     "reponse": "Je voudrais un peu de comté."
+    },
+    {
+     "question": "coûte / kilo / Combien / un / ?",
+     "reponse": "Combien coûte un kilo ?"
+    },
+    {
+     "question": "déteste / acide / le / Je / raisin",
+     "reponse": "Je déteste le raisin acide."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Переведите фразы на французский язык.",
+   "items": [
+    {
+     "question": "Эти груши сочные.",
+     "reponse": "Ces poires sont juteuses."
+    },
+    {
+     "question": "Я обожаю этот сыр.",
+     "reponse": "J'adore ce fromage."
+    },
+    {
+     "question": "Сколько стоит килограмм?",
+     "reponse": "Combien coûte un kilo ?"
+    },
+    {
+     "question": "Я люблю свежие овощи.",
+     "reponse": "J'aime les légumes frais."
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Прослушайте вопрос и выберите правильный ответ.",
+   "items": [
+    {
+     "question": "Qu'est-ce que Lucas préfère ?",
+     "choix": [
+      "les pommes",
+      "les poires",
+      "le raisin"
+     ],
+     "reponse": "les poires"
+    },
+    {
+     "question": "Combien coûte un kilo de pommes ?",
+     "choix": [
+      "trois euros",
+      "trois euros cinquante",
+      "douze euros"
+     ],
+     "reponse": "trois euros cinquante"
+    },
+    {
+     "question": "Qu'est-ce qu'Anna déteste ?",
+     "choix": [
+      "le fromage",
+      "le raisin trop acide",
+      "les poires"
+     ],
+     "reponse": "le raisin trop acide"
+    },
+    {
+     "question": "C'est quoi, le comté ?",
+     "choix": [
+      "un fruit",
+      "un fromage AOP",
+      "un légume"
+     ],
+     "reponse": "un fromage AOP"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Привет! Добро пожаловать на седьмой урок. Aujourd'hui, nous allons au marché ! Сегодня мы отправляемся на воскресный рынок на улице Муфтар. Вы научитесь спрашивать цену, выражать свои вкусы и покупать продукты.",
+   "ecran": "Vue panoramique de la rue Mouffetard avec les étals colorés sous le soleil d'automne",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "Anna, bienvenue rue Mouffetard ! C'est mon marché préféré du dimanche. Regarde tous ces étals !",
+   "ecran": "Lucas écarte les bras largement, balayant la rue du regard, souriant",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v03",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "C'est magnifique ! Il y a des fruits, des légumes, des fleurs… Tout est très coloré !",
+   "ecran": "Anna tourne la tête de gauche à droite, yeux écarquillés, mains jointes devant la poitrine",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v04",
+   "voix": "marchande",
+   "langue": "fr",
+   "texte": "Bonjour ! Vous voulez goûter ? Ces pommes sont délicieuses et très sucrées.",
+   "ecran": "Colette tend une pomme rouge coupée en quartiers sur un petit plateau en bois",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Merci beaucoup ! Mmm, c'est vrai, elles sont très bonnes. Combien coûte un kilo ?",
+   "ecran": "Anna goûte un quartier de pomme, ferme les yeux de plaisir, puis pointe l'ardoise du doigt",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "marchande",
+   "langue": "fr",
+   "texte": "Trois euros cinquante le kilo. Elles sont fraîches, cueillies ce matin !",
+   "ecran": "Colette montre l'ardoise, puis mime le geste de cueillir une pomme",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "J'adore ces pommes ! Mais je préfère les poires, elles sont plus juteuses. Et toi, tu aimes ?",
+   "ecran": "Lucas croque dans une pomme, pointe les poires de l'autre main, se tourne vers Anna",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, j'aime beaucoup les poires aussi. Mais je déteste le raisin trop acide. Celui-ci est mûr ?",
+   "ecran": "Anna fait une petite grimace en pensant au raisin acide, puis désigne une grappe",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "Oui, il est très mûr. Viens, je veux te montrer les fromages. C'est la meilleure partie !",
+   "ecran": "Lucas prend Anna doucement par le coude et la guide vers l'étal de fromages",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oh là là ! Il y a tellement de fromages ! C'est quoi, ce gros fromage jaune ?",
+   "ecran": "Anna se penche au-dessus de la vitrine, pointe une roue de comté",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "C'est du comté, un fromage AOP. Ça veut dire qu'il est fabriqué dans une région précise, avec des règles strictes. Il est délicieux !",
+   "ecran": "Lucas prend un morceau de comté, le montre fièrement, fait un geste circulaire pour « région »",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Je peux goûter ? … Mmm, j'adore ! Il est meilleur que le brie, je trouve. Un peu plus de sel, beaucoup de saveur.",
+   "ecran": "Anna goûte, ferme les yeux, hoche la tête avec enthousiasme, fait un geste de la main « un peu » puis « beaucoup »",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "lucas",
+   "langue": "fr",
+   "texte": "Tu as raison ! Allez, on achète un peu de comté, beaucoup de pommes et assez de poires pour la semaine ?",
+   "ecran": "Lucas ouvre son sac en toile, compte sur ses doigts les achats, sourit",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "anna",
+   "langue": "fr",
+   "texte": "Oui, parfait ! Et un peu de fromage de chèvre aussi, s'il vous plaît. Ce marché est vraiment formidable !",
+   "ecran": "Anna acquiesce vivement, ajoute un petit chèvre dans le panier, ouvre les bras de satisfaction",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "marchande",
+   "langue": "fr",
+   "texte": "Très bon choix, les jeunes ! Ça fait douze euros. Bonne journée !",
+   "ecran": "Colette emballe les produits dans du papier, tape sur sa caisse, fait un grand sourire",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Отлично! А теперь давайте повторим новые слова за диктором. Обратите внимание на произношение и род существительных.",
+   "ecran": "Liste de vocabulaire qui s'affiche à l'écran avec icône audio et exemples",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v17",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Запомните главное правило: прилагательные во французском всегда согласуются с существительными в роде и числе. Добавляем -e для женского рода и -s для множественного. Например: un fruit sucré, des pommes sucrées.",
+   "ecran": "Tableau d'accord des adjectifs avec exemples en surbrillance et flèches animées",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Обратите внимание на запретные связывания. Après la conjonction 'et' et après les consonnes nasales, on ne fait pas de liaison ! Повторите: un fromage et un vin.",
+   "ecran": "Gros plan sur les lèvres du narrateur avec texte 'un fromage et un vin' et croix rouge sur le 't'",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Переходим к практике. Упражнение первое: выберите правильную форму прилагательного, чтобы оно подходило к существительному.",
+   "ecran": "Interface de l'exercice 1 (QCM) avec les pommes et le fromage en arrière-plan",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение второе: вставьте подходящее наречие количества. N'oubliez pas la préposition 'de' !",
+   "ecran": "Interface de l'exercice 2 (Trous) avec des paniers de fruits animés",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение третье: соедините французские слова с их русским переводом. Soyez attentifs aux détails !",
+   "ecran": "Interface de l'exercice 3 (Association) avec des étiquettes de marché colorées",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение четвертое: составьте предложения из предложенных слов. Следите за порядком слов и согласованием.",
+   "ecran": "Interface de l'exercice 4 (Ordre) avec des blocs de mots à glisser-déposer",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Упражнение пятое: переведите фразы на французский язык. Это отличная тренировка для диалогов на рынке.",
+   "ecran": "Interface de l'exercice 5 (Traduction) avec un clavier virtuel et un carnet de notes",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "И последнее, шестое упражнение: прослушайте вопросы по нашему диалогу и выберите правильный ответ.",
+   "ecran": "Interface de l'exercice 6 (Ecoute) avec une icône de casque audio et des ondes sonores",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "ru",
+   "texte": "Поздравляю! Вы отлично справились. Теперь вы знаете, как делать покупки на французском рынке. À dimanche prochain !",
+   "ecran": "Anna et Lucas sourient avec leurs courses, écran de fin avec confettis et récapitulatif des objectifs",
+   "interaction": "aucune"
+  }
+ ],
+ "controle": []
+}

@@ -1,0 +1,919 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 3,
+ "niveau": "A1",
+ "id": "ru-pour-francais-A1-03",
+ "titre": {
+  "cible": "Алфави́т. Добро́ пожа́ловать!",
+  "natif": "L'alphabet. Bienvenue !"
+ },
+ "objectifs": [
+  "Lire un court texte en cyrillique (panneau, étiquette, message simple) et reconnaître les lettres У à Я",
+  "Remercier et exprimer la politesse : спасибо, пожалуйста, извините",
+  "Comprendre et réagir à des consignes simples à l'impératif : Садитесь! Ешьте! Пейте чай!",
+  "Distinguer les démonstratifs это / тот / этот et identifier le genre grammatical de base (стол, книга, окно)",
+  "Prononcer correctement les voyelles iotisées (Я, Ю, Е, Ё) en début de mot ou après voyelle"
+ ],
+ "scene": {
+  "lieu": "Appartement de Nina Ivanovna, cuisine",
+  "moment": "Fin d'après-midi, lumière dorée d'automne filtrant par la fenêtre",
+  "decor_3d": "Cuisine chaleureuse aux murs crème ornés d'une icône de la Vierge sous un lampion rouge. Napperons en dentelle blanche sur la table ronde en bois. Samovar en cuivre poli trônant au centre, entouré de tasses à fleurs bleues. Assiette de pirojki dorés, miche de pain noir, soupière fumante. Rideaux en coton à petits carreaux. Étagères en bois avec pots de confiture et boîtes de thé. Un livre ouvert posé près de la fenêtre. Sol en linoléum à motifs géométriques soviétiques.",
+  "objets": [
+   "samovar en cuivre avec robinet",
+   "assiette de pirojki (6 pièces, dorés)",
+   "théière en porcelaine à fleurs bleues",
+   "deux tasses avec soucoupes",
+   "miche de pain noir (бородинский)",
+   "soupière avec louche",
+   "napperon en dentelle sur la table",
+   "icône orthodoxe au mur avec lampion",
+   "livre ouvert (abécédaire)",
+   "fenêtre avec rideaux à carreaux",
+   "chaise en bois pour Thomas",
+   "tablier à fleurs de Nina"
+  ],
+  "personnages": [
+   "thomas",
+   "nina"
+  ],
+  "figurants": []
+ },
+ "dialogue": [
+  {
+   "perso": "nina",
+   "texte": "Добро́ пожа́ловать, То́ма! Проходи́те, проходи́те!",
+   "traduction": "Bienvenue, Toma ! Entrez, entrez !",
+   "geste": "Nina ouvre grand la porte de la cuisine, écarte les bras en signe d'accueil, son tablier à fleurs légèrement taché de farine."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Спаси́бо, Ни́на Ива́новна! Как у вас ую́тно!",
+   "traduction": "Merci, Nina Ivanovna ! Comme c'est chaleureux chez vous !",
+   "geste": "Thomas entre timidement, regarde autour de lui avec des yeux émerveillés, pose son sac près de la porte."
+  },
+  {
+   "perso": "nina",
+   "texte": "Сади́тесь! Е́шьте пирожки́. Пей́те чай!",
+   "traduction": "Asseyez-vous ! Mangez des pirojki. Buvez du thé !",
+   "geste": "Nina tire la chaise, désigne l'assiette de pirojki puis verse le thé du samovar avec un geste ample."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Как вку́сно! А что э́то?",
+   "traduction": "Comme c'est délicieux ! Et qu'est-ce que c'est ?",
+   "geste": "Thomas croque dans un pirojok, ferme les yeux de plaisir, puis pointe du doigt la soupière."
+  },
+  {
+   "perso": "nina",
+   "texte": "Э́то пирожки́ с ка́пустой. А э́то — суп. А тот хлеб — боро́динский.",
+   "traduction": "Ce sont des pirojki au chou. Et ça, c'est de la soupe. Et ce pain-là, c'est du borodinski.",
+   "geste": "Nina montre chaque plat du doigt : l'assiette, la soupière, puis la miche de pain sombre."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Э́тот чай о́чень вку́сный! Спаси́бо!",
+   "traduction": "Ce thé est très bon ! Merci !",
+   "geste": "Thomas soulève sa tasse à deux mains, souffle sur le thé, sourit à Nina."
+  },
+  {
+   "perso": "nina",
+   "texte": "Пожжа́луйста! Е́шьте, е́шьте! А э́то — окно́. Тот — стол. А э́то — кни́га.",
+   "traduction": "Je vous en prie ! Mangez, mangez ! Et ça, c'est une fenêtre. Ça, c'est une table. Et ceci, c'est un livre.",
+   "geste": "Nina fait un geste circulaire vers la fenêtre, tape sur la table, puis tapote le livre ouvert."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Окно́ — э́то? А стол — тот? А кни́га — э́та?",
+   "traduction": "La fenêtre — c'est ceci ? Et la table — c'est cela ? Et le livre — c'est celui-ci ?",
+   "geste": "Thomas pointe alternativement la fenêtre, la table et le livre, hésitant, en cherchant la validation du regard."
+  },
+  {
+   "perso": "nina",
+   "texte": "Да! Молоде́ц! А тепе́рь чита́йте: «Э́то мой дом».",
+   "traduction": "Oui ! Bravo ! Et maintenant, lisez : « C'est ma maison ».",
+   "geste": "Nina pousse le livre ouvert vers Thomas, pointe la phrase du doigt avec fierté."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Э́-то… мой… дом. Ура́! Я чита́ю!",
+   "traduction": "C'est… ma… maison. Hourra ! Je lis !",
+   "geste": "Thomas déchiffre lentement en suivant les lettres du doigt, puis lève les bras en signe de victoire."
+  },
+  {
+   "perso": "nina",
+   "texte": "Молоде́ц! Пожа́луйста, ещё́ чай? Хлеб? Суп?",
+   "traduction": "Bravo ! S'il vous plaît, encore du thé ? Du pain ? De la soupe ?",
+   "geste": "Nina attrape la théière, prête à resservir, et désigne chaque aliment en les nommant."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Да, спаси́бо большо́е! Извини́те, а э́то что?",
+   "traduction": "Oui, merci beaucoup ! Excusez-moi, et ça, qu'est-ce que c'est ?",
+   "geste": "Thomas tend sa tasse, puis pointe curieusement l'icône au mur."
+  },
+  {
+   "perso": "nina",
+   "texte": "Э́то ико́на. Мой дом — э́тот дом. Е́шьте, То́ма, е́шьте!",
+   "traduction": "C'est une icône. Ma maison — c'est cette maison. Mangez, Toma, mangez !",
+   "geste": "Nina fait un petit signe de croix vers l'icône, puis pose affectueusement la main sur l'épaule de Thomas."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Спаси́бо, Ни́на Ива́новна. Э́тот дом — о́чень ую́тный.",
+   "traduction": "Merci, Nina Ivanovna. Cette maison est très chaleureuse.",
+   "geste": "Thomas sourit chaleureusement, regarde autour de lui avec gratitude, puis reprend un pirojok."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "добро́ пожа́ловать",
+   "prononciation": "doBRO poZHAlovat'",
+   "nature": "expression figée",
+   "traduction": "bienvenue",
+   "exemple": "Добро́ пожа́ловать в Москву́!",
+   "exemple_traduction": "Bienvenue à Moscou !"
+  },
+  {
+   "mot": "спаси́бо",
+   "prononciation": "spaSIbo",
+   "nature": "expression / adverbe",
+   "traduction": "merci",
+   "exemple": "Спаси́бо большо́е!",
+   "exemple_traduction": "Merci beaucoup !"
+  },
+  {
+   "mot": "пожа́луйста",
+   "prononciation": "poZHA lusta",
+   "nature": "expression / adverbe",
+   "traduction": "s'il vous plaît ; je vous en prie",
+   "exemple": "Чай, пожа́луйста.",
+   "exemple_traduction": "Du thé, s'il vous plaît."
+  },
+  {
+   "mot": "извини́те",
+   "prononciation": "izviNIte",
+   "nature": "expression / verbe (impératif poli)",
+   "traduction": "excusez-moi ; pardon",
+   "exemple": "Извини́те, а что э́то?",
+   "exemple_traduction": "Excusez-moi, et qu'est-ce que c'est ?"
+  },
+  {
+   "mot": "сади́тесь",
+   "prononciation": "saDItes'",
+   "nature": "verbe (impératif, forme polie)",
+   "traduction": "asseyez-vous",
+   "exemple": "Сади́тесь, пожа́луйста!",
+   "exemple_traduction": "Asseyez-vous, s'il vous plaît !"
+  },
+  {
+   "mot": "е́шьте",
+   "prononciation": "YESHte",
+   "nature": "verbe (impératif, forme polie)",
+   "traduction": "mangez",
+   "exemple": "Е́шьте пирожки́!",
+   "exemple_traduction": "Mangez des pirojki !"
+  },
+  {
+   "mot": "пе́йте",
+   "prononciation": "PEYte",
+   "nature": "verbe (impératif, forme polie)",
+   "traduction": "buvez",
+   "exemple": "Пе́йте чай!",
+   "exemple_traduction": "Buvez du thé !"
+  },
+  {
+   "mot": "чай",
+   "prononciation": "CHAY",
+   "nature": "nom m.",
+   "traduction": "thé",
+   "exemple": "Э́тот чай о́чень вку́сный.",
+   "exemple_traduction": "Ce thé est très bon."
+  },
+  {
+   "mot": "хлеб",
+   "prononciation": "KHLEB",
+   "nature": "nom m.",
+   "traduction": "pain",
+   "exemple": "Тот хлеб — боро́динский.",
+   "exemple_traduction": "Ce pain-là est du borodinski."
+  },
+  {
+   "mot": "суп",
+   "prononciation": "SUP",
+   "nature": "nom m.",
+   "traduction": "soupe",
+   "exemple": "Э́то суп.",
+   "exemple_traduction": "C'est de la soupe."
+  },
+  {
+   "mot": "пирожки́",
+   "prononciation": "pirozhKI",
+   "nature": "nom m. pl.",
+   "traduction": "pirojki (petits chaussons fourrés)",
+   "exemple": "Е́шьте пирожки́ с ка́пустой!",
+   "exemple_traduction": "Mangez des pirojki au chou !"
+  },
+  {
+   "mot": "стол",
+   "prononciation": "STOL",
+   "nature": "nom m.",
+   "traduction": "table",
+   "exemple": "Тот стол — большо́й.",
+   "exemple_traduction": "Cette table-là est grande."
+  },
+  {
+   "mot": "кни́га",
+   "prononciation": "KNIga",
+   "nature": "nom f.",
+   "traduction": "livre",
+   "exemple": "Э́то кни́га.",
+   "exemple_traduction": "C'est un livre."
+  },
+  {
+   "mot": "окно́",
+   "prononciation": "okNO",
+   "nature": "nom n.",
+   "traduction": "fenêtre",
+   "exemple": "Э́то окно́.",
+   "exemple_traduction": "C'est une fenêtre."
+  },
+  {
+   "mot": "дом",
+   "prononciation": "DOM",
+   "nature": "nom m.",
+   "traduction": "maison ; chez-soi",
+   "exemple": "Э́то мой дом.",
+   "exemple_traduction": "C'est ma maison."
+  },
+  {
+   "mot": "ку́хня",
+   "prononciation": "KUKHnya",
+   "nature": "nom f.",
+   "traduction": "cuisine (pièce)",
+   "exemple": "Э́то ку́хня.",
+   "exemple_traduction": "C'est la cuisine."
+  },
+  {
+   "mot": "э́то",
+   "prononciation": "Eto",
+   "nature": "pronom démonstratif",
+   "traduction": "c'est ; ceci ; cela",
+   "exemple": "Э́то чай.",
+   "exemple_traduction": "C'est du thé."
+  },
+  {
+   "mot": "тот",
+   "prononciation": "TOT",
+   "nature": "pronom / adjectif démonstratif",
+   "traduction": "ce…-là ; celui-là",
+   "exemple": "Тот хлеб — вку́сный.",
+   "exemple_traduction": "Ce pain-là est bon."
+  },
+  {
+   "mot": "э́тот",
+   "prononciation": "Etot",
+   "nature": "adjectif démonstratif",
+   "traduction": "ce ; cet ; cette",
+   "exemple": "Э́тот дом — мой.",
+   "exemple_traduction": "Cette maison est la mienne."
+  },
+  {
+   "mot": "вку́сный",
+   "prononciation": "VKUSnyy",
+   "nature": "adjectif",
+   "traduction": "délicieux, bon (goût)",
+   "exemple": "Пирожки́ о́чень вку́сные!",
+   "exemple_traduction": "Les pirojki sont très bons !"
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "L'impératif de base : donner des consignes simples",
+   "explication": "En russe, l'impératif s'emploie pour donner un ordre ou une invitation. Au niveau A1, retenez trois formes polies en -те (vous) : Садитесь ! (Asseyez-vous !), Ешьте ! (Mangez !), Пейте ! (Buvez !). La forme polie se termine par -те ou -тесь (réfléchi). Contrairement au français, le russe n'a pas besoin du pronom « vous » devant l'impératif : on dit simplement Садитесь !, и не « Вы садитесь ! ». L'intonation est montante et chaleureuse dans une invitation (comme ici, Nina qui accueille Thomas), descendante pour un ordre strict. Notez que ces verbes sont irréguliers : садитесь vient de сидеть (être assis), ешьте de есть (manger), пейте de пить (boire). À ce stade, mémorisez-les comme des blocs figés, exactement comme vous avez mémorisé Меня зовут… en Leçon 2.",
+   "tableau": [
+    [
+     "Infinitif",
+     "Impératif poli (вы)",
+     "Sens",
+     "Exemple"
+    ],
+    [
+     "сиде́ть",
+     "Сади́тесь!",
+     "Asseyez-vous !",
+     "Сади́тесь, пожа́луйста!"
+    ],
+    [
+     "есть",
+     "Е́шьте!",
+     "Mangez !",
+     "Е́шьте суп!"
+    ],
+    [
+     "пить",
+     "Пе́йте!",
+     "Buvez !",
+     "Пе́йте чай!"
+    ],
+    [
+     "чита́ть",
+     "Чита́йте!",
+     "Lisez !",
+     "Чита́йте: «Э́то мой дом»."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Сади́тесь! Е́шьте пирожки́! Пей́те чай!",
+     "natif": "Asseyez-vous ! Mangez des pirojki ! Buvez du thé !"
+    },
+    {
+     "cible": "Чита́йте, То́ма! Молоде́ц!",
+     "natif": "Lisez, Toma ! Bravo !"
+    }
+   ]
+  },
+  {
+   "titre": "Démonstratifs это / тот / этот et première approche du genre",
+   "explication": "Le russe distingue trois démonstratifs principaux. Э́то (invariable) sert à identifier : Э́то стол (C'est une table). Тот / та / то (celui-là, celle-là) désigne un objet éloigné : Тот хлеб (Ce pain-là). Э́тот / э́та / э́то (ce, cet, cette) désigne un objet proche : Э́тот чай (Ce thé-ci). Observez que le genre du nom détermine la forme de тот et этот : стол (m.) → тот стол, этот стол ; книга (f.) → та книга, эта книга ; окно (n.) → то окно, это окно. Э́то, lui, reste invariable quand il signifie « c'est ». Pour repérer le genre : les noms masculins se terminent souvent par une consonne (стол, дом, чай), les féminins par -а/-я (книга, кухня), les neutres par -о/-е (окно, мо́ре). En français, vous avez « le/la » ; en russe, c'est la terminaison qui porte cette information.",
+   "tableau": [
+    [
+     "Genre",
+     "Terminaison typique",
+     "Exemple",
+     "avec это",
+     "avec тот/этот"
+    ],
+    [
+     "Masculin",
+     "consonne",
+     "стол, дом, чай",
+     "Э́то стол.",
+     "Тот стол. Э́тот чай."
+    ],
+    [
+     "Féminin",
+     "-а / -я",
+     "кни́га, ку́хня",
+     "Э́то кни́га.",
+     "Та кни́га. Э́та ку́хня."
+    ],
+    [
+     "Neutre",
+     "-о / -е",
+     "окно́, мо́ре",
+     "Э́то окно́.",
+     "То окно́. Э́то окно́."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Э́то окно́. Тот стол — большо́й. Э́та кни́га — моя́.",
+     "natif": "C'est une fenêtre. Cette table-là est grande. Ce livre est à moi."
+    },
+    {
+     "cible": "Э́тот дом — мой дом. Э́то ку́хня.",
+     "natif": "Cette maison est ma maison. C'est la cuisine."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Alphabet cyrillique (partie 3 : У à Я). Le Ё toujours accentué. Les voyelles iotisées (Я, Ю, Е, Ё) en début de mot ou après voyelle. Révision complète en chanson.",
+  "explication": "Troisième et dernière partie de l'alphabet : les lettres У, Ф, Х, Ц, Ч, Ш, Щ, Ъ, Ы, Ь, Э, Ю, Я. Point crucial : la lettre Ё (yo) porte TOUJOURS l'accent tonique — il n'existe aucune exception en russe. Quand vous voyez Ё, vous savez immédiatement où tombe l'accent : ещё́, ёж, моё. Attention à ne pas la confondre avec Е. Les voyelles iotisées Я, Ю, Е, Ё se prononcent en deux sons [йа], [йу], [йэ], [йо] dans deux contextes : (1) en début de mot : яблоко [йа́блака], юбка [йу́пка], ёлка [йо́лка] ; (2) après une voyelle : моя́ [майа́], поёт [пайо́т]. Après une consonne, elles indiquent simplement la palatalisation de cette consonne + la voyelle : мя [м'а], тёт [т'о]. Pour mémoriser l'alphabet entier, nous terminons par une petite chanson rythmée de А à Я.",
+  "exemples": [
+   "Ё → ещё́ [йищо́] : toujours accentué",
+   "Я + début de mot → я́блоко [йа́блака] : pomme",
+   "Ю + début de mot → ю́бка [йу́пка] : jupe",
+   "Е + après voyelle → мое́ [майо́] : mon (neutre)",
+   "Ё après consonne → трёх [тр'о́х] : trois (gén.)",
+   "Chanson : А Бэ Вэ Гэ Дэ Е Ё Жэ Зэ И Ка Эл Эн О Пэ Эр Эс Тэ У Эф Ха Цэ Чэ Ша Ща… Ю Я !"
+  ]
+ },
+ "culture": {
+  "titre": "L'hospitalité russe : la cuisine, cœur du foyer",
+  "texte": "En Russie, refuser la nourriture offerte est perçu comme une petite offense. Quand une babouchka comme Nina Ivanovna dit « Ешьте ! », on mange — avec plaisir et gratitude. La cuisine (кухня) est le véritable cœur du foyer russe : on y discute, on y reçoit, on y refait le monde autour d'un samovar. Les pirojki, petits chaussons fourrés au chou, à la viande ou aux pommes, sont le symbole de cet accueil. Le thé, servi fort et souvent accompagné de confiture, remplace le café français. Le samovar, héritage du XVIIIe siècle, trône encore dans de nombreuses cuisines. Dire « спасибо » et « пожалуйста » avec chaleur est la moindre des politesses quand on est ainsi reçu."
+ },
+ "resume": [
+  {
+   "cible": "Добро́ пожа́ловать! Сади́тесь, е́шьте, пей́те чай!",
+   "natif": "Bienvenue ! Asseyez-vous, mangez, buvez du thé !"
+  },
+  {
+   "cible": "Э́то пирожки́. Тот хлеб — боро́динский. Э́тот чай — вку́сный.",
+   "natif": "Ce sont des pirojki. Ce pain-là est du borodinski. Ce thé est délicieux."
+  },
+  {
+   "cible": "Окно́ — э́то. Стол — тот. Кни́га — э́та.",
+   "natif": "La fenêtre — c'est ceci. La table — c'est cela. Le livre — c'est celle-ci."
+  },
+  {
+   "cible": "Э́то мой дом. Я чита́ю!",
+   "natif": "C'est ma maison. Je lis !"
+  },
+  {
+   "cible": "Спаси́бо большо́е, Ни́на Ива́новна! Пожа́луйста, ещё́ чай.",
+   "natif": "Merci beaucoup, Nina Ivanovna ! S'il vous plaît, encore du thé."
+  }
+ ],
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez la bonne réponse pour compléter la phrase ou identifier le mot.",
+   "items": [
+    {
+     "question": "Comment dit-on « Asseyez-vous » en russe ?",
+     "choix": [
+      "Е́шьте!",
+      "Сади́тесь!",
+      "Пе́йте!",
+      "Чита́йте!"
+     ],
+     "reponse": "Сади́тесь!"
+    },
+    {
+     "question": "Quelle lettre cyrillique porte TOUJOURS l'accent tonique ?",
+     "choix": [
+      "Е",
+      "Э",
+      "Ё",
+      "Ю"
+     ],
+     "reponse": "Ё"
+    },
+    {
+     "question": "Que signifie « спаси́бо » ?",
+     "choix": [
+      "s'il vous plaît",
+      "excusez-moi",
+      "merci",
+      "bienvenue"
+     ],
+     "reponse": "merci"
+    },
+    {
+     "question": "Quel est le genre du mot « окно́ » (fenêtre) ?",
+     "choix": [
+      "masculin",
+      "féminin",
+      "neutre",
+      "pluriel"
+     ],
+     "reponse": "neutre"
+    },
+    {
+     "question": "Comment prononce-t-on « я́блоко » en début de mot ?",
+     "choix": [
+      "[а́блака]",
+      "[йа́блака]",
+      "[я́блака]",
+      "[йа́блоко]"
+     ],
+     "reponse": "[йа́блака]"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez les phrases avec le démonstratif approprié : э́то, тот, э́тот, та, э́та, то.",
+   "items": [
+    {
+     "question": "_____ пирожки́ с ка́пустой.",
+     "reponse": "Э́то"
+    },
+    {
+     "question": "_____ хлеб — боро́динский.",
+     "reponse": "Тот"
+    },
+    {
+     "question": "_____ чай о́чень вку́сный.",
+     "reponse": "Э́тот"
+    },
+    {
+     "question": "_____ окно́ — большо́е.",
+     "reponse": "Э́то"
+    },
+    {
+     "question": "_____ кни́га — моя́.",
+     "reponse": "Э́та"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez chaque mot russe à sa traduction française.",
+   "items": [
+    {
+     "question": "добро́ пожа́ловать",
+     "reponse": "bienvenue"
+    },
+    {
+     "question": "пожа́луйста",
+     "reponse": "s'il vous plaît / je vous en prie"
+    },
+    {
+     "question": "извини́те",
+     "reponse": "excusez-moi"
+    },
+    {
+     "question": "е́шьте",
+     "reponse": "mangez"
+    },
+    {
+     "question": "пе́йте",
+     "reponse": "buvez"
+    },
+    {
+     "question": "ку́хня",
+     "reponse": "cuisine (pièce)"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez les mots dans l'ordre pour former une phrase correcte.",
+   "items": [
+    {
+     "question": "пирожки́ / Е́шьте / !",
+     "reponse": "Е́шьте пирожки́!"
+    },
+    {
+     "question": "мой / Э́то / дом / .",
+     "reponse": "Э́то мой дом."
+    },
+    {
+     "question": "чай / вку́сный / Э́тот / .",
+     "reponse": "Э́тот чай вку́сный."
+    },
+    {
+     "question": "пожа́луйста / Сади́тесь / !",
+     "reponse": "Сади́тесь, пожа́луйста!"
+    },
+    {
+     "question": "боро́динский / хлеб / Тот / — / .",
+     "reponse": "Тот хлеб — боро́динский."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez les phrases suivantes en russe.",
+   "items": [
+    {
+     "question": "C'est une fenêtre.",
+     "reponse": "Э́то окно́."
+    },
+    {
+     "question": "Merci beaucoup !",
+     "reponse": "Спаси́бо большо́е!"
+    },
+    {
+     "question": "Buvez du thé !",
+     "reponse": "Пе́йте чай!"
+    },
+    {
+     "question": "Cette maison est chaleureuse.",
+     "reponse": "Э́тот дом — ую́тный."
+    },
+    {
+     "question": "Asseyez-vous, s'il vous plaît !",
+     "reponse": "Сади́тесь, пожа́луйста!"
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez et choisissez la phrase que vous entendez.",
+   "items": [
+    {
+     "question": "Audio : [Сади́тесь, пожа́луйста!]",
+     "choix": [
+      "Сади́тесь, пожа́луйста!",
+      "Е́шьте, пожа́луйста!",
+      "Пе́йте, пожа́луйста!"
+     ],
+     "reponse": "Сади́тесь, пожа́луйста!"
+    },
+    {
+     "question": "Audio : [Э́то мой дом.]",
+     "choix": [
+      "Э́то мой дом.",
+      "Э́тот мой дом.",
+      "Тот мой дом."
+     ],
+     "reponse": "Э́то мой дом."
+    },
+    {
+     "question": "Audio : [Тот хлеб — боро́динский.]",
+     "choix": [
+      "Э́тот хлеб — боро́динский.",
+      "Тот хлеб — боро́динский.",
+      "Э́то хлеб — боро́динский."
+     ],
+     "reponse": "Тот хлеб — боро́динский."
+    },
+    {
+     "question": "Audio : [Е́шьте пирожки́!]",
+     "choix": [
+      "Пе́йте пирожки́!",
+      "Е́шьте пирожки́!",
+      "Чита́йте пирожки́!"
+     ],
+     "reponse": "Е́шьте пирожки́!"
+    },
+    {
+     "question": "Audio : [Э́тот чай о́чень вку́сный.]",
+     "choix": [
+      "Э́тот чай о́чень вку́сный.",
+      "Тот чай о́чень вку́сный.",
+      "Э́то чай о́чень вку́сный."
+     ],
+     "reponse": "Э́тот чай о́чень вку́сный."
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bienvenue dans la leçon 3 de votre cours de russe ! Aujourd'hui, nous terminons l'apprentissage de l'alphabet cyrillique et nous entrons dans la cuisine chaleureuse de Nina Ivanovna.",
+   "ecran": "Titre de la leçon affiché : «Алфави́т. Добро́ пожа́ловать!» avec animation de lettres cyrilliques",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Vous allez apprendre à lire vos premières phrases complètes, à remercier poliment, et à comprendre des consignes simples comme « Asseyez-vous » ou « Mangez ».",
+   "ecran": "Liste des objectifs qui apparaissent un par un avec des icônes",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Thomas arrive chez Nina Ivanovna pour la première fois. Écoutez leur conversation et observez les gestes d'accueil.",
+   "ecran": "Vue extérieure de l'appartement, porte qui s'ouvre, Thomas entre",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v04",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Добро́ пожа́ловать, То́ма! Проходи́те, проходи́те!",
+   "ecran": "Nina ouvre grand la porte de la cuisine, écarte les bras en signe d'accueil",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Спаси́бо, Ни́на Ива́новна! Как у вас ую́тно!",
+   "ecran": "Thomas entre timidement, regarde autour de lui avec des yeux émerveillés",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Сади́тесь! Е́шьте пирожки́. Пей́те чай!",
+   "ecran": "Nina tire la chaise, désigne l'assiette de pirojki puis verse le thé du samovar",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Как вку́сно! А что э́то?",
+   "ecran": "Thomas croque dans un pirojok, ferme les yeux de plaisir, puis pointe la soupière",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Э́то пирожки́ с ка́пустой. А э́то — суп. А тот хлеб — боро́динский.",
+   "ecran": "Nina montre chaque plat du doigt : l'assiette, la soupière, puis la miche de pain sombre",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Э́тот чай о́чень вку́сный! Спаси́бо!",
+   "ecran": "Thomas soulève sa tasse à deux mains, souffle sur le thé, sourit à Nina",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Пожжа́луйста! Е́шьте, е́шьте! А э́то — окно́. Тот — стол. А э́то — кни́га.",
+   "ecran": "Nina fait un geste circulaire vers la fenêtre, tape sur la table, puis tapote le livre ouvert",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Окно́ — э́то? А стол — тот? А кни́га — э́та?",
+   "ecran": "Thomas pointe alternativement la fenêtre, la table et le livre, hésitant",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Да! Молоде́ц! А тепе́рь чита́йте: «Э́то мой дом».",
+   "ecran": "Nina pousse le livre ouvert vers Thomas, pointe la phrase du doigt avec fierté",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Э́-то… мой… дом. Ура́! Я чита́ю!",
+   "ecran": "Thomas déchiffre lentement en suivant les lettres du doigt, puis lève les bras en signe de victoire",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Молоде́ц! Пожа́луйста, ещё́ чай? Хлеб? Суп?",
+   "ecran": "Nina attrape la théière, prête à resservir, et désigne chaque aliment",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Да, спаси́бо большо́е! Извини́те, а э́то что?",
+   "ecran": "Thomas tend sa tasse, puis pointe curieusement l'icône au mur",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v16",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Э́то ико́на. Мой дом — э́тот дом. Е́шьте, То́ма, е́шьте!",
+   "ecran": "Nina fait un petit signe de croix vers l'icône, puis pose la main sur l'épaule de Thomas",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Спаси́бо, Ни́на Ива́новна. Э́тот дом — о́чень ую́тный.",
+   "ecran": "Thomas sourit chaleureusement, regarde autour de lui avec gratitude, puis reprend un pirojok",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Répétons maintenant le vocabulaire essentiel. Écoutez et répétez chaque mot.",
+   "ecran": "Transition vers écran de vocabulaire avec fond neutre",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v19",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Добро́ пожа́ловать!",
+   "ecran": "Mot affiché : добро́ пожа́ловать avec traduction « bienvenue »",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v20",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Спаси́бо! Пожа́луйста!",
+   "ecran": "Mots affichés : спаси́бо (merci) et пожа́луйста (s'il vous plaît)",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v21",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Сади́тесь! Е́шьте! Пе́йте!",
+   "ecran": "Trois impératifs affichés avec leurs traductions",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v22",
+   "voix": "nina",
+   "langue": "ru",
+   "texte": "Чай, хлеб, суп, пирожки́.",
+   "ecran": "Images des aliments avec leurs noms en russe",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la grammaire. Vous avez remarqué que Nina utilise souvent l'impératif pour accueillir Thomas : Сади́тесь ! Е́шьте ! Пе́йте ! Ce sont des formes polies en -те.",
+   "ecran": "Tableau de grammaire avec les trois verbes à l'impératif",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "En russe, on n'utilise pas le pronom « vous » devant l'impératif. On dit simplement Сади́тесь !, pas Вы садитесь ! L'intonation est chaleureuse pour une invitation.",
+   "ecran": "Exemples animés avec bulles de dialogue",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Maintenant, observons les démonstratifs. Э́то sert à identifier : Э́то стол. Тот désigne quelque chose de loin : Тот хлеб. Э́тот désigne quelque chose de proche : Э́тот чай.",
+   "ecran": "Schéma visuel avec objets proches et lointains, flèches vers les démonstratifs",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Attention au genre ! Les noms masculins finissent par une consonne comme стол, les féminins par -а ou -я comme книга, les neutres par -о ou -е comme окно́. Le démonstratif s'accorde avec le genre.",
+   "ecran": "Tableau des genres avec exemples colorés",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v27",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Pour la prononciation, retenez que la lettre Ё porte TOUJOURS l'accent tonique. Quand vous voyez Ё, vous savez où est l'accent : ещё́, ёлка.",
+   "ecran": "Lettre Ё en gros avec exemples accentués",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v28",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Les voyelles iotisées Я, Ю, Е, Ё se prononcent [йа], [йу], [йэ], [йо] en début de mot ou après une voyelle. Par exemple : я́блоко [йа́блака], моя́ [майа́].",
+   "ecran": "Animation des lettres avec transcription phonétique",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v29",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "C'est l'heure des exercices ! Commencez par le QCM pour tester votre compréhension du vocabulaire et de l'alphabet.",
+   "ecran": "Transition vers écran d'exercices, premier exercice affiché",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v30",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Dans l'exercice à trous, complétez les phrases avec le bon démonstratif : э́то, тот, ou э́тот selon le contexte.",
+   "ecran": "Exercice à trous affiché avec champs de saisie",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v31",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Associez maintenant les mots russes à leur traduction française en reliant les éléments deux à deux.",
+   "ecran": "Exercice d'association avec colonnes à relier",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v32",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Remettez les mots dans l'ordre pour former des phrases correctes. Attention à la place des démonstratifs !",
+   "ecran": "Exercice de remise en ordre avec mots mélangés",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v33",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Traduisez ces phrases simples en russe. Utilisez le vocabulaire et la grammaire que vous venez d'apprendre.",
+   "ecran": "Exercice de traduction avec phrases en français",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v34",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Enfin, l'exercice d'écoute : écoutez attentivement et choisissez la phrase que vous entendez. Concentrez-vous sur les démonstratifs et l'impératif.",
+   "ecran": "Exercice d'écoute avec bouton play et choix multiples",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v35",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo ! Vous avez terminé la leçon 3. Vous savez maintenant lire vos premières phrases en cyrillique, remercier poliment, et comprendre des consignes simples. À bientôt pour la leçon 4 !",
+   "ecran": "Écran de félicitations avec récapitulatif des acquis et bouton « Leçon suivante »",
+   "interaction": "aucune"
+  }
+ ],
+ "controle": []
+}
