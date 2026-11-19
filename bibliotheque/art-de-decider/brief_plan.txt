@@ -1,0 +1,13 @@
+MISSION — Livre de référence de l'écrivain Oussama Ghorbel (première édition). Tu en es l'auteur ; Claude ne fait que transmettre la mission et contrôler la qualité.
+
+SUJET : « L'Art de Décider » — le traité de référence, en français, sur la prise de décision pour la vie personnelle, l'argent, le travail et l'entreprise. Il doit devenir LE livre qu'on recommande sur le sujet : rigoureux comme un ouvrage universitaire, lisible comme un essai, utilisable comme un manuel.
+
+1. Recense au moins 25 ouvrages et travaux de référence (psychologie cognitive, économie comportementale, théorie de la décision, stratégie, philosophie, sciences de la complexité). Auteur, année, idée centrale en 2 lignes, ce que notre livre en retient ou dépasse. Signale toute incertitude ; n'invente aucune référence.
+2. Formule une THÈSE originale qui unifie le livre (un cadre conceptuel nouveau, nommé, que le lecteur retiendra), sans reproduire de texte protégé.
+3. Conçois le plan : titre définitif, sous-titre, 7 parties, 30 chapitres. Pour chaque chapitre : numero, titre, objectif, 6 à 8 sections, 2 exercices pratiques, et UNE figure explicative.
+4. La figure de chaque chapitre est un schéma dessinable automatiquement. Choisis "type" parmi : "matrice" (2x2 : axe_x, axe_y, 4 cases), "arbre" (une racine, 2 à 4 branches, chacune 1 à 3 feuilles), "cycle" (4 à 6 étapes), "entonnoir" (3 à 6 niveaux), "balance" (2 côtés, 2 à 4 poids chacun), "courbe" (axe_x, axe_y, forme parmi croissante, decroissante, en_u, en_cloche, sigmoide, plus 2 à 4 annotations), "etapes" (4 à 7 étapes linéaires). Textes courts (moins de 40 caractères par élément).
+5. Chaque chapitre visera 4 500 mots.
+
+Réponds UNIQUEMENT avec un JSON valide (sans balises markdown) :
+{"titre":"...","sous_titre":"...","these":"...","cadre":{"nom":"...","description":"..."},"bibliographie":[{"auteur":"...","titre":"...","annee":"...","idee":"...","apport":"..."}],"parties":[{"titre":"...","chapitres":[{"numero":1,"titre":"...","objectif":"...","sections":["..."],"exercices":["..."],"figure":{"type":"matrice","titre":"...","axe_x":"...","axe_y":"...","elements":["...","...","...","..."]}}]}]}
+Pour "arbre" : "racine":"...","elements":[{"branche":"...","feuilles":["..."]}]. Pour "balance" : "gauche":{"titre":"...","poids":["..."]},"droite":{...}. Pour "courbe" : "forme":"...","elements":["annotations"]. Pour les autres : "elements":["..."].

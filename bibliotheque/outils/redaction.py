@@ -210,6 +210,13 @@ def build_system_prompt(
 
 def build_plan_summary(plan: dict) -> str:
     lines: list[str] = []
+    # Livres de référence : la thèse et le cadre conceptuel unifient tous les chapitres
+    if plan.get("these"):
+        lines.append(f"Thèse du livre : {plan['these']}")
+    cadre = plan.get("cadre") or {}
+    if cadre.get("nom"):
+        lines.append(f"Cadre conceptuel propre au livre, à employer et faire vivre dans chaque chapitre : "
+                     f"{cadre['nom']} — {cadre.get('description', '')}")
     for partie in plan.get("parties", []):
         lines.append(f"Partie – {partie.get('titre', '')}")
         for chap in partie.get("chapitres", []):
@@ -298,7 +305,12 @@ def generate_chapter(
         f"Objectif : {ch_objective}\n\n"
         f"Sections à développer :\n{sections_text}\n\n"
         f"Exercices à proposer en fin de chapitre :\n{exercises_text}\n\n"
-        f"Rédige maintenant le chapitre complet (~{target_words} mots) en Markdown. "
+        + (f"Ce chapitre est illustré par la Figure {ch_num} « {chap['figure'].get('titre', '')} » "
+           f"(schéma de type {chap['figure'].get('type', '')}, éléments : "
+           f"{json.dumps(chap['figure'].get('elements', []), ensure_ascii=False)[:400]}). "
+           f"Fais-y référence dans le texte (« voir Figure {ch_num} ») et explique-la.\n\n"
+           if isinstance(chap.get("figure"), dict) else "")
+        + f"Rédige maintenant le chapitre complet (~{target_words} mots) en Markdown. "
         f"Ta réponse contient uniquement le texte du chapitre, rien d'autre."
     )
 

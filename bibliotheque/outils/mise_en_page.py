@@ -274,6 +274,22 @@ def parse_markdown(md_text: str, styles: dict) -> list:
             i = j + 1
             continue
 
+        # Illustration ![légende](chemin.png) : image centrée à la largeur du texte, légende en dessous
+        img_match = re.match(r'^!\[(.*)\]\((.+\.(?:png|jpg|jpeg))\)$', stripped, re.I)
+        if img_match and os.path.exists(img_match.group(2)):
+            flush_list()
+            from reportlab.lib.utils import ImageReader
+            iw, ih = ImageReader(img_match.group(2)).getSize()
+            w = PAGE_W - 2 * MARGIN_LR
+            img = RLImage(img_match.group(2), width=w, height=ih * w / iw)
+            img.hAlign = 'CENTER'
+            parts = [Spacer(1, 8), img, Spacer(1, 3)]
+            if img_match.group(1):
+                parts.append(safe_paragraph(f"<i>{md_to_xml(img_match.group(1))}</i>", styles['body']))
+            flowables.append(KeepTogether(parts + [Spacer(1, 6)]))
+            i += 1
+            continue
+
         # Séparateur horizontal
         if re.match(r'^-{3,}$|^\*{3,}$|^_{3,}$', stripped):
             flush_list()
