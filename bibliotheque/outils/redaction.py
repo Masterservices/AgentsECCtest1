@@ -76,7 +76,15 @@ def call_api(messages: list[dict]) -> tuple[str, dict]:
     with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
         buffer = ""
         while True:
-            raw = resp.read(4096)
+            try:
+                raw = resp.read(4096)
+            except (OSError, __import__("http.client").client.IncompleteRead) as exc:
+                # Connexion coupée en plein flux : on garde le texte déjà reçu s'il est substantiel,
+                # la continuation reprendra le chapitre là où il s'est arrêté
+                if len("".join(chunks).split()) >= 200:
+                    print(f"    ⚠ flux coupé ({exc}) : {len(''.join(chunks).split())} mots gardés, reprise par continuation")
+                    return "".join(chunks), usage
+                raise
             if not raw:
                 break
             buffer += raw.decode("utf-8", errors="replace")
