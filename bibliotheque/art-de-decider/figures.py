@@ -23,13 +23,13 @@ plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 10})
 
 
 def court(t, n=22):
-    return "\n".join(textwrap.wrap(str(t), n)) or " "
+    return "\n".join(textwrap.wrap(str(t), n, break_long_words=False, break_on_hyphens=False)) or " "
 
 
 def boite(ax, x, y, w, h, texte, fond=CLAIR, bord=BLEU, couleur=ENCRE, taille=9.5, gras=False):
     ax.add_patch(FancyBboxPatch((x - w / 2, y - h / 2), w, h, boxstyle="round,pad=0.012,rounding_size=0.025",
                                 fc=fond, ec=bord, lw=1.4))
-    ax.text(x, y, court(texte, max(10, int(w * 34))), ha="center", va="center", fontsize=taille, color=couleur,
+    ax.text(x, y, court(texte, max(12, int(w * 50))), ha="center", va="center", fontsize=taille, color=couleur,
             weight="bold" if gras else "normal")
 
 
@@ -97,9 +97,12 @@ def balance(ax, f):
     ax.plot([0.15, 0.85], [0.78, 0.7], color=ENCRE, lw=2.5)
     for x, y, cote, coul in ((0.2, 0.77, g, OCRE), (0.8, 0.71, d, BLEU)):
         ax.plot([x, x], [y, y - 0.12], color=GRIS, lw=1)
-        boite(ax, x, y - 0.17, 0.3, 0.08, cote.get("titre", ""), fond=coul, bord=coul, couleur="white", gras=True)
+        if cote.get("titre"):
+            boite(ax, x, y - 0.17, 0.34, 0.11, cote["titre"], fond=coul, bord=coul, couleur="white", taille=8.6, gras=True)
+        else:
+            ax.add_patch(Polygon([(x - 0.15, y - 0.17), (x + 0.15, y - 0.17), (x + 0.1, y - 0.21), (x - 0.1, y - 0.21)], fc=coul, ec=coul))
         for j, p in enumerate(cote.get("poids", [])[:4]):
-            ax.text(x, y - 0.29 - j * 0.085, court(p, 34), ha="center", va="center", fontsize=8.8, color=ENCRE)
+            ax.text(x, y - 0.31 - j * 0.085, court(p, 34), ha="center", va="center", fontsize=8.8, color=ENCRE)
 
 
 def courbe(ax, f):
@@ -129,7 +132,7 @@ def etapes(ax, f):
         x0 = 0.04 + k * w
         ax.add_patch(Polygon([(x0, 0.32), (x0 + w - 0.03, 0.32), (x0 + w - 0.005, 0.5), (x0 + w - 0.03, 0.68), (x0, 0.68), (x0 + 0.025, 0.5)],
                              fc=BLEU if k == n - 1 else (CLAIR if k % 2 else SABLE), ec=BLEU, lw=1.2))
-        ax.text(x0 + w / 2 - 0.005, 0.5, court(t, max(8, int(w * 60))), ha="center", va="center", fontsize=8.6,
+        ax.text(x0 + w / 2 - 0.005, 0.5, court(t, max(9, int(w * 70))), ha="center", va="center", fontsize=8.6 if n <= 5 else 6.6,
                 color="white" if k == n - 1 else ENCRE)
         ax.text(x0 + w / 2 - 0.005, 0.76, str(k + 1), ha="center", fontsize=12, color=OCRE, weight="bold")
 
@@ -138,7 +141,70 @@ TYPES = {"matrice": matrice, "arbre": arbre, "cycle": cycle, "entonnoir": entonn
          "etapes": etapes}
 
 
+def normaliser(f):
+    """Ramène les variantes de schéma produites par le plan au format attendu par les fonctions de dessin."""
+    f = dict(f)
+    e = f.get("elements")
+    if isinstance(e, dict):  # elements = {racine, branches, ...}
+        f.update(e)
+        e = f["elements"] = None
+    if isinstance(e, list) and e and all(isinstance(x, dict) for x in e) and not all({"branche", "cote"} & set(x) for x in e):
+        # liste de petits dictionnaires : {"axe_x": …}, {"etape_1": …}, {"branche_1": …, "feuilles": […]}
+        plat, branches = {}, []
+        for x in e:
+            for k, v in x.items():
+                if re.match(r"branche_\d", k):
+                    branches.append({"branche": v, "feuilles": x.get("feuilles", [])})
+                elif k != "feuilles":
+                    plat[k] = v
+        f.update(plat)
+        f["elements"] = branches or [v for k, v in sorted(plat.items()) if re.match(r"(etape|annotation|element|niveau)_\d", k)]
+    t = f.get("type")
+    if t == "arbre":
+        if f.get("branches"):
+            f["elements"] = [{"branche": b.get("nom") or b.get("branche", ""), "feuilles": b.get("feuilles", [])} for b in f["branches"]]
+    elif t == "balance":
+        def cote(nom, poids):
+            if isinstance(nom, dict):
+                return {"titre": nom.get("titre") or nom.get("cote", ""), "poids": nom.get("poids", [])}
+            if isinstance(nom, list):
+                return {"titre": "", "poids": nom}
+            return {"titre": nom or "", "poids": poids or []}
+        el = f.get("elements")
+        if isinstance(el, list) and len(el) == 2 and all(isinstance(x, dict) and "cote" in x for x in el):
+            f["gauche"], f["droite"] = (cote(x.get("cote"), x.get("poids", [])) for x in el)
+
+        def num(c):
+            return [v for k, v in sorted(f.items()) if re.match(rf"poids_{c}_\d", k)]
+        if "gauche" not in f and isinstance(el, list) and el and all(isinstance(x, str) for x in el):
+            # liste plate : « GAUCHE — titre », poids…, « DROITE — titre », poids… ; sinon deux moitiés
+            idx = [i for i, x in enumerate(el) if re.match(r"(GAUCHE|DROITE)\s*[—:-]", x, re.I)]
+            if len(idx) == 2:
+                titre = lambda x: re.split(r"[—:-]", x, maxsplit=1)[1].strip()
+                f["gauche"] = {"titre": titre(el[idx[0]]), "poids": el[idx[0] + 1:idx[1]]}
+                f["droite"] = {"titre": titre(el[idx[1]]), "poids": el[idx[1] + 1:]}
+            else:
+                m = (len(el) + 1) // 2
+                f["gauche"], f["droite"] = {"titre": "", "poids": el[:m]}, {"titre": "", "poids": el[m:]}
+        if "gauche" not in f:
+            f["gauche"] = cote(f.get("cote_gauche"), f.get("poids_gauche") or num("gauche"))
+            f["droite"] = cote(f.get("cote_droit") or f.get("cote_droite"),
+                               f.get("poids_droit") or f.get("poids_droite") or num("droit"))
+    elif t == "courbe":
+        if f.get("annotations"):
+            f["elements"] = f["annotations"]
+    else:
+        f["elements"] = f.get("elements") or f.get("etapes") or f.get("niveaux") or []
+    if isinstance(f.get("elements"), list):
+        f["elements"] = [re.sub(r"^\d+[.)]\s*", "", x) if isinstance(x, str) else x if isinstance(x, dict) else str(x)
+                         for x in f["elements"]]  # « 1. Accepter » : le numéro est déjà dessiné
+    else:
+        f["elements"] = []
+    return f
+
+
 def dessiner(f, sortie, numero):
+    f = normaliser(f)
     fig, ax = plt.subplots(figsize=(8, 4.6), dpi=200)
     ax.set_xlim(0, 1)
     ax.set_ylim(0, 1)
@@ -149,10 +215,52 @@ def dessiner(f, sortie, numero):
     plt.close(fig)
 
 
+def emblème(plan, sortie):
+    """Schéma signature du livre : le rayon de l'intention traverse cinq milieux et se réfracte dans chacun."""
+    milieux = ["Clarté", "Gravité", "Tempo", "Lien", "Matière"]
+    couleurs = ["#e8eef5", "#f6ead6", "#e3ece6", "#efe4ee", "#ece6dc"]
+    fig, ax = plt.subplots(figsize=(8, 4.8), dpi=200)
+    ax.set_xlim(0, 1)
+    ax.set_ylim(0, 1)
+    ax.axis("off")
+    x0, larg = 0.12, 0.16
+    for k, (m, c) in enumerate(zip(milieux, couleurs)):
+        ax.add_patch(FancyBboxPatch((x0 + k * larg, 0.08), larg, 0.8, boxstyle="square,pad=0", fc=c, ec="white", lw=2))
+        ax.text(x0 + k * larg + larg / 2, 0.92, m, ha="center", fontsize=10.5, color=BLEU, weight="bold")
+    # trajectoire réfractée : la pente change à chaque milieu
+    pentes, pts = [0.9, 0.35, -0.4, 0.55, -0.15], [(0.03, 0.62), (x0, 0.62 - 0.0)]
+    y = 0.62
+    for k, p in enumerate(pentes):
+        y = y - p * larg * 0.9
+        pts.append((x0 + (k + 1) * larg, y))
+    pts.append((0.97, y - 0.02))
+    xs, ys = zip(*pts)
+    ax.plot(xs, ys, color=OCRE, lw=3.2, solid_capstyle="round")
+    ax.plot([0.03, 0.97], [0.62, 0.62], color=GRIS, lw=1.2, ls=(0, (4, 4)))
+    ax.text(0.03, 0.66, "Intention", fontsize=10, color=ENCRE, weight="bold")
+    ax.text(0.97, ys[-1] - 0.07, "Acte", fontsize=10, color=ENCRE, weight="bold", ha="right")
+    ax.text(0.97, 0.655, "trajectoire sans réfraction", fontsize=8, color=GRIS, ha="right")
+    fig.suptitle(f"Figure 0 — {plan['cadre']['nom']} : l'intention traverse cinq milieux",
+                 fontsize=11.5, color=BLEU, weight="bold", y=0.99)
+    fig.savefig(sortie, bbox_inches="tight", facecolor="white")
+    plt.close(fig)
+
+
 def main():
     plan, dossier = json.loads(Path(sys.argv[1]).read_text(encoding="utf-8")), Path(sys.argv[2])
     (ICI / "figures").mkdir(exist_ok=True)
     faites = 0
+    intro = dossier / "00_introduction.md"
+    if plan.get("cadre", {}).get("nom") and intro.exists():
+        png = ICI / "figures" / "cadre.png"
+        emblème(plan, png)
+        t = intro.read_text(encoding="utf-8")
+        if f"]({png})" not in t:
+            ligne = f"![Figure 0 — {plan['cadre']['nom']} : le cadre de ce livre]({png})"
+            pos = [m.start() for m in re.finditer(r"^## ", t, re.M)]
+            t = t[:pos[1]] + ligne + "\n\n" + t[pos[1]:] if len(pos) > 1 else t + "\n\n" + ligne + "\n"
+            intro.write_text(t, encoding="utf-8")
+            faites += 1
     for p in plan["parties"]:
         for c in p["chapitres"]:
             n, f = int(c["numero"]), c.get("figure")

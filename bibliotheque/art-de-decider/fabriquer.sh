@@ -19,7 +19,7 @@ python3 figures.py plan.json chapitres_v2
 NOM=$(python3 -c "
 import json,re,unicodedata;t=json.load(open('plan.json'))['titre']
 t=unicodedata.normalize('NFKD',t).encode('ascii','ignore').decode();print(re.sub(r'[^A-Za-z0-9]+','-',t).strip('-'))")-Oussama-Ghorbel
-python3 $O/mise_en_page.py plan.json chapitres_v2 "$NOM.pdf" --corps 11.3 --collection "Livre de référence · Première édition" > pdf.log 2>&1
+python3 $O/mise_en_page.py plan.json chapitres_v2 "$NOM.pdf" --corps 11.3 --collection "Livre de référence" > pdf.log 2>&1
 python3 $O/md2docx.py plan.json chapitres_v2 "$NOM.docx"
 python3 - "$NOM" <<'PY'
 import json,glob,re,sys
