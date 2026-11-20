@@ -3,94 +3,92 @@
   "rang": 481,
   "lemme": "возвращаться",
   "mot": "возвраща́ться",
-  "api": "[vəzvrɐˈɕːat͡sə]",
+  "api": "[vəzvɐˈɕːat͡sːə]",
   "niveau": "A2",
-  "aspect": "imperfectif",
-  "paire": "верну́ться",
+  "aspect": {
+   "type": "imperfectif",
+   "paire": "верну́ться"
+  },
   "sens": [
    {
-    "sens": "Revenir à un point de départ ou chez soi",
+    "sens": "revenir à un lieu",
     "equivalents": [
-     "rentrer",
      "revenir",
-     "retourner"
+     "retourner",
+     "rentrer"
     ],
     "exemples": [
      {
-      "ru": "Он возвраща́ется домо́й поз́дно ве́чером.",
-      "fr": "Il rentre chez lui tard le soir."
+      "ru": "Он возвраща́ется домо́й по́сле рабо́ты.",
+      "fr": "Il rentre à la maison après le travail."
      },
      {
-      "ru": "Мы возвраща́емся из о́тпуска в понеде́льник.",
-      "fr": "Nous rentrons de vacances lundi."
+      "ru": "Мы возвраща́емся из отпу́ска за́втра.",
+      "fr": "Nous revenons de vacances demain."
      }
     ]
    },
    {
-    "sens": "Retrouver un état antérieur (abstrait)",
+    "sens": "reprendre une activité, un état",
     "equivalents": [
-     "retrouver",
-     "recouvrer",
+     "reprendre",
      "revenir à"
     ],
     "exemples": [
      {
-      "ru": "К нему́ возвраща́ются си́лы по́сле боле́зни.",
-      "fr": "Il retrouve ses forces après la maladie."
+      "ru": "Она́ возвраща́ется к уче́бе по́сле кани́кул.",
+      "fr": "Elle reprend les études après les vacances."
      },
      {
-      "ru": "Эта те́ма постоя́нно возвраща́ется в на́ших разгово́рах.",
-      "fr": "Ce sujet revient constamment dans nos conversations."
+      "ru": "Больно́й возвраща́ется к жи́зни.",
+      "fr": "Le malade revient à la vie."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "приезжа́ть",
-    "nuance": "Spécifique au retour en véhicule"
+    "mot": "возврати́ться",
+    "nuance": "plus formel, perfectif"
    },
    {
-    "mot": "идти́ обра́тно",
-    "nuance": "Retour à pied, plus descriptif"
+    "mot": "приходи́ть",
+    "nuance": "venir à pied"
    }
   ],
   "antonymes": [
-   "уезжа́ть",
-   "уходи́ть"
+   "уходи́ть",
+   "уезжа́ть"
   ],
   "formes": {
-   "present": [
-    "возвраща́юсь",
-    "возвраща́ешься",
-    "возвраща́ется",
-    "возвраща́емся",
-    "возвраща́етесь",
-    "возвраща́ются"
-   ],
-   "passe": [
-    "возвраща́лся",
-    "возвраща́лась",
-    "возвраща́лось",
-    "возвраща́лись"
-   ],
-   "imperatif": [
-    "возвраща́йся",
-    "возвраща́йтесь"
-   ]
+   "present": {
+    "je": "возвраща́юсь",
+    "tu": "возвраща́ешься",
+    "il": "возвраща́ется",
+    "nous": "возвраща́емся",
+    "vous": "возвраща́етесь",
+    "ils": "возвраща́ются"
+   },
+   "passe": {
+    "m": "возвраща́лся",
+    "f": "возвраща́лась",
+    "n": "возвраща́лось",
+    "pl": "возвраща́лись"
+   },
+   "imperatif": {
+    "tu": "возвраща́йся",
+    "vous": "возвраща́йтесь"
+   }
   },
   "pieges": [
-   "Ne pas confondre avec вернуться (perfectif) : возвращаться décrit le processus ou la répétition, не « l'aboutissement ».",
-   "L'accent est fixe sur le а radical à toutes les formes conjuguées, mais attention au participe passé возврати́вшийся (rare)."
+   "Accent mobile : l'accent reste sur le radical au présent mais peut varier dans les formes dérivées",
+   "Ne pas confondre avec возврати́ться (perfectif) qui s'utilise pour une action ponctuelle",
+   "Régime : возвраща́ться + куда́ (direction) ou возвраща́ться откуда́ (provenance)"
   ],
   "expressions": [
    {
-    "ru": "возвраща́ться к жи́зни",
-    "fr": "revenir à la vie / se rétablir"
-   },
-   {
-    "ru": "возвраща́ться на кру́ги своя́",
-    "fr": "retourner à la case départ"
+    "ru": "возвраща́ться к те́ме",
+    "fr": "revenir au sujet"
    }
   ],
   "famille": [
@@ -103,8 +101,8 @@
     "fr": "retour (nom)"
    },
    {
-    "mot": "возвра́тный",
-    "fr": "de retour (adj.)"
+    "mot": "возврат",
+    "fr": "restitution, remboursement"
    }
   ],
   "nature": "verbe",
@@ -115,12 +113,12 @@
  {
   "rang": 482,
   "lemme": "сначала",
-  "mot": "снача́ла",
-  "api": "[snɐˈt͡ɕaɫə]",
+  "mot": "сна́чала",
+  "api": "[ˈsnat͡ɕɪlə]",
   "niveau": "A2",
   "sens": [
    {
-    "sens": "Au début, en premier lieu (ordre chronologique)",
+    "sens": "en premier lieu, au début",
     "equivalents": [
      "d'abord",
      "premièrement",
@@ -128,57 +126,57 @@
     ],
     "exemples": [
      {
-      "ru": "Снача́ла ну́жно прочита́ть инструкцию.",
-      "fr": "D'abord, il faut lire les instructions."
+      "ru": "Сна́чала ну́жно подгото́вить докуме́нты.",
+      "fr": "D'abord, il faut préparer les documents."
      },
      {
-      "ru": "Снача́ла он молча́л, а пото́м заговори́л.",
-      "fr": "Au début il se taisait, puis il s'est mis à parler."
+      "ru": "Сна́чала я жил в Москве́, пото́м перее́хал.",
+      "fr": "Au début, j'habitais à Moscou, puis j'ai déménagé."
      }
     ]
    },
    {
-    "sens": "De nouveau, depuis le commencement",
+    "sens": "depuis le commencement",
     "equivalents": [
      "depuis le début",
-     "à zéro",
-     "anew"
+     "depuis toujours"
     ],
     "exemples": [
      {
-      "ru": "Придётся начина́ть всё снача́ла.",
-      "fr": "Il va falloir tout recommencer depuis le début."
+      "ru": "Я знал э́то сна́чала.",
+      "fr": "Je le savais depuis le début."
      },
      {
-      "ru": "Я написа́л письмо́ снача́ла, потому что сде́лал оши́бку.",
-      "fr": "J'ai réécrit la lettre depuis le début car j'avais fait une erreur."
+      "ru": "Начни́ сна́чала.",
+      "fr": "Commence depuis le début."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "сперва́",
-    "nuance": "Synonyme exact, registre légèrement plus oral"
+    "mot": "внача́ле",
+    "nuance": "plus littéraire, 'au commencement'"
    },
    {
-    "mot": "пре́жде всего́",
-    "nuance": "Avant tout, insistance sur la priorité logique"
+    "mot": "пе́рвым де́лом",
+    "nuance": "familier, 'en premier lieu'"
    }
   ],
   "antonymes": [
-   "потом",
+   "пото́м",
    "зате́м"
   ],
   "formes": {},
   "pieges": [
-   "Ne pas confondre с начала (prép. + génitif = « depuis le début de... ») et сначала (adverbe unique). L'adverbe s'écrit toujours attaché.",
-   "L'accent tombe toujours sur le deuxième а : снача́ла. Une prononciation *сна́чала est incorrecte."
+   "Ne pas confondre avec внача́ле (préposition + prépositionnel) qui signifie 'au début de'",
+   "Accent fixe sur la première syllabe",
+   "S'utilise souvent en corrélation avec пото́м (ensuite)"
   ],
   "expressions": [
    {
-    "ru": "снача́ла до конца́",
-    "fr": "du début à la fin"
+    "ru": "сна́чала... пото́м...",
+    "fr": "d'abord... ensuite..."
    }
   ],
   "famille": [
@@ -187,17 +185,13 @@
     "fr": "début, commencement"
    },
    {
-    "mot": "нача́льный",
-    "fr": "initial, primaire"
-   },
-   {
-    "mot": "начина́ть",
-    "fr": "commencer (impf.)"
+    "mot": "нача́ть",
+    "fr": "commencer"
    }
   ],
   "nature": "adverbe",
   "frequence": 30957,
-  "translit": "snatchAla",
+  "translit": "snAtchala",
   "controle": []
  },
  {
@@ -206,11 +200,13 @@
   "mot": "спра́шивать",
   "api": "[ˈspraʂɨvətʲ]",
   "niveau": "A1",
-  "aspect": "imperfectif",
-  "paire": "спроси́ть",
+  "aspect": {
+   "type": "imperfectif",
+   "paire": "спроси́ть"
+  },
   "sens": [
    {
-    "sens": "Poser une question à quelqu'un",
+    "sens": "poser une question",
     "equivalents": [
      "demander",
      "interroger",
@@ -218,29 +214,29 @@
     ],
     "exemples": [
      {
-      "ru": "Учи́тель спра́шивает ученико́в у уро́ка.",
-      "fr": "Le professeur interroge les élèves pendant le cours."
+      "ru": "Я спра́шиваю у него́ доро́гу.",
+      "fr": "Je lui demande le chemin."
      },
      {
-      "ru": "Она́ ча́сто спра́шивает меня́ о жи́зни в Росси́и.",
-      "fr": "Elle me demande souvent comment est la vie en Russie."
+      "ru": "Учи́тель спра́шивает ученико́в.",
+      "fr": "Le professeur interroge les élèves."
      }
     ]
    },
    {
-    "sens": "Demander quelque chose (un objet, un service)",
+    "sens": "demander quelque chose",
     "equivalents": [
      "demander",
      "réclamer"
     ],
     "exemples": [
      {
-      "ru": "Ребёнок спра́шивает конфету.",
-      "fr": "L'enfant demande un bonbon."
+      "ru": "Она́ спра́шивает разреше́ния.",
+      "fr": "Elle demande la permission."
      },
      {
-      "ru": "Не спра́шивай у него́ де́нег.",
-      "fr": "Ne lui demande pas d'argent."
+      "ru": "Он спра́шивает сове́та.",
+      "fr": "Il demande conseil."
      }
     ]
    }
@@ -248,48 +244,49 @@
   "synonymes": [
    {
     "mot": "задава́ть вопро́с",
-    "nuance": "Expression figée, plus formelle"
+    "nuance": "plus formel, 'poser une question'"
    },
    {
-    "mot": "интересова́ться",
-    "nuance": "S'intéresser à, demander par curiosité (+ instr.)"
+    "mot": "осве́домляться",
+    "nuance": "s'informer, plus formel"
    }
   ],
   "antonymes": [
    "отвеча́ть"
   ],
   "formes": {
-   "present": [
-    "спра́шиваю",
-    "спра́шиваешь",
-    "спра́шивает",
-    "спра́шиваем",
-    "спра́шиваете",
-    "спра́шивают"
-   ],
-   "passe": [
-    "спра́шивал",
-    "спра́шивала",
-    "спра́шивало",
-    "спра́шивали"
-   ],
-   "imperatif": [
-    "спра́шивай",
-    "спра́шивайте"
-   ]
+   "present": {
+    "je": "спра́шиваю",
+    "tu": "спра́шиваешь",
+    "il": "спра́шивает",
+    "nous": "спра́шиваем",
+    "vous": "спра́шиваете",
+    "ils": "спра́шивают"
+   },
+   "passe": {
+    "m": "спра́шивал",
+    "f": "спра́шивала",
+    "n": "спра́шивало",
+    "pl": "спра́шивали"
+   },
+   "imperatif": {
+    "tu": "спра́шивай",
+    "vous": "спра́шивайте"
+   }
   },
   "pieges": [
-   "Régime : спрашивать кого? о чём? (accusatif pour la personne, prépositionnel pour le sujet). Ne jamais dire *спрашивать про что dans un contexte standard.",
-   "Attention à l'alternance consonantique : спросить (pf) → спрашивать (impf). Le radical change de -прос- à -праш-."
+   "Régime : спра́шивать + у кого́ (personne) + что/о чём (chose)",
+   "Ne pas confondre avec спроси́ть (perfectif) pour une action ponctuelle",
+   "La construction 'спра́шивать доро́гу' signifie 'demander son chemin'"
   ],
   "expressions": [
    {
-    "ru": "спра́шивать разре́шения",
-    "fr": "demander la permission"
+    "ru": "спра́шивать доро́гу",
+    "fr": "demander son chemin"
    },
    {
-    "ru": "стро́го спра́шивать",
-    "fr": "exiger des comptes / être sévère"
+    "ru": "спра́шивать сове́та",
+    "fr": "demander conseil"
    }
   ],
   "famille": [
@@ -302,8 +299,8 @@
     "fr": "question"
    },
    {
-    "mot": "спро́сный",
-    "fr": "demandé (adj., rare)"
+    "mot": "спро́с",
+    "fr": "demande (économique)"
    }
   ],
   "nature": "verbe",
@@ -316,51 +313,50 @@
   "lemme": "секунда",
   "mot": "секу́нда",
   "api": "[sʲɪˈkundə]",
-  "niveau": "A2",
+  "niveau": "A1",
   "sens": [
    {
-    "sens": "Unité de temps (1/60 de minute)",
+    "sens": "unité de temps",
     "equivalents": [
      "seconde"
     ],
     "exemples": [
      {
-      "ru": "Подожди́ мину́ту, то́лько одну секу́нду!",
-      "fr": "Attends une minute, juste une seconde !"
+      "ru": "Подожди́ мину́ту, то́лько секу́нду.",
+      "fr": "Attends une minute, juste une seconde."
      },
      {
-      "ru": "Он пробежа́л сто ме́тров за де́сять се́кунд.",
+      "ru": "Он пробежа́л сто ме́тров за де́сять секу́нд.",
       "fr": "Il a couru cent mètres en dix secondes."
      }
     ]
    },
    {
-    "sens": "Instant très court, moment",
+    "sens": "moment très court",
     "equivalents": [
      "instant",
-     "moment",
-     "brève"
+     "seconde"
     ],
     "exemples": [
      {
-      "ru": "На секунду я забы́л его́ и́мя.",
-      "fr": "Pendant un instant, j'ai oublié son nom."
+      "ru": "Э́то случи́лось в одну́ секу́нду.",
+      "fr": "Cela s'est passé en une seconde."
      },
      {
-      "ru": "Ка́ждую секунду может случи́ться несчастье.",
-      "fr": "À chaque instant, un malheur peut arriver."
+      "ru": "Ни секу́нды не сомнева́юсь.",
+      "fr": "Je ne doute pas une seconde."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "миг",
-    "nuance": "Poétique ou littéraire pour « instant »"
+    "mot": "мгнове́ние",
+    "nuance": "plus littéraire, 'instant'"
    },
    {
-    "mot": "мгнове́ние",
-    "nuance": "Instant bref, registre soutenu"
+    "mot": "ми́г",
+    "nuance": "poétique, 'moment bref'"
    }
   ],
   "antonymes": [],
@@ -373,7 +369,7 @@
      "datif": "секу́нде",
      "accusatif": "секу́нду",
      "instrumental": "секу́ндой",
-     "prepositionnel": "о секу́нде"
+     "prepositionnel": "секу́нде"
     },
     "pluriel": {
      "nominatif": "секу́нды",
@@ -381,32 +377,33 @@
      "datif": "секу́ндам",
      "accusatif": "секу́нды",
      "instrumental": "секу́ндами",
-     "prepositionnel": "о секу́ндах"
+     "prepositionnel": "секу́ндах"
     }
    }
   },
   "pieges": [
-   "Au génitif pluriel, la forme est zero-ending : секунд (pas *секундов). C'est une difficulté fréquente pour les francophones.",
-   "Faux ami potentiel : en russe, секунда ne désigne jamais un assistant militaire ou administratif (ce sens correspond à adjutant ou помощник)."
+   "Accent mobile au pluriel : се́кунды (nom. pl.) mais секу́нд (gén. pl.)",
+   "Après les nombres : 2-4 се́кунды, 5+ секу́нд (génitif pluriel)",
+   "Ne pas confondre avec le sens figuré 'un instant' dans les expressions courantes"
   ],
   "expressions": [
    {
-    "ru": "в ту же секунду",
-    "fr": "à l'instant même / aussitôt"
+    "ru": "ни (на) секу́нду",
+    "fr": "pas une seconde"
    },
    {
-    "ru": "ни на секунду",
-    "fr": "pas un seul instant"
+    "ru": "в ту же секу́нду",
+    "fr": "à l'instant même"
    }
   ],
   "famille": [
    {
-    "mot": "секу́ндный",
-    "fr": "secondaire (adj., relatif à la seconde)"
+    "mot": "мину́та",
+    "fr": "minute"
    },
    {
-    "mot": "секундомер",
-    "fr": "chronomètre"
+    "mot": "час",
+    "fr": "heure"
    }
   ],
   "nature": "nom",
@@ -418,13 +415,15 @@
   "rang": 485,
   "lemme": "уехать",
   "mot": "уе́хать",
-  "api": "[ʊˈjexətʲ]",
+  "api": "[ˈujexətʲ]",
   "niveau": "A2",
-  "aspect": "perfectif",
-  "paire": "уезжа́ть",
+  "aspect": {
+   "type": "perfectif",
+   "paire": "уезжа́ть"
+  },
   "sens": [
    {
-    "sens": "Partir en véhicule vers un autre lieu",
+    "sens": "partir en véhicule",
     "equivalents": [
      "partir",
      "s'en aller",
@@ -432,30 +431,29 @@
     ],
     "exemples": [
      {
-      "ru": "Он уе́хал в Москву́ на маши́не.",
-      "fr": "Il est parti à Moscou en voiture."
+      "ru": "Он уе́хал в командиро́вку на неде́лю.",
+      "fr": "Il est parti en mission pour une semaine."
      },
      {
-      "ru": "По́езд уже́ уе́хал, мы опозда́ли.",
-      "fr": "Le train est déjà parti, nous sommes en retard."
+      "ru": "Мы уе́хали из го́рода на маши́не.",
+      "fr": "Nous avons quitté la ville en voiture."
      }
     ]
    },
    {
-    "sens": "Quitter définitivement ou pour longtemps",
+    "sens": "déménager, quitter définitivement",
     "equivalents": [
-     "émigrer",
-     "déménager",
-     "partir loin"
+     "partir",
+     "émigrer"
     ],
     "exemples": [
      {
-      "ru": "Многи́е друзья́ уе́хали за грани́цу.",
-      "fr": "Beaucoup d'amis sont partis à l'étranger."
+      "ru": "Они́ уе́хали жить за грани́цу.",
+      "fr": "Ils sont partis vivre à l'étranger."
      },
      {
-      "ru": "Она́ уе́хала из дере́вни в го́род навсегда́.",
-      "fr": "Elle a quitté le village pour la ville pour toujours."
+      "ru": "Мой друг уе́хал в Аме́рику навсегда́.",
+      "fr": "Mon ami est parti en Amérique pour toujours."
      }
     ]
    }
@@ -463,45 +461,46 @@
   "synonymes": [
    {
     "mot": "отпра́виться",
-    "nuance": "Se mettre en route, plus formel"
+    "nuance": "se mettre en route, plus formel"
    },
    {
-    "mot": "поки́нуть",
-    "nuance": "Quitter un lieu (transitif direct), registre soutenu"
+    "mot": "вы́ехать",
+    "nuance": "sortir (d'un lieu) en véhicule"
    }
   ],
   "antonymes": [
    "прие́хать",
-   "оста́ться"
+   "верну́ться"
   ],
   "formes": {
-   "present": [
-    "уе́ду",
-    "уе́дешь",
-    "уе́дет",
-    "уе́дем",
-    "уе́дете",
-    "уе́дут"
-   ],
-   "passe": [
-    "уе́хал",
-    "уе́хала",
-    "уе́хало",
-    "уе́хали"
-   ],
-   "imperatif": [
-    "уе́зжай",
-    "уе́зжайте"
-   ]
+   "present": {
+    "je": "уе́ду",
+    "tu": "уе́дешь",
+    "il": "уе́дет",
+    "nous": "уе́дем",
+    "vous": "уе́дете",
+    "ils": "уе́дут"
+   },
+   "passe": {
+    "m": "уе́хал",
+    "f": "уе́хала",
+    "n": "уе́хало",
+    "pl": "уе́хали"
+   },
+   "imperatif": {
+    "tu": "уе́зжай",
+    "vous": "уе́зжайте"
+   }
   },
   "pieges": [
-   "Conjugaison irrégulière au futur : уеду, уедешь (et non *уехаю). L'impératif est уезжай (base imperfective).",
-   "Уехать implique obligatoirement un moyen de transport. Pour partir à pied, utiliser уйти́."
+   "Verbe perfectif : le 'présent' est en fait le futur",
+   "Régime : уе́хать + куда́ (direction) ou уе́хать откуда́ (provenance)",
+   "Impératif irrégulier : уе́зжай (et non *уе́хай)"
   ],
   "expressions": [
    {
-    "ru": "уе́хать с глаз доло́й",
-    "fr": "disparaître de la vue / partir loin"
+    "ru": "уе́хать далеко́",
+    "fr": "partir loin"
    }
   ],
   "famille": [
@@ -511,11 +510,11 @@
    },
    {
     "mot": "е́хать",
-    "fr": "aller (en véhicule, impf.)"
+    "fr": "aller (en véhicule)"
    },
    {
-    "mot": "пое́здка",
-    "fr": "voyage, trajet"
+    "mot": "пое́хать",
+    "fr": "partir (en véhicule, perfectif)"
    }
   ],
   "nature": "verbe",
@@ -526,78 +525,110 @@
  {
   "rang": 486,
   "lemme": "близкий",
-  "mot": "бли́же",
-  "api": "[ˈblʲiʐɨ]",
-  "niveau": "B1",
+  "mot": "бли́зкий",
+  "api": "[ˈblʲiskʲɪj]",
+  "niveau": "A2",
   "sens": [
    {
-    "sens": "Plus proche dans l'espace",
+    "sens": "proche dans l'espace",
     "equivalents": [
-     "plus près",
-     "plus proche"
+     "proche",
+     "voisin"
     ],
     "exemples": [
      {
-      "ru": "Подойди́ побли́же, я тебя́ плохо́ ви́жу.",
-      "fr": "Approche-toi plus près, je te vois mal."
+      "ru": "Бли́зкий магазин нахо́дится за углом.",
+      "fr": "Le magasin proche se trouve au coin."
      },
      {
-      "ru": "Но́вый офис бли́же к метро́.",
-      "fr": "Le nouveau bureau est plus proche du métro."
+      "ru": "Мы живём в бли́зком райо́не.",
+      "fr": "Nous habitons dans un quartier proche."
      }
     ]
    },
    {
-    "sens": "Plus intime ou cher émotionnellement",
+    "sens": "proche dans le temps",
     "equivalents": [
-     "plus proche",
-     "plus cher"
+     "prochain",
+     "proche"
     ],
     "exemples": [
      {
-      "ru": "Со вре́менем они́ ста́ли друг дру́гу ещё бли́же.",
-      "fr": "Avec le temps, ils sont devenus encore plus proches l'un de l'autre."
+      "ru": "В бли́зком бу́дущем мы пое́дем в о́тпуск.",
+      "fr": "Dans un avenir proche, nous partirons en vacances."
      },
      {
-      "ru": "Этот рома́н мне бли́же по ду́ху.",
-      "fr": "Ce roman m'est plus proche spirituellement."
+      "ru": "Бли́зкая встре́ча меня́ ра́дует.",
+      "fr": "La rencontre prochaine me réjouit."
+     }
+    ]
+   },
+   {
+    "sens": "intime, cher (personne)",
+    "equivalents": [
+     "proche",
+     "intime",
+     "cher"
+    ],
+    "exemples": [
+     {
+      "ru": "Мои́ бли́зкие друзья́ прие́хали в го́сти.",
+      "fr": "Mes amis proches sont venus en visite."
+     },
+     {
+      "ru": "Она́ — мой бли́зкий челове́к.",
+      "fr": "Elle est une personne qui m'est chère."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "бо́лее близки́й",
-    "nuance": "Forme analytique, insiste sur la comparaison explicite"
+    "mot": "бли́жний",
+    "nuance": "plus concret, 'le plus proche'"
    },
    {
-    "mot": "родне́е",
-    "nuance": "Plus parent/proche par le sang ou l'affection profonde"
+    "mot": "родно́й",
+    "nuance": "familial, 'natif, cher'"
    }
   ],
   "antonymes": [
-   "да́льше",
-   "чужда́я"
+   "далёкий",
+   "далёкий"
   ],
-  "formes": {},
+  "formes": {
+   "nominatif": {
+    "m": "бли́зкий",
+    "f": "бли́зкая",
+    "n": "бли́зкое",
+    "pl": "бли́зкие"
+   },
+   "forme_courte": {
+    "m": "бли́зок",
+    "f": "бли́зка",
+    "n": "бли́зко",
+    "pl": "бли́зки"
+   }
+  },
   "pieges": [
-   "Ближе est le comparatif synthétique de близкий. Il est invariable et s'emploie comme adverbe ou adjectif prédicatif. Ne pas décliner *ближего.",
-   "Ne pas confondre avec близко (adverbe positif « près »). Ближе indique toujours une comparaison."
+   "Ne pas confondre бли́зкий (proche en général) avec бли́жний (le plus proche, concret)",
+   "Forme courte : бли́зок (et non *бли́зкий) au masculin",
+   "Au sens figuré 'personne proche', s'utilise souvent au pluriel : бли́зкие (les proches)"
   ],
   "expressions": [
    {
-    "ru": "бли́же к де́лу",
-    "fr": "plus concrètement / venons-en aux faits"
+    "ru": "бли́зкие лю́ди",
+    "fr": "les proches, la famille"
    },
    {
-    "ru": "держи́сь бли́же",
-    "fr": "reste près / tiens-toi à proximité"
+    "ru": "бли́зкий друг",
+    "fr": "ami proche"
    }
   ],
   "famille": [
    {
-    "mot": "бли́зкий",
-    "fr": "proche (positif)"
+    "mot": "бли́же",
+    "fr": "plus près (comparatif)"
    },
    {
     "mot": "бли́зость",
@@ -605,15 +636,13 @@
    },
    {
     "mot": "приближа́ться",
-    "fr": "s'approcher (impf.)"
+    "fr": "s'approcher"
    }
   ],
   "nature": "comparatif",
   "frequence": 30763,
-  "translit": "blIje",
-  "controle": [
-   "mot différent de la forme de base"
-  ]
+  "translit": "blIzkiï",
+  "controle": []
  },
  {
   "rang": 487,
@@ -621,41 +650,25 @@
   "mot": "уви́деться",
   "api": "[ʊˈvʲidʲɪt͡sə]",
   "niveau": "A2",
-  "aspect": "perfectif",
-  "paire": "ви́деться",
+  "aspect": {
+   "type": "perfectif",
+   "paire": "ви́деться"
+  },
   "sens": [
    {
-    "sens": "Se rencontrer, se voir mutuellement",
+    "sens": "se voir, se rencontrer",
     "equivalents": [
      "se voir",
-     "se rencontrer",
-     "se retrouver"
+     "se rencontrer"
     ],
     "exemples": [
      {
-      "ru": "Мы уви́димся за́втра утре́ном.",
-      "fr": "Nous nous verrons demain matin."
+      "ru": "Мы уви́димся за́втра.",
+      "fr": "Nous nous verrons demain."
      },
      {
-      "ru": "Как прия́тно бы́ло уви́деться со стары́ми друзья́ми!",
-      "fr": "C'était si agréable de revoir de vieux amis !"
-     }
-    ]
-   },
-   {
-    "sens": "Avoir l'occasion de voir (qqn) après une attente",
-    "equivalents": [
-     "apercevoir",
-     "revoir"
-    ],
-    "exemples": [
-     {
-      "ru": "Наконе́ц-то я уви́делся с роди́телями.",
-      "fr": "J'ai enfin pu voir mes parents."
-     },
-     {
-      "ru": "Они́ не могли́ уви́деться це́лый год.",
-      "fr": "Ils n'ont pas pu se voir pendant toute une année."
+      "ru": "Давно́ не уви́димся!",
+      "fr": "Ça fait longtemps qu'on ne s'est pas vus !"
      }
     ]
    }
@@ -663,58 +676,57 @@
   "synonymes": [
    {
     "mot": "встре́титься",
-    "nuance": "Se rencontrer (peut être fortuit ou prévu)"
+    "nuance": "se rencontrer (plus général)"
    },
    {
     "mot": "повида́ться",
-    "nuance": "Voir qqn brièvement ou rendre visite, registre courant"
+    "nuance": "se voir (familier)"
    }
   ],
-  "antonymes": [
-   "размину́ться"
-  ],
+  "antonymes": [],
   "formes": {
-   "present": [
-    "уви́жусь",
-    "уви́дишься",
-    "уви́дится",
-    "уви́димся",
-    "уви́дитесь",
-    "уви́дятся"
-   ],
-   "passe": [
-    "уви́делся",
-    "уви́делась",
-    "уви́делось",
-    "уви́делись"
-   ],
-   "imperatif": [
-    "уви́дься",
-    "уви́дьтесь"
-   ]
+   "present": {
+    "je": "уви́жусь",
+    "tu": "уви́дишься",
+    "il": "уви́дится",
+    "nous": "уви́димся",
+    "vous": "уви́дитесь",
+    "ils": "уви́дятся"
+   },
+   "passe": {
+    "m": "уви́делся",
+    "f": "уви́делась",
+    "n": "уви́делось",
+    "pl": "уви́делись"
+   },
+   "imperatif": {
+    "tu": "уви́димся",
+    "vous": "уви́димтесь"
+   }
   },
   "pieges": [
-   "Conjugaison réflexive irrégulière : увижусь (1re pers.) mais увидишься (2e pers.). Alternance д/ж typique des verbes en -деть.",
-   "Ne pas confondre увидеть (transitif : voir qqch) et увидеться (réciproque : se voir). Увидеться exige toujours un partenaire implicite ou explicite."
+   "Verbe perfectif : le 'présent' est en fait le futur",
+   "Conjugaison irrégulière : уви́жусь (et non *уви́дюсь)",
+   "S'utilise uniquement pour des rencontres entre personnes"
   ],
   "expressions": [
    {
-    "ru": "до ско́рого! (подразумева́ется: уви́димся)",
-    "fr": "à bientôt ! (sous-entendu : on se verra)"
+    "ru": "До уви́дения!",
+    "fr": "À bientôt ! (familier)"
    }
   ],
   "famille": [
    {
-    "mot": "ви́деть",
-    "fr": "voir (impf.)"
+    "mot": "ви́деться",
+    "fr": "se voir (imperfectif)"
    },
    {
     "mot": "уви́деть",
-    "fr": "voir, apercevoir (pf)"
+    "fr": "voir (perfectif)"
    },
    {
-    "mot": "ви́дение",
-    "fr": "vision, apparition"
+    "mot": "ви́деть",
+    "fr": "voir (imperfectif)"
    }
   ],
   "nature": "verbe",
@@ -726,17 +738,19 @@
   "rang": 488,
   "lemme": "полагать",
   "mot": "полага́ть",
-  "api": "[pəɫɐˈɡatʲ]",
+  "api": "[pɐlɐˈɡatʲ]",
   "niveau": "B1",
-  "aspect": "imperfectif",
-  "paire": "положи́ть",
+  "aspect": {
+   "type": "imperfectif",
+   "paire": "положи́ть"
+  },
   "sens": [
    {
-    "sens": "Considérer, estimer, penser que",
+    "sens": "supposer, penser",
     "equivalents": [
      "supposer",
-     "croire",
-     "estimer"
+     "penser",
+     "considérer"
     ],
     "exemples": [
      {
@@ -744,26 +758,26 @@
       "fr": "Je suppose qu'il a raison."
      },
      {
-      "ru": "Как вы полага́ете, когда́ лу́чше нача́ть?",
-      "fr": "À votre avis, quand vaut-il mieux commencer ?"
+      "ru": "Мы полага́ем, что э́то возмо́жно.",
+      "fr": "Nous considérons que c'est possible."
      }
     ]
    },
    {
-    "sens": "Établir, fixer (une règle, une limite)",
+    "sens": "établir, fixer",
     "equivalents": [
      "établir",
      "fixer",
-     "instaurer"
+     "déterminer"
     ],
     "exemples": [
      {
-      "ru": "Зако́н полага́ет стро́гие нака́зания.",
-      "fr": "La loi établit des punitions sévères."
+      "ru": "Зако́н полага́ет ограниче́ния.",
+      "fr": "La loi établit des restrictions."
      },
      {
-      "ru": "Тради́ция полага́ет определённый поря́док.",
-      "fr": "La tradition instaure un ordre déterminé."
+      "ru": "Нача́льник полага́ет но́вые пра́вила.",
+      "fr": "Le chef établit de nouvelles règles."
      }
     ]
    }
@@ -771,67 +785,61 @@
   "synonymes": [
    {
     "mot": "счита́ть",
-    "nuance": "Plus courant pour « penser/estimer », neutre"
+    "nuance": "plus courant, 'penser, considérer'"
    },
    {
     "mot": "предполага́ть",
-    "nuance": "Supposer avec incertitude, hypothèse"
-   },
-   {
-    "mot": "уста́навливать",
-    "nuance": "Fixer officiellement (pour le sens 2)"
+    "nuance": "supposer avec plus d'incertitude"
    }
   ],
-  "antonymes": [
-   "сомнева́ться",
-   "отменя́ть"
-  ],
+  "antonymes": [],
   "formes": {
-   "present": [
-    "полага́ю",
-    "полага́ешь",
-    "полага́ет",
-    "полага́ем",
-    "полага́ете",
-    "полага́ют"
-   ],
-   "passe": [
-    "полага́л",
-    "полага́ла",
-    "полага́ло",
-    "полага́ли"
-   ],
-   "imperatif": [
-    "полага́й",
-    "полага́йте"
-   ]
+   "present": {
+    "je": "полага́ю",
+    "tu": "полага́ешь",
+    "il": "полага́ет",
+    "nous": "полага́ем",
+    "vous": "полага́ете",
+    "ils": "полага́ют"
+   },
+   "passe": {
+    "m": "полага́л",
+    "f": "полага́ла",
+    "n": "полага́ло",
+    "pl": "полага́ли"
+   },
+   "imperatif": {
+    "tu": "полага́й",
+    "vous": "полага́йте"
+   }
   },
   "pieges": [
-   "Faux ami partiel : полагать ≠ « poser » physiquement (utiliser класть/положить). Полагать est abstrait (opinion, règle).",
-   "Registre : ce verbe appartient au style soutenu ou administratif. À l'oral courant, préférer считать ou думать."
+   "Ne pas confondre avec положи́ть (poser, mettre) qui a un sens différent malgré la même paire aspectuelle",
+   "Régime : полага́ть + что (supposer que) ou полага́ть + на кого́-что (compter sur)",
+   "Usage formel : dans le langage courant, on préfère счита́ть ou ду́мать"
   ],
   "expressions": [
    {
-    "ru": "как полага́ется",
-    "fr": "comme il se doit / convenablement"
+    "ru": "полага́ться на кого́-что",
+    "fr": "compter sur, se fier à"
    },
    {
-    "ru": "полага́ть наде́жду на кого́-то",
-    "fr": "placer son espoir en quelqu'un"
+    "ru": "как полага́ется",
+    "fr": "comme il se doit"
    }
   ],
   "famille": [
    {
     "mot": "положе́ние",
-    "fr": "situation, position, statut"
+    "fr": "position, situation"
    },
    {
     "mot": "предполага́ть",
-    "fr": "supposer, prévoir"
+    "fr": "supposer"
    },
    {
-    "mot": "положи́тельный",
-    "fr": "positif"
+    "mot": "предположе́ние",
+    "fr": "supposition, hypothèse"
    }
   ],
   "nature": "verbe",
@@ -843,108 +851,111 @@
   "rang": 489,
   "lemme": "получиться",
   "mot": "получи́ться",
-  "api": "[pəɫʊˈt͡ɕit͡sə]",
+  "api": "[pəlʊˈt͡ɕit͡sə]",
   "niveau": "A2",
-  "aspect": "perfectif",
-  "paire": "получа́ться",
+  "aspect": {
+   "type": "perfectif",
+   "paire": "получа́ться"
+  },
   "sens": [
    {
-    "sens": "Réussir, aboutir positivement",
+    "sens": "réussir, aboutir",
     "equivalents": [
      "réussir",
-     "marcher",
-     "fonctionner"
+     "aboutir",
+     "marcher"
     ],
     "exemples": [
      {
-      "ru": "У тебя́ получи́лось сдать экза́мен!",
-      "fr": "Tu as réussi à passer l'examen !"
+      "ru": "У меня́ получи́лось реши́ть зада́чу.",
+      "fr": "J'ai réussi à résoudre le problème."
      },
      {
-      "ru": "К сожале́нию, ничего́ не получи́лось.",
-      "fr": "Malheureusement, rien n'a marché."
+      "ru": "Всё получи́лось хо́рошо.",
+      "fr": "Tout s'est bien passé."
      }
     ]
    },
    {
-    "sens": "Résulter, se produire comme conséquence",
+    "sens": "se produire, résulter",
     "equivalents": [
+     "se produire",
      "résulter",
-     "sortir",
      "donner"
     ],
     "exemples": [
      {
-      "ru": "Из э́того му́ки получи́лся вку́сный пиро́г.",
-      "fr": "Cette farine a donné un gâteau délicieux."
+      "ru": "Из э́того ничего́ не получи́лось.",
+      "fr": "Il n'en est rien résulté."
      },
      {
-      "ru": "Так получи́лось, что мы опозда́ли.",
-      "fr": "Il s'est trouvé que nous étions en retard."
+      "ru": "Получи́лся интере́сный результа́т.",
+      "fr": "On a obtenu un résultat intéressant."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "уда́ться",
-    "nuance": "Réussir pleinement, souvent pour un événement ou un plat"
+    "mot": "удаться",
+    "nuance": "réussir (plus formel)"
    },
    {
-    "mot": "вы́йти",
-    "nuance": "Résulter, aboutir (plus concret ou spatial)"
+    "mot": "выйти",
+    "nuance": "aboutir, sortir (résultat)"
    }
   ],
   "antonymes": [
-   "провали́ться",
-   "не уда́ться"
+   "не получи́ться",
+   "провали́ться"
   ],
   "formes": {
-   "present": [
-    "получу́сь",
-    "получи́шься",
-    "получи́тся",
-    "получи́мся",
-    "получи́тесь",
-    "получа́тся"
-   ],
-   "passe": [
-    "получи́лся",
-    "получи́лась",
-    "получи́лось",
-    "получи́лись"
-   ],
-   "imperatif": [
-    "получи́сь",
-    "получи́тесь"
-   ]
+   "present": {
+    "je": "получу́сь",
+    "tu": "полу́чишься",
+    "il": "полу́чится",
+    "nous": "полу́чимся",
+    "vous": "полу́читесь",
+    "ils": "полу́чатся"
+   },
+   "passe": {
+    "m": "получи́лся",
+    "f": "получи́лась",
+    "n": "получи́лось",
+    "pl": "получи́лись"
+   },
+   "imperatif": {
+    "tu": "получи́сь",
+    "vous": "получи́тесь"
+   }
   },
   "pieges": [
-   "Verbe impersonnel fréquent : часто используется без подлежащего (Получилось! = Ça a marché !). Ne pas chercher systématiquement un sujet animé.",
-   "Accent mobile au futur : получу́сь (1re pers.) vs получи́тся (3e pers.). Attention à ne pas dire *получится avec accent sur le и partout."
+   "Verbe perfectif : le 'présent' est en fait le futur",
+   "Construction impersonnelle fréquente : получи́лось + infinitif (j'ai réussi à...)",
+   "Ne pas confondre avec получи́ть (recevoir) qui est un verbe différent"
   ],
   "expressions": [
    {
     "ru": "так получи́лось",
-    "fr": "c'est arrivé ainsi / il s'est trouvé que"
+    "fr": "c'est arrivé comme ça"
    },
    {
     "ru": "ничего́ не получи́лось",
-    "fr": "rien n'a fonctionné / échec total"
+    "fr": "rien n'a marché"
    }
   ],
   "famille": [
    {
-    "mot": "получа́ть",
-    "fr": "recevoir (impf.)"
+    "mot": "получа́ться",
+    "fr": "réussir (imperfectif)"
    },
    {
     "mot": "получи́ть",
-    "fr": "recevoir, obtenir (pf)"
+    "fr": "recevoir (perfectif)"
    },
    {
-    "mot": "полу́чка",
-    "fr": "paye, salaire (familier)"
+    "mot": "получа́ть",
+    "fr": "recevoir (imperfectif)"
    }
   ],
   "nature": "verbe",
@@ -958,106 +969,104 @@
   "mot": "останови́ть",
   "api": "[ɐstənɐˈvʲitʲ]",
   "niveau": "A2",
-  "aspect": "perfectif",
-  "paire": "стана́вливать",
+  "aspect": {
+   "type": "perfectif",
+   "paire": "оста́навливать"
+  },
   "sens": [
    {
-    "sens": "Arrêter un mouvement ou un véhicule",
+    "sens": "arrêter, stopper",
     "equivalents": [
      "arrêter",
      "stopper",
-     "freiner"
+     "interrompre"
     ],
     "exemples": [
      {
-      "ru": "Поли́ция останови́ла маши́ну за превыше́ние ско́рости.",
-      "fr": "La police a arrêté la voiture pour excès de vitesse."
+      "ru": "Поли́ция останови́ла маши́ну.",
+      "fr": "La police a arrêté la voiture."
      },
      {
-      "ru": "Останови́те авто́бус на сле́дующей остано́вке!",
-      "fr": "Arrêtez le bus au prochain arrêt !"
+      "ru": "Надо останови́ть э́тот проце́сс.",
+      "fr": "Il faut arrêter ce processus."
      }
     ]
    },
    {
-    "sens": "Interrompre une action ou un processus",
+    "sens": "faire cesser",
     "equivalents": [
-     "interrompre",
-     "cesser",
+     "faire cesser",
      "mettre fin à"
     ],
     "exemples": [
      {
-      "ru": "На́до останови́ть э́тот бесполе́зный спор.",
-      "fr": "Il faut arrêter cette dispute inutile."
+      "ru": "Нужно́ останови́ть войну́.",
+      "fr": "Il faut mettre fin à la guerre."
      },
      {
-      "ru": "Врачу́ удало́сь останови́ть кровотече́ние.",
-      "fr": "Le médecin a réussi à stopper l'hémorragie."
+      "ru": "Врач останови́л кровотече́ние.",
+      "fr": "Le médecin a arrêté l'hémorragie."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "прекра́тить",
-    "nuance": "Mettre fin définitivement à une activité abstraite"
+    "mot": "прекрати́ть",
+    "nuance": "cesser, mettre fin (plus formel)"
    },
    {
-    "mot": "задержа́ть",
-    "nuance": "Retenir temporairement, ralentir sans arrêt complet"
+    "mot": "прерва́ть",
+    "nuance": "interrompre (temporairement)"
    }
   ],
   "antonymes": [
-   "продолжи́ть",
-   "запусти́ть"
+   "продо́лжить",
+   "начать"
   ],
   "formes": {
-   "present": [
-    "остановлю́",
-    "останови́шь",
-    "останови́т",
-    "останови́м",
-    "останови́те",
-    "остановя́т"
-   ],
-   "passe": [
-    "останови́л",
-    "останови́ла",
-    "останови́ло",
-    "останови́ли"
-   ],
-   "imperatif": [
-    "останови́",
-    "останови́те"
-   ]
+   "present": {
+    "je": "остановлю́",
+    "tu": "остано́вишь",
+    "il": "остано́вит",
+    "nous": "остано́вим",
+    "vous": "остано́вите",
+    "ils": "остано́вят"
+   },
+   "passe": {
+    "m": "останови́л",
+    "f": "останови́ла",
+    "n": "останови́ло",
+    "pl": "останови́ли"
+   },
+   "imperatif": {
+    "tu": "останови́",
+    "vous": "останови́те"
+   }
   },
   "pieges": [
-   "Transitif uniquement : остановить кого/что (accusatif). Pour « s'arrêter soi-même », utiliser le réfléchi останови́ться.",
-   "Conjugaison : alternance в/вл au futur (остановлю). Accent fixe sur le и radical sauf à la 1re personne du futur et au masculin passé."
+   "Verbe perfectif : le 'présent' est en fait le futur",
+   "Accent mobile : остановлю́ (je) mais оста́навливать (imperfectif)",
+   "Ne pas confondre avec останови́ться (s'arrêter soi-même, réfléchi)"
   ],
   "expressions": [
    {
-    "ru": "останови́ть внима́ние на чём-либо",
-    "fr": "attirer l'attention sur / s'attarder sur"
-   },
-   {
-    "ru": "не могу́ останови́ться",
-    "fr": "je ne peux pas m'arrêter (sens figuré : être lancé)"
+    "ru": "останови́ть взгляд на ком-чём",
+    "fr": "arrêter son regard sur"
    }
   ],
   "famille": [
    {
-    "mot": "остана́вливать",
+    "mot": "оста́навливать",
     "fr": "arrêter (imperfectif)"
    },
    {
-    "mot": "остано́вка",
-    "fr": "arrêt (lieu), station"
+    "mot": "останови́ться",
+    "fr": "s'arrêter (perfectif)"
    },
    {
-    "mot": "останови́ться",
-    "fr": "s'arrêter (réfléchi pf)"
+    "mot": "остано́вка",
+    "fr": "arrêt (de transport)"
    }
   ],
   "nature": "verbe",
