@@ -107,7 +107,7 @@ def entree(e, W):
                     ST["rang"]),
           Paragraph(x(e.get("mot") or e["lemme"]), ST["mot"]),
           Paragraph(x(e.get("api", "")), ST["pron"])]
-    nat = e.get("nature", "") + (f", род : {e['genre']}" if e.get("genre") not in (None, "", "—") else "")
+    nat = e.get("nature", "") + (f", род : {e['genre']}" if str(e.get("genre", "")).strip() not in ("", "-", "—", "–", "None") else "")
     fl.append(Paragraph(x(nat), ST["nat"]))
     fl.append(Paragraph("1. Значения и переводы на русский", ST["h"]))
     lignes = [["Значение", "Перевод", "Примеры"]]
