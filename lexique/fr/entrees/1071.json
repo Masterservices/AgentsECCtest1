@@ -121,976 +121,1040 @@
     "ru": "отдалённый, глухой (о местности)"
    }
   ],
-  "frequence": 18590,
+  "frequence": 18867,
   "controle": []
  },
  {
   "rang": 1072,
-  "lemme": "amérique",
-  "mot": "l'Amérique (f)",
-  "nature": "имя собственное",
-  "genre": "f",
-  "api": "[a.me.ʁik]",
+  "lemme": "charger",
+  "mot": "charger",
+  "nature": "глагол",
+  "genre": "-",
+  "api": "[ʃaʁ.ʒe]",
   "niveau": "A2",
   "sens": [
    {
-    "sens": "континент Америка (Северная и/или Южная)",
+    "sens": "нагружать, заполнять чем-либо (транспорт, контейнер)",
     "equivalents": [
-     "Америка"
+     "грузить",
+     "нагружать",
+     "загружать"
     ],
     "exemples": [
      {
-      "fr": "L'Amérique s'étend du pôle Nord au pôle Sud.",
-      "ru": "Америка простирается от Северного до Южного полюса."
+      "fr": "Nous devons charger les valises dans la voiture.",
+      "ru": "Нам нужно загрузить чемоданы в машину."
      },
      {
-      "fr": "Il a voyagé en Amérique du Sud pendant six mois.",
-      "ru": "Он путешествовал по Южной Америке шесть месяцев."
+      "fr": "Le camion est en train de charger du sable.",
+      "ru": "Грузовик сейчас загружают песком."
      }
     ]
    },
    {
-    "sens": "Соединённые Штаты Америки (в разговорной речи)",
+    "sens": "заряжать (электрическое устройство, батарею)",
     "equivalents": [
-     "Америка",
-     "США"
+     "заряжать"
     ],
     "exemples": [
      {
-      "fr": "Elle rêve d'aller vivre en Amérique.",
-      "ru": "Она мечтает поехать жить в Америку."
+      "fr": "N’oublie pas de charger ton téléphone ce soir.",
+      "ru": "Не забудь зарядить телефон сегодня вечером."
      },
      {
-      "fr": "En Amérique, les portions sont souvent très grandes.",
-      "ru": "В Америке порции часто очень большие."
+      "fr": "La batterie met deux heures à charger complètement.",
+      "ru": "Батарея заряжается полностью за два часа."
+     }
+    ]
+   },
+   {
+    "sens": "поручать кому-либо задачу или ответственность (часто с de + inf.)",
+    "equivalents": [
+     "поручать",
+     "возлагать",
+     "назначать ответственным"
+    ],
+    "exemples": [
+     {
+      "fr": "On l’a chargé de rédiger le rapport annuel.",
+      "ru": "Ему поручили составить годовой отчёт."
+     },
+     {
+      "fr": "Elle est chargée des relations avec les clients.",
+      "ru": "Она отвечает за связи с клиентами."
+     }
+    ]
+   },
+   {
+    "sens": "атаковать, набрасываться (военное или переносное значение)",
+    "equivalents": [
+     "атаковать",
+     "набрасываться",
+     "наступать"
+    ],
+    "exemples": [
+     {
+      "fr": "Les soldats ont chargé l’ennemi à la baïonnette.",
+      "ru": "Солдаты атаковали врага штыками."
+     },
+     {
+      "fr": "Il a chargé son adversaire avec une agressivité surprenante.",
+      "ru": "Он набросился на оппонента с неожиданной агрессией."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "les États-Unis",
-    "nuance": "точное название страны, предпочтительно в формальном контексте"
+    "mot": "remplir",
+    "nuance": "акцент на заполнении пространства, а не на процессе погрузки"
    },
    {
-    "mot": "le Nouveau Monde",
-    "nuance": "устаревшее/литературное обозначение американского континента"
+    "mot": "alimenter",
+    "nuance": "используется для подачи энергии или ресурсов (технический контекст)"
+   },
+   {
+    "mot": "confier",
+    "nuance": "более формальный и доверительный оттенок при поручении задачи"
    }
   ],
-  "antonymes": [],
-  "formes": {},
+  "antonymes": [
+   "décharger",
+   "vider"
+  ],
+  "formes": {
+   "auxiliaire": "avoir",
+   "present": [
+    "je charge",
+    "tu charges",
+    "il/elle/on charge",
+    "nous chargeons",
+    "vous chargez",
+    "ils/elles chargent"
+   ],
+   "passe_compose": "j’ai chargé",
+   "imparfait": "je chargeais",
+   "futur": "je chargerai",
+   "participe_passe": "chargé"
+  },
   "pieges": [
-   "Всегда употребляется с определённым артиклем: l'Amérique (не *Amérique seule). С предлогом: en Amérique, d'Amérique, но aux Amériques (мн.ч.).",
-   "Для русскоговорящих важно различать Amérique (континент) и États-Unis (страна): во французском слово Amérique может означать и то, и другое, но в точных текстах лучше уточнять.",
-   "Ударение падает на последний слог [ʁik], а не на второй, как в русском «Аме́рика»."
+   "В значении «поручать» требует предлога de перед инфинитивом: charger qqn de faire qqch (не à).",
+   "Причастие прошедшего времени chargé согласуется с прямым дополнением, если оно стоит перед глаголом: les valises que j’ai chargées.",
+   "Не путать с ложным другом «шаржировать» (преувеличивать) — это caricaturer/exagérer, а не charger."
   ],
   "expressions": [
    {
-    "fr": "l'Oncle Sam",
-    "ru": "Дядя Сэм (персонификация США)"
+    "fr": "charger la barque",
+    "ru": "перегружать (требованиями, работой); перегибать палку"
    },
    {
-    "fr": "le rêve américain",
-    "ru": "американская мечта"
+    "fr": "être chargé comme un mulet",
+    "ru": "быть навьюченным как мул; нести очень тяжёлый груз"
    }
   ],
   "famille": [
    {
-    "mot": "américain(e)",
-    "ru": "американский; американец/американка"
+    "mot": "charge",
+    "ru": "груз, нагрузка, обязанность"
    },
    {
-    "mot": "l'américanisation",
-    "ru": "американизация"
+    "mot": "chargement",
+    "ru": "погрузка, загрузка"
+   },
+   {
+    "mot": "décharger",
+    "ru": "разгружать"
+   },
+   {
+    "mot": "surcharge",
+    "ru": "перегрузка, избыточный вес"
    }
   ],
-  "frequence": 18514,
+  "frequence": 18848,
   "controle": []
  },
  {
   "rang": 1073,
-  "lemme": "partager",
-  "mot": "partager",
-  "nature": "глагол",
-  "genre": "-",
-  "api": "[paʁ.ta.ʒe]",
+  "lemme": "frais",
+  "mot": "les frais (m.pl)",
+  "nature": "существительное",
+  "genre": "m",
+  "api": "[fʁɛ]",
   "niveau": "A2",
   "sens": [
    {
-    "sens": "делить, разделять на части",
+    "sens": "расходы, затраты (финансовые издержки)",
     "equivalents": [
-     "делить",
-     "разделять",
-     "распределять"
+     "расходы",
+     "затраты",
+     "издержки"
     ],
     "exemples": [
      {
-      "fr": "Nous avons partagé le gâteau en huit parts égales.",
-      "ru": "Мы разделили торт на восемь равных частей."
+      "fr": "Les frais de transport sont inclus dans le prix.",
+      "ru": "Транспортные расходы включены в цену."
      },
      {
-      "fr": "Le professeur a partagé la classe en trois groupes.",
-      "ru": "Учитель разделил класс на три группы."
+      "fr": "L’entreprise cherche à réduire ses frais généraux.",
+      "ru": "Компания стремится сократить накладные расходы."
      }
     ]
    },
    {
-    "sens": "делиться чем-либо с кем-либо (совместно использовать)",
+    "sens": "плата за услуги, комиссия (банковские, нотариальные и т.п.)",
     "equivalents": [
-     "делиться",
-     "совместно использовать"
+     "плата",
+     "комиссия",
+     "сборы"
     ],
     "exemples": [
      {
-      "fr": "Elle partage son appartement avec deux colocataires.",
-      "ru": "Она делит квартиру с двумя соседями по комнате."
+      "fr": "La banque prélève des frais pour chaque virement international.",
+      "ru": "Банк взимает комиссию за каждый международный перевод."
      },
      {
-      "fr": "Partage ton repas avec lui, il n'a rien mangé.",
-      "ru": "Поделись с ним едой, он ничего не ел."
-     }
-    ]
-   },
-   {
-    "sens": "сообщать, рассказывать (мысли, опыт, информацию)",
-    "equivalents": [
-     "делиться",
-     "сообщать",
-     "рассказывать"
-    ],
-    "exemples": [
-     {
-      "fr": "Merci de partager votre expérience avec nous.",
-      "ru": "Спасибо, что поделились с нами своим опытом."
-     },
-     {
-      "fr": "Il a partagé ses inquiétudes lors de la réunion.",
-      "ru": "Он выразил свои опасения на собрании."
-     }
-    ]
-   },
-   {
-    "sens": "разделять (мнение, чувство); быть солидарным",
-    "equivalents": [
-     "разделять",
-     "поддерживать"
-    ],
-    "exemples": [
-     {
-      "fr": "Je ne partage pas tout à fait son opinion.",
-      "ru": "Я не совсем разделяю его мнение."
-     },
-     {
-      "fr": "Toute l'équipe partage votre douleur.",
-      "ru": "Вся команда разделяет вашу боль."
+      "fr": "Les frais de notaire représentent environ 8 % du prix d’achat.",
+      "ru": "Нотариальные сборы составляют около 8% от покупной цены."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "diviser",
-    "nuance": "акцент на механическом разделении целого, менее эмоционально"
+    "mot": "dépenses",
+    "nuance": "более общее слово, акцент на факте траты денег"
    },
    {
-    "mot": "répartir",
-    "nuance": "распределять между несколькими лицами, подчёркивает справедливость"
+    "mot": "coûts",
+    "nuance": "чаще в экономическом/управленческом контексте"
    },
    {
-    "mot": "communiquer",
-    "nuance": "для передачи информации, не подразумевает совместного владения"
+    "mot": "honoraires",
+    "nuance": "специфично для оплаты услуг специалистов (врач, юрист)"
    }
   ],
-  "antonymes": [
-   "garder",
-   "conserver"
-  ],
+  "antonymes": [],
   "formes": {
-   "auxiliaire": "avoir",
-   "present": [
-    "je partage",
-    "tu partages",
-    "il/elle partage",
-    "nous partageons",
-    "vous partagez",
-    "ils/elles partagent"
-   ],
-   "passe_compose": "j'ai partagé",
-   "imparfait": "je partageais",
-   "futur": "je partagerai",
-   "participe_passe": "partagé"
+   "pluriel": "frais"
   },
   "pieges": [
-   "Конструкция: partager qqch avec qqn (делиться чем-то с кем-то) или partager qqch entre plusieurs personnes (делить между). Не путать предлоги: *partager à quelqu'un — неверно.",
-   "В форме nous présent: nous partageons (сохраняется 'e' перед -ons для сохранения звука [ʒ]), иначе было бы [paʁ.ta.ʒɔ̃]. Это орфографическая особенность глаголов на -ger.",
-   "Ложный друг: «партиж» в русском не существует; не путать с «parti» (партия)."
+   "Слово frais в значении «расходы» употребляется почти исключительно во множественном числе (les frais). В единственном числе un frais означает «прохлада» или «свежесть».",
+   "Не путать с прилагательным frais/fraîche («свежий», «прохладный») — это омоним, но другая часть речи.",
+   "Выражение à mes frais / à tes frais означает «за мой/твой счёт», а не «мои расходы» буквально."
   ],
   "expressions": [
    {
-    "fr": "partager un avis / une opinion",
-    "ru": "разделять мнение"
+    "fr": "faire les frais de qqch",
+    "ru": "нести расходы за что-либо; (перен.) стать жертвой чего-либо"
    },
    {
-    "fr": "à partager",
-    "ru": "на двоих / на компанию (в меню ресторана)"
+    "fr": "rentrer dans ses frais",
+    "ru": "окупить расходы, выйти в ноль"
    }
   ],
   "famille": [
    {
-    "mot": "le partage",
-    "ru": "раздел, дележ; совместное использование"
+    "mot": "fraiser",
+    "ru": "фрезеровать (технический термин, редкий)"
    },
    {
-    "mot": "la part",
-    "ru": "часть, доля"
-   },
-   {
-    "mot": "partagé(e)",
-    "ru": "разделённый; противоречивый (sentiments partagés)"
+    "mot": "fraisage",
+    "ru": "фрезерование (технический термин, редкий)"
    }
   ],
-  "frequence": 18509,
+  "frequence": 18821,
   "controle": []
  },
  {
   "rang": 1074,
-  "lemme": "mademoiselle",
-  "mot": "mademoiselle",
-  "nature": "существительное",
-  "genre": "f",
-  "api": "[mad.mwa.zɛl]",
+  "lemme": "enchanté",
+  "mot": "enchanté(e)",
+  "nature": "прилагательное",
+  "genre": "m",
+  "api": "[ɑ̃.ʃɑ̃.te]",
   "niveau": "A1",
   "sens": [
    {
-    "sens": "обращение к незамужней женщине или девушке (традиционное)",
+    "sens": "(при знакомстве) очень рад, приятно познакомиться",
     "equivalents": [
-     "мадемуазель",
-     "барышня"
+     "приятно познакомиться",
+     "рад знакомству"
     ],
     "exemples": [
      {
-      "fr": "Mademoiselle, vous avez oublié votre sac.",
-      "ru": "Мадемуазель, вы забыли свою сумку."
+      "fr": "— Bonjour, je m’appelle Marie. — Enchanté !",
+      "ru": "— Здравствуйте, меня зовут Мари. — Приятно познакомиться!"
      },
      {
-      "fr": "C'est mademoiselle Dupont qui vous recevra.",
-      "ru": "Вас примет мадемуазель Дюпон."
+      "fr": "Enchantée de faire votre connaissance, monsieur.",
+      "ru": "Очень рада познакомиться с вами, господин."
      }
     ]
    },
    {
-    "sens": "форма вежливого обращения к молодой женщине (всё реже используется)",
+    "sens": "восхищённый, очарованный (литературное или устаревшее)",
     "equivalents": [
-     "девушка",
-     "сударыня"
+     "очарованный",
+     "восхищённый",
+     "зачарованный"
     ],
     "exemples": [
      {
-      "fr": "Excusez-moi, mademoiselle, où est la gare ?",
-      "ru": "Извините, девушка, где вокзал?"
+      "fr": "Le public était enchanté par la performance du pianiste.",
+      "ru": "Публика была восхищена выступлением пианиста."
      },
      {
-      "fr": "On ne dit plus « mademoiselle » dans les documents officiels.",
-      "ru": "В официальных документах больше не пишут «мадемуазель»."
+      "fr": "Une forêt enchantée peuplée de créatures magiques.",
+      "ru": "Зачарованный лес, населённый волшебными существами."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "madame",
-    "nuance": "универсальное обращение к взрослой женщине, рекомендовано вместо mademoiselle в официальном общении"
+    "mot": "ravi",
+    "nuance": "более эмоциональное, подходит и для знакомства, и для реакции на новость"
    },
    {
-    "mot": "jeune fille",
-    "nuance": "описание, а не обращение; означает «молодая девушка»"
+    "mot": "heureux",
+    "nuance": "нейтральнее, шире по употреблению"
+   },
+   {
+    "mot": "charmé",
+    "nuance": "более литературное, подчёркивает эстетическое удовольствие"
    }
   ],
-  "antonymes": [],
+  "antonymes": [
+   "mécontent",
+   "déçu"
+  ],
   "formes": {
-   "pluriel": "mesdemoiselles"
+   "feminin": "enchantée",
+   "pluriel": "enchantés"
   },
   "pieges": [
-   "⚠️ Важно: с 2012 года употребление mademoiselle запрещено в официальных документах Франции. Рекомендуется всегда использовать madame независимо от семейного положения. Использование mademoiselle может восприниматься как сексистское или устаревшее.",
-   "Множественное число mesdemoiselles [mɛd.mwa.zɛl] — редкая форма, встречается всё реже.",
-   "При обращении сокращается Mlle (не *Mde ni *Md)."
+   "При использовании как формула вежливости при знакомстве слово должно согласовываться по роду: женщина говорит «Enchantée!».",
+   "Не используется как замена «bonjour» или «au revoir» — только непосредственно в момент представления.",
+   "Произношение: носовой [ɑ̃] в начале, не путать с «enchanteur» (волшебник)."
   ],
-  "expressions": [],
-  "famille": [],
-  "frequence": 18495,
+  "expressions": [
+   {
+    "fr": "Je suis enchanté(e) de vous rencontrer",
+    "ru": "Я очень рад(а) встретиться с вами (более полная форма приветствия)"
+   }
+  ],
+  "famille": [
+   {
+    "mot": "enchanter",
+    "ru": "очаровывать, восхищать"
+   },
+   {
+    "mot": "enchanteur",
+    "ru": "волшебник; очаровательный"
+   },
+   {
+    "mot": "enchantement",
+    "ru": "очарование, волшебство"
+   }
+  ],
+  "frequence": 18775,
   "controle": []
  },
  {
   "rang": 1075,
-  "lemme": "débarrasser",
-  "mot": "débarrasser",
+  "lemme": "briser",
+  "mot": "briser",
   "nature": "глагол",
   "genre": "-",
-  "api": "[de.ba.ʁa.se]",
+  "api": "[bʁi.ze]",
   "niveau": "B1",
   "sens": [
    {
-    "sens": "убирать со стола (посуду после еды)",
+    "sens": "разбивать твёрдый предмет на куски",
     "equivalents": [
-     "убирать со стола",
-     "собирать посуду"
+     "разбивать",
+     "ломать",
+     "дробить"
     ],
     "exemples": [
      {
-      "fr": "Tu peux m'aider à débarrasser la table ?",
-      "ru": "Ты можешь помочь мне убрать со стола?"
+      "fr": "Il a brisé le vase en le laissant tomber.",
+      "ru": "Он разбил вазу, уронив её."
      },
      {
-      "fr": "Après le dîner, les enfants ont débarrassé sans qu'on leur demande.",
-      "ru": "После ужина дети убрали со стола без просьбы."
+      "fr": "La glace s'est brisée sous son poids.",
+      "ru": "Лёд треснул под его весом."
      }
     ]
    },
    {
-    "sens": "освобождать от чего-либо ненужного, избавлять",
+    "sens": "прерывать, нарушать ход чего-либо",
     "equivalents": [
-     "избавлять",
-     "очищать",
-     "освобождать"
+     "прерывать",
+     "нарушать",
+     "ломать"
     ],
     "exemples": [
      {
-      "fr": "Ce médicament va vous débarrasser de vos douleurs.",
-      "ru": "Это лекарство избавит вас от боли."
+      "fr": "Le bruit a brisé le silence de la nuit.",
+      "ru": "Шум нарушил ночную тишину."
      },
      {
-      "fr": "Il faut débarrasser le couloir des vieux cartons.",
-      "ru": "Нужно очистить коридор от старых коробок."
+      "fr": "Cette nouvelle a brisé nos espoirs.",
+      "ru": "Эта новость разрушила наши надежды."
      }
     ]
    },
    {
-    "sens": "se débarrasser de : избавляться от кого-либо/чего-либо (возвратная форма)",
+    "sens": "подавлять морально, лишать сил",
     "equivalents": [
-     "избавляться",
-     "отделываться",
-     "выбрасывать"
+     "сокрушать",
+     "ломать",
+     "изматывать"
     ],
     "exemples": [
      {
-      "fr": "Je me suis débarrassé de mes vieux vêtements.",
-      "ru": "Я избавился от старой одежды."
+      "fr": "Ces années de prison l'ont brisé.",
+      "ru": "Эти годы тюрьмы сломали его."
      },
      {
-      "fr": "Elle veut se débarrasser de cette mauvaise habitude.",
-      "ru": "Она хочет избавиться от этой дурной привычки."
+      "fr": "La fatigue me brise les jambes.",
+      "ru": "Усталость валит меня с ног."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "enlever",
-    "nuance": "более общий глагол «убрать», без коннотации освобождения от лишнего"
+    "mot": "casser",
+    "nuance": "более разговорный и универсальный; briser звучит драматичнее"
    },
    {
-    "mot": "nettoyer",
-    "nuance": "чистить, мыть; акцент на гигиене, а не на удалении предметов"
+    "mot": "fracasser",
+    "nuance": "разбивать с шумом и силой"
    },
    {
-    "mot": "se défaire de",
-    "nuance": "синоним возвратной формы, более литературный регистр"
+    "mot": "rompre",
+    "nuance": "разрывать связь, договор, отношения"
    }
   ],
   "antonymes": [
-   "encombrer",
-   "mettre (la table)"
+   "réparer",
+   "consolider"
   ],
   "formes": {
    "auxiliaire": "avoir",
    "present": [
-    "je débarrasse",
-    "tu débarrasses",
-    "il/elle débarrasse",
-    "nous débarrassons",
-    "vous débarrassez",
-    "ils/elles débarrassent"
+    "je brise",
+    "tu brises",
+    "il brise",
+    "nous brisons",
+    "vous brisez",
+    "ils brisent"
    ],
-   "passe_compose": "j'ai débarrassé",
-   "imparfait": "je débarrassais",
-   "futur": "je débarrasserai",
-   "participe_passe": "débarrassé"
+   "passe_compose": "j'ai brisé",
+   "imparfait": "je brisais",
+   "futur": "je briserai",
+   "participe_passe": "brisé"
   },
   "pieges": [
-   "Не путать с débarquer (высаживаться, высаживать). Корни разные: barrer (преграда) vs barque (лодка).",
-   "Возвратная форма se débarrasser DE (предлог de обязателен): *se débarrasser quelque chose — грубая ошибка.",
-   "Двойное 'r' в написании: débarrasser (не *débarasser). Ошибка частая из-за произношения [ʁ] без удвоения."
+   "Briser и casser часто взаимозаменяемы, но briser предпочтительно для хрупких предметов (стекло, лёд) и абстрактных понятий (сердце, мечты).",
+   "Возвратная форма se briser означает «разбиться самому» (непереходное значение): Le verre s'est brisé.",
+   "Выражение briser la glace (растопить лёд в общении) — устойчивая идиома, не переводится буквально."
   ],
   "expressions": [
    {
-    "fr": "débarrasser le plancher",
-    "ru": "убраться восвояси, уйти (разг., иногда грубовато)"
+    "fr": "briser la glace",
+    "ru": "растопить лёд (начать общение)"
+   },
+   {
+    "fr": "avoir le cœur brisé",
+    "ru": "быть с разбитым сердцем"
+   },
+   {
+    "fr": "briser les chaînes",
+    "ru": "сбросить оковы, освободиться"
    }
   ],
   "famille": [
    {
-    "mot": "le débarras",
-    "ru": "кладовка, чулан; избавление"
+    "mot": "bris",
+    "ru": "разбивание (юрид./техн.)"
    },
    {
-    "mot": "débarrassé(e)",
-    "ru": "свободный от чего-либо"
+    "mot": "brisée",
+    "ru": "ветка, зарубка (охотничий термин)"
+   },
+   {
+    "mot": "débris",
+    "ru": "обломок, осколок"
    }
   ],
-  "frequence": 18463,
+  "frequence": 18756,
   "controle": []
  },
  {
   "rang": 1076,
-  "lemme": "couteau",
-  "mot": "le couteau",
+  "lemme": "contrat",
+  "mot": "le contrat",
   "nature": "существительное",
   "genre": "m",
-  "api": "[ku.to]",
-  "niveau": "A1",
+  "api": "[kɔ̃.tʁa]",
+  "niveau": "A2",
   "sens": [
    {
-    "sens": "нож (столовый, кухонный, карманный)",
+    "sens": "юридический договор, соглашение между сторонами",
     "equivalents": [
-     "нож"
+     "договор",
+     "контракт",
+     "соглашение"
     ],
     "exemples": [
      {
-      "fr": "Passe-moi le couteau, s'il te plaît.",
-      "ru": "Передай мне нож, пожалуйста."
+      "fr": "Ils ont signé un contrat de travail à durée indéterminée.",
+      "ru": "Они подписали бессрочный трудовой договор."
      },
      {
-      "fr": "Ce couteau coupe très bien, fais attention.",
-      "ru": "Этот нож очень острый, будь осторожен."
+      "fr": "Le contrat prévoit une clause de confidentialité stricte.",
+      "ru": "Договор предусматривает строгую оговорку о конфиденциальности."
      }
     ]
    },
    {
-    "sens": "лезвие, режущая часть инструмента",
+    "sens": "устная или моральная договорённость, обязательство",
     "equivalents": [
-     "лезвие",
-     "ножка"
+     "договорённость",
+     "обязательство",
+     "уговор"
     ],
     "exemples": [
      {
-      "fr": "Le couteau du mixeur est émoussé.",
-      "ru": "Лезвие блендера затупилось."
+      "fr": "Entre amis, c’est un contrat moral de se soutenir.",
+      "ru": "Между друзьями существует моральное обязательство поддерживать друг друга."
      },
      {
-      "fr": "Un couteau de scie sert à couper le bois.",
-      "ru": "Пильное полотно служит для резки дерева."
+      "fr": "Il n’a pas respecté le contrat implicite de notre collaboration.",
+      "ru": "Он не соблюдал неявную договорённость нашего сотрудничества."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "la lame",
-    "nuance": "только клинок/лезвие, не весь инструмент"
+    "mot": "accord",
+    "nuance": "более общее, может быть неформальным или устным"
    },
    {
-    "mot": "le canif",
-    "nuance": "складной карманный ножик"
+    "mot": "convention",
+    "nuance": "часто официальный документ между организациями или государствами"
+   },
+   {
+    "mot": "pacte",
+    "nuance": "торжественный или политический оттенок, реже в быту"
    }
   ],
   "antonymes": [],
   "formes": {
-   "pluriel": "couteaux"
+   "pluriel": "contrats"
   },
   "pieges": [
-   "Род мужской: LE couteau (не *la). Частая ошибка русскоговорящих, так как в русском «нож» тоже мужского рода, но ассоциация с «ложкой» (cuillère f) может сбивать.",
-   "Множественное число: couteaux (через -eaux, а не *couteaus). Слова на -eau образуют мн.ч. через -x.",
-   "Произношение: конечное -eau = [o], t не произносится. Не *[ku.tɔ] или *[ku.toʊ]."
+   "Род мужской (le contrat), хотя в русском «контракт» тоже мужского рода — но студенты часто ошибаются из-за окончания -at, которое бывает и женским (la date).",
+   "Произношение: носовой [ɔ̃], конечная буква t не произносится, но делается liaison перед гласной: contrat_écrit [kɔ̃.tʁa.t‿e.kʁi].",
+   "Не путать с contact — похожее написание, но совершенно другое значение и произношение."
   ],
   "expressions": [
    {
-    "fr": "être à couteaux tirés",
-    "ru": "быть на ножах (враждовать)"
+    "fr": "rompre un contrat",
+    "ru": "расторгнуть договор"
    },
    {
-    "fr": "un coup de couteau dans le dos",
-    "ru": "удар ножом в спину (предательство)"
-   },
-   {
-    "fr": "jouer au couteau",
-    "ru": "играть с огнём, рисковать"
+    "fr": "contrat à durée déterminée (CDD)",
+    "ru": "срочный трудовой договор"
    }
   ],
   "famille": [
    {
-    "mot": "la coutellerie",
-    "ru": "ножевая мастерская, магазин ножей"
+    "mot": "contracter",
+    "ru": "заключать (договор); сокращать (мышцу)"
    },
    {
-    "mot": "le coutelier",
-    "ru": "ножевщик, мастер по изготовлению ножей"
+    "mot": "contractuel",
+    "ru": "договорный; контрактный работник"
+   },
+   {
+    "mot": "sous-traitance",
+    "ru": "субподряд (косвенно связано через систему контрактов)"
    }
   ],
-  "frequence": 18440,
+  "frequence": 18746,
   "controle": []
  },
  {
   "rang": 1077,
-  "lemme": "salope",
-  "mot": "la salope",
+  "lemme": "piste",
+  "mot": "la piste",
   "nature": "существительное",
   "genre": "f",
-  "api": "[sa.lɔp]",
-  "niveau": "B2",
+  "api": "[pist]",
+  "niveau": "B1",
   "sens": [
    {
-    "sens": "грубое оскорбление в адрес женщины (вульгарное)",
+    "sens": "тропа, след, путь (животных, людей в дикой природе)",
     "equivalents": [
-     "шлюха",
-     "сука",
-     "дрянь"
+     "тропа",
+     "след",
+     "путь"
     ],
     "exemples": [
      {
-      "fr": "Il l'a traitée de salope sous le coup de la colère.",
-      "ru": "В порыве гнева он обозвал её шлюхой."
+      "fr": "Les randonneurs ont suivi la piste jusqu’au sommet.",
+      "ru": "Туристы шли по тропе до самой вершины."
      },
      {
-      "fr": "Ce mot est extrêmement offensant et sexiste.",
-      "ru": "Это слово крайне оскорбительно и сексистское."
+      "fr": "Le chasseur a repéré des pistes de cerf dans la neige.",
+      "ru": "Охотник заметил следы оленя на снегу."
      }
     ]
    },
    {
-    "sens": "женщина неряшливая, грязнуля (устаревшее, редко)",
+    "sens": "спортивная дорожка, трасса (беговая, лыжная, танцевальная)",
     "equivalents": [
-     "грязнуля",
-     "неряха"
+     "дорожка",
+     "трасса",
+     "площадка"
     ],
     "exemples": [
      {
-      "fr": "Autrefois, on appelait « salope » une femme peu soignée.",
-      "ru": "Раньше «salope» называли неопрятную женщину."
+      "fr": "Les athlètes s’entraînent sur la piste d’athlétisme.",
+      "ru": "Спортсмены тренируются на легкоатлетической дорожке."
      },
      {
-      "fr": "Ce sens est aujourd'hui presque totalement remplacé par l'injure.",
-      "ru": "Это значение сегодня почти полностью вытеснено ругательством."
+      "fr": "La piste de danse était pleine toute la nuit.",
+      "ru": "Танцпол был полон всю ночь."
+     }
+    ]
+   },
+   {
+    "sens": "направление расследования, улика, зацепка",
+    "equivalents": [
+     "след",
+     "зацепка",
+     "направление"
+    ],
+    "exemples": [
+     {
+      "fr": "La police explore plusieurs pistes dans cette enquête.",
+      "ru": "Полиция отрабатывает несколько версий в этом расследовании."
+     },
+     {
+      "fr": "Cette information pourrait être une piste intéressante.",
+      "ru": "Эта информация может стать интересной зацепкой."
+     }
+    ]
+   },
+   {
+    "sens": "аудиодорожка, трек (музыка, запись)",
+    "equivalents": [
+     "трек",
+     "дорожка",
+     "композиция"
+    ],
+    "exemples": [
+     {
+      "fr": "J’ai ajouté une nouvelle piste à mon album.",
+      "ru": "Я добавил новый трек в свой альбом."
+     },
+     {
+      "fr": "La piste sonore du film est exceptionnelle.",
+      "ru": "Звуковая дорожка фильма великолепна."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "pute",
-    "nuance": "ещё более вульгарное оскорбление, прямое указание на проституцию"
+    "mot": "trace",
+    "nuance": "акцент на оставленном следе, а не на пути как маршруте"
    },
    {
-    "mot": "garce",
-    "nuance": "менее вульгарно, но всё равно уничижительно; стерва"
+    "mot": "chemin",
+    "nuance": "более общее слово для дороги/пути, без коннотации следа"
    },
    {
-    "mot": "traînée",
-    "nuance": "оскорбление, подразумевающее распутство; устаревшее"
+    "mot": "indice",
+    "nuance": "конкретная улика в расследовании, уже чем piste"
    }
   ],
   "antonymes": [],
   "formes": {
-   "pluriel": "salopes"
+   "pluriel": "pistes"
   },
   "pieges": [
-   "⚠️ КРАЙНЕ ВУЛЬГАРНОЕ И ОСКОРБИТЕЛЬНОЕ СЛОВО. Никогда не используйте в нейтральном или вежливом общении. Даже в цитировании требует предупреждения. В учебных целях приведено только потому, что входит в частотный корпус (фильмы, литература, соцсети).",
-   "Не путать с sale (грязный) хотя этимологически связаны. Salope — исключительно существительное-оскорбление.",
-   "Произношение: конечное -e не произносится [sa.lɔp], а не *[sa.lɔ.pə]."
+   "Женский род (la piste), несмотря на окончание -e, которое обычно указывает на женский род — здесь всё верно, но студенты иногда колеблются из-за созвучия с masculin mots типа le site.",
+   "Многозначность: контекст критически важен. Piste de ski ≠ piste de cirque ≠ piste audio.",
+   "В выражении être sur la bonne piste предлог всегда sur, не dans."
   ],
-  "expressions": [],
-  "famille": [
+  "expressions": [
    {
-    "mot": "salop",
-    "ru": "неряха, грязнуля (мужской род, устар.)"
+    "fr": "être sur la bonne piste",
+    "ru": "идти по правильному следу, быть на верном пути"
    },
    {
-    "mot": "salopard",
-    "ru": "подлец, мерзавец (мужской род, вульг.)"
+    "fr": "perdre la piste",
+    "ru": "потерять след, сбиться с пути"
    }
   ],
-  "frequence": 18420,
+  "famille": [
+   {
+    "mot": "pister",
+    "ru": "выслеживать, идти по следу"
+   },
+   {
+    "mot": "pisteur",
+    "ru": "спасатель на горнолыжной трассе; тот, кто идёт по следу"
+   },
+   {
+    "mot": "hors-piste",
+    "ru": "катание вне трассы (лыжи)"
+   }
+  ],
+  "frequence": 18746,
   "controle": []
  },
  {
   "rang": 1078,
-  "lemme": "avancer",
-  "mot": "avancer",
-  "nature": "глагол",
-  "genre": "-",
-  "api": "[a.vɑ̃.se]",
-  "niveau": "A2",
+  "lemme": "respect",
+  "mot": "le respect",
+  "nature": "существительное",
+  "genre": "m",
+  "api": "[ʁɛs.pɛ]",
+  "niveau": "B1",
   "sens": [
    {
-    "sens": "двигаться вперёд, продвигаться",
+    "sens": "уважение к человеку, его правам, чувствам",
     "equivalents": [
-     "продвигаться",
-     "идти вперёд",
-     "подъезжать"
+     "уважение",
+     "почтение"
     ],
     "exemples": [
      {
-      "fr": "La foule avançait lentement vers la sortie.",
-      "ru": "Толпа медленно продвигалась к выходу."
+      "fr": "Il faut traiter chacun avec respect et dignité.",
+      "ru": "Нужно относиться к каждому с уважением и достоинством."
      },
      {
-      "fr": "Avance ta voiture, tu bloques le passage.",
-      "ru": "Подвинь машину вперёд, ты загораживаешь проезд."
+      "fr": "Le respect des anciens est une valeur importante dans cette culture.",
+      "ru": "Уважение к старшим — важная ценность в этой культуре."
      }
     ]
    },
    {
-    "sens": "прогрессировать, делать успехи (в работе, учёбе)",
+    "sens": "соблюдение правил, норм, законов",
     "equivalents": [
-     "продвигаться",
-     "прогрессировать",
-     "подвигаться"
+     "соблюдение",
+     "следование",
+     "выполнение"
     ],
     "exemples": [
      {
-      "fr": "J'avance bien dans mon projet de mémoire.",
-      "ru": "Я хорошо продвигаюсь в своей дипломной работе."
+      "fr": "Le respect du règlement intérieur est obligatoire pour tous.",
+      "ru": "Соблюдение внутреннего распорядка обязательно для всех."
      },
      {
-      "fr": "Les négociations n'avancent pas depuis une semaine.",
-      "ru": "Переговоры не продвигаются уже неделю."
+      "fr": "L’entreprise veille au respect des normes environnementales.",
+      "ru": "Компания следит за соблюдением экологических норм."
      }
     ]
    },
    {
-    "sens": "выдвигать, предлагать (идею, аргумент, сумму денег)",
+    "sens": "отношение, рассмотрение (в выражениях типа sous certains respects)",
     "equivalents": [
-     "выдвигать",
-     "предлагать",
-     "ссужать"
+     "отношение",
+     "аспект",
+     "план"
     ],
     "exemples": [
      {
-      "fr": "Le chercheur a avancé une nouvelle théorie.",
-      "ru": "Исследователь выдвинул новую теорию."
+      "fr": "Sous bien des respects, ce projet est innovant.",
+      "ru": "Во многих отношениях этот проект инновационный."
      },
      {
-      "fr": "Peux-tu m'avancer 50 euros jusqu'à vendredi ?",
-      "ru": "Можешь одолжить мне 50 евро до пятницы?"
-     }
-    ]
-   },
-   {
-    "sens": "переводить часы вперёд",
-    "equivalents": [
-     "переводить вперёд"
-    ],
-    "exemples": [
-     {
-      "fr": "N'oubliez pas d'avancer vos montres d'une heure ce soir.",
-      "ru": "Не забудьте перевести часы на час вперёд сегодня вечером."
-     },
-     {
-      "fr": "On avance l'heure en mars pour le passage à l'heure d'été.",
-      "ru": "В марте переводят часы вперёд для перехода на летнее время."
+      "fr": "À cet égard, il mérite notre respect.",
+      "ru": "В этом плане он заслуживает нашего внимания."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "progresser",
-    "nuance": "только положительная динамика, улучшение; не используется для физического движения"
+    "mot": "considération",
+    "nuance": "более мягкое, подразумевает внимание и учёт мнения другого"
    },
    {
-    "mot": "proposer",
-    "nuance": "для идей и аргументов, нейтральнее чем avancer"
+    "mot": "estime",
+    "nuance": "положительная оценка личности, ближе к «высокому мнению»"
    },
    {
-    "mot": "prêter",
-    "nuance": "для денег; avancer подразумевает временную ссуду до определённого срока"
+    "mot": "obéissance",
+    "nuance": "строгое подчинение правилам, без эмоциональной составляющей уважения"
    }
   ],
   "antonymes": [
-   "reculer",
-   "retarder"
+   "mépris",
+   "irrespect"
   ],
   "formes": {
-   "auxiliaire": "avoir",
-   "present": [
-    "j'avance",
-    "tu avances",
-    "il/elle avance",
-    "nous avançons",
-    "vous avancez",
-    "ils/elles avancent"
-   ],
-   "passe_compose": "j'ai avancé",
-   "imparfait": "j'avançais",
-   "futur": "j'avancerai",
-   "participe_passe": "avancé"
+   "pluriel": "respects"
   },
   "pieges": [
-   "Орфография: перед a/o сохраняется ç для звука [s]: nous avançons, j'avançais (без ç было бы [k]). Перед e/i ç не нужен: j'avance, il avance.",
-   "Может быть переходным (avancer une somme, avancer une idée) и непереходным (avancer dans la rue). Русские эквиваленты разные!",
-   "Не путать с s'avancer (подходить ближе; выступать вперёд; забегать вперёд в выводах). Возвратная форма имеет дополнительные значения."
+   "Предлог после respect зависит от значения: respect de qqch (соблюдение), respect pour/envers qqn (уважение к человеку).",
+   "Во множественном числе respects используется в устойчивых выражениях: présenter ses respects, manquer de respects.",
+   "Произношение: конечная буква t не произносится, но liaison возможна в выражениях типа respects_à rendre [ʁɛs.pɛ.z‿a ʁɑ̃dʁ]."
   ],
   "expressions": [
    {
-    "fr": "avancer à grands pas",
-    "ru": "продвигаться большими шагами, быстро прогрессировать"
+    "fr": "manquer de respect à quelqu’un",
+    "ru": "проявить неуважение к кому-либо"
    },
    {
-    "fr": "ça n'avance à rien",
-    "ru": "это ни к чему не приводит"
+    "fr": "avec tout le respect que je vous dois",
+    "ru": "при всём моём уважении к вам (вежливое введение критики)"
    }
   ],
   "famille": [
    {
-    "mot": "l'avance (f)",
-    "ru": "продвижение; аванс; преимущество"
+    "mot": "respecter",
+    "ru": "уважать; соблюдать"
    },
    {
-    "mot": "avancé(e)",
-    "ru": "продвинутый; передовой"
+    "mot": "respectueux",
+    "ru": "уважительный"
    },
    {
-    "mot": "l'avancement",
-    "ru": "продвижение (по службе); прогресс"
+    "mot": "irrespectueux",
+    "ru": "неуважительный"
+   },
+   {
+    "mot": "respectable",
+    "ru": "достойный уважения"
    }
   ],
-  "frequence": 18368,
+  "frequence": 18705,
   "controle": []
  },
  {
   "rang": 1079,
-  "lemme": "réalité",
-  "mot": "la réalité",
-  "nature": "существительное",
-  "genre": "f",
-  "api": "[ʁe.a.li.te]",
-  "niveau": "B1",
+  "lemme": "rêver",
+  "mot": "rêver",
+  "nature": "глагол",
+  "genre": "-",
+  "api": "[ʁɛ.ve]",
+  "niveau": "A1",
   "sens": [
    {
-    "sens": "действительность, реальность (то, что существует объективно)",
+    "sens": "видеть сны во время сна",
     "equivalents": [
-     "реальность",
-     "действительность"
+     "видеть сон",
+     "сниться"
     ],
     "exemples": [
      {
-      "fr": "La réalité dépasse parfois la fiction.",
-      "ru": "Реальность иногда превосходит вымысел."
+      "fr": "J'ai rêvé de toi cette nuit.",
+      "ru": "Мне приснился ты этой ночью."
      },
      {
-      "fr": "Il refuse d'accepter la réalité de la situation.",
-      "ru": "Он отказывается принять реальность ситуации."
+      "fr": "Les enfants rêvent souvent d'animaux.",
+      "ru": "Дети часто видят сны о животных."
      }
     ]
    },
    {
-    "sens": "конкретный факт, реальное положение вещей",
+    "sens": "мечтать, фантазировать наяву",
     "equivalents": [
-     "факт",
-     "положение вещей",
-     "суть"
+     "мечтать",
+     "фантазировать",
+     "грезить"
     ],
     "exemples": [
      {
-      "fr": "La réalité économique du pays est préoccupante.",
-      "ru": "Экономическое положение страны вызывает беспокойство."
+      "fr": "Elle rêve de devenir chanteuse.",
+      "ru": "Она мечтает стать певицей."
      },
      {
-      "fr": "Il faut tenir compte des réalités locales.",
-      "ru": "Нужно учитывать местные реалии."
+      "fr": "Arrête de rêver et concentre-toi !",
+      "ru": "Хватит витать в облаках, сосредоточься!"
      }
     ]
    },
    {
-    "sens": "в действительности, на самом деле (наречное выражение en réalité)",
+    "sens": "думать, предполагать (часто с отрицанием или вопросом)",
     "equivalents": [
-     "на самом деле",
-     "фактически",
-     "по сути"
+     "думать",
+     "представлять себе"
     ],
     "exemples": [
      {
-      "fr": "En réalité, il n'a jamais visité Paris.",
-      "ru": "На самом деле он никогда не был в Париже."
+      "fr": "Je n'aurais jamais rêvé qu'il viendrait.",
+      "ru": "Я и подумать не мог, что он придёт."
      },
      {
-      "fr": "Elle semblait calme, mais en réalité elle était terrifiée.",
-      "ru": "Она казалась спокойной, но на самом деле была в ужасе."
+      "fr": "Tu rêves ! C'est impossible.",
+      "ru": "Ты бредишь! Это невозможно."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "le réel",
-    "nuance": "более философский/абстрактный термин, часто без артикля"
+    "mot": "songer",
+    "nuance": "литературный синоним, чаще означает «размышлять»"
    },
    {
-    "mot": "la vérité",
-    "nuance": "истина; акцент на правдивости, а не на существовании"
+    "mot": "imaginer",
+    "nuance": "нейтральное «представлять себе»"
    },
    {
-    "mot": "le concret",
-    "nuance": "конкретика, осязаемое; противопоставляется абстрактному"
+    "mot": "aspirer",
+    "nuance": "стремиться, желать (в значении мечты-цели)"
    }
   ],
   "antonymes": [
-   "fiction",
-   "illusion",
-   "rêve"
+   "réaliser",
+   "agir"
   ],
   "formes": {
-   "pluriel": "réalités"
+   "auxiliaire": "avoir",
+   "present": [
+    "je rêve",
+    "tu rêves",
+    "il rêve",
+    "nous rêvons",
+    "vous rêvez",
+    "ils rêvent"
+   ],
+   "passe_compose": "j'ai rêvé",
+   "imparfait": "je rêvais",
+   "futur": "je rêverai",
+   "participe_passe": "rêvé"
   },
   "pieges": [
-   "Род женский: LA réalité (не *le). Окончание -té обычно указывает на женский род (как liberté, beauté), но есть исключения (comté, été).",
-   "Выражение en réalité пишется без артикля и является вводным; ставится в начале предложения или выделяется запятыми.",
-   "Произношение: четыре слога [ʁe.a.li.te], ударение на последний. Не *[ʁja.li.te] (не сливать é-a в один звук)."
+   "Предлоги: rêver DE qqch/qqn (видеть сон о чём-то / мечтать о чём-то) — наиболее частотная конструкция; rêver QUE + indicatif/subjonctif.",
+   "В значении «мечтать» может использоваться без предлога: Je rêve d'une maison (de + артикль сливается в du/des).",
+   "Произношение: è ouvert [ɛ] в корне, сохраняется во всех формах настоящего времени."
   ],
   "expressions": [
    {
-    "fr": "en réalité",
-    "ru": "на самом деле, в действительности"
+    "fr": "faire un rêve",
+    "ru": "видеть сон"
    },
    {
-    "fr": "face à la réalité",
-    "ru": "перед лицом реальности"
+    "fr": "dans tes rêves !",
+    "ru": "мечтай дальше! (иронич.)"
    },
    {
-    "fr": "retour à la réalité",
-    "ru": "возвращение к реальности"
+    "fr": "rêver éveillé",
+    "ru": "витать в облаках, грезить наяву"
    }
   ],
   "famille": [
    {
-    "mot": "réel(le)",
-    "ru": "реальный, настоящий"
+    "mot": "rêve",
+    "ru": "сон, мечта"
    },
    {
-    "mot": "réaliser",
-    "ru": "осуществлять; осознавать"
+    "mot": "rêveur / rêveuse",
+    "ru": "мечтатель / мечтательница"
    },
    {
-    "mot": "réaliste",
-    "ru": "реалистичный; реалист"
-   },
-   {
-    "mot": "la virtualité",
-    "ru": "виртуальность (антоним по смыслу)"
+    "mot": "rêverie",
+    "ru": "грёзы, задумчивость"
    }
   ],
-  "frequence": 18365,
+  "frequence": 18670,
   "controle": []
  },
  {
   "rang": 1080,
-  "lemme": "certainement",
-  "mot": "certainement",
-  "nature": "наречие",
-  "genre": "-",
-  "api": "[sɛʁ.tɛn.mɑ̃]",
-  "niveau": "A2",
+  "lemme": "sergent",
+  "mot": "le sergent",
+  "nature": "существительное",
+  "genre": "m",
+  "api": "[sɛʁ.ʒɑ̃]",
+  "niveau": "B1",
   "sens": [
    {
-    "sens": "несомненно, безусловно, точно (выражает уверенность)",
+    "sens": "воинское звание сержанта (унтер-офицер)",
     "equivalents": [
-     "несомненно",
-     "безусловно",
-     "точно",
-     "определённо"
+     "сержант"
     ],
     "exemples": [
      {
-      "fr": "Il viendra certainement à la fête.",
-      "ru": "Он непременно придёт на праздник."
+      "fr": "Le sergent a donné l’ordre de rassemblement.",
+      "ru": "Сержант отдал приказ построиться."
      },
      {
-      "fr": "C'est certainement la meilleure solution.",
-      "ru": "Это безусловно лучшее решение."
+      "fr": "Il a été promu sergent après trois ans de service.",
+      "ru": "Его произвели в сержанты после трёх лет службы."
      }
     ]
    },
    {
-    "sens": "наверное, вероятно (выражает предположение, менее категорично)",
+    "sens": "звание в полиции или жандармерии (в некоторых странах)",
     "equivalents": [
-     "наверное",
-     "вероятно",
-     "скорее всего"
+     "сержант",
+     "старший полицейский"
     ],
     "exemples": [
      {
-      "fr": "Elle est certainement déjà partie.",
-      "ru": "Она, наверное, уже ушла."
+      "fr": "Le sergent de police a dirigé l’intervention sur place.",
+      "ru": "Полицейский сержант руководил операцией на месте."
      },
      {
-      "fr": "Tu as certainement raison, mais vérifions quand même.",
-      "ru": "Ты, скорее всего, прав, но давай всё же проверим."
-     }
-    ]
-   },
-   {
-    "sens": "в ответ на вопрос: конечно, разумеется",
-    "equivalents": [
-     "конечно",
-     "разумеется",
-     "безусловно"
-    ],
-    "exemples": [
-     {
-      "fr": "— Tu m'aideras ? — Certainement !",
-      "ru": "— Ты мне поможешь? — Конечно!"
-     },
-     {
-      "fr": "Certainement pas ! Je refuse catégoriquement.",
-      "ru": "Ни в коем случае! Я категорически отказываюсь."
+      "fr": "Adressez-vous au sergent pour obtenir plus d’informations.",
+      "ru": "Обратитесь к сержанту за дополнительной информацией."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "sûrement",
-    "nuance": "разговорный регистр; в современном языке часто означает «наверное», а не «точно»"
+    "mot": "sous-officier",
+    "nuance": "общее название категории, к которой относится сержант"
    },
    {
-    "mot": "assurément",
-    "nuance": "более формальный/литературный; подчёркивает абсолютную уверенность"
-   },
-   {
-    "mot": "probablement",
-    "nuance": "только значение вероятности, без уверенности"
+    "mot": "adjudant",
+    "nuance": "более высокое звание в той же категории, не синоним, но смежное понятие"
    }
   ],
-  "antonymes": [
-   "peut-être",
-   "pas du tout"
-  ],
-  "formes": {},
+  "antonymes": [],
+  "formes": {
+   "pluriel": "sergents"
+  },
   "pieges": [
-   "Двузначность: в зависимости от контекста и интонации может означать как «точно» (100% уверенность), так и «наверное» (предположение). В письменной речи при сомнении лучше заменить на assurément (уверенность) или probablement (предположение).",
-   "Не путать с certes (конечно, правда), которое чаще используется в уступительных конструкциях: Certes, il est intelligent, mais... (Он, конечно, умён, но...).",
-   "Произношение: [sɛʁ.tɛn.mɑ̃], nasal [ɛ̃] в середине слова + [mɑ̃] в конце. Не *[sɛʁ.tɛ.nə.mɑ̃] (немое e не произносится)."
+   "Мужской род, но может относиться и к женщине-сержанту: elle est sergent (род слова не меняется, но местоимение женское).",
+   "Произношение: носовой [ɑ̃] в конце, g не произносится отдельно, сочетание ge = [ʒ].",
+   "Не путать с sergeant (английское написание) — во французском нет буквы e после g."
   ],
   "expressions": [
    {
-    "fr": "certainement pas",
-    "ru": "ни в коем случае, отнюдь нет"
+    "fr": "sergent-chef",
+    "ru": "старший сержант (следующее звание)"
+   },
+   {
+    "fr": "sergent recruteur",
+    "ru": "сержант-вербовщик"
    }
   ],
   "famille": [
    {
-    "mot": "certain(e)",
-    "ru": "определённый; уверенный; некий"
+    "mot": "sergent-major",
+    "ru": "сержант-майор (высшее звание в категории сержантов)"
    },
    {
-    "mot": "la certitude",
-    "ru": "уверенность, определённость"
-   },
-   {
-    "mot": "certifier",
-    "ru": "удостоверять, гарантировать"
+    "mot": "serge",
+    "ru": "саржа (тип ткани, этимологически связано, но семантически далеко)"
    }
   ],
-  "frequence": 18354,
+  "frequence": 18625,
   "controle": []
  }
 ]

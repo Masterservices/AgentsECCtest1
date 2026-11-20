@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Étend frequence.json (lemmes français par fréquence, sous-titres OpenSubtitles 2018 via FrequencyWords) sans toucher aux rangs déjà publiés.
 
-Usage : frequence.py [TOTAL=11000]
+Usage : frequence.py [TOTAL=11000] [GELES=1000]   (GELES = rangs déjà publiés, conservés tels quels)
 Les entrées existantes gardent leur rang ; les nouveaux lemmes (simplemma) sont ajoutés à la suite, après nettoyage :
 noms propres et mots inconnus du dictionnaire écartés (sauf interjections usuelles), formes verbales à trait d'union
 (« dis-moi ») ramenées au verbe, fusions manuelles (FUSION), exclusions manuelles (EXCLURE).
@@ -18,7 +18,7 @@ ICI = Path(__file__).resolve().parent
 EXCLURE = set("""jack john sam york new charlie michael you david tom joe mike frank george peter paul max the ii ie ll l c h t fbi dr mr
 mme mlle pos ia okay est-ce marie pierre paris jean louis nick henry martin simon victor alex ben lucas daniel thomas jacques
 of and to it is in what my your it's don't i'm that this we are be go yes mark tommy charles eric carter william mac dan r km choir
-voiler""".split())
+voiler henry james alex danny bob jimmy jane bill sarah nick will tony mary harry jim richard ray robert vis""".split())
 GARDER = set("ouais hé hein ah oh euh bah bon chut aïe ouf waouh salut coucou ok".split())
 FUSION = {"copiner": "copine", "saurer": "savoir", "priser": "prise", "soeur": "sœur", "ecoute": "écouter", "ecoutez": "écouter",
           "écoute": "écouter", "sors": "sortir", "joue": "jouer", "mets": "mettre", "bouge": "bouger", "oublie": "oublier",
@@ -32,7 +32,9 @@ FUSION = {"copiner": "copine", "saurer": "savoir", "priser": "prise", "soeur": "
           "laissée": "laisser", "attrape": "attraper", "laisse": "laisser", "normale": "normal", "habillé": "habiller",
           "tenu": "tenir", "oeuf": "œuf", "cesse": "cesser", "connu": "connaître", "engagé": "engager", "élevé": "élever",
           "énervé": "énerver", "déçu": "décevoir", "lis": "lire",
-          "embrassé": "embrasser", "rêvé": "rêver", "rompu": "rompre", "fiancée": "fiancé", "trompe": "tromper"}
+          "embrassé": "embrasser", "rêvé": "rêver", "rompu": "rompre", "fiancée": "fiancé", "trompe": "tromper",
+          "ouvrer": "ouvrir", "frappé": "frapper", "couché": "coucher", "vécu": "vivre", "raté": "rater", "caché": "cacher",
+          "réfléchi": "réfléchir"}
 FIGES = {"peut-être", "aujourd'hui", "là-bas", "là-dedans", "rendez-vous", "celui-là", "celui-ci", "moi-même", "lui-même"}
 PRONOMS = ("-t-il", "-moi", "-toi", "-y", "-vous", "-elle", "-il", "-nous", "-je", "-tu", "-on", "-le", "-la", "-les", "-lui", "-en")
 
@@ -58,7 +60,8 @@ def main():
             continue
         cnt[l] += int(n)
         formes[l][w] += int(n)
-    liste = json.loads((ICI / "frequence.json").read_text(encoding="utf-8"))
+    geles = int(sys.argv[2]) if len(sys.argv) > 2 else 1000
+    liste = json.loads((ICI / "frequence.json").read_text(encoding="utf-8"))[:geles]
     deja = {x["lemme"] for x in liste}
     for l, n in cnt.most_common():
         if len(liste) >= total:
