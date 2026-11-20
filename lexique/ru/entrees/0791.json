@@ -7,11 +7,11 @@
   "niveau": "B1",
   "sens": [
    {
-    "sens": "Femme distinguée par ses manières, son éducation ou son statut social",
+    "sens": "Femme distinguée, élégante ou de bonne éducation",
     "equivalents": [
      "dame",
      "madame",
-     "lady"
+     "femme du monde"
     ],
     "exemples": [
      {
@@ -19,25 +19,25 @@
       "fr": "Elle se comporte comme une vraie dame."
      },
      {
-      "ru": "Ле́ди всегда́ остаётся ле́ди.",
-      "fr": "Une dame reste toujours une dame."
+      "ru": "Ле́ди всегда́ остаётся споко́йной в тру́дных ситуа́циях.",
+      "fr": "Une dame reste toujours calme dans les situations difficiles."
      }
     ]
    },
    {
-    "sens": "Terme de politesse pour s'adresser à une femme (souvent ironique ou emprunté à l'anglais)",
+    "sens": "Titre de politesse pour une femme (anglicisme)",
     "equivalents": [
      "madame",
-     "mademoiselle"
+     "demoiselle"
     ],
     "exemples": [
      {
-      "ru": "Извини́те, ле́ди, вы не подска́жете вре́мя?",
-      "fr": "Excusez-moi, madame, vous ne pourriez pas me dire l'heure ?"
+      "ru": "Уважа́емая ле́ди, ваш сто́лик гото́в.",
+      "fr": "Chère madame, votre table est prête."
      },
      {
-      "ru": "Эй, ле́ди, осторо́жнее!",
-      "fr": "Hé, madame, faites attention !"
+      "ru": "Эта ле́ди ждёт вас у вхо́да.",
+      "fr": "Cette dame vous attend à l'entrée."
      }
     ]
    }
@@ -45,11 +45,11 @@
   "synonymes": [
    {
     "mot": "да́ма",
-    "nuance": "Plus courant et neutre en russe moderne ; moins marqué par l'emprunt anglais"
+    "nuance": "Plus courant et neutre en russe moderne"
    },
    {
-    "mot": "ба́рышня",
-    "nuance": "Archaïque ou historique ; jeune fille noble avant la révolution"
+    "mot": "госпожа́",
+    "nuance": "Plus formel, parfois archaïque ou officiel"
    }
   ],
   "antonymes": [],
@@ -76,13 +76,17 @@
   },
   "pieges": [
    "Mot indéclinable : toutes les formes sont identiques au nominatif singulier.",
-   "Emprunt récent à l'anglais « lady » ; peut avoir une connotation ironique ou affectée selon le contexte.",
-   "Ne pas confondre avec да́ма, qui est le terme standard pour « dame » en russe."
+   "Emprunt à l'anglais 'lady' : ne pas confondre avec le sens péjoratif que peut avoir 'дама' dans certains contextes familiers.",
+   "Accent fixe sur la première syllabe, contrairement à beaucoup de mots russes féminins."
   ],
   "expressions": [
    {
+    "ru": "пе́рвая ле́ди",
+    "fr": "première dame (épouse du chef d'État)"
+   },
+   {
     "ru": "ле́ди и джентльме́ны",
-    "fr": "mesdames et messieurs (calque de l'anglais)"
+    "fr": "mesdames et messieurs"
    }
   ],
   "famille": [],
@@ -97,11 +101,13 @@
   "mot": "хвата́ть",
   "api": "[xvɐˈtatʲ]",
   "niveau": "A2",
-  "aspect": "imperfectif",
-  "paire": "хвати́ть",
+  "aspect": {
+   "type": "imperfectif",
+   "paire": "хвати́ть"
+  },
   "sens": [
    {
-    "sens": "Saisir brusquement quelque chose avec la main",
+    "sens": "Saisir brusquement avec la main",
     "equivalents": [
      "attraper",
      "saisir",
@@ -109,12 +115,12 @@
     ],
     "exemples": [
      {
-      "ru": "Он хвата́ет кни́гу со стола́.",
-      "fr": "Il attrape le livre sur la table."
+      "ru": "Он хвата́ет меня́ за ру́ку.",
+      "fr": "Il m'attrape par la main."
      },
      {
-      "ru": "Не хвата́й меня́ за ру́ку!",
-      "fr": "Ne m'agrippe pas le bras !"
+      "ru": "Не хвата́й горя́чую сковоро́дку голо́й руко́й!",
+      "fr": "Ne saisis pas la poêle chaude à main nue !"
      }
     ]
    },
@@ -122,55 +128,50 @@
     "sens": "Prendre rapidement ou sans permission",
     "equivalents": [
      "prendre",
-     "chipper",
-     "s'emparer de"
+     "chiper",
+     "rafler"
     ],
     "exemples": [
      {
-      "ru": "Дети хвата́ют конфеты́ без спро́са.",
-      "fr": "Les enfants chipent des bonbons sans demander."
+      "ru": "Де́ти хвата́ют конфе́ты со стола́.",
+      "fr": "Les enfants chipent des bonbons sur la table."
      },
      {
-      "ru": "Она́ хвата́ет всё, что попадается под ру́ку.",
-      "fr": "Elle s'empare de tout ce qui lui tombe sous la main."
+      "ru": "Он хвата́ет всё, что попадается под ру́ку.",
+      "fr": "Il prend tout ce qui lui tombe sous la main."
      }
     ]
    },
    {
-    "sens": "(Impersonnel) Suffire, être suffisant (uniquement avec хватит/хватало)",
+    "sens": "Être suffisant (impersonnel, souvent avec не)",
     "equivalents": [
      "suffire",
-     "être assez"
+     "manquer"
     ],
     "exemples": [
      {
-      "ru": "Де́нег хвата́ло на всю неде́лю.",
-      "fr": "L'argent suffisait pour toute la semaine."
+      "ru": "Мне не хвата́ет вре́мени на рабо́ту.",
+      "fr": "Je manque de temps pour le travail."
      },
      {
-      "ru": "Ему́ хвата́ет вре́мени на всё.",
-      "fr": "Il a assez de temps pour tout."
+      "ru": "Э́того хва́тает на всех.",
+      "fr": "Cela suffit pour tout le monde."
      }
     ]
    }
   ],
   "synonymes": [
    {
+    "mot": "лови́ть",
+    "nuance": "Attraper quelque chose en mouvement (balle, poisson)"
+   },
+   {
     "mot": "бра́ть",
-    "nuance": "Plus neutre et général ; sans notion de brusquerie"
-   },
-   {
-    "mot": "схва́тывать",
-    "nuance": "Plus littéraire ; insiste sur la rapidité du geste"
-   },
-   {
-    "mot": "зацепля́ть",
-    "nuance": "Accrocher, attraper au passage ; mouvement latéral"
+    "nuance": "Prendre de manière neutre, sans brusquerie"
    }
   ],
   "antonymes": [
-   "отпуска́ть",
-   "броса́ть"
+   "отпуска́ть"
   ],
   "formes": {
    "present": {
@@ -193,32 +194,28 @@
    }
   },
   "pieges": [
-   "Le sens impersonnel « suffire » n'existe qu'à la 3e personne (хватает/хватало/будет хватать) ; ne jamais dire « я хватаю » pour « j'ai assez ».",
-   "Accent fixe sur la deuxième syllabe dans toutes les formes conjuguées.",
-   "Ne pas confondre avec хвати́ть (perfectif), qui signifie aussi « suffire » mais ponctuellement."
+   "Au sens impersonnel 'être suffisant', le sujet logique est au datif (мне не хватает), pas au nominatif.",
+   "Ne pas confondre с 'хватить' (perfectif) qui signifie aussi 'arrêter, cesser' en langage familier (Хватит! = Ça suffit !).",
+   "L'accent est toujours sur la deuxième syllabe dans toutes les formes conjuguées."
   ],
   "expressions": [
    {
-    "ru": "хвата́ть за ду́шу",
-    "fr": "prendre aux tripes, émouvoir profondément"
+    "ru": "хвата́ть за се́рдце",
+    "fr": "serrer le cœur, émouvoir profondément"
    },
    {
-    "ru": "хвата́ть звёзды с не́ба",
-    "fr": "décrocher la lune (faire des choses extraordinaires)"
+    "ru": "хвата́ться за соло́минку",
+    "fr": "se raccrocher à un brin de paille"
    }
   ],
   "famille": [
    {
-    "mot": "хвати́ть",
-    "fr": "attraper (perfectif) / suffire"
+    "mot": "хва́тка",
+    "fr": "prise, étreinte"
    },
    {
-    "mot": "хвате́й",
-    "fr": "type débrouillard, audacieux (familier)"
-   },
-   {
-    "mot": "нехва́тка",
-    "fr": "manque, pénurie"
+    "mot": "схва́тывать",
+    "fr": "comprendre vite, saisir (au figuré)"
    }
   ],
   "nature": "verbe",
@@ -229,7 +226,7 @@
  {
   "rang": 793,
   "lemme": "результат",
-  "mot": "результáт",
+  "mot": "результа́т",
   "api": "[rʲɪzʊlʲˈtat]",
   "niveau": "A2",
   "sens": [
@@ -242,48 +239,30 @@
     ],
     "exemples": [
      {
-      "ru": "Результáт экза́мена был неожи́данным.",
+      "ru": "Результа́т экза́мена был неожи́данным.",
       "fr": "Le résultat de l'examen était inattendu."
      },
      {
-      "ru": "Мы ждём результáтов иссле́дования.",
-      "fr": "Nous attendons les résultats de l'étude."
+      "ru": "Мы дожда́лись результа́та перегово́ров.",
+      "fr": "Nous avons attendu le résultat des négociations."
      }
     ]
    },
    {
-    "sens": "Score ou performance dans une compétition sportive",
+    "sens": "Score ou performance mesurable (sport, test)",
     "equivalents": [
      "score",
      "performance",
-     "marque"
+     "note"
     ],
     "exemples": [
      {
-      "ru": "Комáнда показа́ла лу́чший результáт сезо́на.",
-      "fr": "L'équipe a montré le meilleur score de la saison."
+      "ru": "Его́ результа́т в бе́ге — но́вый реко́рд.",
+      "fr": "Son résultat en course est un nouveau record."
      },
      {
-      "ru": "Его́ личнýй результáт — 10 секу́нд.",
-      "fr": "Son record personnel est de 10 secondes."
-     }
-    ]
-   },
-   {
-    "sens": "Efficacité tangible d'un effort (souvent au pluriel)",
-    "equivalents": [
-     "fruit",
-     "effet",
-     "succès"
-    ],
-    "exemples": [
-     {
-      "ru": "Его́ тру́д дал свои́ результáты.",
-      "fr": "Son travail a porté ses fruits."
-     },
-     {
-      "ru": "Без результáта нет смы́сла продолжа́ть.",
-      "fr": "Sans succès, cela n'a pas de sens de continuer."
+      "ru": "Покажи́те мне ва́ши результа́ты тести́рования.",
+      "fr": "Montrez-moi vos résultats de test."
      }
     ]
    }
@@ -291,79 +270,66 @@
   "synonymes": [
    {
     "mot": "ито́г",
-    "nuance": "Bilan final, somme totale ; plus formel et synthétique"
+    "nuance": "Bilan final, somme totale (plus abstrait)"
    },
    {
-    "mot": "последствие",
-    "nuance": "Conséquence (souvent négative ou involontaire)"
-   },
-   {
-    "mot": "достиже́ние",
-    "nuance": "Réussite, accomplissement positif"
+    "mot": "исхо́д",
+    "nuance": "Issue, dénouement (souvent dramatique ou incertain)"
    }
   ],
   "antonymes": [
-   "процесс",
-   "нача́ло"
+   "проце́сс"
   ],
   "formes": {
    "genre": "m",
    "declinaison": {
     "singulier": {
-     "nominatif": "результáт",
-     "genitif": "результáта",
-     "datif": "результáту",
-     "accusatif": "результáт",
-     "instrumental": "результáтом",
-     "prepositionnel": "результáте"
+     "nominatif": "результа́т",
+     "genitif": "результа́та",
+     "datif": "результа́ту",
+     "accusatif": "результа́т",
+     "instrumental": "результа́том",
+     "prepositionnel": "результа́те"
     },
     "pluriel": {
-     "nominatif": "результáты",
-     "genitif": "результáтов",
-     "datif": "результáтам",
-     "accusatif": "результáты",
-     "instrumental": "результáтами",
-     "prepositionnel": "результáтах"
+     "nominatif": "результа́ты",
+     "genitif": "результа́тов",
+     "datif": "результа́там",
+     "accusatif": "результа́ты",
+     "instrumental": "результа́тами",
+     "prepositionnel": "результа́тах"
     }
    }
   },
   "pieges": [
-   "Accent fixe sur la dernière syllabe (-áт) dans toutes les formes déclinées.",
-   "Faux ami partiel : ne signifie jamais « résumé » (pour cela, utiliser ито́г ou резюме́).",
-   "Au génitif pluriel, forme régulière -ов (результáтов), pas de forme zéro."
+   "Accent fixe sur la dernière syllabe, contrairement au français 'résultat'.",
+   "Faux ami partiel : ne s'emploie pas pour désigner une 'décision' (utiliser 'решение').",
+   "Au pluriel génitif, forme régulière en -ов (pas de chute de voyelle)."
   ],
   "expressions": [
    {
-    "ru": "в результáте",
-    "fr": "en fin de compte, finalement"
-   },
-   {
-    "ru": "без результáта",
+    "ru": "без результа́та",
     "fr": "sans résultat, en vain"
    },
    {
-    "ru": "достига́ть результáта",
-    "fr": "obtenir un résultat, aboutir"
+    "ru": "дости́чь результа́та",
+    "fr": "obtenir un résultat"
    }
   ],
   "famille": [
    {
-    "mot": "результати́вный",
-    "fr": "efficace, productif"
+    "mot": "результа́тный",
+    "fr": "qui donne des résultats, efficace"
    },
    {
-    "mot": "результáтивность",
+    "mot": "результати́вность",
     "fr": "efficacité, productivité"
    }
   ],
   "nature": "nom",
   "frequence": 17863,
-  "translit": "rezoultát",
-  "controle": [
-   "mot différent de la forme de base",
-   "accent manquant",
-   "formes douteuses : результáт, результáта, результáту"
-  ]
+  "translit": "rezoultAt",
+  "controle": []
  },
  {
   "rang": 794,
@@ -371,20 +337,22 @@
   "mot": "вспо́мнить",
   "api": "[ˈfspomnʲɪtʲ]",
   "niveau": "A2",
-  "aspect": "perfectif",
-  "paire": "вспомина́ть",
+  "aspect": {
+   "type": "perfectif",
+   "paire": "вспомина́ть"
+  },
   "sens": [
    {
-    "sens": "Revenir mentalement à un fait ou une image du passé",
+    "sens": "Se rappeler quelque chose, retrouver en mémoire",
     "equivalents": [
      "se souvenir de",
      "se rappeler",
-     "revoir en mémoire"
+     "retrouver"
     ],
     "exemples": [
      {
-      "ru": "Я вспо́мнил её и́мя.",
-      "fr": "Je me suis souvenu de son nom."
+      "ru": "Я вдруг вспо́мнил её и́мя.",
+      "fr": "J'ai soudain retrouvé son nom."
      },
      {
       "ru": "Вспо́мни, где ты положи́л ключи́.",
@@ -393,53 +361,36 @@
     ]
    },
    {
-    "sens": "Évoquer quelqu'un ou quelque chose par la parole ou la pensée",
+    "sens": "Évoquer quelqu'un ou quelque chose par la pensée",
     "equivalents": [
-     "mentionner",
+     "penser à",
      "évoquer",
-     "citer"
+     "mentionner"
     ],
     "exemples": [
      {
-      "ru": "Он вспо́мнил ста́рого дру́га в разгово́ре.",
-      "fr": "Il a évoqué un vieil ami dans la conversation."
+      "ru": "Он ча́сто вспомина́ет свои́х друзе́й.",
+      "fr": "Il pense souvent à ses amis."
      },
      {
-      "ru": "Дава́й не бу́дем вспомина́ть э́то.",
-      "fr": "Ne parlons plus de ça."
-     }
-    ]
-   },
-   {
-    "sens": "Retrouver une information oubliée après un effort mental",
-    "equivalents": [
-     "retrouver",
-     "se remémorer"
-    ],
-    "exemples": [
-     {
-      "ru": "Наконе́ц-то я вспо́мнил паро́ль.",
-      "fr": "J'ai enfin retrouvé le mot de passe."
-     },
-     {
-      "ru": "Она́ долго вспомина́ла пра́вильный отве́т.",
-      "fr": "Elle a longtemps cherché la bonne réponse dans sa mémoire."
+      "ru": "Дава́йте вспо́мним ста́рые времена́.",
+      "fr": "Évoquons le bon vieux temps."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "помни́ть",
-    "nuance": "État durable de mémoire (imperfectif statif) ; ne marque pas l'acte de retrieval"
+    "mot": "забы́ть",
+    "nuance": "Antonyme direct, mais parfois utilisé ironiquement"
    },
    {
-    "mot": "запо́мнить",
-    "nuance": "Mémoriser, enregistrer en mémoire (entrée, pas sortie)"
+    "mot": "припомина́ть",
+    "nuance": "Se souvenir vaguement, avec effort"
    }
   ],
   "antonymes": [
-   "забы́ть"
+   "забыва́ть"
   ],
   "formes": {
    "present": {
@@ -462,36 +413,28 @@
    }
   },
   "pieges": [
-   "Verbe perfectif : les formes du présent ont valeur de futur simple.",
-   "Régime direct en accusatif (вспомнить кого? что?) ; ne jamais utiliser de préposition « о » avec вспомнить (c'est вспомина́ть о + prép.).",
-   "Accent tonique toujours sur la première syllabe (вспо́-) dans toutes les formes."
+   "Verbe perfectif : n'a pas de présent ; les formes données sont celles du futur simple.",
+   "Régime : + accusatif (вспомнить имя) ou + о/об + prépositionnel (вспомнить о друге).",
+   "Accent mobile : accent sur la racine au passé et à l'impératif, mais sur la terminaison à l'imperfectif (вспомина́ть)."
   ],
   "expressions": [
    {
-    "ru": "вспо́мнить до́брое сло́во",
-    "fr": "dire un mot gentil en souvenir de quelqu'un"
+    "ru": "вспо́мнить до́брым сло́вом",
+    "fr": "évoquer avec bienveillance"
    },
    {
-    "ru": "как вспо́мню",
-    "fr": "quand j'y pense, en y repensant"
+    "ru": "как ни вспо́мни",
+    "fr": "aussitôt dit, aussitôt fait (expression figée rare)"
    }
   ],
   "famille": [
    {
-    "mot": "вспомина́ть",
-    "fr": "se souvenir (imperfectif)"
-   },
-   {
-    "mot": "помина́ть",
-    "fr": "commémorer, mentionner (religieux ou solennel)"
+    "mot": "воспомина́ние",
+    "fr": "souvenir, mémoire"
    },
    {
     "mot": "па́мять",
     "fr": "mémoire"
-   },
-   {
-    "mot": "воспомина́ние",
-    "fr": "souvenir (nom)"
    }
   ],
   "nature": "verbe",
@@ -505,33 +448,35 @@
   "mot": "закры́ть",
   "api": "[zɐˈkrɨtʲ]",
   "niveau": "A1",
-  "aspect": "perfectif",
-  "paire": "закрыва́ть",
+  "aspect": {
+   "type": "perfectif",
+   "paire": "закрыва́ть"
+  },
   "sens": [
    {
-    "sens": "Fermer un objet ouvert (porte, fenêtre, livre, yeux)",
+    "sens": "Fermer physiquement (porte, fenêtre, livre)",
     "equivalents": [
      "fermer",
-     "refermer",
-     "clore"
+     "clore",
+     "refermer"
     ],
     "exemples": [
      {
-      "ru": "Закры́й дверь, пожа́луйста.",
-      "fr": "Ferme la porte, s'il te plaît."
+      "ru": "Закры́й окно́, холо́дно.",
+      "fr": "Ferme la fenêtre, il fait froid."
      },
      {
-      "ru": "Она́ закры́ла кни́гу и встала́.",
-      "fr": "Elle a fermé le livre et s'est levée."
+      "ru": "Он закры́л кни́гу и поло́жил на стол.",
+      "fr": "Il a fermé le livre et l'a posé sur la table."
      }
     ]
    },
    {
-    "sens": "Cesser une activité ou un service définitivement ou temporairement",
+    "sens": "Cesser une activité ou un établissement",
     "equivalents": [
      "fermer",
      "clôturer",
-     "arrêter"
+     "liquider"
     ],
     "exemples": [
      {
@@ -539,26 +484,26 @@
       "fr": "Le magasin a été fermé pour travaux."
      },
      {
-      "ru": "Програ́мму закры́ли из-за недоста́тка финанси́рования.",
-      "fr": "Le programme a été arrêté faute de financement."
+      "ru": "Компа́нию закры́ли из-за долгов.",
+      "fr": "L'entreprise a été liquidée à cause de dettes."
      }
     ]
    },
    {
-    "sens": "Couvrir, boucher une ouverture ou un espace",
+    "sens": "Couvrir, boucher (accès, vue)",
     "equivalents": [
      "boucher",
-     "obturer",
-     "recouvrir"
+     "obstruer",
+     "masquer"
     ],
     "exemples": [
      {
-      "ru": "Нужно́ закры́ть дыру́ в стене́.",
-      "fr": "Il faut boucher le trou dans le mur."
+      "ru": "Дере́во закры́ло вид на мо́ре.",
+      "fr": "L'arbre a masqué la vue sur la mer."
      },
      {
-      "ru": "Облака́ закры́ли со́лнце.",
-      "fr": "Les nuages ont recouvert le soleil."
+      "ru": "Закры́й рот, когда́ ешь!",
+      "fr": "Ferme la bouche quand tu manges !"
      }
     ]
    }
@@ -566,20 +511,15 @@
   "synonymes": [
    {
     "mot": "затвори́ть",
-    "nuance": "Plus littéraire ou archaïque ; surtout pour portes et fenêtres"
+    "nuance": "Plus littéraire ou solennel (portes, yeux)"
    },
    {
     "mot": "прикры́ть",
-    "nuance": "Fermer partiellement, entrouvrir puis refermer légèrement"
-   },
-   {
-    "mot": "перекры́ть",
-    "nuance": "Bloquer, barrer (route, accès) ; couper un flux"
+    "nuance": "Fermer partiellement ou temporairement"
    }
   ],
   "antonymes": [
-   "откры́ть",
-   "раскры́ть"
+   "откры́ть"
   ],
   "formes": {
    "present": {
@@ -602,40 +542,28 @@
    }
   },
   "pieges": [
-   "Verbe perfectif : les formes du présent ont valeur de futur.",
-   "Accent mobile : au passé masculin et infinitif sur -ы́-, ailleurs sur -о́- (закро́ю, но закры́л).",
-   "Ne pas confondre avec крыть (couvrir, toit) ; закрыть implique l'achèvement de la fermeture."
+   "Verbe perfectif : les formes du 'présent' sont en réalité le futur simple.",
+   "Accent irrégulier : accent sur la terminaison au futur et à l'impératif, mais sur la racine au passé masculin.",
+   "Ne pas confondre avec 'закрыва́ть' (imperfectif) qui décrit le processus de fermeture."
   ],
   "expressions": [
    {
     "ru": "закры́ть глаза́ на что-либо",
-    "fr": "fermer les yeux sur quelque chose (tolérer, ignorer)"
+    "fr": "fermer les yeux sur quelque chose"
    },
    {
     "ru": "закры́ть вопро́с",
     "fr": "clore le débat, régler la question"
-   },
-   {
-    "ru": "закры́ть рот кому́-либо",
-    "fr": "faire taire quelqu'un (familier)"
    }
   ],
   "famille": [
-   {
-    "mot": "закрыва́ть",
-    "fr": "fermer (imperfectif)"
-   },
    {
     "mot": "кры́шка",
     "fr": "couvercle"
    },
    {
-    "mot": "закры́тие",
-    "fr": "fermeture, clôture"
-   },
-   {
     "mot": "закры́тый",
-    "fr": "fermé, clos (adjectif)"
+    "fr": "fermé, clos"
    }
   ],
   "nature": "verbe",
@@ -651,7 +579,7 @@
   "niveau": "A2",
   "sens": [
    {
-    "sens": "Qui a le plus d'âge parmi un groupe (frère, sœur, enfant)",
+    "sens": "Plus âgé (dans une fratrie ou un groupe)",
     "equivalents": [
      "aîné",
      "plus âgé",
@@ -663,44 +591,43 @@
       "fr": "Mon frère aîné vit à Moscou."
      },
      {
-      "ru": "Ста́ршая дочь уже́ студе́нтка.",
-      "fr": "La fille aînée est déjà étudiante."
+      "ru": "Ста́ршая дочь уже́ замужем.",
+      "fr": "La fille aînée est déjà mariée."
      }
     ]
    },
    {
-    "sens": "Qui occupe un rang supérieur dans une hiérarchie professionnelle ou militaire",
+    "sens": "Supérieur hiérarchique ou en grade",
     "equivalents": [
      "supérieur",
-     "principal",
-     "senior"
+     "chef",
+     "principal"
     ],
     "exemples": [
      {
-      "ru": "Ста́рший инжене́р провёл совеща́ние.",
-      "fr": "L'ingénieur principal a dirigé la réunion."
+      "ru": "Обра́титесь к ста́ршему менедж́еру.",
+      "fr": "Adressez-vous au manager supérieur."
      },
      {
-      "ru": "Обрати́тесь к ста́ршему по зва́нию.",
-      "fr": "Adressez-vous au supérieur en grade."
+      "ru": "Ста́рший лейтена́нт отда́л прика́з.",
+      "fr": "Le lieutenant principal a donné l'ordre."
      }
     ]
    },
    {
-    "sens": "Personne responsable d'un groupe ou d'une unité (substantivé)",
+    "sens": "Personne âgée (substantivé, respectueux)",
     "equivalents": [
-     "chef",
-     "responsable",
-     "superviseur"
+     "personne âgée",
+     "ancien"
     ],
     "exemples": [
      {
-      "ru": "Ста́рший приказа́л всем собра́ться.",
-      "fr": "Le chef a ordonné à tous de se rassembler."
+      "ru": "Надо уважа́ть ста́рших.",
+      "fr": "Il faut respecter les personnes âgées."
      },
      {
-      "ru": "Кто здесь ста́рший?",
-      "fr": "Qui est le responsable ici ?"
+      "ru": "Ста́ршие рассказа́ли нам исто́рию села́.",
+      "fr": "Les anciens nous ont raconté l'histoire du village."
      }
     ]
    }
@@ -708,16 +635,15 @@
   "synonymes": [
    {
     "mot": "гла́вный",
-    "nuance": "Principal, central ; hiérarchie fonctionnelle plutôt qu'âge"
+    "nuance": "Principal, chef (hiérarchie fonctionnelle)"
    },
    {
-    "mot": "пе́рвый",
-    "nuance": "Premier dans l'ordre chronologique ou de priorité"
+    "mot": "пожило́й",
+    "nuance": "Âgé (adjectif descriptif, pas de notion de rang)"
    }
   ],
   "antonymes": [
-   "мла́дший",
-   "подчи́нённый"
+   "мла́дший"
   ],
   "formes": {
    "nominatif_m": "ста́рший",
@@ -727,18 +653,18 @@
    "forme_courte_m": null
   },
   "pieges": [
-   "Adjectif substantivable : peut fonctionner comme nom (ста́рший = le chef/l'aîné).",
-   "Ne pas confondre avec ста́рый (vieux) ; ста́рший indique la position relative, pas l'âge absolu.",
-   "Déclinaison adjectivale régulière ; accent fixe sur la première syllabe."
+   "Adjectif comparatif lexicalisé : n'a pas de degrés de comparaison réguliers (pas de 'более старший').",
+   "Peut être substantivé (ста́рший = l'aîné, le supérieur) : attention au contexte.",
+   "Ne pas confondre avec 'старе́йший' (le plus ancien historiquement) ni 'стари́к' (vieillard, parfois péjoratif)."
   ],
   "expressions": [
    {
-    "ru": "ста́рший бра́т / ста́ршая сестра́",
-    "fr": "frère aîné / sœur aînée"
+    "ru": "ста́рший по зва́нию",
+    "fr": "supérieur en grade"
    },
    {
-    "ru": "ста́рший по зва́нию",
-    "fr": "supérieur en grade (militaire)"
+    "ru": "уважа́ть ста́рших",
+    "fr": "respecter les aînés / les personnes âgées"
    }
   ],
   "famille": [
@@ -747,16 +673,8 @@
     "fr": "vieux, ancien"
    },
    {
-    "mot": "старѣ́ть",
-    "fr": "vieillir"
-   },
-   {
-    "mot": "старшинство́",
-    "fr": "ancienneté, préséance"
-   },
-   {
-    "mot": "мла́дший",
-    "fr": "cadet, plus jeune (antonyme)"
+    "mot": "староста́",
+    "fr": "doyen, responsable (de groupe)"
    }
   ],
   "nature": "nom",
@@ -768,60 +686,42 @@
   "rang": 797,
   "lemme": "неплохо",
   "mot": "непло́хо",
-  "api": "[nʲɪˈploxo]",
-  "niveau": "B1",
+  "api": "[nʲɪˈpɫoxə]",
+  "niveau": "A2",
   "sens": [
    {
-    "sens": "D'une manière satisfaisante, acceptable, plutôt bien",
+    "sens": "Assez bien, de manière satisfaisante",
     "equivalents": [
      "pas mal",
      "assez bien",
-     "correctement"
+     "convenablement"
     ],
     "exemples": [
      {
       "ru": "Он непло́хо говори́т по-францу́зски.",
-      "fr": "Il parle pas mal français."
+      "fr": "Il parle assez bien français."
      },
      {
-      "ru": "Фильм оказа́лся непло́хо сня́т.",
-      "fr": "Le film s'est révélé plutôt bien réalisé."
+      "ru": "Мы непло́хо провели́ вре́мя.",
+      "fr": "Nous avons passé un bon moment."
      }
     ]
    },
    {
-    "sens": "Dans une mesure appréciable, considérablement (avec verbes de quantité ou d'intensité)",
+    "sens": "Pas mauvais, acceptable (évaluation positive atténuée)",
     "equivalents": [
-     "bien",
-     "joliment",
-     "sérieusement"
+     "pas mauvais",
+     "correct",
+     "honorable"
     ],
     "exemples": [
      {
-      "ru": "Мы непло́хо зарабо́тали в э́том ме́сяце.",
-      "fr": "Nous avons bien gagné ce mois-ci."
+      "ru": "Э́то непло́хо для нача́ла.",
+      "fr": "Ce n'est pas mal pour un début."
      },
      {
-      "ru": "Она́ непло́хо разбира́ется в те́хнике.",
-      "fr": "Elle s'y connaît sérieusement en technique."
-     }
-    ]
-   },
-   {
-    "sens": "Formule d'approbation modérée ou de concession polie",
-    "equivalents": [
-     "pas si mal",
-     "acceptable",
-     "correct"
-    ],
-    "exemples": [
-     {
-      "ru": "— Как дела́? — Непло́хо, спасибо́.",
-      "fr": "« Comment vas-tu ? » « Pas mal, merci. »"
-     },
-     {
-      "ru": "Для нача́ла совсе́м непло́хо.",
-      "fr": "Pour un début, c'est tout à fait correct."
+      "ru": "Зарабо́ток непло́хо, но могло́ бы быть лу́чше.",
+      "fr": "Le salaire est correct, mais ça pourrait être mieux."
      }
     ]
    }
@@ -829,49 +729,36 @@
   "synonymes": [
    {
     "mot": "хорошо́",
-    "nuance": "Plus positif et affirmatif ; absence de litote"
+    "nuance": "Plus positif et affirmatif"
    },
    {
-    "mot": "доста́точно",
-    "nuance": "Suffisamment ; insiste sur la quantité plutôt que la qualité"
-   },
-   {
-    "mot": "сно́сно",
-    "nuance": "Tolérable, passable ; nuance plus faible voire péjorative"
+    "mot": "норма́льно",
+    "nuance": "Plus neutre, familier"
    }
   ],
   "antonymes": [
-   "пло́хо",
-   "скве́рно"
+   "пло́хо"
   ],
   "formes": {},
   "pieges": [
-   "Litote : signifie littéralement « pas mal », donc moins fort que хорошо́ ; ne pas traduire systématiquement par « bien ».",
-   "Adverbe invariable ; ne s'accorde jamais.",
-   "Peut exprimer une réserve implicite selon l'intonation ; à l'oral, vérifier le contexte émotionnel."
+   "Litote russe très fréquente : exprime souvent une appréciation positive modérée, pas une critique.",
+   "Ne pas traduire systématiquement par 'pas mal' en français : selon le contexte, 'assez bien' est plus fidèle.",
+   "Invariable : ne s'accorde jamais (adverbe)."
   ],
   "expressions": [
    {
     "ru": "совсе́м непло́хо",
     "fr": "vraiment pas mal, plutôt bien"
-   },
-   {
-    "ru": "для нача́ла непло́хо",
-    "fr": "pour un début, c'est correct"
    }
   ],
   "famille": [
    {
-    "mot": "пло́хо",
-    "fr": "mal, mauvais (adverbe)"
-   },
-   {
     "mot": "плохо́й",
-    "fr": "mauvais (adjectif)"
+    "fr": "mauvais"
    },
    {
-    "mot": "неплохо́й",
-    "fr": "pas mauvais, correct (adjectif)"
+    "mot": "пло́хо",
+    "fr": "mal (adverbe)"
    }
   ],
   "nature": "adverbe",
@@ -885,11 +772,13 @@
   "mot": "поги́бнуть",
   "api": "[pɐˈɡʲibnʊtʲ]",
   "niveau": "B1",
-  "aspect": "perfectif",
-  "paire": "гиба́ть",
+  "aspect": {
+   "type": "perfectif",
+   "paire": "гиба́ть"
+  },
   "sens": [
    {
-    "sens": "Mourir de mort violente, accidentelle ou héroïque (guerre, catastrophe)",
+    "sens": "Mourir violemment ou prématurément (accident, guerre, catastrophe)",
     "equivalents": [
      "périr",
      "mourir",
@@ -897,48 +786,30 @@
     ],
     "exemples": [
      {
-      "ru": "Солда́т поги́б на войне́.",
-      "fr": "Le soldat a péri à la guerre."
-     },
-     {
       "ru": "Три челове́ка поги́бли в ава́рии.",
-      "fr": "Trois personnes sont mortes dans l'accident."
+      "fr": "Trois personnes ont péri dans l'accident."
+     },
+     {
+      "ru": "Солда́т поги́б на во́йне.",
+      "fr": "Le soldat est mort à la guerre."
      }
     ]
    },
    {
-    "sens": "Être détruit, anéanti (objets, navires, récoltes)",
+    "sens": "Disparaître, être anéanti (objet, espoir, projet)",
     "equivalents": [
-     "être perdu",
-     "sombrer",
-     "disparaître"
+     "disparaître",
+     "s'anéantir",
+     "sombrer"
     ],
     "exemples": [
      {
-      "ru": "Кора́бль поги́б во вре́мя шторма́.",
-      "fr": "Le navire a sombré pendant la tempête."
+      "ru": "Все наде́жды поги́бли.",
+      "fr": "Tous les espoirs se sont envolés."
      },
      {
-      "ru": "Урожа́й поги́б от засухи́.",
-      "fr": "La récolte a été perdue à cause de la sécheresse."
-     }
-    ]
-   },
-   {
-    "sens": "(Figuré) Être ruiné moralement ou socialement, perdre tout espoir",
-    "equivalents": [
-     "se perdre",
-     "sombrer",
-     "être fichu"
-    ],
-    "exemples": [
-     {
-      "ru": "Без образова́ния он мо́жет поги́бнуть как ли́чность.",
-      "fr": "Sans éducation, il risque de se perdre en tant que personne."
-     },
-     {
-      "ru": "Его́ карье́ра поги́бла после скандала.",
-      "fr": "Sa carrière a été ruinée après le scandale."
+      "ru": "Рукопи́сь поги́бла при пожа́ре.",
+      "fr": "Le manuscrit a disparu dans l'incendie."
      }
     ]
    }
@@ -946,20 +817,15 @@
   "synonymes": [
    {
     "mot": "уме́реть",
-    "nuance": "Terme neutre pour mourir (mort naturelle ou générale)"
-   },
-   {
-    "mot": "поги́бель",
-    "nuance": "Nom correspondant ; perte, destruction (pas un verbe)"
+    "nuance": "Mourir de causes naturelles (neutre)"
    },
    {
     "mot": "пропа́сть",
-    "nuance": "Disparaître sans laisser de trace ; moins dramatique"
+    "nuance": "Disparaître sans laisser de trace (objets, personnes)"
    }
   ],
   "antonymes": [
-   "вы́жить",
-   "спастись"
+   "вы́жить"
   ],
   "formes": {
    "present": {
@@ -982,32 +848,24 @@
    }
   },
   "pieges": [
-   "Verbe perfectif : les formes du présent ont valeur de futur ; pas d'imperfectif direct (гибнуть est rare et littéraire).",
-   "Réservé aux morts non naturelles ; ne jamais utiliser pour une mort paisible ou de vieillesse (utiliser умереть).",
-   "Accent tonique toujours sur -и́- dans toutes les formes conjuguées et le participe passé."
+   "Verbe perfectif : les formes du 'présent' sont le futur simple ; l'impératif existe mais est très rare (sauf usage rhétorique).",
+   "Ne s'emploie PAS pour une mort naturelle : utiliser 'умереть' pour décès de maladie ou vieillesse.",
+   "Accent fixe sur la racine dans toutes les formes, y compris au passé féminin (поги́бла, pas *погибла́)."
   ],
   "expressions": [
    {
     "ru": "поги́бнуть за ро́дину",
     "fr": "mourir pour la patrie"
-   },
-   {
-    "ru": "поги́бнуть ни за что",
-    "fr": "mourir pour rien, en vain"
    }
   ],
   "famille": [
    {
     "mot": "ги́бель",
-    "fr": "perte, mort violente, destruction"
+    "fr": "mort violente, perte"
    },
    {
     "mot": "ги́бнуть",
-    "fr": "périr (imperfectif littéraire)"
-   },
-   {
-    "mot": "поги́бший",
-    "fr": "péri, victime (participe/adjectif)"
+    "fr": "périr (imperfectif, littéraire)"
    }
   ],
   "nature": "verbe",
@@ -1019,11 +877,11 @@
   "rang": 799,
   "lemme": "клуб",
   "mot": "клу́б",
-  "api": "[klup]",
+  "api": "[kɫup]",
   "niveau": "A2",
   "sens": [
    {
-    "sens": "Association de personnes réunies par un intérêt commun (sport, lecture, fans)",
+    "sens": "Association de personnes partageant un intérêt commun",
     "equivalents": [
      "club",
      "cercle",
@@ -1031,20 +889,20 @@
     ],
     "exemples": [
      {
-      "ru": "Он член футбо́льного клу́ба.",
-      "fr": "Il est membre du club de football."
+      "ru": "Он член ша́хматного клу́ба.",
+      "fr": "Il est membre du club d'échecs."
      },
      {
-      "ru": "В шко́ле откры́лся клу́б люби́телей исто́рии.",
-      "fr": "Un club d'amateurs d'histoire a ouvert à l'école."
+      "ru": "Клу́б люби́телей кино́ встреча́ется ка́ждую сре́ду.",
+      "fr": "Le ciné-club se réunit chaque mercredi."
      }
     ]
    },
    {
-    "sens": "Établissement nocturne avec musique et danse",
+    "sens": "Établissement nocturne ou de loisirs",
     "equivalents": [
      "boîte de nuit",
-     "night-club",
+     "nightclub",
      "discothèque"
     ],
     "exemples": [
@@ -1053,26 +911,25 @@
       "fr": "Nous sommes allés en boîte samedi soir."
      },
      {
-      "ru": "Этот клу́б изве́стен свои́ми дидже́ями.",
-      "fr": "Cette discothèque est connue pour ses DJs."
+      "ru": "В э́том клу́бе игра́ет хоро́шая му́зыка.",
+      "fr": "On joue de la bonne musique dans ce club."
      }
     ]
    },
    {
-    "sens": "Local ou bâtiment où se réunit une association",
+    "sens": "Équipe sportive professionnelle",
     "equivalents": [
-     "local",
-     "siège",
-     "foyer"
+     "club",
+     "équipe"
     ],
     "exemples": [
      {
-      "ru": "Зда́ние клу́ба отремонти́ровали.",
-      "fr": "Le bâtiment du club a été rénové."
+      "ru": "Футбо́льный клу́б вы́играл чемпиона́т.",
+      "fr": "Le club de football a gagné le championnat."
      },
      {
-      "ru": "Встреча́ пройдёт в клу́бе ветера́нов.",
-      "fr": "La rencontre aura lieu au foyer des anciens combattants."
+      "ru": "Он перешёл в но́вый клу́б.",
+      "fr": "Il a changé de club."
      }
     ]
    }
@@ -1080,15 +937,11 @@
   "synonymes": [
    {
     "mot": "кружо́к",
-    "nuance": "Cercle informel, souvent scolaire ou amateur ; plus petit et moins officiel"
+    "nuance": "Cercle amateur, petit groupe (souvent scolaire ou culturel)"
    },
    {
-    "mot": "объедине́ние",
-    "nuance": "Association formelle, administrative ; terme générique"
-   },
-   {
-    "mot": "секция",
-    "nuance": "Section sportive ou spécialisée au sein d'une organisation"
+    "mot": "ассоциа́ция",
+    "nuance": "Plus formel, organisation structurée"
    }
   ],
   "antonymes": [],
@@ -1114,28 +967,24 @@
    }
   },
   "pieges": [
-   "Accent fixe sur la première syllabe dans toutes les formes déclinées.",
-   "Au génitif pluriel, forme régulière -ов (клу́бов), pas de forme zéro.",
-   "Emprunt à l'anglais « club » ; prononciation russe avec [u] bref, pas [ou] long comme en anglais."
+   "Accent fixe sur la racine dans toutes les formes (pas de déplacement comme dans certains monosyllabes).",
+   "Faux ami possible : en russe, 'клуб' ne désigne jamais un sandwich (utiliser 'сэндвич' ou 'бутерброд').",
+   "Au génitif pluriel, forme régulière en -ов (pas de forme courte *клуб)."
   ],
   "expressions": [
    {
-    "ru": "фан-клу́б",
-    "fr": "fan-club, club de supporters"
+    "ru": "закры́тый клу́б",
+    "fr": "club privé"
    },
    {
-    "ru": "закры́тый клу́б",
-    "fr": "club privé, cercle fermé"
+    "ru": "фан-клу́б",
+    "fr": "fan-club"
    }
   ],
   "famille": [
    {
     "mot": "клу́бный",
-    "fr": "de club, relatif au club (adjectif)"
-   },
-   {
-    "mot": "клубни́ка",
-    "fr": "fraise (faux ami ! aucun lien sémantique malgré la racine commune ancienne)"
+    "fr": "de club, relatif au club"
    }
   ],
   "nature": "nom",
@@ -1151,29 +1000,29 @@
   "niveau": "A2",
   "sens": [
    {
-    "sens": "En très petite quantité ou intensité ; presque pas",
+    "sens": "Un peu, légèrement (adverbe de quantité)",
     "equivalents": [
      "un peu",
      "légèrement",
-     "à peine"
+     "quelque peu"
     ],
     "exemples": [
      {
-      "ru": "Чу́ть подожди́, я ско́ро.",
-      "fr": "Attends un peu, j'arrive bientôt."
+      "ru": "Подожди́ чу́ть-чу́ть.",
+      "fr": "Attends un tout petit peu."
      },
      {
-      "ru": "Она́ чу́ть улы́бнулась.",
-      "fr": "Elle a légèrement souri."
+      "ru": "Она́ чу́ть уста́ла.",
+      "fr": "Elle est un peu fatiguée."
      }
     ]
    },
    {
-    "sens": "Presque, faillir (suivi d'un verbe au passé ou d'un infinitif)",
+    "sens": "Presque, faillir (avec verbe au passé)",
     "equivalents": [
      "presque",
      "faillir",
-     "être sur le point de"
+     "avoir failli"
     ],
     "exemples": [
      {
@@ -1181,26 +1030,26 @@
       "fr": "J'ai failli tomber."
      },
      {
-      "ru": "Он чу́ть не опозда́л на пое́зд.",
-      "fr": "Il a presque raté le train."
+      "ru": "Он чу́ть не опозда́л на самолёт.",
+      "fr": "Il a presque raté l'avion."
      }
     ]
    },
    {
-    "sens": "Particule d'atténuation ou de politesse dans les requêtes",
+    "sens": "À peine, tout juste (temporel ou spatial)",
     "equivalents": [
-     "juste",
-     "seulement",
-     "un instant"
+     "à peine",
+     "tout juste",
+     "seulement"
     ],
     "exemples": [
      {
-      "ru": "Чу́ть-чу́ть поти́ше, пожа́луйста.",
-      "fr": "Un tout petit peu moins fort, s'il vous plaît."
+      "ru": "Чу́ть рассвело́, мы вы́шли в доро́гу.",
+      "fr": "À peine le jour s'est-il levé, nous sommes partis."
      },
      {
-      "ru": "Мо́жно чу́ть воды́?",
-      "fr": "Je peux avoir juste un peu d'eau ?"
+      "ru": "Ему́ чу́ть бо́льше двадцати́.",
+      "fr": "Il a tout juste plus de vingt ans."
      }
     ]
    }
@@ -1208,35 +1057,34 @@
   "synonymes": [
    {
     "mot": "немно́го",
-    "nuance": "Un peu, en petite quantité ; plus concret et mesurable"
-   },
-   {
-    "mot": "слегка́",
-    "nuance": "Légèrement ; modification douce d'un état ou d'une action"
+    "nuance": "Un peu (plus neutre, quantitatif)"
    },
    {
     "mot": "едва́",
-    "nuance": "À peine, difficilement ; insiste sur la limite minimale"
+    "nuance": "À peine (plus littéraire)"
+   },
+   {
+    "mot": "почти́",
+    "nuance": "Presque (sans idée de risque évité)"
    }
   ],
   "antonymes": [
-   "си́льно",
-   "мно́го"
+   "си́льно"
   ],
   "formes": {},
   "pieges": [
-   "Mot monosyllabique portant toujours l'accent ; ne jamais le prononcer atone.",
-   "Dans « чуть не + verbe », la négation « не » est obligatoire pour exprimer « faillir » ; sans « не », le sens change.",
-   "Ne pas confondre avec чу́ять (sentir, percevoir) ; homophonie partielle mais sens totalement différent."
+   "Construction spéciale 'чуть не + verbe au passé' = 'faillir faire qqch' (ne pas traduire mot à mot par 'un peu ne').",
+   "Mot monosyllabique : pas d'accent graphique requis selon la consigne, mais prononcé avec intonation variable selon le sens.",
+   "Ne pas confondre avec le verbe 'чу́ять' (sentir, pressentir) dont 'чуть' n'est PAS une forme."
   ],
   "expressions": [
    {
     "ru": "чу́ть-чу́ть",
-    "fr": "un tout petit peu, minuscule quantité"
+    "fr": "un tout petit peu"
    },
    {
     "ru": "чу́ть ли не",
-    "fr": "presque, pour ainsi dire (registre soutenu)"
+    "fr": "presque, pour ainsi dire"
    },
    {
     "ru": "чу́ть что",
@@ -1246,15 +1094,11 @@
   "famille": [
    {
     "mot": "чу́ткий",
-    "fr": "sensible, attentif, délicat"
+    "fr": "sensible, attentif"
    },
    {
-    "mot": "чу́ять",
-    "fr": "sentir, pressentir (étymologiquement lié)"
-   },
-   {
-    "mot": "чутьё",
-    "fr": "flair, intuition"
+    "mot": "чу́вство",
+    "fr": "sentiment, sensation"
    }
   ],
   "nature": "adverbe",

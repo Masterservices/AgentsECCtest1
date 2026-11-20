@@ -26,54 +26,55 @@
     ]
    },
    {
-    "sens": "Manquer un événement, un cours ou une occasion",
+    "sens": "Manquer, rater (un événement, un transport)",
     "equivalents": [
      "manquer",
      "rater",
-     "sauter"
+     "louper"
     ],
     "exemples": [
      {
-      "ru": "Я пропусти́л уро́к из-за боле́зни.",
-      "fr": "J'ai manqué le cours à cause de la maladie."
+      "ru": "Я пропусти́л после́дний авто́бус.",
+      "fr": "J'ai raté le dernier bus."
      },
      {
-      "ru": "Не пропусти́ э́тот фильм, он отли́чный!",
-      "fr": "Ne rate pas ce film, il est excellent !"
+      "ru": "Она́ пропусти́ла уро́к из-за боле́зни.",
+      "fr": "Elle a manqué le cours à cause de la maladie."
      }
     ]
    },
    {
-    "sens": "Omettre ou sauter volontairement une partie d'un texte ou d'une action",
+    "sens": "Omettre, sauter (une étape, un mot)",
     "equivalents": [
+     "omettre",
      "sauter",
-     "omettre"
+     "passer sous silence"
     ],
     "exemples": [
      {
-      "ru": "Он пропусти́л не́сколько строк при чте́нии.",
-      "fr": "Il a sauté quelques lignes lors de la lecture."
+      "ru": "Ты пропусти́л ва́жный абза́ц в перево́де.",
+      "fr": "Tu as omis un paragraphe important dans la traduction."
      },
      {
-      "ru": "Можно́ ли пропусти́ть вступле́ние?",
-      "fr": "Peut-on sauter l'introduction ?"
+      "ru": "Не пропусти́ ни одно́й дета́ли.",
+      "fr": "Ne saute aucun détail."
      }
     ]
    },
    {
-    "sens": "Filtrer ou faire passer à travers un tamis/filtre",
+    "sens": "Filtrer, faire passer à travers (liquide, gaz)",
     "equivalents": [
      "filtrer",
      "passer au tamis"
     ],
     "exemples": [
      {
-      "ru": "Нужно́ пропусти́ть сок через ма́рлю.",
-      "fr": "Il faut filtrer le jus à travers une étamine."
+      "ru": "Надо пропусти́ть во́ду через фильтр.",
+      "fr": "Il faut filtrer l'eau."
      },
      {
-      "ru": "Вода́ была́ пропущена через фильтр.",
-      "fr": "L'eau a été passée au filtre."
+      "ru": "Све́т пропуска́ется через специа́льное стекло́.",
+      "fr": "La lumière est filtrée à travers un verre spécial."
      }
     ]
    }
@@ -85,43 +86,35 @@
    },
    {
     "mot": "проскочи́ть",
-    "nuance": "familier, pour manquer rapidement un arrêt ou un moment"
+    "nuance": "familier, pour un lieu ou un événement qu'on traverse vite"
    }
   ],
   "antonymes": [
-   "посети́ть",
-   "уча́ствовать"
+   "задержа́ть",
+   "останови́ть"
   ],
   "formes": {
-   "present": null,
-   "futur": [
-    "пропущу́",
-    "пропу́стишь",
-    "пропу́стит",
-    "пропу́стим",
-    "пропу́стите",
-    "пропу́стят"
-   ],
-   "passe": [
-    "пропусти́л",
-    "пропусти́ла",
-    "пропусти́ло",
-    "пропусти́ли"
-   ],
-   "imperatif": [
-    "пропусти́",
-    "пропусти́те"
-   ]
+   "present": {},
+   "passe": {
+    "m": "пропусти́л",
+    "f": "пропусти́ла",
+    "n": "пропусти́ло",
+    "pl": "пропусти́ли"
+   },
+   "imperatif": {
+    "tu": "пропусти́",
+    "vous": "пропусти́те"
+   }
   },
   "pieges": [
-   "Accent mobile : futur je 'пропущу́' mais tu 'пропу́стишь'.",
-   "Ne pas confondre avec 'пройти́' (passer soi-même) ; ici c'est transitif (laisser passer qqn/qch).",
-   "Le sens 'manquer' est perfectif ; pour 'être en train de manquer/rater régulièrement', utiliser пропуска́ть."
+   "Ne pas confondre avec проехать (passer en véhicule) : пропустить implique une action volontaire de laisser passer ou d'omettre.",
+   "L'accent reste fixe sur le и dans toutes les formes conjuguées et dérivées.",
+   "Régime : пропустить кого/что (accusatif) ; ne s'emploie pas avec le datif."
   ],
   "expressions": [
    {
     "ru": "пропусти́ть мимо уше́й",
-    "fr": "laisser glisser (ne pas prêter attention)"
+    "fr": "faire la sourde oreille, ignorer délibérément"
    },
    {
     "ru": "пропусти́ть стака́нчик",
@@ -131,15 +124,15 @@
   "famille": [
    {
     "mot": "пропуска́ть",
-    "fr": "laisser passer / manquer (imperfectif)"
+    "fr": "laisser passer (imperfectif)"
    },
    {
-    "mot": "про́пуск",
-    "fr": "laissez-passer / omission"
+    "mot": "пропу́ск",
+    "fr": "laissez-passer, absence"
    },
    {
-    "mot": "пропуска́ние",
-    "fr": "action de laisser passer ou de filtrer"
+    "mot": "пропускно́й",
+    "fr": "de contrôle d'accès (adjectif)"
    }
   ],
   "nature": "verbe",
@@ -155,71 +148,73 @@
   "niveau": "A2",
   "sens": [
    {
-    "sens": "Action de sortir ou de quitter un lieu",
+    "sens": "Sortie (lieu, porte)",
     "equivalents": [
      "sortie",
-     "départ"
+     "issue"
     ],
     "exemples": [
      {
-      "ru": "Вы́ход из зда́ния нахо́дится спра́ва.",
-      "fr": "La sortie du bâtiment se trouve à droite."
+      "ru": "Вы́ход напра́во.",
+      "fr": "La sortie est à droite."
      },
      {
-      "ru": "После вы́хода из метро́ поверни́ нале́во.",
-      "fr": "Après être sorti du métro, tourne à gauche."
+      "ru": "Запасно́й вы́ход закры́т.",
+      "fr": "L'issue de secours est fermée."
      }
     ]
    },
    {
-    "sens": "Solution à un problème ou issue favorable",
+    "sens": "Action de sortir, apparition en public",
     "equivalents": [
-     "issue",
-     "solution",
-     "échappatoire"
-    ],
-    "exemples": [
-     {
-      "ru": "Мы нашли́ вы́ход из сло́жной ситуа́ции.",
-      "fr": "Nous avons trouvé une issue à la situation complexe."
-     },
-     {
-      "ru": "Есть ли друго́й вы́ход?",
-      "fr": "Y a-t-il une autre solution ?"
-     }
-    ]
-   },
-   {
-    "sens": "Apparition publique ou entrée en scène",
-    "equivalents": [
-     "entrée",
+     "sortie",
+     "entrée en scène",
      "apparition"
     ],
     "exemples": [
      {
-      "ru": "Вы́ход арти́ста на сце́ну сопро́ждался аплодисме́нтами.",
-      "fr": "L'entrée de l'artiste sur scène fut accompagnée d'applaudissements."
+      "ru": "Его́ вы́ход на сце́ну был незаме́тным.",
+      "fr": "Son entrée en scène est passée inaperçue."
      },
      {
-      "ru": "Э́то был его́ пе́рвый вы́ход в свет.",
-      "fr": "C'était sa première apparition en public."
+      "ru": "Вы́ход в свет но́вой кни́ги.",
+      "fr": "La parution du nouveau livre."
      }
     ]
    },
    {
-    "sens": "Rendement ou production (technique/économique)",
+    "sens": "Solution, issue (à un problème)",
     "equivalents": [
-     "rendement",
-     "production"
+     "solution",
+     "issue",
+     "échappatoire"
     ],
     "exemples": [
      {
-      "ru": "Вы́ход проду́кции увели́чился на де́сять проце́нтов.",
-      "fr": "Le rendement de la production a augmenté de dix pour cent."
+      "ru": "Мы нашли́ вы́ход из ситуа́ции.",
+      "fr": "Nous avons trouvé une solution à la situation."
      },
      {
-      "ru": "Вы́ход мяса́ из ту́ши соста́вил шестьдеся́т проце́нтов.",
-      "fr": "Le rendement en viande de la carcasse était de soixante pour cent."
+      "ru": "Друго́го вы́хода нет.",
+      "fr": "Il n'y a pas d'autre issue."
+     }
+    ]
+   },
+   {
+    "sens": "Jour de repos, congé",
+    "equivalents": [
+     "repos",
+     "jour férié",
+     "congé"
+    ],
+    "exemples": [
+     {
+      "ru": "У меня́ за́втра вы́ходной.",
+      "fr": "Je suis en repos demain."
+     },
+     {
+      "ru": "В воскресе́нье у них вы́ход.",
+      "fr": "Le dimanche est leur jour de repos."
      }
     ]
    }
@@ -227,11 +222,11 @@
   "synonymes": [
    {
     "mot": "реше́ние",
-    "nuance": "solution concrète à un problème spécifique"
+    "nuance": "solution concrète à un problème technique ou intellectuel"
    },
    {
-    "mot": "дверь",
-    "nuance": "désigne l'objet physique plutôt que l'action"
+    "mot": "отду́шина",
+    "nuance": "échappatoire émotionnelle ou psychologique"
    }
   ],
   "antonymes": [
@@ -260,22 +255,22 @@
    }
   },
   "pieges": [
-   "Accent fixe sur la première syllabe à tous les cas.",
-   "Ne pas confondre avec 'выходно́й' (jour férié / sortie adj.) qui a un accent différent.",
-   "Préposition : 'на вы́ход' (vers la sortie, direction) vs 'на вы́ходе' (à la sortie, lieu)."
+   "Accent fixe sur la première syllabe dans tous les cas ; ne pas prononcer *выхóд*.",
+   "Ne pas confondre с выходом (instrumental = avec une sortie) et на выходе (prépositionnel = à la sortie).",
+   "Au sens de 'solution', toujours suivi de из + génitif : выход из кризиса."
   ],
   "expressions": [
    {
     "ru": "найти́ вы́ход",
-    "fr": "trouver une solution / une issue"
+    "fr": "trouver une solution"
    },
    {
-    "ru": "авари́йный вы́ход",
-    "fr": "issue de secours"
+    "ru": "быть на вы́ходе",
+    "fr": "être sur le point de sortir / paraître"
    },
    {
-    "ru": "выхо́д в интерне́т",
-    "fr": "accès à Internet"
+    "ru": "выходно́й день",
+    "fr": "jour de repos, week-end"
    }
   ],
   "famille": [
@@ -289,7 +284,7 @@
    },
    {
     "mot": "выходно́й",
-    "fr": "jour férié / de sortie"
+    "fr": "de repos, jour férié"
    }
   ],
   "nature": "nom",
@@ -301,32 +296,33 @@
   "rang": 813,
   "lemme": "смеяться",
   "mot": "смея́ться",
-  "api": "[smʲɪˈjat͡sə]",
+  "api": "[smʲɪˈjat͡sːə]",
   "niveau": "A1",
   "aspect": "imperfectif",
   "paire": "засмея́ться",
   "sens": [
    {
-    "sens": "Rire, manifester sa joie par le rire",
+    "sens": "Rire (exprimer la joie par le rire)",
     "equivalents": [
      "rire"
     ],
     "exemples": [
      {
-      "ru": "Де́ти гро́мко смею́тся во дворе́.",
-      "fr": "Les enfants rient fort dans la cour."
+      "ru": "Де́ти смею́тся гро́мко.",
+      "fr": "Les enfants rient fort."
      },
      {
-      "ru": "Она́ смея́лась над его́ шу́тками.",
-      "fr": "Elle riait de ses blagues."
+      "ru": "Она́ смея́лась до слёз.",
+      "fr": "Elle riait aux larmes."
      }
     ]
    },
    {
-    "sens": "Se moquer de quelqu'un ou quelque chose",
+    "sens": "Se moquer de quelqu'un",
     "equivalents": [
      "se moquer",
-     "railler"
+     "railler",
+     "rire de"
     ],
     "exemples": [
      {
@@ -334,66 +330,80 @@
       "fr": "Ne te moque pas des autres !"
      },
      {
-      "ru": "Все смея́лись над его́ ста́рым пальто́.",
-      "fr": "Tout le monde se moquait de son vieux manteau."
+      "ru": "Все смея́лись над его́ оши́бкой.",
+      "fr": "Tout le monde s'est moqué de son erreur."
+     }
+    ]
+   },
+   {
+    "sens": "Être joyeux, radieux (sens figuré)",
+    "equivalents": [
+     "rayonner",
+     "resplendir"
+    ],
+    "exemples": [
+     {
+      "ru": "Приро́да смеётся весной.",
+      "fr": "La nature rayonne au printemps."
+     },
+     {
+      "ru": "Глаза́ её смея́лись.",
+      "fr": "Ses yeux brillaient de joie."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "хихи́кать",
-    "nuance": "rire discrètement, pouffer"
+    "mot": "хохота́ть",
+    "nuance": "rire bruyamment, éclater de rire"
    },
    {
-    "mot": "грохо́тать",
-    "nuance": "rire bruyamment, s'esclaffer"
+    "mot": "ухмыля́ться",
+    "nuance": "sourire narquoisement, ricaner"
    },
    {
-    "mot": "издева́ться",
-    "nuance": "se moquer méchamment, persifler"
+    "mot": "посме́иваться",
+    "nuance": "rire doucement, ironiquement"
    }
   ],
   "antonymes": [
-   "пла́кать"
+   "пла́кать",
+   "грусти́ть"
   ],
   "formes": {
-   "present": [
-    "смею́сь",
-    "смеёшься",
-    "смеётся",
-    "смеёмся",
-    "смеётесь",
-    "смею́тся"
-   ],
-   "passe": [
-    "смея́лся",
-    "смея́лась",
-    "смея́лось",
-    "смея́лись"
-   ],
-   "imperatif": [
-    "сме́йся",
-    "сме́йтесь"
-   ]
+   "present": {
+    "je": "смею́сь",
+    "tu": "смеёшься",
+    "il": "смеётся",
+    "nous": "смеёмся",
+    "vous": "смеётесь",
+    "ils": "смею́тся"
+   },
+   "passe": {
+    "m": "смея́лся",
+    "f": "смея́лась",
+    "n": "смея́лось",
+    "pl": "смея́лись"
+   },
+   "imperatif": {
+    "tu": "сме́йся",
+    "vous": "сме́йтесь"
+   }
   },
   "pieges": [
-   "Verbe réfléchi obligatoire (-ся) ; ne jamais dire '*смеять'.",
-   "Construction : смея́ться + над + instrumental (se moquer de) OU смея́ться + datif (rire à qqn, rare/poétique).",
-   "Impératif irrégulier : сме́йся (accent sur la racine), pas *смея́йся."
+   "Verbe réfléchi obligatoire : toujours avec -ся/-сь ; *смеять* n'existe pas.",
+   "Pour 'se moquer de', régime obligatoire : смеяться над + instrumental (не смейся над ним).",
+   "Accent mobile : présent смею́сь mais impératif сме́йся ; passé masculin смея́лся."
   ],
   "expressions": [
    {
-    "ru": "смея́ться до слёз",
-    "fr": "rire aux larmes"
+    "ru": "смея́ться до коли́ков",
+    "fr": "rire à s'en tordre le ventre"
    },
    {
-    "ru": "кто смеётся после́дним, тот смеётся лу́чше",
+    "ru": "последним смеётся тот, кто смеётся лу́чше всех",
     "fr": "rira bien qui rira le dernier"
-   },
-   {
-    "ru": "сквозь слёзы смея́ться",
-    "fr": "rire à travers les larmes"
    }
   ],
   "famille": [
@@ -402,16 +412,16 @@
     "fr": "rire (nom)"
    },
    {
+    "mot": "смеши́ть",
+    "fr": "faire rire"
+   },
+   {
     "mot": "смешно́й",
-    "fr": "drôle / ridicule"
+    "fr": "drôle, comique"
    },
    {
     "mot": "засмея́ться",
     "fr": "se mettre à rire (perfectif)"
-   },
-   {
-    "mot": "усме́шка",
-    "fr": "sourire"
    }
   ],
   "nature": "verbe",
@@ -437,25 +447,43 @@
       "fr": "J'ai ouvert un compte à la banque."
      },
      {
-      "ru": "Ба́нк одобри́л креди́т.",
-      "fr": "La banque a approuvé le crédit."
+      "ru": "Ба́нк выда́л креди́т.",
+      "fr": "La banque a accordé un crédit."
      }
     ]
    },
    {
-    "sens": "Réserve ou fonds commun (dans les jeux ou expressions)",
+    "sens": "Banque de données, réserve",
     "equivalents": [
-     "banque",
-     "cagnotte"
+     "base",
+     "réserve",
+     "fonds"
     ],
     "exemples": [
      {
-      "ru": "Держа́ть ба́нк в ка́ртах.",
-      "fr": "Tenir la banque aux cartes."
+      "ru": "Ба́нк да́нных о клие́нтах.",
+      "fr": "Base de données clients."
      },
      {
-      "ru": "Ба́нк да́нных содержа́т ва́жную информа́цию.",
-      "fr": "La base de données contient des informations importantes."
+      "ru": "Ба́нк крови́ для опера́ций.",
+      "fr": "Réserve de sang pour les opérations."
+     }
+    ]
+   },
+   {
+    "sens": "Bocal (sens vieilli ou régional)",
+    "equivalents": [
+     "bocal",
+     "pot"
+    ],
+    "exemples": [
+     {
+      "ru": "Ба́нк варенья стоя́л на полке́.",
+      "fr": "Un bocal de confiture était sur l'étagère."
+     },
+     {
+      "ru": "Купи́ ба́нк огурцо́в.",
+      "fr": "Achète un bocal de cornichons."
      }
     ]
    }
@@ -463,7 +491,11 @@
   "synonymes": [
    {
     "mot": "креди́тная организа́ция",
-    "nuance": "terme administratif/juridique"
+    "nuance": "terme administratif officiel"
+   },
+   {
+    "mot": "ба́за",
+    "nuance": "pour banque de données uniquement"
    }
   ],
   "antonymes": [],
@@ -489,22 +521,18 @@
    }
   },
   "pieges": [
-   "Faux ami potentiel : 'ба́нка' (avec -a) signifie 'bocal' ou 'canette', pas 'banque'.",
-   "Accent fixe sur la racine à tous les cas.",
-   "Au génitif pluriel : ба́нков (pas *банко́в)."
+   "Faux ami partiel : en russe, банк peut aussi signifier 'bocal' (registre familier/vieilli), alors qu'en français 'banque' est exclusivement financier.",
+   "Accent fixe sur а ; ne pas confondre avec ба́нка (bocal, féminin) qui a une déclinaison différente.",
+   "Pour 'banque de données', on dit банк данных (génitif pluriel implicite), jamais *данного банка*."
   ],
   "expressions": [
-   {
-    "ru": "ба́нк да́нных",
-    "fr": "base de données"
-   },
    {
     "ru": "центральный ба́нк",
     "fr": "banque centrale"
    },
    {
-    "ru": "сви́нская копи́лка",
-    "fr": "tirelire (litt. cochon-banque, expression culturelle liée)"
+    "ru": "ба́нк па́мяти",
+    "fr": "mémoire vive (informatique)"
    }
   ],
   "famille": [
@@ -513,12 +541,12 @@
     "fr": "bancaire"
    },
    {
-    "mot": "ба́нкир",
-    "fr": "banquier"
+    "mot": "ба́нка",
+    "fr": "bocal, canette"
    },
    {
-    "mot": "ба́нка",
-    "fr": "bocal / canette (homonyme partiel)"
+    "mot": "банки́р",
+    "fr": "banquier"
    }
   ],
   "nature": "nom",
@@ -534,70 +562,71 @@
   "niveau": "B1",
   "sens": [
    {
-    "sens": "Terme affectueux pour un enfant ou un proche",
+    "sens": "Enfant (terme affectueux)",
     "equivalents": [
      "petit",
      "chéri",
-     "mon petit"
+     "mon enfant"
     ],
     "exemples": [
      {
-      "ru": "Иди́ сюда́, моя́ де́тка.",
+      "ru": "Иди́ сюда́, де́тка.",
       "fr": "Viens ici, mon petit."
      },
      {
-      "ru": "Де́тка, не плачь, всё бу́дет хорошо́.",
-      "fr": "Chéri, ne pleure pas, tout ira bien."
+      "ru": "Де́тка усну́ла быстро́.",
+      "fr": "Le petit s'est endormi rapidement."
      }
     ]
    },
    {
-    "sens": "Jeune animal ou plante (biologie/botanique)",
-    "equivalents": [
-     "petit",
-     "jeune pousse"
-    ],
-    "exemples": [
-     {
-      "ru": "У ко́шки роди́лись три де́тки.",
-      "fr": "La chatte a mis bas trois petits."
-     },
-     {
-      "ru": "Луко́вица дала́ не́сколько де́ток.",
-      "fr": "Le bulbe a produit plusieurs jeunes pousses."
-     }
-    ]
-   },
-   {
-    "sens": "Appellation familière ou condescendante envers un adulte",
+    "sens": "Jeune femme (appellation familière, parfois condescendante)",
     "equivalents": [
      "ma belle",
-     "mon gars"
+     "ma poule",
+     "chérie"
     ],
     "exemples": [
      {
-      "ru": "Слу́шай, де́тка, я тебе́ объясню́.",
-      "fr": "Écoute, ma belle, je vais t'expliquer."
+      "ru": "Эй, де́тка, ты куда́ спеши́шь?",
+      "fr": "Hé ma belle, tu es pressée ?"
      },
      {
-      "ru": "Ну что, де́тка, гото́в к экза́мену?",
-      "fr": "Alors, mon gars, prêt pour l'examen ?"
+      "ru": "Он назва́л её де́ткой, и она́ обиделась.",
+      "fr": "Il l'a appelée 'ma poule' et elle s'est vexée."
+     }
+    ]
+   },
+   {
+    "sens": "Petit d'animal (zoologie, registre spécialisé)",
+    "equivalents": [
+     "petit",
+     "nouveau-né"
+    ],
+    "exemples": [
+     {
+      "ru": "Де́тки тигра́ ещё сле́пы.",
+      "fr": "Les petits du tigre sont encore aveugles."
+     },
+     {
+      "ru": "Ма́тка корми́ла дете́к.",
+      "fr": "La femelle nourrissait ses petits."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "ма́лыш",
+    "mot": "малы́ш",
     "nuance": "enfant en bas âge, neutre-affectueux"
    },
    {
-    "mot": "кро́шка",
-    "nuance": "très mignon, souvent pour filles ou bébés"
+    "mot": "ребёнок",
+    "nuance": "terme standard, non diminutif"
    },
    {
-    "mot": "ребёнок",
-    "nuance": "terme neutre standard pour enfant"
+    "mot": "кро́шка",
+    "nuance": "très affectueux, souvent pour bébé"
    }
   ],
   "antonymes": [],
@@ -623,28 +652,28 @@
    }
   },
   "pieges": [
-   "Registre : peut être perçu comme condescendant si utilisé avec un adulte inconnu.",
-   "Ne pas confondre avec 'де́ти' (enfants, pluriel de ребёнок) ; 'де́тка' est un diminutif singulier.",
-   "Accent fixe sur la première syllabe."
+   "Registre très marqué : affectueux avec les enfants, mais potentiellement sexiste ou condescendant envers une adulte. À éviter en contexte formel.",
+   "Ne pas confondre avec дети (enfants, pluriel de ребёнок) : детка est un diminutif singulier féminin.",
+   "L'accent est fixe sur е ; la forme courte n'existe pas car c'est un nom."
   ],
   "expressions": [
    {
-    "ru": "быть в де́тках",
-    "fr": "avoir des enfants (vieilli/populaire)"
+    "ru": "де́тка в кле́тке",
+    "fr": "expression idiomatique rare, désigne une personne protégée mais privée de liberté"
    }
   ],
   "famille": [
    {
     "mot": "дитя́",
-    "fr": "enfant (poétique/vieux)"
+    "fr": "enfant (poétique/archaïque)"
    },
    {
     "mot": "де́ти",
-    "fr": "enfants"
+    "fr": "enfants (pluriel)"
    },
    {
     "mot": "де́тский",
-    "fr": "enfantin / pour enfants"
+    "fr": "enfantin, pour enfants"
    },
    {
     "mot": "детство́",
@@ -654,9 +683,7 @@
   "nature": "nom",
   "frequence": 17134,
   "translit": "dEtka",
-  "controle": [
-   "formes douteuses : деток, деткам, деток"
-  ]
+  "controle": []
  },
  {
   "rang": 816,
@@ -668,70 +695,73 @@
   "paire": "сходи́ть",
   "sens": [
    {
-    "sens": "Descendre d'un véhicule ou d'une hauteur",
+    "sens": "Descendre (d'un véhicule, d'une hauteur)",
     "equivalents": [
      "descendre",
-     "sortir"
+     "quitter"
     ],
     "exemples": [
      {
-      "ru": "Мы сошли́ с авто́буса на сле́дующей остано́вке.",
-      "fr": "Nous sommes descendus du bus à l'arrêt suivant."
+      "ru": "Мы сошли́ с по́езда в Ту́ле.",
+      "fr": "Nous sommes descendus du train à Toula."
      },
      {
-      "ru": "Тури́сты сошли́ с горы́ к вече́ру.",
-      "fr": "Les touristes sont descendus de la montagne vers le soir."
+      "ru": "Сойди́ с ле́стницы осторо́жно!",
+      "fr": "Descends l'escalier prudemment !"
      }
     ]
    },
    {
-    "sens": "Quitter un chemin ou une trajectoire",
+    "sens": "Se rencontrer, converger (chemins, opinions)",
     "equivalents": [
-     "quitter",
-     "dévier"
+     "se croiser",
+     "converger",
+     "se rejoindre"
     ],
     "exemples": [
      {
-      "ru": "По́езд сошёл с рельсо́в.",
-      "fr": "Le train a déraillé."
+      "ru": "Наши мне́ния сошли́сь.",
+      "fr": "Nos opinions ont convergé."
      },
      {
-      "ru": "Не сходи́ с доро́жки!",
-      "fr": "Ne quitte pas le sentier !"
+      "ru": "Доро́ги сошли́сь у реки́.",
+      "fr": "Les chemins se sont rejoints près de la rivière."
      }
     ]
    },
    {
-    "sens": "Disparaître progressivement (neige, gonflement, rougeur)",
-    "equivalents": [
-     "disparaître",
-     "se résorber"
-    ],
-    "exemples": [
-     {
-      "ru": "Снег уже́ сошёл в го́роде.",
-      "fr": "La neige a déjà fondu en ville."
-     },
-     {
-      "ru": "Опу́холь сошла́ че́рез два дня.",
-      "fr": "Le gonflement s'est résorbé en deux jours."
-     }
-    ]
-   },
-   {
-    "sens": "Être considéré comme acceptable ou passer pour (figuré)",
+    "sens": "Être accepté comme valable, passer pour",
     "equivalents": [
      "passer pour",
-     "compter comme"
+     "être pris pour",
+     "faire office de"
     ],
     "exemples": [
      {
-      "ru": "Э́то сойдёт за отве́т.",
-      "fr": "Ça passera pour une réponse."
+      "ru": "Этот докуме́нт сойдёт за удостове́рение.",
+      "fr": "Ce document passera pour une pièce d'identité."
      },
      {
       "ru": "Для нача́ла и э́то сойдёт.",
       "fr": "Pour commencer, ça ira."
+     }
+    ]
+   },
+   {
+    "sens": "Disparaître, s'effacer (tache, neige, rougeur)",
+    "equivalents": [
+     "disparaître",
+     "s'effacer",
+     "fondre"
+    ],
+    "exemples": [
+     {
+      "ru": "Снег уже́ сошёл.",
+      "fr": "La neige a déjà fondu."
+     },
+     {
+      "ru": "Пятно́ от вина́ не сошло́.",
+      "fr": "La tache de vin n'a pas disparu."
      }
     ]
    }
@@ -739,42 +769,38 @@
   "synonymes": [
    {
     "mot": "спусти́ться",
-    "nuance": "descendre volontairement et contrôlé"
+    "nuance": "descendre volontairement, mouvement contrôlé"
    },
    {
     "mot": "исче́знуть",
-    "nuance": "disparaître complètement et soudainement"
+    "nuance": "disparaître complètement, sans trace"
+   },
+   {
+    "mot": "подойти́",
+    "nuance": "convenir, être approprié (pour le sens 'passer pour')"
    }
   ],
   "antonymes": [
    "подня́ться",
-   "появи́ться"
+   "разойти́сь"
   ],
   "formes": {
-   "present": null,
-   "futur": [
-    "сойду́",
-    "сойдёшь",
-    "сойдёт",
-    "сойдём",
-    "сойдёте",
-    "сойду́т"
-   ],
-   "passe": [
-    "сошёл",
-    "сошла́",
-    "сошло́",
-    "сошли́"
-   ],
-   "imperatif": [
-    "сойди́",
-    "сойди́те"
-   ]
+   "present": {},
+   "passe": {
+    "m": "сошёл",
+    "f": "сошла́",
+    "n": "сошло́",
+    "pl": "сошли́"
+   },
+   "imperatif": {
+    "tu": "сойди́",
+    "vous": "сойди́те"
+   }
   },
   "pieges": [
-   "Conjugaison irrégulière au futur : сойду́, сойдёшь (pas *сойдишь).",
-   "Passé masculin : сошёл (avec ё), féminin : сошла́ (accent sur la finale).",
-   "Régime : сходить/сойти + с + génitif (descendre de qqch)."
+   "Passé irrégulier : сошёл, сошла́, сошло́, сошли́ (accent mobile, alternance ё/е).",
+   "Régime variable : сойти с + génitif (descendre de), сойти за + accusatif (passer pour), сойти на + accusatif (descendre vers).",
+   "Ne pas confondre avec сходить (imperfectif) qui signifie aussi 'aller chercher qqch et revenir'."
   ],
   "expressions": [
    {
@@ -783,25 +809,25 @@
    },
    {
     "ru": "сойти́ на нет",
-    "fr": "s'éteindre progressivement / aboutir à rien"
+    "fr": "s'éteindre progressivement, disparaître"
    },
    {
     "ru": "сойти́ за своего́",
-    "fr": "passer pour l'un des nôtres / s'intégrer"
+    "fr": "se faire passer pour un initié"
    }
   ],
   "famille": [
    {
     "mot": "сходи́ть",
-    "fr": "descendre (imperfectif)"
-   },
-   {
-    "mot": "схо́д",
-    "fr": "descente / débarquement"
+    "fr": "descendre (imperfectif) / aller et retour"
    },
    {
     "mot": "схожде́ние",
-    "fr": "convergence / ressemblance"
+    "fr": "convergence, rencontre"
+   },
+   {
+    "mot": "сход",
+    "fr": "descente, rassemblement"
    }
   ],
   "nature": "verbe",
@@ -817,24 +843,25 @@
   "niveau": "A2",
   "sens": [
    {
-    "sens": "Sans difficulté, aisément",
+    "sens": "Facilement, sans difficulté",
     "equivalents": [
      "facilement",
-     "aisément"
+     "aisément",
+     "sans peine"
     ],
     "exemples": [
      {
-      "ru": "Он легко́ реши́л эту зада́чу.",
-      "fr": "Il a résolu ce problème facilement."
+      "ru": "Он легко́ реша́ет зада́чи.",
+      "fr": "Il résout facilement les problèmes."
      },
      {
-      "ru": "Говори́ть по-францу́зски мне легко́.",
-      "fr": "Parler français m'est facile."
+      "ru": "Э́то сде́лать совсе́м легко́.",
+      "fr": "C'est très facile à faire."
      }
     ]
    },
    {
-    "sens": "Avec légèreté, sans poids ou pression excessive",
+    "sens": "Légèrement, avec légèreté (poids, toucher)",
     "equivalents": [
      "légèrement",
      "doucement"
@@ -842,28 +869,29 @@
     "exemples": [
      {
       "ru": "Она́ легко́ косну́лась его́ руки́.",
-      "fr": "Elle toucha légèrement sa main."
+      "fr": "Elle a touché sa main légèrement."
      },
      {
-      "ru": "Ве́тер легко́ ду́ет с мо́ря.",
-      "fr": "Le vent souffle doucement depuis la mer."
+      "ru": "Ве́тер легко́ ду́ет.",
+      "fr": "Le vent souffle doucement."
      }
     ]
    },
    {
-    "sens": "État de soulagement ou d'absence de lourdeur (physique/moral)",
+    "sens": "État physique ou moral de soulagement",
     "equivalents": [
      "c'est léger",
-     "on se sent bien"
+     "on respire",
+     "soulagé"
     ],
     "exemples": [
      {
-      "ru": "На душе́ ста́ло легко́.",
-      "fr": "On s'est senti soulagé (litt. c'est devenu léger dans l'âme)."
+      "ru": "Мне ста́ло легко́ на душе́.",
+      "fr": "J'ai eu le cœur soulagé."
      },
      {
-      "ru": "Мне легко́ дыша́ть пос ле дождя́.",
-      "fr": "Je respire bien après la pluie."
+      "ru": "Дыша́ть ста́ло легко́.",
+      "fr": "Respirer est devenu facile."
      }
     ]
    }
@@ -871,57 +899,49 @@
   "synonymes": [
    {
     "mot": "просто́",
-    "nuance": "simplement, sans complication"
+    "nuance": "simplement, sans complication (plus neutre)"
    },
    {
     "mot": "без труда́",
-    "nuance": "sans effort, locution adverbiale"
+    "nuance": "sans effort, insiste sur l'absence de fatigue"
    },
    {
     "mot": "слегка́",
-    "nuance": "un peu, légèrement (intensité faible)"
+    "nuance": "légèrement, intensité faible (pas pour 'facilement')"
    }
   ],
   "antonymes": [
-   "тру́дно",
-   "тяжело́"
+   "тяжело́",
+   "тру́дно"
   ],
   "formes": {},
   "pieges": [
-   "Adverbe invariable ; ne s'accorde jamais.",
-   "Ne pas confondre avec l'adjectif court 'лёгок' (masc.) / 'легка́' (fém.).",
-   "Prononciation : [lʲɪxˈko] avec х dur, pas [lʲɪgˈko]."
+   "Adverbe invariable : ne s'accorde jamais. Ne pas confondre avec l'adjectif court лёгкий (m), лёгкая (f).",
+   "Prononciation : le г se prononce [x] (comme dans 'loch'), jamais [g]. Transcription : [lʲɪxˈko].",
+   "Dans le sens 'soulagé', construction impersonnelle : мне легко́ (datif + adverbe), jamais *я лёгок*."
   ],
   "expressions": [
    {
     "ru": "легко́ сказа́ть",
-    "fr": "facile à dire (mais difficile à faire)"
+    "fr": "c'est facile à dire (mais difficile à faire)"
    },
    {
-    "ru": "на сердце́ легко́",
-    "fr": "avoir le cœur léger / être soulagé"
-   },
-   {
-    "ru": "легко́ ранить",
-    "fr": "blesser légèrement / être susceptible"
+    "ru": "на лёгкую ру́ку",
+    "fr": "spontanément, sans préparation"
    }
   ],
   "famille": [
    {
     "mot": "лёгкий",
-    "fr": "léger (adjectif)"
+    "fr": "léger, facile (adjectif)"
    },
    {
-    "mot": "лёгок",
-    "fr": "léger (forme courte masc.)"
-   },
-   {
-    "mot": "облегчи́ть",
-    "fr": "alléger / soulager"
+    "mot": "облегча́ть",
+    "fr": "alléger, faciliter"
    },
    {
     "mot": "лёгкость",
-    "fr": "légèreté"
+    "fr": "légèreté, facilité"
    }
   ],
   "nature": "adverbe",
@@ -937,35 +957,36 @@
   "niveau": "A2",
   "sens": [
    {
-    "sens": "Personne ayant un grade dans l'armée ou la police",
+    "sens": "Officier (grade militaire ou policier)",
     "equivalents": [
      "officier"
     ],
     "exemples": [
      {
-      "ru": "Офице́р отда́л прика́з солда́там.",
-      "fr": "L'officier a donné l'ordre aux soldats."
+      "ru": "Молодо́й офице́р получи́л зва́ние.",
+      "fr": "Le jeune officier a reçu son grade."
      },
      {
-      "ru": "Он служи́т офице́ром в а́рмии.",
-      "fr": "Il sert comme officier dans l'armée."
+      "ru": "Офице́р отда́л прика́з солдата́м.",
+      "fr": "L'officier a donné l'ordre aux soldats."
      }
     ]
    },
    {
-    "sens": "Titre honorifique ou fonction dans certaines organisations",
+    "sens": "Agent de police gradé (dans certains contextes)",
     "equivalents": [
-     "officier",
-     "responsable"
+     "agent",
+     "gradé",
+     "fonctionnaire"
     ],
     "exemples": [
      {
-      "ru": "Офице́р безопа́сности прове́рил докуме́нты.",
-      "fr": "L'officier de sécurité a vérifié les documents."
+      "ru": "Офице́р поли́ции провери́л докуме́нты.",
+      "fr": "L'agent de police a vérifié les documents."
      },
      {
-      "ru": "Шахматный офице́р стои́т на e4.",
-      "fr": "Le cavalier (officier aux échecs) est en e4."
+      "ru": "Старший офице́р возглави́л опера́цию.",
+      "fr": "Le gradé supérieur a dirigé l'opération."
      }
     ]
    }
@@ -973,16 +994,16 @@
   "synonymes": [
    {
     "mot": "кома́ндир",
-    "nuance": "commandant, chef militaire direct"
+    "nuance": "commandant, chef d'unité (fonction plutôt que grade)"
    },
    {
-    "mot": "чини́вник",
-    "nuance": "fonctionnaire civil (par extension bureaucratique)"
+    "mot": "вое́нный",
+    "nuance": "militaire en général (pas nécessairement officier)"
    }
   ],
   "antonymes": [
    "солда́т",
-   "гражда́нский"
+   "рядово́й"
   ],
   "formes": {
    "genre": "m",
@@ -1006,18 +1027,18 @@
    }
   },
   "pieges": [
-   "Accent fixe sur la dernière syllabe (-це́р) à tous les cas.",
-   "Animé au singulier et pluriel : accusatif = génitif (офице́ра, офице́ров).",
-   "Orthographe : toujours avec -цер, jamais *-цир."
+   "Accent fixe sur le dernier е dans tous les cas ; ne pas dire *о́фицер*.",
+   "Masculin seulement ; pour une femme officier, on utilise le même mot : она́ — офице́р (pas *офицерка* en langue standard).",
+   "Emprunt lexical : orthographe avec ц, pas с ; prononciation [t͡s], jamais [s]."
   ],
   "expressions": [
    {
-    "ru": "штаб-офице́р",
-    "fr": "officier d'état-major"
+    "ru": "офице́р запаса́",
+    "fr": "officier de réserve"
    },
    {
-    "ru": "мла́дший офице́р",
-    "fr": "officier subalterne"
+    "ru": "штаб-офице́р",
+    "fr": "officier d'état-major"
    }
   ],
   "famille": [
@@ -1027,7 +1048,7 @@
    },
    {
     "mot": "офице́рство",
-    "fr": "corps des officiers / grade d'officier"
+    "fr": "corps des officiers, état d'officier"
    }
   ],
   "nature": "nom",
@@ -1043,35 +1064,53 @@
   "niveau": "B1",
   "sens": [
    {
-    "sens": "Personne qui a vu ou entendu un événement (juridique/courant)",
+    "sens": "Témoin oculaire d'un événement",
     "equivalents": [
      "témoin"
     ],
     "exemples": [
      {
-      "ru": "Сви́дель дал показа́ния в суде́.",
-      "fr": "Le témoin a déposé au tribunal."
+      "ru": "Сви́дитель ви́дел ава́рию.",
+      "fr": "Le témoin a vu l'accident."
      },
      {
-      "ru": "Бы́ло мно́го свиде́телей ава́рии.",
-      "fr": "Il y avait beaucoup de témoins de l'accident."
+      "ru": "Поли́ция и́щет свиде́телей происше́ствия.",
+      "fr": "La police cherche des témoins de l'incident."
      }
     ]
    },
    {
-    "sens": "Preuve ou attestation de quelque chose (figuré)",
+    "sens": "Personne qui atteste officiellement (mariage, contrat)",
     "equivalents": [
-     "preuve",
-     "marque"
+     "témoin",
+     "garant"
     ],
     "exemples": [
      {
-      "ru": "Э́ти руи́ны — сви́дели дре́вней цивилиза́ции.",
-      "fr": "Ces ruines sont les témoins d'une ancienne civilisation."
+      "ru": "Он был свиде́телем на сва́дьбе.",
+      "fr": "Il était témoin au mariage."
      },
      {
-      "ru": "Докуме́нт явля́ется свиде́тельством пра́ва со́бственности.",
-      "fr": "Le document constitue une preuve du droit de propriété."
+      "ru": "Докуме́нт подпи́сан двумя́ свиде́телями.",
+      "fr": "Le document est signé par deux témoins."
+     }
+    ]
+   },
+   {
+    "sens": "Preuve, témoignage (sens abstrait, littéraire)",
+    "equivalents": [
+     "preuve",
+     "témoignage",
+     "attestation"
+    ],
+    "exemples": [
+     {
+      "ru": "Э́ти руи́ны — свиде́тели старины́.",
+      "fr": "Ces ruines sont les témoins de l'antiquité."
+     },
+     {
+      "ru": "Исто́рия служи́т свиде́телем эпо́хи.",
+      "fr": "L'histoire sert de témoignage de l'époque."
      }
     ]
    }
@@ -1079,11 +1118,11 @@
   "synonymes": [
    {
     "mot": "очеви́дец",
-    "nuance": "témoin oculaire direct"
+    "nuance": "témoin oculaire direct (plus précis juridiquement)"
    },
    {
-    "mot": "доказа́тельство",
-    "nuance": "preuve matérielle (pour le sens figuré)"
+    "mot": "свиде́тельство",
+    "nuance": "témoignage ou certificat (nom neutre, pas la personne)"
    }
   ],
   "antonymes": [],
@@ -1096,7 +1135,7 @@
      "datif": "сви́детелю",
      "accusatif": "сви́детеля",
      "instrumental": "сви́детелем",
-     "prepositionnel": "сви́детеле"
+     "prepositionnel": "сви́дителе"
     },
     "pluriel": {
      "nominatif": "сви́детели",
@@ -1109,9 +1148,9 @@
    }
   },
   "pieges": [
-   "Déclinaison en -тель : génitif сви́детеля (pas *свидетела).",
-   "Genre masculin même si le témoin est une femme (сви́детель может быть женщиной).",
-   "Régime : свиде́тель + génitif (témoin de qqch) ou свиде́тель + чего́-либо."
+   "Déclinaison en -тель : génitif сви́детеля (pas *свидетела*), prépositionnel сви́дителе (pas *свидетеле*).",
+   "Genre masculin même si le témoin est une femme : она́ — свиде́тель (forme féminine свиде́тельница existe mais moins courante en langage juridique).",
+   "Accent fixe sur la première syllabe ; ne pas déplacer l'accent au pluriel (*свидете́ли* est incorrect)."
   ],
   "expressions": [
    {
@@ -1120,21 +1159,21 @@
    },
    {
     "ru": "быть свиде́телем",
-    "fr": "être témoin / assister à"
+    "fr": "être témoin de, assister à"
    }
   ],
   "famille": [
    {
-    "mot": "сви́детельство",
-    "fr": "témoignage / certificat"
+    "mot": "свиде́тельство",
+    "fr": "témoignage, certificat"
    },
    {
     "mot": "свиде́тельствовать",
-    "fr": "témoigner (verbe imperfectif)"
+    "fr": "témoigner, attester"
    },
    {
-    "mot": "засвиде́тельствовать",
-    "fr": "certifier / attester (perfectif)"
+    "mot": "сви́детельствова",
+    "fr": "déclaration écrite de témoin (juridique)"
    }
   ],
   "nature": "nom",
@@ -1150,102 +1189,120 @@
   "niveau": "B1",
   "sens": [
    {
-    "sens": "Religieux, consacré à Dieu ou vénéré par l'Église",
+    "sens": "Saint (religieux, canonisé)",
     "equivalents": [
      "saint",
-     "sacré"
+     "bienheureux"
     ],
     "exemples": [
      {
-      "ru": "Храм назва́н в честь свято́го Никола́я.",
-      "fr": "L'église est nommée en l'honneur de saint Nicolas."
+      "ru": "Храм свято́го Никола́я.",
+      "fr": "L'église Saint-Nicolas."
      },
      {
-      "ru": "Свята́я вода́ использу́ется в обря́дах.",
-      "fr": "L'eau bénite est utilisée dans les rites."
+      "ru": "Моли́тва святы́м.",
+      "fr": "Prière aux saints."
      }
     ]
    },
    {
-    "sens": "Moralement pur, vertueux ou irréprochable",
+    "sens": "Sacré, inviolable (valeurs, lieux)",
+    "equivalents": [
+     "sacré",
+     "inviolable",
+     "vénérable"
+    ],
+    "exemples": [
+     {
+      "ru": "Свята́я земля́ для ве́рующих.",
+      "fr": "Terre sacrée pour les croyants."
+     },
+     {
+      "ru": "Святы́е пра́вила чести́.",
+      "fr": "Règles d'honneur inviolables."
+     }
+    ]
+   },
+   {
+    "sens": "Vertueux, moralement pur (sens moral)",
     "equivalents": [
      "vertueux",
      "pur",
-     "innocent"
+     "intègre"
     ],
     "exemples": [
      {
-      "ru": "У неё́ свято́е се́рдце.",
-      "fr": "Elle a un cœur pur."
+      "ru": "У него́ свято́е се́рдце.",
+      "fr": "Il a un cœur vertueux."
      },
      {
-      "ru": "Он веду́т святу́ю жизнь.",
-      "fr": "Ils mènent une vie vertueuse."
+      "ru": "Она́ живёт свято́й жи́знью.",
+      "fr": "Elle mène une vie intègre."
      }
     ]
    },
    {
-    "sens": "Sacré, inviolable ou extrêmement important (figuré)",
+    "sens": "Nom substantivé : saint(e) (personne)",
     "equivalents": [
-     "sacré",
-     "inviolable"
+     "saint",
+     "sainte"
     ],
     "exemples": [
      {
-      "ru": "Для него́ семья́ — свято́е де́ло.",
-      "fr": "Pour lui, la famille est une chose sacrée."
+      "ru": "Житие́ святы́х.",
+      "fr": "Vies des saints."
      },
      {
-      "ru": "Нару́шить святы́е пра́вила.",
-      "fr": "Violer les règles sacrées."
+      "ru": "Он ведёт себя́ как свято́й.",
+      "fr": "Il se comporte comme un saint."
      }
     ]
    }
   ],
   "synonymes": [
    {
+    "mot": "пра́ведный",
+    "nuance": "juste, pieux (insiste sur la droiture morale)"
+   },
+   {
     "mot": "боже́ственный",
-    "nuance": "divin, relatif à Dieu directement"
+    "nuance": "divin, surnaturel (pas nécessairement canonisé)"
    },
    {
-    "mot": "непоро́чный",
-    "nuance": "sans tache morale, pur"
-   },
-   {
-    "mot": "сакра́льный",
-    "nuance": "sacré au sens rituel/anthropologique"
+    "mot": "неприкоснове́нный",
+    "nuance": "inviolable, tabou (sens laïque de 'sacré')"
    }
   ],
   "antonymes": [
    "гре́шный",
-   "светско́й"
+   "скве́рный"
   ],
   "formes": {
    "nominatif": {
-    "masculin": "свято́й",
-    "feminin": "свята́я",
-    "neutre": "свято́е",
-    "pluriel": "святы́е"
+    "m": "свято́й",
+    "f": "свята́я",
+    "n": "свято́е",
+    "pl": "святы́е"
    },
-   "forme_courte_masculin": "свят"
+   "forme_courte_m": "свя́т"
   },
   "pieges": [
-   "Adjectif mixte : terminaisons tantôt dures (-ой, -ая), tantôt molles (-ые, -ей) selon le cas.",
-   "Forme courte masculine : свят (pas *святой) ; féminine : свята́.",
-   "Accent mobile : nominatif masc. свято́й, mais pluriel святы́е, génitif pl. святы́х."
+   "Adjectif à déclinaison mixte : nominatif masculin свято́й (terminaison dure), mais génitif свято́го (molle). Accent mobile entre formes longues et courte.",
+   "Forme courte masculine свя́т existe (accent sur я) : он свя́т devant Dieu. Autres formes courtes rares ou archaïques.",
+   "Ne pas confondre avec свято́й (substantif) et свято́й (adjectif) : même orthographe, fonction syntaxique différente."
   ],
   "expressions": [
    {
-    "ru": "Свята́я Ру́сь",
-    "fr": "Sainte Russie"
+    "ru": "свята́я вода́",
+    "fr": "eau bénite"
    },
    {
-    "ru": "святая́ простота́",
-    "fr": "naïveté candide / sainte simplicité"
+    "ru": "счита́ть за свято́е",
+    "fr": "considérer comme sacré"
    },
    {
-    "ru": "жить как свято́й",
-    "fr": "vivre comme un saint"
+    "ru": "нет ничего́ свято́го",
+    "fr": "rien n'est sacré (tout est permis)"
    }
   ],
   "famille": [
@@ -1255,15 +1312,15 @@
    },
    {
     "mot": "святы́ня",
-    "fr": "relique / objet sacré"
+    "fr": "relique, objet sacré"
    },
    {
     "mot": "освяща́ть",
-    "fr": "consacrer / bénir"
+    "fr": "consacrer, bénir"
    },
    {
-    "mot": "свяще́нник",
-    "fr": "prêtre"
+    "mot": "Свято́й Дух",
+    "fr": "Saint-Esprit"
    }
   ],
   "nature": "adjectif",
