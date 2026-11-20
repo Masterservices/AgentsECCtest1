@@ -1,0 +1,760 @@
+{
+ "cours": "ru-pour-francais",
+ "num": 33,
+ "niveau": "B1",
+ "id": "ru-pour-francais-B1-33",
+ "titre": {
+  "cible": "Делово́й ру́сский. Официа́льный стиль",
+  "natif": "Le russe professionnel. Le registre soutenu"
+ },
+ "objectifs": [
+  "Utiliser le registre soutenu à l'oral et à l'écrit (formules de politesse, e-mails).",
+  "Mener une négociation simple et exprimer des propositions ou un accord.",
+  "Comprendre et utiliser les nominalisations et le passif dans le style administratif.",
+  "Adapter son registre et utiliser le vouvoiement (вы) avec nom et patronyme."
+ ],
+ "scene": {
+  "lieu": "Salle de réunion de l'agence « Мост »",
+  "moment": "Matinée, lors d'une négociation avec des partenaires français.",
+  "decor_3d": "Une salle de réunion moderne et lumineuse avec une grande table ovale en bois clair, des chaises en cuir noir, un tableau blanc interactif et une vue sur Moscou à travers de grandes baies vitrées.",
+  "objets": [
+   "Table ovale",
+   "Chaises en cuir",
+   "Dossiers de présentation",
+   "Tasses à café",
+   "Tableau interactif",
+   "Bouteilles d'eau"
+  ],
+  "personnages": [
+   "thomas",
+   "alexei"
+  ],
+  "figurants": [
+   {
+    "id": "pdg_fr",
+    "nom": "Monsieur Dupont",
+    "apparence": "Homme de 50 ans en costume gris, cheveux poivre et sel, lunettes.",
+    "voix": "Homme d'âge mûr, timbre grave et professionnel"
+   },
+   {
+    "id": "sec",
+    "nom": "Elena",
+    "apparence": "Jeune femme de 28 ans en tailleur bleu, tenant une tablette.",
+    "voix": "Femme jeune, timbre clair et posé"
+   }
+  ]
+ },
+ "dialogue": [
+  {
+   "perso": "alexei",
+   "texte": "Уважа́емый господи́н Дюпо́н, мы ра́ды вас ви́деть в на́шем аге́нтстве.",
+   "traduction": "Cher Monsieur Dupont, nous sommes ravis de vous voir dans notre agence.",
+   "geste": "Se lève et tend la main pour une poignée de main ferme."
+  },
+  {
+   "perso": "pdg_fr",
+   "texte": "Спа́сибо, Алексе́й Никола́евич. Мы гото́вы обсужда́ть но́вый контра́кт.",
+   "traduction": "Merci, Alexeï Nikolaïevitch. Nous sommes prêts à discuter du nouveau contrat.",
+   "geste": "Serre la main et s'assoit en ouvrant son dossier."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Позво́льте мне перевести́. Господи́н Дюпо́н говори́т, что они́ гото́вы к обсужде́нию но́вого контра́кта.",
+   "traduction": "Permettez-moi de traduire. Monsieur Dupont dit qu'ils sont prêts pour la discussion du nouveau contrat.",
+   "geste": "Se tourne vers Alexeï et parle d'un ton posé."
+  },
+  {
+   "perso": "alexei",
+   "texte": "Отли́чно. Мы предлага́ем запусти́ть совме́стный прое́кт в ма́е.",
+   "traduction": "Excellent. Nous proposons de lancer un projet commun en mai.",
+   "geste": "Ouvre un dossier et pointe un graphique."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Не могли́ бы вы уточни́ть де́тали финанси́рования?",
+   "traduction": "Ne pourriez-vous pas préciser les détails du financement ?",
+   "geste": "Regarde ses notes et lève légèrement la main pour poser la question."
+  },
+  {
+   "perso": "pdg_fr",
+   "texte": "Да, коне́чно. Мы согла́сны увели́чить бюдже́т на де́сять проце́нтов.",
+   "traduction": "Oui, bien sûr. Nous sommes d'accord pour augmenter le budget de dix pour cent.",
+   "geste": "Hoche la tête et fait un geste d'ouverture des mains."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Они́ согла́сны увели́чить бюдже́т. Бы́ло бы уда́чно подписа́ть соглаше́ние сего́дня.",
+   "traduction": "Ils sont d'accord pour augmenter le budget. Il serait opportun de signer l'accord aujourd'hui.",
+   "geste": "Traduit pour Alexeï avec un léger sourire."
+  },
+  {
+   "perso": "alexei",
+   "texte": "Я бы хоте́л рассмотре́ть э́тот вопро́с с на́шим юриди́ческим отде́лом.",
+   "traduction": "J'aimerais examiner cette question avec notre département juridique.",
+   "geste": "Joint les mains et prend un air réfléchi."
+  },
+  {
+   "perso": "sec",
+   "texte": "Алексе́й Никола́евич, докуме́нты уже́ подгото́влены и отпра́влены на ва́шу по́чту.",
+   "traduction": "Alexeï Nikolaïevitch, les documents sont déjà préparés et envoyés sur votre messagerie.",
+   "geste": "S'approche discrètement et montre l'écran de sa tablette."
+  },
+  {
+   "perso": "alexei",
+   "texte": "Благодарю́ вас, Еле́на. Бу́дьте добры́, распеча́тайте их для господи́на Дюпо́на.",
+   "traduction": "Je vous remercie, Elena. Soyez aimable de les imprimer pour Monsieur Dupont.",
+   "geste": "Fait un geste de la main vers la tablette en signe d'approbation."
+  },
+  {
+   "perso": "thomas",
+   "texte": "Мы це́ним на́ше сотру́дничество и надее́мся на долгосро́чные отноше́ния.",
+   "traduction": "Nous apprécions notre coopération et espérons des relations à long terme.",
+   "geste": "Regarde le partenaire français avec sincérité."
+  },
+  {
+   "perso": "pdg_fr",
+   "texte": "С нетерпе́нием ждём подпи́сания. До ско́рой встре́чи!",
+   "traduction": "Nous attendons la signature avec impatience. À très bientôt !",
+   "geste": "Se lève et boutonne sa veste de costume."
+  }
+ ],
+ "vocabulaire": [
+  {
+   "mot": "контра́кт",
+   "prononciation": "konTRAkt",
+   "nature": "nom m.",
+   "traduction": "contrat",
+   "exemple": "Мы подписа́ли контра́кт.",
+   "exemple_traduction": "Nous avons signé le contrat."
+  },
+  {
+   "mot": "соглаше́ние",
+   "prononciation": "soglaSHEniye",
+   "nature": "nom n.",
+   "traduction": "accord",
+   "exemple": "Соглаше́ние бы́ло дости́гнуто.",
+   "exemple_traduction": "L'accord a été atteint."
+  },
+  {
+   "mot": "бюдже́т",
+   "prononciation": "byuDJET",
+   "nature": "nom m.",
+   "traduction": "budget",
+   "exemple": "Бюдже́т увели́чен.",
+   "exemple_traduction": "Le budget est augmenté."
+  },
+  {
+   "mot": "сотру́дничество",
+   "prononciation": "sotRUDnichestvo",
+   "nature": "nom n.",
+   "traduction": "coopération",
+   "exemple": "Мы це́ним сотру́дничество.",
+   "exemple_traduction": "Nous apprécions la coopération."
+  },
+  {
+   "mot": "финанси́рование",
+   "prononciation": "finanSIRovaniye",
+   "nature": "nom n.",
+   "traduction": "financement",
+   "exemple": "Де́тали финанси́рования.",
+   "exemple_traduction": "Les détails du financement."
+  },
+  {
+   "mot": "проведе́ние",
+   "prononciation": "proveDEniye",
+   "nature": "nom n.",
+   "traduction": "réalisation / tenue",
+   "exemple": "Проведе́ние прое́кта.",
+   "exemple_traduction": "La réalisation du projet."
+  },
+  {
+   "mot": "рассмотре́ние",
+   "prononciation": "rassmotREniye",
+   "nature": "nom n.",
+   "traduction": "examen (d'une question)",
+   "exemple": "На рассмотре́ние.",
+   "exemple_traduction": "À l'examen."
+  },
+  {
+   "mot": "реше́ние",
+   "prononciation": "reSHEniye",
+   "nature": "nom n.",
+   "traduction": "décision",
+   "exemple": "Приня́ть реше́ние.",
+   "exemple_traduction": "Prendre une décision."
+  },
+  {
+   "mot": "уточни́ть",
+   "prononciation": "utochNIT",
+   "nature": "verbe",
+   "traduction": "préciser",
+   "exemple": "Уточни́ть де́тали.",
+   "exemple_traduction": "Préciser les détails."
+  },
+  {
+   "mot": "уважа́емый",
+   "prononciation": "uvaZHAyemy",
+   "nature": "adj.",
+   "traduction": "cher / estimé",
+   "exemple": "Уважа́емый господи́н.",
+   "exemple_traduction": "Cher monsieur."
+  },
+  {
+   "mot": "юриди́ческий",
+   "prononciation": "yuriDIchesky",
+   "nature": "adj.",
+   "traduction": "juridique",
+   "exemple": "Юриди́ческий отде́л.",
+   "exemple_traduction": "Le département juridique."
+  },
+  {
+   "mot": "подгото́вить",
+   "prononciation": "podgoTOvit",
+   "nature": "verbe",
+   "traduction": "préparer",
+   "exemple": "Подгото́вить докуме́нты.",
+   "exemple_traduction": "Préparer les documents."
+  },
+  {
+   "mot": "подписа́ть",
+   "prononciation": "podpiSAT",
+   "nature": "verbe",
+   "traduction": "signer",
+   "exemple": "Подписа́ть контра́кт.",
+   "exemple_traduction": "Signer le contrat."
+  },
+  {
+   "mot": "предлага́ть",
+   "prononciation": "predlaGAT",
+   "nature": "verbe",
+   "traduction": "proposer",
+   "exemple": "Мы предлага́ем.",
+   "exemple_traduction": "Nous proposons."
+  },
+  {
+   "mot": "увели́чить",
+   "prononciation": "uveLIchit",
+   "nature": "verbe",
+   "traduction": "augmenter",
+   "exemple": "Увели́чить бюдже́т.",
+   "exemple_traduction": "Augmenter le budget."
+  },
+  {
+   "mot": "господи́н",
+   "prononciation": "gospoDIN",
+   "nature": "nom m.",
+   "traduction": "monsieur",
+   "exemple": "Господи́н Дюпо́н.",
+   "exemple_traduction": "Monsieur Dupont."
+  },
+  {
+   "mot": "бу́дьте добры́",
+   "prononciation": "BUDte dobRY",
+   "nature": "expr.",
+   "traduction": "soyez aimable de / veuillez",
+   "exemple": "Бу́дьте добры́, распеча́тайте.",
+   "exemple_traduction": "Soyez aimable d'imprimer."
+  },
+  {
+   "mot": "с уваже́нием",
+   "prononciation": "s uvaZHEniyem",
+   "nature": "expr.",
+   "traduction": "cordialement (formule de fin)",
+   "exemple": "С уваже́нием, Том.",
+   "exemple_traduction": "Cordialement, Tom."
+  }
+ ],
+ "grammaire": [
+  {
+   "titre": "Les formules de politesse formelles et le conditionnel de politesse",
+   "explication": "En russe professionnel, le registre soutenu exige l'usage du vouvoiement (вы) et de formules spécifiques. Pour atténuer une demande ou exprimer un souhait, on utilise le conditionnel avec la particule « бы » ou des formules figées comme « Не могли́ бы вы... » (Ne pourriez-vous pas...) ou « Бу́дьте добры́... » (Soyez aimable de...). Le conditionnel de politesse se forme avec le passé du verbe + « бы » : « Я бы хоте́л рассмотре́ть... » (J'aimerais examiner...). Cela adoucit le ton et montre du respect envers l'interlocuteur, contrairement à l'impératif direct qui peut paraître trop autoritaire dans une négociation.",
+   "tableau": [
+    [
+     "Français",
+     "Russe (Formel)",
+     "Russe (Informel)"
+    ],
+    [
+     "Je veux / J'aimerais",
+     "Я бы хоте́л...",
+     "Я хочу́..."
+    ],
+    [
+     "Pourriez-vous...",
+     "Не могли́ бы вы...",
+     "Ты мо́жешь...?"
+    ],
+    [
+     "S'il vous plaît, faites...",
+     "Бу́дьте добры́...",
+     "Сде́лай, пожа́луйста..."
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Я бы хоте́л обсудить контра́кт.",
+     "natif": "J'aimerais discuter du contrat."
+    }
+   ]
+  },
+  {
+   "titre": "Les nominalisations dans le style administratif",
+   "explication": "Le style officiel russe (официа́льно-делово́й стиль) privilégie les noms d'action (nominalisations) aux verbes conjugués pour rendre le discours plus objectif, abstrait et formel. Ces noms se terminent souvent par -ение, -ание, -тие. Par exemple, au lieu de dire « Мы реша́ем вопро́с » (Nous résolvons la question), on écrira « рассмотре́ние вопро́са » (l'examen de la question) ou « приня́тие реше́ния » (la prise de décision). Cette structure est omniprésente dans les contrats, les e-mails professionnels et les rapports. Le nom d'action régit souvent le génitif pour son complément d'objet.",
+   "tableau": [
+    [
+     "Verbe",
+     "Nominalisation",
+     "Exemple au génitif"
+    ],
+    [
+     "провести́ (mener)",
+     "проведе́ние",
+     "проведе́ние прое́кта"
+    ],
+    [
+     "реши́ть (décider)",
+     "реше́ние",
+     "приня́тие реше́ния"
+    ],
+    [
+     "рассмотре́ть (examiner)",
+     "рассмотре́ние",
+     "на рассмотре́ние"
+    ]
+   ],
+   "exemples": [
+    {
+     "cible": "Мы ждём подпи́сания соглаше́ния.",
+     "natif": "Nous attendons la signature de l'accord."
+    }
+   ]
+  }
+ ],
+ "prononciation": {
+  "point": "Le débit et l'articulation dans le registre soutenu",
+  "explication": "Dans le registre formel et professionnel, le débit est plus lent et l'articulation beaucoup plus claire que dans le langage courant. La réduction des voyelles non accentuées (comme le 'о' qui devient 'а' ou le 'е' qui s'amuït) est minimisée pour garantir la précision et transmettre du respect. Le [о] accentué reste un [о] profond et clair. L'intonation est posée, descendante en fin de phrase affirmative, et évite les émotions excessives.",
+  "exemples": [
+   "Уважа́емый господи́н (u-va-ZHA-ye-miy gos-pa-DIN)",
+   "Проведе́ние прое́кта (pra-vye-DYE-ni-ye pro-YEK-ta - articulation nette des syllabes)"
+  ]
+ },
+ "culture": {
+  "titre": "Le « делово́й этике́т » russe",
+  "texte": "Le monde des affaires russe accorde une grande importance au protocole. Le vouvoiement (вы) est strictement obligatoire, et l'on s'adresse toujours à son interlocuteur par son prénom et son patronyme (И́мя + О́тчество), par exemple «Алексе́й Никола́евич». La poignée de main doit être ferme, mais on ne la donne jamais au-dessus du seuil d'une porte. Contrairement aux standards occidentaux, la ponctualité est parfois relative : il est fréquent que la partie russe arrive avec quelques minutes de retard pour tester la patience du partenaire. Enfin, la relation personnelle prime souvent sur le contrat lui-même : les négociations peuvent être longues, car la confiance mutuelle doit être établie avant toute signature."
+ },
+ "resume": [
+  {
+   "cible": "В делово́м о́бщении всегда́ используй «вы» и и́мя с о́тчеством.",
+   "natif": "Dans la communication professionnelle, utilisez toujours le vouvoiement ainsi que le prénom et le patronyme."
+  },
+  {
+   "cible": "Для смягче́ния просьбы́ применя́й усло́вное наклоне́ние с «бы».",
+   "natif": "Pour adoucir une demande, employez le conditionnel avec la particule « бы »."
+  },
+  {
+   "cible": "Официа́льный стиль тре́бует отглаго́льных существи́тельных.",
+   "natif": "Le style officiel exige l'utilisation de nominalisations (noms d'action)."
+  },
+  {
+   "cible": "В конце́ делово́го письма́ пиши́ «С уваже́нием».",
+   "natif": "À la fin d'une lettre professionnelle, écrivez « Cordialement » (Avec respect)."
+  },
+  {
+   "cible": "Говори́ ме́дленнее и чётче, сохраня́я споко́йный тон.",
+   "natif": "Parlez plus lentement et plus distinctement, en gardant un ton calme."
+  }
+ ],
+ "exercices": [
+  {
+   "type": "qcm",
+   "consigne": "Choisissez la bonne réponse pour compléter ou traduire ces expressions formelles.",
+   "items": [
+    {
+     "question": "Comment dit-on « Cher Monsieur Dupont » ?",
+     "choix": [
+      "Уважа́емый господи́н Дюпо́н",
+      "Приве́т, Дюпо́н",
+      "Товари́щ Дюпо́н"
+     ],
+     "reponse": "Уважа́емый господи́н Дюпо́н"
+    },
+    {
+     "question": "Quelle formule utilise-t-on pour dire « Soyez aimable de... » ?",
+     "choix": [
+      "Дава́й",
+      "Бу́дьте добры́",
+      "Хочу́"
+     ],
+     "reponse": "Бу́дьте добры́"
+    },
+    {
+     "question": "Comment forme-t-on le conditionnel de politesse pour « J'aimerais examiner » ?",
+     "choix": [
+      "Я хочу́ рассмотре́ть",
+      "Я бы хоте́л рассмотре́ть",
+      "Я бу́ду рассматри́вать"
+     ],
+     "reponse": "Я бы хоте́л рассмотре́ть"
+    },
+    {
+     "question": "Quelle est la nominalisation du verbe « реши́ть » (décider) ?",
+     "choix": [
+      "реше́ние",
+      "реша́ть",
+      "реши́мость"
+     ],
+     "reponse": "реше́ние"
+    }
+   ]
+  },
+  {
+   "type": "trous",
+   "consigne": "Complétez les phrases avec le mot manquant.",
+   "items": [
+    {
+     "question": "___ господин Дюпон, мы рады вас видеть.",
+     "reponse": "Уважа́емый"
+    },
+    {
+     "question": "Не могли ___ вы уточнить детали?",
+     "reponse": "бы"
+    },
+    {
+     "question": "Мы ценим наше ___.",
+     "reponse": "сотру́дничество"
+    },
+    {
+     "question": "Документы уже ___ и отправлены.",
+     "reponse": "подгото́влены"
+    },
+    {
+     "question": "С ___, Томас.",
+     "reponse": "уваже́нием"
+    }
+   ]
+  },
+  {
+   "type": "association",
+   "consigne": "Associez chaque verbe à sa nominalisation correspondante.",
+   "items": [
+    {
+     "question": "провести́",
+     "reponse": "проведе́ние"
+    },
+    {
+     "question": "реши́ть",
+     "reponse": "реше́ние"
+    },
+    {
+     "question": "рассмотре́ть",
+     "reponse": "рассмотре́ние"
+    },
+    {
+     "question": "подписа́ть",
+     "reponse": "подписа́ние"
+    },
+    {
+     "question": "увели́чить",
+     "reponse": "увеличе́ние"
+    }
+   ]
+  },
+  {
+   "type": "ordre",
+   "consigne": "Remettez les mots dans l'ordre pour former une phrase correcte.",
+   "items": [
+    {
+     "question": "мы / прое́кт / запусти́ть / предлага́ем",
+     "reponse": "Мы предлага́ем запусти́ть прое́кт."
+    },
+    {
+     "question": "докуме́нты / подгото́влены / уже́",
+     "reponse": "Докуме́нты уже́ подгото́влены."
+    },
+    {
+     "question": "рассмотре́ть / юриди́ческим / с / отде́лом",
+     "reponse": "Рассмотре́ть с юриди́ческим отде́лом."
+    },
+    {
+     "question": "отноше́ния / надее́мся / долгосро́чные / на / мы",
+     "reponse": "Мы надее́мся на долгосро́чные отноше́ния."
+    }
+   ]
+  },
+  {
+   "type": "traduction",
+   "consigne": "Traduisez les phrases suivantes en russe.",
+   "items": [
+    {
+     "question": "Nous sommes d'accord pour augmenter le budget.",
+     "reponse": "Мы согла́сны увели́чить бюдже́т."
+    },
+    {
+     "question": "Permettez-moi de traduire.",
+     "reponse": "Позво́льте мне перевести́."
+    },
+    {
+     "question": "Les documents sont préparés.",
+     "reponse": "Докуме́нты подгото́влены."
+    },
+    {
+     "question": "À très bientôt !",
+     "reponse": "До ско́рой встре́чи!"
+    }
+   ]
+  },
+  {
+   "type": "ecoute",
+   "consigne": "Écoutez l'audio et choisissez ce que vous entendez.",
+   "items": [
+    {
+     "question": "Écoutez l'audio 1.",
+     "choix": [
+      "Не могли́ бы вы",
+      "Не могу́",
+      "Мог бы"
+     ],
+     "reponse": "Не могли́ бы вы"
+    },
+    {
+     "question": "Écoutez l'audio 2.",
+     "choix": [
+      "проведе́ние прое́кта",
+      "провести́ прое́кт",
+      "прово́дит прое́кт"
+     ],
+     "reponse": "проведе́ние прое́кта"
+    },
+    {
+     "question": "Écoutez l'audio 3.",
+     "choix": [
+      "С уваже́нием",
+      "С нетерпе́нием",
+      "С удово́льствием"
+     ],
+     "reponse": "С уваже́нием"
+    },
+    {
+     "question": "Écoutez l'audio 4.",
+     "choix": [
+      "юриди́ческий отде́л",
+      "юриди́ческая консульта́ция",
+      "юриди́ческий докуме́нт"
+     ],
+     "reponse": "юриди́ческий отде́л"
+    }
+   ]
+  }
+ ],
+ "voix_off": [
+  {
+   "id": "v01",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bienvenue dans la leçon 33 de votre cours de russe. Aujourd'hui, nous abordons le russe professionnel et le registre soutenu.",
+   "ecran": "Titre de la leçon et objectifs affichés sur l'écran interactif de la salle de réunion.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v02",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Thomas est interprète lors d'une réunion cruciale à l'agence « Мост ». Observez comment il navigue entre les codes formels russes et français.",
+   "ecran": "Vue d'ensemble de la salle de réunion. Thomas, Alexeï, M. Dupont et Elena sont autour de la table.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v03",
+   "voix": "alexei",
+   "langue": "ru",
+   "texte": "Уважа́емый господи́н Дюпо́н, мы ра́ды вас ви́деть в на́шем аге́нтстве.",
+   "ecran": "Alexeï se lève et tend la main à M. Dupont.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v04",
+   "voix": "pdg_fr",
+   "langue": "ru",
+   "texte": "Спа́сибо, Алексе́й Никола́евич. Мы гото́вы обсужда́ть но́вый контра́кт.",
+   "ecran": "M. Dupont serre la main et s'assoit en ouvrant son dossier.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v05",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Позво́льте мне перевести́. Господи́н Дюпо́н говори́т, что они́ гото́вы к обсужде́нию но́вого контра́кта.",
+   "ecran": "Thomas se tourne vers Alexeï, prenant des notes.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v06",
+   "voix": "alexei",
+   "langue": "ru",
+   "texte": "Отли́чно. Мы предлага́ем запусти́ть совме́стный прое́кт в ма́е.",
+   "ecran": "Alexeï ouvre un dossier et pointe un graphique sur le tableau interactif.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v07",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Не могли́ бы вы уточни́ть де́тали финанси́рования?",
+   "ecran": "Thomas regarde ses notes et lève légèrement la main.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v08",
+   "voix": "pdg_fr",
+   "langue": "ru",
+   "texte": "Да, коне́чно. Мы согла́сны увели́чить бюдже́т на де́сять проце́нтов.",
+   "ecran": "M. Dupont hoche la tête avec un geste d'ouverture.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v09",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Они́ согла́сны увели́чить бюдже́т. Бы́ло бы уда́чно подписа́ть соглаше́ние сего́дня.",
+   "ecran": "Thomas traduit pour Alexeï avec un léger sourire.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v10",
+   "voix": "alexei",
+   "langue": "ru",
+   "texte": "Я бы хоте́л рассмотре́ть э́тот вопро́с с на́шим юриди́ческим отде́лом.",
+   "ecran": "Alexeï joint les mains, air réfléchi.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v11",
+   "voix": "sec",
+   "langue": "ru",
+   "texte": "Алексе́й Никола́евич, докуме́нты уже́ подгото́влены и отпра́влены на ва́шу по́чту.",
+   "ecran": "Elena s'approche discrètement avec sa tablette.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v12",
+   "voix": "alexei",
+   "langue": "ru",
+   "texte": "Благодарю́ вас, Еле́на. Бу́дьте добры́, распеча́тайте их для господи́на Дюпо́на.",
+   "ecran": "Alexeï fait un geste de la main vers la tablette.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v13",
+   "voix": "thomas",
+   "langue": "ru",
+   "texte": "Мы це́ним на́ше сотру́дничество и надее́мся на долгосро́чные отноше́ния.",
+   "ecran": "Thomas regarde M. Dupont avec sincérité.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v14",
+   "voix": "pdg_fr",
+   "langue": "ru",
+   "texte": "С нетерпе́нием ждём подпи́сания. До ско́рой встре́чи!",
+   "ecran": "M. Dupont se lève et boutonne sa veste.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v15",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Excellent. Vous avez entendu de nombreuses expressions clés du monde des affaires. Répétons ensemble quelques mots essentiels.",
+   "ecran": "Les mots de vocabulaire s'affichent en surbrillance sur le tableau interactif.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v16",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Répétez après moi : контраќт, соглаше́ние, сотру́дничество, финанси́рование.",
+   "ecran": "Gros plan sur les mots clés avec leur translittération et accent tonique.",
+   "interaction": "repeter"
+  },
+  {
+   "id": "v17",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Passons à la grammaire. En russe professionnel, la politesse est primordiale. On utilise le conditionnel avec la particule « бы » et des formules comme « Не могли́ бы вы... » ou « Бу́дьте добры́... » pour adoucir les demandes.",
+   "ecran": "Tableau grammatical sur les formules de politesse affiché à l'écran.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v18",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Le style administratif privilégie aussi les nominalisations. Au lieu de verbes, on utilise des noms d'action en -ение, comme « проведе́ние » pour « mener » ou « рассмотре́ние » pour « examiner ».",
+   "ecran": "Animation montrant la transformation d'un verbe en nom d'action.",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v19",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Côté prononciation, le débit est plus lent et l'articulation très claire. Culturellement, n'oubliez jamais le vouvoiement et l'usage du prénom suivi du patronyme !",
+   "ecran": "Icônes culturelles : poignée de main, patronyme, horloge (ponctualité).",
+   "interaction": "aucune"
+  },
+  {
+   "id": "v20",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Testons vos connaissances. Exercice 1 : Choisissez la bonne réponse pour compléter ces expressions formelles.",
+   "ecran": "Interface de l'exercice 1 affichée sur l'écran de la tablette de Thomas.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v21",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 2 : Complétez les phrases avec le mot manquant.",
+   "ecran": "Interface de l'exercice 2 affichée sur l'écran de la tablette de Thomas.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v22",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 3 : Associez chaque verbe à sa nominalisation correspondante.",
+   "ecran": "Interface de l'exercice 3 affichée sur l'écran de la tablette de Thomas.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v23",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 4 : Remettez les mots dans l'ordre pour former une phrase correcte.",
+   "ecran": "Interface de l'exercice 4 affichée sur l'écran de la tablette de Thomas.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v24",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 5 : Traduisez les phrases suivantes en russe.",
+   "ecran": "Interface de l'exercice 5 affichée sur l'écran de la tablette de Thomas.",
+   "interaction": "ecrire"
+  },
+  {
+   "id": "v25",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Exercice 6 : Écoutez l'audio et choisissez ce que vous entendez.",
+   "ecran": "Interface de l'exercice 6 affichée sur l'écran de la tablette de Thomas.",
+   "interaction": "choisir"
+  },
+  {
+   "id": "v26",
+   "voix": "narrateur",
+   "langue": "fr",
+   "texte": "Bravo ! Vous maîtrisez maintenant les bases du russe professionnel. À très bientôt pour la prochaine leçon !",
+   "ecran": "Écran de félicitations, Thomas et Alexeï saluent l'apprenant.",
+   "interaction": "aucune"
+  }
+ ],
+ "controle": []
+}
