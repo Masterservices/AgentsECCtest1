@@ -19,7 +19,8 @@ EXCLURE = set("""jack john sam york new charlie michael you david tom joe mike f
 mme mlle pos ia okay est-ce marie pierre paris jean louis nick henry martin simon victor alex ben lucas daniel thomas jacques
 of and to it is in what my your it's don't i'm that this we are be go yes mark tommy charles eric carter william mac dan r km choir
 voiler henry james alex danny bob jimmy jane bill sarah nick will tony mary harry jim richard ray robert vis black team user robin girl charlotte lady boy carolin boston oscar penny diane spencer val baby stone mickey green
-mn tap lover sous-titrer moyenner""".split())
+mn tap lover sous-titrer moyenner
+bonnir harper tara archer rob colin marc benjamin palmer plain michel lex ris river valentin virginie piper blair denise rosir brandon khan andré alfred philippe pan ana haver superman loser kid bang marshal ci cassie françois group home""".split())
 GARDER = set("ouais hé hein ah oh euh bah bon chut aïe ouf waouh salut coucou ok".split())
 FUSION = {"copiner": "copine", "saurer": "savoir", "priser": "prise", "soeur": "sœur", "ecoute": "écouter", "ecoutez": "écouter",
           "écoute": "écouter", "sors": "sortir", "joue": "jouer", "mets": "mettre", "bouge": "bouger", "oublie": "oublier",
@@ -44,7 +45,8 @@ FUSION = {"copiner": "copine", "saurer": "savoir", "priser": "prise", "soeur": "
           "familiale": "familial", "empreint": "empreinte", "débrouille": "débrouiller", "crève": "crever", "traîne": "traîner",
           "pige": "piger", "accroche": "accrocher", "oeuvrer": "œuvre", "voeu": "vœu", "clef": "clé", "regardant": "regarder",
           "rate": "rater", "pique": "piquer",
-          "réfléchi": "réfléchir", "coté": "côté", "lave": "laver", "rit": "rire"}
+          "réfléchi": "réfléchir", "coté": "côté", "lave": "laver", "rit": "rire",
+          "dépose": "déposer", "avoué": "avouer", "emporté": "emporter", "évanoui": "évanouir", "singer": "singe", "mérité": "mériter", "range": "ranger", "prouvé": "prouver", "garanti": "garantir", "retenu": "retenir", "fouillé": "fouiller", "accroché": "accrocher", "assassiné": "assassiner", "oublié": "oublier", "limité": "limiter", "balancé": "balancer", "attaché": "attacher", "infecté": "infecter", "cuit": "cuire", "autorisé": "autoriser", "osé": "oser", "touchée": "toucher", "précieuse": "précieux", "remplier": "remplir", "fine": "fin", "voisiner": "voisin", "prêté": "prêter", "persuadé": "persuader", "allongé": "allonger", "enterré": "enterrer", "avancé": "avancer", "vomi": "vomir", "inspiré": "inspirer", "vaguer": "vague", "dû": "devoir", "saisi": "saisir", "emprunté": "emprunter", "gâche": "gâcher", "choqué": "choquer", "affecté": "affecter", "choisi": "choisir", "rentraire": "rentrer", "roulé": "rouler", "tombé": "tomber", "pété": "péter", "pointé": "pointer", "disputé": "disputer", "largué": "larguer", "déguisé": "déguiser", "ramasse": "ramasser", "dégagé": "dégager", "chassé": "chasser", "amenée": "amener", "retourne": "retourner", "sente": "sentir", "rentré": "rentrer", "volé": "voler", "glissé": "glisser", "activé": "activer", "rentrant": "rentrer", "fourni": "fournir", "mêlé": "mêler", "rejeté": "rejeter", "laissé": "laisser", "pars": "partir", "roser": "rose", "humilié": "humilier", "loupé": "louper", "défendu": "défendre", "réussi": "réussir", "programmé": "programmer", "relié": "relier", "emballé": "emballer", "relâché": "relâcher", "veiner": "veine", "lavé": "laver", "glisse": "glisser", "fumé": "fumer", "gardé": "garder", "supposé": "supposer", "agressé": "agresser", "allonge": "allonger", "barré": "barrer", "collé": "coller", "menacé": "menacer", "né": "naître", "répété": "répéter", "media": "média"}
 FIGES = {"peut-être", "aujourd'hui", "là-bas", "là-dedans", "rendez-vous", "celui-là", "celui-ci", "moi-même", "lui-même"}
 PRONOMS = ("-t-il", "-moi", "-toi", "-y", "-vous", "-elle", "-il", "-nous", "-je", "-tu", "-on", "-le", "-la", "-les", "-lui", "-en")
 
