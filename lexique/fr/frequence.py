@@ -44,7 +44,7 @@ FUSION = {"copiner": "copine", "saurer": "savoir", "priser": "prise", "soeur": "
           "familiale": "familial", "empreint": "empreinte", "débrouille": "débrouiller", "crève": "crever", "traîne": "traîner",
           "pige": "piger", "accroche": "accrocher", "oeuvrer": "œuvre", "voeu": "vœu", "clef": "clé", "regardant": "regarder",
           "rate": "rater", "pique": "piquer",
-          "réfléchi": "réfléchir"}
+          "réfléchi": "réfléchir", "coté": "côté", "lave": "laver", "rit": "rire"}
 FIGES = {"peut-être", "aujourd'hui", "là-bas", "là-dedans", "rendez-vous", "celui-là", "celui-ci", "moi-même", "lui-même"}
 PRONOMS = ("-t-il", "-moi", "-toi", "-y", "-vous", "-elle", "-il", "-nous", "-je", "-tu", "-on", "-le", "-la", "-les", "-lui", "-en")
 
