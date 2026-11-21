@@ -3,41 +3,42 @@
   "rang": 7501,
   "lemme": "восход",
   "mot": "восхо́д",
-  "api": "[vɐsˈxot]",
+  "api": "[vɐˈsxot]",
   "niveau": "B1",
   "sens": [
    {
-    "sens": "Lever (du soleil, de la lune, d'un astre)",
+    "sens": "Lever d'un astre : moment où le soleil (ou la lune) apparaît à l'horizon.",
     "equivalents": [
-     "lever",
-     "aube",
-     "apparition à l'horizon"
+     "lever du soleil",
+     "lever (d'un astre)",
+     "point du jour"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "Мы наблюда́ли восхо́д со́лнца над мо́рем.",
-      "fr": "Nous avons observé le lever du soleil au-dessus de la mer."
+      "ru": "Мы подня́лись на го́ру до восхо́да со́лнца.",
+      "fr": "Nous sommes montés sur la montagne avant le lever du soleil."
      },
      {
-      "ru": "Восхо́д луны́ был сего́дня о́чень краси́вым.",
-      "fr": "Le lever de la lune était très beau aujourd'hui."
+      "ru": "Восхо́д здесь о́коло пяти́ часо́в утра́.",
+      "fr": "Ici, le soleil se lève vers cinq heures du matin."
      }
     ]
    },
    {
-    "sens": "Montée, ascension (rare, littéraire ou archaïque)",
+    "sens": "(soutenu, au figuré) Aube, tout début de quelque chose (vie, gloire, époque).",
     "equivalents": [
-     "ascension",
-     "montée"
+     "aube",
+     "commencement",
+     "naissance (fig.)"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "Восхо́д на верши́ну заня́л не́сколько часо́в.",
-      "fr": "L'ascension jusqu'au sommet a pris plusieurs heures."
+      "ru": "Он был ещё на восхо́де свое́й сла́вы.",
+      "fr": "Il était encore à l'aube de sa gloire."
      },
      {
-      "ru": "Э́то был тру́дный восхо́д по круто́й тропе́.",
-      "fr": "Ce fut une montée difficile par le sentier escarpé."
+      "ru": "Поэ́т писа́л о восхо́де но́вой э́ры.",
+      "fr": "Le poète écrivait sur l'aube d'une ère nouvelle."
      }
     ]
    }
@@ -45,12 +46,15 @@
   "synonymes": [
    {
     "mot": "рассве́т",
-    "nuance": "Aube, point du jour ; désigne le moment où il commence à faire clair, tandis que восход est l'apparition physique du disque solaire."
+    "nuance": "« aube » : période qui précède et accompagne le lever ; plus large et plus fréquent à l'oral."
+   },
+   {
+    "mot": "заря́",
+    "nuance": "lueur colorée de l'aube (ou du couchant) ; poétique, désigne le ciel, non l'instant."
    }
   ],
   "antonymes": [
-   "зака́т",
-   "захо́д"
+   "зака́т"
   ],
   "formes": {
    "genre": "m",
@@ -74,74 +78,93 @@
    }
   },
   "pieges": [
-   "Ne pas confondre avec рассвет (l'aube) : восход désigne spécifiquement l'action de se lever pour un astre.",
-   "Le préfixe в(о)с- + ход indique un mouvement vers le haut. Attention à ne pas confondre avec вход (entrée).",
-   "Au pluriel, le mot est peu fréquent et s'utilise surtout dans des contextes scientifiques ou poétiques."
+   "Ne pas confondre восхо́д (lever d'un astre) et восхожде́ние (ascension, escalade) : « lever du soleil » = восхо́д со́лнца, jamais *восхожде́ние со́лнца.",
+   "Faux amis de forme : восхо́д ≠ восто́к (l'est, point cardinal).",
+   "Accent fixe sur la finale du radical dans toutes les formes (восхо́да, восхо́дом, о восхо́де) ; on dit до восхо́да, на восхо́де со́лнца."
   ],
   "expressions": [
    {
-    "ru": "от восхо́да до зака́та",
-    "fr": "du lever au coucher du soleil"
+    "ru": "на восхо́де со́лнца",
+    "fr": "au lever du soleil"
    },
    {
-    "ru": "восхо́д со́лнца",
-    "fr": "lever du soleil"
+    "ru": "от восхо́да до зака́та",
+    "fr": "du lever au coucher du soleil"
    }
   ],
   "famille": [
    {
     "mot": "восходи́ть",
-    "fr": "se lever (astre), monter"
+    "fr": "se lever (astre) ; remonter à (восходи́ть к эпо́хе)"
    },
    {
-    "mot": "взойти́",
-    "fr": "se lever (perfectif)"
+    "mot": "восходя́щий",
+    "fr": "levant, ascendant (восходя́щее со́лнце)"
    },
    {
-    "mot": "захо́д",
-    "fr": "coucher (d'un astre)"
+    "mot": "восхожде́ние",
+    "fr": "ascension, escalade"
+   },
+   {
+    "mot": "всхо́д",
+    "fr": "pousse, germe (agricole)"
    }
   ],
   "nature": "nom",
   "frequence": 576,
   "translit": "voskhOd",
-  "controle": [
-   "sens incomplets"
-  ]
+  "controle": []
  },
  {
   "rang": 7502,
   "lemme": "подлодка",
   "mot": "подло́дка",
-  "api": "[pɐtˈɫotkə]",
+  "api": "[pɐdˈɫotkə]",
   "niveau": "B1",
   "sens": [
    {
-    "sens": "Sous-marin (navire militaire ou scientifique pouvant naviguer sous l'eau)",
+    "sens": "Sous-marin, bâtiment militaire capable de naviguer en plongée (abréviation familière de подво́дная ло́дка).",
     "equivalents": [
      "sous-marin",
      "submersible"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "А́томная подло́дка вы́шла в откры́тое мо́ре.",
-      "fr": "Le sous-marin nucléaire est sorti en haute mer."
+      "ru": "А́томная подло́дка вы́шла в мо́ре.",
+      "fr": "Le sous-marin nucléaire a pris la mer."
      },
      {
-      "ru": "Экипа́ж подло́дки состои́т из ста челове́к.",
-      "fr": "L'équipage du sous-marin est composé de cent personnes."
+      "ru": "Он служи́л на подло́дке три го́да.",
+      "fr": "Il a servi trois ans sur un sous-marin."
+     }
+    ]
+   },
+   {
+    "sens": "(par métonymie) L'équipage du sous-marin.",
+    "equivalents": [
+     "équipage du sous-marin",
+     "le bord"
+    ],
+    "exemples": [
+     {
+      "ru": "Подло́дка получи́ла прика́з верну́ться на ба́зу.",
+      "fr": "Le sous-marin a reçu l'ordre de rentrer à la base."
+     },
+     {
+      "ru": "Вся подло́дка зна́ла об э́том.",
+      "fr": "Tout l'équipage du sous-marin était au courant."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "субмари́на",
-    "nuance": "Synonyme direct, souvent utilisé dans un registre plus littéraire ou international."
+    "mot": "подво́дная ло́дка",
+    "nuance": "forme pleine, neutre et officielle (documents, presse, armée)."
    },
    {
-    "mot": "подво́дная ло́дка",
-    "nuance": "Forme complète dont подлодка est l'abréviation courante."
+    "mot": "субмари́на",
+    "nuance": "terme technique emprunté, vieilli ou livresque ; rare à l'oral."
    }
   ],
   "antonymes": [],
@@ -167,9 +190,9 @@
    }
   },
   "pieges": [
-   "C'est une abréviation lexicalisée de подводная лодка (littéralement « bateau sous-marin »). À l'oral, on dit presque toujours подлодка.",
-   "Attention à la prononciation : le д devant л peut légèrement s'assimiler, mais reste distinct. Le groupe -дл- est courant en russe.",
-   "Le génitif pluriel est подлодок (avec voyelle fugitive), et non *подлодков."
+   "Registre : подло́дка est courant/familier ; à l'écrit formel on préfère подво́дная ло́дка.",
+   "Génitif pluriel подло́док : un о d'appui apparaît entre д et к (comme ло́дка → ло́док).",
+   "On dit служи́ть / быть на подло́дке (préposition на + prépositionnel), comme sur un navire, et non *в подло́дке."
   ],
   "expressions": [
    {
@@ -177,26 +200,28 @@
     "fr": "sous-marin nucléaire"
    },
    {
-    "ru": "дизельная подло́дка",
+    "ru": "ди́зельная подло́дка",
     "fr": "sous-marin diesel"
    }
   ],
   "famille": [
    {
-    "mot": "подво́дная ло́дка",
-    "fr": "sous-marin (forme complète)"
+    "mot": "ло́дка",
+    "fr": "barque, petite embarcation"
    },
    {
-    "mot": "ло́дка",
-    "fr": "bateau, barque"
+    "mot": "подво́дный",
+    "fr": "sous-marin, subaquatique (adjectif)"
+   },
+   {
+    "mot": "подво́дник",
+    "fr": "sous-marinier, membre d'équipage de sous-marin (fam.)"
    }
   ],
   "nature": "nom",
   "frequence": 576,
   "translit": "podlOdka",
-  "controle": [
-   "sens incomplets"
-  ]
+  "controle": []
  },
  {
   "rang": 7503,
@@ -208,71 +233,55 @@
   "paire": "прики́дывать",
   "sens": [
    {
-    "sens": "Évaluer approximativement, estimer, calculer rapidement (familier/courant)",
+    "sens": "(familier) Estimer, calculer approximativement, de tête ou à vue de nez.",
     "equivalents": [
      "estimer",
-     "évaluer",
-     "calculer à vue de nez"
+     "évaluer approximativement",
+     "chiffrer",
+     "calculer à la louche"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "Прики́нь, ско́лько э́то бу́дет сто́ить!",
-      "fr": "Estime combien ça va coûter !"
+      "ru": "Прики́нь, ско́лько э́то бу́дет сто́ить.",
+      "fr": "Estime combien ça va coûter."
      },
      {
-      "ru": "Я прики́нул, что нам ну́жно ещё два дня́.",
-      "fr": "J'ai évalué qu'il nous fallait encore deux jours."
+      "ru": "Я прики́нул расхо́ды и реши́л отказа́ться.",
+      "fr": "J'ai estimé les dépenses et j'ai décidé d'y renoncer."
      }
     ]
    },
    {
-    "sens": "Essayer un vêtement, enfiler rapidement pour voir si ça va",
+    "sens": "(familier) Se représenter mentalement, envisager une situation, imaginer ce que cela donnerait.",
     "equivalents": [
-     "essayer",
-     "enfiler"
+     "envisager",
+     "imaginer",
+     "se représenter"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "Она́ прики́нула но́вое пла́тье пе́ред зе́ркалом.",
-      "fr": "Elle a essayé la nouvelle robe devant le miroir."
+      "ru": "Прики́нь, что бу́дет, е́сли мы опозда́ем.",
+      "fr": "Imagine ce qui se passera si nous arrivons en retard."
      },
      {
-      "ru": "Прики́нь э́ту ку́ртку, мо́жет, подойдёт.",
-      "fr": "Essaie cette veste, elle ira peut-être."
-     }
-    ]
-   },
-   {
-    "sens": "Faire semblant, jouer un rôle (suivi de la forme courte прикинуться / instrumental) (familier)",
-    "equivalents": [
-     "faire semblant",
-     "simuler",
-     "jouer la comédie"
-    ],
-    "examples": [
-     {
-      "ru": "Он прики́нулся дурачко́м, что́бы его́ не руга́ли.",
-      "fr": "Il a fait l'idiot pour qu'on ne le gronde pas."
-     },
-     {
-      "ru": "Не прики́дывайся, ты всё пре́красно зна́ешь!",
-      "fr": "Ne fais pas semblant, tu sais tout parfaitement !"
+      "ru": "Он прики́нул, как э́то вы́глядит со стороны́, и промолча́л.",
+      "fr": "Il a imaginé comment cela paraîtrait vu de l'extérieur et s'est tu."
      }
     ]
    }
   ],
   "synonymes": [
    {
+    "mot": "прики́дывать",
+    "nuance": "imperfectif du même verbe, même registre familier : l'action en cours ou répétée."
+   },
+   {
     "mot": "оцени́ть",
-    "nuance": "Évaluer, estimer (plus formel et précis que прикинуть)."
+    "nuance": "« évaluer » : neutre, convient à l'écrit et au style officiel."
    },
    {
-    "mot": "приме́рить",
-    "nuance": "Essayer un vêtement (registre neutre, standard)."
-   },
-   {
-    "mot": "при́твориться",
-    "nuance": "Faire semblant (pour le sens 3, registre neutre)."
+    "mot": "подсчита́ть",
+    "nuance": "« compter, chiffrer » : plus précis, suppose un vrai calcul."
    }
   ],
   "antonymes": [],
@@ -297,99 +306,101 @@
    }
   },
   "pieges": [
-   "Verbe perfectif. Le présent donné ici est en réalité le futur simple. L'imperfectif est прикидывать.",
-   "Dans le sens 'faire semblant', on utilise la forme réfléchie прикинуться suivie de l'instrumental (прикинуться больным = faire semblant d'être malade).",
-   "À l'impératif singulier, le suffixe -нуть disparaît complètement : прикинь (et non *прикинуть). C'est très courant à l'oral comme interjection ('Imagine un peu !')."
+   "Perfectif : pas de présent ; прики́ну, прики́нешь… sont des futurs (« j'estimerai »). Le présent est прики́дываю, avec un д épenthétique à ne pas oublier.",
+   "Ne pas confondre прики́нуть (estimer) et прики́нуться (faire semblant, se faire passer pour + instrumental) : il прики́нулся больны́м.",
+   "Registre familier : dans un rapport ou un courriel formel, écrire приблизительно подсчита́ть ou оцени́ть."
   ],
   "expressions": [
    {
-    "ru": "прики́нуть в уме́",
-    "fr": "estimer de tête, calculer mentalement"
+    "ru": "прики́нуть на глаз",
+    "fr": "estimer à vue de nez"
    },
    {
-    "ru": "прики́нуть на глаз",
-    "fr": "estimer à vue d'œil"
+    "ru": "прики́нуть в уме́",
+    "fr": "calculer de tête"
    }
   ],
   "famille": [
    {
     "mot": "прики́дывать",
-    "fr": "estimer, essayer (imperfectif)"
-   },
-   {
-    "mot": "ки́нуть",
-    "fr": "jeter, lancer (perfectif)"
+    "fr": "estimer (imperfectif)"
    },
    {
     "mot": "прики́дка",
-    "fr": "estimation approximative (familier)"
+    "fr": "estimation approximative, calcul sommaire (fam.)"
+   },
+   {
+    "mot": "прики́дываться",
+    "fr": "faire semblant, se faire passer pour"
+   },
+   {
+    "mot": "ки́нуть",
+    "fr": "jeter, lancer (fam.)"
    }
   ],
   "nature": "verbe",
   "frequence": 575,
   "translit": "prikInout",
-  "controle": [
-   "sens incomplets"
-  ]
+  "controle": []
  },
  {
   "rang": 7504,
   "lemme": "передвигаться",
   "mot": "передвига́ться",
-  "api": "[pʲɪrʲɪdvʲɪˈɡat͡sə]",
+  "api": "[pʲɪrʲɪdvʲɪˈɡat͡sːə]",
   "niveau": "B1",
   "aspect": "imperfectif",
   "paire": "передви́нуться",
   "sens": [
    {
-    "sens": "Se déplacer, se mouvoir, aller d'un endroit à un autre",
+    "sens": "Se déplacer, se mouvoir en changeant de place (en parlant d'une personne, d'un animal).",
     "equivalents": [
      "se déplacer",
-     "circuler",
-     "bouger"
+     "se mouvoir",
+     "circuler"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "По го́роду быстре́е всего́ передвига́ться на метро́.",
-      "fr": "En ville, le plus rapide est de se déplacer en métro."
+      "ru": "После́ опера́ции он передвига́ется с костыля́ми.",
+      "fr": "Après l'opération, il se déplace avec des béquilles."
      },
      {
-      "ru": "Больно́й уже́ мо́жет самостоя́тельно передвига́ться.",
-      "fr": "Le malade peut déjà se déplacer de manière autonome."
+      "ru": "Ста́рик с трудо́м передвига́лся по ко́мнате.",
+      "fr": "Le vieil homme se déplaçait avec peine dans la pièce."
      }
     ]
    },
    {
-    "sens": "Déplacer quelque chose, bouger un objet (transitif : передвигать)",
+    "sens": "Se déplacer d'un lieu à un autre, circuler (moyen de transport, troupes, véhicules).",
     "equivalents": [
-     "déplacer",
-     "bouger",
-     "pousser"
+     "circuler",
+     "se déplacer (en)",
+     "aller d'un point à un autre"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "Помоги́ мне передвига́ть э́тот тяжёлый шкаф.",
-      "fr": "Aide-moi à déplacer cette lourde armoire."
+      "ru": "В го́роде удобне́е всего́ передвига́ться на метро́.",
+      "fr": "En ville, le plus pratique est de se déplacer en métro."
      },
      {
-      "ru": "Рабо́чие продолжа́ют передвига́ть ме́бель.",
-      "fr": "Les ouvriers continuent de bouger les meubles."
+      "ru": "Отря́д передвига́лся то́лько но́чью.",
+      "fr": "Le détachement ne se déplaçait que la nuit."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "двига́ться",
-    "nuance": "Bouger, être en mouvement (plus général, n'implique pas forcément un changement de lieu précis)."
+    "mot": "дви́гаться",
+    "nuance": "« bouger, se mouvoir » : neutre et plus général, sans idée de trajet."
    },
    {
     "mot": "перемеща́ться",
-    "nuance": "Se déplacer, changer de place (registre plus formel, scientifique ou administratif)."
+    "nuance": "« se déplacer » : plus soutenu, technique ou administratif."
    },
    {
-    "mot": "ходи́ть",
-    "nuance": "Marcher, aller à pied (spécifique au mode de déplacement pédestre)."
+    "mot": "е́здить",
+    "nuance": "aller et venir en véhicule, verbe itératif (déplacements répétés)."
    }
   ],
   "antonymes": [
@@ -416,119 +427,138 @@
    }
   },
   "pieges": [
-   "Ne pas confondre le verbe intransitif/réfléchi передвигаться (se déplacer soi-même) et le verbe transitif передвигать (déplacer un objet).",
-   "Le verbe perfectif correspondant pour le déplacement d'une personne est передви́нуться (faire un petit déplacement).",
-   "L'accent tonique est fixe sur le suffixe -а́- à toutes les formes du présent et du passé, ce qui facilite la prononciation."
+   "Verbe réfléchi intransitif : on se déplace soi-même. Pour déplacer un objet, il faut le transitif sans -ся : передвига́ть шкаф, не *передвига́ться шкаф.",
+   "Moyen de transport : на + prépositionnel (передвига́ться на метро́, на маши́не) ; « à pied » se dit пешко́м, sans préposition.",
+   "Paire aspectuelle : передвига́ться (processus, habituel) / передви́нуться (un déplacement unique, accent sur -дви́-) ; -ться se prononce [t͡sːə]."
   ],
   "expressions": [
    {
-    "ru": "средство передвиже́ния",
-    "fr": "moyen de transport/de déplacement"
+    "ru": "передвига́ться пешко́м",
+    "fr": "se déplacer à pied"
+   },
+   {
+    "ru": "с трудо́м передвига́ться",
+    "fr": "se déplacer avec difficulté"
    }
   ],
   "famille": [
    {
     "mot": "передвиже́ние",
-    "fr": "déplacement, mouvement"
+    "fr": "déplacement, mouvement (d'un lieu à un autre)"
+   },
+   {
+    "mot": "передвига́ть",
+    "fr": "déplacer quelque chose (transitif, imperfectif)"
    },
    {
     "mot": "дви́гаться",
     "fr": "bouger, se mouvoir"
    },
    {
-    "mot": "дви́гать",
-    "fr": "bouger, remuer (transitif)"
-   },
-   {
-    "mot": "передви́жник",
-    "fr": "itinérant (historiquement : peintre ambulant russe du XIXe siècle)"
+    "mot": "передвижно́й",
+    "fr": "mobile, ambulant (передвижна́я вы́ставка)"
    }
   ],
   "nature": "verbe",
   "frequence": 575,
   "translit": "peredvigAtsia",
-  "controle": [
-   "sens incomplets"
-  ]
+  "controle": []
  },
  {
   "rang": 7505,
   "lemme": "обнаружение",
-  "mot": "обнару́жение",
-  "api": "[ɐbnɐˈruʐɨnʲɪje]",
+  "mot": "обнаруже́ние",
+  "api": "[ɐbnɐrʊˈʐɛnʲɪjə]",
   "niveau": "B2",
   "sens": [
    {
-    "sens": "Découverte, détection, mise au jour de quelque chose de caché",
+    "sens": "Fait de trouver ce qui était caché ou inconnu ; découverte.",
     "equivalents": [
      "découverte",
-     "détection",
+     "fait de trouver",
      "mise au jour"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "Обнару́жение но́вой плане́ты ста́ло сенса́цией.",
-      "fr": "La découverte de la nouvelle planète est devenue une sensation."
+      "ru": "Учёные объяви́ли об обнаруже́нии но́вой плане́ты.",
+      "fr": "Les scientifiques ont annoncé la découverte d'une nouvelle planète."
      },
      {
-      "ru": "Радар обеспе́чивает обнару́жение самолётов про́тивника.",
-      "fr": "Le radar assure la détection des avions ennemis."
+      "ru": "Обнаруже́ние оши́бки на ра́нней ста́дии помогло́ нам избежа́ть пробле́м.",
+      "fr": "Le fait de repérer l'erreur à un stade précoce nous a aidé à éviter des problèmes."
+     }
+    ]
+   },
+   {
+    "sens": "(technique, militaire, informatique) Détection, repérage d'un signal, d'une cible, d'un défaut.",
+    "equivalents": [
+     "détection",
+     "repérage",
+     "localisation"
+    ],
+    "exemples": [
+     {
+      "ru": "Систе́ма обнаруже́ния ды́ма срабо́тала но́чью.",
+      "fr": "Le système de détection de fumée s'est déclenché la nuit."
+     },
+     {
+      "ru": "Радар обеспе́чивает обнаруже́ние це́ли на больши́х расстоя́ниях.",
+      "fr": "Le radar assure la détection de la cible à grande distance."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "выявле́ние",
-    "nuance": "Mise en évidence, identification (souvent utilisé pour des problèmes, des maladies, des infractions)."
-   },
-   {
-    "mot": "нахожде́ние",
-    "nuance": "Action de trouver (plus neutre et général)."
-   },
-   {
     "mot": "откры́тие",
-    "nuance": "Découverte, ouverture (plus large, peut désigner une invention ou un événement public)."
+    "nuance": "découverte scientifique marquante, plus valorisante ; ne s'emploie pas pour un simple défaut technique."
+   },
+   {
+    "mot": "нахо́дка",
+    "nuance": "trouvaille, l'objet trouvé lui-même ; concret, non abstrait."
+   },
+   {
+    "mot": "выявле́ние",
+    "nuance": "mise au jour, dépistage ; style administratif, médical ou statistique."
    }
   ],
   "antonymes": [
-   "сокры́тие",
-   "ута́йка"
+   "сокры́тие"
   ],
   "formes": {
    "genre": "n",
    "declinaison": {
     "singulier": {
-     "nominatif": "обнару́жение",
-     "genitif": "обнару́жения",
-     "datif": "обнару́жению",
-     "accusatif": "обнару́жение",
-     "instrumental": "обнару́жением",
-     "prepositionnel": "обнару́жении"
+     "nominatif": "обнаруже́ние",
+     "genitif": "обнаруже́ния",
+     "datif": "обнаруже́нию",
+     "accusatif": "обнаруже́ние",
+     "instrumental": "обнаруже́нием",
+     "prepositionnel": "обнаруже́нии"
     },
     "pluriel": {
-     "nominatif": "обнару́жения",
-     "genitif": "обнару́жений",
-     "datif": "обнару́жениям",
-     "accusatif": "обнару́жения",
-     "instrumental": "обнару́жениями",
-     "prepositionnel": "обнару́жениях"
+     "nominatif": "обнаруже́ния",
+     "genitif": "обнаруже́ний",
+     "datif": "обнаруже́ниям",
+     "accusatif": "обнаруже́ния",
+     "instrumental": "обнаруже́ниями",
+     "prepositionnel": "обнаруже́ниях"
     }
    }
   },
   "pieges": [
-   "Nom d'action déverbal assez formel. Dans la langue de tous les jours, on préfère utiliser le verbe обнаружить/обнаруживать ou le nom находка.",
-   "Le pluriel est rare et s'utilise principalement dans des contextes techniques ou militaires (ex. : systèmes de détection).",
-   "Attention à l'orthographe : ж après у, et non ш."
+   "Noms en -ие : le prépositionnel finit en -ии (об обнаруже́нии, при обнаруже́нии), jamais *-ие ; le pluriel est rare, le mot est un nom d'action.",
+   "Régime : обнаруже́ние чего́ (génitif) ; verbe correspondant обнару́жить что́, et обнару́житься = « se révéler, s'avérer (être) ».",
+   "Ne pas employer обнаруже́ние pour une grande découverte scientifique : là, c'est откры́тие."
   ],
   "expressions": [
    {
-    "ru": "систе́ма обнару́жения",
-    "fr": "système de détection"
+    "ru": "при обнаруже́нии (+ génitif)",
+    "fr": "en cas de détection de, dès la découverte de"
    },
    {
-    "ru": "раннее обнару́жение",
-    "fr": "détection précoce"
+    "ru": "обнаруже́ние уте́чки",
+    "fr": "détection d'une fuite"
    }
   ],
   "famille": [
@@ -541,57 +571,59 @@
     "fr": "découvrir, détecter (imperfectif)"
    },
    {
-    "mot": "обнару́женный",
-    "fr": "découvert, détecté (participe passé passif)"
+    "mot": "обнару́житься",
+    "fr": "se révéler, apparaître, s'avérer"
+   },
+   {
+    "mot": "нару́жу",
+    "fr": "au-dehors, à l'extérieur"
    }
   ],
   "nature": "nom",
   "frequence": 575,
-  "translit": "obnarOUjenie",
-  "controle": [
-   "sens incomplets"
-  ]
+  "translit": "obnaroujEnie",
+  "controle": []
  },
  {
   "rang": 7506,
   "lemme": "колдовство",
   "mot": "колдовство́",
-  "api": "[kəldɐˈstvo]",
+  "api": "[kəɫdɐfˈstvo]",
   "niveau": "B2",
   "sens": [
    {
-    "sens": "Sorcellerie, magie noire, pratique occulte",
+    "sens": "Sorcellerie : pratique de la magie occulte, sortilèges (souvent avec une connotation de superstition ou d'accusation).",
     "equivalents": [
      "sorcellerie",
-     "magie",
-     "occultisme"
+     "magie noire",
+     "ensorcellement"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "В Сре́дние ве́ка люде́й часто обвиня́ли в колдовстве́.",
-      "fr": "Au Moyen Âge, on accusait souvent les gens de sorcellerie."
+      "ru": "В сре́дние века́ за колдовство́ могли́ казни́ть.",
+      "fr": "Au Moyen Âge, on pouvait être exécuté pour sorcellerie."
      },
      {
-      "ru": "Колдовство́ счита́лось тя́жким преступле́нием.",
-      "fr": "La sorcellerie était considérée comme un crime grave."
+      "ru": "Ба́бушку обвини́ли в колдовстве́.",
+      "fr": "On a accusé la grand-mère de sorcellerie."
      }
     ]
    },
    {
-    "sens": "Charme, envoûtement, fascination (sens figuré)",
+    "sens": "(au figuré, littéraire) Charme envoûtant, magie de quelque chose qui fascine.",
     "equivalents": [
-     "charme",
-     "envoûtement",
-     "fascination"
+     "magie",
+     "enchantement",
+     "charme envoûtant"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "В её взгля́де бы́ло како́е-то колдовство́.",
-      "fr": "Il y avait une sorte de magie dans son regard."
+      "ru": "В её го́лосе бы́ло како́е-то колдовство́.",
+      "fr": "Il y avait dans sa voix une sorte d'enchantement."
      },
      {
-      "ru": "Колдовство́ э́той му́зыки не перестаёт меня́ поража́ть.",
-      "fr": "La magie de cette musique ne cesse de me fasciner."
+      "ru": "Колдовство́ э́той му́зыки де́йствует на всех.",
+      "fr": "La magie de cette musique agit sur tout le monde."
      }
     ]
    }
@@ -599,15 +631,15 @@
   "synonymes": [
    {
     "mot": "ма́гия",
-    "nuance": "Magie (terme plus neutre et international, sans connotation nécessairement négative)."
+    "nuance": "terme neutre et large (magie, y compris magie de spectacle) ; колдовство́ vise la pratique occulte."
    },
    {
-    "mot": "чароде́йство",
-    "nuance": "Enchantement, magie (registre littéraire, féerique)."
+    "mot": "ворожба́",
+    "nuance": "magie populaire, divination ; couleur folklorique et familière."
    },
    {
-    "mot": "волше́бство",
-    "nuance": "Magie, féerie (connotation positive ou merveilleuse)."
+    "mot": "волшба́",
+    "nuance": "vieilli et poétique, magie des contes et des croyances slaves."
    }
   ],
   "antonymes": [],
@@ -623,19 +655,19 @@
      "prepositionnel": "колдовстве́"
     },
     "pluriel": {
-     "nominatif": "—",
-     "genitif": "—",
-     "datif": "—",
-     "accusatif": "—",
-     "instrumental": "—",
-     "prepositionnel": "—"
+     "nominatif": null,
+     "genitif": null,
+     "datif": null,
+     "accusatif": null,
+     "instrumental": null,
+     "prepositionnel": null
     }
    }
   },
   "pieges": [
-   "Singulière tantum : ce mot ne s'emploie normalement pas au pluriel.",
-   "Accent mobile : l'accent passe de la dernière syllabe au nominatif (колдовство́) à la terminaison aux cas obliques (колдовства́, колдовству́).",
-   "Contrairement à магия ou волшебство, колдовство a historiquement une connotation sombre ou diabolique (sorcellerie), bien que le sens figuré soit positif."
+   "Accent final partout : колдовство́, колдовства́, колдовство́м, о колдовстве́ (jamais *колдо́вство).",
+   "Nom abstrait sans pluriel : les cases du pluriel ne s'emploient pas.",
+   "Régime : обвини́ть в колдовстве́ (prépositionnel), казни́ть за колдовство́ ; ne pas confondre avec волшебство́ (magie féerique, positive) ni avec колду́н (le sorcier)."
   ],
   "expressions": [
    {
@@ -659,38 +691,59 @@
    {
     "mot": "колдова́ть",
     "fr": "ensorceler, pratiquer la magie"
+   },
+   {
+    "mot": "колдо́вской",
+    "fr": "de sorcier, ensorcelé"
    }
   ],
   "nature": "nom",
   "frequence": 575,
   "translit": "koldovstvO",
-  "controle": [
-   "sens incomplets",
-   "formes douteuses : —, —, —"
-  ]
+  "controle": []
  },
  {
   "rang": 7507,
   "lemme": "прекращение",
   "mot": "прекраще́ние",
-  "api": "[prʲɪkrɐˈɕːenʲɪje]",
+  "api": "[prʲɪkrɐˈɕːenʲɪjə]",
   "niveau": "B1",
   "sens": [
    {
-    "sens": "Arrêt, cessation, interruption définitive d'une action ou d'un état",
+    "sens": "Cessation, arrêt de ce qui durait (action, phénomène, bruit).",
     "equivalents": [
-     "arrêt",
      "cessation",
-     "interruption"
+     "arrêt",
+     "interruption",
+     "fin"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "Прекраще́ние огня́ всту́пило в си́лу в по́лночь.",
-      "fr": "Le cessez-le-feu est entré en vigueur à minuit."
+      "ru": "После́ прекраще́ния дождя́ мы вы́шли на у́лицу.",
+      "fr": "Après l'arrêt de la pluie, nous sommes sortis dans la rue."
      },
      {
-      "ru": "Компа́ния объя́вила о прекраще́нии произво́дства.",
-      "fr": "L'entreprise a annoncé l'arrêt de la production."
+      "ru": "Дире́ктор потре́бовал прекраще́ния разгово́ров.",
+      "fr": "Le directeur a exigé que les conversations cessent."
+     }
+    ]
+   },
+   {
+    "sens": "(droit, administration) Clôture, arrêt d'une procédure ; résiliation d'un contrat.",
+    "equivalents": [
+     "clôture",
+     "classement (d'une affaire)",
+     "résiliation",
+     "abandon (des poursuites)"
+    ],
+    "exemples": [
+     {
+      "ru": "Суд вы́нес реше́ние о прекраще́нии де́ла.",
+      "fr": "Le tribunal a rendu une décision de clôture de l'affaire."
+     },
+     {
+      "ru": "Прекраще́ние догово́ра возможно́ по соглаше́нию сторо́н.",
+      "fr": "La résiliation du contrat est possible par accord des parties."
      }
     ]
    }
@@ -698,17 +751,21 @@
   "synonymes": [
    {
     "mot": "остано́вка",
-    "nuance": "Arrêt, pause (peut être temporaire, contrairement à прекращение qui implique souvent une fin définitive)."
+    "nuance": "arrêt concret, technique (остано́вка произво́дства) ; souvent momentané."
+   },
+   {
+    "mot": "заверше́ние",
+    "nuance": "achèvement : la chose va jusqu'à son terme normal, alors que прекраще́ние l'interrompt."
    },
    {
     "mot": "прерыва́ние",
-    "nuance": "Interruption (met l'accent sur la rupture d'un processus en cours)."
+    "nuance": "interruption, coupure ; registre technique (signal, communication)."
    }
   ],
   "antonymes": [
+   "нача́ло",
    "возобновле́ние",
-   "продолже́ние",
-   "нача́ло"
+   "продолже́ние"
   ],
   "formes": {
    "genre": "n",
@@ -732,9 +789,9 @@
    }
   },
   "pieges": [
-   "Nom d'action déverbal très courant dans la langue administrative, juridique et journalistique. Il correspond au verbe прекратить/прекращать.",
-   "Le groupe щ représente un son long et doux [ɕː], et non [ʃtʃ]. Ne pas prononcer comme un 'chtch' dur.",
-   "Attention au préfixe пре- (et non при-), qui indique ici l'idée d'aller jusqu'au bout, d'interrompre totalement."
+   "Faux ami de forme : прекраще́ние (cessation) ≠ сокраще́ние (réduction, abréviation, licenciement).",
+   "Nom en -ие : prépositionnel en -ии (о прекраще́нии) ; régime прекраще́ние чего́ (génitif), verbe прекрати́ть что́ (accusatif).",
+   "Le verbe intransitif « cesser » est прекрати́ться (дождь прекрати́лся) : ne pas dire *дождь прекрати́л."
   ],
   "expressions": [
    {
@@ -742,34 +799,36 @@
     "fr": "cessez-le-feu"
    },
    {
-    "ru": "прекраще́ние дела́",
-    "fr": "classement sans suite, arrêt d'une affaire (juridique)"
+    "ru": "прекраще́ние уголо́вного де́ла",
+    "fr": "classement / abandon des poursuites pénales"
    },
    {
-    "ru": "без прекраще́ния",
-    "fr": "sans arrêt, sans discontinuer"
+    "ru": "прекраще́ние догово́ра",
+    "fr": "résiliation du contrat"
    }
   ],
   "famille": [
    {
     "mot": "прекрати́ть",
-    "fr": "arrêter, cesser (perfectif)"
+    "fr": "cesser, arrêter quelque chose (perfectif)"
    },
    {
     "mot": "прекраща́ть",
-    "fr": "arrêter, cesser (imperfectif)"
+    "fr": "cesser, arrêter (imperfectif)"
    },
    {
     "mot": "прекрати́ться",
-    "fr": "s'arrêter, cesser (perfectif, pronominal)"
+    "fr": "cesser, s'arrêter (intransitif, perfectif)"
+   },
+   {
+    "mot": "прекраща́ться",
+    "fr": "cesser, s'arrêter (intransitif, imperfectif)"
    }
   ],
   "nature": "nom",
   "frequence": 575,
   "translit": "prekrachtchEnie",
-  "controle": [
-   "sens incomplets"
-  ]
+  "controle": []
  },
  {
   "rang": 7508,
@@ -779,81 +838,110 @@
   "niveau": "B1",
   "sens": [
    {
-    "sens": "Élevé, supérieur à la normale, accru (quantité, niveau, température)",
+    "sens": "Supérieur à la normale, élevé (taux, pression, température, risque).",
     "equivalents": [
      "élevé",
-     "accru",
-     "supérieur"
+     "augmenté",
+     "supérieur à la normale"
     ],
-    "examples": [
+    "exemples": [
      {
       "ru": "У него́ повы́шенное давле́ние.",
-      "fr": "Il a une tension artérielle élevée."
+      "fr": "Il a une tension élevée."
      },
      {
-      "ru": "Спрос на э́тот това́р остаётся повы́шенным.",
-      "fr": "La demande pour ce produit reste accrue."
+      "ru": "Повы́шенная температу́ра держала́сь три дня.",
+      "fr": "La température élevée (la fièvre) a persisté trois jours."
      }
     ]
    },
    {
-    "sens": "Exagéré, excessif, anormalement fort (sentiment, attention)",
+    "sens": "Accru, renforcé, plus grand qu'à l'ordinaire (attention, intérêt, exigences).",
     "equivalents": [
-     "exagéré",
-     "excessif",
-     "surdimensionné"
+     "accru",
+     "renforcé",
+     "redoublé"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "Она́ проявля́ет повы́шенный интере́с к чужи́м дела́м.",
-      "fr": "Elle manifeste un intérêt excessif pour les affaires des autres."
+      "ru": "Э́та тема́ вызыва́ет повы́шенный интере́с.",
+      "fr": "Ce sujet suscite un intérêt accru."
      },
      {
-      "ru": "Повы́шенная трево́жность меша́ет ему́ жить.",
-      "fr": "Une anxiété exagérée l'empêche de vivre."
+      "ru": "К но́вым сотру́дникам у нас повы́шенные тре́бования.",
+      "fr": "Chez nous, les exigences envers les nouveaux employés sont renforcées."
+     }
+    ]
+   },
+   {
+    "sens": "(voix, ton) Monté, plus fort qu'à l'ordinaire, signe d'énervement.",
+    "equivalents": [
+     "élevé (ton)",
+     "fort (voix)",
+     "surexcité"
+    ],
+    "exemples": [
+     {
+      "ru": "Они́ разгова́ривали на повы́шенных тона́х.",
+      "fr": "Ils parlaient sur un ton élevé (en haussant la voix)."
+     },
+     {
+      "ru": "Из сосе́дней ко́мнаты доноси́лись повы́шенные голоса́.",
+      "fr": "Des voix éclatantes provenaient de la pièce voisine."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "увели́ченный",
-    "nuance": "Augmenté, agrandi (insiste sur le résultat d'une action d'accroissement)."
+    "mot": "увеличе́нный",
+    "nuance": "« augmenté » : neutre et technique, insiste sur l'action d'augmenter."
    },
    {
-    "mot": "завы́шенный",
-    "nuance": "Surestimé, trop élevé (souvent avec une connotation négative d'exagération injustifiée)."
+    "mot": "высо́кий",
+    "nuance": "« haut, élevé » : constate un niveau, sans idée de dépassement de la norme."
+   },
+   {
+    "mot": "уси́ленный",
+    "nuance": "« renforcé, intensifié » : attention, surveillance, mesures."
    }
   ],
   "antonymes": [
    "пони́женный",
-   "сни́женный"
+   "ни́зкий",
+   "норма́льный"
   ],
   "formes": {
-   "nominatif_m": "повы́шенный",
-   "nominatif_f": "повы́шенная",
-   "nominatif_n": "повы́шенное",
-   "nominatif_pl": "повы́шенные",
-   "forme_courte_m": "повы́шен"
+   "nominatif": {
+    "m": "повы́шенный",
+    "f": "повы́шенная",
+    "n": "повы́шенное",
+    "pl": "повы́шенные"
+   },
+   "courte_m": "повы́шен"
   },
   "pieges": [
-   "C'est à l'origine le participe passé passif du verbe повысить (augmenter), mais il est très largement employé comme adjectif qualificatif autonome.",
-   "Ne pas confondre avec высокий (haut, grand). Повышенный signifie spécifiquement 'plus haut que la normale' ou 'qui a été augmenté'.",
-   "La forme courte masculine повы́шен s'utilise surtout dans des prédicats techniques ou médicaux (уровень повышен = le niveau est élevé)."
+   "Deux н (повы́шенный), participe passé adjectivé de пови́сить ; accent sur -вы́- dans toutes les formes.",
+   "Sens : « au-dessus de la norme », souvent médical ou négatif (повы́шенный ри́ск) ; высо́кий est neutre. Ce n'est pas « élevé » au sens noble (возвы́шенный).",
+   "Formes courtes rares et techniques (давле́ние повы́шено) ; l'expression на повы́шенных тона́х est figée, toujours au pluriel prépositionnel."
   ],
   "expressions": [
    {
-    "ru": "повы́шенный риск",
-    "fr": "risque accru / risque élevé"
+    "ru": "на повы́шенных тона́х",
+    "fr": "sur un ton élevé, en haussant la voix"
    },
    {
-    "ru": "повы́шенная вла́жность",
-    "fr": "humidité élevée"
+    "ru": "повы́шенное давле́ние",
+    "fr": "tension (artérielle) élevée"
+   },
+   {
+    "ru": "повы́шенное внима́ние",
+    "fr": "attention accrue"
    }
   ],
   "famille": [
    {
-    "mot": "повы́сить",
+    "mot": "пови́сить",
     "fr": "augmenter, élever (perfectif)"
    },
    {
@@ -862,215 +950,232 @@
    },
    {
     "mot": "повыше́ние",
-    "fr": "augmentation, hausse (nom)"
+    "fr": "augmentation, hausse, promotion"
+   },
+   {
+    "mot": "повы́ше",
+    "fr": "un peu plus haut / plus élevé (familier)"
    }
   ],
   "nature": "adjectif",
   "frequence": 575,
   "translit": "povYchennyï",
-  "controle": [
-   "sens incomplets"
-  ]
+  "controle": []
  },
  {
   "rang": 7509,
   "lemme": "некрасиво",
   "mot": "некраси́во",
   "api": "[nʲɪkrɐˈsʲivə]",
-  "niveau": "B1",
+  "niveau": "A2",
   "sens": [
    {
-    "sens": "De manière laide, sans beauté (apparence physique)",
+    "sens": "De façon disgracieuse, sans beauté ni harmonie (aspect, apparence).",
     "equivalents": [
-     "laidement",
-     "sans beauté"
+     "de façon disgracieuse",
+     "sans beauté",
+     "mal (esthétiquement)"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "Э́то зда́ние постро́ено некраси́во.",
-      "fr": "Ce bâtiment est construit de façon laide."
+      "ru": "Э́то пла́тье сиди́т некраси́во.",
+      "fr": "Cette robe tombe mal, elle n'est pas flatteuse."
      },
      {
-      "ru": "Она́ одева́ется некраси́во, но удо́бно.",
-      "fr": "Elle s'habille de façon peu esthétique, mais confortable."
+      "ru": "Дом вы́крашен некраси́во.",
+      "fr": "La maison est peinte de façon disgracieuse."
      }
     ]
    },
    {
-    "sens": "De manière inconvenante, incorrecte, indélicat (comportement moral)",
+    "sens": "(jugement moral, très fréquent) Mal, de manière indélicate, déloyale ou blessante.",
     "equivalents": [
-     "incorrectement",
-     "indélicatement",
-     "mal"
+     "mal",
+     "de façon indélicate",
+     "déloyalement",
+     "moche (fam.)"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "Поступи́ть так с дру́гом — о́чень некраси́во.",
-      "fr": "Agir ainsi avec un ami est très incorrect."
+      "ru": "Ты поступи́л некраси́во.",
+      "fr": "Tu as agi de façon indélicate / ce n'était pas bien de ta part."
      },
      {
-      "ru": "Бы́ло некраси́во смея́ться над его́ оши́бкой.",
-      "fr": "C'était indélicat de rire de son erreur."
+      "ru": "Некраси́во смея́ться над чужи́ми оши́бками.",
+      "fr": "Il est mal de se moquer des erreurs des autres."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "непригля́дно",
-    "nuance": "De manière peu attrayante, disgracieuse (surtout visuel)."
+    "mot": "безобра́зно",
+    "nuance": "« scandaleux, indigne » : beaucoup plus fort, uniquement moral."
    },
    {
-    "mot": "неэти́чно",
-    "nuance": "De manière contraire à l'éthique (pour le comportement, registre plus formel)."
+    "mot": "уро́дливо",
+    "nuance": "« hideusement » : laideur repoussante, très marqué, esthétique."
    },
    {
-    "mot": "непоря́дочно",
-    "nuance": "De manière malhonnête, incorrecte (jugement moral fort)."
+    "mot": "пло́хо",
+    "nuance": "« mal » : neutre et général, sans nuance de laideur ni de manque d'élégance morale."
    }
   ],
   "antonymes": [
    "краси́во",
-   "великоле́пно",
    "поря́дочно"
   ],
   "formes": {},
   "pieges": [
-   "Adverbe dérivé de l'adjectif некрасивый. Il possède un double emploi très courant : esthétique (laid) et moral (incorrect/inélégant). Ce second sens est extrêmement fréquent en russe parlé pour juger un comportement.",
-   "L'accent tonique tombe sur le и (некраси́во), comme pour l'adjectif dont il dérive. Attention à ne pas accentuer le préfixe не-.",
-   "Ne pas confondre avec ugly en anglais qui n'a pas le sens moral ; некрасиво traduit souvent 'ce n'est pas bien de faire ça'."
+   "Le sens moral domine à l'oral : поступи́ть некраси́во = « agir mal, être indélicat », et non « agir avec laideur ».",
+   "Adverbe invariable en -о ; à ne pas confondre avec l'adjectif некраси́вый ni avec la forme courte neutre (оно́ некраси́во), identique en graphie mais accordée avec un sujet.",
+   "не est soudé au mot ; on écrit séparément seulement en cas d'opposition : э́то не краси́во, а безобра́зно. Accent unique sur -си́-."
   ],
   "expressions": [
    {
+    "ru": "поступи́ть некраси́во",
+    "fr": "agir de façon indélicate, mal se conduire"
+   },
+   {
     "ru": "вести́ себя́ некраси́во",
-    "fr": "se comporter de manière incorrecte / indélicate"
+    "fr": "se conduire de façon inconvenante"
+   },
+   {
+    "ru": "э́то некраси́во",
+    "fr": "ce n'est pas bien, c'est moche (moralement)"
    }
   ],
   "famille": [
    {
-    "mot": "некраси́вый",
-    "fr": "laid, incorrect (adjectif)"
+    "mot": "краси́во",
+    "fr": "joliment, bien, avec élégance"
    },
    {
-    "mot": "краси́во",
-    "fr": "joliment, élégamment (adverbe)"
+    "mot": "краси́вый",
+    "fr": "beau, joli"
+   },
+   {
+    "mot": "некраси́вый",
+    "fr": "laid, disgracieux ; (fig.) indélicat"
    },
    {
     "mot": "красота́",
-    "fr": "beauté (nom)"
+    "fr": "beauté"
    }
   ],
   "nature": "adverbe",
   "frequence": 574,
   "translit": "nekrasIvo",
-  "controle": [
-   "sens incomplets"
-  ]
+  "controle": []
  },
  {
   "rang": 7510,
   "lemme": "сверхъестественный",
   "mot": "сверхъесте́ственный",
-  "api": "[svʲɪrxjɪˈstʲestvʲɪnːɨj]",
+  "api": "[ˌsvʲerxjɪˈsʲtʲestvʲɪnːɨj]",
   "niveau": "B2",
   "sens": [
    {
-    "sens": "Surnaturel, paranormal, qui dépasse les lois de la nature",
+    "sens": "Surnaturel : qui échappe aux lois de la nature, attribué à des forces occultes.",
     "equivalents": [
      "surnaturel",
      "paranormal",
-     "merveilleux"
+     "occulte"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "В э́том ле́су происхо́дят сверхъесте́ственные явле́ния.",
-      "fr": "Des phénomènes surnaturels se produisent dans cette forêt."
+      "ru": "Он ве́рит в сверхъесте́ственные си́лы.",
+      "fr": "Il croit aux forces surnaturelles."
      },
      {
-      "ru": "Он облада́ет сверхъесте́ственной си́лой.",
-      "fr": "Il possède une force surnaturelle."
+      "ru": "В э́том до́ме происходи́ло что́-то сверхъесте́ственное.",
+      "fr": "Il se passait quelque chose de surnaturel dans cette maison."
      }
     ]
    },
    {
-    "sens": "Extraordinaire, exceptionnel, hors du commun (sens figuré)",
+    "sens": "(au figuré) Hors du commun, prodigieux, qui semble dépasser les capacités humaines.",
     "equivalents": [
      "extraordinaire",
-     "exceptionnel",
-     "inouï"
+     "prodigieux",
+     "incroyable"
     ],
-    "examples": [
+    "exemples": [
      {
-      "ru": "Ничего́ сверхъесте́ственного в э́том нет.",
-      "fr": "Il n'y a rien d'extraordinaire là-dedans."
+      "ru": "Она́ прояви́ла сверхъесте́ственное споко́йствие.",
+      "fr": "Elle a fait preuve d'un calme extraordinaire."
      },
      {
-      "ru": "Для реше́ния э́той зада́чи не ну́жны сверхъесте́ственные спосо́бности.",
-      "fr": "Pour résoudre ce problème, aucune capacité exceptionnelle n'est requise."
+      "ru": "Он облада́л сверхъесте́ственной па́мятью.",
+      "fr": "Il possédait une mémoire prodigieuse."
      }
     ]
    }
   ],
   "synonymes": [
    {
+    "mot": "мисти́ческий",
+    "nuance": "mystique, relevant du mystère religieux ou occulte ; plus livresque."
+   },
+   {
     "mot": "паранорма́льный",
-    "nuance": "Paranormal (terme plus moderne, souvent lié à la recherche ou à la science-fiction)."
+    "nuance": "paranormal : vocabulaire moderne de la « parapsychologie », pseudo-scientifique."
    },
    {
-    "mot": "необыкнове́нный",
-    "nuance": "Extraordinaire, inhabituel (moins fort, sans connotation mystique)."
-   },
-   {
-    "mot": "фантасти́ческий",
-    "nuance": "Fantastique, irréel (registre littéraire ou familier)."
+    "mot": "волше́бный",
+    "nuance": "magique, féerique : connotation positive, contes et enchantements."
    }
   ],
   "antonymes": [
    "есте́ственный",
-   "обыкнове́нный",
+   "обы́чный",
    "норма́льный"
   ],
   "formes": {
-   "nominatif_m": "сверхъесте́ственный",
-   "nominatif_f": "сверхъесте́ственная",
-   "nominatif_n": "сверхъесте́ственное",
-   "nominatif_pl": "сверхъесте́ственные",
-   "forme_courte_m": "сверхъесте́ственен"
+   "nominatif": {
+    "m": "сверхъесте́ственный",
+    "f": "сверхъесте́ственная",
+    "n": "сверхъесте́ственное",
+    "pl": "сверхъесте́ственные"
+   },
+   "courte_m": null
   },
   "pieges": [
-   "Orthographe complexe : le signe dur ъ sépare le préfixe сверх- de la racine естественный. Il est obligatoire car le préfixe se termine par une consonne et la racine commence par une voyelle iotée (е).",
-   "Prononciation : le х devant ъе s'adoucit légèrement en [xʲ] ou [x] suivi de [j]. La succession de consonnes est lourde.",
-   "La forme courte masculine est сверхъестественен (avec voyelle fugitive). Très utile à connaître car l'expression ничто не сверхъестественно (rien d'extraordinaire) est fréquente."
+   "Orthographe : ъ obligatoire après le préfixe сверх- devant е (сверхъесте́ственный). Le ъ est muet mais sépare : е se prononce [jɪ].",
+   "Accent sur -те́- : сверхъесте́ственный, comme есте́ственный ; jamais *сверхъе́стественный. Deux н à la fin.",
+   "Pas de formes courtes usuelles : uniquement les formes longues accordées (сверхъесте́ственная си́ла, сверхъесте́ственные явле́ния). Attention à l'antonyme есте́ственный (naturel), de même racine."
   ],
   "expressions": [
    {
-    "ru": "сверхъесте́ственные споко́бности",
-    "fr": "capacités surnaturelles / extraordinaires"
+    "ru": "сверхъесте́ственные спосо́бности",
+    "fr": "capacités surnaturelles"
    },
    {
-    "ru": "ничего́ сверхъесте́ственного",
-    "fr": "rien d'extraordinaire"
+    "ru": "сверхъесте́ственные явле́ния",
+    "fr": "phénomènes surnaturels"
    }
   ],
   "famille": [
    {
     "mot": "есте́ственный",
-    "fr": "naturel"
+    "fr": "naturel, normal"
    },
    {
-    "mot": "естество́",
-    "fr": "nature, essence (archaïque/livre)"
+    "mot": "есте́ственно",
+    "fr": "naturellement, bien sûr"
    },
    {
-    "mot": "сверх-",
-    "fr": "préfixe signifiant 'super-', 'au-delà de'"
+    "mot": "есте́ство",
+    "fr": "nature, essence (d'un être ou d'une chose)"
+   },
+   {
+    "mot": "естествозна́ние",
+    "fr": "sciences naturelles (discipline scolaire)"
    }
   ],
   "nature": "adjectif",
   "frequence": 574,
   "translit": "sverkhestEstvennyï",
-  "controle": [
-   "sens incomplets"
-  ]
+  "controle": []
  }
 ]
