@@ -220,73 +220,87 @@
  {
   "rang": 8743,
   "lemme": "запрограммировать",
-  "mot": "запрограмми́рованный",
-  "api": "[zəprəɡrɐˈmʲirəvən(ː)ɨj]",
+  "mot": "запрограмми́ровать",
+  "api": "[zəprəɡrɐˈmʲirəvətʲ]",
   "niveau": "B2",
+  "aspect": "perfectif",
+  "paire": "программи́ровать",
   "sens": [
    {
-    "sens": "Programmé, configuré (informatique, technique)",
+    "sens": "Écrire et installer un programme informatique complet pour qu’une machine exécute une tâche précise.",
     "equivalents": [
-     "programmé",
-     "configuré",
-     "réglé"
+     "programmer",
+     "coder",
+     "configurer"
     ],
     "exemples": [
      {
-      "ru": "Запрограмми́рованный маршру́т дрона.",
-      "fr": "L'itinéraire programmé du drone."
+      "ru": "Инжене́р запрограмми́ровал ро́бота на выполне́ние но́вой зада́чи.",
+      "fr": "L’ingénieur a programmé le robot pour exécuter une nouvelle tâche."
      },
      {
-      "ru": "Э́то запрограмми́рованный отве́т робо́та.",
-      "fr": "C'est une réponse programmée du robot."
+      "ru": "Мы ещё не запрограмми́ровали э́тот моду́ль.",
+      "fr": "Nous n’avons pas encore programmé ce module."
      }
     ]
    },
    {
-    "sens": "Déterminé d'avance, prédestiné (figuré)",
+    "sens": "Déterminer à l’avance le comportement ou le développement de quelque chose (sens figuré).",
     "equivalents": [
-     "prédéterminé",
-     "conditionné"
+     "prédéterminer",
+     "conditionner",
+     "fixer d’avance"
     ],
     "exemples": [
      {
-      "ru": "Его́ успе́х был запрограмми́рован с де́тства.",
-      "fr": "Son succès était prédéterminé depuis l'enfance."
+      "ru": "Генети́ческие фа́кторы могу́т запрограмми́ровать предрасполо́женность к боле́зни.",
+      "fr": "Les facteurs génétiques peuvent prédéterminer une prédisposition à la maladie."
      },
      {
-      "ru": "Запрограмми́рованное поведе́ние в о́бществе.",
-      "fr": "Un comportement conditionné par la société."
+      "ru": "Его́ де́тство запрограмми́ровало бу́дущий успе́х.",
+      "fr": "Son enfance a conditionné son futur succès."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "предопределённый",
-    "nuance": "Plus philosophique ou fataliste"
+    "mot": "настро́ить",
+    "nuance": "Configurer ou ajuster un système existant ; moins technique, plus orienté paramétrage que création de code."
    },
    {
-    "mot": "настро́енный",
-    "nuance": "Plutôt « réglé », moins formel que « programmé »"
+    "mot": "коди́ровать",
+    "nuance": "Écrire du code source ; insiste sur l’écriture plutôt que sur le résultat fonctionnel complet."
    }
   ],
   "antonymes": [
-   "спонта́нный",
-   "случа́йный"
+   "распрограми́ровать",
+   "удали́ть програ́мму"
   ],
   "formes": {
-   "m": "запрограмми́рованный",
-   "f": "запрограмми́рованная",
-   "n": "запрограмми́рованное",
-   "pl": "запрограмми́рованные",
-   "courte_m": "запрограмми́рован"
+   "present": {},
+   "passe": {
+    "m": "запрограмми́ровал",
+    "f": "запрограмми́ровала",
+    "n": "запрограмми́ровало",
+    "pl": "запрограмми́ровали"
+   },
+   "imperatif": {
+    "tu": "запрограмми́руй",
+    "vous": "запрограмми́руйте"
+   }
   },
   "pieges": [
-   "Bien qu'étiqueté « participe » ici, il fonctionne principalement comme adjectif verbal passif passé ; la forme courte existe mais est rare hors contexte technique.",
-   "Attention au double « м » dans la racine « программир- » et à l'accent fixe sur le « и ».",
-   "Ne pas confondre avec « программируемый » (programmable) qui est un adjectif actif/passif au présent."
+   "Verbe perfectif uniquement : il n’a pas de présent. Le futur se forme directement (я запрограмми́рую), et le passé indique une action achevée. Ne jamais dire *он программирует pour une action terminée.",
+   "Accent mobile : accentué sur и́ dans toutes les formes conjuguées (запрограмми́рую, запрограмми́ровал), mais infinitif accentué sur о́ (запрограмми́ровать). Confusion fréquente avec le perfectif.",
+   "Régime : toujours suivi de l’accusatif direct (запрограммировать устройство), jamais de дательный pour l’objet programmé."
   ],
-  "expressions": [],
+  "expressions": [
+   {
+    "ru": "запрограмми́ровать на успе́х",
+    "fr": "programmer pour réussir / conditionner au succès"
+   }
+  ],
   "famille": [
    {
     "mot": "програ́мма",
@@ -303,10 +317,8 @@
   ],
   "nature": "participe",
   "frequence": 394,
-  "translit": "zaprogrammIrovannyï",
-  "controle": [
-   "mot différent de la forme de base"
-  ]
+  "translit": "zaprogrammIrovat",
+  "controle": []
  },
  {
   "rang": 8744,
