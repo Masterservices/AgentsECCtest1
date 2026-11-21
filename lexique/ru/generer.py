@@ -86,6 +86,8 @@ def valeurs(v):
 def controler(e, ref):
     """Défauts restants d'une entrée ; les formes grammaticales sont vérifiées avec pymorphy3 (accents retirés)."""
     err = []
+    if re.search(r"[\u3000-\u9fff\uac00-\ud7af\uff00-\uffef]", json.dumps(e, ensure_ascii=False)):
+        err.append("caractères chinois/coréens")
     if sans_accent(e.get("mot", "")) != sans_accent(ref["lemme"]):
         err.append("mot différent de la forme de base")
     mot = e.get("mot", "")

@@ -47,6 +47,8 @@ def prompt(lot):
 
 def controler(e, ref):
     err = []
+    if re.search(r"[\u3000-\u9fff\uac00-\ud7af\uff00-\uffef]", json.dumps(e, ensure_ascii=False)):
+        err.append("caractères chinois/coréens")
     mot = str(e.get("mot", "")).lower()
     if ref["lemme"].lower() not in mot and ref["lemme"].lower().replace("œ", "oe") not in mot.replace("œ", "oe"):
         err.append("mot différent de la forme de base")
