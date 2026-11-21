@@ -7,7 +7,7 @@
   "niveau": "B1",
   "sens": [
    {
-    "sens": "Viande de porc salée et fumée, souvent coupée en tranches fines",
+    "sens": "Viande de porc salée ou fumée, souvent servie en tranches fines.",
     "equivalents": [
      "bacon",
      "lard fumé",
@@ -15,59 +15,99 @@
     ],
     "exemples": [
      {
-      "ru": "На за́втрак я обычно́ ем яи́чницу с беко́ном.",
-      "fr": "Au petit-déjeuner, je mange habituellement des œufs au plat avec du bacon."
+      "ru": "На за́втрак я пожа́рил беко́н и яйца́.",
+      "fr": "Au petit-déjeuner, j’ai fait frire du bacon et des œufs."
      },
      {
-      "ru": "Этот беко́н сли́шком солёный для меня́.",
-      "fr": "Ce bacon est trop salé pour moi."
+      "ru": "Доба́вьте в сала́т немно́го хрустя́щего беко́на.",
+      "fr": "Ajoutez à la salade un peu de bacon croustillant."
+     }
+    ]
+   },
+   {
+    "sens": "Lard ou poitrine de porc utilisés comme ingrédient pour donner du goût à un plat.",
+    "equivalents": [
+     "lard",
+     "poitrine de porc",
+     "lard fumé"
+    ],
+    "exemples": [
+     {
+      "ru": "Э́ту фасо́ль туша́т с беко́ном и лу́ком.",
+      "fr": "On mijote ces haricots avec du lard et des oignons."
+     },
+     {
+      "ru": "Беко́н придаёт соу́су ко́пченый вку́с.",
+      "fr": "Le lard fumé donne à la sauce un goût fumé."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "груди́нка",
-    "nuance": "Terme plus générique pour la poitrine de porc, pas toujours fumée"
+    "mot": "шпи́к",
+    "nuance": "Lard gras, souvent salé ; terme plus technique ou culinaire que беко́н."
    },
    {
-    "mot": "шпи́к",
-    "nuance": "Lard gras salé, sans viande maigre, registre culinaire traditionnel"
+    "mot": "груди́нка",
+    "nuance": "Poitrine de porc ; désigne surtout le morceau de viande, pas nécessairement fumé."
+   },
+   {
+    "mot": "са́ло",
+    "nuance": "Terme général pour le lard ou la graisse de porc ; moins spécifique que беко́н."
    }
   ],
   "antonymes": [],
   "formes": {
    "genre": "m",
    "declinaison": {
-    "singulier": {
-     "nominatif": "беко́н",
-     "genitif": "беко́на",
-     "datif": "беко́ну",
-     "accusatif": "беко́н",
-     "instrumental": "беко́ном",
-     "prepositionnel": "беко́не"
+    "nominatif": {
+     "singulier": "беко́н",
+     "pluriel": "беко́ны"
     },
-    "pluriel": {
-     "nominatif": "беко́ны",
-     "genitif": "беко́нов",
-     "datif": "беко́нам",
-     "accusatif": "беко́ны",
-     "instrumental": "беко́нами",
-     "prepositionnel": "беко́нах"
+    "genitif": {
+     "singulier": "беко́на",
+     "pluriel": "беко́нов"
+    },
+    "datif": {
+     "singulier": "беко́ну",
+     "pluriel": "беко́нам"
+    },
+    "accusatif": {
+     "singulier": "беко́н",
+     "pluriel": "беко́ны"
+    },
+    "instrumental": {
+     "singulier": "беко́ном",
+     "pluriel": "беко́нами"
+    },
+    "prepositionnel": {
+     "singulier": "беко́не",
+     "pluriel": "беко́нах"
     }
    }
   },
   "pieges": [
-   "Emprunt récent à l'anglais ; l'accent est fixe sur le о, contrairement à certains mots russes en -он qui ont un accent mobile.",
-   "Ne pas confondre avec сало (graisse de porc non fumée) : бекон implique toujours un traitement fumé ou salé."
+   "Бекон se décline comme un nom masculin inanimé : au génitif singulier, on dit кусо́к беко́на, « un morceau de bacon ».",
+   "Le mot désigne un produit alimentaire généralement non comptable ; le pluriel беко́ны est possible pour des sortes ou variétés, mais rare dans la langue courante.",
+   "Ne pas confondre avec са́ло : са́ло peut être simplement du lard gras, tandis que беко́н évoque souvent une poitrine fumée ou salée en tranches."
   ],
   "expressions": [
    {
-    "ru": "жа́реный беко́н",
-    "fr": "bacon frit / grillé"
+    "ru": "беко́н с яйца́ми",
+    "fr": "bacon et œufs"
+   },
+   {
+    "ru": "хрустя́щий беко́н",
+    "fr": "bacon croustillant"
    }
   ],
-  "famille": [],
+  "famille": [
+   {
+    "mot": "беко́нный",
+    "fr": "au bacon, de bacon"
+   }
+  ],
   "nature": "nom",
   "frequence": 1837,
   "translit": "bekOn",
@@ -78,41 +118,61 @@
   "lemme": "местность",
   "mot": "ме́стность",
   "api": "[ˈmʲesnəsʲtʲ]",
-  "niveau": "B1",
+  "niveau": "A2",
   "sens": [
    {
-    "sens": "Espace géographique déterminé, territoire aux caractéristiques propres",
+    "sens": "Étendue de terrain considérée par ses caractères naturels ou géographiques.",
     "equivalents": [
+     "terrain",
      "région",
      "contrée",
-     "localité",
      "zone"
     ],
     "exemples": [
      {
-      "ru": "В э́той ме́стности часто́ быва́ют наводне́ния.",
-      "fr": "Dans cette région, il y a souvent des inondations."
+      "ru": "Э́та ме́стность о́чень живо́писная.",
+      "fr": "Cette région est très pittoresque."
      },
      {
-      "ru": "Мы изуча́ли ме́стность пе́ред походом.",
-      "fr": "Nous avons étudié le terrain avant la randonnée."
+      "ru": "В э́той ме́стности ча́сто быва́ют туманы́.",
+      "fr": "Dans cette zone, il y a souvent du brouillard."
      }
     ]
    },
    {
-    "sens": "Caractère local, particularité d'un lieu (emploi abstrait)",
+    "sens": "Type de paysage ou de relief d’un lieu.",
     "equivalents": [
-     "caractère local",
-     "spécificité locale"
+     "relief",
+     "paysage",
+     "terrain"
+    ],
+    "examples": [],
+    "exemples": [
+     {
+      "ru": "Мы е́хали по гори́стой ме́стности.",
+      "fr": "Nous roulions dans un terrain montagneux."
+     },
+     {
+      "ru": "Для э́той ме́стности характе́рны леса́ и болота́.",
+      "fr": "Les forêts et les marais sont caractéristiques de ce type de paysage."
+     }
+    ]
+   },
+   {
+    "sens": "Zone où se déroule une action, notamment militaire ou opérationnelle.",
+    "equivalents": [
+     "secteur",
+     "zone",
+     "terrain"
     ],
     "exemples": [
      {
-      "ru": "Архитекту́ра отлича́ется вы́раженной ме́стностью.",
-      "fr": "L'architecture se distingue par un caractère local marqué."
+      "ru": "Команди́р изучи́л ме́стность пе́ред нача́лом опера́ции.",
+      "fr": "Le commandant a étudié le terrain avant le début de l’opération."
      },
      {
-      "ru": "Диа́лект сохраня́ет свою́ ме́стность.",
-      "fr": "Le dialecte conserve sa spécificité locale."
+      "ru": "Солда́ты хорошо́ зна́ли ме́стность.",
+      "fr": "Les soldats connaissaient bien le secteur."
      }
     ]
    }
@@ -120,65 +180,82 @@
   "synonymes": [
    {
     "mot": "райо́н",
-    "nuance": "Zone administrative ou géographique plus délimitée, registre neutre"
-   },
-   {
-    "mot": "край",
-    "nuance": "Contrée, région éloignée ou vaste, connotation poétique ou géographique"
+    "nuance": "Zone ou région, souvent administrative ou géographique ; moins centré sur le relief."
    },
    {
     "mot": "террито́рия",
-    "nuance": "Territoire délimité juridiquement ou physiquement, registre formel"
+    "nuance": "Territoire considéré comme espace occupé, contrôlé ou délimité."
+   },
+   {
+    "mot": "ландша́фт",
+    "nuance": "Paysage visible ; insiste sur l’aspect visuel du lieu."
+   },
+   {
+    "mot": "окре́стности",
+    "nuance": "Alentours d’un lieu ; toujours au pluriel dans cet emploi."
    }
   ],
   "antonymes": [],
   "formes": {
    "genre": "f",
    "declinaison": {
-    "singulier": {
-     "nominatif": "ме́стность",
-     "genitif": "ме́стности",
-     "datif": "ме́стности",
-     "accusatif": "ме́стность",
-     "instrumental": "ме́стностью",
-     "prepositionnel": "ме́стности"
+    "nominatif": {
+     "singulier": "ме́стность",
+     "pluriel": "ме́стности"
     },
-    "pluriel": {
-     "nominatif": "ме́стности",
-     "genitif": "ме́стностей",
-     "datif": "ме́стностям",
-     "accusatif": "ме́стности",
-     "instrumental": "ме́стностями",
-     "prepositionnel": "ме́стностях"
+    "genitif": {
+     "singulier": "ме́стности",
+     "pluriel": "ме́стностей"
+    },
+    "datif": {
+     "singulier": "ме́стности",
+     "pluriel": "ме́стностям"
+    },
+    "accusatif": {
+     "singulier": "ме́стность",
+     "pluriel": "ме́стности"
+    },
+    "instrumental": {
+     "singulier": "ме́стностью",
+     "pluriel": "ме́стностями"
+    },
+    "prepositionnel": {
+     "singulier": "ме́стности",
+     "pluriel": "ме́стностях"
     }
    }
   },
   "pieges": [
-   "Accent fixe sur la première syllabe ; ne pas déplacer l'accent sur le и au génitif/datif/prépositionnel singulier.",
-   "Faux ami potentiel : ne signifie jamais « municipalité » (qui se dit муниципа́литет ou городско́й округ)."
+   "Ме́стность est féminin malgré la finale en consonne molle -сть ; il faut dire э́та ме́стность, not *э́тот ме́стность.",
+   "Ne pas traduire automatiquement par « localité » : ме́стность désigne plutôt une zone, un terrain ou une région, pas forcément un village ou une ville.",
+   "Au prépositionnel singulier, la forme est в ме́стности, avec finale -и."
   ],
   "expressions": [
    {
-    "ru": "ознакомле́ние с ме́стностью",
-    "fr": "reconnaissance du terrain / prise de connaissance des lieux"
+    "ru": "пересечённая ме́стность",
+    "fr": "terrain accidenté"
    },
    {
-    "ru": "гористая ме́стность",
-    "fr": "région montagneuse"
+    "ru": "откры́тая ме́стность",
+    "fr": "terrain découvert"
+   },
+   {
+    "ru": "зна́ть ме́стность",
+    "fr": "connaître le terrain"
    }
   ],
   "famille": [
    {
     "mot": "ме́сто",
-    "fr": "lieu, place"
+    "fr": "lieu, endroit, place"
    },
    {
-    "mot": "ме́стный",
+    "mot": "местный",
     "fr": "local"
    },
    {
-    "mot": "размести́ть",
-    "fr": "placer, installer"
+    "mot": "ме́стными",
+    "fr": "par endroits, localement"
    }
   ],
   "nature": "nom",
@@ -194,36 +271,54 @@
   "niveau": "A2",
   "sens": [
    {
-    "sens": "Récipient cylindrique ou tronconique muni d'une anse, servant à transporter des liquides ou des matériaux en vrac",
+    "sens": "Récipient cylindrique ou conique avec une anse, servant à porter de l’eau ou d’autres substances.",
     "equivalents": [
      "seau",
-     "baquet"
+     "bucket"
     ],
     "exemples": [
      {
-      "ru": "Принеси́ ведро́ воды́ из коло́дца.",
-      "fr": "Apporte un seau d'eau du puits."
+      "ru": "Я нали́л воды́ в ведро́.",
+      "fr": "J’ai versé de l’eau dans le seau."
      },
      {
-      "ru": "Она́ мы́ла пол ведро́м и тря́пкой.",
-      "fr": "Elle lavait le sol avec un seau et un chiffon."
+      "ru": "Ведро́ стои́т под кра́ном.",
+      "fr": "Le seau est sous le robinet."
      }
     ]
    },
    {
-    "sens": "Contenu d'un seau, mesure approximative de volume",
+    "sens": "Contenu d’un seau, utilisé comme mesure approximative.",
     "equivalents": [
-     "seaulée",
-     "plein seau"
+     "seau de",
+     "plein seau de"
     ],
     "exemples": [
      {
-      "ru": "Он вы́пил це́лое ведро́ ча́я.",
-      "fr": "Il a bu tout un seau de thé."
+      "ru": "Мы собра́ли ведро́ я́блок.",
+      "fr": "Nous avons récolté un seau de pommes."
      },
      {
-      "ru": "Купи́ ведро́ карто́шки на ры́нке.",
-      "fr": "Achète un seau de pommes de terre au marché."
+      "ru": "Ему́ понáдобилось два ведра́ пескá.",
+      "fr": "Il lui a fallu deux seaux de sable."
+     }
+    ]
+   },
+   {
+    "sens": "Récipient utilisé pour nettoyer, transporter ou stocker des liquides, déchets ou matériaux.",
+    "equivalents": [
+     "seau",
+     "bac",
+     "récipient"
+    ],
+    "exemples": [
+     {
+      "ru": "Поста́вь ведро́ для му́сора у двери́.",
+      "fr": "Mets le seau à déchets près de la porte."
+     },
+     {
+      "ru": "Она́ вымыла пол и вы́лила гря́зную во́ду из ведра́.",
+      "fr": "Elle a lavé le sol et vidé l’eau sale du seau."
      }
     ]
    }
@@ -231,56 +326,69 @@
   "synonymes": [
    {
     "mot": "бадья́",
-    "nuance": "Grand seau en bois ou métal, usage rural ou technique"
+    "nuance": "Grand récipient, souvent en bois ou métal ; registre plus traditionnel ou technique."
    },
    {
-    "mot": "таз",
-    "nuance": "Bassine large et peu profonde, pour la lessive ou la toilette"
+    "mot": "уша́т",
+    "nuance": "Seau ou baquet en bois à oreilles ; mot ancien ou rural."
    }
   ],
   "antonymes": [],
   "formes": {
    "genre": "n",
    "declinaison": {
-    "singulier": {
-     "nominatif": "ведро́",
-     "genitif": "ведра́",
-     "datif": "ведру́",
-     "accusatif": "ведро́",
-     "instrumental": "ведро́м",
-     "prepositionnel": "ведре́"
+    "nominatif": {
+     "singulier": "ведро́",
+     "pluriel": "вёдра"
     },
-    "pluriel": {
-     "nominatif": "вёдра",
-     "genitif": "вёдёр",
-     "datif": "вёдрам",
-     "accusatif": "вёдра",
-     "instrumental": "вёдрами",
-     "prepositionnel": "вёдрах"
+    "genitif": {
+     "singulier": "ведра́",
+     "pluriel": "вёдер"
+    },
+    "datif": {
+     "singulier": "ведру́",
+     "pluriel": "вёдрам"
+    },
+    "accusatif": {
+     "singulier": "ведро́",
+     "pluriel": "вёдра"
+    },
+    "instrumental": {
+     "singulier": "ведро́м",
+     "pluriel": "вёдрами"
+    },
+    "prepositionnel": {
+     "singulier": "ведре́",
+     "pluriel": "вёдрах"
     }
    }
   },
   "pieges": [
-   "Accent mobile : singulier accentué sur la finale (ведро́, ведра́), pluriel accentué sur la racine (вёдра, вёдёр). Ne pas dire *ведра́ au pluriel.",
-   "Le génitif pluriel est вёдёр (avec ё obligatoire à l'écrit dans les dictionnaires), forme irrégulière à mémoriser."
+   "Accent mobile : ведро́ au nominatif singulier, mais ведра́ au génitif singulier et вёдра au pluriel.",
+   "Le pluriel s’écrit avec ё : вёдра, вёдер, вёдрам ; l’accent tombe sur cette voyelle.",
+   "Ne pas confondre ведро́, « seau », avec ветра, forme de ве́тер, « vent » : les contextes et l’accent diffèrent."
   ],
   "expressions": [
    {
-    "ru": "как из ведра́",
-    "fr": "à verse (pour la pluie)"
+    "ru": "ведро́ воды́",
+    "fr": "un seau d’eau"
    },
    {
-    "ru": "нести́ воду́ в решете́ (бесполезно как но́сить ведро́ без дна)",
-    "fr": "porter de l'eau dans un tamis (aussi inutile qu'un seau sans fond)"
+    "ru": "ли́ть как из ведра́",
+    "fr": "pleuvoir à verse, tomber comme d’un seau"
+   },
+   {
+    "ru": "носи́ть во́ду в ведре́",
+    "fr": "porter de l’eau dans un seau"
    }
   ],
   "famille": [
    {
     "mot": "ведёрко",
-    "fr": "petit seau (diminutif)"
+    "fr": "petit seau"
    },
    {
-    "mot": "ведёрный",
+    "mot": "ведро́вый",
     "fr": "de seau, relatif au seau"
    }
   ],
@@ -292,68 +400,106 @@
  {
   "rang": 4234,
   "lemme": "фотограф",
-  "mot": "фотогра́ф",
-  "api": "[fətɐˈɡraf]",
+  "mot": "фото́граф",
+  "api": "[fɐˈtoɡrəf]",
   "niveau": "A2",
   "sens": [
    {
-    "sens": "Personne qui prend des photographies, professionnel ou amateur",
+    "sens": "Personne qui prend des photographies, professionnellement ou comme activité.",
     "equivalents": [
      "photographe",
-     "preneur de vue"
+     "preneur de photos"
     ],
     "exemples": [
      {
-      "ru": "Фотогра́ф сде́лал прекра́сные снимки́ сва́дьбы.",
-      "fr": "Le photographe a pris de magnifiques photos du mariage."
+      "ru": "Фото́граф попроси́л нас посмотре́ть в ка́меру.",
+      "fr": "Le photographe nous a demandé de regarder l’appareil."
      },
      {
-      "ru": "Мой сын мечта́ет стать профессиона́льным фотогра́фом.",
-      "fr": "Mon fils rêve de devenir photographe professionnel."
+      "ru": "На сва́дьбу пригласи́ли хоро́шего фото́графа.",
+      "fr": "On a invité un bon photographe au mariage."
+     }
+    ]
+   },
+   {
+    "sens": "Professionnel chargé de réaliser des portraits, reportages ou images pour une publication.",
+    "equivalents": [
+     "photographe professionnel",
+     "reporter photographe"
+    ],
+    "exemples": [
+     {
+      "ru": "Фото́граф рабо́тает для газе́ты.",
+      "fr": "Le photographe travaille pour un journal."
+     },
+     {
+      "ru": "Фото́граф снима́л собы́тия на у́лице.",
+      "fr": "Le photographe photographiait les événements dans la rue."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "фотома́стер",
-    "nuance": "Photographe qualifié, maître de son art, registre valorisant"
+    "mot": "фотокорреспонде́нт",
+    "nuance": "Photographe de presse, reporter chargé d’illustrer l’actualité."
    },
    {
-    "mot": "снимок",
-    "nuance": "Attention : signifie « photo », pas « photographe » ; faux ami fréquent"
+    "mot": "оператор",
+    "nuance": "Dans certains contextes, personne qui filme ou photographie ; plus large et souvent lié à la vidéo."
+   },
+   {
+    "mot": "снима́ющий",
+    "nuance": "Forme substantivée occasionnelle : personne qui prend des images ; moins lexicalisé."
    }
   ],
   "antonymes": [],
   "formes": {
    "genre": "m",
    "declinaison": {
-    "singulier": {
-     "nominatif": "фотогра́ф",
-     "genitif": "фотогра́фа",
-     "datif": "фотогра́фу",
-     "accusatif": "фотогра́фа",
-     "instrumental": "фотогра́фом",
-     "prepositionnel": "фотогра́фе"
+    "nominatif": {
+     "singulier": "фото́граф",
+     "pluriel": "фото́графы"
     },
-    "pluriel": {
-     "nominatif": "фотогра́фы",
-     "genitif": "фотогра́фов",
-     "datif": "фотогра́фам",
-     "accusatif": "фотогра́фов",
-     "instrumental": "фотогра́фами",
-     "prepositionnel": "фотогра́фах"
+    "genitif": {
+     "singulier": "фото́графа",
+     "pluriel": "фото́графов"
+    },
+    "datif": {
+     "singulier": "фото́графу",
+     "pluriel": "фото́графам"
+    },
+    "accusatif": {
+     "singulier": "фото́графа",
+     "pluriel": "фото́графов"
+    },
+    "instrumental": {
+     "singulier": "фото́графом",
+     "pluriel": "фото́графами"
+    },
+    "prepositionnel": {
+     "singulier": "фото́графе",
+     "pluriel": "фото́графах"
     }
    }
   },
   "pieges": [
-   "Accent fixe sur le а ; ne pas prononcer *фо́тограф sous l'influence du français « photographe ».",
-   "Mot masculin même si le photographe est une femme : она́ хоро́ший фотогра́ф (pas *фотографка dans le langage standard)."
+   "Фото́граф désigne la personne ; фотогра́фия désigne l’image ou l’art de photographier.",
+   "C’est un nom animé masculin : l’accusatif singulier et pluriel est identique au génitif : я ви́жу фото́графа, мы ви́дим фото́графов.",
+   "L’accent reste sur -то́- : фото́граф, фото́графа, фото́графы."
   ],
   "expressions": [
    {
-    "ru": "фотогра́ф-портрети́ст",
-    "fr": "photographe portraitiste"
+    "ru": "профессиона́льный фото́граф",
+    "fr": "photographe professionnel"
+   },
+   {
+    "ru": "сва́дебный фото́граф",
+    "fr": "photographe de mariage"
+   },
+   {
+    "ru": "рабо́тать фото́графом",
+    "fr": "travailler comme photographe"
    }
   ],
   "famille": [
@@ -368,66 +514,109 @@
    {
     "mot": "фотографи́ческий",
     "fr": "photographique"
+   },
+   {
+    "mot": "фотосъёмка",
+    "fr": "séance photo, prise de vues"
    }
   ],
   "nature": "nom",
   "frequence": 1835,
-  "translit": "fotogrAf",
+  "translit": "fotOgraf",
   "controle": []
  },
  {
   "rang": 4235,
   "lemme": "дюйм",
   "mot": "дюйм",
-  "api": "[dʲuim]",
-  "niveau": "B2",
+  "api": "[dʲʉjm]",
+  "niveau": "B1",
   "sens": [
    {
-    "sens": "Unité de longueur anglo-saxonne valant 2,54 cm",
+    "sens": "Unité de longueur anglo-saxonne valant 2,54 centimètres.",
     "equivalents": [
-     "pouce (mesure)",
+     "pouce",
      "inch"
     ],
     "exemples": [
      {
-      "ru": "Экра́н ноутбу́ка — пятна́дцать дю́ймов.",
-      "fr": "L'écran de l'ordinateur portable fait quinze pouces."
+      "ru": "Оди́н дюйм ра́вен двум́ це́лым пяти́десяти четырём со́тым сантиметра.",
+      "fr": "Un pouce équivaut à 2,54 centimètres."
      },
      {
-      "ru": "Диаметр трубы́ — два дю́йма.",
-      "fr": "Le diamètre du tuyau est de deux pouces."
+      "ru": "Э́тот экра́н име́ет диагона́ль пятна́дцать дю́ймов.",
+      "fr": "Cet écran a une diagonale de quinze pouces."
+     }
+    ]
+   },
+   {
+    "sens": "Mesure utilisée pour indiquer la taille d’écrans, tuyaux, pièces techniques ou objets importés.",
+    "equivalents": [
+     "pouce",
+     "mesure en pouces"
+    ],
+    "exemples": [
+     {
+      "ru": "Мне ну́жен телеви́зор на пятьдеся́т дю́ймов.",
+      "fr": "Il me faut un téléviseur de cinquante pouces."
+     },
+     {
+      "ru": "Труба́ ширино́й в два дюйма́ здесь не подойдёт.",
+      "fr": "Un tuyau de deux pouces de largeur ne conviendra pas ici."
      }
     ]
    }
   ],
-  "synonymes": [],
+  "synonymes": [
+   {
+    "mot": "и́нч",
+    "nuance": "Emprunt direct de l’anglais inch ; plus technique ou commercial, moins courant que дюйм."
+   }
+  ],
   "antonymes": [],
   "formes": {
    "genre": "m",
    "declinaison": {
-    "singulier": {
-     "nominatif": "дюйм",
-     "genitif": "дю́йма",
-     "datif": "дю́йму",
-     "accusatif": "дюйм",
-     "instrumental": "дю́ймом",
-     "prepositionnel": "дю́йме"
+    "nominatif": {
+     "singulier": "дюйм",
+     "pluriel": "дю́ймы"
     },
-    "pluriel": {
-     "nominatif": "дю́ймы",
-     "genitif": "дю́ймов",
-     "datif": "дю́ймам",
-     "accusatif": "дю́ймы",
-     "instrumental": "дю́ймами",
-     "prepositionnel": "дю́ймах"
+    "genitif": {
+     "singulier": "дю́йма",
+     "pluriel": "дю́ймов"
+    },
+    "datif": {
+     "singulier": "дю́йму",
+     "pluriel": "дю́ймам"
+    },
+    "accusatif": {
+     "singulier": "дюйм",
+     "pluriel": "дю́ймы"
+    },
+    "instrumental": {
+     "singulier": "дю́ймом",
+     "pluriel": "дю́ймами"
+    },
+    "prepositionnel": {
+     "singulier": "дю́йме",
+     "pluriel": "дю́ймах"
     }
    }
   },
   "pieges": [
-   "Prononciation : le ю après consonne molle se prononce [u] et non [ju] ; dire [dʲuim], pas *[djum].",
-   "En russe moderne, utilisé presque exclusivement pour les écrans, les jantes et les canalisations ; pour les mesures corporelles ou vestimentaires, on utilise сантиметр."
+   "Dюйм se traduit ici par « pouce » comme unité de mesure, pas par le doigt большой палец.",
+   "Après les nombres, attention au cas : оди́н дюйм, два дю́йма, пять дю́ймов.",
+   "Le mot est monosyllabique au singulier de base ; l’accent apparaît dans les formes plurelles et fléchies : дю́ймы, дю́ймов."
   ],
   "expressions": [
+   {
+    "ru": "квадра́тный дюйм",
+    "fr": "pouce carré"
+   },
+   {
+    "ru": "куби́ческий дюйм",
+    "fr": "pouce cube"
+   },
    {
     "ru": "диагона́ль в дю́ймах",
     "fr": "diagonale en pouces"
@@ -436,7 +625,7 @@
   "famille": [
    {
     "mot": "дюймо́вый",
-    "fr": "d'un pouce, en pouces (adj.)"
+    "fr": "en pouces, de pouce"
    }
   ],
   "nature": "nom",
@@ -448,70 +637,118 @@
   "rang": 4236,
   "lemme": "рюкзак",
   "mot": "рюкза́к",
-  "api": "[rʲʊkˈzak]",
+  "api": "[rʲʊɡˈzak]",
   "niveau": "A2",
   "sens": [
    {
-    "sens": "Sac porté sur le dos au moyen de deux bretelles",
+    "sens": "Sac porté sur le dos avec des bretelles, utilisé pour transporter des affaires.",
     "equivalents": [
+     "sac à dos",
+     "backpack"
+    ],
+    "exemples": [
+     {
+      "ru": "Я положи́л кни́ги в рюкза́к.",
+      "fr": "J’ai mis les livres dans le sac à dos."
+     },
+     {
+      "ru": "У него́ за спино́й был большо́й рюкза́к.",
+      "fr": "Il avait un grand sac à dos sur le dos."
+     }
+    ]
+   },
+   {
+    "sens": "Sac de randonnée, de voyage ou d’école conçu pour répartir le poids sur les épaules.",
+    "equivalents": [
+     "sac de randonnée",
      "sac à dos",
      "havresac"
     ],
     "exemples": [
      {
-      "ru": "Шко́льники но́сят тяжёлые рюкзаки́.",
-      "fr": "Les écoliers portent des sacs à dos lourds."
+      "ru": "Для похо́да ну́жен удо́бный рюкза́к.",
+      "fr": "Pour la randonnée, il faut un sac à dos confortable."
      },
      {
-      "ru": "Положи́ кни́ги в рюкза́к и пошли́.",
-      "fr": "Mets les livres dans le sac à dos et allons-y."
+      "ru": "Ребёнок носи́т шко́льный рюкза́к ка́ждый день.",
+      "fr": "L’enfant porte son cartable-sac à dos tous les jours."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "ра́нец",
-    "nuance": "Sac à dos rigide pour écoliers primaires, registre scolaire"
+    "mot": "ране́ц",
+    "nuance": "Cartable ou sac d’écolier, souvent plus rigide ; mot plus scolaire ou ancien."
    },
    {
-    "mot": "тури́стический мешо́к",
-    "nuance": "Sac de randonnée volumineux, registre sportif/tourisme"
+    "mot": "запле́чный мешо́к",
+    "nuance": "Expression descriptive : petit sac porté sur le dos ; moins standard."
+   },
+   {
+    "mot": "портфе́ль",
+    "nuance": "Cartable ou serviette ; n’est pas forcément porté sur le dos, donc équivalence partielle."
    }
   ],
   "antonymes": [],
   "formes": {
    "genre": "m",
    "declinaison": {
-    "singulier": {
-     "nominatif": "рюкза́к",
-     "genitif": "рюкзака́",
-     "datif": "рюкзаку́",
-     "accusatif": "рюкза́к",
-     "instrumental": "рюкзако́м",
-     "prepositionnel": "рюкзаке́"
+    "nominatif": {
+     "singulier": "рюкза́к",
+     "pluriel": "рюкзаки́"
     },
-    "pluriel": {
-     "nominatif": "рюкзаки́",
-     "genitif": "рюкзако́в",
-     "datif": "рюкзака́м",
-     "accusatif": "рюкзаки́",
-     "instrumental": "рюкзака́ми",
-     "prepositionnel": "рюкзака́х"
+    "genitif": {
+     "singulier": "рюкзака́",
+     "pluriel": "рюкзако́в"
+    },
+    "datif": {
+     "singulier": "рюкзаку́",
+     "pluriel": "рюкзака́м"
+    },
+    "accusatif": {
+     "singulier": "рюкза́к",
+     "pluriel": "рюкзаки́"
+    },
+    "instrumental": {
+     "singulier": "рюкзако́м",
+     "pluriel": "рюкзака́ми"
+    },
+    "prepositionnel": {
+     "singulier": "рюкзаке́",
+     "pluriel": "рюкзака́х"
     }
    }
   },
   "pieges": [
-   "Accent mobile : singulier accentué sur la finale sauf au nominatif/accusatif (рюкза́к vs рюкзака́), pluriel entièrement accentué sur la finale (рюкзаки́, рюкзако́в).",
-   "Emprunt à l'allemand Rucksack ; le groupe кз se prononce distinctement, ne pas élider le к."
+   "Accent mobile : рюкза́к au singulier de base, mais рюкзаки́, рюкзако́в, рюкзака́м au pluriel.",
+   "Le к final se prononce [ɡ] dans l’usage courant : [rʲʊɡˈzak].",
+   "Ne pas confondre avec ранец : рюкзак est porté sur le dos avec bretelles ; ранец évoque plutôt un cartable scolaire."
   ],
   "expressions": [
    {
-    "ru": "тури́стский рюкза́к",
+    "ru": "тури́стический рюкза́к",
     "fr": "sac à dos de randonnée"
+   },
+   {
+    "ru": "шко́льный рюкза́к",
+    "fr": "sac à dos d’écolier, cartable"
+   },
+   {
+    "ru": "нести́ рюкза́к за спино́й",
+    "fr": "porter un sac à dos sur le dos"
    }
   ],
-  "famille": [],
+  "famille": [
+   {
+    "mot": "рюкзачо́к",
+    "fr": "petit sac à dos"
+   },
+   {
+    "mot": "рюкза́чный",
+    "fr": "de sac à dos, relatif au sac à dos"
+   }
+  ],
   "nature": "nom",
   "frequence": 1834,
   "translit": "rioukzAk",
@@ -522,58 +759,60 @@
   "lemme": "аж",
   "mot": "аж",
   "api": "[aʂ]",
-  "niveau": "B2",
+  "niveau": "B1",
   "sens": [
    {
-    "sens": "Particule emphatique marquant l'intensité, la surprise ou l'exagération ; équivalent de « tellement que », « au point que »",
+    "sens": "Particule expressive soulignant une quantité, un degré ou une limite atteinte, souvent avec surprise.",
     "equivalents": [
-     "tellement",
-     "si bien que",
-     "jusqu'à"
+     "jusqu’à",
+     "même",
+     " carrément",
+     "rien que"
     ],
     "exemples": [
      {
-      "ru": "Он бежа́л так бы́стро, аж дыха́ние захвати́ло.",
-      "fr": "Il courait si vite que ça lui a coupé le souffle."
+      "ru": "Он аж подпры́гнул от неожи́данности.",
+      "fr": "Il a carrément sursauté de surprise."
      },
      {
-      "ru": "Бы́ло хо́лодно, аж зу́бы стуча́ли.",
-      "fr": "Il faisait froid au point que les dents claquaient."
+      "ru": "Я ждал аж два ча́са.",
+      "fr": "J’ai attendu jusqu’à deux heures / pas moins de deux heures."
      }
     ]
    },
    {
-    "sens": "Particule renforçant une négation ou une restriction ; « même pas », « seulement »",
+    "sens": "Dans un registre familier, marque l’intensité d’une réaction physique ou émotionnelle.",
+    "equivalents": [
+     "tellement que",
+     "au point de",
+     "carrément"
+    ],
+    "exemples": [
+     {
+      "ru": "Мне аж ста́ло хо́лодно от э́того расска́за.",
+      "fr": "J’en ai carrément eu froid en entendant ce récit."
+     },
+     {
+      "ru": "Она́ аж запла́кала от ра́дости.",
+      "fr": "Elle en a même pleuré de joie."
+     }
+    ]
+   },
+   {
+    "sens": "Conjonction ou connecteur régional/familier proche de даже ou jusqu’à, selon le contexte.",
     "equivalents": [
      "même",
-     "ne... que",
-     "seulement"
+     "jusqu’à",
+     "si bien que"
     ],
     "exemples": [
      {
-      "ru": "У него́ аж трёх рубле́й нет.",
-      "fr": "Il n'a même pas trois roubles."
+      "ru": "Аж са́м дире́ктор пришёл посмотре́ть.",
+      "fr": "Même le directeur est venu voir."
      },
      {
-      "ru": "Аж до ве́чера он рабо́тал без переры́ва.",
-      "fr": "Il a travaillé sans interruption jusqu'au soir même."
-     }
-    ]
-   },
-   {
-    "sens": "Dans des constructions exclamatives, marque l'étonnement ou l'admiration ironique",
-    "equivalents": [
-     "rien que ça",
-     "excusez du peu"
-    ],
-    "exemples": [
-     {
-      "ru": "Аж три награ́ды получи́л!",
-      "fr": "Rien que ça, trois récompenses !"
-     },
-     {
-      "ru": "Аж сам минист́р пришёл!",
-      "fr": "Le ministre lui-même est venu, excusez du peu !"
+      "ru": "Мы дошли́ аж до ста́рого мо́ста.",
+      "fr": "Nous sommes allés jusqu’au vieux pont."
      }
     ]
    }
@@ -581,27 +820,36 @@
   "synonymes": [
    {
     "mot": "да́же",
-    "nuance": "Plus neutre et universel, convient à tous les registres"
+    "nuance": "« Même » ; plus neutre et standard que аж."
    },
    {
-    "mot": "таки́е",
-    "nuance": "Renforce un adjectif/adverbe, registre oral familier"
+    "mot": "пря́мо",
+    "nuance": "Familier : « carrément, directement » ; souligne parfois l’intensité d’une réaction."
+   },
+   {
+    "mot": "целых",
+    "nuance": "Avec un nombre : « pas moins de, tout autant que » ; moins expressif et plus quantitatif."
    }
   ],
   "antonymes": [],
   "formes": {},
   "pieges": [
-   "Registre principalement oral et littéraire expressif ; à éviter dans les textes administratifs ou scientifiques.",
-   "Se place généralement devant le mot ou la proposition qu'il renforce ; sa position change la nuance emphatique."
+   "Аж est surtout une particule expressive familière ou régionale ; dans un texte neutre, on emploie souvent да́же, целых ou до.",
+   "Il ne se traduit pas toujours par un seul mot français : selon le contexte, il vaut « même », « jusqu’à », « carrément », « au point de ».",
+   "À l’oral, аж peut renforcer une émotion ou une réaction corporelle : аж подпры́гнуть, аж заму́тило, аж стра́шно ста́ло."
   ],
   "expressions": [
    {
-    "ru": "аж дух захва́тывает",
-    "fr": "ça coupe le souffle / c'est à couper le souffle"
+    "ru": "аж до",
+    "fr": "jusqu’à, allant jusqu’à"
    },
    {
-    "ru": "аж страшно",
-    "fr": "tellement que ça fait peur"
+    "ru": "аж са́м",
+    "fr": "même lui / même... soi-même"
+   },
+   {
+    "ru": "аж дух занима́ется",
+    "fr": "à en couper le souffle"
    }
   ],
   "famille": [],
@@ -618,113 +866,136 @@
   "niveau": "A2",
   "sens": [
    {
-    "sens": "Ensemble des jeunes gens, catégorie sociale des personnes entre l'adolescence et l'âge adulte",
+    "sens": "Ensemble des jeunes gens, adolescents et jeunes adultes.",
     "equivalents": [
      "jeunesse",
-     "jeunes",
-     "génération jeune"
+     "les jeunes",
+     "jeunes gens"
     ],
     "exemples": [
      {
-      "ru": "Совреме́нная молодёжь увлека́ется техноло́гиями.",
-      "fr": "La jeunesse actuelle se passionne pour les technologies."
+      "ru": "Молодёжь ча́сто встреча́ется в э́том па́рке.",
+      "fr": "Les jeunes se retrouvent souvent dans ce parc."
      },
      {
-      "ru": "Госуда́рство должно́ подде́рживать молодёжь.",
-      "fr": "L'État doit soutenir les jeunes."
+      "ru": "Э́тот фильм осо́бенно нра́вится молодёжи.",
+      "fr": "Ce film plaît particulièrement aux jeunes."
      }
     ]
    },
    {
-    "sens": "Groupe de jeunes dans un contexte spécifique (sportif, culturel, politique)",
+    "sens": "Génération jeune considérée comme groupe social ou culturel.",
     "equivalents": [
-     "jeunes",
-     "section jeunes",
-     "équipe junior"
+     "jeune génération",
+     "jeunesse"
     ],
     "exemples": [
      {
-      "ru": "Молодёжь клуба́ вы́играла чемпио́нат.",
-      "fr": "Les jeunes du club ont gagné le championnat."
+      "ru": "Сего́дняшняя молодёжь хорошо́ разбира́ется в техноло́гиях.",
+      "fr": "La jeunesse d’aujourd’hui maîtrise bien les technologies."
      },
      {
-      "ru": "Парти́йная молодёжь организова́ла митинг.",
-      "fr": "Les jeunes du parti ont organisé un meeting."
+      "ru": "У молодёжи свои́ интере́сы и привы́чки.",
+      "fr": "Les jeunes ont leurs propres centres d’intérêt et habitudes."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "молоды́е лю́ди",
-    "nuance": "Expression descriptive neutre, insiste sur l'individu plutôt que le collectif"
+    "mot": "ю́ноши и де́вушки",
+    "nuance": "Formulation explicite : jeunes hommes et jeunes femmes ; plus concret, moins collectif."
    },
    {
-    "mot": "поколе́ние",
-    "nuance": "Génération, met l'accent sur l'appartenance temporelle plutôt que l'âge"
+    "mot": "по́дростки",
+    "nuance": "Adolescents ; tranche d’âge plus étroite que молодёжь."
+   },
+   {
+    "mot": "ю́ные лю́ди",
+    "nuance": "Jeunes gens ; expression plus littéraire ou neutre."
    }
   ],
   "antonymes": [
    {
-    "mot": "ста́ршее поколе́ние",
-    "nuance": "Génération âgée"
+    "mot": "старики́"
+   },
+   {
+    "mot": "пожилы́е лю́ди"
+   },
+   {
+    "mot": "ста́ршее поколе́ние"
    }
   ],
   "formes": {
    "genre": "f",
    "declinaison": {
-    "singulier": {
-     "nominatif": "молодёжь",
-     "genitif": "молодёжи",
-     "datif": "молодёжи",
-     "accusatif": "молодёжь",
-     "instrumental": "молодёжью",
-     "prepositionnel": "молодёжи"
+    "nominatif": {
+     "singulier": "молодёжь",
+     "pluriel": "—"
     },
-    "pluriel": {
-     "nominatif": "—",
-     "genitif": "—",
-     "datif": "—",
-     "accusatif": "—",
-     "instrumental": "—",
-     "prepositionnel": "—"
+    "genitif": {
+     "singulier": "молодёжи",
+     "pluriel": "—"
+    },
+    "datif": {
+     "singulier": "молодёжи",
+     "pluriel": "—"
+    },
+    "accusatif": {
+     "singulier": "молодёжь",
+     "pluriel": "—"
+    },
+    "instrumental": {
+     "singulier": "молодёжью",
+     "pluriel": "—"
+    },
+    "prepositionnel": {
+     "singulier": "молодёжи",
+     "pluriel": "—"
     }
    }
   },
   "pieges": [
-   "Nom collectif singulier uniquement (pas de pluriel) ; le verbe s'accorde au singulier : молодёжь пришла́ (pas *пришли́).",
-   "Ne pas confondre avec мо́лодость (jeunesse comme période de la vie) : молодёжь désigne les personnes, мо́лодость désigne l'état ou l'époque."
+   "Молодёжь est un nom collectif féminin singulier : on dit молодёжь прихо́дит, pas *молодёжь прихо́дят.",
+   "Il n’a pas de pluriel courant : pour compter des personnes, utiliser молоды́е лю́ди, ю́ноши, де́вушки, etc.",
+   "Le mot contient ё : молодёжь, молодёжи ; l’accent est sur -дёжь."
   ],
   "expressions": [
    {
-    "ru": "золота́я молодёжь",
-    "fr": "jeunesse dorée"
+    "ru": "совреме́нная молодёжь",
+    "fr": "la jeunesse actuelle"
    },
    {
-    "ru": "молодёжная поли́тика",
-    "fr": "politique de la jeunesse"
+    "ru": "среди́ молодёжи",
+    "fr": "chez les jeunes, parmi la jeunesse"
+   },
+   {
+    "ru": "молодёжная культу́ра",
+    "fr": "culture jeune, culture des jeunes"
    }
   ],
   "famille": [
    {
     "mot": "молодо́й",
-    "fr": "jeune (adj.)"
+    "fr": "jeune"
    },
    {
     "mot": "мо́лодость",
-    "fr": "jeunesse (état, période)"
+    "fr": "jeunesse, âge jeune"
    },
    {
     "mot": "молодёжный",
-    "fr": "de jeunesse, destiné aux jeunes"
+    "fr": "de jeunesse, pour les jeunes"
+   },
+   {
+    "mot": "молоде́ть",
+    "fr": "rajeunir, devenir plus jeune d’apparence"
    }
   ],
   "nature": "nom",
   "frequence": 1833,
   "translit": "molodIOj",
-  "controle": [
-   "formes douteuses : —, —, —"
-  ]
+  "controle": []
  },
  {
   "rang": 4239,
@@ -734,123 +1005,135 @@
   "niveau": "B1",
   "sens": [
    {
-    "sens": "Ensemble de règles et de cérémonies prescrites dans un cadre religieux ou sacré",
+    "sens": "Ensemble ordonné de gestes et de paroles ayant une valeur religieuse, traditionnelle ou symbolique.",
+    "equivalents": [
+     "rituel",
+     "rite",
+     "cérémonial"
+    ],
+    "exemples": [
+     {
+      "ru": "Э́тот ритуа́л выполня́ют во вре́мя пра́здника.",
+      "fr": "On accomplit ce rituel pendant la fête."
+     },
+     {
+      "ru": "Ритуа́л проща́ния был о́чень трога́тельным.",
+      "fr": "Le rituel d’adieu était très émouvant."
+     }
+    ]
+   },
+   {
+    "sens": "Suite d’actions répétées selon un ordre fixe dans la vie quotidienne.",
+    "equivalents": [
+     "rituel",
+     "routine ritualisée",
+     "cérémonial"
+    ],
+    "exemples": [
+     {
+      "ru": "У́тренний кофе стал для него́ настоя́щим ритуа́лом.",
+      "fr": "Le café du matin est devenu pour lui un vrai rituel."
+     },
+     {
+      "ru": "Пе́ред сном у ребёнка есть свой ма́ленький ритуа́л.",
+      "fr": "Avant de dormir, l’enfant a son petit rituel."
+     }
+    ]
+   },
+   {
+    "sens": "Pratique codifiée dans un groupe, une institution ou une tradition.",
     "equivalents": [
      "rite",
      "cérémonial",
-     "liturgie"
+     "protocole rituel"
     ],
     "exemples": [
      {
-      "ru": "Сва́дебный ритуа́л включа́ет мно́жество тради́ций.",
-      "fr": "Le rituel nuptial comprend de nombreuses traditions."
+      "ru": "В э́той семье́ есть воскресе́ный ритуа́л о́бщего обе́да.",
+      "fr": "Dans cette famille, il existe un rituel du déjeuner commun le dimanche."
      },
      {
-      "ru": "Дре́вние ритуа́лы связа́ны с приро́дными ци́клами.",
-      "fr": "Les rituels anciens sont liés aux cycles naturels."
-     }
-    ]
-   },
-   {
-    "sens": "Habitude codifiée, pratique répétitive ayant une valeur symbolique personnelle ou sociale",
-    "equivalents": [
-     "rituel",
-     "habitude",
-     "coutume"
-    ],
-    "exemples": [
-     {
-      "ru": "Утре́нний кофе́ стал мои́м ежедне́вным ритуа́лом.",
-      "fr": "Le café du matin est devenu mon rituel quotidien."
-     },
-     {
-      "ru": "Чте́ние пе́ред сном — семе́йный ритуа́л.",
-      "fr": "La lecture avant le coucher est un rituel familial."
-     }
-    ]
-   },
-   {
-    "sens": "Protocole formel, ensemble de conventions sociales rigides",
-    "equivalents": [
-     "protocole",
-     "cérémonial",
-     "formalisme"
-    ],
-    "exemples": [
-     {
-      "ru": "Дипломати́ческий ритуа́л тре́бует то́чного соблюде́ния пра́вил.",
-      "fr": "Le protocole diplomatique exige le respect strict des règles."
-     },
-     {
-      "ru": "Церемо́ния преврати́лась в пусто́й ритуа́л.",
-      "fr": "La cérémonie s'est transformée en un formalisme vide."
+      "ru": "Команда соблюда́ет свой ритуа́л пе́ред ка́ждым ма́тчем.",
+      "fr": "L’équipe respecte son rituel avant chaque match."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "обряд",
-    "nuance": "Rite traditionnel populaire ou religieux, connotation ethnographique"
+    "mot": "обря́д",
+    "nuance": "Rite traditionnel ou religieux ; souvent plus culturel ou ethnographique."
    },
    {
-    "mot": "церемо́ния",
-    "nuance": "Cérémonie publique officielle, met l'accent sur le déroulement extérieur"
+    "mot": "цере́мония",
+    "nuance": "Cérémonie officielle ou solennelle ; insiste sur la forme publique."
    },
    {
-    "mot": "тради́ция",
-    "nuance": "Tradition transmise, moins codifiée que ритуал"
+    "mot": "церемониа́л",
+    "nuance": "Ensemble de règles cérémonielles ; registre plus soutenu."
    }
   ],
-  "antonymes": [
-   {
-    "mot": "импровиза́ция",
-    "nuance": "Absence de codification, spontanéité"
-   }
-  ],
+  "antonymes": [],
   "formes": {
    "genre": "m",
    "declinaison": {
-    "singulier": {
-     "nominatif": "ритуа́л",
-     "genitif": "ритуа́ла",
-     "datif": "ритуа́лу",
-     "accusatif": "ритуа́л",
-     "instrumental": "ритуа́лом",
-     "prepositionnel": "ритуа́ле"
+    "nominatif": {
+     "singulier": "ритуа́л",
+     "pluriel": "ритуа́лы"
     },
-    "pluriel": {
-     "nominatif": "ритуа́лы",
-     "genitif": "ритуа́лов",
-     "datif": "ритуа́лам",
-     "accusatif": "ритуа́лы",
-     "instrumental": "ритуа́лами",
-     "prepositionnel": "ритуа́лах"
+    "genitif": {
+     "singulier": "ритуа́ла",
+     "pluriel": "ритуа́лов"
+    },
+    "datif": {
+     "singulier": "ритуа́лу",
+     "pluriel": "ритуа́лам"
+    },
+    "accusatif": {
+     "singulier": "ритуа́л",
+     "pluriel": "ритуа́лы"
+    },
+    "instrumental": {
+     "singulier": "ритуа́лом",
+     "pluriel": "ритуа́лами"
+    },
+    "prepositionnel": {
+     "singulier": "ритуа́ле",
+     "pluriel": "ритуа́лах"
     }
    }
   },
   "pieges": [
-   "Accent fixe sur le а ; ne pas prononcer *ри́туал sous l'influence du français « rituel ».",
-   "Distinguer ритуал (codifié, symbolique) de привычка (simple habitude sans dimension symbolique)."
+   "Ритуа́л peut être religieux, mais aussi quotidien : у́тренний ритуал = rituel du matin, sans sens sacré obligatoire.",
+   "Ne pas confondre avec обря́д : обряд désigne plutôt un rite traditionnel ou religieux ; ритуал insiste davantage sur l’ordre des gestes.",
+   "L’accent est final : ритуа́л, ритуа́ла, ритуа́лы ; il ne se déplace pas dans la déclinaison courante."
   ],
   "expressions": [
    {
-    "ru": "перехо́дный ритуа́л",
-    "fr": "rite de passage"
+    "ru": "религио́зный ритуа́л",
+    "fr": "rituel religieux"
    },
    {
-    "ru": "ритуа́льное услу́ги",
-    "fr": "services funéraires"
+    "ru": "ежедне́вный ритуа́л",
+    "fr": "rituel quotidien"
+   },
+   {
+    "ru": "выполня́ть ритуа́л",
+    "fr": "accomplir un rituel"
    }
   ],
   "famille": [
    {
     "mot": "ритуа́льный",
-    "fr": "rituel (adj.), funéraire"
+    "fr": "rituel, relatif au rituel"
    },
    {
-    "mot": "ритуалисти́ка",
-    "fr": "étude des rites"
+    "mot": "ритуализи́ровать",
+    "fr": "ritualiser"
+   },
+   {
+    "mot": "ритуализа́ция",
+    "fr": "ritualisation"
    }
   ],
   "nature": "nom",
@@ -862,72 +1145,107 @@
   "rang": 4240,
   "lemme": "спортзал",
   "mot": "спортза́л",
-  "api": "[spɐrtˈzal]",
+  "api": "[spɐrdˈzal]",
   "niveau": "A2",
   "sens": [
    {
-    "sens": "Salle aménagée pour la pratique d'exercices physiques et de sports en intérieur",
+    "sens": "Salle équipée pour faire du sport ou de l’exercice physique.",
     "equivalents": [
-     "gymnase",
      "salle de sport",
-     "salle de gym"
+     "gymnase",
+     "salle d’entraînement"
     ],
     "exemples": [
      {
-      "ru": "По́сле уро́ков мы занима́емся в спортза́ле.",
-      "fr": "Après les cours, nous faisons du sport dans le gymnase."
+      "ru": "Я хожу́ в спортза́л три ра́за в неде́лю.",
+      "fr": "Je vais à la salle de sport trois fois par semaine."
      },
      {
-      "ru": "Спортза́л оснащён совреме́нными тренажёрами.",
-      "fr": "La salle de sport est équipée de machines modernes."
+      "ru": "В э́том спортза́ле есть но́вые тренажёры.",
+      "fr": "Dans cette salle de sport, il y a de nouveaux appareils."
+     }
+    ]
+   },
+   {
+    "sens": "Salle d’un établissement scolaire ou sportif destinée aux cours d’éducation physique ou à l’entraînement.",
+    "equivalents": [
+     "gymnase",
+     "salle de sport",
+     "salle d’éducation physique"
+    ],
+    "exemples": [
+     {
+      "ru": "Уро́к физкульту́ры проходил в спортза́ле.",
+      "fr": "Le cours d’éducation physique avait lieu dans le gymnase."
+     },
+     {
+      "ru": "После уро́ков спортза́л откры́т для секций.",
+      "fr": "Après les cours, le gymnase est ouvert pour les clubs sportifs."
      }
     ]
    }
   ],
   "synonymes": [
    {
-    "mot": "гимнасти́ческий зал",
-    "nuance": "Terme officiel complet, registre administratif et scolaire"
-   },
-   {
     "mot": "тренажёрный зал",
-    "nuance": "Salle spécifiquement dédiée aux appareils de musculation"
+    "nuance": "Salle avec appareils de musculation ; plus précis que спортзал."
    },
    {
-    "mot": "фи́тнес-клуб",
-    "nuance": "Établissement commercial privé, connotation moderne et urbaine"
+    "mot": "гимнасти́ческий зал",
+    "nuance": "Salle de gymnastique ; emploi plus scolaire ou spécialisé."
+   },
+   {
+    "mot": "фи́тнес-зал",
+    "nuance": "Salle de fitness ; terme commercial moderne."
    }
   ],
   "antonymes": [],
   "formes": {
    "genre": "m",
    "declinaison": {
-    "singulier": {
-     "nominatif": "спортза́л",
-     "genitif": "спортза́ла",
-     "datif": "спортза́лу",
-     "accusatif": "спортза́л",
-     "instrumental": "спортза́лом",
-     "prepositionnel": "спортза́ле"
+    "nominatif": {
+     "singulier": "спортза́л",
+     "pluriel": "спортза́лы"
     },
-    "pluriel": {
-     "nominatif": "спортза́лы",
-     "genitif": "спортза́лов",
-     "datif": "спортза́лам",
-     "accusatif": "спортза́лы",
-     "instrumental": "спортза́лами",
-     "prepositionnel": "спортза́лах"
+    "genitif": {
+     "singulier": "спортза́ла",
+     "pluriel": "спортза́лов"
+    },
+    "datif": {
+     "singulier": "спортза́лу",
+     "pluriel": "спортза́лам"
+    },
+    "accusatif": {
+     "singulier": "спортза́л",
+     "pluriel": "спортза́лы"
+    },
+    "instrumental": {
+     "singulier": "спортза́лом",
+     "pluriel": "спортза́лами"
+    },
+    "prepositionnel": {
+     "singulier": "спортза́ле",
+     "pluriel": "спортза́лах"
     }
    }
   },
   "pieges": [
-   "Abréviation lexicalisée de спорти́вный зал ; toujours écrite en un seul mot, jamais *спорт зал.",
-   "Accent fixe sur le а ; le premier élément спорт- est atone et réduit à [spɐrt]."
+   "Спортза́л est un nom composé inanimé : seule la seconde partie se décline, спортза́ла, спортза́лу, etc.",
+   "On dit aller à la salle de sport : идти́/ходи́ть в спортза́л ; être dans la salle : быть в спортза́ле.",
+   "Не pas traduire toujours par « gym » au sens anglais scolaire : selon le contexte, спортзал peut être une salle de musculation, un gymnase ou une salle de fitness."
   ],
   "expressions": [
    {
-    "ru": "шко́льный спортза́л",
-    "fr": "gymnase scolaire"
+    "ru": "ходи́ть в спортза́л",
+    "fr": "aller à la salle de sport"
+   },
+   {
+    "ru": "занима́ться в спортза́ле",
+    "fr": "s’entraîner dans la salle de sport"
+   },
+   {
+    "ru": "тренажёрный зал",
+    "fr": "salle de musculation"
    }
   ],
   "famille": [
@@ -936,12 +1254,16 @@
     "fr": "sport"
    },
    {
-    "mot": "спорти́вный",
-    "fr": "sportif (adj.)"
+    "mot": "спо́ртивный",
+    "fr": "sportif"
+   },
+   {
+    "mot": "зал",
+    "fr": "salle"
    },
    {
     "mot": "спортсме́н",
-    "fr": "sportif (personne)"
+    "fr": "sportif, athlète"
    }
   ],
   "nature": "nom",
