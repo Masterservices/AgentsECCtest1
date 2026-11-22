@@ -7,6 +7,10 @@
 | L-01 | Tseitin, degré d'entrée ≤ k : tw(primal) ≤ (k+1)(tw(C)+1) − 1 | INV-01_RAPPORT.md §2 | PROUVÉ (antériorité probable, non établie) |
 | L-02 | Tableau `tm_tableau(s,t)` : largeur de chemin ≤ 4s+1, indépendante de t | INV-01_RAPPORT.md §2, vérifié numériquement | PROUVÉ (cas particulier d'un résultat CONNU) |
 | L-03 | Compilation à seuil porte par porte : poids \|w\| ≤ 2, largeur ≤ (k+2)(tw(C)+1) − 1 | INV-01_RAPPORT.md §2 | PROUVÉ (élémentaire) |
+| L-T1 | Circuit {ET, OU, OU-exclusif} de degré 2 → réseau à seuil à poids {−1,0,1} : 3 neurones par OU-exclusif, largeur ≤ (k+3)(w+1)−1 ; un seul neurone caché ternaire ne suffit pas pour le OU-exclusif | INV-02_RAPPORT.md §A.7, `test_ternaire.py` (vérification exhaustive) | PROUVÉ (élémentaire) |
+| L-T2 | Traduction ternaire → binaire par gadgets de taille ≤ s : largeur ≤ (s+2k)(w+1)−1 ; gadgets minimaux certifiés par SAT (double rail : NEG = 0, SUM = 6, MUL = 6, …) | INV-02_RAPPORT.md §A.4 | PROUVÉ (variante de L-01) |
+| L-I1 | Toute coupe S séparant entrées et sorties d'un circuit q-aire vérifie \|S\| log₂q ≥ H(f(X)) ; transport par gadgets : c_min(T(C)) ≤ b·c_min(C) | INV-02_RAPPORT.md §B.2 | PROUVÉ (élémentaire, antériorité folklorique probable) |
+| L-C1 | CNF de récupération de clé du SPN jouet : tw ≤ k + c_enc, indépendamment du nombre de tours et du nombre de couples | INV-02_RAPPORT.md §C.2 (esquisse) ; mesuré k + 19 pour l'encodage table | PROUVÉ (esquisse) |
 
 ## Littérature
 
