@@ -1,0 +1,35 @@
+A. Tableau de Cook-Levin : largeur (borne sup.) selon espace s et temps t
+  s= 4  t=10,20,40,80 -> largeur [29, 29, 30, 30]  (SAT attendu : True)
+  s= 6  t=10,20,40,80 -> largeur [42, 50, 72, 136]  (SAT attendu : True)
+  s= 8  t=10,20,40,80 -> largeur [56, 109, 104, 177]  (SAT attendu : True)
+  s=10  t=10,20,40,80 -> largeur [66, 135, 147, 255]  (SAT attendu : True)
+
+B. Largeur : circuit / CNF Tseitin / réseau à seuil ; borne du lemme L-01 : 3(w+1)-1
+  additionneur   8  circuit   2  Tseitin   3  seuil   3
+  additionneur  16  circuit   2  Tseitin   3  seuil   3
+  additionneur  32  circuit   2  Tseitin   3  seuil   3
+  multiplieur    4  circuit  12  Tseitin  12  seuil  12
+  multiplieur    6  circuit  20  Tseitin  19  seuil  20
+  multiplieur    8  circuit  25  Tseitin  23  seuil  25
+  bande          4  circuit   4  Tseitin   4  seuil   4
+  bande          8  circuit   7  Tseitin   7  seuil   7
+  bande         16  circuit  11  Tseitin  14  seuil  12
+  bande         32  circuit  24  Tseitin  23  seuil  24
+  Dépassements de la borne 3(w+1)-1 (sur bornes sup. heuristiques) : 0
+
+C. Coût de résolution à taille fixée (40 entrées, 800 portes, 40 sorties contraintes)
+  fenêtre   4  largeur méd.     4  conflits méd.        0
+  fenêtre   8  largeur méd.     8  conflits méd.        0
+  fenêtre  16  largeur méd.    13  conflits méd.        0
+  fenêtre  32  largeur méd.    26  conflits méd.       58
+  fenêtre  64  largeur méd.    55  conflits méd.       42
+  fenêtre 128  largeur méd.   112  conflits méd.       20
+  Spearman(largeur, conflits) à taille fixée : 0.82  (n=48)
+
+D. Factorisation (multiplieur contraint à p*q)
+  n= 6  variables   180  largeur  19  conflits       17  temps 0.00s
+  n= 8  variables   336  largeur  23  conflits       62  temps 0.00s
+  n=10  variables   540  largeur  32  conflits      225  temps 0.01s
+  n=12  variables   792  largeur  37  conflits      558  temps 0.02s
+
+Python 3.13.18

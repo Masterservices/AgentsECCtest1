@@ -53,6 +53,13 @@ Toutes les entrées ci-dessous sont citées **de mémoire**. Statut : **à véri
 - Merrill, W., Sabharwal, A. (2023). The parallelism tradeoff: limitations of log-precision transformers. *TACL*, 11.
 - Lucas, A. (2014). Ising formulations of many NP problems. *Frontiers in Physics*, 2.
 
+## Largeur et encodages (trouvés par l'audit d'antériorité d'INV-01, titres vérifiés par recherche ; auteurs et revue à confirmer)
+- *On space efficiency of algorithms working on structural decompositions of graphs*. arXiv:1509.05896. Gadget de Cook-Levin de largeur de chemin O(s+h).
+- *On the Equivalence among Problems of Bounded Width*. arXiv:1509.01014. Machine logspace : largeur de chemin k + O(log |x|).
+- *Width-parameterized SAT: Time-Space Tradeoffs*. arXiv:1108.2385. Algorithmes en 2^O(tw) (Alekhnovich et Razborov ; Chen et al.).
+- *Graph Width Measures for CNF-Encodings with Auxiliary Variables*. arXiv:1905.05290. Largeur des encodages avec variables auxiliaires.
+- Monien, B., Sudborough, I. H. : observation selon laquelle la réduction de Cook sur une machine d'espace borné donne une largeur bornée. **Source originale à identifier.**
+
 ## Modèles généraux du calcul (antériorité pour une « architecture unifiée »)
 - Blum, L., Shub, M., Smale, S. (1989). On a theory of computation and complexity over the real numbers. *Bulletin of the AMS*, 21(1).
 - Gurevich, Y. (2000). Sequential abstract-state machines capture sequential algorithms. *ACM Transactions on Computational Logic*, 1(1).

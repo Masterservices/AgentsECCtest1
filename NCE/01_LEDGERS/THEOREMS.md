@@ -1,6 +1,16 @@
 # Registre des théorèmes
 
-Aucun théorème NCE n'est encore démontré. Ce registre ne contient pour l'instant que des résultats de la littérature, **tous à vérifier sur source primaire (audit L-01)** avant de servir de base à une preuve.
+## Résultats du programme
+
+| ID | Énoncé | Preuve | Statut |
+|---|---|---|---|
+| L-01 | Tseitin, degré d'entrée ≤ k : tw(primal) ≤ (k+1)(tw(C)+1) − 1 | INV-01_RAPPORT.md §2 | PROUVÉ (antériorité probable, non établie) |
+| L-02 | Tableau `tm_tableau(s,t)` : largeur de chemin ≤ 4s+1, indépendante de t | INV-01_RAPPORT.md §2, vérifié numériquement | PROUVÉ (cas particulier d'un résultat CONNU) |
+| L-03 | Compilation à seuil porte par porte : poids \|w\| ≤ 2, largeur ≤ (k+2)(tw(C)+1) − 1 | INV-01_RAPPORT.md §2 | PROUVÉ (élémentaire) |
+
+## Littérature
+
+Les premiers résultats démontrés du programme figurent dans le tableau ci-dessus. Ce registre ne contient pour l'instant que des résultats de la littérature, **tous à vérifier sur source primaire (audit L-01)** avant de servir de base à une preuve.
 
 | ID | Énoncé (résumé) | Source | Statut |
 |---|---|---|---|

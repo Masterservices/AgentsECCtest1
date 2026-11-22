@@ -1,6 +1,10 @@
-# NCE — Index maître
+# RTC (ex-NCE) — Index maître
 
-État du programme : **M0 terminé, en attente de la porte G0.**
+Nom provisoire : **RTC — Resource Translations of Computation** (renommage décidé à la porte G0 ; voir FAILURES.md, F-006).
+
+État du programme : **G0 validée. M1 (INV-00) fait en v0.1. INV-01 v1 fait. Prochaine étape : INV-01b, puis la porte G1.**
+
+- [Définitions INV-00](DEFINITIONS.md) · [Rapport INV-01](INV-01_RAPPORT.md)
 
 | Tome | Titre (architecture révisée) | Phase | Dépend de | Statut | Prochaine action |
 |---|---|---|---|---|---|
