@@ -2,7 +2,7 @@
 
 Nom provisoire : **RTC — Resource Translations of Computation** (renommage décidé à la porte G0 ; voir FAILURES.md, F-006).
 
-État du programme : **G0 validée. M1 (INV-00) fait en v0.1. INV-01 v1 fait. Prochaine étape : INV-01b, puis la porte G1.**
+État du programme : **G0 validée. M1 (INV-00) fait en v0.1. INV-01 et INV-01b faits. Prochaine étape : la porte G1 (rédiger le T0, ou poursuivre avec INV-01c ou INV-02).**
 
 - [Définitions INV-00](DEFINITIONS.md) · [Rapport INV-01](INV-01_RAPPORT.md)
 

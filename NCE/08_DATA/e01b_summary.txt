@@ -1,0 +1,14 @@
+Partie 1 — 3-SAT en bande, n=200, m=852 (rapport 4,26), 10 graines par fenêtre
+  w=  5  pw<=   4  SAT  0/10  conflits méd.         6  max        31  temps méd. 0.000s
+  w= 10  pw<=   9  SAT  0/10  conflits méd.        15  max        30  temps méd. 0.000s
+  w= 20  pw<=  19  SAT  0/10  conflits méd.        48  max       102  temps méd. 0.000s
+  w= 40  pw<=  39  SAT  0/10  conflits méd.       238  max       503  temps méd. 0.001s
+  w= 80  pw<=  79  SAT  0/10  conflits méd.       620  max      1091  temps méd. 0.003s
+  w=200  pw<= 199  SAT  8/10  conflits méd.     14230  max     29334  temps méd. 0.211s
+
+Partie 2 — réseaux entraînés puis élagués (8 entrées ou 6 entrées, couches cachées 16-16)
+  parité-8      réseau compilé : largeur [2,2]  |  entraînés : non appris ; [13,17] (360 arêtes) ; non appris ; [13,17] (350 arêtes) ; [11,17] (320 arêtes)
+  majorité-8    réseau compilé : largeur [1,1]  |  entraînés : [12,21] (330 arêtes) ; [14,17] (340 arêtes) ; [12,17] (330 arêtes) ; [14,17] (350 arêtes) ; [14,17] (350 arêtes)
+  addition-3+3  réseau compilé : largeur [2,3]  |  entraînés : [12,19] (316 arêtes) ; [11,19] (306 arêtes) ; [12,19] (326 arêtes) ; [14,20] (346 arêtes) ; [12,20] (326 arêtes)
+
+Python 3.13.18, numpy 2.5.3

@@ -39,7 +39,50 @@
 - H-B3, première partie : PROUVÉ (L-03). Seconde partie, sur les réseaux *entraînés* : OUVERT. C'est l'angle le plus susceptible d'être nouveau.
 - H-B4 : OUVERT. Il faut des instances difficiles à taille fixée et une mesure de largeur fiable : décompositions explicites, ou solveur exact de largeur sur les petites instances.
 
-**Prochaine itération (INV-01b).**
+## 5. INV-01b — résultats (E-01b, `07_CODE/benchmarks/e01b.py`, `08_DATA/e01b_summary.txt`)
+
+**Partie 1 (H-B4).** 3-SAT aléatoire en bande, à taille fixée (n = 200 variables, m = 852 clauses), 10 graines par fenêtre. La largeur de chemin est prouvée ≤ w − 1.
+
+| Fenêtre w | Largeur de chemin ≤ | Satisfaisables | Conflits (médiane) |
+|---|---|---|---|
+| 5 | 4 | 0/10 | 6 |
+| 10 | 9 | 0/10 | 15 |
+| 20 | 19 | 0/10 | 48 |
+| 40 | 39 | 0/10 | 238 |
+| 80 | 79 | 0/10 | 620 |
+| 200 | 199 | 8/10 | 14 230 |
+
+À taille fixée, le coût croît de façon monotone avec la borne de largeur, sur plus de trois ordres de grandeur.
+
+**Facteur de confusion.** Les fenêtres étroites concentrent les contraintes, d'où des instances insatisfaisables et faciles à réfuter. La croissance reste monotone *parmi les seules instances insatisfaisables* (w de 5 à 80 : de 6 à 620 conflits), mais la satisfaisabilité n'est pas contrôlée.
+
+Statut de H-B4 : **EXPERIMENTAL**, favorable, avec confusion documentée. Le lien « largeur bornée → résolution facile » est par ailleurs connu en théorie (algorithmes en 2^O(tw)). L'apport ici n'est qu'une calibration.
+
+**Partie 2 (H-B3, seconde partie).** Réseaux 16-16 entraînés (Adam, 4 000 pas, 5 graines), puis élagués par magnitude tant que la précision reste à 100 %. La largeur est encadrée par [dégénérescence, heuristique], et la borne inférieure est rigoureuse.
+
+| Fonction | Réseau compilé | Réseaux entraînés et élagués |
+|---|---|---|
+| Parité sur 8 bits | [2, 2] | [11 à 13, 17], de 320 à 360 arêtes. Fonction apprise dans 3 cas sur 5. |
+| Majorité sur 8 bits | [1, 1] | [12 à 14, 17 à 21], de 330 à 350 arêtes |
+| Addition 3 + 3 bits | [2, 3] | [11 à 14, 19 à 20], de 306 à 346 arêtes |
+
+Les réseaux entraînés calculent exactement la même fonction que les réseaux compilés, avec une largeur **au moins quatre à douze fois supérieure**.
+
+Statut : **EXPERIMENTAL**. L'apprentissage standard avec élagage par magnitude **ne retrouve pas** la faible largeur du circuit.
+
+Limites, signalées par le reviewer hostile :
+- l'élagage est grossier : en un seul passage, sans réentraînement, arrêté au premier échec ;
+- un élagage itératif avec réentraînement, ou une régularisation L1, pourrait trouver des réseaux bien plus creux ;
+- l'idée générale de la redondance des réseaux entraînés est connue (voir les travaux sur l'élagage et les « billets de loterie », référence à vérifier).
+
+**Prochaine itération (INV-01c).** Il s'agit d'un test plus sévère de H-B3 :
+- entraînement avec régularisation L1 ;
+- élagage itératif avec réentraînement ;
+- largeur exacte sur les petits graphes.
+
+Si la largeur reste élevée, l'énoncé « la structure du calcul n'est pas un invariant de l'apprentissage » devient une proposition solide pour les Tomes 7 et 10.
+
+**Itération INV-01b (faite, voir §5).**
 1. Remplacer les heuristiques par des largeurs exactes ou des décompositions explicites.
 2. Construire des familles difficiles à taille fixée, par exemple des miters d'équivalence ou des inversions de fonctions à fenêtre contrôlée.
 3. Tester la seconde partie de H-B3 : entraîner de petits réseaux sur des fonctions de faible largeur, élaguer, puis mesurer la largeur du graphe obtenu.
