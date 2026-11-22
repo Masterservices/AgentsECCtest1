@@ -1,0 +1,411 @@
+{
+ "titre": "Formulaire des Traductions du Calcul",
+ "sous_titre": "Répertoire raisonné des formules, encodages et coûts de traduction entre modèles de calcul",
+ "these": "Toute traduction entre modèles de calcul — du lambda-calcul aux machines de Turing, des circuits aux réseaux de neurones — conserve ou perd des ressources mesurables (taille, temps, mémoire, profondeur, largeur, précision, partage). Ce formulaire rassemble, classe et illustre les formules qui gouvernent ces traductions, chacune accompagnée de son statut épistémique, de ses conditions de validité et d'un exemple chiffré.",
+ "cadre": {
+  "nom": "Les traductions à ressources et le registre des statuts",
+  "description": "RÈGLES ABSOLUES : (1) ne citer QUE les références de la liste ci-dessous, avec l'auteur et l'année indiqués ; n'en inventer aucune ; aucun DOI, aucun numéro de page, aucune citation entre guillemets attribuée à un chercheur ; (2) ne jamais présenter une intuition comme une preuve ; donner des preuves complètes pour les résultats démontrés dans le livre, et pour les grands théorèmes connus donner l'idée de la preuve en le disant ; (3) chaque affirmation porte un statut : PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ ou OUVERT ; (4) aucune annonce de découverte ; (5) formules en LaTeX entre $...$ ou $$...$$ ; (6) lecteur cultivé non spécialiste : intuition, définition, énoncé, exemple, exercice ; (7) dernier chapitre : « Transfert vers le programme RTC » (ce que ce tome apporte à l'étude des traductions à ressources : quelles ressources, quelles traductions, quelles questions ouvertes) ; (8) livre RICHE EN FORMULES : chaque chapitre contient au moins 15 formules en LaTeX (display $$...$$), chacune accompagnée de son énoncé en mots, de ses conditions de validité, de son statut et d'un exemple numérique calculé pas à pas ; les démonstrations courtes sont écrites en entier. RÉFÉRENCES AUTORISÉES (et seulement elles) : Church 1936 (An unsolvable problem of elementary number theory) ; Turing 1936 (On computable numbers, with an application to the Entscheidungsproblem) ; McCulloch et Pitts 1943 (A logical calculus of the ideas immanent in nervous activity) ; Hartmanis et Stearns 1965 (On the computational complexity of algorithms) ; Tseitin 1968 (On the complexity of derivation in propositional calculus) ; Savitch 1970 (Relationships between nondeterministic and deterministic tape complexities) ; Cook 1971 (The complexity of theorem-proving procedures) ; Pippenger et Fischer 1979 (Relations among complexity measures) ; Barendregt 1984 (The Lambda Calculus: Its Syntax and Semantics) ; Rumelhart, Hinton et Williams 1986 (Learning representations by back-propagating errors) ; Cybenko 1989 (Approximation by superpositions of a sigmoidal function) ; Schöning 1999 (A probabilistic algorithm for k-SAT and constraint satisfaction problems) ; Arora et Barak 2009 (Computational Complexity: A Modern Approach) ; Telgarsky 2016 (Benefits of depth in neural networks) ; Vaswani et al. 2017 (Attention is all you need)."
+ },
+ "bibliographie": [
+  {
+   "auteur": "Church",
+   "titre": "An unsolvable problem of elementary number theory",
+   "annee": "1936",
+   "idee": "Définition du lambda-calcul et de la calculabilité effective via les fonctions lambda-définissables ; preuve de l'indécidabilité du problème de la décision pour la théorie des nombres.",
+   "apport": "Fonde le premier modèle de calcul fonctionnel ; introduit la substitution et la conversion comme opérations primitives."
+  },
+  {
+   "auteur": "Turing",
+   "titre": "On computable numbers, with an application to the Entscheidungsproblem",
+   "annee": "1936",
+   "idee": "Machine abstraite à ruban, états et tête de lecture ; preuve de l'indécidabilité du problème de l'arrêt.",
+   "apport": "Établit le modèle séquentiel de référence ; définit la notion de ressource en temps et espace comme nombre de pas et de cases utilisées."
+  },
+  {
+   "auteur": "McCulloch et Pitts",
+   "titre": "A logical calculus of the ideas immanent in nervous activity",
+   "annee": "1943",
+   "idee": "Modélisation du neurone comme unité à seuil booléen ; tout réseau fini de tels neurones calcule une fonction booléenne.",
+   "apport": "Première traduction explicite entre logique propositionnelle et réseaux de neurones à seuil."
+  },
+  {
+   "auteur": "Hartmanis et Stearns",
+   "titre": "On the computational complexity of algorithms",
+   "annee": "1965",
+   "idee": "Hiérarchies strictes de temps et d'espace : augmenter la ressource augmente strictement la classe de langages décidables.",
+   "apport": "Fonde la théorie de la complexité comme étude quantitative des ressources ; justifie la séparation entre classes."
+  },
+  {
+   "auteur": "Tseitin",
+   "titre": "On the complexity of derivation in propositional calculus",
+   "annee": "1968",
+   "idee": "Encodage polynomial de circuits en formules CNF via variables auxiliaires ; preuve de la difficulté intrinsèque de certaines tautologies.",
+   "apport": "Fournit la traduction standard circuit → SAT préservant la satisfiabilité avec coût linéaire en taille du circuit."
+  },
+  {
+   "auteur": "Savitch",
+   "titre": "Relationships between nondeterministic and deterministic tape complexities",
+   "annee": "1970",
+   "idee": "Toute machine non déterministe en espace $s(n)$ est simulable par une machine déterministe en espace $O(s(n)^2)$.",
+   "apport": "Quantifie la perte d'espace lors de la traduction non-déterminisme → déterminisme ; borne quadratique."
+  },
+  {
+   "auteur": "Cook",
+   "titre": "The complexity of theorem-proving procedures",
+   "annee": "1971",
+   "idee": "SAT est NP-complet : tout problème de NP se réduit polynomialement à SAT.",
+   "apport": "Établit SAT comme cible universelle de traduction pour la vérification ; fonde la théorie de la NP-complétude."
+  },
+  {
+   "auteur": "Pippenger et Fischer",
+   "titre": "Relations among complexity measures",
+   "annee": "1979",
+   "idee": "Simulation d'une machine de Turing à $k$ rubans par une machine à un ruban avec surcoût quadratique ; simulation par circuits en $O(t \\log t)$.",
+   "apport": "Quantifie précisément le coût de traduction entre variantes de machines de Turing et entre machines et circuits."
+  },
+  {
+   "auteur": "Barendregt",
+   "titre": "The Lambda Calculus: Its Syntax and Semantics",
+   "annee": "1984",
+   "idee": "Traitement exhaustif de la syntaxe, de la réduction, des modèles et des encodages du lambda-calcul.",
+   "apport": "Référence canonique pour les règles de substitution, la confluence et les encodages de Church."
+  },
+  {
+   "auteur": "Rumelhart, Hinton et Williams",
+   "titre": "Learning representations by back-propagating errors",
+   "annee": "1986",
+   "idee": "Algorithme de rétropropagation du gradient à travers les couches d'un réseau multi-couches.",
+   "apport": "Fournit la formule de mise à jour des poids et la règle de la chaîne appliquée aux réseaux ; traduction gradient → mise à jour locale."
+  },
+  {
+   "auteur": "Cybenko",
+   "titre": "Approximation by superpositions of a sigmoidal function",
+   "annee": "1989",
+   "idee": "Toute fonction continue sur un compact de $\\mathbb{R}^n$ est approchable arbitrairement bien par un réseau à une couche cachée sigmoïde.",
+   "apport": "Prouve la complétude expressive du modèle à seuil/sigmoïde ; quantifie la traduction fonction continue → réseau."
+  },
+  {
+   "auteur": "Schöning",
+   "titre": "A probabilistic algorithm for k-SAT and constraint satisfaction problems",
+   "annee": "1999",
+   "idee": "Marche aléatoire locale résolvant $k$-SAT en temps $O((2-2/k)^n)$ ; pour $k=3$, borne $(4/3)^n$.",
+   "apport": "Donne une borne supérieure algorithmique pour la traduction recherche locale → satisfaction de contraintes."
+  },
+  {
+   "auteur": "Arora et Barak",
+   "titre": "Computational Complexity: A Modern Approach",
+   "annee": "2009",
+   "idee": "Manuel unifié couvrant classes de complexité, réductions, circuits, communication et preuves interactives.",
+   "apport": "Synthèse des simulations entre modèles et de leurs coûts ; référence pour les hiérarchies et la complétude."
+  },
+  {
+   "auteur": "Telgarsky",
+   "titre": "Benefits of depth in neural networks",
+   "annee": "2016",
+   "idee": "Séparation exponentielle entre réseaux ReLU profonds et peu profonds : certaines fonctions exigent une largeur exponentielle si la profondeur est bornée.",
+   "apport": "Quantifie la ressource « profondeur » dans la traduction fonction → réseau ReLU ; comptage des régions linéaires."
+  },
+  {
+   "auteur": "Vaswani et al.",
+   "titre": "Attention is all you need",
+   "annee": "2017",
+   "idee": "Architecture Transformer fondée sur l'attention softmax multi-têtes, sans récurrence ni convolution.",
+   "apport": "Introduit la formule d'attention pondérée ; nouvelle traduction séquence → représentation vectorielle avec coût quadratique en longueur."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Lambda-calcul : syntaxe, encodages et coût de réduction",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Substitution et bêta-réduction : les règles primitives",
+     "objectif": "Établir les formules de base du lambda-calcul (syntaxe, alpha-conversion, substitution capture-avoidante, bêta-réduction) comme première traduction interne : un terme se traduit en sa forme normale. Chaque formule est accompagnée de son coût en nombre de pas de réduction.",
+     "sections": [
+      "1.1 Syntaxe et alpha-conversion : $\\alpha$-équivalence et variables libres",
+      "1.2 Substitution capture-avoidante : définition inductive et lemme de fraîcheur",
+      "1.3 Bêta-réduction : règle $(\\lambda x.M)N \\to M[x:=N]$ et stratégie de réduction",
+      "1.4 Confluence (théorème de Church-Rosser) : énoncé et idée de la preuve",
+      "1.5 Coût d'une réduction : nombre de pas, taille des termes et partage"
+     ],
+     "exercices": [
+      "Exercice 1.1 : Réduire pas à pas $(\\lambda x.\\lambda y. x\\, y)(\\lambda z. z\\, z)(\\lambda w. w)$ en comptant chaque étape.",
+      "Exercice 1.2 : Montrer que la substitution naïve capture une variable et corriger par renommage.",
+      "Exercice 1.3 : Calculer la taille du terme après $n$ réductions bêta de $(\\lambda x. x\\, x)(\\lambda x. x\\, x)$ (si elle existe) et discuter la terminaison.",
+      "Exercice 1.4 : Vérifier la confluence sur un terme admettant deux réductions bêta distinctes en première étape."
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Encodages de Church : entiers, booléens et paires",
+     "objectif": "Présenter les traductions de données (entiers de Peano, valeurs booléennes, paires ordonnées) en termes lambda purs, avec formules de construction, d'itération et de projection, et calcul du coût en taille.",
+     "sections": [
+      "2.1 Numéraux de Church : définition $\\bar{n} = \\lambda f.\\lambda x. f^n(x)$ et opérations arithmétiques",
+      "2.2 Successeur, addition et multiplication : formules et preuves par induction",
+      "2.3 Booléens de Church : $\\mathsf{true} = \\lambda x.\\lambda y.x$, $\\mathsf{false} = \\lambda x.\\lambda y.y$, conditionnelles",
+      "2.4 Paires et projections : $\\langle M,N\\rangle = \\lambda f. f\\,M\\,N$, $\\pi_1$, $\\pi_2$",
+      "2.5 Coût de traduction : taille du terme encodant $n$ et nombre de réductions pour calculer $m+n$"
+     ],
+     "exercices": [
+      "Exercice 2.1 : Encoder la fonction prédécesseur en lambda-calcul et vérifier sur $\\bar{3}$.",
+      "Exercice 2.2 : Construire le booléen « ou exclusif » à partir de true, false et de la conditionnelle.",
+      "Exercice 2.3 : Calculer la taille (nombre de symboles) de $\\bar{5}$ et de $\\overline{m+n}$ pour $m=2$, $n=3$.",
+      "Exercice 2.4 : Encoder une liste de longueur 3 comme paires imbriquées et extraire le deuxième élément."
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Combinateur Y, types simples et terminaison",
+     "objectif": "Formaliser le point fixe (combinateur Y), le système de types simples $\\to$ et le lien entre typabilité et terminaison forte. Montrer que la traduction d'un programme récursif en lambda-calcul typé garantit l'arrêt.",
+     "sections": [
+      "3.1 Le combinateur Y : $Y = \\lambda f.(\\lambda x. f(x\\,x))(\\lambda x. f(x\\,x))$ et point fixe",
+      "3.2 Application : factorielle et récursion via Y",
+      "3.3 Types simples : grammaire $\\tau ::= \\alpha \\mid \\tau \\to \\tau$, règles de typage",
+      "3.4 Théorème de terminaison forte du lambda-calcul simplement typé : énoncé et idée de la preuve",
+      "3.5 Interprétation comme traduction : programme récursif $\\mapsto$ terme typé, perte de l'expressivité non terminante"
+     ],
+     "exercices": [
+      "Exercice 3.1 : Vérifier que $Y\\,F \\to_\\beta F(Y\\,F)$ par réduction explicite.",
+      "Exercice 3.2 : Typer le terme $\\lambda f.\\lambda x. f(f(x))$ et donner son type le plus général.",
+      "Exercice 3.3 : Montrer que le terme $(\\lambda x. x\\, x)$ n'est pas typable dans le système simple.",
+      "Exercice 3.4 : Écrire la factorielle comme point fixe et typer le schéma correspondant."
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Coût de réduction et simulation du lambda-calcul",
+     "objectif": "Quantifier le coût de la traduction lambda-calcul → calcul effectif : nombre de réductions, taille des termes intermédiaires, partage. Comparer stratégies normales et applicatives. Relier au programme RTC via la ressource « temps de réduction ».",
+     "sections": [
+      "4.1 Stratégie normale vs applicative : définitions et différence de coût",
+      "4.2 Explosion de taille : le terme $(\\lambda x. x\\,x)(\\lambda x. x\\,x)$ et la croissance doublement exponentielle",
+      "4.3 Partage (sharing) et réduction par graphes : formule de compression",
+      "4.4 Simulation du lambda-calcul par une machine de Turing : surcoût polynomial",
+      "4.5 Bilan RTC : ressources conservées (expressivité) et perdues (temps, espace) lors de la traduction"
+     ],
+     "exercices": [
+      "Exercice 4.1 : Réduire $(\\lambda x. x\\, x\\, x)(\\lambda y. y\\, y)$ selon la stratégie applicative et compter les étapes.",
+      "Exercice 4.2 : Montrer que le partage divise par un facteur exponentiel le nombre de pas sur un exemple précis.",
+      "Exercice 4.3 : Encoder une machine de Turing à 3 états en lambda-calcul (esquisse) et estimer la taille.",
+      "Exercice 4.4 : Comparer le nombre de réductions pour calculer $\\bar{2}+\\bar{3}$ en stratégie normale et applicative."
+     ]
+    },
+    {
+     "numero": 5,
+     "titre": "Machines de Turing et classes de complexité : définitions",
+     "objectif": "Fixer les définitions formelles des machines de Turing (déterministes, non déterministes, multi-rubans) et des classes P, NP, PSPACE, EXP. Chaque définition est une formule de traduction : langage → machine → ressource.",
+     "sections": [
+      "5.1 Machine de Turing déterministe à un ruban : 7-uplet et fonction de transition",
+      "5.2 Machines non déterministes et multi-rubans : définitions et équivalence",
+      "5.3 Classes de complexité : $\\mathrm{TIME}(t(n))$, $\\mathrm{SPACE}(s(n))$, P, NP, PSPACE, EXP",
+      "5.4 Relations d'inclusion : $\\mathrm{P} \\subseteq \\mathrm{NP} \\subseteq \\mathrm{PSPACE} \\subseteq \\mathrm{EXP}$",
+      "5.5 Théorème de simulation : une MT à $k$ rubans en temps $t$ est simulée par une MT à 1 ruban en $O(t^2)$"
+     ],
+     "exercices": [
+      "Exercice 5.1 : Écrire la fonction de transition d'une MT reconnaissant $\\{a^n b^n : n \\geq 1\\}$.",
+      "Exercice 5.2 : Montrer que $\\mathrm{NP} \\subseteq \\mathrm{PSPACE}$ en énumérant les certificats.",
+      "Exercice 5.3 : Simuler une MT à 2 rubans sur l'entrée $ab$ en traçant les configurations.",
+      "Exercice 5.4 : Vérifier que P est clos par union et intersection à partir des définitions."
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Hiérarchies de temps et d'espace, théorème de Savitch",
+     "objectif": "Présenter les théorèmes de hiérarchie (Hartmanis et Stearns 1965) et le théorème de Savitch (1970) comme des bornes quantitatives sur les traductions entre classes. Fournir les formules de diagonalisation et la construction de Savitch.",
+     "sections": [
+      "6.1 Théorème de hiérarchie en temps : énoncé et idée de la diagonalisation",
+      "6.2 Théorème de hiérarchie en espace : énoncé et construction",
+      "6.3 Théorème de Savitch : $\\mathrm{NSPACE}(s(n)) \\subseteq \\mathrm{SPACE}(s(n)^2)$ pour $s(n) \\geq \\log n$",
+      "6.4 Preuve de Savitch : algorithme PATH et récurrence sur la longueur du chemin",
+      "6.5 Conséquence : $\\mathrm{NPSPACE} = \\mathrm{PSPACE}$ et traduction non-déterminisme → déterminisme"
+     ],
+     "exercices": [
+      "Exercice 6.1 : Appliquer la hiérarchie en temps pour montrer $\\mathrm{TIME}(n^2) \\subsetneq \\mathrm{TIME}(n^3)$.",
+      "Exercice 6.2 : Exécuter l'algorithme de Savitch sur un graphe à 4 nœuds avec $s = 2$.",
+      "Exercice 6.3 : Calculer l'espace nécessaire pour simuler une MTND en espace $\\log n$ via Savitch.",
+      "Exercice 6.4 : Expliquer pourquoi la hiérarchie en espace exige $s(n) \\geq \\log n$."
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Cook-Levin : SAT comme traduction universelle de NP",
+     "objectif": "Démontrer que tout calcul non déterministe polynomial se traduit en une formule SAT de taille polynomiale (Cook 1971). Donner la construction explicite de la formule et borner sa taille.",
+     "sections": [
+      "7.1 Énoncé du théorème de Cook-Levin : SAT est NP-complet",
+      "7.2 Construction de la formule : variables $x_{i,j,t}$, clauses de transition",
+      "7.3 Taille de la formule : $O(T(n)^2 \\cdot |\\Gamma| \\cdot |Q|)$ où $T$ est le temps de calcul",
+      "7.4 Réduction polynomiale : définition et transitivité",
+      "7.5 Idée de la preuve : encoder la table de configuration comme assignation"
+     ],
+     "exercices": [
+      "Exercice 7.1 : Construire la formule SAT pour une MT à 2 états, alphabet $\\{0,1\\}$, sur l'entrée $01$ en 3 pas.",
+      "Exercice 7.2 : Vérifier que la clause d'unicité $(x_{i,j,t} \\Rightarrow \\neg x_{i',j,t})$ est correctement écrite en CNF.",
+      "Exercice 7.3 : Calculer la taille de la formule pour $T=5$, $|Q|=3$, $|\\Gamma|=2$.",
+      "Exercice 7.4 : Montrer que 3-SAT est NP-complet à partir de SAT (esquisse de la réduction)."
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Simulation par circuits : le surcoût $O(t \\log t)$",
+     "objectif": "Présenter la traduction MT → circuits booléens (Pippenger et Fischer 1979 ; Arora et Barak 2009) et quantifier le surcoût en taille. Relier profondeur du circuit et temps de calcul.",
+     "sections": [
+      "8.1 Circuits booléens : définition formelle, taille et profondeur",
+      "8.2 Simulation d'un pas de MT par un circuit de taille constante",
+      "8.3 Construction en $O(t \\log t)$ : arbre de calcul et multiplexage",
+      "8.4 Profondeur du circuit et parallélisme : classe NC",
+      "8.5 Comparaison des coûts : MT → circuit vs lambda-calcul → MT ; tableau récapitulatif"
+     ],
+     "exercices": [
+      "Exercice 8.1 : Construire le circuit simulant un pas d'une MT à 2 états sur alphabet binaire.",
+      "Exercice 8.2 : Calculer la taille du circuit pour $t = 8$ pas de simulation.",
+      "Exercice 8.3 : Montrer que la profondeur est $O(\\log t)$ dans la construction arborescente.",
+      "Exercice 8.4 : Comparer le surcoût $O(t \\log t)$ avec la simulation directe en $O(t^2)$."
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Encodage de Tseitin : circuit → CNF clause par clause",
+     "objectif": "Détails la traduction de Tseitin (1968) qui convertit un circuit booléen en formule CNF équivalente en satisfiabilité, avec variables auxiliaires. Formule de construction, preuve de correction et coût linéaire.",
+     "sections": [
+      "9.1 Motivation : CNF comme langage cible universel pour SAT",
+      "9.2 Construction de Tseitin : une variable par porte, clauses locales",
+      "9.3 Formules pour portes AND, OR, NOT : clauses explicites",
+      "9.4 Preuve de correction : équivalence en satisfiabilité (iff)",
+      "9.5 Taille : $O(|C|)$ clauses pour un circuit $C$ ; optimalité et limites"
+     ],
+     "exercices": [
+      "Exercice 9.1 : Encoder le circuit $(a \\wedge b) \\vee (\\neg c)$ en CNF via Tseitin.",
+      "Exercice 9.2 : Vérifier la satisfiabilité de la CNF obtenue pour $a=1, b=0, c=0$.",
+      "Exercice 9.3 : Compter le nombre de clauses pour un circuit à 5 portes (2 AND, 2 OR, 1 NOT).",
+      "Exercice 9.4 : Montrer que sans variables auxiliaires, la CNF peut être exponentielle (exemple du multiplexeur)."
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Transition de phase du 3-SAT aléatoire",
+     "objectif": "Présenter le phénomène de transition de phase : pour un ratio clauses/variables $\\alpha \\approx 4{,}27$, la probabilité de satisfiabilité passe brutalement de 1 à 0. Formules de seuil, heuristiques et statut expérimental.",
+     "sections": [
+      "10.1 Modèle $\\mathcal{F}(n,m)$ : formule aléatoire à $n$ variables et $m$ clauses de taille 3",
+      "10.2 Ratio $\\alpha = m/n$ et conjecture du seuil $\\alpha_c \\approx 4{,}267$",
+      "10.3 Méthode du premier moment : borne supérieure sur $\\alpha_c$",
+      "10.4 Méthode du second moment et bornes inférieures",
+      "10.5 Statut expérimental et ouvertures : seuil exact, structure géométrique de l'espace des solutions"
+     ],
+     "exercices": [
+      "Exercice 10.1 : Calculer la probabilité qu'une clause aléatoire soit satisfaite par une assignation fixée.",
+      "Exercice 10.2 : Appliquer la méthode du premier moment pour $n=100$, $m=430$.",
+      "Exercice 10.3 : Estimer le nombre attendu de solutions satisfaisantes pour $\\alpha = 4$ et $n=20$.",
+      "Exercice 10.4 : Discuter pourquoi la méthode du second moment ne donne pas le seuil exact."
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Borne de Schöning : marche aléatoire et $(4/3)^n$",
+     "objectif": "Démontrer la borne supérieure de Schöning (1999) pour 3-SAT : résolution en temps $O((4/3)^n \\cdot \\mathrm{poly}(n))$. Preuve complète par récurrence sur le nombre de variables non satisfaites.",
+     "sections": [
+      "11.1 Algorithme de marche aléatoire locale : choix d'une clause insatisfaite, flip d'une variable",
+      "11.2 Analyse probabiliste : probabilité de succès en $3n$ pas depuis une solution à distance $d$",
+      "11.3 Formule de récurrence : $T(n) \\leq (4/3)^n \\cdot \\mathrm{poly}(n)$",
+      "11.4 Preuve par récurrence : calcul de la probabilité $p_d$ de revenir à distance 0",
+      "11.5 Comparaison avec la borne triviale $2^n$ et améliorations ultérieures"
+     ],
+     "exercices": [
+      "Exercice 11.1 : Calculer la probabilité de succès en 3 pas pour une formule à 2 variables.",
+      "Exercice 11.2 : Vérifier la récurrence $p_d \\geq \\frac{1}{3}p_{d-1} + \\frac{2}{3}p_{d+1}$ pour $d=2$.",
+      "Exercice 11.3 : Estimer le temps de Schöning pour $n=60$ et comparer à $2^{60}$.",
+      "Exercice 11.4 : Adapter l'analyse au cas $k=4$ et retrouver $(2-2/4)^n = (3/2)^n$."
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Largeur arborescente, largeur de chemin et lemmes L-01, L-02",
+     "objectif": "Définir la largeur arborescente (treewidth) et la largeur de chemin (pathwidth) comme ressources structurelles. Énoncer et prouver les lemmes L-01 et L-02 liant largeur et complexité de SAT sur graphes.",
+     "sections": [
+      "12.1 Décomposition arborescente : définition, largeur, validité",
+      "12.2 Largeur arborescente $\\mathrm{tw}(G)$ : définition par minimisation",
+      "12.3 Lemme L-01 : SAT sur une formule de graphe de largeur arborescente $w$ est résoluble en $O(2^w \\cdot n)$",
+      "12.4 Largeur de chemin $\\mathrm{pw}(G)$ et lemme L-02 : $\\mathrm{tw}(G) \\leq \\mathrm{pw}(G)$ et algorithme en $O(2^{\\mathrm{pw}} \\cdot n)$",
+      "12.5 Preuves des lemmes L-01 et L-02 : programmation dynamique sur la décomposition"
+     ],
+     "exercices": [
+      "Exercice 12.1 : Calculer la largeur arborescente d'un cycle $C_4$.",
+      "Exercice 12.2 : Construire une décomposition arborescente de largeur 2 pour un graphe chemin $P_5$.",
+      "Exercice 12.3 : Appliquer l'algorithme du lemme L-01 à une 2-CNF sur un graphe de largeur 2.",
+      "Exercice 12.4 : Montrer que $\\mathrm{tw}(K_n) = n-1$ pour le graphe complet."
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Neurone à seuil, portes logiques et ReLU",
+     "objectif": "Formaliser le neurone de McCulloch-Pitts (1943), construire les portes ET, OU, XOR (lemme L-03), et montrer la relation entre ReLU et seuil sur entrées entières. Chaque construction est une traduction logique → réseau.",
+     "sections": [
+      "13.1 Neurone à seuil : $y = \\mathbf{1}[\\sum_i w_i x_i \\geq \\theta]$ et fonction d'activation",
+      "13.2 Lemme L-03 : portes ET, OU à un neurone ; XOR impossible à un neurone",
+      "13.3 XOR à deux couches : construction explicite avec 4 neurones",
+      "13.4 ReLU : $\\mathrm{ReLU}(x) = \\max(0,x)$ et relation avec le seuil sur $\\mathbb{Z}$",
+      "13.5 Formule de composition : tout réseau à seuil sur entrées binaires est un réseau ReLU et réciproquement (conditions)"
+     ],
+     "exercices": [
+      "Exercice 13.1 : Trouver les poids $(w_1, w_2, \\theta)$ pour la porte ET à 2 entrées.",
+      "Exercice 13.2 : Montrer par l'absurde que XOR n'est pas linéairement séparable.",
+      "Exercice 13.3 : Construire un réseau ReLU à 2 couches calculant XOR sur $\\{0,1\\}^2$.",
+      "Exercice 13.4 : Vérifier que $\\mathrm{ReLU}(x) - \\mathrm{ReLU}(x-1) = \\mathbf{1}[x \\geq 1]$ pour $x \\in \\mathbb{Z}$."
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Approximation universelle, rétropropagation et attention",
+     "objectif": "Présenter le théorème de Cybenko (1989), la formule de rétropropagation (Rumelhart, Hinton, Williams 1986) et l'attention softmax (Vaswani et al. 2017) comme trois traductions fondamentales : fonction → réseau, erreur → gradient, séquence → représentation.",
+     "sections": [
+      "14.1 Théorème de Cybenko : énoncé et idée de la preuve par densité",
+      "14.2 Formule d'approximation : $|f(x) - \\sum_{j=1}^N \\alpha_j \\sigma(w_j^T x + b_j)| < \\varepsilon$",
+      "14.3 Rétropropagation : règle de la chaîne et formule $\\frac{\\partial L}{\\partial w_{ij}^{(l)}}$",
+      "14.4 Attention softmax : $\\mathrm{Att}(Q,K,V) = \\mathrm{softmax}(QK^T/\\sqrt{d_k})V$",
+      "14.5 Coût de l'attention : $O(n^2 d)$ en temps et $O(n^2)$ en mémoire pour une séquence de longueur $n$"
+     ],
+     "exercices": [
+      "Exercice 14.1 : Vérifier que la sigmoïde satisfait les hypothèses du théorème de Cybenko.",
+      "Exercice 14.2 : Calculer la rétropropagation sur un réseau 2-2-1 avec sigmoïde pour une entrée fixée.",
+      "Exercice 14.3 : Calculer l'attention softmax pour $n=3$, $d_k=2$ avec des matrices données.",
+      "Exercice 14.4 : Estimer le coût mémoire de l'attention pour $n=1024$, $d=512$."
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Profondeur, régions linéaires et séparation ReLU",
+     "objectif": "Quantifier la ressource « profondeur » via le comptage des régions linéaires d'un réseau ReLU (Telgarsky 2016). Montrer la séparation exponentielle profondeur vs largeur. Formules de comptage et bornes.",
+     "sections": [
+      "15.1 Régions linéaires : définition et lien avec la complexité de la fonction",
+      "15.2 Borne supérieure : un réseau de largeur $w$ et profondeur $d$ a au plus $O(w^d)$ régions",
+      "15.3 Construction de Telgarsky : fonction à $2^d$ oscillations avec profondeur $d$",
+      "15.4 Séparation : $O(2^d)$ régions en profondeur $d$ vs $O(2^{w})$ nécessaire en largeur constante",
+      "15.5 Traduction profondeur ↔ largeur : coût exponentiel et implications RTC"
+     ],
+     "exercices": [
+      "Exercice 15.1 : Compter les régions linéaires de $\\mathrm{ReLU}(\\mathrm{ReLU}(x)-\\mathrm{ReLU}(x-1))$.",
+      "Exercice 15.2 : Vérifier la borne $O(w^d)$ pour $w=3$, $d=2$ sur un exemple.",
+      "Exercice 15.3 : Construire une fonction à 4 régions linéaires avec un réseau de profondeur 2 et largeur 2.",
+      "Exercice 15.4 : Estimer le nombre de régions d'un réseau de largeur 10 et profondeur 5."
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Transfert vers le programme RTC : tables de correspondance et questions ouvertes",
+     "objectif": "Synthétiser toutes les traductions étudiées dans des tables de correspondance entre modèles avec coûts. Identifier les ressources (temps, espace, profondeur, largeur, précision, partage) et formuler les questions ouvertes du programme RTC.",
+     "sections": [
+      "16.1 Table de correspondance lambda-calcul ↔ machines de Turing ↔ circuits : coûts",
+      "16.2 Table de correspondance circuits ↔ SAT ↔ réseaux de neurones : traductions et pertes",
+      "16.3 Registre des ressources : temps, espace, profondeur, largeur, précision, partage — définitions unifiées",
+      "16.4 Questions ouvertes du programme RTC : traductions optimales, ressources non classiques",
+      "16.5 Perspectives : vers un calcul des traductions et une théorie unifiée des ressources"
+     ],
+     "exercices": [
+      "Exercice 16.1 : Remplir la table de coût pour la traduction lambda-calcul → MT → circuit sur l'exemple de la factorielle.",
+      "Exercice 16.2 : Identifier quelle ressource est perdue dans la traduction réseau de neurones → circuit booléen.",
+      "Exercice 16.3 : Formuler une conjecture sur le coût minimal de la traduction SAT → réseau ReLU.",
+      "Exercice 16.4 : Proposer une ressource non listée ici qui pourrait être pertinente pour le programme RTC."
+     ]
+    }
+   ]
+  }
+ ]
+}

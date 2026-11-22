@@ -1,0 +1,451 @@
+{
+ "titre": "Cryptographie et Complexité",
+ "sous_titre": "La science des traductions qui détruisent l'information exploitable",
+ "these": "La cryptographie est la discipline des traductions computationnelles conçues pour anéantir l'information exploitable par un adversaire borné en ressources. Chaque primitive cryptographique — masque jetable, fonction à sens unique, générateur pseudo-aléatoire, chiffrement probabiliste, fonction à trappe — réalise une traduction entre modèles de calcul (texte clair vers texte chiffré, graine vers suite pseudo-aléatoire, message vers signature) qui conserve la structure syntaxique tout en détruisant la sémantique accessible. Ce livre étudie ces traductions à travers le prisme du programme RTC : quelles ressources (taille, temps, mémoire, profondeur, largeur, précision, partage) sont conservées, perdues ou gagnées lors de chaque traduction cryptographique, et quelles barrières fondamentales (P vs NP, preuves naturelles, largeur structurelle) limitent notre capacité à inverser ces traductions.",
+ "cadre": {
+  "nom": "Les traductions à ressources et le registre des statuts",
+  "description": "RÈGLES ABSOLUES : (1) ne citer QUE les références de la liste ci-dessous, avec l'auteur et l'année indiqués ; n'en inventer aucune ; aucun DOI, aucun numéro de page, aucune citation entre guillemets attribuée à un chercheur ; (2) ne jamais présenter une intuition comme une preuve ; donner des preuves complètes pour les résultats démontrés dans le livre, et pour les grands théorèmes connus donner l'idée de la preuve en le disant ; (3) chaque affirmation porte un statut : PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ ou OUVERT ; (4) aucune annonce de découverte ; (5) formules en LaTeX entre $...$ ou $$...$$ ; (6) lecteur cultivé non spécialiste : intuition, définition, énoncé, exemple, exercice ; (7) dernier chapitre : « Transfert vers le programme RTC » (ce que ce tome apporte à l'étude des traductions à ressources : quelles ressources, quelles traductions, quelles questions ouvertes). (8) livre RICHE EN FORMULES : chaque chapitre contient au moins 15 formules en LaTeX (display $$...$$), chacune accompagnée de son énoncé en mots, de ses conditions de validité, de son statut et d'un exemple numérique calculé pas à pas ; les démonstrations courtes sont écrites en entier. RÉFÉRENCES AUTORISÉES (et seulement elles) : Shannon 1949 (Communication theory of secrecy systems) ; Tseitin 1968 (On the complexity of derivation in propositional calculus) ; Diffie et Hellman 1976 (New directions in cryptography) ; Rivest, Shamir et Adleman 1978 (A method for obtaining digital signatures and public-key cryptosystems) ; Yao 1982 (Theory and applications of trapdoor functions) ; Goldwasser et Micali 1984 (Probabilistic encryption) ; Impagliazzo 1995 (A personal view of average-case complexity) ; Razborov et Rudich 1997 (Natural proofs) ; Håstad, Impagliazzo, Levin et Luby 1999 (A pseudorandom generator from any one-way function) ; Massacci et Marraro 2000 (Logical cryptanalysis as a SAT problem) ; Goldreich 2001 (Foundations of Cryptography: Basic Tools) ; Courtois et Pieprzyk 2002 (Cryptanalysis of block ciphers with overdefined systems of equations) ; Katz et Lindell 2007 (Introduction to Modern Cryptography) ; Soos, Nohl et Castelluccia 2009 (Extending SAT solvers to cryptographic problems)."
+ },
+ "bibliographie": [
+  {
+   "auteur": "Shannon",
+   "titre": "Communication theory of secrecy systems",
+   "annee": "1949",
+   "idee": "Fonder la théorie mathématique du secret sur l'entropie et l'information mutuelle ; définir le secret parfait comme l'indépendance statistique entre texte clair et texte chiffré.",
+   "apport": "Introduction du masque jetable comme unique chiffrement à secret parfait ; théorème de Shannon sur la taille minimale de la clé."
+  },
+  {
+   "auteur": "Tseitin",
+   "titre": "On the complexity of derivation in propositional calculus",
+   "annee": "1968",
+   "idee": "Montrer que certaines tautologies exigent des preuves de résolution exponentiellement longues, en exploitant une contrainte de parité locale sur les graphes.",
+   "apport": "Technique de conversion circuit-vers-CNF avec variables auxiliaires ; borne inférieure sur la largeur de résolution utilisée en cryptanalyse logique."
+  },
+  {
+   "auteur": "Diffie et Hellman",
+   "titre": "New directions in cryptography",
+   "annee": "1976",
+   "idee": "Introduire le concept de cryptographie à clé publique et le protocole d'échange de clés fondé sur la difficulté du logarithme discret.",
+   "apport": "Première construction d'une traduction asymétrique : la clé publique traduit le message sans permettre l'inversion sans la clé privée."
+  },
+  {
+   "auteur": "Rivest, Shamir et Adleman",
+   "titre": "A method for obtaining digital signatures and public-key cryptosystems",
+   "annee": "1978",
+   "idee": "Construire un chiffrement à clé publique et une signature numérique à partir de la difficulté de factoriser un entier composé de deux grands premiers.",
+   "apport": "Fonction à trappe concrète : exponentiation modulaire facile à calculer, inversion équivalente à la factorisation."
+  },
+  {
+   "auteur": "Yao",
+   "titre": "Theory and applications of trapdoor functions",
+   "annee": "1982",
+   "idee": "Formaliser la notion de fonction à trappe et montrer comment elle engendre chiffrement à clé publique, signatures et protocoles interactifs.",
+   "apport": "Cadre général des fonctions à sens unique à trappe ; lien structurel entre difficulté moyenne et cryptographie."
+  },
+  {
+   "auteur": "Goldwasser et Micali",
+   "titre": "Probabilistic encryption",
+   "annee": "1984",
+   "idee": "Définir la sécurité sémantique : un adversaire polynomial ne peut extraire aucune information partielle du texte chiffré au-delà de sa longueur.",
+   "apport": "Premier chiffrement probabiliste prouvé sûr sous l'hypothèse de la résiduosité quadratique ; équivalence entre sécurité sémantique et indistinguabilité."
+  },
+  {
+   "auteur": "Impagliazzo",
+   "titre": "A personal view of average-case complexity",
+   "annee": "1995",
+   "idee": "Classifier les mondes possibles de la complexité computationnelle selon la difficulté des problèmes en cas moyen.",
+   "apport": "Les cinq mondes (Algorithmica, Heuristica, Pessiland, Minicrypt, Cryptomania) comme cartographie des traductions cryptographiques réalisables."
+  },
+  {
+   "auteur": "Razborov et Rudich",
+   "titre": "Natural proofs",
+   "annee": "1997",
+   "idee": "Montrer que toute preuve de borne inférieure pour les circuits qui soit naturelle (constructive et large) est incompatible avec l'existence de générateurs pseudo-aléatoires sûrs.",
+   "apport": "Obstacle fondamental : la cryptographie bloque certaines approches de séparation de classes ; lien entre pseudo-aléa et largeur des preuves."
+  },
+  {
+   "auteur": "Håstad, Impagliazzo, Levin et Luby",
+   "titre": "A pseudorandom generator from any one-way function",
+   "annee": "1999",
+   "idee": "Construire un générateur pseudo-aléatoire à partir de n'importe quelle fonction à sens unique, sans hypothèse structurelle supplémentaire.",
+   "apport": "Théorème fondamental : OWF implique PRG ; la traduction graine-vers-suite est universellement réalisable dès qu'une traduction à sens unique existe."
+  },
+  {
+   "auteur": "Massacci et Marraro",
+   "titre": "Logical cryptanalysis as a SAT problem",
+   "annee": "2000",
+   "idee": "Traduire l'attaque d'un chiffrement en un problème de satisfiabilité propositionnelle et le résoudre par des solveurs SAT.",
+   "apport": "Première démonstration systématique de la traduction chiffrement-vers-CNF ; analyse du nombre de clauses et de variables."
+  },
+  {
+   "auteur": "Goldreich",
+   "titre": "Foundations of Cryptography: Basic Tools",
+   "annee": "2001",
+   "idee": "Présenter un traité unifié des outils fondamentaux : fonctions à sens unique, PRG, chiffrement, signatures, protocoles.",
+   "apport": "Formalisation rigoureuse des réductions entre primitives ; hiérarchie des hypothèses de complexité."
+  },
+  {
+   "auteur": "Courtois et Pieprzyk",
+   "titre": "Cryptanalysis of block ciphers with overdefined systems of equations",
+   "annee": "2002",
+   "idee": "Attaquer les chiffrements par blocs en les traduisant en systèmes surdéterminés d'équations polynomiales multivariées.",
+   "apport": "Traduction algébrique du chiffrement ; méthode XL ; lien entre structure algébrique et complexité de résolution."
+  },
+  {
+   "auteur": "Katz et Lindell",
+   "titre": "Introduction to Modern Cryptography",
+   "annee": "2007",
+   "idee": "Manuel de référence couvrant chiffrement privé, public, MAC, signatures, protocoles, avec preuves de sécurité réduites à des hypothèses calculatoires.",
+   "apport": "Cadre pédagogique complet des définitions formelles de sécurité et des réductions."
+  },
+  {
+   "auteur": "Soos, Nohl et Castelluccia",
+   "titre": "Extending SAT solvers to cryptographic problems",
+   "annee": "2009",
+   "idee": "Étendre les solveurs SAT avec des contraintes XOR natives pour exploiter la structure algébrique des chiffrements.",
+   "apport": "Gain expérimental significatif sur la traduction chiffrement-vers-CNF avec parités ; analyse de la largeur et de la profondeur des formules résultantes."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Fondements : information, secret et sens unique",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Information, entropie et la traduction qui préserve tout",
+     "objectif": "Introduire les outils informationnels de Shannon (1949) : entropie, information mutuelle, secret parfait. Montrer que le masque jetable est la seule traduction texte-clair-vers-texte-chiffré qui conserve l'entropie totale du message tout en rendant l'information mutuelle nulle. Établir le vocabulaire des traductions à ressources appliqué à la théorie de l'information.",
+     "sections": [
+      "1.1 Entropie de Shannon et incertitude résiduelle",
+      "1.2 Information mutuelle et indépendance statistique",
+      "1.3 Le théorème du secret parfait : énoncé et preuve complète",
+      "1.4 Le masque jetable : construction, correction, optimalité",
+      "1.5 Impossibilité du secret parfait à clé courte : borne de Shannon",
+      "1.6 Traduction à ressources : ce que le masque jetable conserve et perd"
+     ],
+     "exercices": [
+      "Calculer pas à pas l'entropie d'une source binaire biaisée $p=1/3$ et vérifier la borne de Shannon pour un message de 10 bits.",
+      "Prouver par récurrence que le masque jetable sur $n$ bits réalise $I(M;C)=0$ pour toute distribution sur $M$.",
+      "Montrer qu'aucun chiffrement déterministe ne peut atteindre le secret parfait dès que $|\\mathcal{K}|<|\\mathcal{M}|$.",
+      "Construire un exemple numérique avec $|\\mathcal{M}|=4$, $|\\mathcal{K}|=3$ et vérifier que $H(M|C)>0$."
+     ],
+     "formules_minimales": 15
+    },
+    {
+     "numero": 2,
+     "titre": "Fonctions à sens unique : la traduction qu'on ne peut pas inverser",
+     "objectif": "Définir formellement les fonctions à sens unique (OWF) selon Goldreich (2001) et Katz et Lindell (2007). Établir le lien fondamental : l'existence d'une OWF implique $P \\neq NP$ (PROUVÉ), tandis que la réciproque est OUVERTE. Illustrer par des candidats (factorisation, logarithme discret, multiplication). Positionner l'OWF comme traduction à ressources : facile dans un sens, coûteuse dans l'autre.",
+     "sections": [
+      "2.1 Définition formelle d'une fonction à sens unique",
+      "2.2 Exemples candidats : multiplication, exponentiation modulaire, hachage itéré",
+      "2.3 OWF implique P ≠ NP : preuve complète par contraposition",
+      "2.4 La réciproque P ≠ NP implique OWF : pourquoi elle reste ouverte",
+      "2.5 Notions affaiblies : OWF faibles et leur amplification",
+      "2.6 La ressource temps comme asymétrie de traduction"
+     ],
+     "exercices": [
+      "Écrire la preuve complète : si $P=NP$ alors aucune fonction à sens unique n'existe.",
+      "Vérifier numériquement la difficulté de factorisation pour $n=15$, $n=77$, $n=253$ et discuter la croissance.",
+      "Montrer qu'une fonction à sens unique forte peut être amplifiée à partir d'une OWF faible par produit cartésien (esquisse).",
+      "Discuter pourquoi la fonction $f(x)=x^2$ sur $\\mathbb{Z}_n^*$ est une candidate OWF sous l'hypothèse de factorisation."
+     ],
+     "formules_minimales": 15
+    },
+    {
+     "numero": 3,
+     "titre": "Le théorème HILL : de toute fonction à sens unique naît le pseudo-aléa",
+     "objectif": "Présenter le théorème de Håstad, Impagliazzo, Levin et Luby (1999) : toute OWF engendre un générateur pseudo-aléatoire (PRG). Donner l'idée de la preuve (prédicat difficile, construction par concaténation itérée). Définir formellement un PRG selon Goldreich (2001). Montrer que la traduction graine-vers-suite est une amplification de ressource (peu de bits vrais → beaucoup de bits pseudo-aléatoires).",
+     "sections": [
+      "3.1 Définition d'un générateur pseudo-aléatoire et indistinguabilité",
+      "3.2 Le prédicat difficile : définition et existence à partir d'une OWF",
+      "3.3 Construction du PRG par concaténation : énoncé du théorème HILL",
+      "3.4 Idée de la preuve : hybridation et réduction",
+      "3.5 Paramètres : étirement, sécurité, overhead computationnel",
+      "3.6 La traduction OWF→PRG comme amplification de ressource"
+     ],
+     "exercices": [
+      "Vérifier numériquement l'indistinguabilité d'un PRG simple sur $\\{0,1\\}^3$ avec un distingueur exhaustif.",
+      "Écrire la preuve complète de l'équivalence entre prédicat difficile et PRG (cas simplifié, étirement +1).",
+      "Calculer le nombre d'appels à $f$ nécessaires pour un étirement de $n$ à $3n$ bits dans la construction HILL.",
+      "Montrer qu'un PRG implique une OWF (preuve courte par contraposition)."
+     ],
+     "formules_minimales": 15
+    },
+    {
+     "numero": 4,
+     "titre": "Complexité et classes : le décor computationnel des traductions",
+     "objectif": "Rappeler les classes $P$, $NP$, $BPP$, les réductions polynomiales et la hiérarchie. Introduire la notion de complexité en cas moyen (Impagliazzo 1995). Préparer le terrain pour les cinq mondes. Chaque classe est une famille de traductions à ressources bornées.",
+     "sections": [
+      "4.1 Classes P, NP, BPP : définitions par machines de Turing",
+      "4.2 Réductions polynomiales et complétude",
+      "4.3 Complexité en cas moyen : distributions et ensembles lourds",
+      "4.4 Le lien OWF–P≠NP revisité sous l'angle des ressources",
+      "4.5 BPP et randomisation : quand le hasard est une ressource",
+      "4.6 Résumé : tableau des traductions entre classes"
+     ],
+     "exercices": [
+      "Prouver que $P \\subseteq BPP$ et discuter si $BPP \\subseteq P$ (statut : CONNU, conjecture $BPP=P$).",
+      "Montrer que si SAT admet un algorithme en temps $2^{n/100}$ alors certaines OWF candidates restent sûres.",
+      "Définir formellement une réduction many-one polynomiale et vérifier un exemple numérique.",
+      "Calculer la complexité en temps de l'exponentiation modulaire $a^b \\mod n$ pour $n=1024$ bits."
+     ],
+     "formules_minimales": 15
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Chiffrement probabiliste, sécurité sémantique et mondes d'Impagliazzo",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Du déterminisme au probabilisme : la traduction qui introduit le hasard",
+     "objectif": "Montrer pourquoi le chiffrement déterministe est insuffisant (Goldwasser et Micali 1984, Katz et Lindell 2007). Introduire le chiffrement probabiliste comme traduction qui ajoute une ressource (aléa) pour détruire l'information. Définir la sécurité IND-CPA et la sécurité sémantique ; énoncer leur équivalence (PROUVÉ).",
+     "sections": [
+      "5.1 Limites du chiffrement déterministe : attaques par dictionnaire et motifs",
+      "5.2 Définition formelle du chiffrement probabiliste",
+      "5.3 Sécurité sémantique : définition de Goldwasser et Micali",
+      "5.4 Indistinguabilité des chiffrés (IND-CPA) : le jeu",
+      "5.5 Équivalence sécurité sémantique ↔ IND-CPA : preuve",
+      "5.6 L'aléa comme ressource de traduction"
+     ],
+     "exercices": [
+      "Montrer par un exemple numérique qu'un chiffrement déterministe de messages dans $\\{0,1\\}^4$ révèle l'égalité de deux messages.",
+      "Écrire le jeu IND-CPA pour un schéma basé sur le résidu quadratique modulo $n$ et calculer une instance.",
+      "Prouver que la sécurité sémantique implique IND-CPA (direction directe, preuve complète).",
+      "Calculer l'avantage d'un adversaire qui distingue $x^2 \\mod 15$ selon la classe de résiduosité."
+     ],
+     "formules_minimales": 15
+    },
+    {
+     "numero": 6,
+     "titre": "Résiduosité quadratique et constructions à clé publique élémentaires",
+     "objectif": "Présenter le chiffrement de Goldwasser-Micali (1984) basé sur la résiduosité quadratique. Introduire Diffie-Hellman (1976) comme première traduction asymétrique. Donner les définitions formelles et vérifier numériquement chaque étape.",
+     "sections": [
+      "6.1 Résidus quadratiques modulo un entier composé",
+      "6.2 Le chiffrement de Goldwasser-Micali : construction et correction",
+      "6.3 Preuve de sécurité sous l'hypothèse de résiduosité quadratique",
+      "6.4 Le protocole de Diffie-Hellman : échange de clés",
+      "6.5 Analyse de sécurité de Diffie-Hellman et logarithme discret",
+      "6.6 Traduction asymétrique : clé publique comme image, clé privée comme préimage"
+     ],
+     "exercices": [
+      "Calculer les résidus quadratiques modulo $n=33$ et vérifier que 4 est un résidu tandis que 2 ne l'est pas.",
+      "Chiffrer le bit 1 avec le schéma GM pour $n=33$, $y=2$, aléa $r=5$ ; déchiffrer.",
+      "Simuler numériquement Diffie-Hellman avec $p=23$, $g=5$, $a=6$, $b=15$.",
+      "Montrer que la connaissance de la factorisation de $n$ permet de décider la résiduosité quadratique."
+     ],
+     "formules_minimales": 15
+    },
+    {
+     "numero": 7,
+     "titre": "RSA et les fonctions à trappe : la traduction inversible sous condition",
+     "objectif": "Présenter RSA (Rivest, Shamir, Adleman 1978) et la notion de fonction à trappe (Yao 1982). Montrer que la trappe est une ressource cachée qui rend la traduction inversible. Donner la preuve de correction de RSA. Discuter la sécurité sous l'hypothèse RSA et la difficulté de factorisation.",
+     "sections": [
+      "7.1 Fonctions à trappe : définition formelle de Yao",
+      "7.2 Construction RSA : génération de clés, chiffrement, déchiffrement",
+      "7.3 Preuve de correction de RSA via le théorème d'Euler",
+      "7.4 Sécurité de RSA : hypothèse RSA vs factorisation",
+      "7.5 OAEP et sécurité sémantique de RSA : esquisse",
+      "7.6 La trappe comme resource asymétrique de traduction"
+     ],
+     "exercices": [
+      "Calculer RSA avec $p=5$, $q=11$, $e=3$ : trouver $d$, chiffrer $m=7$, déchiffrer.",
+      "Prouver que $m^{ed} \\equiv m \\pmod{n}$ pour tout $m$ quand $ed \\equiv 1 \\pmod{\\varphi(n)}$ (preuve complète).",
+      "Vérifier que la factorisation de $n$ permet de calculer $d$ et donc d'inverser la traduction RSA.",
+      "Discuter : si $P=NP$, RSA est-il cassé ? (statut : CONNU, lien avec OWF)."
+     ],
+     "formules_minimales": 15
+    },
+    {
+     "numero": 8,
+     "titre": "Les cinq mondes d'Impagliazzo : cartographie des traductions possibles",
+     "objectif": "Présenter les cinq mondes d'Impagliazzo (1995) : Algorithmica, Heuristica, Pessiland, Minicrypt, Cryptomania. Chaque monde correspond à un ensemble de traductions à ressources réalisables. Montrer comment les hypothèses (OWF, PRG, trappe) positionnent la cryptographie dans cette carte.",
+     "sections": [
+      "8.1 Motivation : pourquoi la complexité en cas moyen compte",
+      "8.2 Algorithmica et Heuristica : les mondes sans cryptographie",
+      "8.3 Pessiland : le pire des mondes",
+      "8.4 Minicrypt : OWF existent, pas de trappe",
+      "8.5 Cryptomania : les fonctions à trappe et la cryptographie à clé publique",
+      "8.6 Le programme RTC lu à travers les cinq mondes"
+     ],
+     "exercices": [
+      "Classer les primitives suivantes dans les mondes d'Impagliazzo : masque jetable, PRG, RSA, Diffie-Hellman.",
+      "Montrer que si $NP \\subseteq BPP$ alors nous sommes dans Algorithmica (esquisse).",
+      "Discuter : dans Minicrypt, quelles traductions cryptographiques sont possibles et lesquelles ne le sont pas ?",
+      "Construire un exemple numérique illustrant un problème difficile en cas moyen mais facile en cas pire."
+     ],
+     "formules_minimales": 15
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Cryptanalyse logique et algébrique : traduire le chiffrement en formules",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Du circuit à la CNF : la traduction de Tseitin",
+     "objectif": "Présenter la traduction d'un circuit booléen en forme normale conjonctive via la méthode de Tseitin (1968). Cette traduction est au cœur de la cryptanalyse logique : elle convertit un chiffrement en une formule SAT. Analyser les ressources : taille, nombre de variables, clauses, largeur.",
+     "sections": [
+      "9.1 Circuits booliens : portes, taille, profondeur, largeur",
+      "9.2 Forme normale conjonctive et problème SAT",
+      "9.3 La traduction de Tseitin : construction pas à pas",
+      "9.4 Borne sur la taille : $O(\\text{taille du circuit})$ clauses",
+      "9.5 Préservation de la satisfiabilité : preuve de correction",
+      "9.6 Ressources conservées et perdues dans la traduction circuit→CNF"
+     ],
+     "exercices": [
+      "Traduire par Tseitin le circuit $(a \\wedge b) \\vee c$ en CNF avec variables auxiliaires ; vérifier.",
+      "Calculer le nombre de clauses pour un additionneur 4 bits traduit en CNF.",
+      "Montrer que la traduction de Tseitin préserve la satisfiabilité (preuve complète).",
+      "Appliquer Tseitin à une S-box 4→4 bits et compter les clauses résultantes."
+     ],
+     "formules_minimales": 15
+    },
+    {
+     "numero": 10,
+     "titre": "Cryptanalyse logique : le chiffrement comme instance SAT",
+     "objectif": "Présenter la cryptanalyse logique selon Massacci et Marraro (2000) et Soos, Nohl et Castelluccia (2009). Traduire un chiffrement (DES, AES simplifié) en formule CNF ; résoudre par DPLL ou CDCL. Analyser la structure des formules obtenues : nombre de variables, clauses, rapport, XOR.",
+     "sections": [
+      "10.1 Principe : fixer la clé comme inconnue, le message comme contrainte",
+      "10.2 Traduction de DES en CNF : exemple détaillé",
+      "10.3 Traduction d'AES simplifié : S-boxes, MixColumns, AddRoundKey",
+      "10.4 Solveurs SAT modernes : DPLL, CDCL, apprentissage de clauses",
+      "10.5 Extension aux contraintes XOR : CryptoMiniSat",
+      "10.6 Complexité empirique : temps de résolution vs nombre de tours"
+     ],
+     "exercices": [
+      "Traduire un mini-chiffrement (2 tours, S-box 2→2) en CNF et résoudre à la main.",
+      "Écrire la CNF d'une S-box 4→4 bits donnée par sa table de vérité.",
+      "Simuler l'ajout d'une contrainte XOR $x_1 \\oplus x_2 \\oplus x_3 = 1$ en CNF (4 clauses).",
+      "Estimer le nombre de variables et clauses pour AES-128 avec 1 tour."
+     ],
+     "formules_minimales": 15
+    },
+    {
+     "numero": 11,
+     "titre": "Cryptanalyse algébrique : systèmes surdéterminés et méthode XL",
+     "objectif": "Présenter la cryptanalyse algébrique de Courtois et Pieprzyk (2002) : traduire un chiffrement en système d'équations polynomiales multivariées. Discuter la méthode XL, la complexité de résolution (Gröbner, linéarisation). Comparer avec l'approche SAT.",
+     "sections": [
+      "11.1 Du chiffrement aux équations polynomiales sur $\\mathbb{F}_2$",
+      "11.2 Systèmes surdéterminés : plus d'équations que d'inconnues",
+      "11.3 La méthode XL : extension et linéarisation",
+      "11.4 Bases de Gröbner et complexité de résolution",
+      "11.5 Application à DES et AES : résultats de Courtois et Pieprzyk",
+      "11.6 Comparaison traduction algébrique vs traduction SAT"
+     ],
+     "exercices": [
+      "Écrire les équations polynomiales d'une S-box 2→2 sur $\\mathbb{F}_2$.",
+      "Appliquer la linéarisation à un système de 3 équations quadratiques en 2 variables sur $\\mathbb{F}_2$.",
+      "Calculer le degré de la méthode XL pour un système de degré 2 avec $n=4$ variables.",
+      "Discuter : pourquoi la surdétermination aide-t-elle en pratique ?"
+     ],
+     "formules_minimales": 15
+    },
+    {
+     "numero": 12,
+     "titre": "Largeur structurelle et difficulté des formules cryptographiques",
+     "objectif": "Introduire la notion de largeur de résolution (liée à Tseitin 1968) et la largeur structurelle des formules issues de chiffrements. Formuler l'hypothèse que la largeur élevée des formules cryptographiques est la source de leur difficulté (CONJECTURE). Relier aux bornes inférieures de résolution et à la complexité des solveurs SAT.",
+     "sections": [
+      "12.1 Largeur de résolution : définition et théorème de Ben-Sasson-Wigderson (contexte)",
+      "12.2 Tseitin et les tautologies à parité : borne inférieure en largeur",
+      "12.3 Largeur des formules issues de chiffrements : observations",
+      "12.4 CONJECTURE : la largeur structurelle mesure la difficulté cryptographique",
+      "12.5 Preuves naturelles et largeur : premier contact",
+      "12.6 Implications pour le programme RTC : la largeur comme ressource de traduction"
+     ],
+     "exercices": [
+      "Calculer la largeur de résolution de la formule de Tseitin sur le triangle $K_3$.",
+      "Vérifier que la CNF d'une S-box 4→4 a une largeur ≥ 4.",
+      "Montrer qu'une formule de largeur $w$ sur $n$ variables admet une résolution en $2^{O(w \\log n)}$ étapes (énoncé, statut CONNU).",
+      "Estimer la largeur de la CNF d'un tour d'AES simplifié."
+     ],
+     "formules_minimales": 15
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Obstacles, limites et transfert vers le programme RTC",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Preuves naturelles : quand la cryptographie bloque la complexité",
+     "objectif": "Présenter le résultat de Razborov et Rudich (1997) : toute preuve naturelle de borne inférieure pour les circuits est incompatible avec l'existence de PRG sûrs. Expliquer les propriétés de constructivité et de largesse. Montrer que la cryptographie impose une contrainte sur les traductions preuve-ressources.",
+     "sections": [
+      "13.1 Le problème des bornes inférieures pour les circuits",
+      "13.2 Définition d'une preuve naturelle : constructivité et largesse",
+      "13.3 Théorème de Razborov-Rudich : énoncé précis",
+      "13.4 Idée de la preuve : le PRG comme obstacle",
+      "13.5 Conséquences : quelles approches sont exclues ?",
+      "13.6 La cryptographie comme gardienne des traductions difficiles"
+     ],
+     "exercices": [
+      "Vérifier que la méthode de diagonalisation standard n'est pas naturelle au sens de Razborov-Rudich.",
+      "Montrer qu'une propriété $\\Gamma$ constructive et large permet de distinguer un PRG de l'uniforme (esquisse).",
+      "Discuter : la méthode de Tseitin est-elle une preuve naturelle ? Justifier.",
+      "Expliquer pourquoi un PRG avec étirement $n \\to n^{1+\\epsilon}$ suffit à bloquer les preuves naturelles."
+     ],
+     "formules_minimales": 15
+    },
+    {
+     "numero": 14,
+     "titre": "Sécurité prouvée et réductions : la méthodologie des traductions sûres",
+     "objectif": "Synthétiser la méthodologie des preuves de sécurité par réduction (Goldreich 2001, Katz et Lindell 2007). Montrer que chaque preuve de sécurité est une traduction : un adversaire contre le schéma est traduit en un algorithme résolvant le problème dur. Analyser les pertes de ressource dans la réduction (tightness).",
+     "sections": [
+      "14.1 Le paradigme de réduction : adversaire → solveur",
+      "14.2 Pertes polynomiales et réductions serrées",
+      "14.3 Réduction OWF→PRG→chiffrement : chaîne de traductions",
+      "14.4 Limites des réductions : separations et relativisations",
+      "14.5 Sécurité inconditionnelle vs sécurité computationnelle",
+      "14.6 Bilan : quelles ressources sont perdues à chaque étape de réduction ?"
+     ],
+     "exercices": [
+      "Écrire la réduction : un attaquant IND-CPA contre GM donne un décideur de résiduosité quadratique (preuve complète).",
+      "Calculer la perte de sécurité dans une réduction générique avec $q$ requêtes à un oracle.",
+      "Montrer que le masque jetable a une sécurité inconditionnelle (rappel et preuve).",
+      "Discuter : une réduction en temps $O(t^2)$ est-elle serrée ? Justifier."
+     ],
+     "formules_minimales": 15
+    },
+    {
+     "numero": 15,
+     "titre": "Synthèse : la cryptographie comme théorie des traductions destructrices",
+     "objectif": "Unifier les thèmes du livre : chaque primitive cryptographique est une traduction qui détruit sélectivement l'information. Le masque jetable détruit toute information mutuelle ; l'OWF détruit la préimage ; le PRG amplifie en détruisant la distinguabilité ; la trappe conditionne la destruction. Relire les cinq mondes et les obstacles sous cet angle.",
+     "sections": [
+      "15.1 Tableau unifié : primitives, traductions, ressources détruites",
+      "15.2 Le spectre de destruction : du secret parfait au pseudo-aléa",
+      "15.3 Asymétrie de ressources : temps, mémoire, profondeur, largeur",
+      "15.4 Les obstacles (preuves naturelles, largeur) comme bornes sur les traductions",
+      "15.5 Ce qui reste ouvert : réciproque P≠NP→OWF, optimalité des réductions",
+      "15.6 Perspective : vers une théorie générale des traductions destructrices"
+     ],
+     "exercices": [
+      "Construire un tableau croisant les 7 primitives du livre et les 7 ressources RTC.",
+      "Montrer que le secret parfait est la traduction destructrice maximale (preuve courte).",
+      "Discuter : la traduction Tseitin est-elle destructrice ? Justifier.",
+      "Formuler une conjecture sur la largeur minimale d'une formule cryptographique sûre (statut : CONJECTURE)."
+     ],
+     "formules_minimales": 15
+    },
+    {
+     "numero": 16,
+     "titre": "Transfert vers le programme RTC",
+     "objectif": "Chapitre final : expliciter ce que ce tome apporte au programme de recherche Les Traductions du Calcul. Identifier les ressources étudiées (temps, taille, profondeur, largeur, aléa, précision, partage), les traductions cryptographiques comme objets d'étude, et formuler les questions ouvertes qui nourrissent le programme RTC.",
+     "sections": [
+      "16.1 Rappel du programme RTC : ressources, traductions, registre des statuts",
+      "16.2 Les traductions cryptographiques inventoriées : OWF, PRG, chiffrement, trappe, Tseitin, XL",
+      "16.3 Ressources conservées : taille (Tseitin linéaire), structure (CNF), satisfiabilité",
+      "16.4 Ressources détruites : préimage (OWF), information mutuelle (secret parfait), distinguabilité (PRG)",
+      "16.5 Ressources conditionnelles : trappe, clé privée, aléa partagé",
+      "16.6 Questions ouvertes pour RTC : optimalité des traductions, largeur comme invariant, rôle des preuves naturelles"
+     ],
+     "exercices": [
+      "Pour chaque traduction du livre, remplir la fiche RTC : ressources d'entrée, ressources de sortie, ressources perdues, statut.",
+      "Formuler trois questions de recherche originales nées de l'interaction RTC-cryptographie.",
+      "Montrer que le théorème HILL est une traduction à ressource temps polynomiale (vérification).",
+      "Proposer un protocole expérimental pour mesurer la largeur structurelle d'un chiffrement en fonction du nombre de tours."
+     ],
+     "formules_minimales": 15
+    }
+   ]
+  }
+ ]
+}
