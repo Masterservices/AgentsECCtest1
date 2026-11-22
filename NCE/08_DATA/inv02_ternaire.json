@@ -1,0 +1,3741 @@
+{
+ "meta": {
+  "python": "3.13.18",
+  "graines": [
+   0,
+   1,
+   2
+  ],
+  "solveur": "glucose4",
+  "budget_conflits": 2000000,
+  "date": "2026-11-22",
+  "duree_s": 135.16881132125854
+ },
+ "gadgets_cout_minimal": {
+  "double_rail": {
+   "NEG": 0,
+   "MIN": 2,
+   "MAX": 2,
+   "SUM": 6,
+   "CONS": 2,
+   "MUL": 6,
+   "CMP": 4,
+   "PRIO": 4,
+   "PAR": 4
+  },
+  "decale": {
+   "NEG": 1,
+   "MIN": 5,
+   "MAX": 3,
+   "SUM": 6,
+   "CONS": 4,
+   "MUL": 3,
+   "CMP": 6,
+   "PRIO": 3,
+   "PAR": 2
+  },
+  "signe_module": {
+   "NEG": 1,
+   "MIN": 3,
+   "MAX": 5,
+   "SUM": 6,
+   "CONS": 4,
+   "MUL": 3,
+   "CMP": 6,
+   "PRIO": 3,
+   "PAR": 2
+  }
+ },
+ "A3_mesures": [
+  {
+   "fonction": "addition",
+   "n_trits": 2,
+   "m_bits": 4,
+   "ternaire": {
+    "portes": 7,
+    "portes_sans_neg": 7,
+    "profondeur": 3,
+    "profondeur_sans_neg": 3,
+    "fils": 14,
+    "entrees": 4,
+    "sorties": 3,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "binaire": {
+    "portes": 17,
+    "portes_sans_neg": 17,
+    "profondeur": 7,
+    "profondeur_sans_neg": 7,
+    "fils": 34,
+    "entrees": 8,
+    "sorties": 5,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_double_rail": {
+    "portes": 30,
+    "portes_sans_neg": 30,
+    "profondeur": 7,
+    "profondeur_sans_neg": 7,
+    "fils": 60,
+    "entrees": 8,
+    "sorties": 6,
+    "bits_par_fil": 1.0,
+    "tw_inf": 4,
+    "tw_sup": 5
+   },
+   "t2b_decale": {
+    "portes": 36,
+    "portes_sans_neg": 36,
+    "profondeur": 8,
+    "profondeur_sans_neg": 8,
+    "fils": 72,
+    "entrees": 8,
+    "sorties": 6,
+    "bits_par_fil": 1.0,
+    "tw_inf": 4,
+    "tw_sup": 5
+   },
+   "t2b_signe_module": {
+    "portes": 36,
+    "portes_sans_neg": 36,
+    "profondeur": 9,
+    "profondeur_sans_neg": 9,
+    "fils": 72,
+    "entrees": 8,
+    "sorties": 6,
+    "bits_par_fil": 1.0,
+    "tw_inf": 4,
+    "tw_sup": 5
+   }
+  },
+  {
+   "fonction": "addition",
+   "n_trits": 3,
+   "m_bits": 5,
+   "ternaire": {
+    "portes": 12,
+    "portes_sans_neg": 12,
+    "profondeur": 5,
+    "profondeur_sans_neg": 5,
+    "fils": 24,
+    "entrees": 6,
+    "sorties": 4,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "binaire": {
+    "portes": 22,
+    "portes_sans_neg": 22,
+    "profondeur": 9,
+    "profondeur_sans_neg": 9,
+    "fils": 44,
+    "entrees": 10,
+    "sorties": 6,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_double_rail": {
+    "portes": 52,
+    "portes_sans_neg": 52,
+    "profondeur": 11,
+    "profondeur_sans_neg": 11,
+    "fils": 104,
+    "entrees": 12,
+    "sorties": 8,
+    "bits_par_fil": 1.0,
+    "tw_inf": 4,
+    "tw_sup": 5
+   },
+   "t2b_decale": {
+    "portes": 62,
+    "portes_sans_neg": 62,
+    "profondeur": 13,
+    "profondeur_sans_neg": 13,
+    "fils": 124,
+    "entrees": 12,
+    "sorties": 8,
+    "bits_par_fil": 1.0,
+    "tw_inf": 4,
+    "tw_sup": 5
+   },
+   "t2b_signe_module": {
+    "portes": 62,
+    "portes_sans_neg": 62,
+    "profondeur": 15,
+    "profondeur_sans_neg": 15,
+    "fils": 124,
+    "entrees": 12,
+    "sorties": 8,
+    "bits_par_fil": 1.0,
+    "tw_inf": 4,
+    "tw_sup": 6
+   }
+  },
+  {
+   "fonction": "addition",
+   "n_trits": 4,
+   "m_bits": 7,
+   "ternaire": {
+    "portes": 17,
+    "portes_sans_neg": 17,
+    "profondeur": 7,
+    "profondeur_sans_neg": 7,
+    "fils": 34,
+    "entrees": 8,
+    "sorties": 5,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "binaire": {
+    "portes": 32,
+    "portes_sans_neg": 32,
+    "profondeur": 13,
+    "profondeur_sans_neg": 13,
+    "fils": 64,
+    "entrees": 14,
+    "sorties": 8,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_double_rail": {
+    "portes": 74,
+    "portes_sans_neg": 74,
+    "profondeur": 15,
+    "profondeur_sans_neg": 15,
+    "fils": 148,
+    "entrees": 16,
+    "sorties": 10,
+    "bits_par_fil": 1.0,
+    "tw_inf": 4,
+    "tw_sup": 5
+   },
+   "t2b_decale": {
+    "portes": 88,
+    "portes_sans_neg": 88,
+    "profondeur": 18,
+    "profondeur_sans_neg": 18,
+    "fils": 176,
+    "entrees": 16,
+    "sorties": 10,
+    "bits_par_fil": 1.0,
+    "tw_inf": 5,
+    "tw_sup": 5
+   },
+   "t2b_signe_module": {
+    "portes": 88,
+    "portes_sans_neg": 88,
+    "profondeur": 21,
+    "profondeur_sans_neg": 21,
+    "fils": 176,
+    "entrees": 16,
+    "sorties": 10,
+    "bits_par_fil": 1.0,
+    "tw_inf": 5,
+    "tw_sup": 6
+   }
+  },
+  {
+   "fonction": "addition",
+   "n_trits": 6,
+   "m_bits": 10,
+   "ternaire": {
+    "portes": 27,
+    "portes_sans_neg": 27,
+    "profondeur": 11,
+    "profondeur_sans_neg": 11,
+    "fils": 54,
+    "entrees": 12,
+    "sorties": 7,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "binaire": {
+    "portes": 47,
+    "portes_sans_neg": 47,
+    "profondeur": 19,
+    "profondeur_sans_neg": 19,
+    "fils": 94,
+    "entrees": 20,
+    "sorties": 11,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_double_rail": {
+    "portes": 118,
+    "portes_sans_neg": 118,
+    "profondeur": 23,
+    "profondeur_sans_neg": 23,
+    "fils": 236,
+    "entrees": 24,
+    "sorties": 14,
+    "bits_par_fil": 1.0,
+    "tw_inf": 4,
+    "tw_sup": 5
+   },
+   "t2b_decale": {
+    "portes": 140,
+    "portes_sans_neg": 140,
+    "profondeur": 28,
+    "profondeur_sans_neg": 28,
+    "fils": 280,
+    "entrees": 24,
+    "sorties": 14,
+    "bits_par_fil": 1.0,
+    "tw_inf": 4,
+    "tw_sup": 5
+   },
+   "t2b_signe_module": {
+    "portes": 140,
+    "portes_sans_neg": 140,
+    "profondeur": 33,
+    "profondeur_sans_neg": 33,
+    "fils": 280,
+    "entrees": 24,
+    "sorties": 14,
+    "bits_par_fil": 1.0,
+    "tw_inf": 4,
+    "tw_sup": 6
+   }
+  },
+  {
+   "fonction": "addition",
+   "n_trits": 8,
+   "m_bits": 13,
+   "ternaire": {
+    "portes": 37,
+    "portes_sans_neg": 37,
+    "profondeur": 15,
+    "profondeur_sans_neg": 15,
+    "fils": 74,
+    "entrees": 16,
+    "sorties": 9,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "binaire": {
+    "portes": 62,
+    "portes_sans_neg": 62,
+    "profondeur": 25,
+    "profondeur_sans_neg": 25,
+    "fils": 124,
+    "entrees": 26,
+    "sorties": 14,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_double_rail": {
+    "portes": 162,
+    "portes_sans_neg": 162,
+    "profondeur": 31,
+    "profondeur_sans_neg": 31,
+    "fils": 324,
+    "entrees": 32,
+    "sorties": 18,
+    "bits_par_fil": 1.0,
+    "tw_inf": 4,
+    "tw_sup": 5
+   },
+   "t2b_decale": {
+    "portes": 192,
+    "portes_sans_neg": 192,
+    "profondeur": 38,
+    "profondeur_sans_neg": 38,
+    "fils": 384,
+    "entrees": 32,
+    "sorties": 18,
+    "bits_par_fil": 1.0,
+    "tw_inf": 5,
+    "tw_sup": 5
+   },
+   "t2b_signe_module": {
+    "portes": 192,
+    "portes_sans_neg": 192,
+    "profondeur": 45,
+    "profondeur_sans_neg": 45,
+    "fils": 384,
+    "entrees": 32,
+    "sorties": 18,
+    "bits_par_fil": 1.0,
+    "tw_inf": 5,
+    "tw_sup": 6
+   }
+  },
+  {
+   "fonction": "addition",
+   "n_trits": 12,
+   "m_bits": 20,
+   "ternaire": {
+    "portes": 57,
+    "portes_sans_neg": 57,
+    "profondeur": 23,
+    "profondeur_sans_neg": 23,
+    "fils": 114,
+    "entrees": 24,
+    "sorties": 13,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "binaire": {
+    "portes": 97,
+    "portes_sans_neg": 97,
+    "profondeur": 39,
+    "profondeur_sans_neg": 39,
+    "fils": 194,
+    "entrees": 40,
+    "sorties": 21,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_double_rail": {
+    "portes": 250,
+    "portes_sans_neg": 250,
+    "profondeur": 47,
+    "profondeur_sans_neg": 47,
+    "fils": 500,
+    "entrees": 48,
+    "sorties": 26,
+    "bits_par_fil": 1.0,
+    "tw_inf": 4,
+    "tw_sup": 5
+   },
+   "t2b_decale": {
+    "portes": 296,
+    "portes_sans_neg": 296,
+    "profondeur": 58,
+    "profondeur_sans_neg": 58,
+    "fils": 592,
+    "entrees": 48,
+    "sorties": 26,
+    "bits_par_fil": 1.0,
+    "tw_inf": 4,
+    "tw_sup": 5
+   },
+   "t2b_signe_module": {
+    "portes": 296,
+    "portes_sans_neg": 296,
+    "profondeur": 69,
+    "profondeur_sans_neg": 69,
+    "fils": 592,
+    "entrees": 48,
+    "sorties": 26,
+    "bits_par_fil": 1.0,
+    "tw_inf": 5,
+    "tw_sup": 6
+   }
+  },
+  {
+   "fonction": "addition",
+   "n_trits": 16,
+   "m_bits": 26,
+   "ternaire": {
+    "portes": 77,
+    "portes_sans_neg": 77,
+    "profondeur": 31,
+    "profondeur_sans_neg": 31,
+    "fils": 154,
+    "entrees": 32,
+    "sorties": 17,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "binaire": {
+    "portes": 127,
+    "portes_sans_neg": 127,
+    "profondeur": 51,
+    "profondeur_sans_neg": 51,
+    "fils": 254,
+    "entrees": 52,
+    "sorties": 27,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_double_rail": {
+    "portes": 338,
+    "portes_sans_neg": 338,
+    "profondeur": 63,
+    "profondeur_sans_neg": 63,
+    "fils": 676,
+    "entrees": 64,
+    "sorties": 34,
+    "bits_par_fil": 1.0,
+    "tw_inf": 4,
+    "tw_sup": 5
+   },
+   "t2b_decale": {
+    "portes": 400,
+    "portes_sans_neg": 400,
+    "profondeur": 78,
+    "profondeur_sans_neg": 78,
+    "fils": 800,
+    "entrees": 64,
+    "sorties": 34,
+    "bits_par_fil": 1.0,
+    "tw_inf": 5,
+    "tw_sup": 5
+   },
+   "t2b_signe_module": {
+    "portes": 400,
+    "portes_sans_neg": 400,
+    "profondeur": 93,
+    "profondeur_sans_neg": 93,
+    "fils": 800,
+    "entrees": 64,
+    "sorties": 34,
+    "bits_par_fil": 1.0,
+    "tw_inf": 5,
+    "tw_sup": 6
+   }
+  },
+  {
+   "fonction": "multiplication",
+   "n_trits": 2,
+   "m_bits": 4,
+   "ternaire": {
+    "portes": 8,
+    "portes_sans_neg": 8,
+    "profondeur": 3,
+    "profondeur_sans_neg": 3,
+    "fils": 16,
+    "entrees": 4,
+    "sorties": 4,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "binaire": {
+    "portes": 64,
+    "portes_sans_neg": 64,
+    "profondeur": 16,
+    "profondeur_sans_neg": 16,
+    "fils": 128,
+    "entrees": 8,
+    "sorties": 8,
+    "bits_par_fil": 1.0,
+    "tw_inf": 5,
+    "tw_sup": 12
+   },
+   "t2b_double_rail": {
+    "portes": 40,
+    "portes_sans_neg": 40,
+    "profondeur": 6,
+    "profondeur_sans_neg": 6,
+    "fils": 80,
+    "entrees": 8,
+    "sorties": 8,
+    "bits_par_fil": 1.0,
+    "tw_inf": 5,
+    "tw_sup": 9
+   },
+   "t2b_decale": {
+    "portes": 32,
+    "portes_sans_neg": 32,
+    "profondeur": 7,
+    "profondeur_sans_neg": 7,
+    "fils": 64,
+    "entrees": 8,
+    "sorties": 8,
+    "bits_par_fil": 1.0,
+    "tw_inf": 5,
+    "tw_sup": 6
+   },
+   "t2b_signe_module": {
+    "portes": 32,
+    "portes_sans_neg": 32,
+    "profondeur": 8,
+    "profondeur_sans_neg": 8,
+    "fils": 64,
+    "entrees": 8,
+    "sorties": 8,
+    "bits_par_fil": 1.0,
+    "tw_inf": 5,
+    "tw_sup": 6
+   }
+  },
+  {
+   "fonction": "multiplication",
+   "n_trits": 3,
+   "m_bits": 5,
+   "ternaire": {
+    "portes": 30,
+    "portes_sans_neg": 30,
+    "profondeur": 10,
+    "profondeur_sans_neg": 10,
+    "fils": 60,
+    "entrees": 6,
+    "sorties": 6,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 5,
+    "tw_sup": 7
+   },
+   "binaire": {
+    "portes": 110,
+    "portes_sans_neg": 110,
+    "profondeur": 22,
+    "profondeur_sans_neg": 22,
+    "fils": 220,
+    "entrees": 10,
+    "sorties": 10,
+    "bits_par_fil": 1.0,
+    "tw_inf": 6,
+    "tw_sup": 15
+   },
+   "t2b_double_rail": {
+    "portes": 144,
+    "portes_sans_neg": 144,
+    "profondeur": 23,
+    "profondeur_sans_neg": 23,
+    "fils": 288,
+    "entrees": 12,
+    "sorties": 12,
+    "bits_par_fil": 1.0,
+    "tw_inf": 7,
+    "tw_sup": 16
+   },
+   "t2b_decale": {
+    "portes": 135,
+    "portes_sans_neg": 135,
+    "profondeur": 25,
+    "profondeur_sans_neg": 25,
+    "fils": 270,
+    "entrees": 12,
+    "sorties": 12,
+    "bits_par_fil": 1.0,
+    "tw_inf": 7,
+    "tw_sup": 16
+   },
+   "t2b_signe_module": {
+    "portes": 135,
+    "portes_sans_neg": 135,
+    "profondeur": 28,
+    "profondeur_sans_neg": 28,
+    "fils": 270,
+    "entrees": 12,
+    "sorties": 12,
+    "bits_par_fil": 1.0,
+    "tw_inf": 7,
+    "tw_sup": 15
+   }
+  },
+  {
+   "fonction": "multiplication",
+   "n_trits": 4,
+   "m_bits": 7,
+   "ternaire": {
+    "portes": 64,
+    "portes_sans_neg": 64,
+    "profondeur": 16,
+    "profondeur_sans_neg": 16,
+    "fils": 128,
+    "entrees": 8,
+    "sorties": 8,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 5,
+    "tw_sup": 12
+   },
+   "binaire": {
+    "portes": 238,
+    "portes_sans_neg": 238,
+    "profondeur": 34,
+    "profondeur_sans_neg": 34,
+    "fils": 476,
+    "entrees": 14,
+    "sorties": 14,
+    "bits_par_fil": 1.0,
+    "tw_inf": 7,
+    "tw_sup": 23
+   },
+   "t2b_double_rail": {
+    "portes": 304,
+    "portes_sans_neg": 304,
+    "profondeur": 37,
+    "profondeur_sans_neg": 37,
+    "fils": 608,
+    "entrees": 16,
+    "sorties": 16,
+    "bits_par_fil": 1.0,
+    "tw_inf": 9,
+    "tw_sup": 23
+   },
+   "t2b_decale": {
+    "portes": 296,
+    "portes_sans_neg": 296,
+    "profondeur": 40,
+    "profondeur_sans_neg": 40,
+    "fils": 592,
+    "entrees": 16,
+    "sorties": 16,
+    "bits_par_fil": 1.0,
+    "tw_inf": 9,
+    "tw_sup": 25
+   },
+   "t2b_signe_module": {
+    "portes": 296,
+    "portes_sans_neg": 296,
+    "profondeur": 46,
+    "profondeur_sans_neg": 46,
+    "fils": 592,
+    "entrees": 16,
+    "sorties": 16,
+    "bits_par_fil": 1.0,
+    "tw_inf": 8,
+    "tw_sup": 25
+   }
+  },
+  {
+   "fonction": "multiplication",
+   "n_trits": 6,
+   "m_bits": 10,
+   "ternaire": {
+    "portes": 168,
+    "portes_sans_neg": 168,
+    "profondeur": 28,
+    "profondeur_sans_neg": 28,
+    "fils": 336,
+    "entrees": 12,
+    "sorties": 12,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 7,
+    "tw_sup": 20
+   },
+   "binaire": {
+    "portes": 520,
+    "portes_sans_neg": 520,
+    "profondeur": 52,
+    "profondeur_sans_neg": 52,
+    "fils": 1040,
+    "entrees": 20,
+    "sorties": 20,
+    "bits_par_fil": 1.0,
+    "tw_inf": 9,
+    "tw_sup": 31
+   },
+   "t2b_double_rail": {
+    "portes": 792,
+    "portes_sans_neg": 792,
+    "profondeur": 65,
+    "profondeur_sans_neg": 65,
+    "fils": 1584,
+    "entrees": 24,
+    "sorties": 24,
+    "bits_par_fil": 1.0,
+    "tw_inf": 11,
+    "tw_sup": 37
+   },
+   "t2b_decale": {
+    "portes": 792,
+    "portes_sans_neg": 792,
+    "profondeur": 70,
+    "profondeur_sans_neg": 70,
+    "fils": 1584,
+    "entrees": 24,
+    "sorties": 24,
+    "bits_par_fil": 1.0,
+    "tw_inf": 12,
+    "tw_sup": 37
+   },
+   "t2b_signe_module": {
+    "portes": 792,
+    "portes_sans_neg": 792,
+    "profondeur": 82,
+    "profondeur_sans_neg": 82,
+    "fils": 1584,
+    "entrees": 24,
+    "sorties": 24,
+    "bits_par_fil": 1.0,
+    "tw_inf": 11,
+    "tw_sup": 37
+   }
+  },
+  {
+   "fonction": "multiplication",
+   "n_trits": 8,
+   "m_bits": 13,
+   "ternaire": {
+    "portes": 320,
+    "portes_sans_neg": 320,
+    "profondeur": 40,
+    "profondeur_sans_neg": 40,
+    "fils": 640,
+    "entrees": 16,
+    "sorties": 16,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 8,
+    "tw_sup": 25
+   },
+   "binaire": {
+    "portes": 910,
+    "portes_sans_neg": 910,
+    "profondeur": 70,
+    "profondeur_sans_neg": 70,
+    "fils": 1820,
+    "entrees": 26,
+    "sorties": 26,
+    "bits_par_fil": 1.0,
+    "tw_inf": 11,
+    "tw_sup": 41
+   },
+   "t2b_double_rail": {
+    "portes": 1504,
+    "portes_sans_neg": 1504,
+    "profondeur": 93,
+    "profondeur_sans_neg": 93,
+    "fils": 3008,
+    "entrees": 32,
+    "sorties": 32,
+    "bits_par_fil": 1.0,
+    "tw_inf": 14,
+    "tw_sup": 49
+   },
+   "t2b_decale": {
+    "portes": 1520,
+    "portes_sans_neg": 1520,
+    "profondeur": 100,
+    "profondeur_sans_neg": 100,
+    "fils": 3040,
+    "entrees": 32,
+    "sorties": 32,
+    "bits_par_fil": 1.0,
+    "tw_inf": 14,
+    "tw_sup": 49
+   },
+   "t2b_signe_module": {
+    "portes": 1520,
+    "portes_sans_neg": 1520,
+    "profondeur": 118,
+    "profondeur_sans_neg": 118,
+    "fils": 3040,
+    "entrees": 32,
+    "sorties": 32,
+    "bits_par_fil": 1.0,
+    "tw_inf": 13,
+    "tw_sup": 45
+   }
+  },
+  {
+   "fonction": "comparaison",
+   "n_trits": 2,
+   "m_bits": 4,
+   "ternaire": {
+    "portes": 3,
+    "portes_sans_neg": 3,
+    "profondeur": 2,
+    "profondeur_sans_neg": 2,
+    "fils": 6,
+    "entrees": 4,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 18,
+    "portes_sans_neg": 17,
+    "profondeur": 7,
+    "profondeur_sans_neg": 7,
+    "fils": 35,
+    "entrees": 8,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_double_rail": {
+    "portes": 12,
+    "portes_sans_neg": 12,
+    "profondeur": 4,
+    "profondeur_sans_neg": 4,
+    "fils": 24,
+    "entrees": 8,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 15,
+    "portes_sans_neg": 15,
+    "profondeur": 6,
+    "profondeur_sans_neg": 6,
+    "fils": 30,
+    "entrees": 8,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_signe_module": {
+    "portes": 15,
+    "portes_sans_neg": 15,
+    "profondeur": 6,
+    "profondeur_sans_neg": 6,
+    "fils": 30,
+    "entrees": 8,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   }
+  },
+  {
+   "fonction": "comparaison",
+   "n_trits": 3,
+   "m_bits": 5,
+   "ternaire": {
+    "portes": 5,
+    "portes_sans_neg": 5,
+    "profondeur": 3,
+    "profondeur_sans_neg": 3,
+    "fils": 10,
+    "entrees": 6,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 23,
+    "portes_sans_neg": 22,
+    "profondeur": 9,
+    "profondeur_sans_neg": 9,
+    "fils": 45,
+    "entrees": 10,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_double_rail": {
+    "portes": 20,
+    "portes_sans_neg": 20,
+    "profondeur": 6,
+    "profondeur_sans_neg": 6,
+    "fils": 40,
+    "entrees": 12,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 24,
+    "portes_sans_neg": 24,
+    "profondeur": 8,
+    "profondeur_sans_neg": 8,
+    "fils": 48,
+    "entrees": 12,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_signe_module": {
+    "portes": 24,
+    "portes_sans_neg": 24,
+    "profondeur": 8,
+    "profondeur_sans_neg": 8,
+    "fils": 48,
+    "entrees": 12,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   }
+  },
+  {
+   "fonction": "comparaison",
+   "n_trits": 4,
+   "m_bits": 7,
+   "ternaire": {
+    "portes": 7,
+    "portes_sans_neg": 7,
+    "profondeur": 4,
+    "profondeur_sans_neg": 4,
+    "fils": 14,
+    "entrees": 8,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 33,
+    "portes_sans_neg": 32,
+    "profondeur": 13,
+    "profondeur_sans_neg": 13,
+    "fils": 65,
+    "entrees": 14,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_double_rail": {
+    "portes": 28,
+    "portes_sans_neg": 28,
+    "profondeur": 8,
+    "profondeur_sans_neg": 8,
+    "fils": 56,
+    "entrees": 16,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 33,
+    "portes_sans_neg": 33,
+    "profondeur": 10,
+    "profondeur_sans_neg": 10,
+    "fils": 66,
+    "entrees": 16,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_signe_module": {
+    "portes": 33,
+    "portes_sans_neg": 33,
+    "profondeur": 10,
+    "profondeur_sans_neg": 10,
+    "fils": 66,
+    "entrees": 16,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   }
+  },
+  {
+   "fonction": "comparaison",
+   "n_trits": 6,
+   "m_bits": 10,
+   "ternaire": {
+    "portes": 11,
+    "portes_sans_neg": 11,
+    "profondeur": 6,
+    "profondeur_sans_neg": 6,
+    "fils": 22,
+    "entrees": 12,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 48,
+    "portes_sans_neg": 47,
+    "profondeur": 19,
+    "profondeur_sans_neg": 19,
+    "fils": 95,
+    "entrees": 20,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_double_rail": {
+    "portes": 44,
+    "portes_sans_neg": 44,
+    "profondeur": 12,
+    "profondeur_sans_neg": 12,
+    "fils": 88,
+    "entrees": 24,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 51,
+    "portes_sans_neg": 51,
+    "profondeur": 14,
+    "profondeur_sans_neg": 14,
+    "fils": 102,
+    "entrees": 24,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_signe_module": {
+    "portes": 51,
+    "portes_sans_neg": 51,
+    "profondeur": 14,
+    "profondeur_sans_neg": 14,
+    "fils": 102,
+    "entrees": 24,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   }
+  },
+  {
+   "fonction": "comparaison",
+   "n_trits": 8,
+   "m_bits": 13,
+   "ternaire": {
+    "portes": 15,
+    "portes_sans_neg": 15,
+    "profondeur": 8,
+    "profondeur_sans_neg": 8,
+    "fils": 30,
+    "entrees": 16,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 63,
+    "portes_sans_neg": 62,
+    "profondeur": 25,
+    "profondeur_sans_neg": 25,
+    "fils": 125,
+    "entrees": 26,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_double_rail": {
+    "portes": 60,
+    "portes_sans_neg": 60,
+    "profondeur": 16,
+    "profondeur_sans_neg": 16,
+    "fils": 120,
+    "entrees": 32,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 69,
+    "portes_sans_neg": 69,
+    "profondeur": 18,
+    "profondeur_sans_neg": 18,
+    "fils": 138,
+    "entrees": 32,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_signe_module": {
+    "portes": 69,
+    "portes_sans_neg": 69,
+    "profondeur": 18,
+    "profondeur_sans_neg": 18,
+    "fils": 138,
+    "entrees": 32,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   }
+  },
+  {
+   "fonction": "comparaison",
+   "n_trits": 12,
+   "m_bits": 20,
+   "ternaire": {
+    "portes": 23,
+    "portes_sans_neg": 23,
+    "profondeur": 12,
+    "profondeur_sans_neg": 12,
+    "fils": 46,
+    "entrees": 24,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 98,
+    "portes_sans_neg": 97,
+    "profondeur": 39,
+    "profondeur_sans_neg": 39,
+    "fils": 195,
+    "entrees": 40,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_double_rail": {
+    "portes": 92,
+    "portes_sans_neg": 92,
+    "profondeur": 24,
+    "profondeur_sans_neg": 24,
+    "fils": 184,
+    "entrees": 48,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 105,
+    "portes_sans_neg": 105,
+    "profondeur": 26,
+    "profondeur_sans_neg": 26,
+    "fils": 210,
+    "entrees": 48,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_signe_module": {
+    "portes": 105,
+    "portes_sans_neg": 105,
+    "profondeur": 26,
+    "profondeur_sans_neg": 26,
+    "fils": 210,
+    "entrees": 48,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   }
+  },
+  {
+   "fonction": "comparaison",
+   "n_trits": 16,
+   "m_bits": 26,
+   "ternaire": {
+    "portes": 31,
+    "portes_sans_neg": 31,
+    "profondeur": 16,
+    "profondeur_sans_neg": 16,
+    "fils": 62,
+    "entrees": 32,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 128,
+    "portes_sans_neg": 127,
+    "profondeur": 51,
+    "profondeur_sans_neg": 51,
+    "fils": 255,
+    "entrees": 52,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_double_rail": {
+    "portes": 124,
+    "portes_sans_neg": 124,
+    "profondeur": 32,
+    "profondeur_sans_neg": 32,
+    "fils": 248,
+    "entrees": 64,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 141,
+    "portes_sans_neg": 141,
+    "profondeur": 34,
+    "profondeur_sans_neg": 34,
+    "fils": 282,
+    "entrees": 64,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_signe_module": {
+    "portes": 141,
+    "portes_sans_neg": 141,
+    "profondeur": 34,
+    "profondeur_sans_neg": 34,
+    "fils": 282,
+    "entrees": 64,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   }
+  },
+  {
+   "fonction": "opposé",
+   "n_trits": 2,
+   "m_bits": 4,
+   "ternaire": {
+    "portes": 2,
+    "portes_sans_neg": 0,
+    "profondeur": 1,
+    "profondeur_sans_neg": 0,
+    "fils": 2,
+    "entrees": 2,
+    "sorties": 2,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 5,
+    "portes_sans_neg": 5,
+    "profondeur": 3,
+    "profondeur_sans_neg": 3,
+    "fils": 10,
+    "entrees": 4,
+    "sorties": 4,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_double_rail": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 4,
+    "sorties": 4,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_decale": {
+    "portes": 2,
+    "portes_sans_neg": 2,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 4,
+    "entrees": 4,
+    "sorties": 4,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "t2b_signe_module": {
+    "portes": 2,
+    "portes_sans_neg": 2,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 4,
+    "entrees": 4,
+    "sorties": 4,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   }
+  },
+  {
+   "fonction": "opposé",
+   "n_trits": 3,
+   "m_bits": 5,
+   "ternaire": {
+    "portes": 3,
+    "portes_sans_neg": 0,
+    "profondeur": 1,
+    "profondeur_sans_neg": 0,
+    "fils": 3,
+    "entrees": 3,
+    "sorties": 3,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 7,
+    "portes_sans_neg": 7,
+    "profondeur": 4,
+    "profondeur_sans_neg": 4,
+    "fils": 14,
+    "entrees": 5,
+    "sorties": 5,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_double_rail": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 6,
+    "sorties": 6,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_decale": {
+    "portes": 3,
+    "portes_sans_neg": 3,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 6,
+    "entrees": 6,
+    "sorties": 6,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "t2b_signe_module": {
+    "portes": 3,
+    "portes_sans_neg": 3,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 6,
+    "entrees": 6,
+    "sorties": 6,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   }
+  },
+  {
+   "fonction": "opposé",
+   "n_trits": 4,
+   "m_bits": 7,
+   "ternaire": {
+    "portes": 4,
+    "portes_sans_neg": 0,
+    "profondeur": 1,
+    "profondeur_sans_neg": 0,
+    "fils": 4,
+    "entrees": 4,
+    "sorties": 4,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 11,
+    "portes_sans_neg": 11,
+    "profondeur": 6,
+    "profondeur_sans_neg": 6,
+    "fils": 22,
+    "entrees": 7,
+    "sorties": 7,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_double_rail": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 8,
+    "sorties": 8,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_decale": {
+    "portes": 4,
+    "portes_sans_neg": 4,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 8,
+    "entrees": 8,
+    "sorties": 8,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "t2b_signe_module": {
+    "portes": 4,
+    "portes_sans_neg": 4,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 8,
+    "entrees": 8,
+    "sorties": 8,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   }
+  },
+  {
+   "fonction": "opposé",
+   "n_trits": 6,
+   "m_bits": 10,
+   "ternaire": {
+    "portes": 6,
+    "portes_sans_neg": 0,
+    "profondeur": 1,
+    "profondeur_sans_neg": 0,
+    "fils": 6,
+    "entrees": 6,
+    "sorties": 6,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 17,
+    "portes_sans_neg": 17,
+    "profondeur": 9,
+    "profondeur_sans_neg": 9,
+    "fils": 34,
+    "entrees": 10,
+    "sorties": 10,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_double_rail": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 12,
+    "sorties": 12,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_decale": {
+    "portes": 6,
+    "portes_sans_neg": 6,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 12,
+    "entrees": 12,
+    "sorties": 12,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "t2b_signe_module": {
+    "portes": 6,
+    "portes_sans_neg": 6,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 12,
+    "entrees": 12,
+    "sorties": 12,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   }
+  },
+  {
+   "fonction": "opposé",
+   "n_trits": 8,
+   "m_bits": 13,
+   "ternaire": {
+    "portes": 8,
+    "portes_sans_neg": 0,
+    "profondeur": 1,
+    "profondeur_sans_neg": 0,
+    "fils": 8,
+    "entrees": 8,
+    "sorties": 8,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 23,
+    "portes_sans_neg": 23,
+    "profondeur": 12,
+    "profondeur_sans_neg": 12,
+    "fils": 46,
+    "entrees": 13,
+    "sorties": 13,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_double_rail": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 16,
+    "sorties": 16,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_decale": {
+    "portes": 8,
+    "portes_sans_neg": 8,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 16,
+    "entrees": 16,
+    "sorties": 16,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "t2b_signe_module": {
+    "portes": 8,
+    "portes_sans_neg": 8,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 16,
+    "entrees": 16,
+    "sorties": 16,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   }
+  },
+  {
+   "fonction": "opposé",
+   "n_trits": 12,
+   "m_bits": 20,
+   "ternaire": {
+    "portes": 12,
+    "portes_sans_neg": 0,
+    "profondeur": 1,
+    "profondeur_sans_neg": 0,
+    "fils": 12,
+    "entrees": 12,
+    "sorties": 12,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 37,
+    "portes_sans_neg": 37,
+    "profondeur": 19,
+    "profondeur_sans_neg": 19,
+    "fils": 74,
+    "entrees": 20,
+    "sorties": 20,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_double_rail": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 24,
+    "sorties": 24,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_decale": {
+    "portes": 12,
+    "portes_sans_neg": 12,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 24,
+    "entrees": 24,
+    "sorties": 24,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "t2b_signe_module": {
+    "portes": 12,
+    "portes_sans_neg": 12,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 24,
+    "entrees": 24,
+    "sorties": 24,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   }
+  },
+  {
+   "fonction": "opposé",
+   "n_trits": 16,
+   "m_bits": 26,
+   "ternaire": {
+    "portes": 16,
+    "portes_sans_neg": 0,
+    "profondeur": 1,
+    "profondeur_sans_neg": 0,
+    "fils": 16,
+    "entrees": 16,
+    "sorties": 16,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 49,
+    "portes_sans_neg": 49,
+    "profondeur": 25,
+    "profondeur_sans_neg": 25,
+    "fils": 98,
+    "entrees": 26,
+    "sorties": 26,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_double_rail": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 32,
+    "sorties": 32,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_decale": {
+    "portes": 16,
+    "portes_sans_neg": 16,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 32,
+    "entrees": 32,
+    "sorties": 32,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "t2b_signe_module": {
+    "portes": 16,
+    "portes_sans_neg": 16,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 32,
+    "entrees": 32,
+    "sorties": 32,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   }
+  },
+  {
+   "fonction": "somme_chiffres_mod_base",
+   "n_trits": 2,
+   "m_bits": 4,
+   "ternaire": {
+    "portes": 1,
+    "portes_sans_neg": 1,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 2,
+    "entrees": 2,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 3,
+    "portes_sans_neg": 3,
+    "profondeur": 3,
+    "profondeur_sans_neg": 3,
+    "fils": 6,
+    "entrees": 4,
+    "sorties": 1,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "t2b_double_rail": {
+    "portes": 6,
+    "portes_sans_neg": 6,
+    "profondeur": 3,
+    "profondeur_sans_neg": 3,
+    "fils": 12,
+    "entrees": 4,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_decale": {
+    "portes": 6,
+    "portes_sans_neg": 6,
+    "profondeur": 3,
+    "profondeur_sans_neg": 3,
+    "fils": 12,
+    "entrees": 4,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_signe_module": {
+    "portes": 6,
+    "portes_sans_neg": 6,
+    "profondeur": 3,
+    "profondeur_sans_neg": 3,
+    "fils": 12,
+    "entrees": 4,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   }
+  },
+  {
+   "fonction": "somme_chiffres_mod_base",
+   "n_trits": 3,
+   "m_bits": 5,
+   "ternaire": {
+    "portes": 2,
+    "portes_sans_neg": 2,
+    "profondeur": 2,
+    "profondeur_sans_neg": 2,
+    "fils": 4,
+    "entrees": 3,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 4,
+    "portes_sans_neg": 4,
+    "profondeur": 4,
+    "profondeur_sans_neg": 4,
+    "fils": 8,
+    "entrees": 5,
+    "sorties": 1,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "t2b_double_rail": {
+    "portes": 12,
+    "portes_sans_neg": 12,
+    "profondeur": 6,
+    "profondeur_sans_neg": 6,
+    "fils": 24,
+    "entrees": 6,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 12,
+    "portes_sans_neg": 12,
+    "profondeur": 5,
+    "profondeur_sans_neg": 5,
+    "fils": 24,
+    "entrees": 6,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_signe_module": {
+    "portes": 12,
+    "portes_sans_neg": 12,
+    "profondeur": 6,
+    "profondeur_sans_neg": 6,
+    "fils": 24,
+    "entrees": 6,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   }
+  },
+  {
+   "fonction": "somme_chiffres_mod_base",
+   "n_trits": 4,
+   "m_bits": 7,
+   "ternaire": {
+    "portes": 3,
+    "portes_sans_neg": 3,
+    "profondeur": 3,
+    "profondeur_sans_neg": 3,
+    "fils": 6,
+    "entrees": 4,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 6,
+    "portes_sans_neg": 6,
+    "profondeur": 6,
+    "profondeur_sans_neg": 6,
+    "fils": 12,
+    "entrees": 7,
+    "sorties": 1,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "t2b_double_rail": {
+    "portes": 18,
+    "portes_sans_neg": 18,
+    "profondeur": 9,
+    "profondeur_sans_neg": 9,
+    "fils": 36,
+    "entrees": 8,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 18,
+    "portes_sans_neg": 18,
+    "profondeur": 8,
+    "profondeur_sans_neg": 8,
+    "fils": 36,
+    "entrees": 8,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_signe_module": {
+    "portes": 18,
+    "portes_sans_neg": 18,
+    "profondeur": 9,
+    "profondeur_sans_neg": 9,
+    "fils": 36,
+    "entrees": 8,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   }
+  },
+  {
+   "fonction": "somme_chiffres_mod_base",
+   "n_trits": 6,
+   "m_bits": 10,
+   "ternaire": {
+    "portes": 5,
+    "portes_sans_neg": 5,
+    "profondeur": 5,
+    "profondeur_sans_neg": 5,
+    "fils": 10,
+    "entrees": 6,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 9,
+    "portes_sans_neg": 9,
+    "profondeur": 9,
+    "profondeur_sans_neg": 9,
+    "fils": 18,
+    "entrees": 10,
+    "sorties": 1,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "t2b_double_rail": {
+    "portes": 30,
+    "portes_sans_neg": 30,
+    "profondeur": 15,
+    "profondeur_sans_neg": 15,
+    "fils": 60,
+    "entrees": 12,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 30,
+    "portes_sans_neg": 30,
+    "profondeur": 13,
+    "profondeur_sans_neg": 13,
+    "fils": 60,
+    "entrees": 12,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_signe_module": {
+    "portes": 30,
+    "portes_sans_neg": 30,
+    "profondeur": 15,
+    "profondeur_sans_neg": 15,
+    "fils": 60,
+    "entrees": 12,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   }
+  },
+  {
+   "fonction": "somme_chiffres_mod_base",
+   "n_trits": 8,
+   "m_bits": 13,
+   "ternaire": {
+    "portes": 7,
+    "portes_sans_neg": 7,
+    "profondeur": 7,
+    "profondeur_sans_neg": 7,
+    "fils": 14,
+    "entrees": 8,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 12,
+    "portes_sans_neg": 12,
+    "profondeur": 12,
+    "profondeur_sans_neg": 12,
+    "fils": 24,
+    "entrees": 13,
+    "sorties": 1,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "t2b_double_rail": {
+    "portes": 42,
+    "portes_sans_neg": 42,
+    "profondeur": 21,
+    "profondeur_sans_neg": 21,
+    "fils": 84,
+    "entrees": 16,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 42,
+    "portes_sans_neg": 42,
+    "profondeur": 18,
+    "profondeur_sans_neg": 18,
+    "fils": 84,
+    "entrees": 16,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_signe_module": {
+    "portes": 42,
+    "portes_sans_neg": 42,
+    "profondeur": 21,
+    "profondeur_sans_neg": 21,
+    "fils": 84,
+    "entrees": 16,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   }
+  },
+  {
+   "fonction": "somme_chiffres_mod_base",
+   "n_trits": 12,
+   "m_bits": 20,
+   "ternaire": {
+    "portes": 11,
+    "portes_sans_neg": 11,
+    "profondeur": 11,
+    "profondeur_sans_neg": 11,
+    "fils": 22,
+    "entrees": 12,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 19,
+    "portes_sans_neg": 19,
+    "profondeur": 19,
+    "profondeur_sans_neg": 19,
+    "fils": 38,
+    "entrees": 20,
+    "sorties": 1,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "t2b_double_rail": {
+    "portes": 66,
+    "portes_sans_neg": 66,
+    "profondeur": 33,
+    "profondeur_sans_neg": 33,
+    "fils": 132,
+    "entrees": 24,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 66,
+    "portes_sans_neg": 66,
+    "profondeur": 28,
+    "profondeur_sans_neg": 28,
+    "fils": 132,
+    "entrees": 24,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_signe_module": {
+    "portes": 66,
+    "portes_sans_neg": 66,
+    "profondeur": 33,
+    "profondeur_sans_neg": 33,
+    "fils": 132,
+    "entrees": 24,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   }
+  },
+  {
+   "fonction": "somme_chiffres_mod_base",
+   "n_trits": 16,
+   "m_bits": 26,
+   "ternaire": {
+    "portes": 15,
+    "portes_sans_neg": 15,
+    "profondeur": 15,
+    "profondeur_sans_neg": 15,
+    "fils": 30,
+    "entrees": 16,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 25,
+    "portes_sans_neg": 25,
+    "profondeur": 25,
+    "profondeur_sans_neg": 25,
+    "fils": 50,
+    "entrees": 26,
+    "sorties": 1,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "t2b_double_rail": {
+    "portes": 90,
+    "portes_sans_neg": 90,
+    "profondeur": 45,
+    "profondeur_sans_neg": 45,
+    "fils": 180,
+    "entrees": 32,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 90,
+    "portes_sans_neg": 90,
+    "profondeur": 38,
+    "profondeur_sans_neg": 38,
+    "fils": 180,
+    "entrees": 32,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_signe_module": {
+    "portes": 90,
+    "portes_sans_neg": 90,
+    "profondeur": 45,
+    "profondeur_sans_neg": 45,
+    "fils": 180,
+    "entrees": 32,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   }
+  },
+  {
+   "fonction": "x_mod_2",
+   "n_trits": 2,
+   "m_bits": 4,
+   "ternaire": {
+    "portes": 1,
+    "portes_sans_neg": 1,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 2,
+    "entrees": 2,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 4,
+    "sorties": 1,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_double_rail": {
+    "portes": 4,
+    "portes_sans_neg": 4,
+    "profondeur": 3,
+    "profondeur_sans_neg": 3,
+    "fils": 8,
+    "entrees": 4,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_decale": {
+    "portes": 2,
+    "portes_sans_neg": 2,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 4,
+    "entrees": 4,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_signe_module": {
+    "portes": 2,
+    "portes_sans_neg": 2,
+    "profondeur": 1,
+    "profondeur_sans_neg": 1,
+    "fils": 4,
+    "entrees": 4,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 1,
+    "tw_sup": 1
+   }
+  },
+  {
+   "fonction": "x_mod_2",
+   "n_trits": 3,
+   "m_bits": 5,
+   "ternaire": {
+    "portes": 2,
+    "portes_sans_neg": 2,
+    "profondeur": 2,
+    "profondeur_sans_neg": 2,
+    "fils": 4,
+    "entrees": 3,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 5,
+    "sorties": 1,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_double_rail": {
+    "portes": 8,
+    "portes_sans_neg": 8,
+    "profondeur": 6,
+    "profondeur_sans_neg": 6,
+    "fils": 16,
+    "entrees": 6,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_decale": {
+    "portes": 4,
+    "portes_sans_neg": 4,
+    "profondeur": 2,
+    "profondeur_sans_neg": 2,
+    "fils": 8,
+    "entrees": 6,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_signe_module": {
+    "portes": 4,
+    "portes_sans_neg": 4,
+    "profondeur": 2,
+    "profondeur_sans_neg": 2,
+    "fils": 8,
+    "entrees": 6,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   }
+  },
+  {
+   "fonction": "x_mod_2",
+   "n_trits": 4,
+   "m_bits": 7,
+   "ternaire": {
+    "portes": 3,
+    "portes_sans_neg": 3,
+    "profondeur": 3,
+    "profondeur_sans_neg": 3,
+    "fils": 6,
+    "entrees": 4,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 7,
+    "sorties": 1,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_double_rail": {
+    "portes": 12,
+    "portes_sans_neg": 12,
+    "profondeur": 9,
+    "profondeur_sans_neg": 9,
+    "fils": 24,
+    "entrees": 8,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 6,
+    "portes_sans_neg": 6,
+    "profondeur": 3,
+    "profondeur_sans_neg": 3,
+    "fils": 12,
+    "entrees": 8,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_signe_module": {
+    "portes": 6,
+    "portes_sans_neg": 6,
+    "profondeur": 3,
+    "profondeur_sans_neg": 3,
+    "fils": 12,
+    "entrees": 8,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   }
+  },
+  {
+   "fonction": "x_mod_2",
+   "n_trits": 6,
+   "m_bits": 10,
+   "ternaire": {
+    "portes": 5,
+    "portes_sans_neg": 5,
+    "profondeur": 5,
+    "profondeur_sans_neg": 5,
+    "fils": 10,
+    "entrees": 6,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 10,
+    "sorties": 1,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_double_rail": {
+    "portes": 20,
+    "portes_sans_neg": 20,
+    "profondeur": 15,
+    "profondeur_sans_neg": 15,
+    "fils": 40,
+    "entrees": 12,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 10,
+    "portes_sans_neg": 10,
+    "profondeur": 5,
+    "profondeur_sans_neg": 5,
+    "fils": 20,
+    "entrees": 12,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_signe_module": {
+    "portes": 10,
+    "portes_sans_neg": 10,
+    "profondeur": 5,
+    "profondeur_sans_neg": 5,
+    "fils": 20,
+    "entrees": 12,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   }
+  },
+  {
+   "fonction": "x_mod_2",
+   "n_trits": 8,
+   "m_bits": 13,
+   "ternaire": {
+    "portes": 7,
+    "portes_sans_neg": 7,
+    "profondeur": 7,
+    "profondeur_sans_neg": 7,
+    "fils": 14,
+    "entrees": 8,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 13,
+    "sorties": 1,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_double_rail": {
+    "portes": 28,
+    "portes_sans_neg": 28,
+    "profondeur": 21,
+    "profondeur_sans_neg": 21,
+    "fils": 56,
+    "entrees": 16,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 14,
+    "portes_sans_neg": 14,
+    "profondeur": 7,
+    "profondeur_sans_neg": 7,
+    "fils": 28,
+    "entrees": 16,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_signe_module": {
+    "portes": 14,
+    "portes_sans_neg": 14,
+    "profondeur": 7,
+    "profondeur_sans_neg": 7,
+    "fils": 28,
+    "entrees": 16,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   }
+  },
+  {
+   "fonction": "x_mod_2",
+   "n_trits": 12,
+   "m_bits": 20,
+   "ternaire": {
+    "portes": 11,
+    "portes_sans_neg": 11,
+    "profondeur": 11,
+    "profondeur_sans_neg": 11,
+    "fils": 22,
+    "entrees": 12,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 20,
+    "sorties": 1,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_double_rail": {
+    "portes": 44,
+    "portes_sans_neg": 44,
+    "profondeur": 33,
+    "profondeur_sans_neg": 33,
+    "fils": 88,
+    "entrees": 24,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 22,
+    "portes_sans_neg": 22,
+    "profondeur": 11,
+    "profondeur_sans_neg": 11,
+    "fils": 44,
+    "entrees": 24,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_signe_module": {
+    "portes": 22,
+    "portes_sans_neg": 22,
+    "profondeur": 11,
+    "profondeur_sans_neg": 11,
+    "fils": 44,
+    "entrees": 24,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   }
+  },
+  {
+   "fonction": "x_mod_2",
+   "n_trits": 16,
+   "m_bits": 26,
+   "ternaire": {
+    "portes": 15,
+    "portes_sans_neg": 15,
+    "profondeur": 15,
+    "profondeur_sans_neg": 15,
+    "fils": 30,
+    "entrees": 16,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 1,
+    "tw_sup": 1
+   },
+   "binaire": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 26,
+    "sorties": 1,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_double_rail": {
+    "portes": 60,
+    "portes_sans_neg": 60,
+    "profondeur": 45,
+    "profondeur_sans_neg": 45,
+    "fils": 120,
+    "entrees": 32,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_decale": {
+    "portes": 30,
+    "portes_sans_neg": 30,
+    "profondeur": 15,
+    "profondeur_sans_neg": 15,
+    "fils": 60,
+    "entrees": 32,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   },
+   "t2b_signe_module": {
+    "portes": 30,
+    "portes_sans_neg": 30,
+    "profondeur": 15,
+    "profondeur_sans_neg": 15,
+    "fils": 60,
+    "entrees": 32,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 2,
+    "tw_sup": 2
+   }
+  },
+  {
+   "fonction": "x_mod_3",
+   "n_trits": 2,
+   "m_bits": 4,
+   "ternaire": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 2,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "binaire": {
+    "portes": 13,
+    "portes_sans_neg": 13,
+    "profondeur": 8,
+    "profondeur_sans_neg": 8,
+    "fils": 26,
+    "entrees": 4,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_double_rail": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 4,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_decale": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 4,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_signe_module": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 4,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   }
+  },
+  {
+   "fonction": "x_mod_3",
+   "n_trits": 3,
+   "m_bits": 5,
+   "ternaire": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 3,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "binaire": {
+    "portes": 18,
+    "portes_sans_neg": 18,
+    "profondeur": 11,
+    "profondeur_sans_neg": 11,
+    "fils": 36,
+    "entrees": 5,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_double_rail": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 6,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_decale": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 6,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_signe_module": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 6,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   }
+  },
+  {
+   "fonction": "x_mod_3",
+   "n_trits": 4,
+   "m_bits": 7,
+   "ternaire": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 4,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "binaire": {
+    "portes": 28,
+    "portes_sans_neg": 28,
+    "profondeur": 17,
+    "profondeur_sans_neg": 17,
+    "fils": 56,
+    "entrees": 7,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_double_rail": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 8,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_decale": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 8,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_signe_module": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 8,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   }
+  },
+  {
+   "fonction": "x_mod_3",
+   "n_trits": 6,
+   "m_bits": 10,
+   "ternaire": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 6,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "binaire": {
+    "portes": 43,
+    "portes_sans_neg": 43,
+    "profondeur": 26,
+    "profondeur_sans_neg": 26,
+    "fils": 86,
+    "entrees": 10,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_double_rail": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 12,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_decale": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 12,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_signe_module": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 12,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   }
+  },
+  {
+   "fonction": "x_mod_3",
+   "n_trits": 8,
+   "m_bits": 13,
+   "ternaire": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 8,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "binaire": {
+    "portes": 58,
+    "portes_sans_neg": 58,
+    "profondeur": 35,
+    "profondeur_sans_neg": 35,
+    "fils": 116,
+    "entrees": 13,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_double_rail": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 16,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_decale": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 16,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_signe_module": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 16,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   }
+  },
+  {
+   "fonction": "x_mod_3",
+   "n_trits": 12,
+   "m_bits": 20,
+   "ternaire": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 12,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "binaire": {
+    "portes": 93,
+    "portes_sans_neg": 93,
+    "profondeur": 56,
+    "profondeur_sans_neg": 56,
+    "fils": 186,
+    "entrees": 20,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_double_rail": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 24,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_decale": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 24,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_signe_module": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 24,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   }
+  },
+  {
+   "fonction": "x_mod_3",
+   "n_trits": 16,
+   "m_bits": 26,
+   "ternaire": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 16,
+    "sorties": 1,
+    "bits_par_fil": 1.584962500721156,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "binaire": {
+    "portes": 123,
+    "portes_sans_neg": 123,
+    "profondeur": 74,
+    "profondeur_sans_neg": 74,
+    "fils": 246,
+    "entrees": 26,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 3,
+    "tw_sup": 3
+   },
+   "t2b_double_rail": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 32,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_decale": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 32,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   },
+   "t2b_signe_module": {
+    "portes": 0,
+    "portes_sans_neg": 0,
+    "profondeur": 0,
+    "profondeur_sans_neg": 0,
+    "fils": 0,
+    "entrees": 32,
+    "sorties": 2,
+    "bits_par_fil": 1.0,
+    "tw_inf": 0,
+    "tw_sup": 0
+   }
+  }
+ ],
+ "A4_sat_miter": [
+  {
+   "n_trits": 2,
+   "m_bits": 4,
+   "encodage": "direct_3var",
+   "variables": 84,
+   "clauses": 273,
+   "litteraux": 732,
+   "tw_inf": 24,
+   "tw_sup": 35,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 0.0010586119999516086,
+     "conflits": 196
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 0.0007517120000102295,
+     "conflits": 154
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 0.0008994009999696573,
+     "conflits": 186
+    }
+   ],
+   "conflits_med": 186,
+   "temps_med": 0.0008994009999696573
+  },
+  {
+   "n_trits": 2,
+   "m_bits": 4,
+   "encodage": "table_2bits",
+   "variables": 56,
+   "clauses": 341,
+   "litteraux": 1560,
+   "tw_inf": 16,
+   "tw_sup": 23,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 0.0009963690000631686,
+     "conflits": 245
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 0.0007537369999681687,
+     "conflits": 183
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 0.0012033539999265486,
+     "conflits": 305
+    }
+   ],
+   "conflits_med": 245,
+   "temps_med": 0.0009963690000631686
+  },
+  {
+   "n_trits": 2,
+   "m_bits": 4,
+   "encodage": "tseitin_gadgets_2bits",
+   "variables": 104,
+   "clauses": 357,
+   "litteraux": 1048,
+   "tw_inf": 16,
+   "tw_sup": 22,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 0.0009769849999656799,
+     "conflits": 158
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 0.001034739000033369,
+     "conflits": 184
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 0.0011048100000152772,
+     "conflits": 181
+    }
+   ],
+   "conflits_med": 181,
+   "temps_med": 0.001034739000033369
+  },
+  {
+   "n_trits": 2,
+   "m_bits": 4,
+   "encodage": "binaire_natif_m_bits",
+   "variables": 152,
+   "clauses": 545,
+   "litteraux": 1616,
+   "tw_inf": 16,
+   "tw_sup": 24,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 0.004305793999947127,
+     "conflits": 549
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 0.006443660000059026,
+     "conflits": 743
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 0.005083656000010706,
+     "conflits": 624
+    }
+   ],
+   "conflits_med": 624,
+   "temps_med": 0.005083656000010706
+  },
+  {
+   "n_trits": 3,
+   "m_bits": 5,
+   "encodage": "direct_3var",
+   "variables": 234,
+   "clauses": 877,
+   "litteraux": 2394,
+   "tw_inf": 36,
+   "tw_sup": 53,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 0.019661578000068403,
+     "conflits": 1797
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 0.014231171000005816,
+     "conflits": 1382
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 0.019540595999956167,
+     "conflits": 1822
+    }
+   ],
+   "conflits_med": 1797,
+   "temps_med": 0.019540595999956167
+  },
+  {
+   "n_trits": 3,
+   "m_bits": 5,
+   "encodage": "table_2bits",
+   "variables": 156,
+   "clauses": 1195,
+   "litteraux": 5652,
+   "tw_inf": 24,
+   "tw_sup": 35,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 0.022107215999994878,
+     "conflits": 2428
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 0.027023023000083413,
+     "conflits": 2465
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 0.030819940000014867,
+     "conflits": 2411
+    }
+   ],
+   "conflits_med": 2428,
+   "temps_med": 0.027023023000083413
+  },
+  {
+   "n_trits": 3,
+   "m_bits": 5,
+   "encodage": "tseitin_gadgets_2bits",
+   "variables": 324,
+   "clauses": 1207,
+   "litteraux": 3588,
+   "tw_inf": 24,
+   "tw_sup": 36,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 0.034979437999936636,
+     "conflits": 1985
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 0.03389609900000323,
+     "conflits": 2056
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 0.030197016999977677,
+     "conflits": 1891
+    }
+   ],
+   "conflits_med": 1985,
+   "temps_med": 0.03389609900000323
+  },
+  {
+   "n_trits": 3,
+   "m_bits": 5,
+   "encodage": "binaire_natif_m_bits",
+   "variables": 250,
+   "clauses": 921,
+   "litteraux": 2740,
+   "tw_inf": 20,
+   "tw_sup": 29,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 0.035490466000055676,
+     "conflits": 2525
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 0.03318135300003178,
+     "conflits": 2476
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 0.04105617799996253,
+     "conflits": 2999
+    }
+   ],
+   "conflits_med": 2525,
+   "temps_med": 0.035490466000055676
+  },
+  {
+   "n_trits": 4,
+   "m_bits": 7,
+   "encodage": "direct_3var",
+   "variables": 456,
+   "clauses": 1793,
+   "litteraux": 4920,
+   "tw_inf": 48,
+   "tw_sup": 74,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 0.363711354999964,
+     "conflits": 15979
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 0.3610154609999654,
+     "conflits": 16370
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 0.37501270799998565,
+     "conflits": 16434
+    }
+   ],
+   "conflits_med": 16370,
+   "temps_med": 0.363711354999964
+  },
+  {
+   "n_trits": 4,
+   "m_bits": 7,
+   "encodage": "table_2bits",
+   "variables": 304,
+   "clauses": 2505,
+   "litteraux": 11952,
+   "tw_inf": 32,
+   "tw_sup": 49,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 0.5161860150000166,
+     "conflits": 20135
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 0.46806716399999004,
+     "conflits": 18872
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 0.3817681900000025,
+     "conflits": 18534
+    }
+   ],
+   "conflits_med": 18872,
+   "temps_med": 0.46806716399999004
+  },
+  {
+   "n_trits": 4,
+   "m_bits": 7,
+   "encodage": "tseitin_gadgets_2bits",
+   "variables": 656,
+   "clauses": 2505,
+   "litteraux": 7472,
+   "tw_inf": 32,
+   "tw_sup": 49,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 0.7329610100000536,
+     "conflits": 18808
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 0.6607583600000453,
+     "conflits": 18069
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 0.5446576519999553,
+     "conflits": 16476
+    }
+   ],
+   "conflits_med": 18069,
+   "temps_med": 0.6607583600000453
+  },
+  {
+   "n_trits": 4,
+   "m_bits": 7,
+   "encodage": "binaire_natif_m_bits",
+   "variables": 518,
+   "clauses": 1961,
+   "litteraux": 5852,
+   "tw_inf": 28,
+   "tw_sup": 46,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 1.462700242999972,
+     "conflits": 39912
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 1.5950767189999624,
+     "conflits": 39262
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 1.5782146469999816,
+     "conflits": 38169
+    }
+   ],
+   "conflits_med": 39262,
+   "temps_med": 1.5782146469999816
+  },
+  {
+   "n_trits": 5,
+   "m_bits": 8,
+   "encodage": "direct_3var",
+   "variables": 750,
+   "clauses": 3021,
+   "litteraux": 8310,
+   "tw_inf": 60,
+   "tw_sup": 98,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 8.306295815000112,
+     "conflits": 162828
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 9.12547857900006,
+     "conflits": 176783
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 8.250150148999978,
+     "conflits": 167170
+    }
+   ],
+   "conflits_med": 167170,
+   "temps_med": 8.306295815000112
+  },
+  {
+   "n_trits": 5,
+   "m_bits": 8,
+   "encodage": "table_2bits",
+   "variables": 500,
+   "clauses": 4271,
+   "litteraux": 20460,
+   "tw_inf": 40,
+   "tw_sup": 59,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 7.062082898999961,
+     "conflits": 146291
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 7.51677314899996,
+     "conflits": 153635
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 7.363201107999998,
+     "conflits": 157502
+    }
+   ],
+   "conflits_med": 153635,
+   "temps_med": 7.363201107999998
+  },
+  {
+   "n_trits": 5,
+   "m_bits": 8,
+   "encodage": "tseitin_gadgets_2bits",
+   "variables": 1100,
+   "clauses": 4251,
+   "litteraux": 12700,
+   "tw_inf": 40,
+   "tw_sup": 59,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 10.428537143000085,
+     "conflits": 142847
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 10.13290357699998,
+     "conflits": 142577
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 11.606845145999955,
+     "conflits": 152278
+    }
+   ],
+   "conflits_med": 142847,
+   "temps_med": 10.428537143000085
+  },
+  {
+   "n_trits": 5,
+   "m_bits": 8,
+   "encodage": "binaire_natif_m_bits",
+   "variables": 688,
+   "clauses": 2625,
+   "litteraux": 7840,
+   "tw_inf": 32,
+   "tw_sup": 53,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": false,
+     "temps_s": 8.194697210000072,
+     "conflits": 164603
+    },
+    {
+     "graine": 1,
+     "resultat": false,
+     "temps_s": 9.626328141000045,
+     "conflits": 156365
+    },
+    {
+     "graine": 2,
+     "resultat": false,
+     "temps_s": 7.429524246000028,
+     "conflits": 147806
+    }
+   ],
+   "conflits_med": 156365,
+   "temps_med": 8.194697210000072
+  }
+ ],
+ "A5_economie_radix": {
+  "b_sur_ln_b": {
+   "2": 2.8853900817779268,
+   "3": 2.730717679880512,
+   "4": 2.8853900817779268,
+   "5": 3.1066746727980594,
+   "6": 3.3486637593074837,
+   "10": 4.3429448190325175
+  },
+  "efficacite_paquets": {
+   "1 trits dans 2 bits": 0.792481250360578,
+   "2 trits dans 4 bits": 0.792481250360578,
+   "3 trits dans 5 bits": 0.9509775004326937,
+   "5 trits dans 8 bits": 0.9906015629507225,
+   "10 trits dans 16 bits": 0.9906015629507225,
+   "53 trits dans 85 bits": 0.9882707357437797
+  }
+ },
+ "A5_seuil": [
+  {
+   "circuit": "additionneur 4 bits",
+   "tw_circuit": [
+    2,
+    2
+   ],
+   "L03_poids_2": {
+    "neurones": 24,
+    "aretes": 55,
+    "poids_max": 2,
+    "tw": [
+     3,
+     3
+    ]
+   },
+   "poids_ternaires": {
+    "neurones": 31,
+    "aretes": 62,
+    "poids_max": 1,
+    "tw": [
+     3,
+     3
+    ]
+   }
+  },
+  {
+   "circuit": "additionneur 8 bits",
+   "tw_circuit": [
+    2,
+    2
+   ],
+   "L03_poids_2": {
+    "neurones": 52,
+    "aretes": 119,
+    "poids_max": 2,
+    "tw": [
+     3,
+     3
+    ]
+   },
+   "poids_ternaires": {
+    "neurones": 67,
+    "aretes": 134,
+    "poids_max": 1,
+    "tw": [
+     3,
+     3
+    ]
+   }
+  },
+  {
+   "circuit": "multiplieur 3x3",
+   "tw_circuit": [
+    5,
+    7
+   ],
+   "L03_poids_2": {
+    "neurones": 39,
+    "aretes": 87,
+    "poids_max": 2,
+    "tw": [
+     5,
+     7
+    ]
+   },
+   "poids_ternaires": {
+    "neurones": 48,
+    "aretes": 96,
+    "poids_max": 1,
+    "tw": [
+     5,
+     7
+    ]
+   }
+  },
+  {
+   "circuit": "multiplieur 4x4",
+   "tw_circuit": [
+    5,
+    12
+   ],
+   "L03_poids_2": {
+    "neurones": 84,
+    "aretes": 188,
+    "poids_max": 2,
+    "tw": [
+     5,
+     12
+    ]
+   },
+   "poids_ternaires": {
+    "neurones": 104,
+    "aretes": 208,
+    "poids_max": 1,
+    "tw": [
+     6,
+     12
+    ]
+   }
+  }
+ ],
+ "A5_xor_un_cache_ternaire": []
+}

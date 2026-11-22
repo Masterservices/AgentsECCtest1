@@ -177,3 +177,38 @@ def solve(clauses, solver="glucose4"):
         dt = time.perf_counter() - t0
         st = s.accum_stats()
     return r, dt, st.get("conflicts", -1), st.get("decisions", -1)
+
+
+# ---------------------------------------------------------------- borne inférieure (ajout INV-02)
+
+def tw_lower_mmd(g):
+    """Borne INFÉRIEURE de largeur arborescente : heuristique de contraction « minor-min-width »
+    (MMD+, variante min-d). La largeur arborescente est monotone par mineur et majore le degré
+    minimum de tout mineur : max des degrés minimum rencontrés est une borne inférieure valide."""
+    adj = {v: set(g[v]) - {v} for v in g}
+    lb = 0
+    while len(adj) > 1:
+        v = min(adj, key=lambda x: len(adj[x]))
+        d = len(adj[v])
+        lb = max(lb, d)
+        if d == 0:
+            del adj[v]
+            continue
+        u = min(adj[v], key=lambda x: len(adj[x]))
+        # contraction de v dans u
+        for w in adj[v]:
+            adj[w].discard(v)
+            if w != u:
+                adj[w].add(u)
+                adj[u].add(w)
+        del adj[v]
+    return lb
+
+
+def tw_bounds(g):
+    """(borne inférieure MMD+, borne supérieure heuristique). Égalité => valeur exacte."""
+    g = g.copy()
+    g.remove_nodes_from([v for v in list(g) if g.degree(v) == 0])
+    if g.number_of_nodes() == 0:
+        return 0, 0
+    return tw_lower_mmd(g), tw(g)

@@ -1,0 +1,1274 @@
+{
+ "meta": {
+  "solveur": "glucose4",
+  "python": "3.13.18",
+  "duree_s": 180.881005525589,
+  "sbox_uniformite_diff": 4,
+  "sbox_linearite": 8,
+  "note": "ties possibles dans les rangs ; égalités départagées par ordre d'apparition"
+ },
+ "mesures": [
+  {
+   "k": 16,
+   "couples": 2,
+   "tours": 1,
+   "encodage_sbox": "anf",
+   "budget": 3000000,
+   "variables": 256,
+   "clauses": 952,
+   "tw_inf": 7,
+   "tw_sup": 10,
+   "tw_sup_heuristique": 10,
+   "largeur_ordre_explicite": 15,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 4,
+     "temps_s": 0.0001340960000106861
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 11,
+     "temps_s": 0.00011187900008735596
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 11,
+     "temps_s": 0.0001296170000841812
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 11,
+     "temps_s": 0.00014014600014888856
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 13,
+     "temps_s": 0.00015980700004547543
+    }
+   ],
+   "conflits_med": 11,
+   "temps_med": 0.0001340960000106861,
+   "resolus": 5
+  },
+  {
+   "k": 16,
+   "couples": 2,
+   "tours": 1,
+   "encodage_sbox": "table",
+   "budget": 3000000,
+   "variables": 48,
+   "clauses": 576,
+   "tw_inf": 7,
+   "tw_sup": 8,
+   "tw_sup_heuristique": 8,
+   "largeur_ordre_explicite": 11,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 14,
+     "temps_s": 7.094400007190416e-05
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 15,
+     "temps_s": 5.971300015517045e-05
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 15,
+     "temps_s": 5.734699993809045e-05
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 13,
+     "temps_s": 5.1618999805214116e-05
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 21,
+     "temps_s": 6.916200004525308e-05
+    }
+   ],
+   "conflits_med": 15,
+   "temps_med": 5.971300015517045e-05,
+   "resolus": 5
+  },
+  {
+   "k": 16,
+   "couples": 2,
+   "tours": 2,
+   "encodage_sbox": "anf",
+   "budget": 3000000,
+   "variables": 528,
+   "clauses": 1968,
+   "tw_inf": 10,
+   "tw_sup": 24,
+   "tw_sup_heuristique": 24,
+   "largeur_ordre_explicite": 92,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 372,
+     "temps_s": 0.004132713999979387
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 283,
+     "temps_s": 0.004521214000078544
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 370,
+     "temps_s": 0.0050593179998941196
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 389,
+     "temps_s": 0.005214990000013131
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 238,
+     "temps_s": 0.0025541709999288287
+    }
+   ],
+   "conflits_med": 370,
+   "temps_med": 0.004521214000078544,
+   "resolus": 5
+  },
+  {
+   "k": 16,
+   "couples": 2,
+   "tours": 2,
+   "encodage_sbox": "table",
+   "budget": 3000000,
+   "variables": 112,
+   "clauses": 1216,
+   "tw_inf": 12,
+   "tw_sup": 16,
+   "tw_sup_heuristique": 16,
+   "largeur_ordre_explicite": 20,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 261,
+     "temps_s": 0.0013852380000116682
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 410,
+     "temps_s": 0.0020136230000389332
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 471,
+     "temps_s": 0.002493743000059112
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 342,
+     "temps_s": 0.001974694999944404
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 316,
+     "temps_s": 0.0014509590000670869
+    }
+   ],
+   "conflits_med": 342,
+   "temps_med": 0.001974694999944404,
+   "resolus": 5
+  },
+  {
+   "k": 16,
+   "couples": 2,
+   "tours": 3,
+   "encodage_sbox": "anf",
+   "budget": 3000000,
+   "variables": 800,
+   "clauses": 2984,
+   "tw_inf": 13,
+   "tw_sup": 34,
+   "tw_sup_heuristique": 34,
+   "largeur_ordre_explicite": 92,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 2995,
+     "temps_s": 0.06402836400002343
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 3090,
+     "temps_s": 0.06715086899998823
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 561,
+     "temps_s": 0.009686896999937744
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 3509,
+     "temps_s": 0.07519095199995718
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 2549,
+     "temps_s": 0.045754067999951076
+    }
+   ],
+   "conflits_med": 2995,
+   "temps_med": 0.06402836400002343,
+   "resolus": 5
+  },
+  {
+   "k": 16,
+   "couples": 2,
+   "tours": 3,
+   "encodage_sbox": "table",
+   "budget": 3000000,
+   "variables": 176,
+   "clauses": 1856,
+   "tw_inf": 14,
+   "tw_sup": 27,
+   "tw_sup_heuristique": 27,
+   "largeur_ordre_explicite": 35,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 2351,
+     "temps_s": 0.02425516699986474
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 2926,
+     "temps_s": 0.029009588999997504
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 4087,
+     "temps_s": 0.043509316999916336
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 3090,
+     "temps_s": 0.030913991999796053
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 888,
+     "temps_s": 0.0094566620000478
+    }
+   ],
+   "conflits_med": 2926,
+   "temps_med": 0.029009588999997504,
+   "resolus": 5
+  },
+  {
+   "k": 16,
+   "couples": 2,
+   "tours": 4,
+   "encodage_sbox": "anf",
+   "budget": 3000000,
+   "variables": 1072,
+   "clauses": 4000,
+   "tw_inf": 14,
+   "tw_sup": 41,
+   "tw_sup_heuristique": 41,
+   "largeur_ordre_explicite": 92,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 8941,
+     "temps_s": 0.2690737010000248
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 8213,
+     "temps_s": 0.2258449109999674
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 4610,
+     "temps_s": 0.10396526499994252
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 6007,
+     "temps_s": 0.15663184000004549
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 8981,
+     "temps_s": 0.2625349649999862
+    }
+   ],
+   "conflits_med": 8213,
+   "temps_med": 0.2258449109999674,
+   "resolus": 5
+  },
+  {
+   "k": 16,
+   "couples": 2,
+   "tours": 4,
+   "encodage_sbox": "table",
+   "budget": 3000000,
+   "variables": 240,
+   "clauses": 2496,
+   "tw_inf": 15,
+   "tw_sup": 31,
+   "tw_sup_heuristique": 31,
+   "largeur_ordre_explicite": 35,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 34888,
+     "temps_s": 0.8172165220000807
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 15792,
+     "temps_s": 0.393213779000007
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 9655,
+     "temps_s": 0.20290636300001097
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 49685,
+     "temps_s": 1.164372383
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 1946,
+     "temps_s": 0.033205505000069024
+    }
+   ],
+   "conflits_med": 15792,
+   "temps_med": 0.393213779000007,
+   "resolus": 5
+  },
+  {
+   "k": 16,
+   "couples": 2,
+   "tours": 5,
+   "encodage_sbox": "anf",
+   "budget": 3000000,
+   "variables": 1344,
+   "clauses": 5016,
+   "tw_inf": 15,
+   "tw_sup": 43,
+   "tw_sup_heuristique": 43,
+   "largeur_ordre_explicite": 92,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 60445,
+     "temps_s": 3.5762626069999897
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 36336,
+     "temps_s": 1.8119915819997914
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 55893,
+     "temps_s": 3.062689979999959
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 35689,
+     "temps_s": 1.8393159370000376
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 20458,
+     "temps_s": 0.9828281929999321
+    }
+   ],
+   "conflits_med": 36336,
+   "temps_med": 1.8393159370000376,
+   "resolus": 5
+  },
+  {
+   "k": 16,
+   "couples": 2,
+   "tours": 5,
+   "encodage_sbox": "table",
+   "budget": 3000000,
+   "variables": 304,
+   "clauses": 3136,
+   "tw_inf": 16,
+   "tw_sup": 35,
+   "tw_sup_heuristique": 39,
+   "largeur_ordre_explicite": 35,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 22416,
+     "temps_s": 0.6628861520000555
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 39746,
+     "temps_s": 1.102327262000017
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 27209,
+     "temps_s": 0.7648524149999503
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 1197,
+     "temps_s": 0.03252562200009379
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 26243,
+     "temps_s": 0.7750054319999435
+    }
+   ],
+   "conflits_med": 26243,
+   "temps_med": 0.7648524149999503,
+   "resolus": 5
+  },
+  {
+   "k": 16,
+   "couples": 2,
+   "tours": 6,
+   "encodage_sbox": "anf",
+   "budget": 3000000,
+   "variables": 1616,
+   "clauses": 6032,
+   "tw_inf": 17,
+   "tw_sup": 49,
+   "tw_sup_heuristique": 49,
+   "largeur_ordre_explicite": 92,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 54642,
+     "temps_s": 4.270742254999959
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 41434,
+     "temps_s": 3.0567801709999003
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 70065,
+     "temps_s": 5.689356842999814
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 16,
+     "temps_s": 0.0011558829999103182
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 34349,
+     "temps_s": 2.408583791999945
+    }
+   ],
+   "conflits_med": 41434,
+   "temps_med": 3.0567801709999003,
+   "resolus": 5
+  },
+  {
+   "k": 16,
+   "couples": 2,
+   "tours": 6,
+   "encodage_sbox": "table",
+   "budget": 3000000,
+   "variables": 368,
+   "clauses": 3776,
+   "tw_inf": 17,
+   "tw_sup": 35,
+   "tw_sup_heuristique": 47,
+   "largeur_ordre_explicite": 35,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 2874,
+     "temps_s": 0.11375580599997193
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 359,
+     "temps_s": 0.012387867999905211
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 22528,
+     "temps_s": 0.8746887140000581
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 9194,
+     "temps_s": 0.34984129700001176
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 41391,
+     "temps_s": 1.5703950270001314
+    }
+   ],
+   "conflits_med": 9194,
+   "temps_med": 0.34984129700001176,
+   "resolus": 5
+  },
+  {
+   "k": 24,
+   "couples": 3,
+   "tours": 1,
+   "encodage_sbox": "anf",
+   "budget": 3000000,
+   "variables": 384,
+   "clauses": 1428,
+   "tw_inf": 8,
+   "tw_sup": 10,
+   "tw_sup_heuristique": 10,
+   "largeur_ordre_explicite": 17,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": false,
+     "conflits": 10,
+     "temps_s": 0.00018557600014901254
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": false,
+     "conflits": 15,
+     "temps_s": 0.0012148119999437768
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 23,
+     "temps_s": 0.000275129000101515
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": false,
+     "conflits": 13,
+     "temps_s": 0.00016191500003515102
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 4,
+     "temps_s": 0.00010046199986391002
+    }
+   ],
+   "conflits_med": 13,
+   "temps_med": 0.00018557600014901254,
+   "resolus": 5
+  },
+  {
+   "k": 24,
+   "couples": 3,
+   "tours": 1,
+   "encodage_sbox": "table",
+   "budget": 3000000,
+   "variables": 72,
+   "clauses": 864,
+   "tw_inf": 7,
+   "tw_sup": 7,
+   "tw_sup_heuristique": 7,
+   "largeur_ordre_explicite": 17,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": false,
+     "conflits": 25,
+     "temps_s": 0.00011760999996113242
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": false,
+     "conflits": 37,
+     "temps_s": 0.00010480700007065025
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 20,
+     "temps_s": 7.712700016782037e-05
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": false,
+     "conflits": 43,
+     "temps_s": 0.00012047699988215754
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 55,
+     "temps_s": 0.0001614909999716474
+    }
+   ],
+   "conflits_med": 37,
+   "temps_med": 0.00011760999996113242,
+   "resolus": 5
+  },
+  {
+   "k": 24,
+   "couples": 3,
+   "tours": 2,
+   "encodage_sbox": "anf",
+   "budget": 3000000,
+   "variables": 792,
+   "clauses": 2952,
+   "tw_inf": 12,
+   "tw_sup": 32,
+   "tw_sup_heuristique": 32,
+   "largeur_ordre_explicite": 99,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 332,
+     "temps_s": 0.004450361999943198
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 1254,
+     "temps_s": 0.018478641000001517
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 735,
+     "temps_s": 0.010060279000072114
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 373,
+     "temps_s": 0.004869095999993078
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 425,
+     "temps_s": 0.004871093000019755
+    }
+   ],
+   "conflits_med": 425,
+   "temps_med": 0.004871093000019755,
+   "resolus": 5
+  },
+  {
+   "k": 24,
+   "couples": 3,
+   "tours": 2,
+   "encodage_sbox": "table",
+   "budget": 3000000,
+   "variables": 168,
+   "clauses": 1824,
+   "tw_inf": 14,
+   "tw_sup": 21,
+   "tw_sup_heuristique": 21,
+   "largeur_ordre_explicite": 24,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 396,
+     "temps_s": 0.0017775540000002366
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 638,
+     "temps_s": 0.004203449999977238
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 151,
+     "temps_s": 0.000672759000053702
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 353,
+     "temps_s": 0.001258903999996619
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 689,
+     "temps_s": 0.0038920269998925505
+    }
+   ],
+   "conflits_med": 396,
+   "temps_med": 0.0017775540000002366,
+   "resolus": 5
+  },
+  {
+   "k": 24,
+   "couples": 3,
+   "tours": 3,
+   "encodage_sbox": "anf",
+   "budget": 3000000,
+   "variables": 1200,
+   "clauses": 4476,
+   "tw_inf": 14,
+   "tw_sup": 39,
+   "tw_sup_heuristique": 39,
+   "largeur_ordre_explicite": 100,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 6312,
+     "temps_s": 0.2093275850002101
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 1953,
+     "temps_s": 0.049358006999909776
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 2749,
+     "temps_s": 0.0641936459999215
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 6132,
+     "temps_s": 0.20299815099997431
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 7300,
+     "temps_s": 0.2540667040000244
+    }
+   ],
+   "conflits_med": 6132,
+   "temps_med": 0.20299815099997431,
+   "resolus": 5
+  },
+  {
+   "k": 24,
+   "couples": 3,
+   "tours": 3,
+   "encodage_sbox": "table",
+   "budget": 3000000,
+   "variables": 264,
+   "clauses": 2784,
+   "tw_inf": 15,
+   "tw_sup": 34,
+   "tw_sup_heuristique": 34,
+   "largeur_ordre_explicite": 43,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 6099,
+     "temps_s": 0.10206041500009633
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 1929,
+     "temps_s": 0.022624891999839747
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 3306,
+     "temps_s": 0.0362340309998217
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 2762,
+     "temps_s": 0.036456326999996236
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 12084,
+     "temps_s": 0.3144402259999879
+    }
+   ],
+   "conflits_med": 3306,
+   "temps_med": 0.036456326999996236,
+   "resolus": 5
+  },
+  {
+   "k": 24,
+   "couples": 3,
+   "tours": 4,
+   "encodage_sbox": "anf",
+   "budget": 3000000,
+   "variables": 1608,
+   "clauses": 6000,
+   "tw_inf": 16,
+   "tw_sup": 50,
+   "tw_sup_heuristique": 50,
+   "largeur_ordre_explicite": 100,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 41593,
+     "temps_s": 2.087108733999912
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 61644,
+     "temps_s": 3.315111782000031
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 47195,
+     "temps_s": 2.3847620060000736
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 43461,
+     "temps_s": 2.3667995590001283
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 31351,
+     "temps_s": 1.6913035499999296
+    }
+   ],
+   "conflits_med": 43461,
+   "temps_med": 2.3667995590001283,
+   "resolus": 5
+  },
+  {
+   "k": 24,
+   "couples": 3,
+   "tours": 4,
+   "encodage_sbox": "table",
+   "budget": 3000000,
+   "variables": 360,
+   "clauses": 3744,
+   "tw_inf": 18,
+   "tw_sup": 38,
+   "tw_sup_heuristique": 38,
+   "largeur_ordre_explicite": 43,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 43151,
+     "temps_s": 1.5523498180000388
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 62331,
+     "temps_s": 2.120790541000133
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 59889,
+     "temps_s": 2.3371203550000246
+    },
+    {
+     "graine": 3,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 52658,
+     "temps_s": 1.8510780319998048
+    },
+    {
+     "graine": 4,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 14915,
+     "temps_s": 0.3328608570000142
+    }
+   ],
+   "conflits_med": 52658,
+   "temps_med": 1.8510780319998048,
+   "resolus": 5
+  },
+  {
+   "k": 24,
+   "couples": 3,
+   "tours": 5,
+   "encodage_sbox": "anf",
+   "budget": 1000000,
+   "variables": 2016,
+   "clauses": 7524,
+   "tw_inf": 18,
+   "tw_sup": 50,
+   "tw_sup_heuristique": 50,
+   "largeur_ordre_explicite": 100,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 155390,
+     "temps_s": 9.509956063000118
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 564854,
+     "temps_s": 30.95082876399988
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 122394,
+     "temps_s": 8.07228715400015
+    }
+   ],
+   "conflits_med": 155390,
+   "temps_med": 9.509956063000118,
+   "resolus": 3
+  },
+  {
+   "k": 24,
+   "couples": 3,
+   "tours": 5,
+   "encodage_sbox": "table",
+   "budget": 1000000,
+   "variables": 456,
+   "clauses": 4704,
+   "tw_inf": 18,
+   "tw_sup": 43,
+   "tw_sup_heuristique": 46,
+   "largeur_ordre_explicite": 43,
+   "essais": [
+    {
+     "graine": 0,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 643160,
+     "temps_s": 28.071295265000117
+    },
+    {
+     "graine": 1,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 301449,
+     "temps_s": 13.377999045000024
+    },
+    {
+     "graine": 2,
+     "resultat": true,
+     "cle_coherente": true,
+     "cle_exacte": true,
+     "conflits": 296986,
+     "temps_s": 12.6415477070002
+    }
+   ],
+   "conflits_med": 301449,
+   "temps_med": 13.377999045000024,
+   "resolus": 3
+  }
+ ],
+ "correlations": {
+  "k16_anf": {
+   "spearman_tw_inf_conflits": 1.0,
+   "spearman_tours_conflits": 1.0
+  },
+  "k16_table": {
+   "spearman_tw_inf_conflits": 0.8285714285714286,
+   "spearman_tours_conflits": 0.8285714285714286
+  },
+  "k24_anf": {
+   "spearman_tw_inf_conflits": 1.0,
+   "spearman_tours_conflits": 1.0
+  },
+  "k24_table": {
+   "spearman_tw_inf_conflits": 1.0,
+   "spearman_tours_conflits": 1.0
+  }
+ }
+}
