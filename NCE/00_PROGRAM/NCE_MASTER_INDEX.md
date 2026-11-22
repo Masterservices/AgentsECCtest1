@@ -28,3 +28,5 @@ Nom provisoire : **RTC — Resource Translations of Computation** (renommage dé
 Investigations ouvertes : **INV-00** (définitions) et **INV-01** (largeur structurelle). Les deux attendent G0.
 
 Documents : [Audit](SCIENTIFIC_ASSESSMENT.md) · [Feuille de route](RESEARCH_ROADMAP.md) · [Protocole](RESEARCH_PROTOCOL.md) · [Carte des relations](RELATIONSHIP_MAP.md)
+
+Publication : collection complète (T0 à T9b) sur https://claude.ai/artifact/5t49NGjXxFbNC6kZ9Z3cxy ; T0 à T4 aussi dans la bibliothèque générale.
