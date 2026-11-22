@@ -1,0 +1,423 @@
+{
+ "titre": "Information et Calcul",
+ "sous_titre": "La théorie de l'information comme instrument d'étude des traductions entre modèles de calcul",
+ "these": "Toute traduction entre modèles de calcul — d'une machine de Turing à un circuit booléen, d'un réseau de neurones à un programme réversible, d'une représentation en base 2 à une représentation en base 3 — transforme, compresse, dissipe ou préserve de l'information. Ce livre montre que les outils de la théorie de l'information (entropie de Shannon, complexité de Kolmogorov, complexité de communication de Yao, coût énergétique de Landauer-Bennett, économie de radix) fournissent un registre commun pour mesurer ce que chaque traduction conserve, perd ou dilate. L'invariant le plus fort identifié est la complexité de Kolmogorov à une constante additive près, qui survit au changement de machine universelle et constitue, au sens du programme RTC, un invariant de traduction robuste. Le livre distingue rigoureusement ce qui est prouvé, connu, conjectural ou ouvert, et culmine dans un transfert vers le programme RTC : quelles ressources (taille, temps, mémoire, profondeur, largeur, précision, partage) sont gouvernées par quelles contraintes informationnelles, et quelles traductions restent à analyser.",
+ "cadre": {
+  "nom": "Les traductions à ressources et le registre des statuts",
+  "description": "RÈGLES ABSOLUES : (1) ne citer QUE les références de la liste ci-dessous, avec l'auteur et l'année indiqués ; n'en inventer aucune ; aucun DOI, aucun numéro de page, aucune citation entre guillemets attribuée à un chercheur ; (2) ne jamais présenter une intuition comme une preuve ; donner des preuves complètes pour les résultats démontrés dans le livre, et pour les grands théorèmes connus donner l'idée de la preuve en le disant ; (3) chaque affirmation porte un statut : PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ ou OUVERT ; (4) aucune annonce de découverte ; (5) formules en LaTeX entre $...$ ou $$...$$ ; (6) lecteur cultivé non spécialiste : intuition, définition, énoncé, exemple, exercice ; (7) dernier chapitre : « Transfert vers le programme RTC » (ce que ce tome apporte à l'étude des traductions à ressources : quelles ressources, quelles traductions, quelles questions ouvertes). (8) livre RICHE EN FORMULES : chaque chapitre contient au moins 15 formules en LaTeX (display $$...$$), chacune accompagnée de son énoncé en mots, de ses conditions de validité, de son statut et d'un exemple numérique calculé pas à pas ; les démonstrations courtes sont écrites en entier. — RÉFÉRENCES AUTORISÉES (et seulement elles) : Shannon 1948 (A mathematical theory of communication) ; Landauer 1961 (Irreversibility and heat generation in the computing process) ; Solomonoff 1964 (A formal theory of inductive inference) ; Kolmogorov 1965 (Three approaches to the quantitative definition of information) ; Chaitin 1966 (On the length of programs for computing finite binary sequences) ; Bennett 1973 (Logical reversibility of computation) ; Yao 1979 (Some complexity questions related to distributive computing) ; Karchmer et Wigderson 1990 (Monotone circuits for connectivity require super-logarithmic depth) ; Cover et Thomas 1991 (Elements of Information Theory) ; Li et Vitányi 1993 (An Introduction to Kolmogorov Complexity and Its Applications) ; Kushilevitz et Nisan 1997 (Communication Complexity) ; Tishby, Pereira et Bialek 1999 (The information bottleneck method)."
+ },
+ "bibliographie": [
+  {
+   "auteur": "Shannon",
+   "titre": "A mathematical theory of communication",
+   "annee": "1948",
+   "idee": "Fonder la mesure quantitative de l'information sur l'entropie d'une source et la capacité d'un canal, en séparant le problème du codage de source de celui du codage de canal.",
+   "apport": "Fournit au programme RTC les invariants de taille et de précision : l'entropie borne toute compression sans perte et la capacité borne toute traduction fidèle à travers un canal bruité."
+  },
+  {
+   "auteur": "Landauer",
+   "titre": "Irreversibility and heat generation in the computing process",
+   "annee": "1961",
+   "idee": "Établir que seule l'effacement irréversible d'un bit d'information dissipe une énergie minimale $k_B T \\ln 2$, liant thermodynamique et logique.",
+   "apport": "Introduit la ressource « énergie dissipée par bit effacé » comme coût de traduction irréversible dans le registre RTC."
+  },
+  {
+   "auteur": "Solomonoff",
+   "titre": "A formal theory of inductive inference",
+   "annee": "1964",
+   "idee": "Définir une probabilité universelle a priori sur les chaînes binaires via la somme des poids $2^{-|p|}$ des programmes qui les produisent.",
+   "apport": "Préfigure la complexité de Kolmogorov et offre un cadre pour discuter la traduction induction → prédiction comme conservation d'information algorithmique."
+  },
+  {
+   "auteur": "Kolmogorov",
+   "titre": "Three approaches to the quantitative definition of information",
+   "annee": "1965",
+   "idee": "Définir la complexité d'une chaîne comme la longueur du plus court programme la produisant sur une machine de Turing universelle.",
+   "apport": "Fournit l'invariant de traduction le plus fort du livre : la complexité de Kolmogorov est stable à une constante additive près lors du changement de machine, ce qui en fait un invariant au sens RTC."
+  },
+  {
+   "auteur": "Chaitin",
+   "titre": "On the length of programs for computing finite binary sequences",
+   "annee": "1966",
+   "idee": "Donner une formulation indépendante de la complexité algorithmique et démontrer l'incompressibilité et l'indécidabilité associées.",
+   "apport": "Renforce le statut CONNU de la non-calculabilité de $K(x)$ et montre qu'aucune traduction ne peut réduire systématiquement la complexité en dessous de la borne incompressible."
+  },
+  {
+   "auteur": "Bennett",
+   "titre": "Logical reversibility of computation",
+   "annee": "1973",
+   "idee": "Montrer que tout calcul peut être rendu logiquement réversible (donc sans dissipation Landauer) au prix d'un surcoût en mémoire.",
+   "apport": "Établit le compromis temps/mémoire/énergie comme traduction réversible, ressource centrale du programme RTC."
+  },
+  {
+   "auteur": "Yao",
+   "titre": "Some complexity questions related to distributive computing",
+   "annee": "1979",
+   "idee": "Introduire la complexité de communication : deux joueurs, Alice et Bob, doivent calculer une fonction en échangeant un minimum de bits.",
+   "apport": "Fournit une mesure de la ressource « partage/communication » entre sous-modèles de calcul, directement applicable aux traductions distribuées."
+  },
+  {
+   "auteur": "Karchmer et Wigderson",
+   "titre": "Monotone circuits for connectivity require super-logarithmic depth",
+   "annee": "1990",
+   "idee": "Relier la profondeur des formules booléennes à la complexité de communication via des jeux combinatoires (jeux KW).",
+   "apport": "Traduit la ressource « profondeur » en coût de communication, offrant un pont entre structure des circuits et information échangée."
+  },
+  {
+   "auteur": "Cover et Thomas",
+   "titre": "Elements of Information Theory",
+   "annee": "1991",
+   "idee": "Présenter de manière unifiée entropie, information mutuelle, codage de source et de canal, entropies différentielles et inégalités fondamentales.",
+   "apport": "Sert de référence structurante pour toutes les définitions et preuves du livre ; fournit les inégalités (log-somme, traitement des données) comme outils de preuve."
+  },
+  {
+   "auteur": "Li et Vitányi",
+   "titre": "An Introduction to Kolmogorov Complexity and Its Applications",
+   "annee": "1993",
+   "idee": "Synthétiser la complexité algorithmique et ses applications (aléatoire, induction, apprentissage, physique).",
+   "apport": "Structure la partie Kolmogorov du livre et fournit le cadre de l'invariance à une constante et des applications aux traductions algorithmiques."
+  },
+  {
+   "auteur": "Kushilevitz et Nisan",
+   "titre": "Communication Complexity",
+   "annee": "1997",
+   "idee": "Manuel de référence sur la complexité de communication déterministe, probabiliste, quantique et ses liens avec les circuits.",
+   "apport": "Alimente les chapitres sur Yao, les jeux KW et les bornes inférieures de communication comme mesures de traduction."
+  },
+  {
+   "auteur": "Tishby, Pereira et Bialek",
+   "titre": "The information bottleneck method",
+   "annee": "1999",
+   "idee": "Formuler la compression d'information pertinente comme un problème d'optimisation entre information mutuelle et fidélité.",
+   "apport": "Introduit le goulot d'information comme cadre d'analyse des réseaux de neurones ; statut à discuter (CONNU pour la formulation, CONJECTURE pour l'application aux réseaux profonds)."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Entropie, codage et canaux : la grammaire informationnelle",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Entropie de Shannon : mesurer l'incertitude d'une source",
+     "objectif": "Définir l'entropie de Shannon, motiver son unicité par les axiomes de continuité, maximalité et additivité, et la présenter comme la ressource minimale de description d'une source — première brique du registre de traduction.",
+     "sections": [
+      "1.1 Intuition : le jeu des vingt questions et le coût moyen en bits",
+      "1.2 Définition axiomatique de $H(X) = -\\sum_x p(x)\\log_2 p(x)$ et propriétés (continuité, maximalité, additivité) — statut PROUVÉ",
+      "1.3 Entropie conjointe, entropies marginales et sous-additivité — statut PROUVÉ",
+      "1.4 Entropie relative (divergence de Kullback-Leibler) et inégalité de Gibbs — statut PROUVÉ",
+      "1.5 Entropie comme borne inférieure de toute description sans perte : lien avec le codage — statut CONNU",
+      "1.6 Exemples numériques : source binaire symétrique, source biaisée, distribution uniforme sur $n$ symboles"
+     ],
+     "exercices": [
+      "Calculer $H(X)$ pas à pas pour une source à trois symboles de probabilités $(1/2, 1/4, 1/4)$ et vérifier $H \\leq \\log_2 3$.",
+      "Montrer par le calcul que la divergence $D_{KL}(p\\|q) \\geq 0$ pour deux distributions binaires explicites, avec égalité ssi $p=q$.",
+      "Prouver la sous-additivité $H(X,Y) \\leq H(X)+H(Y)$ à partir de la définition et de la concavité de $\\log$.",
+      "Pour une source uniforme sur $\\{1,\\ldots,8\\}$, vérifier que l'entropie vaut exactement 3 bits et interpréter en termes de questions binaires."
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Information mutuelle, entropie conditionnelle et inégalité de traitement des données",
+     "objectif": "Introduire l'information mutuelle comme mesure de ce qu'une observation révèle sur une variable, et démontrer l'inégalité de traitement des données qui interdit à tout post-traitement d'accroître l'information — contrainte fondamentale sur toute traduction.",
+     "sections": [
+      "2.1 Entropie conditionnelle $H(X|Y)$ et règle de chaîne — statut PROUVÉ",
+      "2.2 Information mutuelle $I(X;Y) = H(X)-H(X|Y)$ et symétrie — statut PROUVÉ",
+      "2.3 Interprétation géométrique : distance de la loi jointe au produit des marginales — statut CONNU",
+      "2.4 Inégalité de traitement des données : si $X \\to Y \\to Z$ est une chaîne de Markov, alors $I(X;Z) \\leq I(X;Y)$ — statut PROUVÉ (preuve complète)",
+      "2.5 Conséquences pour les traductions : aucune traduction déterministe ne crée de l'information sur l'entrée — statut CONNU",
+      "2.6 Information mutuelle conditionnelle et interaction : $I(X;Y|Z)$ — statut CONNU"
+     ],
+     "exercices": [
+      "Démontrer l'identité $I(X;Y) = \\sum_{x,y} p(x,y)\\log_2\\frac{p(x,y)}{p(x)p(y)}$ à partir de la définition par entropies.",
+      "Vérifier numériquement l'inégalité de traitement des données sur un canal binaire symétrique de taux d'erreur $0{,}1$ suivi d'un quantifieur.",
+      "Montrer que $I(X;X) = H(X)$ et que $I(X;Y) \\leq \\min(H(X),H(Y))$.",
+      "Construire un exemple où $I(X;Y) = 0$ mais $I(X;Y|Z) > 0$ (paradoxe de Simpson informationnel)."
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Codage de source : compression et borne de Shannon",
+     "objectif": "Établir le théorème du codage de source : on peut encoder une source i.i.d. à un taux arbitrairement proche de $H(X)$ bits/symbole mais jamais en dessous — la traduction « source → bits » a un coût incompressible.",
+     "sections": [
+      "3.1 Codes préfixes et inégalité de Kraft — statut PROUVÉ (preuve complète)",
+      "3.2 Longueur moyenne d'un code et borne $L \\geq H(X)$ — statut PROUVÉ",
+      "3.3 Codage de Huffman : optimalité pour une distribution fixée — statut CONNU",
+      "3.4 Codage par blocs et typicité : suite typique, loi des grands nombres — statut CONNU",
+      "3.5 Théorème du codage de source de Shannon : taux $R > H(X)$ réalisable, $R < H(X)$ impossible — statut PROUVÉ (idée de preuve)",
+      "3.6 Traduction et compression : ce qu'une traduction entre modèles peut gagner ou perdre en taille de description"
+     ],
+     "exercices": [
+      "Construire le code de Huffman pour la source $(0{,}4;\\, 0{,}2;\\, 0{,}2;\\, 0{,}1;\\, 0{,}1)$ et calculer la longueur moyenne.",
+      "Vérifier l'inégalité de Kraft pour le code obtenu et montrer qu'elle est serrée.",
+      "Calculer la taille de l'ensemble typique $A_\\epsilon^{(n)}$ pour $n=100$ et $p=0{,}6$, en utilisant $|A_\\epsilon^{(n)}| \\approx 2^{nH(X)}$.",
+      "Montrer que pour une source uniforme sur $n$ symboles, le code à longueur fixe est optimal."
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Codage de canal : capacité et fiabilité",
+     "objectif": "Présenter le théorème du codage de canal : transmettre à un taux inférieur à la capacité $C$ avec une probabilité d'erreur arbitrairement petite est possible ; au-delà, c'est impossible. La capacité est la ressource maximale de traduction fidèle à travers un canal bruité.",
+     "sections": [
+      "4.1 Modèle du canal discret sans mémoire : matrice de transition $p(y|x)$ — statut CONNU",
+      "4.2 Capacité d'un canal : $C = \\max_{p(x)} I(X;Y)$ — statut PROUVÉ (définition et existence du maximum)",
+      "4.3 Capacité du canal binaire symétrique : $C = 1 - H(p)$ — statut PROUVÉ (calcul explicite)",
+      "4.4 Théorème du codage de canal de Shannon : énoncé et idée de la preuve (typicité jointe, décodage par vraisemblance) — statut PROUVÉ",
+      "4.5 Traduction bruitée : modéliser une traduction entre modèles comme un canal et borner la fidélité — statut CONNU",
+      "4.6 Converse : pourquoi tout taux $R > C$ conduit à une erreur non nulle — statut PROUVÉ (sketch)"
+     ],
+     "exercices": [
+      "Calculer la capacité du canal binaire symétrique avec $p=0{,}1$ pas à pas : trouver $C = 1 - H(0{,}1)$.",
+      "Montrer que la capacité du canal à effacement de probabilité $\\alpha$ est $1-\\alpha$.",
+      "Vérifier que pour un canal sans bruit ($p(y|x) = \\delta_{y,x}$), la capacité est $\\log_2 |\\mathcal{X}|$.",
+      "Discuter : une traduction entre deux modèles de calcul peut-elle être modélisée comme un canal à effacement ? Quelles hypothèses sont nécessaires ?"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Complexité de Kolmogorov : l'invariant de traduction",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Complexité de Kolmogorov : définition et premières propriétés",
+     "objectif": "Définir la complexité de Kolmogorov $K(x)$ comme longueur du plus court programme produisant $x$, et établir ses propriétés fondamentales : universalité, incompressibilité, lien avec l'entropie.",
+     "sections": [
+      "5.1 Motivation : décrire un objet par le programme qui l'engendre — intuition et exemples",
+      "5.2 Définition formelle : machine de Turing universelle $U$, $K(x) = \\min\\{|p| : U(p)=x\\}$ — statut CONNU (Kolmogorov 1965)",
+      "5.3 Complexité préfixe $K_0(x)$ et codage auto-délimitant — statut CONNU (Chaitin 1966)",
+      "5.4 Incompressibilité : il existe des $x$ de longueur $n$ avec $K(x) \\geq n$ — statut PROUVÉ (argument de dénombrement, preuve complète)",
+      "5.5 Proportion de chaînes incompressibles : $\\geq 1 - 2^{-c}$ des chaînes de longueur $n$ ont $K(x) \\geq n - c$ — statut PROUVÉ",
+      "5.6 Lien entre $K(x)$ et $H(X)$ : pour une source i.i.d., $K(x^n) \\approx nH(X)$ pour les suites typiques — statut CONNU"
+     ],
+     "exercices": [
+      "Montrer par dénombrement qu'au plus $2^{n-c} - 1$ chaînes de longueur $n$ ont une complexité $< n - c$.",
+      "Exhiber une chaîne de longueur 64 dont la complexité est très inférieure à 64 (ex. répétition) et une chaîne dont la complexité est proche de 64.",
+      "Prouver que $K(x) \\leq |x| + O(1)$ pour toute chaîne $x$ (programme « copier l'entrée »).",
+      "Discuter : pourquoi la chaîne « 0 répété $10^{100}$ fois » a-t-elle une complexité bien inférieure à $10^{100}$ ?"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Théorème d'invariance : la constante additive comme invariant de traduction",
+     "objectif": "Démontrer le théorème d'invariance : pour deux machines universelles $U_1$ et $U_2$, $|K_{U_1}(x) - K_{U_2}(x)| \\leq c$ pour une constante $c$ indépendante de $x$. C'est l'invariant de traduction au sens fort du programme RTC.",
+     "sections": [
+      "6.1 Énoncé du théorème d'invariance — statut PROUVÉ (Kolmogorov 1965, Chaitin 1966)",
+      "6.2 Preuve complète : simulation d'une machine par l'autre via un programme fixe de longueur $c$ — statut PROUVÉ",
+      "6.3 Interprétation : la complexité est un invariant de traduction à une constante près",
+      "6.4 Complexité relative $K(x|y)$ et théorème d'invariance conditionnel — statut CONNU",
+      "6.5 Complexité de Kolmogorov et traductions entre modèles : Turing → RAM, Turing → circuit, circuit → formule — statut CONNU (Li et Vitányi 1993)",
+      "6.6 Limites de l'invariance : la constante dépend du couple de machines, pas de l'entrée — discussion"
+     ],
+     "exercices": [
+      "Écrire explicitement le squelette de la preuve d'invariance : étant donné un interpréteur de $U_1$ codé sur $U_2$ de longueur $c$, montrer $K_{U_2}(x) \\leq K_{U_1}(x) + c$.",
+      "Montrer que pour la complexité conditionnelle, $|K_{U_1}(x|y) - K_{U_2}(x|y)| \\leq c'$ pour une constante $c'$ indépendante de $x$ et $y$.",
+      "Discuter : si l'on traduit un programme d'une machine à 2 états vers une machine à 5 états, la constante additive change-t-elle ?",
+      "Argumenter que la complexité de Kolmogorov est le seul invariant de traduction connu à être indépendant de la machine à une constante près."
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Non-calculabilité et indécidabilité de la complexité de Kolmogorov",
+     "objectif": "Établir que $K(x)$ n'est pas calculable (Chaitin 1966), que la fonction « première chaîne de complexité $\\geq n$ » est non calculable, et discuter les implications pour la vérification automatique des traductions.",
+     "sections": [
+      "7.1 Non-calculabilité de $K(x)$ : preuve par diagonalisation (Berry) — statut PROUVÉ (Chaitin 1966)",
+      "7.2 Impossibilité de décider « $K(x) \\geq n$ » pour un $n$ fixé — statut PROUVÉ",
+      "7.3 Complexité de Kolmogorov et problème de l'arrêt : réduction — statut CONNU (Li et Vitányi 1993)",
+      "7.4 Bornes supérieures calculables : $K(x) \\leq |x| + 2\\log_2|x| + O(1)$ — statut PROUVÉ",
+      "7.5 Implications pour les traductions : on ne peut pas certifier automatiquement qu'une traduction est optimale en taille — statut CONNU",
+      "7.6 Complexité de Kolmogorov et aléatoire algorithmique : suite de Martin-Löf — statut CONNU"
+     ],
+     "exercices": [
+      "Reproduire l'argument de Berry : supposer un programme de longueur $< \\log_2 n$ qui trouve la première chaîne de complexité $\\geq n$, et dériver la contradiction.",
+      "Montrer que si $K$ était calculable, on pourrait résoudre le problème de l'arrêt (sketch).",
+      "Calculer une borne supérieure explicite de $K(x)$ pour $x$ de longueur $n = 1000$ en utilisant le codage auto-délimitant.",
+      "Discuter : la non-calculabilité de $K$ empêche-t-elle d'utiliser la complexité de Kolmogorov comme outil théorique dans le programme RTC ?"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Solomonoff, induction et information algorithmique",
+     "objectif": "Présenter la théorie de l'induction de Solomonoff (1964) comme cadre unifiant complexité algorithmique et prédiction, et discuter son rapport avec les traductions induction → déduction.",
+     "sections": [
+      "8.1 Probabilité universelle de Solomonoff : $M(x) = \\sum_{p:\\,U(p)\\sqsupset x} 2^{-|p|}$ — statut CONNU (Solomonoff 1964)",
+      "8.2 Lien entre $-\\log_2 M(x)$ et $K(x)$ : égalité à une constante additive près — statut CONNU",
+      "8.3 Induction et prédiction : la distribution de Solomonoff comme prédicteur optimal — statut CONNU",
+      "8.4 Complexité algorithmique et entropie de Shannon : deux mesures, deux régimes — statut CONNU",
+      "8.5 Traduction induction → déduction : ce qui est conservé, ce qui est perdu — statut OUVERT (discussion)",
+      "8.6 Limites : non-calculabilité de $M(x)$ et approximations pratiques — statut CONNU"
+     ],
+     "exercices": [
+      "Montrer que $-\\log_2 M(x) \\leq K(x) + O(1)$ en exhibant le programme minimal dans la somme.",
+      "Calculer $M(x)$ pour une machine universelle triviale (un seul programme de longueur 1 qui produit « 0 ») et vérifier la formule.",
+      "Discuter : la probabilité de Solomonoff est-elle une « traduction » de la complexité en probabilité ? En quel sens ?",
+      "Comparer $K(x)$ et $nH(X)$ pour une suite typique de la source binaire symétrique de longueur $n=50$."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Communication, énergie et représentation : coûts de traduction",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Complexité de communication de Yao",
+     "objectif": "Introduire le modèle de communication de Yao (1979) : deux joueurs, Alice et Bob, doivent calculer $f(x,y)$ en échangeant un minimum de bits. La complexité de communication mesure la ressource « partage » dans une traduction distribuée.",
+     "sections": [
+      "9.1 Modèle de communication à deux joueurs : protocole, transcript, coût — statut CONNU (Yao 1979)",
+      "9.2 Complexité de communication déterministe $D(f)$ et matrice de communication — statut CONNU",
+      "9.3 Borne inférieure par rang : $D(f) \\geq \\log_2 \\mathrm{rank}(M_f)$ — statut PROUVÉ (Kushilevitz et Nisan 1997)",
+      "9.4 Protocole d'égalité EQ : $D(\\mathrm{EQ}) = n+1$ bits en déterministe — statut PROUVÉ (preuve par matrice)",
+      "9.5 Complexité de communication probabiliste et randomisée — statut CONNU",
+      "9.6 Lien avec la profondeur des circuits : traduire un circuit en protocole et réciproquement — statut CONNU (Kushilevitz et Nisan 1997)"
+     ],
+     "exercices": [
+      "Écrire la matrice de communication de la fonction ET sur $\\{0,1\\}^2$ et calculer son rang.",
+      "Démontrer que $D(\\mathrm{EQ}_n) \\geq n+1$ en utilisant l'argument des feuilles du protocole.",
+      "Construire un protocole à $\\lceil \\log_2(n+1)\\rceil$ bits pour la fonction « indice du premier 1 ».",
+      "Montrer que la complexité de communication de la fonction DISJ (disjonction sur $n$ bits) est $\\Theta(n)$."
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Jeux de Karchmer-Wigderson et profondeur des formules",
+     "objectif": "Présenter la connexion de Karchmer-Wigderson (1990) entre profondeur des formules booléennes et complexité de communication, et l'appliquer à la borne inférieure super-logarithmique pour la connexité monotone.",
+     "sections": [
+      "10.1 Formules booléennes, profondeur et taille — définitions et exemples — statut CONNU",
+      "10.2 Le jeu KW : Alice reçoit $x \\in f^{-1}(1)$, Bob reçoit $y \\in f^{-1}(0)$, ils doivent trouver un indice $i$ où $x_i \\neq y_i$ — statut CONNU (Karchmer et Wigderson 1990)",
+      "10.3 Théorème : la profondeur minimale d'une formule pour $f$ est exactement la complexité de communication du jeu $KW_f$ — statut PROUVÉ (idée de preuve)",
+      "10.4 Application : connexité monotone $\\mathrm{CONN}_n$ nécessite une profondeur super-logarithmique — statut PROUVÉ (Karchmer et Wigderson 1990)",
+      "10.5 Interprétation en termes de traduction : la profondeur est un coût de communication séquentielle — statut CONNU",
+      "10.6 Limites et extensions : formules non monotones, profondeur et largeur — statut OUVERT (discussion)"
+     ],
+     "exercices": [
+      "Écrire le jeu KW pour la fonction PARITÉ sur 3 bits et exhiber un protocole optimal.",
+      "Montrer que la profondeur d'une formule pour OU sur $n$ entrées est $\\lceil \\log_2 n \\rceil$ (formule équilibrée).",
+      "Expliquer pourquoi la traduction « formule → circuit » peut réduire la profondeur mais augmenter la taille.",
+      "Discuter : le jeu KW fournit-il une mesure de la ressource « profondeur » au sens du programme RTC ?"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Coût énergétique du calcul : Landauer et Bennett",
+     "objectif": "Établir le principe de Landauer (1961) — effacer un bit dissipe au moins $k_B T \\ln 2$ joules — et la construction de Bennett (1973) montrant que tout calcul peut être rendu réversible, éliminant cette dissipation au prix d'un surcoût mémoire.",
+     "sections": [
+      "11.1 Irréversibilité logique et dissipation : l'argument de Landauer — statut CONNU (Landauer 1961)",
+      "11.2 Formulation quantitative : $E_{\\min} = k_B T \\ln 2$ par bit effacé — statut CONNU",
+      "11.3 Calcul réversible : portes de Toffoli, Fredkin, simulation réversible — statut CONNU (Bennett 1973)",
+      "11.4 Théorème de Bennett : tout calcul en temps $T$ et espace $S$ peut être simulé réversiblement en temps $O(T)$ et espace $O(S \\log T)$ — statut PROUVÉ (idée de preuve)",
+      "11.5 Compromis énergie-mémoire-temps dans la traduction réversible — statut CONNU",
+      "11.6 Discussion : le calcul quantique est-il intrinsèquement réversible ? Limites thermodynamiques — statut OUVERT"
+     ],
+     "exercices": [
+      "Calculer l'énergie minimale dissipée par l'effacement de 1 Go de données à $T = 300$ K.",
+      "Montrer qu'une porte ET est irréversible (2 bits en entrée, 1 bit en sortie) et proposer une version réversible (Toffoli).",
+      "Esquisser la simulation de Bennett : exécuter, copier la sortie, dés-exécuter — et compter les bits de mémoire auxiliaire.",
+      "Discuter : dans une traduction « circuit irréversible → circuit réversible », quelle ressource augmente ? Laquelle diminue ?"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Économie de radix et coût de représentation",
+     "objectif": "Analyser le coût de représentation d'un nombre selon la base $b$ (radix) : le produit « nombre de chiffres × coût par chiffre » est minimisé en base $e \\approx 2{,}718$, la base entière la plus proche étant 3. C'est une traduction de représentation dont le coût dépend du radix.",
+     "sections": [
+      "12.1 Représentation en base $b$ : $n$ chiffres de $\\lceil \\log_b N \\rceil$ bits — définitions — statut CONNU",
+      "12.2 Coût d'un chiffre en base $b$ : proportionnel à $b$ (nombre d'états physiques) — statut CONNU",
+      "12.3 Fonction de coût : $C(b) = b \\cdot \\log_b N = \\frac{b \\ln N}{\\ln b}$ — statut PROUVÉ",
+      "12.4 Minimisation : $C'(b) = 0 \\iff \\ln b = 1 \\iff b = e$ — statut PROUVÉ (preuve complète par dérivation)",
+      "12.5 Comparaison des bases 2, 3, 4, 10, 16 : tableau numérique — statut PROUVÉ (calcul)",
+      "12.6 Traduction de représentation : passer de base 2 à base 3, coût informationnel et perte éventuelle — statut CONNU"
+     ],
+     "exercices": [
+      "Calculer $C(2)$, $C(3)$, $C(e)$, $C(10)$ pour $N = 2^{32}$ et vérifier que $C(3) < C(2)$.",
+      "Démontrer que $C''(e) > 0$ pour confirmer que $b=e$ est bien un minimum.",
+      "Montrer que le gain relatif de la base 3 sur la base 2 est $\\frac{C(2)-C(3)}{C(2)} \\approx 5{,}9\\%$.",
+      "Discuter : la base 3 est-elle utilisée en pratique ? Pourquoi la base 2 domine-t-elle malgré le sous-optimum théorique ? (lien avec le coût des portes logiques)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Goulots d'information, synthèse et transfert vers RTC",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Le goulot d'information dans les réseaux de neurones",
+     "objectif": "Présenter la méthode du goulot d'information (Tishby, Pereira et Bialek 1999) et discuter son statut pour l'analyse des réseaux de neurones profonds : formulation CONNUE, application aux réseaux profonds CONJECTURE.",
+     "sections": [
+      "13.1 Formulation du problème : maximiser $I(T;Y)$ sous contrainte $I(T;X) \\leq \\beta$ — statut CONNU (Tishby, Pereira et Bialek 1999)",
+      "13.2 Fonctionnelle de Lagrange : $\\mathcal{L}_{IB}(T) = I(T;X) - \\beta\\, I(T;Y)$ — statut CONNU",
+      "13.3 Courbe informationnelle et solutions auto-cohérentes — statut CONNU",
+      "13.4 Application aux couches d'un réseau de neurones : $I(X;T_\\ell)$ et $I(T_\\ell;Y)$ — statut CONJECTURE (Tishby, Pereira et Bialek 1999)",
+      "13.5 Critiques et limites : la conjecture de compression est-elle vérifiée empiriquement ? — statut OUVERT",
+      "13.6 Lien avec les traductions : chaque couche est-elle une traduction ? Quelle information est perdue ? — discussion"
+     ],
+     "exercices": [
+      "Écrire la fonctionnelle $\\mathcal{L}_{IB}$ pour une variable $T$ binaire et $X, Y$ binaires, et résoudre le cas $\\beta \\to \\infty$.",
+      "Montrer que pour $\\beta = 0$, la solution optimale est $T$ indépendant de $X$ (pas d'information).",
+      "Calculer $I(X;T)$ et $I(T;Y)$ pour un réseau à une couche linéaire avec bruit gaussien (cas unidimensionnel).",
+      "Discuter : la conjecture « les réseaux profonds compriment l'information couche par couche » est-elle réfutée, confirmée ou ouverte ?"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Synthèse : l'information comme prisme unificateur des traductions",
+     "objectif": "Croiser les outils des parties I à III : montrer comment entropie, complexité de Kolmogorov, communication, énergie et radix éclairent chacun une facette différente de la traduction entre modèles de calcul.",
+     "sections": [
+      "14.1 Tableau récapitulatif : ressource × outil informationnel × type de traduction",
+      "14.2 Hiérarchie des invariants : $K(x)$ (constante additive), $H(X)$ (dépend de la distribution), $D(f)$ (dépend de la fonction) — statut CONNU",
+      "14.3 Traductions réversibles vs irréversibles : ce que Landauer-Bennett impose — statut CONNU",
+      "14.4 Traductions distribuées : le rôle de la complexité de communication — statut CONNU",
+      "14.5 Traductions de représentation : radix, codage, compression — statut CONNU",
+      "14.6 Ce qui résiste à l'analyse informationnelle : limites des outils présentés — statut OUVERT"
+     ],
+     "exercices": [
+      "Construire un tableau croisé 7 ressources (taille, temps, mémoire, profondeur, largeur, précision, partage) × 5 outils (Shannon, Kolmogorov, Yao, Landauer, radix).",
+      "Pour la traduction « machine de Turing → circuit booléen », identifier quelle ressource est conservée et laquelle est perdue.",
+      "Argumenter que la complexité de Kolmogorov est un invariant de traduction « fort » tandis que l'entropie de Shannon est un invariant « faible » (dépend de la distribution).",
+      "Proposer une traduction entre deux modèles non encore analysée dans le livre et esquisser son bilan informationnel."
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Questions ouvertes et conjectures",
+     "objectif": "Recenser les problèmes ouverts et conjectures rencontrés dans le livre, en les classant par ressource et par type de traduction, et en indiquant les outils informationnels pertinents.",
+     "sections": [
+      "15.1 Conjecture de compression dans les réseaux profonds : statut et difficultés — statut OUVERT",
+      "15.2 Bornes inférieures de communication vs bornes de circuits : séparation $P$ vs $NP$ informationnelle — statut OUVERT",
+      "15.3 Complexité de Kolmogorov et physique : l'entropie thermodynamique est-elle une traduction de $K$ ? — statut OUVERT",
+      "15.4 Calcul réversible optimal : le surcoût $O(S \\log T)$ de Bennett est-il serré ? — statut OUVERT",
+      "15.5 Radix non entier et représentation quantique : la base $e$ a-t-elle un analogue quantique ? — statut OUVERT",
+      "15.6 Vers une théorie unifiée des traductions à ressources : obstacles — statut OUVERT"
+     ],
+     "exercices": [
+      "Pour la conjecture de compression, formuler une version testable expérimentalement et proposer un protocole.",
+      "Montrer que si l'on pouvait calculer $K(x)$ efficacement, on séparerait certaines classes de complexité (discussion).",
+      "Estimer le surcoût mémoire de Bennett pour un calcul de $T = 10^{12}$ étapes et $S = 10^6$ bits.",
+      "Rédiger une liste de 5 questions ouvertes non mentionnées dans le chapitre qui relèveraient du programme RTC."
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Transfert vers le programme RTC",
+     "objectif": "Synthétiser ce que ce tome apporte à l'étude des traductions à ressources du programme RTC : quelles ressources sont gouvernées par quelles contraintes informationnelles, quelles traductions sont analysées, quelles questions restent ouvertes.",
+     "sections": [
+      "16.1 Rappel des 7 ressources RTC : taille, temps, mémoire, profondeur, largeur, précision, partage",
+      "16.2 Ce que Shannon apporte : bornes de taille (codage de source) et de fidélité (codage de canal) — statut CONNU",
+      "16.3 Ce que Kolmogorov apporte : invariant de traduction fort, incompressibilité, non-calculabilité — statut CONNU",
+      "16.4 Ce que Yao et Karchmer-Wigderson apportent : coût de partage et de profondeur — statut CONNU",
+      "16.5 Ce que Landauer-Bennett apportent : coût énergétique et réversibilité comme contrainte de mémoire — statut CONNU",
+      "16.6 Ce que le radix et le goulot d'information apportent : coût de représentation et compression dans les couches — statut CONNU / CONJECTURE",
+      "16.7 Programme de travail : 10 questions ouvertes pour le RTC issues de ce tome — statut OUVERT",
+      "16.8 Méthodologie recommandée : pour toute traduction $\\mathcal{T} : \\mathcal{M}_1 \\to \\mathcal{M}_2$, dresser le bilan $(\\Delta\\text{taille}, \\Delta\\text{temps}, \\Delta\\text{mémoire}, \\Delta\\text{profondeur}, \\Delta\\text{largeur}, \\Delta\\text{précision}, \\Delta\\text{partage})$ et l'exprimer en bits — statut CONNU (méthode)"
+     ],
+     "exercices": [
+      "Pour la traduction « programme Python → code machine x86 », estimer qualitativement les 7 $\\Delta$ du bilan RTC.",
+      "Pour la traduction « réseau de neurones convolutif → circuit arithmétique », identifier la ressource dominante et l'outil informationnel pertinent.",
+      "Proposer une traduction entre modèles non abordée dans le livre et appliquer la méthode du § 16.8.",
+      "Rédiger un paragraphe de conclusion : en quoi la théorie de l'information est-elle un « instrument » et non une « solution » pour le programme RTC ?"
+     ]
+    }
+   ]
+  }
+ ]
+}
