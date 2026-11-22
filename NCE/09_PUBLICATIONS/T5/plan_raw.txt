@@ -1,0 +1,377 @@
+{
+  "titre": "Du Lambda-calcul aux Machines de Turing",
+  "sous_titre": "Traductions, équivalences et coût des ressources entre deux modèles fondateurs du calcul",
+  "these": "Le lambda-calcul et les machines de Turing définissent la même classe de fonctions calculables, mais les traductions qui les relient ne sont pas neutres : elles conservent la calculabilité tout en perdant ou en transformant des ressources structurelles (taille, temps, mémoire, profondeur, largeur, précision, partage). Ce tome cartographie ces traductions dans les deux sens, mesure leur coût et identifie ce qui résiste, ce qui se dilate et ce qui disparaît lors du passage d'un modèle à l'autre.",
+  "cadre": {
+    "nom": "Les traductions à ressources et le registre des statuts",
+    "description": "RÈGLES ABSOLUES : (1) ne citer QUE les références de la liste ci-dessous, avec l'auteur et l'année indiqués ; n'en inventer aucune ; aucun DOI, aucun numéro de page, aucune citation entre guillemets attribuée à un chercheur ; (2) ne jamais présenter une intuition comme une preuve ; donner des preuves complètes pour les résultats démontrés dans le livre, et pour les grands théorèmes connus donner l'idée de la preuve en le disant ; (3) chaque affirmation porte un statut : PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ ou OUVERT ; (4) aucune annonce de découverte ; (5) formules en LaTeX entre $...$ ou $$...$$ ; (6) lecteur cultivé non spécialiste : intuition, définition, énoncé, exemple, exercice ; (7) dernier chapitre : « Transfert vers le programme RTC » (ce que ce tome apporte à l'étude des traductions à ressources : quelles ressources, quelles traductions, quelles questions ouvertes). (8) ce tome est un tome de TRADUCTION entre deux modèles : pour chaque traduction, donner le sens, le coût (taille, temps, mémoire, profondeur, largeur, précision, partage), ce qui est conservé et ce qui est perdu, avec son statut. Références autorisées (et seulement elles) : Church 1936 (An unsolvable problem of elementary number theory) ; Turing 1936 (On computable numbers, with an application to the Entscheidungsproblem) ; Turing 1937 (Computability and lambda-definability) ; Landin 1964 (The mechanical evaluation of expressions) ; Hartmanis et Stearns 1965 (On the computational complexity of algorithms) ; Barendregt 1984 (The Lambda Calculus: Its Syntax and Semantics) ; Lamping 1990 (An algorithm for optimal lambda calculus reduction) ; Krivine 2007 (A call-by-name lambda-calculus machine) ; Arora et Barak 2009 (Computational Complexity: A Modern Approach) ; Accattoli et Dal Lago 2016 ((Leftmost-outermost) beta reduction is invariant, indeed)"
+  },
+  "bibliographie": [
+    {
+      "auteur": "Church",
+      "titre": "An unsolvable problem of elementary number theory",
+      "annee": "1936",
+      "idee": "Introduction du lambda-calcul comme formalisme de calcul et démonstration de l'indécidabilité de problèmes arithmétiques.",
+      "apport": "Fonde le lambda-calcul et pose la première version de la thèse de calculabilité effective."
+    },
+    {
+      "auteur": "Turing",
+      "titre": "On computable numbers, with an application to the Entscheidungsproblem",
+      "annee": "1936",
+      "idee": "Définition d'une machine abstraite à ruban et preuve de l'indécidabilité du problème de la décision.",
+      "apport": "Introduit le modèle des machines de Turing comme référence opérationnelle du calcul."
+    },
+    {
+      "auteur": "Turing",
+      "titre": "Computability and lambda-definability",
+      "annee": "1937",
+      "idee": "Preuve que les fonctions lambda-définissables et les fonctions calculables par machine de Turing coïncident.",
+      "apport": "Établit l'équivalence extensionnelle entre les deux modèles."
+    },
+    {
+      "auteur": "Landin",
+      "titre": "The mechanical evaluation of expressions",
+      "annee": "1964",
+      "idee": "Conception de la machine SECD pour évaluer les lambda-termes avec environnement et pile de contrôle.",
+      "apport": "Première machine abstraite réalisant une traduction lambda-calcul vers un modèle à états finis et mémoire."
+    },
+    {
+      "auteur": "Hartmanis et Stearns",
+      "titre": "On the computational complexity of algorithms",
+      "annee": "1965",
+      "idee": "Fondation de la théorie de la complexité en temps et en espace sur machine de Turing.",
+      "apport": "Donne le cadre métrique (classes de complexité) dans lequel mesurer le coût des traductions."
+    },
+    {
+      "auteur": "Barendregt",
+      "titre": "The Lambda Calculus: Its Syntax and Semantics",
+      "annee": "1984",
+      "idee": "Traité de référence sur la syntaxe, les stratégies de réduction et les modèles du lambda-calcul.",
+      "apport": "Fixe les théorèmes de confluence, de normalisation et les stratégies de réduction utilisées dans tout le livre."
+    },
+    {
+      "auteur": "Lamping",
+      "titre": "An algorithm for optimal lambda calculus reduction",
+      "annee": "1990",
+      "idee": "Algorithme de réduction par graphe avec partage optimal des duplications.",
+      "apport": "Montre que le partage peut être conservé au prix d'étiquettes, définissant une borne inférieure du coût de la bêta-réduction."
+    },
+    {
+      "auteur": "Krivine",
+      "titre": "A call-by-name lambda-calculus machine",
+      "annee": "2007",
+      "idee": "Machine à pile et environnement réalisant l'appel par nom de façon minimaliste.",
+      "apport": "Traduction compacte lambda-calcul → machine abstraite, base des machines à environnement modernes."
+    },
+    {
+      "auteur": "Arora et Barak",
+      "titre": "Computational Complexity: A Modern Approach",
+      "annee": "2009",
+      "idee": "Présentation unifiée des classes de complexité et des théorèmes de simulation entre modèles.",
+      "apport": "Donne les théorèmes de simulation polynomiale entre modèles raisonnables, cadre du modèle de coût invariant."
+    },
+    {
+      "auteur": "Accattoli et Dal Lago",
+      "titre": "(Leftmost-outermost) beta reduction is invariant, indeed",
+      "annee": "2016",
+      "idee": "Preuve que la stratégie leftmost-outermost est invariante au sens de la complexité.",
+      "apport": "Établit que le lambda-calcul est un modèle de complexité raisonnable malgré l'explosion de taille apparente."
+    }
+  ],
+  "parties": [
+    {
+      "titre": "Partie I — Fondations : deux langages du calcul",
+      "chapitres": [
+        {
+          "numero": 1,
+          "titre": "Le lambda-calcul comme langage de la substitution",
+          "objectif": "Définir le lambda-calcul pur, ses termes, sa réduction, et préparer les ressources (taille, profondeur, largeur) qui seront suivies tout au long du livre.",
+          "sections": [
+            "1.1 Intuition : calculer, c'est substituer",
+            "1.2 Syntaxe : variables, abstraction, application",
+            "1.3 Alpha-conversion et substitution sans capture",
+            "1.4 Bêta-réduction : la règle unique",
+            "1.5 Ressources d'un lambda-terme : taille, profondeur, largeur, nombre de liaisons",
+            "1.6 Statuts du chapitre : définitions (CONNU)"
+          ],
+          "exercices": [
+            "Calculer la taille et la profondeur de $\\lambda x. x\\, x$ et de son application à lui-même.",
+            "Montrer que la substitution naïve peut provoquer une capture de variable et proposer une alpha-conversion correcte.",
+            "Exhiber un terme dont la taille double après une bêta-réduction."
+          ]
+        },
+        {
+          "numero": 2,
+          "titre": "Les machines de Turing comme langage de la bande",
+          "objectif": "Définir la machine de Turing, ses configurations, ses transitions, et les ressources associées (temps, espace, largeur de ruban, nombre d'états).",
+          "sections": [
+            "2.1 Intuition : un automate qui écrit et se déplace",
+            "2.2 Définition formelle : états, alphabet, fonction de transition",
+            "2.3 Configurations et pas de calcul",
+            "2.4 Variantes : plusieurs rubans, ruban semi-infini, alphabet binaire",
+            "2.5 Ressources : temps, espace, largeur, nombre d'états",
+            "2.6 Statuts : définitions (CONNU), équivalences entre variantes (CONNU)"
+          ],
+          "exercices": [
+            "Construire une MT qui reconnaît $\\{a^n b^n \\mid n \\ge 0\\}$ et analyser son temps et son espace.",
+            "Simuler une MT à deux rubans par une MT à un ruban et borner la perte en temps.",
+            "Comparer la taille de la description d'une MT à alphabet $k$ et à alphabet binaire."
+          ]
+        },
+        {
+          "numero": 3,
+          "titre": "La thèse de Church-Turing",
+          "objectif": "Énoncer la thèse, distinguer sa part mathématique (PROUVÉ) de sa part épistémologique (CONNU), et préparer le cadre des traductions.",
+          "sections": [
+            "3.1 Les trois thèses : Church, Turing, Church-Turing",
+            "3.2 Church 1936 : lambda-définissabilité et calcul effectif",
+            "3.3 Turing 1936 : calculabilité mécanique",
+            "3.4 La thèse comme pont entre intuition et formalisme",
+            "3.5 Statuts : thèse mathématique (PROUVÉ), thèse épistémologique (CONNU), extensions (OUVERT)"
+          ],
+          "exercices": [
+            "Discuter si une fonction calculable par un humain suivant une procédure est nécessairement Turing-calculable.",
+            "Comparer la formulation de Church et celle de Turing en termes de ressources demandées à l'agent calculant."
+          ]
+        },
+        {
+          "numero": 4,
+          "titre": "L'équivalence extensionnelle : Turing 1937",
+          "objectif": "Présenter l'idée de la preuve de Turing 1937 : toute fonction lambda-définissable est Turing-calculable et réciproquement.",
+          "sections": [
+            "4.1 Énoncé du théorème d'équivalence",
+            "4.2 Idée de la preuve : de Turing vers Church",
+            "4.3 Idée de la preuve : de Church vers Turing",
+            "4.4 Ce que le théorème dit et ce qu'il ne dit pas",
+            "4.5 Statut : PROUVÉ (équivalence extensionnelle)"
+          ],
+          "exercices": [
+            "Expliquer pourquoi l'équivalence extensionnelle ne suffit pas à garantir l'équivalence en complexité.",
+            "Donner un exemple de deux modèles extensionnellement équivalents mais de complexités différentes."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Partie II — Traduction des machines de Turing vers le lambda-calcul",
+      "chapitres": [
+        {
+          "numero": 5,
+          "titre": "Encoder les données : entiers, booléens, listes",
+          "objectif": "Présenter les encodages de Church et leurs coûts en taille et en profondeur, première brique de la traduction TM → λ.",
+          "sections": [
+            "5.1 Entiers de Church : $\\bar n = \\lambda f. \\lambda x. f^n(x)$",
+            "5.2 Booléens et conditionnelles",
+            "5.3 Paires et listes",
+            "5.4 Coût en taille de l'encodage d'un entier $n$",
+            "5.5 Statut : PROUVÉ (encodages corrects), CONNU (coûts)"
+          ],
+          "exercices": [
+            "Calculer la taille de $\\bar n$ en fonction de $n$.",
+            "Construire la fonction successeur et analyser son coût en réduction.",
+            "Encoder une liste d'entiers et borner la taille du terme résultant."
+          ]
+        },
+        {
+          "numero": 6,
+          "titre": "Encoder une machine de Turing en lambda-terme",
+          "objectif": "Construire explicitement un lambda-terme qui simule pas à pas une MT donnée, et mesurer la traduction (sens TM → λ).",
+          "sections": [
+            "6.1 Représentation d'une configuration",
+            "6.2 Fonction de transition comme lambda-terme",
+            "6.3 Itération : point fixe et boucle de calcul",
+            "6.4 Lecture du résultat : décodage",
+            "6.5 Traduction TM → λ : sens, coût, conservation, perte — statut PROUVÉ"
+          ],
+          "exercices": [
+            "Écrire le lambda-terme simulant une MT à deux états sur alphabet binaire.",
+            "Borner la taille du terme obtenu en fonction de la taille de la description de la MT.",
+            "Identifier les redexes créés à chaque pas de simulation."
+          ]
+        },
+        {
+          "numero": 7,
+          "titre": "Explosion de taille et duplication",
+          "objectif": "Montrer que la simulation λ d'une MT peut provoquer une explosion exponentielle de taille si le partage est absent, et analyser les ressources perdues.",
+          "sections": [
+            "7.1 Phénomène de duplication lors de la bêta-réduction",
+            "7.2 Exemple : $\\bar 2\\, \\bar 2\\, \\bar 2$ et croissance",
+            "7.3 Explosion de taille vs. linéarité du temps MT",
+            "7.4 Perte du partage : statut CONNU",
+            "7.5 Stratégie de réduction et contrôle de l'explosion"
+          ],
+          "exercices": [
+            "Construire une famille de termes dont la forme normale est de taille exponentielle en la taille du terme de départ.",
+            "Comparer la taille du terme et le nombre de pas de réduction nécessaires.",
+            "Discuter si l'explosion est inévitable ou dépend de la stratégie."
+          ]
+        },
+        {
+          "numero": 8,
+          "titre": "Bilan de la traduction TM → λ",
+          "objectif": "Synthétiser le profil de ressources de la traduction : ce qui est conservé (calculabilité, résultat) et ce qui est perdu (taille raisonnable, partage, structure de contrôle).",
+          "sections": [
+            "8.1 Tableau récapitulatif des ressources",
+            "8.2 Conservation de la calculabilité : statut PROUVÉ",
+            "8.3 Perte de la structure de contrôle : statut CONNU",
+            "8.4 Perte du partage : statut CONNU",
+            "8.5 Questions ouvertes sur les encodages optimaux : OUVERT"
+          ],
+          "exercices": [
+            "Rédiger une fiche de traduction TM → λ au format RTC.",
+            "Comparer deux encodages différents d'une même MT et discuter leurs profils de ressources.",
+            "Identifier une ressource non encore étudiée dans cette traduction."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Partie III — Traduction du lambda-calcul vers les machines de Turing",
+      "chapitres": [
+        {
+          "numero": 9,
+          "titre": "Évaluer un lambda-terme sur machine : l'idée de Landin",
+          "objectif": "Présenter la machine SECD comme première traduction λ → machine à états, et en mesurer les ressources.",
+          "sections": [
+            "9.1 Motivation : pourquoi une machine pour le lambda-calcul ?",
+            "9.2 Les quatre composantes : Stack, Environment, Control, Dump",
+            "9.3 Règles de transition de la SECD",
+            "9.4 Exemple complet d'évaluation",
+            "9.5 Traduction λ → SECD : sens, coût, conservation, perte — statut PROUVÉ"
+          ],
+          "exercices": [
+            "Exécuter la SECD sur $(\\lambda x. x)\\, (\\lambda y. y)$ et tracer les configurations.",
+            "Identifier les cas où la SECD duplique des fermetures.",
+            "Borner l'espace utilisé par la SECD en fonction de la taille du terme."
+          ]
+        },
+        {
+          "numero": 10,
+          "titre": "La machine de Krivine : appel par nom minimaliste",
+          "objectif": "Présenter la machine de Krivine comme traduction compacte λ → TM, et analyser son profil de ressources.",
+          "sections": [
+            "10.1 Appel par valeur vs appel par nom",
+            "10.2 Configuration : terme, pile, environnement",
+            "10.3 Règles de transition",
+            "10.4 Correction et complétude",
+            "10.5 Traduction λ → Krivine : sens, coût, conservation, perte — statut PROUVÉ"
+          ],
+          "exercices": [
+            "Exécuter la machine de Krivine sur $(\\lambda x. x\\, x)\\, (\\lambda y. y)$.",
+            "Comparer la taille des piles de Krivine et de SECD sur un même terme.",
+            "Montrer que la machine de Krivine implémente la réduction de tête."
+          ]
+        },
+        {
+          "numero": 11,
+          "titre": "Le coût de la bêta-réduction et le modèle de coût invariant",
+          "objectif": "Présenter le résultat d'Accattoli et Dal Lago 2016 : la stratégie leftmost-outermost est invariante, et en déduire que le lambda-calcul est un modèle raisonnable.",
+          "sections": [
+            "11.1 La question : compter les bêta-pas est-il raisonnable ?",
+            "11.2 Explosion de taille et illusion de gratuité",
+            "11.3 Stratégie leftmost-outermost",
+            "11.4 Énoncé du théorème d'invariance",
+            "11.5 Idée de la preuve : traduction vers une machine à coûts explicites",
+            "11.6 Statut : PROUVÉ (Accattoli et Dal Lago 2016)"
+          ],
+          "exercices": [
+            "Construire un terme où la stratégie leftmost-outermost termine mais pas l'appel par valeur.",
+            "Discuter pourquoi le comptage des bêta-pas n'est pas trivialement une mesure de temps.",
+            "Relier le théorème d'invariance aux classes de complexité de Hartmanis et Stearns 1965."
+          ]
+        },
+        {
+          "numero": 12,
+          "titre": "Bilan de la traduction λ → TM",
+          "objectif": "Synthétiser le profil de ressources des traductions λ → machines abstraites (SECD, Krivine) et λ → MT via simulation.",
+          "sections": [
+            "12.1 Tableau récapitulatif : SECD, Krivine, simulation directe",
+            "12.2 Conservation de la calculabilité : PROUVÉ",
+            "12.3 Conservation du coût fin sous leftmost-outermost : PROUVÉ",
+            "12.4 Perte du partage dans les machines à environnement : CONNU",
+            "12.5 Questions ouvertes sur les machines optimales : OUVERT"
+          ],
+          "exercices": [
+            "Rédiger une fiche de traduction λ → Krivine au format RTC.",
+            "Comparer les profils de ressources de SECD et de Krivine.",
+            "Identifier une ressource (par exemple la largeur de pile) encore peu étudiée."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Partie IV — Partage, optimalité et transfert vers le programme RTC",
+      "chapitres": [
+        {
+          "numero": 13,
+          "titre": "Le partage comme ressource perdue",
+          "objectif": "Analyser ce qu'est le partage dans un lambda-terme, pourquoi les machines à environnement le perdent, et comment le mesurer.",
+          "sections": [
+            "13.1 Notion de sous-terme partagé",
+            "13.2 Représentation par graphe vs représentation par arbre",
+            "13.3 Perte du partage lors de la traduction λ → TM",
+            "13.4 Impact sur la taille et le temps",
+            "13.5 Statut : CONNU (perte), OUVERT (mesure fine)"
+          ],
+          "exercices": [
+            "Dessiner la forme graphe et la forme arbre d'un même terme et comparer leurs tailles.",
+            "Donner un exemple où la perte du partage multiplie le temps de calcul.",
+            "Proposer une métrique du taux de partage d'un terme."
+          ]
+        },
+        {
+          "numero": 14,
+          "titre": "La réduction optimale de Lamping",
+          "objectif": "Présenter l'algorithme de Lamping 1990 comme tentative de conserver le partage pendant la réduction, et en discuter le coût.",
+          "sections": [
+            "14.1 Motivation : réduire sans dupliquer",
+            "14.2 Graphes de preuve et étiquettes",
+            "14.3 Règles de réduction sur graphes",
+            "14.4 Optimalité au sens de Lévy",
+            "14.5 Coût de l'algorithme : statut CONNU (étiquettes croissantes), OUVERT (borne supérieure fine)"
+          ],
+          "exercices": [
+            "Tracer la réduction optimale d'un terme simple avec partage.",
+            "Discuter pourquoi l'optimalité de Lamping ne contredit pas l'invariance d'Accattoli et Dal Lago 2016.",
+            "Comparer la réduction optimale à la stratégie leftmost-outermost."
+          ]
+        },
+        {
+          "numero": 15,
+          "titre": "Complexité, classes et simulations raisonnables",
+          "objectif": "Replacer les traductions dans le cadre de Hartmanis et Stearns 1965 et d'Arora et Barak 2009 : ce que signifie une simulation raisonnable entre modèles.",
+          "sections": [
+            "15.1 Classes de complexité sur MT",
+            "15.2 Thèse de la complexité étendue",
+            "15.3 Simulations polynomiales entre modèles raisonnables",
+            "15.4 Le lambda-calcul comme modèle raisonnable : PROUVÉ",
+            "15.5 Limites : ressources non préservées"
+          ],
+          "exercices": [
+            "Montrer qu'une simulation polynomiale préserve la classe P mais pas nécessairement le temps exact.",
+            "Discuter si le lambda-calcul avec sharing explicite change la classe de complexité.",
+            "Donner un exemple de ressource (ex. profondeur) non préservée par simulation polynomiale."
+          ]
+        },
+        {
+          "numero": 16,
+          "titre": "Transfert vers le programme RTC",
+          "objectif": "Capitaliser ce tome pour le programme de recherche « Les Traductions du Calcul » : quelles ressources, quelles traductions, quelles questions ouvertes.",
+          "sections": [
+            "16.1 Fiche RTC de la traduction TM → λ",
+            "16.2 Fiche RTC de la traduction λ → TM (SECD, Krivine, simulation directe)",
+            "16.3 Ressources conservées : calculabilité, extension, résultat",
+            "16.4 Ressources perdues : taille raisonnable, partage, structure de contrôle, profondeur fine",
+            "16.5 Ressources transformées : temps (pas de réduction vs pas de MT), mémoire (pile vs ruban)",
+            "16.6 Questions ouvertes transférées au programme RTC"
+          ],
+          "exercices": [
+            "Rédiger une fiche RTC complète pour la traduction λ → machine de Krivine.",
+            "Proposer une nouvelle traduction à étudier dans un tome futur (ex. λ-calcul linéaire → MT).",
+            "Identifier trois ressources absentes de ce tome mais pertinentes pour le programme RTC."
+          ]
+        }
+      ]
+    }
+  ]
+}

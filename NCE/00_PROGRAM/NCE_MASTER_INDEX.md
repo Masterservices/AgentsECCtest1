@@ -2,7 +2,7 @@
 
 Nom provisoire : **RTC — Resource Translations of Computation** (renommage décidé à la porte G0 ; voir FAILURES.md, F-006).
 
-État du programme : **G0 validée. M1 (INV-00) fait en v0.1. INV-01 et INV-01b faits. T0 à T4 rédigés (Dialagram), relus par audit automatique (références, statuts, exagérations) et publiés. Prochaine étape : tomes de la phase II (T5 à T9b), audit de la littérature, INV-01c.**
+État du programme : **G0 validée. M1 (INV-00) fait en v0.1. INV-01 et INV-01b faits. T0 à T9b rédigés (Dialagram), relus par audit automatique (références, statuts, exagérations) et publiés. Prochaine étape : T10 (invariants), audit de la littérature, INV-01c.**
 
 - [Définitions INV-00](DEFINITIONS.md) · [Rapport INV-01](INV-01_RAPPORT.md)
 
@@ -13,12 +13,12 @@ Nom provisoire : **RTC — Resource Translations of Computation** (renommage dé
 | T2 | Machines de Turing : états, mémoire, simulations | I | T0 | publié v1 (232 p.) | relecture humaine |
 | T3 | Circuits booléens, contraintes et SAT | I | T0 | publié v1 (247 p.), inclut L-01 | relecture humaine |
 | T4 | Réseaux neuronaux : seuil, ReLU, récurrents, transformers ; ressources | I | T0 | publié v1 (229 p.), inclut L-03 et E-01b | relecture humaine |
-| T5 | λ ↔ MT | II | T1, T2 | non commencé | — |
-| T6 | MT ↔ circuits ↔ SAT | II | T2, T3 | non commencé | alimenté par INV-01 |
-| T7 | Circuits/SAT ↔ réseaux | II | T3, T4 | non commencé | alimenté par INV-01 |
-| T8 | λ ↔ réseaux | II | T1, T4 | non commencé | — |
-| T9 | MT ↔ réseaux | II | T2, T4 | non commencé | — |
-| T9b | λ ↔ SAT/preuves (Curry-Howard, complexité des preuves) | II | T1, T3 | **ajouté** | — |
+| T5 | λ ↔ MT | II | T1, T2 | publié v1 | relecture humaine |
+| T6 | MT ↔ circuits ↔ SAT | II | T2, T3 | publié v1, inclut INV-01 | relecture humaine |
+| T7 | Circuits/SAT ↔ réseaux | II | T3, T4 | publié v1, inclut INV-01 | relecture humaine |
+| T8 | λ ↔ réseaux | II | T1, T4 | publié v1 | relecture humaine |
+| T9 | MT ↔ réseaux | II | T2, T4 | publié v1 | relecture humaine |
+| T9b | λ ↔ SAT/preuves (Curry-Howard, complexité des preuves) | II | T1, T3 | publié v1 | relecture humaine |
 | T10 | Invariants computationnels | III | T5 à T9b | non commencé | — |
 | T11 | Théorie NCE | III | T10, porte G3 | conditionnel | — |
 | T12 | NCSM | IV | T10, porte G4 | conditionnel | — |

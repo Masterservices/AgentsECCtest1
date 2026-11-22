@@ -1,0 +1,368 @@
+{
+ "titre": "Des Machines de Turing aux Réseaux de Neurones",
+ "sous_titre": "Traductions à ressources entre calcul symbolique et calcul neuronal : ce qui se conserve, ce qui se perd, ce qui se paie",
+ "these": "Toute traduction entre un modèle de calcul symbolique (machine de Turing, automate fini) et un modèle neuronal (McCulloch-Pitts, réseau récurrent rationnel, transformer) peut être caractérisée par un sextuplet de coûts (taille, temps, mémoire, profondeur, largeur, précision) et par un bilan de conservation/perte de propriétés (Turing-complétude, déterminisme, parallélisme, robustesse). La précision arithmétique est la ressource pivot : à précision arbitraire, les réseaux récurrents rationnels simulent les machines de Turing ; à précision logarithmique, les transformers perdent la Turing-complétude et se réduisent à des circuits de faible profondeur.",
+ "cadre": {
+  "nom": "Les traductions à ressources et le registre des statuts",
+  "description": "Règles absolues du programme RTC : (1) ne citer QUE les références de la liste autorisée, avec auteur et année, sans inventer de référence, sans DOI, sans numéro de page, sans citation entre guillemets attribuée à un chercheur ; (2) ne jamais présenter une intuition comme une preuve : donner des preuves complètes pour les résultats démontrés dans le livre, et pour les grands théorèmes connus donner l'idée de la preuve en le disant explicitement ; (3) chaque affirmation porte un statut parmi : PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ, OUVERT ; (4) aucune annonce de découverte ; (5) formules en LaTeX entre $...$ ou $$...$$ ; (6) lecteur cultivé non spécialiste : intuition, définition, énoncé, exemple, exercice ; (7) dernier chapitre intitulé « Transfert vers le programme RTC » exposant ce que ce tome apporte à l'étude des traductions à ressources ; (8) ce tome est un tome de TRADUCTION entre deux modèles : pour chaque traduction, donner le sens, le coût (taille, temps, mémoire, profondeur, largeur, précision, partage), ce qui est conservé et ce qui est perdu, avec son statut. Références autorisées : Turing 1936 (On computable numbers, with an application to the Entscheidungsproblem) ; McCulloch et Pitts 1943 (A logical calculus of the ideas immanent in nervous activity) ; Kleene 1956 (Representation of events in nerve nets and finite automata) ; Hopfield 1982 (Neural networks and physical systems with emergent collective computational abilities) ; Siegelmann et Sontag 1995 (On the computational power of neural nets) ; Arora et Barak 2009 (Computational Complexity: A Modern Approach) ; Vaswani et al. 2017 (Attention is all you need) ; Pérez, Marinković et Barceló 2019 (On the Turing completeness of modern neural network architectures) ; Merrill et Sabharwal 2023 (The parallelism tradeoff: limitations of log-precision transformers)."
+ },
+ "bibliographie": [
+  {
+   "auteur": "Turing",
+   "titre": "On computable numbers, with an application to the Entscheidungsproblem",
+   "annee": "1936",
+   "idee": "Définition de la machine à ruban et de la calculabilité effective",
+   "apport": "Modèle source de toutes les traductions : la machine de Turing comme référence de la Turing-complétude"
+  },
+  {
+   "auteur": "McCulloch et Pitts",
+   "titre": "A logical calculus of the ideas immanent in nervous activity",
+   "annee": "1943",
+   "idee": "Neurone formel à seuil comme opérateur logique",
+   "apport": "Premier pont formel entre logique propositionnelle et réseau neuronal"
+  },
+  {
+   "auteur": "Kleene",
+   "titre": "Representation of events in nerve nets and finite automata",
+   "annee": "1956",
+   "idee": "Équivalence entre réseaux de McCulloch-Pitts et automates finis",
+   "apport": "Traduction PROUVÉE dans les deux sens entre réseaux neuronaux et automates"
+  },
+  {
+   "auteur": "Hopfield",
+   "titre": "Neural networks and physical systems with emergent collective computational abilities",
+   "annee": "1982",
+   "idee": "Fonction d'énergie et dynamique associative",
+   "apport": "Modèle de réseau récurrent à convergence garantie, base des traductions par optimisation"
+  },
+  {
+   "auteur": "Siegelmann et Sontag",
+   "titre": "On the computational power of neural nets",
+   "annee": "1995",
+   "idee": "Réseaux récurrents à poids rationnels et simulation de machines de Turing via super-Turing à poids réels",
+   "apport": "Traduction PROUVÉE TM → RNN rationnel, avec rôle crucial de la précision"
+  },
+  {
+   "auteur": "Arora et Barak",
+   "titre": "Computational Complexity: A Modern Approach",
+   "annee": "2009",
+   "idee": "Cadre unifié des classes de complexité, circuits, machines",
+   "apport": "Langage commun pour exprimer les coûts (temps, taille, profondeur) des traductions"
+  },
+  {
+   "auteur": "Vaswani et al.",
+   "titre": "Attention is all you need",
+   "annee": "2017",
+   "idee": "Architecture transformer basée sur l'attention multi-tête",
+   "apport": "Modèle cible contemporain pour les traductions depuis les machines de Turing"
+  },
+  {
+   "auteur": "Pérez, Marinković et Barceló",
+   "titre": "On the Turing completeness of modern neural network architectures",
+   "annee": "2019",
+   "idee": "Turing-complétude des transformers sous hypothèse de précision arbitraire",
+   "apport": "Traduction PROUVÉE TM → transformer, conditionnelle à la précision"
+  },
+  {
+   "auteur": "Merrill et Sabharwal",
+   "titre": "The parallelism tradeoff: limitations of log-precision transformers",
+   "annee": "2023",
+   "idee": "À précision logarithmique, les transformers sont strictement moins puissants que les machines de Turing",
+   "apport": "Borne supérieure PROUVÉE sur la puissance des transformers réalistes"
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Modèles sources et modèles cibles : poser le cadre des traductions",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "La machine de Turing comme étalon de calcul",
+     "objectif": "Fixer la définition formelle et les variantes (ruban unique, multi-rubans, oracle) qui serviront de source à toutes les traductions du livre.",
+     "sections": [
+      "1.1 Définition formelle d'une machine de Turing (Turing 1936)",
+      "1.2 Variantes équivalentes : multi-rubans, alphabet binaire, machines à $k$ têtes",
+      "1.3 Fonctions calculables et langages récursifs / récursivement énumérables",
+      "1.4 Complexité en temps et en espace : classes $\\mathsf{TIME}(t(n))$ et $\\mathsf{SPACE}(s(n))$ (Arora et Barak 2009)",
+      "1.5 Le théorème d'universalité : idée de la preuve par codage de la table de transition"
+     ],
+     "exercices": [
+      "Exercice 1.1 : Construire une machine de Turing à un ruban qui reconnaît $\\{a^n b^n \\mid n \\geq 0\\}$ et calculer son coût en temps.",
+      "Exercice 1.2 : Montrer l'équivalence entre machine à $k$ rubans et machine à 1 ruban avec perte polynomiale en temps (statut CONNU).",
+      "Exercice 1.3 : Écrire le codage de Gödel d'une machine de Turing utilisée dans le théorème d'universalité."
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Automates finis et expressions régulières",
+     "objectif": "Préparer la traduction de Kleene 1956 en posant le modèle des automates finis déterministes et non déterministes.",
+     "sections": [
+      "2.1 Définition des DFA, NFA et $\\varepsilon$-NFA",
+      "2.2 Langages réguliers et lemme de l'pompage",
+      "2.3 Expressions régulières et équivalence de Kleene (Kleene 1956)",
+      "2.4 Opérations booléennes, fermeture, quotient",
+      "2.5 Complexité en taille : explosion de la déterminisation"
+     ],
+     "exercices": [
+      "Exercice 2.1 : Construire le DFA minimal pour le langage des mots sur $\\{a,b\\}$ contenant un nombre pair de $a$.",
+      "Exercice 2.2 : Appliquer la construction de subset pour déterminer un NFA à $n$ états et exhiber le coût en taille (statut PROUVÉ).",
+      "Exercice 2.3 : Donner une expression régulière équivalente à un automate donné par la méthode de Kleene."
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Circuits booléens et profondeur",
+     "objectif": "Introduire le modèle de circuits qui servira de pont intermédiaire pour les traductions vers les transformers à précision bornée.",
+     "sections": [
+      "3.1 Définition d'un circuit booléen : portes, taille, profondeur, largeur (Arora et Barak 2009)",
+      "3.2 Classes $\\mathsf{NC}^k$, $\\mathsf{AC}^0$, $\\mathsf{TC}^0$",
+      "3.3 Familles uniformes et non uniformes de circuits",
+      "3.4 Bornes inférieures classiques : idée de la preuve que la parité n'est pas dans $\\mathsf{AC}^0$",
+      "3.5 Circuits comme modèle de calcul parallèle à profondeur fixe"
+     ],
+     "exercices": [
+      "Exercice 3.1 : Construire un circuit de profondeur $O(\\log n)$ pour l'addition de deux entiers de $n$ bits.",
+      "Exercice 3.2 : Montrer que la majorité est dans $\\mathsf{TC}^0$ (statut CONNU).",
+      "Exercice 3.3 : Calculer la taille et la profondeur d'un circuit évaluant un polynôme de degré $d$."
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Réseaux de neurones formels : de McCulloch-Pitts aux architectures modernes",
+     "objectif": "Définir la famille des modèles cibles : neurone à seuil, réseau récurrent, réseau de Hopfield, transformer.",
+     "sections": [
+      "4.1 Le neurone de McCulloch et Pitts 1943 : fonction d'activation à seuil",
+      "4.2 Réseaux récurrents à temps discret : dynamique $h_{t+1} = \\sigma(W h_t + U x_t + b)$",
+      "4.3 Le réseau de Hopfield 1982 : fonction d'énergie et convergence",
+      "4.4 Le transformer de Vaswani et al. 2017 : attention multi-tête et position",
+      "4.5 Paramètres architecturaux : largeur $d$, profondeur $L$, nombre de têtes $H$, dimension $d_k$"
+     ],
+     "exercices": [
+      "Exercice 4.1 : Réaliser les portes AND, OR, NOT avec des neurones de McCulloch-Pitts.",
+      "Exercice 4.2 : Montrer que la fonction d'énergie de Hopfield décroît à chaque mise à jour asynchrone (statut PROUVÉ).",
+      "Exercice 4.3 : Calculer le coût en mémoire d'un transformer avec $L$ couches, $H$ têtes et dimension $d$."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Traductions descendantes : du symbolique au neuronal",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "De Kleene aux réseaux de McCulloch-Pitts",
+     "objectif": "Établir la traduction PROUVÉE entre automates finis et réseaux de McCulloch-Pitts, dans les deux sens.",
+     "sections": [
+      "5.1 Énoncé du théorème de Kleene 1956 : équivalence événements réguliers / réseaux MP",
+      "5.2 Traduction automate → réseau MP : construction couche par couche",
+      "5.3 Traduction réseau MP → automate : états comme configurations binaires",
+      "5.4 Coût de la traduction : taille linéaire, profondeur constante, précision binaire",
+      "5.5 Ce qui est conservé (langage reconnu, déterminisme) et ce qui est perdu (parallélisme explicite)"
+     ],
+     "exercices": [
+      "Exercice 5.1 : Construire le réseau MP équivalent à l'automate qui reconnaît les mots se terminant par $ab$.",
+      "Exercice 5.2 : Montrer que tout réseau MP à $n$ neurones peut être simulé par un DFA à $2^n$ états (statut PROUVÉ).",
+      "Exercice 5.3 : Calculer le coût en mémoire d'un réseau MP simulant un automate à $k$ états."
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Simuler une machine de Turing avec un réseau récurrent rationnel",
+     "objectif": "Présenter la traduction de Siegelmann et Sontag 1995 : TM → RNN à poids rationnels, avec preuve complète de la simulation pas à pas.",
+     "sections": [
+      "6.1 Énoncé : toute TM peut être simulée par un RNN à poids rationnels (Siegelmann et Sontag 1995)",
+      "6.2 Codage du ruban en deux nombres réels de $[0,1]$ par décalage",
+      "6.3 Simulation de la tête de lecture et de la table de transition par neurones à seuil",
+      "6.4 Preuve complète : invariant de simulation et coût pas à pas",
+      "6.5 Coût : largeur $O(1)$, profondeur $O(1)$, précision rationnelle exacte, temps $O(T)$ pour $T$ pas de TM"
+     ],
+     "exercices": [
+      "Exercice 6.1 : Coder le ruban $\\ldots 0 1 1 0 1 \\ldots$ en deux réels de $[0,1]$ selon la construction de Siegelmann et Sontag 1995.",
+      "Exercice 6.2 : Écrire explicitement les poids rationnels qui réalisent le décalage $x \\mapsto 2x \\bmod 1$.",
+      "Exercice 6.3 : Calculer le nombre minimal de neurones nécessaires pour simuler une TM à $q$ états et alphabet de taille $k$."
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Réseaux de Hopfield et optimisation combinatoire",
+     "objectif": "Traduire des problèmes d'optimisation (voyageur de commerce, satisfaction) en dynamique de Hopfield 1982.",
+     "sections": [
+      "7.1 De l'optimisation sous contraintes à la minimisation d'énergie (Hopfield 1982)",
+      "7.2 Construction de la matrice de poids à partir d'une fonction objectif",
+      "7.3 Traduction SAT → Hopfield : variables comme neurones, clauses comme termes d'énergie",
+      "7.4 Coût : taille quadratique en le nombre de variables, temps de convergence non garanti",
+      "7.5 Ce qui est perdu : déterminisme, garantie de solution optimale"
+     ],
+     "exercices": [
+      "Exercice 7.1 : Construire un réseau de Hopfield dont les minima locaux correspondent aux solutions de $x_1 \\lor \\lnot x_2$.",
+      "Exercice 7.2 : Montrer qu'un minimum local de l'énergie de Hopfield n'est pas nécessairement un minimum global (statut CONNU).",
+      "Exercice 7.3 : Calculer la matrice de poids pour le problème du voyageur de commerce sur 4 villes."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Traductions modernes : transformers et rôle de la précision",
+   "chapitres": [
+    {
+     "numero": 8,
+     "titre": "L'architecture transformer comme modèle de calcul",
+     "objectif": "Formaliser le transformer de Vaswani et al. 2017 comme modèle de calcul paramétré par la précision.",
+     "sections": [
+      "8.1 Définition formelle d'une couche de transformer : attention, feed-forward, résidus",
+      "8.2 Paramètres : précision $p$ (bits), profondeur $L$, largeur $d$, nombre de têtes $H$",
+      "8.3 Sémantique de calcul : le transformer comme fonction $f_\\theta : \\Sigma^* \\to \\Sigma^*$",
+      "8.4 Variantes : encoder-only, decoder-only, hard vs soft attention",
+      "8.5 Lien avec les circuits : le transformer comme famille de circuits (Arora et Barak 2009)"
+     ],
+     "exercices": [
+      "Exercice 8.1 : Calculer le coût en temps et mémoire d'une couche d'attention sur une séquence de longueur $n$.",
+      "Exercice 8.2 : Montrer qu'avec attention dure (hard attention), une couche peut calculer la majorité (statut CONNU).",
+      "Exercice 8.3 : Exprimer la sortie d'un transformer à précision $p$ comme un circuit de profondeur $O(L \\log n)$. "
+     ]
+    },
+    {
+     "numero": 9,
+     "titre": "Turing-complétude des transformers à précision arbitraire",
+     "objectif": "Présenter la traduction PROUVÉE de Pérez, Marinković et Barceló 2019 : TM → transformer sous hypothèse de précision arbitraire.",
+     "sections": [
+      "9.1 Énoncé : un transformer à précision arbitraire peut simuler toute machine de Turing (Pérez, Marinković et Barceló 2019)",
+      "9.2 Codage du ruban dans les embeddings positionnels",
+      "9.3 Simulation de la tête de lecture par attention et de la transition par feed-forward",
+      "9.4 Idée de la preuve : invariants de configuration et déroulement autoregressif",
+      "9.5 Coût : largeur $O(\\log T)$, profondeur $O(1)$ par pas, précision $\\Omega(\\log T)$ bits, temps $O(T^2)$"
+     ],
+     "exercices": [
+      "Exercice 9.1 : Construire une tête d'attention qui sélectionne la cellule du ruban pointée par la tête de la TM.",
+      "Exercice 9.2 : Montrer que la simulation requiert une précision au moins logarithmique en le nombre de pas (statut PROUVÉ).",
+      "Exercice 9.3 : Calculer le coût mémoire total d'un transformer simulant une TM pendant $T$ pas."
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Limites des transformers à précision logarithmique",
+     "objectif": "Présenter le théorème de Merrill et Sabharwal 2023 : à précision logarithmique, les transformers ne sont pas Turing-complets.",
+     "sections": [
+      "10.1 Énoncé : un transformer à précision $O(\\log n)$ est simulable par une famille de circuits $\\mathsf{TC}^0$ (Merrill et Sabharwal 2023)",
+      "10.2 Idée de la preuve : quantification des activations et réduction à des seuils majoritaires",
+      "10.3 Conséquence : la parité, les langages context-free généraux ne sont pas calculables",
+      "10.4 Le compromis parallélisme / expressivité (parallelism tradeoff)",
+      "10.5 Ce qui est perdu : Turing-complétude, récursivité générale, mémoire non bornée"
+     ],
+     "exercices": [
+      "Exercice 10.1 : Montrer qu'un transformer à précision $O(\\log n)$ ne peut pas reconnaître $\\{a^n b^n c^n \\mid n \\geq 0\\}$ (statut PROUVÉ).",
+      "Exercice 10.2 : Calculer le nombre de configurations distinctes d'un transformer à précision $p$ sur séquence de longueur $n$.",
+      "Exercice 10.3 : Exhiber un langage régulier qui nécessite une profondeur $\\Omega(\\log n)$ dans un transformer à précision logarithmique."
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Tableau comparatif des traductions TM → modèles neuronaux",
+     "objectif": "Synthétiser les traductions des chapitres 5 à 10 dans un tableau unique avec statut pour chaque ligne.",
+     "sections": [
+      "11.1 Tableau : source, cible, sens, taille, temps, mémoire, profondeur, largeur, précision",
+      "11.2 Bilan de conservation : Turing-complétude, déterminisme, parallélisme, robustesse",
+      "11.3 Ce qui est perdu : passage du continu au discret, de la précision infinie à la précision finie",
+      "11.4 Interprétation : la précision comme monnaie d'échange entre modèles",
+      "11.5 Statuts globaux : quels résultats sont PROUVÉS, CONNUS, OUVERTS"
+     ],
+     "exercices": [
+      "Exercice 11.1 : Compléter le tableau pour la traduction TM → réseau de Hopfield (statut OUVERT pour la simulation exacte).",
+      "Exercice 11.2 : Comparer le coût en mémoire entre la simulation de Siegelmann et Sontag 1995 et celle de Pérez, Marinković et Barceló 2019.",
+      "Exercice 11.3 : Identifier la traduction qui préserve le mieux le parallélisme."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Limites, questions ouvertes et transfert vers RTC",
+   "chapitres": [
+    {
+     "numero": 12,
+     "titre": "Précision finie et effondrement de la Turing-complétude",
+     "objectif": "Analyser systématiquement ce qui s'effondre lorsque la précision passe d'arbitraire à bornée.",
+     "sections": [
+      "12.1 Hiérarchie des précisions : arbitraire, polynomiale, logarithmique, constante",
+      "12.2 Effondrement des RNN à précision finie vers les automates (Siegelmann et Sontag 1995)",
+      "12.3 Effondrement des transformers à précision logarithmique vers $\\mathsf{TC}^0$ (Merrill et Sabharwal 2023)",
+      "12.4 Précision et complexité descriptive : quel fragment logique à quelle précision ?",
+      "12.5 Statut : CONNU pour les bornes supérieures, OUVERT pour les bornes inférieures fines"
+     ],
+     "exercices": [
+      "Exercice 12.1 : Montrer qu'un RNN à précision constante sur $n$ pas ne peut avoir que $2^{O(n)}$ configurations (statut PROUVÉ).",
+      "Exercice 12.2 : Donner un langage calculable par un transformer à précision polynomiale mais pas logarithmique.",
+      "Exercice 12.3 : Formuler une conjecture sur la classe de complexité des transformers à précision $O(\\sqrt{\\log n})$ (statut OUVERT)."
+     ]
+    },
+    {
+     "numero": 13,
+     "titre": "Coûts cachés : temps, mémoire, profondeur",
+     "objectif": "Détailler les coûts souvent négligés des traductions : déroulement temporel, mémoire de travail, profondeur effective.",
+     "sections": [
+      "13.1 Coût en temps : simulation pas à pas et facteurs multiplicatifs",
+      "13.2 Coût en mémoire : ruban vs embeddings vs états cachés",
+      "13.3 Profondeur : profondeur fixe (RNN) vs profondeur $O(L \\log n)$ (transformer)",
+      "13.4 Largeur : constante (RNN) vs $O(\\log T)$ (transformer)",
+      "13.5 Partage : les poids sont-ils partagés entre pas de temps ou entre positions ?"
+     ],
+     "exercices": [
+      "Exercice 13.1 : Calculer le coût mémoire d'un transformer simulant une TM à espace $S(n)$ pendant $T(n)$ pas.",
+      "Exercice 13.2 : Comparer la profondeur effective d'un RNN déroulé $T$ fois et d'un transformer à $L$ couches.",
+      "Exercice 13.3 : Montrer que le partage de poids réduit la taille descriptive mais pas la puissance (statut CONNU)."
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Retour vers la source : neuronal → symbolique",
+     "objectif": "Étudier les traductions inverses : peut-on compiler un réseau neuronal en machine de Turing ou en automate ?",
+     "sections": [
+      "14.1 Extraction d'automates à partir de réseaux MP (Kleene 1956)",
+      "14.2 Extraction de machines de Turing à partir de RNN (Siegelmann et Sontag 1995, sens inverse)",
+      "14.3 Distillation de transformers en programmes symboliques",
+      "14.4 Coûts asymétriques : l'extraction est souvent exponentielle",
+      "14.5 Statut : PROUVÉ pour l'extraction exacte, EXPÉRIMENTAL pour la distillation"
+     ],
+     "exercices": [
+      "Exercice 14.1 : Extraire l'automate équivalent à un réseau MP donné (algorithme de Kleene 1956).",
+      "Exercice 14.2 : Montrer que l'extraction d'un automate minimal à partir d'un RNN est PSPACE-difficile (statut CONNU).",
+      "Exercice 14.3 : Proposer un protocole EXPÉRIMENTAL pour distiller un transformer en grammaire hors-contexte."
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Perspectives : robustesse, apprentissage, calcul naturel",
+     "objectif": "Ouvrir sur les questions où la traduction symbolique ↔ neuronale reste incomplète.",
+     "sections": [
+      "15.1 Robustesse au bruit : la TM est fragile, le réseau est-il robuste ?",
+      "15.2 Apprentissage : la traduction est-elle apprenable à partir d'exemples ?",
+      "15.3 Calcul neuronal biologique : au-delà des modèles formels",
+      "15.4 Calcul quantique et hybridation (mention, pas de traduction)",
+      "15.5 Statut des questions : majoritairement OUVERTES ou CONJECTURES"
+     ],
+     "exercices": [
+      "Exercice 15.1 : Formaliser la notion de robustesse d'un RNN à une perturbation $\\varepsilon$ des poids.",
+      "Exercice 15.2 : Formuler une CONJECTURE reliant apprenabilité d'un langage et complexité de sa traduction.",
+      "Exercice 15.3 : Discuter pourquoi la traduction TM → réseau biologique n'est pas traitée dans ce tome (statut OUVERT)."
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Transfert vers le programme RTC",
+     "objectif": "Synthétiser ce que ce tome apporte au programme de recherche RTC : ressources, traductions, questions ouvertes.",
+     "sections": [
+      "16.1 Ressources identifiées : taille, temps, mémoire, profondeur, largeur, précision, partage — définitions stabilisées",
+      "16.2 Registre des traductions du tome : 7 traductions principales, chacune avec sens, coût, conservation, perte et statut",
+      "16.3 Apports majeurs : la précision comme ressource pivot ; le compromis parallélisme / expressivité (Merrill et Sabharwal 2023)",
+      "16.4 Questions ouvertes transférées à RTC : (i) borne inférieure fine pour transformers à précision intermédiaire ; (ii) traduction Hopfield ↔ TM avec garantie ; (iii) apprenabilité des traductions ; (iv) extension aux architectures à état caché continu",
+      "16.5 Méthodologie RTC validée : statut systématique, preuve vs intuition, coût multidimensionnel"
+     ],
+     "exercices": [
+      "Exercice 16.1 : Construire une fiche RTC complète pour la traduction TM → RNN rationnel (Siegelmann et Sontag 1995).",
+      "Exercice 16.2 : Identifier, parmi les questions ouvertes du chapitre 15, celles qui sont transférables à un autre tome de la collection.",
+      "Exercice 16.3 : Proposer un nouveau sextuplet de ressources pertinent pour un futur tome sur les traductions quantique ↔ neuronal."
+     ]
+    }
+   ]
+  }
+ ]
+}

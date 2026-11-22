@@ -1,0 +1,416 @@
+{
+ "titre": "Du Lambda-calcul aux Réseaux de Neurones",
+ "sous_titre": "Représenter, simuler, compter : la route indirecte du calcul d'ordre supérieur vers le calcul neuronal, et sa facture en ressources",
+ "these": "À ce jour, aucune traduction directe efficace du lambda-calcul vers les réseaux de neurones n'est connue : ce tome affirme ce statut OUVERT sans revendiquer ni découverte ni impossibilité. La seule route rigoureuse disponible est composée : termes → machine à environnements → réseau récurrent ; nous la construisons, la prouvons sous hypothèses explicites et la chiffrons ressource par ressource. Le résultat de comptabilité le plus utile pour RTC est que le poste dominant n'est ni la taille ni le temps mais la précision, qui fonctionne comme une mémoire déguisée (PROUVÉ pour les bornes élémentaires établies ici), tandis que le partage et la liaison des variables sont les ressources les plus mal conservées. L'attention comme substitution reste une ANALOGIE, formalisée en CONJECTURE testable et accompagnée de séparations PROUVÉES : jamais un résultat.",
+ "cadre": {
+  "nom": "Les traductions à ressources et le registre des statuts",
+  "description": "RÈGLES ABSOLUES : (1) ne citer QUE les références de la liste ci-dessous, avec l'auteur et l'année indiqués ; n'en inventer aucune ; aucun DOI, aucun numéro de page, aucune citation entre guillemets attribuée à un chercheur ; (2) ne jamais présenter une intuition comme une preuve ; donner des preuves complètes pour les résultats démontrés dans le livre, et pour les grands théorèmes connus donner l'idée de la preuve en le disant ; (3) chaque affirmation porte un statut : PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ ou OUVERT ; (4) aucune annonce de découverte ; (5) formules en LaTeX entre $...$ ou $$...$$ ; (6) lecteur cultivé non spécialiste : intuition, définition, énoncé, exemple, exercice ; (7) dernier chapitre : « Transfert vers le programme RTC » (ce que ce tome apporte à l'étude des traductions à ressources : quelles ressources, quelles traductions, quelles questions ouvertes). (8) ce tome est un tome de TRADUCTION entre deux modèles : pour chaque traduction, donner le sens, le coût (taille, temps, mémoire, profondeur, largeur, précision, partage), ce qui est conservé et ce qui est perdu, avec son statut.\n\nRéférences autorisées (et seulement elles) : Church 1936 (An unsolvable problem of elementary number theory) ; McCulloch et Pitts 1943 (A logical calculus of the ideas immanent in nervous activity) ; Howard 1980 (The formulae-as-types notion of construction) ; Barendregt 1984 (The Lambda Calculus: Its Syntax and Semantics) ; Siegelmann et Sontag 1995 (On the computational power of neural nets) ; Pierce 2002 (Types and Programming Languages) ; Goodfellow, Bengio et Courville 2016 (Deep Learning) ; Vaswani et al. 2017 (Attention is all you need) ; Pérez, Marinković et Barceló 2019 (On the Turing completeness of modern neural network architectures).\n\nApplication dans ce tome : chaque chapitre ouvre par une intuition, puis définition, énoncé, exemple, exercice ; chaque énoncé porte son statut en tête ; les résultats PROUVÉS sont des assemblages élémentaires démontrés intégralement dans le texte (syntaxe, encodages, comptages, correction de la machine intermédiaire, séparations sur exemples finis) ; les grands théorèmes importés (confluence, indécidabilité, normalisation du fragment typé, puissance de calcul des réseaux) sont marqués CONNU avec idée de preuve annoncée comme idée ; les mesures sur poids appris sont EXPÉRIMENTALES ; l'analogie attention/substitution est CONJECTURE ; les formulations trop fortes sont RÉFUTÉES par contre-exemple explicite ; l'existence d'une traduction directe efficace est OUVERT. Aucune annonce de découverte n'est faite. Format cible : environ 220 pages, 4 parties, 16 chapitres, 4 à 6 sections par chapitre, exercices en fin de chapitre."
+ },
+ "bibliographie": [
+  {
+   "auteur": "Church",
+   "titre": "An unsolvable problem of elementary number theory",
+   "annee": "1936",
+   "idee": "Le calcul par abstraction et application constitue un modèle de calcul effectif, et certains problèmes sur ces objets ne sont décidés par aucune procédure.",
+   "apport": "Fournit le modèle source du tome et la limite importée (indécidabilité, CONNU) qui sert de lemme de transport : aucune traduction effective et fidèle ne rend la terminaison décidable par simple inspection. Sert aussi de référence pour ce qu'aucun encodage ne peut gagner gratuitement."
+  },
+  {
+   "auteur": "McCulloch et Pitts",
+   "titre": "A logical calculus of the ideas immanent in nervous activity",
+   "annee": "1943",
+   "idee": "Une unité à seuil sur entrées binaires réalise un calcul logique, et un assemblage d'unités réalise des fonctions logiques composées.",
+   "apport": "Brique de base de toutes les constructions PROUVÉES du tome : portes, réseaux-tables, blocs de contrôle et de décodage. Point de départ du modèle cible décrit en ressources discrètes (connexions, profondeur, largeur)."
+  },
+  {
+   "auteur": "Howard",
+   "titre": "The formulae-as-types notion of construction",
+   "annee": "1980",
+   "idee": "Les termes typés se lisent comme des constructions : types et propositions se correspondent, réduction et normalisation des démonstrations se correspondent.",
+   "apport": "Isole le fragment typé du chapitre 8, où la simulation est maîtrisable et où un réseau-table suffit sur un domaine borné. Utilisé au statut CONNU pour la correspondance et le comportement de normalisation, avec idée de preuve et sans preuve complète revendiquée."
+  },
+  {
+   "auteur": "Barendregt",
+   "titre": "The Lambda Calculus: Its Syntax and Semantics",
+   "annee": "1984",
+   "idee": "Traitement systématique de la syntaxe, de l'α-équivalence, de la substitution, de la réduction, de la confluence et des modèles du lambda-calcul.",
+   "apport": "Référence de rigueur du modèle source. Les grands théorèmes (confluence, indécidabilité de la normalisation) sont pris CONNU avec idée de preuve ; les lemmes élémentaires effectivement utilisés dans les constructions sont redémontrés intégralement dans le tome (PROUVÉ)."
+  },
+  {
+   "auteur": "Siegelmann et Sontag",
+   "titre": "On the computational power of neural nets",
+   "annee": "1995",
+   "idee": "Des réseaux récurrents à poids rationnels simulent des machines séquentielles ; avec des poids réels arbitraires, la puissance de calcul dépasse la calculabilité effective.",
+   "apport": "Cœur de l'étape de simulation machine → réseau (CONNU, idée de preuve par encodage de piles dans des rationnels). Rend explicite la précision comme ressource cachée et fonde le chapitre 11 : réel-oracle, mirage de la puissance gratuite, bornes de comptage à précision bornée."
+  },
+  {
+   "auteur": "Pierce",
+   "titre": "Types and Programming Languages",
+   "annee": "2002",
+   "idee": "Présentation opérationnelle des types, des stratégies d'évaluation, des fermetures, des environnements et des machines d'évaluation.",
+   "apport": "Cadre technique et pédagogique des chapitres 7 à 9 (fermetures, environnements, machine intermédiaire) et référence CONNU pour le fragment simplement typé et sa normalisation, dont nous ne donnons que l'idée de preuve."
+  },
+  {
+   "auteur": "Goodfellow, Bengio et Courville",
+   "titre": "Deep Learning",
+   "annee": "2016",
+   "idee": "Architectures, apprentissage par gradient, et contraintes numériques et statistiques des implémentations réelles.",
+   "apport": "Sépare les poids construits (PROUVÉ) des poids appris (EXPÉRIMENTAL) ; rappelle que la précision flottante, l'optimisation et la généralisation hors distribution sont des ressources et des sources d'échec, ce qui structure le protocole du chapitre 15."
+  },
+  {
+   "auteur": "Vaswani et al.",
+   "titre": "Attention is all you need",
+   "annee": "2017",
+   "idee": "Un mécanisme d'attention par requêtes, clés et valeurs, avec pondération normalisée, suffit comme dispositif de routage de l'information dans une architecture sans récurrence.",
+   "apport": "Source unique de l'analogie attention/substitution du chapitre 13, traitée comme ANALOGIE puis comme CONJECTURE testable sur fragment fini, avec séparations PROUVÉES (moyennage convexe contre remplacement, absence de renommage, absence de portée). Jamais utilisée comme résultat de substitution."
+  },
+  {
+   "auteur": "Pérez, Marinković et Barceló",
+   "titre": "On the Turing completeness of modern neural network architectures",
+   "annee": "2019",
+   "idee": "Sous des hypothèses explicites de précision et de mémoire, des architectures neuronales modernes sont universelles au sens de la calculabilité.",
+   "apport": "Permet d'énoncer l'étape de simulation pour des architectures contemporaines (CONNU, idée de preuve) et oblige à afficher les hypothèses cachées ; garde-fou contre les lectures sans ressources des théorèmes d'universalité."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Deux modèles, deux économies, un protocole de traduction",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le lambda-calcul comme modèle à ressources",
+     "objectif": "Donner au lecteur cultivé non spécialiste le modèle source et ses unités de compte : termes, liaisons, substitution, réduction, stratégies. Environ 13 pages. Tous les lemmes de syntaxe réutilisés plus tard sont énoncés et prouvés intégralement ici (PROUVÉ) ; confluence et indécidabilité sont importées CONNU avec idée de preuve explicitement annoncée comme idée.",
+     "sections": [
+      "Intuition : une fonction est un texte à trous ; variables libres et liées, α-équivalence, exemples et contre-exemples (définitions, PROUVÉ pour les lemmes élémentaires de syntaxe)",
+      "Substitution sans capture : définition inductive, choix d'une variable fraîche, lemme de substitution et lemme d'échange des renommages (PROUVÉ, preuves complètes par induction sur la structure)",
+      "β-réduction, formes normales, stratégies d'appel par nom et par valeur ; divergence illustrée par $\\Omega = (\\lambda x.\\, x\\,x)(\\lambda x.\\, x\\,x)$ ; confluence (CONNU : Barendregt 1984, idée de preuve par fermeture de diagrammes)",
+      "Unités de compte RTC côté source : taille $|t|$, nombre de pas $\\beta$, hauteur d'arbre, nombre de liaisons, potentiel de partage (définitions et calculs sur exemples)",
+      "Une limite importée : indécidabilité de la normalisation (CONNU : Church 1936 ; Barendregt 1984, idée de preuve) et lemme de transport : aucune traduction effective et fidèle ne la contourne (PROUVÉ, preuve complète par réduction ; le cas des poids réels non effectifs est renvoyé au chapitre 11)",
+      "Fiche de lecture du chapitre : ce qui est PROUVÉ ici, ce qui est CONNU ailleurs, ce qui n'est pas affirmé"
+     ],
+     "exercices": [
+      "Réduire $(\\lambda x.\\, \\lambda y.\\, x\\,y)(\\lambda z.\\, z)$ en appel par nom puis en appel par valeur ; compter les pas et la taille maximale atteinte, et indiquer quelle ressource diffère.",
+      "Prouver le cas application du lemme de substitution en suivant le schéma du chapitre (preuve complète attendue, PROUVÉ).",
+      "Construire une famille $t_n$ de taille $O(n)$ dont la réduction sans partage atteint une taille $\\ge 2^n$ ; prouver la borne par induction (PROUVÉ).",
+      "Exhiber un terme qui termine en appel par nom et diverge en appel par valeur ; conclure sur ce qu'une traduction doit préserver, et avec quel statut.",
+      "Classer cinq affirmations du chapitre selon le registre PROUVÉ / CONNU / EXPÉRIMENTAL / CONJECTURE / RÉFUTÉ / OUVERT et justifier chaque choix."
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Le réseau de neurones comme modèle à ressources",
+     "objectif": "Définir le modèle cible avec la même précision comptable que le modèle source : unités à seuil, composition, récurrence, précision. Environ 13 pages. Les constructions de portes et les lemmes de composition et de comptage sont PROUVÉS intégralement ; le cadre historique est CONNU (McCulloch et Pitts 1943).",
+     "sections": [
+      "Intuition : un réseau est un circuit de votes à seuil ; l'unité de McCulloch et Pitts 1943 (CONNU) et les portes ET, OU, NON construites explicitement avec poids et seuils (PROUVÉ, vérification complète des tables)",
+      "Feedforward : taille (nombre de connexions), profondeur, largeur, fan-in ; lemmes de composition en série et de mise en parallèle (PROUVÉ, preuves complètes avec comptes exacts)",
+      "Récurrent : état, boucle, déroulage ; lemme de déroulage distinguant temps de calcul et profondeur du réseau déplié (PROUVÉ)",
+      "Précision : poids rationnels, flottants, réels ; nombre de configurations d'un réseau à $d$ cellules de $b$ bits borné par $2^{bd}$ (PROUVÉ, comptage) ; la précision comme ressource de première classe (CONNU : Siegelmann et Sontag 1995)",
+      "Ce que le modèle n'offre pas nativement : liaison de variable, allocation, indirection, partage dynamique (PROUVÉ pour les énoncés de comptage sur un réseau fixé ; OUVERT pour les extensions à mémoire externe)",
+      "Unités de compte RTC côté cible : connexions, tours de boucle, cellules d'état, bits par cellule, fan-in ; tableau de correspondance provisoire avec les unités du chapitre 1"
+     ],
+     "exercices": [
+      "Construire un réseau à seuil calculant le ou-exclusif et prouver sa correction sur les quatre entrées (PROUVÉ).",
+      "Prouver qu'une unité de fan-in $k$ ne peut calculer une fonction dépendant essentiellement de plus de $k$ entrées (PROUVÉ, argument de comptage).",
+      "Énoncer et prouver le lemme de déroulage : un réseau récurrent de taille $s$ déroulé sur $k$ tours donne un feedforward de taille $O(ks)$ et de profondeur $O(kp)$ (PROUVÉ).",
+      "Calculer le nombre maximal de configurations d'un réseau à $d = 64$ cellules de $b = 16$ bits ; en déduire une borne sur le nombre de pas de simulation distinguables (PROUVÉ).",
+      "Expliquer pourquoi un réseau feedforward fixé ne peut pas représenter un environnement de taille non bornée ; donner l'énoncé de comptage et sa preuve, puis dire ce qui reste OUVERT."
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Qu'est-ce qu'une traduction ? Le protocole RTC et le registre des statuts",
+     "objectif": "Installer le vocabulaire et les contrats qui serviront dans tout le tome : encodage, simulation, décodage, fidélité, sept ressources, composition, statuts. Environ 13 pages. Les lemmes de composition sont PROUVÉS ; le chapitre est méthodologique et ne contient aucune annonce de résultat nouveau.",
+     "sections": [
+      "Anatomie d'une traduction : encodage $E$, simulation $S$, décodage $D$, et diagramme de correction $D(S(E(t))) = \\mathrm{nf}(t)$ lorsque la forme normale existe (définitions précises)",
+      "Trois niveaux d'ambition : calculer la même fonction, simuler pas à pas, préserver les coûts ; exemples explicites qui séparent ces trois niveaux (PROUVÉ, constructions finies)",
+      "Les sept ressources du registre : taille, temps, mémoire, profondeur, largeur, précision, partage ; unités, conversions licites et conversions interdites",
+      "Lemme de composition : les coûts se composent (additivement ou multiplicativement selon la ressource) et les fidélités se composent sous hypothèses (PROUVÉ, preuve complète)",
+      "Le registre des statuts : PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ, OUVERT ; règles d'écriture du tome, interdiction des annonces de découverte et des intuitions déguisées en preuves",
+      "Traduction directe contre traduction composée : définitions, et pourquoi la question centrale du tome est OUVERT plutôt que résolue dans un sens ou dans l'autre"
+     ],
+     "exercices": [
+      "Formaliser la traduction des formules booléennes vers les réseaux à seuil : donner $E$, $S$, $D$, prouver la fidélité et chiffrer les sept ressources (PROUVÉ).",
+      "Appliquer le lemme de composition à deux traductions jouets et vérifier que le temps se compose multiplicativement tandis que la taille se compose additivement (PROUVÉ).",
+      "Donner un exemple où la fonction calculée est préservée mais où le nombre de pas n'est pas simulable pas à pas ; conclure sur le niveau d'ambition atteint.",
+      "Réécrire trois affirmations sur-ambitieuses en affirmations correctement statutées, en précisant l'hypothèse manquante.",
+      "Rédiger une fiche de traduction vierge pour un couple de modèles de votre choix, avec une case par ressource et une case statut."
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Panorama des résultats disponibles, et de leurs hypothèses",
+     "objectif": "Lire les résultats importés comme des énoncés à hypothèses, non comme des slogans. Environ 13 pages. Tout ce chapitre est CONNU pour les théorèmes cités (avec idée de preuve), PROUVÉ pour les remarques de comptage, et OUVERT pour la question centrale explicitement formulée.",
+     "sections": [
+      "Deux généalogies : calculabilité par abstraction (CONNU : Church 1936) et calculabilité par seuils (CONNU : McCulloch et Pitts 1943) ; ce que chacune prend pour gratuit",
+      "Réseaux récurrents et machines : Siegelmann et Sontag 1995 (CONNU) ; énoncé, hypothèses de rationalité des poids et de précision d'état non bornée, idée de preuve par encodage de piles dans des rationnels",
+      "Architectures modernes : Pérez, Marinković et Barceló 2019 (CONNU) ; énoncé, hypothèses de précision et de mémoire, idée de preuve par simulation d'une machine séquentielle",
+      "Lecture à ressources : ces théorèmes donnent l'universalité, pas l'efficacité ; ce qu'ils ne bornent ni en taille d'encodage, ni en temps par pas simulé, ni en partage (PROUVÉ pour les remarques de comptage explicites)",
+      "La case vide, formulée avec quantificateurs : existe-t-il une traduction directe, uniforme, à précision bornée et coût polynomial, du lambda-calcul d'ordre supérieur vers un réseau ? Statut OUVERT ; aucune impossibilité n'est revendiquée dans ce tome",
+      "Table des statuts du tome : liste de ce qui sera PROUVÉ, de ce qui est emprunté CONNU, de ce qui restera CONJECTURE ou OUVERT"
+     ],
+     "exercices": [
+      "Lister, pour chacun des trois théorèmes importés, toutes les hypothèses et la ressource que chacune cache (CONNU pour les énoncés, PROUVÉ pour les comptages).",
+      "Écrire l'énoncé OUVERT de la traduction directe avec ses quantificateurs, ses paramètres de coût et sa notion de fidélité.",
+      "Identifier dans un paragraphe volontairement sur-ambitieux l'endroit exact où l'on dépasse le théorème importé ; corriger le statut.",
+      "Montrer par comptage qu'un énoncé d'universalité à précision bornée est faux tel quel ; donner le contre-exemple (RÉFUTÉ, preuve complète).",
+      "Expliquer pourquoi un résultat d'universalité ne fournit pas, à lui seul, une traduction efficace de l'ordre supérieur ; distinguer les trois niveaux du chapitre 3."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Représenter : termes, liaisons, partage et types dans un espace vectoriel",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Encoder la syntaxe : arbres, indices de liaison, vecteurs",
+     "objectif": "Construire la première traduction T1 (terme → vecteur) et la prouver, avec un chiffrage complet des ressources. Environ 14 pages. Tous les énoncés sont PROUVÉS par des preuves élémentaires complètes ; aucune optimalité n'est revendiquée.",
+     "sections": [
+      "Intuition : oublier les noms pour ne garder que la géométrie des liaisons ; termes sans noms à indices, définition et exemples (PROUVÉ : bijection entre classes α de termes et termes sans noms, preuve complète par induction)",
+      "Linéariser un arbre : code préfixe avec arités, décodage déterministe, injectivité (PROUVÉ, algorithme et preuve)",
+      "Coût de l'encodage : $|E(t)| = O(|t| \\log |t|)$ bits pour des indices bornés par la taille, hauteur d'arbre, largeur du vecteur (PROUVÉ, calculs complets)",
+      "Plonger dans $\\mathbb{R}^d$ : marge de séparation, bits nécessaires, borne de comptage $2^{bd} \\ge N_n$ où $N_n$ est le nombre de termes de taille $\\le n$ (PROUVÉ) ; ce que cette borne impose à la précision",
+      "Ce qui passe et ce qui casse : structure et liaisons conservées, partage et coût de substitution perdus (PROUVÉ sur exemple chiffré)",
+      "Fiche T1 (λ-terme → vecteur) : sens, taille, temps, mémoire, profondeur, largeur, précision, partage, conservé, perdu, statut PROUVÉ"
+     ],
+     "exercices": [
+      "Encoder puis décoder $(\\lambda x.\\, \\lambda y.\\, x\\,(y\\,x))$ sous forme sans noms puis en code préfixe ; vérifier l'injectivité sur deux termes α-équivalents (PROUVÉ).",
+      "Prouver la bijection entre classes α et termes sans noms dans le cas abstraction (preuve complète, PROUVÉ).",
+      "Calculer le nombre de termes clos de taille $\\le 12$ dans une signature fixée, puis en déduire une borne inférieure sur $b \\cdot d$ pour tout encodage injectif (PROUVÉ).",
+      "Exhiber deux termes distincts ayant le même multi-ensemble de symboles ; conclure sur ce qu'un encodage en sac de symboles perd (PROUVÉ).",
+      "Remplir la fiche T1 pour un encodage alternatif de votre choix et comparer les sept ressources ligne à ligne."
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Le partage : du graphe au vecteur, et ce qui s'y perd",
+     "objectif": "Isoler le partage comme ressource à part entière et montrer, par des preuves complètes, qu'il change la classe de coût et qu'il est mal conservé par les encodages vectoriels. Environ 14 pages.",
+     "sections": [
+      "Intuition : partager, c'est nommer une fois et pointer souvent ; termes-graphes, environnements, indirections (définitions et exemples dessinés)",
+      "Le partage change la classe de coût : famille explicite où la réduction sans partage est exponentielle et où la réduction avec partage est polynomiale (PROUVÉ, deux preuves complètes par induction)",
+      "Trois encodages d'un graphe : dépliage, table d'adresses, pointeurs dans l'état ; tableau comparatif des sept ressources (PROUVÉ pour les comptages)",
+      "Un réseau feedforward est un graphe figé : absence d'indirection dynamique pour un réseau fixé (PROUVÉ, énoncé de comptage et preuve) ; ce que cela ne dit pas des architectures à mémoire (OUVERT)",
+      "Où va le partage ? Dans la mémoire auxiliaire et dans la précision, jamais dans les poids (PROUVÉ pour les comptages ; discussion méthodologique)",
+      "Fiche T2 (terme partagé → vecteur + table) : sens, coûts, conservé, perdu, statut ; et fiche T2' (terme partagé → vecteur déplié) avec son explosion de taille"
+     ],
+     "exercices": [
+      "Construire la famille à partage exponentiel et prouver les deux bornes, sans partage et avec partage (PROUVÉ).",
+      "Chiffrer le coût du dépliage sur un graphe de $n$ nœuds et de profondeur $p$ ; donner une borne exacte et non seulement asymptotique (PROUVÉ).",
+      "Prouver qu'un réseau feedforward fixé ne peut réaliser un nombre non borné d'indirections dynamiques (PROUVÉ, comptage).",
+      "Comparer T2 et T2' sur un exemple de taille 20 ; remplir les deux fiches et désigner la ressource dominante.",
+      "Expliquer pourquoi annoncer que le partage est préservé par un plongement vectoriel serait une intuition et non une preuve ; formuler l'énoncé OUVERT correspondant."
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Ordre supérieur : fermetures, environnements, fonctions comme valeurs",
+     "objectif": "Traduire ce qui fait la spécificité du lambda-calcul : une fonction qui prend une fonction. Environ 14 pages. Les constructions et bornes sont PROUVÉES ; le cadre des fermetures est CONNU (Pierce 2002).",
+     "sections": [
+      "Intuition : une fermeture est un code plus un carnet d'adresses ; exemples d'ordre 2 et 3 (définitions ; CONNU : Pierce 2002)",
+      "Encoder une fermeture : table d'environnements, index de code, chaînage lexical ; construction explicite (PROUVÉ, correction sur exemples et lemme d'accès)",
+      "Coût d'un appel d'ordre supérieur : profondeur d'indirection, taille d'environnement, nombre de recopies (PROUVÉ, bornes explicites et preuves)",
+      "Arité fixe contre arité variable : curryfication, lemme d'arité et son coût en largeur et en temps (PROUVÉ)",
+      "Un réseau fini ne fabrique pas de fermetures nouvelles : énoncé de comptage et preuve (PROUVÉ) ; ce que changent les architectures à mémoire auxiliaire, et pourquoi l'efficacité reste OUVERT",
+      "Fiche T3 (λ d'ordre supérieur → réseau + environnement) : sens, coûts, conservé (résultat, portée lexicale), perdu (création dynamique sans mémoire), statut"
+     ],
+     "exercices": [
+      "Encoder la fermeture d'un terme d'ordre 2 et dérouler un appel complet en comptant les indirections (PROUVÉ).",
+      "Prouver le lemme d'accès à l'environnement : le coût d'une recherche est linéaire en la profondeur lexicale dans l'encodage proposé (PROUVÉ).",
+      "Prouver le lemme d'arité et chiffrer le surcoût de curryfication en largeur (PROUVÉ).",
+      "Montrer par comptage qu'un réseau à $C$ configurations ne peut distinguer plus de $C$ fermetures ; en déduire une limitation explicite (PROUVÉ).",
+      "Rédiger la fiche T3 pour une variante où l'environnement est stocké dans la précision d'une cellule ; identifier la ressource qui explose."
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Les types comme contrats de ressources : un fragment où tout est fini",
+     "objectif": "Exhiber un fragment où la traduction devient élémentaire et prouvable sans import lourd, et montrer honnêtement que ce confort se paie par une perte d'uniformité et une explosion de taille. Environ 14 pages.",
+     "sections": [
+      "Types simples : jugements, règles, exemples ; le type comme contrat d'usage (CONNU : Pierce 2002)",
+      "Termes comme constructions : lecture de Howard 1980 (CONNU, idée de la correspondance) ; pourquoi elle isole un fragment où la simulation est maîtrisable",
+      "Normalisation du fragment simplement typé : CONNU (Pierce 2002 ; Howard 1980), idée de preuve par prédicats de réductibilité, explicitement donnée comme idée et non comme preuve",
+      "Le coût reste énorme : famille explicite de termes typés de taille $O(n)$ dont la forme normale a une taille en tour d'exponentielles de hauteur linéaire (PROUVÉ, construction par itérateurs typés et calcul complet)",
+      "Traduire un fragment borné : pour un ensemble fini de termes typés de taille $\\le n$ et de type fixé, un réseau-table à seuil calcule la forme normale (PROUVÉ, construction, correction, borne de taille et de profondeur) ; perte d'uniformité et dépendance en $n$",
+      "Fiche T4 (fragment typé borné → réseau feedforward) : sens, coûts, conservé, perdu, statut PROUVÉ ; extension au polymorphisme et aux types dépendants : OUVERT"
+     ],
+     "exercices": [
+      "Typer trois termes et refuser le typage d'un terme divergent ; expliquer ce que le contrat garantit et ce qu'il ne garantit pas.",
+      "Dérouler la construction de la famille à forme normale en tour d'exponentielles pour $n = 3$ et vérifier la borne annoncée (PROUVÉ).",
+      "Construire le réseau-table d'un fragment à 16 termes et donner sa taille, sa profondeur, sa largeur et sa précision (PROUVÉ).",
+      "Prouver que le réseau-table n'est pas uniforme : exhiber deux bornes $n$ pour lesquelles aucune taille commune ne convient (PROUVÉ).",
+      "Dire précisément ce qui manquerait pour étendre T4 au-delà du fragment borné ; formuler l'énoncé OUVERT avec ses paramètres."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Simuler : la machine intermédiaire, la traduction composée et le chemin inverse",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Une machine à environnements pour le lambda-calcul",
+     "objectif": "Définir intégralement la machine intermédiaire M, prouver sa correction, sa complétude et son invariant de partage, et chiffrer la traduction T5. Environ 15 pages. Toutes les preuves sont complètes et élémentaires ; aucune nouveauté n'est revendiquée, il s'agit d'un assemblage standard exposé avec statut PROUVÉ.",
+     "sections": [
+      "Pourquoi une machine : la substitution déplace et renomme dans tout le terme ; exemple explicite de non-localité (PROUVÉ) ; conséquence pour un modèle à connexions fixes",
+      "La machine M : états (terme, environnement, pile), quatre règles de transition, stratégie faible d'appel par nom fixée (définition complète, traces détaillées sur trois exemples)",
+      "Correction : toute dérivation de M se lit comme une réduction faible du terme déplié (PROUVÉ : lemme de dépliage, lemme d'inversion, induction sur la longueur de dérivation)",
+      "Complétude et adéquation : si le terme admet une forme normale faible, M l'atteint ; borne sur le nombre de transitions en fonction du nombre de pas et de la taille (PROUVÉ : mesure décroissante, preuves complètes)",
+      "Invariant de partage : les environnements ne sont pas recopiés, les indirections restent partagées ; énoncé et preuve par induction sur les règles (PROUVÉ) ; ce qui reste néanmoins dupliqué",
+      "Fiche T5 (λ → M) : sens, transition en temps constant sur machine à mots de $O(\\log)$ bits, mémoire, profondeur, largeur, précision, partage ; conservé, perdu, statut PROUVÉ"
+     ],
+     "exercices": [
+      "Dérouler M sur $(\\lambda x.\\, x\\,x)(\\lambda y.\\, y)$ et sur un terme à capture potentielle ; vérifier l'absence de capture grâce aux environnements.",
+      "Prouver le lemme de dépliage (preuve complète par induction sur la structure de l'environnement, PROUVÉ).",
+      "Prouver le cas application du théorème de correction, en explicitant l'hypothèse d'induction (PROUVÉ).",
+      "Établir la borne annoncée sur le nombre de transitions pour une famille de termes donnée, et exhiber un cas où le nombre de transitions dépasse largement le nombre de pas β (PROUVÉ).",
+      "Vérifier l'invariant de partage sur une trace de 20 transitions et compter les cellules allouées ; comparer avec la réduction sans partage."
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "De la machine au réseau récurrent : construction et hypothèses",
+     "objectif": "Construire T6 (M → réseau récurrent), dire exactement ce qui est démontré ici et ce qui est importé, et afficher les hypothèses de précision. Environ 15 pages. Construction et simulation bornée PROUVÉES ; universalité CONNU avec idée de preuve.",
+     "sections": [
+      "Coder une configuration de M : pile et environnement en rationnels, encodage injectif, borne de bits linéaire en la taille de la configuration (PROUVÉ, preuve complète)",
+      "Une transition par tour de boucle : blocs arithmétiques, blocs de décodage, bloc de contrôle ; construction explicite en unités à seuil (PROUVÉ pour chaque bloc, assemblage vérifié)",
+      "Le théorème importé : simulation de machines séquentielles par réseaux récurrents (CONNU : Siegelmann et Sontag 1995 ; Pérez, Marinković et Barceló 2019) ; énoncé avec hypothèses et idée de preuve par encodage d'états et de piles",
+      "Ce que le tome démontre sans import : simulation des $k$ premières transitions avec $O(k)$ bits d'état et un réseau de taille constante (PROUVÉ, preuve complète par induction sur $k$) ; limites explicites de cet énoncé",
+      "Coûts de T6 : taille du réseau constante, temps $= O(\\text{nombre de transitions})$, état et précision croissants, profondeur constante par tour, largeur fixée (PROUVÉ, tableau complet)",
+      "Fiche T6 (M → réseau récurrent) : sens, coûts, conservé (résultat, ordre des pas), perdu (localité, partage explicite, typage, lisibilité), statut PROUVÉ sous hypothèses et CONNU pour l'universalité"
+     ],
+     "exercices": [
+      "Coder une configuration de M en rationnels, puis la décoder ; vérifier l'injectivité et compter les bits (PROUVÉ).",
+      "Construire le bloc de contrôle qui choisit la règle de M applicable, et prouver sa correction sur les quatre cas (PROUVÉ).",
+      "Prouver l'énoncé de simulation bornée pour $k = 5$ en suivant pas à pas l'induction, puis donner la constante cachée (PROUVÉ).",
+      "Identifier, dans l'énoncé importé, l'hypothèse qui autorise un état de précision non bornée ; dire ce qui tombe si on la retire (CONNU puis PROUVÉ par comptage).",
+      "Remplir la fiche T6 et comparer, ressource par ressource, avec la fiche T5 du chapitre 9."
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "La facture de la traduction composée : précision, mémoire, partage",
+     "objectif": "Composer T5 et T6, prouver la correction composée, et tenir le registre complet des sept ressources ; montrer que la précision est une mémoire déguisée et démonter les lectures sans ressources des énoncés de puissance. Environ 15 pages.",
+     "sections": [
+      "Théorème de correction composée pour $T6 \\circ T5$ : énoncé avec hypothèses explicites et preuve complète par composition des lemmes des chapitres 9 et 10 (PROUVÉ)",
+      "Tableau des sept ressources, ligne par ligne, avec unité, valeur, hypothèse et statut de chaque case ; identification du poste dominant",
+      "La précision est de la mémoire : borne inférieure $b \\cdot d \\ge \\log_2 N$ où $N$ est le nombre de configurations atteignables (PROUVÉ, comptage) ; corollaire : à précision bornée, au plus $2^{bd}$ comportements distinguables (PROUVÉ)",
+      "Le mirage de la puissance gratuite : poids réels et oracle caché (CONNU : Siegelmann et Sontag 1995) ; construction d'un réel codant un langage non calculable et lecture par seuils (PROUVÉ, preuve complète) ; reformulation honnête des énoncés d'universalité (CONNU : Pérez, Marinković et Barceló 2019)",
+      "Le partage payé deux fois : exemple chiffré où T5 conserve le partage et où T6 le détruit dans l'état (PROUVÉ) ; ce qu'il faudrait pour le préserver, et statut OUVERT de cette préservation à précision bornée",
+      "Statut global de la route composée : PROUVÉ sous précision non bornée ; efficacité à précision bornée : OUVERT ; comportement en précision flottante réelle : EXPÉRIMENTAL (CONNU pour le cadre numérique : Goodfellow, Bengio et Courville 2016)"
+     ],
+     "exercices": [
+      "Énoncer puis prouver le théorème de correction composée en n'utilisant que les lemmes numérotés des chapitres 9 et 10 (PROUVÉ).",
+      "Calculer la précision minimale nécessaire pour simuler $k$ transitions sur une famille de termes donnée ; comparer à la mémoire d'une exécution directe (PROUVÉ).",
+      "Construire le réel-oracle et prouver qu'un réseau à seuils peut lire ses bits ; expliquer pourquoi cela ne constitue pas un gain de puissance gratuit (PROUVÉ).",
+      "Réfuter l'affirmation selon laquelle un réseau récurrent fini à précision bornée simule toute réduction : contre-exemple explicite et preuve (RÉFUTÉ).",
+      "Reprendre l'exemple à partage exponentiel et chiffrer ce que la composée perd ; formuler la question OUVERT correspondante avec ses paramètres."
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Le chemin inverse : des réseaux aux termes",
+     "objectif": "Traiter la traduction dans l'autre sens, avec le même protocole, et montrer ce que l'aller-retour ne restitue pas. Environ 15 pages. Constructions et bornes PROUVÉES ; l'argument de cardinalité contre les poids réels est élémentaire et prouvé intégralement.",
+     "sections": [
+      "Sens inverse : que signifie traduire un réseau en terme ? Trois notions (même fonction, même graphe, mêmes coûts) et exemples qui les séparent (définitions, PROUVÉ)",
+      "Porte à seuil → terme : encodage des booléens et des itérateurs dans le lambda-calcul (définitions données), construction par porte et correction (PROUVÉ, preuve complète, coût constant par porte)",
+      "Feedforward → terme : composition, taille linéaire en le nombre de connexions, longueur de réduction liée à la profondeur du réseau (PROUVÉ, bornes et preuves)",
+      "Récurrent → terme : itérateur borné, le temps devient un argument explicite ; perte de la boucle non bornée sans opérateur de point fixe (PROUVÉ)",
+      "Poids rationnels → arithmétique encodée : explosion de taille selon la précision (PROUVÉ, borne explicite) ; poids réels quelconques : non traduisibles par argument de cardinalité (PROUVÉ, preuve complète)",
+      "Fiche T7 (réseau → λ) : sens, coûts, conservé (fonction calculée, temps borné), perdu (parallélisme, profondeur, poids non effectifs) ; aller-retour $T7 \\circ T6 \\circ T5$ : ce n'est pas l'identité (PROUVÉ, contre-exemple explicite)"
+     ],
+     "exercices": [
+      "Encoder une porte à seuil en un terme clos et prouver la correction sur les quatre entrées (PROUVÉ).",
+      "Traduire un feedforward de profondeur 3 et de 20 connexions ; donner la taille du terme obtenu et une borne sur le nombre de pas (PROUVÉ).",
+      "Traduire un réseau récurrent déroulé sur $k$ tours en un terme utilisant un itérateur borné ; identifier où le temps est passé (PROUVÉ).",
+      "Prouver l'argument de cardinalité : il n'existe pas de traduction de tous les réseaux à poids réels vers des termes (PROUVÉ).",
+      "Construire un terme dont l'aller-retour ne redonne pas un terme α-équivalent ; conclure sur la perte d'information et son statut."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Analogies, obstacles, mesures et transfert au programme RTC",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Attention et substitution : anatomie d'une analogie",
+     "objectif": "Traiter la ressemblance la plus tentante du domaine avec une discipline explicite : ANALOGIE d'abord, CONJECTURE testable ensuite, séparations PROUVÉES, et jamais de résultat annoncé. Environ 13 pages.",
+     "sections": [
+      "L'attention telle qu'elle est définie : requêtes, clés, valeurs, pondération normalisée ; ce que calcule exactement une tête (CONNU : Vaswani et al. 2017)",
+      "La substitution telle qu'elle est définie : rappel formel des lemmes du chapitre 1, portée, renommage, absence de capture (PROUVÉ)",
+      "Les ressemblances : accès par contenu, sélection conditionnelle, routage de l'information ; statut ANALOGIE, reformulé en CONJECTURE, avec liste explicite de ce que la ressemblance ne prouve pas",
+      "Séparations prouvées sur des fragments finis : une pondération normalisée moyenne là où la substitution remplace ; ni renommage, ni gestion de portée ; trois énoncés de séparation avec calculs complets (PROUVÉ)",
+      "Conjecture testable : sur un fragment fini, à substitution bornée et sans capture, une tête peut réaliser la table de substitution ; énoncé précis, paramètres, protocole de test, critères de réfutation (CONJECTURE)",
+      "Hygiène de langage : formulations permises et formulations interdites dans ce tome ; pourquoi une analogie, même féconde, ne change pas de statut sans preuve"
+     ],
+     "exercices": [
+      "Calculer les poids d'attention sur un encodage de terme donné et comparer la sortie à la substitution attendue ; quantifier l'écart (PROUVÉ pour le calcul).",
+      "Exhiber un cas de capture potentielle où la pondération normalisée ne peut produire le terme substitué ; prouver l'impossibilité sur ce fragment (PROUVÉ).",
+      "Écrire la CONJECTURE avec tous ses paramètres (taille du fragment, borne de substitution, précision, marge) et le test qui la réfuterait.",
+      "Classer dix phrases mêlant attention et substitution selon le registre des statuts ; corriger celles qui présentent une intuition comme une preuve.",
+      "Proposer une expérience qui distinguerait une vraie substitution d'une simple corrélation apprisе, et dire ce qu'elle ne pourrait pas établir."
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Obstacles à une traduction directe : ce qui est OUVERT et ce qui est RÉFUTÉ",
+     "objectif": "Formuler proprement la question centrale, établir les obstacles élémentaires que l'on sait prouver, réfuter les formulations trop fortes, et laisser ouvertes les questions générales sans revendiquer d'impossibilité. Environ 13 pages.",
+     "sections": [
+      "Définir directe : sans machine intermédiaire, sans mémoire auxiliaire, à précision bornée, uniforme, avec taille et temps polynomiaux ; énoncé avec quantificateurs et paramètres (définitions)",
+      "Obstacle de largeur : un feedforward de largeur et de profondeur fixées ne produit pas de sorties de taille non bornée (PROUVÉ, comptage) ; ce que cet obstacle n'exclut pas",
+      "Obstacle de liaison : famille explicite de termes où la substitution exige un déplacement non local ; énoncé et preuve sur cette famille (PROUVÉ) ; aucune borne inférieure générale n'est revendiquée (OUVERT)",
+      "Obstacle d'ordre supérieur : création dynamique de fermetures, arité non fixe, environnements de taille croissante (PROUVÉ pour les comptages, OUVERT pour la généralité)",
+      "Formulations RÉFUTÉES : un réseau fini à précision bornée simule toute réduction (contre-exemple, PROUVÉ) ; l'attention est une substitution (séparations du chapitre 13) ; la puissance réelle est gratuite (chapitre 11)",
+      "Trois problèmes OUVERT écrits avec leurs paramètres : traduction directe efficace ; traduction préservant le partage à précision bornée ; simulation pas à pas à coût polynomial sans mémoire auxiliaire ; ce qui compterait comme clôture"
+     ],
+     "exercices": [
+      "Écrire l'énoncé OUVERT de la traduction directe en n'oubliant aucun quantificateur, puis identifier la ressource qu'un candidat devrait contrôler en premier.",
+      "Prouver l'obstacle de largeur pour un réseau de largeur 8 et de profondeur 4 (PROUVÉ, comptage explicite).",
+      "Construire la famille à substitution non locale et prouver la propriété annoncée (PROUVÉ).",
+      "Réfuter deux formulations trop fortes circulating dans le discours vulgarisé, en produisant à chaque fois un contre-exemple fini (RÉFUTÉ).",
+      "Expliquer pourquoi les obstacles de ce chapitre ne constituent pas une preuve d'impossibilité ; lister ce qui manque pour conclure."
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Protocole expérimental : mesurer une traduction sans la survendre",
+     "objectif": "Donner un protocole reproductible pour évaluer les traductions du tome, avec des métriques définies avant mesure et une discipline de statut stricte. Environ 13 pages. Rien ici n'est annoncé comme résultat : tout est EXPÉRIMENTAL ou méthodologique.",
+     "sections": [
+      "Ce qui se mesure : fidélité de réduction, nombre de pas simulés avant première erreur, bits minimaux requis, taux d'échec par profondeur et par ordre (définitions des métriques, EXPÉRIMENTAL)",
+      "Banc d'essai : itérateurs, familles à partage exponentiel, fermetures imbriquées, termes à risque de capture ; critères de réussite fixés avant toute mesure",
+      "Poids construits contre poids appris : PROUVÉ pour les premiers, EXPÉRIMENTAL pour les seconds ; interdiction de transférer le statut d'un régime à l'autre (cadre numérique et d'apprentissage : CONNU, Goodfellow, Bengio et Courville 2016)",
+      "Généralisation hors distribution : longueur, profondeur, variables fraîches ; protocole, pièges d'interprétation et effets de mémorisation (EXPÉRIMENTAL)",
+      "Fiche de mesure : format, incertitudes, reproductibilité, consignation des échecs ; interdiction de toute annonce de découverte",
+      "Ce qu'une expérience ne peut pas faire : prouver une impossibilité, établir une borne asymptotique, promouvoir une CONJECTURE en PROUVÉ ou clore un OUVERT (méthode)"
+     ],
+     "exercices": [
+      "Définir une métrique de fidélité de réduction sur un fragment fini et prouver qu'elle est bien définie (PROUVÉ pour la définition, EXPÉRIMENTAL pour les valeurs).",
+      "Écrire le protocole complet de test de la conjecture du chapitre 13, avec critère de réfutation fixé à l'avance.",
+      "Comparer, sur le papier, ce que garantissent des poids construits et ce que peuvent montrer des poids appris ; rédiger deux fiches de statut distinctes.",
+      "Concevoir un test hors distribution qui sépare mémorisation et simulation ; dire ce qu'un succès ne prouverait pas.",
+      "Rédiger une fiche de mesure pour un échec, en respectant le format et le registre des statuts."
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Transfert vers le programme RTC",
+     "objectif": "Convertir ce tome en outils pour le programme de recherche sur les traductions à ressources : tableau de fiches, ressources révélées, unités et invariants communs, questions ouvertes léguées, critères de clôture. Environ 13 pages. Chapitre de bilan, sans annonce de découverte.",
+     "sections": [
+      "Bilan : les fiches T1, T2, T2', T3, T4, T5, T6, T7 et la composée $T6 \\circ T5$ réunies en un tableau unique (sens, taille, temps, mémoire, profondeur, largeur, précision, partage, conservé, perdu, statut)",
+      "Trois enseignements transférables : la précision est une mémoire déguisée (PROUVÉ) ; le partage est la ressource la plus mal conservée sur ces fiches (PROUVÉ) ; profondeur et temps s'échangent, mais pas gratuitement (PROUVÉ via les lemmes de déroulage)",
+      "Unités et invariants pour RTC : pas de machine, bits d'état, connexions, facteur de perte par ressource ; la correction composée comme contrat minimal de toute traduction revendiquée",
+      "Questions OUVERTES léguées : traduction directe efficace ; préservation du partage à précision bornée ; bornes inférieures générales ; et la CONJECTURE attention-substitution sur fragment, avec son protocole",
+      "Articulation avec les autres tomes des Traductions du Calcul : même grille de sept ressources, mêmes statuts, autres modèles ; ce que ce tome fournit comme gabarit de fiche et comme catalogue de pièges de statut",
+      "Critères de clôture : ce qui compterait comme preuve, comme réfutation, comme simple mesure ; engagement de non-annonce et règle de publication des échecs"
+     ],
+     "exercices": [
+      "Remplir une fiche de traduction complète pour un couple de modèles de votre choix, en indiquant pour chaque ressource une valeur ou la mention non bornée, avec statut.",
+      "Identifier, dans trois fiches du tome, la ressource dominante et justifier par le comptage correspondant (PROUVÉ).",
+      "Choisir une question OUVERTES léguée et écrire ce qui la clôturerait : énoncé à prouver, contre-exemple à construire, ou expérience insuffisante.",
+      "Réécrire un résumé sur-ambitieux du tome en un résumé correctement statuté, ressource par ressource.",
+      "Proposer un invariant de traduction supplémentaire, candidat pour le registre RTC, et expliquer sur quelle fiche du tome il serait violé."
+     ]
+    }
+   ]
+  }
+ ]
+}

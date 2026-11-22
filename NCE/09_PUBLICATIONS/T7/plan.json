@@ -1,0 +1,358 @@
+{
+ "titre": "Des Circuits aux Réseaux de Neurones",
+ "sous_titre": "Traductions entre circuits booléens, SAT et réseaux de neurones à seuil : ressources, largeur et profondeur",
+ "these": "Les réseaux de neurones et les circuits booléens sont deux modèles de calcul qui, bien que d'origines distinctes, partagent une structure profonde. Ce livre étudie les traductions formelles entre ces deux modèles sous l'angle des ressources (taille, profondeur, largeur, précision des poids), en démontrant ce qui est conservé ou perdu lors du passage de l'un à l'autre.",
+ "cadre": {
+  "nom": "Les traductions à ressources et le registre des statuts",
+  "description": "RÈGLES ABSOLUES : (1) ne citer QUE les références de la liste ci-dessous, avec l'auteur et l'année indiqués ; n'en inventer aucune ; aucun DOI, aucun numéro de page, aucune citation entre guillemets attribuée à un chercheur ; (2) ne jamais présenter une intuition comme une preuve ; donner des preuves complètes pour les résultats démontrés dans le livre, et pour les grands théorèmes connus donner l'idée de la preuve en le disant ; (3) chaque affirmation porte un statut : PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ ou OUVERT ; (4) aucune annonce de découverte ; (5) formules en LaTeX entre $...$ ou $$...$$ ; (6) lecteur cultivé non spécialiste : intuition, définition, énoncé, exemple, exercice ; (7) dernier chapitre : « Transfert vers le programme RTC » (ce que ce tome apporte à l'étude des traductions à ressources : quelles ressources, quelles traductions, quelles questions ouvertes). (8) ce tome est un tome de TRADUCTION entre deux modèles : pour chaque traduction, donner le sens, le coût (taille, temps, mémoire, profondeur, largeur, précision, partage), ce qui est conservé et ce qui est perdu, avec son statut. Références autorisées (et seulement elles) : McCulloch et Pitts 1943 (A logical calculus of the ideas immanent in nervous activity) ; Tseitin 1968 (On the complexity of derivation in propositional calculus) ; Minsky et Papert 1969 (Perceptrons) ; Cook 1971 (The complexity of theorem-proving procedures) ; Hajnal, Maass, Pudlák, Szegedy et Turán 1993 (Threshold circuits of bounded depth) ; Håstad 1994 (On the size of weights for threshold gates) ; Biere, Heule, van Maaren et Walsh 2009 (Handbook of Satisfiability) ; Jukna 2012 (Boolean Function Complexity: Advances and Frontiers) ; Telgarsky 2016 (Benefits of depth in neural networks) ; Merrill et Sabharwal 2023 (The parallelism tradeoff: limitations of log-precision transformers)"
+ },
+ "bibliographie": [
+  {
+   "auteur": "McCulloch et Pitts",
+   "titre": "A logical calculus of the ideas immanent in nervous activity",
+   "annee": "1943",
+   "idee": "Modélisation du neurone comme une porte logique à seuil.",
+   "apport": "Fondation du lien entre réseaux de neurones et circuits booléens (statut CONNU)."
+  },
+  {
+   "auteur": "Tseitin",
+   "titre": "On the complexity of derivation in propositional calculus",
+   "annee": "1968",
+   "idee": "Encodage de circuits en formules SAT avec ajout de variables.",
+   "apport": "Introduction de la transformation de Tseitin et de la notion de largeur (statut CONNU)."
+  },
+  {
+   "auteur": "Minsky et Papert",
+   "titre": "Perceptrons",
+   "annee": "1969",
+   "idee": "Limites des réseaux de neurones à une seule couche cachée.",
+   "apport": "Analyse de la capacité de calcul et de la profondeur (statut CONNU)."
+  },
+  {
+   "auteur": "Cook",
+   "titre": "The complexity of theorem-proving procedures",
+   "annee": "1971",
+   "idee": "Preuve de la NP-complétude de SAT.",
+   "apport": "Cadre de complexité pour les traductions vers SAT (statut CONNU)."
+  },
+  {
+   "auteur": "Hajnal, Maass, Pudlák, Szegedy et Turán",
+   "titre": "Threshold circuits of bounded depth",
+   "annee": "1993",
+   "idee": "Étude de la puissance des circuits à seuil de profondeur bornée.",
+   "apport": "Bornes sur la profondeur et la taille des circuits à seuil (statut CONNU)."
+  },
+  {
+   "auteur": "Håstad",
+   "titre": "On the size of weights for threshold gates",
+   "annee": "1994",
+   "idee": "Analyse de la taille des poids nécessaires pour les portes à seuil.",
+   "apport": "Bornes sur la précision et la taille des poids (statut CONNU)."
+  },
+  {
+   "auteur": "Biere, Heule, van Maaren et Walsh",
+   "titre": "Handbook of Satisfiability",
+   "annee": "2009",
+   "idee": "Synthèse des algorithmes et encodages SAT.",
+   "apport": "Référence pour les traductions et résolveurs SAT (statut CONNU)."
+  },
+  {
+   "auteur": "Jukna",
+   "titre": "Boolean Function Complexity: Advances and Frontiers",
+   "annee": "2012",
+   "idee": "Complexité structurelle des fonctions booléennes.",
+   "apport": "Outils pour mesurer la taille et la largeur des circuits (statut CONNU)."
+  },
+  {
+   "auteur": "Telgarsky",
+   "titre": "Benefits of depth in neural networks",
+   "annee": "2016",
+   "idee": "Avantages de la profondeur dans les réseaux de neurones.",
+   "apport": "Séparations de complexité basées sur la profondeur (statut CONNU)."
+  },
+  {
+   "auteur": "Merrill et Sabharwal",
+   "titre": "The parallelism tradeoff: limitations of log-precision transformers",
+   "annee": "2023",
+   "idee": "Limites de la précision logarithmique dans les modèles de calcul parallèles.",
+   "apport": "Contraintes sur la précision des poids lors des traductions (statut CONNU)."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Fondements des modèles et premières traductions",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Le neurone formel et la porte à seuil",
+     "objectif": "Établir les bases du modèle de McCulloch et Pitts 1943 et son équivalence avec les portes logiques.",
+     "sections": [
+      "Intuition du neurone formel (statut CONNU)",
+      "Définition de la porte à seuil selon McCulloch et Pitts 1943 (statut CONNU)",
+      "Équivalence avec les portes logiques classiques (statut CONNU)",
+      "Coût de la traduction : sens, taille, profondeur, précision (statut CONNU)",
+      "Exemple de compilation d'un ET et d'un OU (statut CONNU)"
+     ],
+     "exercices": [
+      "Construire une porte XOR avec des neurones à seuil (statut CONNU)",
+      "Analyser le coût en précision (statut CONNU)"
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Circuits booléens et complexité structurelle",
+     "objectif": "Définir les ressources des circuits booléens selon Jukna 2012.",
+     "sections": [
+      "Intuition des circuits booléens (statut CONNU)",
+      "Définition de la taille et de la profondeur selon Jukna 2012 (statut CONNU)",
+      "Notion de largeur structurelle (statut CONNU)",
+      "Coût de la traduction : partage et mémoire (statut CONNU)",
+      "Exemple de circuit de majorité (statut CONNU)"
+     ],
+     "exercices": [
+      "Calculer la largeur d'un circuit donné (statut CONNU)",
+      "Comparer taille et profondeur (statut CONNU)"
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Satisfiabilité et encodage",
+     "objectif": "Présenter l'encodage de Cook 1971 et la transformation de Tseitin.",
+     "sections": [
+      "Intuition de la satisfiabilité (statut CONNU)",
+      "Définition de l'encodage de Cook 1971 (statut CONNU)",
+      "Transformation de Tseitin et variables auxiliaires (statut CONNU)",
+      "Coût de la traduction : taille, temps, mémoire (statut CONNU)",
+      "Exemple d'encodage d'un petit circuit (statut CONNU)"
+     ],
+     "exercices": [
+      "Appliquer l'encodage de Tseitin (statut CONNU)",
+      "Évaluer la taille de la formule SAT résultante (statut CONNU)"
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Ressources de calcul et registre des statuts",
+     "objectif": "Formaliser le cadre d'analyse des ressources et le registre des statuts.",
+     "sections": [
+      "Intuition des ressources de calcul (statut CONNU)",
+      "Définition du registre des statuts (statut PROUVÉ)",
+      "Classification des ressources : taille, temps, mémoire, profondeur, largeur, précision, partage (statut CONNU)",
+      "Méthodologie d'évaluation des traductions (statut CONNU)"
+     ],
+     "exercices": [
+      "Classifier une ressource donnée (statut CONNU)",
+      "Appliquer le registre des statuts à un exemple (statut PROUVÉ)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Des circuits aux réseaux de neurones",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Compilation porte par porte en neurones à seuil",
+     "objectif": "Démontrer le résultat L-03 sur la compilation et la borne des poids.",
+     "sections": [
+      "Intuition de la compilation porte par porte (statut CONNU)",
+      "Définition de la traduction (statut CONNU)",
+      "Énoncé du résultat L-03 : poids entiers au plus 2, facteur $k+2$ (statut PROUVÉ)",
+      "Preuve complète de la borne sur les poids et le facteur (statut PROUVÉ)",
+      "Coût de la traduction : ce qui est conservé et perdu (statut PROUVÉ)",
+      "Exemple de compilation d'un circuit de largeur $w$ (statut PROUVÉ)"
+     ],
+     "exercices": [
+      "Vérifier la borne $k+2$ sur un exemple (statut PROUVÉ)",
+      "Calculer le coût en taille pour un circuit donné (statut PROUVÉ)"
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Circuits à seuil de profondeur bornée",
+     "objectif": "Analyser les traductions préservant la profondeur selon Hajnal, Maass, Pudlák, Szegedy et Turán 1993.",
+     "sections": [
+      "Intuition des circuits à seuil de profondeur bornée (statut CONNU)",
+      "Définition selon Hajnal, Maass, Pudlák, Szegedy et Turán 1993 (statut CONNU)",
+      "Idée de la preuve des bornes de profondeur (statut CONNU)",
+      "Coût de la traduction : profondeur et largeur (statut CONNU)",
+      "Exemple de translation de profondeur (statut CONNU)"
+     ],
+     "exercices": [
+      "Analyser la profondeur d'un circuit à seuil (statut CONNU)",
+      "Discuter de la conservation de la largeur (statut OUVERT)"
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "La taille des poids dans les traductions",
+     "objectif": "Étudier l'impact de la précision des poids selon Håstad 1994.",
+     "sections": [
+      "Intuition de la taille des poids (statut CONNU)",
+      "Définition et bornes selon Håstad 1994 (statut CONNU)",
+      "Idée de la preuve sur la taille des poids (statut CONNU)",
+      "Coût de la traduction : précision et mémoire (statut CONNU)",
+      "Exemple de poids exponentiels (statut CONNU)"
+     ],
+     "exercices": [
+      "Calculer la taille des poids pour une fonction donnée (statut CONNU)",
+      "Évaluer l'impact sur la mémoire (statut CONNU)"
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "Réseaux comme solveurs approchés de contraintes",
+     "objectif": "Explorer le statut des réseaux de neurones face à SAT.",
+     "sections": [
+      "Intuition des réseaux comme solveurs approchés (statut EXPÉRIMENTAL)",
+      "Définition du statut de solveur approché (statut CONJECTURE)",
+      "Coût de la traduction : temps et précision (statut EXPÉRIMENTAL)",
+      "Limites de l'approximation (statut OUVERT)",
+      "Exemple de résolution de contraintes simples (statut EXPÉRIMENTAL)"
+     ],
+     "exercices": [
+      "Tester un réseau sur un problème SAT simple (statut EXPÉRIMENTAL)",
+      "Analyser les erreurs d'approximation (statut OUVERT)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Des réseaux de neurones aux circuits et à SAT",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Extraction d'un circuit à partir d'un réseau entraîné",
+     "objectif": "Analyser la traduction inverse et ses coûts structurels.",
+     "sections": [
+      "Intuition de l'extraction de circuit (statut CONNU)",
+      "Définition de la traduction inverse (statut CONNU)",
+      "Coût de la traduction : sens, taille, profondeur (statut CONNU)",
+      "Perte de partage et explosion de la taille (statut CONNU)",
+      "Exemple d'extraction d'un réseau simple (statut CONNU)"
+     ],
+     "exercices": [
+      "Extraire un circuit d'un réseau à une couche cachée (statut CONNU)",
+      "Mesurer l'explosion de la taille (statut CONNU)"
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Largeur structurelle : Tseitin et dérivations",
+     "objectif": "Démontrer le résultat L-01 sur la conservation de la largeur.",
+     "sections": [
+      "Intuition de la largeur de Tseitin (statut CONNU)",
+      "Définition de la largeur dans les dérivations selon Tseitin 1968 (statut CONNU)",
+      "Énoncé du résultat L-01 : largeur au plus $(k+1)(w+1)-1$ (statut PROUVÉ)",
+      "Preuve complète de la borne de largeur (statut PROUVÉ)",
+      "Coût de la traduction : largeur conservée et perdue (statut PROUVÉ)",
+      "Exemple de preservation de la largeur (statut PROUVÉ)"
+     ],
+     "exercices": [
+      "Appliquer L-01 à un circuit de largeur 3 (statut PROUVÉ)",
+      "Comparer la largeur avant et après traduction (statut PROUVÉ)"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Élagage de réseaux entraînés et limites",
+     "objectif": "Présenter les résultats expérimentaux sur l'élagage et la largeur.",
+     "sections": [
+      "Intuition de l'élagage de réseaux 16-16 (statut EXPÉRIMENTAL)",
+      "Protocole d'entraînement et d'élagage (statut EXPÉRIMENTAL)",
+      "Résultats : largeur 11 à 14 contre 1 à 3 pour les compilés (statut EXPÉRIMENTAL)",
+      "Limites de l'élagage grossier (statut EXPÉRIMENTAL)",
+      "Coût de la traduction : ce qui est perdu par l'élagage (statut EXPÉRIMENTAL)"
+     ],
+     "exercices": [
+      "Analyser un réseau élagué (statut EXPÉRIMENTAL)",
+      "Discuter les limites de l'élagage (statut OUVERT)"
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Profondeur et avantages de la profondeur",
+     "objectif": "Étudier les séparations de complexité selon Telgarsky 2016 et Minsky et Papert 1969.",
+     "sections": [
+      "Intuition des avantages de la profondeur (statut CONNU)",
+      "Définition et séparations selon Telgarsky 2016 et Minsky et Papert 1969 (statut CONNU)",
+      "Idée de la preuve des séparations de profondeur (statut CONNU)",
+      "Coût de la traduction : profondeur et taille (statut CONNU)",
+      "Exemple de fonction nécessitant de la profondeur (statut CONNU)"
+     ],
+     "exercices": [
+      "Construire une fonction séparant les profondeurs (statut CONNU)",
+      "Évaluer le coût en taille (statut CONNU)"
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Limites, précision et transfert RTC",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Précision logarithmique et parallélisme",
+     "objectif": "Analyser les contraintes de précision selon Merrill et Sabharwal 2023.",
+     "sections": [
+      "Intuition de la précision logarithmique (statut CONNU)",
+      "Définition et limites selon Merrill et Sabharwal 2023 (statut CONNU)",
+      "Coût de la traduction : précision et parallélisme (statut CONNU)",
+      "Impact sur les traductions entre modèles (statut CONNU)",
+      "Exemple de limitation de précision (statut CONNU)"
+     ],
+     "exercices": [
+      "Calculer la précision nécessaire pour une traduction (statut CONNU)",
+      "Analyser le compromis parallélisme/précision (statut CONNU)"
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Synthèse des coûts de traduction",
+     "objectif": "Consolider l'analyse des ressources conservées et perdues.",
+     "sections": [
+      "Intuition de la synthèse des coûts (statut CONNU)",
+      "Tableau récapitulatif des traductions (statut PROUVÉ)",
+      "Analyse des ressources conservées (statut PROUVÉ)",
+      "Analyse des ressources perdues (statut PROUVÉ)"
+     ],
+     "exercices": [
+      "Compléter le tableau pour une nouvelle traduction (statut OUVERT)",
+      "Synthétiser les coûts d'un cas pratique (statut PROUVÉ)"
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Questions ouvertes et conjectures",
+     "objectif": "Formuler les perspectives de recherche issues des traductions.",
+     "sections": [
+      "Intuition des questions ouvertes (statut OUVERT)",
+      "Conjectures sur la largeur et la profondeur (statut CONJECTURE)",
+      "Limites actuelles de l'élagage (statut OUVERT)",
+      "Perspectives sur les solveurs approchés (statut CONJECTURE)"
+     ],
+     "exercices": [
+      "Formuler une conjecture sur la précision (statut CONJECTURE)",
+      "Proposer un protocole expérimental (statut OUVERT)"
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Transfert vers le programme RTC",
+     "objectif": "Ce que ce tome apporte à l'étude des traductions à ressources : quelles ressources, quelles traductions, quelles questions ouvertes.",
+     "sections": [
+      "Intuition du transfert vers le programme RTC (statut PROUVÉ)",
+      "Apport de ce tome à l'étude des traductions à ressources (statut PROUVÉ)",
+      "Ressources étudiées : taille, temps, mémoire, profondeur, largeur, précision, partage (statut PROUVÉ)",
+      "Traductions analysées et leurs statuts (statut PROUVÉ)",
+      "Questions ouvertes pour le programme RTC (statut OUVERT)"
+     ],
+     "exercices": [
+      "Rédiger une fiche de traduction RTC (statut PROUVÉ)",
+      "Identifier les ressources manquantes (statut OUVERT)"
+     ]
+    }
+   ]
+  }
+ ]
+}

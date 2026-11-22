@@ -1,0 +1,423 @@
+{
+  "titre": "Du Lambda-calcul aux Preuves et à SAT",
+  "sous_titre": "Curry-Howard, systèmes de preuve propositionnels et solveurs : ce que les traductions conservent, ce qu'elles coûtent",
+  "these": "Une correspondance n'est pas une identité. La correspondance de Curry-Howard identifie prouver et programmer, l'élimination des coupures et l'exécution, mais aucune de ces identifications ne transporte gratuitement la taille, la profondeur, la largeur ou le partage. Ce tome traite donc chaque correspondance comme une TRADUCTION entre modèles de calcul, munie d'une fiche : sens, définition, coût sur les sept ressources du programme RTC (taille, temps, mémoire, profondeur, largeur, précision, partage), invariants conservés, pertes, statut. La thèse méthodologique est que les grands résultats du domaine sont des énoncés sur des traductions et leurs coûts : la NP-complétude de SAT (Cook 1971) est une traduction des calculs bornés vers les clauses ; le cadre de Cook et Reckhow 1979 fait des systèmes de preuve des modèles et de leurs simulations des traductions mesurables ; la borne de Haken 1985 borne un modèle cible, pas le problème lui-même ; l'encodage de Tseitin 1968 montre qu'une traduction linéaire peut payer en précision (équivalence remplacée par équisatisfiabilité) ce qu'elle gagne en taille et en partage. La question « que mesure la taille d'un terme de preuve ? » devient ainsi la question centrale : taille-arbre ou taille-DAG, coût de vérification ou coût de recherche ou coût de normalisation. Aucun résultat nouveau n'est annoncé : le livre démontre complètement ce qu'il déclare démontrer, donne seulement l'idée de preuve des grands théorèmes connus en le disant explicitement, et marque chaque affirmation d'un statut.",
+  "cadre": {
+    "nom": "Les traductions à ressources et le registre des statuts",
+    "description": "Ce tome appartient à la collection scientifique « Les Traductions du Calcul » (programme de recherche RTC : étudier quelles ressources — taille, temps, mémoire, profondeur, largeur, précision, partage — chaque traduction entre modèles de calcul conserve ou perd). Chaque traduction est décrite par une fiche unique : sens, définition, coût, conservé, perdu, statut. Chaque affirmation du livre porte un statut explicite, et aucune intuition n'y est jamais présentée comme une preuve.\n\nRÈGLES ABSOLUES : (1) ne citer QUE les références de la liste ci-dessous, avec l'auteur et l'année indiqués ; n'en inventer aucune ; aucun DOI, aucun numéro de page, aucune citation entre guillemets attribuée à un chercheur ; (2) ne jamais présenter une intuition comme une preuve ; donner des preuves complètes pour les résultats démontrés dans le livre, et pour les grands théorèmes connus donner l'idée de la preuve en le disant ; (3) chaque affirmation porte un statut : PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ ou OUVERT ; (4) aucune annonce de découverte ; (5) formules en LaTeX entre $...$ ou $$...$$ ; (6) lecteur cultivé non spécialiste : intuition, définition, énoncé, exemple, exercice ; (7) dernier chapitre : « Transfert vers le programme RTC » (ce que ce tome apporte à l'étude des traductions à ressources : quelles ressources, quelles traductions, quelles questions ouvertes). (8) ce tome est un tome de TRADUCTION entre deux modèles : pour chaque traduction, donner le sens, le coût (taille, temps, mémoire, profondeur, largeur, précision, partage), ce qui est conservé et ce qui est perdu, avec son statut.\n\nRéférences autorisées (et seulement elles) : Tseitin 1968 (On the complexity of derivation in propositional calculus) ; Cook 1971 (The complexity of theorem-proving procedures) ; Cook et Reckhow 1979 (The relative efficiency of propositional proof systems) ; Howard 1980 (The formulae-as-types notion of construction) ; Barendregt 1984 (The Lambda Calculus: Its Syntax and Semantics) ; Haken 1985 (The intractability of resolution) ; Girard, Lafont et Taylor 1989 (Proofs and Types) ; Pierce 2002 (Types and Programming Languages) ; Biere, Heule, van Maaren et Walsh 2009 (Handbook of Satisfiability) ; Pipatsrisawat et Darwiche 2011 (On the power of clause-learning SAT solvers as resolution engines)\n\nConvention de lecture des statuts : PROUVÉ = démontré intégralement dans ce tome, avec preuve écrite ; CONNU = résultat établi de la littérature, énoncé ici avec idée de preuve et signalement explicite du fait qu'il n'est pas démontré ici ; EXPÉRIMENTAL = observation mesurée sur des instances, sans portée universelle ; CONJECTURE = énoncé cru vrai mais non démontré, jamais utilisé comme hypothèse dans une preuve du livre ; RÉFUTÉ = énoncé faux, réfutation ou contre-exemple donné ; OUVERT = question non tranchée, formulée précisément."
+  },
+  "bibliographie": [
+    {
+      "auteur": "Tseitin",
+      "titre": "On the complexity of derivation in propositional calculus",
+      "annee": "1968",
+      "idee": "Nommer les sous-formules par de nouvelles variables de définition, puis décrire chaque connecteur par quelques clauses locales : on obtient une forme normale conjonctive de taille linéaire qui est équisatisfiable à la formule de départ, à défaut d'être logiquement équivalente. Le travail introduit aussi la règle d'extension et des formules issues de graphes utilisées pour borner des fragments de la résolution.",
+      "apport": "Fournit la traduction centrale formule $\\to$ CNF du tome (chapitre 8) : coût linéaire en taille, temps et mémoire, largeur bornée, partage converti en variables auxiliaires, perte de précision (équivalence remplacée par équisatisfiabilité). Sert de brique à la traduction circuit $\\to$ CNF (chapitre 9) et de point de départ à la résolution étendue (chapitres 10 et 12)."
+    },
+    {
+      "auteur": "Cook",
+      "titre": "The complexity of theorem-proving procedures",
+      "annee": "1971",
+      "idee": "Décrire un calcul non déterministe borné par un ensemble de contraintes locales sur un tableau de configurations, et montrer que la satisfiabilité propositionnelle est un problème NP-complet : toute question de NP se traduit en une instance de SAT.",
+      "apport": "Établit SAT comme cible universelle et fournit la traduction calculs bornés $\\to$ SAT étudiée au chapitre 9. Donne au tome son vocabulaire de certificat et de vérification polynomiale, et l'asymétrie SAT / TAUT qui structure les chapitres 10 et 13."
+    },
+    {
+      "auteur": "Cook et Reckhow",
+      "titre": "The relative efficiency of propositional proof systems",
+      "annee": "1979",
+      "idee": "Définir un système de preuve propositionnel comme un vérificateur calculable en temps polynomial dont l'image est exactement l'ensemble des tautologies, comparer les systèmes par p-simulation, et établir qu'il existe un système polynomialement borné si et seulement si NP = coNP.",
+      "apport": "Cadre de mesure de tout le tome : les systèmes de preuve deviennent des modèles, les simulations deviennent des traductions à coût explicite. L'équivalence avec NP = coNP est démontrée complètement au chapitre 10 ; la hiérarchie résolution / Frege / Frege étendu y est cartographiée avec statuts."
+    },
+    {
+      "auteur": "Howard",
+      "titre": "The formulae-as-types notion of construction",
+      "annee": "1980",
+      "idee": "Lire les types comme des formules, les termes comme des constructions de preuve, et la réduction comme simplification de la démonstration : l'application correspond au modus ponens, l'abstraction à l'introduction de l'implication.",
+      "apport": "Source de la traduction bidirectionnelle $\\lambda$-calcul typé $\\leftrightarrow$ déduction naturelle (chapitre 4), démontrée complètement pour le fragment implicationnel et le produit, avec fiche de coût : taille et profondeur conservées à facteur constant, structure et dynamique conservées, contenu classique et représentation du partage perdus."
+    },
+    {
+      "auteur": "Barendregt",
+      "titre": "The Lambda Calculus: Its Syntax and Semantics",
+      "annee": "1984",
+      "idee": "Traiter systématiquement la syntaxe du $\\lambda$-calcul, la substitution et l'$\\alpha$-équivalence, la réduction et la confluence, les stratégies de normalisation et les modèles.",
+      "apport": "Définitions rigoureuses de la machine source (chapitre 2) et des mesures de taille sur les termes. Outil de référence pour les lemmes de substitution démontrés dans le livre ; la confluence y est prise comme CONNU avec idée de preuve, sans être redémontrée."
+    },
+    {
+      "auteur": "Haken",
+      "titre": "The intractability of resolution",
+      "annee": "1985",
+      "idee": "Montrer qu'aucune réfutation par résolution du principe des tiroirs n'est de taille polynomiale, par un argument de comptage qui force toute dérivation à traverser un goulet d'étranglement combinatoire.",
+      "apport": "Fournit au chapitre 12 la borne inférieure emblématique du tome : taille $2^{\\Omega(n)}$ pour la résolution sur $\\mathrm{PHP}_n^{n+1}$ (CONNU, idée de preuve). Sert de cas d'école pour la thèse RTC : une borne inférieure porte sur un modèle cible et ne se transfère pas à travers n'importe quelle traduction."
+    },
+    {
+      "auteur": "Girard, Lafont et Taylor",
+      "titre": "Proofs and Types",
+      "annee": "1989",
+      "idee": "Exposer conjointement déduction naturelle, calcul des séquents, élimination des coupures et systèmes de types, et faire de la normalisation des preuves et de l'exécution des programmes deux lectures d'un même phénomène.",
+      "apport": "Socle technique des chapitres 3 à 6 : règles de NJ et LJ, propriété de la sous-formule, algorithme d'élimination des coupures et sa terminaison (démontrées ici dans le cas propositionnel), normalisation forte du $\\lambda$-calcul simplement typé (CONNU, idée par candidats de réductibilité)."
+    },
+    {
+      "auteur": "Pierce",
+      "titre": "Types and Programming Languages",
+      "annee": "2002",
+      "idee": "Présenter de façon pédagogique et rigoureuse les systèmes de types, les jugements de typage, et les deux propriétés structurelles de préservation et de progrès qui garantissent la sûreté de l'exécution.",
+      "apport": "Modèle de rédaction pour le lecteur non spécialiste et source des preuves complètes de préservation et de progrès données aux chapitres 2 et 5. Fournit aussi le vocabulaire des représentations de termes utile à la ressource partage (chapitre 7)."
+    },
+    {
+      "auteur": "Biere, Heule, van Maaren et Walsh",
+      "titre": "Handbook of Satisfiability",
+      "annee": "2009",
+      "idee": "Décrire de manière systématique les encodages en forme normale conjonctive, les procédures DPLL et CDCL, la propagation unitaire, l'apprentissage de clauses, les structures de données et les aspects pratiques de la résolution de SAT.",
+      "apport": "Base descriptive du chapitre 11 : le solveur y est présenté comme moteur de preuve, chaque clause apprise étant dérivable par résolution (PROUVÉ ici sur le graphe d'implication). Sert aussi de support au protocole de mesure EXPÉRIMENTAL des chapitres 11, 14 et 15."
+    },
+    {
+      "auteur": "Pipatsrisawat et Darwiche",
+      "titre": "On the power of clause-learning SAT solvers as resolution engines",
+      "annee": "2011",
+      "idee": "Sous des hypothèses explicites sur les redémarrages, la politique de décision et la conservation des clauses apprises, un solveur CDCL peut simuler avec un surcoût polynomial toute réfutation par résolution.",
+      "apport": "Fournit la traduction exécution $\\to$ preuve du chapitre 11 avec son facteur de simulation (CONNU, idée de preuve, hypothèses énoncées). Illustre parfaitement la thèse du tome : une pratique algorithmique et un système de preuve sont reliés par une traduction dont le coût et les conditions doivent être écrits noir sur blanc."
+    }
+  ],
+  "parties": [
+    {
+      "titre": "Partie I — Le dictionnaire : trois modèles et une correspondance (chapitres 1 à 4, ≈ 53 pages)",
+      "chapitres": [
+        {
+          "numero": 1,
+          "titre": "Traduire, c'est payer : modèles, ressources et registre des statuts",
+          "objectif": "Installer le vocabulaire du programme RTC et le contrat de lecture du tome : ce qu'est une traduction entre modèles de calcul, ce qu'elle peut conserver (vérité, typabilité, prouvabilité) et ce qu'elle peut perdre (taille, profondeur, partage, précision). Présenter les trois modèles du livre et les six traductions principales, sans aucune annonce de résultat nouveau. (≈ 12 pages)",
+          "sections": [
+            "Intuition : un dictionnaire qui change la longueur des phrases — traduire une idée d'une langue à l'autre conserve le sens mais pas la concision ; c'est exactement le phénomène que le tome étudie entre programmes, preuves et clauses.",
+            "Définitions : modèle de calcul, problème, traduction $T : \\mathcal{M}_1 \\to \\mathcal{M}_2$, correction ($x \\in L_1 \\Rightarrow T(x) \\in L_2$) et complétude ($T(x) \\in L_2 \\Rightarrow x \\in L_1$) ; distinguer traduction syntaxique, traduction de propriété et traduction de dynamique (PROUVÉ : ce sont trois exigences distinctes, séparées par des contre-exemples élémentaires).",
+            "Les sept ressources : taille-arbre et taille-DAG, temps de calcul, mémoire de travail, profondeur (parallélisme potentiel), largeur (nombre de littéraux d'une clause, d'occurrences d'un séquent), précision (équivalence contre équisatisfiabilité, contenu constructif, nombre de modèles), partage (facteur $\\mathrm{sh}(t) = |\\mathrm{arbre}(t)| / |\\mathrm{DAG}(t)|$).",
+            "Le registre des statuts : PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ, OUVERT — mode d'emploi, un exemple de chaque dans le tome, et la règle cardinale : une intuition, même juste, n'est jamais écrite comme une preuve.",
+            "Carte du tome : $\\lambda$-calcul typé, déduction naturelle et calcul des séquents, clauses et solveurs ; les six traductions filières ($\\lambda \\leftrightarrow$ preuves, $\\beta \\leftrightarrow$ coupure, formule $\\to$ CNF, calcul borné $\\to$ SAT, exécution $\\to$ réfutation, système $\\to$ système) et le format de leur fiche.",
+            "Ce que ce tome ne fait pas : aucune borne inférieure nouvelle, aucune séparation de classes, aucune découverte annoncée ; les énoncés non démontrés ici sont marqués CONNU et accompagnés d'une idée de preuve explicitement étiquetée comme telle."
+          ],
+          "exercices": [
+            "Définir taille-arbre et taille-DAG, puis exhiber une famille de termes $t_n$ avec $|\\mathrm{DAG}(t_n)| = O(n)$ et $|\\mathrm{arbre}(t_n)| \\ge 2^{n}$ ; donner la preuve complète par comptage (PROUVÉ).",
+            "Construire une traduction qui préserve la satisfiabilité mais pas l'équivalence logique, et exhiber une assignation qui distingue les deux formules (PROUVÉ, contre-exemple complet).",
+            "Classer dix énoncés annoncés dans le livre selon le registre des statuts, et justifier chaque classement en une phrase.",
+            "Écrire la mise en forme normale conjonctive par distribution de $\\bigvee_{i=1}^{n} (p_i \\wedge q_i)$ et compter les clauses obtenues (PROUVÉ).",
+            "Formuler précisément, sans y répondre, la question « quelle ressource la correspondance de Curry-Howard perd-elle ? » en distinguant les trois exigences de la section 2 (OUVERT, exercice de formulation)."
+          ]
+        },
+        {
+          "numero": 2,
+          "titre": "Lambda-calcul typé : la machine source",
+          "objectif": "Décrire avec rigueur le modèle de départ : syntaxe, substitution, typage simple, réduction $\\beta$, et premières mesures de coût. Démontrer complètement les propriétés structurelles dont le reste du livre aura besoin, et fixer les conventions de représentation qui rendent la notion de taille non ambiguë. (≈ 13 pages)",
+          "sections": [
+            "Intuition : une fonction est une manière de transformer une preuve de $A$ en preuve de $B$ ; le lecteur non spécialiste voit pourquoi programmer et démontrer peuvent être le même geste.",
+            "Syntaxe et substitution : $M ::= x \\mid \\lambda x{:}A.\\,M \\mid M\\,N$, variables libres et liées, $\\alpha$-équivalence, substitution capture-évitante ; conventions de Barendregt 1984 rappelées avec soin.",
+            "Types simples : $A ::= o \\mid A \\to B$, jugements $\\Gamma \\vdash M : A$, règles de typage et arbre de dérivation ; présentation pédagogique suivant Pierce 2002 ; unicité du type (PROUVÉ, preuve complète par induction).",
+            "Réduction $\\beta$ : la règle $(\\lambda x.\\,M)\\,N \\to M[x := N]$, redex, formes normales, stratégies d'ordre normal et d'appel par valeur ; la substitution n'est pas une opération atomique, ce qui est le premier coût caché du modèle.",
+            "Lemme de substitution et préservation du type par réduction (PROUVÉ, preuves complètes) ; énoncé de confluence (CONNU, Barendregt 1984, idée de preuve par fermeture de diagrammes, non démontrée ici).",
+            "Fiche de mesure de la machine source : coût d'un pas de $\\beta$ en taille, profondeur et partage (PROUVÉ : bornes élémentaires explicites) ; ce que la représentation en DAG change et ce qu'elle ne change pas."
+          ],
+          "exercices": [
+            "Typer le combinateur $\\lambda x.\\lambda y.\\lambda z.\\,x\\,z\\,(y\\,z)$ et donner son type le plus général dans le système simple ; preuve complète de la dérivation (PROUVÉ).",
+            "Démontrer le lemme de substitution : si $\\Gamma, x{:}A \\vdash M : B$ et $\\Gamma \\vdash N : A$ alors $\\Gamma \\vdash M[x := N] : B$ (PROUVÉ, induction complète).",
+            "Exhiber un terme dont un pas de $\\beta$ double la taille, puis majorer la taille après $k$ pas par une fonction explicite de $|M|$ et $k$ (PROUVÉ).",
+            "Montrer que $\\lambda x.\\,x\\,x$ n'est pas typable simplement, par analyse des contraintes d'unification sur les types (PROUVÉ).",
+            "Comparer taille-arbre et taille-DAG sur une famille de termes partagés, et vérifier que la vérification du typage reste polynomiale en taille-DAG (PROUVÉ)."
+          ]
+        },
+        {
+          "numero": 3,
+          "titre": "Logique propositionnelle et déduction naturelle : la machine cible",
+          "objectif": "Présenter le second modèle : formules, sémantique, déduction naturelle et calcul des séquents propositionnel, avec et sans coupure. Séparer soigneusement vérité et démontrabilité, et introduire les mesures de taille, profondeur et largeur d'une dérivation, qui seront les ressources suivies dans tout le tome. (≈ 13 pages)",
+          "sections": [
+            "Intuition : une table de vérité convainc mais n'explique pas ; une dérivation explique, et sa longueur est une information nouvelle. Vérité, satisfiabilité, tautologie : trois notions à ne pas confondre.",
+            "Syntaxe et sémantique : $\\varphi ::= p \\mid \\neg \\varphi \\mid \\varphi \\wedge \\psi \\mid \\varphi \\vee \\psi \\mid \\varphi \\to \\psi \\mid \\bot$ ; SAT et TAUT, l'un dans NP, l'autre dans coNP (PROUVÉ pour les appartenances, OUVERT pour leur éventuelle coïncidence).",
+            "Déduction naturelle NJ : règles d'introduction et d'élimination pour $\\to, \\wedge, \\vee, \\bot$, hypothèses ouvertes et décharge, présentation suivant Girard, Lafont et Taylor 1989.",
+            "Calcul des séquents propositionnel et règle de coupure : la coupure comme lemme ; propriété de la sous-formule pour les dérivations sans coupure (PROUVÉ ici dans le cas propositionnel, preuve complète par induction sur la dérivation).",
+            "Classique et intuitionniste : tiers exclu, $\\neg\\neg A \\to A$, loi de Peirce $((A \\to B) \\to A) \\to A$ ; ce que la lecture constructive exige et ce qu'elle interdit (PROUVÉ : la loi de Peirce n'a pas d'habitant clos dans le fragment $\\to$, par analyse des formes normales).",
+            "Mesures sur les dérivations : nombre de nœuds, nombre de nœuds distincts, profondeur, largeur d'un séquent, nombre de formules distinctes ; conventions fixées une fois pour toutes pour la suite du livre."
+          ],
+          "exercices": [
+            "Donner une dérivation de $A \\to (B \\to A)$ en NJ, compter ses nœuds, sa profondeur et sa largeur (PROUVÉ).",
+            "Démontrer que toute dérivation sans coupure ne contient que des sous-formules des séquents de la conclusion (PROUVÉ, induction complète sur les règles).",
+            "Écrire une preuve classique de la loi de Peirce, puis montrer qu'aucun terme clos simplement typé du fragment $\\to$ n'habite le type correspondant (PROUVÉ, analyse des formes normales).",
+            "Comparer le coût d'une décision par table de vérité ($2^{n}$ lignes) et la taille d'une dérivation pour une famille de tautologies simples ; distinguer temps de décision et taille de preuve (PROUVÉ).",
+            "Expliquer pourquoi la propriété de la sous-formule est une ressource de précision, et ce qu'elle coûte en taille (discussion étiquetée : CONNU pour la séparation générale, PROUVÉ pour l'exemple traité)."
+          ]
+        },
+        {
+          "numero": 4,
+          "titre": "Curry-Howard : la traduction programmes ↔ preuves",
+          "objectif": "Énoncer et démontrer complètement la correspondance pour le fragment implicationnel et le produit, dans les deux sens, puis en faire la première fiche de traduction du tome : sens, coût sur les sept ressources, invariants conservés, pertes, statut. Mettre en garde contre les lectures abusives de la correspondance. (≈ 15 pages)",
+          "sections": [
+            "Intuition : l'application est le modus ponens, l'abstraction est l'introduction de l'implication ; une preuve n'est pas seulement un certificat, c'est un objet qui calcule.",
+            "Énoncé et preuve complète : $\\Gamma \\vdash M : A$ si et seulement si $\\Gamma \\vdash_{NJ} A$ pour le fragment $\\to$ ; les deux traductions sont définies par induction sur les dérivations et sont inverses à $\\alpha$-équivalence près (PROUVÉ, d'après Howard 1980 et Girard, Lafont et Taylor 1989).",
+            "Extension aux produits ($\\wedge$), sommes ($\\vee$) et type vide ($\\bot$) : traductions, cas délicat de l'élimination du $\\vee$ et conversions de commutation ; ce qui reste PROUVÉ ici et ce qui est seulement CONNU avec idée.",
+            "Traduction de la dynamique : un pas de $\\beta$ correspond à une simplification locale de coupure ; le carré réduit commute pour le fragment $\\to, \\wedge$ (PROUVÉ, vérification de tous les cas).",
+            "Fiche de traduction : sens bidirectionnel ; coût taille $O(n)$, temps $O(n)$, mémoire $O(n)$, profondeur conservée, largeur conservée, précision constructive conservée, partage conservé seulement si les deux côtés utilisent la même représentation (DAG ou arbre) ; conservé : typabilité, prouvabilité, structure, dynamique ; perdu : classicalité, identité des noms, factorisation du partage si les représentations diffèrent (PROUVÉ pour les bornes, CONNU pour les énoncés généraux).",
+            "Limites et pièges : la correspondance ne fournit aucune preuve propositionnelle courte pour les tautologies closes ; lire Curry-Howard comme un résultat de complexité serait une erreur de niveau (RÉFUTÉ, argument complet)."
+          ],
+          "exercices": [
+            "Traduire la dérivation de $A \\to A$ en $\\lambda x.\\,x$, puis revenir en arrière et vérifier que l'on retrouve la dérivation initiale (PROUVÉ).",
+            "Rédiger la preuve complète de la correspondance pour $\\to$ et $\\wedge$, dans les deux sens, en traitant explicitement la décharge d'hypothèses (PROUVÉ).",
+            "Démontrer que la traduction est calculable en temps linéaire et produit une sortie de taille linéaire, sur des représentations en DAG (PROUVÉ).",
+            "Construire une famille de dérivations de taille-DAG $O(n)$ dont l'image en termes a une taille-arbre $2^{\\Omega(n)}$, et identifier précisément quelle ressource est perdue (PROUVÉ).",
+            "Vérifier la commutation réduction / simplification de coupure sur un exemple avec $\\wedge$, puis exhiber un cas nécessitant une conversion de commutation avec $\\vee$ (PROUVÉ pour l'exemple, CONNU pour l'énoncé général)."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Partie II — La dynamique : normalisation, coupures et partage (chapitres 5 à 8, ≈ 54 pages)",
+      "chapitres": [
+        {
+          "numero": 5,
+          "titre": "Normaliser, c'est éliminer les coupures : la traduction du calcul",
+          "objectif": "Traduire non plus les objets mais les dynamiques : exécution d'un programme contre simplification d'une preuve. Démontrer complètement préservation, progrès, terminaison de l'élimination des coupures propositionnelles et commutation dans le fragment traité ; donner seulement l'idée des théorèmes de normalisation forte. (≈ 14 pages)",
+          "sections": [
+            "Intuition : exécuter, c'est rendre une preuve directe ; le lemme intermédiaire disparaît et son texte est recopié à chaque endroit où on l'utilisait. Le lecteur voit déjà poindre le coût.",
+            "Progrès et préservation : un terme clos bien typé est une valeur ou se réduit (PROUVÉ, preuves complètes dans l'esprit de Pierce 2002) ; ce que ces énoncés garantissent et ce qu'ils ne garantissent pas sur le coût.",
+            "Normalisation faible du $\\lambda$-calcul simplement typé : stratégie d'élimination de la coupure de plus haut degré, mesure lexicographique (degré, nombre de coupures de ce degré, hauteur), terminaison (PROUVÉ, preuve complète).",
+            "Normalisation forte : énoncé CONNU (Girard, Lafont et Taylor 1989), idée de la preuve par candidats de réductibilité explicitement signalée comme non démontrée ici ; preuve complète donnée en exercice guidé pour les types de degré au plus 2.",
+            "Élimination des coupures propositionnelles : algorithme de remontée des coupures, préservation de la conclusion, terminaison par mesure sur le degré et la hauteur (PROUVÉ, preuve complète) ; conservation de la propriété de la sous-formule en sortie.",
+            "Fiche de traduction dynamique : sens normalisation $\\leftrightarrow$ élimination ; coût en nombre de pas (majoré ici, non optimal), conservation de la conclusion et de la correction, perte de taille, de profondeur et de partage ; commutation « normaliser puis traduire = traduire puis éliminer » (PROUVÉ pour $\\to$, CONNU ailleurs)."
+          ],
+          "exercices": [
+            "Rédiger la preuve complète du lemme de progrès par induction sur la dérivation de typage (PROUVÉ).",
+            "Dérouler l'élimination d'une coupure sur $A \\to B$ dans un séquent propositionnel et compter les pas et la croissance de taille (PROUVÉ).",
+            "Démontrer la terminaison de la procédure d'élimination des coupures propositionnelles par la mesure lexicographique (degré, hauteur) (PROUVÉ).",
+            "Compléter, en suivant le guide, la preuve de normalisation forte pour les types de degré au plus 2 (PROUVÉ, cas restreint).",
+            "Vérifier la commutation sur un exemple, puis exhiber une famille où le nombre de pas de normalisation est exponentiel en la taille du terme initial (PROUVÉ pour la famille)."
+          ]
+        },
+        {
+          "numero": 6,
+          "titre": "Le prix de la normalisation : duplication, profondeur et tours",
+          "objectif": "Mesurer ce que la traduction dynamique coûte. Construire des familles explicites où la simplification fait exploser la taille, démontrer les bornes correspondantes, et distinguer nettement les énoncés démontrés ici des énoncés généraux connus sur les tours d'exponentielles. (≈ 13 pages)",
+          "sections": [
+            "Intuition : supprimer un lemme, c'est le recopier ; si le lemme est lui-même prouvé à partir d'un lemme, la recopie se compose et l'explosion devient vertigineuse.",
+            "Duplication élémentaire : le combinateur de doublement $D_A = \\lambda f.\\lambda x.\\,f\\,(f\\,x)$ et ses instances ; famille explicite de termes simplement typés de taille $O(n)$ dont la forme normale a une taille au moins $2^{n}$ (PROUVÉ, construction et comptage complets).",
+            "Tours d'exponentielles : en composant les instances à des types d'ordre croissant, on obtient une hauteur de tour qui croît avec $n$ ; énoncé général CONNU (cadre de Girard, Lafont et Taylor 1989), idée de preuve donnée, borne complète démontrée ici seulement pour les deux premiers étages.",
+            "Côté preuves : la procédure naïve d'élimination des coupures recopie les sous-dérivations ; famille explicite avec croissance $2^{\\Omega(d)}$ en la profondeur de coupure (PROUVÉ) ; séparation générale entre systèmes avec et sans coupure (CONNU, idée).",
+            "Majoration grossière : borne explicite, très loin d'être optimale, sur la taille de la sortie de la procédure naïve en fonction de la taille d'entrée et du degré maximal (PROUVÉ, preuve complète par la mesure du chapitre 5).",
+            "Encadré « ne pas confondre » : coût de normalisation, coût de vérification d'une preuve donnée, coût de recherche d'une preuve sont trois quantités différentes ; les confondre produit des énoncés faux (RÉFUTÉ, contre-exemples)."
+          ],
+          "exercices": [
+            "Calculer la forme normale de $D_{A_2}\\,D_{A_1}\\,D_{A_0}$ pour des instances bien choisies et compter exactement sa taille (PROUVÉ).",
+            "Démontrer la borne inférieure $2^{n}$ pour la famille explicite de la section 2 (PROUVÉ, comptage complet).",
+            "Établir et démontrer la majoration grossière de la section 5, puis expliquer en quoi elle est non informative en pratique (PROUVÉ pour la borne, discussion étiquetée).",
+            "Mesurer sur machine la taille avant / après simplification pour $n = 1, \\dots, 8$ et tracer la croissance ; ne rien conclure au-delà des instances testées (EXPÉRIMENTAL).",
+            "Rédiger en dix lignes pourquoi ces explosions ne réfutent en rien la correspondance de Curry-Howard : identifier la confusion de niveaux (RÉFUTÉ)."
+          ]
+        },
+        {
+          "numero": 7,
+          "titre": "Partage et profondeur : arbres, DAG et lemmes réutilisés",
+          "objectif": "Isoler la ressource la plus souvent oubliée : le partage. Définir proprement les représentations arborescente et en graphe orienté acyclique, démontrer une borne de dépliage et une famille séparatrice, et montrer que le choix de représentation change l'énoncé même des théorèmes de complexité des preuves. (≈ 13 pages)",
+          "sections": [
+            "Intuition : un lemme utilisé dix fois doit-il être écrit dix fois ? La réponse est un choix de modélisation, et ce choix est une ressource à part entière.",
+            "Représentations : arbre de syntaxe, DAG, substitutions explicites, environnements et fermetures ; définition du facteur de partage $\\mathrm{sh}(t)$ et exemples où il est exponentiel (PROUVÉ).",
+            "Preuves arborescentes et preuves en DAG : définitions ; dépliage d'un DAG de profondeur $d$ et d'arité au plus 2 en un arbre d'au plus $2^{d+1}-1$ nœuds (PROUVÉ, preuve complète par induction) ; famille de taille-DAG $O(n)$ dont tout dépliage a taille au moins $2^{n}$ (PROUVÉ).",
+            "Ce que Curry-Howard fait au partage : la traduction statique transporte le DAG, mais la $\\beta$-réduction naïve duplique ; les machines à environnement préservent le partage au prix d'une structure supplémentaire (CONNU, idée, non démontré ici).",
+            "Profondeur et largeur : profondeur d'une dérivation comme potentiel de parallélisation, largeur maximale comme mémoire de travail ; relations générales avec l'espace de preuve (CONNU, idée) ; bornes élémentaires démontrées ici.",
+            "Fiche de traduction arbre $\\leftrightarrow$ DAG dans les deux sens : coût, conservé (conclusion, correction, vérifiabilité polynomiale), perdu (taille, parfois exponentiellement) ; et l'avertissement décisif : pour la résolution les deux versions diffèrent, pour Frege elles se p-simulent (CONNU, idée)."
+          ],
+          "exercices": [
+            "Démontrer la borne de dépliage $2^{d+1}-1$ pour les DAG d'arité au plus 2 (PROUVÉ, induction complète).",
+            "Construire la famille séparatrice de la section 3 et démontrer la borne inférieure sur tout dépliage (PROUVÉ).",
+            "Démontrer qu'une preuve en DAG se vérifie en temps linéaire en sa taille-DAG, et qu'une preuve arborescente dépliée peut se vérifier en temps exponentiel en la taille-DAG d'origine (PROUVÉ).",
+            "Calculer le facteur de partage d'une famille de termes de doublage et le comparer à celui de leur forme normale (PROUVÉ).",
+            "Discuter, avec statuts à l'appui, la question : la taille d'une preuve doit-elle être définie en arbre ou en DAG, et qu'est-ce que cela change à l'énoncé de Cook et Reckhow 1979 ?"
+          ]
+        },
+        {
+          "numero": 8,
+          "titre": "Tseitin : traduire une formule en clauses sans exploser",
+          "objectif": "Étudier la traduction la plus utilisée du tome : la mise en forme normale conjonctive par variables de définition. Démontrer complètement la borne linéaire, la largeur bornée et l'équisatisfiabilité, puis faire l'inventaire exact de ce qui est perdu : équivalence, comptage de modèles, transfert automatique des bornes inférieures. (≈ 14 pages)",
+          "sections": [
+            "Intuition : nommer les sous-formules, c'est partager ; l'abréviation est un acte de compression, et la compression a un prix logique.",
+            "Formes normales : CNF et DNF, distribution naïve ; famille $\\bigvee_{i=1}^{n}(p_i \\wedge q_i)$ dont la distribution produit $2^{n}$ clauses (PROUVÉ, comptage complet).",
+            "Encodage de Tseitin 1968 : une variable $e_\\psi$ par sous-formule, quelques clauses par connecteur ; taille $O(|\\varphi|)$, largeur au plus 3, temps et mémoire linéaires (PROUVÉ, preuves complètes) ; équisatisfiabilité dans les deux sens (PROUVÉ, preuve complète par extension et projection de modèles).",
+            "La règle d'extension dans les systèmes de preuve : résolution étendue et Frege étendu, variables de définition comme lemmes abréviatifs ; cadre de Tseitin 1968 et de Cook et Reckhow 1979 ; ce que l'extension apporte en puissance (CONNU, idée).",
+            "Fiche de traduction formule $\\to$ CNF : sens unique ; coût linéaire en taille, temps, mémoire, profondeur constante par clause, largeur bornée ; précision perdue (équivalence remplacée par équisatisfiabilité sur le vocabulaire d'origine) ; partage converti en variables auxiliaires ; conservé : satisfiabilité, existence de modèle projeté (PROUVÉ).",
+            "Pièges de composition : le comptage de modèles n'est pas conservé par les clauses d'implication, mais l'est par les clauses d'équivalence complètes (PROUVÉ, bijection) ; et surtout, une borne inférieure prouvée après encodage ne se transporte pas automatiquement au système source (discussion étiquetée CONNU / OUVERT selon les cas)."
+          ],
+          "exercices": [
+            "Écrire l'encodage de Tseitin de $(p \\to q) \\wedge (q \\to r)$, puis vérifier l'équisatisfiabilité à la main en projetant les modèles (PROUVÉ).",
+            "Démontrer la borne de taille linéaire et la borne de largeur au plus 3 pour l'encodage général (PROUVÉ, preuve complète).",
+            "Démontrer que la distribution naïve de la famille de la section 2 produit exactement $2^{n}$ clauses (PROUVÉ).",
+            "Montrer que le nombre de modèles n'est pas préservé avec les seules clauses d'implication, puis démontrer la bijection obtenue avec les clauses d'équivalence complètes (PROUVÉ).",
+            "Exhiber une formule dont toute CNF logiquement équivalente sans variables auxiliaires est exponentiellement plus grande que son encodage de Tseitin (PROUVÉ sur la famille exhibée, CONNU pour l'énoncé général)."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Partie III — Le coût : SAT, systèmes de preuve et bornes inférieures (chapitres 9 à 12, ≈ 57 pages)",
+      "chapitres": [
+        {
+          "numero": 9,
+          "titre": "Cook 1971 : SAT comme cible universelle, la réduction comme traduction",
+          "objectif": "Lire la NP-complétude de SAT comme ce qu'elle est du point de vue RTC : une traduction des calculs bornés vers les clauses, avec un coût polynomial. Démontrer complètement le maillon circuit vers CNF, donner l'idée de la preuve de Cook 1971, et expliciter ce que la notion de réduction polynomiale écrase volontairement. (≈ 13 pages)",
+          "sections": [
+            "Intuition : un calcul borné est une suite de configurations dont chaque étape est locale ; décrire la localité par des clauses, c'est transformer une question de temps en question de satisfiabilité.",
+            "NP, certificats et vérification polynomiale ; SAT appartient à NP (PROUVÉ, preuve complète immédiate) ; NP-complétude de SAT (CONNU, Cook 1971, idée de preuve par tableau de calcul et variables locales, non démontrée ici).",
+            "Maillon démontré intégralement : tout circuit booléen de taille $s$ se traduit, via l'encodage de Tseitin, en une CNF de taille $O(s)$ équisatisfiable, avec projection des modèles (PROUVÉ, preuve complète de correction et de complétude).",
+            "Fiche de traduction calcul borné $\\to$ SAT : sens unique ; coût taille polynomiale dépendant du modèle de machine, temps polynomial, mémoire, profondeur du tableau, largeur des clauses, précision (existence de certificat conservée, nombre de solutions non conservé), partage via variables auxiliaires (CONNU pour la borne générale, PROUVÉ pour le maillon circuit).",
+            "Réduction polynomiale contre traduction à ressources fines : la NP-complétude identifie les problèmes à facteurs polynomiaux près, alors que RTC veut suivre ces facteurs ; ce que l'on gagne et ce que l'on perd en changeant de grain (discussion étiquetée).",
+            "Le versant coNP : TAUT et UNSAT, certificats d'insatisfiabilité, asymétrie entre exhiber un modèle et exhiber une réfutation (PROUVÉ pour les appartenances, OUVERT pour NP contre coNP)."
+          ],
+          "exercices": [
+            "Démontrer que SAT appartient à NP en exhibant le certificat et le vérificateur (PROUVÉ).",
+            "Traduire un circuit de taille $s$ en CNF de taille au plus $c \\cdot s$ pour une constante explicite $c$, et compter les variables introduites (PROUVÉ).",
+            "Montrer par un contre-exemple que la réduction conserve l'existence d'un modèle mais pas le nombre de modèles (PROUVÉ).",
+            "Écrire, sur une machine jouet à temps borné, les clauses de tableau décrivant une étape de calcul (exercice guidé, idée de Cook 1971).",
+            "Expliquer rigoureusement pourquoi une réduction polynomiale de TAUT vers SAT ne fournit pas de preuve courte d'insatisfiabilité (RÉFUTÉ pour l'énoncé naïf, argument complet)."
+          ]
+        },
+        {
+          "numero": 10,
+          "titre": "Cook et Reckhow 1979 : les systèmes de preuve comme modèles de calcul",
+          "objectif": "Installer le cadre qui rend mesurable l'efficacité relative des langages de preuve. Démontrer complètement l'équivalence entre NP = coNP et l'existence d'un système polynomialement borné, définir la p-simulation comme traduction entre modèles, et démontrer une simulation concrète de la hiérarchie. (≈ 15 pages)",
+          "sections": [
+            "Intuition : tous les langages de preuve prouvent les mêmes tautologies ; ce qui les distingue est la longueur des phrases nécessaires. C'est une question de traduction, pas de puissance expressive.",
+            "Définition d'un système de preuve propositionnel au sens de Cook et Reckhow 1979 : un vérificateur calculable en temps polynomial dont l'image est exactement TAUT ; correction, complétude, et le rôle crucial du temps de vérification.",
+            "Théorème central : il existe un système de preuve polynomialement borné si et seulement si NP = coNP (PROUVÉ ici, preuve complète dans les deux sens, avec construction explicite du vérificateur et du certificat).",
+            "Corollaires démontrés : P = NP implique NP = coNP (PROUVÉ) ; pour établir NP différent de coNP il suffit de borner inférieurement la taille des preuves dans tout système (PROUVÉ, reformulation) ; c'est le programme de recherche des bornes inférieures.",
+            "p-simulation et hiérarchie : résolution, résolution étendue, Frege, Frege étendu ; la p-simulation est un préordre (PROUVÉ) ; Frege p-simule la résolution (PROUVÉ ici, preuve complète par traduction clause vers formule) ; les autres comparaisons sont CONNU avec idée, ou OUVERT.",
+            "Fiche de traduction système $S_1 \\to S_2$ : sens donné par la simulation ; coût = facteur de simulation ; conservé : conclusion, correction, vérifiabilité polynomiale ; perdu : taille, structure, profondeur, partage, et parfois le contenu constructif ; statut par case du tableau."
+          ],
+          "exercices": [
+            "Rédiger la preuve complète de l'équivalence NP = coNP si et seulement s'il existe un système polynomialement borné (PROUVÉ, les deux directions).",
+            "Démontrer que P = NP implique NP = coNP (PROUVÉ).",
+            "Démontrer que la p-simulation est réflexive et transitive, avec composition explicite des facteurs polynomiaux (PROUVÉ).",
+            "Démontrer, en suivant le guide, que Frege p-simule la résolution en traduisant chaque clause par une formule et chaque pas par un fragment de dérivation de taille bornée (PROUVÉ).",
+            "Montrer qu'un procédé dont la vérification prend un temps exponentiel n'est pas un système au sens de Cook et Reckhow 1979, et discuter ce que cela impose aux traces de solveurs (PROUVÉ pour la définition, discussion étiquetée)."
+          ]
+        },
+        {
+          "numero": 11,
+          "titre": "Résolution et solveurs : la preuve comme trace d'exécution",
+          "objectif": "Relier la pratique algorithmique de SAT au système de preuve qu'elle engendre. Démontrer la correction et la complétude réfutationnelle de la résolution, démontrer que les clauses apprises sont des conséquences par résolution, puis énoncer avec ses hypothèses explicites la simulation de la résolution par CDCL. (≈ 14 pages)",
+          "sections": [
+            "Intuition : un solveur qui échoue à trouver un modèle a en réalité construit quelque chose ; ce quelque chose est une preuve, et il faut l'extraire.",
+            "Règle de résolution et réfutations : correction (PROUVÉ, preuve complète) et complétude réfutationnelle par élimination de variables (PROUVÉ, preuve complète par induction sur le nombre de variables).",
+            "DPLL et CDCL : propagation unitaire, graphe d'implication, analyse de conflit, apprentissage, retour arrière non chronologique, redémarrages, structures de données ; description suivant Biere, Heule, van Maaren et Walsh 2009.",
+            "Chaque clause apprise est dérivable par résolution à partir des clauses courantes (PROUVÉ, preuve complète sur le graphe d'implication, avec le cas du premier point d'implication unique) ; correction de la procédure d'extraction de trace (PROUVÉ).",
+            "Puissance du CDCL : avec redémarrages, politique de décision adaptée et conservation des clauses apprises, CDCL p-simule la résolution (CONNU, Pipatsrisawat et Darwiche 2011 ; idée de preuve et énoncé soigneux des hypothèses ; sans ces hypothèses, l'énoncé ne s'applique pas).",
+            "Fiche de traduction exécution $\\to$ réfutation : sens unique ; coût taille de trace pouvant être très grande, temps de vérification polynomial en la trace, mémoire de stockage, profondeur de la dérivation produite, largeur des clauses apprises, précision (l'information heuristique et l'ordre de recherche sont perdus), partage (réutilisation des clauses = DAG) ; mesures de traces sur petites instances (EXPÉRIMENTAL)."
+          ],
+          "exercices": [
+            "Démontrer la complétude réfutationnelle de la résolution par élimination de variables (PROUVÉ, preuve complète).",
+            "Dérouler CDCL sur une instance à six clauses, produire le graphe d'implication et exhiber la dérivation par résolution de la clause apprise (PROUVÉ).",
+            "Démontrer la correction de la propagation unitaire et majorer son coût naïf ; discuter l'apport des littéraux surveillés sans en faire un énoncé non démontré (PROUVÉ pour la correction et la borne naïve).",
+            "Construire une instance admettant une réfutation en DAG de taille linéaire dont toute version arborescente est exponentielle, en réutilisant le chapitre 7 (PROUVÉ).",
+            "Mesurer la taille des traces produites sur $\\mathrm{PHP}_n^{n+1}$ pour $n = 3, 4, 5$ et rapporter les chiffres sans extrapolation (EXPÉRIMENTAL)."
+          ]
+        },
+        {
+          "numero": 12,
+          "titre": "Haken 1985 et le principe des tiroirs : anatomie d'une borne inférieure",
+          "objectif": "Anatomiser une borne inférieure célèbre pour en tirer la leçon RTC : une borne porte sur un modèle cible, dans une représentation fixée, et ne se transfère pas à travers n'importe quelle traduction. Démontrer complètement l'insatisfiabilité du principe et une borne exponentielle pour la résolution arborescente ; donner l'idée de la preuve de Haken. (≈ 15 pages)",
+          "sections": [
+            "Intuition : ranger $n+1$ pigeons dans $n$ trous est évidemment impossible ; mais un langage de preuve qui ne sait parler que de clauses peut être obligé de tout réexaminer cas par cas.",
+            "Le principe $\\mathrm{PHP}_n^{n+1}$ : variables $x_{i,j}$, clauses d'occupation et d'injectivité, taille $O(n^3)$, insatisfiabilité (PROUVÉ, preuves complètes de l'encodage et de l'insatisfiabilité).",
+            "Théorème de Haken 1985 : toute réfutation par résolution de $\\mathrm{PHP}_n^{n+1}$ est de taille $2^{\\Omega(n)}$ (CONNU ; idée de preuve par comptage de goulets d'étranglement et restrictions, explicitement non démontrée ici).",
+            "Énoncé plus faible mais entièrement démontré ici : borne inférieure exponentielle, avec constante non optimisée, pour la résolution arborescente sur le principe des tiroirs, par un jeu prouveur–retardeur et un adversaire explicite (PROUVÉ, preuve complète).",
+            "Ce que la borne ne dit pas : le principe des tiroirs admet des preuves de taille polynomiale dans des systèmes plus forts, l'idée étant de formaliser un raisonnement de comptage (CONNU, idée) ; l'ajout de variables de définition change radicalement la donne (CONNU) ; borne sur le modèle, pas sur le problème.",
+            "Transfert des bornes à travers les traductions : si $S_1$ p-simule $S_2$, une borne inférieure pour $S_2$ en donne une pour $S_1$ avec le facteur composé (PROUVÉ, preuve complète) ; dans l'autre sens, ou à travers une traduction qui ajoute de l'extension, le transfert est invalide (RÉFUTÉ, contre-argument complet)."
+          ],
+          "exercices": [
+            "Démontrer l'insatisfiabilité de $\\mathrm{PHP}_n^{n+1}$ et calculer exactement le nombre de clauses et de littéraux de l'encodage (PROUVÉ).",
+            "Écrire une réfutation par résolution complète de $\\mathrm{PHP}_2^{3}$ et compter ses nœuds, sa profondeur et sa largeur (PROUVÉ).",
+            "Compléter la preuve du jeu prouveur–retardeur : stratégie du retardeur, score garanti, conversion en borne de taille arborescente (PROUVÉ, guidé puis rédigé).",
+            "Démontrer la règle de transfert : si $S_1$ p-simule $S_2$ avec facteur $p$ et que $S_2$ requiert taille $\\ge f(n)$, alors $S_1$ requiert taille $\\ge p^{-1}(f(n))$ dans un sens à préciser soigneusement (PROUVÉ).",
+            "Rédiger en une page pourquoi le théorème de Haken 1985 ne sépare pas NP de coNP, en identifiant l'étape manquante (RÉFUTÉ pour l'énoncé naïf)."
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Partie IV — La mesure : ce que vaut une preuve, et transfert vers RTC (chapitres 13 à 16, ≈ 56 pages)",
+      "chapitres": [
+        {
+          "numero": 13,
+          "titre": "P, NP, coNP : la taille des preuves comme question de complexité",
+          "objectif": "Traduire les grandes questions ouvertes de la complexité en questions sur la taille des preuves, en tenant un registre de statuts irréprochable : ce qui est démontré, ce qui est connu, ce qui est conjecturé, ce qui est ouvert, ce qui est réfuté. Aucune séparation n'est annoncée. (≈ 13 pages)",
+          "sections": [
+            "Intuition : vérifier vite et trouver vite ne sont pas la même chose ; l'asymétrie entre exhiber un modèle et exhiber une réfutation est le cœur du sujet.",
+            "Énoncés et statuts : P contre NP (OUVERT), NP contre coNP (OUVERT) ; les croyances P différent de NP et NP différent de coNP sont des CONJECTURE de travail, jamais utilisées comme hypothèses dans une preuve du livre ; P = NP implique NP = coNP (PROUVÉ, rappel du chapitre 10).",
+            "Formulation en termes de preuves : existence d'un système polynomialement borné, équivalence démontrée au chapitre 10 (PROUVÉ) ; le programme des bornes inférieures de Cook et Reckhow 1979 comme feuille de route.",
+            "État des lieux : bornes inférieures connues pour la résolution (CONNU, Haken 1985) et pour d'autres systèmes faibles (CONNU, idée) ; absence de borne inférieure non triviale connue pour Frege et Frege étendu (OUVERT) ; ce que serait une telle borne.",
+            "Erreurs de lecture fréquentes, toutes marquées RÉFUTÉ avec argument complet : une borne inférieure pour la résolution sépare NP de coNP ; la difficulté pratique de SAT implique P différent de NP ; Curry-Howard fournit des preuves courtes ; une trace de solveur est toujours petite.",
+            "Point de vue RTC : les questions de classes sont des questions sur l'existence de traductions à coût polynomial entre modèles ; formuler ce que chaque égalité supposée conserverait et perdrait, sans en supposer aucune vraie."
+          ],
+          "exercices": [
+            "Démontrer la chaîne P = NP implique NP = coNP implique existence d'un système polynomialement borné (PROUVÉ, toutes les étapes).",
+            "Démontrer que si TAUT appartient à NP alors NP = coNP (PROUVÉ).",
+            "Réfuter par argument complet trois énoncés naïfs de la section 5 (RÉFUTÉ).",
+            "Démontrer qu'un système polynomialement borné fournit une procédure non déterministe polynomiale pour TAUT, et réciproquement (PROUVÉ).",
+            "Formuler une question ouverte précise sur Frege en une phrase vérifiable, et dire exactement ce qui manque pour y répondre (OUVERT, sans annonce de résultat)."
+          ]
+        },
+        {
+          "numero": 14,
+          "titre": "Que mesure la taille d'un terme de preuve ?",
+          "objectif": "Interroger la mesure elle-même. Montrer que la taille est un indicateur parmi sept autres, qu'elle dépend de la représentation, et qu'elle ne mesure ni le coût de recherche, ni le contenu informationnel, ni le contenu constructif. Démontrer les séparations élémentaires et étiqueter le reste. (≈ 13 pages)",
+          "sections": [
+            "Intuition : dire qu'une preuve est courte, c'est comme dire qu'un texte est court — cela dépend de la police, des abréviations et de ce que l'on compte.",
+            "Sept mesures concurrentes : nœuds d'arbre, nœuds distincts de DAG, nombre de lignes, profondeur, largeur maximale, nombre de variables auxiliaires, taille du certificat de vérification ; tableau comparatif sur une même tautologie (PROUVÉ pour les calculs).",
+            "Vérifier, trouver, normaliser : la vérification d'une preuve donnée est polynomiale (PROUVÉ) ; le coût de recherche est une tout autre quantité (CONNU pour les bornes inférieures dans des systèmes fixés, OUVERT en général) ; le coût de normalisation a été traité au chapitre 6.",
+            "Contenu constructif et précision : une preuve classique de taille polynomiale peut se traduire en une preuve intuitionniste d'un énoncé doublement nié, avec surcoût polynomial (PROUVÉ sur le fragment propositionnel) ; ce qui est conservé (prouvabilité de l'énoncé traduit) et ce qui est perdu (le programme extractible, la propriété de disjonction) — CONNU pour les énoncés généraux, idée donnée.",
+            "Taille et circuits : l'interpolation faisable comme pont entre taille de preuve et taille de circuit, et son usage pour transporter des bornes inférieures (CONNU, idée seulement, non démontré ici) ; intérêt pour RTC : une traduction peut convertir une ressource de preuve en ressource de calcul.",
+            "Tableau « ce que la taille mesure / ne mesure pas », avec statut par ligne ; règle méthodologique : toujours annoncer la représentation et la mesure avant tout énoncé de taille."
+          ],
+          "exercices": [
+            "Exhiber deux preuves de la même tautologie, de tailles-arbre exponentiellement différentes mais de même taille-DAG, et le démontrer (PROUVÉ).",
+            "Démontrer que la vérification d'une preuve en DAG est polynomiale en la taille-DAG, avec un algorithme explicite (PROUVÉ).",
+            "Démontrer que la traduction par double négation du fragment propositionnel est de taille polynomiale, en majorant explicitement le facteur (PROUVÉ).",
+            "Donner un exemple de preuve classique courte dont l'énoncé traduit ne fournit aucun programme extractible au sens du chapitre 4, et discuter le statut de l'affirmation (exemple PROUVÉ, généralisation CONNU).",
+            "Comparer, sur une famille d'instances, taille de trace et temps de recherche d'un solveur, et rapporter l'absence de corrélation simple sans extrapoler (EXPÉRIMENTAL)."
+          ]
+        },
+        {
+          "numero": 15,
+          "titre": "Atlas des traductions : le grand tableau des coûts",
+          "objectif": "Rassembler toutes les traductions du tome en fiches homogènes et vérifier leur composabilité. Fournir l'outil que les autres tomes de la collection pourront réutiliser, ainsi qu'un protocole de mesure honnête séparant strictement PROUVÉ, CONNU et EXPÉRIMENTAL. (≈ 15 pages)",
+          "sections": [
+            "Mode d'emploi de l'atlas : une fiche par traduction avec huit rubriques obligatoires — sens, définition, taille, temps, mémoire, profondeur et largeur, précision, partage, conservé / perdu, statut et référence autorisée.",
+            "Fiches A, le noyau Curry-Howard : $\\lambda \\leftrightarrow$ NJ, $\\beta \\leftrightarrow$ élimination des coupures, arbre $\\leftrightarrow$ DAG ; rappel des bornes démontrées et des cases CONNU.",
+            "Fiches B, le versant clauses : formule $\\to$ CNF par Tseitin, circuit $\\to$ CNF, calcul borné $\\to$ SAT, séquent $\\to$ clause ; ce que chaque fiche conserve de la sémantique et ce qu'elle en abandonne.",
+            "Fiches C, le versant systèmes : résolution $\\to$ Frege, résolution $\\to$ résolution étendue, exécution CDCL $\\to$ réfutation, preuves classiques $\\to$ preuves intuitionnistes traduites ; facteurs de simulation et hypothèses.",
+            "Composition : les bornes multiplicatives se composent (PROUVÉ, preuve complète) ; les précisions, elles, ne se composent pas toujours — deux traductions équisatisfiables peuvent perdre l'équivalence de façon irréversible ; exemples de carrés qui ne commutent pas (PROUVÉ sur exemples).",
+            "Protocole de mesure : familles tests (tiroirs, circuits, formules de graphes), instrumentation d'un solveur, journalisation des traces, ce qui est EXPÉRIMENTAL et ne pourra jamais devenir PROUVÉ par accumulation de mesures ; grille de relecture anti-confusion."
+          ],
+          "exercices": [
+            "Compléter une fiche manquante de l'atlas, par exemple DNF $\\to$ CNF, en renseignant les sept ressources et le statut de chaque case (PROUVÉ pour les bornes démontrables).",
+            "Composer Tseitin après la traduction circuit $\\to$ clauses et calculer la borne de taille résultante avec constantes explicites (PROUVÉ).",
+            "Exhiber deux traductions dont la composée conserve l'équisatisfiabilité mais perd l'équivalence, et le démontrer (PROUVÉ).",
+            "Rédiger un protocole de mesure en une page : instances, métriques, incertitudes, et liste des conclusions interdites (EXPÉRIMENTAL).",
+            "Choisir une case OUVERT de l'atlas et la formuler comme une question précise portant sur une ressource et une traduction nommées."
+          ]
+        },
+        {
+          "numero": 16,
+          "titre": "Transfert vers le programme RTC",
+          "objectif": "Dernier chapitre : dire exactement ce que ce tome apporte à l'étude des traductions à ressources — quelles ressources il a appris à mesurer, quelles traductions il a cataloguées avec leurs coûts et leurs pertes, quelles questions ouvertes il lègue aux autres tomes — et fournir un protocole de travail réutilisable. Aucune découverte n'est annoncée. (≈ 15 pages)",
+          "sections": [
+            "Apport du tome : un dictionnaire à trois modèles ($\\lambda$-calcul typé, preuves propositionnelles, clauses et solveurs) et un atlas de traductions à coûts explicites ; le résultat principal est méthodologique, pas un théorème nouveau.",
+            "Ressources effectivement mobilisées et enseignements : taille (arbre contre DAG, facteur de partage exponentiel), temps (vérifier, chercher, normaliser : trois coûts), mémoire (traces et espace de preuve), profondeur (parallélisme et duplication), largeur (clauses et séquents), précision (équivalence contre équisatisfiabilité, contenu constructif), partage (lemmes, DAG, variables d'extension).",
+            "Traductions cataloguées et invariants : tableau de synthèse des fiches A, B, C ; invariants démontrés, pertes démontrées, cases CONNU avec idée de preuve, cases OUVERT ; règle de transfert des bornes inférieures à travers les p-simulations (PROUVÉ) et son échec à travers l'extension.",
+            "Questions ouvertes léguées à RTC, formulées précisément et sans annonce : bornes inférieures pour Frege et Frege étendu (OUVERT) ; la résolution étendue p-simule-t-elle Frege (OUVERT) ; NP contre coNP (OUVERT) ; coût exact du partage dans les traductions Curry-Howard avec substitutions explicites (OUVERT) ; existence de traductions polynomiales préservant la profondeur entre systèmes forts et moteurs de preuve (OUVERT).",
+            "Protocole transférable aux autres tomes : fiche de traduction à huit rubriques, registre des statuts, séparation stricte entre preuve rédigée, idée de preuve étiquetée et mesure, critères de falsifiabilité, et relecture systématique des confusions de niveaux.",
+            "Limites et honnêteté du tome : ce qui n'a pas été démontré ici et pourquoi, ce que les expériences ne peuvent pas établir, ce que les conjectures ne peuvent pas servir à prouver ; rappel des règles absolues et lecture conseillée dans la collection, sans aucune référence hors liste."
+          ],
+          "exercices": [
+            "Rédiger une fiche RTC complète pour une traduction du tome, évaluée sur les sept ressources et les huit rubriques, avec statut par case (exercice de synthèse).",
+            "Formuler une question ouverte en une phrase falsifiable, en nommant la traduction, la ressource et la borne visée (OUVERT).",
+            "Construire un contre-exemple complet à l'affirmation naïve « une borne inférieure se transporte à travers n'importe quelle traduction » (RÉFUTÉ, preuve rédigée).",
+            "Proposer une expérience reproductible sur les traces de solveur, avec ses limites et la liste des conclusions qu'elle n'autorise pas (EXPÉRIMENTAL).",
+            "Auto-évaluation finale : classer vingt énoncés du livre selon le registre des statuts et vérifier qu'aucune intuition n'y est présentée comme une preuve, qu'aucune référence hors liste n'est citée et qu'aucune découverte n'est annoncée."
+          ]
+        }
+      ]
+    }
+  ]
+}
