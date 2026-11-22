@@ -2,17 +2,17 @@
 
 Nom provisoire : **RTC — Resource Translations of Computation** (renommage décidé à la porte G0 ; voir FAILURES.md, F-006).
 
-État du programme : **G0 validée. M1 (INV-00) fait en v0.1. INV-01 et INV-01b faits. Prochaine étape : la porte G1 (rédiger le T0, ou poursuivre avec INV-01c ou INV-02).**
+État du programme : **G0 validée. M1 (INV-00) fait en v0.1. INV-01 et INV-01b faits. T0 à T4 rédigés (Dialagram), relus par audit automatique (références, statuts, exagérations) et publiés. Prochaine étape : tomes de la phase II (T5 à T9b), audit de la littérature, INV-01c.**
 
 - [Définitions INV-00](DEFINITIONS.md) · [Rapport INV-01](INV-01_RAPPORT.md)
 
 | Tome | Titre (architecture révisée) | Phase | Dépend de | Statut | Prochaine action |
 |---|---|---|---|---|---|
-| T0 | Programme NCE et cadre formel des traductions à ressources | I | — | non commencé | INV-00 |
-| T1 | Lambda-calcul : structure fonctionnelle, réduction, partage, coût | I | T0 | non commencé | — |
-| T2 | Machines de Turing : états, mémoire, simulations | I | T0 | non commencé | — |
-| T3 | Circuits booléens, contraintes et SAT | I | T0 | non commencé | alimenté par INV-01 |
-| T4 | Réseaux neuronaux : seuil, ReLU, récurrents, transformers ; ressources | I | T0 | non commencé | — |
+| T0 | Programme NCE et cadre formel des traductions à ressources | I | — | publié v1 (228 p.) | relecture humaine |
+| T1 | Lambda-calcul : structure fonctionnelle, réduction, partage, coût | I | T0 | publié v1 (240 p.) | relecture humaine |
+| T2 | Machines de Turing : états, mémoire, simulations | I | T0 | publié v1 (232 p.) | relecture humaine |
+| T3 | Circuits booléens, contraintes et SAT | I | T0 | publié v1 (247 p.), inclut L-01 | relecture humaine |
+| T4 | Réseaux neuronaux : seuil, ReLU, récurrents, transformers ; ressources | I | T0 | publié v1 (229 p.), inclut L-03 et E-01b | relecture humaine |
 | T5 | λ ↔ MT | II | T1, T2 | non commencé | — |
 | T6 | MT ↔ circuits ↔ SAT | II | T2, T3 | non commencé | alimenté par INV-01 |
 | T7 | Circuits/SAT ↔ réseaux | II | T3, T4 | non commencé | alimenté par INV-01 |

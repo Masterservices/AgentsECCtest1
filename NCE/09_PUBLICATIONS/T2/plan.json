@@ -1,0 +1,434 @@
+{
+ "titre": "Les Machines de Turing",
+ "sous_titre": "États, rubans, configurations : ce que les traductions entre modèles d'exécution conservent et perdent",
+ "these": "Une machine de Turing n'est pas seulement un critère de calculabilité : c'est un système de comptabilité de l'exécution. Toutes les variantes — un ou plusieurs rubans, alphabets plus ou moins larges, déterminisme ou non-déterminisme, interprétation universelle, circuits booléens, automates finis — calculent les mêmes fonctions, mais aucune traduction n'est gratuite : l'invariant sémantique est conservé, les ressources sont déplacées (temps, mémoire, taille de description, profondeur, largeur, précision, partage). Ce tome tient le registre de ces déplacements, avec un statut explicite pour chaque affirmation, et ne présente jamais une intuition comme une preuve. Format visé : 16 chapitres pour environ 204 pages, plus environ 16 pages d'appareil (préface, mode d'emploi du registre des statuts, table des traductions et de leurs coûts, glossaire des ressources, index), soit environ 220 pages. Aucun résultat nouveau n'est annoncé : les « lois » candidates du programme RTC sont étiquetées CONJECTURE et les questions non tranchées étiquetées OUVERT.",
+ "cadre": {
+  "nom": "Les traductions à ressources et le registre des statuts",
+  "description": "Cadre de travail : chaque résultat du tome est présenté comme une traduction entre modèles de calcul, décrite par une fiche (source, cible, invariant préservé, coût en temps, en espace, en taille de description, en profondeur, en largeur, en précision, en partage, statut de l'énoncé, statut de l'optimalité). Chaque affirmation porte l'un des six statuts PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ, OUVERT ; « PROUVÉ » signifie qu'une preuve complète figure dans le tome (même si l'énoncé est historiquement dû à un auteur de la bibliographie), « CONNU » signifie que seul l'énoncé et l'idée de preuve sont donnés, et cela est dit explicitement.\n\nRÈGLES ABSOLUES : (1) ne citer QUE les références de la liste ci-dessous, avec l'auteur et l'année indiqués ; n'en inventer aucune ; aucun DOI, aucun numéro de page, aucune citation entre guillemets attribuée à un chercheur ; (2) ne jamais présenter une intuition comme une preuve ; donner des preuves complètes pour les résultats démontrés dans le livre, et pour les grands théorèmes connus donner l'idée de la preuve en le disant ; (3) chaque affirmation porte un statut : PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ ou OUVERT ; (4) aucune annonce de découverte ; (5) formules en LaTeX entre $...$ ou $$...$$ ; (6) lecteur cultivé non spécialiste : intuition, définition, énoncé, exemple, exercice ; (7) dernier chapitre : « Transfert vers le programme RTC » (ce que ce tome apporte à l'étude des traductions à ressources : quelles ressources, quelles traductions, quelles questions ouvertes).\n\nRéférences autorisées (et seulement elles) : Turing 1936 (On computable numbers, with an application to the Entscheidungsproblem) ; Kleene 1956 (Representation of events in nerve nets and finite automata) ; Hartmanis et Stearns 1965 (On the computational complexity of algorithms) ; Hennie et Stearns 1966 (Two-tape simulation of multitape Turing machines) ; Savitch 1970 (Relationships between nondeterministic and deterministic tape complexities) ; Cook 1971 (The complexity of theorem-proving procedures) ; Pippenger et Fischer 1979 (Relations among complexity measures) ; Hopcroft et Ullman 1979 (Introduction to Automata Theory, Languages, and Computation) ; Papadimitriou 1994 (Computational Complexity) ; Sipser 1997 (Introduction to the Theory of Computation) ; Arora et Barak 2009 (Computational Complexity: A Modern Approach)"
+ },
+ "bibliographie": [
+  {
+   "auteur": "Turing",
+   "titre": "On computable numbers, with an application to the Entscheidungsproblem",
+   "annee": "1936",
+   "idee": "Définir le calcul effectif par une machine à états finis munie d'un ruban et d'une tête de lecture/écriture ; coder une machine par un mot et construire une machine universelle qui exécute ce code ; établir par diagonalisation qu'aucune procédure mécanique ne décide le comportement d'une machine, d'où l'indécidabilité liée à l'arrêt et au problème de la décision.",
+   "apport": "Socle des chapitres 1 à 3, 8 et 9 : le modèle, la sémantique par configurations, l'interprétation universelle comme première traduction à surcoût, et l'indécidabilité comme limite structurelle de toute optimisation automatique de traductions."
+  },
+  {
+   "auteur": "Kleene",
+   "titre": "Representation of events in nerve nets and finite automata",
+   "annee": "1956",
+   "idee": "Décrire les événements réguliers par des expressions et par des automates finis (réseaux de neurones idéalisés), et démontrer l'équivalence des deux descriptions par des constructions effectives.",
+   "apport": "Chapitre 12 : lorsque l'espace de travail est nul ou constant, la machine de Turing retombe sur l'automate fini ; la traduction « mémoire → états » est le premier exemple de mémoire convertie en taille de description, avec explosion mesurable."
+  },
+  {
+   "auteur": "Hartmanis et Stearns",
+   "titre": "On the computational complexity of algorithms",
+   "annee": "1965",
+   "idee": "Mesurer le calcul en fonction de la longueur de l'entrée, définir des classes de temps et d'espace sur machines multi-rubans, et établir les premiers théorèmes de compression linéaire et de hiérarchie.",
+   "apport": "Chapitres 10 et 11 : conventions de mesure, classes $DTIME$ et $DSPACE$, hiérarchies ; rappelle que tout énoncé de complexité est relatif à un modèle, donc à une traduction choisie."
+  },
+  {
+   "auteur": "Hennie et Stearns",
+   "titre": "Two-tape simulation of multitape Turing machines",
+   "annee": "1966",
+   "idee": "Simuler une machine à $k$ rubans par une machine à deux rubans avec un surcoût $O(t \\log t)$, grâce à un découpage en blocs de tailles géométriques, à des transferts paresseux et à une simulation dont les mouvements de tête ne dépendent que de la longueur de l'entrée.",
+   "apport": "Chapitres 7, 8 et 15 : coût précis de la réduction du nombre de rubans ; l'obliviosité est l'ingrédient technique qui rend possible la traduction en circuits de taille $O(t \\log t)$ et la simulation universelle efficace."
+  },
+  {
+   "auteur": "Savitch",
+   "titre": "Relationships between nondeterministic and deterministic tape complexities",
+   "annee": "1970",
+   "idee": "Décider l'accessibilité dans le graphe des configurations par une récursion dichotomique sur la longueur du chemin, de profondeur logarithmique en cette longueur, chaque cadre de récursion ne coûtant qu'un espace proportionnel à l'espace de la machine simulée.",
+   "apport": "Chapitres 11 et 14 : $NSPACE(s) \\subseteq DSPACE(s^2)$ pour $s \\ge \\log n$, donc $PSPACE = NPSPACE$ ; archétype RTC d'une traduction qui paie du temps exponentiel pour économiser de l'espace."
+  },
+  {
+   "auteur": "Cook",
+   "titre": "The complexity of theorem-proving procedures",
+   "annee": "1971",
+   "idee": "Encoder un calcul borné par un tableau de configurations et le vérifier par des contraintes propositionnelles locales (fenêtres de quelques cellules), puis réduire ainsi tout problème de NP à la satisfaisabilité propositionnelle.",
+   "apport": "Chapitre 13 : la traduction « calcul → formule statique », avec comptage explicite de la taille produite ; point de départ de la NP-complétude et modèle RTC de traduction vers un objet non exécuté."
+  },
+  {
+   "auteur": "Pippenger et Fischer",
+   "titre": "Relations among complexity measures",
+   "annee": "1979",
+   "idee": "Relier les mesures de complexité entre modèles : rendre les calculs oblivieux à faible coût, puis traduire un calcul de temps $t$ en une famille de circuits booléens de taille $O(t \\log t)$.",
+   "apport": "Chapitre 15 : borne $O(t \\log t)$ pour la simulation par circuits et corollaire $P \\subseteq P/poly$ ; montre ce que la traduction gagne (partage par fan-out, structure locale) et perd (adaptativité, uniformité)."
+  },
+  {
+   "auteur": "Hopcroft et Ullman",
+   "titre": "Introduction to Automata Theory, Languages, and Computation",
+   "annee": "1979",
+   "idee": "Exposé systématique des automates finis, des langages réguliers et context-free, des machines de Turing et de leurs variantes, des preuves d'indécidabilité, et des techniques de base : lemme de pompage, automates à double sens, séquences de croisement, machines à ruban borné.",
+   "apport": "Référence de travail des chapitres 4, 5, 7, 9 et 12 : équivalences de variantes, conversion des automates à double sens, cadre des bornes inférieures sur un seul ruban et des machines à espace sous-logarithmique."
+  },
+  {
+   "auteur": "Papadimitriou",
+   "titre": "Computational Complexity",
+   "annee": "1994",
+   "idee": "Organiser la complexité autour des classes, des réductions et de la complétude, avec un traitement détaillé de l'espace, des hiérarchies et des problèmes complets pour PSPACE et pour les classes d'espace logarithmique.",
+   "apport": "Chapitres 10, 11, 13 et 14 : énoncés modernes des hiérarchies et de la complétude, cadre de discussion entre ce qui est démontré, ce qui est admis et ce qui reste ouvert."
+  },
+  {
+   "auteur": "Sipser",
+   "titre": "Introduction to the Theory of Computation",
+   "annee": "1997",
+   "idee": "Présentation pédagogique en trois étages — automates et langages, calculabilité, complexité — avec des preuves pas à pas : indécidabilité de l'arrêt, réductibilité, non-déterminisme, P et NP.",
+   "apport": "Gabarit d'exposition du tome (intuition, définition, énoncé, exemple, exercice) et source des preuves élémentaires reproduites intégralement aux chapitres 2, 3, 6, 9 et 13."
+  },
+  {
+   "auteur": "Arora et Barak",
+   "titre": "Computational Complexity: A Modern Approach",
+   "annee": "2009",
+   "idee": "Panorama contemporain : machine universelle avec surcoût logarithmique, circuits et non-uniformité, hiérarchies, complexité en espace, et formulation précise de l'état des questions ouvertes.",
+   "apport": "Chapitres 8, 10, 14, 15 et 16 : énoncé du surcoût $O(t \\log t)$ de la simulation universelle, cadre des circuits et de la non-uniformité, formulation actuelle des séparations ouvertes reprise dans le registre RTC."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — La machine : syntaxe et sémantique de l'exécution",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Calculer, c'est exécuter : pourquoi une machine ?",
+     "objectif": "Installer le vocabulaire du programme RTC (ressource, traduction, invariant, surcoût) et le registre des six statuts, à partir de la scène la plus concrète : un calcul humain sur du papier. Environ 11 pages.",
+     "sections": [
+      "Intuition : le scribe, la feuille, le crayon et l'état d'esprit — ce que le modèle de Turing 1936 retient de cette scène, et ce qu'il abandonne (CONNU).",
+      "Définition informelle d'un modèle d'exécution : état local fini, mémoire adressable, pas élémentaire, critère d'arrêt ; pourquoi ces quatre ingrédients suffisent à parler de coût.",
+      "Les sept ressources du programme RTC : taille, temps, mémoire, profondeur, largeur, précision, partage — unités de compte et premières conventions de mesure.",
+      "Ce qu'est une traduction entre modèles : préserver la fonction calculée, déplacer les coûts ; annonce de la table des traductions étudiées dans le tome.",
+      "Thèse d'adéquation du modèle, dite de Church–Turing : CONJECTURE au sens d'un énoncé informel non susceptible de preuve mathématique, sans réfutation connue ; le tome ne s'appuie que sur Turing 1936 et souligne que cette thèse ne dit rien des coûts.",
+      "Mode d'emploi du registre : PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ, OUVERT ; règle de travail « une intuition n'est jamais une preuve » et interdiction de toute annonce de découverte."
+     ],
+     "exercices": [
+      "1.1 Décrire sans formalisme une procédure de multiplication décimale, puis lister les ressources consommées (surface de papier, nombre de gestes, mémoire auxiliaire) ; distinguer explicitement description et preuve.",
+      "1.2 Exhiber une traduction non informatique (recette vers automate de cuisine, texte vers partition) et nommer l'invariant préservé ainsi que la ressource perdue.",
+      "1.3 EXPÉRIMENTAL : exécuter à la main vingt pas d'une multiplication, compter les cellules visitées et les reports écrits ; consigner les chiffres comme mesures, sans en tirer d'énoncé général.",
+      "1.4 RÉFUTÉ à établir : « un modèle plus riche calcule nécessairement plus de fonctions » — discuter l'affirmation, puis la réfuter en anticipant le résultat d'équivalence des machines multi-rubans (chapitre 7).",
+      "1.5 Classer dix affirmations du chapitre selon les six statuts et justifier chaque attribution en une phrase."
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "États, ruban, transitions : la définition et ses conventions",
+     "objectif": "Fixer la définition formelle et toutes les conventions de mesure, en montrant que chaque convention est un choix de traduction dont le coût sera payé plus tard. Environ 12 pages.",
+     "sections": [
+      "Définition : $M=(Q,\\Sigma,\\Gamma,\\delta,q_0,q_{acc},q_{rej})$, ruban semi-infini, symbole blanc, tête unique, entrée placée en début de ruban (définition, hors statut).",
+      "Transition $\\delta : Q\\times\\Gamma \\to Q\\times\\Gamma\\times\\{L,R,S\\}$ : lire, écrire, déplacer ; machines à fonction de transition partielle ou totale, et conséquence sur l'arrêt (PROUVÉ : exemples et contre-exemples).",
+      "Conventions de mesure : $n=|x|$, temps = nombre de pas, espace = nombre de cellules de travail visitées ; variante à entrée en lecture seule, qui seule autorise un espace sous-linéaire.",
+      "Exemple détaillé : une machine à six états reconnaissant $\\{0^n1^n : n\\ge 1\\}$, table complète, déroulé sur une entrée, correction par invariant de boucle (PROUVÉ).",
+      "Le coût des conventions : ruban bi-infini, option de rester sur place, alphabet plus grand, plusieurs pistes — annonces des traductions à facteur constant démontrées au chapitre 5.",
+      "Encart RTC : la taille de description $|M|$ comme ressource de plein droit ; compter états et symboles, et remarquer qu'un même calcul admet des descriptions de tailles très différentes."
+     ],
+     "exercices": [
+      "2.1 Écrire la table de transitions d'une machine ajoutant 1 à un entier binaire et prouver sa correction par invariant (PROUVÉ).",
+      "2.2 Calculer le temps et l'espace exacts de la machine de $\\{0^n1^n\\}$ sur $0^k1^k$, puis démontrer les formules obtenues par récurrence sur $k$ (PROUVÉ).",
+      "2.3 Montrer qu'une machine à fonction de transition totale peut ne jamais s'arrêter ; donner un exemple et une condition suffisante d'arrêt (PROUVÉ).",
+      "2.4 Comparer $|M|$ pour deux machines calculant la même fonction, l'une avec grand alphabet, l'autre avec alphabet binaire ; tabuler sans conclure (EXPÉRIMENTAL).",
+      "2.5 Expliquer pourquoi la mesure « espace = cellules visitées » rend faux l'énoncé « l'espace est toujours au moins linéaire » ; construire un contre-exemple à entrée en lecture seule (PROUVÉ)."
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "Configurations : la sémantique de l'exécution",
+     "objectif": "Faire de la configuration l'objet central du livre : un calcul est un chemin dans un graphe de configurations. Cette vision rendra possibles les preuves de Savitch et de Cook. Environ 12 pages.",
+     "sections": [
+      "Définition : configuration $C=(q,u,i,v)$, ou notation condensée $u\\,q\\,v$ ; configurations initiale, acceptante, rejetante ; taille d'une configuration et coût de sa recopie.",
+      "Relation de pas $\\vdash_M$ et clôture réflexive-transitive $\\vdash_M^*$ ; déterminisme et unicité du calcul issu d'une configuration (PROUVÉ, preuve complète par induction sur le nombre de pas).",
+      "Le graphe des configurations : degré sortant 1 dans le cas déterministe, accessibilité, cycles, historique d'un calcul comme chemin ; premier aperçu du point de vue « graphe ».",
+      "Borne fondamentale : un calcul de $t$ pas n'utilise pas plus de $t+O(1)$ cellules, donc espace $\\le$ temps $+$ constante (PROUVÉ).",
+      "Détection de boucle en espace borné : dénombrement des configurations et principe des tiroirs ; si le calcul dépasse le nombre de configurations disponibles, il boucle (PROUVÉ).",
+      "Encart RTC : la configuration comme photographie de l'exécution ; ce qu'une traduction doit préserver (l'accessibilité entre photographies) et ce qu'elle peut déformer (le nombre de pas entre deux photographies)."
+     ],
+     "exercices": [
+      "3.1 Prouver que si $C \\vdash_M^* C'$ en $k$ pas alors $|C'| \\le |C| + k$ (PROUVÉ).",
+      "3.2 Dénombrer les configurations d'une machine à entrée en lecture seule utilisant un espace $s$ : majoration par $|Q|\\,(n+2)\\,s\\,|\\Gamma|^{s}$ ; en déduire une borne $2^{O(s)}$ sur le temps des calculs qui s'arrêtent (PROUVÉ).",
+      "3.3 Construire une machine déterministe qui revisite une configuration et conclure à la non-terminaison sur cette entrée (PROUVÉ).",
+      "3.4 RÉFUTÉ : « il suffit d'énumérer les configurations pour décider l'arrêt » — montrer que l'ensemble est infini en l'absence de borne d'espace et préparer le chapitre 9.",
+      "3.5 EXPÉRIMENTAL : instrumenter un simulateur, exporter les suites de configurations de trois calculs et comparer les longueurs observées aux bornes démontrées."
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Programmer des machines : bibliothèque et comptabilité",
+     "objectif": "Construire une petite bibliothèque de macros avec, pour chacune, une preuve de correction et un coût explicite ; cette bibliothèque servira de banc d'essai aux traductions des parties II et IV. Environ 11 pages.",
+     "sections": [
+      "Macros et sous-programmes : convention d'appel, état de retour, lemme de composition avec coût additif en temps et maximum en espace (PROUVÉ).",
+      "Copier un bloc de longueur $m$ : temps $O(m)$ sur deux rubans, temps $O(m^2)$ sur un ruban par marquage alterné (PROUVÉ, constructions explicites et comptages).",
+      "Comparer deux blocs, chercher un symbole, incrémenter un compteur binaire : énoncés de coût et preuves (PROUVÉ) ; amortissement du compteur binaire.",
+      "Exemple complet : multiplication binaire sur trois rubans, correction par invariant et borne $O(n^2)$ en temps, $O(n)$ en espace (PROUVÉ).",
+      "Boucles, compteurs et pièges des constantes cachées : comment l'espace des compteurs se paie en temps, et pourquoi un $O$ n'est pas une mesure.",
+      "Encart RTC : le programme source comme objet à traduire ; première table de surcoûts, avec la colonne « statut de l'optimalité » laissée ouverte."
+     ],
+     "exercices": [
+      "4.1 Écrire une macro de copie sur un ruban, prouver la borne $O(m^2)$ et expliciter la constante (PROUVÉ), puis la mesurer (EXPÉRIMENTAL).",
+      "4.2 Démontrer le lemme de composition : si $M_1$ calcule $f_1$ en temps $t_1$ et $M_2$ calcule $f_2$ en temps $t_2$, alors la composée calcule $f_2\\circ f_1$ en temps $t_1+t_2+O(1)$, sous les conventions d'interface fixées (PROUVÉ).",
+      "4.3 Donner une machine décidant $\\{ww : w\\in\\{0,1\\}^*\\}$ et borner son temps sur deux rubans, puis sur un seul (PROUVÉ).",
+      "4.4 Prouver que l'incrémentation répétée d'un compteur binaire de $0$ à $N$ coûte $O(N)$ pas au total (PROUVÉ, amortissement).",
+      "4.5 EXPÉRIMENTAL : tabuler temps observé et borne prouvée pour $n$ de 10 à 200 ; commenter les écarts sans énoncer de loi générale."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Traduire sans changer ce qui est calculé : variantes, non-déterminisme, universalité",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Variantes du ruban et de l'alphabet : la robustesse a un prix constant",
+     "objectif": "Démontrer intégralement les traductions « à facteur constant » et montrer qu'elles échangent déjà des ressources entre elles : symboles contre états, précision contre espace. Environ 12 pages.",
+     "sections": [
+      "Ruban bi-infini vers ruban semi-infini : pliage en deux pistes, temps multiplié par 2, espace multiplié par 2 (PROUVÉ, construction et simulation pas à pas).",
+      "Alphabet de taille $k$ vers alphabet binaire : blocs de $\\lceil \\log_2 k\\rceil$ bits, espace multiplié par $\\lceil\\log_2 k\\rceil$, temps multiplié par $O(\\log k)$ (PROUVÉ).",
+      "Pistes multiples, option de rester sur place, entrée en lecture seule : énoncés et coûts (PROUVÉ) ; le cas de plusieurs têtes sur un même ruban est traité à part.",
+      "Deux têtes sur un ruban : les palindromes se décident en temps $O(n)$ (PROUVÉ) ; annonce de la séparation avec une seule tête, démontrée au chapitre 7.",
+      "RÉFUTÉ : « toutes les variantes sont équivalentes à coût constant près » — le contre-exemple des palindromes et le cas des têtes multiples suffisent à clore la question.",
+      "Encart RTC : protocole de fiche de traduction (source, cible, invariant, temps, espace, taille de description, précision, statut de l'énoncé, statut de l'optimalité) ; la précision, ou nombre de bits par cellule, apparaît comme ressource autonome."
+     ],
+     "exercices": [
+      "5.1 Donner la construction complète du pliage bi-infini vers semi-infini et prouver la simulation pas à pas, avec les facteurs exacts (PROUVÉ).",
+      "5.2 Prouver les facteurs de la compression d'alphabet et exhiber une famille de machines où la borne d'espace est atteinte (PROUVÉ).",
+      "5.3 Démontrer qu'une machine à deux têtes sur un ruban décide les palindromes en temps linéaire (PROUVÉ) ; garder l'énoncé pour le chapitre 7.",
+      "5.4 Rédiger une fiche de traduction complète pour la suppression de l'option « rester sur place », avec coût exact en temps et en espace (PROUVÉ).",
+      "5.5 OUVERT à formuler : existe-t-il une variante non triviale dont la traduction soit gratuite simultanément en temps, en espace et en taille de description ? Préciser l'énoncé avant toute tentative."
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Non-déterminisme : arbres de calcul et déterminisation",
+     "objectif": "Définir le non-déterminisme comme structure d'arbre, prouver la caractérisation par certificats et la déterminisation, et séparer soigneusement la majoration exponentielle (prouvée) de la séparation (ouverte). Environ 13 pages.",
+     "sections": [
+      "Intuition : deviner puis vérifier ; définition relationnelle de $\\delta$, arbre des calculs, acceptation existentielle (définition ; cadre CONNU, exposé notamment chez Sipser 1997).",
+      "Caractérisation par certificats : appartenance équivalente à l'existence d'un témoin de longueur bornée vérifié en temps déterministe borné (PROUVÉ, preuve complète dans les deux sens).",
+      "Déterminisation par parcours en largeur de l'arbre : temps $2^{O(t)}$, espace $O(t)$ ; comparaison avec le parcours en profondeur (PROUVÉ, comptages explicites).",
+      "Le graphe des configurations non déterministe : degré sortant borné, longueur des chemins acceptants, accessibilité comme problème pivot des chapitres 11 et 14.",
+      "Ce que la déterminisation conserve et perd : la fonction, oui ; le temps, non (majoration exponentielle) ; l'espace, à facteur constant près ; la structure de l'arbre des témoins disparaît.",
+      "Statuts : $NTIME(t) \\subseteq DTIME(2^{O(t)})$ PROUVÉ ; $P$ contre $NP$ OUVERT, avec conjecture dominante $P \\ne NP$ ; ne jamais lire une majoration comme une séparation."
+     ],
+     "exercices": [
+      "6.1 Prouver l'équivalence entre acceptation non déterministe en temps $t$ et existence d'un certificat de longueur $O(t)$ vérifiable en temps déterministe $O(t)$ (PROUVÉ).",
+      "6.2 Décrire une machine non déterministe pour la satisfaisabilité, borner temps et espace, puis expliciter la déterminisation et son coût (PROUVÉ).",
+      "6.3 Comparer les deux déterminisations (largeur et profondeur) : démontrer les bornes de temps et d'espace de chacune (PROUVÉ).",
+      "6.4 OUVERT : reformuler « le non-déterminisme ne coûte rien en espace » en $NSPACE(s)$ contre $DSPACE(s)$, conclure au statut OUVERT et annoncer Savitch comme meilleure majoration générale connue (chapitre 11).",
+      "6.5 EXPÉRIMENTAL : compter les nœuds de l'arbre non déterministe pour de petites formules et comparer au pire cas théorique ; discuter l'écart sans généraliser."
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Multi-rubans : simuler, et à quel prix",
+     "objectif": "Cœur technique du tome : prouver la simulation naïve quadratique, énoncer honnêtement la simulation $O(t \\log t)$, et démontrer une borne inférieure qui interdit toute gratuité. Environ 15 pages.",
+     "sections": [
+      "Machines à $k$ rubans : définition, mesures, et pourquoi elles sont le modèle de travail de Hartmanis et Stearns 1965 (CONNU).",
+      "Simulation naïve à un ruban : balayages aller-retour, temps $O(t^2)$, espace $O(t)$, constantes explicites (PROUVÉ, construction et comptage complets).",
+      "Simulation à deux rubans en $O(t \\log t)$ : CONNU (Hennie et Stearns 1966) ; idée de preuve détaillée — blocs de tailles géométriques, transferts paresseux, amortissement — avec indication explicite des étapes non démontrées ici.",
+      "Obliviosité : la suite des positions de tête ne dépend que de $n$ et de $t$ ; CONNU (Hennie et Stearns 1966 ; Pippenger et Fischer 1979) ; pourquoi cette propriété est la clé de la traduction en circuits.",
+      "Borne inférieure sur un ruban : les palindromes exigent un temps $\\Omega(n^2)$ (PROUVÉ dans ce tome par séquences de croisement, technique du cadre des machines à ruban borné de Hopcroft et Ullman 1979) ; corollaire RÉFUTÉ : réduire le nombre de rubans n'est pas gratuit.",
+      "Table RTC des surcoûts : $k$ rubans vers 2 rubans, facteur $O(\\log t)$ ; $k$ rubans vers 1 ruban, facteur $O(t)$ ; espace préservé à facteur constant ; optimalité du facteur logarithmique : OUVERT."
+     ],
+     "exercices": [
+      "7.1 Écrire la simulation à un ruban et démontrer la borne $O(t^2)$ avec constantes explicites (PROUVÉ).",
+      "7.2 Démontrer le lemme de recollement des séquences de croisement : deux mots acceptés avec la même séquence à une frontière peuvent être découpés et recollés en un mot encore accepté (PROUVÉ).",
+      "7.3 Compléter, à partir du lemme précédent, la preuve de la borne $\\Omega(n^2)$ pour les palindromes sur un ruban (PROUVÉ, exercice guidé en six étapes).",
+      "7.4 Reconstituer le schéma des blocs de la simulation à deux rubans, calculer le coût amorti d'un transfert, et identifier précisément l'étape laissée au statut CONNU.",
+      "7.5 EXPÉRIMENTAL : implémenter les deux simulations et mesurer le rapport temps simulé sur temps original jusqu'à $n=10^4$ ; le facteur logarithmique est-il visible ? Statut EXPÉRIMENTAL, aucune conclusion asymptotique.",
+      "7.6 OUVERT : formuler la question « peut-on simuler $k$ rubans par deux en temps $O(t)$ ? » et expliquer ce qu'une réponse positive changerait pour la taille des circuits du chapitre 15."
+     ]
+    },
+    {
+     "numero": 8,
+     "titre": "La machine universelle : l'interprétation comme traduction",
+     "objectif": "Construire intégralement une machine universelle, calculer son surcoût naïf, puis énoncer le surcoût efficace connu ; l'universalité devient un cas exemplaire de traduction payante. Environ 13 pages.",
+     "sections": [
+      "Coder une machine par un mot : encodage des états, des symboles et des transitions, longueur $|\\langle M\\rangle|$, décodage effectif (PROUVÉ).",
+      "Construction d'une machine universelle $U$ : ruban de description, ruban de configuration simulée, compteur ; correction $U(\\langle M\\rangle,x)$ accepte si et seulement si $M$ accepte $x$ (PROUVÉ, preuve complète par simulation pas à pas, dans l'esprit de Turing 1936).",
+      "Coût naïf : surcoût proportionnel à la taille de description, ou quadratique selon l'organisation des rubans ; calcul explicite (PROUVÉ).",
+      "Coût efficace : surcoût $O(t \\log t)$, CONNU (Hennie et Stearns 1966 ; Arora et Barak 2009) ; idée de preuve, rôle de l'obliviosité et de la simulation à deux rubans, et ce qui n'est pas démontré ici.",
+      "Diagonalisation outillée : de $U$ on tire l'existence de fonctions non calculables et l'énumération effective des machines (PROUVÉ), préparation du chapitre 9.",
+      "Encart RTC : l'interprète est une traduction ; universalité n'est pas gratuité ; triangle taille de description, temps, espace."
+     ],
+     "exercices": [
+      "8.1 Définir un encodage binaire des tables de transitions et prouver qu'une machine peut le décoder (PROUVÉ).",
+      "8.2 Démontrer la correction de la machine universelle construite dans le chapitre (PROUVÉ).",
+      "8.3 Majorer le surcoût de la version naïve avec constantes, puis comparer à l'énoncé CONNU en $O(t \\log t)$ ; indiquer ce qui reste à prouver pour atteindre cette borne.",
+      "8.4 Construire une fonction non calculable par diagonalisation sur l'énumération des machines (PROUVÉ).",
+      "8.5 EXPÉRIMENTAL : mesurer le surcoût d'un interprète de machines jouet pour des descriptions de tailles croissantes ; tracer les courbes et énoncer les limites de l'inférence."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Les limites : ce qui ne se décide pas, ce qui ne se comprime pas",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "L'arrêt : indécidabilité, réductions, et limites de l'optimisation automatique",
+     "objectif": "Donner la preuve complète de l'indécidabilité de l'arrêt et de ses variantes, puis en tirer une conséquence directe pour RTC : la correction générale d'une traduction n'est pas décidable. Environ 13 pages.",
+     "sections": [
+      "Énoncé : l'ensemble des couples $(\\langle M\\rangle,x)$ tels que $M$ s'arrête sur $x$ n'est pas décidable (PROUVÉ, preuve complète par contradiction et auto-application, cadre de Turing 1936).",
+      "La preuve en détail : construction de la machine contradictrice, appel à la machine universelle, contradiction ; à quel endroit exact l'intuition « un simulateur qui s'observe » devient un argument (PROUVÉ).",
+      "Réductions calculables : définition, composition, transport d'indécidabilité ; indécidabilité de l'appartenance, de la totalité, et de l'équivalence de deux machines ; toute propriété non triviale des langages reconnus est indécidable (PROUVÉ, preuves complètes).",
+      "Ce qui reste décidable : les questions bornées explicitement en temps ou en espace, par dénombrement de configurations (PROUVÉ, via le chapitre 3).",
+      "Conséquence RTC : aucune procédure totale ne décide en général si deux traductions produisent le même résultat sémantique ; l'optimisation et la validation automatiques ont une limite structurelle (PROUVÉ par réduction).",
+      "Statuts : indécidable n'est pas difficile ; l'indécidabilité n'est pas une borne de complexité, et une borne de complexité n'est pas une indécidabilité."
+     ],
+     "exercices": [
+      "9.1 Rédiger la preuve complète de l'indécidabilité de l'arrêt, sans argument informel ni appel à une autorité (PROUVÉ).",
+      "9.2 Démontrer que toute propriété non triviale des langages reconnus par machines de Turing est indécidable (PROUVÉ, réduction à l'arrêt).",
+      "9.3 Réduire l'arrêt à « $M$ accepte-t-il le mot vide ? », puis à « $L(M_1)=L(M_2)$ ? » (PROUVÉ).",
+      "9.4 Montrer que « $M$ s'arrête-t-il en moins de $10^6$ pas sur $x$ ? » est décidable, et donner le coût de cette décision (PROUVÉ).",
+      "9.5 RÉFUTÉ : « l'indécidabilité de l'arrêt interdit toute analyse statique utile » — construire une analyse partielle correcte, prouver sa correction sur son domaine, et dire ce qu'elle ne fait pas."
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Le temps comme ressource : classes, compression, hiérarchie",
+     "objectif": "Définir les classes de temps, expliquer la compression linéaire, et démontrer intégralement une hiérarchie à partir de la simulation naïve, la version fine étant étiquetée CONNU. Environ 13 pages.",
+     "sections": [
+      "Définitions : $DTIME(t)$, $NTIME(t)$, $P$, $EXP$ ; robustesse de ces classes sous les traductions des chapitres 5 et 7 (CONNU, Hartmanis et Stearns 1965 ; Arora et Barak 2009).",
+      "Compression linéaire : énoncé CONNU (Hartmanis et Stearns 1965), idée de preuve par agrandissement d'alphabet, hypothèses et limites ; aucune compression ne supprime la dépendance en la longueur de l'entrée.",
+      "Architecture d'une hiérarchie : simulation efficace plus diagonalisation ; énoncé CONNU du théorème de hiérarchie en temps, idée de preuve en trois étapes, rôle exact du surcoût $O(t \\log t)$.",
+      "Version auto-contenue et démontrée : sous hypothèses de constructibilité, si $t_1(n)^2 = o(t_2(n))$ alors $DTIME(t_1) \\subsetneq DTIME(t_2)$ (PROUVÉ dans ce tome, à partir de la simulation naïve du chapitre 8).",
+      "Lecture RTC : une hiérarchie est un théorème de non-traduction — aucun traducteur ne comprime tous les calculs dans un budget plus petit ; c'est le seul type de borne inférieure inconditionnelle disponible ici.",
+      "Statuts : $P \\subsetneq EXP$ PROUVÉ en corollaire ; $P$ contre $NP$ OUVERT ; la hiérarchie en temps non déterministe est mentionnée comme CONNU, hors du périmètre des preuves du tome."
+     ],
+     "exercices": [
+      "10.1 Démontrer $DTIME(t) \\subseteq DSPACE(t)$ et $NTIME(t) \\subseteq DSPACE(t)$ (PROUVÉ).",
+      "10.2 Établir la version faible de la hiérarchie à partir de la simulation naïve, en explicitant toutes les hypothèses de constructibilité (PROUVÉ).",
+      "10.3 Construire les machines horloges attestant que $n^2$ et $2^n$ sont constructibles en temps (PROUVÉ).",
+      "10.4 Expliquer pourquoi la diagonalisation directe ne sépare pas les classes non déterministes ; identifier l'obstacle technique et étiqueter correctement la séparation cherchée (OUVERT).",
+      "10.5 EXPÉRIMENTAL : mesurer l'effet d'une compression d'alphabet de facteur 4 sur une machine jouet ; le gain observé est-il linéaire, et sur quelle plage ?"
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "L'espace comme ressource : Savitch et les hiérarchies",
+     "objectif": "Démontrer intégralement le théorème de Savitch et ses corollaires, puis expliquer pourquoi l'espace se diagonalise plus facilement que le temps. Environ 14 pages.",
+     "sections": [
+      "Machines à entrée en lecture seule et ruban de travail : pourquoi l'espace peut être sous-linéaire ; $DSPACE(s)$, $NSPACE(s)$, $L$, $NL$, $PSPACE$ (définitions ; cadre CONNU, Papadimitriou 1994).",
+      "Accessibilité dans le graphe des configurations : taille $2^{O(s)}$, et pourquoi un marquage exhaustif coûte trop d'espace (PROUVÉ).",
+      "Théorème de Savitch : $NSPACE(s) \\subseteq DSPACE(s^2)$ pour $s \\ge \\log n$ (PROUVÉ dans ce tome : preuve complète de la récursion dichotomique ; énoncé dû à Savitch 1970).",
+      "Corollaires démontrés : $PSPACE = NPSPACE$, $NL \\subseteq DSPACE(\\log^2 n)$, et temps $2^{O(s)}$ de la simulation (PROUVÉ, comptages de profondeur et de cadres).",
+      "Hiérarchie en espace : énoncé CONNU, idée de preuve par diagonalisation avec horloge d'espace ; séparation $L \\subsetneq PSPACE$ PROUVÉ en corollaire.",
+      "Encart RTC : Savitch échange un facteur quadratique d'espace contre un temps exponentiel ; triangle temps–espace–non-déterminisme ; optimalité, c'est-à-dire $NSPACE(s)$ contre $DSPACE(s)$, OUVERT."
+     ],
+     "exercices": [
+      "11.1 Écrire l'algorithme récursif d'accessibilité bornée et prouver sa correction par induction sur la borne de longueur (PROUVÉ).",
+      "11.2 Compter exactement l'espace : profondeur de récursion, taille d'un cadre, total quadratique ; puis le temps exponentiel (PROUVÉ).",
+      "11.3 En déduire $PSPACE = NPSPACE$ et $NL \\subseteq DSPACE(\\log^2 n)$ (PROUVÉ).",
+      "11.4 Démontrer $DSPACE(s) \\subseteq DTIME(2^{O(s)})$ pour $s \\ge \\log n$ et les machines qui s'arrêtent, par dénombrement de configurations et détection de boucle (PROUVÉ).",
+      "11.5 OUVERT : que produirait une simulation en espace $O(s)$ ? Lister les conséquences, dont $L = NL$, sans les présenter comme acquises."
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Espace borné, espace constant, automates finis",
+     "objectif": "Étudier le bord inférieur de la hiérarchie des mémoires : quand le ruban de travail disparaît, la machine devient un automate, et la mémoire se paie en états. Environ 13 pages.",
+     "sections": [
+      "Quand le ruban de travail disparaît : machines en espace $O(1)$, têtes à deux sens sur l'entrée, automates finis (définitions ; cadre CONNU, Hopcroft et Ullman 1979).",
+      "Automates finis et expressions régulières : théorème de Kleene (énoncé dû à Kleene 1956) ; PROUVÉ dans ce tome par les deux constructions, dont l'élimination d'états.",
+      "Espace constant égale régulier : preuve complète pour l'entrée à sens unique (PROUVÉ) ; cas à double sens : CONNU (Hopcroft et Ullman 1979), idée de la construction par tables de comportement.",
+      "Le coût de la traduction mémoire vers états : majoration exponentielle du nombre d'états (PROUVÉ) et familles d'exemples où la croissance a lieu (PROUVÉ pour les familles exhibées).",
+      "Pompage et non-régularité : $\\{0^n1^n\\}$ et $\\{ww\\}$ ne sont pas réguliers (PROUVÉ) ; corollaire RÉFUTÉ : « un espace constant suffit à tout calculer ».",
+      "Espace sous-logarithmique : en dessous de $\\log\\log n$, on retombe sur du régulier — CONNU, admis sans preuve, avec idée de l'argument par séquences de croisement (cadre de Hopcroft et Ullman 1979) ; pourquoi $L$ est le premier niveau intéressant."
+     ],
+     "exercices": [
+      "12.1 Démontrer le lemme de pompage, puis la non-régularité de $\\{0^n1^n\\}$ et de $\\{ww\\}$ (PROUVÉ).",
+      "12.2 Convertir un automate en expression régulière par élimination d'états et prouver la correction de la construction (PROUVÉ).",
+      "12.3 Transformer une machine en espace constant à entrée à sens unique en automate fini et compter les états obtenus (PROUVÉ).",
+      "12.4 Construire une famille de langages où la conversion double sens vers sens unique fait croître fortement le nombre d'états : prouver la majoration générale et mesurer l'exemple (PROUVÉ, puis EXPÉRIMENTAL).",
+      "12.5 RÉFUTÉ : « un ruban de travail de taille constante augmente le pouvoir d'expression » — réfuter, puis préciser ce qui, en revanche, augmente réellement (vitesse, concision de description)."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Classes, circuits, et transfert au programme RTC",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "P, NP et la traduction d'un calcul en formule",
+     "objectif": "Démontrer la chaîne complète qui transforme un calcul borné en formule propositionnelle, avec comptage de taille, et situer exactement ce qui est prouvé et ce qui reste ouvert. Environ 14 pages.",
+     "sections": [
+      "$P$ comme « exécutable avec un budget raisonnable » : robustesse sous les traductions du tome (PROUVÉ pour les facteurs polynomiaux) et discussion critique du seuil choisi.",
+      "$NP$ : équivalence des deux définitions, machine non déterministe et certificat (PROUVÉ, via le chapitre 6) ; exemples de problèmes : satisfaisabilité, clique, coloration.",
+      "Réductions polynomiales et complétude : définitions, composition, transitivité, transport d'algorithmes (PROUVÉ).",
+      "Théorème de Cook : la satisfaisabilité est NP-complète (énoncé dû à Cook 1971) ; PROUVÉ dans ce tome pour la version tableau à un ruban : variables de configuration, clauses de fenêtre locale, correction dans les deux sens, taille $O(t^2)$ ; le passage aux autres variantes utilise les traductions prouvées des chapitres 5 et 7.",
+      "De SAT à 3-SAT et à la satisfaisabilité de circuits : réductions explicites avec coûts (PROUVÉ) ; encart : la formule est une photographie statique du calcul, et cette photographie a une taille.",
+      "Statuts : NP-complétude PROUVÉ pour la version démontrée, CONNU pour les énoncés généraux ; $P$ contre $NP$ OUVERT ; RÉFUTÉ : « NP-complet donc infaisable en pratique », confusion entre pire cas et usage."
+     ],
+     "exercices": [
+      "13.1 Écrire les clauses de fenêtre locale et prouver qu'une assignation satisfaisante correspond exactement à un calcul acceptant (PROUVÉ).",
+      "13.2 Compter variables et clauses en fonction du temps $t$ et vérifier la borne $O(t^2)$ (PROUVÉ).",
+      "13.3 Réduire 3-SAT au problème de la clique avec coût explicite en taille de sortie (PROUVÉ).",
+      "13.4 Démontrer : si la satisfaisabilité est dans $P$ alors $P=NP$ ; si $P \\ne NP$ alors aucun algorithme polynomial ne la décide (PROUVÉ).",
+      "13.5 EXPÉRIMENTAL : encoder de petits calculs en formules et comparer la taille réelle obtenue à la borne $O(t^2)$ ; commenter les constantes.",
+      "13.6 OUVERT : donner trois formulations équivalentes de $P \\ne NP$ et expliquer, pour chacune, ce qui manque pour trancher."
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "PSPACE, complétude en espace, et la carte des inclusions",
+     "objectif": "Assembler la carte des classes et de leurs inclusions, en distinguant rigoureusement les maillons démontrés, les complétudes admises et les séparations ouvertes. Environ 12 pages.",
+     "sections": [
+      "$PSPACE$ : définition, robustesse par Savitch (PROUVÉ), exemples de problèmes : jeux bornés à deux joueurs, formules booléennes quantifiées.",
+      "Complétude pour PSPACE des formules quantifiées : CONNU (cadre de Papadimitriou 1994 ; Arora et Barak 2009), idée de preuve par encodage de l'alternance et de l'accessibilité bornée ; étapes non démontrées signalées.",
+      "Accessibilité et espace logarithmique non déterministe : CONNU (Arora et Barak 2009), idée de preuve de la complétude du problème de chemin ; lien avec le graphe des configurations du chapitre 3.",
+      "La chaîne $L \\subseteq P \\subseteq NP \\subseteq PSPACE \\subseteq EXP$ : preuve complète de chaque maillon (PROUVÉ, en s'appuyant sur les chapitres 3, 6, 10 et 11).",
+      "Tableau des séparations : PROUVÉ pour $L \\subsetneq PSPACE$ et $P \\subsetneq EXP$ ; OUVERT pour $P$ contre $NP$, $NP$ contre $PSPACE$, $L$ contre $NL$, $P$ contre $PSPACE$ ; au moins une inclusion de la chaîne est stricte, sans localisation possible.",
+      "Encart RTC : les classes sont des budgets ; une traduction est intéressante si elle fait changer de budget ; la carte des inclusions est exactement la carte des traductions connues."
+     ],
+     "exercices": [
+      "14.1 Démontrer chaque maillon de la chaîne d'inclusions en citant le lemme utilisé et son statut (PROUVÉ).",
+      "14.2 Déduire des hiérarchies qu'au moins une inclusion de la chaîne est stricte, sans pouvoir la localiser (PROUVÉ).",
+      "14.3 Montrer qu'un jeu borné à deux joueurs se décide en espace polynomial par récursion sur l'arbre des coups (PROUVÉ).",
+      "14.4 Esquisser la réduction de l'accessibilité bornée aux formules quantifiées et identifier précisément l'étape laissée au statut CONNU.",
+      "14.5 OUVERT : rédiger une fiche d'état des lieux d'une séparation au choix, avec ce qui est prouvé, ce qui est conjecturé, et ce qu'il faudrait démontrer."
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Des machines aux circuits : taille $O(t \\log t)$, profondeur, largeur, partage",
+     "objectif": "Étudier la traduction la plus révélatrice pour RTC : elle conserve la fonction, compresse la taille, mais change la nature des ressources — le partage devient gratuit, l'adaptativité disparaît. Environ 14 pages.",
+     "sections": [
+      "Circuits booléens : portes, taille, profondeur, largeur, fan-out ; familles non uniformes et notion d'uniformité (définitions ; cadre CONNU, Pippenger et Fischer 1979 ; Arora et Barak 2009).",
+      "Simulation par circuits : CONNU (Pippenger et Fischer 1979) — un calcul de temps $t$ se traduit par un circuit de taille $O(t \\log t)$ ; idée de preuve : obliviosité du chapitre 7, puis un gadget local par pas et par cellule active ; étapes non démontrées signalées.",
+      "Version démontrée : circuit de taille $O(t^2)$ obtenu directement du tableau de configurations (PROUVÉ) ; comparaison des deux tailles et de ce que le facteur logarithmique masque.",
+      "Corollaire $P \\subseteq P/poly$ (PROUVÉ modulo l'énoncé CONNU de simulation) ; non-uniformité : le circuit connaît la longueur de l'entrée, la machine ne la connaît pas.",
+      "Ce que la traduction gagne et perd : partage gratuit par fan-out contre copie payante sur ruban ; profondeur de l'ordre de $t$ ; largeur liée à l'espace ; précision comme nombre de bits par cellule ; perte d'adaptativité.",
+      "Bornes inférieures de taille pour $NP$ : OUVERT ; pourquoi les outils du tome (comptage, diagonalisation) n'y suffisent pas ; prudence explicite sur toute annonce de percée."
+     ],
+     "exercices": [
+      "15.1 Construire le gadget simulant un pas de machine à partir de l'obliviosité et compter les portes dans la version $O(t^2)$ (PROUVÉ).",
+      "15.2 Démontrer $P \\subseteq P/poly$ en explicitant l'hypothèse CONNU utilisée et le rôle de l'uniformité (PROUVÉ modulo cet énoncé).",
+      "15.3 Exhiber un calcul pour lequel le circuit issu de la traduction a une profondeur proportionnelle au temps ; discuter ce que « paralléliser » signifierait (PROUVÉ pour l'exemple, OUVERT en général).",
+      "15.4 Comparer, sur la copie d'un bloc, le coût du partage en circuit et le coût de la copie sur ruban ; démontrer les deux bornes (PROUVÉ).",
+      "15.5 EXPÉRIMENTAL : générer les circuits de petites machines, compter portes et profondeur, comparer aux bornes $O(t^2)$ et $O(t \\log t)$.",
+      "15.6 OUVERT : expliquer pourquoi une borne inférieure de taille pour $NP$ échappe aux techniques du tome, en identifiant l'obstacle propre à chacune."
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Transfert vers le programme RTC",
+     "objectif": "Convertir le contenu du tome en instrument de recherche sur les traductions à ressources : registre des traductions et de leurs coûts, lois candidates étiquetées, questions ouvertes prioritaires, méthode exportable. Environ 12 pages.",
+     "sections": [
+      "Bilan : le registre complet des traductions du tome — source, cible, invariant, temps, espace, taille de description, profondeur, largeur, précision, partage, statut de l'énoncé, statut de l'optimalité ; une ligne par traduction démontrée ou admise.",
+      "Ressources conservées, ressources perdues : la fonction se conserve toujours ; le temps se conserve à un facteur logarithmique près entre rubans multiples et deux rubans, mais pas jusqu'à un ruban ; l'espace se conserve à facteur constant sauf dans la déterminisation de Savitch ; le partage n'existe pas sur ruban et devient gratuit en circuit.",
+      "Trois lois candidates du programme RTC, énoncées comme CONJECTURE avec critère de réfutation : composition des surcoûts, prix de l'obliviosité, prix de l'universalité ; aucune n'est présentée comme établie.",
+      "Ce que le tome ferme et ce qu'il laisse ouvert : RÉFUTÉ de la gratuité des réductions de rubans et de l'espace constant comme mémoire universelle ; PROUVÉ des majorations explicites ; OUVERT pour l'optimalité du facteur logarithmique, $NSPACE(s)$ contre $DSPACE(s)$, $P$ contre $NP$, les bornes de circuits.",
+      "Méthode exportable : protocole de fiche de traduction, obligation de preuve complète ou d'étiquetage explicite, séparation stricte entre intuition, preuve et mesure ; check-list applicable aux tomes suivants sur d'autres modèles, sans présupposer leurs résultats.",
+      "Questions ouvertes RTC prioritaires : liste numérotée, chacune avec statut, énoncé formel, ce qui compterait comme progrès, et le risque d'annonce abusive à éviter."
+     ],
+     "exercices": [
+      "16.1 Remplir une fiche de traduction complète pour un couple non traité dans le tome, par exemple machine à deux piles vers machine de Turing : énoncer, majorer, puis prouver ou étiqueter OUVERT.",
+      "16.2 Composer deux traductions du tome et calculer le surcoût composé ; vérifier sur les cas traités si les surcoûts se multiplient ou s'additionnent (PROUVÉ).",
+      "16.3 RÉFUTÉ : « toute traduction qui préserve la fonction préserve le temps à un facteur constant près » — réfuter par le contre-exemple démontré au chapitre 7.",
+      "16.4 Formuler une conjecture RTC précise sur le prix de l'universalité, avec énoncé quantifié et critère de réfutation explicite (CONJECTURE).",
+      "16.5 EXPÉRIMENTAL : concevoir un banc de mesure des surcoûts sur un corpus de machines jouet ; protocole, données, limites de l'inférence, et interdiction de conclure à un théorème.",
+      "16.6 Rédiger en une page, pour un lecteur cultivé non spécialiste, la différence entre prouvé dans ce livre, connu dans la littérature et ouvert, en n'utilisant que les références de la bibliographie du tome."
+     ]
+    }
+   ]
+  }
+ ]
+}

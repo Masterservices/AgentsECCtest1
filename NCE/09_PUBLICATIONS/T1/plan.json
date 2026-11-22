@@ -1,0 +1,415 @@
+{
+ "titre": "Le Lambda-calcul",
+ "sous_titre": "De la substitution au partage : anatomie fonctionnelle du calcul et prix de chaque traduction",
+ "these": "Le lambda-calcul est la structure minimale du calcul fonctionnel : des arbres, une équivalence de nommage (alpha), une seule règle de calcul (bêta) dont tout le coût est concentré dans la substitution. Cette minimalité a un prix : le nombre de pas bêta n'est pas spontanément une mesure de temps, la taille des termes peut exploser, et le partage devient une ressource à part entière. La thèse du tome est que chaque traduction — termes vers indices positionnels, termes vers combinateurs, termes vers machines à fermetures, termes vers graphes partagés, termes vers preuves typées — conserve la puissance de calcul (Church 1936 ; Turing 1937) et la confluence (Church et Rosser 1936), mais déplace le coût entre taille, temps, mémoire, profondeur, largeur, précision et partage ; le typage, lui, échange de l'expressivité contre une garantie de terminaison (normalisation forte, CONNU). Le tome ne revendique aucun résultat nouveau : il reconstruit complètement les énoncés qu'il démontre, donne en les annonçant comme telles les idées de preuve des grands théorèmes connus, et tient un registre explicite des statuts (PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ, OUVERT). Format visé : environ 220 pages, soit 16 chapitres d'environ 12 à 14 pages (≈ 203 pages) plus liminaires, annexes de preuves et index (≈ 17 pages) ; chaque chapitre suit la trame intuition, définition, énoncé statuté, exemple, exercice.",
+ "cadre": {
+  "nom": "Les traductions à ressources et le registre des statuts",
+  "description": "RÈGLES ABSOLUES : (1) ne citer QUE les références de la liste ci-dessous, avec l'auteur et l'année indiqués ; n'en inventer aucune ; aucun DOI, aucun numéro de page, aucune citation entre guillemets attribuée à un chercheur ; (2) ne jamais présenter une intuition comme une preuve ; donner des preuves complètes pour les résultats démontrés dans le livre, et pour les grands théorèmes connus donner l'idée de la preuve en le disant ; (3) chaque affirmation porte un statut : PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ ou OUVERT ; (4) aucune annonce de découverte ; (5) formules en LaTeX entre $...$ ou $$...$$ ; (6) lecteur cultivé non spécialiste : intuition, définition, énoncé, exemple, exercice ; (7) dernier chapitre : « Transfert vers le programme RTC » (ce que ce tome apporte à l'étude des traductions à ressources : quelles ressources, quelles traductions, quelles questions ouvertes). Références autorisées (et seulement elles) : Church 1936 (An unsolvable problem of elementary number theory) ; Turing 1937 (Computability and lambda-definability) ; Church et Rosser 1936 (Some properties of conversion) ; Landin 1964 (The mechanical evaluation of expressions) ; Barendregt 1984 (The Lambda Calculus: Its Syntax and Semantics) ; Howard 1980 (The formulae-as-types notion of construction) ; Lamping 1990 (An algorithm for optimal lambda calculus reduction) ; Pierce 2002 (Types and Programming Languages) ; Krivine 2007 (A call-by-name lambda-calculus machine) ; Hindley et Seldin 2008 (Lambda-Calculus and Combinators: An Introduction) ; Accattoli et Dal Lago 2016 ((Leftmost-outermost) beta reduction is invariant, indeed)."
+ },
+ "bibliographie": [
+  {
+   "auteur": "Church",
+   "titre": "An unsolvable problem of elementary number theory",
+   "annee": "1936",
+   "idee": "Définir le calculable effectif par la lambda-définissabilité des fonctions sur les entiers, et exhiber un problème de la théorie élémentaire des nombres sans solution effective.",
+   "apport": "Acte de naissance du modèle étudié : le tome en tire la puissance de représentation (CONNU, chapitre 6) et le cadre historique de l'indécidabilité, distingué soigneusement de l'énoncé de non-définissabilité interne démontré complètement au chapitre 6."
+  },
+  {
+   "auteur": "Turing",
+   "titre": "Computability and lambda-definability",
+   "annee": "1937",
+   "idee": "Comparer les fonctions lambda-définissables aux fonctions calculables par machine et établir leur coïncidence.",
+   "apport": "Autorise à traiter le lambda-calcul comme un modèle comparable aux machines (chapitres 1, 6, 13) ; le tome souligne que cette équivalence porte sur la calculabilité et non sur les coûts, ce qui ouvre la question RTC de l'invariance des ressources."
+  },
+  {
+   "auteur": "Church et Rosser",
+   "titre": "Some properties of conversion",
+   "annee": "1936",
+   "idee": "Établir des propriétés de la conversion, dont la confluence : deux réductions issues d'un même terme peuvent être rejoignées.",
+   "apport": "Fonde l'unicité de la forme normale à alpha-équivalence près et la cohérence de l'égalité bêta ; le tome attribue le théorème à cette référence (CONNU) et en donne une reconstruction complète par réduction parallèle au chapitre 4 (PROUVÉ)."
+  },
+  {
+   "auteur": "Landin",
+   "titre": "The mechanical evaluation of expressions",
+   "annee": "1964",
+   "idee": "Évaluer mécaniquement les expressions par une machine à états (pile, environnement, code, dump) manipulant des fermetures, en correspondance avec l'évaluation applicative.",
+   "apport": "Première traduction terme vers machine du tome (chapitre 12) : elle rend explicites la mémoire et le travail administratif, et fixe un contrat de précision (appel par valeur) ; utilisée comme point de comparaison avec la machine par nom."
+  },
+  {
+   "auteur": "Barendregt",
+   "titre": "The Lambda Calculus: Its Syntax and Semantics",
+   "annee": "1984",
+   "idee": "Traité de référence de la syntaxe et de la sémantique : substitution, conversion, réduction, stratégies, formes normales de tête, théorie des modèles.",
+   "apport": "Socle technique du tome (chapitres 2 à 6, 10) : conventions de variables, lemme de substitution, standardisation et théorème de normalisation gauche y sont puisés comme énoncés CONNU, présentés avec idée de preuve et sans reconstruction intégrale."
+  },
+  {
+   "auteur": "Howard",
+   "titre": "The formulae-as-types notion of construction",
+   "annee": "1980",
+   "idee": "Lire les formules comme des types et les constructions comme des termes : la déduction naturelle intuitionniste correspond au calcul typé, et l'élimination des détours à la réduction.",
+   "apport": "Cœur du chapitre 11 : le tome démontre complètement la bijection dérivations / jugements de typage pour le fragment implicatif (PROUVÉ) et statue CONNU le transport de la normalisation, en signalant ce que la correspondance ne transporte pas (coût, ordre, partage)."
+  },
+  {
+   "auteur": "Lamping",
+   "titre": "An algorithm for optimal lambda calculus reduction",
+   "annee": "1990",
+   "idee": "Réduire de façon optimale en partageant les familles de redexes dans des graphes munis de nœuds de partage et d'information d'indexation.",
+   "apport": "Chapitre 14 : l'optimalité est traitée comme énoncé CONNU avec idée de preuve ; le tome démontre la correction d'un système de graphes plus simple (PROUVÉ) et mesure le coût du bookkeeping (EXPÉRIMENTAL), en distinguant explicitement optimalité et efficacité."
+  },
+  {
+   "auteur": "Pierce",
+   "titre": "Types and Programming Languages",
+   "annee": "2002",
+   "idee": "Exposition systématique des types et des langages : lambda-calcul non typé, représentations sans noms, lambda-calcul simplement typé, préservation, progrès, normalisation.",
+   "apport": "Gabarit pédagogique des chapitres 2, 9 et 10 : le tome suit ce style pour les preuves complètes d'unicité du type, de préservation et de progrès, et pour présenter comme idée annoncée la normalisation forte ; la représentation sans noms sert de première traduction instrumentée."
+  },
+  {
+   "auteur": "Krivine",
+   "titre": "A call-by-name lambda-calculus machine",
+   "annee": "2007",
+   "idee": "Machine d'appel par nom à fermetures et pile, avec un très petit nombre de transitions, réalisant la réduction de tête faible.",
+   "apport": "Chapitre 12 : invariant et simulation démontrés complètement (PROUVÉ), avec comptabilité explicite transitions / pas / taille ; sert de base aux discussions de coût du chapitre 13 et à la notion de précision du résultat."
+  },
+  {
+   "auteur": "Hindley et Seldin",
+   "titre": "Lambda-Calculus and Combinators: An Introduction",
+   "annee": "2008",
+   "idee": "Introduction conjointe au lambda-calcul et à la logique combinatoire : syntaxe, réduction, bases combinatoires, abstraction, typage.",
+   "apport": "Chapitre 8 : correction des traductions en combinateurs et algorithmes d'abstraction, avec preuves complètes de correction et bornes de taille pour les algorithmes présentés ; référence de cadrage pour les notions de base et de complétude combinatoire."
+  },
+  {
+   "auteur": "Accattoli et Dal Lago",
+   "titre": "(Leftmost-outermost) beta reduction is invariant, indeed",
+   "annee": "2016",
+   "idee": "Montrer que le nombre de pas bêta de la stratégie gauche-extérieur est un modèle de coût invariant, en dépit de l'explosion de taille.",
+   "apport": "Chapitre 13 : énoncé CONNU, avec idée de preuve (substitution linéaire, partage utile, machines à environnements) et sans reconstruction intégrale ; légitime le comptage des pas comme ressource temps dans le programme RTC, et délimite ce que l'invariance ne dit pas (mémoire, profondeur, largeur)."
+  }
+ ],
+ "parties": [
+  {
+   "titre": "Partie I — Le noyau : arbres, noms, substitution, confluence",
+   "chapitres": [
+    {
+     "numero": 1,
+     "titre": "Pourquoi un calcul de fonctions pures",
+     "objectif": "Installer l'intuition et le vocabulaire du tome, poser le pari de Church et la distinction fondatrice entre puissance de calcul et coût de calcul, et rendre opérationnel le registre des statuts. Budget : environ 12 pages ; ouverture du volume (≈ 203 pages de chapitres, ≈ 17 pages de liminaires, annexes et index, soit ≈ 220 pages). Aucun résultat nouveau n'est annoncé.",
+     "sections": [
+      "Intuition : calculer, c'est remplacer un argument dans le corps d'une fonction, sans mémoire ni état",
+      "Le pari de Church 1936 : définir le calculable sans machine (CONNU) ; ce que le tome reconstruit et ce qu'il admet",
+      "Puissance contre coût : ce que Turing 1937 identifie, et ce qu'il ne compare pas (CONNU)",
+      "Le registre des statuts (PROUVÉ, CONNU, EXPÉRIMENTAL, CONJECTURE, RÉFUTÉ, OUVERT) et la trame intuition, définition, énoncé, exemple, exercice",
+      "Les sept ressources de RTC lues sur un terme : taille, temps, mémoire, profondeur, largeur, précision, partage ; conventions de notation et plan du volume"
+     ],
+     "exercices": [
+      "Écrire en français, sans formule, ce que calcule $(\\lambda f.\\lambda x. f(f\\,x))\\,(\\lambda y.y)\\,a$, puis vérifier par réduction explicite ; statut attendu : PROUVÉ.",
+      "Classer dix énoncés fournis selon le registre des statuts et justifier chaque choix ; distinguer une intuition, une idée de preuve et une preuve.",
+      "Remplir une fiche de ressources pour trois termes témoins : taille, profondeur d'arbre, nombre de redexes (largeur potentielle), variables libres.",
+      "RÉFUTÉ : réfuter par un contre-exemple l'énoncé selon lequel deux termes calculant la même fonction ont le même coût ; expliquer la conséquence pour RTC."
+     ]
+    },
+    {
+     "numero": 2,
+     "titre": "Termes, portée, alpha-équivalence",
+     "objectif": "Définir rigoureusement la syntaxe et le nommage, démontrer que l'alpha-équivalence est une congruence, et instrumenter une première traduction (termes nommés vers termes sans noms) avec sa comptabilité de taille et de temps. Budget : environ 12 pages.",
+     "sections": [
+      "Syntaxe inductive $M ::= x \\mid \\lambda x.M \\mid M\\,N$ ; arbres, sous-termes, taille $|M|$, profondeur, largeur ; induction structurelle",
+      "Variables libres et liées, portée, termes clos ; le piège des noms et la notion de fraîcheur",
+      "Alpha-équivalence : définition par renommage, preuve que c'est une relation d'équivalence compatible avec les constructeurs (PROUVÉ, preuve complète)",
+      "Convention de variables de Barendregt : ce qu'elle autorise, ce qu'elle masque, borne naïve sur le coût du renommage préalable (PROUVÉ)",
+      "Première traduction : indices positionnels sans noms (présentation suivie de Pierce 2002), décalage, substitution sans noms ; correction et coût (PROUVÉ)",
+      "Exemples fil rouge : $\\lambda x.\\lambda y.x$ contre $\\lambda x.\\lambda y.y$, et le terme $\\Omega$ qui servira de témoin de divergence"
+     ],
+     "exercices": [
+      "Décider si $\\lambda x.\\lambda y. x\\,y$ et $\\lambda a.\\lambda b. a\\,b$ sont alpha-équivalents, et si $\\lambda x.\\lambda x.x$ et $\\lambda y.\\lambda x.x$ le sont ; preuve ou contre-exemple.",
+      "Démontrer que l'ensemble des variables libres est bien défini sur les classes d'alpha-équivalence (preuve complète par induction).",
+      "Traduire $\\lambda x.\\lambda y. x\\,(y\\,x)$ en indices positionnels, effectuer une substitution, compter les décalages, comparer au coût de la version nommée.",
+      "Construire une famille de termes où le renommage préalable augmente sensiblement la taille ; établir une borne supérieure (PROUVÉ) et la confronter à des mesures (EXPÉRIMENTAL)."
+     ]
+    },
+    {
+     "numero": 3,
+     "titre": "La substitution : définition honnête et coût réel",
+     "objectif": "Donner la définition sans capture, démontrer complètement le lemme de substitution et les bornes de taille, puis montrer que le report de la substitution (environnements, fermetures) est déjà une traduction qui déplace le coût. Budget : environ 13 pages.",
+     "sections": [
+      "Intuition et contre-exemple de capture : le calcul fautif de $(\\lambda y.x)[x := y]$",
+      "Définition récursive de $M[x := N]$ avec renommage ; totalité et unicité à alpha-équivalence près (PROUVÉ, preuve complète)",
+      "Lemme de substitution : si $y \\notin FV(N)$ et $x \\neq y$, alors $M[x := N][y := L] \\equiv_\\alpha M[y := L][x := N[y := L]]$ (PROUVÉ, preuve complète par induction, tous les cas)",
+      "Comptabilité : $|M[x := N]| \\le |M| + k\\,|N|$ où $k$ est le nombre d'occurrences libres de $x$ ; duplication et croissance (PROUVÉ, avec cas d'égalité)",
+      "Substitution immédiate ou reportée : substitution explicite, environnements, fermetures (CONNU, idée) ; comparaison du travail effectué sur arbre, sur graphe et sur machine"
+     ],
+     "exercices": [
+      "Calculer $(\\lambda y.x)[x := y]$ en respectant la définition sans capture, puis exhiber le résultat faux produit par une substitution naïve ; identifier la variable capturée.",
+      "Rédiger intégralement le cas $M = \\lambda z.P$ du lemme de substitution, en explicitant l'hypothèse de fraîcheur et l'usage de la convention de variables.",
+      "Démontrer la borne $|M[x := N]| \\le |M| + k\\,|N|$ et exhiber une famille atteignant l'égalité ; en déduire un terme dont un pas de bêta double la taille.",
+      "Comparer, sur un terme témoin, le nombre d'opérations d'une substitution immédiate et d'une substitution reportée en environnement ; protocole et table de mesures (EXPÉRIMENTAL)."
+     ]
+    },
+    {
+     "numero": 4,
+     "titre": "Bêta-réduction et confluence : le théorème de Church-Rosser",
+     "objectif": "Définir la réduction et l'égalité bêta, puis reconstruire complètement la confluence par réduction parallèle, en attribuant le théorème à Church et Rosser 1936 ; délimiter ce que la confluence garantit et ce qu'elle ne garantit pas. Budget : environ 13 pages.",
+     "sections": [
+      "Redex, contextes, réduction en un pas $\\to_\\beta$, clôture réflexive et transitive $\\twoheadrightarrow_\\beta$, égalité $=_\\beta$ ; exemples de calculs",
+      "Réduction parallèle $\\Rightarrow$ : définition inductive et propriété du diamant (PROUVÉ, preuve complète cas par cas)",
+      "Du diamant à la confluence : lemme de bande, inclusions entre $\\Rightarrow$ et $\\twoheadrightarrow_\\beta$, confluence de $\\twoheadrightarrow_\\beta$ (PROUVÉ dans ce tome ; théorème CONNU, Church et Rosser 1936)",
+      "Corollaires démontrés : unicité de la forme normale à alpha près, cohérence, $\\lambda x.\\lambda y.x \\neq_\\beta \\lambda x.\\lambda y.y$ (PROUVÉ)",
+      "Ce que la confluence ne dit pas : existence d'une forme normale, coût des chemins, ordre des pas ; frontière entre PROUVÉ et OUVERT",
+      "Exemple séparateur : un terme possédant un chemin qui termine et un chemin qui diverge"
+     ],
+     "exercices": [
+      "Réduire $(\\lambda x.x\\,x)(\\lambda y.y)$ et $(\\lambda x.\\lambda y.x)\\,a\\,\\Omega$ par deux ordres différents ; dire précisément ce que la confluence garantit ici.",
+      "Vérifier la propriété du diamant pour la réduction parallèle en traitant tous les cas de la définition (preuve complète attendue).",
+      "Déduire de la confluence que deux formes normales distinctes ne sont pas bêta-égales, puis en tirer la non-égalité des booléens de Church.",
+      "RÉFUTÉ : réfuter l'énoncé selon lequel la confluence implique l'existence d'une forme normale ; construire un contre-exemple et nommer l'erreur de raisonnement.",
+      "Montrer que la réduction parallèle peut faire en un pas ce que $\\twoheadrightarrow_\\beta$ fait en plusieurs, et borner le nombre de pas bêta simulés (PROUVÉ)."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie II — Stratégies, données, récursion : le calcul sans types",
+   "chapitres": [
+    {
+     "numero": 5,
+     "titre": "Stratégies d'évaluation : choisir l'ordre des redexes",
+     "objectif": "Distinguer les stratégies comme contrats de précision et de coût, démontrer complètement deux énoncés modestes (déterminisme de la tête faible, séparation des ordres) et présenter comme idées annoncées les grands théorèmes de standardisation et de normalisation gauche. Budget : environ 12 pages.",
+     "sections": [
+      "Redex de tête, réduction de tête faible, ordre normal (gauche-extérieur), ordre applicatif (gauche-intérieur) : définitions et exemples",
+      "Appel par nom, appel par valeur, appel par nécessité : trois contrats de précision du résultat (tête faible, valeur, forme normale)",
+      "Standardisation et théorème de normalisation gauche : énoncés CONNU (Barendregt 1984 ; Hindley et Seldin 2008), idée de preuve explicitement annoncée comme telle",
+      "Deux énoncés reconstruits : la réduction de tête faible est déterministe ; l'ordre applicatif peut diverger là où l'ordre normal termine (PROUVÉ ; d'où RÉFUTÉ pour l'énoncé inverse)",
+      "Coût comparé des stratégies : nombre de pas, taille maximale atteinte, mémoire (EXPÉRIMENTAL) ; effet de la divergence sur le résultat observable"
+     ],
+     "exercices": [
+      "Donner un terme où l'ordre applicatif diverge et l'ordre normal termine, et démontrer les deux affirmations (PROUVÉ).",
+      "Démontrer que la réduction de tête faible est déterministe, puis exhiber un terme où elle s'arrête sur un terme contenant encore des redexes.",
+      "Implémenter les trois stratégies dans un petit interpréteur et mesurer pas, taille maximale et mémoire sur cinq familles de termes ; table et protocole (EXPÉRIMENTAL).",
+      "Résumer en dix lignes l'idée de preuve du théorème de normalisation gauche, en signalant explicitement qu'il s'agit d'une idée et non d'une preuve (CONNU)."
+     ]
+    },
+    {
+     "numero": 6,
+     "titre": "Normalisation, divergence, limites",
+     "objectif": "Séparer normalisation faible, forte et absence de forme normale ; construire et démontrer une famille d'explosion de taille ; démontrer complètement un énoncé interne de non-définissabilité, puis situer l'indécidabilité historique et la puissance de représentation comme CONNU. Budget : environ 13 pages.",
+     "sections": [
+      "Formes normales, formes normales de tête, termes sans forme normale ; $\\Omega = (\\lambda x.x\\,x)(\\lambda x.x\\,x)$ diverge (PROUVÉ, preuve complète)",
+      "Normalisation faible, normalisation forte, exemples séparateurs ; ce que chaque propriété autorise comme raisonnement (PROUVÉ)",
+      "Explosion de taille : famille explicite $t_n$ de taille $O(n)$, se réduisant en $O(n)$ pas gauche-extérieur vers une forme normale de taille $2^{\\Theta(n)}$ (PROUVÉ, construction et bornes complètes)",
+      "Non-définissabilité interne : aucun terme clos ne décide l'existence d'une forme normale ; preuve complète par diagonalisation à partir d'un théorème de point fixe (PROUVÉ) ; cadre historique de l'indécidabilité (CONNU, Church 1936)",
+      "Puissance de représentation : fonctions partielles calculables et lambda-définissabilité (CONNU, Church 1936 ; Turing 1937), idée de preuve annoncée",
+      "Ressource temps infinie : que mesure-t-on d'une divergence ? Information partielle, observation de tête, statut OUVERT des mesures de divergence dans le tome"
+     ],
+     "exercices": [
+      "Démontrer que $\\Omega$ n'a pas de forme normale, puis exhiber un terme faiblement normalisant mais non fortement normalisant (preuves complètes).",
+      "Construire la famille d'explosion de taille, démontrer la borne $2^{\\Theta(n)}$, puis vérifier numériquement la croissance pour $n \\le 12$ (PROUVÉ et EXPÉRIMENTAL).",
+      "Rédiger la preuve complète qu'aucun terme clos ne décide l'existence d'une forme normale, en utilisant un point fixe et la clôture de la propriété par $=_\\beta$.",
+      "Expliquer pourquoi le passage de la non-définissabilité interne à l'indécidabilité au sens des fonctions calculables requiert Church 1936 et Turing 1937 (CONNU) ; identifier exactement l'étape non reconstruite.",
+      "RÉFUTÉ : réfuter l'énoncé selon lequel un pas de bêta fait toujours décroître la taille du terme ; donner deux contre-exemples de nature différente."
+     ]
+    },
+    {
+     "numero": 7,
+     "titre": "Encodages de Church : données et programmes dans le même univers",
+     "objectif": "Montrer comment données et contrôle s'encodent dans les seuls termes, démontrer la correction des encodages usuels et chiffrer leur coût : un encodage conserve le calcul et peut détruire la structure et l'efficacité. Budget : environ 13 pages.",
+     "sections": [
+      "Booléens, paires, sommes : $\\mathrm{true} = \\lambda x.\\lambda y.x$, $\\mathrm{pair} = \\lambda a.\\lambda b.\\lambda f. f\\,a\\,b$ ; correction des destructeurs (PROUVÉ)",
+      "Numéraux $\\overline{n} = \\lambda f.\\lambda x. f^n x$ ; addition, multiplication, exponentiation : preuves par réduction explicite et comptage des pas (PROUVÉ)",
+      "Prédécesseur, test à zéro, soustraction tronquée : construction par paires et preuve générale de correction (PROUVÉ)",
+      "Listes et arbres, itérateur, schéma de récursion primitive : énoncé et preuve de correction pour le fragment primitif-récursif (PROUVÉ)",
+      "Coût des encodages : unaire contre binaire, taille des représentations, pas par opération, mémoire ; bornes démontrées (PROUVÉ) et mesures (EXPÉRIMENTAL) ; ce qu'un encodage perd"
+     ],
+     "exercices": [
+      "Démontrer $\\mathrm{add}\\,\\overline{m}\\,\\overline{n} \\twoheadrightarrow_\\beta \\overline{m+n}$ et l'énoncé analogue pour la multiplication ; compter les pas en fonction de $m$ et $n$.",
+      "Vérifier la correction du prédécesseur sur $\\overline{0}$ et $\\overline{3}$, puis rédiger la preuve générale (PROUVÉ).",
+      "Encoder les listes, définir l'itérateur, et démontrer la correction du repli sur une liste de longueur 3.",
+      "Comparer le coût de l'addition unaire de Church et d'une addition sur un encodage binaire ; conclure sur la ressource perdue (PROUVÉ pour les bornes, EXPÉRIMENTAL pour les mesures).",
+      "Montrer que l'addition et la multiplication de Church sont typables avec $\\sigma = (o \\to o) \\to o \\to o$ (PROUVÉ) ; laisser explicitement OUVERTE dans ce tome la caractérisation générale des opérations définissables sous typage simple."
+     ],
+     "objectif_complement": ""
+    },
+    {
+     "numero": 8,
+     "titre": "Combinateurs et récursion : S, K, Y",
+     "objectif": "Démontrer le théorème de point fixe et la correction de l'abstraction combinatoire, puis chiffrer le prix de la suppression des variables : le renommage disparaît, la taille et la profondeur paient. Budget : environ 12 pages.",
+     "sections": [
+      "Théorème de point fixe : pour tout $F$ il existe $X$ avec $X =_\\beta F\\,X$ ; $Y = \\lambda f.(\\lambda x.f(x\\,x))(\\lambda x.f(x\\,x))$ et $Y\\,f \\twoheadrightarrow_\\beta f\\,(Y\\,f)$ (PROUVÉ, preuves complètes)",
+      "Récursion sans nom : factorielle, itération, récursion mutuelle ; déroulement contrôlé par la stratégie (PROUVÉ sur les exemples)",
+      "Variantes de point fixe : une variante $Z$ telle que $Z\\,f$ se réduit en $f\\,(\\lambda v. Z\\,f\\,v)$, utilisable en appel par valeur (PROUVÉ)",
+      "Base $S, K$ et abstraction $\\lambda^* x.M$ : correction $(\\lambda^* x.M)\\,N \\to_\\beta M[x := N]$ (PROUVÉ, preuve complète par induction ; cadrage Hindley et Seldin 2008)",
+      "Prix de la traduction : croissance multiplicative par variable liée avec $S, K$ seuls et famille explosive, variante quadratique avec les auxiliaires $B, C$ (PROUVÉ : bornes des algorithmes présentés)",
+      "Lecture RTC : supprimer les variables supprime le coût administratif du nommage et déplace la facture vers taille, profondeur et lisibilité"
+     ],
+     "exercices": [
+      "Vérifier $Y\\,f \\twoheadrightarrow_\\beta f\\,(Y\\,f)$, en déduire un terme calculant la factorielle, et le réduire sur $\\overline{2}$ en ordre normal.",
+      "Démontrer le théorème de point fixe pour un terme $F$ quelconque, puis construire et vérifier la variante adaptée à l'appel par valeur (preuves complètes).",
+      "Traduire $\\lambda x.\\lambda y. x\\,y\\,x$ en $S, K$, mesurer la taille, puis comparer avec la variante utilisant $B$ et $C$ ; commenter le déplacement de coût.",
+      "Démontrer la correction de l'abstraction combinatoire par induction sur la structure du terme (tous les cas).",
+      "RÉFUTÉ : réfuter l'énoncé selon lequel supprimer les variables supprime tout coût administratif, en exhibant une famille où la traduction combinatoire explose."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie III — Types, preuves, machines : trois traductions du même calcul",
+   "chapitres": [
+    {
+     "numero": 9,
+     "titre": "Lambda-calcul simplement typé",
+     "objectif": "Introduire le typage simple comme filtre statique, démontrer complètement unicité, substitution typée, préservation et progrès, et démontrer élémentairement la non-typabilité de l'auto-application et de Y. Budget : environ 13 pages.",
+     "sections": [
+      "Types $\\sigma ::= o \\mid \\sigma \\to \\tau$, contextes, jugement $\\Gamma \\vdash M : \\sigma$ ; règles et lecture intuitive (présentation suivie de Pierce 2002)",
+      "Unicité du type, affaiblissement, échange, lemme de substitution typée (PROUVÉ, preuves complètes)",
+      "Préservation et progrès : énoncés et preuves complètes (PROUVÉ) ; ce qu'ils garantissent et ce qu'ils ne garantissent pas",
+      "Non-typabilité de $\\lambda x.x\\,x$, de $\\Omega$ et de $Y$ : preuve élémentaire par contrainte $\\sigma = \\sigma \\to \\tau$ (PROUVÉ), indépendante de la normalisation",
+      "Ce que le typage retire et ce qu'il donne : expressivité et précision comme ressources ; énoncés généraux marqués CONNU, exemples démontrés"
+     ],
+     "exercices": [
+      "Typer $\\lambda f.\\lambda x. f(f\\,x)$ et démontrer l'unicité du type à renomination des variables de type près.",
+      "Rédiger la preuve complète de préservation pour un pas de bêta en tête, en utilisant le lemme de substitution typée.",
+      "Démontrer que $\\lambda x.x\\,x$ n'est pas typable dans le système simple, puis en déduire la non-typabilité de $Y$ (preuve complète).",
+      "Exhiber un terme non typable dont la forme normale est typable ; conclure sur ce que le typage exclut et sur la différence entre typabilité et normalisation."
+     ]
+    },
+    {
+     "numero": 10,
+     "titre": "Normalisation forte : la terminaison comme ressource achetée",
+     "objectif": "Énoncer la normalisation forte du calcul simplement typé comme CONNU avec idée de preuve détaillée mais annoncée, démontrer complètement un fragment linéaire, et discuter le prix payé en expressivité et en longueur de réduction. Budget : environ 13 pages.",
+     "sections": [
+      "Énoncé : tout terme simplement typable est fortement normalisant (CONNU) ; architecture de la preuve par ensembles de termes réductibles, présentée comme idée de preuve",
+      "Anatomie de l'argument : propriétés de saturation, passage à la flèche, rôle du typage ; pourquoi la même mesure échoue sans types (discussion statutée)",
+      "Fragment démontré : termes linéaires (chaque lieur au plus une occurrence), décroissance stricte de la taille, borne $|M|/2$ sur le nombre de pas (PROUVÉ, preuve complète)",
+      "Longueur des réductions typables : existence de bornes très grandes, énoncé admis sans reconstruction dans ce tome (CONNU) ; mesures sur petits termes (EXPÉRIMENTAL)",
+      "Bilan RTC : la terminaison est une ressource de preuve autant que de machine ; échange expressivité contre garantie, et coût de la garantie"
+     ],
+     "exercices": [
+      "Démontrer la terminaison du fragment linéaire par décroissance de la taille et établir la borne sur le nombre de pas (preuve complète).",
+      "Expliquer précisément pourquoi la mesure de taille échoue pour $\\Omega$ et pour la duplication, et identifier l'étape de l'argument de normalisation forte qui utilise le typage.",
+      "Résumer l'architecture de la preuve par ensembles de termes réductibles (CONNU, idée annoncée) : quelles propriétés, quel passage à la flèche, quel point délicat reste non reconstruit.",
+      "Mesurer la longueur maximale de réduction de petits termes typables en fonction de leur taille et de leur type ; table, protocole, et discussion du caractère très rapide de la croissance admis comme CONNU."
+     ]
+    },
+    {
+     "numero": 11,
+     "titre": "Curry-Howard : réduire, c'est simplifier une preuve",
+     "objectif": "Établir complètement la correspondance entre déduction naturelle intuitionniste implicatives et calcul simplement typé, montrer la bêta-réduction comme élimination de détour, et délimiter ce que la traduction logique ne transporte pas. Budget : environ 12 pages.",
+     "sections": [
+      "Intuition : une fonction est une preuve d'implication, une application un modus ponens, une variable une hypothèse",
+      "Bijection entre dérivations naturelles et jugements de typage du fragment implicatif (PROUVÉ, deux inductions complètes ; correspondance de Curry-Howard, Howard 1980)",
+      "Bêta-réduction et élimination des détours : correspondance pas à pas sur un exemple, puis énoncé pour le fragment implicatif (PROUVÉ)",
+      "Extension aux produits, sommes et type vide : règles, typage, préservation et progrès pour les constructeurs ajoutés (PROUVÉ)",
+      "Normalisation des preuves (CONNU, idée) ; ce que la correspondance ne transporte pas : coût, ordre d'évaluation, partage ; lecture RTC de la traduction preuve / terme"
+     ],
+     "exercices": [
+      "Traduire une dérivation de $(A \\to B) \\to (A \\to B)$ en terme typé, réduire, et identifier le détour éliminé.",
+      "Démontrer la bijection dérivations / jugements de typage pour le fragment implicatif dans les deux sens (preuves complètes).",
+      "Étendre la correspondance aux produits et vérifier préservation et progrès pour les nouvelles règles (PROUVÉ).",
+      "RÉFUTÉ : réfuter l'énoncé selon lequel deux preuves de la même proposition ont le même coût de normalisation ; construire un contre-exemple dans le fragment implicatif.",
+      "Rédiger une fiche de traduction preuve / terme : correction (PROUVÉ), ressources conservées, ressources perdues, questions OUVERTES."
+     ]
+    },
+    {
+     "numero": 12,
+     "titre": "Machines abstraites : SECD et Krivine",
+     "objectif": "Faire voir la traduction terme vers machine comme un changement de représentation qui rend le coût mesurable ; démontrer complètement l'invariant et la simulation pour la machine par nom, et donner idée de preuve plus fragment démontré pour la machine par valeur. Budget : environ 14 pages.",
+     "sections": [
+      "Pourquoi une machine : substitution coûteuse, environnements, fermetures, piles ; le calcul devient transition entre états de taille bornée",
+      "SECD (Landin 1964) : quadruplet d'états, instructions, appel par valeur ; exemple entièrement déroulé et invariant informel",
+      "Machine par nom (Krivine 2007) : fermetures, pile d'arguments, trois transitions ; réalisation de la réduction de tête faible",
+      "Correction : invariant de la machine par nom et simulation de la réduction de tête faible (PROUVÉ, preuve complète) ; SECD : idée de preuve (CONNU) et simulation démontrée pour un fragment sans clôtures récursives (PROUVÉ)",
+      "Comptabilité : transitions contre pas de tête, taille des états, mémoire maximale ; bornes explicites pour la machine présentée (PROUVÉ) et mesures (EXPÉRIMENTAL)",
+      "Lecture RTC : la traduction conserve le résultat observable, rend le temps et la mémoire visibles, et introduit un partage implicite des environnements"
+     ],
+     "exercices": [
+      "Dérouler la machine par nom sur $(\\lambda x.\\lambda y.x)\\,a\\,b$ : écrire tous les états et identifier la fermeture produite.",
+      "Énoncer l'invariant de la machine par nom et démontrer la simulation d'un pas de réduction de tête faible (preuve complète).",
+      "Dérouler la SECD sur un terme où l'appel par valeur et l'appel par nom diffèrent ; comparer piles, environnements et mémoire.",
+      "Établir une borne du nombre de transitions en fonction du nombre de pas de tête et des tailles visitées (PROUVÉ), puis la confronter à des mesures (EXPÉRIMENTAL).",
+      "Montrer que la machine par nom s'arrête sur une forme normale de tête non normale ; en déduire une perte de précision par rapport à l'ordre normal (PROUVÉ)."
+     ]
+    }
+   ]
+  },
+  {
+   "titre": "Partie IV — Coûts, partage, atlas des traductions, transfert RTC",
+   "chapitres": [
+    {
+     "numero": 13,
+     "titre": "Le coût de la réduction : du nombre de pas au temps réel",
+     "objectif": "Expliquer pourquoi compter les pas bêta n'est pas compter le temps, énoncer l'invariance de l'ordre gauche-extérieur comme CONNU avec idée de preuve, et démontrer complètement les énoncés élémentaires qui l'entourent. Budget : environ 13 pages.",
+     "sections": [
+      "Le problème : explosion de taille, duplication inutile, écart entre pas bêta et travail effectif (exemples PROUVÉ)",
+      "Modèle de coût raisonnable : définition par simulation polynomiale dans les deux sens avec un modèle machine (CONNU)",
+      "Invariance du nombre de pas gauche-extérieur (Accattoli et Dal Lago 2016) : énoncé CONNU, idée de preuve annoncée (substitution linéaire, partage utile, machines à environnements) ; aucune reconstruction intégrale",
+      "Ce que le tome démontre : bornes élémentaires, simulation d'un fragment par machine à fermetures, exemples séparant temps et mémoire, exemples où l'évaluation faible évite l'explosion (PROUVÉ)",
+      "Ce que l'invariance ne dit pas : mémoire, profondeur de la réduction, largeur (parallélisme), coût du partage ; frontière CONNU / OUVERT pour RTC"
+     ],
+     "exercices": [
+      "Reprendre la famille d'explosion de taille du chapitre 6 et comparer trois coûts : pas bêta, transitions d'une machine à évaluation faible, taille du résultat produit ; dire quelle ressource est payée par qui (calculs PROUVÉ, mesures EXPÉRIMENTAL).",
+      "Formuler la définition de modèle de coût raisonnable et expliquer pourquoi un modèle naïf combinant pas et taille finale ne se compare pas trivialement ; discussion statutée.",
+      "Résumer l'idée de preuve de l'invariance de l'ordre gauche-extérieur (Accattoli et Dal Lago 2016) en distinguant partage utile et substitution linéaire ; signaler explicitement le statut CONNU et l'absence de preuve complète ici.",
+      "Construire un exemple où le nombre de pas est petit mais la mémoire maximale grande ; conclure sur l'indépendance relative des ressources temps et mémoire (PROUVÉ sur l'exemple)."
+     ]
+    },
+    {
+     "numero": 14,
+     "titre": "Partage et réduction optimale",
+     "objectif": "Introduire les graphes partagés, démontrer la correction d'un système simple vis-à-vis de bêta, présenter l'optimalité de Lamping 1990 comme CONNU avec idée de preuve, et mesurer le coût du bookkeeping sans jamais confondre optimalité et efficacité. Budget : environ 13 pages.",
+     "sections": [
+      "Intuition : ne pas copier, pointer ; arbres contre graphes acycliques, dépliement, notion de sous-terme partagé",
+      "Réduction de graphes avec partage explicite : règles, dépliement, correction vis-à-vis de $\\twoheadrightarrow_\\beta$ pour le système présenté (PROUVÉ, preuve complète)",
+      "Familles de redexes et optimalité : énoncé de Lamping 1990 (CONNU), idée de preuve annoncée (nœuds de partage, information d'indexation, franchissement des partageurs)",
+      "Bookkeeping : nœuds auxiliaires, règles de rencontre et d'absorption, mémoire ; bornes démontrées sur les exemples du tome (PROUVÉ) et mesures systématiques (EXPÉRIMENTAL)",
+      "Optimalité et efficacité : l'énoncé selon lequel l'optimalité au sens des familles ne fournit pas de borne raisonnable du coût total est admis sans reconstruction (CONNU) ; protocole de mesure du tome (EXPÉRIMENTAL) ; aucun résultat nouveau annoncé",
+      "Partage comme ressource RTC : gain sur la duplication, perte en localité, en lisibilité et en contrôle du coût ; questions OUVERTES"
+     ],
+     "exercices": [
+      "Représenter par un graphe acyclique un terme contenant un sous-terme dupliqué, donner les règles de réduction partagée et dérouler une réduction complète.",
+      "Démontrer la correction du système de graphes présenté vis-à-vis de la bêta-réduction par dépliement (preuve complète pour ce système).",
+      "Compter nœuds de partage, règles auxiliaires et mémoire sur trois exemples ; produire une table taille / pas / mémoire (EXPÉRIMENTAL).",
+      "Discuter en le statutant l'énoncé reliant optimalité au sens des familles et coût total : indiquer ce qui est CONNU admis, ce qui est mesuré, ce qui reste OUVERT pour RTC ; ne pas présenter l'intuition comme une preuve.",
+      "Construire un terme où le partage évite une duplication exponentielle, et un terme où il n'apporte rien ; démontrer les deux comportements (PROUVÉ)."
+     ]
+    },
+    {
+     "numero": 15,
+     "titre": "Atlas des traductions : ce qui est conservé, ce qui est perdu",
+     "objectif": "Réunir les traductions du tome en fiches comparables et tenir un tableau à double entrée ressources × traductions, chaque case portant un statut et une justification ; démonter trois erreurs de lecture fréquentes. Budget : environ 12 pages.",
+     "sections": [
+      "Méthode : fiche de traduction (domaine, codomaine, énoncé de correction, coût, ressources conservées, ressources perdues, statut)",
+      "Traductions syntaxiques : termes nommés ↔ indices positionnels, termes ↔ combinateurs ; correction et bornes de coût (PROUVÉ), structure perdue",
+      "Traductions vers machines et vers graphes : SECD, machine par nom, graphes partagés ; correction (PROUVÉ pour les fragments démontrés, CONNU sinon) et comptabilité",
+      "Traduction logique : restriction au calcul simplement typé et correspondance preuve / terme ; gain de terminaison et de précision statique, perte d'expressivité (PROUVÉ sur les exemples, CONNU pour les énoncés généraux)",
+      "Tableau ressources × traductions et trois erreurs à éviter : confondre puissance et coût (RÉFUTÉ), confondre optimalité et rapidité, confondre intuition et preuve"
+     ],
+     "exercices": [
+      "Remplir la fiche de traduction termes nommés vers indices positionnels : correction, coût en temps, coût en taille, ressources conservées et perdues, statuts.",
+      "Composer deux traductions (termes vers combinateurs, puis évaluation par machine) et calculer la borne de coût composée ; identifier l'étape où la borne se dégrade.",
+      "Construire un terme qui sépare les trois précisions : forme normale de tête, valeur, forme normale complète ; démontrer les séparations (PROUVÉ).",
+      "RÉFUTÉ : réfuter l'énoncé selon lequel l'équivalence de puissance de calcul implique l'équivalence de coût, avec deux contre-exemples issus de chapitres différents.",
+      "Rédiger une ligne du tableau ressources × traductions en distinguant soigneusement PROUVÉ, CONNU et EXPÉRIMENTAL, et en justifiant chaque case."
+     ]
+    },
+    {
+     "numero": 16,
+     "titre": "Transfert vers le programme RTC",
+     "objectif": "Expliciter ce que ce tome exporte vers le programme de recherche sur les traductions à ressources : objets et preuves réutilisables, définitions opérationnelles des sept ressources, traductions à instrumenter, questions ouvertes et protocoles ; aucune annonce de découverte. Budget : environ 13 pages.",
+     "sections": [
+      "Bilan statuté du tome : catalogue des objets, des traductions et des preuves complètes exportables ; liste des énoncés admis (CONNU) et de leurs idées de preuve",
+      "Ressources, définitions opérationnelles : taille des termes et des états, temps en pas bêta et en transitions, mémoire maximale, profondeur de la chaîne de dépendances, largeur (redexes indépendants), précision du résultat, taux de partage",
+      "Traductions candidates pour les tomes suivants : termes ↔ machines, termes ↔ combinateurs, termes ↔ graphes, non typé → typé, preuves ↔ programmes ; interfaces à instrumenter et invariants à documenter",
+      "Questions OUVERTES pour RTC : coût mémoire invariant, prix du bookkeeping de partage, profondeur comme ressource de parallélisme, prix de la précision (tête faible contre forme normale), transport des bornes par composition de traductions",
+      "Protocole expérimental : familles de termes témoins (explosion de taille, duplication, divergence, encodages unaires), métriques, instruments, reproductibilité ; critères de passage d'EXPÉRIMENTAL à PROUVÉ et rôle des CONJECTURES de travail",
+      "Ce que le tome ne fait pas : aucune découverte annoncée, aucune intuition donnée pour preuve, aucun emprunt hors du corpus de références ; audit final du registre des statuts"
+     ],
+     "exercices": [
+      "Écrire le protocole de mesure d'une traduction : familles témoins, métriques, instruments, critères de reproductibilité ; préciser ce qui reste EXPÉRIMENTAL et pourquoi.",
+      "Formuler une CONJECTURE de travail RTC sur le coût mémoire du partage et donner le test qui pourrait la réfuter ; aucune annonce de résultat.",
+      "Choisir une question OUVERTE du chapitre et produire un plan de preuve partiel : lemme accessible, lemme manquant, statut de chaque étape.",
+      "Rédiger la fiche de transfert du tome vers un tome consacré aux machines et aux coûts : objets exportés, preuves exportées, questions importées, références mobilisées.",
+      "Auditer le tome : vérifier que chaque énoncé porte un statut, que chaque preuve annoncée comme complète l'est réellement, que les grands théorèmes ne sont accompagnés que d'idées de preuve annoncées, et qu'aucune référence hors corpus n'est citée."
+     ]
+    }
+   ]
+  }
+ ]
+}
