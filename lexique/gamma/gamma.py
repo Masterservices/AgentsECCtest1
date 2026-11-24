@@ -164,7 +164,12 @@ def traiter_tome(tome):
     etat = json.load(open(etat_p)) if os.path.exists(etat_p) else {'bon': {}, 'meilleur': {}}
     bon = {int(k): v for k, v in etat['bon'].items()}; meilleur = {int(k): v for k, v in etat['meilleur'].items()}
     def sauver():
-        with lock: json.dump({'bon': bon, 'meilleur': meilleur}, open(etat_p, 'w'), ensure_ascii=False)
+        with lock:
+            tmp = etat_p + '.tmp'
+            with open(tmp, 'w') as fh:
+                json.dump({'bon': bon, 'meilleur': meilleur}, fh, ensure_ascii=False)
+                fh.flush(); os.fsync(fh.fileno())
+            os.replace(tmp, etat_p)  # écriture atomique : jamais de fichier tronqué
     for tour in range(TOURS):
         reste = [r for r in S if r not in bon]
         if not reste: break
