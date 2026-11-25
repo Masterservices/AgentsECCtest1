@@ -16,7 +16,9 @@ Correction des fiches « 10 000 mots » par Dialagram (modèle qwen-3.8-max-thin
 | ru-t4 | 1 000 | 973 | 27 | 169 | 2 544 774 | 4 025 541 |
 | fr-t5 | 1 000 | 954 | 46 | 196 | 2 975 489 | 4 701 550 |
 | ru-t5 | 1 000 | 939 | 61 | 205 | 2 992 358 | 5 118 925 |
-| **Total** | **10 000** | **9 538** | **462** | **1 838** | **26 124 372** | **39 625 374** |
+| fr-t6 | 1 000 | 961 | 39 | 63 | 902 336 | 1 891 975 |
+| ru-t6 | 1 000 | 902 | 98 | 288 | 4 045 830 | 7 852 689 |
+| **Total** | **12 000** | **11 401** | **599** | **2 189** | **31 072 538** | **49 370 038** |
 
 Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue par la limite de 2 h puis par un redémarrage du conteneur) n’a pas laissé de compteur ; son coût réel est donc supérieur.
 
@@ -524,3 +526,146 @@ Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue
 - 4989 — мексика́нский — aucune réponse exploitable : fiche source conservée
 - 4990 — барбекю́ — aucune réponse exploitable : fiche source conservée
 - 4991 — крити́ческий — aucune réponse exploitable : fiche source conservée
+
+### fr-t6
+
+- 5038 — le raid — aucune réponse exploitable : fiche source conservée
+- 5040 — l'avortement (m) — aucune réponse exploitable : fiche source conservée
+- 5041 — le flacon — aucune réponse exploitable : fiche source conservée
+- 5053 — stellaire — aucune réponse exploitable : fiche source conservée
+- 5054 — l'évêque (m) — aucune réponse exploitable : fiche source conservée
+- 5055 — le robinet — aucune réponse exploitable : fiche source conservée
+- 5060 — l'épice (f) — aucune réponse exploitable : fiche source conservée
+- 5069 — invoquer — exemple sans le mot : « Les fidèles invoquent la protection des saints. »
+- 5070 — la couture — aucune réponse exploitable : fiche source conservée
+- 5078 — la tablette — exemple sans le mot : « Ce médicament existe en tablettes effervescentes. »
+- 5084 — l’interprétation (f) — exemple sans le mot : « Son silence a donné lieu à plusieurs interprétations. »; exemple sans le mot : « Ces chiffres permettent plusieurs interprétations. »
+- 5091 — la chauffe — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5092 — l'instituteur (m) — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5093 — le malaise — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5094 — le compteur — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5095 — l'équation (f) — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5096 — le justicier — exemple sans le mot : « Cette avocate est une vraie justicière. »
+- 5112 — inapproprié — champ mot différent de la source
+- 5113 — huer — champ mot différent de la source
+- 5114 — ambitieux — champ mot différent de la source; exemple sans le mot : « Les chasseurs huent pour rabattre le gibier. »
+- 5115 — l'omelette (f) — aucune réponse exploitable : fiche source conservée
+- 5116 — la sainteté — aucune réponse exploitable : fiche source conservée
+- 5147 — cueillir — aucune réponse exploitable : fiche source conservée
+- 5148 — le capteur — aucune réponse exploitable : fiche source conservée
+- 5279 — la politesse — aucune réponse exploitable : fiche source conservée
+- 5346 — la consommation — exemple sans le mot : « On a payé trois consommations et on est partis. »
+- 5421 — pincer — aucune réponse exploitable : fiche source conservée
+- 5422 — insolent — aucune réponse exploitable : fiche source conservée
+- 5423 — gouvernemental — aucune réponse exploitable : fiche source conservée
+- 5424 — la ride — aucune réponse exploitable : fiche source conservée
+- 5425 — élaborer — aucune réponse exploitable : fiche source conservée
+- 5428 — l'anxiété (f) — aucune réponse exploitable : fiche source conservée
+- 5521 — la vocation — aucune réponse exploitable : fiche source conservée
+- 5523 — mâcher — aucune réponse exploitable : fiche source conservée
+- 5683 — escalader — tournure sans le mot : « il escalade »; tournure sans le mot : « je n'escalade pas »; tournure sans le mot : « tu escalades ? »; tournure sans le mot : « nous escaladons »; tournure sans le mot : « vous escaladez »; tournure sans le mot : « ils escaladent »; exemple sans le mot : « Les alpinistes ont escaladé la face nord de l'Eiger. »; exemple sans le mot : « Le chat a escaladé le mur pour fuir le chien. »; exemple sans le mot : « La dispute a rapidement escaladé en violence physique. »; champ homographes absent; registre absent ou invalide; carte invalide (recto = mot, verso = traduction); formes absentes
+- 5690 — l'atome (m) — aucune réponse exploitable : fiche source conservée
+- 5782 — la valve — aucune réponse exploitable : fiche source conservée
+- 5789 — l'anesthésie (f) — champ mot différent de la source
+- 5992 — l'hésitation (f) — aucune réponse exploitable : fiche source conservée
+
+### ru-t6
+
+- 5039 — хирурги́я — aucune réponse exploitable : fiche source conservée
+- 5040 — сосу́д — aucune réponse exploitable : fiche source conservée
+- 5041 — одобря́ть — aucune réponse exploitable : fiche source conservée
+- 5063 — спра́вка — aucune réponse exploitable : fiche source conservée
+- 5064 — соверше́нство — aucune réponse exploitable : fiche source conservée
+- 5065 — вмеша́тельство — exemple sans le mot : « Роди́тели избега́ют изли́шнего вмеша́тельства в жизнь дете́й. »; exemple sans le mot : « Без медици́нского вмеша́тельства боле́знь прогресси́рует. »
+- 5069 — порошо́к — exemple sans le mot : « Лека́рство выпуска́ется в ви́де порошка́. »
+- 5082 — ди́лер — exemple sans le mot : « Молоды́е лю́ди ча́сто попада́ют под влия́ние ди́леров. »
+- 5089 — подозри́тельно — formes absentes
+- 5091 — и́скренний — exemple sans le mot : « Я ценю́ твою́ и́скреннюю подде́ржку. »
+- 5093 — храни́тель — expression sans le mot : « храни́тель传统 »
+- 5114 — предположи́тельно — exemple sans le mot : « Ава́рия произошла́ presum? из-за́ оши́бки вчера́. »; exemple sans le mot : « Э́ти да́нные presum? ве́рны пока́. »; exemple sans le mot : « Мы presum? зна́ем отве́т на э́тот вопро́с. »
+- 5142 — нало́говый — accent tonique manquant : кодекс
+- 5151 — загрузи́ть — aucune réponse exploitable : fiche source conservée
+- 5152 — потрясти́ — aucune réponse exploitable : fiche source conservée
+- 5153 — вступа́ть — aucune réponse exploitable : fiche source conservée
+- 5154 — оригина́льный — aucune réponse exploitable : fiche source conservée
+- 5171 — учёт — champ mot différent de la source
+- 5215 — ле́звие — accent tonique manquant : бритвы
+- 5217 — цепо́чка — aucune réponse exploitable : fiche source conservée
+- 5218 — признава́ться — aucune réponse exploitable : fiche source conservée
+- 5219 — игрово́й — aucune réponse exploitable : fiche source conservée
+- 5220 — раздави́ть — aucune réponse exploitable : fiche source conservée
+- 5221 — выдвига́ться — aucune réponse exploitable : fiche source conservée
+- 5255 — одобре́ние — expression sans le mot : « знак одобре́ния »
+- 5256 — ча́ша — aucune réponse exploitable : fiche source conservée
+- 5257 — погуби́ть — aucune réponse exploitable : fiche source conservée
+- 5258 — перекры́ть — aucune réponse exploitable : fiche source conservée
+- 5299 — обижа́ть — exemple sans le mot : « Необижа́й её, она́ о́чень чу́вствительная. »
+- 5305 — цы́почка — aucune réponse exploitable : fiche source conservée
+- 5309 — спецна́з — accent tonique manquant : боец
+- 5410 — гравита́ция — aucune réponse exploitable : fiche source conservée
+- 5411 — батаре́я — aucune réponse exploitable : fiche source conservée
+- 5439 — хло́пья — aucune réponse exploitable : fiche source conservée
+- 5510 — выража́ть — tournures absentes ou hors 4–6; exemple sans le mot : « Онexpressую то́чку зре́ния я́сно. »; exemple sans le mot : « Письмо́express acknowledgement благода́рность всем помо́щникам. »; formes absentes
+- 5511 — скри́пка — aucune réponse exploitable : fiche source conservée
+- 5512 — старе́ть — aucune réponse exploitable : fiche source conservée
+- 5513 — вы́делить — expression sans le mot : « вы́делить жи́рным шри́фтом »; expression sans le mot : « вы́делить вре́мя »; carte invalide (recto = mot, verso = traduction)
+- 5518 — карте́ль — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5519 — обсле́дование — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5520 — устоя́ть — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5521 — освеще́ние — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5522 — отде́латься — tournure sans le mot : « я отде́лаюсь »; tournure sans le mot : « я не отде́лаюсь »; tournure sans le mot : « ты отде́лаешься? »; tournure sans le mot : « он отде́лался »; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5523 — круше́ние — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5524 — отбо́й — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5525 — свали́ться — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5526 — свиде́тельствовать — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5527 — за́втракать — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5528 — ска́чка — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5529 — отплати́ть — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5530 — энтузиа́зм — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5531 — поме́шанный — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5532 — маг — exemple mal formé; exemple mal formé; moins de 2 exemples pour un sens
+- 5538 — заблужде́ние — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5539 — джип — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5540 — прикосну́ться — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5541 — шо́рты — exemple mal formé; exemple mal formé
+- 5542 — осме́литься — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5543 — предви́деть — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5544 — приле́чь — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5545 — угоща́ться — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5546 — расписа́ться — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5547 — выпива́ть — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5548 — всемогу́щий — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5549 — утеше́ние — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5550 — попра́вить — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5551 — понести́ — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5570 — а́том — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 5573 — очарова́тельно — aucune réponse exploitable : fiche source conservée
+- 5574 — рада́р — aucune réponse exploitable : fiche source conservée
+- 5575 — супергеро́й — aucune réponse exploitable : fiche source conservée
+- 5584 — фейерве́рк — exemple sans le mot : « Э́тот матч стал фейерве́ртом голо́в. »
+- 5586 — пропа́жа — accent tonique manquant : Нашлась, нашлась
+- 5639 — рвать — accent tonique manquant : листья, сердце
+- 5678 — форма́льность — accent tonique manquant : чистая
+- 5709 — переночева́ть — tournure sans le mot : « они́ переночева́ют »
+- 5713 — фю́рер — aucune réponse exploitable : fiche source conservée
+- 5714 — объедини́ться — aucune réponse exploitable : fiche source conservée
+- 5715 — времена́ми — aucune réponse exploitable : fiche source conservée
+- 5733 — закопа́ть — champ mot différent de la source
+- 5734 — восста́ть — champ mot différent de la source
+- 5735 — лгу́нья — champ mot différent de la source
+- 5869 — моло́чный — exemple sans le mot : « Ребёнок пьёт моло́чную сме́сь. »; exemple sans le mot : « Фе́рма специализи́руется на моло́чном скотоводстве. »
+- 5870 — плато́к — tournure sans le mot : « я с платки́м »; tournure sans le mot : « ты с платки́м? »
+- 5921 — грандио́зный — aucune réponse exploitable : fiche source conservée
+- 5922 — впло́ть — aucune réponse exploitable : fiche source conservée
+- 5923 — проро́чество — aucune réponse exploitable : fiche source conservée
+- 5924 — пожи́зненный — aucune réponse exploitable : fiche source conservée
+- 5957 — жиле́ц — tournure sans le mot : « жильцы́ до́ма »; exemple sans le mot : « Жильцы́ до́ма жа́ловались на шум от ремо́нта. »; exemple sans le mot : « Жильцы́ пансиона́та получа́ют трёхразо́вое пита́ние. »
+- 5958 — металли́ческий — tournure sans le mot : « металли́ческая дверь »; tournure sans le mot : « металли́ческие дета́ли »; exemple sans le mot : « Металли́ческая дверь надёжнее деревя́нной. »; exemple sans le mot : « На заво́де произво́дят металли́ческие дета́ли. »
+- 5960 — талисма́н — exemple sans le mot : « Э́тот ка́мень счита́ется талисма́ном от злых духо́в. »; exemple sans le mot : « Его́ улы́бка бы́ла для меня́ настоя́щим талисма́ном в тру́дные времена́. »
+- 5961 — сле́зть — tournure sans le mot : « я сле́зу »; tournure sans le mot : « я не сле́зу »; tournure sans le mot : « ты сле́зешь? »; tournure sans le mot : « он сле́з »; tournure sans le mot : « сле́зь отсю́да »; exemple sans le mot : « Он сле́з с ло́шади и подошёл к нам. »; exemple sans le mot : « Де́ти бы́стро сле́зли с де́рева. »; exemple sans le mot : « Ко́жа на носу́ сле́зла по́сле ожо́га. »; exemple sans le mot : « Кра́ска сле́зла со стены́ куска́ми. »
+- 5963 — певи́ца — exemple sans le mot : « Моя́ сестра́ мечта́ет стать певи́цией. »
+- 5966 — вы́тянуть — aucune réponse exploitable : fiche source conservée
+- 5986 — обучи́ть — aucune réponse exploitable : fiche source conservée
+- 5989 — раздева́лка — aucune réponse exploitable : fiche source conservée
+- 5990 — за́висть — aucune réponse exploitable : fiche source conservée
+- 6000 — танцо́вщица — aucune réponse exploitable : fiche source conservée
