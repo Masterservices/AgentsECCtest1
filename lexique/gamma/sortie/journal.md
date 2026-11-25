@@ -14,7 +14,9 @@ Correction des fiches « 10 000 mots » par Dialagram (modèle qwen-3.8-max-thin
 | ru-t3 | 1 000 | 970 | 30 | 125 | 2 046 082 | 3 017 401 |
 | fr-t4 | 1 000 | 943 | 57 | 208 | 2 921 734 | 4 937 443 |
 | ru-t4 | 1 000 | 973 | 27 | 169 | 2 544 774 | 4 025 541 |
-| **Total** | **8 000** | **7 645** | **355** | **1 437** | **20 156 525** | **29 804 899** |
+| fr-t5 | 1 000 | 954 | 46 | 196 | 2 975 489 | 4 701 550 |
+| ru-t5 | 1 000 | 939 | 61 | 205 | 2 992 358 | 5 118 925 |
+| **Total** | **10 000** | **9 538** | **462** | **1 838** | **26 124 372** | **39 625 374** |
 
 Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue par la limite de 2 h puis par un redémarrage du conteneur) n’a pas laissé de compteur ; son coût réel est donc supérieur.
 
@@ -409,3 +411,116 @@ Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue
 - 3707 — вре́менно — exemple sans le mot : « Э́то реше́ние де́йствует то́лько вре́ленно. »
 - 3715 — пробы́ть — tournure sans le mot : « я пробы́ду »; tournure sans le mot : « я не пробы́ду »; tournure sans le mot : « ты пробы́дешь? »
 - 3947 — администра́ция — accent tonique manquant : местная
+
+### fr-t5
+
+- 4222 — défiler — exemple sans le mot : « Les voitures défilaient lentement sur l’autoroute. »
+- 4225 — délivrer — exemple sans le mot : « Ce traitement le délivrera de ses douleurs. »; exemple sans le mot : « Votre commande sera délivrée demain matin. »
+- 4255 — la mousse / le mousse — aucune réponse exploitable : fiche source conservée
+- 4256 — nocturne — aucune réponse exploitable : fiche source conservée
+- 4257 — paumé — aucune réponse exploitable : fiche source conservée
+- 4260 — la conspiration — aucune réponse exploitable : fiche source conservée
+- 4272 — brancher — aucune réponse exploitable : fiche source conservée
+- 4273 — blindé — aucune réponse exploitable : fiche source conservée
+- 4274 — roulant — aucune réponse exploitable : fiche source conservée
+- 4275 — la permanence — aucune réponse exploitable : fiche source conservée
+- 4288 — redescendre — tournure sans le mot : « nous redescendrons »; exemple sans le mot : « Elle est redescendue chercher ses clés. »; exemple sans le mot : « La température est enfin redescendue ce matin. »
+- 4417 — dorer — exemple hors 4–10 mots : « Dore la pâte avec un jaune d'œuf avant d'enfourner. »
+- 4440 — le proprio — aucune réponse exploitable : fiche source conservée
+- 4441 — la session — aucune réponse exploitable : fiche source conservée
+- 4457 — le dodo — aucune réponse exploitable : fiche source conservée
+- 4458 — le pancake — aucune réponse exploitable : fiche source conservée
+- 4459 — le buffet — aucune réponse exploitable : fiche source conservée
+- 4460 — le sondage — aucune réponse exploitable : fiche source conservée
+- 4461 — trafiquer — aucune réponse exploitable : fiche source conservée
+- 4462 — isoler — aucune réponse exploitable : fiche source conservée
+- 4463 — le homard — aucune réponse exploitable : fiche source conservée
+- 4464 — hilarant — aucune réponse exploitable : fiche source conservée
+- 4465 — biper — aucune réponse exploitable : fiche source conservée
+- 4466 — le terrorisme — aucune réponse exploitable : fiche source conservée
+- 4470 — fluide — aucune réponse exploitable : fiche source conservée
+- 4471 — le tournant — aucune réponse exploitable : fiche source conservée
+- 4472 — frotter — aucune réponse exploitable : fiche source conservée
+- 4473 — sucrer — aucune réponse exploitable : fiche source conservée
+- 4474 — le remerciement — aucune réponse exploitable : fiche source conservée
+- 4475 — le battant — aucune réponse exploitable : fiche source conservée
+- 4482 — le marquis — aucune réponse exploitable : fiche source conservée
+- 4483 — la seringue — aucune réponse exploitable : fiche source conservée
+- 4484 — la dynamite — aucune réponse exploitable : fiche source conservée
+- 4499 — l'étincelle (f) — aucune réponse exploitable : fiche source conservée
+- 4500 — le démocrate / la démocrate — aucune réponse exploitable : fiche source conservée
+- 4501 — soupirer — aucune réponse exploitable : fiche source conservée
+- 4502 — pertinent — aucune réponse exploitable : fiche source conservée
+- 4503 — mini — aucune réponse exploitable : fiche source conservée
+- 4506 — la constitution — aucune réponse exploitable : fiche source conservée
+- 4507 — le correspondant — aucune réponse exploitable : fiche source conservée
+- 4508 — l'apocalypse (f) — aucune réponse exploitable : fiche source conservée
+- 4626 — le reflet — aucune réponse exploitable : fiche source conservée
+- 4627 — la devise — aucune réponse exploitable : fiche source conservée
+- 4628 — la perturbation — aucune réponse exploitable : fiche source conservée
+- 4629 — le lézard — aucune réponse exploitable : fiche source conservée
+- 4636 — la saisie — aucune réponse exploitable : fiche source conservée
+
+### ru-t5
+
+- 4113 — осознава́ть — aucune réponse exploitable : fiche source conservée
+- 4114 — ми́рный — aucune réponse exploitable : fiche source conservée
+- 4115 — части́ца — aucune réponse exploitable : fiche source conservée
+- 4116 — осуди́ть — aucune réponse exploitable : fiche source conservée
+- 4117 — а́льфа — aucune réponse exploitable : fiche source conservée
+- 4202 — преподава́ть — tournure sans le mot : « ты преподаваёшь? »; tournure sans le mot : « он преподаваёт »; tournure sans le mot : « мы не преподаваём »; tournure sans le mot : « вы преподаваёте? »; exemple sans le mot : « Она́ преподаваёт францу́зский язы́к иностра́нным студе́нтам. »
+- 4207 — сле́дователь — tournures absentes ou hors 4–6; moins de 2 exemples pour un sens; exemple mal formé; formes absentes
+- 4208 — бессмы́сленно — aucune réponse exploitable : fiche source conservée
+- 4209 — моря́к — aucune réponse exploitable : fiche source conservée
+- 4290 — счесть — tournure sans le mot : « ты сочтёшь? »; tournure sans le mot : « вы сочтёте? »
+- 4300 — иссле́довать — aucune réponse exploitable : fiche source conservée
+- 4302 — укры́тие — accent tonique manquant : зимовки, искать
+- 4303 — пофи́га — formes absentes
+- 4306 — предназна́чить — exemple sans le mot : « Он был предназна́чен для вели́ких дел. »
+- 4316 — разби́ться — aucune réponse exploitable : fiche source conservée
+- 4332 — доро́жный — exemple sans le mot : « Я купи́л удо́бную доро́жную су́мку для командиро́вки. »
+- 4358 — просмо́тр — tournure sans le mot : « по́сле просмо́тра »; exemple sans le mot : « Коли́чество просмо́тров ви́део превыси́ло миллио́н. »; exemple sans le mot : « При бе́глом просмо́тре докуме́нта я заме́тил оши́бку. »; exemple sans le mot : « Из-за́ просмо́тра реда́ктора оши́бка попа́ла в печа́ть. »
+- 4359 — ге́н — tournure sans le mot : « мутаци́я в ге́не »; exemple sans le mot : « Мута́ция в э́том ге́не вызыва́ет боле́знь. »; expression sans le mot : « ге́нная инжене́рия »
+- 4361 — подчиня́ться — tournure sans le mot : « я подчиня́юсь »; tournure sans le mot : « я не подчиня́юсь »; tournure sans le mot : « ты подчиня́ешься? »; tournure sans le mot : « мы подчиня́емся »; tournure sans le mot : « они́ не подчиня́ются »; exemple sans le mot : « Все реше́ния подчиня́ются еди́ной ло́гике. »; exemple sans le mot : « Жизнь подчиня́ется биологи́ческим зако́нам. »
+- 4362 — стоя́нка — exemple sans le mot : « На́ша standing в порту́ зако́нчилась. »
+- 4363 — перере́зать — aucune réponse exploitable : fiche source conservée
+- 4366 — замеча́ние — aucune réponse exploitable : fiche source conservée
+- 4369 — оста́нки — aucune réponse exploitable : fiche source conservée
+- 4370 — пу́сто — exemple sans le mot : « Э́та земля́ пу́стая без урожа́я. »; exemple sans le mot : « Его́ обеща́ния пу́стые. »
+- 4392 — допроси́ть — aucune réponse exploitable : fiche source conservée
+- 4517 — соотве́тствие — tournure sans le mot : « в correspondéтствии с »; tournure sans le mot : « привести́ в correspondéтствие »; tournure sans le mot : « по́лное correspondéтствие »; exemple sans le mot : « Э́то по́лное correspondéтствие тре́бованиям. »; exemple sans le mot : « Докуме́нт в correspondéтствии с зако́ном. »; exemple sans le mot : « Есть correspondéтствие ме́жду спро́сом и предложе́нием? »; exemple sans le mot : « Вот correspondéтствие разме́ров и ве́са. »; expression sans le mot : « в correspondéтствии с »; expression sans le mot : « привести́ в correspondéтствие »; expression sans le mot : « по́лное correspondéтствие »
+- 4538 — помо́лвить — tournure sans le mot : « я помо́лвил »; tournure sans le mot : « я не помо́лвил »; tournure mal formée; exemple sans le mot : « Их помо́лвили про́шлой весно́й. »; exemple sans le mot : « Оте́ц помо́лвил дочь с сы́ном сосе́да. »; registre absent ou invalide; formes absentes
+- 4540 — ро́зыск — exemple sans le mot : « Сотру́дники уголо́вного ро́зыска раскры́ли э́то де́ло. »
+- 4541 — иску́сственный — exemple sans le mot : « Её улы́бка каза́лась мне сли́шком иску́сственной. »; exemple sans le mot : « Он говори́л со мной иску́сственным то́ном. »; exemple sans le mot : « Э́то специа́льная иску́сственная среда́ для обуче́ния. »; accent tonique manquant : спутник
+- 4542 — плен — exemple sans le mot : « Он провёл три до́лгих го́да в плену́. »; exemple sans le mot : « Он оконча́тельно оказа́лся в плену́ свои́х страсте́й. »; exemple sans le mot : « Она́ до́лго была́ в плену́ свои́х иллю́зий. »
+- 4543 — стака́нчик — exemple sans le mot : « Мы вы́пили по стака́нчику кра́сного вина́. »; exemple sans le mot : « Купи́ пла́стиковые стака́нчики для на́шего пи́кника. »; exemple sans le mot : « Я купи́л моро́женое в пласти́ковом стака́нчике. »
+- 4565 — рыба́лка — exemple sans le mot : « Мы пое́хали на рыба́лку ра́но у́тром в суббо́ту. »
+- 4657 — аргуме́нт — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 4658 — вы́лезти — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 4659 — смесь — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 4660 — ра́диус — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 4661 — дрожа́ть — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 4662 — грош — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 4663 — орби́та — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 4664 — расстра́ивать — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 4665 — удовлетвори́ть — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 4666 — редакти́роваться — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 4775 — рядово́й — aucune réponse exploitable : fiche source conservée
+- 4776 — дога́дка — aucune réponse exploitable : fiche source conservée
+- 4790 — проникнове́ние — aucune réponse exploitable : fiche source conservée
+- 4791 — пого́ня — aucune réponse exploitable : fiche source conservée
+- 4792 — определе́ние — aucune réponse exploitable : fiche source conservée
+- 4805 — досту́пный — exemple sans le mot : « Информа́ция ста́ла досту́пной в интерне́те. »; exemple sans le mot : « Объясни́те э́то просты́м и досту́пным языко́м. »
+- 4818 — опубликова́ть — exemple sans le mot : « Зако́н был опубликова́н в газе́те. »
+- 4862 — заде́ржка — aucune réponse exploitable : fiche source conservée
+- 4863 — червь — aucune réponse exploitable : fiche source conservée
+- 4864 — служе́бный — aucune réponse exploitable : fiche source conservée
+- 4865 — бега́ — aucune réponse exploitable : fiche source conservée
+- 4866 — вожде́ние — aucune réponse exploitable : fiche source conservée
+- 4885 — тверди́ть — tournure sans le mot : « ятвержу́ »; tournure sans le mot : « тытверди́шь? »; tournure sans le mot : « онтверди́т »; tournure sans le mot : « мы нетверди́м »; tournure sans le mot : « вытверди́те? »; exemple sans le mot : « Он всё вре́мятверди́л одно́ и то́ же. »; exemple sans le mot : « Де́титвердя́т стихи́ для у́тренника. »; exemple sans le mot : « Я всю ночьтверди́л пра́вила. »; exemple sans le mot : « Свиде́тельтверди́л, что не ви́дел ава́рии. »; exemple sans le mot : « Врачтверди́т: э́то ва́жно для здоровья́. »
+- 4932 — суро́вый — tournure sans le mot : « Не будь суро́в! »; exemple sans le mot : « Они́ вы́жили в суро́вых усло́виях. »; exemple sans le mot : « Комна́та бы́ла в суро́вом сти́ле. »
+- 4948 — идио́тский — accent tonique manquant : закон
+- 4986 — езда́ — aucune réponse exploitable : fiche source conservée
+- 4989 — мексика́нский — aucune réponse exploitable : fiche source conservée
+- 4990 — барбекю́ — aucune réponse exploitable : fiche source conservée
+- 4991 — крити́ческий — aucune réponse exploitable : fiche source conservée
