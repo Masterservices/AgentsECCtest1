@@ -24,7 +24,9 @@ Correction des fiches « 10 000 mots » par Dialagram (modèle qwen-3.8-max-thin
 | ru-t8 | 1 000 | 944 | 56 | 238 | 3 330 473 | 5 624 955 |
 | fr-t9 | 1 000 | 916 | 84 | 217 | 2 999 187 | 5 317 422 |
 | ru-t9 | 1 000 | 972 | 28 | 232 | 3 349 547 | 5 950 880 |
-| **Total** | **18 000** | **17 037** | **963** | **3 626** | **51 083 842** | **85 246 979** |
+| fr-t10 | 1 000 | 982 | 18 | 173 | 2 360 832 | 3 409 852 |
+| ru-t10 | 1 000 | 989 | 11 | 208 | 2 715 102 | 4 322 198 |
+| **Total** | **20 000** | **19 008** | **992** | **4 007** | **56 159 776** | **92 979 029** |
 
 Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue par la limite de 2 h puis par un redémarrage du conteneur) n’a pas laissé de compteur ; son coût réel est donc supérieur. Même cas pour fr-t6 : la première passe (arrêtée par la limite de 2 h avec 844 fiches conformes) n’est pas comptée, seule la reprise l’est.
 
@@ -1057,3 +1059,38 @@ Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue
 - 8770 — апартаме́нт — aucune réponse exploitable : fiche source conservée
 - 8771 — ре́гби — aucune réponse exploitable : fiche source conservée
 - 8821 — президен́тский — exemple sans le mot : « Он получи́л президе́нтскую награ́ду. »
+
+### fr-t10
+
+- 9033 — l’avant-garde (f) — champ mot différent de la source
+- 9242 — l'acoustique (f) / acoustique — champ mot différent de la source
+- 9243 — le lé (m) — champ mot différent de la source
+- 9245 — la burne (f) — champ mot différent de la source
+- 9265 — la frayeur — exemple hors 4–10 mots : « Elle a poussé un cri de frayeur en voyant l’ombre. »
+- 9348 — le pleurnichard / la — champ mot différent de la source
+- 9461 — enrager — exemple sans le mot : « Le chien enrageait avant d'être soigné. »; exemple sans le mot : « Les loups enragent dans cette région. »
+- 9462 — moucharder — exemple sans le mot : « Il nous mouchardait depuis la fenêtre d'en face. »
+- 9468 — le parachutiste / la — champ mot différent de la source
+- 9823 — le programmeur / la — exemple sans le mot : « Elle travaille comme programmeuse. »
+- 9838 — le soupirant — exemple sans le mot : « Elle avait plusieurs soupirants mais n'en aimait aucun. »
+- 9878 — l'intellect (m) — carte invalide (recto = mot, verso = traduction)
+- 9885 — l'autobiographie (f) — tournure sans le mot : « pacte autobiographique »
+- 9945 — surfaire — aucune réponse exploitable : fiche source conservée
+- 9946 — la barbarie — aucune réponse exploitable : fiche source conservée
+- 9947 — renommé — aucune réponse exploitable : fiche source conservée
+- 9952 — équilibrer — aucune réponse exploitable : fiche source conservée
+- 9953 — offensant — aucune réponse exploitable : fiche source conservée
+
+### ru-t10
+
+- 9241 — двадца́тка — champ mot différent de la source
+- 9289 — отцо́вский — exemple sans le mot : « Он говори́л со мной отцо́вским то́ном. »
+- 9346 — за́ла — accent tonique manquant : портретами, предков
+- 9350 — трип — accent tonique manquant : духовный, просто
+- 9413 — заши́ть — accent tonique manquant : зашей, зашить, посылку
+- 9537 — предназна́чаться — tournure sans le mot : « я destined »; tournure sans le mot : « я не destined »; tournure sans le mot : « ты destined? »; tournure sans le mot : « он destined для дете́й »; tournure sans le mot : « они не destined »; tournure sans le mot : « вы destined? »
+- 9550 — собственнору́чно — aucune réponse exploitable : fiche source conservée
+- 9560 — номерно́й — aucune réponse exploitable : fiche source conservée
+- 9561 — сентимента́льный — aucune réponse exploitable : fiche source conservée
+- 9564 — него́дник — aucune réponse exploitable : fiche source conservée
+- 9844 — оби́женный — exemple sans le mot : « Не будь оби́женным, я не хоте́л тебя́ заде́ть. »
