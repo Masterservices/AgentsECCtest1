@@ -18,7 +18,9 @@ Correction des fiches « 10 000 mots » par Dialagram (modèle qwen-3.8-max-thin
 | ru-t5 | 1 000 | 939 | 61 | 205 | 2 992 358 | 5 118 925 |
 | fr-t6 | 1 000 | 961 | 39 | 63 | 902 336 | 1 891 975 |
 | ru-t6 | 1 000 | 902 | 98 | 288 | 4 045 830 | 7 852 689 |
-| **Total** | **12 000** | **11 401** | **599** | **2 189** | **31 072 538** | **49 370 038** |
+| fr-t7 | 1 000 | 922 | 78 | 224 | 3 020 353 | 5 693 626 |
+| ru-t7 | 1 000 | 962 | 38 | 272 | 3 858 448 | 6 991 612 |
+| **Total** | **14 000** | **13 285** | **715** | **2 685** | **37 951 339** | **62 055 276** |
 
 Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue par la limite de 2 h puis par un redémarrage du conteneur) n’a pas laissé de compteur ; son coût réel est donc supérieur. Même cas pour fr-t6 : la première passe (arrêtée par la limite de 2 h avec 844 fiches conformes) n’est pas comptée, seule la reprise l’est.
 
@@ -669,3 +671,125 @@ Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue
 - 5989 — раздева́лка — aucune réponse exploitable : fiche source conservée
 - 5990 — за́висть — aucune réponse exploitable : fiche source conservée
 - 6000 — танцо́вщица — aucune réponse exploitable : fiche source conservée
+
+### fr-t7
+
+- 6329 — la relique — aucune réponse exploitable : fiche source conservée
+- 6330 — le bluff — aucune réponse exploitable : fiche source conservée
+- 6347 — la corporation — aucune réponse exploitable : fiche source conservée
+- 6348 — la friandise — aucune réponse exploitable : fiche source conservée
+- 6368 — l’exclusivité (f) — champ mot différent de la source
+- 6386 — redemander — aucune réponse exploitable : fiche source conservée
+- 6387 — mouler — aucune réponse exploitable : fiche source conservée
+- 6388 — la spéculation — aucune réponse exploitable : fiche source conservée
+- 6389 — la restauration — aucune réponse exploitable : fiche source conservée
+- 6400 — le guet — aucune réponse exploitable : fiche source conservée
+- 6401 — l'islam (m) — expression sans le mot : « pays d'islam »
+- 6405 — le guérisseur / la — champ mot différent de la source
+- 6410 — l'instructeur (m) / — champ mot différent de la source
+- 6420 — l’opium (m) — champ mot différent de la source
+- 6424 — le choeur — champ mot différent de la source
+- 6470 — la paralysie — aucune réponse exploitable : fiche source conservée
+- 6471 — osseux — aucune réponse exploitable : fiche source conservée
+- 6472 — croquer — aucune réponse exploitable : fiche source conservée
+- 6473 — revendiquer — aucune réponse exploitable : fiche source conservée
+- 6505 — le protestant / la — aucune réponse exploitable : fiche source conservée
+- 6511 — éplucher — aucune réponse exploitable : fiche source conservée
+- 6561 — le réchauffement — aucune réponse exploitable : fiche source conservée
+- 6562 — compatir — aucune réponse exploitable : fiche source conservée
+- 6563 — colombien — aucune réponse exploitable : fiche source conservée
+- 6631 — dépressif — aucune réponse exploitable : fiche source conservée
+- 6676 — plausible — aucune réponse exploitable : fiche source conservée
+- 6677 — le gobelet — aucune réponse exploitable : fiche source conservée
+- 6688 — l'amande (f) — aucune réponse exploitable : fiche source conservée
+- 6689 — l'effondrement (m) — aucune réponse exploitable : fiche source conservée
+- 6690 — délirer — aucune réponse exploitable : fiche source conservée
+- 6691 — le conjoint — aucune réponse exploitable : fiche source conservée
+- 6692 — argenté — aucune réponse exploitable : fiche source conservée
+- 6694 — s'entraider — aucune réponse exploitable : fiche source conservée
+- 6695 — intouchable — aucune réponse exploitable : fiche source conservée
+- 6696 — qualifier — aucune réponse exploitable : fiche source conservée
+- 6697 — le bibliothécaire — aucune réponse exploitable : fiche source conservée
+- 6698 — la tromperie — aucune réponse exploitable : fiche source conservée
+- 6699 — la carcasse — aucune réponse exploitable : fiche source conservée
+- 6700 — l'infrarouge (m) — aucune réponse exploitable : fiche source conservée
+- 6701 — affoler — aucune réponse exploitable : fiche source conservée
+- 6714 — durable — aucune réponse exploitable : fiche source conservée
+- 6715 — télévisé — aucune réponse exploitable : fiche source conservée
+- 6716 — humanitaire — aucune réponse exploitable : fiche source conservée
+- 6717 — l'intervalle (m) — aucune réponse exploitable : fiche source conservée
+- 6718 — chérir — aucune réponse exploitable : fiche source conservée
+- 6719 — le missionnaire / la — aucune réponse exploitable : fiche source conservée
+- 6720 — poétique — exemple sans le mot : « У э́той поэ́мы о́чень поэти́ческая фо́рма. »; exemple sans le mot : « Францу́зская поэти́ческая тра́диция о́чень бога́та. »; exemple sans le mot : « Э́тот зака́т был и́стинно поэти́чным. »; exemple sans le mot : « В его́ взгля́де бы́ла о́чень поэти́чная не́жность. »; exemple sans le mot : « «Поэ́тика» Аристо́теля до си́х по́р влия́ет на литерату́ру. »; exemple sans le mot : « Он преподаёт поэ́тику в университе́те. »
+- 6721 — la fiole — exemple sans le mot : « Хи́мик налива́ет жи́дкость во флако́н. »; exemple sans le mot : « Она́ храни́т ста́рый флако́н от духо́в. »; exemple sans le mot : « Он раскрои́л себе́ башку́ при паде́нии. »; exemple sans le mot : « Хва́тит лома́ть башку́ над э́тим ! »
+- 6722 — la reconstruction — exemple sans le mot : « Восстановле́ние це́нтра го́рода дли́лось де́сять ле́т. »; exemple sans le mot : « Национа́льный пла́н восстановле́ния больни́ц уже́ запу́щен. »; exemple sans le mot : « Сле́дователи де́лают тща́тельную реконстру́кцию э́той ава́рии. »; exemple sans le mot : « Э́тот фильм предлага́ет то́чную истори́ческую реконстру́кцию. »; exemple sans le mot : « Она́ неда́вно перенесла́ реконстру́кцию молочно́й железы́. »; exemple sans le mot : « Реконстру́кция свя́зки тре́бует до́лгих ме́сяцев реабилита́ции. »
+- 6723 — la vogue — exemple sans le mot : « Вини́ловые пласти́нки пережива́ют но́вую волну́ мо́ды. »; exemple sans le mot : « Э́тот та́нец бы́л о́чень мо́дным ра́ньше. »; exemple sans le mot : « Кора́бль шёл о́чень хо́рошим хо́дом вчера́. »; exemple sans le mot : « Моряки́ говори́ли об утра́ченном иску́сстве пла́вания. »
+- 6724 — le dingo — exemple sans le mot : « Ди́нго счита́ется ре́дким ви́дом в Австра́лии. »; exemple sans le mot : « Иссле́дователи изуча́ют ди́нго в а́встралийском бу́ше. »; exemple sans le mot : « Э́тот па́рень настоя́щий псих, он кричи́т. »; exemple sans le mot : « Не слу́шай его́, э́то како́й-то чо́кнутый псих. »
+- 6725 — le parchemin — aucune réponse exploitable : fiche source conservée
+- 6755 — résonner — aucune réponse exploitable : fiche source conservée
+- 6788 — astucieux — aucune réponse exploitable : fiche source conservée
+- 6789 — l’hydrogène (m) — aucune réponse exploitable : fiche source conservée
+- 6790 — le successeur — aucune réponse exploitable : fiche source conservée
+- 6791 — huitième — aucune réponse exploitable : fiche source conservée
+- 6796 — l'expansion (f) — aucune réponse exploitable : fiche source conservée
+- 6797 — barbu — aucune réponse exploitable : fiche source conservée
+- 6798 — le bobard — aucune réponse exploitable : fiche source conservée
+- 6799 — le store — aucune réponse exploitable : fiche source conservée
+- 6800 — éternuer — aucune réponse exploitable : fiche source conservée
+- 6802 — le manifestant / la — carte invalide (recto = mot, verso = traduction)
+- 6804 — l’opposant (m) / — champ mot différent de la source; carte invalide (recto = mot, verso = traduction)
+- 6811 — le skate — expression sans le mot : « skatepark »
+- 6815 — puéril — expression sans le mot : « joie puérile »
+- 6894 — la solidarité — aucune réponse exploitable : fiche source conservée
+- 6895 — le bouillon — aucune réponse exploitable : fiche source conservée
+- 6896 — le mousquetaire — aucune réponse exploitable : fiche source conservée
+- 6897 — la soucoupe — aucune réponse exploitable : fiche source conservée
+- 6898 — rincer — aucune réponse exploitable : fiche source conservée
+- 6899 — intuber — aucune réponse exploitable : fiche source conservée
+- 6967 — pister — aucune réponse exploitable : fiche source conservée
+- 6972 — incruster — aucune réponse exploitable : fiche source conservée
+- 6975 — autoritaire — aucune réponse exploitable : fiche source conservée
+- 6979 — l'acquisition (f) — tournure sans le mot : « mes acquisitions »
+- 6989 — l'antidépresseur (m) — exemple sans le mot : « Certains antidépresseurs agissent vite. »
+- 6991 — le/la télépathe — exemple sans le mot : « Les personnages télépathes parlent peu. »
+
+### ru-t7
+
+- 6011 — надави́ть — aucune réponse exploitable : fiche source conservée
+- 6053 — конститу́ция — tournure sans le mot : « по constituencýции »
+- 6182 — прихвати́ть — aucune réponse exploitable : fiche source conservée
+- 6183 — ожида́ться — aucune réponse exploitable : fiche source conservée
+- 6184 — вентиля́ция — aucune réponse exploitable : fiche source conservée
+- 6185 — дразни́ть — aucune réponse exploitable : fiche source conservée
+- 6186 — склады́ваться — aucune réponse exploitable : fiche source conservée
+- 6328 — молодчи́на — aucune réponse exploitable : fiche source conservée
+- 6329 — возмути́тельно — aucune réponse exploitable : fiche source conservée
+- 6337 — определи́ться — tournure sans le mot : « они́ determ缺少 »
+- 6344 — зажи́м — aucune réponse exploitable : fiche source conservée
+- 6345 — зажига́лка — aucune réponse exploitable : fiche source conservée
+- 6352 — морпе́х — accent tonique manquant : Каждый, отряд
+- 6354 — допуска́ть — accent tonique manquant : будем, будет, будете, будешь, буду, будут
+- 6358 — гудо́к — accent tonique manquant : короткие
+- 6369 — приве́тствие — aucune réponse exploitable : fiche source conservée
+- 6370 — лис — aucune réponse exploitable : fiche source conservée
+- 6417 — ро́та — aucune réponse exploitable : fiche source conservée
+- 6418 — берегово́й — aucune réponse exploitable : fiche source conservée
+- 6419 — приме́рить — aucune réponse exploitable : fiche source conservée
+- 6420 — содержи́мое — aucune réponse exploitable : fiche source conservée
+- 6421 — испыта́тельный — aucune réponse exploitable : fiche source conservée
+- 6462 — твёрдо — aucune réponse exploitable : fiche source conservée
+- 6463 — жуть — aucune réponse exploitable : fiche source conservée
+- 6465 — слия́ние — aucune réponse exploitable : fiche source conservée
+- 6474 — долба́ть — exemple sans le mot : « Он долби́л кулако́м по столу́ и тре́бовал отве́та. »; accent tonique manquant : наконец
+- 6491 — апельси́н — aucune réponse exploitable : fiche source conservée
+- 6492 — ме́сса — aucune réponse exploitable : fiche source conservée
+- 6497 — удовлетворе́ние — exemple sans le mot : « Она́ смотре́ла на рабо́ту с satisf... »; exemple sans le mot : « Он испы́тывал глубо́кое satisf... »; exemple sans le mot : « Компа́ния уделя́ет внима́ние satisf... клие́нтов. »; exemple sans le mot : « Суд объяви́л об satisf... иска́. »; exemple sans le mot : « Он иска́л бы́строго satisf... свои́х жела́ний. »
+- 6571 — деви́з — expression sans le mot : « под деви́зом »
+- 6574 — жени́тьба — tournure sans le mot : « после жени́тьбы »; exemple sans le mot : « На жени́тьбу пришло́ мно́го госте́й. »; accent tonique manquant : после, скорая
+- 6599 — ба́рышня — accent tonique manquant : белом, парку
+- 6601 — опо́ра — tournure sans le mot : « erne opóры »; tournure sans le mot : « 服务的 opóрой »
+- 6612 — пересе́чение — champ mot différent de la source
+- 6794 — маскиро́вка — exemple sans le mot : « Э́та фра́за была́ то́лько маскиро́вкой его́ настоя́щих наме́рений. »; exemple sans le mot : « Я́ркая вы́веска служи́ла маскиро́вкой для обы́чного скла́да. »
+- 6895 — добира́ться — accent tonique manquant : будем, будет, будете, будешь, будут
+- 6906 — семе́йка — accent tonique manquant : Местная, местная
+- 6974 — воссоедине́ние — tournure sans le mot : « по́сле воссоедине́ния »; tournure sans le mot : « ждать воссоедине́ния »
