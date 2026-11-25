@@ -10,7 +10,9 @@ Correction des fiches « 10 000 mots » par Dialagram (modèle qwen-3.8-max-thin
 | ru-t1 | 1 000 | 961 | 39 | 202 | 2 151 960 | 2 625 912 |
 | fr-t2 | 1 000 | 957 | 43 | 170 | 2 556 415 | 3 554 159 |
 | ru-t2 | 1 000 | 987 | 13 | 140 | 2 162 004 | 2 846 196 |
-| **Total** | **4 000** | **3 855** | **145** | **740** | **9 760 916** | **12 834 870** |
+| fr-t3 | 1 000 | 904 | 96 | 195 | 2 883 019 | 4 989 644 |
+| ru-t3 | 1 000 | 970 | 30 | 125 | 2 046 082 | 3 017 401 |
+| **Total** | **6 000** | **5 729** | **271** | **1 060** | **14 690 017** | **20 841 915** |
 
 Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue par la limite de 2 h puis par un redémarrage du conteneur) n’a pas laissé de compteur ; son coût réel est donc supérieur.
 
@@ -183,3 +185,135 @@ Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue
 - 1450 — цвето́к — accent tonique manquant : Маленький, золотые, искусственные, комнатные, один, подоконнике, редкие
 - 1469 — приезжа́ть — accent tonique manquant : будем, будет, будете, будешь, будут, через
 - 1561 — ёто — champ mot différent de la source
+
+### fr-t3
+
+- 2026 — fournir — exemple sans le mot : « Компа́ния поставля́ет обору́дование шко́лам. »; exemple sans le mot : « Вы́ мо́жете предоста́вить доказа́тельство ли́чности? »; exemple sans le mot : « Э́то иссле́дование да́ет о́чень це́нные да́нные. »; exemple sans le mot : « Он приложи́л мно́го уси́лий, что́бы доби́ться успе́ха. »; exemple sans le mot : « Э́тот магази́н снабжа́ет весь кварта́л хле́бом. »; exemple sans le mot : « Со́лнце обеспе́чивает расте́ния необходи́мой эне́ргией. »
+- 2027 — le tunnel — exemple sans le mot : « По́езд проезжа́ет через десятикиломе́тровый ту́ннель. »; exemple sans le mot : « Пройди́те через ту́ннель под желе́зной доро́гой. »; exemple sans le mot : « Она́ наконе́ц ви́дит свет в конце́ ту́ннеля. »; exemple sans le mot : « Мы́ в ту́ннеле, но ско́ро всё улу́чшится. »
+- 2028 — la moto — exemple sans le mot : « Он е́здит на рабо́ту на мотоци́кле. »; exemple sans le mot : « Она́ купи́ла краси́вый подержа́нный мотоци́кл. »; exemple sans le mot : « Он занима́ется мотоспо́ртом с шестна́дцати лет. »; exemple sans le mot : « Е́здить на мотоци́кле под дождём опа́сно. »
+- 2029 — le collier — exemple sans le mot : « На ней бы́ло краси́вое же́мчужное ожере́лье. »; exemple sans le mot : « Он пода́рил ей золото́е ожере́лье. »; exemple sans le mot : « На соба́ке оше́йник с но́мером хозя́ина. »; exemple sans le mot : « Наде́нь оше́йник на кота́ пе́ред вы́ходом. »; exemple sans le mot : « Затяни́те хому́т во́круг трубы́. »; exemple sans le mot : « Стяжно́й хому́т де́ржит обо́лочку ка́беля. »; exemple sans le mot : « Он но́сит краси́вую бо́родку кольцо́м. »; exemple sans le mot : « Боро́дка кольцо́м ему́ о́чень шла. »
+- 2030 — le congé — exemple sans le mot : « Я беру́ три неде́ли о́тпуска в а́вгусте. »; exemple sans le mot : « Он в о́тпуске до сле́дующего понеде́льника. »; exemple sans le mot : « Врач дал ему́ больни́чный лист. »; exemple sans le mot : « Она́ попроси́ла дли́нный о́тпуск по ухо́ду. »; exemple sans le mot : « Он пода́л заявле́ние об увольне́нии своему́ работодателю. »; exemple sans le mot : « Владе́лец уведо́мил жильца́ о расторже́нии догово́ра. »; exemple sans le mot : « Он попроща́лся со свои́ми гостями́. »; exemple sans le mot : « Не спро́сив разреше́ния, она́ поки́нула зал. »
+- 2031 — effrayant — exemple sans le mot : « Стра́шный крик разорва́л ночну́ю тишину́. »; exemple sans le mot : « Э́тот фильм сли́шком стра́шный для дете́й. »; exemple sans le mot : « Це́ны в э́том райо́не про́сто чудови́щные. »; exemple sans le mot : « За три ме́сяца он сде́лал порази́тельные успе́хи. »
+- 2050 — la proposition — exemple sans le mot : « У меня́ есть к тебе́ предложе́ние. »; exemple sans le mot : « Мы при́няли их предложе́ние без обсужде́ния. »; exemple sans le mot : « Она́ получи́ла два предложе́ния о рабо́те. »; exemple sans le mot : « Пришли́те нам предложе́ние с расчётом сто́имости. »; exemple sans le mot : « Э́то предложе́ние соде́ржит три кла́узы. »; exemple sans le mot : « Прида́точное предложе́ние начина́ется с «que». »; exemple sans le mot : « Сужде́ние мо́жет быть и́стинным и́ли ло́жным. »; exemple sans le mot : « Докажи́те э́то утвержде́ние ме́тодом инду́кции. »
+- 2052 — cruel — exemple hors 4–10 mots : « La réalité est cruelle et nous n'avons plus d'argent. »
+- 2054 — le traître — exemple hors 4–10 mots : « Cet homme a trahi son pays, c'est un vrai traître. »; exemple hors 4–10 mots : « Elle l'a traité de traître après avoir découvert son mensonge. »
+- 2056 — la vengeance — exemple hors 4–10 mots : « Il voulait se venger, mais la vengeance n'apporte pas la paix. »; exemple hors 4–10 mots : « Dans le roman, le héros prépare sa vengeance pendant des années. »
+- 2057 — se suicider — exemple hors 4–10 mots : « Si vous pensez à vous suicider, parlez-en à un proche. »
+- 2062 — le domaine — exemple hors 4–10 mots : « L'entreprise a changé le nom de domaine de son site. »
+- 2070 — fidèle — exemple hors 4–10 mots : « Dans ce roman, le héros n'est pas fidèle à sa femme. »
+- 2074 — rejeter — exemple sans le mot : « Sa demande de visa a été rejetée par l'ambassade. »
+- 2078 — le passager ; passager — champ mot différent de la source
+- 2134 — la disparition — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2135 — destiner — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2136 — capturer — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2137 — le musée — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2138 — l'existence (f) — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2139 — sacrifier — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2140 — le hall — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2141 — l'objection (f) — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2142 — inscrire — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2143 — le nuage — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2144 — négatif — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2145 — l'auteur (m) — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2146 — le diplôme — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2147 — populaire — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2148 — généreux — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2149 — pleuvoir — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2150 — soulager — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 2151 — l'angle (m) — exemple sans le mot : « Il traite le sujet économique. »
+- 2156 — éternel — exemple sans le mot : « Il a toujours les mêmes excuses. »
+- 2164 — le pirate — exemple sans le mot : « Le site a subi une attaque. »
+- 2185 — l’élection (f) — tournure sans le mot : « campagne électorale »
+- 2206 — le producteur / la — champ mot différent de la source
+- 2337 — le commercial / la — champ mot différent de la source
+- 2365 — l’humour (m) — exemple hors 4–10 mots : « Elle a beaucoup d’humour et fait rire tout le monde. »
+- 2366 — avérer — exemple sans le mot : « La rumeur s’est avérée fausse après l'enquête. »
+- 2370 — cracher — exemple hors 4–10 mots : « Il m’a craché au visage que je ne valais rien. »
+- 2372 — le pneu — exemple hors 4–10 mots : « Mon grand-père envoyait encore des pneus dans les années soixante. »
+- 2373 — le caractère — exemple hors 4–10 mots : « Elle a un caractère bien trempé et ne se laisse pas faire. »
+- 2375 — parvenir — exemple sans le mot : « Elle est parvenue à obtenir une bourse d’études. »; exemple sans le mot : « Un bruit sourd parvenait jusqu’à notre chambre. »; exemple hors 4–10 mots : « Il est parvenu à l’âge de cent ans en santé. »; exemple sans le mot : « Elle est parvenue au sommet de sa carrière artistique. »
+- 2382 — redevenir — tournure sans le mot : « elle est redevenue »; exemple sans le mot : « Cette région est redevenue très touristique. »; exemple sans le mot : « Elle est redevenue confiante grâce à ses amis. »
+- 2397 — céder — exemple sans le mot : « L'entreprise a été cédée à un groupe étranger. »
+- 2508 — répandre — aucune réponse exploitable : fiche source conservée
+- 2514 — habituer — exemple sans le mot : « На́до приуча́ть дете́й убира́ть свои́ игру́шки. »; exemple sans le mot : « Э́то лека́рство постепе́нно адапти́рует органи́зм. »; exemple sans le mot : « Я бы́стро при́вык к тропи́ческому кли́мату. »; exemple sans le mot : « Она́ не мо́жет при́выкнуть жить одна́. »
+- 2515 — sucer — exemple sans le mot : « Ребёнок сосёт па́лец, что́бы усну́ть. »; exemple sans le mot : « Конфе́ту на́до расса́сывать, а не гры́зть. »; exemple sans le mot : « Хва́тит соса́ть, э́то соверше́нно вульга́рно. »; exemple sans le mot : « Никто́ не хо́чет соса́ть в э́той глу́пой и́гре. »; exemple sans le mot : « Он подли́зывается к нача́льнику ра́ди повыше́ния. »; exemple sans le mot : « Хва́тит подли́зываться, никто́ тебе́ не пове́рит. »
+- 2516 — la fabrique — exemple sans le mot : « Э́та шокола́дная фа́брика существу́ет с ты́сяча девятисо́того го́да. »; exemple sans le mot : « Фа́брика закры́лась и́з-за отсу́тствия зака́зов. »; exemple sans le mot : « Э́то проду́кт каче́ственного реме́сленного изготовле́ния. »; exemple sans le mot : « Изготовле́ние э́той тка́ни тре́бует мно́го вре́мени. »; exemple sans le mot : « Церко́вный сове́т занима́ется ремо́нтом хра́ма. »; exemple sans le mot : « Чле́ны церко́вного сове́та собира́ются ка́ждый ква́ртал. »
+- 2517 — ramasser — exemple sans le mot : « Подбери́ свою́ оде́жду, валя́ющуюся на полу́. »; exemple sans le mot : « Волонтёры собира́ют му́сор на пля́же. »; exemple sans le mot : « Он накопи́л доста́точно де́нег на маши́ну. »; exemple sans le mot : « Авто́бус забира́ет ученико́в у шко́лы. »; exemple sans le mot : « Он получи́л штраф за превыше́ние ско́рости. »; exemple sans le mot : « Нам влети́т, е́сли вернёмся по́здно. »
+- 2641 — manipuler — aucune réponse exploitable : fiche source conservée
+- 2642 — quatrième — aucune réponse exploitable : fiche source conservée
+- 2643 — la rupture — aucune réponse exploitable : fiche source conservée
+- 2644 — la culotte — aucune réponse exploitable : fiche source conservée
+- 2645 — le cadre — aucune réponse exploitable : fiche source conservée
+- 2646 — le scandale — aucune réponse exploitable : fiche source conservée
+- 2647 — le regret — aucune réponse exploitable : fiche source conservée
+- 2648 — le mélange — aucune réponse exploitable : fiche source conservée
+- 2649 — emballer — aucune réponse exploitable : fiche source conservée
+- 2650 — sécher — aucune réponse exploitable : fiche source conservée
+- 2655 — l’e-mail (m) — aucune réponse exploitable : fiche source conservée
+- 2656 — l’écriture (f) — aucune réponse exploitable : fiche source conservée
+- 2657 — la reconnaissance — aucune réponse exploitable : fiche source conservée
+- 2658 — la cendre — aucune réponse exploitable : fiche source conservée
+- 2664 — glacé — aucune réponse exploitable : fiche source conservée
+- 2689 — la référence — aucune réponse exploitable : fiche source conservée
+- 2694 — la tragédie — aucune réponse exploitable : fiche source conservée
+- 2706 — traquer — aucune réponse exploitable : fiche source conservée
+- 2722 — détecter — aucune réponse exploitable : fiche source conservée
+- 2723 — chimique — aucune réponse exploitable : fiche source conservée
+- 2724 — le chagrin — aucune réponse exploitable : fiche source conservée
+- 2773 — coincer — exemple sans le mot : « La clé est coincée dans la serrure. »; exemple sans le mot : « Elle était coincée entre deux obligations. »
+- 2776 — la saloperie — exemple hors 4–10 mots : « Qu’est-ce que c’est que cette saloperie sur le sol ? »
+- 2887 — reporter — exemple sans le mot : « Мы до́лжны отложи́ть собра́ние. »; exemple sans le mot : « Он отложи́л свою́ пое́здку. »; exemple sans le mot : « Ты мо́жешь перенести́ э́ти кни́ги? »; exemple sans le mot : « Он переноси́т ребёнка́ в кро́вать. »; exemple sans le mot : « Она́ перенапра́вливает не́жность на него́. »; exemple sans le mot : « На́до перена́править на́ше внима́ние. »
+- 2888 — fixe — exemple sans le mot : « Сохраня́йте неподви́жный взгля́д на гори́зонт. »; exemple sans le mot : « Э́то зе́ркало закреплено́ на стене́. »; exemple sans le mot : « Он рабо́тает по постоя́нному гра́фику. »; exemple sans le mot : « Фикси́рованная цена́ указа́на на этике́тке. »; exemple sans le mot : « У него́ э́то ста́ло навя́зчивой и́деей. »; exemple sans le mot : « Её взгля́д стал совсе́м неподви́жным. »
+- 2889 — la serre — exemple sans le mot : « Э́ти поми́доры расту́т в теплице. »; exemple sans le mot : « Он постро́ил большу́ю но́вую тепли́цу. »; exemple sans le mot : « Орёл схвати́л добы́чу свои́ми когтя́ми. »; exemple sans le mot : « Ко́гти э́того со́кола о́чень си́льные. »
+- 2890 — infiltrer — exemple sans le mot : « Поли́ции удало́сь внедри́ться в э́ту се́ть. »; exemple sans le mot : « Они́ внедри́лись в э́ту организа́цию. »; exemple sans le mot : « Вла́га ме́дленно проса́чивается в сте́ны. »; exemple sans le mot : « Хо́лод прони́кает под э́ту две́рь. »
+- 2891 — la revanche — exemple sans le mot : « Он взял рева́нш во второ́м ма́тче. »; exemple sans le mot : « Э́то прекра́сный рева́нш для неё́. »; exemple sans le mot : « За́то ку́хня там про́сто превосходна́я. »; exemple sans le mot : « За́то я про́сто обожа́ю ко́фе. »
+- 2930 — gêné — aucune réponse exploitable : fiche source conservée
+- 2931 — l'ancêtre (m/f) — aucune réponse exploitable : fiche source conservée
+- 2932 — la balade — aucune réponse exploitable : fiche source conservée
+- 2933 — localiser — aucune réponse exploitable : fiche source conservée
+- 2934 — la fillette — aucune réponse exploitable : fiche source conservée
+- 2943 — maya — aucune réponse exploitable : fiche source conservée
+- 2944 — la fusillade — aucune réponse exploitable : fiche source conservée
+- 2955 — tricher — exemple sans le mot : « Je ne tricherai pas avec toi. »; exemple sans le mot : « Les chiffres ne trichent pas. »
+- 2965 — l'asile (m) — aucune réponse exploitable : fiche source conservée
+- 2966 — insensé — aucune réponse exploitable : fiche source conservée
+- 2967 — la chatte — aucune réponse exploitable : fiche source conservée
+- 2968 — stopper — aucune réponse exploitable : fiche source conservée
+- 2969 — le gloria — champ mot différent de la source
+- 2973 — trente — aucune réponse exploitable : fiche source conservée
+- 2974 — la toile — aucune réponse exploitable : fiche source conservée
+- 2975 — la vue — aucune réponse exploitable : fiche source conservée
+- 2989 — le canal — exemple sans le mot : « Cette chaîne émet sur plusieurs canaux numériques. »
+
+### ru-t3
+
+- 2359 — смири́ться — accent tonique manquant : пришлось, смирятся
+- 2578 — откры́ться — aucune réponse exploitable : fiche source conservée
+- 2579 — попада́ть — aucune réponse exploitable : fiche source conservée
+- 2580 — раздели́ть — aucune réponse exploitable : fiche source conservée
+- 2581 — све́рху — aucune réponse exploitable : fiche source conservée
+- 2582 — журнали́ст — tournure sans le mot : « журнали́сты прие́хали »
+- 2583 — сообща́ть — exemple sans le mot : « Дире́ктор сообщи́л реше́ние всей кома́нде. »
+- 2592 — заполучи́ть — exemple sans le mot : « Клуб хоте́л填充у́ть си́льного тре́нера. »
+- 2594 — отве́тственный — exemple sans le mot : « Э́то о́чень отве́тственная зада́ча. »
+- 2595 — катастро́фа — exemple sans le mot : « Прова́л перегово́ров стал катастро́фой для компа́нии. »; exemple sans le mot : « Без э́того докуме́нта прое́кт преврати́тся в катастро́фу. »; exemple sans le mot : « Сего́дня на рабо́те всё бы́ло катастро́фой. »; accent tonique manquant : винительный, дательный, именительный, предложный, родительный, творительный
+- 2596 — оцени́ть — tournure sans le mot : « я оценю́ »; tournure sans le mot : « я не оценю́ »; tournure sans le mot : « ты оце́нишь? »; tournure sans le mot : « он оце́нил »; tournure sans le mot : « оцени́ э́то »; exemple sans le mot : « Экспе́рт оцени́л кварти́ру в де́сять миллио́нов рубле́й. »; exemple sans le mot : « Комиссия оцени́ла уще́рб по́сле пожа́ра. »; exemple sans le mot : « Учи́тель высоко́ оцени́л мой отве́т. »; exemple sans le mot : « Я оцени́л твою́ по́мощь и подде́ржку. »; exemple sans le mot : « Она́ оцени́ла его́ че́стность. »; exemple sans le mot : « Он оцени́л расстоя́ние на глаз. »; exemple sans le mot : « Врач оцени́л риск как невысо́кий. »
+- 2597 — физи́ческий — aucune réponse exploitable : fiche source conservée
+- 2750 — за́втрашний — aucune réponse exploitable : fiche source conservée
+- 2751 — превосхо́дно — aucune réponse exploitable : fiche source conservée
+- 2752 — захоте́ться — aucune réponse exploitable : fiche source conservée
+- 2766 — стре́лка — accent tonique manquant : пустить
+- 2777 — доска́ — accent tonique manquant : висит, гладильная
+- 2902 — заинтере́совать — champ mot différent de la source; accent tonique manquant : заинтере
+- 2908 — взлома́ть — aucune réponse exploitable : fiche source conservée
+- 2909 — огра́бить — aucune réponse exploitable : fiche source conservée
+- 2919 — использо́вание — champ mot différent de la source
+- 2925 — до́рого — exemple sans le mot : « Э́тот рестора́н сли́шком до́rego мне обхо́дится. »
+- 2934 — верши́на — aucune réponse exploitable : fiche source conservée
+- 2935 — нехорошо́ — aucune réponse exploitable : fiche source conservée
+- 2949 — го́спиталь — tournure sans le mot : « в го́спитале »; exemple sans le mot : « По́сле опера́ции он провёл ме́сяц в го́спитале. »
+- 2976 — стресс — champ mot différent de la source
+- 2977 — убра́ться — champ mot différent de la source
+- 2978 — сни́ться — champ mot différent de la source
+- 2979 — помеще́ние — champ mot différent de la source
+- 2980 — отложи́ть — champ mot différent de la source
