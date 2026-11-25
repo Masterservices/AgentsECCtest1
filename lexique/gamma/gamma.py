@@ -35,7 +35,8 @@ def contient(texte, formes):
 VOY = set('аеёиоуыэюяАЕЁИОУЫЭЮЯ')
 def sans_accent(texte):
     m = []
-    for w in re.findall(r"[А-Яа-яЁё́-]+", unicodedata.normalize('NFD', texte)):
+    # En NFD, ё = е + U+0308 et й = и + U+0306 : ces signes doivent rester dans le mot.
+    for w in re.findall(r"[А-Яа-яЁё́̆̈-]+", unicodedata.normalize('NFD', texte)):
         w2 = unicodedata.normalize('NFC', w)
         if sum(c in VOY for c in w2) > 1 and '́' not in w and 'ё' not in w2 and 'Ё' not in w2:
             m.append(w2)
@@ -170,6 +171,13 @@ def traiter_tome(tome):
                 json.dump({'bon': bon, 'meilleur': meilleur}, fh, ensure_ascii=False)
                 fh.flush(); os.fsync(fh.fileno())
             os.replace(tmp, etat_p)  # écriture atomique : jamais de fichier tronqué
+    # Revalidation locale (sans Dialagram) des meilleures tentatives, après toute correction du vérificateur.
+    for r in list(meilleur):
+        if r in S and r not in bon:
+            F = verifier(meilleur[r]['fiche'], S[r])
+            if not F: bon[r] = meilleur[r]['fiche']
+            else: meilleur[r].update(n=len(F), fautes=F)
+    sauver()
     for tour in range(TOURS):
         reste = [r for r in S if r not in bon]
         if not reste: break
