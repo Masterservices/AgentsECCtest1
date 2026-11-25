@@ -6,10 +6,13 @@ Correction des fiches « 10 000 mots » par Dialagram (modèle qwen-3.8-max-thin
 
 | Tome | Fiches | Conformes | Impossibles | Appels Dialagram | Tokens envoyés | Tokens reçus |
 |---|---|---|---|---|---|---|
-| fr-t1 | 1000 | 950 | 50 | 228 | 2 890 537 | 3 808 603 |
-| ru-t1 | 1000 | 961 | 39 | 202 | 2 151 960 | 2 625 912 |
+| fr-t1 | 1 000 | 950 | 50 | 228 | 2 890 537 | 3 808 603 |
+| ru-t1 | 1 000 | 961 | 39 | 202 | 2 151 960 | 2 625 912 |
+| fr-t2 | 1 000 | 957 | 43 | 170 | 2 556 415 | 3 554 159 |
+| ru-t2 | 1 000 | 987 | 13 | 140 | 2 162 004 | 2 846 196 |
+| **Total** | **4 000** | **3 855** | **145** | **740** | **9 760 916** | **12 834 870** |
 
-Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue par la limite de 2 h puis par un redémarrage du conteneur) n’a pas laissé de compteur ; son coût réel est donc supérieur au chiffre indiqué.
+Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue par la limite de 2 h puis par un redémarrage du conteneur) n’a pas laissé de compteur ; son coût réel est donc supérieur.
 
 ## Règles de tolérance appliquées
 
@@ -118,3 +121,65 @@ Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue
 - 885 — шта́т — accent tonique manquant : двести, своего
 - 910 — власть — accent tonique manquant : Местная, местная
 - 970 — програ́мма — accent tonique manquant : Нужно, ноутбук, сейчас, физику
+
+### fr-t2
+
+- 1024 — le souci — aucune réponse exploitable : fiche source conservée
+- 1038 — respecter — tournure sans le mot : « tu respects ? »
+- 1067 — quitte — aucune réponse exploitable : fiche source conservée
+- 1068 — la presse — aucune réponse exploitable : fiche source conservée
+- 1069 — le lien — aucune réponse exploitable : fiche source conservée
+- 1076 — le contrat — aucune réponse exploitable : fiche source conservée
+- 1077 — la piste — aucune réponse exploitable : fiche source conservée
+- 1078 — le respect — aucune réponse exploitable : fiche source conservée
+- 1079 — rêver — aucune réponse exploitable : fiche source conservée
+- 1080 — le sergent — aucune réponse exploitable : fiche source conservée
+- 1084 — avancer — exemple sans le mot : « La foule avançait lentement vers la sortie. »
+- 1162 — le fait — exemple sans le mot : « Il a été puni pour ses faits. »
+- 1416 — le dimanche — aucune réponse exploitable : fiche source conservée
+- 1417 — le traité — aucune réponse exploitable : fiche source conservée
+- 1418 — le millier — aucune réponse exploitable : fiche source conservée
+- 1425 — aveugle — aucune réponse exploitable : fiche source conservée
+- 1426 — le site — aucune réponse exploitable : fiche source conservée
+- 1427 — violer — aucune réponse exploitable : fiche source conservée
+- 1428 — l'immeuble (m) — aucune réponse exploitable : fiche source conservée
+- 1436 — examiner — aucune réponse exploitable : fiche source conservée
+- 1437 — annoncer — aucune réponse exploitable : fiche source conservée
+- 1440 — le cadavre — tournure sans le mot : « trois cadavres »; exemple sans le mot : « Après la fête, trois cadavres traînaient sur la table. »
+- 1486 — la distance — aucune réponse exploitable : fiche source conservée
+- 1487 — l'épisode (m) — aucune réponse exploitable : fiche source conservée
+- 1488 — l'aéroport (m) — aucune réponse exploitable : fiche source conservée
+- 1496 — la protection — aucune réponse exploitable : fiche source conservée
+- 1497 — meurtrier — aucune réponse exploitable : fiche source conservée
+- 1498 — correspondre — aucune réponse exploitable : fiche source conservée
+- 1523 — la barre — exemple sans le mot : « J'ai acheté deux barres de chocolat. »
+- 1530 — abattre — exemple sans le mot : « Cette nouvelle les a abattus. »
+- 1550 — la puce — aucune réponse exploitable : fiche source conservée
+- 1578 — le terroriste / la terroriste — champ mot différent de la source
+- 1580 — l'usine (f) — champ mot différent de la source
+- 1583 — l'amitié (f) — champ mot différent de la source
+- 1762 — le masque — exemple hors 4–10 mots : « Il a enfin tombé le masque et montré son vrai visage. »
+- 1841 — convenir — tournure sans le mot : « nous sommes convenus »; exemple sans le mot : « Nous sommes convenus de partir. »
+- 1842 — l'écran (m) — exemple sans le mot : « Elle rêve de devenir une star. »
+- 1844 — écraser — exemple sans le mot : « L'équipe locale a été écrasée. »; exemple sans le mot : « Fais attention aux escargots ici. »
+- 1846 — la poitrine — exemple sans le mot : « Allaiter son bébé au sein. »
+- 1849 — repérer — tournure sans le mot : « elle s'est repérée »
+- 1866 — demi — exemple sans le mot : « Deux demis, s'il vous plaît ! »
+- 1933 — le sorcier — exemple sans le mot : « Les rituels sorciers étaient interdits par l'Église. »
+- 1939 — la figure — exemple sans le mot : « Elle fait de la danse et réalise figures. »
+
+### ru-t2
+
+- 1008 — изве́стный — exemple sans le mot : « При изве́стных усло́виях э́то возмо́жно. »
+- 1010 — наконе́ц-то — accent tonique manquant : наконец-то
+- 1065 — во́зраст — aucune réponse exploitable : fiche source conservée
+- 1066 — ошиба́ться — aucune réponse exploitable : fiche source conservée
+- 1067 — призна́ть — aucune réponse exploitable : fiche source conservée
+- 1068 — лес — aucune réponse exploitable : fiche source conservée
+- 1069 — научи́ться — aucune réponse exploitable : fiche source conservée
+- 1446 — гей — accent tonique manquant : Гей-гей, гей-гей, дружище
+- 1447 — па́хнуть — accent tonique manquant : будем, будет, будете, будешь, будут, сыростью
+- 1449 — ю́ный — accent tonique manquant : большом, натуралисты
+- 1450 — цвето́к — accent tonique manquant : Маленький, золотые, искусственные, комнатные, один, подоконнике, редкие
+- 1469 — приезжа́ть — accent tonique manquant : будем, будет, будете, будешь, будут, через
+- 1561 — ёто — champ mot différent de la source
