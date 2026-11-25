@@ -12,7 +12,9 @@ Correction des fiches « 10 000 mots » par Dialagram (modèle qwen-3.8-max-thin
 | ru-t2 | 1 000 | 987 | 13 | 140 | 2 162 004 | 2 846 196 |
 | fr-t3 | 1 000 | 904 | 96 | 195 | 2 883 019 | 4 989 644 |
 | ru-t3 | 1 000 | 970 | 30 | 125 | 2 046 082 | 3 017 401 |
-| **Total** | **6 000** | **5 729** | **271** | **1 060** | **14 690 017** | **20 841 915** |
+| fr-t4 | 1 000 | 943 | 57 | 208 | 2 921 734 | 4 937 443 |
+| ru-t4 | 1 000 | 973 | 27 | 169 | 2 544 774 | 4 025 541 |
+| **Total** | **8 000** | **7 645** | **355** | **1 437** | **20 156 525** | **29 804 899** |
 
 Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue par la limite de 2 h puis par un redémarrage du conteneur) n’a pas laissé de compteur ; son coût réel est donc supérieur.
 
@@ -317,3 +319,93 @@ Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue
 - 2978 — сни́ться — champ mot différent de la source
 - 2979 — помеще́ние — champ mot différent de la source
 - 2980 — отложи́ть — champ mot différent de la source
+
+### fr-t4
+
+- 3016 — le photographe / la — champ mot différent de la source
+- 3018 — l'effraction (f) — champ mot différent de la source
+- 3025 — l'administration (f) — champ mot différent de la source
+- 3044 — la correction — aucune réponse exploitable : fiche source conservée
+- 3049 — la résidence — aucune réponse exploitable : fiche source conservée
+- 3050 — le baron — aucune réponse exploitable : fiche source conservée
+- 3051 — la banane — aucune réponse exploitable : fiche source conservée
+- 3052 — opposer — aucune réponse exploitable : fiche source conservée
+- 3058 — le festival — aucune réponse exploitable : fiche source conservée
+- 3059 — le drame — aucune réponse exploitable : fiche source conservée
+- 3060 — la foire — aucune réponse exploitable : fiche source conservée
+- 3061 — le compromis — aucune réponse exploitable : fiche source conservée
+- 3062 — quelques-uns — aucune réponse exploitable : fiche source conservée
+- 3068 — approuver — aucune réponse exploitable : fiche source conservée
+- 3080 — la garantie — aucune réponse exploitable : fiche source conservée
+- 3088 — l'exposition (f) — aucune réponse exploitable : fiche source conservée
+- 3089 — la patate — aucune réponse exploitable : fiche source conservée
+- 3090 — la punition — aucune réponse exploitable : fiche source conservée
+- 3099 — adapter — aucune réponse exploitable : fiche source conservée
+- 3100 — la libération — aucune réponse exploitable : fiche source conservée
+- 3179 — la pince — exemple sans le mot : « Accroche le linge avec des pinces. »; exemple sans le mot : « Enlève tes sales pinces de là ! »
+- 3185 — surmonter — tournure sans le mot : « nous surmonterons »; exemple sans le mot : « Des nuages noirs surmontaient la haute montagne. »
+- 3186 — baigner — aucune réponse exploitable : fiche source conservée
+- 3187 — la montée — aucune réponse exploitable : fiche source conservée
+- 3357 — bâtir — exemple sans le mot : « Elle bâtit sa carrière avec persévérance. »; exemple sans le mot : « La couturière bâtit l'ourlet rapidement. »
+- 3371 — décembre (m) — aucune réponse exploitable : fiche source conservée
+- 3372 — la tomate — aucune réponse exploitable : fiche source conservée
+- 3373 — cinquième — aucune réponse exploitable : fiche source conservée
+- 3374 — l'évènement (m) — aucune réponse exploitable : fiche source conservée
+- 3384 — le bouquin — tournure sans le mot : « chez le bouquiniste »
+- 3413 — le verdict — aucune réponse exploitable : fiche source conservée
+- 3414 — électronique — aucune réponse exploitable : fiche source conservée
+- 3415 — pêcher — aucune réponse exploitable : fiche source conservée
+- 3417 — vexer — tournure sans le mot : « elle s'est vexée »; exemple sans le mot : « Elle s'est vexée contre toi. »
+- 3422 — désigner — tournure sans le mot : « ils ne désignent pas »
+- 3423 — entretenir — tournure sans le mot : « il n'entretient pas »; tournure sans le mot : « ils ne s'entretiennent pas »
+- 3438 — le nichon — exemple mal formé; exemple mal formé
+- 3439 — la meuf — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 3440 — fun — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 3441 — la cocaïne — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 3442 — la villa — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 3473 — la baie — exemple sans le mot : « Attention, certaines baies sauvages sont très toxiques. »
+- 3606 — l’étiquette (f) — champ mot différent de la source
+- 3608 — l’évolution (f) — champ mot différent de la source
+- 3694 — la passerelle — champ mot différent de la source
+- 3696 — le centime — champ mot différent de la source
+- 3726 — l’allumette (f) — champ mot différent de la source
+- 3759 — le protecteur / la — champ mot différent de la source
+- 3788 — l’allure (f) — champ mot différent de la source
+- 3791 — raide — expression sans le mot : « avoir les jambes raides »
+- 3896 — le caillou — exemple sans le mot : « Ребёнок броси́л ка́мешек в во́ду. »; exemple sans le mot : « Осторо́жно, на доро́жке лежа́т ка́мни. »; exemple sans le mot : « Я стукну́лся башко́й о две́рь. »; exemple sans le mot : « У э́того математика све́тлая башка́! »
+- 3897 — la carotte — exemple sans le mot : « Я купи́л килогра́мм морко́ви на ры́нке. »; exemple sans le mot : « Кро́лики обожа́ют есть морко́вку. »; exemple sans le mot : « Э́тот контра́кт — сплошно́й обма́н! »; exemple sans le mot : « Он обма́нул меня́ э́той морко́вкой. »
+- 3898 — dresser — exemple sans le mot : « Он успе́шно выдрессирова́л соба́ку за не́сколько неде́ль. »; exemple sans le mot : « Дикое живо́тное нельзя́ легко́ выдрессирова́ть. »; exemple sans le mot : « Они́ поста́вили пала́тку в саду́. »; exemple sans le mot : « Они́ возво́дят кирпи́чную сте́ну. »; exemple sans le mot : « Полице́йский бы́стро соста́вил протоко́л о наруше́нии. »; exemple sans le mot : « На́до соста́вить спи́сок госте́й. »; exemple sans le mot : « Мо́жешь накры́ть на стол к у́жину? »; exemple sans le mot : « Стол уже́ накры́т к у́жину. »; exemple sans le mot : « Наро́д восста́л про́тив тирана. »; exemple sans le mot : « Перед на́ми вы́сится высо́кая гора́. »
+- 3899 — le cartel — exemple sans le mot : « Правительство бо́рется с наркокартеля́ми. »; exemple sans le mot : « Ко́мпании образова́ли карте́ль для фикса́ции цен. »; exemple sans le mot : « Он отпра́вил вы́зов на дуэ́ль противнику. »; exemple sans le mot : « Он получи́л вы́зов и был вы́нужден дра́ться. »; exemple sans le mot : « Великоле́пные стенны́е часы́ украша́ют гости́ную. »; exemple sans le mot : « Позоло́ченные дере́вянные часы́ проби́ли по́лдень. »
+- 3903 — évaluer — exemple sans le mot : « Преподава́тель оце́нит ва́шу рабо́ту. »; exemple sans le mot : « Тру́дно оце́нить влия́ние э́того реше́ния. »; exemple sans le mot : « Экспе́рт оце́нил уще́рб в де́сять ты́сяч е́вро. »; exemple sans le mot : « Населе́ние го́рода оце́нивается в два миллиона. »
+- 3909 — le réfugié — tournure sans le mot : « un camp de réfugiés »
+- 3911 — le baby-sitter / la — champ mot différent de la source
+
+### ru-t4
+
+- 3012 — я́блоко — aucune réponse exploitable : fiche source conservée
+- 3014 — облада́ть — aucune réponse exploitable : fiche source conservée
+- 3032 — спор — aucune réponse exploitable : fiche source conservée
+- 3064 — соотве́тствовать — tournure sans le mot : « мы не correspond? »; exemple sans le mot : « Цвет штор correspond? »; exemple sans le mot : « Э́та до́лжность correspond... »; exemple sans le mot : « Ру́сское «ты» не всегда́ correspond... »
+- 3071 — проде́лать — expression sans le mot : « пrodéлать ды́рку »
+- 3076 — нужда́ — aucune réponse exploitable : fiche source conservée
+- 3077 — заво́д — aucune réponse exploitable : fiche source conservée
+- 3078 — мгнове́ние — aucune réponse exploitable : fiche source conservée
+- 3081 — обма́н — exemple sans le mot : « Вне́шность ча́сто обма́нывает люде́й. »
+- 3116 — мышь — accent tonique manquant : кнопке, серая
+- 3178 — относи́тельно — exemple sans le mot : « У меня́ есть вопро́сыRelative »; exemple sans . ! ? à la fin : « У меня́ есть вопро́сыRelative »; exemple sans le mot : « Он сказа́л не́сколько словRelative »; exemple sans . ! ? à la fin : « Он сказа́л не́сколько словRelative »; exemple sans le mot : « Це́ны здесьRelative »; exemple hors 3–10 mots : « Це́ны здесьRelative »; exemple sans le mot : « Э́та зада́чаRelative »; exemple hors 3–10 mots : « Э́та зада́чаRelative »; exemple hors 3–10 mots : « Относи́тельно про́шлогоRelative »; exemple hors 3–10 mots : « Относи́тельно други́хRelative »
+- 3181 — досто́инство — aucune réponse exploitable : fiche source conservée
+- 3182 — электро́нный — aucune réponse exploitable : fiche source conservée
+- 3183 — премье́р-мини́стр — aucune réponse exploitable : fiche source conservée
+- 3184 — переоде́ться — aucune réponse exploitable : fiche source conservée
+- 3190 — рассмотре́ть — aucune réponse exploitable : fiche source conservée
+- 3406 — любо́вный — exemple sans le mot : « Они́ пережива́ли любо́вную дра́му. »
+- 3423 — воспринима́ть — tournure sans le mot : « я воспринима́ю »; tournure sans le mot : « я не воспринима́ю »; tournure sans le mot : « ты воспринима́ешь? »; exemple sans le mot : « Де́ти воспринима́ют мир ина́че, чем взро́слые. »; exemple sans le mot : « Он пло́хо воспринима́ет информа́цию на слух. »; exemple sans le mot : « Пу́блика воспринима́ла его́ речь с энтузиа́змом. »; exemple sans le mot : « Студе́нты воспринима́ют но́вый материа́л по-ра́зному. »; exemple sans le mot : « Она́ бы́стро воспринима́ет чужи́е иде́и. »
+- 3424 — состоя́ться — exemple sans le mot : « Он состоя́лся как учёный. »
+- 3427 — револю́ция — accent tonique manquant : началась, общении
+- 3435 — воева́ть — tournure sans le mot : « я вою́ю »; tournure sans le mot : « я не вою́ю »; tournure sans le mot : « ты вою́ешь? »; tournure sans le mot : « вою́й ! »; exemple sans le mot : « Он воева́л на фро́нте три го́да. »; exemple sans le mot : « Страны́ воева́ли друг с дру́гом мно́го лет. »; exemple sans le mot : « Врачи́ вою́ют с гри́ппом. »
+- 3481 — посвя́тить — champ mot différent de la source
+- 3494 — стари́на — champ mot différent de la source
+- 3689 — бедро́ — expression sans le mot : « перело́м ше́йки бедра́ »
+- 3707 — вре́менно — exemple sans le mot : « Э́то реше́ние де́йствует то́лько вре́ленно. »
+- 3715 — пробы́ть — tournure sans le mot : « я пробы́ду »; tournure sans le mot : « я не пробы́ду »; tournure sans le mot : « ты пробы́дешь? »
+- 3947 — администра́ция — accent tonique manquant : местная
