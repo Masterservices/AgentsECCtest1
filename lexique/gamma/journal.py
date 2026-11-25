@@ -32,7 +32,9 @@ for t, b in B.items():
     L.append(f'| {t} | ' + ' | '.join(n(x) for x in v) + ' |')
 L.append('| **Total** | ' + ' | '.join(f'**{n(x)}**' for x in tot) + ' |')
 L += ['', 'Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue par la limite de 2 h '
-      'puis par un redémarrage du conteneur) n’a pas laissé de compteur ; son coût réel est donc supérieur.', '',
+      'puis par un redémarrage du conteneur) n’a pas laissé de compteur ; son coût réel est donc supérieur. '
+      'Même cas pour fr-t6 : la première passe (arrêtée par la limite de 2 h avec 844 fiches conformes) '
+      'n’est pas comptée, seule la reprise l’est.', '',
       '## Règles de tolérance appliquées', '',
       '- Exemples russes : 3 à 10 mots acceptés (le prompt de référence contient « Я хочу́ пить. »). Exemples français : 4 à 10 mots.',
       '- Accent tonique russe : au plus 1 mot polysyllabique sans accent toléré par fiche ; « ё » compte comme accentué.',

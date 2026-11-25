@@ -20,7 +20,7 @@ Correction des fiches « 10 000 mots » par Dialagram (modèle qwen-3.8-max-thin
 | ru-t6 | 1 000 | 902 | 98 | 288 | 4 045 830 | 7 852 689 |
 | **Total** | **12 000** | **11 401** | **599** | **2 189** | **31 072 538** | **49 370 038** |
 
-Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue par la limite de 2 h puis par un redémarrage du conteneur) n’a pas laissé de compteur ; son coût réel est donc supérieur.
+Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue par la limite de 2 h puis par un redémarrage du conteneur) n’a pas laissé de compteur ; son coût réel est donc supérieur. Même cas pour fr-t6 : la première passe (arrêtée par la limite de 2 h avec 844 fiches conformes) n’est pas comptée, seule la reprise l’est.
 
 ## Règles de tolérance appliquées
 
