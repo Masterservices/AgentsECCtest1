@@ -20,7 +20,9 @@ Correction des fiches « 10 000 mots » par Dialagram (modèle qwen-3.8-max-thin
 | ru-t6 | 1 000 | 902 | 98 | 288 | 4 045 830 | 7 852 689 |
 | fr-t7 | 1 000 | 922 | 78 | 224 | 3 020 353 | 5 693 626 |
 | ru-t7 | 1 000 | 962 | 38 | 272 | 3 858 448 | 6 991 612 |
-| **Total** | **14 000** | **13 285** | **715** | **2 685** | **37 951 339** | **62 055 276** |
+| fr-t8 | 1 000 | 920 | 80 | 254 | 3 453 296 | 6 298 446 |
+| ru-t8 | 1 000 | 944 | 56 | 238 | 3 330 473 | 5 624 955 |
+| **Total** | **16 000** | **15 149** | **851** | **3 177** | **44 735 108** | **73 978 677** |
 
 Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue par la limite de 2 h puis par un redémarrage du conteneur) n’a pas laissé de compteur ; son coût réel est donc supérieur. Même cas pour fr-t6 : la première passe (arrêtée par la limite de 2 h avec 844 fiches conformes) n’est pas comptée, seule la reprise l’est.
 
@@ -793,3 +795,145 @@ Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue
 - 6895 — добира́ться — accent tonique manquant : будем, будет, будете, будешь, будут
 - 6906 — семе́йка — accent tonique manquant : Местная, местная
 - 6974 — воссоедине́ние — tournure sans le mot : « по́сле воссоедине́ния »; tournure sans le mot : « ждать воссоедине́ния »
+
+### fr-t8
+
+- 7007 — acquitter — aucune réponse exploitable : fiche source conservée
+- 7008 — refouler — aucune réponse exploitable : fiche source conservée
+- 7009 — déserter — aucune réponse exploitable : fiche source conservée
+- 7010 — envelopper — aucune réponse exploitable : fiche source conservée
+- 7018 — le combustible — aucune réponse exploitable : fiche source conservée
+- 7020 — la contrefaçon — aucune réponse exploitable : fiche source conservée
+- 7029 — symbolique — aucune réponse exploitable : fiche source conservée
+- 7030 — bienveillant — aucune réponse exploitable : fiche source conservée
+- 7081 — impénétrable — aucune réponse exploitable : fiche source conservée
+- 7111 — expérimenter — aucune réponse exploitable : fiche source conservée
+- 7137 — bis — aucune réponse exploitable : fiche source conservée
+- 7164 — frontal — aucune réponse exploitable : fiche source conservée
+- 7165 — asperger — aucune réponse exploitable : fiche source conservée
+- 7171 — l'insuffisance (f) — aucune réponse exploitable : fiche source conservée
+- 7172 — le créneau — aucune réponse exploitable : fiche source conservée
+- 7173 — contester — aucune réponse exploitable : fiche source conservée
+- 7236 — viral — exemple sans le mot : « Les antibiotiques sont inefficaces ici. »
+- 7316 — languir — aucune réponse exploitable : fiche source conservée
+- 7317 — la camelote — exemple hors 4–10 mots : « La camelote qu'il a achetée s'est cassée aujourd'hui. »
+- 7322 — le ping-pong — aucune réponse exploitable : fiche source conservée
+- 7323 — le potassium — aucune réponse exploitable : fiche source conservée
+- 7324 — le visionnaire / la — aucune réponse exploitable : fiche source conservée
+- 7334 — le gaspillage — exemple hors 4–10 mots : « C’est un gaspillage d’énergie que de laisser la lumière. »
+- 7371 — l'argenterie (f) — exemple hors 4–10 mots : « Elle a hérité de toute l'argenterie de sa grand-mère. »
+- 7510 — le chômeur — exemple sans le mot : « Le nombre de chômeurs a augmenté ce trimestre. »
+- 7532 — l’allocation (f) — champ mot différent de la source
+- 7663 — docile — aucune réponse exploitable : fiche source conservée
+- 7664 — le scélérat — aucune réponse exploitable : fiche source conservée
+- 7665 — éblouissant — aucune réponse exploitable : fiche source conservée
+- 7666 — empocher — aucune réponse exploitable : fiche source conservée
+- 7667 — la transe — aucune réponse exploitable : fiche source conservée
+- 7670 — désespérer — exemple sans le mot : « Ces nouvelles désespèrent les médecins. »
+- 7675 — adhérer — exemple sans le mot : « Ces jeunes adhèrent à cette idée. »
+- 7682 — incendiaire — aucune réponse exploitable : fiche source conservée
+- 7683 — la gouttière — aucune réponse exploitable : fiche source conservée
+- 7684 — l'activiste (m/f) — aucune réponse exploitable : fiche source conservée
+- 7685 — fonctionnel — aucune réponse exploitable : fiche source conservée
+- 7686 — l'archevêque (m) — aucune réponse exploitable : fiche source conservée
+- 7688 — schizophrène — aucune réponse exploitable : fiche source conservée
+- 7689 — nomade — aucune réponse exploitable : fiche source conservée
+- 7690 — dilater — aucune réponse exploitable : fiche source conservée
+- 7691 — le quark — aucune réponse exploitable : fiche source conservée
+- 7739 — thaï — aucune réponse exploitable : fiche source conservée
+- 7747 — confiner — aucune réponse exploitable : fiche source conservée
+- 7748 — le foutoir — aucune réponse exploitable : fiche source conservée
+- 7749 — potable — aucune réponse exploitable : fiche source conservée
+- 7750 — pendu — aucune réponse exploitable : fiche source conservée
+- 7761 — glousser — exemple sans le mot : « Les adolescentes gloussaient en regardant le film. »
+- 7764 — la phobie — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7765 — le malfrat — exemple mal formé; exemple mal formé
+- 7766 — éclore — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7767 — le capitalisme — exemple mal formé; exemple mal formé
+- 7768 — le pus — exemple mal formé; exemple mal formé
+- 7769 — l'insolence (f) — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7770 — la captivité — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7771 — médiatique — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7772 — le ressentiment — exemple mal formé; exemple mal formé
+- 7773 — délibéré — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7774 — le jingle — exemple mal formé; exemple mal formé
+- 7775 — faxer — exemple mal formé; exemple mal formé
+- 7790 — crasher — exemple sans le mot : « Наш самолёт разбился вчера́ ве́чером. »; exemple sans le mot : « Э́та маши́на разбилась о сте́ну. »; exemple sans le mot : « Мо́й компью́тер зави́с о́чень внеза́пно. »; exemple sans le mot : « Э́то приложе́ние сно́ва вылета́ет. »; exemple sans le mot : « Они́ заяви́лись на э́ту вечери́нку. »; exemple sans le mot : « Мы заяви́лись на их сва́дьбу. »
+- 7795 — encourageant — exemple hors 4–10 mots : « Elle m'a regardé avec un air encourageant avant l'entretien. »
+- 7811 — l'asphyxie (f) — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7812 — le vandalisme — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7813 — l'anonymat (m) — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7814 — le derby — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7815 — la sobriété — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7849 — la tuile — aucune réponse exploitable : fiche source conservée
+- 7850 — le rouble — aucune réponse exploitable : fiche source conservée
+- 7853 — l'icône (f) — exemple sans le mot : « Le musée expose des icônes rares. »
+- 7860 — fiancer — tournure sans le mot : « ils se fiancent »; tournure sans le mot : « elle s'est fiancée »; exemple sans le mot : « Ils se sont fiancés l'été dernier. »; exemple sans le mot : « Elle s'est fiancée en juin. »
+- 7865 — puiser — tournure sans le mot : « tu puiseras ta force »
+- 7898 — l'accomplissement (m) — moins de 2 exemples pour un sens
+- 7900 — nuptial — aucune réponse exploitable : fiche source conservée
+- 7901 — l'oreillette (f) — aucune réponse exploitable : fiche source conservée
+- 7902 — rénover — aucune réponse exploitable : fiche source conservée
+- 7909 — le furet — aucune réponse exploitable : fiche source conservée
+- 7950 — frisé — aucune réponse exploitable : fiche source conservée
+- 7962 — le prostitué / la prostituée — tournure sans le mot : « artiste prostitué »; exemple sans le mot : « Il a été condamné pour exploitation de prostitués. »; exemple sans le mot : « Un artiste prostitué sacrifie son talent pour l'argent. »; expression sans le mot : « talent prostitué »
+- 7966 — le téléspectateur / la — champ mot différent de la source; tournure sans le mot : « jeunes téléspectateurs »; exemple sans le mot : « Cette émission vise les jeunes téléspectateurs. »; exemple sans le mot : « Le journal télévisé perd des téléspectateurs chaque année. »
+
+### ru-t8
+
+- 7006 — кули́са — exemple mal formé; exemple mal formé; accent tonique manquant : из-за
+- 7008 — выража́ться — expression sans le mot : « неExpressions »
+- 7009 — ло́пнуть — exemple sans le mot : « Хва́тит ло́пать, ты уже́ сыт! »
+- 7010 — грабёж — accent tonique manquant : дерзкий
+- 7017 — продвиже́ние — tournure sans le mot : « в продвиже́нии »
+- 7071 — шуми́ха — accent tonique manquant : Вокруг, из-за, лишней
+- 7074 — головокруже́ние — accent tonique manquant : После, чувствовать
+- 7285 — возбужде́ние — accent tonique manquant : нервное, сильное
+- 7301 — реша́ющий — exemple sans le mot : « Он вы́играл в реша́ющем ра́унде. »; exemple sans le mot : « Его́ реше́ние ста́ло реша́ющем? »
+- 7313 — сыро́й — exemple sans le mot : « Карто́фель оста́лся сыры́м. »
+- 7320 — куро́рт — aucune réponse exploitable : fiche source conservée
+- 7349 — однокла́ссник — tournure sans le mot : « встре́тить однокла́ссника »; tournure sans le mot : « однокла́ссники в шко́ле »; tournure sans le mot : « позвони́ть однокла́сснику »; exemple sans le mot : « Однокла́ссники помогли́ мне с дома́шним зада́нием. »; exemple sans le mot : « Мои́ однокла́ссники до сих пор дру́жат со мно́й. »
+- 7361 — поню́хать — tournure sans le mot : « я поню́хаю »; tournure sans le mot : « я не поню́хаю »; tournure sans le mot : « ты поню́хаешь? »; tournure sans le mot : « он поню́хал »; tournure sans le mot : « поню́хай »; exemple sans le mot : « Поню́хай э́ти цветы́, они́ о́чень кра́сиво па́хнут. »; exemple sans le mot : « Он поню́хал молоко́ и поня́л, что оно́ проки́сло. »; exemple sans le mot : « Он поню́хал таба́к, как в ста́рых рома́нах. »; exemple sans le mot : « Не́которые лю́ди поню́хали кока́ин на вечери́нке. »
+- 7362 — тро́ица — champ mot différent de la source; tournure sans le mot : « Пра́здник Тро́ицы »; exemple sans le mot : « Пра́здник Свято́й Тро́ицы отмеча́ется в июне́. »; carte invalide (recto = mot, verso = traduction)
+- 7363 — обвини́тель — tournure sans le mot : « стать обвини́телем »; exemple sans le mot : « Он стал обвини́телем сво́их бы́вших друзе́й. »
+- 7364 — презре́ние — tournure sans le mot : « по́лно презре́ния »; exemple sans le mot : « Его́ слова́ бы́ли по́лны презре́ния к сла́бым. »
+- 7365 — червото́чина — tournure sans le mot : « червото́чины в де́реве »; exemple sans le mot : « Ста́рый стол был покры́т червото́чинами. »; exemple sans le mot : « Учёные обсужда́ют возмо́жность существова́ния червото́чин. »
+- 7367 — взду́маться — tournure sans le mot : « взду́мается уйти́ »; exemple sans le mot : « Е́сли ему́ взду́мается, он всё испо́ртит. »
+- 7370 — пейза́ж — exemple sans le mot : « Ши́шкин знамени́т свои́ми пейза́жами. »
+- 7371 — разгу́ливать — tournure sans le mot : « я разгу́ливаю »; tournure sans le mot : « я не разгу́ливаю »; tournure sans le mot : « ты разгу́ливаешь? »; tournure sans le mot : « он разгу́ливает »; exemple sans le mot : « Он це́лый день разгу́ливает по па́рку. »; exemple sans le mot : « Тури́сты разгу́ливали по ста́рому го́роду до ве́чера. »; exemple sans le mot : « Кот разгу́ливает по всей кварти́ре, где захо́чет. »; exemple sans le mot : « Престу́пники разгу́ливают на свобо́де. »
+- 7372 — тону́ть — tournure sans le mot : « я тону́ »; tournure sans le mot : « я не тону́ »; tournure sans le mot : « ты то́нешь? »; tournure sans le mot : « кора́бль то́нет »; exemple sans le mot : « Кора́бль ме́дленно тону́л в холодном мо́ре. »; exemple sans le mot : « Тяжёлые ка́мни бы́стро то́нут в воде́. »; exemple sans le mot : « Го́род тону́л в густо́м тумане́. »; exemple sans le mot : « Она́ тону́ла в рабо́те и не отвеча́ла на звонки́. »
+- 7435 — су́зить — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7436 — ги́дра — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7438 — артилле́рия — accent tonique manquant : зенитная, огонь, части
+- 7445 — похвала́ — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7446 — завербова́ть — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 7447 — незначи́тельный — tournures absentes ou hors 4–6; exemple sans le mot : « Э́то незначи́тельная дета́ль, не обраща́й внима́ния. »; exemple sans le mot : « Э́та ра́зница совсе́м незначи́тельна. »; exemple sans le mot : « Боль по́сле опера́ции была́ незначи́тельна. »; exemple sans le mot : « Повыше́ние температу́ры сего́дня незначи́тельно. »; moins de 2 exemples pour un sens; exemple sans le mot : « Он insignificant... »; exemple hors 3–10 mots : « Он insignificant... »; expressions absentes; champ homographes absent; registre absent ou invalide; carte invalide (recto = mot, verso = traduction); formes absentes
+- 7448 — ко́довый — aucune réponse exploitable : fiche source conservée
+- 7449 — потора́пливаться — aucune réponse exploitable : fiche source conservée
+- 7450 — тролль — aucune réponse exploitable : fiche source conservée
+- 7456 — руче́й — accent tonique manquant : литься, маленький
+- 7501 — восхо́д — exemple sans le mot : « Он не ви́дел восхо́двое́й сла́вы. »
+- 7505 — обнаруже́ние — accent tonique manquant : Радар, было
+- 7518 — поля́к — aucune réponse exploitable : fiche source conservée
+- 7519 — ча́йка — aucune réponse exploitable : fiche source conservée
+- 7520 — перл — aucune réponse exploitable : fiche source conservée
+- 7521 — сеньори́та — aucune réponse exploitable : fiche source conservée
+- 7522 — непохо́жий — aucune réponse exploitable : fiche source conservée
+- 7523 — нулево́й — aucune réponse exploitable : fiche source conservée
+- 7529 — вы́рубиться — aucune réponse exploitable : fiche source conservée
+- 7544 — мори́ть — accent tonique manquant : бесконечными, долгим
+- 7558 — низ — tournure sans le mot : « сни́зу до ве́рху »; accent tonique manquant : испачкался, частот
+- 7560 — рва́ться — accent tonique manquant : из-за, они
+- 7689 — по́пусту — formes absentes
+- 7700 — роде́о — expression sans le mot : « на роде́о »
+- 7727 — порази́тельный — exemple sans le mot : « Мы уви́дели порази́тельную карти́ну рассве́та над го́рами. »
+- 7817 — носово́й — accent tonique manquant : полость
+- 7821 — воскре́сный — exemple sans le mot : « Мы смотре́ли воскре́сную програ́мму по телеви́зору вчера́. »
+- 7830 — тра́ур — tournure sans le mot : « быть в тра́уре »; exemple sans le mot : « В тра́уре она́ пришла́ на похоро́ны. »
+- 7833 — первокла́ссный — tournure sans le mot : « первокла́ссно сде́лать »
+- 7916 — пове́рх — formes absentes
+- 7917 — су́ша — accent tonique manquant : После, между, наконец, небом
+- 7918 — покраси́ть — accent tonique manquant : покрась, покрасьте
+- 7919 — одеколо́н — accent tonique manquant : Раньше, Этот
+- 7948 — круглосу́точно — formes absentes
+- 7981 — продуќция — champ mot différent de la source
