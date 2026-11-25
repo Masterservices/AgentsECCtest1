@@ -22,7 +22,9 @@ Correction des fiches « 10 000 mots » par Dialagram (modèle qwen-3.8-max-thin
 | ru-t7 | 1 000 | 962 | 38 | 272 | 3 858 448 | 6 991 612 |
 | fr-t8 | 1 000 | 920 | 80 | 254 | 3 453 296 | 6 298 446 |
 | ru-t8 | 1 000 | 944 | 56 | 238 | 3 330 473 | 5 624 955 |
-| **Total** | **16 000** | **15 149** | **851** | **3 177** | **44 735 108** | **73 978 677** |
+| fr-t9 | 1 000 | 916 | 84 | 217 | 2 999 187 | 5 317 422 |
+| ru-t9 | 1 000 | 972 | 28 | 232 | 3 349 547 | 5 950 880 |
+| **Total** | **18 000** | **17 037** | **963** | **3 626** | **51 083 842** | **85 246 979** |
 
 Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue par la limite de 2 h puis par un redémarrage du conteneur) n’a pas laissé de compteur ; son coût réel est donc supérieur. Même cas pour fr-t6 : la première passe (arrêtée par la limite de 2 h avec 844 fiches conformes) n’est pas comptée, seule la reprise l’est.
 
@@ -937,3 +939,121 @@ Coût ru-t1 : seule la reprise a été mesurée. La première passe (interrompue
 - 7919 — одеколо́н — accent tonique manquant : Раньше, Этот
 - 7948 — круглосу́точно — formes absentes
 - 7981 — продуќция — champ mot différent de la source
+
+### fr-t9
+
+- 8023 — le séparatiste / la — champ mot différent de la source
+- 8048 — la berceuse — aucune réponse exploitable : fiche source conservée
+- 8049 — la ballerine — aucune réponse exploitable : fiche source conservée
+- 8050 — le pompon — aucune réponse exploitable : fiche source conservée
+- 8054 — dégommer — aucune réponse exploitable : fiche source conservée
+- 8055 — le narrateur — aucune réponse exploitable : fiche source conservée
+- 8075 — la truie — exemple sans le mot : « Свинома́тка ко́рмит свои́х десять порося́т в хлеву́. »; exemple sans le mot : « Фе́рмер следи́т за здоро́вьем ка́ждой супоро́сной свиноматки. »; exemple sans le mot : « Он обозва́л её свиньё́й при всех. »; exemple sans le mot : « Кака́я обжо́ра! Она́ одна́ съе́ла весь торт. »
+- 8159 — agripper — exemple sans le mot : « Elle agrippa son sac avec force. »; exemple sans le mot : « Sa veste s’est agrippée à un clou. »
+- 8161 — grincer — exemple sans le mot : « Il grinçait des dents de colère. »; exemple sans le mot : « Elle a répondu d'une voix qui grinçait. »
+- 8191 — la préméditation — exemple hors 4–10 mots : « L'avocat a prouvé l'absence de préméditation chez son client. »
+- 8193 — le préjudice — exemple sans le mot : « Потерпе́вший тре́бует возмеще́ния причи́нённого уще́рба. »; exemple sans le mot : « Э́то реше́ние наноси́т серьёзный уще́рб. »; exemple sans le mot : « Он де́йствовал в уще́рб со́бственным интере́сам. »; exemple sans le mot : « Контра́кт бы́л подпи́сан в уще́рб рабо́тникам. »
+- 8194 — approprier — exemple sans le mot : « Он присво́ил иде́и своего́ ко́ллеги. »; exemple sans le mot : « Колониза́торы присво́или земли́ ме́стного населе́ния. »; exemple sans le mot : « На́до приспоса́бливать язы́к к у́ровню ученико́в. »; exemple sans le mot : « Э́то лече́ние приспосо́блено к тя́жести боле́зни. »
+- 8195 — écologique — exemple sans le mot : « Экологи́ческое равнове́сие э́того регио́на под угрозой. »; exemple sans le mot : « Иссле́дователи изуча́ют экологи́ческие после́дствия кли́мата. »; exemple sans le mot : « Мы вы́брали экологи́чный оте́ль для о́тпуска. »; exemple sans le mot : « Э́то чи́стящее сре́дство по́лностью экологи́чно. »
+- 8196 — le prêche — exemple sans le mot : « Пасто́р произнёс о́чень тро́гательную про́поведь. »; exemple sans le mot : « Веру́ющие слу́шали про́поведь в по́чтительной тишине́. »; exemple sans le mot : « Хва́тит твои́х нравоуче́ний, я зна́ю, что де́лать. »; exemple sans le mot : « Его́ вы́ступление напомина́ло обы́чное нравоуче́ние. »
+- 8257 — le single — exemple sans le mot : « Elle a gagné le simple dames à Roland-Garros. »
+- 8287 — adoucir — exemple sans le mot : « Sa colère s'est peu à peu adoucie. »
+- 8311 — accroître — tournure sans le mot : « tu accroîtras ? »
+- 8332 — la pâtée — aucune réponse exploitable : fiche source conservée
+- 8333 — amnésique — aucune réponse exploitable : fiche source conservée
+- 8334 — le/la faussaire — aucune réponse exploitable : fiche source conservée
+- 8335 — la prouesse — aucune réponse exploitable : fiche source conservée
+- 8336 — la patinoire — aucune réponse exploitable : fiche source conservée
+- 8337 — rectifier — aucune réponse exploitable : fiche source conservée
+- 8429 — l'appendice (m) — aucune réponse exploitable : fiche source conservée
+- 8435 — la carotide — expression sans le mot : « prendre le pouls carotidien »
+- 8444 — empester — exemple sans le mot : « Son haleine empestait l'alcool fort. »
+- 8446 — se carrer — exemple sans le mot : « Carrez-vous bien sur la chaise! »
+- 8450 — dégrader — exemple sans le mot : « Ces disputes dégradent leurs relations familiales. »
+- 8476 — la tunique — aucune réponse exploitable : fiche source conservée
+- 8508 — suffoquer — aucune réponse exploitable : fiche source conservée
+- 8530 — le grondement — aucune réponse exploitable : fiche source conservée
+- 8531 — la géométrie — tournure sans le mot : « j'aime la géомétrie »; tournure sans le mot : « j'étudie la géомétrie »; tournure sans le mot : « tu connais la géомétrie ? »; tournure sans le mot : « c'est de la géомétrie »; expression sans le mot : « à géомétrie variable »; carte invalide (recto = mot, verso = traduction)
+- 8532 — le podium — aucune réponse exploitable : fiche source conservée
+- 8533 — la dégustation — aucune réponse exploitable : fiche source conservée
+- 8534 — divertissant — aucune réponse exploitable : fiche source conservée
+- 8542 — le baume — aucune réponse exploitable : fiche source conservée
+- 8543 — le dindon — aucune réponse exploitable : fiche source conservée
+- 8544 — la plaquette — aucune réponse exploitable : fiche source conservée
+- 8606 — le/la pensionnaire — aucune réponse exploitable : fiche source conservée
+- 8613 — vigoureux — aucune réponse exploitable : fiche source conservée
+- 8614 — repêcher — aucune réponse exploitable : fiche source conservée
+- 8615 — embellir — aucune réponse exploitable : fiche source conservée
+- 8616 — le caddie — aucune réponse exploitable : fiche source conservée
+- 8617 — le miaou — aucune réponse exploitable : fiche source conservée
+- 8618 — appétissant — aucune réponse exploitable : fiche source conservée
+- 8639 — bohémien — aucune réponse exploitable : fiche source conservée
+- 8646 — l'orque (f) — aucune réponse exploitable : fiche source conservée
+- 8682 — étouffant — aucune réponse exploitable : fiche source conservée
+- 8683 — le tournesol — aucune réponse exploitable : fiche source conservée
+- 8684 — le juron — aucune réponse exploitable : fiche source conservée
+- 8685 — la quinzaine — aucune réponse exploitable : fiche source conservée
+- 8707 — recoucher — exemple sans le mot : « Après la fièvre, elle a dû être recouchée. »; exemple sans le mot : « Fatiguée, elle s’est recouchée dès neuf heures. »
+- 8710 — magasiner — exemple sans le mot : « Les marchandises sont magasinées ici. »
+- 8716 — le safari — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 8717 — venimeux — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 8718 — la prétention — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 8719 — néfaste — exemple mal formé; exemple mal formé
+- 8720 — le vecteur — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 8721 — épier — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 8728 — la gâterie — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 8729 — la présomption — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 8730 — décomposer — exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé; exemple mal formé
+- 8737 — inédit — aucune réponse exploitable : fiche source conservée
+- 8738 — la verrue — aucune réponse exploitable : fiche source conservée
+- 8739 — endommager — aucune réponse exploitable : fiche source conservée
+- 8757 — la perce — aucune réponse exploitable : fiche source conservée
+- 8758 — le salami — aucune réponse exploitable : fiche source conservée
+- 8759 — l'eunuque (m) — aucune réponse exploitable : fiche source conservée
+- 8760 — le poursuivant — aucune réponse exploitable : fiche source conservée
+- 8773 — le rapprochement — aucune réponse exploitable : fiche source conservée
+- 8774 — le péage — aucune réponse exploitable : fiche source conservée
+- 8797 — beige — aucune réponse exploitable : fiche source conservée
+- 8798 — limer — aucune réponse exploitable : fiche source conservée
+- 8799 — macabre — aucune réponse exploitable : fiche source conservée
+- 8800 — rallier — aucune réponse exploitable : fiche source conservée
+- 8826 — la laitue — aucune réponse exploitable : fiche source conservée
+- 8830 — pécher — tournure sans le mot : « je ne pécherai pas »
+- 8831 — flairer — tournure sans le mot : « je ne flairerai pas »
+- 8832 — accoster — tournure sans le mot : « je ne accosterai pas »
+- 8833 — morfler — tournure sans le mot : « je ne morflerai pas »; exemple hors 4–10 mots : « Tu vas morfler ! »; exemple hors 4–10 mots : « Les petits morflent. »
+- 8932 — gaver — aucune réponse exploitable : fiche source conservée
+- 8933 — l'orifice (m) — aucune réponse exploitable : fiche source conservée
+- 8934 — le titane (m) — aucune réponse exploitable : fiche source conservée
+- 8947 — perpétuer — aucune réponse exploitable : fiche source conservée
+
+### ru-t9
+
+- 8143 — опра́вдываться — aucune réponse exploitable : fiche source conservée
+- 8144 — гро́хот — aucune réponse exploitable : fiche source conservée
+- 8175 — анке́та — accent tonique manquant : сайте
+- 8242 — овладе́ть — aucune réponse exploitable : fiche source conservée
+- 8267 — личи́нка — aucune réponse exploitable : fiche source conservée
+- 8268 — предава́ть — aucune réponse exploitable : fiche source conservée
+- 8328 — ошива́ться — expression sans le mot : « ошива́ться у подъе́зда »
+- 8342 — о́м — tournure sans le mot : « в о́мах »
+- 8518 — зае́сть — aucune réponse exploitable : fiche source conservée
+- 8519 — узре́ть — aucune réponse exploitable : fiche source conservée
+- 8520 — анга́р — aucune réponse exploitable : fiche source conservée
+- 8523 — шага́ть — aucune réponse exploitable : fiche source conservée
+- 8617 — раскры́ться — aucune réponse exploitable : fiche source conservée
+- 8618 — периоди́чески — aucune réponse exploitable : fiche source conservée
+- 8622 — меньшинство́ — tournure sans le mot : « в lesserинстве́ »; tournure sans le mot : « быть в lesserинстве́ »; tournure sans le mot : « права́ lesserи́нств »; tournure sans le mot : « оста́ться в lesserинстве́ »; exemple sans le mot : « Права́ национа́льных lesserи́нств защище́ны конститу́цией. »; exemple sans le mot : « Языково́е lesserинство́ тре́бует равнопра́вия. »; expression sans le mot : « быть в lesserинстве́ »; expression sans le mot : « права́ lesserи́нств »; expression sans le mot : « национа́льное lesserинство́ »
+- 8636 — пости́чь — aucune réponse exploitable : fiche source conservée
+- 8637 — развора́чиваться — aucune réponse exploitable : fiche source conservée
+- 8640 — вальс — accent tonique manquant : вальсе
+- 8709 — феноме́н — aucune réponse exploitable : fiche source conservée
+- 8710 — ма́ния — aucune réponse exploitable : fiche source conservée
+- 8711 — вне́шне — aucune réponse exploitable : fiche source conservée
+- 8712 — компете́нция — aucune réponse exploitable : fiche source conservée
+- 8728 — стру́сить — tournure sans le mot : « я не стру́шу »; tournure sans le mot : « мы не стру́сим »
+- 8768 — подавля́ть — aucune réponse exploitable : fiche source conservée
+- 8769 — черноко́жий — aucune réponse exploitable : fiche source conservée
+- 8770 — апартаме́нт — aucune réponse exploitable : fiche source conservée
+- 8771 — ре́гби — aucune réponse exploitable : fiche source conservée
+- 8821 — президен́тский — exemple sans le mot : « Он получи́л президе́нтскую награ́ду. »
